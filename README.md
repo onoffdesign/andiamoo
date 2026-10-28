@@ -76,6 +76,11 @@ all'avvio (cosi' parte anche il bot), aggiornamenti di Windows fuori dalle ore n
 .venv\Scripts\python -m pytest -q tests                      test
 ```
 
+## Modifiche al sito
+
+Il sito e' in `docs/` (HTML, CSS, JS senza build). Quando cambi `style.css` o `app.js`, aumenta il numero
+`?v=` nei due link dentro `docs/index.html`: altrimenti i browser possono tenere in cache la versione vecchia.
+
 ## Fonti da aggiungere (da verificare una per una)
 
 Pro Loco della Marca (UNPLI Treviso) e "Delizie d'Autunno", Musei Civici di Treviso, Teatro Comunale
