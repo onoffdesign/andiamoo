@@ -168,7 +168,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   border: 0; border-radius: 6px; background: var(--cta); color: var(--ink); text-decoration: none;
   font-size: .8125rem; font-weight: 600; letter-spacing: .03em; cursor: pointer;
 }
-.detail-actions .cta { flex: 1; }
+.detail-actions .cta { flex: 1; min-width: 0; white-space: nowrap; }
 .cta i { display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 4px; background: #fff; font-style: normal; font-family: var(--text); }
 .cta:hover { filter: brightness(.96); }
 .round {
@@ -337,7 +337,8 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   .detail { padding: 10px 16px 0; }
   .detail h2 { font-size: 1.5rem; }
   .facts { grid-template-columns: 80px 1fr; }
-  .detail-actions { margin: 18px -16px 0; padding-left: 16px; padding-right: 16px; }
+  .detail-actions { margin: 18px -16px 0; padding-left: 16px; padding-right: 16px; gap: 6px; }
+  .detail-actions .cta { font-stretch: 100%; padding-left: 12px; }
   .note { padding: 14px 16px calc(22px + var(--sab)); }
   .card { width: min(250px, calc(100vw - 60px)); }
 }
