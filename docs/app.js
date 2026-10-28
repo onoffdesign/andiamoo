@@ -696,6 +696,7 @@
       history.replaceState({ uid: m[1] }, "", `#e=${m[1]}`);
     }
     update();
+    if (state.selected) select(state.selected, { detail: true, fromHistory: true });   // scheda subito, mappa dopo
     initMap();
   }
 
