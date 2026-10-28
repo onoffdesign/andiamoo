@@ -304,7 +304,7 @@
     map.touchZoomRotate.disableRotation();
     $("#zoom-in").addEventListener("click", () => map.zoomIn());
     $("#zoom-out").addEventListener("click", () => map.zoomOut());
-    map.on("load", () => {
+    map.once("style.load", () => {        // subito, senza aspettare tutte le tessere
       warmStyle();
       DATA.categories.forEach((c) => {
         map.addImage(`pin-${c.id}`, pinImage(c.color, false), { pixelRatio: 2 });
