@@ -1,0 +1,184 @@
+# Tassonomia eventi a due livelli.
+# Ispirata a Eventbrite (macro-aree), Fever/Xceed (nightlife), eventiesagre (sagre, mercatini),
+# insolitotrantran (tono locale) e running.life (sport partecipativo).
+# "id" e' la chiave stabile usata nei dati e negli URL; "label" e' quello che vede l'utente.
+# "keywords" serve al classificatore di riserva quando l'AI non e' disponibile o non e' ammessa per una fonte.
+
+categories:
+  - id: musica
+    label: Musica
+    icon: "🎵"
+    color: "#7c3aed"
+    sub:
+      concerti: Concerti live
+      jazz-classica: Jazz e classica
+      festival-musicali: Festival musicali
+      dj-set: DJ set
+    keywords: [concerto, live, band, jazz, orchestra, cantautore, tour, festival musicale, rock, rap, sinfonic, coro, chitarr]
+
+  - id: nightlife
+    label: Nightlife e party
+    icon: "🪩"
+    color: "#db2777"
+    sub:
+      club: Club e discoteca
+      party: Feste a tema
+      aperitivo: Aperitivi e serate
+    keywords: [discoteca, club, dj, party, halloween party, serata, after, aperitivo, disco, nightlife]
+
+  - id: sagre-feste
+    label: Sagre e feste
+    icon: "🎪"
+    color: "#ea580c"
+    sub:
+      sagre: Sagre di paese
+      feste-patronali: Feste patronali e tradizioni
+      ricorrenze: Carnevale, Natale e ricorrenze
+    keywords: [sagra, festa, patrono, pro loco, carnevale, natale, befana, panevin, fiera franca, palio]
+
+  - id: cibo-vino
+    label: Cibo e vino
+    icon: "🍷"
+    color: "#b45309"
+    sub:
+      degustazioni: Degustazioni e cantine
+      cene: Cene ed eventi gastronomici
+      mercati-contadini: Mercati agricoli
+    keywords: [degustazione, vino, prosecco, cantina, cena, enogastronom, food, street food, birra, marroni, radicchio, olio]
+
+  - id: arte-cultura
+    label: Arte e cultura
+    icon: "🖼️"
+    color: "#0891b2"
+    sub:
+      mostre: Mostre
+      visite: Visite guidate e musei
+      libri: Libri e incontri
+      conferenze: Conferenze e talk
+    keywords: [mostra, mostre, museo, esposizione, visita guidata, libro, presentazione, autore, conferenza, incontro, arte, fotografia, biblioteca]
+
+  - id: teatro-spettacoli
+    label: Teatro e spettacoli
+    icon: "🎭"
+    color: "#be123c"
+    sub:
+      teatro: Teatro
+      danza: Danza
+      comicita: Comicita e cabaret
+      circo-magia: Circo e magia
+    keywords: [teatro, spettacolo, danza, balletto, commedia, cabaret, stand up, comico, circo, magia, opera, musical]
+
+  - id: cinema
+    label: Cinema
+    icon: "🎬"
+    color: "#475569"
+    sub:
+      proiezioni: Proiezioni
+      rassegne: Rassegne e cineforum
+    keywords: [cinema, film, proiezione, cineforum, rassegna cinematografica, documentario, cortometragg]
+
+  - id: sport
+    label: Sport
+    icon: "🏅"
+    color: "#16a34a"
+    sub:
+      corsa: Corsa e podismo
+      ciclismo: Ciclismo e MTB
+      nuoto: Nuoto e acqua
+      basket: Basket
+      volley: Pallavolo
+      calcio: Calcio
+      rugby: Rugby
+      tennis-padel: Tennis e padel
+      outdoor: Trail, trekking e montagna
+      altri-sport: Altri sport
+    keywords: [corsa, podismo, marcia, maratona, mezza maratona, trail, run, km, gara, ciclismo, bici, granfondo, nuoto, piscina, basket, pallacanestro, volley, pallavolo, calcio, partita, rugby, tennis, padel, torneo, campionato, triathlon, canoa, kayak, sci, arrampicata, scherma, atletica]
+
+  - id: natura-outdoor
+    label: Natura e outdoor
+    icon: "🌿"
+    color: "#15803d"
+    sub:
+      escursioni: Escursioni e passeggiate
+      green: Eventi green
+    keywords: [escursione, passeggiata, camminata, natura, parco, bosco, sentiero, fiume, sile, piave, giornata ecologica, alberi]
+
+  - id: famiglie-bambini
+    label: Famiglie e bambini
+    icon: "🧸"
+    color: "#f59e0b"
+    sub:
+      laboratori: Laboratori
+      spettacoli-bimbi: Spettacoli per bambini
+    keywords: [bambini, bimbi, famiglie, famiglia, laboratorio, laboratori, ragazzi, kids, letture animate, burattini]
+
+  - id: mercatini-fiere
+    label: Mercatini e fiere
+    icon: "🛍️"
+    color: "#a16207"
+    sub:
+      antiquariato: Antiquariato e vintage
+      artigianato: Artigianato e hobby
+      fiere: Fiere e mostre mercato
+    keywords: [mercatino, mercato, antiquariato, vintage, collezionismo, artigianato, fiera, mostra mercato, hobbistica, usato]
+
+  - id: business
+    label: Business e formazione
+    icon: "💼"
+    color: "#1d4ed8"
+    sub:
+      conferenze-business: Convegni e conferenze
+      networking: Networking
+      workshop: Workshop e corsi
+      fiere-settore: Fiere di settore
+      aziendali: Eventi aziendali
+    keywords: [convegno, seminario, webinar, workshop, corso, formazione, networking, impresa, aziend, startup, business, camera di commercio, confindustria, open day aziendale, inaugurazione]
+
+  - id: tech-scienza
+    label: Tech e scienza
+    icon: "🔬"
+    color: "#0e7490"
+    sub:
+      tech: Tecnologia e digitale
+      scienza: Scienza e divulgazione
+    keywords: [tecnologia, digitale, intelligenza artificiale, coding, hackathon, scienza, astronomia, robotica, maker]
+
+  - id: benessere
+    label: Benessere
+    icon: "🧘"
+    color: "#0d9488"
+    sub:
+      yoga: Yoga e meditazione
+      salute: Salute e prevenzione
+    keywords: [yoga, meditazione, benessere, mindfulness, pilates, salute, prevenzione]
+
+  - id: comunita
+    label: Comunita e sociale
+    icon: "🤝"
+    color: "#64748b"
+    sub:
+      volontariato: Volontariato e solidarieta
+      incontri-pubblici: Incontri pubblici
+      spiritualita: Religione e spiritualita
+    keywords: [volontariato, solidariet, beneficenza, raccolta fondi, assemblea pubblica, consiglio comunale, messa, processione, parrocchia]
+
+# Tipo di accesso: alimenta il badge sulla scheda e il filtro "Accesso".
+access:
+  libero: Ingresso libero
+  offerta: Offerta libera
+  biglietto: A pagamento
+  iscrizione: Iscrizione richiesta
+  invito: Su invito
+  sconosciuto: Da verificare
+
+# Filtri trasversali "Per chi": l'AI li assegna solo se il testo lo dice esplicitamente.
+audiences:
+  famiglie: Famiglie e bambini
+  giovani: Giovani e studenti
+  senior: Adulti e senior
+  animali: Animali ammessi
+
+# Al chiuso / all'aperto
+settings:
+  al-chiuso: Al chiuso
+  all-aperto: All'aperto

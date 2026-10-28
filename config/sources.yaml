@@ -1,0 +1,219 @@
+# Fonti degli eventi. Ogni fonte ha un "type" che sceglie il raccoglitore:
+#   tribe_api   WordPress + The Events Calendar (API /wp-json/tribe/events/v1)
+#   jsonld      pagine con dati strutturati schema.org Event (elenco ed eventualmente schede)
+#   myportal    portali comunali MyPortal della Regione Veneto (API pubblica dei contenuti)
+#   rss_news    feed di notizie: l'AI riconosce gli articoli che annunciano eventi
+#   ical        calendari .ics
+#   html_llm    pagina qualsiasi: il testo va all'AI che estrae gli eventi
+#
+# Campi comuni:
+#   enabled     on/off
+#   ai_rewrite  se l'AI puo' riassumere/riscrivere i testi della fonte (false = solo dati fattuali + link)
+#   default_category  categoria usata se la fonte e' tematica (es. sport)
+#   note        stato della verifica fatta sul sito
+#
+# Verificate il 28/10/2026 dal browser (robots.txt e struttura dati).
+
+sources:
+
+  # ---------- Aggregatori locali ----------
+  - id: insolitotrantran
+    name: Insolito Tran Tran
+    type: tribe_api
+    portal: true          # grande portale: solo "scoperta", con tetto per giro
+    max_events: 40
+    enabled: true
+    base_url: https://www.insolitotrantran.it
+    per_page: 50
+    max_pages: 6
+    ai_rewrite: true
+    note: "API pubblica, robots.txt libero. ~100 eventi TV+VE; luogo spesso solo nel testo -> AI."
+
+  - id: eventiesagre
+    name: eventiesagre.it
+    type: jsonld
+    portal: true          # grande portale: solo "scoperta", con tetto per giro
+    max_events: 40
+    enabled: true
+    listing_urls:                     # {Mese} = mese corrente, {Mese+1} = successivo
+      - https://www.eventiesagre.it/cerca/cat/sez/{Mese}/Veneto/TV/cit/rilib
+      - https://www.eventiesagre.it/cerca/cat/sez/{Mese+1}/Veneto/TV/cit/rilib
+    pagination: "{base}/pag-{n}.htm"
+    max_pages: 4
+    detail_link_regex: 'https://www\.eventiesagre\.it/[A-Za-z_+]+/\d{4,}_[^"#?]+\.html$'
+    fetch_details: true
+    ai_rewrite: true
+    note: "JSON-LD Event nelle schede. Luogo = solo comune -> AI cerca l'indirizzo nel testo."
+
+  - id: 2night
+    name: 2night Treviso
+    type: jsonld
+    portal: true          # grande portale: solo "scoperta", con tetto per giro
+    max_events: 40
+    enabled: true
+    listing_urls:
+      - https://www.2night.it/treviso/eventi.html
+    detail_link_regex: '^https://www\.2night\.it/[0-9a-f]{6}-/[^?#]+\.html$'
+    fetch_details: true
+    ai_rewrite: true
+    note: "JSON-LD Event nelle schede (luogo con via). robots vieta solo URL con ?"
+
+  # ---------- Biglietterie e piattaforme ----------
+  - id: eventbrite
+    name: Eventbrite
+    type: jsonld
+    portal: true          # grande portale: solo "scoperta", con tetto per giro
+    max_events: 40
+    enabled: true
+    listing_urls:
+      - https://www.eventbrite.it/d/italy--treviso/all-events/
+      - https://www.eventbrite.it/d/italy--treviso/business--events/
+      - https://www.eventbrite.it/d/italy--treviso/sports-and-fitness--events/
+      - https://www.eventbrite.it/d/italy--conegliano/all-events/
+      - https://www.eventbrite.it/d/italy--castelfranco-veneto/all-events/
+    page_param: page
+    max_pages: 3
+    fetch_details: false
+    ai_rewrite: true
+    note: "ItemList JSON-LD con coordinate, 20 eventi per pagina. Le pagine /d/ sono consentite."
+
+  - id: ticketone
+    name: TicketOne
+    type: jsonld
+    portal: true          # grande portale: solo "scoperta", con tetto per giro
+    max_events: 40
+    enabled: true
+    listing_urls:
+      - https://www.ticketone.it/en/cityd/treviso-2045/
+    fetch_details: false
+    ai_rewrite: false
+    note: "Evento + luogo + prezzo minimo nel JSON-LD della pagina citta'. Altri comuni: aggiungere le loro pagine /city/."
+
+  - id: dice
+    name: DICE
+    type: jsonld
+    enabled: true
+    listing_urls:
+      - https://dice.fm/venue/treviso-opendream-lkgx
+      - https://dice.fm/venue/giardini-sud-ovest-castello-di-castelfranco-veneto-xeqma
+    fetch_details: false
+    ai_rewrite: false
+    note: "Pagine locale con Place.event. robots: search=yes, use=reference -> niente riscrittura AI, solo dati e link."
+
+  - id: running-life
+    name: running.life (podismo)
+    type: jsonld
+    enabled: true
+    listing_urls:
+      - https://running.life/calendario-podismo/italia/veneto/treviso
+    fetch_details: false
+    ai_rewrite: true
+    default_category: sport
+    default_subcategory: corsa
+    note: "SportsEvent con coordinate. Copre gare e non competitive nel raggio di Treviso."
+
+  - id: calendariopodismo
+    name: Calendario Podismo
+    type: calendariopodismo
+    enabled: true
+    listing_urls:
+      - https://www.calendariopodismo.it/?localita=treviso
+    skip_link_regex: "parkrun-italia"
+    ai_rewrite: false
+    note: "Scheda gara con data, comune, distanze, partenza e coordinate. robots: use=reference -> lettore a regole, niente AI."
+
+  - id: podismoveneto
+    name: Calendario Podismo Veneto
+    type: podismoveneto
+    enabled: true
+    base_url: https://calendariopodismoveneto.blogspot.com
+    provinces: ["TV"]
+    ai_rewrite: false
+    note: "Blog con pagine mensili, una riga per gara. Si tengono solo le gare (TV), non annullate."
+
+  - id: gotrail
+    name: gotrail.run (trail)
+    type: jsonld
+    enabled: true
+    listing_urls:
+      - https://gotrail.run/calendario-trail/italia/veneto/conegliano
+    fetch_details: false
+    ai_rewrite: true
+    default_category: sport
+    default_subcategory: outdoor
+    note: "Stesso formato di running.life; da confermare al primo avvio."
+
+  - id: vivaticket
+    name: Vivaticket
+    type: html_llm
+    enabled: false
+    note: "Protetto da sistema anti-bot (Imperva): non si raccoglie in automatico. Eventi via bot/modulo."
+
+  - id: xceed
+    name: Xceed
+    type: html_llm
+    enabled: false
+    note: "Treviso senza eventi al 28/10/2026. Riattivare se compaiono club della provincia."
+
+  # ---------- Locali e organizzatori (fonti dirette) ----------
+  # Obiettivo nel tempo: molte fonti piccole invece di pochi portali.
+  # Il file data/scoperte.csv (generato a ogni giro) elenca i siti ufficiali trovati negli eventi dei portali:
+  # quelli che ricorrono spesso vanno aggiunti qui. Modello da copiare:
+  #
+  # - id: nome-locale
+  #   name: Nome del locale
+  #   type: jsonld          # se il sito ha dati strutturati, altrimenti html_llm
+  #   enabled: true
+  #   listing_urls: [https://www.sito-del-locale.it/eventi/]
+  #   ai_rewrite: true
+
+  # ---------- Enti pubblici ----------
+  - id: comune-treviso
+    name: Comune di Treviso
+    type: myportal
+    enabled: true
+    base_url: https://www.comune.treviso.it
+    ipa: C_L407
+    page_size: 40
+    ai_rewrite: true
+    note: "API MyPortal. Altri comuni MyPortal: stesso tipo, cambia base_url e codice IPA."
+
+  # ---------- Segnalazioni ----------
+  - id: modulo-organizzatori
+    name: Modulo organizzatori
+    type: form_csv
+    enabled: true
+    ai_rewrite: true
+    note: "Google Form -> foglio pubblicato come CSV (indirizzo in .env, FORM_CSV_URL). Eventi in attesa di approvazione."
+
+  # ---------- Notizie, giornali, magazine ----------
+  - id: google-news-eventi
+    name: Google News (eventi Treviso)
+    type: rss_news
+    enabled: true
+    feeds:
+      - "https://news.google.com/rss/search?q=Treviso+(evento+OR+concerto+OR+sagra+OR+festival+OR+mostra+OR+spettacolo)+when:7d&hl=it&gl=IT&ceid=IT:it"
+      - "https://news.google.com/rss/search?q=(Conegliano+OR+Castelfranco+OR+Montebelluna+OR+Oderzo+OR+%22Vittorio+Veneto%22+OR+Asolo)+(evento+OR+festa+OR+concerto)+when:7d&hl=it&gl=IT&ceid=IT:it"
+      - "https://news.google.com/rss/search?q=Treviso+(gara+OR+maratona+OR+corsa+OR+torneo+OR+partita)+when:7d&hl=it&gl=IT&ceid=IT:it"
+      - "https://news.google.com/rss/search?q=Treviso+(convegno+OR+inaugurazione+OR+%22open+day%22+OR+networking)+when:7d&hl=it&gl=IT&ceid=IT:it"
+    resolve_with_browser: true
+    ai_rewrite: true
+    note: "Titoli di Tribuna, Gazzettino, TrevisoToday, RaiNews, magazine. L'articolo si apre col browser del PC."
+
+  - id: qdpnews
+    name: Qdpnews
+    type: rss_news
+    enabled: true
+    feeds:
+      - https://www.qdpnews.it/feed/
+    ai_rewrite: true
+    note: "Feed WordPress con testo dell'articolo."
+
+# Profili social da seguire a mano: il bot li mostra con /profili.
+# Non vengono letti in automatico (Instagram e Facebook lo vietano e bloccano gli account):
+# chi vede un post nuovo lo inoltra al bot, o manda lo screenshot della locandina.
+watchlist:
+  - { name: Mediterraneo, url: "https://www.instagram.com/mediterraneomare/" }
+  - { name: Zelda, url: "https://www.instagram.com/zelda/" }   # handle da confermare
+  - { name: Home Social Bar Treviso, url: "https://www.instagram.com/homesocialbar_treviso/" }
+  - { name: Treviso Suona Jazz, url: "https://www.instagram.com/trevisosuonajazzfestival/" }

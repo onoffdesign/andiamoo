@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Andiamoo</title>
+<meta name="description" content="Concerti, sagre, gare, mostre e incontri in provincia di Treviso, su una mappa aggiornata ogni giorno.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1 id="site-title">Andiamoo</h1>
+    <p id="site-tagline">Cosa succede in provincia di Treviso, su una mappa.</p>
+  </div>
+  <div class="top-actions">
+    <label class="search">
+      <span class="sr">Cerca un evento</span>
+      <input id="q" type="search" placeholder="Cerca: jazz, sagra, Conegliano…" autocomplete="off">
+    </label>
+    <button id="report-btn" class="btn btn-ghost" type="button">Segnala<span class="wide-only"> un evento</span></button>
+  </div>
+</header>
+
+<nav class="days" aria-label="Scegli i giorni">
+  <div class="presets" role="group" aria-label="Periodo">
+    <button type="button" data-preset="today">Oggi</button>
+    <button type="button" data-preset="weekend">Weekend</button>
+    <button type="button" data-preset="week">7 giorni</button>
+    <button type="button" data-preset="all" aria-pressed="true">Tutti</button>
+  </div>
+  <div id="strip" class="strip" role="group" aria-label="Eventi per giorno"></div>
+</nav>
+
+<main class="layout">
+  <aside class="panel" id="panel">
+    <button class="sheet-handle" id="sheet-handle" type="button" aria-expanded="false">
+      <span id="count-label">Caricamento…</span>
+    </button>
+    <div class="panel-body" id="panel-body">
+      <section class="filters" aria-label="Filtri">
+        <div id="chips" class="chips" role="group" aria-label="Categorie"></div>
+        <div class="filter-row">
+          <label><span>Accesso</span>
+            <select id="access"><option value="">Qualsiasi</option></select></label>
+          <label><span>Per chi</span>
+            <select id="audience"><option value="">Tutti</option></select></label>
+          <label><span>Dove</span>
+            <select id="setting"><option value="">Ovunque</option></select></label>
+        </div>
+        <button id="reset" class="link reset" type="button" hidden>Azzera filtri</button>
+      </section>
+      <ol id="list" class="list" aria-live="polite"></ol>
+      <article id="detail" class="detail" hidden></article>
+      <footer class="note">
+        <p>Gli eventi sono raccolti da siti pubblici, giornali locali e segnalazioni, e riassunti con l'AI. Orari e programmi possono cambiare: fa fede il sito ufficiale.</p>
+        <p id="removal"></p>
+        <p id="updated"></p>
+      </footer>
+    </div>
+  </aside>
+  <div id="map" class="map" role="region" aria-label="Mappa degli eventi"></div>
+</main>
+
+<dialog id="report" class="report">
+  <form method="dialog">
+    <h2>Segnala un evento</h2>
+    <p>Lo controlliamo e, se va bene, finisce sulla mappa.</p>
+    <ul id="report-options" class="report-options"></ul>
+    <button class="btn" value="close">Chiudi</button>
+  </form>
+</dialog>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

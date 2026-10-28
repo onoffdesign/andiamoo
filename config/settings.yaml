@@ -1,0 +1,43 @@
+# Impostazioni generali. I segreti (token Telegram ecc.) stanno nel file .env, mai qui.
+
+site:
+  title: "Andiamoo"                  # dominio futuro: andiamoo.ai
+  tagline: "Cosa succede in provincia di Treviso, su una mappa."
+  base_url: "https://onoffdesign.github.io/andiamoo"
+  center: [45.75, 12.25]               # lat, lon
+  zoom: 9.5
+  telegram_bot: ""                     # es. AndiamooBot (senza @): bottone "Segnala"
+  form_url: ""                         # link al Google Form per organizzatori
+  contact_email: ""                    # per richieste di correzione o rimozione
+
+area:
+  # Province ammesse (nome come lo restituisce OpenStreetMap nel campo "county").
+  provinces: ["Treviso"]
+  # Riquadro della provincia di Treviso, usato per filtrare e per guidare la geolocalizzazione.
+  bbox: { south: 45.55, west: 11.76, north: 46.08, east: 12.75 }
+
+pipeline:
+  days_ahead: 120          # non tiene eventi oltre questo orizzonte
+  keep_past_days: 1        # tiene visibili gli eventi finiti da meno di N giorni
+  max_requests_per_source: 80
+  request_delay_seconds: 2.0   # pausa minima tra due richieste allo stesso sito
+  cache_days: 3                # non riscarica una pagina evento gia' vista entro N giorni
+  user_agent: "AndiamooBot/0.1 (+https://onoffdesign.github.io/andiamoo; {contact_email})"
+
+llm:
+  backend: ollama              # "ollama" sul PC fisso; "rules" = nessuna AI, solo regole (test)
+  host: "http://localhost:11434"
+  text_model: "gemma3:12b"     # multimodale: testo e immagini, sta in 12 GB di VRAM
+  vision_model: "gemma3:12b"
+  temperature: 0.1
+  timeout_seconds: 180
+
+geocoding:
+  provider: nominatim
+  url: "https://nominatim.openstreetmap.org/search"
+  min_delay_seconds: 1.1       # regola d'uso di Nominatim: max 1 richiesta al secondo
+
+publish:
+  git_push: true
+  branch: main
+  export_path: "docs/data/events.json"
