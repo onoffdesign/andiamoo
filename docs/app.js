@@ -310,7 +310,7 @@
     if (e) {
       renderDetail(e);
       highlight(uid);
-      if (fly && mapReady) map.flyTo({ center: [e.lon, e.lat], zoom: Math.max(map.getZoom(), 13), speed: 1.4 });
+      if (fly && mapReady) map.flyTo({ center: [e.lon, e.lat], zoom: Math.max(map.getZoom(), 14.5), speed: 1.4 });
       $("#panel-body").scrollTop = 0;
       openSheet(true);
       history.replaceState(null, "", `#e=${uid}`);
