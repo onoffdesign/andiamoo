@@ -8,7 +8,7 @@ categories:
   - id: musica
     label: Musica
     icon: "🎵"
-    color: "#7c3aed"
+    color: "#a393ff"
     sub:
       concerti: Concerti live
       jazz-classica: Jazz e classica
@@ -19,7 +19,7 @@ categories:
   - id: nightlife
     label: Nightlife e party
     icon: "🪩"
-    color: "#db2777"
+    color: "#ff7eb6"
     sub:
       club: Club e discoteca
       party: Feste a tema
@@ -29,7 +29,7 @@ categories:
   - id: sagre-feste
     label: Sagre e feste
     icon: "🎪"
-    color: "#ea580c"
+    color: "#ff9f43"
     sub:
       sagre: Sagre di paese
       feste-patronali: Feste patronali e tradizioni
@@ -39,7 +39,7 @@ categories:
   - id: cibo-vino
     label: Cibo e vino
     icon: "🍷"
-    color: "#b45309"
+    color: "#ee8a9a"
     sub:
       degustazioni: Degustazioni e cantine
       cene: Cene ed eventi gastronomici
@@ -49,7 +49,7 @@ categories:
   - id: arte-cultura
     label: Arte e cultura
     icon: "🖼️"
-    color: "#0891b2"
+    color: "#5ec8e8"
     sub:
       mostre: Mostre
       visite: Visite guidate e musei
@@ -60,7 +60,7 @@ categories:
   - id: teatro-spettacoli
     label: Teatro e spettacoli
     icon: "🎭"
-    color: "#be123c"
+    color: "#ff6a55"
     sub:
       teatro: Teatro
       danza: Danza
@@ -71,7 +71,7 @@ categories:
   - id: cinema
     label: Cinema
     icon: "🎬"
-    color: "#475569"
+    color: "#bdb6aa"
     sub:
       proiezioni: Proiezioni
       rassegne: Rassegne e cineforum
@@ -80,7 +80,7 @@ categories:
   - id: sport
     label: Sport
     icon: "🏅"
-    color: "#16a34a"
+    color: "#47c98b"
     sub:
       corsa: Corsa e podismo
       ciclismo: Ciclismo e MTB
@@ -97,7 +97,7 @@ categories:
   - id: natura-outdoor
     label: Natura e outdoor
     icon: "🌿"
-    color: "#15803d"
+    color: "#a5d36a"
     sub:
       escursioni: Escursioni e passeggiate
       green: Eventi green
@@ -106,7 +106,7 @@ categories:
   - id: famiglie-bambini
     label: Famiglie e bambini
     icon: "🧸"
-    color: "#f59e0b"
+    color: "#ffd23f"
     sub:
       laboratori: Laboratori
       spettacoli-bimbi: Spettacoli per bambini
@@ -115,7 +115,7 @@ categories:
   - id: mercatini-fiere
     label: Mercatini e fiere
     icon: "🛍️"
-    color: "#a16207"
+    color: "#d6a77a"
     sub:
       antiquariato: Antiquariato e vintage
       artigianato: Artigianato e hobby
@@ -125,7 +125,7 @@ categories:
   - id: business
     label: Business e formazione
     icon: "💼"
-    color: "#1d4ed8"
+    color: "#6f9bff"
     sub:
       conferenze-business: Convegni e conferenze
       networking: Networking
@@ -137,7 +137,7 @@ categories:
   - id: tech-scienza
     label: Tech e scienza
     icon: "🔬"
-    color: "#0e7490"
+    color: "#3fd6c6"
     sub:
       tech: Tecnologia e digitale
       scienza: Scienza e divulgazione
@@ -146,7 +146,7 @@ categories:
   - id: benessere
     label: Benessere
     icon: "🧘"
-    color: "#0d9488"
+    color: "#9fe3c6"
     sub:
       yoga: Yoga e meditazione
       salute: Salute e prevenzione
@@ -155,7 +155,7 @@ categories:
   - id: comunita
     label: Comunita e sociale
     icon: "🤝"
-    color: "#64748b"
+    color: "#c9bdf0"
     sub:
       volontariato: Volontariato e solidarieta
       incontri-pubblici: Incontri pubblici
