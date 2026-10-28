@@ -290,15 +290,15 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
     mask-image: linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);
   }
   .days::-webkit-scrollbar { display: none; }
-  .presets { padding-bottom: 6px; }
-  .presets button { height: 34px; }
+  .presets { padding-bottom: 6px; gap: 4px; }
+  .presets button { height: 34px; padding: 0 8px; font-size: .6875rem; font-stretch: 100%; letter-spacing: .02em; }
   .strip { overflow: visible; flex: none; }
   .day { flex-basis: 36px; grid-template-rows: 22px auto auto; min-height: 50px; }
   .day .bar-wrap { height: 22px; }
 
   /* categorie: una riga; "Filtri" apre accesso/pubblico/luogo */
   .filters { top: calc(var(--top) + 126px); left: 10px; right: 10px; bottom: auto; padding: 6px; }
-  .chip { height: 36px; padding: 0 12px; font-size: .75rem; }
+  .chip { height: 36px; padding: 0 11px; font-size: .6875rem; font-stretch: 104%; }
   .chip.more-filters { display: inline-flex; }
   .selects { display: none; }
   .filters.expanded .selects { display: flex; }
@@ -310,7 +310,8 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   .map-ctrl button { width: 48px; height: 48px; }
   .panel[data-sheet="half"] ~ .map-ctrl, .panel[data-sheet="full"] ~ .map-ctrl { opacity: 0; pointer-events: none; }
   .toast { bottom: calc(var(--peek) + 74px); }
-  .maplibregl-ctrl-bottom-right { right: 0; bottom: var(--peek); }
+  .maplibregl-ctrl-bottom-right { right: auto; left: 0; bottom: var(--peek); }
+  .pill-btn { padding: 0 14px; font-stretch: 105%; }
 
   /* pannello trascinabile */
   .panel {
