@@ -3,13 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f3ee">
 <title>Andiamoo</title>
 <meta name="description" content="Concerti, sagre, gare, mostre e incontri in provincia di Treviso, su una mappa aggiornata ogni giorno.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=3" rel="stylesheet">
+<link href="style.css?v=4" rel="stylesheet">
 </head>
 <body>
 <div class="stage">
@@ -21,18 +22,21 @@
     <span class="brand-sep" aria-hidden="true"></span>
     <span class="brand-area">Provincia di Treviso</span>
   </header>
-  <div class="float top-right">
+  <div class="top-right" id="top-right">
     <label class="search">
       <span class="sr">Cerca un evento</span>
-      <input id="q" type="search" placeholder="Cerca: jazz, sagra, Conegliano…" autocomplete="off">
+      <input id="q" type="search" placeholder="Cerca: jazz, sagra, Conegliano…" autocomplete="off" enterkeyhint="search">
     </label>
+    <button id="search-toggle" class="icon-btn mobile-only" type="button" aria-label="Cerca" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+    </button>
     <button id="report-btn" class="pill-btn" type="button">Segnala <span aria-hidden="true">+</span></button>
   </div>
 
   <!-- giorni -->
   <nav class="float days" aria-label="Scegli i giorni">
     <div class="presets" role="group" aria-label="Periodo">
-      <button type="button" data-preset="today">Oggi</button>
+      <button type="button" data-preset="today" class="desktop-only">Oggi</button>
       <button type="button" data-preset="weekend">Weekend</button>
       <button type="button" data-preset="week">7 giorni</button>
       <button type="button" data-preset="all" aria-pressed="true">Tutti</button>
@@ -40,16 +44,18 @@
     <div id="strip" class="strip" role="group" aria-label="Eventi per giorno"></div>
   </nav>
 
-  <!-- elenco e scheda -->
-  <aside class="float panel" id="panel">
-    <button class="panel-head" id="sheet-handle" type="button" aria-expanded="false">
+  <!-- elenco e scheda: su telefono e' un pannello che si trascina dal basso -->
+  <aside class="float panel" id="panel" data-sheet="peek">
+    <div class="panel-head" id="sheet-head">
+      <button class="grab" id="sheet-toggle" type="button" aria-label="Apri l'elenco" aria-expanded="false"></button>
       <span class="kicker">Eventi</span>
       <span class="count" id="count-label">…</span>
-    </button>
+      <button class="sort" id="sort-btn" type="button" aria-pressed="false">Più vicini</button>
+    </div>
     <div class="panel-body" id="panel-body">
       <ol id="list" class="list" aria-live="polite"></ol>
       <article id="detail" class="detail" hidden></article>
-      <footer class="note">
+      <footer class="note" id="note">
         <p>Eventi raccolti da siti pubblici, giornali locali e segnalazioni, riassunti con l'AI. Orari e programmi possono cambiare: fa fede il sito ufficiale.</p>
         <p id="removal"></p>
         <p id="updated"></p>
@@ -71,10 +77,14 @@
     </div>
   </section>
 
-  <div class="float zoom" role="group" aria-label="Zoom">
-    <button type="button" id="zoom-in" aria-label="Avvicina">+</button>
-    <button type="button" id="zoom-out" aria-label="Allontana">−</button>
+  <div class="float map-ctrl" role="group" aria-label="Controlli mappa">
+    <button type="button" id="locate" aria-label="Eventi vicino a me" title="Vicino a me">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
+    </button>
+    <button type="button" id="zoom-in" class="desktop-only" aria-label="Avvicina">+</button>
+    <button type="button" id="zoom-out" class="desktop-only" aria-label="Allontana">−</button>
   </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 </div>
 
 <dialog id="report" class="report">
@@ -87,6 +97,6 @@
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>
