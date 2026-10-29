@@ -18,9 +18,10 @@ class Context:
 
 
 def registry() -> dict[str, Callable[[dict, Context], Iterator[Event]]]:
-    from . import calendariopodismo, form_csv, html_llm, jsonld, myportal, podismoveneto, rss_news, tribe
+    from . import calendariopodismo, form_csv, html_llm, jsonld, myportal, podismoveneto, redazione, rss_news, tribe
     return {
         "form_csv": form_csv.collect,
+        "redazione": redazione.collect,
         "tribe_api": tribe.collect,
         "jsonld": jsonld.collect,
         "myportal": myportal.collect,

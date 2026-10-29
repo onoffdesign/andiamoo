@@ -10,12 +10,14 @@ from __future__ import annotations
 
 import argparse
 import logging
+import shutil
 import sys
 import time
 from datetime import timedelta
 
+from . import editorial, quality
 from .collectors import Context, registry
-from .config import settings, sources
+from .config import DATA_DIR, settings, sources
 from .dedupe import dedupe
 from .enrich import enrich
 from .export import discovery_report, export
@@ -127,12 +129,27 @@ def main(argv=None) -> int:
 
     published = list(store.events("published"))
     unique = dedupe(published)
+    corrections = editorial.load()
+    # correzioni e rimozioni della redazione (revisione notturna di Claude), con nuova geocodifica se serve
+    unique = editorial.apply_events(unique, None if args.offline_geo else (geo if not args.export_only else Geocoder(store)),
+                                    corrections)
     payload = export(unique)
     portals = {s["id"] for s in sources() if s.get("portal")}
     report["scoperte"] = discovery_report(published, portals)
     report["eventi_sul_sito"] = payload["count"]
+    report["correzioni_attive"] = len(corrections["correggi"])
+    report["rimossi_dalla_redazione"] = len(corrections["rimuovi"])
     log.info("Eventi sul sito: %d (da %d record, deduplicati)", payload["count"], len(published))
     store.log_run(started, report)
+    if not args.export_only:
+        # coda di revisione per Claude e rapporto del giro, pubblicati in ops/
+        ai_on = getattr(llm, "name", "") == "ollama"
+        queue = quality.build_queue([e for e in unique if e.lat is not None], corrections, ai_on)
+        report.update({"giro_pc": True, "motore_ai": getattr(llm, "name", ""), "modello": settings()["llm"]["text_model"] if ai_on else "",
+                       "minuti": round((time.time() - started) / 60, 1), "in_revisione": len(queue)})
+        quality.write_ops(report, queue)
+        shutil.copy(DATA_DIR / "scoperte.csv", quality.OPS / "scoperte.csv")
+        log.info("Coda di revisione: %d eventi", len(queue))
 
     if not args.no_publish and settings()["publish"]["git_push"]:
         publish(f"Aggiornamento eventi: {payload['count']} eventi")

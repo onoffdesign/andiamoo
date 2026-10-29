@@ -46,6 +46,9 @@ class Event:
     @property
     def uid(self) -> str:
         """Identificativo stabile: fonte + URL + data + titolo (piu' eventi possono stare sulla stessa pagina)."""
+        override = self.__dict__.get("uid_override")      # correzioni della redazione: l'uid pubblicato non cambia
+        if override:
+            return override
         title = " ".join(self.title.lower().split())
         key = f"{self.source}|{self.source_url}|{(self.start or '')[:10]}|{title}"
         return hashlib.sha1(key.encode("utf-8")).hexdigest()[:16]

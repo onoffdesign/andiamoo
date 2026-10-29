@@ -16,6 +16,14 @@
 
 sources:
 
+  # ---------- Redazione (revisione notturna di Claude) ----------
+  - id: redazione
+    name: Redazione ANDIAMO?
+    type: redazione
+    enabled: true
+    ai_rewrite: true
+    note: "Eventi trovati ogni notte da Claude su siti ufficiali e verificati: config/eventi_redazione.yaml."
+
   # ---------- Aggregatori locali ----------
   - id: insolitotrantran
     name: Insolito Tran Tran

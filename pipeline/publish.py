@@ -21,6 +21,8 @@ def publish(message: str) -> bool:
         return False
     _git("pull", "--rebase", "--autostash", "origin", cfg["branch"])
     _git("add", path)
+    if (ROOT / "ops").exists():
+        _git("add", "ops")                 # rapporto del giro e coda di revisione per Claude
     if _git("diff", "--cached", "--quiet").returncode == 0:
         log.info("Nessuna novita' da pubblicare.")
         return True

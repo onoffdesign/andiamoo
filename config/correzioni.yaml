@@ -1,0 +1,18 @@
+# Correzioni della redazione (revisione notturna di Claude o a mano). Le chiavi sono gli uid degli eventi
+# pubblicati (campo "uid" in docs/data/events.json). Vedi pipeline/editorial.py.
+#
+# correggi:
+#   3f2a9c1b0d4e5f67:
+#     start: 2026-11-14T20:45
+#     venue: Teatro Comunale
+#     address: Corso del Popolo 31
+#     nota: "orario e luogo dal sito del teatro"
+#     verificato: 2026-10-30
+# rimuovi:
+#   0a1b2c3d4e5f6789: "evento annullato (comunicato del comune)"
+# verificati:
+#   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
+
+correggi: {}
+rimuovi: {}
+verificati: {}

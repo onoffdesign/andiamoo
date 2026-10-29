@@ -41,6 +41,17 @@ con OpenStreetMap e pubblica il risultato su GitHub Pages. Costo: zero (al massi
 Impostazioni consigliate per un PC sempre acceso: risparmio energia "mai sospendere", accesso automatico
 all'avvio (cosi' parte anche il bot), aggiornamenti di Windows fuori dalle ore notturne di lavoro.
 
+## Giro notturno: AI locale + Claude
+
+| Ora (Italia) | Dove | Cosa |
+|---|---|---|
+| 01:00 | PC fisso, attivita' `Andiamoo-Pipeline` | aggiorna il codice, avvia Ollama se serve, raccoglie tutte le fonti, l'AI locale (`gemma3:12b`) estrae, classifica e riassume, cerca i luoghi, geolocalizza, deduplica, applica le correzioni della redazione, pubblica il sito e lascia in `ops/` il rapporto (`rapporto.json`), la coda di revisione (`revisione.json`) e le scoperte (`scoperte.csv`) |
+| 03:37 | Claude nel cloud (attivita' pianificata, piano attuale) | legge rapporto e coda, sistema le fonti in errore, verifica sul web fino a 40 eventi dubbi, scrive correzioni e rimozioni (`config/correzioni.yaml`), aggiunge eventi mancanti da siti ufficiali (`config/eventi_redazione.yaml`) e nuove fonti, pubblica subito le correzioni e annota tutto in `ops/registro-redazione.md` |
+| 01:00 notte dopo | PC fisso | riprende correzioni ed eventi della redazione: geolocalizza i nuovi luoghi e indirizzi |
+
+Le istruzioni della revisione sono in `ops/revisione-notturna.md`: per cambiare cosa fa Claude ogni notte basta
+modificare quel file. Ogni correzione e' una riga in `config/correzioni.yaml`: si annulla cancellandola.
+
 ## "Aggiungi evento" e "Segnala" dal sito (API sul PC)
 
 Il sito e' statico: per leggere link e screenshot con l'AI chiama una piccola API che gira sul PC accanto
