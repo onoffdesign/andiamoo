@@ -161,22 +161,9 @@
     const keep = strip.scrollLeft;
     strip.innerHTML = "";
     let days = null;                       // giorni raggruppati per mese: l'etichetta del mese resta ferma mentre si scorre
-    // densita' -> grigio della fascia: bianco senza eventi, fino a #8f8f8f nel giorno piu' pieno
-    // (testo sempre nero: contrasto minimo circa 5.8:1, sopra la soglia AA)
-    const grey = (n) => (n ? Math.round(232 - (232 - 143) * Math.pow(n / max, 0.75)) : 255);
-    const stops = [];
-    const flushStops = () => {             // variante sfumata: un gradiente continuo per mese
-      if (days && stops.length) {
-        const w = 100 / stops.length;
-        days.style.setProperty("--band", `linear-gradient(90deg, ${stops.map((a, k) =>
-          `rgb(${a},${a},${a}) ${((k + 0.5) * w).toFixed(2)}%`).join(", ")})`);
-      }
-      stops.length = 0;
-    };
     counts.forEach((n, i) => {
       const d = addDays(t, i), key = iso(d);
       if (i === 0 || d.getDate() === 1) {
-        flushStops();
         const m = document.createElement("div");
         m.className = "month";
         m.innerHTML = `<span class="mlabel">${MONTHS[d.getMonth()].slice(0, 3)}${d.getMonth() === 0 && i > 0 ? ` ${d.getFullYear()}` : ""}</span><div class="mdays"></div>`;
@@ -189,8 +176,8 @@
       const on = state.preset !== "all" && state.from && key >= state.from && (!state.to || key <= state.to);
       b.setAttribute("aria-pressed", String(!!on));
       b.setAttribute("aria-label", `${dayLabel(d)}: ${n} eventi`);
-      stops.push(grey(n));
-      b.innerHTML = `<span class="dow">${i === 0 ? "oggi" : DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span>`;
+      b.innerHTML = `<span class="bar-wrap"><span class="bar" style="height:${Math.round((n / max) * 28) + 2}px"></span></span>
+        <span class="dow">${i === 0 ? "oggi" : DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span>`;
       b.addEventListener("click", () => {
         if (state.preset === "day" && state.from === key) setPreset("all");
         else { state.preset = "day"; state.from = state.to = key; }
@@ -198,7 +185,6 @@
       });
       days.appendChild(b);
     });
-    flushStops();
     strip.scrollLeft = keep;
     document.querySelectorAll(".presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.preset === state.preset)));
     updateStripNav();
