@@ -3,7 +3,9 @@ from __future__ import annotations
 
 import copy
 import csv
+import hashlib
 import json
+import math
 from collections import Counter
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
@@ -26,6 +28,18 @@ def visible(ev: Event) -> bool:
     return start <= today + timedelta(days=cfg["days_ahead"])
 
 
+def scatter(ev: Event) -> tuple[float, float]:
+    """Eventi con solo il comune: un punto attorno al centro, diverso per ogni evento ma stabile nel tempo
+    (calcolato dall'id), cosi' non finiscono tutti uno sopra l'altro."""
+    lo, hi = settings()["geocoding"].get("town_scatter_meters", [150, 650])
+    h = hashlib.sha1(ev.uid.encode()).digest()
+    angle = int.from_bytes(h[:4], "big") / 2 ** 32 * 2 * math.pi
+    dist = lo + (hi - lo) * math.sqrt(int.from_bytes(h[4:8], "big") / 2 ** 32)   # radice: densita' uniforme
+    dlat = dist * math.cos(angle) / 111_320
+    dlon = dist * math.sin(angle) / (111_320 * math.cos(math.radians(ev.lat)))
+    return ev.lat + dlat, ev.lon + dlon
+
+
 def export(events: list[Event]) -> dict:
     tax = copy.deepcopy(taxonomy())      # copia: la tassonomia in memoria serve ancora al classificatore
     items = []
@@ -34,14 +48,17 @@ def export(events: list[Event]) -> dict:
             continue
         d = ev.public_dict()
         d["action_url"] = action_link(ev)
-        d["lat"], d["lon"] = round(ev.lat, 5), round(ev.lon, 5)
+        lat, lon = scatter(ev) if ev.geo_precision == "town" else (ev.lat, ev.lon)
+        d["lat"], d["lon"] = round(lat, 5), round(lon, 5)
         items.append(d)
     payload = {
         "generated": datetime.now(ROME).isoformat(timespec="minutes"),
-        "site": settings()["site"],
+        "site": {**settings()["site"], "days_ahead": settings()["pipeline"]["days_ahead"]},
         "categories": tax["categories"],
         "access": tax["access"],
+        "access_groups": tax.get("access_groups", {}),
         "audiences": tax.get("audiences", {}),
+        "audience_filters": tax.get("audience_filters", {}),
         "settings": tax.get("settings", {}),
         "count": len(items),
         "events": items,

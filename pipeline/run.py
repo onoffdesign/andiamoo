@@ -21,6 +21,7 @@ from .enrich import enrich
 from .export import discovery_report, export
 from .fetch import Fetcher
 from .geocode import Geocoder
+from .places import PlaceFinder
 from .llm import make_llm
 from .models import Event
 from .publish import publish
@@ -43,7 +44,7 @@ def in_window(ev: Event) -> bool:
     return start <= today + timedelta(days=cfg["days_ahead"])
 
 
-def run_source(src: dict, ctx: Context, geo: Geocoder, store: Store, tg: Telegram) -> dict:
+def run_source(src: dict, ctx: Context, geo: Geocoder, store: Store, tg: Telegram, finder=None) -> dict:
     collect = registry().get(src["type"])
     stats = {"trovati": 0, "nel_periodo": 0, "in_provincia": 0, "nuovi": 0, "errore": ""}
     if not collect:
@@ -63,10 +64,14 @@ def run_source(src: dict, ctx: Context, geo: Geocoder, store: Store, tg: Telegra
     if src.get("max_events"):
         events = sorted(events, key=lambda e: e.start or "")[: int(src["max_events"])]
     stats["nel_periodo"] = len(events)
+    if finder is not None:
+        finder.begin_batch(events)
     for ev in events:
         enrich(ev, ctx.llm)
-        if not geo.locate(ev):
+        if not geo.locate(ev, finder):
             continue
+        if ev.geo_precision == "town":
+            stats["solo_comune"] = stats.get("solo_comune", 0) + 1
         stats["in_provincia"] += 1
         is_new = store.upsert_event(ev)
         stats["nuovi"] += int(is_new)
@@ -102,18 +107,23 @@ def main(argv=None) -> int:
         fetcher = Fetcher(store)
         geo = Geocoder(store, offline=args.offline_geo)
         tg = Telegram()
+        deep = settings()["geocoding"].get("deep_search", {})
+        finder = PlaceFinder(fetcher, llm, store, int(deep.get("max_pages_per_run", 80))) if deep.get("enabled", True) else None
         max_req = settings()["pipeline"]["max_requests_per_source"]
         for src in sources():
             if not src.get("enabled", True) or (args.source and src["id"] not in args.source):
                 continue
             ctx = Context(fetcher=fetcher, store=store, llm=llm, max_requests=fetcher.requests + max_req)
             log.info("→ %s", src["name"])
-            stats = run_source(src, ctx, geo, store, tg)
+            stats = run_source(src, ctx, geo, store, tg, finder)
             report["fonti"][src["id"]] = stats
             log.info("  %s", stats)
         report["chiamate_ai"] = getattr(llm, "calls", 0)
         report["richieste_web"] = fetcher.requests
         report["richieste_geocoding"] = geo.requests
+        if finder is not None:
+            report["luoghi_trovati_con_ricerca"] = finder.found
+            report["pagine_luogo_lette"] = finder.pages
 
     published = list(store.events("published"))
     unique = dedupe(published)

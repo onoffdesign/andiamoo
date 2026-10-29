@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#f5f3ee">
-<title>Andiamoo</title>
+<title>ANDIAMO?</title>
 <meta name="description" content="Concerti, sagre, gare, mostre e incontri in provincia di Treviso, su una mappa aggiornata ogni giorno.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=6" rel="stylesheet">
+<link href="style.css?v=8" rel="stylesheet">
 </head>
 <body>
 <div class="stage">
@@ -18,10 +18,11 @@
 
   <!-- testata flottante -->
   <header class="float brand-pill">
-    <span class="wordmark" id="site-title">Andiamoo</span>
-    <span class="brand-sep" aria-hidden="true"></span>
-    <span class="brand-area">Provincia di Treviso</span>
+    <span class="wordmark" id="site-title">ANDIAMO?</span>
   </header>
+  <button class="list-toggle desktop-only" id="list-toggle" type="button" aria-controls="panel">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Elenco <span id="list-toggle-count"></span>
+  </button>
   <div class="top-right" id="top-right">
     <label class="search">
       <span class="sr">Cerca un evento</span>
@@ -30,18 +31,25 @@
     <button id="search-toggle" class="icon-btn mobile-only" type="button" aria-label="Cerca" aria-expanded="false">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
     </button>
-    <button id="report-btn" class="pill-btn" type="button">Segnala <span aria-hidden="true">+</span></button>
+    <button id="add-btn" class="pill-btn add-btn" type="button" aria-haspopup="dialog"><b aria-hidden="true">+</b> Aggiungi<span class="wide-only"> evento</span></button>
   </div>
 
-  <!-- giorni -->
+  <!-- giorni: periodi | giorni singoli scorrevoli -->
   <nav class="float days" aria-label="Scegli i giorni">
     <div class="presets" role="group" aria-label="Periodo">
-      <button type="button" data-preset="today" class="desktop-only">Oggi</button>
-      <button type="button" data-preset="weekend">Weekend</button>
-      <button type="button" data-preset="week">7 giorni</button>
       <button type="button" data-preset="all" aria-pressed="true">Tutti</button>
+      <button type="button" data-preset="today">Oggi</button>
+      <button type="button" data-preset="weekend">Weekend</button>
+      <button type="button" data-preset="week">Settimana</button>
     </div>
-    <div id="strip" class="strip" role="group" aria-label="Eventi per giorno"></div>
+    <span class="days-sep" aria-hidden="true"></span>
+    <div class="strip-wrap">
+      <button class="strip-nav desktop-only" id="strip-prev" type="button" aria-label="Giorni precedenti">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+      <div id="strip" class="strip" role="group" aria-label="Eventi per giorno"></div>
+      <button class="strip-nav desktop-only" id="strip-next" type="button" aria-label="Giorni successivi">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+    </div>
   </nav>
 
   <!-- elenco e scheda: su telefono e' un pannello che si trascina dal basso -->
@@ -51,13 +59,15 @@
       <span class="kicker">Eventi</span>
       <span class="count" id="count-label">…</span>
       <button class="sort" id="sort-btn" type="button" aria-pressed="false">Più vicini</button>
+      <button class="panel-hide" id="panel-hide" type="button" aria-label="Nascondi l'elenco" title="Nascondi l'elenco">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m11 17-5-5 5-5M18 17l-5-5 5-5"/></svg>
+      </button>
     </div>
     <div class="panel-body" id="panel-body">
       <ol id="list" class="list" aria-live="polite"></ol>
       <article id="detail" class="detail" hidden></article>
       <footer class="note" id="note">
         <p>Eventi raccolti da siti pubblici, giornali locali e segnalazioni, riassunti con l'AI. Orari e programmi possono cambiare: fa fede il sito ufficiale.</p>
-        <p id="removal"></p>
         <p id="updated"></p>
       </footer>
     </div>
@@ -66,13 +76,18 @@
   <!-- categorie e filtri -->
   <section class="float filters" aria-label="Filtri">
     <div class="chips-row">
+      <button class="strip-nav chips-nav desktop-only" id="chips-prev" type="button" aria-label="Categorie precedenti">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
       <div id="chips" class="chips" role="group" aria-label="Categorie"></div>
+      <button class="strip-nav chips-nav desktop-only" id="chips-next" type="button" aria-label="Altre categorie">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
       <button id="more-filters" class="chip more-filters" type="button" aria-expanded="false" aria-controls="selects">Filtri</button>
     </div>
     <div class="selects" id="selects">
-      <label><span class="sr">Accesso</span><select id="access"><option value="">Accesso: tutti</option></select></label>
-      <label><span class="sr">Per chi</span><select id="audience"><option value="">Per chi: tutti</option></select></label>
-      <label><span class="sr">Dove</span><select id="setting"><option value="">Al chiuso e all'aperto</option></select></label>
+      <div class="seg" role="group" aria-labelledby="access-lbl">
+        <span class="seg-label" id="access-lbl">Accesso</span><div id="access" class="seg-btns"></div></div>
+      <div class="seg" role="group" aria-labelledby="aud-lbl">
+        <span class="seg-label" id="aud-lbl">Per chi</span><div id="audience" class="seg-btns"></div></div>
       <button id="reset" class="text-btn" type="button" hidden>Azzera</button>
     </div>
   </section>
@@ -87,16 +102,117 @@
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 </div>
 
-<dialog id="report" class="report">
-  <form method="dialog">
-    <h2>Segnala un evento</h2>
-    <p>Lo controlliamo e, se va bene, finisce sulla mappa.</p>
-    <ul id="report-options" class="report-options"></ul>
-    <button class="cta" value="close"><span>Chiudi</span></button>
+<!-- AGGIUNGI EVENTO -->
+<dialog id="add-dlg" class="dlg" aria-labelledby="add-title">
+  <div class="dlg-head">
+    <div>
+      <h2 id="add-title">Aggiungi un evento</h2>
+      <p>Incolla il link o carica la locandina: i campi li compiliamo noi. Controlli e invii.</p>
+    </div>
+    <button class="dlg-close" type="button" data-close aria-label="Chiudi">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+
+  <div class="dlg-body" id="add-body">
+    <div id="add-step-source">
+      <div class="source-grid">
+        <form class="url-row" id="url-form">
+          <label class="sr" for="ev-link">Link dell'evento</label>
+          <input id="ev-link" type="url" inputmode="url" placeholder="Incolla il link dell'evento" autocomplete="off">
+          <button class="btn-dark" type="submit" id="url-go">Leggi</button>
+        </form>
+        <div class="or">oppure</div>
+        <label class="drop" id="drop">
+          <input id="ev-image" type="file" accept="image/*">
+          <span class="ico" id="drop-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg></span>
+          <span><strong id="drop-title">Carica screenshot o locandina</strong>
+            <span id="drop-sub">Anche lo screenshot di un post Instagram o Facebook</span></span>
+        </label>
+        <button class="text-btn manual" type="button" id="manual-btn">Preferisco compilare a mano</button>
+      </div>
+      <div class="status" id="add-status" hidden></div>
+    </div>
+
+    <form class="event-form" id="event-form" hidden novalidate>
+      <div class="form-legend" id="form-legend">
+        <span><i style="background:#fffbea;border:1px solid #ecd66f"></i>compilato in automatico: controlla</span>
+        <span><i style="background:var(--warn)"></i>obbligatorio mancante</span>
+      </div>
+      <div class="field full" data-f="title"><label for="f-title">Titolo <span class="field-badge"></span></label>
+        <input id="f-title" name="title" required maxlength="200"></div>
+      <div class="field half-m" data-f="date"><label for="f-date">Data <span class="field-badge"></span></label>
+        <input id="f-date" name="date" type="date" required></div>
+      <div class="field half-m" data-f="time"><label for="f-time">Ora <small>facoltativa</small> <span class="field-badge"></span></label>
+        <input id="f-time" name="time" type="time"></div>
+      <div class="field" data-f="venue"><label for="f-venue">Luogo o locale <span class="field-badge"></span></label>
+        <input id="f-venue" name="venue" maxlength="150" placeholder="es. Teatro del Monaco"></div>
+      <div class="field" data-f="town"><label for="f-town">Comune <span class="field-badge"></span></label>
+        <input id="f-town" name="town" required maxlength="80" placeholder="es. Treviso"></div>
+      <div class="field full" data-f="address"><label for="f-address">Indirizzo <small>facoltativo</small> <span class="field-badge"></span></label>
+        <input id="f-address" name="address" maxlength="150" placeholder="Via e numero"></div>
+      <div class="field" data-f="category"><label for="f-category">Categoria <span class="field-badge"></span></label>
+        <select id="f-category" name="category"><option value="">Scegli…</option></select></div>
+      <div class="field" data-f="access"><label for="f-access">Ingresso <span class="field-badge"></span></label>
+        <select id="f-access" name="access"><option value="">Non so</option></select></div>
+      <div class="field half-m" data-f="end_date"><label for="f-end">Fino al <small>se dura più giorni</small></label>
+        <input id="f-end" name="end_date" type="date"></div>
+      <div class="field half-m" data-f="price"><label for="f-price">Prezzo <small>facoltativo</small></label>
+        <input id="f-price" name="price" maxlength="60" placeholder="es. 10 €"></div>
+      <div class="field full" data-f="official_url"><label for="f-url">Sito ufficiale o pagina iscrizioni <span class="field-badge"></span></label>
+        <input id="f-url" name="official_url" type="url" inputmode="url" placeholder="https://"></div>
+      <div class="field full" data-f="summary"><label for="f-summary">Descrizione breve <small>facoltativa</small></label>
+        <textarea id="f-summary" name="summary" maxlength="1200" placeholder="Cosa prevede l'evento"></textarea></div>
+      <div class="field full"><label for="f-contact">La tua email <small>facoltativa, solo per avvisarti</small></label>
+        <input id="f-contact" name="contatto" type="email" autocomplete="email" maxlength="120"></div>
+      <div class="hp" aria-hidden="true"><label>Non compilare <input name="website" tabindex="-1" autocomplete="off"></label></div>
+      <p class="privacy">L'evento viene controllato prima della pubblicazione. Il testo viene riassunto in modo neutro.</p>
+    </form>
+
+    <div class="done" id="add-done" hidden>
+      <div class="big"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></div>
+      <h3>Grazie!</h3>
+      <p>L'evento è in revisione: compare sulla mappa appena lo approviamo.</p>
+    </div>
+  </div>
+
+  <div class="dlg-foot" id="add-foot">
+    <span class="hint" id="add-hint">Campi obbligatori: titolo, data, comune.</span>
+    <button class="btn-light" type="button" id="add-again" hidden>Aggiungine un altro</button>
+    <button class="btn-dark" type="button" id="add-submit" disabled>Invia evento</button>
+  </div>
+</dialog>
+
+<!-- SEGNALA UN PROBLEMA SU UN EVENTO -->
+<dialog id="report-dlg" class="dlg small" aria-labelledby="report-title">
+  <div class="dlg-head">
+    <div>
+      <h2 id="report-title">Segnala un problema</h2>
+      <p id="report-event"></p>
+    </div>
+    <button class="dlg-close" type="button" data-close aria-label="Chiudi">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <form class="dlg-body" id="report-form" novalidate>
+    <div class="choice" role="radiogroup" aria-label="Tipo di segnalazione">
+      <label><input type="radio" name="tipo" value="modifica" checked>
+        <span>Dati da correggere<small>Data, orario, luogo o descrizione sbagliati</small></span></label>
+      <label><input type="radio" name="tipo" value="rimozione">
+        <span>Evento da rimuovere<small>Annullato, privato, oppure sono l'organizzatore e non voglio che compaia</small></span></label>
+    </div>
+    <div class="field"><label for="r-msg">Cosa dobbiamo sapere?</label>
+      <textarea id="r-msg" name="messaggio" maxlength="1500" required></textarea></div>
+    <div class="field" style="margin-top:12px"><label for="r-contact">La tua email <small>facoltativa</small></label>
+      <input id="r-contact" name="contatto" type="email" autocomplete="email" maxlength="120"></div>
+    <div class="hp" aria-hidden="true"><label>Non compilare <input name="website" tabindex="-1" autocomplete="off"></label></div>
+    <div class="status" id="report-status" hidden></div>
   </form>
+  <div class="dlg-foot">
+    <button class="btn-light" type="button" data-close>Annulla</button>
+    <button class="btn-dark" type="button" id="report-submit">Invia segnalazione</button>
+  </div>
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=7"></script>
+<script src="app.js?v=9"></script>
 </body>
 </html>

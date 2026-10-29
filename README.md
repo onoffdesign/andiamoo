@@ -41,6 +41,35 @@ con OpenStreetMap e pubblica il risultato su GitHub Pages. Costo: zero (al massi
 Impostazioni consigliate per un PC sempre acceso: risparmio energia "mai sospendere", accesso automatico
 all'avvio (cosi' parte anche il bot), aggiornamenti di Windows fuori dalle ore notturne di lavoro.
 
+## "Aggiungi evento" e "Segnala" dal sito (API sul PC)
+
+Il sito e' statico: per leggere link e screenshot con l'AI chiama una piccola API che gira sul PC accanto
+a Ollama (`windows\run_api.bat`, registrata come attivita' `Andiamoo-API`). L'API ascolta solo su
+`127.0.0.1:8787`; per renderla raggiungibile dal sito si usa **Cloudflare Tunnel** (gratis, nessuna porta
+da aprire sul router).
+
+1. Installa cloudflared: `winget install Cloudflare.cloudflared`
+2. **Prova veloce** (indirizzo temporaneo, cambia a ogni avvio):
+   ```
+   cloudflared tunnel --url http://localhost:8787
+   ```
+   Copia l'indirizzo `https://....trycloudflare.com` che compare.
+3. **Indirizzo fisso** (quando il dominio andiamoo.ai e' su Cloudflare):
+   ```
+   cloudflared tunnel login
+   cloudflared tunnel create andiamo
+   cloudflared tunnel route dns andiamo api.andiamoo.ai
+   cloudflared tunnel run --url http://localhost:8787 andiamo
+   ```
+   Per farlo partire con Windows: `cloudflared service install` (vedi la guida Cloudflare "Run as a service").
+4. In `config/settings.yaml` metti l'indirizzo in `site.api_url` (es. `https://api.andiamoo.ai`) e, se il sito
+   gira su un dominio diverso da `site.base_url`, aggiungilo in `api.allowed_origins`. Poi
+   `.venv\Scripts\python -m pipeline.run --export-only` per pubblicarlo.
+
+Finche' `api_url` e' vuoto il modulo "Aggiungi evento" resta compilabile a mano e invia via email
+(se `contact_email` e' impostato). L'API ha limiti per indirizzo (20 letture, 10 invii, 10 segnalazioni
+all'ora), un campo trappola anti-spam, e ogni evento arriva sul bot Telegram in attesa di approvazione.
+
 ## Uso quotidiano
 
 - **Segnalazioni**: arrivano sul bot Telegram. Tocchi ✅ per pubblicare o ❌ per scartare.
@@ -65,6 +94,11 @@ all'avvio (cosi' parte anche il bot), aggiornamenti di Windows fuori dalle ore n
   visita il sito ufficiale" e porta al sito dell'organizzatore (o alla biglietteria, o alla fonte).
 - **Dati personali**: email e telefoni vengono tolti prima dell'AI; nessuna immagine viene copiata o ospitata.
 - **Rimozione**: ogni scheda ha il link per chiedere correzione o rimozione.
+- **Luoghi**: se un evento ha solo il comune, la pipeline cerca il luogo esatto nel testo, nella pagina
+  dell'evento e nelle pagine collegate della stessa fonte (scheda del luogo, link a Google Maps), al massimo
+  80 pagine in piu' a giro e sempre con le regole sopra. Un luogo trovato a piu' di 8 km dal comune viene scartato.
+  Se non si trova nulla l'evento resta nel comune, spostato a caso di qualche centinaio di metri dal centro
+  perche' i segnaposti non si sovrappongano ("posizione indicativa" nella scheda).
 
 ## Comandi utili
 

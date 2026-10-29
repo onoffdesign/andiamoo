@@ -26,6 +26,7 @@ from pipeline.fetch import Blocked, Fetcher
 from pipeline.geocode import Geocoder
 from pipeline.llm import make_llm
 from pipeline.models import Event
+from pipeline.places import PlaceFinder
 from pipeline.store import Store
 from pipeline.telegram import Telegram, describe, moderation_buttons
 
@@ -80,7 +81,7 @@ class Bot:
                 status="pending", submitted_by=str(chat_id), needs_ai=False,
             )
             enrich(ev, self.llm)
-            self.geo.locate(ev)
+            self.geo.locate(ev, PlaceFinder(self.fetcher, self.llm, self.store, max_pages=3))
             self.store.upsert_event(ev)
             saved.append(ev)
             self.tg.send(self.admin, f"🆕 Segnalazione ({origin}) da {chat_id}:\n\n" + describe(ev),
@@ -193,10 +194,10 @@ class Bot:
                      text="Pubblicato" if action == "ok" else "Scartato")
         self.tg.call("editMessageReplyMarkup", chat_id=chat, message_id=cb["message"]["message_id"],
                      reply_markup={"inline_keyboard": []})
+        from pipeline.run import main as run_main
+        run_main(["--export-only"])              # aggiorna subito il sito (pubblicazione o rimozione)
         if action == "ok":
-            from pipeline.run import main as run_main
-            run_main(["--export-only"])          # aggiorna subito il sito
-            if ev.submitted_by and ev.submitted_by not in ("modulo", self.admin):
+            if ev.submitted_by and ev.submitted_by.isdigit() and ev.submitted_by != self.admin:
                 self.tg.send(ev.submitted_by, f"✅ «{escape(ev.title)}» e' sulla mappa. Grazie!")
 
     # ---------------------------------------------------------------- ciclo

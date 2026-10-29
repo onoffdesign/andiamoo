@@ -1,6 +1,7 @@
 # Registra due attivita' nell'Utilita' di pianificazione di Windows:
 #   Andiamoo-Pipeline  ogni 4 ore: raccolta, AI, pubblicazione
 #   Andiamoo-Bot       all'accesso: bot Telegram sempre attivo (si riavvia se si chiude)
+#   Andiamoo-API       all'accesso: API del sito per "Aggiungi evento" e "Segnala" (si riavvia se si chiude)
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $PSScriptRoot
 
@@ -16,4 +17,7 @@ $botOpts = New-ScheduledTaskSettingsSet -StartWhenAvailable -RestartCount 999 -R
            -ExecutionTimeLimit ([TimeSpan]::Zero) -MultipleInstances IgnoreNew
 Register-ScheduledTask -TaskName "Andiamoo-Bot" -Action $bot -Trigger $atLogon -Settings $botOpts -Force | Out-Null
 
-Write-Host "Attivita' registrate: Andiamoo-Pipeline (ogni 4 ore) e Andiamoo-Bot (all'accesso)." -ForegroundColor Green
+$api = New-ScheduledTaskAction -Execute "$Root\windows\run_api.bat" -WorkingDirectory $Root
+Register-ScheduledTask -TaskName "Andiamoo-API" -Action $api -Trigger $atLogon -Settings $botOpts -Force | Out-Null
+
+Write-Host "Attivita' registrate: Andiamoo-Pipeline (ogni 4 ore), Andiamoo-Bot e Andiamoo-API (all'accesso)." -ForegroundColor Green

@@ -1,4 +1,4 @@
-/* Andiamoo: legge data/events.json, filtra per giorni/categorie/accesso/pubblico/luogo/testo,
+/* ANDIAMO?: legge data/events.json, filtra per giorni/categorie/accesso/pubblico/luogo/testo,
    mostra mappa (segnaposti colorati con "+", card sulla mappa) ed elenco con scheda.
    Su telefono l'elenco e' un pannello trascinabile (anteprima / meta' / pieno). */
 (() => {
@@ -9,13 +9,15 @@
   const DAYS = ["domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato"];
   const MONTHS = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
     "settembre", "ottobre", "novembre", "dicembre"];
-  const STRIP_DAYS = 45;
+  let STRIP_DAYS = 120;                    // giorni nella striscia (= orizzonte della pipeline)
   const MOBILE = () => window.matchMedia("(max-width: 760px)").matches;
 
   const state = {
-    from: null, to: null, preset: "all", cats: new Set(), access: "", audience: "", setting: "", q: "",
+    from: null, to: null, preset: "all", cats: new Set(), access: "", aud: new Set(), q: "",
     selected: null, detail: false, sort: "date", me: null,
+    sidebarHidden: false, hiddenBeforeDetail: false,
   };
+  let API = "", apiOk = false, aiOk = false;
   let DATA = null, EVENTS = [], CAT = {}, map = null, mapReady = false, popup = null, meMarker = null, onlyUids = null;
   let pushedDetail = false;                // la scheda aperta ha una voce nostra nella cronologia?
   const COORDS = {};                       // uid -> [lon, lat] mostrati (con il piccolo scarto anti-sovrapposizione)
@@ -54,13 +56,32 @@
   }
   const kmText = (d) => (d == null ? "" : d < 1 ? `${Math.round(d * 1000 / 50) * 50} m` : `${d.toFixed(d < 10 ? 1 : 0).replace(".", ",")} km`);
 
+  // ---------------------------------------------------------------- accesso: tre gruppi riconoscibili a colpo d'occhio
+  const ACCESS_ICON = {
+    libero: '<circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.8 2.8L16.5 9"/>',
+    offerta: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+    biglietto: '<path d="M4 7h16v3a2 2 0 0 0 0 4v3H4v-3a2 2 0 0 0 0-4z"/><path d="M14 7v10" stroke-dasharray="2 2"/>',
+    iscrizione: '<rect x="5.5" y="4" width="13" height="17" rx="2"/><path d="M9 3.5h6v3H9zM9 12h6M9 16h4"/>',
+    invito: '<rect x="3" y="6" width="18" height="13" rx="2"/><path d="m3.5 7.5 8.5 6 8.5-6"/>',
+  };
+  function accessGroup(e) {
+    for (const [g, v] of Object.entries(DATA.access_groups || {})) if ((v.includes || []).includes(e.access)) return g;
+    return "";
+  }
+  // badge con icona e stile del gruppo; il testo e' il tipo preciso (es. "Offerta libera", "Su invito")
+  function accessBadge(e, opts = {}) {
+    const g = accessGroup(e);
+    if (!g) return opts.unknown ? `<span class="acc acc-none">${esc(opts.unknown)}</span>` : "";
+    const label = opts.group ? DATA.access_groups[g].label : (DATA.access[e.access] || "").replace(/\s*\(.*\)$/, "");
+    return `<span class="acc acc-${g}" title="${esc(DATA.access_groups[g].label)}"><svg viewBox="0 0 24 24" aria-hidden="true">${ACCESS_ICON[e.access] || ""}</svg>${esc(label)}</span>`;
+  }
+
   // ---------------------------------------------------------------- filtri
   function matches(e, skip = {}) {
     if (!skip.date && !spans(e, state.from, state.to)) return false;
     if (!skip.cat && state.cats.size && !state.cats.has(e.category)) return false;
-    if (state.access && e.access !== state.access) return false;
-    if (state.audience && !(e.audience || []).includes(state.audience)) return false;
-    if (state.setting && e.setting !== state.setting) return false;
+    if (state.access && accessGroup(e) !== state.access) return false;
+    for (const a of state.aud) if (!(e.audience || []).includes(a)) return false;   // scelte attivabili insieme
     if (state.q) {
       const hay = `${e.title} ${e.venue} ${e.town} ${e.summary} ${(CAT[e.category] || {}).label || ""}`.toLowerCase();
       if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
@@ -109,6 +130,26 @@
       strip.appendChild(b);
     });
     document.querySelectorAll(".presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.preset === state.preset)));
+    updateStripNav();
+  }
+
+  // frecce avanti/indietro (desktop) per le righe che scorrono: giorni e categorie
+  function updateScrollNav(sel) {
+    const s = $(sel), id = sel.slice(1);
+    const atStart = s.scrollLeft <= 2, atEnd = s.scrollLeft + s.clientWidth >= s.scrollWidth - 2;
+    $(`#${id}-prev`).disabled = atStart;
+    $(`#${id}-next`).disabled = atEnd;
+    s.classList.toggle("at-end", atEnd);
+  }
+  const updateStripNav = () => updateScrollNav("#strip");
+
+  function setupScrollNav(sel) {
+    const s = $(sel), id = sel.slice(1);
+    const step = () => Math.max(120, Math.floor(s.clientWidth * 0.8));
+    $(`#${id}-prev`).addEventListener("click", () => s.scrollBy({ left: -step() }));
+    $(`#${id}-next`).addEventListener("click", () => s.scrollBy({ left: step() }));
+    s.addEventListener("scroll", () => requestAnimationFrame(() => updateScrollNav(sel)), { passive: true });
+    window.addEventListener("resize", () => updateScrollNav(sel));
   }
 
   // ---------------------------------------------------------------- categorie
@@ -127,8 +168,33 @@
       b.addEventListener("click", () => { state.cats.has(c.id) ? state.cats.delete(c.id) : state.cats.add(c.id); onlyUids = null; update(); });
       box.appendChild(b);
     });
-    const extra = [state.access, state.audience, state.setting].filter(Boolean).length;
+    const extra = (state.access ? 1 : 0) + state.aud.size;
     $("#more-filters").innerHTML = extra ? `Filtri <span class="badge">${extra}</span>` : "Filtri";
+    document.querySelectorAll("#access button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.v === state.access)));
+    document.querySelectorAll("#audience button").forEach((b) => b.setAttribute("aria-pressed", String(state.aud.has(b.dataset.v))));
+    requestAnimationFrame(() => updateScrollNav("#chips"));
+  }
+
+  // Filtri "Accesso" (uno alla volta) e "Per chi" (attivabili insieme, nessuno = tutti).
+  function setupFilters() {
+    const acc = $("#access");
+    const groups = [["", "Tutti"], ...Object.entries(DATA.access_groups || {}).map(([k, v]) => [k, v.label])];
+    groups.forEach(([k, label]) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.className = `seg-btn${k ? ` g-${k}` : ""}`; b.dataset.v = k;
+      const icon = { libero: "libero", pagamento: "biglietto", iscrizione: "iscrizione" }[k];
+      b.innerHTML = (icon ? `<svg viewBox="0 0 24 24" aria-hidden="true">${ACCESS_ICON[icon]}</svg>` : "") + esc(label);
+      b.addEventListener("click", () => { state.access = k; onlyUids = null; update(); });
+      acc.appendChild(b);
+    });
+    const aud = $("#audience");
+    Object.entries(DATA.audience_filters || {}).forEach(([k, label]) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "seg-btn toggle"; b.dataset.v = k;
+      b.innerHTML = `<span class="tick" aria-hidden="true"></span>${esc(label)}`;
+      b.addEventListener("click", () => { state.aud.has(k) ? state.aud.delete(k) : state.aud.add(k); onlyUids = null; update(); });
+      aud.appendChild(b);
+    });
   }
 
   // ---------------------------------------------------------------- elenco
@@ -177,8 +243,11 @@
     const c = CAT[e.category] || { label: "Evento", color: "#ddd" };
     const sub = (c.sub || {})[e.subcategory];
     const place = [e.venue, e.address, e.town].filter(Boolean).join(", ");
-    const who = [...(e.audience || []).map((a) => DATA.audiences[a]), DATA.settings[e.setting]].filter(Boolean).join(", ");
-    const accessLabel = e.access !== "sconosciuto" ? DATA.access[e.access] : "";
+    const who = (e.audience || []).map((a) => DATA.audiences[a]).filter(Boolean).join(", ");
+    const where = DATA.settings[e.setting] || "";
+    const g = accessGroup(e);
+    const accessText = g ? [DATA.access[e.access], e.price].filter(Boolean).join(" · ")
+      : ["Da verificare sul sito ufficiale", e.price].filter(Boolean).join(" · ");
     const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
     const also = (e.also_on || []).filter((a) => a.url);
     const dist = kmText(km(e));
@@ -188,21 +257,22 @@
       <h2>${esc(e.title)}</h2>
       <dl class="facts">
         <dt>Quando</dt><dd>${esc(whenText(e))}</dd>
-        ${place ? `<dt>Dove</dt><dd>${esc(place)}${e.geo_precision === "town" ? " <small>(posizione indicativa)</small>" : ""}${dist ? ` · ${dist} da te` : ""}</dd>` : ""}
-        ${accessLabel || e.price ? `<dt>Ingresso</dt><dd>${esc([accessLabel, e.price].filter(Boolean).join(" · "))}</dd>` : ""}
+        ${place ? `<dt>Dove</dt><dd>${esc(place)}${e.geo_precision === "town" ? " <small>(indirizzo esatto non disponibile: posizione indicativa nel comune)</small>" : ""}${where ? ` · ${esc(where.toLowerCase())}` : ""}${dist ? ` · ${dist} da te` : ""}</dd>` : ""}
+        <dt>Accesso</dt><dd class="acc-dd">${g ? accessBadge(e, { group: true }) : ""}<span>${esc(accessText)}</span></dd>
         ${who ? `<dt>Per chi</dt><dd>${esc(who)}</dd>` : ""}
       </dl>
       ${e.summary ? `<p class="summary">${esc(e.summary)}</p>` : ""}
       <p class="official-note">${e.ai_summary ? "Dettagli riassunti tramite AI. " : ""}Per il programma ufficiale e le iscrizioni, visita il sito ufficiale${host ? ` (${esc(host)})` : ""}.</p>
       <p class="also">Fonte: <a href="${attr(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_name)}</a>${
         also.length ? `. Anche su: ${also.map((a) => `<a href="${attr(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ")}` : ""}</p>
-      <p class="small-print">Dati non corretti o evento da rimuovere? ${removalLink(e)}</p>
+      <button class="report-link" type="button" data-report>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4h11l-1.5 4L16 12H5"/></svg>Segnala una modifica o la rimozione</button>
       <div class="detail-actions">
         <a class="cta" href="${attr(e.action_url)}" target="_blank" rel="noopener"><span>Sito ufficiale</span><i aria-hidden="true">↗</i></a>
         <button class="round" type="button" data-ics aria-label="Aggiungi al calendario" title="Aggiungi al calendario">
           <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
         <a class="round" target="_blank" rel="noopener" aria-label="Indicazioni stradali" title="Indicazioni"
-           href="https://www.google.com/maps/dir/?api=1&destination=${e.lat},${e.lon}">
+           href="https://www.google.com/maps/dir/?api=1&destination=${e.geo_precision === "town" ? encodeURIComponent([e.venue, e.address, e.town].filter(Boolean).join(", ")) : `${e.lat},${e.lon}`}">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></a>
         <button class="round" type="button" data-share aria-label="Condividi" title="Condividi">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7.5 7.5 12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></button>
@@ -210,6 +280,7 @@
     el.querySelector(".back").addEventListener("click", closeDetail);
     el.querySelector("[data-ics]").addEventListener("click", () => downloadIcs(e));
     el.querySelector("[data-share]").addEventListener("click", () => share(e));
+    el.querySelector("[data-report]").addEventListener("click", () => openReport(e));
   }
 
   async function share(e) {
@@ -220,14 +291,6 @@
       await navigator.clipboard.writeText(url);
       toast("Link copiato");
     } catch (_) { /* condivisione annullata */ }
-  }
-
-  function removalLink(e) {
-    const mail = DATA.site.contact_email;
-    if (!mail) return "Usa il pulsante Segnala.";
-    const subject = encodeURIComponent(`Correzione/rimozione evento ${e.uid}`);
-    const body = encodeURIComponent(`Evento: ${e.title}\nLink: ${location.href.split("#")[0]}#e=${e.uid}\n\nRichiesta: `);
-    return `<a href="mailto:${attr(mail)}?subject=${subject}&body=${body}">Scrivici</a>.`;
   }
 
   // ---------------------------------------------------------------- calendario (.ics)
@@ -288,7 +351,38 @@
       const panelTop = $("#panel").getBoundingClientRect().top;
       return { top, bottom: Math.max(60, window.innerHeight - panelTop + 20 + extraBottom), left: 30, right: 30 };
     }
-    return { top: 170, bottom: 150, left: 470, right: 90 };
+    return { top: 170, bottom: 150, left: state.sidebarHidden ? 60 : 470, right: 90 };
+  }
+
+  // Zona della mappa davvero visibile (fuori da testata, giorni, filtri, elenco).
+  function visibleArea() {
+    const r = $("#map").getBoundingClientRect();
+    const v = { left: r.left + 12, right: r.right - 12, top: r.top + 12, bottom: r.bottom - 12 };
+    if (MOBILE()) {
+      v.top = $(".filters").getBoundingClientRect().bottom + 10;
+      v.bottom = Math.min(v.bottom, $("#panel").getBoundingClientRect().top - 10);
+    } else {
+      v.top = $(".days").getBoundingClientRect().bottom + 12;
+      v.bottom = $(".filters").getBoundingClientRect().top - 12;
+      if (!state.sidebarHidden) v.left = $("#panel").getBoundingClientRect().right + 12;
+      v.right = $(".map-ctrl").getBoundingClientRect().left - 12;
+    }
+    return v;
+  }
+
+  // Sposta la mappa quanto basta perche' card aperta e segnaposto siano interi nella zona visibile.
+  function ensureCardVisible(animate = true) {
+    if (!popup || !mapReady) return;
+    const el = popup.getElement();
+    if (!el) return;
+    const c = el.getBoundingClientRect(), v = visibleArea();
+    const box = { left: c.left, right: c.right, top: c.top, bottom: c.bottom + 38 };   // + segnaposto sotto la card
+    let dx = 0, dy = 0;
+    if (box.right - box.left > v.right - v.left || box.left < v.left) dx = v.left - box.left;
+    else if (box.right > v.right) dx = v.right - box.right;
+    if (box.bottom - box.top > v.bottom - v.top || box.top < v.top) dy = v.top - box.top;
+    else if (box.bottom > v.bottom) dy = v.bottom - box.bottom;
+    if (Math.abs(dx) > 1 || Math.abs(dy) > 1) map.panBy([-dx, -dy], { duration: animate ? 380 : 0 });
   }
 
   function initMap() {
@@ -335,19 +429,22 @@
       });
       map.on("click", "points", (ev) => {
         const uids = [...new Set(ev.features.map((f) => f.properties.uid))];
+        if (state.detail) closeDetail({ keepHistory: true });          // altro evento: la scheda torna elenco
         if (uids.length === 1) {
           if (MOBILE()) setSheet("peek");
-          select(uids[0], { fly: false, detail: false, reveal: true });
-        } else { onlyUids = new Set(uids); closeDetail(); setSheet("half"); }
+          select(uids[0], { fly: false, detail: false });
+        } else { onlyUids = new Set(uids); closeCard(); update(); setSheet("half"); }
       });
+      // "−" sul segnaposto aperto, o clic fuori: chiude la card e la sidebar torna all'elenco
+      map.on("click", "points-selected", () => closeAll());
       map.on("click", (ev) => {
-        if (map.queryRenderedFeatures(ev.point, { layers: ["points", "clusters"] }).length) return;
-        if (popup) closeCard();
-        if (MOBILE() && !state.detail) setSheet("peek");
+        if (map.queryRenderedFeatures(ev.point, { layers: ["points", "clusters", "points-selected"] }).length) return;
+        if (popup || state.detail) closeAll();
+        else if (MOBILE()) setSheet("peek");
       });
       // trascinare la mappa su telefono abbassa il pannello
       map.on("dragstart", () => { if (MOBILE() && !state.detail) setSheet("peek"); });
-      for (const l of ["clusters", "points"]) {
+      for (const l of ["clusters", "points", "points-selected"]) {
         map.on("mouseenter", l, () => (map.getCanvas().style.cursor = "pointer"));
         map.on("mouseleave", l, () => (map.getCanvas().style.cursor = ""));
       }
@@ -383,13 +480,13 @@
   }
 
   // ---------------------------------------------------------------- card sulla mappa
-  function showCard(e) {
+  function showCard(e, opts = {}) {
     const c = CAT[e.category] || { color: "#ddd" };
     const el = document.createElement("div");
-    el.className = "card";
+    el.className = "card" + (e.title.length > 60 ? " long" : "");
     el.style.setProperty("--c", c.color);
     const dist = kmText(km(e));
-    el.innerHTML = `<h3>${esc(e.title)}</h3>
+    el.innerHTML = `${accessBadge(e, { unknown: "Accesso da verificare" })}<h3>${esc(e.title)}</h3>
       <p>${esc(whenText(e))}</p><p>${esc([e.venue, e.town].filter(Boolean).join(", "))}${dist ? ` · ${dist}` : ""}</p>
       <button class="more" type="button">Dettagli</button>`;
     el.querySelector(".more").addEventListener("click", () => select(e.uid, { fly: false, detail: true }));
@@ -397,6 +494,7 @@
     popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: 22, maxWidth: "none" })
       .setLngLat(COORDS[e.uid] || [e.lon, e.lat]).setDOMContent(el).addTo(map);
     markSelected(e.uid);
+    if (!opts.noReveal) requestAnimationFrame(() => ensureCardVisible());
   }
 
   function markSelected(uid) {
@@ -418,6 +516,7 @@
     if (!e) { closeDetail(); return; }
     state.selected = uid;
     if (opts.detail) {
+      if (state.sidebarHidden && !MOBILE()) { state.hiddenBeforeDetail = true; setSidebar(true, { remember: false }); }
       state.detail = true;
       $("#list").hidden = true;
       $("#detail").hidden = false;
@@ -432,29 +531,47 @@
     }
     if (mapReady) {
       // su telefono la scheda copre la mappa: basta il segnaposto evidenziato, senza card
-      if (MOBILE() && opts.detail) { if (popup) { popup.remove(); popup = null; } markSelected(uid); }
-      else showCard(e);
       const center = COORDS[uid] || [e.lon, e.lat];
-      if (popup && opts.fly) popup.setLngLat(center);
-      if (opts.fly) map.flyTo({ center, zoom: Math.max(map.getZoom(), 14.2), speed: 1.4, padding: mapPadding() });
-      else if (opts.reveal) map.easeTo({ center, padding: mapPadding(180), duration: 400 });
+      if (MOBILE() && opts.detail) { if (popup) { popup.remove(); popup = null; } markSelected(uid); }
+      else showCard(e, { noReveal: !!opts.fly || !!opts.detail });
+      if (opts.fly) {
+        map.flyTo({ center, zoom: Math.max(map.getZoom(), 14.2), speed: 1.4, padding: mapPadding() });
+        map.once("moveend", () => ensureCardVisible());
+      } else if (opts.detail && !MOBILE()) {
+        requestAnimationFrame(() => ensureCardVisible());   // la sidebar puo' essere ricomparsa
+      }
     }
   }
 
   function closeDetail(opts = {}) {
     // scheda aperta da noi: il tasto "indietro" del sito equivale a quello del telefono
-    if (state.detail && !opts.fromHistory && pushedDetail) { history.back(); return; }
-    if (opts.fromHistory) pushedDetail = false;
+    if (state.detail && !opts.fromHistory && !opts.keepHistory && pushedDetail) { history.back(); return; }
+    if (opts.fromHistory || opts.keepHistory) pushedDetail = false;
     const wasDetail = state.detail;
     state.selected = null;
     state.detail = false;
     $("#list").hidden = false;
     $("#detail").hidden = true;
     $("#panel").classList.remove("in-detail");
-    closeCard();
+    if (!opts.keepCard) closeCard();
     if (!opts.fromHistory && location.hash) history.replaceState(null, "", location.pathname + location.search);
     if (MOBILE() && wasDetail) setSheet("half");
+    if (wasDetail && state.hiddenBeforeDetail && !MOBILE()) { state.hiddenBeforeDetail = false; setSidebar(false, { remember: false }); }
     update();
+  }
+
+  // Chiude card e scheda: la sidebar torna all'elenco degli eventi visibili.
+  function closeAll() {
+    if (state.detail) closeDetail();
+    else { closeCard(); state.selected = null; if (location.hash) history.replaceState(null, "", location.pathname + location.search); }
+  }
+
+  // ---------------------------------------------------------------- sidebar (desktop): nascondi / mostra
+  function setSidebar(visible, opts = { remember: true }) {
+    state.sidebarHidden = !visible;
+    document.body.classList.toggle("sidebar-hidden", !visible);
+    if (opts.remember) { try { localStorage.setItem("andiamo-sidebar", visible ? "1" : "0"); } catch (_) { /* privato */ } }
+    if (mapReady) setTimeout(() => { map.resize(); ensureCardVisible(); }, 30);
   }
 
   window.addEventListener("popstate", (ev) => {
@@ -582,10 +699,11 @@
     if (!state.detail) renderList(items);
     const n = items.length;
     $("#count-label").textContent = onlyUids ? `${n} in questo punto` : `${n} ${n === 1 ? "evento" : "eventi"}`;
+    $("#list-toggle-count").textContent = `(${n})`;
     const sortBtn = $("#sort-btn");
     sortBtn.setAttribute("aria-pressed", String(state.sort === "distance" && !!state.me));
     sortBtn.textContent = state.sort === "distance" && state.me ? "Più vicini" : state.me ? "Per data" : "Più vicini";
-    $("#reset").hidden = !(state.cats.size || state.access || state.audience || state.setting || state.q || onlyUids);
+    $("#reset").hidden = !(state.cats.size || state.access || state.aud.size || state.q || onlyUids);
     if (mapReady) {
       map.getSource("ev").setData(geojson(items));
       if (fit && items.length && !state.selected) {
@@ -627,18 +745,273 @@
     });
   }
 
-  // ---------------------------------------------------------------- segnalazioni
+  // ---------------------------------------------------------------- API sul PC (Cloudflare Tunnel)
+  async function apiCall(path, body, timeoutMs = 15000) {
+    const ctl = new AbortController();
+    const t = setTimeout(() => ctl.abort(), timeoutMs);
+    try {
+      const r = await fetch(API + path, body
+        ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body), signal: ctl.signal }
+        : { signal: ctl.signal });
+      const data = await r.json().catch(() => ({}));
+      if (!r.ok || data.ok === false) throw Object.assign(new Error(data.messaggio || "Errore"), { code: data.errore || r.status });
+      return data;
+    } catch (err) {
+      if (err.name === "AbortError") throw Object.assign(new Error("Il servizio non risponde: riprova tra poco."), { code: "timeout" });
+      if (err.code) throw err;
+      throw Object.assign(new Error("Servizio non raggiungibile in questo momento."), { code: "offline" });
+    } finally { clearTimeout(t); }
+  }
+
+  async function checkApi() {
+    if (!API) { apiOk = aiOk = false; return; }
+    try { const r = await apiCall("/api/salute", null, 6000); apiOk = true; aiOk = !!r.ai; }
+    catch (_) { apiOk = aiOk = false; }
+  }
+
+  function altLinks() {
+    const s = DATA.site, out = [];
+    if (s.telegram_bot) out.push(`<a class="btn-light" href="https://t.me/${attr(s.telegram_bot)}" target="_blank" rel="noopener">Telegram</a>`);
+    if (s.contact_email) out.push(`<a class="btn-light" href="mailto:${attr(s.contact_email)}?subject=Nuovo%20evento">Email</a>`);
+    return out.length ? `<div class="alt-links">${out.join("")}</div>` : "";
+  }
+
+  // ---------------------------------------------------------------- AGGIUNGI EVENTO
+  const FIELD_NAMES = { title: "titolo", date: "data", town: "comune", time: "ora", venue: "luogo", category: "categoria" };
+  const REQUIRED = ["title", "date", "town"];
+
+  function setupAdd() {
+    const dlg = $("#add-dlg"), form = $("#event-form"), submit = $("#add-submit");
+    DATA.categories.forEach((c) => $("#f-category").insertAdjacentHTML("beforeend", `<option value="${c.id}">${esc(c.label)}</option>`));
+    Object.entries(DATA.access).forEach(([k, v]) => { if (k !== "sconosciuto") $("#f-access").insertAdjacentHTML("beforeend", `<option value="${k}">${esc(v)}</option>`); });
+    dlg.querySelectorAll("[data-close]").forEach((b) => b.addEventListener("click", () => dlg.close()));
+
+    $("#add-btn").addEventListener("click", async () => {
+      resetAdd();
+      dlg.showModal();
+      await checkApi();
+      if (!API || !apiOk) {
+        addStatus("warn", `<div><strong>La lettura automatica non è attiva in questo momento.</strong> Puoi compilare a mano${
+          DATA.site.contact_email ? " e inviarci i dati per email" : ""}${altLinks() ? ", oppure scriverci:" : "."}${altLinks()}</div>`);
+        setSourceEnabled(false);
+      } else if (!aiOk) {
+        addStatus("warn", "La lettura automatica è momentaneamente spenta: compila i campi a mano.");
+        setSourceEnabled(false);
+      }
+    });
+
+    $("#url-form").addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const url = $("#ev-link").value.trim();
+      if (!/^https?:\/\//i.test(url)) { addStatus("err", "Incolla un link completo, che inizi con https://"); return; }
+      extract({ url }, "Sto leggendo la pagina dell'evento…");
+    });
+
+    const drop = $("#drop"), input = $("#ev-image");
+    input.addEventListener("change", () => input.files[0] && useImage(input.files[0]));
+    drop.addEventListener("dragover", (ev) => { ev.preventDefault(); drop.classList.add("over"); });
+    drop.addEventListener("dragleave", () => drop.classList.remove("over"));
+    drop.addEventListener("drop", (ev) => {
+      ev.preventDefault(); drop.classList.remove("over");
+      const f = ev.dataTransfer.files[0];
+      if (f && f.type.startsWith("image/")) useImage(f);
+    });
+    // incolla uno screenshot direttamente (Cmd/Ctrl+V)
+    dlg.addEventListener("paste", (ev) => {
+      const item = [...(ev.clipboardData?.items || [])].find((i) => i.type.startsWith("image/"));
+      if (item && !$("#drop").classList.contains("disabled")) { ev.preventDefault(); useImage(item.getAsFile()); }
+    });
+
+    $("#manual-btn").addEventListener("click", () => { showForm({}, null); $("#f-title").focus(); });
+    form.addEventListener("input", (ev) => {
+      const field = ev.target.closest(".field");
+      if (field) {
+        field.classList.remove("ai");
+        if (ev.target.value.trim()) field.classList.remove("missing", "todo");
+      }
+      validate();
+    });
+    submit.addEventListener("click", sendEvent);
+    $("#add-again").addEventListener("click", () => { resetAdd(); if (API && apiOk && aiOk) setSourceEnabled(true); });
+  }
+
+  function setSourceEnabled(on) {
+    $("#ev-link").disabled = !on; $("#url-go").disabled = !on; $("#ev-image").disabled = !on;
+    $("#drop").classList.toggle("disabled", !on);
+    $("#drop").style.opacity = on ? "" : ".45";
+  }
+
+  function addStatus(kind, html) {
+    const s = $("#add-status");
+    s.className = "status " + (kind || "");
+    s.innerHTML = kind === "busy" ? `<span class="spinner" aria-hidden="true"></span><div>${html}</div>` : html;
+    s.hidden = false;
+  }
+
+  function resetAdd() {
+    $("#add-step-source").hidden = false;
+    $("#event-form").hidden = true; $("#event-form").reset();
+    $("#add-done").hidden = true; $("#add-status").hidden = true;
+    $("#add-submit").hidden = false; $("#add-submit").disabled = true; $("#add-submit").textContent = "Invia evento";
+    $("#add-again").hidden = true; $("#add-hint").hidden = false;
+    $("#ev-link").value = "";
+    $("#drop-title").textContent = "Carica screenshot o locandina";
+    $("#drop-sub").textContent = "Anche lo screenshot di un post Instagram o Facebook";
+    $("#drop-ico").innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>';
+    document.querySelectorAll("#event-form .field").forEach((f) => f.classList.remove("ai", "missing", "todo"));
+    setSourceEnabled(true);
+  }
+
+  // Riduce l'immagine (max 1600 px) prima dell'invio: piu' veloce anche da rete mobile.
+  function shrinkImage(file) {
+    return new Promise((resolve, reject) => {
+      const img = new Image(), url = URL.createObjectURL(file);
+      img.onload = () => {
+        const k = Math.min(1, 1600 / Math.max(img.width, img.height));
+        const cv = document.createElement("canvas");
+        cv.width = Math.round(img.width * k); cv.height = Math.round(img.height * k);
+        cv.getContext("2d").drawImage(img, 0, 0, cv.width, cv.height);
+        URL.revokeObjectURL(url);
+        resolve(cv.toDataURL("image/jpeg", 0.85));
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); reject(new Error("Immagine non leggibile")); };
+      img.src = url;
+    });
+  }
+
+  async function useImage(file) {
+    let data;
+    try { data = await shrinkImage(file); } catch (_) { addStatus("err", "Non riesco ad aprire questa immagine. Prova con un JPG o PNG."); return; }
+    $("#drop-ico").innerHTML = `<img src="${data}" alt="">`;
+    $("#drop-title").textContent = file.name || "Immagine incollata";
+    $("#drop-sub").textContent = "Tocca per cambiare immagine";
+    extract({ immagine: data }, "Sto leggendo la locandina… può volerci qualche secondo.");
+  }
+
+  async function extract(payload, busyText) {
+    setSourceEnabled(false);
+    addStatus("busy", busyText);
+    try {
+      const r = await apiCall("/api/estrai", payload, 120000);
+      const ev = r.eventi[0];
+      showForm(ev, r.mancanti);
+      const filled = Object.values(ev).filter((v) => v).length;
+      const req = r.mancanti.required.map((f) => FIELD_NAMES[f] || f);
+      let msg = `<div><strong>Ho compilato ${filled} campi.</strong> Controlla i dati evidenziati`;
+      msg += req.length ? ` e completa quelli che mancano: <strong>${esc(req.join(", "))}</strong>.` : " e invia.";
+      if (r.eventi.length > 1) msg += ` Ho trovato ${r.eventi.length} eventi: ho compilato il primo.`;
+      addStatus(req.length ? "warn" : "ok", msg + "</div>");
+    } catch (err) {
+      addStatus("err", `<div><strong>${esc(err.message)}</strong></div>`);
+      showForm(payload.url && err.code !== "social" ? { official_url: payload.url } : {}, null);
+    } finally {
+      setSourceEnabled(true);
+    }
+  }
+
+  // Riempie il modulo; i campi arrivati dall'AI si colorano, i mancanti si segnalano.
+  function showForm(values, mancanti) {
+    const form = $("#event-form");
+    form.hidden = false;
+    form.querySelectorAll(".field[data-f]").forEach((field) => {
+      const name = field.dataset.f, input = field.querySelector("input, select, textarea");
+      const v = values[name] || "";
+      if (v || !mancanti) input.value = v;
+      field.classList.toggle("ai", !!(v && mancanti));
+      field.classList.remove("missing", "todo");
+      const badge = field.querySelector(".field-badge");
+      if (mancanti && mancanti.required.includes(name)) { field.classList.add("missing"); if (badge) badge.textContent = "Mancante"; }
+      else if (mancanti && mancanti.recommended.includes(name)) { field.classList.add("todo"); if (badge) badge.textContent = "Da completare"; }
+    });
+    $("#form-legend").hidden = !mancanti;
+    validate();
+    const firstMissing = form.querySelector(".field.missing input");
+    (firstMissing || form).scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  function formData() {
+    const out = {};
+    new FormData($("#event-form")).forEach((v, k) => (out[k] = String(v).trim()));
+    return out;
+  }
+
+  function validate() {
+    const d = formData();
+    const ok = !$("#event-form").hidden && REQUIRED.every((k) => d[k]);
+    $("#add-submit").disabled = !ok;
+    $("#add-submit").textContent = (!API || !apiOk) && DATA.site.contact_email ? "Invia per email" : "Invia evento";
+    return ok;
+  }
+
+  async function sendEvent() {
+    const d = formData();
+    const missingReq = REQUIRED.filter((k) => !d[k]);
+    if (missingReq.length) {
+      missingReq.forEach((k) => { const f = document.querySelector(`.field[data-f="${k}"]`); f.classList.add("missing"); f.querySelector(".field-badge").textContent = "Mancante"; });
+      return;
+    }
+    if (!API || !apiOk) {              // servizio spento: email precompilata
+      if (!DATA.site.contact_email) { addStatus("err", "L'invio non è disponibile in questo momento. Riprova più tardi."); return; }
+      const body = Object.entries(d).filter(([k, v]) => v && k !== "website").map(([k, v]) => `${k}: ${v}`).join("\n");
+      location.href = `mailto:${DATA.site.contact_email}?subject=${encodeURIComponent("Nuovo evento: " + d.title)}&body=${encodeURIComponent(body)}`;
+      return;
+    }
+    const btn = $("#add-submit");
+    btn.disabled = true; btn.textContent = "Invio…";
+    try {
+      await apiCall("/api/invia", d, 60000);
+      $("#add-step-source").hidden = true; $("#event-form").hidden = true; $("#add-done").hidden = false;
+      btn.hidden = true; $("#add-again").hidden = false; $("#add-hint").hidden = true;
+      $("#add-body").scrollTop = 0;
+    } catch (err) {
+      addStatus("err", `<div><strong>Invio non riuscito.</strong> ${esc(err.message)}</div>`);
+      $("#add-step-source").hidden = false;
+      $("#add-status").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      validate();
+    }
+  }
+
+  // ---------------------------------------------------------------- SEGNALA MODIFICA / RIMOZIONE
+  let reportEvent = null;
   function setupReport() {
-    const s = DATA.site, ul = $("#report-options"), opts = [];
-    if (s.telegram_bot) opts.push([`https://t.me/${s.telegram_bot}`, "Con Telegram", "Manda la foto della locandina o il link: ci pensa il bot."]);
-    if (s.form_url) opts.push([s.form_url, "Con il modulo", "Per organizzatori: titolo, data, luogo e link."]);
-    if (s.contact_email) opts.push([`mailto:${s.contact_email}?subject=Segnalazione%20evento`, "Per email", s.contact_email]);
-    ul.innerHTML = opts.length
-      ? opts.map(([h, t, d]) => `<li><a href="${attr(h)}" target="_blank" rel="noopener"><strong>${esc(t)}</strong><span>${esc(d)}</span></a></li>`).join("")
-      : "<li>Le segnalazioni apriranno a breve.</li>";
-    $("#report-btn").addEventListener("click", () => $("#report").showModal());
-    $("#removal").innerHTML = s.contact_email
-      ? `Organizzi un evento e vuoi correggerlo o toglierlo? <a href="mailto:${attr(s.contact_email)}">Scrivici</a>.` : "";
+    const dlg = $("#report-dlg");
+    dlg.querySelectorAll("[data-close]").forEach((b) => b.addEventListener("click", () => dlg.close()));
+    $("#report-submit").addEventListener("click", sendReport);
+  }
+
+  function openReport(e) {
+    reportEvent = e;
+    $("#report-form").reset();
+    $("#report-status").hidden = true;
+    $("#report-submit").disabled = false;
+    $("#report-event").textContent = e.title;
+    $("#report-dlg").showModal();
+    checkApi();
+  }
+
+  async function sendReport() {
+    const st = $("#report-status");
+    const show = (kind, html) => { st.className = "status " + kind; st.innerHTML = html; st.hidden = false; };
+    const fd = new FormData($("#report-form"));
+    const data = { uid: reportEvent.uid, tipo: fd.get("tipo"), messaggio: String(fd.get("messaggio") || "").trim(),
+      contatto: String(fd.get("contatto") || "").trim(), website: String(fd.get("website") || "") };
+    if (data.messaggio.length < 5) { show("err", "Scrivi in breve cosa va corretto o perché rimuoverlo."); $("#r-msg").focus(); return; }
+    if (!API || !apiOk) {
+      if (DATA.site.contact_email) {
+        const subj = `${data.tipo === "rimozione" ? "Rimozione" : "Correzione"} evento ${reportEvent.uid}`;
+        location.href = `mailto:${DATA.site.contact_email}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(`Evento: ${reportEvent.title}\n\n${data.messaggio}`)}`;
+      } else show("err", "Il servizio di segnalazione non è attivo in questo momento. Riprova più tardi.");
+      return;
+    }
+    $("#report-submit").disabled = true;
+    try {
+      await apiCall("/api/segnala", data);
+      show("ok", "<strong>Grazie, la controlliamo al più presto.</strong>");
+      setTimeout(() => $("#report-dlg").close(), 1600);
+    } catch (err) {
+      show("err", esc(err.message));
+      $("#report-submit").disabled = false;
+    }
   }
 
   // ---------------------------------------------------------------- utilità
@@ -658,32 +1031,35 @@
     EVENTS = DATA.events.filter((e) => e.start && e.lat != null);
     DATA.categories.forEach((c) => (CAT[c.id] = c));
     if (DATA.site.title) { $("#site-title").textContent = DATA.site.title; document.title = DATA.site.title; }
-    const fill = (sel, obj) => Object.entries(obj || {}).forEach(([k, v]) => {
-      if (k !== "sconosciuto") $(sel).insertAdjacentHTML("beforeend", `<option value="${k}">${esc(v)}</option>`);
-    });
-    fill("#access", DATA.access);
-    fill("#audience", DATA.audiences);
-    fill("#setting", DATA.settings);
     const g = new Date(DATA.generated);
     $("#updated").textContent = `Aggiornato il ${g.getDate()} ${MONTHS[g.getMonth()]} alle ${pad(g.getHours())}:${pad(g.getMinutes())}.`;
+    API = (DATA.site.api_url || "").replace(/\/$/, "");
+    if (DATA.site.days_ahead) STRIP_DAYS = DATA.site.days_ahead;
+    setupAdd();
     setupReport();
     setupSearch();
+    setupScrollNav("#strip");
+    setupScrollNav("#chips");
+    setupFilters();
+    $("#panel-hide").addEventListener("click", () => setSidebar(false));
+    $("#list-toggle").addEventListener("click", () => setSidebar(true));
+    try { if (localStorage.getItem("andiamo-sidebar") === "0" && !MOBILE()) setSidebar(false, { remember: false }); } catch (_) { /* privato */ }
+    const brand = $(".brand-pill");
+    $("#list-toggle").style.left = `${brand.offsetLeft + brand.offsetWidth + 8}px`;
     setupSheet();
     setSheet(MOBILE() ? "peek" : "half");
 
     setPreset("all");
     document.querySelectorAll(".presets button").forEach((b) =>
       b.addEventListener("click", () => { setPreset(b.dataset.preset); onlyUids = null; update(); }));
-    for (const k of ["access", "audience", "setting"]) {
-      $("#" + k).addEventListener("change", (ev) => { state[k] = ev.target.value; onlyUids = null; update(); });
-    }
     $("#reset").addEventListener("click", () => {
-      state.cats.clear(); state.access = state.audience = state.setting = state.q = ""; onlyUids = null;
-      for (const k of ["q", "access", "audience", "setting"]) $("#" + k).value = "";
+      state.cats.clear(); state.aud.clear(); state.access = state.q = ""; onlyUids = null;
+      $("#q").value = "";
       setPreset("all"); closeDetail(); update(true);
     });
     $("#more-filters").addEventListener("click", (ev) => {
       const open = $(".filters").classList.toggle("expanded");
+      if (open && MOBILE()) setSheet("peek");          // il pannello eventi non deve coprire i filtri
       ev.currentTarget.setAttribute("aria-expanded", String(open));
     });
     $("#locate").addEventListener("click", locate);
@@ -699,6 +1075,9 @@
     if (state.selected) select(state.selected, { detail: true, fromHistory: true });   // scheda subito, mappa dopo
     initMap();
   }
+
+  // accesso di sola lettura per test e debug dalla console
+  window.andiamo = { map: () => map, coords: (uid) => COORDS[uid], events: () => EVENTS };
 
   start();
 })();

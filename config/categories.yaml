@@ -168,8 +168,25 @@ access:
   offerta: Offerta libera
   biglietto: A pagamento
   iscrizione: Iscrizione richiesta
-  invito: Su invito
+  invito: Su invito (evento privato)
   sconosciuto: Da verificare
+
+# Gruppi del filtro "Accesso" sul sito: ogni gruppo raccoglie piu' tipi di accesso.
+access_groups:
+  libero:
+    label: Libero
+    includes: [libero, offerta]
+  pagamento:
+    label: A pagamento
+    includes: [biglietto]
+  iscrizione:
+    label: Iscrizione
+    includes: [iscrizione, invito]
+
+# Scelte del filtro "Per chi" mostrate sul sito (attivabili insieme).
+audience_filters:
+  famiglie: Famiglie
+  animali: Animali ammessi
 
 # Filtri trasversali "Per chi": l'AI li assegna solo se il testo lo dice esplicitamente.
 audiences:

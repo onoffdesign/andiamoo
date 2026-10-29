@@ -1,7 +1,7 @@
 # Impostazioni generali. I segreti (token Telegram ecc.) stanno nel file .env, mai qui.
 
 site:
-  title: "Andiamoo"                  # dominio futuro: andiamoo.ai
+  title: "ANDIAMO?"                  # dominio futuro: andiamoo.ai
   tagline: "Cosa succede in provincia di Treviso, su una mappa."
   base_url: "https://onoffdesign.github.io/andiamoo"
   center: [45.75, 12.25]               # lat, lon
@@ -9,6 +9,14 @@ site:
   telegram_bot: ""                     # es. AndiamooBot (senza @): bottone "Segnala"
   form_url: ""                         # link al Google Form per organizzatori
   contact_email: ""                    # per richieste di correzione o rimozione
+  api_url: ""                          # indirizzo pubblico dell'API sul PC (Cloudflare Tunnel), es. https://api.andiamoo.ai
+
+api:
+  host: "127.0.0.1"                    # il tunnel si collega in locale: nessuna porta aperta sul router
+  port: 8787
+  allowed_origins:                     # siti che possono usare l'API (oltre a site.base_url)
+    - "http://localhost:8000"
+    - "http://127.0.0.1:8765"
 
 area:
   # Province ammesse (nome come lo restituisce OpenStreetMap nel campo "county").
@@ -36,6 +44,14 @@ geocoding:
   provider: nominatim
   url: "https://nominatim.openstreetmap.org/search"
   min_delay_seconds: 1.1       # regola d'uso di Nominatim: max 1 richiesta al secondo
+  # Eventi con solo il comune: si cerca il luogo esatto nel testo, nella pagina dell'evento e nelle pagine collegate.
+  deep_search:
+    enabled: true
+    max_pages_per_run: 80      # pagine scaricate in piu' per giro (poi restano in cache)
+    max_candidates: 5          # luoghi candidati provati per evento
+    max_km_from_town: 8        # un luogo trovato piu' lontano dal comune viene scartato
+  # Sulla mappa gli eventi con solo il comune vengono sparsi attorno al centro (posizione indicativa).
+  town_scatter_meters: [150, 650]
 
 publish:
   git_push: true

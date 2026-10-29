@@ -25,6 +25,8 @@ CREATE TABLE IF NOT EXISTS http_cache (url TEXT PRIMARY KEY, body TEXT, fetched 
 CREATE TABLE IF NOT EXISTS geocode_cache (query TEXT PRIMARY KEY, result TEXT, fetched REAL);
 CREATE TABLE IF NOT EXISTS ai_cache (key TEXT PRIMARY KEY, result TEXT, created REAL);
 CREATE TABLE IF NOT EXISTS runs (id INTEGER PRIMARY KEY AUTOINCREMENT, started REAL, finished REAL, report TEXT);
+CREATE TABLE IF NOT EXISTS reports (id INTEGER PRIMARY KEY AUTOINCREMENT, uid TEXT, kind TEXT, message TEXT,
+                                    contact TEXT, created REAL, handled INTEGER DEFAULT 0);
 """
 
 
@@ -122,6 +124,11 @@ class Store:
     def ai_put(self, key: str, result: dict) -> None:
         self.db.execute("INSERT OR REPLACE INTO ai_cache(key, result, created) VALUES (?,?,?)",
                         (key, json.dumps(result, ensure_ascii=False), time.time()))
+        self.db.commit()
+
+    def add_report(self, uid: str, kind: str, message: str, contact: str) -> None:
+        self.db.execute("INSERT INTO reports(uid, kind, message, contact, created) VALUES (?,?,?,?,?)",
+                        (uid, kind, message, contact, time.time()))
         self.db.commit()
 
     def log_run(self, started: float, report: dict) -> None:

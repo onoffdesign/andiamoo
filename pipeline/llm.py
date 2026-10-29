@@ -65,6 +65,12 @@ EXTRACT_SCHEMA = {
     "required": ["events"],
 }
 
+PLACE_SCHEMA = {
+    "type": "object",
+    "properties": {"venue": {"type": "string"}, "address": {"type": "string"}, "town": {"type": "string"}},
+    "required": ["venue", "address", "town"],
+}
+
 SYSTEM = """Estrai e schematizzi dati di eventi in provincia di Treviso per una mappa pubblica.
 Regole:
 - Usa solo informazioni presenti nel testo. Se un dato manca lascia la stringa vuota. Non dedurre, non inventare.
@@ -146,6 +152,11 @@ class OllamaLLM:
                 "eventi aziendali...). Se il testo e' cronaca, polemica o un evento gia' concluso, restituisci events vuoto.\n"
                 f"{hint}\n\nTESTO:\n" + strip_personal_data(text)[:8000])
         return self._chat(user, EXTRACT_SCHEMA).get("events", [])
+
+    def extract_place(self, title: str, text: str) -> dict:
+        user = (f"Dove si svolge l'evento \"{title}\"? Riporta nome del luogo, via con numero civico e comune "
+                "solo se scritti nel testo. Se non ci sono, stringhe vuote.\n\nTESTO:\n" + strip_personal_data(text)[:6000])
+        return self._chat(user, PLACE_SCHEMA)
 
     def extract_from_image(self, image: bytes, caption: str = "") -> list[dict]:
         user = ("Questa e' la locandina o lo screenshot di un evento. Leggi titolo, data, orario, luogo, prezzo. "
