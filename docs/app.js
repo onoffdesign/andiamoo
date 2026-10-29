@@ -272,33 +272,46 @@
     const c = CAT[e.category] || { label: "Evento", color: "#ddd" };
     const sub = (c.sub || {})[e.subcategory];
     const place = [e.venue, e.address, e.town].filter(Boolean).join(", ");
-    const who = (e.audience || []).map((a) => DATA.audiences[a]).filter(Boolean).join(", ");
     const where = DATA.settings[e.setting] || "";
     const g = accessGroup(e);
     const private_ = (DATA.access[e.access] || "").match(/\((.*)\)$/);       // es. "Su invito (evento privato)"
-    const accessText = g ? [private_ ? private_[1][0].toUpperCase() + private_[1].slice(1) : "", e.price].filter(Boolean).join(" · ")
-      : ["Da verificare sul sito ufficiale", e.price].filter(Boolean).join(" · ");
+    const price = /^(sconosciut|non (indicat|specificat|disponibil)|n\/?d|nd|-|\?)/i.test((e.price || "").trim()) ? "" : e.price;
+    const accessText = g ? [private_ ? private_[1][0].toUpperCase() + private_[1].slice(1) : "", price].filter(Boolean).join(" · ")
+      : ["Da verificare sul sito ufficiale", price].filter(Boolean).join(" · ");
     const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
     const also = (e.also_on || []).filter((a) => a.url);
     const dist = kmText(km(e));
+    const placeLine2 = [e.address, e.venue ? e.town : ""].filter(Boolean).join(", ");
+    const placeLine3 = [where, dist ? `${dist} da te` : ""].filter(Boolean).join(" · ");
+    const d0 = parseDay(e.start), t0 = timeOf(e);
+    const sameDayEnd = e.end && e.end.slice(0, 10) === e.start.slice(0, 10) && e.end.length > 10 ? e.end.slice(11, 16) : "";
+    const multiDay = e.end && e.end.slice(0, 10) !== e.start.slice(0, 10);
+    const timeLine = t0 ? (sameDayEnd ? `dalle ${t0} alle ${sameDayEnd}` : `ore ${t0}`) : (multiDay ? "" : "orario da verificare");
+    const untilLine = multiDay ? `fino a ${dayLabel(parseDay(e.end)).toLowerCase()}` : "";
     el.innerHTML = `
       <button class="text-btn back" type="button">← Tutti gli eventi</button><br>
       <span class="cat" style="--c:${c.color}">${esc(c.label)}${sub ? ` · ${esc(sub)}` : ""}</span>
       <h2>${esc(e.title)}</h2>
-      <dl class="facts">
-        <dt>Quando</dt><dd>${esc(whenText(e))}</dd>
-        ${place ? `<dt>Dove</dt><dd>${esc(place)}${where ? ` · ${esc(where.toLowerCase())}` : ""}${dist ? ` · ${dist} da te` : ""}</dd>` : ""}
-        <dt>Accesso</dt><dd class="acc-dd">${accessBadge(e)}${accessText ? `<span>${esc(accessText)}</span>` : ""}</dd>
-        ${who ? `<dt>Per chi</dt><dd>${esc(who)}</dd>` : ""}
-      </dl>
+      <div class="when-big">
+        <div class="date-tile" aria-hidden="true"><span class="dow">${DOW[d0.getDay()]}</span><span class="d">${d0.getDate()}</span><span class="m">${MONTHS[d0.getMonth()].slice(0, 3)}</span></div>
+        <div><strong class="when-main">${esc(dayLabel(d0))}</strong>
+          ${timeLine ? `<span class="when-time">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="when-time">${esc(untilLine)}</span>` : ""}</div>
+      </div>
+      ${place ? `<div class="place-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        <div><strong>${esc(e.venue || e.town)}</strong>${placeLine2 ? `<span>${esc(placeLine2)}</span>` : ""}${
+          placeLine3 ? `<span class="muted">${esc(placeLine3)}</span>` : ""}</div></div>` : ""}
+      <div class="meta-row acc-dd">${accessBadge(e)}${accessText ? `<span>${esc(accessText)}</span>` : ""}${
+        (e.audience || []).map((a) => `<span class="who-pill">${esc(DATA.audiences[a] || a)}</span>`).join("")}</div>
       ${e.summary ? `<p class="summary">${esc(e.summary)}</p>` : ""}
-      <p class="official-note">${e.ai_summary ? "Dettagli riassunti tramite AI. " : ""}Per il programma ufficiale e le iscrizioni, visita il sito ufficiale${host ? ` (${esc(host)})` : ""}.</p>
-      <p class="also">Fonte: <a href="${attr(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_name)}</a>${
-        also.length ? `. Anche su: ${also.map((a) => `<a href="${attr(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ")}` : ""}</p>
-      <button class="report-link" type="button" data-report>
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4h11l-1.5 4L16 12H5"/></svg>Segnala una modifica o la rimozione</button>
+      <div class="detail-secondary">
+        <p>${e.ai_summary ? "Dettagli riassunti tramite AI. " : ""}Per il programma ufficiale e le iscrizioni fa fede il sito ufficiale${host ? ` (${esc(host)})` : ""}.</p>
+        <p>Fonte: <a href="${attr(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_name)}</a>${
+          also.length ? ` · Anche su: ${also.map((a) => `<a href="${attr(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ")}` : ""}</p>
+        <button class="report-link" type="button" data-report>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4h11l-1.5 4L16 12H5"/></svg>Segnala una modifica o la rimozione</button>
+      </div>
       <div class="detail-actions">
-        <a class="cta" href="${attr(e.action_url)}" target="_blank" rel="noopener"><span>Sito ufficiale</span><i aria-hidden="true">↗</i></a>
+        <a class="cta" href="${attr(e.action_url)}" target="_blank" rel="noopener"><span>Scopri di più</span><i aria-hidden="true">↗</i></a>
         <button class="round" type="button" data-ics aria-label="Aggiungi al calendario" title="Aggiungi al calendario">
           <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
         <a class="round" target="_blank" rel="noopener" aria-label="Indicazioni stradali" title="Indicazioni"
@@ -458,17 +471,31 @@
           map.easeTo({ center: f.geometry.coordinates, zoom: z + 0.3, padding: mapPadding() }));
       });
       map.on("click", "points", (ev) => {
-        const uids = [...new Set(ev.features.map((f) => f.properties.uid))];
+        // segnaposti vicini: si apre quello piu' vicino al clic; l'elenco "in questo punto" solo se sono
+        // davvero uno sopra l'altro (stessa posizione sullo schermo)
+        const seen = new Set(), hits = [];
+        for (const f of ev.features) {
+          const uid = f.properties.uid;
+          if (seen.has(uid)) continue;
+          seen.add(uid);
+          const p = map.project(f.geometry.coordinates);
+          hits.push({ uid, p, d: Math.hypot(p.x - ev.point.x, p.y - ev.point.y) });
+        }
+        hits.sort((a, b) => a.d - b.d);
+        const near = hits[0];
+        const stacked = hits.filter((h) => Math.hypot(h.p.x - near.p.x, h.p.y - near.p.y) < 4);
         if (state.detail) closeDetail({ keepHistory: true });          // altro evento: la scheda torna elenco
-        if (uids.length === 1) {
+        if (stacked.length === 1) {
+          if (onlyUids) { onlyUids = null; update(); }
           if (MOBILE()) setSheet("peek");
-          select(uids[0], { fly: false, detail: false });
-        } else { onlyUids = new Set(uids); closeCard(); update(); setSheet("half"); }
+          select(near.uid, { fly: false, detail: false });
+        } else { onlyUids = new Set(stacked.map((h) => h.uid)); closeCard(); update(); setSheet("half"); }
       });
       // "−" sul segnaposto aperto, o clic fuori: chiude la card e la sidebar torna all'elenco
       map.on("click", "points-selected", () => closeAll());
       map.on("click", (ev) => {
         if (map.queryRenderedFeatures(ev.point, { layers: ["points", "clusters", "points-selected"] }).length) return;
+        if (onlyUids) { onlyUids = null; update(); }                  // l'elenco torna a tutti gli eventi
         if (popup || state.detail) closeAll();
         else if (MOBILE()) setSheet("peek");
       });
@@ -518,7 +545,7 @@
     const dist = kmText(km(e));
     el.innerHTML = `${accessBadge(e)}<h3>${esc(e.title)}</h3>
       <p>${esc(whenText(e))}</p><p>${esc([e.venue, e.town].filter(Boolean).join(", "))}${dist ? ` · ${dist}` : ""}</p>
-      <button class="more" type="button">Dettagli</button>`;
+      <button class="more" type="button">Dettagli evento</button>`;
     el.querySelector(".more").addEventListener("click", () => select(e.uid, { fly: false, detail: true }));
     if (popup) popup.remove();
     popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: 22, maxWidth: "none" })
@@ -613,6 +640,7 @@
 
   // Chiude card e scheda: la sidebar torna all'elenco degli eventi visibili.
   function closeAll() {
+    if (onlyUids) { onlyUids = null; if (!state.detail) update(); }
     if (state.detail) closeDetail();
     else { closeCard(); state.selected = null; if (location.hash) history.replaceState(null, "", location.pathname + location.search); }
   }
@@ -773,8 +801,8 @@
 
   // ---------------------------------------------------------------- aggiornamento
   function update(fit) {
-    let items = EVENTS.filter((e) => matches(e));
-    if (onlyUids) items = items.filter((e) => onlyUids.has(e.uid));
+    const onMap = EVENTS.filter((e) => matches(e));          // la mappa mostra sempre tutti gli eventi filtrati
+    let items = onlyUids ? onMap.filter((e) => onlyUids.has(e.uid)) : onMap.slice();   // l'elenco puo' restringersi a un punto
     const from = state.from || "";
     if (state.sort === "distance" && state.me) items.sort((a, b) => km(a) - km(b));
     else {
@@ -793,10 +821,10 @@
     sortBtn.textContent = state.sort === "distance" && state.me ? "Più vicini" : state.me ? "Per data" : "Più vicini";
     $("#reset").hidden = !(state.cats.size || state.access.size || state.aud.size || state.q || onlyUids);
     if (mapReady) {
-      map.getSource("ev").setData(geojson(items));
-      if (fit && items.length && !state.selected) {
+      map.getSource("ev").setData(geojson(onMap));
+      if (fit && onMap.length && !state.selected) {
         const b = new maplibregl.LngLatBounds();
-        items.forEach((e) => b.extend([e.lon, e.lat]));
+        onMap.forEach((e) => b.extend([e.lon, e.lat]));
         map.fitBounds(b, { padding: mapPadding(), maxZoom: 12, duration: 0 });
       }
     }

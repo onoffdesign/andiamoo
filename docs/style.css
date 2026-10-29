@@ -8,7 +8,7 @@
   --ink-2: #66625b;
   --line: #e4e0d7;
   --chip: #efece6;
-  --cta: #f9d33a;         /* giallo azione */
+  --cta: #ffab1f;         /* giallo aranciato: colore del brand e delle azioni */
   --me: #2f6bff;          /* posizione dell'utente */
   --warn: #c2410c;        /* campi mancanti */
   --focus: #2f6bff;
@@ -192,16 +192,35 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .facts { display: grid; grid-template-columns: clamp(64px, 21cqi, 92px) 1fr; gap: 8px clamp(8px, 3cqi, 12px); margin: 0 0 16px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: clamp(.875rem, 3.8cqi, 1rem); }
 .facts dt { color: var(--ink-2); font-size: clamp(.75rem, 3.2cqi, .8125rem); padding-top: 1px; }
 .facts dd { margin: 0; }
-.summary { font-size: clamp(.9375rem, 4cqi, 1.0625rem); line-height: 1.55; margin: 0 0 16px; }
-.official-note { margin: 0 0 14px; font-size: .875rem; color: var(--ink-2); line-height: 1.45; }
-.also { font-size: .8125rem; color: var(--ink-2); line-height: 1.6; margin: 0 0 10px; }
-.also a { color: var(--ink); }
+/* scheda: prima quando e dove, ben visibili; poi accesso, pubblico e descrizione */
+.when-big { display: flex; align-items: center; gap: 14px; margin: 0 0 16px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.date-tile {
+  flex: 0 0 auto; width: clamp(56px, 17cqi, 68px); border: 2px solid var(--ink); border-radius: 8px; overflow: hidden; text-align: center;
+  font-family: var(--display); font-stretch: 112%; text-transform: uppercase; line-height: 1;
+}
+.date-tile .dow { display: block; padding: 4px 0 3px; background: var(--ink); color: #fff; font-size: .6875rem; font-weight: 700; letter-spacing: .05em; }
+.date-tile .d { display: block; padding: 6px 0 2px; font-size: clamp(1.5rem, 8cqi, 1.875rem); font-weight: 700; font-variant-numeric: tabular-nums; }
+.date-tile .m { display: block; padding: 0 0 6px; font-size: .6875rem; font-weight: 700; letter-spacing: .05em; }
+.when-main { display: block; font-size: clamp(1.0625rem, 4.8cqi, 1.25rem); font-weight: 700; line-height: 1.25; }
+.when-time { display: block; margin-top: 2px; font-size: clamp(1rem, 4.4cqi, 1.125rem); line-height: 1.3; }
+.place-row { display: flex; align-items: flex-start; gap: 10px; margin: 0 0 14px; font-size: clamp(.9375rem, 4cqi, 1rem); line-height: 1.35; }
+.place-row svg { flex-shrink: 0; width: 22px; height: 22px; margin-top: 1px; }
+.place-row strong { display: block; font-weight: 700; }
+.place-row span { display: block; }
+.place-row .muted { color: var(--ink-2); font-size: .875rem; }
+.meta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0 0 16px; font-size: .875rem; }
+.who-pill { display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border-radius: 6px; background: var(--chip); font-size: .75rem; font-weight: 600; }
+.summary { font-size: clamp(.9375rem, 4cqi, 1.0625rem); line-height: 1.55; margin: 0 0 8px; }
+/* informazioni di servizio: piccole, staccate, in fondo */
+.detail-secondary { margin: 28px 0 0; padding: 12px 0 4px; border-top: 1px dashed var(--line); color: #8a857c; font-size: .75rem; line-height: 1.5; }
+.detail-secondary p { margin: 0 0 6px; }
+.detail-secondary a { color: #8a857c; text-underline-offset: 2px; }
 .report-link {
-  display: inline-flex; align-items: center; gap: 6px; margin: 2px 0 4px; padding: 6px 0; border: 0; background: none;
-  color: var(--ink-2); font-size: .8125rem; cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
+  display: inline-flex; align-items: center; gap: 5px; margin: 2px 0 0; padding: 4px 0; border: 0; background: none;
+  color: #8a857c; font-size: .75rem; cursor: pointer; text-decoration: underline; text-underline-offset: 2px;
 }
 .report-link:hover { color: var(--ink); }
-.report-link svg { width: 15px; height: 15px; }
+.report-link svg { width: 13px; height: 13px; }
 
 /* barra azioni della scheda: resta in basso, a portata di pollice */
 .detail-actions {
@@ -316,9 +335,11 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .card.long h3 { font-size: .9375rem; line-height: 1.15; }
 .card p { margin: 0; font-size: .875rem; line-height: 1.4; }
 .card .more {
-  margin-top: 8px; min-height: 32px; border: 0; padding: 0; background: none; cursor: pointer; font-size: .8125rem; font-weight: 600;
-  text-decoration: underline; text-underline-offset: 3px;
+  display: flex; align-items: center; justify-content: center; width: 100%; margin-top: 12px; min-height: 40px; padding: 0 12px;
+  border: 0; border-radius: 6px; background: var(--ink); color: #fff; cursor: pointer;
+  font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .875rem; font-weight: 700; letter-spacing: .04em;
 }
+.card .more:hover { background: #333; }
 .me-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--me); border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(47, 107, 255, .2); }
 .maplibregl-ctrl-attrib { font-size: 10px; background: rgba(255, 255, 255, .6) !important; }
 /* attribuzione OpenStreetMap/OpenFreeMap sempre visibile, sopra il pannello filtri */

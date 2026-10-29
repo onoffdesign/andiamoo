@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import logging
+import re
 
 from . import categories as cats
 from .llm import RulesLLM
@@ -45,6 +46,8 @@ def enrich(ev: Event, llm) -> Event:
         if not ev.setting and out.get("setting") in cats.setting_ids():
             ev.setting = out["setting"]
         ev.needs_ai = False
+    if re.match(r"(?i)^\s*(sconosciut|non (indicat|specificat|disponibil)|n/?d\b|-+$|\?)", ev.price or ""):
+        ev.price = ""                     # l'AI a volte scrive "sconosciuto" invece di lasciare vuoto
     if not ev.category:
         ev.category, ev.subcategory = cats.classify_rules(f"{ev.title}\n{ev.summary}\n{ev.raw_text}")
     if not ev.category:
