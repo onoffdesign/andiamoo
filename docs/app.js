@@ -677,6 +677,39 @@
       else target = p.dataset.sheet === "peek" ? "peek" : "full";
       setSheet(target);
     }
+    // Pannello aperto: trascinando verso il basso da un punto qualsiasi del contenuto (quando e' gia'
+    // in cima) il pannello segue il dito e si chiude; verso l'alto il contenuto scorre normalmente.
+    const body = $("#panel-body");
+    let tY = 0, tStart = 0, tLastY = 0, tLastT = 0, tVel = 0, tDrag = false, tActive = false;
+    body.addEventListener("touchstart", (ev) => {
+      tActive = MOBILE() && p.dataset.sheet === "full" && ev.touches.length === 1;
+      tDrag = false;
+      if (!tActive) return;
+      tY = tLastY = ev.touches[0].clientY; tLastT = performance.now(); tVel = 0;
+      tStart = currentOffset();
+    }, { passive: true });
+    body.addEventListener("touchmove", (ev) => {
+      if (!tActive) return;
+      const y = ev.touches[0].clientY, dy = y - tY;
+      if (!tDrag) {
+        if (body.scrollTop > 0 || dy <= 6) { if (dy < -6 || body.scrollTop > 0) tActive = false; return; }
+        tDrag = true; p.classList.add("dragging");
+      }
+      ev.preventDefault();                       // il contenuto non scorre mentre si trascina il pannello
+      const now = performance.now();
+      tVel = (y - tLastY) / Math.max(1, now - tLastT); tLastY = y; tLastT = now;
+      p.style.setProperty("--sheet-y", `${Math.min(Math.max(0, tStart + dy - 6), offsetOf("peek"))}px`);
+    }, { passive: false });
+    const tEnd = () => {
+      if (!tDrag) { tActive = false; return; }
+      tDrag = tActive = false;
+      p.classList.remove("dragging");
+      const moved = currentOffset() - tStart;
+      setSheet(tVel > 0.25 || moved > 50 ? "peek" : "full");
+    };
+    body.addEventListener("touchend", tEnd);
+    body.addEventListener("touchcancel", tEnd);
+
     p.addEventListener("pointerdown", down);
     window.addEventListener("pointermove", move, { passive: false });
     window.addEventListener("pointerup", up);
