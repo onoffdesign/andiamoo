@@ -486,7 +486,7 @@
     el.className = "card" + (e.title.length > 60 ? " long" : "");
     el.style.setProperty("--c", c.color);
     const dist = kmText(km(e));
-    el.innerHTML = `${accessBadge(e, { unknown: "Accesso da verificare" })}<h3>${esc(e.title)}</h3>
+    el.innerHTML = `${accessBadge(e)}<h3>${esc(e.title)}</h3>
       <p>${esc(whenText(e))}</p><p>${esc([e.venue, e.town].filter(Boolean).join(", "))}${dist ? ` · ${dist}` : ""}</p>
       <button class="more" type="button">Dettagli</button>`;
     el.querySelector(".more").addEventListener("click", () => select(e.uid, { fly: false, detail: true }));
