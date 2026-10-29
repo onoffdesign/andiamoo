@@ -493,8 +493,29 @@
     if (popup) popup.remove();
     popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: 22, maxWidth: "none" })
       .setLngLat(COORDS[e.uid] || [e.lon, e.lat]).setDOMContent(el).addTo(map);
+    fitTitle(el.querySelector("h3"));
     markSelected(e.uid);
     if (!opts.noReveal) requestAnimationFrame(() => ensureCardVisible());
+  }
+
+  // Titoli: si va a capo tra parole intere. Solo una parola piu' larga della card viene spezzata,
+  // con il trattino nel punto in cui serve (trattini morbidi, senza dizionario).
+  function fitTitle(h) {
+    const max = h && h.clientWidth;
+    if (!max) return;
+    const probe = document.createElement("span");
+    probe.style.cssText = "position:absolute;visibility:hidden;white-space:nowrap";
+    h.appendChild(probe);
+    let changed = false;
+    const parts = h.textContent.replace(probe.textContent, "").split(/(\s+)/).map((w) => {
+      if (!w.trim()) return w;
+      probe.textContent = w;
+      if (probe.getBoundingClientRect().width <= max) return w;
+      changed = true;
+      return [...w].join("\u00AD");
+    });
+    probe.remove();
+    if (changed) h.textContent = parts.join("");
   }
 
   function markSelected(uid) {
