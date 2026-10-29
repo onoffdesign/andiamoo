@@ -92,3 +92,23 @@ def test_review_queue_priorities():
     assert any("solo il comune" in m for m in q[0]["motivi"])
     corr["verificati"][soon.uid] = "2026-10-30"
     assert [i["titolo"] for i in quality.build_queue([ok, late, soon], corr, ai_on=True)] == ["Sagra lontana"]
+
+
+def test_morning_report(tmp_path, monkeypatch):
+    import json as _json
+    from pipeline import report
+    from pipeline.textutil import today_rome
+    today = today_rome().isoformat()
+    ops = tmp_path / "ops"; ops.mkdir()
+    (ops / "rapporto.json").write_text(_json.dumps({"giro_pc": True, "finito_alle": today + "T01:08+01:00", "minuti": 7,
+        "modello": "gemma3:12b", "in_revisione": 12, "fonti": {"insolitotrantran": {"trovati": 50, "nuovi": 4, "errore": ""},
+        "ticketone": {"trovati": 0, "nuovi": 0, "errore": "timeout"}, "redazione": {"trovati": 0}}}), encoding="utf-8")
+    (ops / "riepilogo-notte.json").write_text(_json.dumps({"data": today, "aggiunti": 9, "corretti": 3, "rimossi": 1,
+        "verificati": 20, "aggiunti_per_categoria": {"musica": 6, "sport": 3}, "fonti_nuove": 11, "problemi": ["DICE vuoto"]}),
+        encoding="utf-8")
+    monkeypatch.setattr(report, "OPS", ops)
+    monkeypatch.setattr(report, "DATA_DIR", tmp_path)
+    (tmp_path / "resoconto.json").write_text('{"eventi_sul_sito": 120}', encoding="utf-8")
+    msg = report.build_message()
+    assert "eventi nuovi dalle fonti: 4" in msg and "ticketone (timeout)" in msg and "redazione" not in msg
+    assert "aggiunti 9" in msg and "Musica 6" in msg and "DICE vuoto" in msg and "rispetto a ieri" in msg

@@ -30,19 +30,29 @@ $action = New-ScheduledTaskAction -Execute "$Root\windows\run_pipeline.bat" -Arg
 $trigger = New-ScheduledTaskTrigger -Daily -At "01:00"
 $settings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
             -ExecutionTimeLimit (New-TimeSpan -Hours 4) -MultipleInstances IgnoreNew
+# Resoconto su Telegram alle 07:30, dopo la revisione di Claude (03:37): risveglio, invio, di nuovo ibernazione
+$repAction = New-ScheduledTaskAction -Execute "$Root\windows\run_report.bat" -Argument "notte" -WorkingDirectory $Root
+$repTrigger = New-ScheduledTaskTrigger -Daily -At "07:30"
+$repSettings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
+               -ExecutionTimeLimit (New-TimeSpan -Minutes 20) -MultipleInstances IgnoreNew
 if ($SenzaAccesso) {
     $cred = Get-Credential -UserName "$env:USERDOMAIN\$env:USERNAME" -Message "Password di Windows per il giro notturno di ANDIAMO?"
     Register-ScheduledTask -TaskName "Andiamoo-Pipeline" -Action $action -Trigger $trigger -Settings $settings `
         -User $cred.UserName -Password $cred.GetNetworkCredential().Password -RunLevel Limited -Force | Out-Null
+    Register-ScheduledTask -TaskName "Andiamoo-Resoconto" -Action $repAction -Trigger $repTrigger -Settings $repSettings `
+        -User $cred.UserName -Password $cred.GetNetworkCredential().Password -RunLevel Limited -Force | Out-Null
 } else {
     $principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType Interactive -RunLevel Limited
     Register-ScheduledTask -TaskName "Andiamoo-Pipeline" -Action $action -Trigger $trigger -Settings $settings `
+        -Principal $principal -Force | Out-Null
+    Register-ScheduledTask -TaskName "Andiamoo-Resoconto" -Action $repAction -Trigger $repTrigger -Settings $repSettings `
         -Principal $principal -Force | Out-Null
 }
 
 Write-Host ""
 Write-Host "Fatto:" -ForegroundColor Green
 Write-Host " - ogni notte alle 01:00 il PC si risveglia e parte il giro di ANDIAMO?, poi torna in ibernazione;"
+Write-Host " - alle 07:30 si risveglia per mandarti il resoconto su Telegram, poi torna in ibernazione;"
 Write-Host " - la sera iberna il PC dalla tua sessione: tasto di accensione o Start > Arresta > Iberna"
 Write-Host "   (NON 'Arresta il sistema' ne' 'Disconnetti': il giro parte nella sessione rimasta aperta);"
 Write-Host " - risvegli programmati attivi ora:"

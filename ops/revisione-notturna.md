@@ -87,6 +87,10 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    `ops/registro-redazione.md` una sezione `## AAAA-MM-GG` con: stato del giro del PC, eventi verificati / corretti /
    rimossi / aggiunti (per categoria), fonti note controllate e loro resa, fonti nuove catalogate, fonti spostate
    in `config/sources.yaml`, problemi aperti per la notte dopo.
+   Scrivi anche `ops/riepilogo-notte.json` (lo legge il resoconto Telegram delle 07:30), sostituendo il contenuto:
+   `{"data": "AAAA-MM-GG", "aggiunti": N, "corretti": N, "rimossi": N, "verificati": N,
+   "aggiunti_per_categoria": {"musica": N, ...}, "fonti_nuove": N, "fonti_spostate": N, "fonti_sistemate": N,
+   "problemi": ["...", "..."]}` (data di oggi, numeri della notte, al massimo 5 problemi brevi).
 9. **Commit e push** su `main` (anche a fine di ogni fase della ricerca): `git add config ops docs/data/events.json`, messaggio
    `Redazione notturna AAAA-MM-GG: N corretti, N rimossi, N aggiunti`, poi `git pull --rebase` e `git push`.
    Se il push fallisce per un conflitto, ripeti pull e push; non forzare mai.

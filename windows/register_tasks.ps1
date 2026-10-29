@@ -13,6 +13,13 @@ $opts = New-ScheduledTaskSettingsSet -StartWhenAvailable -DontStopIfGoingOnBatte
         -ExecutionTimeLimit (New-TimeSpan -Hours 4) -WakeToRun -MultipleInstances IgnoreNew
 Register-ScheduledTask -TaskName "Andiamoo-Pipeline" -Action $pipeline -Trigger $nightly -Settings $opts -Force | Out-Null
 
+# resoconto del mattino su Telegram (07:30, dopo la revisione di Claude)
+$report = New-ScheduledTaskAction -Execute "$Root\windows\run_report.bat" -Argument "notte" -WorkingDirectory $Root
+$morning = New-ScheduledTaskTrigger -Daily -At "07:30"
+$repOpts = New-ScheduledTaskSettingsSet -StartWhenAvailable -WakeToRun -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
+           -ExecutionTimeLimit (New-TimeSpan -Minutes 20) -MultipleInstances IgnoreNew
+Register-ScheduledTask -TaskName "Andiamoo-Resoconto" -Action $report -Trigger $morning -Settings $repOpts -Force | Out-Null
+
 $bot = New-ScheduledTaskAction -Execute "$Root\windows\run_bot.bat" -WorkingDirectory $Root
 $atLogon = New-ScheduledTaskTrigger -AtLogOn
 $botOpts = New-ScheduledTaskSettingsSet -StartWhenAvailable -RestartCount 999 -RestartInterval (New-TimeSpan -Minutes 1) `
