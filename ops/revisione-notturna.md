@@ -14,6 +14,11 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
 - **Link d'azione**: ogni evento deve avere `official_url` verso la pagina ufficiale (programma e iscrizioni).
 - **Niente dati personali** (telefoni, email, nomi di privati) e **niente immagini** copiate.
 - **Scraping solo come scoperta**: preferisci tanti piccoli siti ufficiali ai grandi portali; rispetta robots.txt.
+- **Solo eventi specifici**: una singola iniziativa con data e luogo precisi. Calendari, agende, elenchi di eventi,
+  pagine di portali, guide ("Calendario eventi e sagre", "Cosa fare nel weekend"...) non sono eventi: rimuovili e,
+  se contengono eventi della provincia, estrai i singoli eventi e aggiungili uno per uno. Gli eventi ricorrenti
+  (mercatino ogni terza domenica, visite ogni sabato) vanno divisi in date singole; mostre e rassegne con date
+  continue restano un evento unico con inizio e fine.
 - **Area**: solo provincia di Treviso. Eventi fuori provincia, conclusi, annullati o che non sono eventi: rimuovi.
 - Coordinate (`lat`, `lon`) solo se lette da un link mappa ufficiale; altrimenti indica luogo e indirizzo e il PC
   geolocalizza al giro successivo.

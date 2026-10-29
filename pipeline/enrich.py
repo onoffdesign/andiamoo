@@ -6,6 +6,7 @@ import re
 
 from . import categories as cats
 from .llm import RulesLLM
+from .kinds import looks_like_listing
 from .models import Event
 from .textutil import shorten, strip_personal_data
 
@@ -45,6 +46,9 @@ def enrich(ev: Event, llm) -> Event:
             ev.audience = [a for a in out["audience"] if a in cats.audience_ids()]
         if not ev.setting and out.get("setting") in cats.setting_ids():
             ev.setting = out["setting"]
+        if use_ai and out.get("tipo") in ("evento", "ricorrente", "non_evento"):
+            ev.kind = out["tipo"]
+            ev.recurrence = out.get("ricorrenza") or {} if ev.kind == "ricorrente" else {}
         ev.needs_ai = False
     if re.match(r"(?i)^\s*(sconosciut|non (indicat|specificat|disponibil)|n/?d\b|-+$|\?)", ev.price or ""):
         ev.price = ""                     # l'AI a volte scrive "sconosciuto" invece di lasciare vuoto
@@ -52,6 +56,8 @@ def enrich(ev: Event, llm) -> Event:
         ev.category, ev.subcategory = cats.classify_rules(f"{ev.title}\n{ev.summary}\n{ev.raw_text}")
     if not ev.category:
         ev.category = "comunita"
+    if looks_like_listing(ev):
+        ev.kind = "non_evento"            # calendari ed elenchi di eventi: non sono eventi
     if ev.access == "sconosciuto":
         ev.access = cats.access_rules(f"{ev.price} {ev.raw_text}")
     blob = f"{ev.title}\n{ev.summary}\n{ev.venue}\n{ev.raw_text}"

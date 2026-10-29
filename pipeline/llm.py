@@ -47,10 +47,29 @@ def _event_props() -> dict:
     }
 
 
+KIND_PROPS = {
+    "tipo": {"type": "string", "enum": ["evento", "ricorrente", "non_evento"],
+             "description": "evento = una singola iniziativa con data e luogo precisi (anche su piu' giorni, es. una mostra "
+                            "o una sagra di un weekend); ricorrente = la stessa iniziativa si ripete in date diverse "
+                            "(es. mercatino ogni terza domenica del mese); non_evento = calendario, elenco o raccolta di "
+                            "tanti eventi, pagina di un portale, guida, notizia generica senza un evento preciso"},
+    "ricorrenza": {
+        "type": "object",
+        "description": "solo se tipo = ricorrente, ricavata dal testo; altrimenti valori vuoti",
+        "properties": {
+            "frequenza": {"type": "string", "enum": ["settimanale", "mensile", "date_elencate", "sconosciuta"]},
+            "giorno_settimana": {"type": "string", "enum": ["lunedi", "martedi", "mercoledi", "giovedi", "venerdi",
+                                                           "sabato", "domenica", ""]},
+            "settimana_del_mese": {"type": "integer", "description": "1-4 = prima..quarta, -1 = ultima, 0 = tutte"},
+            "date_elencate": {"type": "array", "items": {"type": "string"}, "description": "AAAA-MM-GG, se il testo le elenca"},
+        },
+    },
+}
+
 ENRICH_SCHEMA = {
     "type": "object",
-    "properties": {k: v for k, v in _event_props().items() if k not in ("title", "start", "end")},
-    "required": ["summary", "category", "subcategory", "access", "venue", "address", "town", "province"],
+    "properties": {**{k: v for k, v in _event_props().items() if k not in ("title", "start", "end")}, **KIND_PROPS},
+    "required": ["summary", "category", "subcategory", "access", "venue", "address", "town", "province", "tipo"],
 }
 
 EXTRACT_SCHEMA = {

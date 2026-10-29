@@ -41,6 +41,8 @@ class Event:
     raw_text: str = ""               # testo grezzo per l'AI; non viene esportato
     ai_allowed: bool = True          # la fonte consente riscrittura AI?
     needs_ai: bool = True            # mancano dati che solo l'AI puo' ricavare?
+    kind: str = "evento"             # evento | ricorrente (diviso in date singole) | non_evento (calendari, elenchi: scartati)
+    recurrence: dict = field(default_factory=dict)   # regola o date della ricorrenza, ricavate dall'AI
     submitted_by: str = ""           # per segnalazioni: id chat Telegram o "modulo"
 
     @property

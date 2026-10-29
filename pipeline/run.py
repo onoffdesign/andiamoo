@@ -23,6 +23,7 @@ from .enrich import enrich
 from .export import discovery_report, export
 from .fetch import Fetcher
 from .geocode import Geocoder
+from .kinds import occurrences, split
 from .places import PlaceFinder
 from .llm import make_llm
 from .models import Event
@@ -68,19 +69,37 @@ def run_source(src: dict, ctx: Context, geo: Geocoder, store: Store, tg: Telegra
     stats["nel_periodo"] = len(events)
     if finder is not None:
         finder.begin_batch(events)
+    days_ahead = settings()["pipeline"]["days_ahead"]
     for ev in events:
         enrich(ev, ctx.llm)
+        # solo eventi specifici: calendari ed elenchi fuori, ricorrenti divisi in date singole
+        if ev.kind == "non_evento":
+            store.set_status(ev.uid, "rejected")          # se era gia' in archivio esce dal sito
+            stats["non_eventi"] = stats.get("non_eventi", 0) + 1
+            continue
+        if ev.kind == "ricorrente":
+            dates = occurrences(ev, days_ahead)
+            store.set_status(ev.uid, "rejected")          # al suo posto le date singole
+            stats["ricorrenti"] = stats.get("ricorrenti", 0) + 1
+            if not dates:
+                start, end = parse_day(ev.start), parse_day(ev.end)
+                if start and end and (end - start).days > 14:
+                    continue                                  # periodo lungo senza date precise: non e' specifico
+                ev.kind, dates = "evento", None              # pochi giorni: resta un evento unico
+        else:
+            dates = None
         if not geo.locate(ev, finder):
             continue
-        if ev.geo_precision == "town":
-            stats["solo_comune"] = stats.get("solo_comune", 0) + 1
-        stats["in_provincia"] += 1
-        is_new = store.upsert_event(ev)
-        stats["nuovi"] += int(is_new)
-        if is_new and ev.status == "pending" and tg.enabled:
-            from .config import env
-            tg.send(env("TELEGRAM_ADMIN_CHAT_ID"), "🆕 Segnalazione dal modulo:\n\n" + describe(ev),
-                    moderation_buttons(ev.uid))
+        for item in split(ev, dates) if dates else [ev]:
+            if item.geo_precision == "town":
+                stats["solo_comune"] = stats.get("solo_comune", 0) + 1
+            stats["in_provincia"] += 1
+            is_new = store.upsert_event(item)
+            stats["nuovi"] += int(is_new)
+            if is_new and item.status == "pending" and tg.enabled:
+                from .config import env
+                tg.send(env("TELEGRAM_ADMIN_CHAT_ID"), "🆕 Segnalazione dal modulo:\n\n" + describe(item),
+                        moderation_buttons(item.uid))
     stats["secondi"] = round(time.time() - t0)
     return stats
 

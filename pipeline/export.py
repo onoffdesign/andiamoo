@@ -12,6 +12,7 @@ from urllib.parse import urlparse
 
 from .config import DATA_DIR, ROOT, settings, taxonomy
 from .enrich import SOCIAL, action_link
+from .kinds import looks_like_listing
 from .models import Event
 from .textutil import ROME, parse_day, today_rome
 
@@ -54,7 +55,7 @@ def export(events: list[Event]) -> dict:
     tax = copy.deepcopy(taxonomy())      # copia: la tassonomia in memoria serve ancora al classificatore
     items = []
     for ev in sorted(events, key=lambda e: e.start or ""):
-        if not visible(ev):
+        if not visible(ev) or ev.kind != "evento" or looks_like_listing(ev):
             continue
         d = ev.public_dict()
         d["action_url"] = action_link(ev)

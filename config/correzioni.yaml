@@ -14,5 +14,6 @@
 #   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
 
 correggi: {}
-rimuovi: {}
+rimuovi:
+  c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
 verificati: {}
