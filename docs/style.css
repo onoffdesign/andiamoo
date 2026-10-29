@@ -271,23 +271,19 @@ body.sidebar-hidden .list-toggle { display: flex; }
 
 /* ---------- accesso: tre gruppi distinguibili a colpo d'occhio ---------- */
 .acc {
-  display: inline-flex; align-items: center; gap: 5px; height: 24px; padding: 0 9px 0 7px; border-radius: 999px;
+  display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 0 8px 0 7px; border-radius: 6px;
+  border: 1.5px solid var(--ink); background: transparent; color: var(--ink);
   font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .6875rem; font-weight: 700;
-  letter-spacing: .03em; white-space: nowrap; border: 1.5px solid transparent;
+  letter-spacing: .03em; white-space: nowrap;
 }
-.acc svg { width: 14px; height: 14px; stroke-width: 2.2; }
-.acc-libero { background: #fff; color: var(--ink); border-color: var(--ink); }        /* libero e offerta libera: bordo pieno */
-.acc-pagamento { background: var(--ink); color: #fff; border-color: var(--ink); }    /* a pagamento: pieno scuro */
-.acc-iscrizione { background: #fff; color: var(--ink); border: 1.5px dashed var(--ink); } /* iscrizione e su invito: tratteggiato */
-/* gli stessi badge come pulsanti del filtro Accesso */
-.acc-btn { height: 30px; padding: 0 11px 0 9px; cursor: pointer; font-size: .6875rem; transition: opacity .15s ease, box-shadow .15s ease; }
-.acc-btn:hover { filter: brightness(.94); }
-.acc-btn[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--panel), 0 0 0 4px var(--cta); }
-#access .seg-btn[aria-pressed="true"] { background: var(--chip); color: var(--ink); box-shadow: 0 0 0 2px var(--panel), 0 0 0 4px var(--cta); }
-#access.has-choice .acc-btn[aria-pressed="false"] { opacity: .4; }
-#access.has-choice .acc-btn[aria-pressed="false"]:hover { opacity: .75; }
-.acc-none { background: rgba(255, 255, 255, .55); color: var(--ink-2); font-weight: 600; }
+/* stessa forma e stesso stile per i tre gruppi (bordo nero, interno trasparente): li distingue l'icona */
+.acc svg { width: 14px; height: 14px; stroke-width: 2.2; flex-shrink: 0; }
 .card .acc { margin-bottom: 10px; }
+/* gli stessi badge come pulsanti del filtro Accesso: attivi = bordo nero, spenti = attenuati */
+.acc-btn { height: 30px; padding: 0 10px 0 8px; cursor: pointer; transition: opacity .15s ease, border-color .15s ease; }
+.acc-btn[aria-pressed="false"] { opacity: .38; border-color: var(--ink-2); }
+.acc-btn:hover { background: var(--chip); }
+.acc-btn[aria-pressed="false"]:hover { opacity: .7; }
 .acc-dd { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
 
 /* ---------- controlli mappa ---------- */

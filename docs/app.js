@@ -13,7 +13,7 @@
   const MOBILE = () => window.matchMedia("(max-width: 760px)").matches;
 
   const state = {
-    from: null, to: null, preset: "all", cats: new Set(), access: "", aud: new Set(), q: "",
+    from: null, to: null, preset: "all", cats: new Set(), access: new Set(), aud: new Set(), q: "",
     selected: null, detail: false, sort: "date", me: null,
     sidebarHidden: false, hiddenBeforeDetail: false,
   };
@@ -84,7 +84,7 @@
   function matches(e, skip = {}) {
     if (!skip.date && !spans(e, state.from, state.to)) return false;
     if (!skip.cat && state.cats.size && !state.cats.has(e.category)) return false;
-    if (state.access && accessGroup(e) !== state.access) return false;
+    if (state.access.size && !state.access.has(accessGroup(e))) return false;   // piu' scelte = uno qualsiasi
     for (const a of state.aud) if (!(e.audience || []).includes(a)) return false;   // scelte attivabili insieme
     if (state.q) {
       const hay = `${e.title} ${e.venue} ${e.town} ${e.summary} ${(CAT[e.category] || {}).label || ""}`.toLowerCase();
@@ -181,23 +181,29 @@
       b.addEventListener("click", () => { state.cats.has(c.id) ? state.cats.delete(c.id) : state.cats.add(c.id); onlyUids = null; update(); });
       box.appendChild(b);
     });
-    const extra = (state.access ? 1 : 0) + state.aud.size;
+    const extra = (state.access.size ? 1 : 0) + state.aud.size;
     $("#more-filters").innerHTML = extra ? `Filtri <span class="badge">${extra}</span>` : "Filtri";
-    document.querySelectorAll("#access button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.v === state.access)));
-    $("#access").classList.toggle("has-choice", !!state.access);
+    // nessuna scelta = tutti attivi (e tutti mostrati come attivi)
+    document.querySelectorAll("#access button").forEach((b) =>
+      b.setAttribute("aria-pressed", String(!state.access.size || state.access.has(b.dataset.v))));
     document.querySelectorAll("#audience button").forEach((b) => b.setAttribute("aria-pressed", String(state.aud.has(b.dataset.v))));
     requestAnimationFrame(() => updateScrollNav("#chips"));
   }
 
-  // Filtri "Accesso" (uno alla volta) e "Per chi" (attivabili insieme, nessuno = tutti).
+  // Filtri "Accesso": all'inizio tutti attivi; il primo clic tiene solo quel gruppo, i successivi
+  // aggiungono o tolgono gruppi (vale uno qualsiasi); togliendo l'ultimo si torna a tutti.
+  // "Per chi": attivabili insieme, l'evento deve averli tutti; nessuno = tutti.
   function setupFilters() {
     const acc = $("#access");
-    const groups = [["", "Tutti"], ...Object.entries(DATA.access_groups || {}).map(([k, v]) => [k, v.label])];
-    groups.forEach(([k, label]) => {
+    Object.entries(DATA.access_groups || {}).forEach(([k, v]) => {
       const b = document.createElement("button");
-      b.type = "button"; b.className = k ? `acc acc-${k} acc-btn` : "seg-btn"; b.dataset.v = k;
-      b.innerHTML = (k ? accIcon(k) : "") + esc(label);
-      b.addEventListener("click", () => { state.access = k; onlyUids = null; update(); });
+      b.type = "button"; b.className = `acc acc-${k} acc-btn`; b.dataset.v = k;
+      b.innerHTML = accIcon(k) + esc(v.label);
+      b.addEventListener("click", () => {
+        if (state.access.has(k)) state.access.delete(k); else state.access.add(k);
+        if (state.access.size === Object.keys(DATA.access_groups).length) state.access.clear();   // tutti = nessun filtro
+        onlyUids = null; update();
+      });
       acc.appendChild(b);
     });
     const aud = $("#audience");
@@ -739,7 +745,7 @@
     const sortBtn = $("#sort-btn");
     sortBtn.setAttribute("aria-pressed", String(state.sort === "distance" && !!state.me));
     sortBtn.textContent = state.sort === "distance" && state.me ? "Più vicini" : state.me ? "Per data" : "Più vicini";
-    $("#reset").hidden = !(state.cats.size || state.access || state.aud.size || state.q || onlyUids);
+    $("#reset").hidden = !(state.cats.size || state.access.size || state.aud.size || state.q || onlyUids);
     if (mapReady) {
       map.getSource("ev").setData(geojson(items));
       if (fit && items.length && !state.selected) {
@@ -1098,7 +1104,7 @@
     document.querySelectorAll(".presets button").forEach((b) =>
       b.addEventListener("click", () => { setPreset(b.dataset.preset); onlyUids = null; update(); }));
     $("#reset").addEventListener("click", () => {
-      state.cats.clear(); state.aud.clear(); state.access = state.q = ""; onlyUids = null;
+      state.cats.clear(); state.aud.clear(); state.access.clear(); state.q = ""; onlyUids = null;
       $("#q").value = "";
       setPreset("all"); closeDetail(); update(true);
     });
