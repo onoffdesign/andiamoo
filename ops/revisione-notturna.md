@@ -108,13 +108,13 @@ controllo di ogni comune, aggregatore, testata e categoria: parti sempre da quel
 piu' tempo, aggiorna la data dopo ogni controllo, aggiungi le voci nuove che scopri (blog, aggregatori, testate).
 
 Fase 0. **Fonti note** - riapri le fonti di `ops/fonti.yaml` in scadenza (vedi "Memoria"), raccogli gli eventi
-   nuovi e aggiorna resa e date. Le fasi A-D poi servono a coprire cio' che le fonti note non coprono: usa
+   nuovi e aggiorna resa e date. Le fasi A-E poi servono a coprire cio' che le fonti note non coprono: usa
    `ops/copertura.yaml` e `ops/lezioni.md` per non ripetere ricerche gia' fatte o inutili.
 
 Fasi, in quest'ordine dopo la fase 0. **Alla fine di ogni fase** esegui `--controlla`, poi commit e push (passo 9), cosi' il lavoro
 fatto resta salvato anche se la sessione si interrompe.
 
-A. **Categorie** - per ognuna delle 15 categorie di `config/categories.yaml` (e le sottocategorie: per lo sport
+A. **Categorie** - per ognuna delle 9 categorie di `config/categories.yaml` (e le sottocategorie: per lo sport
    podismo, ciclismo, nuoto, basket, tennis, volley, calcio amatoriale, trail...) cerca con piu' query, ad esempio
    "concerti provincia di Treviso novembre 2026", "sagre Treviso questo weekend", "mostre Treviso 2026",
    "corsa podistica Treviso novembre", "laboratori bambini Treviso", "convegno Treviso", "mercatino Natale Treviso",
@@ -126,13 +126,33 @@ C. **Aggregatori e blog** - insolitotrantran, eventiesagre, 2night, zero.eu, iti
    Oggi Treviso, calendari podistici, Pro Loco/UNPLI, teatri, musei, biblioteche e gli altri della lista, anche di
    nicchia. Cerca anche aggregatori e blog simili che non sono ancora nella lista e aggiungili. Gli aggregatori servono
    a **scoprire**: il dato va confermato sulla pagina ufficiale dell'organizzatore, che diventa `official_url`.
+   Piattaforme di eventi e biglietteria da controllare ogni notte, filtrando per provincia di Treviso (e locali e
+   comuni della provincia): Meetup, Comehome, Pablo meeter, Wemeet, Fever, TicketSMS, Resident Advisor, DICE, Xceed,
+   Vivaticket, TuttiConcerti, Concerti-Italia, Rockol (sezione Concerti), Eventbrite, AllEvents. Cerca con query
+   tipo "<piattaforma> Treviso", "site:<dominio> Treviso", "site:<dominio> <comune>". Se un sito blocca i robot o
+   richiede l'accesso, usa solo i risultati di ricerca per scoprire l'evento e confermalo sulla pagina ufficiale.
+C2. **Community e canali pubblici** - molti aggregatori informali oggi si muovono su social e chat: gruppi di
+   trekking ed escursioni indipendenti, run club, community nate su Instagram o TikTok, gruppi di ballo, giochi da
+   tavolo, fotografia, volontariato, che pubblicano il calendario delle uscite settimanali su **canali Telegram
+   pubblici**. Come cercarli: "site:t.me Treviso trekking", "site:t.me escursioni Veneto", "canale Telegram uscite
+   Treviso", "community trekking Treviso Instagram", "run club Treviso", "gruppo camminate <comune>".
+   - Canali Telegram pubblici: leggi solo l'anteprima web pubblica `https://t.me/s/<canale>` (se compare nei
+     risultati di ricerca; altrimenti cerca "t.me/s/<canale>"). Mai entrare in gruppi privati, mai usare account o
+     login, mai copiare nomi, numeri o dati personali dei partecipanti.
+   - Instagram, TikTok, Facebook: non aprire pagine che richiedono login. Usa i risultati di ricerca per scoprire la
+     community, poi cerca il suo sito, Linktree, canale Telegram pubblico o pagina Meetup/Eventbrite.
+   - Aggiungi solo uscite ed eventi **aperti al pubblico** con data, ora, luogo di ritrovo nel trevigiano e modalita'
+     di partecipazione (spesso iscrizione: `access: iscrizione`). Come `official_url` usa il post pubblico del canale
+     (`https://t.me/<canale>/<numero>`) o la pagina dell'evento; niente link a gruppi chiusi.
+   - Ogni canale o community utile va in `ops/fonti.yaml` con `tipo: community` e la `query` per ritrovarla, e in
+     `ops/copertura.yaml` nella sezione `community`; quelle inattive o private vanno in `ops/lezioni.md`.
 D. **Notizie** - testate locali (Tribuna di Treviso, Gazzettino, TrevisoToday, Oggi Treviso, Qdpnews, tv e radio
    locali): articoli che annunciano eventi, inaugurazioni, festival, gare, presentazioni. Conferma sempre sulla
    pagina ufficiale quando esiste; se c'e' solo l'articolo di una testata affidabile, usalo come `official_url`.
 
 E. **Fonti nuove** - cerca almeno 10 siti o pagine mai visti che pubblicano eventi in provincia (pro loco, comuni,
    associazioni, locali, teatri, musei, biblioteche, societa' sportive, aziende con eventi aperti, blog e aggregatori
-   di nicchia). Per ognuno valuta: pagina eventi, quanti eventi futuri, se e' aggiornato, se e' ufficiale, se ha dati
+   di nicchia, piattaforme di biglietteria, canali Telegram pubblici e community locali). Per ognuno valuta: pagina eventi, quanti eventi futuri, se e' aggiornato, se e' ufficiale, se ha dati
    strutturati. Aggiungi a `ops/fonti.yaml` quelli utili (con una `query` che porti dritto alla pagina eventi) e annota
    in `ops/lezioni.md` quelli da evitare. Ogni fonte che rende tanto diventa candidata per `config/sources.yaml`.
 

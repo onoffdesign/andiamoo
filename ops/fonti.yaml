@@ -7,7 +7,8 @@
 #     query: "site:prolococombai.it eventi"          # ricerca che porta dritta alla pagina (WebFetch apre solo
 #                                                    # link arrivati dai risultati di ricerca o da pagine aperte)
 #     tipo: pro loco        # comune | pro loco | aggregatore | blog | testata | teatro | museo | biblioteca |
-#                           # associazione | sport | locale | azienda | ente | altro
+#                           # associazione | sport | locale | azienda | ente | biglietteria |
+#                           # community (canale Telegram pubblico, gruppo nato sui social) | altro
 #     categorie: [sagre-feste, cibo-vino]
 #     comuni: [Miane]
 #     frequenza: settimanale   # giornaliera | settimanale | mensile: ogni quanto vale la pena ricontrollarla
