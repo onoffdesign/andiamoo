@@ -52,6 +52,22 @@ all'avvio (cosi' parte anche il bot), aggiornamenti di Windows fuori dalle ore n
 Le istruzioni della revisione sono in `ops/revisione-notturna.md`: per cambiare cosa fa Claude ogni notte basta
 modificare quel file. Ogni correzione e' una riga in `config/correzioni.yaml`: si annulla cancellandola.
 
+## PC fisso: si sveglia, lavora e si iberna da solo
+
+Da PowerShell **come amministratore**, nella cartella del progetto:
+```
+powershell -ExecutionPolicy Bypass -File windows\reset_automazioni.ps1   # elenca, salva e toglie le vecchie automazioni
+powershell -ExecutionPolicy Bypass -File windows\imposta_notte.ps1       # risveglio alle 01:00 e ibernazione a fine giro
+```
+- `reset_automazioni.ps1` mostra programmi all'avvio, attivita' pianificate e accesso automatico in una finestra:
+  si sceglie cosa eliminare. Prima fa una copia di sicurezza in `Documenti\backup-automazioni-<data>`.
+  Le attivita' di Windows e quelle di ANDIAMO? non compaiono.
+- `imposta_notte.ps1` attiva ibernazione e timer di risveglio, fa ibernare il tasto di accensione e registra il giro
+  delle 01:00 in modo che parta anche senza accesso (chiede la password di Windows una volta). A fine giro il PC
+  si iberna, a meno che sia in uso.
+- La sera il PC va **ibernato** (tasto di accensione o Start > Arresta > Iberna), non spento del tutto: da spento
+  Windows non puo' riaccenderlo. Per l'accensione da spento serve l'opzione del BIOS "Power On by RTC", se c'e'.
+
 ## "Aggiungi evento" e "Segnala" dal sito (API sul PC)
 
 Il sito e' statico: per leggere link e screenshot con l'AI chiama una piccola API che gira sul PC accanto

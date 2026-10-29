@@ -7,7 +7,7 @@
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $PSScriptRoot
 
-$pipeline = New-ScheduledTaskAction -Execute "$Root\windows\run_pipeline.bat" -WorkingDirectory $Root
+$pipeline = New-ScheduledTaskAction -Execute "$Root\windows\run_pipeline.bat" -Argument "notte" -WorkingDirectory $Root
 $nightly = New-ScheduledTaskTrigger -Daily -At "01:00"
 $opts = New-ScheduledTaskSettingsSet -StartWhenAvailable -DontStopIfGoingOnBatteries -AllowStartIfOnBatteries `
         -ExecutionTimeLimit (New-TimeSpan -Hours 4) -WakeToRun -MultipleInstances IgnoreNew
