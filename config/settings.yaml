@@ -26,7 +26,7 @@ area:
 
 pipeline:
   days_ahead: 120          # non tiene eventi oltre questo orizzonte
-  keep_past_days: 1        # tiene visibili gli eventi finiti da meno di N giorni
+  keep_past_days: 0        # gli eventi finiti ieri escono dal sito al giro notturno (quelli finiti oggi li nasconde il sito)
   max_requests_per_source: 80
   request_delay_seconds: 2.0   # pausa minima tra due richieste allo stesso sito
   cache_days: 3                # non riscarica una pagina evento gia' vista entro N giorni

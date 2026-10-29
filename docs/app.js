@@ -81,7 +81,21 @@
   }
 
   // ---------------------------------------------------------------- filtri
+  // Eventi gia' finiti: spariscono anche durante il giorno, senza aspettare l'aggiornamento notturno.
+  // Fine nota -> quella; solo l'ora d'inizio -> si considera finito 3 ore dopo; solo la data -> a fine giornata.
+  function isOver(e, now = new Date()) {
+    const end = e.end || e.start;
+    if (!end) return false;
+    if (end.length > 10) {
+      const t = new Date(end.slice(0, 16));
+      if (!e.end) t.setHours(t.getHours() + 3);
+      return t < now;
+    }
+    return addDays(parseDay(end), 1) <= now;
+  }
+
   function matches(e, skip = {}) {
+    if (isOver(e)) return false;
     if (!skip.date && !spans(e, state.from, state.to)) return false;
     if (!skip.cat && state.cats.size && !state.cats.has(e.category)) return false;
     if (state.access.size && !state.access.has(accessGroup(e))) return false;   // piu' scelte = uno qualsiasi
