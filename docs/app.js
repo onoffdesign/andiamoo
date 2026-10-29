@@ -59,12 +59,37 @@
   const kmText = (d) => (d == null ? "" : d < 1 ? `${Math.round(d * 1000 / 50) * 50} m` : `${d.toFixed(d < 10 ? 1 : 0).replace(".", ",")} km`);
 
   // ---------------------------------------------------------------- logo animato (lettere separate per l'onda)
+  const letters = (text, cls) => [...text].map((ch, i) => ch === "?" && cls === "l"
+    ? `<span class="q">?</span>` : `<span class="${cls}" style="--i:${i}">${ch === " " ? "&nbsp;" : esc(ch)}</span>`).join("");
+
+  // Logo e frase "Trova il tuo evento" si alternano: il riquadro cambia larghezza, le lettere entrano a onda.
   function renderWordmark(title) {
-    const el = $("#site-title");
-    el.setAttribute("aria-label", title);
-    el.innerHTML = [...title].map((ch, i) => ch === "?"
-      ? `<span class="q" aria-hidden="true">?</span>`
-      : `<span class="l" aria-hidden="true" style="--i:${i}">${ch === " " ? "&nbsp;" : esc(ch)}</span>`).join("");
+    const pill = $(".brand-pill"), logo = $("#site-title"), tag = $("#tagline");
+    logo.setAttribute("aria-label", title);
+    logo.innerHTML = letters(title, "l");
+    tag.innerHTML = letters("Trova il tuo evento", "t");
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const pad = 32;
+    const room = () => $("#top-right").getBoundingClientRect().left - pill.getBoundingClientRect().left - 10;
+    const widthFor = (el) => {
+      pill.classList.toggle("tight", MOBILE() && tag.scrollWidth + pad > room());
+      return el.scrollWidth + pad;
+    };
+    pill.style.width = `${widthFor(logo)}px`;
+    pill.classList.add("brand-anim");
+    const play = (el) => { el.classList.remove("play"); void el.offsetWidth; el.classList.add("play"); };
+    let showTag = false;
+    const step = () => {
+      showTag = !showTag;
+      if (showTag) { widthFor(tag); if (tag.scrollWidth + pad > room()) showTag = false; }   // schermo troppo stretto: solo logo
+      pill.classList.toggle("show-tag", showTag);
+      pill.style.width = `${widthFor(showTag ? tag : logo)}px`;
+      play(showTag ? tag : logo);
+      setTimeout(step, showTag ? 3400 : 5200);
+    };
+    play(logo);
+    setTimeout(step, 5200);
+    window.addEventListener("resize", () => { pill.style.width = `${widthFor(showTag ? tag : logo)}px`; });
   }
 
   // ---------------------------------------------------------------- accesso: tre gruppi riconoscibili a colpo d'occhio
@@ -205,7 +230,6 @@
     // nessuna scelta = tutti attivi (e tutti mostrati come attivi)
     document.querySelectorAll("#access button").forEach((b) =>
       b.setAttribute("aria-pressed", String(!state.access.size || state.access.has(b.dataset.v))));
-    document.querySelectorAll("#audience button").forEach((b) => b.setAttribute("aria-pressed", String(state.aud.has(b.dataset.v))));
     requestAnimationFrame(() => updateScrollNav("#chips"));
   }
 
@@ -225,14 +249,7 @@
       });
       acc.appendChild(b);
     });
-    const aud = $("#audience");
-    Object.entries(DATA.audience_filters || {}).forEach(([k, label]) => {
-      const b = document.createElement("button");
-      b.type = "button"; b.className = "seg-btn toggle"; b.dataset.v = k;
-      b.innerHTML = `<span class="tick" aria-hidden="true"></span>${esc(label)}`;
-      b.addEventListener("click", () => { state.aud.has(k) ? state.aud.delete(k) : state.aud.add(k); onlyUids = null; update(); });
-      aud.appendChild(b);
-    });
+
   }
 
   // ---------------------------------------------------------------- elenco
@@ -403,7 +420,8 @@
       const panelTop = $("#panel").getBoundingClientRect().top;
       return { top, bottom: Math.max(60, window.innerHeight - panelTop + 20 + extraBottom), left: 30, right: 30 };
     }
-    return { top: 190, bottom: 150, left: state.sidebarHidden ? 100 : 470, right: 90 };
+    return { top: Math.round($(".chips-row").getBoundingClientRect().bottom) + 30, bottom: 120,
+      left: state.sidebarHidden ? 100 : 470, right: 90 };
   }
 
   // Zona della mappa davvero visibile (fuori da testata, giorni, filtri, elenco).
@@ -414,7 +432,7 @@
       v.top = $(".filters").getBoundingClientRect().bottom + 10;
       v.bottom = Math.min(v.bottom, $("#panel").getBoundingClientRect().top - 10);
     } else {
-      v.top = $(".days").getBoundingClientRect().bottom + 12;
+      v.top = $(".chips-row").getBoundingClientRect().bottom + 12;
       v.bottom = $(".filters").getBoundingClientRect().top - 12;
       v.left = (state.sidebarHidden ? $("#list-toggle") : $("#panel")).getBoundingClientRect().right + 12;
       v.right = $(".map-ctrl").getBoundingClientRect().left - 12;
@@ -1170,12 +1188,15 @@
     // su telefono i filtri partono sotto la barra dei giorni
     const placePanels = () => {
       const root = document.documentElement.style, gap = MOBILE() ? 8 : 12;
-      root.setProperty("--below-days", `${Math.round($(".days").getBoundingClientRect().bottom + gap)}px`);
+      const daysBottom = $(".days").getBoundingClientRect().bottom;
+      root.setProperty("--cats-top", `${Math.round(daysBottom + 10)}px`);   // desktop: categorie sotto il calendario
+      const above = MOBILE() ? daysBottom : $(".chips-row").getBoundingClientRect().bottom;
+      root.setProperty("--below-days", `${Math.round(above + gap)}px`);
       if (!MOBILE()) root.setProperty("--above-filters", `${Math.round(window.innerHeight - $(".filters").getBoundingClientRect().top + gap)}px`);
     };
     placePanels();
     window.addEventListener("resize", placePanels);
-    if (window.ResizeObserver) { const ro = new ResizeObserver(placePanels); ro.observe($(".days")); ro.observe($(".filters")); }
+    if (window.ResizeObserver) { const ro = new ResizeObserver(placePanels); ro.observe($(".days")); ro.observe($(".filters")); ro.observe($(".chips-row")); }
     if (document.fonts) document.fonts.ready.then(placePanels);
     $("#panel-hide").addEventListener("click", () => setSidebar(false));
     $("#list-toggle").addEventListener("click", () => setSidebar(true));

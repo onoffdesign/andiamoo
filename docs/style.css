@@ -60,9 +60,24 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 }
 .wordmark { font-size: 1.05rem; font-weight: 700; letter-spacing: .02em; white-space: nowrap; display: inline-flex; }
 /* logo animato: un'onda passa sulle lettere, poi il "?" salta e si inclina; ogni 4,5 secondi */
-.wordmark .l { display: inline-block; animation: wm-wave 4.5s cubic-bezier(.3, .7, .4, 1) infinite; animation-delay: calc(var(--i) * 70ms); }
-.wordmark .q { display: inline-block; transform-origin: 50% 85%; color: var(--ink);
-  animation: wm-q 4.5s cubic-bezier(.3, .7, .4, 1) infinite; animation-delay: 560ms; }
+.wordmark .l { display: inline-block; }
+.wordmark .q { display: inline-block; transform-origin: 50% 85%; color: var(--ink); }
+.wordmark.play .l { animation: wm-wave 4.5s cubic-bezier(.3, .7, .4, 1) 1 both; animation-delay: calc(var(--i) * 70ms); }
+.wordmark.play .q { animation: wm-q 4.5s cubic-bezier(.3, .7, .4, 1) 1 both; animation-delay: 560ms; }
+/* alternanza logo / "Trova il tuo evento" */
+.tagline { display: none; font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .875rem;
+  font-weight: 700; letter-spacing: .02em; white-space: nowrap; }
+.brand-pill.brand-anim { position: absolute; overflow: hidden; transition: width .45s cubic-bezier(.3, .7, .3, 1); }
+.brand-anim .wordmark, .brand-anim .tagline {
+  position: absolute; left: 16px; top: 50%; transform: translateY(-50%); transition: opacity .3s ease;
+}
+.brand-anim .tagline { display: inline-flex; opacity: 0; pointer-events: none; }
+.brand-anim.show-tag .tagline { opacity: 1; }
+.brand-anim.show-tag .wordmark { opacity: 0; }
+.tagline .t { display: inline-block; opacity: 0; transform: translateY(9px); }
+.tagline.play .t { animation: tag-in .5s cubic-bezier(.3, .7, .4, 1) forwards; animation-delay: calc(120ms + var(--i) * 32ms); }
+@keyframes tag-in { to { opacity: 1; transform: none; } }
+.brand-pill.tight .tagline { font-size: .6875rem; font-stretch: 100%; letter-spacing: 0; }
 @keyframes wm-wave {
   0%, 16%, 100% { transform: translateY(0); }
   6% { transform: translateY(-5px); }
@@ -315,7 +330,23 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .seg-btn .tick { width: 13px; height: 13px; border-radius: 3px; border: 1.5px solid currentColor; display: grid; place-items: center; }
 .seg-btn[aria-pressed="true"] .tick { background: var(--cta); border-color: var(--cta); }
 .seg-btn[aria-pressed="true"] .tick::after { content: ""; width: 6px; height: 3px; margin-top: -2px; border: solid var(--ink); border-width: 0 0 2px 2px; transform: rotate(-45deg); }
-#reset { margin-left: auto; }
+/* azzera filtri: grande X cerchiata, sfondo trasparente */
+.reset-x {
+  flex-shrink: 0; display: grid; place-items: center; width: 34px; height: 34px; margin-left: 4px; padding: 0;
+  border: 2px solid var(--ink); border-radius: 50%; background: transparent; color: var(--ink); cursor: pointer;
+}
+.reset-x svg { width: 18px; height: 18px; stroke-width: 2.4; }
+.reset-x:hover { background: var(--chip); }
+
+/* desktop: categorie in una barra in cima, sotto il calendario; in basso restano Accesso e azzera */
+@media (min-width: 761px) {
+  .chips-row {
+    position: fixed; z-index: 3; top: var(--cats-top, 196px); left: calc(var(--gap) * 2); right: calc(var(--gap) * 2);
+    padding: 8px 10px; background: var(--panel); border-radius: var(--r);
+  }
+  .filters { right: auto; padding: 8px 12px; }
+  .selects { margin-top: 0; padding-top: 0; border-top: 0; flex-wrap: nowrap; }
+}
 
 /* ---------- accesso: tre gruppi distinguibili a colpo d'occhio ---------- */
 .acc {
@@ -563,6 +594,6 @@ body.sidebar-hidden .list-toggle { display: flex; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .wordmark .l, .wordmark .q { animation: none; }
+  .wordmark .l, .wordmark .q, .tagline .t { animation: none; }
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
