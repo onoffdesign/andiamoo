@@ -58,7 +58,23 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   top: calc(var(--gap) * 2); left: calc(var(--gap) * 2);
   display: flex; align-items: center; gap: 10px; padding: 0 16px; height: 40px; border-radius: 10px;
 }
-.wordmark { font-size: 1.05rem; font-weight: 700; letter-spacing: .02em; white-space: nowrap; }
+.wordmark { font-size: 1.05rem; font-weight: 700; letter-spacing: .02em; white-space: nowrap; display: inline-flex; }
+/* logo animato: un'onda passa sulle lettere, poi il "?" salta e si inclina; ogni 4,5 secondi */
+.wordmark .l { display: inline-block; animation: wm-wave 4.5s cubic-bezier(.3, .7, .4, 1) infinite; animation-delay: calc(var(--i) * 70ms); }
+.wordmark .q { display: inline-block; transform-origin: 50% 85%; color: var(--ink);
+  animation: wm-q 4.5s cubic-bezier(.3, .7, .4, 1) infinite; animation-delay: 560ms; }
+@keyframes wm-wave {
+  0%, 16%, 100% { transform: translateY(0); }
+  6% { transform: translateY(-5px); }
+  11% { transform: translateY(1px); }
+}
+@keyframes wm-q {
+  0%, 30%, 100% { transform: translateY(0) rotate(0); color: var(--ink); }
+  7% { transform: translateY(-9px) rotate(-14deg); color: var(--cta); }
+  13% { transform: translateY(0) rotate(10deg); }
+  18% { transform: translateY(-3px) rotate(-6deg); }
+  23% { transform: translateY(0) rotate(3deg); color: var(--cta); }
+}
 /* sidebar nascosta (desktop): linguetta sotto la barra dei giorni, dove inizia l'elenco */
 .list-toggle {
   position: absolute; z-index: 3; left: calc(var(--gap) * 2); top: var(--below-days, 190px);
@@ -237,9 +253,16 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .cta i { display: inline-grid; place-items: center; flex-shrink: 0; width: clamp(26px, 8.5cqi, 34px); height: clamp(26px, 8.5cqi, 34px); border-radius: 4px; background: #fff; font-style: normal; font-family: var(--text); }
 .cta:hover { filter: brightness(.96); }
 /* nella scheda "Scopri di piu'" e' l'azione principale: nero pieno, testo grande, freccia nel colore del brand */
-.detail-actions .cta { background: var(--ink); color: #fff; font-size: clamp(.875rem, 4cqi, 1.0625rem); font-weight: 700; letter-spacing: .05em; }
-.detail-actions .cta i { background: var(--cta); color: var(--ink); font-weight: 700; }
+/* il testo deve stare sempre intero: niente "..." (font e spazi si adattano alla larghezza del pannello) */
+.detail-actions .cta {
+  flex: 1 0 auto; justify-content: center; gap: 8px; padding: 0 clamp(12px, 4cqi, 18px);
+  background: var(--ink); color: #fff; font-size: clamp(.8125rem, 3.6cqi, 1rem); font-weight: 700;
+  font-stretch: 105%; letter-spacing: .04em;
+}
+.detail-actions .cta span { overflow: visible; text-overflow: clip; }
+.detail-actions .cta i { width: auto; height: auto; background: none; color: #fff; font-size: 1.15em; font-weight: 700; }
 .detail-actions .cta:hover { filter: none; background: #2a2a2a; }
+.detail-actions .round { flex: 0 1 clamp(40px, 12cqi, 48px); min-width: 38px; }
 .round {
   flex: 0 0 clamp(40px, 12cqi, 48px); height: clamp(40px, 12cqi, 48px); border: 0; border-radius: 6px; background: var(--chip); color: var(--ink);
   display: inline-grid; place-items: center; cursor: pointer; text-decoration: none;
@@ -523,7 +546,7 @@ body.sidebar-hidden .list-toggle { display: flex; }
   .item button { padding: 12px 16px; min-height: 56px; }
   .detail { padding: 10px 16px 0; }
   .detail-actions { margin: 14px -16px 0; padding-left: 16px; padding-right: 16px; }
-  .detail-actions .cta { font-stretch: 100%; padding-left: 12px; }
+  .detail-actions .cta { font-stretch: 100%; }
   .note { padding: 14px 16px calc(22px + var(--sab)); }
   .card { width: min(270px, calc(100vw - 40px)); }
 
@@ -540,5 +563,6 @@ body.sidebar-hidden .list-toggle { display: flex; }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .wordmark .l, .wordmark .q { animation: none; }
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }

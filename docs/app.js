@@ -58,6 +58,15 @@
   }
   const kmText = (d) => (d == null ? "" : d < 1 ? `${Math.round(d * 1000 / 50) * 50} m` : `${d.toFixed(d < 10 ? 1 : 0).replace(".", ",")} km`);
 
+  // ---------------------------------------------------------------- logo animato (lettere separate per l'onda)
+  function renderWordmark(title) {
+    const el = $("#site-title");
+    el.setAttribute("aria-label", title);
+    el.innerHTML = [...title].map((ch, i) => ch === "?"
+      ? `<span class="q" aria-hidden="true">?</span>`
+      : `<span class="l" aria-hidden="true" style="--i:${i}">${ch === " " ? "&nbsp;" : esc(ch)}</span>`).join("");
+  }
+
   // ---------------------------------------------------------------- accesso: tre gruppi riconoscibili a colpo d'occhio
   const ACCESS_ICON = {
     libero: '<circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.8 2.8L16.5 9"/>',
@@ -1146,7 +1155,7 @@
     }
     EVENTS = DATA.events.filter((e) => e.start && e.lat != null);
     DATA.categories.forEach((c) => (CAT[c.id] = c));
-    if (DATA.site.title) { $("#site-title").textContent = DATA.site.title; document.title = DATA.site.title; }
+    if (DATA.site.title) { document.title = DATA.site.title; renderWordmark(DATA.site.title); }
     const g = new Date(DATA.generated);
     $("#updated").textContent = `Aggiornato il ${g.getDate()} ${MONTHS[g.getMonth()]} alle ${pad(g.getHours())}:${pad(g.getMinutes())}.`;
     API = (DATA.site.api_url || "").replace(/\/$/, "");
