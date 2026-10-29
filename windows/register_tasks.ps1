@@ -2,6 +2,7 @@
 #   Andiamoo-Pipeline  ogni 4 ore: raccolta, AI, pubblicazione
 #   Andiamoo-Bot       all'accesso: bot Telegram sempre attivo (si riavvia se si chiude)
 #   Andiamoo-API       all'accesso: API del sito per "Aggiungi evento" e "Segnala" (si riavvia se si chiude)
+#   Andiamoo-Tunnel    all'accesso: tunnel Cloudflare che rende l'API raggiungibile dal sito
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $PSScriptRoot
 
@@ -20,4 +21,7 @@ Register-ScheduledTask -TaskName "Andiamoo-Bot" -Action $bot -Trigger $atLogon -
 $api = New-ScheduledTaskAction -Execute "$Root\windows\run_api.bat" -WorkingDirectory $Root
 Register-ScheduledTask -TaskName "Andiamoo-API" -Action $api -Trigger $atLogon -Settings $botOpts -Force | Out-Null
 
-Write-Host "Attivita' registrate: Andiamoo-Pipeline (ogni 4 ore), Andiamoo-Bot e Andiamoo-API (all'accesso)." -ForegroundColor Green
+$tunnel = New-ScheduledTaskAction -Execute "$Root\windows\run_tunnel.bat" -WorkingDirectory $Root
+Register-ScheduledTask -TaskName "Andiamoo-Tunnel" -Action $tunnel -Trigger $atLogon -Settings $botOpts -Force | Out-Null
+
+Write-Host "Attivita' registrate: Andiamoo-Pipeline (ogni 4 ore), Andiamoo-Bot, Andiamoo-API e Andiamoo-Tunnel (all'accesso)." -ForegroundColor Green

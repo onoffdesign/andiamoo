@@ -28,6 +28,16 @@ def visible(ev: Event) -> bool:
     return start <= today + timedelta(days=cfg["days_ahead"])
 
 
+def api_url() -> str:
+    """Indirizzo dell'API: quello fisso in settings.yaml, altrimenti quello del tunnel rapido scritto da
+    pipeline.tunnel in data/api_url.txt (cambia a ogni avvio del tunnel)."""
+    fixed = (settings()["site"].get("api_url") or "").strip()
+    if fixed:
+        return fixed
+    f = DATA_DIR / "api_url.txt"
+    return f.read_text(encoding="utf-8").strip() if f.exists() else ""
+
+
 def scatter(ev: Event) -> tuple[float, float]:
     """Eventi con solo il comune: un punto attorno al centro, diverso per ogni evento ma stabile nel tempo
     (calcolato dall'id), cosi' non finiscono tutti uno sopra l'altro."""
@@ -53,7 +63,7 @@ def export(events: list[Event]) -> dict:
         items.append(d)
     payload = {
         "generated": datetime.now(ROME).isoformat(timespec="minutes"),
-        "site": {**settings()["site"], "days_ahead": settings()["pipeline"]["days_ahead"]},
+        "site": {**settings()["site"], "days_ahead": settings()["pipeline"]["days_ahead"], "api_url": api_url()},
         "categories": tax["categories"],
         "access": tax["access"],
         "access_groups": tax.get("access_groups", {}),

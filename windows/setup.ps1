@@ -1,6 +1,6 @@
 # Installazione sul PC fisso (Windows 10/11). Eseguire da PowerShell nella cartella del progetto:
 #   powershell -ExecutionPolicy Bypass -File windows\setup.ps1
-# Installa Python, Git e Ollama (se mancano), scarica il modello AI, prepara l'ambiente Python,
+# Installa Python, Git, Ollama e cloudflared (se mancano), scarica il modello AI, prepara l'ambiente Python,
 # registra le attivita' pianificate. Si puo' rilanciare: i passaggi gia' fatti vengono saltati.
 
 $ErrorActionPreference = "Stop"
@@ -22,6 +22,10 @@ if (Need "git") {
 if (Need "ollama") {
     Write-Host "Installo Ollama..." -ForegroundColor Yellow
     winget install --id Ollama.Ollama -e --accept-source-agreements --accept-package-agreements
+}
+if (Need "cloudflared") {
+    Write-Host "Installo cloudflared (tunnel per l'API del sito)..." -ForegroundColor Yellow
+    winget install --id Cloudflare.cloudflared -e --accept-source-agreements --accept-package-agreements
 }
 # aggiorna il PATH della sessione dopo le installazioni
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
@@ -51,4 +55,8 @@ New-Item -ItemType Directory -Force -Path "logs" | Out-Null
 & "$PSScriptRoot\register_tasks.ps1"
 
 Write-Host ""
+# 7. Avvio subito di API e tunnel (poi partono da soli a ogni accesso)
+Start-ScheduledTask -TaskName "Andiamoo-API"
+Start-ScheduledTask -TaskName "Andiamoo-Tunnel"
+
 Write-Host "Fatto. Primo giro manuale:  windows\run_pipeline.bat" -ForegroundColor Green

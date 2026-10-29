@@ -128,3 +128,24 @@ def test_rate_limit(server):
     url, _ = server
     codes = [httpx.post(url + "/api/segnala", json={"uid": "nope"}).status_code for _ in range(11)]
     assert codes[-1] == 429
+
+
+def test_tunnel_publishes_quick_url(tmp_path, monkeypatch):
+    import sys
+    from pipeline import export, tunnel
+    fake = tmp_path / "cloudflared.py"
+    fake.write_text("print('INF Requesting new quick Tunnel on trycloudflare.com...')\n"
+                    "print('INF |  https://lucky-owl-ace.trycloudflare.com  |')\n")
+    monkeypatch.setattr(tunnel, "find_cloudflared", lambda: sys.executable)
+    real_popen = tunnel.subprocess.Popen
+    monkeypatch.setattr(tunnel.subprocess, "Popen", lambda args, **kw: real_popen([sys.executable, str(fake)], **kw))
+    monkeypatch.setattr(tunnel, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(export, "DATA_DIR", tmp_path)
+    got = []
+    monkeypatch.setattr(tunnel, "publish_url", lambda url: (got.append(url), (tmp_path / "api_url.txt").write_text(url)))
+    assert tunnel.main() == 1                       # cloudflared finto termina: l'attivita' lo riavviera'
+    import time
+    time.sleep(0.2)
+    assert got == ["https://lucky-owl-ace.trycloudflare.com"]
+    assert export.api_url() == "https://lucky-owl-ace.trycloudflare.com"
+    assert tunnel.tunnel_url("https://api.trycloudflare.com/tunnel") is None

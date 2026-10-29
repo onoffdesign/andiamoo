@@ -48,23 +48,22 @@ a Ollama (`windows\run_api.bat`, registrata come attivita' `Andiamoo-API`). L'AP
 `127.0.0.1:8787`; per renderla raggiungibile dal sito si usa **Cloudflare Tunnel** (gratis, nessuna porta
 da aprire sul router).
 
-1. Installa cloudflared: `winget install Cloudflare.cloudflared`
-2. **Prova veloce** (indirizzo temporaneo, cambia a ogni avvio):
-   ```
-   cloudflared tunnel --url http://localhost:8787
-   ```
-   Copia l'indirizzo `https://....trycloudflare.com` che compare.
-3. **Indirizzo fisso** (quando il dominio andiamoo.ai e' su Cloudflare):
-   ```
-   cloudflared tunnel login
-   cloudflared tunnel create andiamo
-   cloudflared tunnel route dns andiamo api.andiamoo.ai
-   cloudflared tunnel run --url http://localhost:8787 andiamo
-   ```
-   Per farlo partire con Windows: `cloudflared service install` (vedi la guida Cloudflare "Run as a service").
-4. In `config/settings.yaml` metti l'indirizzo in `site.api_url` (es. `https://api.andiamoo.ai`) e, se il sito
-   gira su un dominio diverso da `site.base_url`, aggiungilo in `api.allowed_origins`. Poi
-   `.venv\Scripts\python -m pipeline.run --export-only` per pubblicarlo.
+**Automatico (nessun account, nessun dominio)**: `setup.ps1` installa cloudflared e registra le attivita'
+`Andiamoo-API` e `Andiamoo-Tunnel`, che partono a ogni accesso. Il tunnel ottiene da Cloudflare un indirizzo
+`https://....trycloudflare.com`, lo salva in `data\api_url.txt` e ripubblica il sito: dopo un paio di minuti
+"Aggiungi evento" legge link e screenshot con l'AI del PC. L'indirizzo cambia a ogni riavvio del PC, ma lo
+script ripubblica da solo quello nuovo (log in `logs\tunnel.log`). Se il PC e' spento il sito torna da solo
+alla compilazione a mano.
+
+**Indirizzo fisso** (piu' affidabile, quando il dominio andiamoo.ai e' su Cloudflare):
+```
+cloudflared tunnel login
+cloudflared tunnel create andiamo
+cloudflared tunnel route dns andiamo api.andiamoo.ai
+cloudflared tunnel run --url http://localhost:8787 andiamo
+```
+Poi in `config/settings.yaml` metti `site.api_url: "https://api.andiamoo.ai"` (il tunnel rapido si disattiva da
+solo) e, se il sito gira su un dominio diverso da `site.base_url`, aggiungilo in `api.allowed_origins`.
 
 Finche' `api_url` e' vuoto il modulo "Aggiungi evento" resta compilabile a mano e invia via email
 (se `contact_email` e' impostato). L'API ha limiti per indirizzo (20 letture, 10 invii, 10 segnalazioni
