@@ -46,7 +46,7 @@ all'avvio (cosi' parte anche il bot), aggiornamenti di Windows fuori dalle ore n
 | Ora (Italia) | Dove | Cosa |
 |---|---|---|
 | 01:00 | PC fisso, attivita' `Andiamoo-Pipeline` | aggiorna il codice, avvia Ollama se serve, raccoglie tutte le fonti, l'AI locale (`gemma3:12b`) estrae, classifica e riassume, cerca i luoghi, geolocalizza, deduplica, applica le correzioni della redazione, pubblica il sito e lascia in `ops/` il rapporto (`rapporto.json`), la coda di revisione (`revisione.json`) e le scoperte (`scoperte.csv`) |
-| 03:37 | Claude nel cloud (attivita' pianificata, piano attuale) | legge rapporto e coda, sistema le fonti in errore, verifica sul web fino a 40 eventi dubbi, scrive correzioni e rimozioni (`config/correzioni.yaml`), aggiunge eventi mancanti da siti ufficiali (`config/eventi_redazione.yaml`) e nuove fonti, pubblica subito le correzioni e annota tutto in `ops/registro-redazione.md` |
+| 03:37 | Claude nel cloud (attivita' pianificata, piano attuale) | legge rapporto e coda, sistema le fonti in errore, verifica sul web fino a 40 eventi dubbi, scrive correzioni e rimozioni (`config/correzioni.yaml`), cerca categoria per categoria, nei siti dei 94 comuni, negli aggregatori e nelle notizie tutti gli eventi mancanti e li aggiunge senza limite (`config/eventi_redazione.yaml`, copertura in `ops/copertura.yaml`) e nuove fonti, pubblica subito le correzioni e annota tutto in `ops/registro-redazione.md` |
 | 01:00 notte dopo | PC fisso | riprende correzioni ed eventi della redazione: geolocalizza i nuovi luoghi e indirizzi |
 
 Le istruzioni della revisione sono in `ops/revisione-notturna.md`: per cambiare cosa fa Claude ogni notte basta

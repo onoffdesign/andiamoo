@@ -170,7 +170,10 @@ def find(text: Optional[str], day: Optional[str], uid: Optional[str]) -> int:
         print(json.dumps(hit, ensure_ascii=False, indent=1) if hit else "uid non trovato")
         return 0
     scored = []
-    for d in payload["events"]:
+    curated = (yaml.safe_load(CURATED.read_text(encoding="utf-8")) or {}).get("eventi") if CURATED.exists() else []
+    candidates = payload["events"] + [{**c, "uid": "redazione", "start": str(c.get("start") or ""),
+                                       "end": str(c.get("end") or "")} for c in curated or []]
+    for d in candidates:
         if day and not ((d.get("start") or "")[:10] <= day <= (d.get("end") or d.get("start") or "")[:10]):
             continue
         hay = " ".join(str(d.get(k) or "") for k in ("title", "venue", "town"))

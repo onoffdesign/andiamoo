@@ -1,0 +1,143 @@
+# Copertura della ricerca notturna: data dell'ultimo controllo di ogni comune, aggregatore, testata e categoria.
+# La revisione notturna parte sempre da quelli mai controllati (null) o controllati da piu' tempo e aggiorna la data.
+# Si possono aggiungere voci (nuovi aggregatori, blog, testate): basta una riga "nome: null".
+
+comuni:
+  Altivole: null
+  Arcade: null
+  Asolo: null
+  Borso del Grappa: null
+  Breda di Piave: null
+  Caerano di San Marco: null
+  Cappella Maggiore: null
+  Carbonera: null
+  Casale sul Sile: null
+  Casier: null
+  Castelcucco: null
+  Castelfranco Veneto: null
+  Castello di Godego: null
+  Cavaso del Tomba: null
+  Cessalto: null
+  Chiarano: null
+  Cimadolmo: null
+  Cison di Valmarino: null
+  Codognè: null
+  Colle Umberto: null
+  Conegliano: null
+  Cordignano: null
+  Cornuda: null
+  Crocetta del Montello: null
+  Farra di Soligo: null
+  Follina: null
+  Fontanelle: null
+  Fonte: null
+  Fregona: null
+  Gaiarine: null
+  Giavera del Montello: null
+  Godega di Sant'Urbano: null
+  Gorgo al Monticano: null
+  Istrana: null
+  Loria: null
+  Mansuè: null
+  Mareno di Piave: null
+  Maser: null
+  Maserada sul Piave: null
+  Meduna di Livenza: null
+  Miane: null
+  Mogliano Veneto: null
+  Monastier di Treviso: null
+  Monfumo: null
+  Montebelluna: null
+  Morgano: null
+  Moriago della Battaglia: null
+  Motta di Livenza: null
+  Nervesa della Battaglia: null
+  Oderzo: null
+  Ormelle: null
+  Orsago: null
+  Paese: null
+  Pederobba: null
+  Pieve del Grappa: null
+  Pieve di Soligo: null
+  Ponte di Piave: null
+  Ponzano Veneto: null
+  Portobuffolè: null
+  Possagno: null
+  Povegliano: null
+  Preganziol: null
+  Quinto di Treviso: null
+  Refrontolo: null
+  Resana: null
+  Revine Lago: null
+  Riese Pio X: null
+  Roncade: null
+  Salgareda: null
+  San Biagio di Callalta: null
+  San Fior: null
+  San Pietro di Feletto: null
+  San Polo di Piave: null
+  San Vendemiano: null
+  San Zenone degli Ezzelini: null
+  Santa Lucia di Piave: null
+  Sarmede: null
+  Segusino: null
+  Sernaglia della Battaglia: null
+  Silea: null
+  Spresiano: null
+  Susegana: null
+  Tarzo: null
+  Trevignano: null
+  Treviso: null
+  Valdobbiadene: null
+  Vazzola: null
+  Vedelago: null
+  Vidor: null
+  Villorba: null
+  Vittorio Veneto: null
+  Volpago del Montello: null
+  Zenson di Piave: null
+  Zero Branco: null
+aggregatori:
+  insolitotrantran.it: null
+  eventiesagre.it: null
+  2night.it (Treviso): null
+  zero.eu (Veneto): null
+  itinerarinelgusto.it (sagre TV): null
+  trevisotoday.it (eventi): null
+  oggitreviso.it: null
+  qdpnews.it: null
+  eventbrite.it (Treviso): null
+  allevents.in (Treviso): null
+  calendariopodismo.it: null
+  calendariopodismoveneto.blogspot.com: null
+  running.life: null
+  Pro Loco e UNPLI Treviso: null
+  'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': null
+  musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: null
+  'biblioteche: rete BiblioMarca': null
+  H-FARM e spazi per eventi business: null
+  cinema e cineforum (Edera, Labirinto): null
+news:
+  Tribuna di Treviso: null
+  Il Gazzettino (Treviso): null
+  TrevisoToday: null
+  Oggi Treviso: null
+  Qdpnews: null
+  Radio e tv locali (Antenna Tre, Rete Veneta): null
+  'Google News: eventi provincia di Treviso': null
+categorie:
+  musica: null
+  nightlife: null
+  sagre-feste: null
+  cibo-vino: null
+  arte-cultura: null
+  teatro-spettacoli: null
+  cinema: null
+  sport: null
+  natura-outdoor: null
+  famiglie-bambini: null
+  mercatini-fiere: null
+  business: null
+  tech-scienza: null
+  benessere: null
+  comunita: null
