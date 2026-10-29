@@ -91,6 +91,7 @@ def run_source(src: dict, ctx: Context, geo: Geocoder, store: Store, tg: Telegra
         if not geo.locate(ev, finder):
             continue
         for item in split(ev, dates) if dates else [ev]:
+            ctx.located.add(item.uid)
             if item.geo_precision == "town":
                 stats["solo_comune"] = stats.get("solo_comune", 0) + 1
             stats["in_provincia"] += 1
@@ -102,6 +103,21 @@ def run_source(src: dict, ctx: Context, geo: Geocoder, store: Store, tg: Telegra
                         moderation_buttons(item.uid))
     stats["secondi"] = round(time.time() - t0)
     return stats
+
+
+def relocate_town_level(store: Store, geo: Geocoder, finder, done: set) -> int:
+    """Eventi in archivio posizionati solo sul comune e non riletti stanotte: si riprova a trovare il luogo
+    (con le regole di geocodifica aggiornate). La cache rende il ripasso quasi gratis."""
+    fixed = 0
+    for ev in list(store.events("published")):
+        if ev.geo_precision != "town" or ev.uid in done or ev.lat is None:
+            continue
+        old = (ev.lat, ev.lon)
+        ev.lat = ev.lon = None
+        if geo.locate(ev, finder) and (ev.lat, ev.lon) != old:
+            store.update_data(ev)
+            fixed += 1
+    return fixed
 
 
 def main(argv=None) -> int:
@@ -131,14 +147,16 @@ def main(argv=None) -> int:
         deep = settings()["geocoding"].get("deep_search", {})
         finder = PlaceFinder(fetcher, llm, store, int(deep.get("max_pages_per_run", 80))) if deep.get("enabled", True) else None
         max_req = settings()["pipeline"]["max_requests_per_source"]
+        located: set = set()
         for src in sources():
             if not src.get("enabled", True) or (args.source and src["id"] not in args.source):
                 continue
-            ctx = Context(fetcher=fetcher, store=store, llm=llm, max_requests=fetcher.requests + max_req)
+            ctx = Context(fetcher=fetcher, store=store, llm=llm, max_requests=fetcher.requests + max_req, located=located)
             log.info("→ %s", src["name"])
             stats = run_source(src, ctx, geo, store, tg, finder)
             report["fonti"][src["id"]] = stats
             log.info("  %s", stats)
+        report["luoghi_ricalcolati"] = relocate_town_level(store, geo, finder, located)
         report["chiamate_ai"] = getattr(llm, "calls", 0)
         report["richieste_web"] = fetcher.requests
         report["richieste_geocoding"] = geo.requests
@@ -163,7 +181,13 @@ def main(argv=None) -> int:
     if not args.export_only:
         # coda di revisione per Claude e rapporto del giro, pubblicati in ops/
         ai_on = getattr(llm, "name", "") == "ollama"
-        queue = quality.build_queue([e for e in unique if e.lat is not None], corrections, ai_on)
+        located_events = [e for e in unique if e.lat is not None]
+        centers = {}
+        for town in {(e.town or "").strip() for e in located_events if e.town}:
+            area = geo.town_area(town)
+            if area:
+                centers[town.lower()] = (area["lat"], area["lon"])
+        queue = quality.build_queue(located_events, corrections, ai_on, centers)
         report.update({"giro_pc": True, "motore_ai": getattr(llm, "name", ""), "modello": settings()["llm"]["text_model"] if ai_on else "",
                        "minuti": round((time.time() - started) / 60, 1), "in_revisione": len(queue)})
         quality.write_ops(report, queue)

@@ -14,6 +14,7 @@ from rapidfuzz import fuzz
 
 from .config import ROOT
 from .dedupe import norm_title
+from .geocode import km_between
 from .models import Event
 from .textutil import ROME, parse_day, today_rome
 
@@ -23,10 +24,18 @@ NEWS_SOURCES = {"google-news-eventi", "qdpnews"}
 EMOJI = re.compile("[\U0001F300-\U0001FAFF☀-➿]")
 
 
-def reasons_for(ev: Event, ai_on: bool) -> list[str]:
+FAR_KM = 6       # oltre questa distanza dal centro del comune la posizione e' sospetta
+
+
+def reasons_for(ev: Event, ai_on: bool, centers: dict | None = None) -> list[str]:
     r = []
     if ev.geo_precision == "town":
-        r.append("luogo: solo il comune, cerca locale e indirizzo")
+        r.append("luogo: solo il comune, cerca locale e indirizzo e indica lat/lon")
+    center = (centers or {}).get((ev.town or "").strip().lower())
+    if center and ev.lat is not None:
+        km = km_between(center[0], center[1], ev.lat, ev.lon)
+        if km > FAR_KM:
+            r.append(f"posizione a {km:.0f} km dal centro di {ev.town}: verifica dove si trova e correggi lat/lon")
     if ev.source in NEWS_SOURCES:
         r.append("da notizia: verifica data, ora e luogo sul sito ufficiale")
     if ev.access == "sconosciuto":
@@ -61,7 +70,7 @@ def possible_duplicates(events: list[Event]) -> dict[str, str]:
     return out
 
 
-def build_queue(events: list[Event], corrections: dict, ai_on: bool) -> list[dict]:
+def build_queue(events: list[Event], corrections: dict, ai_on: bool, centers: dict | None = None) -> list[dict]:
     today = today_rome()
     done = set(corrections["verificati"]) | set(corrections["correggi"]) | set(corrections["rimuovi"])
     dup = possible_duplicates(events)
@@ -73,7 +82,7 @@ def build_queue(events: list[Event], corrections: dict, ai_on: bool) -> list[dic
         end = parse_day(ev.end) or start
         if not start or start > today + timedelta(days=60) or end < today:
             continue
-        r = reasons_for(ev, ai_on)
+        r = reasons_for(ev, ai_on, centers)
         if ev.uid in dup:
             r.append(f"possibile doppione di {dup[ev.uid]}")
         if not r:
@@ -83,6 +92,7 @@ def build_queue(events: list[Event], corrections: dict, ai_on: bool) -> list[dic
             "luogo": ev.venue, "indirizzo": ev.address, "comune": ev.town, "categoria": ev.category,
             "accesso": ev.access, "prezzo": ev.price, "fonte": ev.source_name, "pagina_fonte": ev.source_url,
             "sito_ufficiale": ev.official_url or ev.ticket_url, "riassunto": ev.summary,
+            "lat": ev.lat, "lon": ev.lon, "precisione": ev.geo_precision,
         })
     # prima i piu' vicini nel tempo, a parita' quelli con piu' problemi
     items.sort(key=lambda d: ((d["inizio"] or "")[:10], -len(d["motivi"])))

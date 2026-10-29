@@ -63,6 +63,11 @@ class Store:
         self.db.commit()
         return True
 
+    def update_data(self, ev: Event) -> None:
+        """Aggiorna solo i dati (es. coordinate), senza toccare stato e date di raccolta."""
+        self.db.execute("UPDATE events SET data=? WHERE uid=?", (json.dumps(ev.to_dict(), ensure_ascii=False), ev.uid))
+        self.db.commit()
+
     def get_event(self, uid: str) -> Optional[Event]:
         row = self.db.execute("SELECT data FROM events WHERE uid=?", (uid,)).fetchone()
         return Event.from_dict(json.loads(row["data"])) if row else None

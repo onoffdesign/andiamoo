@@ -20,8 +20,13 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
   (mercatino ogni terza domenica, visite ogni sabato) vanno divisi in date singole; mostre e rassegne con date
   continue restano un evento unico con inizio e fine.
 - **Area**: solo provincia di Treviso. Eventi fuori provincia, conclusi, annullati o che non sono eventi: rimuovi.
-- Coordinate (`lat`, `lon`) solo se lette da un link mappa ufficiale; altrimenti indica luogo e indirizzo e il PC
-  geolocalizza al giro successivo.
+- **Posizione giusta sulla mappa**: ogni punto deve stare dove si svolge davvero l'evento. Se hai dubbi (solo il
+  comune, punto lontano dal centro del comune, luogo con nome generico o omonimo), fai una ricerca: sito
+  dell'organizzatore, pagina del luogo, mappe e schede di luoghi (OpenStreetMap, Wikipedia, komoot, siti turistici)
+  trovate con WebSearch. Quando trovi le coordinate scrivile in `lat` e `lon` nella correzione, con la `nota` che
+  dice da dove vengono. Se non trovi il punto esatto, metti le coordinate del posto piu' vicino che conosci con
+  certezza (la piazza, la chiesa o il centro della frazione, il parco, l'ingresso delle mura) e scrivilo nella nota.
+  Mai lasciare un evento in un altro comune o in aperta campagna per mancanza di dati.
 
 ## Memoria: impara e migliora ogni notte
 
@@ -71,6 +76,8 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    - `rimuovi.<uid>: "motivo"` per eventi annullati, conclusi, fuori provincia, non-eventi, doppioni (togli quello
      del portale e tieni la fonte diretta).
    - `verificati.<uid>: AAAA-MM-GG` se i dati sono gia' giusti (esce dalla coda).
+   Gli eventi con motivo "luogo: solo il comune" o "posizione a N km dal centro" vanno sempre sistemati con `lat`
+   e `lon` (vedi la regola "Posizione giusta sulla mappa"); se piu' eventi hanno lo stesso luogo, stesse coordinate.
    Valori ammessi: categorie e accessi di `config/categories.yaml` (access: libero, offerta, biglietto, iscrizione,
    invito); date `AAAA-MM-GG` o `AAAA-MM-GGTHH:MM`; titoli puliti (niente emoji, niente " – Comune (Provincia)").
 4. **Ricerca degli eventi mancanti** - e' la parte piu' lunga della notte: vedi la sezione "Ricerca degli eventi"

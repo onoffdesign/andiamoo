@@ -1,7 +1,7 @@
 """Raccoglitori: ognuno trasforma una fonte in oggetti Event (ancora da arricchire e geolocalizzare)."""
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Callable, Iterator
 
 from ..fetch import Fetcher
@@ -15,6 +15,7 @@ class Context:
     store: Store
     llm: object
     max_requests: int = 80
+    located: set = field(default_factory=set)     # uid geolocalizzati in questo giro
 
 
 def registry() -> dict[str, Callable[[dict, Context], Iterator[Event]]]:

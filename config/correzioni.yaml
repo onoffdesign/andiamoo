@@ -13,7 +13,47 @@
 # verificati:
 #   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
 
-correggi: {}
+correggi:
+  4e84f1eeea38a5c7:
+    venue: Porta San Tomaso (mura di Treviso)
+    address: Porta San Tomaso, Treviso
+    lat: 45.66994
+    lon: 12.25089
+    nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
+    verificato: 2026-10-29
+  4247ba408253fcd3:
+    venue: Porta San Tomaso (mura di Treviso)
+    address: Porta San Tomaso, Treviso
+    lat: 45.66994
+    lon: 12.25089
+    nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
+    verificato: 2026-10-29
+  60e877f3721e8af9:
+    venue: Porta San Tomaso (mura di Treviso)
+    address: Porta San Tomaso, Treviso
+    lat: 45.66994
+    lon: 12.25089
+    nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
+    verificato: 2026-10-29
+  8186906e477ccf5f:
+    venue: Porta San Tomaso (mura di Treviso)
+    address: Porta San Tomaso, Treviso
+    lat: 45.66994
+    lon: 12.25089
+    nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
+    verificato: 2026-10-29
+  19283ff22f7bb490:
+    venue: Porta San Tomaso (mura di Treviso)
+    address: Porta San Tomaso, Treviso
+    lat: 45.66994
+    lon: 12.25089
+    nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
+    verificato: 2026-10-29
+  7b9d26a8acf449fe:
+    lat: 45.663
+    lon: 12.2488
+    nota: "chiesa di Santa Margherita, sede del Museo Salce, vicino a Ponte Santa Margherita (coordinate da aroundus.com)"
+    verificato: 2026-10-29
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
 verificati: {}
