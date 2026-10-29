@@ -161,13 +161,15 @@
     const keep = strip.scrollLeft;
     strip.innerHTML = "";
     let days = null;                       // giorni raggruppati per mese: l'etichetta del mese resta ferma mentre si scorre
-    const alpha = (n) => (n ? 0.1 + 0.9 * Math.pow(n / max, 0.75) : 0);   // densita' -> opacita' della fascia
+    // densita' -> grigio della fascia: bianco senza eventi, fino a #8f8f8f nel giorno piu' pieno
+    // (testo sempre nero: contrasto minimo circa 5.8:1, sopra la soglia AA)
+    const grey = (n) => (n ? Math.round(232 - (232 - 143) * Math.pow(n / max, 0.75)) : 255);
     const stops = [];
     const flushStops = () => {             // variante sfumata: un gradiente continuo per mese
       if (days && stops.length) {
         const w = 100 / stops.length;
         days.style.setProperty("--band", `linear-gradient(90deg, ${stops.map((a, k) =>
-          `rgba(98,31,255,${a.toFixed(2)}) ${((k + 0.5) * w).toFixed(2)}%`).join(", ")})`);
+          `rgb(${a},${a},${a}) ${((k + 0.5) * w).toFixed(2)}%`).join(", ")})`);
       }
       stops.length = 0;
     };
@@ -183,13 +185,11 @@
       }
       const b = document.createElement("button");
       b.type = "button";
-      b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty")
-        + (alpha(n) > 0.55 ? " dense" : "");                          // fascia scura: numeri bianchi
+      b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty");
       const on = state.preset !== "all" && state.from && key >= state.from && (!state.to || key <= state.to);
       b.setAttribute("aria-pressed", String(!!on));
       b.setAttribute("aria-label", `${dayLabel(d)}: ${n} eventi`);
-      b.style.setProperty("--a", alpha(n).toFixed(2));
-      stops.push(alpha(n));
+      stops.push(grey(n));
       b.innerHTML = `<span class="dow">${i === 0 ? "oggi" : DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span>`;
       b.addEventListener("click", () => {
         if (state.preset === "day" && state.from === key) setPreset("all");
