@@ -127,7 +127,9 @@ class OllamaLLM:
             "messages": [{"role": "system", "content": _system()}, msg],
             "format": schema,
             "stream": False,
-            "options": {"temperature": self.temperature},
+            # tetto alla risposta: senza, su alcuni testi il modello ripete all'infinito e va in timeout
+            "options": {"temperature": self.temperature, "num_predict": 1500 if schema is EXTRACT_SCHEMA else 600,
+                        "num_ctx": 8192, "repeat_penalty": 1.15},
             "keep_alive": "30m",          # il modello resta caricato sulla GPU per tutto il giro
         }
         self.calls += 1
