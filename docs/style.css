@@ -155,7 +155,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .month + .month { margin-left: 6px; padding-left: 6px; border-left: 1px solid var(--line); }
 .mdays { display: flex; gap: 1px; width: max-content; }
 .mlabel {
-  position: sticky; left: 0; align-self: flex-start; z-index: 1; margin-bottom: 2px; padding: 2px 7px; border-radius: 5px;
+  position: -webkit-sticky; position: sticky; left: 0; align-self: flex-start; z-index: 1; margin-bottom: 2px; padding: 2px 7px; border-radius: 5px;
   background: var(--ink); color: #fff; font-family: var(--display); font-stretch: 118%; text-transform: uppercase;
   font-size: .6875rem; font-weight: 700; letter-spacing: .04em; line-height: 1.2; white-space: nowrap;
 }
