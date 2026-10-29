@@ -55,7 +55,12 @@ def enrich(ev: Event, llm) -> Event:
     if not ev.category:
         ev.category, ev.subcategory = cats.classify_rules(f"{ev.title}\n{ev.summary}\n{ev.raw_text}")
     if not ev.category:
-        ev.category = "comunita"
+        ev.category = "arte-cultura"          # ripiego: la revisione notturna la verifica
+        if "categoria-ripiego" not in ev.tags:
+            ev.tags.append("categoria-ripiego")
+    cat, sub = cats.validate(ev.category, ev.subcategory)      # vecchie categorie -> quelle accorpate
+    if cat:
+        ev.category, ev.subcategory = cat, sub
     if looks_like_listing(ev):
         ev.kind = "non_evento"            # calendari ed elenchi di eventi: non sono eventi
     if ev.access == "sconosciuto":

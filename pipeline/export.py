@@ -10,6 +10,7 @@ from collections import Counter
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
 
+from . import categories as cats
 from .config import DATA_DIR, ROOT, settings, taxonomy
 from .enrich import SOCIAL, action_link
 from .kinds import looks_like_listing
@@ -58,6 +59,8 @@ def export(events: list[Event]) -> dict:
         if not visible(ev) or ev.kind != "evento" or looks_like_listing(ev):
             continue
         d = ev.public_dict()
+        d["category"], d["subcategory"] = cats.validate(ev.category, ev.subcategory)   # vecchie categorie convertite
+        d["category"] = d["category"] or "arte-cultura"
         d["action_url"] = action_link(ev)
         lat, lon = scatter(ev) if ev.geo_precision == "town" else (ev.lat, ev.lon)
         d["lat"], d["lon"] = round(lat, 5), round(lon, 5)

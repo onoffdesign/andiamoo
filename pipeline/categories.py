@@ -17,6 +17,16 @@ def category_ids() -> list[str]:
     return [c["id"] for c in categories()]
 
 
+@lru_cache(maxsize=1)
+def alias_map() -> dict[str, str]:
+    """Vecchie categorie -> categoria in cui sono confluite."""
+    return {old: c["id"] for c in categories() for old in c.get("aliases", [])}
+
+
+def canonical(cat: str | None) -> str | None:
+    return alias_map().get(cat, cat) if cat else cat
+
+
 def subcategory_ids(cat: str) -> list[str]:
     for c in categories():
         if c["id"] == cat:
@@ -72,6 +82,7 @@ def prompt_catalog() -> str:
 
 
 def validate(cat: str | None, sub: str | None) -> tuple[str | None, str | None]:
+    cat = canonical(cat)
     if cat not in category_ids():
         return None, None
     if sub not in subcategory_ids(cat):

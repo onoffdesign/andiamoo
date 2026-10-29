@@ -60,7 +60,7 @@ def validate_fields(fields: dict, where: str) -> list[str]:
             errs.append(f"{where}: campo non modificabile '{k}'")
         elif k in ("start", "end") and v and not DATE_RE.match(str(v)):
             errs.append(f"{where}: {k} deve essere AAAA-MM-GG o AAAA-MM-GGTHH:MM, non '{v}'")
-        elif k == "category" and v not in cats.category_ids():
+        elif k == "category" and cats.canonical(v) not in cats.category_ids():
             errs.append(f"{where}: categoria sconosciuta '{v}'")
         elif k == "access" and v not in cats.access_ids():
             errs.append(f"{where}: accesso sconosciuto '{v}'")
@@ -155,6 +155,8 @@ def apply_payload(payload: dict, corr: Optional[dict] = None) -> dict:
         fields = corr["correggi"].get(uid)
         if fields:
             fields = _clean(fields)
+            if "category" in fields:
+                fields["category"] = cats.canonical(fields["category"])
             d = {**d, **fields}
             if "lat" in fields:
                 d["lat"], d["lon"] = round(float(fields["lat"]), 5), round(float(fields["lon"]), 5)

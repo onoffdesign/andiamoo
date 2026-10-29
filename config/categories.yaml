@@ -3,164 +3,308 @@
 # insolitotrantran (tono locale) e running.life (sport partecipativo).
 # "id" e' la chiave stabile usata nei dati e negli URL; "label" e' quello che vede l'utente.
 # "keywords" serve al classificatore di riserva quando l'AI non e' disponibile o non e' ammessa per una fonte.
+# "aliases": vecchie categorie confluite in questa (29/10/2026, da 15 a 9): i dati gia' raccolti vengono convertiti.
+# L'ordine e' quello dei filtri sul sito (fissato il 29/10/2026 dal numero di eventi, dal piu' al meno frequente).
 
 categories:
-  - id: musica
-    label: Musica
-    icon: "🎵"
-    color: "#a393ff"
-    sub:
-      concerti: Concerti live
-      jazz-classica: Jazz e classica
-      festival-musicali: Festival musicali
-      dj-set: DJ set
-    keywords: [concerto, live, band, jazz, orchestra, cantautore, tour, festival musicale, rock, rap, sinfonic, coro, chitarr]
-
-  - id: nightlife
-    label: Nightlife e party
-    icon: "🪩"
-    color: "#ff7eb6"
-    sub:
-      club: Club e discoteca
-      party: Feste a tema
-      aperitivo: Aperitivi e serate
-    keywords: [discoteca, club, dj, party, halloween party, serata, after, aperitivo, disco, nightlife]
-
-  - id: sagre-feste
-    label: Sagre e feste
-    icon: "🎪"
-    color: "#ff9f43"
-    sub:
-      sagre: Sagre di paese
-      feste-patronali: Feste patronali e tradizioni
-      ricorrenze: Carnevale, Natale e ricorrenze
-    keywords: [sagra, festa, patrono, pro loco, carnevale, natale, befana, panevin, fiera franca, palio]
-
-  - id: cibo-vino
-    label: Cibo e vino
-    icon: "🍷"
-    color: "#ee8a9a"
-    sub:
-      degustazioni: Degustazioni e cantine
-      cene: Cene ed eventi gastronomici
-      mercati-contadini: Mercati agricoli
-    keywords: [degustazione, vino, prosecco, cantina, cena, enogastronom, food, street food, birra, marroni, radicchio, olio]
-
-  - id: arte-cultura
-    label: Arte e cultura
-    icon: "🖼️"
-    color: "#5ec8e8"
-    sub:
-      mostre: Mostre
-      visite: Visite guidate e musei
-      libri: Libri e incontri
-      conferenze: Conferenze e talk
-    keywords: [mostra, mostre, museo, esposizione, visita guidata, libro, presentazione, autore, conferenza, incontro, arte, fotografia, biblioteca]
-
-  - id: teatro-spettacoli
-    label: Teatro e spettacoli
-    icon: "🎭"
-    color: "#ff6a55"
-    sub:
-      teatro: Teatro
-      danza: Danza
-      comicita: Comicita e cabaret
-      circo-magia: Circo e magia
-    keywords: [teatro, spettacolo, danza, balletto, commedia, cabaret, stand up, comico, circo, magia, opera, musical]
-
-  - id: cinema
-    label: Cinema
-    icon: "🎬"
-    color: "#bdb6aa"
-    sub:
-      proiezioni: Proiezioni
-      rassegne: Rassegne e cineforum
-    keywords: [cinema, film, proiezione, cineforum, rassegna cinematografica, documentario, cortometragg]
-
-  - id: sport
-    label: Sport
-    icon: "🏅"
-    color: "#47c98b"
-    sub:
-      corsa: Corsa e podismo
-      ciclismo: Ciclismo e MTB
-      nuoto: Nuoto e acqua
-      basket: Basket
-      volley: Pallavolo
-      calcio: Calcio
-      rugby: Rugby
-      tennis-padel: Tennis e padel
-      outdoor: Trail, trekking e montagna
-      altri-sport: Altri sport
-    keywords: [corsa, podismo, marcia, maratona, mezza maratona, trail, run, km, gara, ciclismo, bici, granfondo, nuoto, piscina, basket, pallacanestro, volley, pallavolo, calcio, partita, rugby, tennis, padel, torneo, campionato, triathlon, canoa, kayak, sci, arrampicata, scherma, atletica]
-
-  - id: natura-outdoor
-    label: Natura e outdoor
-    icon: "🌿"
-    color: "#a5d36a"
-    sub:
-      escursioni: Escursioni e passeggiate
-      green: Eventi green
-    keywords: [escursione, passeggiata, camminata, natura, parco, bosco, sentiero, fiume, sile, piave, giornata ecologica, alberi]
-
-  - id: famiglie-bambini
-    label: Famiglie e bambini
-    icon: "🧸"
-    color: "#ffd23f"
-    sub:
-      laboratori: Laboratori
-      spettacoli-bimbi: Spettacoli per bambini
-    keywords: [bambini, bimbi, famiglie, famiglia, laboratorio, laboratori, ragazzi, kids, letture animate, burattini]
-
-  - id: mercatini-fiere
-    label: Mercatini e fiere
-    icon: "🛍️"
-    color: "#d6a77a"
-    sub:
-      antiquariato: Antiquariato e vintage
-      artigianato: Artigianato e hobby
-      fiere: Fiere e mostre mercato
-    keywords: [mercatino, mercato, antiquariato, vintage, collezionismo, artigianato, fiera, mostra mercato, hobbistica, usato]
-
-  - id: business
-    label: Business e formazione
-    icon: "💼"
-    color: "#6f9bff"
-    sub:
-      conferenze-business: Convegni e conferenze
-      networking: Networking
-      workshop: Workshop e corsi
-      fiere-settore: Fiere di settore
-      aziendali: Eventi aziendali
-    keywords: [convegno, seminario, webinar, workshop, corso, formazione, networking, impresa, aziend, startup, business, camera di commercio, confindustria, open day aziendale, inaugurazione]
-
-  - id: tech-scienza
-    label: Tech e scienza
-    icon: "🔬"
-    color: "#3fd6c6"
-    sub:
-      tech: Tecnologia e digitale
-      scienza: Scienza e divulgazione
-    keywords: [tecnologia, digitale, intelligenza artificiale, coding, hackathon, scienza, astronomia, robotica, maker]
-
-  - id: benessere
-    label: Benessere
-    icon: "🧘"
-    color: "#9fe3c6"
-    sub:
-      yoga: Yoga e meditazione
-      salute: Salute e prevenzione
-    keywords: [yoga, meditazione, benessere, mindfulness, pilates, salute, prevenzione]
-
-  - id: comunita
-    label: Comunita e sociale
-    icon: "🤝"
-    color: "#c9bdf0"
-    sub:
-      volontariato: Volontariato e solidarieta
-      incontri-pubblici: Incontri pubblici
-      spiritualita: Religione e spiritualita
-    keywords: [volontariato, solidariet, beneficenza, raccolta fondi, assemblea pubblica, consiglio comunale, messa, processione, parrocchia]
+- id: sport
+  label: Sport
+  icon: 🏅
+  color: '#47c98b'
+  sub:
+    corsa: Corsa e podismo
+    ciclismo: Ciclismo e MTB
+    nuoto: Nuoto e acqua
+    basket: Basket
+    volley: Pallavolo
+    calcio: Calcio
+    rugby: Rugby
+    tennis-padel: Tennis e padel
+    outdoor: Trail, trekking e montagna
+    altri-sport: Altri sport
+  keywords:
+  - corsa
+  - podismo
+  - marcia
+  - maratona
+  - mezza maratona
+  - trail
+  - run
+  - km
+  - gara
+  - ciclismo
+  - bici
+  - granfondo
+  - nuoto
+  - piscina
+  - basket
+  - pallacanestro
+  - volley
+  - pallavolo
+  - calcio
+  - partita
+  - rugby
+  - tennis
+  - padel
+  - torneo
+  - campionato
+  - triathlon
+  - canoa
+  - kayak
+  - sci
+  - arrampicata
+  - scherma
+  - atletica
+- id: arte-cultura
+  label: Arte e cultura
+  icon: 🖼️
+  color: '#5ec8e8'
+  aliases:
+  - tech-scienza
+  - comunita
+  sub:
+    mostre: Mostre
+    visite: Visite guidate e musei
+    libri: Libri e incontri
+    conferenze: Conferenze e talk
+    tech: Tecnologia e digitale
+    scienza: Scienza e divulgazione
+    volontariato: Volontariato e solidarieta
+    incontri-pubblici: Incontri pubblici
+    spiritualita: Religione e spiritualita
+  keywords:
+  - mostra
+  - mostre
+  - museo
+  - esposizione
+  - visita guidata
+  - libro
+  - presentazione
+  - autore
+  - conferenza
+  - incontro
+  - arte
+  - fotografia
+  - biblioteca
+  - tecnologia
+  - digitale
+  - intelligenza artificiale
+  - coding
+  - hackathon
+  - scienza
+  - astronomia
+  - robotica
+  - maker
+  - volontariato
+  - solidariet
+  - beneficenza
+  - raccolta fondi
+  - assemblea pubblica
+  - consiglio comunale
+  - messa
+  - processione
+  - parrocchia
+- id: musica
+  label: Musica e party
+  icon: 🎵
+  color: '#a393ff'
+  aliases:
+  - nightlife
+  sub:
+    concerti: Concerti live
+    jazz-classica: Jazz e classica
+    festival-musicali: Festival musicali
+    dj-set: DJ set
+    club: Club e discoteca
+    party: Feste a tema
+    aperitivo: Aperitivi e serate
+  keywords:
+  - concerto
+  - live
+  - band
+  - jazz
+  - orchestra
+  - cantautore
+  - tour
+  - festival musicale
+  - rock
+  - rap
+  - sinfonic
+  - coro
+  - chitarr
+  - discoteca
+  - club
+  - dj
+  - party
+  - halloween party
+  - serata
+  - after
+  - aperitivo
+  - disco
+  - nightlife
+- id: sagre-feste
+  label: Sagre e cibo
+  icon: 🎪
+  color: '#ff9f43'
+  aliases:
+  - cibo-vino
+  sub:
+    sagre: Sagre di paese
+    feste-patronali: Feste patronali e tradizioni
+    ricorrenze: Carnevale, Natale e ricorrenze
+    degustazioni: Degustazioni e cantine
+    cene: Cene ed eventi gastronomici
+    mercati-contadini: Mercati agricoli
+  keywords:
+  - sagra
+  - festa
+  - patrono
+  - pro loco
+  - carnevale
+  - natale
+  - befana
+  - panevin
+  - fiera franca
+  - palio
+  - degustazione
+  - vino
+  - prosecco
+  - cantina
+  - cena
+  - enogastronom
+  - food
+  - street food
+  - birra
+  - marroni
+  - radicchio
+  - olio
+- id: teatro-spettacoli
+  label: Spettacoli
+  icon: 🎭
+  color: '#ff6a55'
+  aliases:
+  - cinema
+  sub:
+    teatro: Teatro
+    danza: Danza
+    comicita: Comicita e cabaret
+    circo-magia: Circo e magia
+    proiezioni: Proiezioni
+    rassegne: Rassegne e cineforum
+  keywords:
+  - teatro
+  - spettacolo
+  - danza
+  - balletto
+  - commedia
+  - cabaret
+  - stand up
+  - comico
+  - circo
+  - magia
+  - opera
+  - musical
+  - cinema
+  - film
+  - proiezione
+  - cineforum
+  - rassegna cinematografica
+  - documentario
+  - cortometragg
+- id: famiglie-bambini
+  label: Famiglie e bambini
+  icon: 🧸
+  color: '#ffd23f'
+  sub:
+    laboratori: Laboratori
+    spettacoli-bimbi: Spettacoli per bambini
+  keywords:
+  - bambini
+  - bimbi
+  - famiglie
+  - famiglia
+  - laboratorio
+  - laboratori
+  - ragazzi
+  - kids
+  - letture animate
+  - burattini
+- id: mercatini-fiere
+  label: Mercatini e fiere
+  icon: 🛍️
+  color: '#d6a77a'
+  sub:
+    antiquariato: Antiquariato e vintage
+    artigianato: Artigianato e hobby
+    fiere: Fiere e mostre mercato
+  keywords:
+  - mercatino
+  - mercato
+  - antiquariato
+  - vintage
+  - collezionismo
+  - artigianato
+  - fiera
+  - mostra mercato
+  - hobbistica
+  - usato
+- id: business
+  label: Business e formazione
+  icon: 💼
+  color: '#6f9bff'
+  sub:
+    conferenze-business: Convegni e conferenze
+    networking: Networking
+    workshop: Workshop e corsi
+    fiere-settore: Fiere di settore
+    aziendali: Eventi aziendali
+  keywords:
+  - convegno
+  - seminario
+  - webinar
+  - workshop
+  - corso
+  - formazione
+  - networking
+  - impresa
+  - aziend
+  - startup
+  - business
+  - camera di commercio
+  - confindustria
+  - open day aziendale
+  - inaugurazione
+- id: natura-outdoor
+  label: Natura e benessere
+  icon: 🌿
+  color: '#a5d36a'
+  aliases:
+  - benessere
+  sub:
+    escursioni: Escursioni e passeggiate
+    green: Eventi green
+    yoga: Yoga e meditazione
+    salute: Salute e prevenzione
+  keywords:
+  - escursione
+  - passeggiata
+  - camminata
+  - natura
+  - parco
+  - bosco
+  - sentiero
+  - fiume
+  - sile
+  - piave
+  - giornata ecologica
+  - alberi
+  - yoga
+  - meditazione
+  - benessere
+  - mindfulness
+  - pilates
+  - salute
+  - prevenzione
 
 # Tipo di accesso: alimenta il badge sulla scheda e il filtro "Accesso".
 access:

@@ -111,4 +111,4 @@ def test_morning_report(tmp_path, monkeypatch):
     (tmp_path / "resoconto.json").write_text('{"eventi_sul_sito": 120}', encoding="utf-8")
     msg = report.build_message()
     assert "eventi nuovi dalle fonti: 4" in msg and "ticketone (timeout)" in msg and "redazione" not in msg
-    assert "aggiunti 9" in msg and "Musica 6" in msg and "DICE vuoto" in msg and "rispetto a ieri" in msg
+    assert "aggiunti 9" in msg and "Musica e party 6" in msg and "DICE vuoto" in msg and "rispetto a ieri" in msg

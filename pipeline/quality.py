@@ -33,7 +33,7 @@ def reasons_for(ev: Event, ai_on: bool) -> list[str]:
         r.append("accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)")
     if not ev.all_day and len(ev.start or "") == 10:
         r.append("orario mancante")
-    if ev.category == "comunita" and not ev.ai_summary:
+    if "categoria-ripiego" in (ev.tags or []):
         r.append("categoria di ripiego: verifica")
     if ai_on and ev.ai_allowed and not ev.summary:
         r.append("riassunto mancante")

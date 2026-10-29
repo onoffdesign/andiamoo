@@ -39,3 +39,13 @@ def test_last_weekday_weekly_and_listed():
     listed = ev("Visite guidate", "2026-10-01", "2026-12-31", kind="ricorrente",
                 recurrence={"frequenza": "date_elencate", "date_elencate": ["2026-10-10", "2026-11-08", "2027-05-01"]})
     assert occurrences(listed, 120, today=date(2026, 10, 29)) == ["2026-11-08"]
+
+
+def test_merged_categories():
+    from pipeline import categories as cats
+    assert cats.category_ids() == ["sport", "arte-cultura", "musica", "sagre-feste", "teatro-spettacoli",
+                                   "famiglie-bambini", "mercatini-fiere", "business", "natura-outdoor"]
+    assert cats.validate("nightlife", "club") == ("musica", "club")
+    assert cats.validate("cinema", "proiezioni") == ("teatro-spettacoli", "proiezioni")
+    assert cats.validate("cibo-vino", "degustazioni") == ("sagre-feste", "degustazioni")
+    assert cats.validate("benessere", "yoga")[0] == "natura-outdoor" and cats.validate("comunita", None)[0] == "arte-cultura"
