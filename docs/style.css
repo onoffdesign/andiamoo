@@ -8,7 +8,8 @@
   --ink-2: #66625b;
   --line: #e4e0d7;
   --chip: #efece6;
-  --cta: #ffab1f;         /* giallo aranciato: colore del brand e delle azioni */
+  --cta: #621fff;         /* viola: colore del brand e delle azioni */
+  --on-cta: #ffffff;      /* testo sopra il colore del brand */
   --me: #2f6bff;          /* posizione dell'utente */
   --warn: #c2410c;        /* campi mancanti */
   --focus: #2f6bff;
@@ -112,7 +113,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   font-size: .8125rem; font-weight: 600; letter-spacing: .03em; cursor: pointer; white-space: nowrap;
 }
 .icon-btn { width: 44px; padding: 0; display: inline-grid; place-items: center; }
-.add-btn { background: var(--cta); display: inline-flex; align-items: center; gap: 8px; }
+.add-btn { background: var(--cta); color: var(--on-cta); display: inline-flex; align-items: center; gap: 8px; }
 .add-btn:hover { filter: brightness(.96); }
 .add-btn b { font-size: 1.1rem; line-height: 1; }
 
@@ -260,7 +261,7 @@ body.sidebar-hidden .list-toggle { display: flex; }
 }
 .cta {
   display: inline-flex; align-items: center; justify-content: space-between; gap: 8px; height: clamp(40px, 12cqi, 48px);
-  padding: 0 6px 0 clamp(10px, 3.5cqi, 14px); border: 0; border-radius: 6px; background: var(--cta); color: var(--ink); text-decoration: none;
+  padding: 0 6px 0 clamp(10px, 3.5cqi, 14px); border: 0; border-radius: 6px; background: var(--cta); color: var(--on-cta); text-decoration: none;
   font-size: clamp(.6875rem, 3.3cqi, .875rem); font-weight: 600; letter-spacing: .03em; cursor: pointer;
 }
 .detail-actions .cta { flex: 1; min-width: 0; white-space: nowrap; }
@@ -311,7 +312,7 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .chip[aria-pressed="true"] .dot { background: var(--ink); }
 .chip[aria-pressed="true"] .n { color: var(--ink); }
 .chip.more-filters { display: none; background: var(--ink); color: #fff; }
-.chip.more-filters .badge { display: inline-grid; place-items: center; min-width: 18px; height: 18px; border-radius: 9px; background: var(--cta); color: var(--ink); font-size: .6875rem; }
+.chip.more-filters .badge { display: inline-grid; place-items: center; min-width: 18px; height: 18px; border-radius: 9px; background: var(--cta); color: var(--on-cta); font-size: .6875rem; }
 .chips.at-end { mask-image: none; -webkit-mask-image: none; }
 .chips-nav { width: 26px; height: 30px; margin: 0 0 2px; }
 .selects { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); }
@@ -478,7 +479,7 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .privacy { grid-column: 1 / -1; font-size: .75rem; color: var(--ink-2); margin: 0; }
 .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 .done { text-align: center; padding: 24px 8px 10px; }
-.done .big { width: 56px; height: 56px; margin: 0 auto 14px; border-radius: 50%; background: var(--cta); display: grid; place-items: center; }
+.done .big { width: 56px; height: 56px; margin: 0 auto 14px; border-radius: 50%; background: var(--cta); color: var(--on-cta); display: grid; place-items: center; }
 .done h3 { margin: 0 0 8px; font-family: var(--display); font-stretch: 118%; text-transform: uppercase; font-size: 1.125rem; }
 .done p { margin: 0 auto; max-width: 40ch; color: var(--ink-2); }
 .alt-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
@@ -596,4 +597,33 @@ body.sidebar-hidden .list-toggle { display: flex; }
 @media (prefers-reduced-motion: reduce) {
   .wordmark .l, .wordmark .q, .tagline .t { animation: none; }
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+
+/* ---------- calendario: fascia unica, l'opacita' dice quanti eventi ci sono quel giorno ---------- */
+.days { align-items: center; padding: 6px 10px; gap: 10px; }
+.presets { padding-bottom: 0; }
+.strip { align-items: center; }
+.strip-nav { height: 40px; margin-bottom: 0; }
+.month { flex-direction: row; align-items: center; }
+.month + .month { margin-left: 8px; padding-left: 0; border-left: 0; }
+.mlabel { margin: 0 6px 0 0; align-self: center; position: static; }   /* nella fascia non resta fermo: coprirebbe i giorni */
+.mdays { gap: 0; border-radius: 8px; background: var(--chip); overflow: hidden; }
+.day {
+  height: 40px; grid-template-rows: auto auto; align-content: center; gap: 0; padding: 0; border-radius: 0;
+  background: rgba(98, 31, 255, var(--a, 0));
+}
+.day .dow { font-size: .5625rem; line-height: 1.1; color: var(--ink); opacity: .7; }
+.day.weekend .dow { opacity: 1; }
+.day .num { font-size: .875rem; line-height: 1.15; }
+.day.empty .num, .day.empty .dow { color: #a9a49a; }
+.day.dense .num, .day.dense .dow { color: #fff; opacity: 1; }
+.day:hover { box-shadow: inset 0 0 0 1px var(--ink); }
+.day[aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--ink); border-radius: 8px; }
+.day[aria-pressed="true"] .num { text-decoration: none; }
+/* fascia sfumata: la tinta scorre da un giorno all'altro */
+.mdays { background: var(--band, none), var(--chip); }
+.day { background: none; }
+@media (max-width: 760px) {
+  .days { padding: 6px 8px; align-items: center; }
+  .day { height: 40px; min-height: 0; grid-template-rows: auto auto; }
 }

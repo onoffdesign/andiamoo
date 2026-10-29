@@ -161,9 +161,20 @@
     const keep = strip.scrollLeft;
     strip.innerHTML = "";
     let days = null;                       // giorni raggruppati per mese: l'etichetta del mese resta ferma mentre si scorre
+    const alpha = (n) => (n ? 0.1 + 0.9 * Math.pow(n / max, 0.75) : 0);   // densita' -> opacita' della fascia
+    const stops = [];
+    const flushStops = () => {             // variante sfumata: un gradiente continuo per mese
+      if (days && stops.length) {
+        const w = 100 / stops.length;
+        days.style.setProperty("--band", `linear-gradient(90deg, ${stops.map((a, k) =>
+          `rgba(98,31,255,${a.toFixed(2)}) ${((k + 0.5) * w).toFixed(2)}%`).join(", ")})`);
+      }
+      stops.length = 0;
+    };
     counts.forEach((n, i) => {
       const d = addDays(t, i), key = iso(d);
       if (i === 0 || d.getDate() === 1) {
+        flushStops();
         const m = document.createElement("div");
         m.className = "month";
         m.innerHTML = `<span class="mlabel">${MONTHS[d.getMonth()].slice(0, 3)}${d.getMonth() === 0 && i > 0 ? ` ${d.getFullYear()}` : ""}</span><div class="mdays"></div>`;
@@ -172,12 +183,14 @@
       }
       const b = document.createElement("button");
       b.type = "button";
-      b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty");
+      b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty")
+        + (alpha(n) > 0.55 ? " dense" : "");                          // fascia scura: numeri bianchi
       const on = state.preset !== "all" && state.from && key >= state.from && (!state.to || key <= state.to);
       b.setAttribute("aria-pressed", String(!!on));
       b.setAttribute("aria-label", `${dayLabel(d)}: ${n} eventi`);
-      b.innerHTML = `<span class="bar-wrap"><span class="bar" style="height:${Math.round((n / max) * 28) + 2}px"></span></span>
-        <span class="dow">${i === 0 ? "oggi" : DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span>`;
+      b.style.setProperty("--a", alpha(n).toFixed(2));
+      stops.push(alpha(n));
+      b.innerHTML = `<span class="dow">${i === 0 ? "oggi" : DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span>`;
       b.addEventListener("click", () => {
         if (state.preset === "day" && state.from === key) setPreset("all");
         else { state.preset = "day"; state.from = state.to = key; }
@@ -185,6 +198,7 @@
       });
       days.appendChild(b);
     });
+    flushStops();
     strip.scrollLeft = keep;
     document.querySelectorAll(".presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.preset === state.preset)));
     updateStripNav();
