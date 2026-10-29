@@ -110,13 +110,21 @@
     const counts = [];
     for (let i = 0; i < STRIP_DAYS; i++) { const d = iso(addDays(t, i)); counts.push(base.filter((e) => spans(e, d, d)).length); }
     const max = Math.max(1, ...counts);
+    const keep = strip.scrollLeft;
     strip.innerHTML = "";
+    let days = null;                       // giorni raggruppati per mese: l'etichetta del mese resta ferma mentre si scorre
     counts.forEach((n, i) => {
-      const d = addDays(t, i), key = iso(d), first = d.getDate() === 1 && i > 0;
+      const d = addDays(t, i), key = iso(d);
+      if (i === 0 || d.getDate() === 1) {
+        const m = document.createElement("div");
+        m.className = "month";
+        m.innerHTML = `<span class="mlabel">${MONTHS[d.getMonth()].slice(0, 3)}${d.getMonth() === 0 && i > 0 ? ` ${d.getFullYear()}` : ""}</span><div class="mdays"></div>`;
+        strip.appendChild(m);
+        days = m.querySelector(".mdays");
+      }
       const b = document.createElement("button");
       b.type = "button";
-      b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty") + (first ? " month-start" : "");
-      if (first) b.dataset.month = MONTHS[d.getMonth()].slice(0, 3);
+      b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty");
       const on = state.preset !== "all" && state.from && key >= state.from && (!state.to || key <= state.to);
       b.setAttribute("aria-pressed", String(!!on));
       b.setAttribute("aria-label", `${dayLabel(d)}: ${n} eventi`);
@@ -127,8 +135,9 @@
         else { state.preset = "day"; state.from = state.to = key; }
         onlyUids = null; update();
       });
-      strip.appendChild(b);
+      days.appendChild(b);
     });
+    strip.scrollLeft = keep;
     document.querySelectorAll(".presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.preset === state.preset)));
     updateStripNav();
   }
@@ -351,7 +360,7 @@
       const panelTop = $("#panel").getBoundingClientRect().top;
       return { top, bottom: Math.max(60, window.innerHeight - panelTop + 20 + extraBottom), left: 30, right: 30 };
     }
-    return { top: 170, bottom: 150, left: state.sidebarHidden ? 100 : 470, right: 90 };
+    return { top: 190, bottom: 150, left: state.sidebarHidden ? 100 : 470, right: 90 };
   }
 
   // Zona della mappa davvero visibile (fuori da testata, giorni, filtri, elenco).
@@ -1063,12 +1072,17 @@
     setupScrollNav("#strip");
     setupScrollNav("#chips");
     setupFilters();
-    // elenco e linguetta "Elenco" partono sotto la barra dei giorni (che resta a tutta larghezza)
-    const placeBelowDays = () => document.documentElement.style.setProperty("--below-days",
-      `${Math.round($(".days").getBoundingClientRect().bottom + 12)}px`);
-    placeBelowDays();
-    window.addEventListener("resize", placeBelowDays);
-    if (document.fonts) document.fonts.ready.then(placeBelowDays);
+    // barre dei giorni e dei filtri a tutta larghezza: l'elenco (desktop) sta nello spazio tra le due;
+    // su telefono i filtri partono sotto la barra dei giorni
+    const placePanels = () => {
+      const root = document.documentElement.style, gap = MOBILE() ? 8 : 12;
+      root.setProperty("--below-days", `${Math.round($(".days").getBoundingClientRect().bottom + gap)}px`);
+      if (!MOBILE()) root.setProperty("--above-filters", `${Math.round(window.innerHeight - $(".filters").getBoundingClientRect().top + gap)}px`);
+    };
+    placePanels();
+    window.addEventListener("resize", placePanels);
+    if (window.ResizeObserver) { const ro = new ResizeObserver(placePanels); ro.observe($(".days")); ro.observe($(".filters")); }
+    if (document.fonts) document.fonts.ready.then(placePanels);
     $("#panel-hide").addEventListener("click", () => setSidebar(false));
     $("#list-toggle").addEventListener("click", () => setSidebar(true));
     try { if (localStorage.getItem("andiamo-sidebar") === "0" && !MOBILE()) setSidebar(false, { remember: false }); } catch (_) { /* privato */ }

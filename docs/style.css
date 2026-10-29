@@ -105,7 +105,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .strip-nav svg { width: 16px; height: 16px; }
 .strip-nav:disabled { opacity: .3; cursor: default; }
 .strip-nav:not(:disabled):hover { background: var(--line); }
-.strip { display: flex; gap: 1px; overflow-x: auto; scrollbar-width: none; flex: 1; min-width: 0; scroll-behavior: smooth; }
+.strip { display: flex; align-items: flex-end; overflow-x: auto; scrollbar-width: none; flex: 1; min-width: 0; scroll-behavior: smooth; }
 .strip::-webkit-scrollbar { display: none; }
 .day {
   flex: 0 0 38px; display: grid; grid-template-rows: 30px auto auto; justify-items: center; gap: 1px;
@@ -116,10 +116,14 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .day .dow { font-size: .625rem; color: var(--ink-2); line-height: 1; }
 .day .num { font-size: .875rem; font-weight: 700; line-height: 1.15; }
 .day.weekend .dow { color: var(--ink); font-weight: 700; }
-.day.month-start { margin-left: 12px; position: relative; }
-.day.month-start::before {
-  content: attr(data-month); position: absolute; left: -9px; top: 0; font-size: .625rem; color: var(--ink-2);
-  writing-mode: vertical-rl; transform: rotate(180deg);
+/* mesi: etichetta orizzontale sopra i giorni, ferma a sinistra finche' si scorre dentro quel mese */
+.month { display: flex; flex-direction: column; flex-shrink: 0; }
+.month + .month { margin-left: 6px; padding-left: 6px; border-left: 1px solid var(--line); }
+.mdays { display: flex; gap: 1px; }
+.mlabel {
+  position: sticky; left: 0; align-self: flex-start; z-index: 1; margin-bottom: 2px; padding: 2px 7px; border-radius: 5px;
+  background: var(--ink); color: #fff; font-family: var(--display); font-stretch: 118%; text-transform: uppercase;
+  font-size: .6875rem; font-weight: 700; letter-spacing: .04em; line-height: 1.2; white-space: nowrap;
 }
 .day:hover .bar { background: #8f897d; }
 .day[aria-pressed="true"] .bar { background: var(--ink); }
@@ -128,7 +132,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 
 /* ---------- pannello elenco/scheda ---------- */
 .panel {
-  top: var(--below-days, 190px); left: calc(var(--gap) * 2); bottom: calc(var(--gap) * 2);
+  top: var(--below-days, 190px); left: calc(var(--gap) * 2); bottom: var(--above-filters, 140px);
   width: var(--panel-w); display: flex; flex-direction: column; overflow: hidden;
 }
 .panel-head {
@@ -153,7 +157,6 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 
 /* sidebar nascosta (desktop): giorni e filtri si allargano, compare "Elenco" accanto al logo */
 body.sidebar-hidden .panel { display: none; }
-body.sidebar-hidden .filters { left: calc(var(--gap) * 2); }
 body.sidebar-hidden .list-toggle { display: flex; }
 
 .list { list-style: none; margin: 0; padding: 0 0 8px; }
@@ -223,7 +226,7 @@ body.sidebar-hidden .list-toggle { display: flex; }
 
 /* ---------- filtri ---------- */
 .filters {
-  left: calc(var(--gap) * 3 + var(--panel-w)); bottom: calc(var(--gap) * 2);
+  left: calc(var(--gap) * 2); bottom: calc(var(--gap) * 2);   /* a tutta larghezza, anche con l'elenco aperto */
   right: calc(var(--gap) * 3 + 44px); padding: 10px 12px;
 }
 .chips {
@@ -448,7 +451,7 @@ body.sidebar-hidden .list-toggle { display: flex; }
   .day .bar-wrap { height: 22px; }
 
   /* categorie: una riga; "Filtri" apre accesso/pubblico/luogo */
-  .filters { top: calc(var(--top) + 126px); left: 10px !important; right: 10px; bottom: auto; padding: 6px; }
+  .filters { top: var(--below-days, calc(var(--top) + 126px)); left: 10px !important; right: 10px; bottom: auto; padding: 6px; }
   .chip { height: 36px; padding: 0 11px; font-size: .6875rem; font-stretch: 104%; }
   .chip.more-filters { display: inline-flex; }
   .selects { display: none; flex-direction: column; align-items: stretch; gap: 10px; }
