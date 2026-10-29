@@ -268,16 +268,16 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .detail-actions .cta span { overflow: hidden; text-overflow: ellipsis; }
 .cta i { display: inline-grid; place-items: center; flex-shrink: 0; width: clamp(26px, 8.5cqi, 34px); height: clamp(26px, 8.5cqi, 34px); border-radius: 4px; background: #fff; font-style: normal; font-family: var(--text); }
 .cta:hover { filter: brightness(.96); }
-/* nella scheda "Scopri di piu'" e' l'azione principale: nero pieno, testo grande, freccia nel colore del brand */
+/* nella scheda "Scopri di piu'" e' l'azione principale: colore del brand pieno, testo grande e bianco */
 /* il testo deve stare sempre intero: niente "..." (font e spazi si adattano alla larghezza del pannello) */
 .detail-actions .cta {
   flex: 1 0 auto; justify-content: center; gap: 8px; padding: 0 clamp(12px, 4cqi, 18px);
-  background: var(--ink); color: #fff; font-size: clamp(.8125rem, 3.6cqi, 1rem); font-weight: 700;
+  background: var(--cta); color: var(--on-cta); font-size: clamp(.8125rem, 3.6cqi, 1rem); font-weight: 700;
   font-stretch: 105%; letter-spacing: .04em;
 }
 .detail-actions .cta span { overflow: visible; text-overflow: clip; }
 .detail-actions .cta i { width: auto; height: auto; background: none; color: #fff; font-size: 1.15em; font-weight: 700; }
-.detail-actions .cta:hover { filter: none; background: #2a2a2a; }
+.detail-actions .cta:hover { filter: none; background: #4f12d9; }
 .detail-actions .round { flex: 0 1 clamp(40px, 12cqi, 48px); min-width: 38px; }
 .round {
   flex: 0 0 clamp(40px, 12cqi, 48px); height: clamp(40px, 12cqi, 48px); border: 0; border-radius: 6px; background: var(--chip); color: var(--ink);
