@@ -69,11 +69,15 @@
     return "";
   }
   // badge con icona e stile del gruppo; il testo e' il tipo preciso (es. "Offerta libera", "Su invito")
-  function accessBadge(e, opts = {}) {
+  // Un solo stile per gruppo, uguale su filtri, card e scheda: stessa icona, stessa forma.
+  //   libero = bordo pieno, a pagamento = pieno scuro, iscrizione = bordo tratteggiato
+  const GROUP_ICON = { libero: "libero", pagamento: "biglietto", iscrizione: "iscrizione" };
+  const accIcon = (g) => `<svg viewBox="0 0 24 24" aria-hidden="true">${ACCESS_ICON[GROUP_ICON[g]] || ""}</svg>`;
+  function accessBadge(e) {
     const g = accessGroup(e);
-    if (!g) return opts.unknown ? `<span class="acc acc-none">${esc(opts.unknown)}</span>` : "";
-    const label = opts.group ? DATA.access_groups[g].label : (DATA.access[e.access] || "").replace(/\s*\(.*\)$/, "");
-    return `<span class="acc acc-${g}" title="${esc(DATA.access_groups[g].label)}"><svg viewBox="0 0 24 24" aria-hidden="true">${ACCESS_ICON[e.access] || ""}</svg>${esc(label)}</span>`;
+    if (!g) return "";
+    const label = (DATA.access[e.access] || DATA.access_groups[g].label).replace(/\s*\(.*\)$/, "");
+    return `<span class="acc acc-${g}" title="${esc(DATA.access_groups[g].label)}">${accIcon(g)}${esc(label)}</span>`;
   }
 
   // ---------------------------------------------------------------- filtri
@@ -180,6 +184,7 @@
     const extra = (state.access ? 1 : 0) + state.aud.size;
     $("#more-filters").innerHTML = extra ? `Filtri <span class="badge">${extra}</span>` : "Filtri";
     document.querySelectorAll("#access button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.v === state.access)));
+    $("#access").classList.toggle("has-choice", !!state.access);
     document.querySelectorAll("#audience button").forEach((b) => b.setAttribute("aria-pressed", String(state.aud.has(b.dataset.v))));
     requestAnimationFrame(() => updateScrollNav("#chips"));
   }
@@ -190,9 +195,8 @@
     const groups = [["", "Tutti"], ...Object.entries(DATA.access_groups || {}).map(([k, v]) => [k, v.label])];
     groups.forEach(([k, label]) => {
       const b = document.createElement("button");
-      b.type = "button"; b.className = `seg-btn${k ? ` g-${k}` : ""}`; b.dataset.v = k;
-      const icon = { libero: "libero", pagamento: "biglietto", iscrizione: "iscrizione" }[k];
-      b.innerHTML = (icon ? `<svg viewBox="0 0 24 24" aria-hidden="true">${ACCESS_ICON[icon]}</svg>` : "") + esc(label);
+      b.type = "button"; b.className = k ? `acc acc-${k} acc-btn` : "seg-btn"; b.dataset.v = k;
+      b.innerHTML = (k ? accIcon(k) : "") + esc(label);
       b.addEventListener("click", () => { state.access = k; onlyUids = null; update(); });
       acc.appendChild(b);
     });
@@ -255,7 +259,8 @@
     const who = (e.audience || []).map((a) => DATA.audiences[a]).filter(Boolean).join(", ");
     const where = DATA.settings[e.setting] || "";
     const g = accessGroup(e);
-    const accessText = g ? [DATA.access[e.access], e.price].filter(Boolean).join(" · ")
+    const private_ = (DATA.access[e.access] || "").match(/\((.*)\)$/);       // es. "Su invito (evento privato)"
+    const accessText = g ? [private_ ? private_[1][0].toUpperCase() + private_[1].slice(1) : "", e.price].filter(Boolean).join(" · ")
       : ["Da verificare sul sito ufficiale", e.price].filter(Boolean).join(" · ");
     const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
     const also = (e.also_on || []).filter((a) => a.url);
@@ -266,8 +271,8 @@
       <h2>${esc(e.title)}</h2>
       <dl class="facts">
         <dt>Quando</dt><dd>${esc(whenText(e))}</dd>
-        ${place ? `<dt>Dove</dt><dd>${esc(place)}${e.geo_precision === "town" ? " <small>(indirizzo esatto non disponibile: posizione indicativa nel comune)</small>" : ""}${where ? ` · ${esc(where.toLowerCase())}` : ""}${dist ? ` · ${dist} da te` : ""}</dd>` : ""}
-        <dt>Accesso</dt><dd class="acc-dd">${g ? accessBadge(e, { group: true }) : ""}<span>${esc(accessText)}</span></dd>
+        ${place ? `<dt>Dove</dt><dd>${esc(place)}${where ? ` · ${esc(where.toLowerCase())}` : ""}${dist ? ` · ${dist} da te` : ""}</dd>` : ""}
+        <dt>Accesso</dt><dd class="acc-dd">${accessBadge(e)}${accessText ? `<span>${esc(accessText)}</span>` : ""}</dd>
         ${who ? `<dt>Per chi</dt><dd>${esc(who)}</dd>` : ""}
       </dl>
       ${e.summary ? `<p class="summary">${esc(e.summary)}</p>` : ""}
