@@ -197,7 +197,8 @@ sources:
   - id: google-news-eventi
     name: Google News (eventi Treviso)
     type: rss_news
-    enabled: true
+    enabled: false        # robots.txt di news.google.com vieta /rss/search (verificato dal PC il 29/10/2026):
+                          # le notizie le cerca la revisione notturna di Claude
     feeds:
       - "https://news.google.com/rss/search?q=Treviso+(evento+OR+concerto+OR+sagra+OR+festival+OR+mostra+OR+spettacolo)+when:7d&hl=it&gl=IT&ceid=IT:it"
       - "https://news.google.com/rss/search?q=(Conegliano+OR+Castelfranco+OR+Montebelluna+OR+Oderzo+OR+%22Vittorio+Veneto%22+OR+Asolo)+(evento+OR+festa+OR+concerto)+when:7d&hl=it&gl=IT&ceid=IT:it"

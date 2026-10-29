@@ -128,6 +128,7 @@ class OllamaLLM:
             "format": schema,
             "stream": False,
             "options": {"temperature": self.temperature},
+            "keep_alive": "30m",          # il modello resta caricato sulla GPU per tutto il giro
         }
         self.calls += 1
         r = self.client.post(self.host + "/api/chat", json=payload)
@@ -140,6 +141,14 @@ class OllamaLLM:
             result = json.loads(m.group(0)) if m else {}
         self.store.ai_put(key, result)
         return result
+
+    def warm_up(self) -> None:
+        """Carica il modello sulla GPU prima del giro: il primo caricamento puo' richiedere minuti."""
+        try:
+            self.client.post(self.host + "/api/generate", json={"model": self.text_model, "prompt": "", "keep_alive": "30m"},
+                             timeout=600)
+        except httpx.HTTPError as e:
+            log.warning("Caricamento del modello non riuscito: %s", e)
 
     def enrich(self, known: dict, text: str) -> dict:
         user = ("Completa i dati di questo evento. Dati gia' noti (affidabili):\n"
@@ -204,6 +213,7 @@ def make_llm(store: Store, backend: Optional[str] = None):
     if backend == "ollama":
         llm = OllamaLLM(store)
         if llm.available():
+            llm.warm_up()
             return llm
         log.warning("Ollama non raggiungibile o modello %s non scaricato: uso le regole.", llm.text_model)
     return RulesLLM(store)

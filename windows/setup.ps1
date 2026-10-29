@@ -48,6 +48,12 @@ if (-not (Test-Path ".env")) {
 }
 New-Item -ItemType Directory -Force -Path "logs" | Out-Null
 
+# Identita' dei commit automatici (solo per questo progetto)
+if (-not (git config user.email)) {
+    git config user.name "ANDIAMO? PC fisso"
+    git config user.email "f.girotto@onoff.zone"
+}
+
 # 5. Test rapido
 & .\.venv\Scripts\python.exe -m pytest -q tests
 

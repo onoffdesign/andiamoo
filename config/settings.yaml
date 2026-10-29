@@ -38,7 +38,7 @@ llm:
   text_model: "gemma3:12b"     # multimodale: testo e immagini, sta in 12 GB di VRAM
   vision_model: "gemma3:12b"
   temperature: 0.1
-  timeout_seconds: 180
+  timeout_seconds: 300
 
 geocoding:
   provider: nominatim

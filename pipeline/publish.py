@@ -4,7 +4,7 @@ from __future__ import annotations
 import logging
 import subprocess
 
-from .config import ROOT, settings
+from .config import ROOT, env, settings
 
 log = logging.getLogger(__name__)
 
@@ -26,6 +26,10 @@ def publish(message: str) -> bool:
     if _git("diff", "--cached", "--quiet").returncode == 0:
         log.info("Nessuna novita' da pubblicare.")
         return True
+    if not _git("config", "user.email").stdout.strip():
+        # PC appena installato: identita' dei commit automatici (solo per questo progetto)
+        _git("config", "user.name", "ANDIAMO? PC fisso")
+        _git("config", "user.email", env("CONTACT_EMAIL", "info@onoff.zone"))
     c = _git("commit", "-m", message)
     if c.returncode != 0:
         log.warning("Commit non riuscito: %s", c.stderr.strip())
