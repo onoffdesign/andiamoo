@@ -89,6 +89,15 @@ def check() -> list[str]:
             errs.append(f"correggi.{uid}: deve contenere i campi da cambiare")
             continue
         errs += validate_fields(fields, f"correggi.{uid}")
+    catalog = ROOT / "ops" / "fonti.yaml"
+    try:
+        fonti = (yaml.safe_load(catalog.read_text(encoding="utf-8")) or {}).get("fonti") or [] if catalog.exists() else []
+        for i, f in enumerate(fonti):
+            for req in ("nome", "url", "tipo"):
+                if not f.get(req):
+                    errs.append(f"ops/fonti.yaml[{i}] {f.get('nome', '')!r}: manca '{req}'")
+    except yaml.YAMLError as e:
+        errs.append(f"ops/fonti.yaml non leggibile: {e}")
     try:
         cur = yaml.safe_load(CURATED.read_text(encoding="utf-8")) if CURATED.exists() else {}
     except yaml.YAMLError as e:

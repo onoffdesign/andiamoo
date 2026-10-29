@@ -1,0 +1,21 @@
+# Catalogo delle fonti trovate dalla revisione notturna di Claude: la sua "memoria" per non ricercare ogni volta
+# da capo. Le fonti lette in automatico dal PC stanno invece in config/sources.yaml (costano zero crediti).
+#
+# Ogni voce:
+#   - nome: Pro Loco Combai
+#     url: https://www.prolococombai.it/eventi/      # pagina dove sono elencati gli eventi
+#     query: "site:prolococombai.it eventi"          # ricerca che porta dritta alla pagina (WebFetch apre solo
+#                                                    # link arrivati dai risultati di ricerca o da pagine aperte)
+#     tipo: pro loco        # comune | pro loco | aggregatore | blog | testata | teatro | museo | biblioteca |
+#                           # associazione | sport | locale | azienda | ente | altro
+#     categorie: [sagre-feste, cibo-vino]
+#     comuni: [Miane]
+#     frequenza: settimanale   # giornaliera | settimanale | mensile: ogni quanto vale la pena ricontrollarla
+#     qualita: 4               # 1-5: dati completi e affidabili, aggiornata, pagina ufficiale
+#     resa: { controlli: 3, eventi_trovati: 12, ultimi: [5, 4, 3] }   # eventi nuovi trovati negli ultimi controlli
+#     ultimo_controllo: 2026-10-30
+#     automatizzabile: no      # si' = ha JSON-LD Event / API eventi: va spostata in config/sources.yaml
+#     stato: attiva            # attiva | debole (pochi eventi) | ferma (non aggiornata) | spostata (in sources.yaml)
+#     note: "pubblica il programma 2-3 settimane prima"
+
+fonti: []

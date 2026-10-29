@@ -18,6 +18,26 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
 - Coordinate (`lat`, `lon`) solo se lette da un link mappa ufficiale; altrimenti indica luogo e indirizzo e il PC
   geolocalizza al giro successivo.
 
+## Memoria: impara e migliora ogni notte
+
+La revisione ha una memoria in git, da leggere all'inizio e aggiornare alla fine di ogni notte:
+- `ops/fonti.yaml` - catalogo delle buone fonti trovate (pagina eventi, ricerca che ci porta dritti, tipo,
+  categorie, comuni, ogni quanto ricontrollarla, qualita', resa in eventi). Serve a **non ricercare da capo**:
+  le fonti note si riaprono con la loro `query`, senza ricerche esplorative.
+- `ops/lezioni.md` - cosa funziona e cosa no: query utili, siti inutili, chi pubblica quando, errori fatti.
+- `ops/copertura.yaml` - quando sono stati controllati l'ultima volta comuni, aggregatori, testate e categorie.
+
+Regole per spendere meno crediti e migliorare sempre:
+- prima le fonti note "in scadenza" secondo la loro `frequenza`, partendo da quelle con qualita' e resa piu' alte;
+  salta quelle controllate di recente;
+- ogni fonte ricontrollata: aggiorna `ultimo_controllo` e `resa` (eventi nuovi trovati); dopo 3 controlli a zero
+  abbassa `frequenza` o metti `stato: debole`; se non e' piu' aggiornata `stato: ferma`;
+- se una fonte ha dati strutturati (JSON-LD `Event`, API The Events Calendar, MyPortal) spostala in
+  `config/sources.yaml` e segna `stato: spostata`: da quel momento la legge il PC ogni notte gratis;
+- **ogni notte cerca anche fonti nuove** (fase E): almeno 10 candidati mai visti, valutali e cataloga quelli buoni;
+  il catalogo deve crescere notte dopo notte;
+- alla fine scrivi in `ops/lezioni.md` cio' che hai imparato (in poche righe) e togli le lezioni superate.
+
 ## Preparazione
 
 ```
@@ -33,7 +53,7 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
 
 ## Passi
 
-1. **Rapporto del PC** - leggi `ops/rapporto.json`. Se `finito_alle` non e' di stanotte, il PC non ha girato:
+1. **Rapporto del PC e memoria** - leggi `ops/lezioni.md`, `ops/fonti.yaml` e `ops/rapporto.json`. Se `finito_alle` non e' di stanotte, il PC non ha girato:
    annotalo nel registro (e nel messaggio finale) e lavora sui dati gia' pubblicati.
 2. **Fonti in errore** - per le fonti con `errore` o con zero eventi trovati: apri la pagina con WebFetch, correggi
    in `config/sources.yaml` (indirizzi cambiati, mesi, parametri) oppure metti `enabled: false` con una `note` che
@@ -63,9 +83,10 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    python -m pytest -q tests                     # tutti verdi
    python -m pipeline.editorial --applica        # correzioni e rimozioni subito sul sito
    ```
-8. **Registro** - aggiungi in cima a `ops/registro-redazione.md` una sezione `## AAAA-MM-GG` con: stato del giro
-   del PC, eventi verificati / corretti / rimossi / aggiunti (per categoria), comuni e aggregatori controllati,
-   fonti cambiate, problemi aperti per la notte dopo.
+8. **Registro e memoria** - aggiorna `ops/fonti.yaml` e `ops/lezioni.md`, poi aggiungi in cima a
+   `ops/registro-redazione.md` una sezione `## AAAA-MM-GG` con: stato del giro del PC, eventi verificati / corretti /
+   rimossi / aggiunti (per categoria), fonti note controllate e loro resa, fonti nuove catalogate, fonti spostate
+   in `config/sources.yaml`, problemi aperti per la notte dopo.
 9. **Commit e push** su `main` (anche a fine di ogni fase della ricerca): `git add config ops docs/data/events.json`, messaggio
    `Redazione notturna AAAA-MM-GG: N corretti, N rimossi, N aggiunti`, poi `git pull --rebase` e `git push`.
    Se il push fallisce per un conflitto, ripeti pull e push; non forzare mai.
@@ -77,7 +98,11 @@ dal giorno stesso fino a 120 giorni (prima i prossimi 30). Il file `ops/copertur
 controllo di ogni comune, aggregatore, testata e categoria: parti sempre da quelli mai controllati o controllati da
 piu' tempo, aggiorna la data dopo ogni controllo, aggiungi le voci nuove che scopri (blog, aggregatori, testate).
 
-Fasi, in quest'ordine. **Alla fine di ogni fase** esegui `--controlla`, poi commit e push (passo 9), cosi' il lavoro
+Fase 0. **Fonti note** - riapri le fonti di `ops/fonti.yaml` in scadenza (vedi "Memoria"), raccogli gli eventi
+   nuovi e aggiorna resa e date. Le fasi A-D poi servono a coprire cio' che le fonti note non coprono: usa
+   `ops/copertura.yaml` e `ops/lezioni.md` per non ripetere ricerche gia' fatte o inutili.
+
+Fasi, in quest'ordine dopo la fase 0. **Alla fine di ogni fase** esegui `--controlla`, poi commit e push (passo 9), cosi' il lavoro
 fatto resta salvato anche se la sessione si interrompe.
 
 A. **Categorie** - per ognuna delle 15 categorie di `config/categories.yaml` (e le sottocategorie: per lo sport
@@ -96,6 +121,15 @@ D. **Notizie** - testate locali (Tribuna di Treviso, Gazzettino, TrevisoToday, O
    locali): articoli che annunciano eventi, inaugurazioni, festival, gare, presentazioni. Conferma sempre sulla
    pagina ufficiale quando esiste; se c'e' solo l'articolo di una testata affidabile, usalo come `official_url`.
 
+E. **Fonti nuove** - cerca almeno 10 siti o pagine mai visti che pubblicano eventi in provincia (pro loco, comuni,
+   associazioni, locali, teatri, musei, biblioteche, societa' sportive, aziende con eventi aperti, blog e aggregatori
+   di nicchia). Per ognuno valuta: pagina eventi, quanti eventi futuri, se e' aggiornato, se e' ufficiale, se ha dati
+   strutturati. Aggiungi a `ops/fonti.yaml` quelli utili (con una `query` che porti dritto alla pagina eventi) e annota
+   in `ops/lezioni.md` quelli da evitare. Ogni fonte che rende tanto diventa candidata per `config/sources.yaml`.
+
+Ogni volta che, in qualsiasi fase, trovi una pagina che elenca piu' eventi (non un singolo evento), aggiungila al
+catalogo se non c'e' gia'.
+
 Per ogni evento trovato:
 - controlla che non sia gia' sul sito (`python -m pipeline.editorial --cerca "titolo" --data AAAA-MM-GG`) ne' gia'
   in `config/eventi_redazione.yaml`; se c'e' ma con dati sbagliati, correggilo (passo 3) invece di aggiungerlo;
@@ -107,4 +141,5 @@ Per ogni evento trovato:
 
 Gli eventi aggiunti compaiono sul sito dopo il giro del PC della notte successiva (che li geolocalizza).
 
-Chiudi con un messaggio di 3-5 righe: stato del PC, numeri della notte, eventuali problemi da guardare.
+Chiudi con un messaggio di 3-5 righe: stato del PC, numeri della notte (eventi aggiunti, fonti nuove nel
+catalogo, fonti passate al PC), eventuali problemi da guardare.
