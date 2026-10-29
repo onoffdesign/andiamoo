@@ -27,7 +27,9 @@
   const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   const parseDay = (s) => { const [y, m, d] = s.slice(0, 10).split("-").map(Number); return new Date(y, m - 1, d); };
   const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
-  const today = () => { const t = new Date(); t.setHours(0, 0, 0, 0); return t; };
+  // "oggi" e' sempre la data in Italia (Europe/Rome), anche per chi guarda da un altro fuso orario
+  const romeToday = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+  const today = () => parseDay(romeToday());
   const timeOf = (e) => (e.start && e.start.length > 10 ? e.start.slice(11, 16) : "");
   const dayLabel = (d) => {
     const diff = Math.round((d - today()) / 86400000);
@@ -81,17 +83,11 @@
   }
 
   // ---------------------------------------------------------------- filtri
-  // Eventi gia' finiti: spariscono anche durante il giorno, senza aspettare l'aggiornamento notturno.
-  // Fine nota -> quella; solo l'ora d'inizio -> si considera finito 3 ore dopo; solo la data -> a fine giornata.
-  function isOver(e, now = new Date()) {
-    const end = e.end || e.start;
-    if (!end) return false;
-    if (end.length > 10) {
-      const t = new Date(end.slice(0, 16));
-      if (!e.end) t.setHours(t.getHours() + 3);
-      return t < now;
-    }
-    return addDays(parseDay(end), 1) <= now;
+  // Eventi passati: restano visibili per tutto il giorno in cui finiscono e spariscono dal giorno dopo
+  // (data italiana, qualunque sia il fuso orario di chi guarda).
+  function isOver(e) {
+    const last = (e.end || e.start || "").slice(0, 10);
+    return !!last && last < romeToday();
   }
 
   function matches(e, skip = {}) {
