@@ -622,10 +622,10 @@
   });
 
   // ---------------------------------------------------------------- pannello trascinabile (telefono)
-  const SHEETS = ["peek", "half", "full"];
   function setSheet(name) {
     const p = $("#panel");
     if (!MOBILE()) { p.dataset.sheet = "half"; return; }
+    if (name === "half") name = "full";      // su telefono solo due posizioni: chiuso in basso o aperto del tutto
     p.dataset.sheet = name;
     p.style.removeProperty("--sheet-y");
     $("#sheet-toggle").setAttribute("aria-expanded", String(name !== "peek"));
@@ -668,10 +668,13 @@
       p.classList.remove("dragging");
       if (!moved) return;
       const y = currentOffset();
+      // due sole posizioni: un gesto verso l'alto apre del tutto, verso il basso chiude fino in fondo
+      // basta un breve trascinamento (o un colpo veloce) nella direzione voluta
+      const dy = y - startOffset;
       let target;
-      if (velocity > 0.5) target = y > offsetOf("half") ? "peek" : "half";
-      else if (velocity < -0.5) target = y < offsetOf("half") ? "full" : "half";
-      else target = SHEETS.reduce((a, b) => (Math.abs(offsetOf(b) - y) < Math.abs(offsetOf(a) - y) ? b : a));
+      if (velocity > 0.25 || dy > 50) target = "peek";
+      else if (velocity < -0.25 || dy < -50) target = "full";
+      else target = p.dataset.sheet === "peek" ? "peek" : "full";
       setSheet(target);
     }
     p.addEventListener("pointerdown", down);
