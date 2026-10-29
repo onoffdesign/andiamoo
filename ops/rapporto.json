@@ -1,6 +1,135 @@
 {
- "giro_pc": false,
- "nota": "Coda iniziale preparata dalla sessione di sviluppo con i dati raccolti il 28/10 senza AI: il PC fisso non ha ancora fatto il primo giro.",
- "fonti": {},
- "finito_alle": "2026-10-29T18:05+01:00"
+ "fonti": {
+  "redazione": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "insolitotrantran": {
+   "trovati": 53,
+   "nel_periodo": 40,
+   "in_provincia": 38,
+   "nuovi": 0,
+   "errore": "",
+   "solo_comune": 11,
+   "secondi": 0
+  },
+  "eventiesagre": {
+   "trovati": 9,
+   "nel_periodo": 6,
+   "in_provincia": 4,
+   "nuovi": 0,
+   "errore": "",
+   "solo_comune": 3,
+   "secondi": 0
+  },
+  "2night": {
+   "trovati": 15,
+   "nel_periodo": 15,
+   "in_provincia": 14,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "eventbrite": {
+   "trovati": 195,
+   "nel_periodo": 40,
+   "in_provincia": 36,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "ticketone": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 60
+  },
+  "dice": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "running-life": {
+   "trovati": 19,
+   "nel_periodo": 9,
+   "in_provincia": 9,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "calendariopodismo": {
+   "trovati": 19,
+   "nel_periodo": 15,
+   "in_provincia": 15,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "podismoveneto": {
+   "trovati": 46,
+   "nel_periodo": 25,
+   "in_provincia": 25,
+   "nuovi": 0,
+   "errore": "",
+   "solo_comune": 24,
+   "secondi": 0
+  },
+  "gotrail": {
+   "trovati": 10,
+   "nel_periodo": 5,
+   "in_provincia": 5,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "comune-treviso": {
+   "trovati": 19,
+   "nel_periodo": 9,
+   "in_provincia": 9,
+   "nuovi": 0,
+   "errore": "",
+   "solo_comune": 5,
+   "secondi": 300
+  },
+  "modulo-organizzatori": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "qdpnews": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  }
+ },
+ "chiamate_ai": 1,
+ "richieste_web": 1,
+ "richieste_geocoding": 0,
+ "luoghi_trovati_con_ricerca": 4,
+ "pagine_luogo_lette": 0,
+ "scoperte": 24,
+ "eventi_sul_sito": 130,
+ "correzioni_attive": 0,
+ "rimossi_dalla_redazione": 0,
+ "giro_pc": true,
+ "motore_ai": "ollama",
+ "modello": "gemma3:12b",
+ "minuti": 6.0,
+ "in_revisione": 60,
+ "finito_alle": "2026-10-29T19:12+01:00"
 }

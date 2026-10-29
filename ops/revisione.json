@@ -1,34 +1,116 @@
 {
- "generato": "2026-10-29T18:05+01:00",
+ "generato": "2026-10-29T19:12+01:00",
  "eventi": [
+  {
+   "uid": "c294f51cbc693925",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Calendario Mensile Eventi E Sagre Per Regioni Italiane",
+   "inizio": "2026-01-01",
+   "fine": "2026-12-31",
+   "luogo": "Italia",
+   "indirizzo": "Italia",
+   "comune": "",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "sconosciuto",
+   "fonte": "eventiesagre.it",
+   "pagina_fonte": "https://www.eventiesagre.it/Eventi_Vari/21147586_Calendario+Mensile+Eventi+E+Sagre+Per+Regioni+Italiane.html",
+   "sito_ufficiale": "",
+   "riassunto": "Il Calendario Mensile Eventi E Sagre Per Regioni Italiane offre una panoramica di eventi e sagre in tutta Italia, suddivisi per regione e mese."
+  },
+  {
+   "uid": "a608aaede79776b8",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Mercatino Antiquariato Collezionismo a Mordano",
+   "inizio": "2026-04-30",
+   "fine": "2026-12-31",
+   "luogo": "Morgano",
+   "indirizzo": "Morgano",
+   "comune": "Morgano",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "eventiesagre.it",
+   "pagina_fonte": "https://www.eventiesagre.it/Mercatini_Antiquariato/21028887_Mercatino+Antiquariato+Collezionismo+a+Mordano.html",
+   "sito_ufficiale": "",
+   "riassunto": "Mercato mensile dedicato al commercio di antiquariato e collezionismo."
+  },
+  {
+   "uid": "30fd144b9925fdef",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Mercatino dell'Antiquariato e del Collezionismo a Godega di Sant'Urbano",
+   "inizio": "2026-05-30",
+   "fine": "2026-12-20",
+   "luogo": "Godega Di Sant'urbano",
+   "indirizzo": "",
+   "comune": "Godega Di Sant'urbano",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "eventiesagre.it",
+   "pagina_fonte": "https://www.eventiesagre.it/Mercatini_Vari/14513_Mercatino+dell+Antiquariato+e+del+Collezionismo+a+Godega+di+Sant+Urbano.html",
+   "sito_ufficiale": "",
+   "riassunto": "Si svolge un mercatino dedicato all'antiquariato e al collezionismo."
+  },
+  {
+   "uid": "f730d08ba4a59b07",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Mostra Mercato Dell'antiquariato A Roncade",
+   "inizio": "2026-06-01",
+   "fine": "2026-12-12",
+   "luogo": "Roncade",
+   "indirizzo": "",
+   "comune": "Roncade",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "eventiesagre.it",
+   "pagina_fonte": "https://www.eventiesagre.it/Mercatini_Antiquariato/21189920_Mostra+Mercato+Dell+antiquariato+A+Roncade.html",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede l'esposizione e la vendita di oggetti d'antiquariato."
+  },
   {
    "uid": "f54314f107c85ed7",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "categoria di ripiego: verifica",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Letture di Halloween Abracadabra Abibrat",
    "inizio": "2026-10-29T17:00",
    "fine": null,
-   "luogo": "",
+   "luogo": "Treviso",
    "indirizzo": "",
    "comune": "Treviso",
-   "categoria": "comunita",
-   "accesso": "sconosciuto",
+   "categoria": "famiglie-bambini",
+   "accesso": "offerta",
    "prezzo": "Informazioni su :\nlinktr.ee/spaziofamigliatreviso",
    "fonte": "Comune di Treviso",
    "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-29-10-2026",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "Letture a tema Halloween per bambini."
   },
   {
    "uid": "f2d6e32942ccfa6c",
    "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Litografia su pietra",
@@ -37,107 +119,25 @@
    "luogo": "Pezzi di Carta",
    "indirizzo": "4 Piazza Santa Maria Maggiore",
    "comune": "Treviso",
-   "categoria": "business",
-   "accesso": "sconosciuto",
+   "categoria": "arte-cultura",
+   "accesso": "iscrizione",
    "prezzo": "",
    "fonte": "Eventbrite",
    "pagina_fonte": "https://www.eventbrite.com/e/biglietti-litografia-su-pietra-2002231442142",
    "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "a536627cd7017851",
-   "motivi": [
-    "categoria di ripiego: verifica",
-    "riassunto mancante",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "Bike Test Fantic presso Autosile Treviso",
-   "inizio": "2026-10-29",
-   "fine": null,
-   "luogo": "Via Noalese, 94",
-   "indirizzo": "94 Via Noalese",
-   "comune": "Treviso",
-   "categoria": "comunita",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "Eventbrite",
-   "pagina_fonte": "https://www.eventbrite.it/e/biglietti-bike-test-fantic-presso-autosile-treviso-1982498167386",
-   "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "90dcfb41a9fb3c28",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante"
-   ],
-   "titolo": "82ª Festa dei Marroni – Zuppa mondoi e brise e spettacolo di mistero – Combai",
-   "inizio": "2026-10-29T19:30",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Combai",
-   "categoria": "cibo-vino",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/82a-festa-dei-marroni-zuppa-mondoi-e-brise-e-spettacolo-di-mistero-combai/",
-   "sito_ufficiale": "https://www.instagram.com/pro_loco_combai/",
-   "riassunto": ""
-  },
-  {
-   "uid": "5d09ac5e669cb9df",
-   "motivi": [
-    "riassunto mancante",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "La Valutazione del Paesaggio",
-   "inizio": "2026-10-29T08:30",
-   "fine": "2026-10-29T18:30",
-   "luogo": "Museo Santa Caterina",
-   "indirizzo": "Piazzetta Mario Botter, 1",
-   "comune": "Treviso",
-   "categoria": "arte-cultura",
-   "accesso": "iscrizione",
-   "prezzo": "La partecipazione è libera e gratuita fino a esaurimento posti con preiscrizione",
-   "fonte": "Comune di Treviso",
-   "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/la-valutazione-del-paesaggio-2026-1",
-   "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "187fb920387ba53c",
-   "motivi": [
-    "riassunto mancante"
-   ],
-   "titolo": "Treviso Suona Jazz: Walking with Bob all’Home – Treviso",
-   "inizio": "2026-10-29",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "Via Fonderia 73",
-   "comune": "Treviso",
-   "categoria": "musica",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/treviso-suona-jazz-walking-with-bob-allhome-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/trevisosuonajazzfestival/",
-   "riassunto": ""
+   "riassunto": "Il corso illustra le basi dell'incisione litografica, dalla preparazione della pietra alla stampa."
   },
   {
    "uid": "5a1a206d0d2e5ae5",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Inaugurazione nuova sede di Spazio Famiglia",
    "inizio": "2026-10-30T16:00",
    "fine": "2026-10-30T19:00",
-   "luogo": "",
+   "luogo": "Treviso",
    "indirizzo": "",
    "comune": "Treviso",
    "categoria": "famiglie-bambini",
@@ -146,14 +146,52 @@
    "fonte": "Comune di Treviso",
    "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-30-10-2026",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "Inaugurazione della nuova sede di Spazio Famiglia con programma informativo."
+  },
+  {
+   "uid": "9dea55fc79d22f47",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "titolo da ripulire"
+   ],
+   "titolo": "La casa coi merli: presentazione del libro su Aldo Piccoli a Casa Robegan – Treviso",
+   "inizio": "2026-10-30T18:30",
+   "fine": null,
+   "luogo": "Casa Robegan",
+   "indirizzo": "Via Antonio Canova 38, Treviso",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "sconosciuto",
+   "fonte": "Insolito Tran Tran",
+   "pagina_fonte": "https://www.insolitotrantran.it/event/la-casa-coi-merli-presentazione-del-libro-su-aldo-piccoli-a-casa-robegan-treviso/",
+   "sito_ufficiale": "https://www.instagram.com/fondazionemazzotti/",
+   "riassunto": "Presentazione del libro «La casa coi merli», dedicato al ricordo della poesia di Aldo Piccoli, con interventi di Paolo Ruffilli, Elena Sardi e Paolo Bessegato."
+  },
+  {
+   "uid": "b209d78ab96e9084",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo",
+    "titolo da ripulire"
+   ],
+   "titolo": "Libertà, cultura e diritti oltre la censura: Majid Bita all’Altromercato Store – Treviso",
+   "inizio": "2026-10-30T19:00",
+   "fine": null,
+   "luogo": "Altromercato Store, Treviso",
+   "indirizzo": "Altromercato Store, Treviso",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "iscrizione",
+   "prezzo": "Accesso libero su prenotazione",
+   "fonte": "Insolito Tran Tran",
+   "pagina_fonte": "https://www.insolitotrantran.it/event/liberta-cultura-e-diritti-oltre-la-censura-majid-bita-allaltromercato-store-treviso/",
+   "sito_ufficiale": "https://www.instagram.com/4passifestival/",
+   "riassunto": "L'evento prevede un incontro con l'illustratore iraniano Majid Bita, che racconta la sua esperienza e il suo lavoro attraverso i suoi graphic novel, con moderazione di Chiara Longhi. Sono previste riflessioni sul commercio equo e solidale con l'Iran."
   },
   {
    "uid": "8f0f9ffffeefcc89",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "titolo da ripulire"
    ],
    "titolo": "Jam Session 🎷 Sque & Band w/ TreviBlues📍 OstiNate Treviso",
@@ -163,190 +201,95 @@
    "indirizzo": "OstiNate",
    "comune": "Treviso",
    "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
+   "accesso": "biglietto",
+   "prezzo": "sconosciuto",
    "fonte": "Insolito Tran Tran",
    "pagina_fonte": "https://www.insolitotrantran.it/event/jam-session-%f0%9f%8e%b7-sque-band-w-treviblues%f0%9f%93%8d-ostinate-treviso/",
    "sito_ufficiale": "https://www.facebook.com/events/1084949460821837/",
-   "riassunto": ""
+   "riassunto": "Serata di musica dal vivo e improvvisazione con Sque & Band e TreviBlues. Possibilità di salire sul palco per cantare o suonare."
   },
   {
-   "uid": "9dea55fc79d22f47",
+   "uid": "a18dfe9d5d804e05",
    "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
-    "titolo da ripulire"
+    "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "La casa coi merli: presentazione del libro su Aldo Piccoli a Casa Robegan – Treviso",
-   "inizio": "2026-10-30T18:30",
+   "titolo": "Bike Test Fantic presso Autosile Treviso",
+   "inizio": "2026-10-30",
    "fine": null,
-   "luogo": "",
-   "indirizzo": "Via Antonio Canova 38",
+   "luogo": "Via Noalese, 94",
+   "indirizzo": "94 Via Noalese",
    "comune": "Treviso",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/la-casa-coi-merli-presentazione-del-libro-su-aldo-piccoli-a-casa-robegan-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/fondazionemazzotti/",
-   "riassunto": ""
-  },
-  {
-   "uid": "aacd7ea19c6468ab",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante"
-   ],
-   "titolo": "82ª Festa dei Marroni – BoscAR-T ed escursione serale tra i castagni – Combai",
-   "inizio": "2026-10-30T10:00",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Combai",
-   "categoria": "cibo-vino",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/82a-festa-dei-marroni-boscar-t-ed-escursione-serale-tra-i-castagni-combai/",
-   "sito_ufficiale": "https://www.instagram.com/pro_loco_combai/",
-   "riassunto": ""
-  },
-  {
-   "uid": "b209d78ab96e9084",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante",
-    "titolo da ripulire"
-   ],
-   "titolo": "Libertà, cultura e diritti oltre la censura: Majid Bita all’Altromercato Store – Treviso",
-   "inizio": "2026-10-30T19:00",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Treviso",
-   "categoria": "arte-cultura",
+   "categoria": "sport",
    "accesso": "iscrizione",
-   "prezzo": "Accesso libero su prenotazione",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/liberta-cultura-e-diritti-oltre-la-censura-majid-bita-allaltromercato-store-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/4passifestival/",
-   "riassunto": ""
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/biglietti-bike-test-fantic-presso-autosile-treviso-1982498168389",
+   "sito_ufficiale": "",
+   "riassunto": "Possibilità di provare la gamma di biciclette Fantic tramite test ride."
   },
   {
-   "uid": "aee55269e9ecb9e8",
+   "uid": "cba7b17a31b2e7c8",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
+    "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "Notturni: maschere e costumi degli animali della notte – Treviso",
+   "titolo": "MEMORIES | @Anima_Club | 30.10.2026",
+   "inizio": "2026-10-30",
+   "fine": "2026-10-31",
+   "luogo": "Via Giambattista Tiepolo, 1",
+   "indirizzo": "1 Via Giambattista Tiepolo",
+   "comune": "Spresiano",
+   "categoria": "nightlife",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.com/e/biglietti-memories-anima-club-30102026-2003129370871",
+   "sito_ufficiale": "",
+   "riassunto": "Serata a tema con musica e balli in un club."
+  },
+  {
+   "uid": "7b9d26a8acf449fe",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo"
+   ],
+   "titolo": "Visite guidate alla mostra L’ULTIMA RINASCITA | Sede di SANTA MARGHERITA",
    "inizio": "2026-10-30T16:30",
-   "fine": "2026-10-30T18:30",
-   "luogo": "",
-   "indirizzo": "",
+   "fine": "2026-10-30T18:00",
+   "luogo": "Museo nazionale Collezione Salce, sede di Santa Margherita",
+   "indirizzo": "Via Reggimento Italia Libera, 31100 Treviso TV, Italia",
    "comune": "Treviso",
-   "categoria": "famiglie-bambini",
-   "accesso": "iscrizione",
-   "prezzo": "€25",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "8,00 € (visita guidata) + 6,00 € (ingresso museo)",
    "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/notturni-maschere-e-costumi-degli-animali-della-notte-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/la_stanzetta_treviso/",
-   "riassunto": ""
-  },
-  {
-   "uid": "0357bbb0d078fc63",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
-   ],
-   "titolo": "Bramiti Sounds: Hibaku Jumoku alla Trattoria alla Cerva – Vittorio Veneto",
-   "inizio": "2026-10-30T20:45",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Vittorio Veneto",
-   "categoria": "musica",
-   "accesso": "iscrizione",
-   "prezzo": "Ingresso libero",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/bramiti-sounds-hibaku-jumoku-alla-trattoria-alla-cerva-vittorio-veneto/",
-   "sito_ufficiale": "https://www.instagram.com/bramiti_vv/",
-   "riassunto": ""
+   "pagina_fonte": "https://www.insolitotrantran.it/event/visite-guidate-alla-mostra-lultima-rinascita-sede-di-santa-margherita-4/",
+   "sito_ufficiale": "https://www.facebook.com/events/1237094521683774/?event_time_id=1237094538350439",
+   "riassunto": "Visita guidata alla mostra 'L’ultima rinascita', un percorso alla ricerca del mito e degli eroi nella pubblicità moderna. La visita è curata da CoopCulture."
   },
   {
    "uid": "7dae98b2efa5c276",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "categoria di ripiego: verifica",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Il volto pubblico della maternità",
    "inizio": "2026-10-31T15:00",
    "fine": "2026-10-31T16:30",
-   "luogo": "",
+   "luogo": "Treviso",
    "indirizzo": "",
    "comune": "Treviso",
-   "categoria": "comunita",
+   "categoria": "arte-cultura",
    "accesso": "sconosciuto",
    "prezzo": "Informazioni su :\nlinktr.ee/spaziofamigliatreviso",
    "fonte": "Comune di Treviso",
    "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-31-10-2026",
    "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "0f892fc7b9b702ac",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "categoria di ripiego: verifica",
-    "riassunto mancante",
-    "titolo da ripulire",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "La notte dei teschi messicani: al Cantiere si festeggia Halloween tra rituali, sapori e mistero",
-   "inizio": "2026-10-31",
-   "fine": null,
-   "luogo": "Il Cantiere Art District",
-   "indirizzo": "viale della repubblica",
-   "comune": "Villorba",
-   "categoria": "comunita",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "2night Treviso",
-   "pagina_fonte": "https://www.2night.it/80d186-/la-notte-dei-teschi-messicani-al-cantiere-si-festeggia-halloween-tra-rituali-sapori-mistero.html",
-   "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "062122fe9945c72e",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "categoria di ripiego: verifica",
-    "riassunto mancante",
-    "titolo da ripulire",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "Cicchetti da paura e drink maledetti: Halloween da Bastian Osteria si fa fuori dagli schemi",
-   "inizio": "2026-10-31",
-   "fine": null,
-   "luogo": "Bastian Osteria",
-   "indirizzo": "via dei da prata 24",
-   "comune": "Treviso",
-   "categoria": "comunita",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "2night Treviso",
-   "pagina_fonte": "https://www.2night.it/d180dd-/cicchetti-da-paura-drink-maledetti-halloween-al-bastian-si-fa-fuori-dagli-schemi.html",
-   "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "Si propone una giornata informativa sul tema della maternità e del suo impatto pubblico."
   },
   {
    "uid": "353ab20488db2a11",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "titolo da ripulire",
     "manca il sito ufficiale: cercalo"
    ],
@@ -356,19 +299,39 @@
    "luogo": "Cantina Pizzolato",
    "indirizzo": "via iv novembre 12",
    "comune": "Villorba",
-   "categoria": "musica",
+   "categoria": "cibo-vino",
    "accesso": "sconosciuto",
    "prezzo": "",
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/80d186-/festa-del-novello-sapori-autunno-vini-biologici-la-musica-dal-vivo-dei-drop-duo-alla-cantina-pizzolato.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "L'evento prevede degustazione di vini biologici e musica dal vivo."
+  },
+  {
+   "uid": "0f892fc7b9b702ac",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "titolo da ripulire",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "La notte dei teschi messicani: al Cantiere si festeggia Halloween tra rituali, sapori e mistero",
+   "inizio": "2026-10-31",
+   "fine": null,
+   "luogo": "Il Cantiere Art District",
+   "indirizzo": "viale della repubblica",
+   "comune": "Villorba",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "2night Treviso",
+   "pagina_fonte": "https://www.2night.it/80d186-/la-notte-dei-teschi-messicani-al-cantiere-si-festeggia-halloween-tra-rituali-sapori-mistero.html",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede una festa a tema Halloween con rituali, sapori e mistero."
   },
   {
    "uid": "b640a5f978ec5c88",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "titolo da ripulire",
     "manca il sito ufficiale: cercalo"
    ],
@@ -384,13 +347,12 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/a8f851-/80-voglia-party-al-mattorosso-halloween-torna-agli-anni-80-con-il-dj-set-di-gaddamix.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "Serata a tema anni '80 con DJ set."
   },
   {
    "uid": "cec3abe5c7ee8b0e",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "titolo da ripulire",
     "manca il sito ufficiale: cercalo"
    ],
@@ -406,13 +368,12 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/a8f851-/haunted-beat-all-outsider-pub-halloween-scende-in-pista-tra-rock-synth-atmosfere-horror.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "Serata a tema Halloween con musica rock, synth e atmosfere horror."
   },
   {
    "uid": "c8abb13e50120929",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "titolo da ripulire",
     "manca il sito ufficiale: cercalo"
    ],
@@ -428,35 +389,54 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/a8f851-/halloween-in-villa-braida-una-notte-elegante-tra-alta-cucina-musica-divertimento.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "L'evento prevede musica jazz e cena in un club."
   },
   {
-   "uid": "65125fb4e0dc1de0",
+   "uid": "062122fe9945c72e",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
-    "titolo da ripulire"
+    "titolo da ripulire",
+    "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "The Rocky Horror Picture Show Night: sing-along di Halloween al Cinema Edera – Treviso",
-   "inizio": "2026-10-31T22:00",
-   "fine": "2026-11-01T01:30",
-   "luogo": "",
-   "indirizzo": "",
+   "titolo": "Cicchetti da paura e drink maledetti: Halloween da Bastian Osteria si fa fuori dagli schemi",
+   "inizio": "2026-10-31",
+   "fine": null,
+   "luogo": "Bastian Osteria",
+   "indirizzo": "via dei da prata 24",
    "comune": "Treviso",
-   "categoria": "cinema",
+   "categoria": "cibo-vino",
    "accesso": "sconosciuto",
    "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/the-rocky-horror-picture-show-night-sing-along-di-halloween-al-cinema-edera-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/therockyhorrorpictureshownight/",
-   "riassunto": ""
+   "fonte": "2night Treviso",
+   "pagina_fonte": "https://www.2night.it/d180dd-/cicchetti-da-paura-drink-maledetti-halloween-al-bastian-si-fa-fuori-dagli-schemi.html",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede una serata a tema Halloween con cicchetti e drink."
+  },
+  {
+   "uid": "5bbd472acc550675",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "titolo da ripulire",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "TAKEMEBACKON HALLOWEEN - HOGWARTS 00'S RAVE",
+   "inizio": "2026-10-31",
+   "fine": "2026-11-01",
+   "luogo": "Via Pianale",
+   "indirizzo": "Via Pianale",
+   "comune": "San Pietro di Feletto",
+   "categoria": "nightlife",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.com/e/takemebackon-halloween-hogwarts-00s-rave-tickets-2003597798952",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede una festa a tema Halloween ispirata all'universo di Hogwarts e all'estetica anni '00."
   },
   {
    "uid": "2d95a6a998546af1",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Queen Forever: una notte di rock e leggenda all’Enoteca Vettoretti",
@@ -471,13 +451,12 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/4e1f5f-/queen-forever-una-notte-di-rock-leggenda-all-enoteca-vettoretti.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "La serata propone un tributo alla band Queen con musica rock."
   },
   {
    "uid": "000c6649f1d38b88",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Halloween Fest, una notte da brividi all’Odissea Fun City",
@@ -486,40 +465,18 @@
    "luogo": "Odissea Fun City",
    "indirizzo": "via tiepolo 1",
    "comune": "Spresiano",
-   "categoria": "musica",
+   "categoria": "nightlife",
    "accesso": "sconosciuto",
    "prezzo": "",
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/4e1f5f-/halloween-fest-una-notte-da-brividi-all-odissea-fun-city.html",
    "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "c2392c64e47e1231",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "La zucca protagonista: una cena d’autunno alla Frasca",
-   "inizio": "2026-10-31",
-   "fine": null,
-   "luogo": "Osteria La Frasca",
-   "indirizzo": "via pioppe",
-   "comune": "Ponzano Veneto",
-   "categoria": "cibo-vino",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "2night Treviso",
-   "pagina_fonte": "https://www.2night.it/80d186-/la-zucca-protagonista-una-cena-autunno-alla-frasca.html",
-   "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "L'evento prevede una festa a tema Halloween."
   },
   {
    "uid": "9032a91c5ccaf9fb",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Rock, metal e atmosfere horror per una notte senza compromessi",
@@ -534,13 +491,12 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/80d186-/rock-metal-atmosfere-horror-per-una-notte-senza-compromessi.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "Serata a tema rock, metal e horror presso il Krach Club."
   },
   {
    "uid": "4f4ba23f4bb5e9e5",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "VOG Gothic Halloween: una notte tra musica e atmosfere dark",
@@ -555,13 +511,12 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/a8f851-/vog-gothic-halloween-una-notte-tra-musica-atmosfere-dark.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "L'evento prevede musica e atmosfere a tema dark."
   },
   {
    "uid": "b08ad84cf90dcc50",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Disco, funky e house: il sound di Tomas De Marchi da Castelli in Aria",
@@ -576,34 +531,32 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/a8f851-/disco-funky-house-il-sound-di-tomas-de-marchi-da-castelli-in-aria.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "Serata musicale con musica disco, funky e house."
   },
   {
    "uid": "15afe1f1492637f1",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante",
     "titolo da ripulire"
    ],
    "titolo": "It’s going to be cruel: Halloween di Intima a Villa Lin Andrighetti – Preganziol (Treviso)",
    "inizio": "2026-10-31T22:30",
    "fine": "2026-11-01T04:00",
-   "luogo": "",
-   "indirizzo": "",
+   "luogo": "Villa Lin Andrighetti, Preganziol",
+   "indirizzo": "Villa Lin Andrighetti, Preganziol",
    "comune": "Preganziol",
    "categoria": "nightlife",
    "accesso": "biglietto",
-   "prezzo": "",
+   "prezzo": "sconosciuto",
    "fonte": "Insolito Tran Tran",
    "pagina_fonte": "https://www.insolitotrantran.it/event/its-going-to-be-cruel-halloween-di-intima-a-villa-lin-andrighetti-preganziol-treviso/",
    "sito_ufficiale": "https://www.instagram.com/intima.community/",
-   "riassunto": ""
+   "riassunto": "Serata a tema Halloween con open bar, dress code scuro con un tocco di rosso e DJ set fino all'alba."
   },
   {
    "uid": "4701589a439bc0ff",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Halloween in stile Mexico: la notte dei morti arriva con i mariachi",
@@ -618,116 +571,89 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/a8f851-/halloween-in-stile-mexico-la-notte-dei-morti-arriva-con-mariachi.html",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "L'evento prevede musica messicana con l'accompagnamento di una band di mariachi."
   },
   {
-   "uid": "66e11ee35cd031f8",
+   "uid": "65125fb4e0dc1de0",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
+    "titolo da ripulire"
    ],
-   "titolo": "82ª Festa dei Marroni – Arte nel bosco, stop-motion e spiedo – Combai",
-   "inizio": "2026-10-31T10:00",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Combai",
-   "categoria": "arte-cultura",
-   "accesso": "iscrizione",
+   "titolo": "The Rocky Horror Picture Show Night: sing-along di Halloween al Cinema Edera – Treviso",
+   "inizio": "2026-10-31T22:00",
+   "fine": "2026-11-01T01:30",
+   "luogo": "Cinema Edera",
+   "indirizzo": "Via Radaelli 14, Treviso",
+   "comune": "Treviso",
+   "categoria": "cinema",
+   "accesso": "biglietto",
    "prezzo": "",
    "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/82a-festa-dei-marroni-arte-nel-bosco-stop-motion-e-spiedo-combai/",
-   "sito_ufficiale": "https://www.instagram.com/pro_loco_combai/",
-   "riassunto": ""
+   "pagina_fonte": "https://www.insolitotrantran.it/event/the-rocky-horror-picture-show-night-sing-along-di-halloween-al-cinema-edera-treviso/",
+   "sito_ufficiale": "https://www.instagram.com/therockyhorrorpictureshownight/",
+   "riassunto": "Proiezione del film Rocky Horror Picture Show in versione sing-along con consegna di prop bag, regole della serata, party finale con musica dal vivo e brindisi a tema."
+  },
+  {
+   "uid": "c2392c64e47e1231",
+   "motivi": [
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "La zucca protagonista: una cena d’autunno alla Frasca",
+   "inizio": "2026-10-31",
+   "fine": null,
+   "luogo": "Osteria La Frasca",
+   "indirizzo": "via pioppe",
+   "comune": "Ponzano Veneto",
+   "categoria": "cibo-vino",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "2night Treviso",
+   "pagina_fonte": "https://www.2night.it/80d186-/la-zucca-protagonista-una-cena-autunno-alla-frasca.html",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede una cena a tema autunnale con la zucca come ingrediente principale."
   },
   {
    "uid": "4e84f1eeea38a5c7",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
+    "luogo: solo il comune, cerca locale e indirizzo"
    ],
    "titolo": "Treviso Sotterranea – Percorso di Halloween – Treviso",
    "inizio": "2026-10-31T18:00",
    "fine": null,
-   "luogo": "",
-   "indirizzo": "",
+   "luogo": "Mura di Treviso, Porta San Tomaso",
+   "indirizzo": "Mura di Treviso, Porta San Tomaso, Treviso",
    "comune": "Treviso",
-   "categoria": "famiglie-bambini",
+   "categoria": "arte-cultura",
    "accesso": "iscrizione",
    "prezzo": "",
    "fonte": "Insolito Tran Tran",
    "pagina_fonte": "https://www.insolitotrantran.it/event/treviso-sotterranea-percorso-di-halloween-treviso/",
    "sito_ufficiale": "https://www.instagram.com/trevisosotterranea/",
-   "riassunto": ""
+   "riassunto": "Percorso guidato a tema Halloween tra i camminamenti al buio delle mura di Treviso, rivolto a bambini e famiglie."
   },
   {
-   "uid": "8405c33af65c2827",
+   "uid": "f03fe9dcfb338712",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
     "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "La giornata ecologica - Festa degli Alberi",
+   "titolo": "Silent Wifi Concert per Advar | Sile Classica 2026",
    "inizio": "2026-11-01",
    "fine": null,
-   "luogo": "",
-   "indirizzo": "",
+   "luogo": "Piazza dell'Università, Treviso",
+   "indirizzo": "Piazza dell'Università",
    "comune": "Treviso",
-   "categoria": "natura-outdoor",
-   "accesso": "libero",
-   "prezzo": "Accesso libero",
-   "fonte": "Comune di Treviso",
-   "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/giornata-ecologica-1-11-2026",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.com/e/biglietti-silent-wifi-concert-per-advar-sile-classica-2026-2003565037963",
    "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "b38a1c0908f17a02",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante",
-    "titolo da ripulire"
-   ],
-   "titolo": "Gesti segni colori: laboratori di scrittura a mano e legatoria al Museo Salce – Treviso",
-   "inizio": "2026-11-01T11:00",
-   "fine": "2026-11-01T17:00",
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Treviso",
-   "categoria": "famiglie-bambini",
-   "accesso": "libero",
-   "prezzo": "Gratuito su prenotazione",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/gesti-segni-colori-laboratori-di-scrittura-a-mano-e-legatoria-al-museo-salce-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/tipotecaitaliana/",
-   "riassunto": ""
-  },
-  {
-   "uid": "d80362df681891fc",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante",
-    "titolo da ripulire"
-   ],
-   "titolo": "La vera storia di San Giorgio e il Drago alle Grotte del Caglieron – Fregona (Treviso)",
-   "inizio": "2026-11-01T14:30",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Fregona",
-   "categoria": "famiglie-bambini",
-   "accesso": "libero",
-   "prezzo": "€4 - €12",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/la-vera-storia-di-san-giorgio-e-il-drago-alle-grotte-del-caglieron-fregona-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/grotte_del_caglieron/",
-   "riassunto": ""
+   "riassunto": "L'evento prevede un concerto con tecnologia wireless."
   },
   {
    "uid": "d4bb012b9395670f",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Domenica Italiana: a Treviso il weekend finisce a squarciagola",
@@ -742,27 +668,7 @@
    "fonte": "2night Treviso",
    "pagina_fonte": "https://www.2night.it/4e1f5f-/domenica-italiana-treviso-il-weekend-finisce-squarciagola.html",
    "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "59e09f728dc99875",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
-   ],
-   "titolo": "82ª Festa dei Marroni – Gran finale con i Bandaròs – Combai",
-   "inizio": "2026-11-01T09:00",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Combai",
-   "categoria": "cibo-vino",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/82a-festa-dei-marroni-gran-finale-con-i-bandaros-combai/",
-   "sito_ufficiale": "https://www.instagram.com/pro_loco_combai/",
-   "riassunto": ""
+   "riassunto": "Home of Jazz propone un'esperienza di jazz club."
   },
   {
    "uid": "1f67c4ef2e3314fa",
@@ -782,6 +688,63 @@
    "pagina_fonte": "https://www.calendariopodismo.it/gara/81347/vertikal-pizzoc/",
    "sito_ufficiale": "",
    "riassunto": "Gara podistica competitiva: 2,9km, partenza ore 10:00."
+  },
+  {
+   "uid": "8405c33af65c2827",
+   "motivi": [
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "La giornata ecologica - Festa degli Alberi",
+   "inizio": "2026-11-01",
+   "fine": null,
+   "luogo": "Piazza Indipendenza, Treviso",
+   "indirizzo": "Piazza Indipendenza, Treviso",
+   "comune": "Treviso",
+   "categoria": "natura-outdoor",
+   "accesso": "libero",
+   "prezzo": "Accesso libero",
+   "fonte": "Comune di Treviso",
+   "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/giornata-ecologica-1-11-2026",
+   "sito_ufficiale": "",
+   "riassunto": "Consegna di alberi autoctoni e attività dedicate all'ambiente in Piazza Indipendenza. Saranno predisposti cartelli e indicazioni per i parcheggi consigliati."
+  },
+  {
+   "uid": "b38a1c0908f17a02",
+   "motivi": [
+    "titolo da ripulire"
+   ],
+   "titolo": "Gesti segni colori: laboratori di scrittura a mano e legatoria al Museo Salce – Treviso",
+   "inizio": "2026-11-01T11:00",
+   "fine": "2026-11-01T17:00",
+   "luogo": "Museo Salce, sede di Santa Margherita, Treviso",
+   "indirizzo": "Via Reggimento Italia Libera, Treviso",
+   "comune": "Treviso",
+   "categoria": "famiglie-bambini",
+   "accesso": "libero",
+   "prezzo": "Gratuito su prenotazione",
+   "fonte": "Insolito Tran Tran",
+   "pagina_fonte": "https://www.insolitotrantran.it/event/gesti-segni-colori-laboratori-di-scrittura-a-mano-e-legatoria-al-museo-salce-treviso/",
+   "sito_ufficiale": "https://www.instagram.com/tipotecaitaliana/",
+   "riassunto": "Si svolgono laboratori di scrittura a mano e legatoria per bambini e ragazzi, con diverse attività a tema."
+  },
+  {
+   "uid": "d80362df681891fc",
+   "motivi": [
+    "titolo da ripulire"
+   ],
+   "titolo": "La vera storia di San Giorgio e il Drago alle Grotte del Caglieron – Fregona (Treviso)",
+   "inizio": "2026-11-01T14:30",
+   "fine": null,
+   "luogo": "Parco Grotte del Caglieron",
+   "indirizzo": "Parco Grotte del Caglieron, Fregona",
+   "comune": "Fregona",
+   "categoria": "teatro-spettacoli",
+   "accesso": "biglietto",
+   "prezzo": "€4 - €12",
+   "fonte": "Insolito Tran Tran",
+   "pagina_fonte": "https://www.insolitotrantran.it/event/la-vera-storia-di-san-giorgio-e-il-drago-alle-grotte-del-caglieron-fregona-treviso/",
+   "sito_ufficiale": "https://www.instagram.com/grotte_del_caglieron/",
+   "riassunto": "Un attore mette in scena una giullarata comico-medievale con maschere, burattini e fuoco, raccontando tre versioni della leggenda di San Giorgio e il Drago. L'evento è adatto a grandi e piccoli."
   },
   {
    "uid": "395e1d0bce8abdb8",
@@ -805,87 +768,142 @@
    "riassunto": ""
   },
   {
-   "uid": "9c981216abe317ff",
+   "uid": "fe2d7e3c40b75ecc",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
+    "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "Anatomia di un film: La grande guerra con Marco Bellano – Treviso",
-   "inizio": "2026-11-02T20:30",
-   "fine": "2026-11-02T22:30",
-   "luogo": "",
-   "indirizzo": "",
+   "titolo": "Commemorazione dei Defunti",
+   "inizio": "2026-11-02T10:30",
+   "fine": "2026-11-02T13:00",
+   "luogo": "Cimitero di San Lazzaro",
+   "indirizzo": "Treviso",
    "comune": "Treviso",
-   "categoria": "cinema",
-   "accesso": "biglietto",
-   "prezzo": "€5 - €90",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/anatomia-di-un-film-la-grande-guerra-con-marco-bellano-treviso/",
-   "sito_ufficiale": "https://cineforumlabirinto.com/2026/09/15/anatomia-di-un-film-ottobre-2026/",
-   "riassunto": ""
+   "categoria": "comunita",
+   "accesso": "libero",
+   "prezzo": "Accesso libero.",
+   "fonte": "Comune di Treviso",
+   "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/commemorazione-defunti-2026",
+   "sito_ufficiale": "",
+   "riassunto": "Cerimonia in onore dei defunti con deposizione di una corona ai Monumenti ai Caduti e momento di raccoglimento."
   },
   {
-   "uid": "e45c7df85288da25",
+   "uid": "6622ddad90f519de",
+   "motivi": [
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Giornata dell’Unita’ Nazionale e delle Forze Armate - 2026",
+   "inizio": "2026-11-04T11:00",
+   "fine": "2026-11-04T13:00",
+   "luogo": "Piazza della Vittoria",
+   "indirizzo": "Piazza della Vittoria, Treviso",
+   "comune": "Treviso",
+   "categoria": "comunita",
+   "accesso": "libero",
+   "prezzo": "Accesso libero.",
+   "fonte": "Comune di Treviso",
+   "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/giornata-nazionale-forze-armate-2026",
+   "sito_ufficiale": "",
+   "riassunto": "Si svolge una cerimonia ufficiale con l'alzabandiera, la deposizione di corone al Monumento ai Caduti e la lettura di messaggi ufficiali."
+  },
+  {
+   "uid": "c51dc5fdb093f9a2",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante"
+    "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "Bim Boom Jam – Jam session al Mulino di Falzè",
-   "inizio": "2026-11-03T19:00",
+   "titolo": "Bosa Ceramiche: dalla materia al design",
+   "inizio": "2026-11-05",
    "fine": null,
-   "luogo": "Isola B APS – Ex Mulino, Falzè di Piave",
-   "indirizzo": "Via Pieve di Soligo 2",
-   "comune": "Falzè di Piave",
-   "categoria": "musica",
+   "luogo": ".Ettore",
+   "indirizzo": "71 Via Treviso",
+   "comune": "Signoressa",
+   "categoria": "arte-cultura",
    "accesso": "sconosciuto",
    "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/bim-boom-jam-jam-session-al-mulino-di-falze-2/",
-   "sito_ufficiale": "https://www.instagram.com/isolab.tv/",
-   "riassunto": ""
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/biglietti-bosa-ceramiche-dalla-materia-al-design-2003398534948",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede un incontro con Francesca Bosa."
   },
   {
    "uid": "6dbac29c5966f22b",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
     "manca il sito ufficiale: cercalo"
    ],
    "titolo": "Presentazione libro DOULE, Prendersi cura delle maternità",
    "inizio": "2026-11-06T17:30",
    "fine": "2026-11-06T18:30",
-   "luogo": "",
+   "luogo": "Treviso",
    "indirizzo": "",
    "comune": "Treviso",
    "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
+   "accesso": "offerta",
    "prezzo": "Informazioni su :\nlinktr.ee/spaziofamigliatreviso",
    "fonte": "Comune di Treviso",
    "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-6-11-2026",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "Presentazione del libro 'DOULE, Prendersi cura delle maternità'."
+  },
+  {
+   "uid": "2a01ab319dd00143",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Domani c’è scuola. Nessun destino è già scritto",
+   "inizio": "2026-11-06",
+   "fine": null,
+   "luogo": "Chiesa di Santa Caterina dei Servi di Maria",
+   "indirizzo": "29 Via Santa Caterina",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/domani-ce-scuola-nessun-destino-e-gia-scritto-tickets-2003236110131",
+   "sito_ufficiale": "",
+   "riassunto": "Incontro con Antonella Di Bartolo, moderato da Elena Mattiuzzo."
   },
   {
    "uid": "925e217085586c12",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante",
     "titolo da ripulire"
    ],
    "titolo": "Prossima Fermata: parole e musica lungo il fiume al Teatro del Pane – Lancenigo di Villorba (Treviso)",
    "inizio": "2026-11-06T19:30",
    "fine": null,
-   "luogo": "",
-   "indirizzo": "",
+   "luogo": "Teatro del Pane",
+   "indirizzo": "Via Fontane 91, Lancenigo di Villorba (TV)",
    "comune": "Lancenigo di Villorba",
-   "categoria": "teatro-spettacoli",
-   "accesso": "biglietto",
+   "categoria": "musica",
+   "accesso": "iscrizione",
    "prezzo": "€18 - €40",
    "fonte": "Insolito Tran Tran",
    "pagina_fonte": "https://www.insolitotrantran.it/event/prossima-fermata-parole-e-musica-lungo-il-fiume-al-teatro-del-pane-lancenigo-di-villorba-treviso/",
    "sito_ufficiale": "https://www.instagram.com/teatro_del_pane/",
-   "riassunto": ""
+   "riassunto": "Spettacolo musicale che ripercorre la storia del blues, con cena opzionale."
+  },
+  {
+   "uid": "e14defa5502908bf",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "titolo da ripulire",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "CONCERTO DI SAN LEONARDO",
+   "inizio": "2026-11-07",
+   "fine": null,
+   "luogo": "Duomo di San Leonardo",
+   "indirizzo": "44 Via XX Settembre",
+   "comune": "Conegliano",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "sconosciuto",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/biglietti-concerto-di-san-leonardo-2002863989107",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede musica dal vivo in occasione della festa di San Leonardo."
   },
   {
    "uid": "e7a571593d0c4f14",
@@ -908,23 +926,122 @@
    "riassunto": "Corsa/marcia podistica km 9, partenza ore 18:00."
   },
   {
-   "uid": "d67bb15b05334d51",
+   "uid": "473f9628e2768f72",
    "motivi": [
-    "riassunto mancante"
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "Memphis Experience: omaggio alla soul al Mattorosso – Montebelluna (Treviso)",
-   "inizio": "2026-11-07T22:00",
+   "titolo": "Oltre la Corsa",
+   "inizio": "2026-11-07",
    "fine": null,
-   "luogo": "",
-   "indirizzo": "Via Piave 108",
-   "comune": "Montebelluna",
-   "categoria": "musica",
-   "accesso": "iscrizione",
-   "prezzo": "€12",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/memphis-experience-omaggio-alla-soul-al-mattorosso-montebelluna-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/mattorosso/",
-   "riassunto": ""
+   "luogo": "Sala Mostre",
+   "indirizzo": "55 Via Alcide de Gasperi",
+   "comune": "San Vendemiano",
+   "categoria": "benessere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.com/e/biglietti-oltre-la-corsa-2003923171149",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede discussioni su prevenzione, sport, alimentazione, benessere psicologico e cura di sé."
+  },
+  {
+   "uid": "093511c03bff50c2",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Chi manca dai dati? Le donne fuori dall’inquadratura",
+   "inizio": "2026-11-07",
+   "fine": null,
+   "luogo": "Chiesa di Santa Caterina dei Servi di Maria",
+   "indirizzo": "29 Via Santa Caterina",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/chi-manca-dai-dati-le-donne-fuori-dallinquadratura-tickets-2003415905905",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede un incontro con Donata Columbro e Ines El Gataa, moderato da Marco Motta."
+  },
+  {
+   "uid": "0b4c2dc2fdce0397",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Fly me to the moon",
+   "inizio": "2026-11-07",
+   "fine": null,
+   "luogo": "Chiesa di Santa Caterina dei Servi di Maria",
+   "indirizzo": "29 Via Santa Caterina",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/fly-me-to-the-moon-tickets-2003651988033",
+   "sito_ufficiale": "",
+   "riassunto": "La performance lecture esplora il tema della luna e del suo ruolo come satellite naturale."
+  },
+  {
+   "uid": "e0cf81c1121f112d",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Seminare Legalità: il pomodoro che non piace al caporalato",
+   "inizio": "2026-11-07",
+   "fine": null,
+   "luogo": "Chiesa di Santa Caterina dei Servi di Maria",
+   "indirizzo": "29 Via Santa Caterina",
+   "comune": "Treviso",
+   "categoria": "comunita",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/seminare-legalita-il-pomodoro-che-non-piace-al-caporalato-tickets-2003415008220",
+   "sito_ufficiale": "",
+   "riassunto": "Incontro con Marta Fracasso, Pietro Fragasso e Simmaco Perillo, moderato da Elena Mattiuzzo."
+  },
+  {
+   "uid": "69644ff861cf5095",
+   "motivi": [
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "STORIES | @Anima_Club | 07.11.2026",
+   "inizio": "2026-11-07",
+   "fine": "2026-11-08",
+   "luogo": "Via Giambattista Tiepolo, 1",
+   "indirizzo": "1 Via Giambattista Tiepolo",
+   "comune": "Spresiano",
+   "categoria": "nightlife",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.com/e/biglietti-stories-anima-club-07112026-2003338421146",
+   "sito_ufficiale": "",
+   "riassunto": "Serata in discoteca con ingresso gratuito entro mezzanotte."
+  },
+  {
+   "uid": "26a85098f1633145",
+   "motivi": [
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Visite guidata alla Chiesa della Santissima Trinità \"La Mattarella\"",
+   "inizio": "2026-11-07",
+   "fine": null,
+   "luogo": "Chiesa della Santissima Trinità",
+   "indirizzo": "Via Mattarella",
+   "comune": "Cappella Maggiore",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.com/e/biglietti-visite-guidata-alla-chiesa-della-santissima-trinita-la-mattarella-2003506031473",
+   "sito_ufficiale": "",
+   "riassunto": "La visita guidata prevede un approfondimento artistico della chiesa con un esperto dell'Istituto Beato Toniolo."
   },
   {
    "uid": "2a09c7a77c43cbd7",
@@ -947,44 +1064,64 @@
    "riassunto": "Corsa/marcia podistica km 6 - 14, partenza ore 9:00."
   },
   {
-   "uid": "34bf9bd6548bdea6",
+   "uid": "98964d33e652c035",
    "motivi": [
-    "riassunto mancante",
-    "manca il sito ufficiale: cercalo"
+    "manca il sito ufficiale: cercalo",
+    "possibile doppione di 2a09c7a77c43cbd7"
    ],
-   "titolo": "Autumn social run",
+   "titolo": "Quinto Concerto Sinfonico d'Autunno",
    "inizio": "2026-11-08",
    "fine": null,
-   "luogo": "Tocai Treviso",
-   "indirizzo": "1 Piazzetta dei Lombardi",
-   "comune": "Treviso",
-   "categoria": "nightlife",
-   "accesso": "libero",
+   "luogo": "Auditorium Prealpi di Tarzo",
+   "indirizzo": "45 Via Corona",
+   "comune": "Tarzo",
+   "categoria": "musica",
+   "accesso": "biglietto",
    "prezzo": "",
    "fonte": "Eventbrite",
-   "pagina_fonte": "https://www.eventbrite.it/e/autumn-social-run-tickets-2003545181572",
+   "pagina_fonte": "https://www.eventbrite.it/e/biglietti-quinto-concerto-sinfonico-dautunno-2002990979940",
    "sito_ufficiale": "",
-   "riassunto": ""
+   "riassunto": "L'evento prevede un concerto sinfonico con l'orchestra Gruppo d'Archi Veneto."
   },
   {
-   "uid": "4247ba408253fcd3",
+   "uid": "d5659bcbeb9044e4",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "Treviso Sotterranea – Percorso 1: Torrione e Porta San Tomaso – Treviso",
-   "inizio": "2026-11-08T14:30",
-   "fine": "2026-11-08T16:30",
-   "luogo": "",
-   "indirizzo": "",
+   "titolo": "Guida al futuro tra scienza e complessità",
+   "inizio": "2026-11-08",
+   "fine": null,
+   "luogo": "Chiesa di Santa Caterina dei Servi di Maria",
+   "indirizzo": "29 Via Santa Caterina",
+   "comune": "Treviso",
+   "categoria": "tech-scienza",
+   "accesso": "sconosciuto",
+   "prezzo": "sconosciuto",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/guida-al-futuro-tra-scienza-e-complessita-tickets-2003652959940",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede una conferenza con Enrica Porcari e Enrico Cerni."
+  },
+  {
+   "uid": "ef8ba02c69882fca",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Perché ero ragazzo – la storia di Alaa Faraj",
+   "inizio": "2026-11-08",
+   "fine": null,
+   "luogo": "Chiesa di Santa Caterina dei Servi di Maria",
+   "indirizzo": "29 Via Santa Caterina",
    "comune": "Treviso",
    "categoria": "arte-cultura",
-   "accesso": "iscrizione",
+   "accesso": "sconosciuto",
    "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/treviso-sotterranea-percorso-1-torrione-e-porta-san-tomaso-treviso-3/",
-   "sito_ufficiale": "https://www.instagram.com/trevisosotterranea/",
-   "riassunto": ""
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/perche-ero-ragazzo-la-storia-di-alaa-faraj-tickets-2003653228744",
+   "sito_ufficiale": "",
+   "riassunto": "L'evento prevede un racconto sulla storia di Alaa Faraj, tra speranze, pericoli ed errori giudiziari."
   },
   {
    "uid": "a09d9e6a21ac0b7b",
@@ -1044,206 +1181,23 @@
    "riassunto": "Gara podistica: 6km - 12km - 21km, partenza ore 10:00."
   },
   {
-   "uid": "c60b3d60afedf132",
+   "uid": "34bf9bd6548bdea6",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
-   ],
-   "titolo": "Anatomia di un film: Fitzcarraldo con Marco Bellano – Treviso",
-   "inizio": "2026-11-09T20:30",
-   "fine": "2026-11-09T22:30",
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Treviso",
-   "categoria": "cinema",
-   "accesso": "biglietto",
-   "prezzo": "€5 - €90",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/anatomia-di-un-film-fitzcarraldo-con-marco-bellano-treviso/",
-   "sito_ufficiale": "https://cineforumlabirinto.com/2026/09/15/anatomia-di-un-film-ottobre-2026/",
-   "riassunto": ""
-  },
-  {
-   "uid": "dfdb24fdc47fbbda",
-   "motivi": [
-    "riassunto mancante",
-    "titolo da ripulire"
-   ],
-   "titolo": "Filippo Spreafico: Anteprima dello spettacolo precedente al Mattorosso – Montebelluna (Treviso)",
-   "inizio": "2026-11-12",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "Via Piave 108",
-   "comune": "Montebelluna",
-   "categoria": "teatro-spettacoli",
-   "accesso": "iscrizione",
-   "prezzo": "€12",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/filippo-spreafico-anteprima-dello-spettacolo-precedente-al-mattorosso-montebelluna-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/mattorosso/",
-   "riassunto": ""
-  },
-  {
-   "uid": "c4e6f2f03fb00b51",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
-    "titolo da ripulire",
     "manca il sito ufficiale: cercalo"
    ],
-   "titolo": "BILANCIO DI SOSTENIBILITA'",
-   "inizio": "2026-11-13",
+   "titolo": "Autumn social run",
+   "inizio": "2026-11-08",
    "fine": null,
-   "luogo": "Alpe Adria Imprese",
-   "indirizzo": "15 Via degli Alpini",
-   "comune": "Oderzo",
-   "categoria": "business",
-   "accesso": "sconosciuto",
+   "luogo": "Tocai Treviso",
+   "indirizzo": "1 Piazzetta dei Lombardi",
+   "comune": "Treviso",
+   "categoria": "sport",
+   "accesso": "libero",
    "prezzo": "",
    "fonte": "Eventbrite",
-   "pagina_fonte": "https://www.eventbrite.it/e/bilancio-di-sostenibilita-tickets-1993901207185",
+   "pagina_fonte": "https://www.eventbrite.it/e/autumn-social-run-tickets-2003545181572",
    "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "389f07194beb789e",
-   "motivi": [
-    "riassunto mancante",
-    "titolo da ripulire"
-   ],
-   "titolo": "I to schei me voria vol. III: cena e festa anni 2000 a Officina 31021 – Zerman (Treviso)",
-   "inizio": "2026-11-14T19:30",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "Via Bonisiolo 1",
-   "comune": "Zerman",
-   "categoria": "cibo-vino",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/i-to-schei-me-voria-vol-iii-cena-e-festa-anni-2000-a-officina-31021-zerman-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/officina31021/",
-   "riassunto": ""
-  },
-  {
-   "uid": "63d4ced78683f4d9",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
-   ],
-   "titolo": "Delizie d’Autunno: sapori del territorio – Maserada sul Piave (Treviso)",
-   "inizio": "2026-11-14",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Maserada sul Piave",
-   "categoria": "famiglie-bambini",
-   "accesso": "libero",
-   "prezzo": "Ingresso gratuito",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/delizie-dautunno-sapori-del-territorio-maserada-sul-piave-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/prolocomaserada/",
-   "riassunto": ""
-  },
-  {
-   "uid": "fece5f20984a3b1c",
-   "motivi": [
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "Vertikal del Gevero",
-   "inizio": "2026-11-14",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Cison di Valmarino",
-   "categoria": "sport",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "Calendario Podismo",
-   "pagina_fonte": "https://www.calendariopodismo.it/gara/81372/vertikal-del-gevero-2/",
-   "sito_ufficiale": "",
-   "riassunto": "Gara podistica competitiva: 5km."
-  },
-  {
-   "uid": "e1b4a7e3c1447963",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "riassunto mancante",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "StraWoman - Olmi di San Biagio di Callalta",
-   "inizio": "2026-11-15",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Olmi",
-   "categoria": "sport",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "running.life (podismo)",
-   "pagina_fonte": "https://running.life/it/evento/strawoman-olmi-di-san-biagio-di-callalta",
-   "sito_ufficiale": "",
-   "riassunto": ""
-  },
-  {
-   "uid": "5f6757bb0c4f0bc5",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "Campionato Provinciale Staffette di Cross",
-   "inizio": "2026-11-15T09:40",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Santa Lucia di Piave",
-   "categoria": "sport",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "Calendario Podismo Veneto",
-   "pagina_fonte": "https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html",
-   "sito_ufficiale": "",
-   "riassunto": "Corsa/marcia podistica, partenza ore 9:40."
-  },
-  {
-   "uid": "60e877f3721e8af9",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
-   ],
-   "titolo": "Treviso Sotterranea – Percorso 2: torrioni di Santa Sofia e San Tomaso – Treviso",
-   "inizio": "2026-11-15T10:00",
-   "fine": "2026-11-15T13:00",
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Treviso",
-   "categoria": "arte-cultura",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/treviso-sotterranea-percorso-2-torrioni-di-santa-sofia-e-san-tomaso-treviso-3/",
-   "sito_ufficiale": "https://www.instagram.com/trevisosotterranea/",
-   "riassunto": ""
-  },
-  {
-   "uid": "73206897776c98d7",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo",
-    "riassunto mancante"
-   ],
-   "titolo": "Delizie d’Autunno: sapori del territorio – Maserada sul Piave (Treviso)",
-   "inizio": "2026-11-15",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Maserada sul Piave",
-   "categoria": "famiglie-bambini",
-   "accesso": "libero",
-   "prezzo": "Ingresso gratuito",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/delizie-dautunno-sapori-del-territorio-maserada-sul-piave-treviso-2/",
-   "sito_ufficiale": "https://www.instagram.com/prolocomaserada/",
-   "riassunto": ""
+   "riassunto": "Si svolge una corsa di 5 km, seguita da aperitivo e DJ set."
   }
  ]
 }
