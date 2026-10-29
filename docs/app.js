@@ -351,7 +351,7 @@
       const panelTop = $("#panel").getBoundingClientRect().top;
       return { top, bottom: Math.max(60, window.innerHeight - panelTop + 20 + extraBottom), left: 30, right: 30 };
     }
-    return { top: 170, bottom: 150, left: state.sidebarHidden ? 60 : 470, right: 90 };
+    return { top: 170, bottom: 150, left: state.sidebarHidden ? 100 : 470, right: 90 };
   }
 
   // Zona della mappa davvero visibile (fuori da testata, giorni, filtri, elenco).
@@ -364,7 +364,7 @@
     } else {
       v.top = $(".days").getBoundingClientRect().bottom + 12;
       v.bottom = $(".filters").getBoundingClientRect().top - 12;
-      if (!state.sidebarHidden) v.left = $("#panel").getBoundingClientRect().right + 12;
+      v.left = (state.sidebarHidden ? $("#list-toggle") : $("#panel")).getBoundingClientRect().right + 12;
       v.right = $(".map-ctrl").getBoundingClientRect().left - 12;
     }
     return v;
@@ -720,7 +720,8 @@
     if (!state.detail) renderList(items);
     const n = items.length;
     $("#count-label").textContent = onlyUids ? `${n} in questo punto` : `${n} ${n === 1 ? "evento" : "eventi"}`;
-    $("#list-toggle-count").textContent = `(${n})`;
+    $("#list-toggle-count").textContent = n;
+    $("#list-toggle").setAttribute("aria-label", `Mostra l'elenco: ${n} ${n === 1 ? "evento" : "eventi"}`);
     const sortBtn = $("#sort-btn");
     sortBtn.setAttribute("aria-pressed", String(state.sort === "distance" && !!state.me));
     sortBtn.textContent = state.sort === "distance" && state.me ? "Più vicini" : state.me ? "Per data" : "Più vicini";
@@ -1062,11 +1063,15 @@
     setupScrollNav("#strip");
     setupScrollNav("#chips");
     setupFilters();
+    // elenco e linguetta "Elenco" partono sotto la barra dei giorni (che resta a tutta larghezza)
+    const placeBelowDays = () => document.documentElement.style.setProperty("--below-days",
+      `${Math.round($(".days").getBoundingClientRect().bottom + 12)}px`);
+    placeBelowDays();
+    window.addEventListener("resize", placeBelowDays);
+    if (document.fonts) document.fonts.ready.then(placeBelowDays);
     $("#panel-hide").addEventListener("click", () => setSidebar(false));
     $("#list-toggle").addEventListener("click", () => setSidebar(true));
     try { if (localStorage.getItem("andiamo-sidebar") === "0" && !MOBILE()) setSidebar(false, { remember: false }); } catch (_) { /* privato */ }
-    const brand = $(".brand-pill");
-    $("#list-toggle").style.left = `${brand.offsetLeft + brand.offsetWidth + 8}px`;
     setupSheet();
     setSheet(MOBILE() ? "peek" : "half");
 

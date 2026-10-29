@@ -59,11 +59,15 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   display: flex; align-items: center; gap: 10px; padding: 0 16px; height: 40px; border-radius: 10px;
 }
 .wordmark { font-size: 1.05rem; font-weight: 700; letter-spacing: .02em; white-space: nowrap; }
+/* sidebar nascosta (desktop): linguetta sotto la barra dei giorni, dove inizia l'elenco */
 .list-toggle {
-  position: absolute; z-index: 3; top: calc(var(--gap) * 2); height: 40px; padding: 0 14px; border: 0; border-radius: 10px;
-  background: var(--panel); display: none; align-items: center; gap: 8px; cursor: pointer;
-  font-family: var(--display); font-stretch: 118%; text-transform: uppercase; font-size: .75rem; font-weight: 600; letter-spacing: .03em;
+  position: absolute; z-index: 3; left: calc(var(--gap) * 2); top: var(--below-days, 190px);
+  width: 48px; padding: 14px 0 12px; border: 0; border-radius: 12px; background: var(--panel); cursor: pointer;
+  display: none; flex-direction: column; align-items: center; gap: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, .08);
 }
+.list-toggle svg { width: 22px; height: 22px; }
+.list-toggle .chev { width: 16px; height: 16px; color: var(--ink-2); }
+.list-toggle .n { font-size: .75rem; font-weight: 600; font-variant-numeric: tabular-nums; }
 .list-toggle:hover { background: var(--chip); }
 
 .top-right { position: absolute; z-index: 4; top: calc(var(--gap) * 2); right: calc(var(--gap) * 2); display: flex; gap: 8px; }
@@ -83,7 +87,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 
 /* ---------- giorni: periodi | divisore | giorni scorrevoli con frecce ---------- */
 .days {
-  top: calc(var(--gap) * 2 + 56px); left: calc(var(--gap) * 3 + var(--panel-w));
+  top: calc(var(--gap) * 2 + 56px); left: calc(var(--gap) * 2);   /* a tutta larghezza, anche con l'elenco aperto */
   right: calc(var(--gap) * 2); display: flex; align-items: flex-end; gap: 12px; padding: 10px 12px 8px;
 }
 .presets { display: flex; gap: 6px; flex-shrink: 0; padding-bottom: 4px; }
@@ -124,7 +128,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 
 /* ---------- pannello elenco/scheda ---------- */
 .panel {
-  top: calc(var(--gap) * 2 + 56px); left: calc(var(--gap) * 2); bottom: calc(var(--gap) * 2);
+  top: var(--below-days, 190px); left: calc(var(--gap) * 2); bottom: calc(var(--gap) * 2);
   width: var(--panel-w); display: flex; flex-direction: column; overflow: hidden;
 }
 .panel-head {
@@ -149,8 +153,8 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 
 /* sidebar nascosta (desktop): giorni e filtri si allargano, compare "Elenco" accanto al logo */
 body.sidebar-hidden .panel { display: none; }
-body.sidebar-hidden .days, body.sidebar-hidden .filters { left: calc(var(--gap) * 2); }
-body.sidebar-hidden .list-toggle { display: inline-flex; }
+body.sidebar-hidden .filters { left: calc(var(--gap) * 2); }
+body.sidebar-hidden .list-toggle { display: flex; }
 
 .list { list-style: none; margin: 0; padding: 0 0 8px; }
 .group {

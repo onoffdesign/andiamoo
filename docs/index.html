@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=10" rel="stylesheet">
+<link href="style.css?v=12" rel="stylesheet">
 </head>
 <body>
 <div class="stage">
@@ -20,8 +20,10 @@
   <header class="float brand-pill">
     <span class="wordmark" id="site-title">ANDIAMO?</span>
   </header>
-  <button class="list-toggle desktop-only" id="list-toggle" type="button" aria-controls="panel">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Elenco <span id="list-toggle-count"></span>
+  <button class="list-toggle desktop-only" id="list-toggle" type="button" aria-controls="panel" title="Mostra l'elenco degli eventi">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6"/><circle cx="4" cy="12" r=".6"/><circle cx="4" cy="18" r=".6"/></svg>
+    <span class="n" id="list-toggle-count"></span>
+    <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 7 5 5-5 5M13 7l5 5-5 5"/></svg>
   </button>
   <div class="top-right" id="top-right">
     <label class="search">
@@ -213,6 +215,6 @@
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=11"></script>
+<script src="app.js?v=13"></script>
 </body>
 </html>
