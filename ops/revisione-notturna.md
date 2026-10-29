@@ -24,7 +24,10 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
 cd andiamoo && git pull --rebase
 pip install --break-system-packages -q -r requirements.txt
 ```
-La shell del cloud non raggiunge i siti degli eventi: per leggere pagine usa WebFetch e WebSearch.
+La shell del cloud non raggiunge i siti degli eventi: per leggere pagine usa WebSearch e WebFetch.
+WebFetch apre solo link comparsi nei risultati di WebSearch: se un link della coda viene rifiutato, cerca
+"titolo + comune + anno" con WebSearch e apri il risultato giusto. Controlla sempre l'anno: molte pagine
+parlano di edizioni passate.
 Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/events.json`:
 `python -m pipeline.editorial --cerca "titolo o luogo" --data AAAA-MM-GG` e `--uid <uid>`.
 
