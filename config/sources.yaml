@@ -46,8 +46,7 @@ sources:
     listing_urls:                     # {Mese} = mese corrente, {Mese+1} = successivo
       - https://www.eventiesagre.it/cerca/cat/sez/{Mese}/Veneto/TV/cit/rilib
       - https://www.eventiesagre.it/cerca/cat/sez/{Mese+1}/Veneto/TV/cit/rilib
-    pagination: "{base}/pag-{n}.htm"
-    max_pages: 4
+    max_pages: 1                      # le pagine "/pag-N.htm" danno 404 (verificato dal PC il 29/10/2026)
     detail_link_regex: 'https://www\.eventiesagre\.it/[A-Za-z_+]+/\d{4,}_[^"#?]+\.html$'
     fetch_details: true
     ai_rewrite: true
