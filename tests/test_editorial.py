@@ -112,3 +112,29 @@ def test_morning_report(tmp_path, monkeypatch):
     msg = report.build_message()
     assert "eventi nuovi dalle fonti: 4" in msg and "ticketone (timeout)" in msg and "redazione" not in msg
     assert "aggiunti 9" in msg and "Musica e party 6" in msg and "DICE vuoto" in msg and "rispetto a ieri" in msg
+
+
+def test_site_reports_never_export_contacts(tmp_path):
+    from pipeline import quality
+    from pipeline.models import Event
+    from pipeline.store import Store
+    store = Store(tmp_path / "r.sqlite")
+    ev = Event("t", "T", "https://fonte/1", "Sagra", start="2026-11-08", town="Treviso")
+    store.add_report(ev.uid, "errore", "Orario sbagliato, scrivetemi a mario.rossi@example.com o 347 1234567",
+                     "mario.rossi@example.com")
+    out = quality.site_reports(store, [ev])
+    text = str(out)
+    assert out[0]["evento"] == "Sagra" and "contatto" not in out[0]
+    assert "mario.rossi" not in text and "347" not in text
+
+
+def test_quality_sample_is_stable_per_day():
+    from datetime import date
+    from pipeline import quality
+    from pipeline.models import Event
+    evs = [Event("t", "T", f"u{i}", f"Evento {i}", start=f"2026-11-{i + 1:02d}", town="Treviso", lat=45.6, lon=12.2)
+           for i in range(28)]
+    a = quality.quality_sample(evs, 10, today=date(2026, 11, 1))
+    b = quality.quality_sample(list(reversed(evs)), 10, today=date(2026, 11, 1))
+    c = quality.quality_sample(evs, 10, today=date(2026, 11, 2))
+    assert len(a) == 10 and a == b and a != c

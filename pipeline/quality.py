@@ -3,11 +3,15 @@
 ops/rapporto.json   com'e' andato il giro sul PC (fonti, errori, AI, tempi)
 ops/revisione.json  eventi da verificare stanotte, con il motivo, i piu' vicini nel tempo per primi
 ops/scoperte.csv    siti ufficiali trovati nei portali: candidati a diventare fonti dirette
+ops/segnalazioni.json  segnalazioni arrivate dal sito ("Segnala un errore") negli ultimi 30 giorni, senza contatti
+ops/campione.json   eventi scelti a caso per il controllo a campione della qualita' (stessi per tutta la notte)
 """
 from __future__ import annotations
 
 import json
+import random
 import re
+import time
 from datetime import datetime, timedelta
 
 from rapidfuzz import fuzz
@@ -16,7 +20,7 @@ from .config import ROOT
 from .dedupe import norm_title
 from .geocode import km_between
 from .models import Event
-from .textutil import ROME, parse_day, today_rome
+from .textutil import ROME, parse_day, strip_personal_data, today_rome
 
 OPS = ROOT / "ops"
 MAX_ITEMS = 60
@@ -99,9 +103,49 @@ def build_queue(events: list[Event], corrections: dict, ai_on: bool, centers: di
     return items[:MAX_ITEMS]
 
 
-def write_ops(report: dict, queue: list[dict]) -> None:
+SAMPLE_SIZE = 20
+REPORT_DAYS = 30
+
+
+def site_reports(store, events: list[Event], days: int = REPORT_DAYS) -> list[dict]:
+    """Segnalazioni dal sito per la revisione notturna. Mai il contatto di chi scrive (resta solo sul PC)."""
+    by_uid = {e.uid: e for e in events}
+    out = []
+    for r in store.reports_since(time.time() - days * 86400):
+        ev = by_uid.get(r["uid"])
+        out.append({
+            "id": r["id"], "data": datetime.fromtimestamp(r["created"], ROME).strftime("%Y-%m-%d %H:%M"),
+            "uid": r["uid"], "tipo": r["kind"], "messaggio": strip_personal_data(r["message"] or "")[:600],
+            "evento": ev.title if ev else None, "inizio": ev.start if ev else None,
+            "pagina_fonte": ev.source_url if ev else None, "gestita_sul_pc": bool(r["handled"]),
+        })
+    return out
+
+
+def quality_sample(events: list[Event], n: int = SAMPLE_SIZE, today=None) -> list[dict]:
+    """Eventi a caso nei prossimi 30 giorni, sempre gli stessi per la stessa data (il controllo e' ripetibile)."""
+    today = today or today_rome()
+    pool = [e for e in events if e.lat is not None and (s := parse_day(e.start)) and today <= s <= today + timedelta(days=30)]
+    pool.sort(key=lambda e: e.uid)
+    picks = random.Random(today.isoformat()).sample(pool, min(n, len(pool)))
+    return [{"uid": e.uid, "titolo": e.title, "inizio": e.start, "fine": e.end, "luogo": e.venue, "indirizzo": e.address,
+             "comune": e.town, "lat": e.lat, "lon": e.lon, "precisione": e.geo_precision, "categoria": e.category,
+             "accesso": e.access, "prezzo": e.price, "sito_ufficiale": e.official_url or e.ticket_url,
+             "pagina_fonte": e.source_url} for e in sorted(picks, key=lambda e: e.start or "")]
+
+
+def write_ops(report: dict, queue: list[dict], reports: list[dict] | None = None,
+              sample: list[dict] | None = None) -> None:
     OPS.mkdir(exist_ok=True)
     report = {**report, "finito_alle": datetime.now(ROME).isoformat(timespec="minutes")}
+    if reports is not None:
+        report["segnalazioni_30_giorni"] = len(reports)
     (OPS / "rapporto.json").write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
     (OPS / "revisione.json").write_text(json.dumps({"generato": report["finito_alle"], "eventi": queue},
                                                    ensure_ascii=False, indent=1), encoding="utf-8")
+    if reports is not None:
+        (OPS / "segnalazioni.json").write_text(json.dumps({"generato": report["finito_alle"], "segnalazioni": reports},
+                                                          ensure_ascii=False, indent=1), encoding="utf-8")
+    if sample is not None:
+        (OPS / "campione.json").write_text(json.dumps({"generato": report["finito_alle"], "eventi": sample},
+                                                      ensure_ascii=False, indent=1), encoding="utf-8")

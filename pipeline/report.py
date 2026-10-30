@@ -68,6 +68,10 @@ def build_message() -> str:
         if per_cat:
             lines.append("• aggiunti per categoria: " + ", ".join(
                 f"{escape(labels.get(k, k))} {v}" for k, v in sorted(per_cat.items(), key=lambda x: -x[1])))
+        if claude.get("qualita_campione"):
+            lines.append(f"• controllo a campione: {escape(str(claude['qualita_campione']))} eventi corretti")
+        if claude.get("segnalazioni_gestite"):
+            lines.append(f"• segnalazioni dal sito gestite: {claude['segnalazioni_gestite']}")
         lines.append(f"• fonti nuove nel catalogo: {claude.get('fonti_nuove', 0)} · passate al PC: "
                      f"{claude.get('fonti_spostate', 0)} · sistemate: {claude.get('fonti_sistemate', 0)}")
         for p in (claude.get("problemi") or [])[:5]:

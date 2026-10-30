@@ -190,7 +190,7 @@ def main(argv=None) -> int:
         queue = quality.build_queue(located_events, corrections, ai_on, centers)
         report.update({"giro_pc": True, "motore_ai": getattr(llm, "name", ""), "modello": settings()["llm"]["text_model"] if ai_on else "",
                        "minuti": round((time.time() - started) / 60, 1), "in_revisione": len(queue)})
-        quality.write_ops(report, queue)
+        quality.write_ops(report, queue, quality.site_reports(store, unique), quality.quality_sample(located_events))
         shutil.copy(DATA_DIR / "scoperte.csv", quality.OPS / "scoperte.csv")
         log.info("Coda di revisione: %d eventi", len(queue))
 

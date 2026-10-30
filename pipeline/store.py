@@ -136,6 +136,11 @@ class Store:
                         (uid, kind, message, contact, time.time()))
         self.db.commit()
 
+    def reports_since(self, since: float) -> list[dict]:
+        rows = self.db.execute("SELECT id, uid, kind, message, created, handled FROM reports WHERE created>=? ORDER BY created",
+                               (since,))
+        return [dict(r) for r in rows]
+
     def log_run(self, started: float, report: dict) -> None:
         self.db.execute("INSERT INTO runs(started, finished, report) VALUES (?,?,?)",
                         (started, time.time(), json.dumps(report, ensure_ascii=False)))

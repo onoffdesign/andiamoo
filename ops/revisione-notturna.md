@@ -31,6 +31,8 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
 ## Memoria: impara e migliora ogni notte
 
 La revisione ha una memoria in git, da leggere all'inizio e aggiornare alla fine di ogni notte:
+- `ops/segnalazioni-e-controllo.md` - **da leggere per primo**: regole nate dagli errori segnalati da Federico,
+  registro delle segnalazioni dal sito e del controllo a campione della qualita'.
 - `ops/fonti.yaml` - catalogo delle buone fonti trovate (pagina eventi, ricerca che ci porta dritti, tipo,
   categorie, comuni, ogni quanto ricontrollarla, qualita', resa in eventi). Serve a **non ricercare da capo**:
   le fonti note si riaprono con la loro `query`, senza ricerche esplorative.
@@ -63,11 +65,15 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
 
 ## Passi
 
-1. **Rapporto del PC e memoria** - leggi `ops/lezioni.md`, `ops/fonti.yaml` e `ops/rapporto.json`. Se `finito_alle` non e' di stanotte, il PC non ha girato:
+1. **Rapporto del PC e memoria** - leggi `ops/segnalazioni-e-controllo.md`, `ops/lezioni.md`, `ops/fonti.yaml` e
+   `ops/rapporto.json`. Se `finito_alle` non e' di stanotte, il PC non ha girato:
    annotalo nel registro (e nel messaggio finale) e lavora sui dati gia' pubblicati.
 2. **Fonti in errore** - per le fonti con `errore` o con zero eventi trovati: apri la pagina con WebFetch, correggi
    in `config/sources.yaml` (indirizzi cambiati, mesi, parametri) oppure metti `enabled: false` con una `note` che
    spiega il motivo. Non riattivare siti che vietano la raccolta.
+2b. **Segnalazioni dal sito** - `ops/segnalazioni.json`: gestisci quelle non ancora registrate nella parte 2 di
+   `ops/segnalazioni-e-controllo.md` (verifica, correggi o rimuovi, annota). Vengono prima della coda: sono errori
+   che qualcuno ha gia' visto.
 3. **Coda di revisione** - `ops/revisione.json`, nell'ordine, fino a 40 eventi. Per ognuno apri `sito_ufficiale`
    o `pagina_fonte` (e se serve cerca "titolo comune data"). Scrivi in `config/correzioni.yaml`:
    - `correggi.<uid>`: solo i campi da cambiare tra title, start, end, all_day, summary, category, subcategory,
@@ -80,6 +86,9 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    e `lon` (vedi la regola "Posizione giusta sulla mappa"); se piu' eventi hanno lo stesso luogo, stesse coordinate.
    Valori ammessi: categorie e accessi di `config/categories.yaml` (access: libero, offerta, biglietto, iscrizione,
    invito); date `AAAA-MM-GG` o `AAAA-MM-GGTHH:MM`; titoli puliti (niente emoji, niente " – Comune (Provincia)").
+3b. **Controllo a campione** - i 20 eventi di `ops/campione.json`: controlla i sei campi come spiegato nella parte 3
+   di `ops/segnalazioni-e-controllo.md`, correggi gli errori e scrivi la riga della notte. Se un errore si ripete,
+   aggiungi una regola alla parte 1.
 4. **Ricerca degli eventi mancanti** - e' la parte piu' lunga della notte: vedi la sezione "Ricerca degli eventi"
    qui sotto. Nessun limite di numero: aggiungi tutti gli eventi e le iniziative che trovi e verifichi.
 5. **Nuove fonti** - da `ops/scoperte.csv` e da quello che trovi: se un sito ufficiale pubblica molti eventi con
@@ -102,7 +111,7 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    Scrivi anche `ops/riepilogo-notte.json` (lo legge il resoconto Telegram delle 07:30), sostituendo il contenuto:
    `{"data": "AAAA-MM-GG", "aggiunti": N, "corretti": N, "rimossi": N, "verificati": N,
    "aggiunti_per_categoria": {"musica": N, ...}, "fonti_nuove": N, "fonti_spostate": N, "fonti_sistemate": N,
-   "problemi": ["...", "..."]}` (data di oggi, numeri della notte, al massimo 5 problemi brevi).
+   "qualita_campione": "N/20", "segnalazioni_gestite": N, "problemi": ["...", "..."]}` (data di oggi, numeri della notte, al massimo 5 problemi brevi).
 9. **Commit e push** su `main` (anche a fine di ogni fase della ricerca): `git add config ops docs/data/events.json`, messaggio
    `Redazione notturna AAAA-MM-GG: N corretti, N rimossi, N aggiunti`, poi `git pull --rebase` e `git push`.
    Se il push fallisce per un conflitto, ripeti pull e push; non forzare mai.
