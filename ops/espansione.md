@@ -8,11 +8,11 @@ giro del PC e nella manutenzione notturna, ma la ricerca nuova si concentra sull
 
 **Treviso (TV)**, da ottobre 2026.
 
-## Criterio di saturazione (proposta, da confermare con Federico)
+## Criterio di saturazione
 
-**Criterio confermato da Federico: no.** Finche' resta "no", Claude valuta il criterio ogni lunedi' e scrive la
-proposta nel riepilogo, ma non aggiunge province. Quando Federico lo conferma (anche con modifiche) si scrive qui
-"si'" con la data.
+**Criterio confermato da Federico: si', il 2026-10-30** (soglie come scritte qui sotto). Ogni lunedi' Claude
+valuta il criterio; quando e' rispettato aggiunge la provincia successiva seguendo la procedura e lo scrive nel
+riepilogo. Se Federico cambia le soglie, si aggiornano qui con la data.
 
 Una provincia e' satura quando, **per due settimane di fila**, valgono tutte e quattro:
 

@@ -109,9 +109,8 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    aggiungi una regola alla parte 1.
 3c. **Test di copertura** - sulla provincia attiva, come spiegato in `ops/espansione.md`: 10 eventi trovati in modo
    indipendente, quanti sono gia' sul sito. Ogni lunedi' valuta anche il criterio di saturazione con
-   `ops/saturazione.csv` e il registro. Se e' rispettato e in `ops/espansione.md` c'e' scritto che il criterio e'
-   confermato da Federico, aggiungi la provincia successiva seguendo la procedura del file; se non e' ancora
-   confermato, scrivi la proposta nei `problemi` del riepilogo e non aggiungere nulla.
+   `ops/saturazione.csv` e il registro. Se e' rispettato (criterio confermato da Federico il 2026-10-30),
+   aggiungi la provincia successiva seguendo la procedura del file e scrivilo nel riepilogo.
 4. **Ricerca degli eventi mancanti** - e' la parte piu' lunga della notte: vedi la sezione "Ricerca degli eventi"
    qui sotto. Nessun limite di numero: aggiungi tutti gli eventi e le iniziative che trovi e verifichi.
 5. **Nuove fonti** - da `ops/scoperte.csv` e da quello che trovi: se un sito ufficiale pubblica molti eventi con
