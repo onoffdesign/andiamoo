@@ -11,11 +11,11 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   finche' ha senso per cercare: se una specialita' ha eventi propri (gare, raduni, corsi) merita la sua riga.
 - **Parole di ricerca**: tra parentesi quadre i termini che funzionano nelle ricerche, in italiano e nei nomi usati
   dagli organizzatori (es. "contest", "open", "trofeo").
-- **Ogni notte**: aggiungi almeno 10 voci nuove, distribuite su piu' macro categorie, nate da cio' che hai visto
+- **Ogni notte**: aggiungi le voci nuove previste dal budget (`categorie_nuove` in `ops/budget.yaml`, oggi 10), distribuite su piu' macro categorie, nate da cio' che hai visto
   nelle fonti (un tipo di evento che non c'era) o da ricerche mirate (federazioni sportive, calendari di settore,
   associazioni). Segna la data accanto alle voci nuove.
 - **Resa per provincia**: in `ops/copertura.yaml` (sezione `categorie_<SIGLA>`) la data dell'ultima ricerca di ogni
-  voce in quella provincia. Una voce cercata 3 volte senza eventi in una provincia si segna `rara` e si ricerca una
+  ambito in quella provincia, come "Sport > Arrampicata: 2026-11-02". Una voce cercata 3 volte senza eventi in una provincia si segna `rara` e si ricerca una
   volta al mese.
 - **Dove cercare**: quando una voce ha una fonte che rende (federazione, calendario di settore), scrivila accanto
   con `→ fonte` e mettila in `ops/fonti.yaml`: la volta dopo non serve ricercare.

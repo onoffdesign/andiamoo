@@ -8,7 +8,8 @@ Tre parti:
 1. **Errori segnalati da Federico**: regole permanenti nate da errori veri. Non si tolgono mai; se una regola
    diventa codice (il PC la applica da solo) si scrive accanto "(ora nel codice)" ma resta qui.
 2. **Segnalazioni dal sito**: cosa e' arrivato da "Segnala un errore" e cosa si e' fatto.
-3. **Controllo a campione**: ogni notte 20 eventi a caso verificati sulla fonte ufficiale, con il risultato.
+3. **Controllo a campione**: ogni notte alcuni eventi a caso (10 col piano Pro, vedi `ops/budget.yaml`) verificati
+   sulla fonte ufficiale, con il risultato.
 
 Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella parte 1.
 
@@ -40,15 +41,15 @@ Formato: `- AAAA-MM-GG · segnalazione #id · uid · cosa diceva (in breve) · c
 
 ## 3. Controllo a campione
 
-Il PC sceglie ogni notte 20 eventi a caso dei prossimi 30 giorni (`ops/campione.json`, sempre gli stessi per la
+Il PC sceglie ogni notte N eventi a caso dei prossimi 30 giorni (N = `campione` in `ops/budget.yaml`) (`ops/campione.json`, sempre gli stessi per la
 stessa data). Per ognuno apri la fonte ufficiale e controlla sei campi: **data**, **orario**, **luogo** (punto sulla
 mappa compreso), **accesso e prezzo**, **categoria**, **link ufficiale** (funziona e porta all'evento giusto).
 Un evento e' "corretto" solo se tutti e sei sono giusti. Gli errori trovati si correggono subito come nel passo 3.
 
 Formato (una riga per notte, la piu' recente in alto):
-`- AAAA-MM-GG · corretti N/20 · errori: data N, orario N, luogo N, accesso N, categoria N, link N · lezione: ...`
+`- AAAA-MM-GG · corretti N/10 · errori: data N, orario N, luogo N, accesso N, categoria N, link N · lezione: ...`
 
-Obiettivo: almeno 18/20 stabile. Se una notte scende sotto 16/20, la causa principale va scritta nella parte 1 e
+Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
 (nessun controllo registrato finora)

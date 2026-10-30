@@ -24,6 +24,7 @@ from .export import discovery_report, export
 from .fetch import Fetcher
 from .geocode import Geocoder
 from .kinds import occurrences, split
+from .piano_notte import budget
 from .places import PlaceFinder
 from .llm import make_llm
 from .models import Event
@@ -192,7 +193,7 @@ def main(argv=None) -> int:
         queue = quality.build_queue(located_events, corrections, ai_on, centers)
         report.update({"giro_pc": True, "motore_ai": getattr(llm, "name", ""), "modello": settings()["llm"]["text_model"] if ai_on else "",
                        "minuti": round((time.time() - started) / 60, 1), "in_revisione": len(queue)})
-        quality.write_ops(report, queue, quality.site_reports(store, unique), quality.quality_sample(located_events))
+        quality.write_ops(report, queue, quality.site_reports(store, unique), quality.quality_sample(located_events, int(budget().get("campione", 10))))
         shutil.copy(DATA_DIR / "scoperte.csv", quality.OPS / "scoperte.csv")
         day_start = time.mktime(today_rome().timetuple())
         quality.append_saturation(quality.saturation_rows(located_events, town_province, store.first_seen_since(day_start)))

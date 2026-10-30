@@ -1,0 +1,16 @@
+# Quanto lavoro fa la revisione notturna di Claude in una notte. Tarato sul piano Claude in uso: i limiti di
+# utilizzo sono condivisi con l'uso di Federico durante il giorno, quindi la notte deve stare dentro un budget.
+# Lo leggono `python -m pipeline.piano_notte` (piano della notte) e il PC (dimensione del controllo a campione).
+# Quando Federico passa al piano Max: piano: max e numeri piu' alti (vedi i commenti).
+
+piano: pro
+
+ricerche_max: 70             # WebSearch + WebFetch in tutta la notte (max: 250)
+coda_max: 30                 # eventi della coda di revisione da lavorare (max: 100)
+campione: 10                 # eventi del controllo a campione (max: 20); soglia di qualita': 90%
+test_copertura: 10           # eventi del test di copertura (max: 20)
+fonti_note: 8                # fonti note in scadenza da riaprire (max: 25)
+comuni: 6                    # comuni della provincia attiva da controllare (max: 20)
+ambiti_categorie: 4          # ambiti di ops/categorie-ricerca.md da cercare nella provincia attiva (max: 12)
+categorie_nuove: 10          # voci nuove da aggiungere all'albero delle categorie (max: 25)
+fonti_nuove: 5               # fonti nuove da cercare e valutare (max: 15)

@@ -21,7 +21,8 @@ Una provincia e' satura quando, **per due settimane di fila**, valgono tutte e q
 2. **Comuni controllati**: tutti i comuni della provincia in `ops/copertura.yaml` controllati almeno **due volte**.
 3. **Crescita ferma**: in `ops/saturazione.csv` gli eventi dei prossimi 30 giorni crescono meno del **5% a
    settimana** (contando a parita' di periodo dell'anno: dicembre e l'estate hanno naturalmente piu' eventi).
-4. **Qualita'**: controllo a campione (`ops/segnalazioni-e-controllo.md`) di almeno **18 su 20**.
+4. **Qualita'**: controllo a campione (`ops/segnalazioni-e-controllo.md`) corretto almeno al **90%** (9 su 10 col
+   piano Pro, 18 su 20 col Max).
 
 Il punto 3 da solo non basta: nuovi eventi vengono pubblicati ogni giorno, quindi il numero non si ferma mai del
 tutto. Per questo conta soprattutto il test di copertura.

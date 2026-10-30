@@ -55,11 +55,22 @@ Regole per spendere meno crediti e migliorare sempre:
   abbassa `frequenza` o metti `stato: debole`; se non e' piu' aggiornata `stato: ferma`;
 - se una fonte ha dati strutturati (JSON-LD `Event`, API The Events Calendar, MyPortal) spostala in
   `config/sources.yaml` e segna `stato: spostata`: da quel momento la legge il PC ogni notte gratis;
-- **ogni notte cerca anche fonti nuove** (fase E): almeno 10 candidati mai visti, valutali e cataloga quelli buoni;
+- **ogni notte cerca anche fonti nuove** (fase E): quanti candidati dice il budget (`fonti_nuove`), valutali e
+  cataloga quelli buoni;
   il catalogo deve crescere notte dopo notte;
 - alla fine scrivi in `ops/lezioni.md` cio' che hai imparato (in poche righe) e togli le lezioni superate;
 - **ogni notte almeno una miglioria** concreta del metodo (vedi `ops/metodo-ricerca.md`): lo scopo e' trovare piu'
   eventi con meno ricerche e meno AI, notte dopo notte.
+
+**Budget della notte.** Il piano Claude ha limiti di utilizzo condivisi con l'uso di Federico durante il giorno:
+la notte deve stare dentro `ops/budget.yaml` (oggi piano Pro: al massimo 70 ricerche, 30 eventi della coda,
+10 di campione, 10 di test di copertura...). All'inizio esegui `python -m pipeline.piano_notte`: stampa il piano
+della notte (fonti in scadenza, comuni e ambiti delle categorie da cercare, numeri del budget). Per risparmiare:
+- **non leggere per intero** i file che crescono (`ops/copertura.yaml`, `ops/fonti.yaml`, `ops/categorie-ricerca.md`,
+  `ops/registro-redazione.md`): usa il piano della notte, `grep` o poche righe mirate;
+- una pagina che elenca molti eventi vale piu' di molte pagine di un evento: verifica piu' eventi con una sola lettura;
+- gli eventi da fonti strutturate affidabili (comuni MyPortal, calendari con JSON-LD) non vanno riverificati uno per uno;
+- conta le ricerche mentre lavori e fermati quando arrivi al massimo: prima chiudi registro, memoria e push.
 
 Come dividere il tempo della notte (indicativo):
 - circa un terzo alla **manutenzione** di tutte le province gia' coperte: segnalazioni, coda di revisione, controllo
@@ -92,7 +103,7 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
 2b. **Segnalazioni dal sito** - `ops/segnalazioni.json`: gestisci quelle non ancora registrate nella parte 2 di
    `ops/segnalazioni-e-controllo.md` (verifica, correggi o rimuovi, annota). Vengono prima della coda: sono errori
    che qualcuno ha gia' visto.
-3. **Coda di revisione** - `ops/revisione.json`, nell'ordine, fino a 40 eventi. Per ognuno apri `sito_ufficiale`
+3. **Coda di revisione** - `ops/revisione.json`, nell'ordine, fino a `coda_max` eventi del budget. Per ognuno apri `sito_ufficiale`
    o `pagina_fonte` (e se serve cerca "titolo comune data"). Scrivi in `config/correzioni.yaml`:
    - `correggi.<uid>`: solo i campi da cambiare tra title, start, end, all_day, summary, category, subcategory,
      access, price, venue, address, town, official_url, ticket_url, audience, setting, lat, lon; aggiungi
@@ -104,11 +115,11 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    e `lon` (vedi la regola "Posizione giusta sulla mappa"); se piu' eventi hanno lo stesso luogo, stesse coordinate.
    Valori ammessi: categorie e accessi di `config/categories.yaml` (access: libero, offerta, biglietto, iscrizione,
    invito); date `AAAA-MM-GG` o `AAAA-MM-GGTHH:MM`; titoli puliti (niente emoji, niente " – Comune (Provincia)").
-3b. **Controllo a campione** - i 20 eventi di `ops/campione.json`: controlla i sei campi come spiegato nella parte 3
+3b. **Controllo a campione** - gli eventi di `ops/campione.json` (quanti dice il budget): controlla i sei campi come spiegato nella parte 3
    di `ops/segnalazioni-e-controllo.md`, correggi gli errori e scrivi la riga della notte. Se un errore si ripete,
    aggiungi una regola alla parte 1.
 3c. **Test di copertura** - sulla provincia attiva, come spiegato in `ops/espansione.md`: 10 eventi trovati in modo
-   indipendente, quanti sono gia' sul sito. Ogni lunedi' valuta anche il criterio di saturazione con
+   indipendente (quanti dice il budget, `test_copertura`), quanti sono gia' sul sito. Ogni lunedi' valuta anche il criterio di saturazione con
    `ops/saturazione.csv` e il registro. Se e' rispettato (criterio confermato da Federico il 2026-10-30),
    aggiungi la provincia successiva seguendo la procedura del file e scrivilo nel riepilogo.
 4. **Ricerca degli eventi mancanti** - e' la parte piu' lunga della notte: vedi la sezione "Ricerca degli eventi"
@@ -157,15 +168,16 @@ Fase 0. **Fonti note** - riapri le fonti di `ops/fonti.yaml` in scadenza (vedi "
 Fasi, in quest'ordine dopo la fase 0. **Alla fine di ogni fase** esegui `--controlla`, poi commit e push (passo 9), cosi' il lavoro
 fatto resta salvato anche se la sessione si interrompe.
 
-A. **Categorie** - usa l'albero di `ops/categorie-ricerca.md`: ogni notte cerca le voci di dettaglio non cercate da
-   piu' tempo nella provincia attiva (`categorie_<SIGLA>` in `ops/copertura.yaml`), con le parole di ricerca indicate
+A. **Categorie** - usa l'albero di `ops/categorie-ricerca.md`: ogni notte cerca gli ambiti indicati dal piano della
+   notte (i meno cercati nella provincia attiva) e dentro ognuno le voci di dettaglio; in `ops/copertura.yaml`
+   sezione `categorie_<SIGLA>` scrivi "Macro > Ambito: AAAA-MM-GG", con le parole di ricerca indicate
    e aggiornando la data; segna `rara` le voci senza eventi dopo 3 ricerche. Esempi di query:
    "concerti provincia di Treviso novembre 2026", "sagre Treviso questo weekend", "mostre Treviso 2026",
    "corsa podistica Treviso novembre", "laboratori bambini Treviso", "convegno Treviso", "mercatino Natale Treviso",
    "open day aziende Treviso", "degustazione vini Conegliano Valdobbiadene". Varia comune e periodo.
 B. **Comuni** - per ogni comune della provincia attiva (`comuni_<SIGLA>` in `ops/copertura.yaml`; Treviso ne ha 94) cerca la pagina eventi del sito del comune
    ("Comune di <nome> eventi") e della pro loco ("Pro Loco <nome>"), e una ricerca "eventi <nome> <mese> <anno>".
-   Fai piu' comuni possibile, dal meno recente: in pochi giorni devono essere controllati tutti.
+   Lavora i comuni indicati dal piano della notte (i meno recenti), poi altri se resta budget.
 C. **Aggregatori e blog** - insolitotrantran, eventiesagre, 2night, zero.eu, itinerarinelgusto, TrevisoToday eventi,
    Oggi Treviso, calendari podistici, Pro Loco/UNPLI, teatri, musei, biblioteche e gli altri della lista, anche di
    nicchia. Cerca anche aggregatori e blog simili che non sono ancora nella lista e aggiungili. Gli aggregatori servono

@@ -156,3 +156,12 @@ def test_saturation_rows_and_csv(tmp_path):
     quality.append_saturation(rows, path)
     quality.append_saturation(rows, path)            # stesso giorno: sostituisce, non duplica
     assert path.read_text().count("2026-11-01") == 2
+
+
+def test_piano_notte_runs_on_repo_memory(capsys):
+    from pipeline import piano_notte
+    assert piano_notte.main([]) == 0
+    out = capsys.readouterr().out
+    assert "Provincia attiva" in out and "comuni da controllare" in out
+    assert piano_notte.active_province()[1] == "TV"
+    assert any(s.startswith("Sport > ") for s in piano_notte.category_scopes())

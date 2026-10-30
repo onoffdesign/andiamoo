@@ -107,7 +107,7 @@ def build_queue(events: list[Event], corrections: dict, ai_on: bool, centers: di
     return items[:MAX_ITEMS]
 
 
-SAMPLE_SIZE = 20
+SAMPLE_SIZE = 10        # di default; il valore vero sta in ops/budget.yaml (campione), tarato sul piano Claude
 REPORT_DAYS = 30
 
 
