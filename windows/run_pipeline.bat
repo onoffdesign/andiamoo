@@ -11,6 +11,8 @@ for /l %%i in (1,1,24) do (
   ping -n 6 127.0.0.1 > nul
 )
 :rete
+REM il sito pubblicato si rigenera a ogni giro: la copia locale (es. scritta dal tunnel) non deve bloccare il pull
+git checkout -- docs/data/events.json >> logs\pipeline.log 2>&1
 git pull --rebase --autostash >> logs\pipeline.log 2>&1
 call "%~dp0avvia_ollama.bat" >> logs\pipeline.log 2>&1
 ".venv\Scripts\python.exe" -m pipeline.run >> logs\pipeline.log 2>&1
