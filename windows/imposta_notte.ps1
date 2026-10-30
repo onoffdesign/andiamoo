@@ -72,10 +72,11 @@ if ($ConPassword) {
     Register-ScheduledTask -TaskName "Andiamoo-Prova" -Action $probe -Settings $probeSettings -Principal $principal -Force | Out-Null
 }
 $log = "$Root\logs\prova_notte.log"
-Remove-Item $log -ErrorAction SilentlyContinue
+if (Test-Path $log) { Remove-Item $log }
 Start-ScheduledTask -TaskName "Andiamoo-Prova"
 Write-Host "Prova del giro senza accesso in corso (fino a 2 minuti)..."
-for ($i = 0; $i -lt 60 -and -not (Select-String -Path $log -Pattern "FINE PROVA" -Quiet -ErrorAction SilentlyContinue); $i++) {
+function Test-Done { (Test-Path $log) -and [bool](Select-String -Path $log -Pattern "FINE PROVA" -Quiet) }
+for ($i = 0; $i -lt 60 -and -not (Test-Done); $i++) {
     Start-Sleep -Seconds 3
 }
 if (Test-Path $log) {
@@ -90,7 +91,7 @@ if (Test-Path $log) {
     Write-Host "La prova non e' partita (codice $('0x{0:X}' -f $info.LastTaskResult))." -ForegroundColor Red
     if (-not $ConPassword) { Write-Host "Rilancia lo script con -ConPassword: Windows ti chiedera' la password del tuo account." -ForegroundColor Yellow }
 }
-Unregister-ScheduledTask -TaskName "Andiamoo-Prova" -Confirm:$false
+Unregister-ScheduledTask -TaskName "Andiamoo-Prova" -Confirm:$false -ErrorAction SilentlyContinue
 
 Write-Host ""
 Write-Host "Fatto:" -ForegroundColor Green
