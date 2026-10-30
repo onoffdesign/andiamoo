@@ -11,6 +11,7 @@
 #                           # community (canale Telegram pubblico, gruppo nato sui social) | altro
 #     categorie: [sagre-feste, cibo-vino]
 #     comuni: [Miane]
+#     province: [TV]           # sigle delle province coperte; per gli aggregatori ampi anche [TV, VE, PD] o [Veneto]
 #     frequenza: settimanale   # giornaliera | settimanale | mensile: ogni quanto vale la pena ricontrollarla
 #     qualita: 4               # 1-5: dati completi e affidabili, aggiornata, pagina ufficiale
 #     resa: { controlli: 3, eventi_trovati: 12, ultimi: [5, 4, 3] }   # eventi nuovi trovati negli ultimi controlli

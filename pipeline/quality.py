@@ -5,9 +5,13 @@ ops/revisione.json  eventi da verificare stanotte, con il motivo, i piu' vicini 
 ops/scoperte.csv    siti ufficiali trovati nei portali: candidati a diventare fonti dirette
 ops/segnalazioni.json  segnalazioni arrivate dal sito ("Segnala un errore") negli ultimi 30 giorni, senza contatti
 ops/campione.json   eventi scelti a caso per il controllo a campione della qualita' (stessi per tutta la notte)
+ops/saturazione.csv una riga per provincia e per notte: eventi nei prossimi 30 giorni e eventi nuovi trovati
+                    (serve a decidere quando una provincia e' "satura" e si passa alla successiva, vedi ops/espansione.md)
 """
 from __future__ import annotations
 
+import csv
+import io
 import json
 import random
 import re
@@ -132,6 +136,41 @@ def quality_sample(events: list[Event], n: int = SAMPLE_SIZE, today=None) -> lis
              "comune": e.town, "lat": e.lat, "lon": e.lon, "precisione": e.geo_precision, "categoria": e.category,
              "accesso": e.access, "prezzo": e.price, "sito_ufficiale": e.official_url or e.ticket_url,
              "pagina_fonte": e.source_url} for e in sorted(picks, key=lambda e: e.start or "")]
+
+
+SATURATION_HEADER = ["data", "provincia", "eventi_prossimi_30_giorni", "nuovi_oggi", "comuni_con_eventi"]
+
+
+def saturation_rows(events: list[Event], town_province: dict, new_uids: set, today=None) -> list[dict]:
+    """Per provincia: eventi sul sito nei prossimi 30 giorni, quanti sono comparsi oggi, quanti comuni coperti."""
+    today = today or today_rome()
+    stats: dict[str, dict] = {}
+    for e in events:
+        prov = town_province.get((e.town or "").strip().lower())
+        start, end = parse_day(e.start), parse_day(e.end) or parse_day(e.start)
+        if not prov or not start or end < today or start > today + timedelta(days=30):
+            continue
+        st = stats.setdefault(prov, {"n": 0, "new": 0, "towns": set()})
+        st["n"] += 1
+        st["new"] += int(e.uid in new_uids)
+        st["towns"].add((e.town or "").strip().lower())
+    return [{"data": today.isoformat(), "provincia": p, "eventi_prossimi_30_giorni": st["n"], "nuovi_oggi": st["new"],
+             "comuni_con_eventi": len(st["towns"])} for p, st in sorted(stats.items())]
+
+
+def append_saturation(rows: list[dict], path=None) -> None:
+    """Aggiunge le righe di oggi a ops/saturazione.csv (se il giro gira due volte nello stesso giorno, sostituisce)."""
+    path = path or OPS / "saturazione.csv"
+    old = []
+    if path.exists():
+        old = [r for r in csv.DictReader(io.StringIO(path.read_text(encoding="utf-8")))]
+    days = {r["data"] for r in rows}
+    keep = [r for r in old if r.get("data") not in days] + rows
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=SATURATION_HEADER, lineterminator="\n")
+    w.writeheader()
+    w.writerows(keep)
+    path.write_text(buf.getvalue(), encoding="utf-8")
 
 
 def write_ops(report: dict, queue: list[dict], reports: list[dict] | None = None,

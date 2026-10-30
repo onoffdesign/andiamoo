@@ -136,6 +136,9 @@ class Store:
                         (uid, kind, message, contact, time.time()))
         self.db.commit()
 
+    def first_seen_since(self, since: float) -> set[str]:
+        return {r["uid"] for r in self.db.execute("SELECT uid FROM events WHERE first_seen>=?", (since,))}
+
     def reports_since(self, since: float) -> list[dict]:
         rows = self.db.execute("SELECT id, uid, kind, message, created, handled FROM reports WHERE created>=? ORDER BY created",
                                (since,))

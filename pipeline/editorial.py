@@ -98,6 +98,16 @@ def check() -> list[str]:
                     errs.append(f"ops/fonti.yaml[{i}] {f.get('nome', '')!r}: manca '{req}'")
     except yaml.YAMLError as e:
         errs.append(f"ops/fonti.yaml non leggibile: {e}")
+    cov = ROOT / "ops" / "copertura.yaml"
+    try:
+        data = (yaml.safe_load(cov.read_text(encoding="utf-8")) or {}) if cov.exists() else {}
+        if cov.exists() and not any(k.startswith("comuni_") for k in data):
+            errs.append("ops/copertura.yaml: mancano le sezioni comuni_<SIGLA> (es. comuni_TV)")
+    except yaml.YAMLError as e:
+        errs.append(f"ops/copertura.yaml non leggibile (controlla righe unite o rientri): {e}")
+    for name in ("segnalazioni-e-controllo.md", "metodo-ricerca.md", "espansione.md", "categorie-ricerca.md"):
+        if not (ROOT / "ops" / name).exists():
+            errs.append(f"ops/{name} mancante: e' un file di memoria della revisione notturna")
     try:
         cur = yaml.safe_load(CURATED.read_text(encoding="utf-8")) if CURATED.exists() else {}
     except yaml.YAMLError as e:

@@ -33,8 +33,10 @@ def km_between(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     return 2 * 6371 * math.asin(math.sqrt(h))
 
 
+# nomi -> codici ISO usati da OpenStreetMap. In config/settings.yaml (area.provinces) vanno bene sia i nomi sia le sigle.
 PROVINCE_CODES = {"treviso": "IT-TV", "venezia": "IT-VE", "padova": "IT-PD", "belluno": "IT-BL",
-                  "vicenza": "IT-VI", "verona": "IT-VR", "rovigo": "IT-RO", "pordenone": "IT-PN"}
+                  "vicenza": "IT-VI", "verona": "IT-VR", "rovigo": "IT-RO", "pordenone": "IT-PN",
+                  "udine": "IT-UD", "gorizia": "IT-GO", "trieste": "IT-TS", "trento": "IT-TN", "bolzano": "IT-BZ"}
 
 
 class Geocoder:
@@ -47,7 +49,8 @@ class Geocoder:
         b = cfg["area"]["bbox"]
         self.bbox = b
         self.viewbox = f"{b['west']},{b['north']},{b['east']},{b['south']}"
-        self.allowed = {PROVINCE_CODES.get(p.lower(), p) for p in cfg["area"]["provinces"]}
+        self.allowed = {PROVINCE_CODES.get(p.lower(), p if p.startswith("IT-") else f"IT-{p.upper()}")
+                        for p in cfg["area"]["provinces"]}
         self.client = httpx.Client(headers={"User-Agent": user_agent()}, timeout=20)
         self._last = 0.0
         self.requests = 0

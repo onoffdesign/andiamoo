@@ -138,3 +138,21 @@ def test_quality_sample_is_stable_per_day():
     b = quality.quality_sample(list(reversed(evs)), 10, today=date(2026, 11, 1))
     c = quality.quality_sample(evs, 10, today=date(2026, 11, 2))
     assert len(a) == 10 and a == b and a != c
+
+
+def test_saturation_rows_and_csv(tmp_path):
+    from datetime import date
+    from pipeline import quality
+    from pipeline.models import Event
+    evs = [Event("t", "T", "a", "A", start="2026-11-05", town="Treviso"),
+           Event("t", "T", "b", "B", start="2026-11-06", town="Conegliano"),
+           Event("t", "T", "c", "C", start="2027-02-01", town="Treviso"),          # oltre 30 giorni
+           Event("t", "T", "d", "D", start="2026-11-07", town="Padova")]
+    tp = {"treviso": "TV", "conegliano": "TV", "padova": "PD"}
+    rows = quality.saturation_rows(evs, tp, {evs[1].uid}, today=date(2026, 11, 1))
+    assert rows == [{"data": "2026-11-01", "provincia": "PD", "eventi_prossimi_30_giorni": 1, "nuovi_oggi": 0, "comuni_con_eventi": 1},
+                    {"data": "2026-11-01", "provincia": "TV", "eventi_prossimi_30_giorni": 2, "nuovi_oggi": 1, "comuni_con_eventi": 2}]
+    path = tmp_path / "s.csv"
+    quality.append_saturation(rows, path)
+    quality.append_saturation(rows, path)            # stesso giorno: sostituisce, non duplica
+    assert path.read_text().count("2026-11-01") == 2

@@ -68,6 +68,14 @@ def build_message() -> str:
         if per_cat:
             lines.append("• aggiunti per categoria: " + ", ".join(
                 f"{escape(labels.get(k, k))} {v}" for k, v in sorted(per_cat.items(), key=lambda x: -x[1])))
+        if claude.get("provincia_attiva") or claude.get("copertura_test"):
+            lines.append(f"• provincia attiva: {escape(str(claude.get('provincia_attiva', '?')))} · test di copertura: "
+                         f"{escape(str(claude.get('copertura_test', '?')))} eventi gia' sul sito")
+        if claude.get("ricerche"):
+            lines.append(f"• ricerche: {claude['ricerche']} · eventi per ricerca: {claude.get('eventi_per_ricerca', '?')}"
+                         f" · categorie nuove: {claude.get('categorie_aggiunte', 0)}")
+        if claude.get("miglioria"):
+            lines.append(f"• miglioria della notte: {escape(str(claude['miglioria']))[:160]}")
         if claude.get("qualita_campione"):
             lines.append(f"• controllo a campione: {escape(str(claude['qualita_campione']))} eventi corretti")
         if claude.get("segnalazioni_gestite"):

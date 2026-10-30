@@ -182,16 +182,20 @@ def main(argv=None) -> int:
         # coda di revisione per Claude e rapporto del giro, pubblicati in ops/
         ai_on = getattr(llm, "name", "") == "ollama"
         located_events = [e for e in unique if e.lat is not None]
-        centers = {}
+        centers, town_province = {}, {}
         for town in {(e.town or "").strip() for e in located_events if e.town}:
             area = geo.town_area(town)
             if area:
                 centers[town.lower()] = (area["lat"], area["lon"])
+                if area.get("province"):
+                    town_province[town.lower()] = area["province"].replace("IT-", "")
         queue = quality.build_queue(located_events, corrections, ai_on, centers)
         report.update({"giro_pc": True, "motore_ai": getattr(llm, "name", ""), "modello": settings()["llm"]["text_model"] if ai_on else "",
                        "minuti": round((time.time() - started) / 60, 1), "in_revisione": len(queue)})
         quality.write_ops(report, queue, quality.site_reports(store, unique), quality.quality_sample(located_events))
         shutil.copy(DATA_DIR / "scoperte.csv", quality.OPS / "scoperte.csv")
+        day_start = time.mktime(today_rome().timetuple())
+        quality.append_saturation(quality.saturation_rows(located_events, town_province, store.first_seen_since(day_start)))
         log.info("Coda di revisione: %d eventi", len(queue))
 
     if not args.no_publish and settings()["publish"]["git_push"]:

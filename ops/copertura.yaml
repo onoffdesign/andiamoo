@@ -1,8 +1,11 @@
 # Copertura della ricerca notturna: data dell'ultimo controllo di ogni comune, aggregatore, testata e categoria.
 # La revisione notturna parte sempre da quelli mai controllati (null) o controllati da piu' tempo e aggiorna la data.
 # Si possono aggiungere voci (nuovi aggregatori, blog, testate): basta una riga "nome: null".
+# Comuni e categorie sono divisi per provincia (comuni_TV, categorie_TV...): ogni provincia nuova aggiunge le sue
+# sezioni (vedi ops/espansione.md). Le categorie sono le voci di ops/categorie-ricerca.md (es. "boulder: 2026-11-02",
+# "pickleball: rara").
 
-comuni:
+comuni_TV:
   Altivole: null
   Arcade: null
   Asolo: null
@@ -130,18 +133,19 @@ aggregatori:
   tutticoncerti: null
   concerti-italia: null
   rockol.it (sezione Concerti): null
-community:
-  'canali Telegram pubblici: trekking ed escursioni Treviso': null
-  'canali Telegram pubblici: camminate, run club, bici': null
-  'canali Telegram pubblici: eventi, serate e uscite Treviso': null
-  'community Instagram/TikTok di trekking indipendente (Veneto)': null
-  'community di ballo, giochi da tavolo, fotografia, volontariato': null  cheventi.it (Treviso): null
+  cheventi.it (Treviso): null
   eventivenetando.it: null
   trevisoinfo.it: null
   cosedicasa.com (mercatini): 2026-10-30
   fleamapket.com (mercatini): null
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
+community:
+  'canali Telegram pubblici: trekking ed escursioni Treviso': null
+  'canali Telegram pubblici: camminate, run club, bici': null
+  'canali Telegram pubblici: eventi, serate e uscite Treviso': null
+  'community Instagram/TikTok di trekking indipendente (Veneto)': null
+  'community di ballo, giochi da tavolo, fotografia, volontariato': null
 news:
   Tribuna di Treviso: null
   Il Gazzettino (Treviso): null
@@ -152,7 +156,9 @@ news:
   'Google News: eventi provincia di Treviso': null
   Nordest24: 2026-10-30
   VenetoToday: 2026-10-30
-categorie:
+# categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
+# le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
+categorie_TV:
   musica: 2026-10-30
   nightlife: null
   sagre-feste: 2026-10-30

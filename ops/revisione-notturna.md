@@ -19,7 +19,8 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
   se contengono eventi della provincia, estrai i singoli eventi e aggiungili uno per uno. Gli eventi ricorrenti
   (mercatino ogni terza domenica, visite ogni sabato) vanno divisi in date singole; mostre e rassegne con date
   continue restano un evento unico con inizio e fine.
-- **Area**: solo provincia di Treviso. Eventi fuori provincia, conclusi, annullati o che non sono eventi: rimuovi.
+- **Area**: solo le province elencate in `area.provinces` di `config/settings.yaml` (oggi solo Treviso; si allarga
+  come spiegato in `ops/espansione.md`). Eventi fuori area, conclusi, annullati o che non sono eventi: rimuovi.
 - **Posizione giusta sulla mappa**: ogni punto deve stare dove si svolge davvero l'evento. Se hai dubbi (solo il
   comune, punto lontano dal centro del comune, luogo con nome generico o omonimo), fai una ricerca: sito
   dell'organizzatore, pagina del luogo, mappe e schede di luoghi (OpenStreetMap, Wikipedia, komoot, siti turistici)
@@ -36,8 +37,16 @@ La revisione ha una memoria in git, da leggere all'inizio e aggiornare alla fine
 - `ops/fonti.yaml` - catalogo delle buone fonti trovate (pagina eventi, ricerca che ci porta dritti, tipo,
   categorie, comuni, ogni quanto ricontrollarla, qualita', resa in eventi). Serve a **non ricercare da capo**:
   le fonti note si riaprono con la loro `query`, senza ricerche esplorative.
-- `ops/lezioni.md` - cosa funziona e cosa no: query utili, siti inutili, chi pubblica quando, errori fatti.
-- `ops/copertura.yaml` - quando sono stati controllati l'ultima volta comuni, aggregatori, testate e categorie.
+- `ops/metodo-ricerca.md` - il **metodo di ricerca consolidato**: regole generali, per regione, per provincia e
+  aggregatori validi per piu' province, piu' l'andamento notte per notte (eventi per ricerca). Si migliora ogni notte.
+- `ops/categorie-ricerca.md` - l'albero delle categorie di ricerca, sempre piu' in dettaglio (es. Sport >
+  Arrampicata > boulder). Si allarga ogni notte con almeno 10 voci nuove.
+- `ops/espansione.md` - provincia attiva, criterio di saturazione, test di copertura, ordine delle province
+  successive e come aggiungerne una.
+- `ops/lezioni.md` - appunti grezzi della notte: cosa funziona e cosa no. Cio' che si conferma passa nel metodo.
+- `ops/copertura.yaml` - quando sono stati controllati l'ultima volta comuni e categorie (divisi per provincia:
+  `comuni_TV`, `categorie_TV`...), aggregatori, community e testate.
+- `ops/saturazione.csv` - scritto dal PC: per provincia e per notte, eventi dei prossimi 30 giorni e nuovi trovati.
 
 Regole per spendere meno crediti e migliorare sempre:
 - prima le fonti note "in scadenza" secondo la loro `frequenza`, partendo da quelle con qualita' e resa piu' alte;
@@ -48,7 +57,16 @@ Regole per spendere meno crediti e migliorare sempre:
   `config/sources.yaml` e segna `stato: spostata`: da quel momento la legge il PC ogni notte gratis;
 - **ogni notte cerca anche fonti nuove** (fase E): almeno 10 candidati mai visti, valutali e cataloga quelli buoni;
   il catalogo deve crescere notte dopo notte;
-- alla fine scrivi in `ops/lezioni.md` cio' che hai imparato (in poche righe) e togli le lezioni superate.
+- alla fine scrivi in `ops/lezioni.md` cio' che hai imparato (in poche righe) e togli le lezioni superate;
+- **ogni notte almeno una miglioria** concreta del metodo (vedi `ops/metodo-ricerca.md`): lo scopo e' trovare piu'
+  eventi con meno ricerche e meno AI, notte dopo notte.
+
+Come dividere il tempo della notte (indicativo):
+- circa un terzo alla **manutenzione** di tutte le province gia' coperte: segnalazioni, coda di revisione, controllo
+  a campione, fonti note in scadenza;
+- circa meta' alla **ricerca nella provincia attiva** (fasi A-E qui sotto);
+- il resto a **test di copertura, categorie nuove e miglioria del metodo**.
+Se il tempo non basta, salta prima la ricerca esplorativa (fase E), mai la manutenzione.
 
 ## Preparazione
 
@@ -89,6 +107,11 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
 3b. **Controllo a campione** - i 20 eventi di `ops/campione.json`: controlla i sei campi come spiegato nella parte 3
    di `ops/segnalazioni-e-controllo.md`, correggi gli errori e scrivi la riga della notte. Se un errore si ripete,
    aggiungi una regola alla parte 1.
+3c. **Test di copertura** - sulla provincia attiva, come spiegato in `ops/espansione.md`: 10 eventi trovati in modo
+   indipendente, quanti sono gia' sul sito. Ogni lunedi' valuta anche il criterio di saturazione con
+   `ops/saturazione.csv` e il registro. Se e' rispettato e in `ops/espansione.md` c'e' scritto che il criterio e'
+   confermato da Federico, aggiungi la provincia successiva seguendo la procedura del file; se non e' ancora
+   confermato, scrivi la proposta nei `problemi` del riepilogo e non aggiungere nulla.
 4. **Ricerca degli eventi mancanti** - e' la parte piu' lunga della notte: vedi la sezione "Ricerca degli eventi"
    qui sotto. Nessun limite di numero: aggiungi tutti gli eventi e le iniziative che trovi e verifichi.
 5. **Nuove fonti** - da `ops/scoperte.csv` e da quello che trovi: se un sito ufficiale pubblica molti eventi con
@@ -104,22 +127,27 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    python -m pytest -q tests                     # tutti verdi
    python -m pipeline.editorial --applica        # correzioni e rimozioni subito sul sito
    ```
-8. **Registro e memoria** - aggiorna `ops/fonti.yaml` e `ops/lezioni.md`, poi aggiungi in cima a
+8. **Registro e memoria** - aggiorna `ops/fonti.yaml`, `ops/lezioni.md`, la riga della notte in
+   `ops/metodo-ricerca.md` (andamento e miglioria), le voci nuove in `ops/categorie-ricerca.md` e la riga del test in
+   `ops/espansione.md`; poi aggiungi in cima a
    `ops/registro-redazione.md` una sezione `## AAAA-MM-GG` con: stato del giro del PC, eventi verificati / corretti /
    rimossi / aggiunti (per categoria), fonti note controllate e loro resa, fonti nuove catalogate, fonti spostate
    in `config/sources.yaml`, problemi aperti per la notte dopo.
    Scrivi anche `ops/riepilogo-notte.json` (lo legge il resoconto Telegram delle 07:30), sostituendo il contenuto:
    `{"data": "AAAA-MM-GG", "aggiunti": N, "corretti": N, "rimossi": N, "verificati": N,
    "aggiunti_per_categoria": {"musica": N, ...}, "fonti_nuove": N, "fonti_spostate": N, "fonti_sistemate": N,
-   "qualita_campione": "N/20", "segnalazioni_gestite": N, "problemi": ["...", "..."]}` (data di oggi, numeri della notte, al massimo 5 problemi brevi).
+   "qualita_campione": "N/20", "segnalazioni_gestite": N, "provincia_attiva": "TV", "copertura_test": "N/10",
+   "ricerche": N, "eventi_per_ricerca": N.N, "categorie_aggiunte": N, "miglioria": "...", "problemi": ["...", "..."]}` (data di oggi, numeri della notte, al massimo 5 problemi brevi).
 9. **Commit e push** su `main` (anche a fine di ogni fase della ricerca): `git add config ops docs/data/events.json`, messaggio
    `Redazione notturna AAAA-MM-GG: N corretti, N rimossi, N aggiunti`, poi `git pull --rebase` e `git push`.
    Se il push fallisce per un conflitto, ripeti pull e push; non forzare mai.
 
 ## Ricerca degli eventi
 
-Obiettivo: trovare **tutti** gli eventi e le iniziative pubbliche in provincia di Treviso che non sono ancora sul sito,
-dal giorno stesso fino a 120 giorni (prima i prossimi 30). Il file `ops/copertura.yaml` tiene la data dell'ultimo
+Obiettivo: trovare **tutti** gli eventi e le iniziative pubbliche della **provincia attiva** (`ops/espansione.md`)
+che non sono ancora sul sito; nelle province gia' sature basta la manutenzione delle fonti note. Orizzonte:
+dal giorno stesso fino a 120 giorni (prima i prossimi 30). Segui l'ordine e i trucchi di `ops/metodo-ricerca.md`
+(regole generali, della regione e della provincia). Il file `ops/copertura.yaml` tiene la data dell'ultimo
 controllo di ogni comune, aggregatore, testata e categoria: parti sempre da quelli mai controllati o controllati da
 piu' tempo, aggiorna la data dopo ogni controllo, aggiungi le voci nuove che scopri (blog, aggregatori, testate).
 
@@ -130,12 +158,13 @@ Fase 0. **Fonti note** - riapri le fonti di `ops/fonti.yaml` in scadenza (vedi "
 Fasi, in quest'ordine dopo la fase 0. **Alla fine di ogni fase** esegui `--controlla`, poi commit e push (passo 9), cosi' il lavoro
 fatto resta salvato anche se la sessione si interrompe.
 
-A. **Categorie** - per ognuna delle 9 categorie di `config/categories.yaml` (e le sottocategorie: per lo sport
-   podismo, ciclismo, nuoto, basket, tennis, volley, calcio amatoriale, trail...) cerca con piu' query, ad esempio
+A. **Categorie** - usa l'albero di `ops/categorie-ricerca.md`: ogni notte cerca le voci di dettaglio non cercate da
+   piu' tempo nella provincia attiva (`categorie_<SIGLA>` in `ops/copertura.yaml`), con le parole di ricerca indicate
+   e aggiornando la data; segna `rara` le voci senza eventi dopo 3 ricerche. Esempi di query:
    "concerti provincia di Treviso novembre 2026", "sagre Treviso questo weekend", "mostre Treviso 2026",
    "corsa podistica Treviso novembre", "laboratori bambini Treviso", "convegno Treviso", "mercatino Natale Treviso",
    "open day aziende Treviso", "degustazione vini Conegliano Valdobbiadene". Varia comune e periodo.
-B. **Comuni** - per ogni comune di `ops/copertura.yaml` (sono 94) cerca la pagina eventi del sito del comune
+B. **Comuni** - per ogni comune della provincia attiva (`comuni_<SIGLA>` in `ops/copertura.yaml`; Treviso ne ha 94) cerca la pagina eventi del sito del comune
    ("Comune di <nome> eventi") e della pro loco ("Pro Loco <nome>"), e una ricerca "eventi <nome> <mese> <anno>".
    Fai piu' comuni possibile, dal meno recente: in pochi giorni devono essere controllati tutti.
 C. **Aggregatori e blog** - insolitotrantran, eventiesagre, 2night, zero.eu, itinerarinelgusto, TrevisoToday eventi,
