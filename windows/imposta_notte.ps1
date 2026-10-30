@@ -1,6 +1,6 @@
 # Prepara il PC fisso per il lavoro notturno di ANDIAMO?:
 #   - alle 01:00 Windows si risveglia da solo (da ibernazione o sospensione) e parte il giro
-#     nella sessione rimasta aperta (anche a schermo bloccato);
+#     ANCHE SE NESSUNO HA FATTO L'ACCESSO (schermata "Accedi"): non serve la password di Windows;
 #   - a fine giro il PC va in ibernazione (consumo come da spento), a meno che qualcuno lo stia usando;
 #   - il tasto di accensione iberna invece di spegnere, cosi' la notte il risveglio funziona.
 #
@@ -8,7 +8,10 @@
 #   powershell -ExecutionPolicy Bypass -File windows\imposta_notte.ps1
 
 #Requires -RunAsAdministrator
-param([switch]$SenzaAccesso)
+param(
+    [switch]$Interattivo,   # vecchia modalita': il giro parte solo se la tua sessione e' aperta
+    [switch]$ConPassword    # ripiego se la prova senza password fallisce: Windows chiede la tua password e la conserva
+)
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $PSScriptRoot
 
@@ -23,9 +26,14 @@ $fly = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSetti
 New-Item -Path $fly -Force | Out-Null
 Set-ItemProperty -Path $fly -Name ShowHibernateOption -Value 1 -Type DWord
 
-# 2. Giro notturno alle 01:00 nella sessione dell'utente (nessuna password richiesta).
-#    Funziona perche' l'ibernazione conserva la sessione aperta: al risveglio il giro parte li' dentro, anche a
-#    schermo bloccato. Con -SenzaAccesso invece parte anche dopo un riavvio senza accesso (chiede la password).
+# 2. Giro notturno alle 01:00 anche senza accesso a Windows.
+#    Le attivita' girano con il tuo utente in modalita' "esegui anche se l'utente non e' connesso, senza
+#    memorizzare la password" (S4U): nessuna password richiesta. In questa modalita' Windows non sblocca le
+#    credenziali salvate, quindi GitHub si raggiunge con una chiave dedicata al progetto (chiave_github.ps1).
+if (-not $Interattivo) {
+    & powershell -NoProfile -ExecutionPolicy Bypass -File "$Root\windows\chiave_github.ps1"
+    if ($LASTEXITCODE -ne 0) { throw "Collegamento a GitHub non riuscito: rilancia questo script dopo aver aggiunto la chiave." }
+}
 $action = New-ScheduledTaskAction -Execute "$Root\windows\run_pipeline.bat" -Argument "notte" -WorkingDirectory $Root
 $trigger = New-ScheduledTaskTrigger -Daily -At "01:00"
 $settings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
@@ -35,25 +43,61 @@ $repAction = New-ScheduledTaskAction -Execute "$Root\windows\run_report.bat" -Ar
 $repTrigger = New-ScheduledTaskTrigger -Daily -At "07:30"
 $repSettings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
                -ExecutionTimeLimit (New-TimeSpan -Minutes 20) -MultipleInstances IgnoreNew
-if ($SenzaAccesso) {
-    $cred = Get-Credential -UserName "$env:USERDOMAIN\$env:USERNAME" -Message "Password di Windows per il giro notturno di ANDIAMO?"
-    Register-ScheduledTask -TaskName "Andiamoo-Pipeline" -Action $action -Trigger $trigger -Settings $settings `
-        -User $cred.UserName -Password $cred.GetNetworkCredential().Password -RunLevel Limited -Force | Out-Null
-    Register-ScheduledTask -TaskName "Andiamoo-Resoconto" -Action $repAction -Trigger $repTrigger -Settings $repSettings `
-        -User $cred.UserName -Password $cred.GetNetworkCredential().Password -RunLevel Limited -Force | Out-Null
+$who = "$env:USERDOMAIN\$env:USERNAME"
+if ($ConPassword) {
+    $cred = Get-Credential -UserName $who -Message "Password di Windows (o dell'account Microsoft) per il giro notturno"
+    $pw = $cred.GetNetworkCredential().Password
+    foreach ($t in @(@("Andiamoo-Pipeline", $action, $trigger, $settings), @("Andiamoo-Resoconto", $repAction, $repTrigger, $repSettings))) {
+        Register-ScheduledTask -TaskName $t[0] -Action $t[1] -Trigger $t[2] -Settings $t[3] -User $who -Password $pw `
+            -RunLevel Highest -Force | Out-Null
+    }
+    $principal = $null
 } else {
-    $principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType Interactive -RunLevel Limited
+    $logon = if ($Interattivo) { "Interactive" } else { "S4U" }
+    $principal = New-ScheduledTaskPrincipal -UserId $who -LogonType $logon -RunLevel Highest
     Register-ScheduledTask -TaskName "Andiamoo-Pipeline" -Action $action -Trigger $trigger -Settings $settings `
         -Principal $principal -Force | Out-Null
     Register-ScheduledTask -TaskName "Andiamoo-Resoconto" -Action $repAction -Trigger $repTrigger -Settings $repSettings `
         -Principal $principal -Force | Out-Null
 }
 
+# 3. Prova subito, nella stessa modalita' della notte (senza raccogliere eventi e senza ibernare):
+#    rete, GitHub in lettura e scrittura, Ollama, Python. Il risultato e' in logs\prova_notte.log
+$probe = New-ScheduledTaskAction -Execute "$Root\windows\prova_notte.bat" -WorkingDirectory $Root
+$probeSettings = New-ScheduledTaskSettingsSet -ExecutionTimeLimit (New-TimeSpan -Minutes 10)
+if ($ConPassword) {
+    Register-ScheduledTask -TaskName "Andiamoo-Prova" -Action $probe -Settings $probeSettings -User $who -Password $pw `
+        -RunLevel Highest -Force | Out-Null
+} else {
+    Register-ScheduledTask -TaskName "Andiamoo-Prova" -Action $probe -Settings $probeSettings -Principal $principal -Force | Out-Null
+}
+$log = "$Root\logs\prova_notte.log"
+Remove-Item $log -ErrorAction SilentlyContinue
+Start-ScheduledTask -TaskName "Andiamoo-Prova"
+Write-Host "Prova del giro senza accesso in corso (fino a 2 minuti)..."
+for ($i = 0; $i -lt 60 -and -not (Select-String -Path $log -Pattern "FINE PROVA" -Quiet -ErrorAction SilentlyContinue); $i++) {
+    Start-Sleep -Seconds 3
+}
+if (Test-Path $log) {
+    Get-Content $log
+    if (Select-String -Path $log -Pattern "\[NO\]" -Quiet) {
+        Write-Host "Qualcosa non va (righe [NO] qui sopra): manda questo testo a Claude." -ForegroundColor Red
+    } else {
+        Write-Host "Prova riuscita: il giro notturno funziona anche senza accesso a Windows." -ForegroundColor Green
+    }
+} else {
+    $info = Get-ScheduledTaskInfo -TaskName "Andiamoo-Prova"
+    Write-Host "La prova non e' partita (codice $('0x{0:X}' -f $info.LastTaskResult))." -ForegroundColor Red
+    if (-not $ConPassword) { Write-Host "Rilancia lo script con -ConPassword: Windows ti chiedera' la password del tuo account." -ForegroundColor Yellow }
+}
+Unregister-ScheduledTask -TaskName "Andiamoo-Prova" -Confirm:$false
+
 Write-Host ""
 Write-Host "Fatto:" -ForegroundColor Green
 Write-Host " - ogni notte alle 01:00 il PC si risveglia e parte il giro di ANDIAMO?, poi torna in ibernazione;"
 Write-Host " - alle 07:30 si risveglia per mandarti il resoconto su Telegram, poi torna in ibernazione;"
-Write-Host " - la sera iberna il PC dalla tua sessione: tasto di accensione o Start > Arresta > Iberna"
-Write-Host "   (NON 'Arresta il sistema' ne' 'Disconnetti': il giro parte nella sessione rimasta aperta);"
+Write-Host " - funziona anche se il PC resta sulla schermata 'Accedi': non serve fare l'accesso;"
+Write-Host " - la sera iberna il PC (tasto di accensione o Start > Arresta > Iberna). Da 'Arresta il sistema'"
+Write-Host "   alcuni PC non si risvegliano da soli: se succede, usa sempre Iberna;"
 Write-Host " - risvegli programmati attivi ora:"
 powercfg /waketimers

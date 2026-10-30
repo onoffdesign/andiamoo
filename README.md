@@ -64,8 +64,10 @@ powershell -ExecutionPolicy Bypass -File windows\imposta_notte.ps1       # risve
   si sceglie cosa eliminare. Prima fa una copia di sicurezza in `Documenti\backup-automazioni-<data>`.
   Le attivita' di Windows e quelle di ANDIAMO? non compaiono.
 - `imposta_notte.ps1` attiva ibernazione e timer di risveglio, fa ibernare il tasto di accensione e registra il giro
-  delle 01:00 nella sessione dell'utente (nessuna password: l'ibernazione tiene la sessione aperta). Con
-  `-SenzaAccesso` parte anche dopo un riavvio senza accesso, ma chiede la password di Windows. A fine giro il PC
+  delle 01:00 e il resoconto delle 07:30 in modo che partano **anche senza accesso a Windows** (schermata "Accedi"),
+  senza password (modalita' S4U). Per GitHub usa una chiave dedicata al progetto (`chiave_github.ps1`), perche'
+  senza accesso Windows non sblocca le credenziali salvate. Alla fine fa una prova (`prova_notte.bat`) nella stessa
+  modalita' della notte. Se la prova non parte: `-ConPassword` (Windows chiede la password dell'account). A fine giro il PC
   si iberna, a meno che sia in uso.
 - La sera il PC va **ibernato** (tasto di accensione o Start > Arresta > Iberna), non spento del tutto: da spento
   Windows non puo' riaccenderlo. Per l'accensione da spento serve l'opzione del BIOS "Power On by RTC", se c'e'.

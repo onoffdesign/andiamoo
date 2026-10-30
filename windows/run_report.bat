@@ -5,7 +5,7 @@ if not exist logs mkdir logs
 echo ===== %date% %time% resoconto ===== >> logs\pipeline.log
 for /l %%i in (1,1,24) do (
   ping -n 1 api.telegram.org > nul 2>&1 && goto rete
-  timeout /t 5 /nobreak > nul
+  ping -n 6 127.0.0.1 > nul
 )
 :rete
 git pull --rebase --autostash >> logs\pipeline.log 2>&1

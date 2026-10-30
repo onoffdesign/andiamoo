@@ -1,24 +1,12 @@
-# Registra due attivita' nell'Utilita' di pianificazione di Windows:
-#   Andiamoo-Pipeline  ogni notte alle 01:00: raccolta, AI locale (Ollama), controllo qualita', pubblicazione
-#                      (alle 03:37 la revisione di Claude nel cloud lavora sulla coda che questo giro lascia in ops/)
+# Registra le attivita' che partono all'accesso a Windows (il giro notturno e' in imposta_notte.ps1):
 #   Andiamoo-Bot       all'accesso: bot Telegram sempre attivo (si riavvia se si chiude)
 #   Andiamoo-API       all'accesso: API del sito per "Aggiungi evento" e "Segnala" (si riavvia se si chiude)
 #   Andiamoo-Tunnel    all'accesso: tunnel Cloudflare che rende l'API raggiungibile dal sito
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $PSScriptRoot
 
-$pipeline = New-ScheduledTaskAction -Execute "$Root\windows\run_pipeline.bat" -Argument "notte" -WorkingDirectory $Root
-$nightly = New-ScheduledTaskTrigger -Daily -At "01:00"
-$opts = New-ScheduledTaskSettingsSet -StartWhenAvailable -DontStopIfGoingOnBatteries -AllowStartIfOnBatteries `
-        -ExecutionTimeLimit (New-TimeSpan -Hours 4) -WakeToRun -MultipleInstances IgnoreNew
-Register-ScheduledTask -TaskName "Andiamoo-Pipeline" -Action $pipeline -Trigger $nightly -Settings $opts -Force | Out-Null
-
-# resoconto del mattino su Telegram (07:30, dopo la revisione di Claude)
-$report = New-ScheduledTaskAction -Execute "$Root\windows\run_report.bat" -Argument "notte" -WorkingDirectory $Root
-$morning = New-ScheduledTaskTrigger -Daily -At "07:30"
-$repOpts = New-ScheduledTaskSettingsSet -StartWhenAvailable -WakeToRun -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
-           -ExecutionTimeLimit (New-TimeSpan -Minutes 20) -MultipleInstances IgnoreNew
-Register-ScheduledTask -TaskName "Andiamoo-Resoconto" -Action $report -Trigger $morning -Settings $repOpts -Force | Out-Null
+# Giro notturno (01:00) e resoconto (07:30) si registrano con windows\imposta_notte.ps1, che li fa partire anche
+# senza accesso a Windows. Qui restano solo le attivita' che partono all'accesso.
 
 $bot = New-ScheduledTaskAction -Execute "$Root\windows\run_bot.bat" -WorkingDirectory $Root
 $atLogon = New-ScheduledTaskTrigger -AtLogOn
@@ -32,4 +20,4 @@ Register-ScheduledTask -TaskName "Andiamoo-API" -Action $api -Trigger $atLogon -
 $tunnel = New-ScheduledTaskAction -Execute "$Root\windows\run_tunnel.bat" -WorkingDirectory $Root
 Register-ScheduledTask -TaskName "Andiamoo-Tunnel" -Action $tunnel -Trigger $atLogon -Settings $botOpts -Force | Out-Null
 
-Write-Host "Attivita' registrate: Andiamoo-Pipeline (ogni notte alle 01:00), Andiamoo-Bot, Andiamoo-API e Andiamoo-Tunnel (all'accesso)." -ForegroundColor Green
+Write-Host "Attivita' registrate all'accesso: Andiamoo-Bot, Andiamoo-API e Andiamoo-Tunnel. Per la notte: windows\imposta_notte.ps1" -ForegroundColor Green
