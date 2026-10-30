@@ -20,11 +20,11 @@ comuni:
   Cessalto: null
   Chiarano: null
   Cimadolmo: null
-  Cison di Valmarino: null
+  Cison di Valmarino: 2026-10-30
   Codognè: null
   Colle Umberto: null
-  Conegliano: null
-  Cordignano: null
+  Conegliano: 2026-10-30
+  Cordignano: 2026-10-30
   Cornuda: null
   Crocetta del Montello: null
   Farra di Soligo: null
@@ -34,7 +34,7 @@ comuni:
   Fregona: null
   Gaiarine: null
   Giavera del Montello: null
-  Godega di Sant'Urbano: null
+  Godega di Sant'Urbano: 2026-10-30
   Gorgo al Monticano: null
   Istrana: null
   Loria: null
@@ -48,7 +48,7 @@ comuni:
   Monastier di Treviso: null
   Monfumo: null
   Montebelluna: null
-  Morgano: null
+  Morgano: 2026-10-30
   Moriago della Battaglia: null
   Motta di Livenza: null
   Nervesa della Battaglia: null
@@ -70,13 +70,13 @@ comuni:
   Resana: null
   Revine Lago: null
   Riese Pio X: null
-  Roncade: null
+  Roncade: 2026-10-30
   Salgareda: null
   San Biagio di Callalta: null
   San Fior: null
   San Pietro di Feletto: null
   San Polo di Piave: null
-  San Vendemiano: null
+  San Vendemiano: 2026-10-30
   San Zenone degli Ezzelini: null
   Santa Lucia di Piave: null
   Sarmede: null
@@ -87,23 +87,23 @@ comuni:
   Susegana: null
   Tarzo: null
   Trevignano: null
-  Treviso: null
+  Treviso: 2026-10-30
   Valdobbiadene: null
   Vazzola: null
   Vedelago: null
   Vidor: null
   Villorba: null
   Vittorio Veneto: null
-  Volpago del Montello: null
+  Volpago del Montello: 2026-10-30
   Zenson di Piave: null
   Zero Branco: null
 aggregatori:
   insolitotrantran.it: null
-  eventiesagre.it: null
+  eventiesagre.it: 2026-10-30
   2night.it (Treviso): null
   zero.eu (Veneto): null
   itinerarinelgusto.it (sagre TV): null
-  trevisotoday.it (eventi): null
+  trevisotoday.it (eventi): 2026-10-30
   oggitreviso.it: null
   qdpnews.it: null
   eventbrite.it (Treviso): null
@@ -111,9 +111,9 @@ aggregatori:
   calendariopodismo.it: null
   calendariopodismoveneto.blogspot.com: null
   running.life: null
-  Pro Loco e UNPLI Treviso: null
-  'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': null
-  musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: null
+  Pro Loco e UNPLI Treviso: 2026-10-30
+  'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': 2026-10-30
+  musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: 2026-10-30
   'biblioteche: rete BiblioMarca': null
   H-FARM e spazi per eventi business: null
   cinema e cineforum (Edera, Labirinto): null
@@ -135,7 +135,13 @@ community:
   'canali Telegram pubblici: camminate, run club, bici': null
   'canali Telegram pubblici: eventi, serate e uscite Treviso': null
   'community Instagram/TikTok di trekking indipendente (Veneto)': null
-  'community di ballo, giochi da tavolo, fotografia, volontariato': null
+  'community di ballo, giochi da tavolo, fotografia, volontariato': null  cheventi.it (Treviso): null
+  eventivenetando.it: null
+  trevisoinfo.it: null
+  cosedicasa.com (mercatini): 2026-10-30
+  fleamapket.com (mercatini): null
+  sagramap.com (Veneto): null
+  microturismodellevenezie.it: 2026-10-30
 news:
   Tribuna di Treviso: null
   Il Gazzettino (Treviso): null
@@ -144,18 +150,20 @@ news:
   Qdpnews: null
   Radio e tv locali (Antenna Tre, Rete Veneta): null
   'Google News: eventi provincia di Treviso': null
+  Nordest24: 2026-10-30
+  VenetoToday: 2026-10-30
 categorie:
-  musica: null
+  musica: 2026-10-30
   nightlife: null
-  sagre-feste: null
+  sagre-feste: 2026-10-30
   cibo-vino: null
-  arte-cultura: null
-  teatro-spettacoli: null
+  arte-cultura: 2026-10-30
+  teatro-spettacoli: 2026-10-30
   cinema: null
-  sport: null
+  sport: 2026-10-30
   natura-outdoor: null
   famiglie-bambini: null
-  mercatini-fiere: null
+  mercatini-fiere: 2026-10-30
   business: null
   tech-scienza: null
   benessere: null

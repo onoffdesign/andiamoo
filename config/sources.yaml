@@ -91,10 +91,11 @@ sources:
     max_events: 40
     enabled: true
     listing_urls:
-      - https://www.ticketone.it/en/cityd/treviso-2045/
+      - https://www.ticketone.it/cityd/treviso-2045/
+      - https://www.ticketone.it/cityd/conegliano-1116/
     fetch_details: false
     ai_rewrite: false
-    note: "Evento + luogo + prezzo minimo nel JSON-LD della pagina citta'. Altri comuni: aggiungere le loro pagine /city/."
+    note: "Evento + luogo + prezzo minimo nel JSON-LD della pagina citta'. Altri comuni: aggiungere le loro pagine /city/. 2026-10-30: zero eventi dalla pagina /en/, passata alla versione italiana /cityd/ (che elenca eventi) e aggiunta Conegliano."
 
   - id: dice
     name: DICE

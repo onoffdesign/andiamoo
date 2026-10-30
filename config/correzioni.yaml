@@ -54,6 +54,142 @@ correggi:
     lon: 12.2488
     nota: "chiesa di Santa Margherita, sede del Museo Salce, vicino a Ponte Santa Margherita (coordinate da aroundus.com)"
     verificato: 2026-10-29
+  a608aaede79776b8:
+    title: "Mercatino dell'antiquariato e collezionismo a Badoere"
+    start: "2026-11-01"
+    end: ""
+    venue: Rotonda di Badoere (barchesse)
+    address: Piazza Indipendenza, Badoere di Morgano
+    town: Morgano
+    category: mercatini-fiere
+    subcategory: antiquariato
+    access: libero
+    lat: 45.63396
+    lon: 12.08352
+    official_url: https://www.comune.morgano.tv.it
+    nota: "la pagina eventiesagre scrive 'Mordano' per errore: e' a Badoere di Morgano, nelle barchesse, prima domenica del mese tranne agosto (eventiesagre e cosedicasa, organizzatore Comune di Morgano). Prossima data 1/11; coordinate da komoot (highlight 5914389, Rotonda di Badoere)"
+    verificato: 2026-10-30
+  30fd144b9925fdef:
+    title: "Mercatino dell'antiquariato e del collezionismo a Godega di Sant'Urbano"
+    start: "2026-11-15"
+    end: ""
+    venue: Area Fiera
+    address: Via Roma, Godega di Sant'Urbano
+    town: Godega di Sant'Urbano
+    access: libero
+    official_url: https://www.comunegodega.tv.it
+    nota: "terza domenica del mese, sospeso luglio e agosto; prossima data 15/11 (cosedicasa, organizzatore Ufficio Mercatini del Comune). Evento ricorrente diviso in date singole: il 20/12 va aggiunto la notte che entra nei 30 giorni"
+    verificato: 2026-10-30
+  f730d08ba4a59b07:
+    title: "Mostra mercato dell'antiquariato a Roncade"
+    start: 2026-11-14T09:00
+    end: 2026-11-14T18:00
+    venue: Portici del centro di Roncade
+    address: Centro storico, Roncade
+    access: libero
+    nota: "ogni secondo sabato del mese, 9-18, Pro Loco Roncade (eventiesagre); 'sotto i portici' dal pieghevole del Comune (marzo 2025). Punto lasciato al centro di Roncade, via esatta non trovata. Prossima data 14/11, il 12/12 da aggiungere piu' avanti"
+    verificato: 2026-10-30
+  a09d9e6a21ac0b7b:
+    official_url: https://www.traildelgevero.it
+    venue: Case Marian
+    nota: "sito ufficiale da gotrail e haid; partenza e arrivo alle Case Marian di Cison di Valmarino (gotrail)"
+    verificato: 2026-10-30
+  662108727f341882:
+    official_url: https://www.corrinrosa.run/san-vendemiano/
+    nota: "sito ufficiale da running.life; 8/11/2026, 6, 12 e 21 km"
+    verificato: 2026-10-30
+  b209d78ab96e9084:
+    title: "Libertà, cultura e diritti oltre la censura: Majid Bita all'Altromercato Store"
+    venue: Altromercato Store
+    address: Viale della Repubblica angolo via Ellero, Treviso
+    nota: "titolo ripulito; indirizzo del negozio da greenme.it"
+    verificato: 2026-10-30
+  9dea55fc79d22f47:
+    title: "La casa coi merli: presentazione del libro su Aldo Piccoli a Casa Robegan"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  8f0f9ffffeefcc89:
+    title: "Jam Session con Sque & Band e TreviBlues all'OstiNate"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  353ab20488db2a11:
+    title: "Festa del Novello alla Cantina Pizzolato"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  0f892fc7b9b702ac:
+    title: "La notte dei teschi messicani: Halloween al Cantiere"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  b640a5f978ec5c88:
+    title: "80 Voglia Party: Halloween anni '80 al Mattorosso"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  cec3abe5c7ee8b0e:
+    title: "Haunted Beat: Halloween all'Outsider Pub"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  c8abb13e50120929:
+    title: "Halloween a Villa Braida"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  062122fe9945c72e:
+    title: "Halloween al Bastian Osteria"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  5bbd472acc550675:
+    title: "Takemeback on Halloween: Hogwarts 00's Rave"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  15afe1f1492637f1:
+    title: "It's going to be cruel: Halloween di Intima a Villa Lin Andrighetti"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  65125fb4e0dc1de0:
+    title: "The Rocky Horror Picture Show Night: sing-along di Halloween al Cinema Edera"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  b38a1c0908f17a02:
+    title: "Gesti segni colori: laboratori di scrittura a mano e legatoria al Museo Salce"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  d80362df681891fc:
+    title: "La vera storia di San Giorgio e il Drago alle Grotte del Caglieron"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  925e217085586c12:
+    title: "Prossima Fermata: parole e musica lungo il fiume al Teatro del Pane"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  e14defa5502908bf:
+    title: "Concerto di San Leonardo"
+    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
+    verificato: 2026-10-30
+  8405c33af65c2827:
+    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/giornata-ecologica-1-11-2026
+    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
+    verificato: 2026-10-30
+  fe2d7e3c40b75ecc:
+    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/commemorazione-defunti-2026
+    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
+    verificato: 2026-10-30
+  6622ddad90f519de:
+    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/giornata-nazionale-forze-armate-2026
+    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
+    verificato: 2026-10-30
+  7dae98b2efa5c276:
+    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-31-10-2026
+    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
+    verificato: 2026-10-30
+  6dbac29c5966f22b:
+    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-6-11-2026
+    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
+    verificato: 2026-10-30
+  395e1d0bce8abdb8:
+    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/memory-cafe-treviso-2-11-2026
+    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
+    verificato: 2026-10-30
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
+  f54314f107c85ed7: "concluso il 29/10/2026"
+  f2d6e32942ccfa6c: "concluso il 29/10/2026"
 verificati: {}

@@ -1,4 +1,154 @@
 # Eventi trovati dalla redazione (revisione notturna di Claude) su siti ufficiali e verificati.
 # Formato e regole: pipeline/collectors/redazione.py e ops/revisione-notturna.md.
 
-eventi: []
+eventi:
+  - title: Lobgesang di Mendelssohn (Autunno Musicale)
+    start: 2026-11-08T20:45
+    end: 2026-11-08T23:00
+    venue: Cattedrale di Treviso
+    address: Piazza del Duomo 1
+    town: Treviso
+    category: musica
+    subcategory: jazz-classica
+    access: offerta
+    price: ingresso libero con offerta
+    official_url: https://www.musincantus.it/evento/lobgesang-mendelssohn-treviso-2026/
+    summary: Esecuzione del Lobgesang di Felix Mendelssohn con l'Orchestra Regionale Filarmonia Veneta e il coro Kairos Vox, nell'ambito della rassegna Autunno Musicale.
+    fonte: https://venetotoday.it/treviso-porta-la-musica-tra-chiese-biblioteca-e-santa-caterina-il-programma-di-autunno-musicale-2026
+    trovato: '2026-10-30'
+  - title: Spirito Romantico (Autunno Musicale)
+    start: 2026-11-14T20:45
+    end: 2026-11-14T23:00
+    venue: Chiesa del Sacro Cuore
+    address: Via Dalmazia 10
+    town: Treviso
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.musincantus.it/evento/spirito-romantico-mendelssohn-brahms-part-treviso-2026/
+    summary: Concerto con musiche di Brahms, Mendelssohn e Arvo Pärt eseguite da coro e orchestra del Conservatorio Cesare Pollini di Padova.
+    fonte: https://www.musincantus.it/eventi/elenco/?tribe-bar-search=treviso
+    trovato: '2026-10-30'
+  - title: 'Tra codici e manoscritti: visita alla Biblioteca Capitolare'
+    start: 2026-11-21T10:00
+    end: 2026-11-21T12:00
+    venue: Biblioteca Capitolare di Treviso
+    address: Via Canoniche 9
+    town: Treviso
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://www.musincantus.it/evento/tra-codici-e-manoscritti-biblioteca-capitolare-treviso-2026/
+    summary: Visita guidata ai codici e ai manoscritti musicali della Biblioteca Capitolare, con prenotazione obbligatoria e posti limitati.
+    fonte: https://www.musincantus.it/news/autunno-musicale-2026-a-treviso-prende-il-via-lottava-edizione/
+    trovato: '2026-10-30'
+  - title: Giovanni Boccaccio e il Beato Enrico (Autunno Musicale)
+    start: 2026-11-26T20:45
+    end: 2026-11-26T23:00
+    venue: Auditorium Santa Caterina
+    address: Piazzetta Mario Botter 1
+    town: Treviso
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.musincantus.it/evento/boccaccio-beato-enrico-treviso-2026/
+    summary: Spettacolo di teatro e musica antica tratto da una novella del Decameron ambientata a Treviso, realizzato con il Teatro del Pane.
+    fonte: https://www.musincantus.it/eventi/elenco/?tribe-bar-search=treviso
+    trovato: '2026-10-30'
+  - title: Concerto dell'Immacolata (Autunno Musicale)
+    start: 2026-12-08T16:00
+    end: 2026-12-08T17:30
+    venue: Chiesa di Sant'Agnese
+    address: Borgo Cavour 35
+    town: Treviso
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.musincantus.it/evento/concerto-immacolata-britten-treviso-2026/
+    summary: Concerto corale con musiche di Britten, Gabrieli, Monteverdi e Frank Martin.
+    fonte: https://www.musincantus.it/eventi/elenco/?tribe-bar-search=treviso
+    trovato: '2026-10-30'
+  - title: Oratorio di Natale di Bach (Autunno Musicale)
+    start: 2026-12-16T20:45
+    end: 2026-12-16T23:00
+    venue: Cattedrale di Treviso
+    address: Piazza del Duomo 1
+    town: Treviso
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.musincantus.it/evento/oratorio-di-natale-bach-treviso-2026/
+    summary: Concerto di chiusura della rassegna Autunno Musicale dedicato all'Oratorio di Natale di Johann Sebastian Bach.
+    fonte: https://www.musincantus.it/eventi/elenco/?tribe-bar-search=treviso
+    trovato: '2026-10-30'
+  - title: La materia dei sogni. Radici dell'arte africana contemporanea
+    start: '2026-09-03'
+    end: '2027-01-15'
+    venue: Museo di Santa Caterina
+    address: Piazzetta Mario Botter 1
+    town: Treviso
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: 13 EUR, ridotto 10 EUR
+    official_url: https://www.museicivicitreviso.it/organizza-la-visita/orari-biglietti-e-visite-guidate/
+    summary: Mostra dedicata alle radici dell'arte africana contemporanea, aperta da martedì a domenica dalle 10 alle 18.
+    fonte: https://www.nordest24.it/materia-sogni-treviso-guida-mostra-arte-africana-contemporanea-2026
+    trovato: '2026-10-30'
+  - title: La misteriosa scomparsa di W
+    start: '2026-11-26'
+    venue: Teatro Accademia
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatroaccademia.it/prosa/
+    summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Ambra Angiolini.
+    trovato: '2026-10-30'
+  - title: Rosencrantz e Guildenstern sono morti
+    start: '2026-12-06'
+    venue: Teatro Accademia
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatroaccademia.it/prosa/
+    summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Francesco Pannofino, Francesco Acquaroli e Paolo Sassanelli.
+    trovato: '2026-10-30'
+  - title: L'amante
+    start: '2026-12-16'
+    venue: Teatro Accademia
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatroaccademia.it/prosa/
+    summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Giorgio Marchesi e Simonetta Solder.
+    trovato: '2026-10-30'
+  - title: Venerdì 13
+    start: '2027-01-10'
+    venue: Teatro Accademia
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatroaccademia.it/prosa/
+    summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Martina Colombari, Gianmarco Crò e Federico Maria Isaia.
+    trovato: '2026-10-30'
+  - title: Lungs | Polmoni
+    start: '2027-01-21'
+    venue: Teatro Accademia
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatroaccademia.it/prosa/
+    summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Maria Amelia Monti e Gigio Alberti.
+    trovato: '2026-10-30'
+  - title: Uno, nessuno, centomila
+    start: '2027-02-09'
+    venue: Teatro Accademia
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatroaccademia.it/prosa/
+    summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Primo Reggiani.
+    trovato: '2026-10-30'
+

@@ -19,4 +19,260 @@
 #     stato: attiva            # attiva | debole (pochi eventi) | ferma (non aggiornata) | spostata (in sources.yaml)
 #     note: "pubblica il programma 2-3 settimane prima"
 
-fonti: []
+fonti:
+- nome: Musincantus (Autunno Musicale Treviso)
+  url: https://www.musincantus.it/eventi/elenco/?tribe-bar-search=treviso
+  query: Musincantus Autunno Musicale Treviso programma
+  tipo: associazione
+  categorie:
+  - musica
+  - teatro-spettacoli
+  comuni:
+  - Treviso
+  frequenza: mensile
+  qualita: 5
+  resa:
+    controlli: 1
+    eventi_trovati: 6
+    ultimi:
+    - 6
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: si'
+  stato: attiva
+  note: 'WordPress con The Events Calendar (link /evento/ e /eventi/elenco/): candidata tribe_api, da controllare robots.txt e /wp-json/tribe/events/v1/events (stanotte WebFetch non li ha aperti). Ha anche
+    eventi a Cortina: filtrare per provincia.'
+- nome: Teatro Accademia Conegliano (prosa)
+  url: https://teatroaccademia.it/prosa/
+  query: Teatro Accademia Conegliano stagione prosa
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Conegliano
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 1
+    eventi_trovati: 6
+    ultimi:
+    - 6
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Date senza orari nel testo; altri eventi (comici, concerti) in teatroaccademia.it/elenco-articoli/ e su TicketOne Conegliano.
+- nome: TicketOne Conegliano
+  url: https://www.ticketone.it/cityd/conegliano-1116/
+  query: TicketOne Conegliano eventi
+  tipo: biglietteria
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Conegliano
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 1
+    eventi_trovati: 0
+    ultimi:
+    - 0
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: si'
+  stato: spostata
+  note: Aggiunta alla fonte ticketone di config/sources.yaml.
+- nome: Musei Civici di Treviso
+  url: https://www.museicivicitreviso.it/en/exhibitions-and-events/
+  query: Musei Civici Treviso mostre ed eventi
+  tipo: museo
+  categorie:
+  - arte-cultura
+  comuni:
+  - Treviso
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 1
+    eventi_trovati: 1
+    ultimi:
+    - 1
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'La home inglese non elenca le mostre: aprire la pagina mostre-ed-eventi.'
+- nome: Nordest24 (guide eventi Treviso)
+  url: https://www.nordest24.it/
+  query: nordest24 Treviso mostra orari biglietti 2026
+  tipo: testata
+  categorie:
+  - arte-cultura
+  - musica
+  comuni:
+  - Treviso
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 1
+    eventi_trovati: 1
+    ultimi:
+    - 1
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Articoli con date, orari e prezzi; confermare sul sito ufficiale.
+- nome: VenetoToday (eventi Treviso)
+  url: https://venetotoday.it/
+  query: venetotoday Treviso programma 2026
+  tipo: testata
+  categorie:
+  - musica
+  - arte-cultura
+  comuni:
+  - Treviso
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 1
+    eventi_trovati: 0
+    ultimi:
+    - 0
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Si apre con WebFetch (TrevisoToday invece da' errore).
+- nome: Cosedicasa mercatini antiquariato (Treviso)
+  url: https://www.cosedicasa.com/mercatini/
+  query: cosedicasa mercatino antiquariato <comune>
+  tipo: aggregatore
+  categorie:
+  - mercatini-fiere
+  comuni:
+  - Godega di Sant'Urbano
+  - Morgano
+  - Asolo
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 1
+    eventi_trovati: 0
+    ultimi:
+    - 0
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Schede con regola (es. terza domenica), sospensioni, prossima data e organizzatore: utile per dividere i mercatini ricorrenti in date singole.'
+- nome: Microturismo delle Venezie
+  url: https://microturismodellevenezie.it/
+  query: microturismodellevenezie evento <comune> 2026
+  tipo: aggregatore
+  categorie:
+  - sagre-feste
+  - cibo-vino
+  comuni:
+  - Cordignano
+  - Moriago della Battaglia
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 1
+    eventi_trovati: 0
+    ultimi:
+    - 0
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Schede con date contraddittorie (Prealpi in Festa 2026): solo per scoprire.'
+- nome: cheventi.it Treviso
+  url: https://www.cheventi.it/regioni/veneto/treviso/
+  query: cheventi Treviso eventi 2026
+  tipo: aggregatore
+  categorie:
+  - musica
+  - teatro-spettacoli
+  comuni:
+  - Treviso
+  - Conegliano
+  frequenza: settimanale
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: null
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Candidato non ancora aperto: pagine per comune e per organizzatore.'
+- nome: Eventi Venetando
+  url: https://www.eventivenetando.it/
+  query: eventivenetando Treviso 2026
+  tipo: aggregatore
+  categorie:
+  - sagre-feste
+  - cibo-vino
+  - arte-cultura
+  comuni: []
+  frequenza: settimanale
+  qualita: 2
+  resa:
+    controlli: 1
+    eventi_trovati: 0
+    ultimi:
+    - 0
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Stanotte errore del server su WebFetch; riprovare.
+- nome: Fleamapket (mercatini)
+  url: https://www.fleamapket.com/
+  query: fleamapket <comune> mercatino
+  tipo: aggregatore
+  categorie:
+  - mercatini-fiere
+  comuni:
+  - Godega di Sant'Urbano
+  - Morgano
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: null
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Pagine per singola data dei mercatini ricorrenti: buone per scoprire, confermare col comune.'
+- nome: Sagramap Veneto
+  url: https://sagramap.com/veneto
+  query: sagramap sagre novembre veneto
+  tipo: aggregatore
+  categorie:
+  - sagre-feste
+  comuni: []
+  frequenza: settimanale
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: null
+  automatizzabile: 'no'
+  stato: attiva
+  note: Candidato non ancora aperto.
+- nome: Trevisoinfo
+  url: https://www.trevisoinfo.it/delizie-d-autunno.htm
+  query: trevisoinfo Delizie d'Autunno 2026
+  tipo: blog
+  categorie:
+  - sagre-feste
+  - cibo-vino
+  comuni: []
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 1
+    eventi_trovati: 0
+    ultimi:
+    - 0
+  ultimo_controllo: '2026-10-30'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Elenco date di Delizie d''Autunno senza luoghi: solo scoperta (deliziedautunno.tv blocca i robot).'

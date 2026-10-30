@@ -1,1 +1,22 @@
-{"data": "", "aggiunti": 0, "corretti": 0, "rimossi": 0, "verificati": 0, "aggiunti_per_categoria": {}, "fonti_nuove": 0, "fonti_spostate": 0, "fonti_sistemate": 0, "problemi": []}
+{
+ "data": "2026-10-30",
+ "aggiunti": 13,
+ "corretti": 27,
+ "rimossi": 2,
+ "verificati": 0,
+ "aggiunti_per_categoria": {
+  "musica": 4,
+  "teatro-spettacoli": 7,
+  "arte-cultura": 2
+ },
+ "fonti_nuove": 13,
+ "fonti_spostate": 1,
+ "fonti_sistemate": 1,
+ "problemi": [
+  "Il PC non ha girato stanotte: ultimo rapporto del 29/10 alle 19:12",
+  "25 eventi della coda non lavorati (Halloween di 2night, gare podistiche senza sito ufficiale)",
+  "DICE e Qdpnews a zero eventi: da verificare",
+  "Musincantus candidata per tribe_api: controllare robots.txt",
+  "Date da confermare: Prealpi in Festa, San Martino a Mosnigo, Mostra vini Volpago"
+ ]
+}
