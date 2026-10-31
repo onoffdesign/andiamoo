@@ -89,4 +89,4 @@ finire coda e manutenzione, segnalalo nei `problemi` del riepilogo prima di aggi
 Test di copertura e decisioni, una riga per notte (la piu' recente in alto):
 `- AAAA-MM-GG · TV · copertura 7/10 (mancanti: ...) · eventi prossimi 30 giorni N (settimana +N%) · comuni controllati 2 volte N/94`
 
-(nessuna riga registrata finora)
+- 2026-10-31 · TV · copertura 3/10 (mancanti: 2 incontri del 4passiFestival, lettura animata di Sile Classica, 2 spettacoli del Teatro Accademico di Castelfranco, sagra Madonna della Salute di Maser, letture in biblioteca a Castelfranco; aggiunti tutti tranne l'ultimo) · eventi prossimi 30 giorni 123 · comuni controllati 2 volte 0/94 · lontana dalla saturazione: mancano teatri comunali e sagre

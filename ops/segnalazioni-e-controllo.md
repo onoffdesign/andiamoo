@@ -28,6 +28,11 @@ Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella
   coordinate di una fonte affidabile; se il punto esatto non si trova, si mette nel posto piu' vicino certo. (ora
   anche nel codice: il PC scarta la provincia e segnala i punti a piu' di 6 km dal centro)
 
+- 2026-10-31 · **Il link deve portare all'evento.** Controllo a campione 0/10, sempre per il link: un profilo Instagram
+  o un campo vuoto non sono un link ufficiale. Per Eventbrite la pagina dell'evento e' la pagina di iscrizione
+  dell'organizzatore e vale come link d'azione (ora nel codice). Per gli eventi di insolitotrantran con link social
+  si cerca il sito o la pagina dell'evento; se non c'e', resta in coda.
+
 ## 2. Segnalazioni dal sito
 
 Il PC esporta ogni notte in `ops/segnalazioni.json` le segnalazioni degli ultimi 30 giorni (mai i contatti di chi
@@ -52,4 +57,4 @@ Formato (una riga per notte, la piu' recente in alto):
 Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
-(nessun controllo registrato finora)
+- 2026-10-31 · corretti 0/10 · errori: data 0, orario 2, luogo 1, accesso 2, categoria 1, link 10 · lezione: il link e' l'errore di tutti: gli eventi Eventbrite non avevano official_url e quelli di insolitotrantran puntano al profilo Instagram dell'organizzatore. Eventbrite risolto nel codice (pagina_iscrizione); per insolitotrantran serve cercare il sito dell'evento. Sei eventi su dieci non verificabili per budget (solo Instagram).

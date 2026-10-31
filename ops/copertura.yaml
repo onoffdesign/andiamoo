@@ -17,7 +17,7 @@ comuni_TV:
   Casale sul Sile: null
   Casier: null
   Castelcucco: null
-  Castelfranco Veneto: null
+  Castelfranco Veneto: 2026-10-31
   Castello di Godego: null
   Cavaso del Tomba: null
   Cessalto: null
@@ -34,7 +34,7 @@ comuni_TV:
   Follina: null
   Fontanelle: null
   Fonte: null
-  Fregona: null
+  Fregona: 2026-10-31
   Gaiarine: null
   Giavera del Montello: null
   Godega di Sant'Urbano: 2026-10-30
@@ -62,8 +62,8 @@ comuni_TV:
   Pederobba: null
   Pieve del Grappa: null
   Pieve di Soligo: null
-  Ponte di Piave: null
-  Ponzano Veneto: null
+  Ponte di Piave: 2026-10-31
+  Ponzano Veneto: 2026-10-31
   Portobuffolè: null
   Possagno: null
   Povegliano: null
@@ -71,7 +71,7 @@ comuni_TV:
   Quinto di Treviso: null
   Refrontolo: null
   Resana: null
-  Revine Lago: null
+  Revine Lago: 2026-10-31
   Riese Pio X: null
   Roncade: 2026-10-30
   Salgareda: null
@@ -94,7 +94,7 @@ comuni_TV:
   Valdobbiadene: null
   Vazzola: null
   Vedelago: null
-  Vidor: null
+  Vidor: 2026-10-31
   Villorba: null
   Vittorio Veneto: null
   Volpago del Montello: 2026-10-30
@@ -159,6 +159,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Arte e cultura > Conferenze e incontri": 2026-10-31
+  "Business e formazione > Lavoro": 2026-10-31
+  "Arte e cultura > Tecnologia e scienza": 2026-10-31
+  "Famiglie e bambini > Spettacoli per bambini": 2026-10-31
   musica: 2026-10-30
   nightlife: null
   sagre-feste: 2026-10-30

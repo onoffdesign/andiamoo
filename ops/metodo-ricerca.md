@@ -66,7 +66,12 @@ lo schema e si parte dalle regole generali e da quelle della regione.
   eventiesagre (sagre; a volte sbaglia il comune, es. "Mordano" per Badoere di Morgano), calendari podistici
   (calendariopodismo, podismoveneto, running.life), Musincantus per la musica d'autunno.
 - Comune di Treviso: MyPortal, gia' letto dal PC.
-- Teatri: Teatro Accademia di Conegliano (stagione di prosa, orari non sempre pubblicati).
+- Teatri: Teatro Accademia di Conegliano (stagione di prosa, orari non sempre pubblicati); Teatro Accademico di
+  Castelfranco (stagione Arteven e Ragazzi che Teatro: la scheda del Comune ha date, orari e prezzi). I teatri
+  comunali del circuito Arteven sono il buco piu' grande della copertura: partire da MyArteven.
+- Festival d'autunno a Treviso: 4passiFestival (fine ottobre-novembre), Sile Classica (ottobre-dicembre),
+  Autunno Musicale. Un festival = una lettura per molti eventi.
+- Sagre di novembre: sagramap elenca date ma senza link; le pagine ufficiali spesso non esistono (solo Facebook).
 - Mercatini ricorrenti: le schede cosedicasa indicano la regola (seconda/terza domenica) e le sospensioni.
 - Da evitare: microturismodellevenezie (date contraddittorie), deliziedautunno.tv e cultura.gov.it (vietano i robot).
 
@@ -88,4 +93,4 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
-(nessuna riga registrata finora)
+- 2026-10-31 · TV · ricerche 51 · eventi nuovi 24 · eventi per ricerca 0,5 · fonti al PC +2 (Gli Alcuni, Biblioteche Treviso) · miglioria: per Eventbrite la pagina dell'evento diventa link d'azione (opzione `pagina_iscrizione` in sources.yaml), cosi' ~40 eventi a notte non finiscono piu' in coda per "manca il sito ufficiale"

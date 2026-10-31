@@ -1,22 +1,33 @@
 {
- "data": "2026-10-30",
- "aggiunti": 13,
+ "data": "2026-10-31",
+ "aggiunti": 24,
  "corretti": 27,
  "rimossi": 2,
- "verificati": 0,
+ "verificati": 1,
  "aggiunti_per_categoria": {
-  "musica": 4,
-  "teatro-spettacoli": 7,
-  "arte-cultura": 2
+  "teatro-spettacoli": 11,
+  "famiglie-bambini": 5,
+  "arte-cultura": 3,
+  "musica": 3,
+  "natura-outdoor": 1,
+  "sagre-feste": 1
  },
- "fonti_nuove": 13,
- "fonti_spostate": 1,
- "fonti_sistemate": 1,
+ "fonti_nuove": 7,
+ "fonti_spostate": 2,
+ "fonti_sistemate": 0,
+ "qualita_campione": "0/10",
+ "segnalazioni_gestite": 0,
+ "provincia_attiva": "TV",
+ "copertura_test": "3/10",
+ "ricerche": 51,
+ "eventi_per_ricerca": 0.5,
+ "categorie_aggiunte": 12,
+ "miglioria": "Eventbrite: la pagina dell'evento diventa link d'azione (pagina_iscrizione)",
  "problemi": [
-  "Il PC non ha girato stanotte: ultimo rapporto del 29/10 alle 19:12",
-  "25 eventi della coda non lavorati (Halloween di 2night, gare podistiche senza sito ufficiale)",
-  "DICE e Qdpnews a zero eventi: da verificare",
-  "Musincantus candidata per tribe_api: controllare robots.txt",
-  "Date da confermare: Prealpi in Festa, San Martino a Mosnigo, Mostra vini Volpago"
+  "Campione 0/10: link mancanti o profili Instagram",
+  "Copertura 3/10: mancano teatri comunali e sagre",
+  "15 sagre di novembre senza conferma ufficiale",
+  "Controllare le nuove fonti gli-alcuni e biblioteche-treviso",
+  "TicketOne 0 eventi dopo 90 secondi"
  ]
 }

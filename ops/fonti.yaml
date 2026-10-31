@@ -195,13 +195,14 @@ fonti:
   frequenza: settimanale
   qualita: 2
   resa:
-    controlli: 0
+    controlli: 1
     eventi_trovati: 0
-    ultimi: []
-  ultimo_controllo: null
+    ultimi:
+    - 0
+  ultimo_controllo: '2026-10-31'
   automatizzabile: 'no'
   stato: attiva
-  note: 'Candidato non ancora aperto: pagine per comune e per organizzatore.'
+  note: "Candidato non ancora aperto: pagine per comune e per organizzatore. | 2026-10-31: la pagina provinciale da' errore a WebFetch (client_error); usare solo i risultati di ricerca"
 - nome: Eventi Venetando
   url: https://www.eventivenetando.it/
   query: eventivenetando Treviso 2026
@@ -251,13 +252,14 @@ fonti:
   frequenza: settimanale
   qualita: 2
   resa:
-    controlli: 0
+    controlli: 1
     eventi_trovati: 0
-    ultimi: []
-  ultimo_controllo: null
+    ultimi:
+    - 0
+  ultimo_controllo: '2026-10-31'
   automatizzabile: 'no'
   stato: attiva
-  note: Candidato non ancora aperto.
+  note: "Candidato non ancora aperto. | 2026-10-31: elenca 15 sagre TV di novembre ma senza link ne' organizzatore; utile solo per scoprire, le conferme ufficiali non si trovano (eventivenetando e eventiesagre mostrano edizioni passate)"
 - nome: Trevisoinfo
   url: https://www.trevisoinfo.it/delizie-d-autunno.htm
   query: trevisoinfo Delizie d'Autunno 2026
@@ -277,3 +279,101 @@ fonti:
   automatizzabile: 'no'
   stato: attiva
   note: 'Elenco date di Delizie d''Autunno senza luoghi: solo scoperta (deliziedautunno.tv blocca i robot).'
+- nome: 4passiFestival (Pace e Sviluppo)
+  url: https://4passi.org/programma2026/
+  query: 4passiFestival programma Treviso
+  tipo: associazione
+  categorie: [arte-cultura, teatro-spettacoli]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 7, ultimi: [7] }
+  ultimo_controllo: '2026-10-31'
+  automatizzabile: no
+  stato: attiva
+  note: "festival di fine ottobre-novembre a Santa Caterina; la pagina programma mostra un giorno alla volta, le date per evento stanno negli articoli di Nordest24/VenetoToday e su Eventbrite"
+- nome: Sile Classica
+  url: https://www.sileclassica.it/
+  query: Sile Classica programma
+  tipo: associazione
+  categorie: [musica, famiglie-bambini]
+  comuni: [Treviso, Roncade, Casale sul Sile]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 3, ultimi: [3] }
+  ultimo_controllo: '2026-10-31'
+  automatizzabile: no
+  stato: attiva
+  note: "festival autunnale ottobre-dicembre; prenotazioni su Eventbrite"
+- nome: Comune di Castelfranco Veneto (eventi)
+  url: https://www.comune.castelfrancoveneto.tv.it/tutti-gli-eventi/
+  query: Comune di Castelfranco Veneto tutti gli eventi
+  tipo: comune
+  categorie: [teatro-spettacoli, famiglie-bambini, arte-cultura]
+  comuni: [Castelfranco Veneto]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 13, ultimi: [13] }
+  ultimo_controllo: '2026-10-31'
+  automatizzabile: no
+  stato: attiva
+  note: "WordPress Q-web senza JSON-LD; le schede delle rassegne (prosa Arteven, Ragazzi che Teatro) hanno date, orari e prezzi"
+- nome: Gli Alcuni (teatro e parco per famiglie)
+  url: https://live.alcuni.it/eventi/
+  query: Gli Alcuni Treviso eventi famiglie
+  tipo: teatro
+  categorie: [famiglie-bambini]
+  comuni: [Treviso]
+  province: [TV, PD]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-10-31'
+  automatizzabile: si
+  stato: spostata
+  note: "The Events Calendar: spostata in config/sources.yaml (gli-alcuni) il 2026-10-31"
+- nome: Biblioteche Comunali di Treviso
+  url: https://www.bibliotecatreviso.it/myportal/C_L407_BIBLIO/home/tuttieventi
+  query: Biblioteche Comunali Treviso tuttieventi
+  tipo: biblioteca
+  categorie: [arte-cultura, famiglie-bambini]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-10-31'
+  automatizzabile: si
+  stato: spostata
+  note: "MyPortal C_L407_BIBLIO: la pagina non si legge con WebFetch (contenuto via API); spostata in config/sources.yaml (biblioteche-treviso) il 2026-10-31"
+- nome: Madonna della Salute di Maser (comitato festeggiamenti)
+  url: https://www.madonna-d-salute.it/
+  query: Comitato Festeggiamenti Madonna della Salute Maser
+  tipo: associazione
+  categorie: [sagre-feste]
+  comuni: [Maser]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-10-31'
+  automatizzabile: no
+  stato: attiva
+  note: "sagra 6-21 novembre; programma dettagliato in una pagina a parte"
+- nome: MyArteven (stagioni teatrali Veneto)
+  url: https://www.myarteven.it/
+  query: myarteven rassegne stagione 2026/2027 Treviso
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: [Castelfranco Veneto, Conegliano, Mogliano Veneto, Oderzo, Pieve di Soligo, Vedelago, Vittorio Veneto]
+  province: [TV, VE, PD, VI, BL, RO, VR]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-10-31'
+  automatizzabile: no
+  stato: attiva
+  note: "circuito teatrale regionale: arteven.it/pr/treviso da' errore; da MyArteven aprire le pagine 'rassegne/<comune>-stagione-20262027' (es. mestre-teatro-toniolo). Candidata a fonte multi-provincia, controllare JSON-LD"
