@@ -188,8 +188,137 @@ correggi:
     official_url: https://www.comune.treviso.it/home/dettaglio/eventi/memory-cafe-treviso-2-11-2026
     nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
     verificato: 2026-10-30
+  2a01ab319dd00143:
+    start: "2026-11-06T18:00"
+    access: iscrizione
+    price: ''
+    official_url: https://4passi.org/programma2026/
+    venue: Santa Caterina (4passiFestival)
+    summary: Dialogo del 4passiFestival con la preside Antonella Di Bartolo sul contrasto alla poverta' educativa nella scuola.
+    nota: 'programma 4passiFestival 2026 (4passi.org): ore 18, prenotazione su Eventbrite'
+    verificato: "2026-10-31"
+  093511c03bff50c2:
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    nota: 'incontro del 4passiFestival 2026 (4passi.org): prenotazione su Eventbrite'
+    verificato: "2026-10-31"
+  0b4c2dc2fdce0397:
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    nota: 'incontro del 4passiFestival 2026 (4passi.org): prenotazione su Eventbrite'
+    verificato: "2026-10-31"
+  e0cf81c1121f112d:
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    nota: 'incontro del 4passiFestival 2026 (4passi.org): prenotazione su Eventbrite'
+    verificato: "2026-10-31"
+  ef8ba02c69882fca:
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    nota: 'incontro del 4passiFestival 2026 (4passi.org): prenotazione su Eventbrite'
+    verificato: "2026-10-31"
+  d5659bcbeb9044e4:
+    official_url: https://4passi.org/programma2026/
+    nota: incontro del 4passiFestival 2026 (4passi.org); controllo a campione
+    verificato: "2026-10-31"
+  f03fe9dcfb338712:
+    title: 'Risonanze del Sile: Silent Wifi Concert per ADVAR'
+    start: "2026-11-01T17:00"
+    access: iscrizione
+    venue: Piazza Universita'
+    official_url: https://www.sileclassica.it/
+    category: musica
+    subcategory: jazz-classica
+    summary: Concerto in cuffia con Davide Conte al pianoforte, letture de Il Portolano e interventi di Streben Teatro; il ricavato va ad ADVAR.
+    nota: 'programma Sile Classica 2026 (sileclassica.it): ore 17, prenotazione su Eventbrite'
+    verificato: "2026-10-31"
+  1f67c4ef2e3314fa:
+    venue: Sonego di Fregona
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
+    nota: 'Calendario Podismo Veneto novembre 2026: partenza ore 10 da Sonego, 2,9 km D+1000; nessun sito dell''organizzatore'
+    verificato: "2026-10-31"
+  e7a571593d0c4f14:
+    start: "2026-11-07T18:00"
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
+    nota: 'Calendario Podismo Veneto novembre 2026: partenza 18-19:30, 9 km; nessun sito dell''organizzatore'
+    verificato: "2026-10-31"
+  2a09c7a77c43cbd7:
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
+    nota: 'Calendario Podismo Veneto novembre 2026: ore 9, 6 e 14 km; nessun sito dell''organizzatore. Ritrovo delle edizioni passate in Piazza Donatori di Sangue, da confermare'
+    verificato: "2026-10-31"
+  cac8a41d191e5cf7:
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
+    nota: 'Calendario Podismo Veneto novembre 2026: ore 9, 5-12-18 km; nessun sito dell''organizzatore'
+    verificato: "2026-10-31"
+  2f95a09b29660503:
+    start: "2026-11-22T09:30"
+    official_url: https://www.atleticasanbiagio.it/
+    nota: 'Calendario Podismo Veneto: competitiva 21,097 km ore 9:30, non competitiva 6 e 10 km ore 9; organizza Atletica San Biagio; controllo a campione'
+    verificato: "2026-10-31"
+  b00bcef845e8c8e2:
+    official_url: https://www.eventbrite.it/e/biglietti-oltre-il-traguardo-2003958051477
+    nota: 'posizione giusta: campus H-FARM in via Adriano Olivetti a Ca'' Tron, frazione di Roncade a sud del capoluogo; link: pagina di iscrizione dell''organizzatore'
+    verificato: "2026-10-31"
+  d6dd2848a2f5e006:
+    title: 'Takemeback on Hogwarts: rave anni 2000 di Halloween al Magis Club'
+    nota: titolo ripulito
+    verificato: "2026-10-31"
+  a0f44877772aeff2:
+    title: 'Satorday: giardinaggio selvaggio e talee al Parco Fenderl'
+    nota: titolo ripulito
+    verificato: "2026-10-31"
+  46b06155733f7c7f:
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.trevisotoday.it/eventi/intelligenza-emotiva-san-vendemiano-2026.html
+    nota: 'TrevisoToday: percorso di incontri sul digitale per la comunita'' educante, non un evento business; controllo a campione'
+    verificato: "2026-10-31"
+  40a6b81b06d05003:
+    official_url: https://www.eventbrite.it/e/biglietti-bike-test-fantic-presso-autosile-treviso-1982498169392
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    verificato: "2026-10-31"
+  e1758e6851d1e9a8:
+    official_url: https://www.eventbrite.com/e/biglietti-litografia-su-pietra-2002231443145
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    verificato: "2026-10-31"
+  473f9628e2768f72:
+    official_url: https://www.eventbrite.com/e/biglietti-oltre-la-corsa-2003923171149
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    verificato: "2026-10-31"
+  c51dc5fdb093f9a2:
+    official_url: https://www.eventbrite.it/e/biglietti-bosa-ceramiche-dalla-materia-al-design-2003398534948
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    verificato: "2026-10-31"
+  26a85098f1633145:
+    official_url: https://www.eventbrite.com/e/biglietti-visite-guidata-alla-chiesa-della-santissima-trinita-la-mattarella-2003506031473
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    title: Visita guidata alla Chiesa della Santissima Trinita' La Mattarella
+    verificato: "2026-10-31"
+  69644ff861cf5095:
+    official_url: https://www.eventbrite.com/e/biglietti-stories-anima-club-07112026-2003338421146
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    verificato: "2026-10-31"
+  98964d33e652c035:
+    official_url: https://www.eventbrite.it/e/biglietti-quinto-concerto-sinfonico-dautunno-2002990979940
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato. Non e'' un doppione della Marcia d''Autunno (stesso giorno, evento diverso)'
+    verificato: "2026-10-31"
+  17fefd1ce9bd870c:
+    official_url: https://www.eventbrite.co.uk/e/biglietti-la-roste-ride-2003650613923
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    verificato: "2026-10-31"
+  569cff5c938f9b82:
+    official_url: https://www.eventbrite.it/e/il-25-novembre-cooperativo-con-se-domani-non-torno-tickets-2003699075874
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    verificato: "2026-10-31"
+  6c1f63e492d3d9c7:
+    official_url: https://www.eventbrite.it/e/biglietti-degustazione-calici-riedel-2003233008855
+    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
+    verificato: "2026-10-31"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f54314f107c85ed7: "concluso il 29/10/2026"
   f2d6e32942ccfa6c: "concluso il 29/10/2026"
-verificati: {}
+  06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
+  cba7b17a31b2e7c8: "concluso nella notte del 30-31/10/2026"
+verificati:
+  d20b8daa82d71b50: "2026-10-31"

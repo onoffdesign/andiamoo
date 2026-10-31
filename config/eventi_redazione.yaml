@@ -151,4 +151,308 @@ eventi:
     official_url: https://teatroaccademia.it/prosa/
     summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Primo Reggiani.
     trovato: '2026-10-30'
-
+  - title: Spazi... che spaziano (4passiFestival)
+    start: 2026-11-06T09:00
+    venue: Chiesa di Santa Caterina
+    address: Via Santa Caterina 29
+    town: Treviso
+    category: arte-cultura
+    subcategory: conferenze
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    summary: Convegno del 4passiFestival su esperienze e approcci nei contesti di poverta' educativa e segregazione scolastica.
+    fonte: https://venetotoday.it/treviso-il-6-novembre-il-4passifestival-si-divide-in-quattro-guida-pratica-tra-scuola-teatro-percussioni-e-futuro
+    trovato: '2026-10-31'
+  - title: Drum Circle (4passiFestival)
+    start: 2026-11-06T16:00
+    venue: Universita' di Treviso
+    town: Treviso
+    category: musica
+    subcategory: festival-musicali
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    summary: Cerchio di percussioni aperto a tutti, senza bisogno di esperienza musicale, guidato da Cristiano Botti.
+    fonte: https://venetotoday.it/treviso-il-6-novembre-il-4passifestival-si-divide-in-quattro-guida-pratica-tra-scuola-teatro-percussioni-e-futuro
+    trovato: '2026-10-31'
+  - title: 'Che cosa ci vuoi fare: scene di ordinaria molestia (4passiFestival)'
+    start: 2026-11-06T20:30
+    venue: Sala Coletti
+    town: Treviso
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    summary: Spettacolo di teatro forum sulle dinamiche della violenza di genere, in cui il pubblico propone soluzioni alle scene.
+    fonte: https://venetotoday.it/treviso-il-6-novembre-il-4passifestival-si-divide-in-quattro-guida-pratica-tra-scuola-teatro-percussioni-e-futuro
+    trovato: '2026-10-31'
+  - title: 'IMMAGINA: esercizi di futuro con Stefano Laffi (4passiFestival)'
+    start: 2026-11-06T20:45
+    venue: Chiesa di Santa Caterina
+    address: Via Santa Caterina 29
+    town: Treviso
+    category: arte-cultura
+    subcategory: incontri-pubblici
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    summary: Laboratorio condotto da Stefano Laffi che usa la citta' come campo per esercitare l'immaginazione collettiva.
+    fonte: https://venetotoday.it/treviso-il-6-novembre-il-4passifestival-si-divide-in-quattro-guida-pratica-tra-scuola-teatro-percussioni-e-futuro
+    trovato: '2026-10-31'
+  - title: Sguardi dall'Africa sul mondo (4passiFestival)
+    start: 2026-11-07T17:00
+    venue: Chiesa di Santa Caterina
+    address: Via Santa Caterina 29
+    town: Treviso
+    category: arte-cultura
+    subcategory: incontri-pubblici
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    summary: Dialogo con padre Filippo Ferraro, moderato da Costanza Spocci, nell'ambito del 4passiFestival.
+    fonte: https://www.nordest24.it/treviso-4passifestival-cinque-appuntamenti-30-ottobre-8-novembre-2026
+    trovato: '2026-10-31'
+  - title: Passeggiata ai margini della citta' (4passiFestival)
+    start: 2026-11-08T09:00
+    venue: Piazza Martiri di Belfiore
+    address: Piazza Martiri di Belfiore
+    town: Treviso
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: gratuita
+    official_url: https://4passi.org/programma2026/
+    summary: Passeggiata di circa 2,5 km a cura di Legambiente Treviso, con laboratorio creativo finale.
+    fonte: https://www.nordest24.it/treviso-4passifestival-cinque-appuntamenti-30-ottobre-8-novembre-2026
+    trovato: '2026-10-31'
+  - title: 'Paludi: la natura piu'' bistrattata e preziosa d''Italia (4passiFestival)'
+    start: 2026-11-08T17:30
+    venue: Chiesa di Santa Caterina
+    address: Via Santa Caterina 29
+    town: Treviso
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: iscrizione
+    official_url: https://4passi.org/programma2026/
+    summary: Proiezione del documentario sulle zone umide con Elisabetta Tola e Marco Boscolo, moderata da Fabio Tullio.
+    fonte: https://www.nordest24.it/treviso-4passifestival-cinque-appuntamenti-30-ottobre-8-novembre-2026
+    trovato: '2026-10-31'
+  - title: Sulle note dell'avventura! (Sile Classica)
+    start: 2026-11-08T17:00
+    venue: Auditorium dell'Istituto Comprensivo
+    town: Roncade
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: iscrizione
+    official_url: https://www.sileclassica.it/
+    audience:
+    - famiglie
+    summary: Lettura animata con musica e omaggio a Primo Beraldo, nell'ambito del festival Sile Classica.
+    fonte: https://www.sileclassica.it/
+    trovato: '2026-10-31'
+  - title: I suoni della natura (Sile Classica)
+    start: 2026-11-22T18:00
+    venue: Auditorium dell'Istituto Comprensivo
+    town: Casale sul Sile
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.sileclassica.it/
+    summary: Incontro sulla musica nel cinema con Marco Biscarini e proiezione di un cortometraggio.
+    fonte: https://www.sileclassica.it/
+    trovato: '2026-10-31'
+  - title: 'Alessandro Taverna e Venice Chamber Orchestra: concerto finale di Sile Classica'
+    start: 2026-12-06T16:00
+    venue: Auditorium H-Farm College
+    town: Roncade
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.sileclassica.it/
+    summary: Concerto di chiusura del festival con il pianista Alessandro Taverna, Pietro Semenzato e la Venice Chamber Orchestra.
+    fonte: https://www.sileclassica.it/
+    trovato: '2026-10-31'
+  - title: Opera Locos
+    start: 2026-11-18T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Spettacolo comico-musicale della compagnia Yllana, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: Falstaff. L'arte di farla franca
+    start: 2026-11-28T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Commedia con Emilio Solfrizzi e Giorgio Borghetti, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: Falstaff. L'arte di farla franca
+    start: 2026-11-29T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Commedia con Emilio Solfrizzi e Giorgio Borghetti, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: 'Double Bill: Timeless Passion e Rossini Reloaded'
+    start: 2026-12-12T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Serata di danza della compagnia Fabula Saltica, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: Scaramuccia. Una commedia dell'arte
+    start: 2027-01-26T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Spettacolo di commedia dell'arte di Stivalaccio Teatro, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: Scaramuccia. Una commedia dell'arte
+    start: 2027-01-27T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Spettacolo di commedia dell'arte di Stivalaccio Teatro, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: Il male oscuro
+    start: 2027-02-11T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Spettacolo con Alessio Vassallo e Ninni Bruschetta, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: Don Chisciotte senza mancia
+    start: 2027-02-19T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Spettacolo con Laura Curino e Anna Marcato, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: Don Chisciotte senza mancia
+    start: 2027-02-20T20:45
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea centrale 26 EUR (ridotto 24), laterali 18 EUR (ridotto 15)
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    summary: Spettacolo con Laura Curino e Anna Marcato, nella stagione di prosa 2026/27 del Teatro Accademico.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+    trovato: '2026-10-31'
+  - title: Il Principe Ranocchio (Ragazzi, che Teatro!)
+    start: 2026-11-08T16:30
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: adulti 5 EUR, bambini 4 EUR
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/ragazzi-che-teatro-2026-2027-sei-domeniche-di-spettacoli-per-bambini-e-famiglie/
+    audience:
+    - famiglie
+    summary: Spettacolo per bambini dai 4 anni della compagnia Centro Teatrale da Ponte, nella rassegna domenicale Ragazzi, che Teatro!
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/ragazzi-che-teatro-2026-2027-sei-domeniche-di-spettacoli-per-bambini-e-famiglie/
+    trovato: '2026-10-31'
+  - title: Missione S.P.B.N. Uno spettacolo per Babbo Natale (Ragazzi, che Teatro!)
+    start: 2026-12-13T16:30
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: adulti 5 EUR, bambini 4 EUR
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/ragazzi-che-teatro-2026-2027-sei-domeniche-di-spettacoli-per-bambini-e-famiglie/
+    audience:
+    - famiglie
+    summary: Spettacolo per bambini dai 3 anni della compagnia Teatro Bandito, nella rassegna domenicale Ragazzi, che Teatro!
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/ragazzi-che-teatro-2026-2027-sei-domeniche-di-spettacoli-per-bambini-e-famiglie/
+    trovato: '2026-10-31'
+  - title: AIAIAI Pinocchio (Ragazzi, che Teatro!)
+    start: 2027-01-24T16:30
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: adulti 5 EUR, bambini 4 EUR
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/ragazzi-che-teatro-2026-2027-sei-domeniche-di-spettacoli-per-bambini-e-famiglie/
+    audience:
+    - famiglie
+    summary: Spettacolo per bambini dai 5 anni della compagnia Gruppo Ibrido, nella rassegna domenicale Ragazzi, che Teatro!
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/ragazzi-che-teatro-2026-2027-sei-domeniche-di-spettacoli-per-bambini-e-famiglie/
+    trovato: '2026-10-31'
+  - title: Clown in liberta' (Ragazzi, che Teatro!)
+    start: 2027-02-21T16:30
+    venue: Teatro Accademico
+    address: Via Giuseppe Garibaldi 4
+    town: Castelfranco Veneto
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: adulti 5 EUR, bambini 4 EUR
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/ragazzi-che-teatro-2026-2027-sei-domeniche-di-spettacoli-per-bambini-e-famiglie/
+    audience:
+    - famiglie
+    summary: Spettacolo per bambini dai 3 anni della compagnia Teatro Necessario, nella rassegna domenicale Ragazzi, che Teatro!
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/ragazzi-che-teatro-2026-2027-sei-domeniche-di-spettacoli-per-bambini-e-famiglie/
+    trovato: '2026-10-31'
+  - title: Sagra della Madonna della Salute di Maser
+    start: '2026-11-06'
+    end: '2026-11-21'
+    venue: Madonna della Salute
+    address: Via Montello 3
+    town: Maser
+    category: sagre-feste
+    subcategory: sagre
+    official_url: https://www.madonna-d-salute.it/
+    summary: Sagra tradizionale con serate a tema, cucina della tradizione e appuntamenti per grandi e piccoli.
+    fonte: https://www.madonna-d-salute.it/
+    trovato: '2026-10-31'

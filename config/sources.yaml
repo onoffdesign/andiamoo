@@ -81,6 +81,7 @@ sources:
     page_param: page
     max_pages: 3
     fetch_details: false
+    pagina_iscrizione: true   # la pagina Eventbrite e' la pagina di iscrizione dell'organizzatore: diventa link d'azione (2026-10-31)
     ai_rewrite: true
     note: "ItemList JSON-LD con coordinate, 20 eventi per pagina. Le pagine /d/ sono consentite."
 
@@ -185,6 +186,27 @@ sources:
     page_size: 40
     ai_rewrite: true
     note: "API MyPortal. Altri comuni MyPortal: stesso tipo, cambia base_url e codice IPA."
+
+  - id: biblioteche-treviso
+    name: Biblioteche Comunali di Treviso
+    type: myportal
+    enabled: true
+    base_url: https://www.bibliotecatreviso.it
+    ipa: C_L407_BIBLIO
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-10-31: portale MyPortal (/myportal/C_L407_BIBLIO/), stesso tipo del Comune. Da controllare nel rapporto la prima notte: se 0 eventi o errore, il tipo di contenuto potrebbe non essere pnrr_event."
+
+  # ---------- Teatro per famiglie ----------
+  - id: gli-alcuni
+    name: Gli Alcuni (teatro e parco per famiglie)
+    type: tribe_api
+    enabled: true
+    base_url: https://live.alcuni.it
+    per_page: 50
+    max_pages: 3
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-10-31: WordPress con The Events Calendar (meta tec-api). Eventi a Treviso (Parco degli Alberi Parlanti, Teatro Sant'Anna) ma anche a Padova e fuori regione: li filtra l'area. robots.txt lo rispetta il PC."
 
   # ---------- Segnalazioni ----------
   - id: modulo-organizzatori

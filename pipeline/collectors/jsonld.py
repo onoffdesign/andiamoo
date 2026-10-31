@@ -125,6 +125,10 @@ def to_event(obj: dict, src: dict, page_text: str = "") -> Event | None:
         ai_allowed=src.get("ai_rewrite", True),
         category=src.get("default_category"), subcategory=src.get("default_subcategory"),
     )
+    # Piattaforme dove la pagina dell'evento e' la pagina di iscrizione/biglietti dell'organizzatore
+    # (es. Eventbrite): diventa il link d'azione, cosi' l'evento non finisce in coda per "manca il sito ufficiale".
+    if src.get("pagina_iscrizione") and url and not ev.ticket_url:
+        ev.ticket_url = url
     return ev
 
 

@@ -75,6 +75,12 @@ def test_jsonld_eventbrite_itemlist_with_geo():
     assert e.lat == pytest.approx(45.724118) and e.geo_precision == "source"
 
 
+def test_jsonld_eventbrite_page_becomes_action_link():
+    src = dict(SRC, pagina_iscrizione=True)
+    e = [x for x in (jsonld.to_event(o, src) for o in jsonld.iter_jsonld(fx("eventbrite_listing.html"))) if x][0]
+    assert e.ticket_url == e.source_url and e.ticket_url.startswith("http")
+
+
 def test_jsonld_ticketone_uses_event_url_and_price():
     e = [x for x in (jsonld.to_event(o, SRC) for o in jsonld.iter_jsonld(fx("ticketone_listing.html"))) if x][0]
     assert "/event/" in e.source_url and e.price == "da 30 €" and e.access == "biglietto"
