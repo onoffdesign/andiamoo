@@ -1,5 +1,5 @@
 {
- "generato": "2026-10-30T16:53+01:00",
+ "generato": "2026-10-31T01:13+01:00",
  "eventi": [
   {
    "uid": "d20b8daa82d71b50",
@@ -22,52 +22,6 @@
    "lat": 45.6667402,
    "lon": 12.2508595,
    "precisione": "address"
-  },
-  {
-   "uid": "5a1a206d0d2e5ae5",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "Inaugurazione nuova sede di Spazio Famiglia",
-   "inizio": "2026-10-30T16:00",
-   "fine": "2026-10-30T19:00",
-   "luogo": "Treviso",
-   "indirizzo": "",
-   "comune": "Treviso",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "Informazioni su :\nlinktr.ee/spaziofamigliatreviso",
-   "fonte": "Comune di Treviso",
-   "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-30-10-2026",
-   "sito_ufficiale": "",
-   "riassunto": "L'evento prevede l'inaugurazione della nuova sede di Spazio Famiglia con programma allegato.",
-   "lat": 45.6658505,
-   "lon": 12.2455414,
-   "precisione": "town"
-  },
-  {
-   "uid": "a18dfe9d5d804e05",
-   "motivi": [
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "Bike Test Fantic presso Autosile Treviso",
-   "inizio": "2026-10-30",
-   "fine": null,
-   "luogo": "Via Noalese, 94",
-   "indirizzo": "94 Via Noalese",
-   "comune": "Treviso",
-   "categoria": "sport",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "Eventbrite",
-   "pagina_fonte": "https://www.eventbrite.it/e/biglietti-bike-test-fantic-presso-autosile-treviso-1982498168389",
-   "sito_ufficiale": "",
-   "riassunto": "Possibilità di provare le biciclette del marchio Fantic tramite test ride.",
-   "lat": 45.6511462,
-   "lon": 12.1876381,
-   "precisione": "source"
   },
   {
    "uid": "cba7b17a31b2e7c8",
@@ -255,6 +209,28 @@
    "precisione": "venue"
   },
   {
+   "uid": "1092de634d54faf7",
+   "motivi": [
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "8° Tramonto sulle Prealpi Trevigiane",
+   "inizio": "2026-10-31",
+   "fine": null,
+   "luogo": "",
+   "indirizzo": "",
+   "comune": "Monte Cesen",
+   "categoria": "sport",
+   "accesso": "iscrizione",
+   "prezzo": "",
+   "fonte": "Calendario Podismo",
+   "pagina_fonte": "https://www.calendariopodismo.it/gara/81635/8-tramonto-sulle-prealpi-trevigiane/",
+   "sito_ufficiale": "",
+   "riassunto": "Gara podistica.",
+   "lat": 45.9459356,
+   "lon": 12.0113763,
+   "precisione": "source"
+  },
+  {
    "uid": "d6dd2848a2f5e006",
    "motivi": [
     "titolo da ripulire"
@@ -297,6 +273,28 @@
    "lat": 45.7172629,
    "lon": 12.2076314,
    "precisione": "address"
+  },
+  {
+   "uid": "40a6b81b06d05003",
+   "motivi": [
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "Bike Test Fantic presso Autosile Treviso",
+   "inizio": "2026-10-31",
+   "fine": null,
+   "luogo": "Via Noalese, 94",
+   "indirizzo": "94 Via Noalese",
+   "comune": "Treviso",
+   "categoria": "sport",
+   "accesso": "iscrizione",
+   "prezzo": "",
+   "fonte": "Eventbrite",
+   "pagina_fonte": "https://www.eventbrite.it/e/biglietti-bike-test-fantic-presso-autosile-treviso-1982498169392",
+   "sito_ufficiale": "",
+   "riassunto": "Possibilità di provare le biciclette Fantic tramite test ride.",
+   "lat": 45.6511462,
+   "lon": 12.1876381,
+   "precisione": "source"
   },
   {
    "uid": "f03fe9dcfb338712",
@@ -879,10 +877,32 @@
    "fonte": "Eventbrite",
    "pagina_fonte": "https://www.eventbrite.it/e/biglietti-collection-showcase-king-of-the-roses-con-simone-guidarelli-2003607517019",
    "sito_ufficiale": "",
-   "riassunto": "Presentazione di una collezione di abbigliamento.",
+   "riassunto": "Viene presentata la collezione King of the Roses.",
    "lat": 45.7410201,
    "lon": 12.1218207,
    "precisione": "source"
+  },
+  {
+   "uid": "2e75b83598a1f02d",
+   "motivi": [
+    "manca il sito ufficiale: cercalo"
+   ],
+   "titolo": "La Valutazione del Paesaggio",
+   "inizio": "2026-11-12T08:30",
+   "fine": "2026-11-12T17:00",
+   "luogo": "Museo Santa Caterina",
+   "indirizzo": "Piazzetta Mario Botter, 1",
+   "comune": "Treviso",
+   "categoria": "business",
+   "accesso": "biglietto",
+   "prezzo": "La partecipazione è libera e gratuita fino a esaurimento posti con preiscrizione",
+   "fonte": "Comune di Treviso",
+   "pagina_fonte": "https://www.comune.treviso.it/home/dettaglio/eventi/la-valutazione-del-paesaggio2026-2",
+   "sito_ufficiale": "",
+   "riassunto": "Il convegno offre formazione sulla valutazione del paesaggio con tecniche applicative. Sono previsti crediti formativi professionali CFP per diverse categorie di professionisti.",
+   "lat": 45.6667402,
+   "lon": 12.2508595,
+   "precisione": "address"
   },
   {
    "uid": "dfdb24fdc47fbbda",
@@ -1332,30 +1352,6 @@
    "lat": 45.6632886,
    "lon": 12.2412298,
    "precisione": "source"
-  },
-  {
-   "uid": "f005f822cd8d06ef",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "titolo da ripulire"
-   ],
-   "titolo": "Million Voices: Hits from Tomorrowland alla Festa della Madonna della Salute – Bibano di Godega di Sant’Urbano (Treviso)",
-   "inizio": "2026-11-20T22:00",
-   "fine": "2026-11-21T01:00",
-   "luogo": "Festa della Madonna della Salute, località Salvatoronda, Bibano di Godega di Sant’Urbano (TV)",
-   "indirizzo": "località Salvatoronda, Bibano di Godega di Sant’Urbano (TV)",
-   "comune": "Godega di Sant'Urbano",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "Insolito Tran Tran",
-   "pagina_fonte": "https://www.insolitotrantran.it/event/million-voices-hits-from-tomorrowland-alla-festa-della-madonna-della-salute-bibano-di-godega-di-santurbano-treviso/",
-   "sito_ufficiale": "https://www.instagram.com/millionvoices.edm/",
-   "riassunto": "Serata a tema EDM con musica ispirata agli Swedish House Mafia e altri artisti come Avicii, Skrillex, Hardwell, David Guetta, Martin Garrix, Afrojack.",
-   "lat": 45.9080476,
-   "lon": 12.415528,
-   "precisione": "town"
   }
  ]
 }

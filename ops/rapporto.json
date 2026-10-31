@@ -4,18 +4,18 @@
    "trovati": 13,
    "nel_periodo": 13,
    "in_provincia": 13,
-   "nuovi": 13,
+   "nuovi": 0,
    "errore": "",
-   "secondi": 15
+   "secondi": 0
   },
   "insolitotrantran": {
-   "trovati": 59,
+   "trovati": 50,
    "nel_periodo": 40,
-   "in_provincia": 39,
-   "nuovi": 8,
+   "in_provincia": 38,
+   "nuovi": 1,
    "errore": "",
-   "solo_comune": 8,
-   "secondi": 170
+   "solo_comune": 6,
+   "secondi": 38
   },
   "eventiesagre": {
    "trovati": 9,
@@ -25,7 +25,7 @@
    "errore": "",
    "non_eventi": 1,
    "solo_comune": 2,
-   "secondi": 47
+   "secondi": 3
   },
   "2night": {
    "trovati": 15,
@@ -33,15 +33,15 @@
    "in_provincia": 14,
    "nuovi": 0,
    "errore": "",
-   "secondi": 36
+   "secondi": 1
   },
   "eventbrite": {
-   "trovati": 188,
+   "trovati": 195,
    "nel_periodo": 40,
-   "in_provincia": 36,
+   "in_provincia": 37,
    "nuovi": 2,
    "errore": "",
-   "secondi": 159
+   "secondi": 41
   },
   "ticketone": {
    "trovati": 0,
@@ -61,29 +61,29 @@
   },
   "running-life": {
    "trovati": 19,
-   "nel_periodo": 9,
-   "in_provincia": 8,
-   "nuovi": 0,
+   "nel_periodo": 10,
+   "in_provincia": 9,
+   "nuovi": 1,
    "errore": "",
    "non_eventi": 1,
-   "secondi": 22
+   "secondi": 3
   },
   "calendariopodismo": {
-   "trovati": 18,
-   "nel_periodo": 15,
-   "in_provincia": 15,
-   "nuovi": 0,
+   "trovati": 19,
+   "nel_periodo": 16,
+   "in_provincia": 16,
+   "nuovi": 1,
    "errore": "",
-   "secondi": 1
+   "secondi": 3
   },
   "podismoveneto": {
-   "trovati": 46,
-   "nel_periodo": 25,
-   "in_provincia": 25,
-   "nuovi": 0,
+   "trovati": 47,
+   "nel_periodo": 26,
+   "in_provincia": 26,
+   "nuovi": 1,
    "errore": "",
-   "solo_comune": 24,
-   "secondi": 23
+   "solo_comune": 25,
+   "secondi": 1
   },
   "gotrail": {
    "trovati": 10,
@@ -91,17 +91,17 @@
    "in_provincia": 5,
    "nuovi": 0,
    "errore": "",
-   "secondi": 14
+   "secondi": 1
   },
   "comune-treviso": {
-   "trovati": 17,
+   "trovati": 16,
    "nel_periodo": 7,
    "in_provincia": 7,
-   "nuovi": 0,
+   "nuovi": 1,
    "errore": "",
    "ricorrenti": 1,
-   "solo_comune": 3,
-   "secondi": 18
+   "solo_comune": 2,
+   "secondi": 3
   },
   "modulo-organizzatori": {
    "trovati": 0,
@@ -112,29 +112,29 @@
    "secondi": 0
   },
   "qdpnews": {
-   "trovati": 1,
-   "nel_periodo": 1,
-   "in_provincia": 1,
-   "nuovi": 1,
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
    "errore": "",
-   "solo_comune": 1,
-   "secondi": 6
+   "secondi": 2
   }
  },
- "luoghi_ricalcolati": 2,
- "chiamate_ai": 129,
- "richieste_web": 38,
- "richieste_geocoding": 100,
- "luoghi_trovati_con_ricerca": 4,
- "pagine_luogo_lette": 7,
+ "luoghi_ricalcolati": 0,
+ "chiamate_ai": 17,
+ "richieste_web": 31,
+ "richieste_geocoding": 8,
+ "luoghi_trovati_con_ricerca": 3,
+ "pagine_luogo_lette": 0,
  "scoperte": 31,
- "eventi_sul_sito": 149,
+ "eventi_sul_sito": 144,
  "correzioni_attive": 33,
  "rimossi_dalla_redazione": 3,
  "giro_pc": true,
  "motore_ai": "ollama",
  "modello": "gemma3:12b",
- "minuti": 10.6,
+ "minuti": 3.3,
  "in_revisione": 60,
- "finito_alle": "2026-10-30T16:53+01:00"
+ "finito_alle": "2026-10-31T01:13+01:00",
+ "segnalazioni_30_giorni": 0
 }
