@@ -17,33 +17,6 @@ using System;
 using System.Runtime.InteropServices;
 
 namespace Andiamo {
-  [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
-  public struct WTSINFOEX_LEVEL1 {
-    public int SessionId;
-    public int SessionState;
-    public int SessionFlags;
-    [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 33)] public string WinStationName;
-    [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 21)] public string UserName;
-    [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 18)] public string DomainName;
-    public long LogonTime;
-    public long ConnectTime;
-    public long DisconnectTime;
-    public long LastInputTime;
-    public long CurrentTime;
-    public int IncomingBytes;
-    public int OutgoingBytes;
-    public int IncomingFrames;
-    public int OutgoingFrames;
-    public int IncomingCompressedBytes;
-    public int OutgoingCompressedBytes;
-  }
-
-  [StructLayout(LayoutKind.Sequential)]
-  public struct WTSINFOEX {
-    public int Level;
-    public WTSINFOEX_LEVEL1 Data;
-  }
-
   public class SessionInfo {
     public string User = "";
     public bool Active;
@@ -57,6 +30,9 @@ namespace Andiamo {
     static extern bool WTSQuerySessionInformation(IntPtr server, uint sessionId, int infoClass, out IntPtr buffer, out uint bytes);
     [DllImport("wtsapi32.dll")] static extern void WTSFreeMemory(IntPtr memory);
 
+    // WTSINFOEXW letto a posizioni fisse (come in C): Level, poi WTSINFOEX_LEVEL1_W allineata a 8 byte.
+    //   8 SessionId · 12 SessionState · 16 SessionFlags · 20 WinStationName[33] · 86 UserName[21]
+    //   128 DomainName[18] · 168 LogonTime · 176 ConnectTime · 184 DisconnectTime · 192 LastInputTime · 200 CurrentTime
     public static SessionInfo Console() {
       var info = new SessionInfo();
       uint id = WTSGetActiveConsoleSessionId();
@@ -64,12 +40,14 @@ namespace Andiamo {
       IntPtr buf; uint bytes;
       if (!WTSQuerySessionInformation(IntPtr.Zero, id, 25, out buf, out bytes)) return info;   // 25 = WTSSessionInfoEx
       try {
-        var ex = (WTSINFOEX)Marshal.PtrToStructure(buf, typeof(WTSINFOEX));
-        info.User = ex.Data.UserName ?? "";
-        info.Active = ex.Data.SessionState == 0;   // WTSActive
-        info.Flags = ex.Data.SessionFlags;
-        if (ex.Data.LastInputTime > 0 && ex.Data.CurrentTime > ex.Data.LastInputTime)
-          info.IdleMinutes = (ex.Data.CurrentTime - ex.Data.LastInputTime) / 600000000.0;   // unita' da 100 ns
+        if (bytes < 208) return info;
+        info.Active = Marshal.ReadInt32(buf, 12) == 0;   // WTSActive
+        info.Flags = Marshal.ReadInt32(buf, 16);
+        info.User = Marshal.PtrToStringUni(new IntPtr(buf.ToInt64() + 86)) ?? "";
+        if (info.User.Length > 20) info.User = info.User.Substring(0, 20);
+        long lastInput = Marshal.ReadInt64(buf, 192);
+        long now = Marshal.ReadInt64(buf, 200);
+        if (lastInput > 0 && now > lastInput) info.IdleMinutes = (now - lastInput) / 600000000.0;   // unita' da 100 ns
       } finally { WTSFreeMemory(buf); }
       return info;
     }
