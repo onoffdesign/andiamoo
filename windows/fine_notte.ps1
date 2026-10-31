@@ -31,8 +31,8 @@ namespace Andiamo {
     [DllImport("wtsapi32.dll")] static extern void WTSFreeMemory(IntPtr memory);
 
     // WTSINFOEXW letto a posizioni fisse (come in C): Level, poi WTSINFOEX_LEVEL1_W allineata a 8 byte.
-    //   8 SessionId · 12 SessionState · 16 SessionFlags · 20 WinStationName[33] · 86 UserName[21]
-    //   128 DomainName[18] · 168 LogonTime · 176 ConnectTime · 184 DisconnectTime · 192 LastInputTime · 200 CurrentTime
+    //   8 SessionId, 12 SessionState, 16 SessionFlags, 20 WinStationName[33], 86 UserName[21]
+    //   128 DomainName[18], 168 LogonTime, 176 ConnectTime, 184 DisconnectTime, 192 LastInputTime, 200 CurrentTime
     public static SessionInfo Console() {
       var info = new SessionInfo();
       uint id = WTSGetActiveConsoleSessionId();
