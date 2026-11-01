@@ -1,47 +1,48 @@
 {
  "fonti": {
   "redazione": {
-   "trovati": 13,
-   "nel_periodo": 13,
-   "in_provincia": 13,
-   "nuovi": 0,
+   "trovati": 37,
+   "nel_periodo": 37,
+   "in_provincia": 37,
+   "nuovi": 24,
    "errore": "",
-   "secondi": 0
+   "solo_comune": 4,
+   "secondi": 20
   },
   "insolitotrantran": {
-   "trovati": 50,
-   "nel_periodo": 40,
-   "in_provincia": 38,
-   "nuovi": 1,
+   "trovati": 42,
+   "nel_periodo": 37,
+   "in_provincia": 35,
+   "nuovi": 5,
    "errore": "",
    "solo_comune": 6,
-   "secondi": 38
+   "secondi": 28
   },
   "eventiesagre": {
-   "trovati": 9,
+   "trovati": 6,
    "nel_periodo": 6,
    "in_provincia": 3,
    "nuovi": 0,
    "errore": "",
    "non_eventi": 1,
    "solo_comune": 2,
-   "secondi": 3
+   "secondi": 5
   },
   "2night": {
-   "trovati": 15,
-   "nel_periodo": 15,
-   "in_provincia": 14,
+   "trovati": 1,
+   "nel_periodo": 1,
+   "in_provincia": 1,
    "nuovi": 0,
    "errore": "",
    "secondi": 1
   },
   "eventbrite": {
-   "trovati": 195,
+   "trovati": 177,
    "nel_periodo": 40,
-   "in_provincia": 37,
-   "nuovi": 2,
+   "in_provincia": 35,
+   "nuovi": 11,
    "errore": "",
-   "secondi": 41
+   "secondi": 97
   },
   "ticketone": {
    "trovati": 0,
@@ -63,27 +64,27 @@
    "trovati": 19,
    "nel_periodo": 10,
    "in_provincia": 9,
-   "nuovi": 1,
+   "nuovi": 0,
    "errore": "",
    "non_eventi": 1,
-   "secondi": 3
+   "secondi": 1
   },
   "calendariopodismo": {
-   "trovati": 19,
-   "nel_periodo": 16,
-   "in_provincia": 16,
-   "nuovi": 1,
+   "trovati": 18,
+   "nel_periodo": 15,
+   "in_provincia": 15,
+   "nuovi": 0,
    "errore": "",
-   "secondi": 3
+   "secondi": 1
   },
   "podismoveneto": {
-   "trovati": 47,
-   "nel_periodo": 26,
-   "in_provincia": 26,
-   "nuovi": 1,
+   "trovati": 30,
+   "nel_periodo": 30,
+   "in_provincia": 30,
+   "nuovi": 4,
    "errore": "",
-   "solo_comune": 25,
-   "secondi": 1
+   "solo_comune": 28,
+   "secondi": 5
   },
   "gotrail": {
    "trovati": 10,
@@ -91,17 +92,32 @@
    "in_provincia": 5,
    "nuovi": 0,
    "errore": "",
-   "secondi": 1
+   "secondi": 0
   },
   "comune-treviso": {
    "trovati": 16,
-   "nel_periodo": 7,
-   "in_provincia": 7,
-   "nuovi": 1,
+   "nel_periodo": 6,
+   "in_provincia": 6,
+   "nuovi": 0,
    "errore": "",
    "ricorrenti": 1,
-   "solo_comune": 2,
-   "secondi": 3
+   "solo_comune": 1,
+   "secondi": 0
+  },
+  "biblioteche-treviso": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "",
+   "secondi": 0
+  },
+  "gli-alcuni": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "Server disconnected without sending a response."
   },
   "modulo-organizzatori": {
    "trovati": 0,
@@ -117,24 +133,24 @@
    "in_provincia": 0,
    "nuovi": 0,
    "errore": "",
-   "secondi": 2
+   "secondi": 1
   }
  },
  "luoghi_ricalcolati": 0,
- "chiamate_ai": 17,
- "richieste_web": 31,
- "richieste_geocoding": 8,
+ "chiamate_ai": 21,
+ "richieste_web": 37,
+ "richieste_geocoding": 30,
  "luoghi_trovati_con_ricerca": 3,
- "pagine_luogo_lette": 0,
+ "pagine_luogo_lette": 3,
  "scoperte": 31,
- "eventi_sul_sito": 144,
- "correzioni_attive": 33,
- "rimossi_dalla_redazione": 3,
+ "eventi_sul_sito": 161,
+ "correzioni_attive": 59,
+ "rimossi_dalla_redazione": 5,
  "giro_pc": true,
  "motore_ai": "ollama",
  "modello": "gemma3:12b",
- "minuti": 3.3,
+ "minuti": 4.9,
  "in_revisione": 60,
- "finito_alle": "2026-10-31T01:13+01:00",
+ "finito_alle": "2026-11-01T01:07+01:00",
  "segnalazioni_30_giorni": 0
 }
