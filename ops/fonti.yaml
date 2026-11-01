@@ -235,13 +235,13 @@ fonti:
   frequenza: mensile
   qualita: 2
   resa:
-    controlli: 0
-    eventi_trovati: 0
-    ultimi: []
-  ultimo_controllo: null
+    controlli: 1
+    eventi_trovati: 2
+    ultimi: [2]
+  ultimo_controllo: '2026-11-01'
   automatizzabile: 'no'
   stato: attiva
-  note: 'Pagine per singola data dei mercatini ricorrenti: buone per scoprire, confermare col comune.'
+  note: 'Pagine per singola data dei mercatini ricorrenti: buone per scoprire, confermare col comune. La ricerca "fleamapket mercatino Treviso <mese> <anno>" mostra nei risultati gli indirizzi con la data (/AAAA-MM-GG/): danno le date future senza aprire le pagine. Cose d Altri Tempi (Borgo Cavour) aggiunto il 2026-11-01.'
 - nome: Sagramap Veneto
   url: https://sagramap.com/veneto
   query: sagramap sagre novembre veneto
@@ -377,3 +377,93 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "circuito teatrale regionale: arteven.it/pr/treviso da' errore; da MyArteven aprire le pagine 'rassegne/<comune>-stagione-20262027' (es. mestre-teatro-toniolo). Candidata a fonte multi-provincia, controllare JSON-LD"
+- nome: Treviso Sotterranea (visite alle mura)
+  url: https://www.trevisosotterranea.it/calendario/
+  query: Treviso Sotterranea percorso visita <mese> <anno>
+  tipo: associazione
+  categorie: [arte-cultura]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-01'
+  automatizzabile: no
+  stato: attiva
+  note: "WordPress The Events Calendar (/calendario/elenco/?tribe-bar-date=...), ma robots.txt vieta i robot: non va in sources.yaml ne' aperta con WebFetch. Usare solo i titoli dei risultati di ricerca e il link /calendario/ come official_url."
+- nome: Cinema Edera (Treviso)
+  url: https://www.cinemaedera.it/i-film-della-settimana.html
+  query: Cinema Edera Treviso film della settimana
+  tipo: cinema
+  categorie: [teatro-spettacoli]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-01'
+  automatizzabile: no
+  stato: attiva
+  note: "programmazione con orari; rassegne (I martedi' a 4 euro della Regione, film in lingua originale, Edera Film Festival). Pagina 'prossimamente.html' per le uscite. Link ufficiale per gli eventi dell'Edera presi da insolitotrantran."
+- nome: Libreria Universitaria San Leonardo (Treviso)
+  url: https://www.libreriasanleonardo.it/notes
+  query: libreria San Leonardo Treviso presentazione libro
+  tipo: libreria
+  categorie: [arte-cultura]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-01'
+  automatizzabile: no
+  stato: attiva
+  note: "2-3 presentazioni e letture a settimana (Tutta la Commedia canto per canto, autori), Piazza Santa Maria dei Battuti 16, ingresso libero con prenotazione consigliata. Il 2026-11-01 la pagina mostrava solo date di ottobre: ricontrollare a meta' novembre."
+- nome: Bardin Garden Store (Lancenigo di Villorba)
+  url: https://www.bardingardenstore.it/eventi/
+  query: Bardin garden store eventi laboratori bambini
+  tipo: azienda
+  categorie: [famiglie-bambini]
+  comuni: [Villorba]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-01'
+  automatizzabile: no
+  stato: attiva
+  note: "laboratori per bambini e adulti nei festival stagionali (autunno: settembre-ottobre, concluso). Via Selghere 10. Riaprire per il Natale."
+- nome: CAI Pieve di Soligo (attivita')
+  url: https://www.caipievedisoligo.it/index.php/attivita/
+  query: CAI Pieve di Soligo attivita' <anno>
+  tipo: associazione
+  categorie: [natura-outdoor]
+  comuni: [Pieve di Soligo]
+  province: [TV]
+  frequenza: mensile
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-01'
+  automatizzabile: no
+  stato: debole
+  note: "programma annuale senza ritrovo, ora ne' iscrizione per i non soci; molte uscite riservate ai soci. Utile solo per il concerto di Natale 'il CAI per l'AIL' quando avra' data e luogo."
+- nome: Comune di Paese (MyPortal)
+  url: https://www.comune.paese.tv.it/home
+  query: Comune di Paese eventi
+  tipo: comune
+  categorie: [arte-cultura, sagre-feste]
+  comuni: [Paese]
+  province: [TV]
+  stato: spostata
+  ultimo_controllo: '2026-11-01'
+  note: "sito MyPortal della Regione: spostato in config/sources.yaml (comune-paese, C_G229) il 2026-11-01"
+- nome: Comune di Maser (MyPortal)
+  url: https://www.comune.maser.tv.it/home/vivere/Territorio/calendario-manifestazioni.html
+  query: Comune di Maser calendario manifestazioni
+  tipo: comune
+  categorie: [sagre-feste, arte-cultura]
+  comuni: [Maser]
+  province: [TV]
+  stato: spostata
+  ultimo_controllo: '2026-11-01'
+  note: "sito MyPortal: spostato in config/sources.yaml (comune-maser, C_F009) il 2026-11-01"

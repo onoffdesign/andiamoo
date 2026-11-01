@@ -42,7 +42,7 @@ alla parte 1.
 
 Formato: `- AAAA-MM-GG · segnalazione #id · uid · cosa diceva (in breve) · cosa e' stato fatto`
 
-(nessuna segnalazione registrata finora)
+(nessuna segnalazione registrata finora; 2026-11-01: nessuna arrivata)
 
 ## 3. Controllo a campione
 
@@ -57,4 +57,5 @@ Formato (una riga per notte, la piu' recente in alto):
 Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
+- 2026-11-01 · corretti 3/10 · errori: data 0, orario 1, luogo 1, accesso 2, categoria 0, link 3 · lezione: il link resta l'errore principale (Instagram per Edera e Treviso Sotterranea, nessun link per la staffetta di cross); tre eventi non verificabili nel budget (visita ad Anzano: pagina del Comune in errore; CRM da moku e 25 novembre all'Edera: solo Eventbrite). Corretti subito tutti gli errori trovati.
 - 2026-10-31 · corretti 0/10 · errori: data 0, orario 2, luogo 1, accesso 2, categoria 1, link 10 · lezione: il link e' l'errore di tutti: gli eventi Eventbrite non avevano official_url e quelli di insolitotrantran puntano al profilo Instagram dell'organizzatore. Eventbrite risolto nel codice (pagina_iscrizione); per insolitotrantran serve cercare il sito dell'evento. Sei eventi su dieci non verificabili per budget (solo Instagram).

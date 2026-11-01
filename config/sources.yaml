@@ -197,6 +197,26 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-10-31: portale MyPortal (/myportal/C_L407_BIBLIO/), stesso tipo del Comune. Da controllare nel rapporto la prima notte: se 0 eventi o errore, il tipo di contenuto potrebbe non essere pnrr_event."
 
+  - id: comune-paese
+    name: Comune di Paese
+    type: myportal
+    enabled: true
+    base_url: https://www.comune.paese.tv.it
+    ipa: C_G229
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-01: il sito del Comune e' MyPortal della Regione Veneto. Codice IPA dal codice catastale (G229): da controllare nel rapporto la prima notte."
+
+  - id: comune-maser
+    name: Comune di Maser
+    type: myportal
+    enabled: true
+    base_url: https://www.comune.maser.tv.it
+    ipa: C_F009
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-01: sito MyPortal (/home/vivere/...). Codice IPA dal codice catastale (F009): da controllare nel rapporto la prima notte."
+
   # ---------- Teatro per famiglie ----------
   - id: gli-alcuni
     name: Gli Alcuni (teatro e parco per famiglie)

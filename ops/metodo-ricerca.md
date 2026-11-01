@@ -66,6 +66,13 @@ lo schema e si parte dalle regole generali e da quelle della regione.
   eventiesagre (sagre; a volte sbaglia il comune, es. "Mordano" per Badoere di Morgano), calendari podistici
   (calendariopodismo, podismoveneto, running.life), Musincantus per la musica d'autunno.
 - Comune di Treviso: MyPortal, gia' letto dal PC.
+- Comuni MyPortal (miglioria 2026-11-01): si riconoscono dagli indirizzi `/home/vivere/...` o
+  `/home/dettaglio/eventi/...` nei risultati di ricerca; il codice IPA e' `C_` + codice catastale del comune (Treviso
+  C_L407, Paese C_G229, Maser C_F009). Appena se ne vede uno si aggiunge a `config/sources.yaml` come `myportal`
+  senza altre ricerche: il PC li legge gratis ogni notte. Se il rapporto dopo da' errore o zero eventi, il sito
+  ha un codice diverso (controllarlo nel sorgente della pagina) o non pubblica eventi.
+- Siti che vietano i robot o danno errore a WebFetch (usare solo i risultati di ricerca): trevisosotterranea.it,
+  comune.pievedisoligo.tv.it, rockol.it, itinerarinelgusto.it, comune.cappellamaggiore.tv.it.
 - Teatri: Teatro Accademia di Conegliano (stagione di prosa, orari non sempre pubblicati); Teatro Accademico di
   Castelfranco (stagione Arteven e Ragazzi che Teatro: la scheda del Comune ha date, orari e prezzi). I teatri
   comunali del circuito Arteven sono il buco piu' grande della copertura: partire da MyArteven.
@@ -93,4 +100,5 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-01 · TV · ricerche 55 · eventi nuovi 3 · eventi per ricerca 0,1 · fonti al PC +2 (Comune di Paese, Comune di Maser, MyPortal) · miglioria: i comuni MyPortal si aggiungono al PC senza ricerche (IPA = C_ + codice catastale), regola in sezione Treviso
 - 2026-10-31 · TV · ricerche 51 · eventi nuovi 24 · eventi per ricerca 0,5 · fonti al PC +2 (Gli Alcuni, Biblioteche Treviso) · miglioria: per Eventbrite la pagina dell'evento diventa link d'azione (opzione `pagina_iscrizione` in sources.yaml), cosi' ~40 eventi a notte non finiscono piu' in coda per "manca il sito ufficiale"

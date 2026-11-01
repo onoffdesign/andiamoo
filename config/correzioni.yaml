@@ -314,6 +314,105 @@ correggi:
     official_url: https://www.eventbrite.it/e/biglietti-degustazione-calici-riedel-2003233008855
     nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
     verificato: "2026-10-31"
+  eb448d471b9e41ac:
+    title: Dracula di Bram Stoker (versione originale) al Cinema Edera
+    official_url: https://www.cinemaedera.it/i-film-della-settimana.html
+    nota: "programmazione del Cinema Edera: 1/11 ore 21:15, versione 4K in inglese sottotitolata; era il profilo Instagram"
+    verificato: "2026-11-01"
+  fd16d46f8c338876:
+    title: "La chiamavano Trinita': pranzo benefico per il Santuario delle Cendrole"
+    start: "2026-11-29T12:00"
+    all_day: false
+    access: biglietto
+    price: 28 euro adulti, 15 euro bambini fino a 12 anni, su prenotazione
+    summary: Pranzo con gricia, carbonara e amatriciana preparate dai cuochi della Federazione Italiana Cuochi; il ricavato va alla parrocchia per il Santuario della Madonna delle Cendrole.
+    official_url: https://www.eventbrite.it/e/biglietti-la-chiamavano-trinita-magnar-ben-far-del-ben-2003915618559
+    nota: "orario, prezzi e scopo dall'articolo di storiedieccellenza.it (organizzano Comune, Pro Loco e Confraternita del Museto); prenotazione su Eventbrite"
+    verificato: "2026-11-01"
+  19283ff22f7bb490:
+    title: "Treviso Sotterranea: percorso 2, torrioni di Santa Sofia e San Tomaso"
+    official_url: https://www.trevisosotterranea.it/calendario/
+    nota: "calendario delle visite sul sito di Treviso Sotterranea (vieta i robot, letto solo nei risultati di ricerca); era il profilo Instagram"
+    verificato: "2026-11-01"
+  fece5f20984a3b1c:
+    start: "2026-11-14T17:00"
+    all_day: false
+    official_url: https://www.traildelgevero.it/
+    summary: Gara di corsa in salita di 5 km con 1000 metri di dislivello positivo.
+    nota: "Calendario Podismo Veneto, novembre 2026: partenza ore 17, km 5 d+1000, sito Trail del Gevero"
+    verificato: "2026-11-01"
+  a09381fb595cbb1f:
+    town: Vittorio Veneto
+    address: Costa di Vittorio Veneto
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/costa-di-vittorio-veneto-tv-panoramica.html
+    summary: Marcia a Costa di Vittorio Veneto con percorsi di 6, 12 e 19 km; il 19 km parte alle 8:30, gli altri alle 9.
+    nota: "volantino sul Calendario Podismo Veneto (organizza Trevisando)"
+    verificato: "2026-11-01"
+  2a5bf238bbd042a3:
+    start: "2026-11-15T09:30"
+    all_day: false
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/oderzo-tv-marcia-della-madonna-della.html
+    summary: Marcia non competitiva con percorsi di 6 e 12 km.
+    nota: "volantino sul Calendario Podismo Veneto: partenza ore 9:30"
+    verificato: "2026-11-01"
+  5f6757bb0c4f0bc5:
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/santa-lucia-di-piave-tv-manifestazione.html
+    nota: "dispositivo della gara (FIDAL, categorie giovanili) sul Calendario Podismo Veneto; luogo esatto non indicato, resta il centro del comune"
+    verificato: "2026-11-01"
+  93310f40b419d65f:
+    start: "2026-11-22T09:00"
+    all_day: false
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/cavaso-del-tomba-tv-pedemontana-in.html
+    ticket_url: https://www.avaibooksports.com/inscripcion/pedemontana-in-corsa-1/inscripcion_datos/
+    nota: "Calendario Podismo Veneto: 21,3 km alle 9, 10 e 5 km alle 9:15"
+    verificato: "2026-11-01"
+  ddfbb32226509ad2:
+    start: "2026-11-22T10:00"
+    all_day: false
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/treviso-treviso-walk-in-red-22112026.html
+    nota: "Calendario Podismo Veneto: partenza ore 10"
+    verificato: "2026-11-01"
+  2e75b83598a1f02d:
+    access: iscrizione
+    price: gratuita con preiscrizione, fino a esaurimento posti
+    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/la-valutazione-del-paesaggio2026-2
+    nota: "pagina eventi del Comune di Treviso (fonte ufficiale)"
+    verificato: "2026-11-01"
+  dfdb24fdc47fbbda:
+    title: "Filippo Spreafico: anteprima del nuovo spettacolo al Mattorosso"
+    nota: "titolo ripulito"
+    verificato: "2026-11-01"
+  c4e6f2f03fb00b51:
+    title: Bilancio di sostenibilita'
+    nota: "titolo ripulito"
+    verificato: "2026-11-01"
+  4c5cb7436cb040ef:
+    title: Sportelli informativi all'Istituto Cerletti
+    nota: "titolo ripulito"
+    verificato: "2026-11-01"
+  389f07194beb789e:
+    title: "I to schei me voria vol. III: cena e festa anni 2000 a Officina 31021"
+    town: Mogliano Veneto
+    nota: "titolo ripulito; Zerman e' frazione di Mogliano Veneto"
+    verificato: "2026-11-01"
+  4d60039c2552aa9f:
+    title: "Book club: Giorni futuri di Gabriella Dal Lago alla Casetta Rossa"
+    access: iscrizione
+    price: gratuito su prenotazione
+    nota: "titolo ripulito; gratuito su prenotazione e' iscrizione, non biglietto"
+    verificato: "2026-11-01"
+  f005f822cd8d06ef:
+    title: "Million Voices: Hits from Tomorrowland alla Festa della Madonna della Salute di Bibano"
+    nota: "titolo ripulito"
+    verificato: "2026-11-01"
+  63d4ced78683f4d9:
+    title: "Delizie d'Autunno: sapori del territorio"
+    nota: "titolo ripulito"
+    verificato: "2026-11-01"
+  73206897776c98d7:
+    title: "Delizie d'Autunno: sapori del territorio"
+    nota: "titolo ripulito"
+    verificato: "2026-11-01"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f54314f107c85ed7: "concluso il 29/10/2026"
@@ -322,3 +421,9 @@ rimuovi:
   cba7b17a31b2e7c8: "concluso nella notte del 30-31/10/2026"
 verificati:
   d20b8daa82d71b50: "2026-10-31"
+  00e3dd8ae3bf8877: "2026-11-01"
+  8707de21e04dfb7b: "2026-11-01"
+  f03fe9dcfb338712: "2026-11-01"
+  613f4a07328c6ac0: "2026-11-01"
+  06cfa4a504a8c8e5: "2026-11-01"
+  3ae4cecc9ed9584b: "2026-11-01"

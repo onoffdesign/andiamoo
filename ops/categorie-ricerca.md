@@ -57,7 +57,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · illustrazione e fumetto · design · collettive di artisti locali
 - **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
-- **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura
+- **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
   · letture per adulti · poesia e slam poetry
 - **Conferenze e incontri** [conferenza, talk, dialogo] · storia locale · scienza e divulgazione · filosofia
   · ambiente · astronomia (serate osservative) · festival di cittadinanza e cooperazione [festival, dialogo, 4passi]
@@ -86,7 +86,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · feste dei santuari mariani di novembre [Madonna della Salute] · sagre di San Martino
 - **Vino e bevande** [degustazione, cantine aperte] · Prosecco e colline del Conegliano Valdobbiadene · mostre dei vini
   · birre artigianali · distillati e grappa · cantine aperte
-- **Cibo** · street food · cene a tema · corsi di cucina · mercati contadini con degustazioni
+- **Cibo** · street food · cene a tema · corsi di cucina · mercati contadini con degustazioni · pranzi benefici con pasta di tradizione [pranzo solidale, magnar ben] · mostre mercato del radicchio [mostra del radicchio, Fiori d'Inverno] (gennaio)
 - **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed
   Epifania · feste di primavera e d'estate
 
@@ -108,12 +108,12 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia
   · rassegne domenicali dei teatri comunali [teatro ragazzi, domeniche a teatro, Ragazzi che Teatro]
   · letture animate con musica dal vivo
-- **All'aperto** · fattorie didattiche · cacce al tesoro · feste di quartiere per famiglie · parchi avventura
+- **All'aperto** · fattorie didattiche · cacce al tesoro · feste di quartiere per famiglie · parchi avventura · laboratori nei garden center [laboratorio bambini garden] · piantumazione di bulbi per bambini · villaggi delle zucche [villaggio delle zucche] (ottobre)
 - **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini
 
 ## Mercatini e fiere (`mercatini-fiere`)
 
-- **Mercatini** [mercatino] · antiquariato e modernariato [ricorrenza mensile] · hobbistica e artigianato
+- **Mercatini** [mercatino] · antiquariato e modernariato [ricorrenza mensile] · hobbistica e artigianato · antiquariato mensile nei borghi del centro [Cose d'Altri Tempi, quarta domenica]
   · vintage e usato · mercatini di Natale · baratto e swap party · libri usati
 - **Mercati agricoli** · mercato contadino · Campagna Amica
 - **Fiere** [fiera, expo] · fiere storiche di paese · fiere di settore · fiere dell'auto e moto d'epoca · fiere del
@@ -134,7 +134,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Escursioni** [escursione guidata, passeggiata naturalistica] · camminate in collina e sul Montello · lungo i fiumi
   (Sile, Piave) · notturne e al chiaro di luna · birdwatching · forest bathing
   · passeggiate urbane ai margini della citta' (Legambiente)
-- **Ambiente** · pulizia di parchi e fiumi · piantumazioni · educazione ambientale
+- **Ambiente** · pulizia di parchi e fiumi · piantumazioni · educazione ambientale · domeniche ecologiche con distribuzione di piantine [domenica ecologica, alberi in pianura] · Puliamo il Mondo di Legambiente [puliamo il mondo] (settembre-ottobre)
 - **Benessere** [yoga, meditazione] · yoga all'aperto · meditazione · pilates · camminata nordica [nordic walking]
 - **Orti e giardini** · giardini aperti · corsi di orticoltura · mostre di piante e fiori
 - **Animali** · eventi cinofili [raduno cani, sfilata cani] · fattorie aperte

@@ -2,6 +2,40 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-01
+
+- **Giro del PC**: ha girato stanotte (finito alle 01:07, 4,9 minuti, gemma3:12b): 161 eventi sul sito, 60 in
+  revisione, 121 nei prossimi 30 giorni. Fonti a zero: ticketone, dice, qdpnews, biblioteche-treviso (0 eventi
+  senza errore: forse tipo di contenuto diverso da pnrr_event), gli-alcuni (errore "Server disconnected", forse
+  momentaneo). Non toccate stanotte per budget.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (60, lavorati 30): 18 corretti, 6 verificati, 0 rimossi. Calendario Podismo Veneto:
+  orari e link ai volantini per Vertikal del Gevero, Panoramica della Salute, Marcia della Madonna della Salute,
+  staffette di cross, Pedemontana in Corsa, Walk in Red. Convegno sul paesaggio con link al Comune di Treviso e
+  accesso su iscrizione. Titoli ripuliti per 9 eventi (insolitotrantran, Eventbrite). Confermati sul programma
+  4passiFestival e Sile Classica, sagra di Maser (6-21/11), H-FARM a Ca' Tron.
+  Restano aperti: Sala Coletti (4passi) e Auditorium dell'IC di Roncade senza indirizzo, Osteria del Django e Area
+  Mercato di Maserada senza coordinate, tre eventi di .Ettore a Signoressa (accesso sconosciuto: la pagina eventi
+  del sito e' vuota), Domenica Italiana al Botegon (oggi).
+- **Controllo a campione**: 3/10 (link 3, accesso 2, orario 1, luogo 1; 3 non verificabili). Corretti Dracula
+  all'Edera (link al cinema), La chiamavano Trinita' (ore 12, 28/15 euro), Treviso Sotterranea (link al sito).
+- **Eventi aggiunti** (3): sport 1 (Su l'arden drio la Livenza, Albina di Gaiarine, 22/11), mercatini-fiere 2
+  (Cose d'Altri Tempi in Borgo Cavour, 27/12 e 24/1).
+- **Comuni controllati**: Cappella Maggiore (pagina del Comune in errore), Borso del Grappa, Pieve di Soligo (Comune
+  vieta i robot; CAI con uscite per soci), Mansue' (Comune senza eventi futuri), Paese (MyPortal: passato al PC),
+  Villorba (Villaggio delle Zucche fino al 2/11 senza pagina ufficiale). Resa quasi zero.
+- **Categorie cercate**: Famiglie > All'aperto, Natura > Ambiente, Arte > Libri e lettura, Sagre e cibo > Cibo
+  (risultati vecchi o fuori periodo). +10 voci nell'albero.
+- **Fonti note**: Fleamapket (2 date confermate del mercatino di Borgo Cavour, resa 2).
+- **Fonti nuove catalogate**: 5 (Treviso Sotterranea, Cinema Edera, Libreria San Leonardo, Bardin Garden Store, CAI
+  Pieve di Soligo). Spostate in sources.yaml: Comune di Paese (myportal C_G229) e Comune di Maser (myportal C_F009),
+  da controllare nel rapporto di domani.
+- **Miglioria**: i comuni MyPortal si passano al PC senza ricerche (IPA = C_ + codice catastale), regola nel metodo.
+- **Test di copertura**: 5/10.
+- **Ricerche**: 55 su 70 (4 sprecate su link non usciti da una ricerca).
+- **Per la notte dopo**: controllare comune-paese e comune-maser nel rapporto; biblioteche-treviso a zero;
+  Eventbrite: l'accesso resta "sconosciuto" per molti eventi (il PC potrebbe leggere is_free dall'API).
+
 ## 2026-10-31
 
 - **Giro del PC**: ha girato stanotte (finito alle 01:13, 3,3 minuti, gemma3:12b): 144 eventi sul sito, 60 in

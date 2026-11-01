@@ -9,10 +9,10 @@ comuni_TV:
   Altivole: null
   Arcade: null
   Asolo: null
-  Borso del Grappa: null
+  Borso del Grappa: 2026-11-01
   Breda di Piave: null
   Caerano di San Marco: null
-  Cappella Maggiore: null
+  Cappella Maggiore: 2026-11-01
   Carbonera: null
   Casale sul Sile: null
   Casier: null
@@ -41,7 +41,7 @@ comuni_TV:
   Gorgo al Monticano: null
   Istrana: null
   Loria: null
-  Mansuè: null
+  Mansuè: 2026-11-01
   Mareno di Piave: null
   Maser: null
   Maserada sul Piave: null
@@ -58,10 +58,10 @@ comuni_TV:
   Oderzo: null
   Ormelle: null
   Orsago: null
-  Paese: null
+  Paese: 2026-11-01
   Pederobba: null
   Pieve del Grappa: null
-  Pieve di Soligo: null
+  Pieve di Soligo: 2026-11-01
   Ponte di Piave: 2026-10-31
   Ponzano Veneto: 2026-10-31
   Portobuffolè: null
@@ -95,7 +95,7 @@ comuni_TV:
   Vazzola: null
   Vedelago: null
   Vidor: 2026-10-31
-  Villorba: null
+  Villorba: 2026-11-01
   Vittorio Veneto: null
   Volpago del Montello: 2026-10-30
   Zenson di Piave: null
@@ -137,7 +137,7 @@ aggregatori:
   eventivenetando.it: null
   trevisoinfo.it: null
   cosedicasa.com (mercatini): 2026-10-30
-  fleamapket.com (mercatini): null
+  fleamapket.com (mercatini): 2026-11-01
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
 community:
@@ -159,6 +159,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Famiglie e bambini > All'aperto": 2026-11-01
+  "Natura e benessere > Ambiente": 2026-11-01
+  "Arte e cultura > Libri e lettura": 2026-11-01
+  "Sagre e cibo > Cibo": 2026-11-01
   "Arte e cultura > Conferenze e incontri": 2026-10-31
   "Business e formazione > Lavoro": 2026-10-31
   "Arte e cultura > Tecnologia e scienza": 2026-10-31

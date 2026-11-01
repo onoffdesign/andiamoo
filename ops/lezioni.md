@@ -15,7 +15,10 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - Rassegne con programma su sito WordPress (es. musincantus.it): la pagina /eventi/elenco/?tribe-bar-search=<comune>
   da' tutte le date con indirizzo in una volta.
 - Mercatini ricorrenti: le schede cosedicasa.com indicano la regola (seconda/terza domenica), le sospensioni e la
-  prossima data; servono per dividere in date singole.
+  prossima data; servono per dividere in date singole. Su fleamapket i risultati di ricerca mostrano gia' gli
+  indirizzi con la data (/AAAA-MM-GG/): bastano per sapere le date confermate senza aprire le pagine.
+- Calendario Podismo Veneto (pagina del mese) da' anche i link ai volantini: si usano come official_url delle gare
+  senza sito. Una lettura ha sistemato 7 gare e trovato una gara mancante.
 
 ## Fonti da evitare o poco utili
 - distrettolaghi.it e' il Lago Maggiore (Piemonte), non il Lago di Revine: inutile.
@@ -24,10 +27,21 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - deliziedautunno.tv e cultura.gov.it vietano i robot: non aprirli, usarli solo come titolo nei risultati.
 - trevisotoday.it da' errore a WebFetch; venetotoday.it invece si apre.
 - microturismodellevenezie.it ha date contraddittorie nella stessa scheda: mai usarla come conferma.
+- Vietano i robot o danno errore: trevisosotterranea.it, comune.pievedisoligo.tv.it, rockol.it, itinerarinelgusto.it,
+  comune.cappellamaggiore.tv.it, puntoettore.it (pagina eventi vuota, eventi solo su Eventbrite e Instagram).
+- WebFetch rifiuta anche gli indirizzi presi dai file del repository (coda, sito_ufficiale): solo link usciti da
+  WebSearch. Le 4 aperture tentate cosi' il 2026-11-01 sono ricerche sprecate.
+- Ricerche "eventi <comune> novembre <anno>" sui comuni piccoli: escono solo portali (virgilio, ilborghista,
+  cheventi) e quasi mai eventi; resa ~0. Meglio cercare "Pro Loco <comune>" e il sito del comune per scoprire se
+  e' MyPortal (si passa al PC).
+- Ricerche per tema generiche (bambini all'aperto, presentazioni di libri) danno guide e pagine vecchie
+  (edizioni di giugno o gennaio): servono parole del periodo (Natale, San Martino) e un comune.
 
 ## Calendario (chi pubblica quando)
 - Teatri comunali: le stagioni 2026/27 escono a fine ottobre con vendite da inizio novembre (Castelfranco).
 - Sagre di San Martino e Madonna della Salute: tutte a novembre, quasi solo su Facebook e aggregatori.
+- Mostre del radicchio rosso (Preganziol, Zero Branco, rassegna Fiori d'Inverno): a gennaio, programmi a dicembre.
+- Garden center (Bardin): festival d'autunno settembre-ottobre, poi Natale.
 
 ## Errori da non ripetere
 - eventiesagre a volte sbaglia il nome del comune (Badoere di Morgano scritto "Mordano", poi geocodificato a caso):
