@@ -413,12 +413,104 @@ correggi:
     title: "Delizie d'Autunno: sapori del territorio"
     nota: "titolo ripulito"
     verificato: "2026-11-01"
+  aa63431f9d1b201b:
+    lat: 45.66695
+    lon: 12.25086
+    nota: "Sala Coletti: secondo Nordest24 (programma del 6/11) e' nel quadrante del complesso di Santa Caterina; indirizzo esatto non pubblicato, punto messo a Santa Caterina (piazzetta Botter), il posto certo piu' vicino"
+  95bf289bed4dd21d:
+    address: Via Antonio Vivaldi 30
+    nota: "sede dell'Istituto Comprensivo di Roncade in via Vivaldi 30 (scheda OpenPNRR del progetto dell'IC); auditorium nel plesso, geocodifica dall'indirizzo"
+  f8162ccc753b1b45:
+    title: "Panettone Resistente: presentazione a colazione all'Osteria del Django"
+    venue: Osteria del CS Django
+    address: Via Daniele Monterumici 11
+    nota: "indirizzo del Centro Sociale Django (ex caserma Piave) da sherwood.it e Waze; titolo ripulito"
+  b665ec02e9b8accd:
+    address: Via Adriano Olivetti 1
+    lat: 45.56438
+    lon: 12.43651
+    nota: "auditorium nel campus H-FARM di Ca' Tron (via Adriano Olivetti 1), stesse coordinate degli altri eventi H-FARM gia' verificati"
+  1795d2208cc25688:
+    official_url: https://www.ilmosaicomb.it/it/eventi/
+    nota: "pagina eventi dell'associazione Il Mosaico (Cose Ritrovate 2026, corso Mazzini, 8:30-19); era il profilo Instagram. Date di novembre e dicembre non pubblicate sul sito: accesso da confermare"
+  fe24b388c8cb12b7:
+    official_url: https://www.ilmosaicomb.it/it/eventi/
+    nota: "pagina eventi dell'associazione Il Mosaico (Cose Ritrovate 2026, corso Mazzini, 8:30-19); era il profilo Instagram"
+  1ca3d695de931012:
+    title: "Borgo Caiada Xmas Edition: workshop, food e market di artigianato"
+    nota: "titolo ripulito"
+  9dbe1dd554ed5921:
+    title: "Borgo Caiada Xmas Edition: workshop, food e market di artigianato"
+    nota: "titolo ripulito"
+  2c75b298fc85fbc7:
+    title: "AI e truffe digitali: proteggere il patrimonio dalle nuove frodi"
+    venue: Villa Vitturi
+    address: Via Saltore 1
+    nota: "titolo e luogo ripuliti (maiuscole)"
+  bb3cda00f560f5dd:
+    title: "SiA - Sostenibilita' in Azione (V edizione)"
+    start: "2026-11-26T09:00"
+    end: "2026-11-26T13:00"
+    all_day: false
+    access: iscrizione
+    price: "Gratuito con registrazione obbligatoria"
+    official_url: https://www.eventbrite.it/e/biglietti-sia-sostenibilita-in-azione-v-edizione-giovedi-26-novembre-2026-1991896893228
+    category: arte-cultura
+    subcategory: conferenze
+    summary: "Mattinata di talk brevi su sostenibilita', economia circolare, impatto sociale e innovazione responsabile, organizzata da CartaCarbone Festival con il Campus Treviso di Ca' Foscari."
+    nota: "pagina di iscrizione dell'organizzatore (CartaCarbone Festival): 9-13, check-in dalle 8:15, gratuito con registrazione"
+    verificato: "2026-11-02"
+  00d39b7070ae7be3:
+    title: "Open school all'Istituto G.B. Cerletti"
+    nota: "titolo ripulito"
+  89cbd8271e8be202:
+    title: "Fuori copione, nessun limite: show serale al Palaverde"
+    start: "2026-12-02T19:00"
+    end: "2026-12-02T23:00"
+    all_day: false
+    category: teatro-spettacoli
+    summary: "Serata benefica con musica, uno spettacolo di magia e interventi di sportivi, artisti e imprenditori, organizzata da Academy of Excellence."
+    nota: "pagina di iscrizione Eventbrite dell'organizzatore: porte alle 19, fine alle 23; prezzo non indicato"
+  aacb8abe5224c830:
+    title: "Fuori copione, nessun limite: mattina per le scuole superiori"
+    nota: "titolo ripulito; sessione per le scuole, accesso da confermare"
+  c244694694b8bfbc:
+    venue: Albina di Gaiarine
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/albina-di-gaiarine-tv-su-larden-drio-la.html
+    summary: "Marcia ad Albina di Gaiarine con percorsi di 6, 12 e 18 km; il 18 km parte alle 8:30, gli altri alle 9."
+    nota: "volantino sul Calendario Podismo Veneto (organizza Trevisando); stesso evento della 13a Marcia della Salute di calendariopodismo"
+    verificato: "2026-11-02"
+  fa57d002006bd558:
+    official_url: https://www.prosecco.run/ultra-trail/conegliano-valdobbiadene-prosecco-ultra-trail/
+    nota: "sito della gara dal Calendario Podismo Veneto di dicembre: partenza da Vidor alle 7:30, 51 km, arrivo a Conegliano"
+    verificato: "2026-11-02"
+  8fc46e02f590aa84:
+    official_url: https://www.prosecco.run/
+    nota: "sito della gara dal Calendario Podismo Veneto di dicembre: maratona alle 8, mezza alle 10, 10 km alle 10:10"
+  b289816068b29441:
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/pianzano-tv-marcia-san-nicolo-6122026.html
+    nota: "volantino sul Calendario Podismo Veneto: ore 9, 4-7-13-18 km; ritrovo solo come link a mappa"
+  56b50a31228079cc:
+    official_url: https://calendariopodismoveneto.blogspot.com/2026/01/montebelluna-tv-monte-christmas-walk.html
+    nota: "scheda sul Calendario Podismo Veneto: ore 9:30, 8,5 km, FIASP"
+  c6939a2775ef0359:
+    start: "2026-12-08T09:30"
+    all_day: false
+    nota: "orario dal Calendario Podismo Veneto di dicembre (5 e 11 km)"
+  2315053d4284e06c:
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/revine-tv-babbo-run-13122026.html
+    nota: "scheda sul Calendario Podismo Veneto (5 e 8 km); non e' un doppione dello spettacolo di Castelfranco"
+  817cda9bed8d18cc:
+    official_url: https://comune.cappellamaggiore.tv.it/luoghi-del-sacro/
+    nota: "pagina del Comune dove si prenotano le visite Percorsi d'Arte (edizione 2025: gratuite con prenotazione); per il 2026 orario e costo da confermare"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f54314f107c85ed7: "concluso il 29/10/2026"
   f2d6e32942ccfa6c: "concluso il 29/10/2026"
   06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
   cba7b17a31b2e7c8: "concluso nella notte del 30-31/10/2026"
+  d4bb012b9395670f: "concluso il 1/11/2026"
+  f1ef4b7e8e4186db: "doppione di Su l'arden drio la Livenza (c244694694b8bfbc), stessa marcia di Albina del 22/11: tenuta la scheda col volantino"
 verificati:
   d20b8daa82d71b50: "2026-10-31"
   00e3dd8ae3bf8877: "2026-11-01"

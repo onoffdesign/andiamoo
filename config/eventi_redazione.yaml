@@ -456,18 +456,6 @@ eventi:
     summary: Sagra tradizionale con serate a tema, cucina della tradizione e appuntamenti per grandi e piccoli.
     fonte: https://www.madonna-d-salute.it/
     trovato: '2026-10-31'
-  - title: Su l'arden drio la Livenza
-    start: 2026-11-22T08:30
-    venue: Albina di Gaiarine
-    address: Albina
-    town: Gaiarine
-    category: sport
-    subcategory: corsa
-    access: iscrizione
-    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/albina-di-gaiarine-tv-su-larden-drio-la.html
-    summary: Marcia ad Albina di Gaiarine con percorsi di 6, 12 e 18 km; il 18 km parte alle 8:30, gli altri alle 9. Organizza Trevisando.
-    fonte: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
-    trovato: '2026-11-01'
   - title: "Cose d'Altri Tempi: mercatino dell'antiquariato"
     start: 2026-12-27T08:00
     end: 2026-12-27T19:00
@@ -493,3 +481,448 @@ eventi:
     summary: Mercatino mensile di antiquariato, modernariato e oggetti da collezione lungo Borgo Cavour e via Canova.
     fonte: https://www.fleamapket.com/event/mercatino-dellantiquariato-a-treviso-cose-daltri-tempi/2027-01-24/
     trovato: '2026-11-01'
+  - title: "Uno nessuno tutti: storia di un soldato senza nome"
+    start: 2026-11-04T20:30
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: iscrizione
+    price: "Gratuito con prenotazione obbligatoria"
+    official_url: https://teatrolorenzodaponte.it/cartellone/uno-nessuno-tutti-04-11-2026/
+    summary: "Lettura teatrale del Gruppo Teatrale Castellani, testo e regia di Piero Turco, dedicata ai soldati e alle persone comuni nei momenti difficili della storia del Paese."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Strighe maledette!"
+    start: 2026-11-15T20:30
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/strighe-maledette/
+    summary: "Spettacolo di Stivalaccio Teatro nella stagione di prosa del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Mito e mitologia"
+    start: 2026-11-18T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/mito-e-mitologia/
+    summary: "Appuntamento della rassegna Class del Centro Teatrale Da Ponte dedicata ai classici e alla mitologia."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Il calapranzi"
+    start: 2026-11-19T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/il-calapranzi/
+    summary: "Spettacolo della compagnia Artivarti nella rassegna Off del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Fiabe venete"
+    start: 2026-11-21T20:30
+    venue: "Teatro Damiano Chiesa"
+    address: "Via Per Brugnera 1, Francenigo"
+    town: "Gaiarine"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/fiabe-venete-21-11-2026/
+    audience:
+    - famiglie
+    summary: "Spettacolo di fiabe della tradizione veneta del Centro Teatrale Da Ponte al teatro di Francenigo."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "La magia delle foglie"
+    start: 2026-11-22T17:00
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/la-magia-delle-foglie/
+    audience:
+    - famiglie
+    summary: "Spettacolo per bambini della compagnia Gli Alcuni nella rassegna Kids del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Buena Vista Social Club: Temporary Band"
+    start: 2026-11-27T21:00
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/buena-vista-social-club/
+    summary: "Concerto della Temporary Band dedicato al repertorio del Buena Vista Social Club."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Loop"
+    start: 2026-11-27T20:00
+    venue: "Centro Polifunzionale"
+    address: "Via Andrea Palladio 2"
+    town: "Vidor"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://centroteatraledaponte.it/spettacoli/loop/
+    summary: "Spettacolo del Centro Teatrale Da Ponte in tournee al Centro Polifunzionale di Vidor."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "In principio era il caos"
+    start: 2026-12-02T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/in-principio-era-il-caos/
+    summary: "Appuntamento della rassegna Class del Centro Teatrale Da Ponte dedicata alla mitologia."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Crazy Jazz"
+    start: 2026-12-11T20:30
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/crazy-jazz/
+    summary: "Concerto jazz di Bacchia e Zemolin nella rassegna musicale del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Canto di Natale"
+    start: 2026-12-12T20:30
+    venue: "Teatro Damiano Chiesa"
+    address: "Via Per Brugnera 1, Francenigo"
+    town: "Gaiarine"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/canto-di-natale-12-12-2026/
+    audience:
+    - famiglie
+    summary: "Spettacolo natalizio tratto da Dickens del Centro Teatrale Da Ponte al teatro di Francenigo."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Fiabe venete"
+    start: 2026-12-13T17:00
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/fiabe-venete/
+    audience:
+    - famiglie
+    summary: "Spettacolo di fiabe venete della compagnia Pollice & Indice nella rassegna Kids."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Canto di Natale"
+    start: 2026-12-13T16:30
+    venue: "Sala Papa Luciani"
+    address: "Via Piave 24, Falze' di Piave"
+    town: "Sernaglia della Battaglia"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://centroteatraledaponte.it/spettacoli/canto-di-natale/
+    audience:
+    - famiglie
+    summary: "Spettacolo natalizio tratto da Dickens del Centro Teatrale Da Ponte alla Sala Papa Luciani di Falze'."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Gli dei sono cattivi?"
+    start: 2026-12-16T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/gli-dei-sono-cattivi/
+    summary: "Appuntamento della rassegna Class del Centro Teatrale Da Ponte sulla mitologia greca."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Addio, Novecento"
+    start: 2026-12-22T20:30
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/addio-novecento/
+    summary: "Spettacolo con Edoardo Fainello nella stagione di prosa del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Canto di Natale"
+    start: 2026-12-24T10:00
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/canto-di-natale-2/
+    audience:
+    - famiglie
+    summary: "Spettacolo natalizio per famiglie del Centro Teatrale Da Ponte nella rassegna Kids."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Shakespeare proibito: spettacolo di Capodanno"
+    start: 2026-12-31T22:00
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/shakespeare-proibito-31-12-2026/
+    summary: "Spettacolo di fine anno del Centro Teatrale Da Ponte nella sala grande del teatro."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Fiabe venete"
+    start: 2027-01-10T16:00
+    venue: "Teatro La Loggia"
+    address: "Piazza Roma 8"
+    town: "Cison di Valmarino"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/fiabe-venete-10-01-2027/
+    audience:
+    - famiglie
+    summary: "Spettacolo di fiabe venete della compagnia Pollice & Indice al Teatro La Loggia."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Gli dei benevoli e salvatori"
+    start: 2027-01-13T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/gli-dei-benevoli-e-salvatori/
+    summary: "Appuntamento della rassegna Class del Centro Teatrale Da Ponte sulla mitologia."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Il canto magico della foresta"
+    start: 2027-01-17T17:00
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/il-canto-magico-della-foresta/
+    audience:
+    - famiglie
+    summary: "Spettacolo per bambini di Artisti Associati nella rassegna Kids del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Bestiario idrico"
+    start: 2027-01-20T20:30
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/bestiario-idrico/
+    summary: "Spettacolo di Marco Paolini nella stagione di prosa del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Facce da funerale"
+    start: 2027-01-21T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/facce-da-funerale/
+    summary: "Commedia della compagnia Onoranze Sceniche nella rassegna Off del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Funny Friday: prima puntata"
+    start: 2027-01-22T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/funny-friday-1/
+    summary: "Serata di comicita' della rassegna Funny Friday al Ridotto del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Il multiverso delle fiabe"
+    start: 2027-01-23T20:30
+    venue: "Teatro Damiano Chiesa"
+    address: "Via Per Brugnera 1, Francenigo"
+    town: "Gaiarine"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/il-multiverso-delle-fiabe-04-04-2027-2/
+    audience:
+    - famiglie
+    summary: "Spettacolo di fiabe del Centro Teatrale Da Ponte al teatro di Francenigo."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Il comico che sfido' Hitler"
+    start: 2027-01-27T20:30
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/il-comico-che-sfido-hitler-27-01-2027/
+    summary: "Spettacolo di Mirko Bottega proposto come evento speciale del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Edipo e Agamennone"
+    start: 2027-02-03T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/edipo-e-agamennone/
+    summary: "Appuntamento della rassegna Class del Centro Teatrale Da Ponte sulla tragedia greca."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Nannerl"
+    start: 2027-02-11T20:30
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/nannerl/
+    summary: "Spettacolo del Centro Teatrale Da Ponte nella rassegna musicale del teatro."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Metaforicamente Schiros"
+    start: 2027-02-12T20:30
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/metaforicamente-schiros/
+    summary: "Spettacolo di Beatrice Schiros nella stagione di prosa del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Groppi d'amore nella scuraglia"
+    start: 2027-02-14T16:00
+    venue: "Teatro La Loggia"
+    address: "Piazza Roma 8"
+    town: "Cison di Valmarino"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/groppi-damore-nella-scuraglia-14-02-2027/
+    summary: "Spettacolo di Silvio Barbiero al Teatro La Loggia di Cison di Valmarino."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Antigone e Medea"
+    start: 2027-02-17T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/antigone-e-medea/
+    summary: "Appuntamento della rassegna Class del Centro Teatrale Da Ponte sulla tragedia greca."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "S.O.S. Operazione Natura"
+    start: 2027-02-20T20:30
+    venue: "Teatro Damiano Chiesa"
+    address: "Via Per Brugnera 1, Francenigo"
+    town: "Gaiarine"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/s-o-s-operazione-natura-20-02-2027/
+    audience:
+    - famiglie
+    summary: "Spettacolo per bambini del Centro Teatrale Da Ponte al teatro di Francenigo."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Fuorigregge"
+    start: 2027-02-20T21:00
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/fuorigregge/
+    summary: "Serata con Matteo Gracis fuori rassegna nella sala grande del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "I musicanti di Brema"
+    start: 2027-02-21T17:00
+    venue: "Teatro Lorenzo Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/i-musicanti-di-brema/
+    audience:
+    - famiglie
+    summary: "Spettacolo per bambini di Teatro per Davvero nella rassegna Kids del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "Funny Friday: seconda puntata"
+    start: 2027-02-26T20:30
+    venue: "Ridotto del Teatro Da Ponte"
+    address: "Via Martiri della Liberta' 36"
+    town: "Vittorio Veneto"
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/funny-friday-2/
+    summary: "Serata di comicita' della rassegna Funny Friday al Ridotto del Teatro Da Ponte."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
+  - title: "S.O.S. Operazione Natura"
+    start: 2027-02-28T16:00
+    venue: "Teatro La Loggia"
+    address: "Piazza Roma 8"
+    town: "Cison di Valmarino"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/s-o-s-operazione-natura-28-02-2027/
+    audience:
+    - famiglie
+    summary: "Spettacolo per bambini del Centro Teatrale Da Ponte al Teatro La Loggia."
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-02'
