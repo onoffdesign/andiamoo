@@ -23,6 +23,8 @@ def publish(message: str) -> bool:
     _git("add", path)
     if (ROOT / "ops").exists():
         _git("add", "ops")                 # rapporto del giro e coda di revisione per Claude
+    if (ROOT / "archivio").exists():
+        _git("add", "archivio")            # archivio storico di tutti gli eventi pubblicati
     if _git("diff", "--cached", "--quiet").returncode == 0:
         log.info("Nessuna novita' da pubblicare.")
         return True

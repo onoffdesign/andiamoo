@@ -15,7 +15,7 @@ import sys
 import time
 from datetime import timedelta
 
-from . import editorial, quality
+from . import archive, editorial, quality
 from .collectors import Context, registry
 from .config import DATA_DIR, settings, sources
 from .dedupe import dedupe
@@ -172,6 +172,10 @@ def main(argv=None) -> int:
     unique = editorial.apply_events(unique, None if args.offline_geo else (geo if not args.export_only else Geocoder(store)),
                                     corrections)
     payload = export(unique)
+    # archivio storico: ogni evento pubblicato resta conservato, anche dopo la fine o se viene tolto
+    archive.seed_from_store(store)
+    report["archivio"] = archive.update(store, payload["events"], corrections)
+    archive.write_files(store)
     portals = {s["id"] for s in sources() if s.get("portal")}
     report["scoperte"] = discovery_report(published, portals)
     report["eventi_sul_sito"] = payload["count"]

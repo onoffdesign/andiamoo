@@ -165,3 +165,27 @@ def test_piano_notte_runs_on_repo_memory(capsys):
     assert "Provincia attiva" in out and "comuni da controllare" in out
     assert piano_notte.active_province()[1] == "TV"
     assert any(s.startswith("Sport > ") for s in piano_notte.category_scopes())
+
+
+def test_archive_keeps_every_published_event(tmp_path):
+    from datetime import date
+    from pipeline import archive
+    from pipeline.store import Store
+    store = Store(tmp_path / "a.sqlite")
+    ev1 = {"uid": "a1", "title": "Sagra del radicchio", "start": "2026-11-05", "town": "Treviso"}
+    ev2 = {"uid": "b2", "title": "Concerto", "start": "2026-11-20", "town": "Conegliano"}
+    ev3 = {"uid": "c3", "title": "Mostra", "start": "2026-11-10", "end": "2026-12-20", "town": "Asolo"}
+    corr = {"rimuovi": {}}
+    archive.update(store, [ev1, ev2, ev3], corr, today=date(2026, 11, 2))
+    # dopo: ev1 e' finito, ev2 tolto dalla redazione, ev3 sparito dalle fonti prima della fine
+    stats = archive.update(store, [], {"rimuovi": {"b2": "annullato"}}, today=date(2026, 11, 7))
+    assert stats == {"pubblicati": 0, "conclusi": 1, "rimossi": 1, "non_piu_presenti": 1}
+    folder = tmp_path / "archivio"
+    assert archive.write_files(store, folder) == 1
+    lines = (folder / "2026-11.jsonl").read_text().splitlines()
+    recs = {r["uid"]: r for r in map(__import__("json").loads, lines)}
+    assert recs["a1"]["stato"] == "concluso" and recs["a1"]["prima_pubblicazione"] == "2026-11-02"
+    assert recs["b2"]["stato"] == "rimosso" and recs["b2"]["motivo"] == "annullato"
+    assert recs["c3"]["stato"] == "non_piu_presente"
+    assert archive.write_files(store, folder) == 0                 # nulla di nuovo: file non riscritti
+    assert archive.search("radicchio", "2026", folder)[0]["uid"] == "a1"

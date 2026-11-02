@@ -37,6 +37,10 @@ Ordine di lavoro per una provincia, dal piu' economico al piu' costoso:
 4. **Categorie di dettaglio** (`ops/categorie-ricerca.md`) non cercate da piu' tempo in quella provincia.
 5. **Ricerca esplorativa** di fonti nuove: solo con il tempo che resta.
 
+Eventi annuali: l'archivio storico (`python -m pipeline.archive --cerca`) conserva tutte le edizioni passate. Circa un
+mese prima della data dell'anno precedente, cerca la nuova edizione di sagre, festival, gare e rassegne gia' viste:
+e' la ricerca con la resa piu' alta in assoluto.
+
 Come cercare:
 - Una ricerca deve puntare a una **pagina che elenca piu' eventi** (calendario di un comune, pagina eventi di un
   teatro, gruppo di gare), non a un singolo evento: un elenco rende 5-20 eventi per una sola lettura.

@@ -89,6 +89,10 @@ La shell del cloud non raggiunge i siti degli eventi: per leggere pagine usa Web
 WebFetch apre solo link comparsi nei risultati di WebSearch: se un link della coda viene rifiutato, cerca
 "titolo + comune + anno" con WebSearch e apri il risultato giusto. Controlla sempre l'anno: molte pagine
 parlano di edizioni passate.
+Archivio storico di tutti gli eventi pubblicati, anche passati o tolti: `python -m pipeline.archive --cerca "testo"
+[--anno 2026]`. Serve a ritrovare le edizioni degli anni prima (sagre, festival e gare annuali: cerca la nuova
+edizione quando si avvicina la data) e a controllare gli eventi con stato `non_piu_presente` (spariti dalle fonti
+prima della fine: annullati o spostati?).
 Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/events.json`:
 `python -m pipeline.editorial --cerca "titolo o luogo" --data AAAA-MM-GG` e `--uid <uid>`.
 
@@ -131,6 +135,8 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
    `/myportal/C_xxxx/`), aggiungilo come fonte `myportal` con il suo codice IPA, come `comune-treviso`.
    La notte dopo, se il rapporto mostra errori, sistemale o disattivale.
 6. **Pulizia** - togli da `correzioni.yaml` ed `eventi_redazione.yaml` le voci di eventi conclusi da piu' di 7 giorni.
+   Non si perde nulla: ogni evento pubblicato resta nell'archivio storico (`archivio/AAAA-MM.jsonl`, scritto dal PC
+   a ogni giro, con le correzioni gia' applicate). Non modificare a mano i file dell'archivio.
 7. **Verifica e pubblicazione**
    ```
    python -m pipeline.editorial --controlla      # deve dire "validi"

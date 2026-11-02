@@ -154,3 +154,10 @@ squadre (Treviso Basket, Imoco Volley, Benetton Rugby). Per ognuna: controllare 
 dati strutturati (JSON-LD, RSS, iCal, API), poi aggiungerla in `config/sources.yaml`.
 
 Non e' una consulenza legale: prima del lancio pubblico conviene una verifica con un legale su banche dati e diritto d'autore.
+
+## Archivio storico
+
+Il sito mostra solo gli eventi da oggi in avanti, ma nessun evento viene perso: a ogni giro il PC salva la versione
+finale di ogni evento pubblicato (con le correzioni) nel database `data/eventi.sqlite` (tabella `archive`) e in copia
+in `archivio/AAAA-MM.jsonl`, un file per mese di inizio, nel repository. Ogni evento ha uno stato: `pubblicato`,
+`concluso`, `rimosso` (con il motivo) o `non_piu_presente`. Ricerca: `python -m pipeline.archive --cerca "testo"`.
