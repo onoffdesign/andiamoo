@@ -190,12 +190,13 @@ sources:
   - id: biblioteche-treviso
     name: Biblioteche Comunali di Treviso
     type: myportal
-    enabled: true
+    enabled: false
     base_url: https://www.bibliotecatreviso.it
     ipa: C_L407_BIBLIO
     page_size: 40
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-10-31: portale MyPortal (/myportal/C_L407_BIBLIO/), stesso tipo del Comune. Da controllare nel rapporto la prima notte: se 0 eventi o errore, il tipo di contenuto potrebbe non essere pnrr_event."
+    # 2026-11-02: disattivata da Claude: robots.txt di bibliotecatreviso.it vieta /myportal/ (WebFetch: robots_disallowed) e il PC ha trovato 0 eventi due notti di fila. Non riattivare senza permesso del sito.
 
   - id: comune-paese
     name: Comune di Paese
@@ -216,6 +217,56 @@ sources:
     page_size: 40
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-01: sito MyPortal (/home/vivere/...). Codice IPA dal codice catastale (F009): da controllare nel rapporto la prima notte."
+
+  - id: comune-povegliano
+    name: Comune di Povegliano
+    type: myportal
+    enabled: true
+    base_url: https://www.comune.povegliano.tv.it
+    ipa: C_G944
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-02: sito MyPortal (/home/vivere/eventi.html, schede /eventi/<nome>.html). Codice IPA dal codice catastale (G944): da controllare nel rapporto la prima notte."
+
+  - id: comune-loria
+    name: Comune di Loria
+    type: myportal
+    enabled: true
+    base_url: https://www.comune.loria.tv.it
+    ipa: C_E692
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-02: schede /eventi/<nome>.html come Povegliano (MyPortal). Codice IPA dal codice catastale (E692): da controllare nel rapporto la prima notte."
+
+  # ---------- Siti con il tema "design comuni" (WordPress, /vivere-il-comune/eventi/) ----------
+  # Nessun JSON-LD: la pagina elenco ha titolo, giorno e link; il modello locale estrae gli eventi (costo zero
+  # crediti Claude). Aggiunti da Claude il 2026-11-02: da controllare nel rapporto la prima notte.
+  - id: comune-san-biagio
+    name: Comune di San Biagio di Callalta
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.sanbiagio.tv.it/eventi/]
+    hint: "Eventi del Comune di San Biagio di Callalta (TV), anno 2026 se non indicato; town San Biagio di Callalta se non indicato."
+    ai_rewrite: true
+    note: "WordPress con tema design-comuni: elenco con giorno, titolo e link alla scheda. 8 eventi futuri al 2026-11-02."
+
+  - id: comune-castelfranco
+    name: Comune di Castelfranco Veneto
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.castelfrancoveneto.tv.it/tutti-gli-eventi/]
+    hint: "Eventi del Comune di Castelfranco Veneto (TV); town Castelfranco Veneto se non indicato."
+    ai_rewrite: true
+    note: "Stesso tema design-comuni di San Biagio; era in ops/fonti.yaml (qualita' 5), letta a mano dalla redazione."
+
+  - id: teatro-da-ponte
+    name: Teatro Lorenzo Da Ponte (Vittorio Veneto)
+    type: html_llm
+    enabled: true
+    listing_urls: [https://teatrolorenzodaponte.it/calendario/]
+    hint: "Calendario del Teatro Da Ponte, Via Martiri della Liberta' 36, Vittorio Veneto (TV), stagione 2026/2027; anche sedi in tournee: tenere solo quelle in provincia di Treviso (Francenigo di Gaiarine, Cison di Valmarino, Vidor, Falze' di Piave). Spettacoli a biglietto salvo diversa indicazione."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-02: calendario con data, ora, sala e link alla scheda di ogni spettacolo (35 date TV fino a febbraio inserite a mano in eventi_redazione)."
 
   # ---------- Teatro per famiglie ----------
   - id: gli-alcuni

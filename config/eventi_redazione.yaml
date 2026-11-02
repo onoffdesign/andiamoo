@@ -926,3 +926,142 @@ eventi:
     summary: "Spettacolo per bambini del Centro Teatrale Da Ponte al Teatro La Loggia."
     fonte: https://teatrolorenzodaponte.it/calendario/
     trovato: '2026-11-02'
+  - title: "Fuori dalla cornice: laboratorio per bambini al Museo Bailo"
+    start: 2026-11-07T15:00
+    venue: "Museo Bailo"
+    address: "Borgo Cavour 24"
+    town: "Treviso"
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://visitmuseumtreviso.com/shop/laboratorio-per-bambini-fuori-dalla-cornice/
+    audience:
+    - famiglie
+    summary: "Laboratorio creativo per bambini nelle sale del Museo Bailo, su prenotazione."
+    fonte: https://visitmuseumtreviso.com/laboratori-weekend/
+    trovato: '2026-11-02'
+  - title: "Esplosione di colori: laboratorio per bambini a Santa Caterina"
+    start: 2026-11-14T15:00
+    venue: "Museo di Santa Caterina"
+    address: "Piazzetta Mario Botter 1"
+    town: "Treviso"
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://visitmuseumtreviso.com/shop/laboratorio-per-bambini-esplosione-di-colori/
+    audience:
+    - famiglie
+    summary: "Laboratorio creativo per bambini al Museo di Santa Caterina, su prenotazione."
+    fonte: https://visitmuseumtreviso.com/laboratori-weekend/
+    trovato: '2026-11-02'
+  - title: "La materia dei sogni: visita guidata per famiglie"
+    start: 2026-11-15T10:30
+    venue: "Museo di Santa Caterina"
+    address: "Piazzetta Mario Botter 1"
+    town: "Treviso"
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://visitmuseumtreviso.com/shop/visita-guidata-speciale-per-famiglie-la-materia-dei-sogni/
+    audience:
+    - famiglie
+    summary: "Visita guidata per famiglie alla mostra sull'arte africana contemporanea, alle 10:30 e alle 15:30, su prenotazione."
+    fonte: https://visitmuseumtreviso.com/laboratori-weekend/
+    trovato: '2026-11-02'
+  - title: "Tocchi ad Arte: moda e vita quotidiana, visita guidata al Museo Bailo"
+    start: 2026-11-15T10:30
+    venue: "Museo Bailo"
+    address: "Borgo Cavour 24"
+    town: "Treviso"
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://visitmuseumtreviso.com/shop/visita-guidata-tocchi-ad-arte-moda-e-vita-quotidiana/
+    summary: "Visita guidata per adulti e bambini sul tema della moda e della vita quotidiana nelle opere del museo, alle 10:30 e alle 15:30, su prenotazione."
+    fonte: https://visitmuseumtreviso.com/laboratori-weekend/
+    trovato: '2026-11-02'
+  - title: "Radici del futuro: laboratorio per bambini al Museo Bailo"
+    start: 2026-11-21T15:00
+    venue: "Museo Bailo"
+    address: "Borgo Cavour 24"
+    town: "Treviso"
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://visitmuseumtreviso.com/shop/laboratorio-per-bambini-radici-del-futuro/
+    audience:
+    - famiglie
+    summary: "Laboratorio creativo per bambini al Museo Bailo, su prenotazione."
+    fonte: https://visitmuseumtreviso.com/laboratori-weekend/
+    trovato: '2026-11-02'
+  - title: "Terre che raccontano: laboratorio per bambini a Santa Caterina"
+    start: 2026-11-28T15:00
+    venue: "Museo di Santa Caterina"
+    address: "Piazzetta Mario Botter 1"
+    town: "Treviso"
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://visitmuseumtreviso.com/shop/laboratorio-per-bambini-terre-che-raccontano/
+    audience:
+    - famiglie
+    summary: "Laboratorio creativo per bambini al Museo di Santa Caterina, su prenotazione."
+    fonte: https://visitmuseumtreviso.com/laboratori-weekend/
+    trovato: '2026-11-02'
+  - title: "Vicini (Maserada sul Palco)"
+    start: 2026-11-07T21:00
+    venue: "Auditorium Don E. Vidotto"
+    address: "Viale Caccianiga 2"
+    town: "Maserada sul Piave"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: "8 euro, gratis fino a 10 anni"
+    official_url: https://auditoriumaserada.it/vicini-maserada-sul-palco-13/
+    summary: "Commedia della compagnia Teatro Roncade, regia di Alberto Moscatelli, nella rassegna Maserada sul Palco: una coppia appena trasferita in periferia alle prese con vicini invadenti."
+    fonte: https://auditoriumaserada.it/
+    trovato: '2026-11-02'
+  - title: "Il nido di colombi (Maserada sul Palco)"
+    start: 2026-11-14
+    venue: "Auditorium Don E. Vidotto"
+    address: "Viale Caccianiga 2"
+    town: "Maserada sul Piave"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://auditoriumaserada.it/il-nido-di-colombi-maserada-sul-palco-13/
+    summary: "Spettacolo della compagnia Treviso Teatro, regia di Filippo Fossa, nella rassegna Maserada sul Palco."
+    fonte: https://auditoriumaserada.it/
+    trovato: '2026-11-02'
+  - title: "Twixt (Maserada sul Palco)"
+    start: 2026-11-21
+    venue: "Auditorium Don E. Vidotto"
+    address: "Viale Caccianiga 2"
+    town: "Maserada sul Piave"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://auditoriumaserada.it/twixt-maserada-sul-palco-13/
+    summary: "Spettacolo della compagnia Arte Povera, regia di Alessio Boschini, nella rassegna Maserada sul Palco."
+    fonte: https://auditoriumaserada.it/
+    trovato: '2026-11-02'
+  - title: "La gonna che visse due volte (Maserada sul Palco)"
+    start: 2026-11-28
+    venue: "Auditorium Don E. Vidotto"
+    address: "Viale Caccianiga 2"
+    town: "Maserada sul Piave"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://auditoriumaserada.it/la-gonna-che-visse-due-volte-maserada-sul-palco-13/
+    summary: "Spettacolo del Teatro Estragone con Norina Benedetti, regia di Carolina de la Calle Casanova, nella rassegna Maserada sul Palco."
+    fonte: https://auditoriumaserada.it/
+    trovato: '2026-11-02'
+  - title: "Rievocazione storica dell'Antica Fiera di Santa Lucia"
+    start: 2026-11-08
+    venue: "Antica Fiera di Santa Lucia"
+    address: "Via Mareno"
+    town: "Santa Lucia di Piave"
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.anticafierasantalucia.com/eventi/29-rievocazione-storica-dellantica-fiera-2/
+    summary: "Ventinovesima rievocazione storica della fiera: dalle 9 mostre e spettacoli, alle 14:30 l'arrivo dei Conti con cavalieri, arcieri e armati, poi spettacoli in varie zone dell'area."
+    fonte: https://www.trevisoeventi.com/calendario-eventi-treviso.htm
+    trovato: '2026-11-02'
