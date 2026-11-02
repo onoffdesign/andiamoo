@@ -1,29 +1,32 @@
 {
- "data": "2026-11-01",
- "aggiunti": 3,
- "corretti": 18,
- "rimossi": 0,
- "verificati": 6,
+ "data": "2026-11-02",
+ "aggiunti": 46,
+ "corretti": 21,
+ "rimossi": 2,
+ "verificati": 3,
  "aggiunti_per_categoria": {
-  "sport": 1,
-  "mercatini-fiere": 2
+  "teatro-spettacoli": 24,
+  "famiglie-bambini": 16,
+  "musica": 3,
+  "arte-cultura": 2,
+  "sagre-feste": 1
  },
- "fonti_nuove": 5,
- "fonti_spostate": 2,
- "fonti_sistemate": 0,
- "qualita_campione": "3/10",
+ "fonti_nuove": 10,
+ "fonti_spostate": 5,
+ "fonti_sistemate": 1,
+ "qualita_campione": "7/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "5/10",
- "ricerche": 55,
- "eventi_per_ricerca": 0.1,
- "categorie_aggiunte": 10,
- "miglioria": "comuni MyPortal passati al PC senza ricerche (IPA = C_ + codice catastale): aggiunti Paese e Maser",
+ "copertura_test": "2/10",
+ "ricerche": 52,
+ "eventi_per_ricerca": 0.9,
+ "categorie_aggiunte": 12,
+ "miglioria": "siti con buon elenco ma senza dati strutturati (tema design-comuni, calendari dei teatri) passati al PC come html_llm",
  "problemi": [
-  "campione 3/10: il link resta l'errore principale (Instagram al posto del sito)",
-  "biblioteche-treviso a zero eventi e gli-alcuni in errore nel giro del PC",
-  "ricerche per comune piccolo: resa quasi zero, solo portali",
-  "accesso sconosciuto per molti eventi Eventbrite: leggere is_free nel PC",
-  "da controllare domani le fonti nuove comune-paese e comune-maser"
+  "il PC non ha girato stanotte (ultimo giro 1/11 alle 01:07)",
+  "test di copertura 2/10: mancano sagre, mercatini e rassegne dei paesi",
+  "campione 7/10: orari e accessi non pubblicati dagli organizzatori",
+  "5 fonti nuove da controllare nel prossimo rapporto (codici IPA dedotti)",
+  "biblioteche-treviso disattivata: robots.txt vieta /myportal/"
  ]
 }

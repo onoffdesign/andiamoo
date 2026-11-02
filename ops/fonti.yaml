@@ -318,9 +318,9 @@ fonti:
   qualita: 5
   resa: { controlli: 1, eventi_trovati: 13, ultimi: [13] }
   ultimo_controllo: '2026-10-31'
-  automatizzabile: no
-  stato: attiva
-  note: "WordPress Q-web senza JSON-LD; le schede delle rassegne (prosa Arteven, Ragazzi che Teatro) hanno date, orari e prezzi"
+  automatizzabile: si
+  stato: spostata
+  note: "WordPress Q-web senza JSON-LD; le schede delle rassegne (prosa Arteven, Ragazzi che Teatro) hanno date, orari e prezzi. Il 2026-11-02 passata al PC come html_llm (comune-castelfranco) insieme a San Biagio, stesso tema design-comuni"
 - nome: Gli Alcuni (teatro e parco per famiglie)
   url: https://live.alcuni.it/eventi/
   query: Gli Alcuni Treviso eventi famiglie
@@ -467,3 +467,148 @@ fonti:
   stato: spostata
   ultimo_controllo: '2026-11-01'
   note: "sito MyPortal: spostato in config/sources.yaml (comune-maser, C_F009) il 2026-11-01"
+- nome: Teatro Lorenzo Da Ponte (Vittorio Veneto)
+  url: https://teatrolorenzodaponte.it/calendario/
+  query: Vittorio Veneto eventi teatro Da Ponte programma
+  tipo: teatro
+  categorie: [teatro-spettacoli, famiglie-bambini, musica]
+  comuni: [Vittorio Veneto, Gaiarine, Cison di Valmarino, Vidor, Sernaglia della Battaglia]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 35, ultimi: [35] }
+  ultimo_controllo: '2026-11-02'
+  automatizzabile: si
+  stato: spostata
+  note: "calendario di tutta la stagione 2026/27 con data, ora, sala e link alla scheda; anche il Centro Teatrale Da Ponte in tournee (tenere solo le sedi TV). Passata al PC come html_llm (teatro-da-ponte) il 2026-11-02"
+- nome: Comune di San Biagio di Callalta (eventi)
+  url: https://www.comune.sanbiagio.tv.it/eventi/
+  query: San Biagio di Callalta eventi novembre 2026
+  tipo: comune
+  categorie: [arte-cultura, musica, sport]
+  comuni: [San Biagio di Callalta]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-02'
+  automatizzabile: si
+  stato: spostata
+  note: "WordPress tema design-comuni, elenco con giorno e titolo (orari solo nelle schede): passata al PC come html_llm (comune-san-biagio) il 2026-11-02"
+- nome: Comune di Povegliano (MyPortal)
+  url: https://www.comune.povegliano.tv.it/home/vivere/eventi.html
+  query: Povegliano Treviso eventi Comune
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: [Povegliano]
+  province: [TV]
+  stato: spostata
+  ultimo_controllo: '2026-11-02'
+  note: "MyPortal: spostato in config/sources.yaml (comune-povegliano, C_G944) il 2026-11-02"
+- nome: Comune di Loria (MyPortal)
+  url: https://www.comune.loria.tv.it/
+  query: Comune di Loria eventi
+  tipo: comune
+  categorie: [mercatini-fiere, sagre-feste]
+  comuni: [Loria]
+  province: [TV]
+  stato: spostata
+  ultimo_controllo: '2026-11-02'
+  note: "schede /eventi/<nome>.html come Povegliano: spostato in config/sources.yaml (comune-loria, C_E692) il 2026-11-02, da verificare nel rapporto"
+- nome: Treviso Eventi (calendario provincia)
+  url: https://www.trevisoeventi.com/calendario-eventi-treviso.htm
+  query: TREVISO EVENTI Calendario 2026 eventi Treviso provincia
+  tipo: aggregatore
+  categorie: [sagre-feste, mercatini-fiere, teatro-spettacoli, musica, sport]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-02'
+  automatizzabile: no
+  stato: attiva
+  note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale"
+- nome: Auditorium Don E. Vidotto (Maserada sul Piave)
+  url: https://auditoriumaserada.it/
+  query: Maserada sul Palco rassegna teatro auditorium Vidotto
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: [Maserada sul Piave]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
+  ultimo_controllo: '2026-11-02'
+  automatizzabile: no
+  stato: attiva
+  note: "Nugae Teatrali: rassegna Maserada sul Palco (13a edizione, sabati di novembre); orario e prezzo solo nelle schede (21:00, 8 euro)"
+- nome: Visit Museum Treviso (laboratori del weekend)
+  url: https://visitmuseumtreviso.com/laboratori-weekend/
+  query: laboratorio per bambini Treviso museo Bailo Santa Caterina weekend
+  tipo: museo
+  categorie: [famiglie-bambini, arte-cultura]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-02'
+  automatizzabile: no
+  stato: attiva
+  note: "laboratori del sabato e visite per famiglie dei Musei Civici con data, ora, sede e link alla scheda (shop WooCommerce, prenotazione). Candidata html_llm se continua a rendere"
+- nome: Comitato Antica Fiera di Santa Lucia
+  url: https://www.anticafierasantalucia.com/eventi/
+  query: Antica Fiera di Santa Lucia di Piave programma
+  tipo: associazione
+  categorie: [sagre-feste, mercatini-fiere]
+  comuni: [Santa Lucia di Piave]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-02'
+  automatizzabile: no
+  stato: attiva
+  note: "rievocazione di inizio novembre; schede per giorno con programma orario"
+- nome: Pro Loco Vittorio Veneto (altri eventi)
+  url: https://www.prolocovittorioveneto.it/manifestazioni/4/Altri-eventi-della-Pro-Loco
+  query: Pro Loco Vittorio Veneto altri eventi della Pro Loco
+  tipo: pro loco
+  categorie: [arte-cultura, natura-outdoor]
+  comuni: [Vittorio Veneto]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-02'
+  automatizzabile: no
+  stato: attiva
+  note: "visite guidate (15/11 Spettacoli di Mistero, 6/12 Boschi a Natale) solo con la data, senza ora ne' ritrovo: ricontrollare a ridosso"
+- nome: Il Mosaico Montebelluna (Cose Ritrovate)
+  url: https://www.ilmosaicomb.it/it/eventi/
+  query: Cose Ritrovate Montebelluna mercato vintage collezionismo
+  tipo: associazione
+  categorie: [mercatini-fiere]
+  comuni: [Montebelluna]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-02'
+  automatizzabile: no
+  stato: attiva
+  note: "pagina eventi con Cose Ritrovate 2026 (corso Mazzini, 8:30-19) ma senza le date; i pulsanti portano a Facebook"
+- nome: Hello Mogliano (appuntamenti del weekend)
+  url: https://hellomoglianoveneto.net/
+  query: Hello Mogliano gli appuntamenti del weekend
+  tipo: blog
+  categorie: [sagre-feste, arte-cultura]
+  comuni: [Mogliano Veneto]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 2
+  ultimo_controllo: null
+  automatizzabile: no
+  stato: attiva
+  note: "trovato il 2026-11-02: post settimanali con gli appuntamenti del weekend a Mogliano; da valutare"

@@ -40,11 +40,11 @@ comuni_TV:
   Godega di Sant'Urbano: 2026-10-30
   Gorgo al Monticano: null
   Istrana: null
-  Loria: null
+  Loria: 2026-11-02
   Mansuè: 2026-11-01
   Mareno di Piave: null
-  Maser: null
-  Maserada sul Piave: null
+  Maser: 2026-11-02
+  Maserada sul Piave: 2026-11-02
   Meduna di Livenza: null
   Miane: null
   Mogliano Veneto: null
@@ -66,16 +66,16 @@ comuni_TV:
   Ponzano Veneto: 2026-10-31
   Portobuffolè: null
   Possagno: null
-  Povegliano: null
+  Povegliano: 2026-11-02
   Preganziol: null
   Quinto di Treviso: null
-  Refrontolo: null
+  Refrontolo: 2026-11-02
   Resana: null
   Revine Lago: 2026-10-31
   Riese Pio X: null
   Roncade: 2026-10-30
   Salgareda: null
-  San Biagio di Callalta: null
+  San Biagio di Callalta: 2026-11-02
   San Fior: null
   San Pietro di Feletto: null
   San Polo di Piave: null
@@ -96,7 +96,7 @@ comuni_TV:
   Vedelago: null
   Vidor: 2026-10-31
   Villorba: 2026-11-01
-  Vittorio Veneto: null
+  Vittorio Veneto: 2026-11-02
   Volpago del Montello: 2026-10-30
   Zenson di Piave: null
   Zero Branco: null
@@ -112,7 +112,7 @@ aggregatori:
   eventbrite.it (Treviso): null
   allevents.in (Treviso): null
   calendariopodismo.it: null
-  calendariopodismoveneto.blogspot.com: null
+  calendariopodismoveneto.blogspot.com: 2026-11-02
   running.life: null
   Pro Loco e UNPLI Treviso: 2026-10-30
   'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': 2026-10-30
@@ -140,6 +140,9 @@ aggregatori:
   fleamapket.com (mercatini): 2026-11-01
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
+  trevisoeventi.com (calendario provincia): 2026-11-02
+  hellomoglianoveneto.net (appuntamenti del weekend): null
+  teatro.it (danza Treviso): 2026-11-02
 community:
   'canali Telegram pubblici: trekking ed escursioni Treviso': null
   'canali Telegram pubblici: camminate, run club, bici': null
@@ -159,6 +162,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Mercatini e fiere > Mercatini": 2026-11-02
+  "Spettacoli > Danza": 2026-11-02
+  "Famiglie e bambini > Laboratori": 2026-11-02
+  "Mercatini e fiere > Fiere": 2026-11-02
   "Famiglie e bambini > All'aperto": 2026-11-01
   "Natura e benessere > Ambiente": 2026-11-01
   "Arte e cultura > Libri e lettura": 2026-11-01

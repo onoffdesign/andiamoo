@@ -81,6 +81,13 @@ lo schema e si parte dalle regole generali e da quelle della regione.
 - Sagre di novembre: sagramap elenca date ma senza link; le pagine ufficiali spesso non esistono (solo Facebook).
 - Mercatini ricorrenti: le schede cosedicasa indicano la regola (seconda/terza domenica) e le sospensioni.
 - Da evitare: microturismodellevenezie (date contraddittorie), deliziedautunno.tv e cultura.gov.it (vietano i robot).
+- Scoperta piu' redditizia (2026-11-02): il calendario di trevisoeventi.com (una lettura, ~25 eventi TV di sagre,
+  mercatini, rassegne e sport) e i calendari di stagione dei teatri (Teatro Da Ponte: 35 date TV in una lettura).
+  Confermare sul sito ufficiale: alcune schede di trevisoeventi sono di anni passati.
+- Siti di comuni con il tema WordPress "design comuni" (indirizzi `/vivere-il-comune/eventi/`, es. Castelfranco,
+  San Biagio di Callalta) e calendari di teatri senza JSON-LD: si passano al PC come `html_llm` con un `hint` su
+  comune e anno (miglioria 2026-11-02). Le schede MyPortal si riconoscono anche da `/home/vivere/eventi.html` e
+  `/eventi/<nome>.html` (Povegliano, Loria).
 
 ## 4. Aggregatori che valgono per piu' province
 
@@ -99,6 +106,8 @@ nuovi filtri), senza ricercarle da capo.
 ## 5. Andamento (una riga per notte, la piu' recente in alto)
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
+
+- 2026-11-02 · TV · ricerche 52 · eventi nuovi 46 · eventi per ricerca 0,9 · fonti al PC +5 (Teatro Da Ponte, Comune di San Biagio, Comune di Castelfranco come html_llm; Comune di Povegliano e Comune di Loria come myportal) · miglioria: i siti senza dati strutturati ma con un buon elenco (tema design-comuni, calendari dei teatri) vanno al PC come html_llm invece di essere riletti a mano ogni settimana
 
 - 2026-11-01 · TV · ricerche 55 · eventi nuovi 3 · eventi per ricerca 0,1 · fonti al PC +2 (Comune di Paese, Comune di Maser, MyPortal) · miglioria: i comuni MyPortal si aggiungono al PC senza ricerche (IPA = C_ + codice catastale), regola in sezione Treviso
 - 2026-10-31 · TV · ricerche 51 · eventi nuovi 24 · eventi per ricerca 0,5 · fonti al PC +2 (Gli Alcuni, Biblioteche Treviso) · miglioria: per Eventbrite la pagina dell'evento diventa link d'azione (opzione `pagina_iscrizione` in sources.yaml), cosi' ~40 eventi a notte non finiscono piu' in coda per "manca il sito ufficiale"

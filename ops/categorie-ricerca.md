@@ -94,8 +94,9 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 
 - **Teatro** [spettacolo, stagione teatrale] · prosa · teatro dialettale · commedia · teatro ragazzi (vedi Famiglie)
   · teatro di strada · improvvisazione
-- **Comicita'** · stand-up comedy · cabaret
-- **Danza** · balletto · danza contemporanea · saggi delle scuole di danza
+  · rassegne di teatro amatoriale nei paesi [rassegna teatrale, compagnie amatoriali, auditorium] · letture teatrali per le ricorrenze civili [4 novembre] · spettacolo di Capodanno a teatro [Capodanno a teatro] · teatro classico a puntate sui miti greci [rassegna Class]
+- **Comicita'** · stand-up comedy · cabaret · serate comiche a puntate nei ridotti [Funny Friday]
+- **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci]
 - **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada
 - **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi
   · documentari · prime visioni con ospiti · documentari con gli autori in sala
@@ -104,6 +105,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 ## Famiglie e bambini (`famiglie-bambini`)
 
 - **Laboratori** [laboratorio per bambini] · creativi · scientifici · di lettura · di cucina
+  · laboratori del sabato pomeriggio nei musei civici [laboratori weekend, Museo Bailo, Santa Caterina] · visite guidate per famiglie alle mostre
 - **Letture e biblioteche** [ora del racconto, letture animate] · nati per leggere
 - **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia
   · rassegne domenicali dei teatri comunali [teatro ragazzi, domeniche a teatro, Ragazzi che Teatro]
@@ -115,10 +117,12 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 
 - **Mercatini** [mercatino] · antiquariato e modernariato [ricorrenza mensile] · hobbistica e artigianato · antiquariato mensile nei borghi del centro [Cose d'Altri Tempi, quarta domenica]
   · vintage e usato · mercatini di Natale · baratto e swap party · libri usati
+  · mercatini di Natale di paese gia' da meta' novembre [mercatino di Natale <comune>]
 - **Mercati agricoli** · mercato contadino · Campagna Amica
 - **Fiere** [fiera, expo] · fiere storiche di paese · fiere di settore · fiere dell'auto e moto d'epoca · fiere del
   fumetto e del gioco
-- **Collezionismo** · numismatica e filatelia · vinili e dischi · giocattoli d'epoca
+  · rievocazioni storiche delle fiere antiche [antica fiera, rievocazione storica] · mostre mercato dei prodotti d'autunno [profumi e sapori d'autunno]
+- **Collezionismo** · numismatica e filatelia · vinili e dischi · giocattoli d'epoca · collezionismo militare [militaria, Milipiave]
 
 ## Business e formazione (`business`)
 
@@ -145,3 +149,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 
 - 2026-10-30 · prima versione dell'albero, scritta a partire dalle 9 categorie del sito
 - 2026-10-31 · +12 voci · dove: Arte e cultura > Conferenze (+2), Tecnologia e scienza (+1), Musica > Musica partecipata (+2), Spettacoli > Cinema (+1), Famiglie > Spettacoli per bambini (+2), Natura > Escursioni (+1), Business > Lavoro (+1), Sagre (+2)
+- 2026-11-02 · +12 voci · dove: Spettacoli > Teatro (+4), Comicita' (+1), Danza (+1), Famiglie > Laboratori (+2), Mercatini (+1), Fiere (+2), Collezionismo (+1)

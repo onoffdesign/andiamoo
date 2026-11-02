@@ -20,7 +20,17 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - Calendario Podismo Veneto (pagina del mese) da' anche i link ai volantini: si usano come official_url delle gare
   senza sito. Una lettura ha sistemato 7 gare e trovato una gara mancante.
 
+- Il calendario di trevisoeventi.com rende ~25 eventi TV per lettura: ideale per scoprire e per il test di
+  copertura; poi conferma sul sito dell'organizzatore (auditorium, comitato, teatro).
+- I calendari di stagione dei teatri (Teatro Da Ponte) danno decine di date con ora, sala e scheda in una lettura.
+- Le schede di un teatro amatoriale hanno orario e prezzo, l'elenco no: basta aprire una scheda per la rassegna.
+
 ## Fonti da evitare o poco utili
+- bibliotecatreviso.it vieta /myportal/ nei robots (WebFetch robots_disallowed): fonte del PC disattivata.
+- teatro.it (pagine date) da' errore a WebFetch; imocovolley.it mostra in prima pagina solo le partite gia' giocate.
+- Gli articoli di VenetoToday e Nordest24 sulle rassegne non dicono quasi mai l'ingresso: per l'accesso servono le
+  schede dell'organizzatore (es. musincantus.it/evento/...), non le testate.
+- Ricerche su .Ettore (Signoressa): la pagina organizzatore Eventbrite non elenca eventi; tre eventi restano in coda.
 - distrettolaghi.it e' il Lago Maggiore (Piemonte), non il Lago di Revine: inutile.
 - cheventi.it e arteven.it/pr/treviso danno errore a WebFetch; Eventbrite non si apre senza un risultato di ricerca.
 - eventivenetando ed eventiesagre per le sagre spesso mostrano l'edizione di anni passati: controllare l'anno.

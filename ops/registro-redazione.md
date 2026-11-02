@@ -2,6 +2,43 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-02
+
+- **Giro del PC**: NON ha girato stanotte (ultimo rapporto finito il 2026-11-01 alle 01:07). Lavoro sui dati gia'
+  pubblicati: coda, campione e rapporto sono quelli di ieri. Fonti a zero nel rapporto di ieri: ticketone, dice,
+  qdpnews, gli-alcuni (errore di connessione), biblioteche-treviso: disattivata (robots.txt vieta /myportal/).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (41 ancora aperte, lavorate circa 32): 21 corretti, 2 rimossi (Domenica Italiana al Botegon
+  conclusa; 13a Marcia della Salute doppione di Su l'arden drio la Livenza, tolto anche il doppione in
+  eventi_redazione). SiA a Ca' Foscari (9-13, gratuito con registrazione), Fuori copione al Palaverde (19-23),
+  6 gare di dicembre con volantino o sito dal Calendario Podismo Veneto, luoghi per Sala Coletti (Santa Caterina),
+  Osteria del Django (via Monterumici 11), IC di Roncade (via Vivaldi 30), H-FARM College; titoli ripuliti.
+  Restano aperti: accesso dei 4 concerti di Autunno Musicale (le testate non lo dicono), tre eventi di .Ettore,
+  Fogliart in Cansiglio (punto di ritrovo e provincia da capire), auditorium di Casale sul Sile, CRM da moku.
+- **Controllo a campione**: 7/10 (ricontrollo del campione di ieri dopo le correzioni).
+- **Eventi aggiunti** (46): teatro-spettacoli 24, famiglie-bambini 16, musica 3, arte-cultura 2, sagre-feste 1.
+  Stagione del Teatro Da Ponte di Vittorio Veneto e sedi TV in tournee (35 date fino a febbraio), Maserada sul Palco
+  (4 sabati di novembre), laboratori e visite per famiglie dei Musei Civici (6), Antica Fiera di Santa Lucia (8/11).
+- **Comuni controllati**: Vittorio Veneto (Teatro Da Ponte, ottimo), Maser (Pro Loco solo Facebook), Povegliano
+  (MyPortal: passato al PC), San Biagio di Callalta (WordPress design-comuni: passato al PC), Loria (MyPortal:
+  passato al PC), Refrontolo (Molinetto della Croda senza date 2026/27), piu' Maserada sul Piave.
+- **Categorie cercate**: Mercatini (solo guide 2025), Danza (teatro.it in errore), Laboratori (Musei Civici: 6),
+  Fiere (Antica Fiera di Santa Lucia). +12 voci nell'albero.
+- **Fonti note**: nessuna in scadenza.
+- **Fonti nuove catalogate**: 10 (Teatro Da Ponte, Comune di San Biagio, Comune di Povegliano, Comune di Loria,
+  trevisoeventi.com, Auditorium Don Vidotto, Visit Museum Treviso, Antica Fiera di Santa Lucia, Pro Loco Vittorio
+  Veneto, Il Mosaico Montebelluna; da valutare Hello Mogliano). Spostate in sources.yaml: 5 (teatro-da-ponte,
+  comune-san-biagio e comune-castelfranco come html_llm; comune-povegliano C_G944 e comune-loria C_E692 come myportal).
+- **Miglioria**: siti con un buon elenco ma senza dati strutturati (tema design-comuni, calendari dei teatri) al PC
+  come html_llm, regola nel metodo.
+- **Test di copertura**: 2/10. Criterio di saturazione del lunedi': lontano, resta Treviso.
+- **Ricerche**: 52 su 70.
+- **Per la notte dopo**: controllare nel rapporto le 5 fonti nuove (codici IPA di Povegliano e Loria dedotti dal
+  codice catastale; html_llm e doppioni con i 35 eventi Da Ponte gia' in eventi_redazione); confermare su pagine
+  ufficiali gli eventi di trevisoeventi mancanti (San Martino a Colle Umberto, Petite Messe a Cusignana, mercatini
+  di Portobuffole', Collalto e Roncade, Milipiave, Prealpi in Festa, rassegna di Trevignano); pulizia di
+  correzioni.yaml: 15 voci di eventi non piu' sul sito.
+
 ## 2026-11-01
 
 - **Giro del PC**: ha girato stanotte (finito alle 01:07, 4,9 minuti, gemma3:12b): 161 eventi sul sito, 60 in
