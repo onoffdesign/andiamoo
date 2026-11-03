@@ -1,48 +1,48 @@
 {
  "fonti": {
   "redazione": {
-   "trovati": 37,
-   "nel_periodo": 37,
-   "in_provincia": 37,
-   "nuovi": 24,
+   "trovati": 85,
+   "nel_periodo": 85,
+   "in_provincia": 85,
+   "nuovi": 48,
    "errore": "",
    "solo_comune": 4,
-   "secondi": 20
+   "secondi": 27
   },
   "insolitotrantran": {
-   "trovati": 42,
-   "nel_periodo": 37,
-   "in_provincia": 35,
-   "nuovi": 5,
+   "trovati": 37,
+   "nel_periodo": 33,
+   "in_provincia": 31,
+   "nuovi": 1,
    "errore": "",
    "solo_comune": 6,
-   "secondi": 28
+   "secondi": 11
   },
   "eventiesagre": {
-   "trovati": 6,
-   "nel_periodo": 6,
+   "trovati": 5,
+   "nel_periodo": 5,
    "in_provincia": 3,
    "nuovi": 0,
    "errore": "",
    "non_eventi": 1,
    "solo_comune": 2,
-   "secondi": 5
+   "secondi": 16
   },
   "2night": {
-   "trovati": 1,
-   "nel_periodo": 1,
-   "in_provincia": 1,
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
    "nuovi": 0,
    "errore": "",
-   "secondi": 1
+   "secondi": 2
   },
   "eventbrite": {
-   "trovati": 177,
+   "trovati": 194,
    "nel_periodo": 40,
-   "in_provincia": 35,
-   "nuovi": 11,
+   "in_provincia": 36,
+   "nuovi": 5,
    "errore": "",
-   "secondi": 97
+   "secondi": 53
   },
   "ticketone": {
    "trovati": 0,
@@ -61,7 +61,7 @@
    "secondi": 2
   },
   "running-life": {
-   "trovati": 19,
+   "trovati": 18,
    "nel_periodo": 10,
    "in_provincia": 9,
    "nuovi": 0,
@@ -70,20 +70,20 @@
    "secondi": 1
   },
   "calendariopodismo": {
-   "trovati": 18,
-   "nel_periodo": 15,
-   "in_provincia": 15,
+   "trovati": 17,
+   "nel_periodo": 14,
+   "in_provincia": 14,
    "nuovi": 0,
    "errore": "",
-   "secondi": 1
+   "secondi": 35
   },
   "podismoveneto": {
-   "trovati": 30,
-   "nel_periodo": 30,
-   "in_provincia": 30,
-   "nuovi": 4,
+   "trovati": 29,
+   "nel_periodo": 28,
+   "in_provincia": 28,
+   "nuovi": 0,
    "errore": "",
-   "solo_comune": 28,
+   "solo_comune": 26,
    "secondi": 5
   },
   "gotrail": {
@@ -92,32 +92,80 @@
    "in_provincia": 5,
    "nuovi": 0,
    "errore": "",
-   "secondi": 0
+   "secondi": 1
   },
   "comune-treviso": {
-   "trovati": 16,
-   "nel_periodo": 6,
-   "in_provincia": 6,
-   "nuovi": 0,
+   "trovati": 17,
+   "nel_periodo": 4,
+   "in_provincia": 4,
+   "nuovi": 1,
    "errore": "",
-   "ricorrenti": 1,
-   "solo_comune": 1,
-   "secondi": 0
+   "solo_comune": 2,
+   "secondi": 11
   },
-  "biblioteche-treviso": {
-   "trovati": 0,
+  "comune-paese": {
+   "trovati": 1,
    "nel_periodo": 0,
    "in_provincia": 0,
    "nuovi": 0,
    "errore": "",
-   "secondi": 0
+   "secondi": 2
+  },
+  "comune-maser": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato"
+  },
+  "comune-povegliano": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato"
+  },
+  "comune-loria": {
+   "trovati": 0,
+   "nel_periodo": 0,
+   "in_provincia": 0,
+   "nuovi": 0,
+   "errore": "[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato"
+  },
+  "comune-san-biagio": {
+   "trovati": 10,
+   "nel_periodo": 10,
+   "in_provincia": 10,
+   "nuovi": 10,
+   "errore": "",
+   "solo_comune": 8,
+   "secondi": 26
+  },
+  "comune-castelfranco": {
+   "trovati": 5,
+   "nel_periodo": 5,
+   "in_provincia": 5,
+   "nuovi": 5,
+   "errore": "",
+   "solo_comune": 2,
+   "secondi": 15
+  },
+  "teatro-da-ponte": {
+   "trovati": 1,
+   "nel_periodo": 1,
+   "in_provincia": 1,
+   "nuovi": 1,
+   "errore": "",
+   "secondi": 9
   },
   "gli-alcuni": {
-   "trovati": 0,
-   "nel_periodo": 0,
-   "in_provincia": 0,
-   "nuovi": 0,
-   "errore": "Server disconnected without sending a response."
+   "trovati": 86,
+   "nel_periodo": 76,
+   "in_provincia": 47,
+   "nuovi": 47,
+   "errore": "",
+   "solo_comune": 28,
+   "secondi": 311
   },
   "modulo-organizzatori": {
    "trovati": 0,
@@ -137,20 +185,26 @@
   }
  },
  "luoghi_ricalcolati": 0,
- "chiamate_ai": 21,
- "richieste_web": 37,
- "richieste_geocoding": 30,
- "luoghi_trovati_con_ricerca": 3,
- "pagine_luogo_lette": 3,
+ "chiamate_ai": 93,
+ "richieste_web": 115,
+ "richieste_geocoding": 95,
+ "luoghi_trovati_con_ricerca": 29,
+ "pagine_luogo_lette": 52,
+ "archivio": {
+  "pubblicati": 256,
+  "conclusi": 2,
+  "rimossi": 0,
+  "non_piu_presenti": 0
+ },
  "scoperte": 31,
- "eventi_sul_sito": 161,
- "correzioni_attive": 59,
- "rimossi_dalla_redazione": 5,
+ "eventi_sul_sito": 256,
+ "correzioni_attive": 97,
+ "rimossi_dalla_redazione": 7,
  "giro_pc": true,
  "motore_ai": "ollama",
  "modello": "gemma3:12b",
- "minuti": 4.9,
+ "minuti": 12.6,
  "in_revisione": 60,
- "finito_alle": "2026-11-01T01:07+01:00",
+ "finito_alle": "2026-11-03T01:23+01:00",
  "segnalazioni_30_giorni": 0
 }
