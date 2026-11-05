@@ -198,3 +198,22 @@ def test_store_keeps_moderation(tmp_path):
     ev2 = Event("modulo", "M", "u", "Evento aggiornato", start="2026-12-01", status="pending")
     store.upsert_event(ev2)
     assert store.get_event(ev.uid).status == "rejected"
+
+
+def test_tribe_venue_prefix_town_sigla_and_school_shows():
+    data = {"events": [
+        {"title": "Pippi Calzelunghe", "start_date": "2026-11-08 16:30:00", "end_date": "2026-11-08 17:30:00",
+         "venue": {"venue": "• Treviso – Alcuni Teatro Sant’Anna", "address": "Viale Brigata Treviso, 18",
+                   "city": "Treviso (TV)"}},
+        {"title": "La Fata arrabbiata | scuole", "start_date": "2026-11-12 10:00:00",
+         "end_date": "2026-11-12 11:00:00", "venue": {"venue": "Teatro", "city": "Treviso"}}]}
+    evs = list(tribe.parse(data, {**SRC, "escludi_titoli": r"\|\s*scuole\b"}))
+    assert len(evs) == 1                                   # replica per le scuole esclusa
+    assert evs[0].venue == "Alcuni Teatro Sant’Anna" and evs[0].town == "Treviso"
+
+
+def test_clean_town_drops_province_sigla():
+    from pipeline.geocode import clean_town
+    assert clean_town("Treviso (TV)") == "Treviso"
+    assert clean_town("Farra di Soligo TV") == "Farra di Soligo"
+    assert clean_town("Olmi di San Biagio di Callalta") == "Olmi di San Biagio di Callalta"

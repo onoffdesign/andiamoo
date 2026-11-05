@@ -25,6 +25,13 @@ AREA_TYPES = {"city", "town", "village", "hamlet", "municipality", "suburb", "qu
 # aree piu' grandi di un comune: "Treviso" puo' essere anche la provincia, il cui centro e' a 15 km dalla citta'
 WIDE_TYPES = {"county", "state", "region", "province", "country"}
 NOT_PLACES = {"italia", "italy", "tv", "veneto", "provincia di treviso"}
+# "Treviso (TV)", "Treviso TV", "Farra di Soligo TV": la sigla della provincia confonde la ricerca del comune
+# (il 2026-11-05 tutti gli eventi di Gli Alcuni a Treviso erano finiti a Vittorio Veneto, 37 km a nord)
+TOWN_SUFFIX_RE = re.compile(r"\s*\((?:[A-Z]{2}|[Pp]rov[^)]*)\)\s*$|\s+(?:TV|VE|PD|BL|VI|VR|RO|PN|UD)$")
+
+
+def clean_town(town: str) -> str:
+    return TOWN_SUFFIX_RE.sub("", (town or "").strip()).strip(" ,-")
 
 
 def km_between(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
@@ -179,7 +186,9 @@ class Geocoder:
                 ev.town = ev.town or info["town"]
                 return info["province"] in self.allowed
             return True    # nel riquadro ma senza conferma: lo teniamo
-        town = ev.town.strip()
+        town = clean_town(ev.town)
+        if town and town != ev.town:
+            ev.town = town
         area = None
         if town:
             area = self.town_area(town)

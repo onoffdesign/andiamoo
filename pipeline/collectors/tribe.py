@@ -14,11 +14,17 @@ log = logging.getLogger(__name__)
 
 # Convenzione di molti siti: "Titolo – Comune" oppure "Titolo – Comune (Provincia)"
 TITLE_TOWN_RE = re.compile(r"\s[–-]\s([^–\-:]{3,40}?)(?:\s*\(([^)]+)\))?\s*$")
+# luoghi scritti come "• Treviso – Alcuni Teatro Sant'Anna": via il punto elenco e il comune davanti
+VENUE_PREFIX_RE = re.compile(r"^[•·\s]*(?:[A-Z][\w'’ ]{2,30}\s–\s)?")
 OTHER_PROVINCES = {"venezia", "padova", "vicenza", "belluno", "verona", "rovigo", "pordenone", "udine"}
 
 
 def parse(data: dict, src: dict) -> Iterator[Event]:
+    # escludi_titoli (regex in config/sources.yaml): es. repliche riservate alle scuole, non aperte al pubblico
+    skip = re.compile(src["escludi_titoli"], re.I) if src.get("escludi_titoli") else None
     for e in data.get("events", []):
+        if skip and skip.search(unescape(e.get("title", ""))):
+            continue
         start, all_day = to_local_iso(e.get("start_date"))
         end, _ = to_local_iso(e.get("end_date"))
         if e.get("all_day"):
@@ -33,7 +39,7 @@ def parse(data: dict, src: dict) -> Iterator[Event]:
                 lat, lon = float(v["geo_lat"]), float(v["geo_lng"])
         except (TypeError, ValueError):
             pass
-        venue_name = unescape(v.get("venue", ""))
+        venue_name = VENUE_PREFIX_RE.sub("", unescape(v.get("venue", ""))).strip()
         address = unescape(v.get("address", ""))
         if venue_name == address:
             venue_name = ""
@@ -42,7 +48,7 @@ def parse(data: dict, src: dict) -> Iterator[Event]:
         if lowered & OTHER_PROVINCES and "treviso" not in lowered:
             continue                              # la fonte stessa lo colloca in un'altra provincia
         title = unescape(e.get("title", ""))
-        town = unescape(v.get("city", ""))
+        town = re.sub(r"\s*\([A-Z]{2}\)\s*$", "", unescape(v.get("city", ""))).strip()
         m = TITLE_TOWN_RE.search(title)
         if m:
             if (m.group(2) or "").lower() in OTHER_PROVINCES:
