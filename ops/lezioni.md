@@ -23,6 +23,9 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - Il calendario di trevisoeventi.com rende ~25 eventi TV per lettura: ideale per scoprire e per il test di
   copertura; poi conferma sul sito dell'organizzatore (auditorium, comitato, teatro).
 - I calendari di stagione dei teatri (Teatro Da Ponte) danno decine di date con ora, sala e scheda in una lettura.
+- I calendari delle squadre (trevisobasket.it, benettonrugby.it) danno tutte le partite in casa in una lettura.
+- Le pagine elenco dei comuni (San Biagio, Silea) danno in una lettura i link alle schede: aprire solo le schede
+  degli eventi in coda, una lettura per evento con ora, luogo e ingresso.
 - Le schede di un teatro amatoriale hanno orario e prezzo, l'elenco no: basta aprire una scheda per la rassegna.
 
 ## Fonti da evitare o poco utili
@@ -46,6 +49,13 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   e' MyPortal (si passa al PC).
 - Ricerche per tema generiche (bambini all'aperto, presentazioni di libri) danno guide e pagine vecchie
   (edizioni di giugno o gennaio): servono parole del periodo (Natale, San Martino) e un comune.
+
+- Coordinate esatte: WebFetch non legge le mappe (wanderlog chiede un permesso, tripaligner e zero.eu non hanno
+  lat/lon) e la shell non raggiunge Nominatim: 4 letture sprecate il 2026-11-05. Meglio dare indirizzo e comune
+  giusti (il PC ricalcola) o il centro certo piu' vicino.
+- hellomoglianoveneto.net: nei risultati solo post di anni passati. trevisoimprese.it vieta i robot.
+- Eventbrite: la pagina organizzatore di .Ettore non elenca gli eventi; l'elenco Eventbrite non ha il prezzo nel
+  JSON-LD, quindi l'accesso resta sconosciuto: serve leggere la scheda dell'evento.
 
 ## Calendario (chi pubblica quando)
 - Teatri comunali: le stagioni 2026/27 escono a fine ottobre con vendite da inizio novembre (Castelfranco).

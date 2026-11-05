@@ -307,6 +307,16 @@ sources:
     escludi_titoli: "\\|\\s*scuole\\b"
     note: "Aggiunta da Claude il 2026-10-31: WordPress con The Events Calendar (meta tec-api). Dal 2026-11-05 esclude le repliche '| scuole' (riservate alle classi). Eventi a Treviso (Parco degli Alberi Parlanti, Teatro Sant'Anna) ma anche a Padova e fuori regione: li filtra l'area. robots.txt lo rispetta il PC."
 
+  - id: nautilus-teatro
+    name: Nautilus Cantiere Teatrale (date in tournee)
+    type: tribe_api
+    enabled: true
+    base_url: https://nautiluscantiereteatrale.it
+    per_page: 50
+    max_pages: 2
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-05: WordPress con The Events Calendar (meta tec-api, /appuntamenti/, /evento/). Compagnia vicentina con date anche in provincia di Treviso (Falze' di Trevignano, San Biagio): le altre le filtra l'area."
+
   # ---------- Segnalazioni ----------
   - id: modulo-organizzatori
     name: Modulo organizzatori

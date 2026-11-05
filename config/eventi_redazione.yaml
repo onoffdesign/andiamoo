@@ -1268,3 +1268,24 @@ eventi:
     summary: "Serata divulgativa sulla migrazione dei rapaci diurni nel trevigiano, tenuta da un biologo naturalista, promossa dal Comune di Silea."
     fonte: https://www.comune.silea.tv.it/home/vivere/eventi.html
     trovato: '2026-11-05'
+  - title: "Quattro donne e un bastardo"
+    start: 2026-11-08T17:00
+    venue: "Teatro Comunale di Trevignano"
+    address: "Falze'"
+    town: "Trevignano"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://nautiluscantiereteatrale.it/evento/quattro-donne-e-un-bastardo-7/
+    summary: "Commedia della compagnia Nautilus Cantiere Teatrale al teatro comunale di Falze' di Trevignano."
+    fonte: https://www.trevisoeventi.com/calendario-eventi-treviso.htm
+    trovato: '2026-11-05'
+  - title: "La moglie, l'amante e il monsignore"
+    start: 2027-01-23T20:30
+    venue: "Teatro di San Biagio di Callalta"
+    town: "San Biagio di Callalta"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://nautiluscantiereteatrale.it/evento/la-moglie-lamante-e-monsignore-5/
+    summary: "Spettacolo della compagnia Nautilus Cantiere Teatrale al teatro di San Biagio di Callalta."
+    fonte: https://nautiluscantiereteatrale.it/appuntamenti/
+    trovato: '2026-11-05'

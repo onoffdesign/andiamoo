@@ -42,20 +42,24 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - calcio · calcio a 5 · basket · pallavolo · beach volley · rugby · pallamano · hockey · baseball e softball
 - **Racchetta** [torneo, open] · tennis · padel · ping pong · badminton · pickleball
 - **Arti marziali e combattimento** [stage, torneo, open day] · judo · karate · taekwondo · boxe · kickboxing · scherma
+  · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
 - **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio
 - **Motori** [raduno, rally, gara] · rally · motocross · enduro moto · auto e moto d'epoca (raduni) · karting
 - **Equitazione** [concorso ippico] · salto ostacoli · endurance · passeggiate a cavallo · palio
+  · concorsi FISE del Veneto [equiresults calendario, rideup]
 - **Sport di precisione** · tiro con l'arco · golf · bocce · biliardo · freccette
 - **Ginnastica e danza sportiva** · ginnastica artistica e ritmica · danza sportiva · cheerleading
 - **Sport tradizionali e popolari** · palio e giochi storici · tiro alla fune · corsa nei sacchi
 - **Eventi per chi guarda** [partita, match] · partite di serie A-B-C delle squadre locali · grandi eventi sportivi
+  · basket di Serie A al Palaverde [Treviso Basket calendario] · rugby URC e Challenge Cup a Monigo [Benetton Rugby calendario]
+  · pallavolo A1 femminile al Palaverde [Imoco] · calcio di Serie C allo stadio Tenni [Treviso calcio]
 - **Sport per tutti** · open day delle societa' · giornate dello sport · sport adattato e paralimpico
 
 ## Arte e cultura (`arte-cultura`)
 
 - **Mostre** [mostra, esposizione, vernissage, inaugurazione] · arte antica · arte contemporanea · fotografia
   · illustrazione e fumetto · design · collettive di artisti locali
-- **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie
+- **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale]
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
   · letture per adulti · poesia e slam poetry
@@ -132,6 +136,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · career day di universita' e ITS
 - **Startup e innovazione** · hackathon · pitch · open day di incubatori
 - **Networking** · aperitivi di networking · eventi di associazioni di categoria
+  · business night delle associazioni di commercianti [Confcommercio business night] · incontri Confapi
 
 ## Natura e benessere (`natura-outdoor`)
 
@@ -139,9 +144,10 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   (Sile, Piave) · notturne e al chiaro di luna · birdwatching · forest bathing
   · passeggiate urbane ai margini della citta' (Legambiente)
 - **Ambiente** · pulizia di parchi e fiumi · piantumazioni · educazione ambientale · domeniche ecologiche con distribuzione di piantine [domenica ecologica, alberi in pianura] · Puliamo il Mondo di Legambiente [puliamo il mondo] (settembre-ottobre)
+  · raccolte di rifiuti di Plastic Free e FIPSAS [plastic free, zeroplastic]
 - **Benessere** [yoga, meditazione] · yoga all'aperto · meditazione · pilates · camminata nordica [nordic walking]
 - **Orti e giardini** · giardini aperti · corsi di orticoltura · mostre di piante e fiori
-- **Animali** · eventi cinofili [raduno cani, sfilata cani] · fattorie aperte
+- **Animali** · eventi cinofili [raduno cani, sfilata cani] · fattorie aperte · serate su fauna e migrazioni [rapaci, birdwatching]
 
 ## Voci aggiunte (registro)
 
@@ -150,3 +156,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-10-30 · prima versione dell'albero, scritta a partire dalle 9 categorie del sito
 - 2026-10-31 · +12 voci · dove: Arte e cultura > Conferenze (+2), Tecnologia e scienza (+1), Musica > Musica partecipata (+2), Spettacoli > Cinema (+1), Famiglie > Spettacoli per bambini (+2), Natura > Escursioni (+1), Business > Lavoro (+1), Sagre (+2)
 - 2026-11-02 · +12 voci · dove: Spettacoli > Teatro (+4), Comicita' (+1), Danza (+1), Famiglie > Laboratori (+2), Mercatini (+1), Fiere (+2), Collezionismo (+1)
+- 2026-11-05 · +11 voci · dove: Sport > Eventi per chi guarda (+4), Arti marziali (+1), Equitazione (+1), Business > Networking (+2), Natura > Ambiente (+1), Animali (+1), Arte e cultura > Visite guidate (+1)

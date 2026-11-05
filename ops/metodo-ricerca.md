@@ -93,6 +93,19 @@ lo schema e si parte dalle regole generali e da quelle della regione.
   comune e anno (miglioria 2026-11-02). Le schede MyPortal si riconoscono anche da `/home/vivere/eventi.html` e
   `/eventi/<nome>.html` (Povegliano, Loria).
 
+- Sport da guardare (2026-11-05): i calendari ufficiali delle squadre danno tutte le partite casalinghe della
+  stagione in una lettura (Treviso Basket 7, Benetton Rugby 6). L'Imoco Volley non e' leggibile cosi' (la pagina
+  del Palaverde mostra solo partite passate): usare il calendario della Lega Volley Femminile.
+- Compagnie teatrali in tournee con The Events Calendar (Nautilus Cantiere Teatrale): al PC come `tribe_api`, l'area
+  filtra le date fuori provincia. Le pagine evento del FAI (fondoambiente.it/eventi) danno date, prezzi e prenotazione.
+- Comuni con il portale `/home/vivere/eventi.html` ma senza codice IPA nella pagina (Silea, Monastier): al PC come
+  `html_llm`, non `myportal` con un codice dedotto. Le fonti myportal con codice dedotto del 1-2/11 (Maser,
+  Povegliano, Loria) danno errore di connessione dal PC.
+- Miglioria 2026-11-05: la sigla della provincia nel comune ("Treviso (TV)", "Farra di Soligo TV") faceva fallire la
+  ricerca dell'area del comune e spediva i punti in un altro comune (Gli Alcuni: 45 eventi a Vittorio Veneto). Ora
+  il geocoder la toglie (`clean_town`), il raccoglitore tribe pulisce i luoghi "• Treviso – Teatro" e ogni fonte
+  puo' avere `escludi_titoli` (regex) per scartare le repliche riservate alle scuole.
+
 ## 4. Aggregatori che valgono per piu' province
 
 Fonti utili in piu' province: si configurano una volta e si allargano a ogni provincia nuova (nuove pagine citta' o
@@ -111,6 +124,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-05 · TV · ricerche 50 · eventi nuovi 18 · eventi per ricerca 0,4 · fonti al PC +4 (Comune di Quinto, Silea e Monastier come html_llm; Nautilus Cantiere Teatrale come tribe_api) · miglioria: geocoder senza sigla della provincia nel comune, luoghi tribe ripuliti, `escludi_titoli` per le repliche per le scuole (meno errori di posizione e meno non-eventi senza ricerche)
 - 2026-11-02 · TV · ricerche 52 · eventi nuovi 46 · eventi per ricerca 0,9 · fonti al PC +5 (Teatro Da Ponte, Comune di San Biagio, Comune di Castelfranco come html_llm; Comune di Povegliano e Comune di Loria come myportal) · miglioria: i siti senza dati strutturati ma con un buon elenco (tema design-comuni, calendari dei teatri) vanno al PC come html_llm invece di essere riletti a mano ogni settimana
 
 - 2026-11-01 · TV · ricerche 55 · eventi nuovi 3 · eventi per ricerca 0,1 · fonti al PC +2 (Comune di Paese, Comune di Maser, MyPortal) · miglioria: i comuni MyPortal si aggiungono al PC senza ricerche (IPA = C_ + codice catastale), regola in sezione Treviso

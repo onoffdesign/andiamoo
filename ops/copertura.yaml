@@ -6,7 +6,7 @@
 # "pickleball: rara").
 
 comuni_TV:
-  Altivole: null
+  Altivole: 2026-11-05
   Arcade: null
   Asolo: null
   Borso del Grappa: 2026-11-01
@@ -38,7 +38,7 @@ comuni_TV:
   Gaiarine: null
   Giavera del Montello: null
   Godega di Sant'Urbano: 2026-10-30
-  Gorgo al Monticano: null
+  Gorgo al Monticano: 2026-11-05
   Istrana: null
   Loria: 2026-11-02
   Mansuè: 2026-11-01
@@ -48,7 +48,7 @@ comuni_TV:
   Meduna di Livenza: null
   Miane: null
   Mogliano Veneto: null
-  Monastier di Treviso: null
+  Monastier di Treviso: 2026-11-05
   Monfumo: null
   Montebelluna: null
   Morgano: 2026-10-30
@@ -57,7 +57,7 @@ comuni_TV:
   Nervesa della Battaglia: null
   Oderzo: null
   Ormelle: null
-  Orsago: null
+  Orsago: 2026-11-05
   Paese: 2026-11-01
   Pederobba: null
   Pieve del Grappa: null
@@ -68,7 +68,7 @@ comuni_TV:
   Possagno: null
   Povegliano: 2026-11-02
   Preganziol: null
-  Quinto di Treviso: null
+  Quinto di Treviso: 2026-11-05
   Refrontolo: 2026-11-02
   Resana: null
   Revine Lago: 2026-10-31
@@ -85,7 +85,7 @@ comuni_TV:
   Sarmede: null
   Segusino: null
   Sernaglia della Battaglia: null
-  Silea: null
+  Silea: 2026-11-05
   Spresiano: null
   Susegana: null
   Tarzo: null
@@ -119,7 +119,7 @@ aggregatori:
   musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: 2026-10-30
   'biblioteche: rete BiblioMarca': null
   H-FARM e spazi per eventi business: null
-  cinema e cineforum (Edera, Labirinto): null
+  cinema e cineforum (Edera, Labirinto): 2026-11-05
   meetup.com (Treviso): null
   comehome: null
   Pablo meeter: null
@@ -140,8 +140,10 @@ aggregatori:
   fleamapket.com (mercatini): 2026-11-01
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
-  trevisoeventi.com (calendario provincia): 2026-11-02
-  hellomoglianoveneto.net (appuntamenti del weekend): null
+  trevisoeventi.com (calendario provincia): 2026-11-05
+  hellomoglianoveneto.net (appuntamenti del weekend): 2026-11-05
+  nautiluscantiereteatrale.it (compagnia in tournee, al PC): 2026-11-05
+  fondoambiente.it (eventi FAI in provincia): 2026-11-05
   teatro.it (danza Treviso): 2026-11-02
 community:
   'canali Telegram pubblici: trekking ed escursioni Treviso': null
@@ -162,6 +164,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Business e formazione > Networking": 2026-11-05
+  "Sport > Eventi per chi guarda": 2026-11-05
+  "Sport > Equitazione": 2026-11-05
+  "Sport > Arti marziali e combattimento": 2026-11-05
   "Mercatini e fiere > Mercatini": 2026-11-02
   "Spettacoli > Danza": 2026-11-02
   "Famiglie e bambini > Laboratori": 2026-11-02

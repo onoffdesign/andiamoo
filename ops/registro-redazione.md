@@ -2,6 +2,47 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-05
+
+- **Giro del PC**: NON ha girato stanotte ne' la notte del 4/11 (ultimo rapporto finito il 2026-11-03 alle 01:23,
+  12,6 minuti, 256 eventi). Nessuna redazione notturna il 3 e il 4/11. Lavoro sui dati gia' pubblicati: coda e
+  campione sono quelli del 3/11. Nel rapporto del 3/11: comune-maser, comune-povegliano e comune-loria in errore di
+  connessione (WinError 10060, timeout dal PC); comune-san-biagio 10 e comune-castelfranco 5 eventi nuovi (html_llm
+  funziona); gli-alcuni 47 nuovi ma tutti con il punto sbagliato; teatro-da-ponte 1 (le 35 date sono gia' in
+  eventi_redazione).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (60, lavorati 27): 35 corretti, 17 rimossi, 0 verificati.
+  Gli Alcuni: 30 schede a Treviso (Teatro Sant'Anna, Parco degli Alberi Parlanti, Teatro Del Monaco) erano a
+  Vittorio Veneto o in campagna per il comune "Treviso (TV)": luogo, indirizzo e comune corretti, punto provvisorio
+  in Piazza dei Signori; 14 repliche "| scuole" rimosse (riservate alle classi) e la mattina per le scuole di Fuori
+  copione al Palaverde. San Biagio di Callalta: Requiem di Faure' (7/11 20:45, chiesa di Sant'Andrea di Barbarana,
+  offerta libera), Zeroplastic a Olmi (8/11, iscrizione gratuita), StraWoman (15/11 10-13), convegno sulle api
+  (18/11 20:00, Sala Consiliare, gratuito); due schede del 4/11 concluse rimosse. Anatomia di un film: corso su
+  iscrizione. Restano aperti: accesso di Autunno Musicale (testate e La Vita del Popolo non lo dicono; "Tra codici e
+  manoscritti" alle 10 su musincantus, 9:30 e 11 su La Vita del Popolo), eventi Eventbrite di .Ettore, Castelfranco
+  (Giallo in Castello, 8 novembre), Fogliart in Cansiglio, Maserada sul Palco (ingresso solo nella scheda di Vicini).
+- **Controllo a campione**: 0/10 (accesso 6, luogo 2, link 2).
+- **Eventi aggiunti** (18): sport 13 (7 partite casalinghe di Treviso Basket al Palaverde, 6 del Benetton Rugby a
+  Monigo), arte-cultura 2 (I racconti del Memoriale al Memoriale Brion, FAI, 8 e 29/11), teatro-spettacoli 2
+  (Nautilus a Falze' l'8/11 e a San Biagio il 23/1), natura-outdoor 1 (serata sui rapaci a Silea, 13/11).
+- **Comuni controllati**: Silea (portale con schede complete: al PC), Quinto di Treviso (design-comuni: al PC),
+  Monastier di Treviso (stesso portale di Silea: al PC), Orsago (nessun evento in programma), Gorgo al Monticano e
+  Altivole (solo portali; per Altivole il FAI al Memoriale Brion).
+- **Categorie cercate**: Eventi per chi guarda (13 partite), Networking (Confcommercio e Confapi, nulla di futuro;
+  trevisoimprese.it vieta i robot), Equitazione e Arti marziali (solo calendari federali generici). +11 voci.
+- **Fonti note**: Hello Mogliano (solo post vecchi: debole).
+- **Fonti nuove catalogate**: 8 (Comune di Quinto, Silea, Monastier, Orsago, FAI Memoriale Brion, Treviso Basket,
+  Benetton Rugby, Nautilus Cantiere Teatrale). Spostate in sources.yaml: 4 (comune-quinto, comune-silea,
+  comune-monastier come html_llm; nautilus-teatro come tribe_api). Sistemata: gli-alcuni (escludi_titoli).
+- **Miglioria**: nel codice, il geocoder toglie la sigla della provincia dal comune (`clean_town`), il raccoglitore
+  tribe ripulisce i luoghi "• Treviso – ..." e ogni fonte puo' avere `escludi_titoli`; due test nuovi.
+- **Test di copertura**: 0/10 (feste di paese e rassegne solo su Facebook e trevisoeventi).
+- **Ricerche**: 50 su 70.
+- **Per la notte dopo**: controllare nel rapporto che i punti di Gli Alcuni siano a Treviso e le 4 fonti nuove;
+  trovare le coordinate del Teatro Sant'Anna (Viale Brigata Treviso 18) e del Parco degli Alberi Parlanti (Viale
+  Felissent) e sostituire il punto provvisorio; Maser, Povegliano e Loria in timeout dal PC; Italia XV - Queensland
+  Reds a Monigo (20/11) da confermare sulla pagina FIR; pulizia di correzioni.yaml (voci di eventi non piu' sul sito).
+
 ## 2026-11-02
 
 - **Giro del PC**: NON ha girato stanotte (ultimo rapporto finito il 2026-11-01 alle 01:07). Lavoro sui dati gia'

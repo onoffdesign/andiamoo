@@ -33,6 +33,11 @@ Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella
   dell'organizzatore e vale come link d'azione (ora nel codice). Per gli eventi di insolitotrantran con link social
   si cerca il sito o la pagina dell'evento; se non c'e', resta in coda.
 
+- 2026-11-05 · **Sigla della provincia nel comune.** "Treviso (TV)" faceva cercare il comune sbagliato: 45 eventi di
+  Gli Alcuni a Treviso erano a Vittorio Veneto (37 km). Si toglie la sigla prima di geolocalizzare e si controlla
+  sempre la distanza dal centro del comune. Le repliche riservate alle scuole non sono eventi pubblici: si
+  rimuovono. (ora nel codice: `clean_town` in geocode, `escludi_titoli` nelle fonti)
+
 ## 2. Segnalazioni dal sito
 
 Il PC esporta ogni notte in `ops/segnalazioni.json` le segnalazioni degli ultimi 30 giorni (mai i contatti di chi
@@ -42,7 +47,7 @@ alla parte 1.
 
 Formato: `- AAAA-MM-GG · segnalazione #id · uid · cosa diceva (in breve) · cosa e' stato fatto`
 
-(nessuna segnalazione registrata finora; 2026-11-01 e 2026-11-02: nessuna arrivata)
+(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02 e 2026-11-05: nessuna arrivata)
 
 ## 3. Controllo a campione
 
@@ -57,6 +62,7 @@ Formato (una riga per notte, la piu' recente in alto):
 Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
+- 2026-11-05 · corretti 0/10 · errori: data 0, orario 0, luogo 2, accesso 6, categoria 0, link 2 · lezione: campione del 3/11 (il PC non gira da allora). L'accesso e' l'errore principale: 4 eventi Eventbrite (.Ettore, Cosniga, Anima Club) e Autunno Musicale senza ingresso pubblicato; corretti Anatomia di un film (corso su iscrizione) e la posizione di Nardo il ghepardo (Gli Alcuni, era a Vittorio Veneto). Restano i link Instagram di Pro Loco Maserada e Macedonia Sintetica. Sotto l'80%: causa nella parte 1 (posizione) e in lezioni (Eventbrite senza prezzo nel JSON-LD dell'elenco)
 - 2026-11-02 · corretti 7/10 · errori: data 0, orario 1, luogo 1, accesso 2, categoria 0, link 0 · lezione: il PC non ha girato, campione uguale a ieri: ricontrollato dopo le correzioni. Il link non e' piu' un errore; restano la staffetta di cross di Santa Lucia (solo il comune), la visita ad Anzano (pagina del Comune per la prenotazione, ma orario e costo 2026 non pubblicati) e il CRM da moku (solo Eventbrite, non apribile). Sotto l'80%: la causa sono i dati che l'organizzatore non pubblica (orario, accesso), non errori di trascrizione.
 - 2026-11-01 · corretti 3/10 · errori: data 0, orario 1, luogo 1, accesso 2, categoria 0, link 3 · lezione: il link resta l'errore principale (Instagram per Edera e Treviso Sotterranea, nessun link per la staffetta di cross); tre eventi non verificabili nel budget (visita ad Anzano: pagina del Comune in errore; CRM da moku e 25 novembre all'Edera: solo Eventbrite). Corretti subito tutti gli errori trovati.
 - 2026-10-31 · corretti 0/10 · errori: data 0, orario 2, luogo 1, accesso 2, categoria 1, link 10 · lezione: il link e' l'errore di tutti: gli eventi Eventbrite non avevano official_url e quelli di insolitotrantran puntano al profilo Instagram dell'organizzatore. Eventbrite risolto nel codice (pagina_iscrizione); per insolitotrantran serve cercare il sito dell'evento. Sei eventi su dieci non verificabili per budget (solo Instagram).
