@@ -1065,3 +1065,206 @@ eventi:
     summary: "Ventinovesima rievocazione storica della fiera: dalle 9 mostre e spettacoli, alle 14:30 l'arrivo dei Conti con cavalieri, arcieri e armati, poi spettacoli in varie zone dell'area."
     fonte: https://www.trevisoeventi.com/calendario-eventi-treviso.htm
     trovato: '2026-11-02'
+  - title: "Nutribullet Treviso Basket - Longobardi Scafati Basket"
+    start: 2026-11-15T16:00
+    venue: "Palaverde"
+    address: "Via G. Marconi 10, Lancenigo"
+    town: "Villorba"
+    lat: 45.72412
+    lon: 12.26262
+    category: sport
+    subcategory: basket
+    access: biglietto
+    official_url: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    summary: "Partita casalinga di Treviso Basket contro Longobardi Scafati Basket, 8a giornata del campionato di Serie A di basket."
+    fonte: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    trovato: '2026-11-05'
+  - title: "Nutribullet Treviso Basket - Virtus Bologna"
+    start: 2026-12-07T20:00
+    venue: "Palaverde"
+    address: "Via G. Marconi 10, Lancenigo"
+    town: "Villorba"
+    lat: 45.72412
+    lon: 12.26262
+    category: sport
+    subcategory: basket
+    access: biglietto
+    official_url: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    summary: "Partita casalinga di Treviso Basket contro Virtus Bologna, 10a giornata del campionato di Serie A di basket."
+    fonte: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    trovato: '2026-11-05'
+  - title: "Nutribullet Treviso Basket - Tezenis Verona"
+    start: 2026-12-20T18:00
+    venue: "Palaverde"
+    address: "Via G. Marconi 10, Lancenigo"
+    town: "Villorba"
+    lat: 45.72412
+    lon: 12.26262
+    category: sport
+    subcategory: basket
+    access: biglietto
+    official_url: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    summary: "Partita casalinga di Treviso Basket contro Tezenis Verona, 12a giornata del campionato di Serie A di basket."
+    fonte: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    trovato: '2026-11-05'
+  - title: "Nutribullet Treviso Basket - Napoli Basketball"
+    start: 2027-01-10T18:15
+    venue: "Palaverde"
+    address: "Via G. Marconi 10, Lancenigo"
+    town: "Villorba"
+    lat: 45.72412
+    lon: 12.26262
+    category: sport
+    subcategory: basket
+    access: biglietto
+    official_url: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    summary: "Partita casalinga di Treviso Basket contro Napoli Basketball, 15a giornata del campionato di Serie A di basket."
+    fonte: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    trovato: '2026-11-05'
+  - title: "Nutribullet Treviso Basket - Umana Reyer Venezia"
+    start: 2027-01-24T18:15
+    venue: "Palaverde"
+    address: "Via G. Marconi 10, Lancenigo"
+    town: "Villorba"
+    lat: 45.72412
+    lon: 12.26262
+    category: sport
+    subcategory: basket
+    access: biglietto
+    official_url: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    summary: "Partita casalinga di Treviso Basket contro Umana Reyer Venezia, 17a giornata del campionato di Serie A di basket."
+    fonte: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    trovato: '2026-11-05'
+  - title: "Nutribullet Treviso Basket - Dolomiti Energia Trentino"
+    start: 2027-01-31T18:15
+    venue: "Palaverde"
+    address: "Via G. Marconi 10, Lancenigo"
+    town: "Villorba"
+    lat: 45.72412
+    lon: 12.26262
+    category: sport
+    subcategory: basket
+    access: biglietto
+    official_url: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    summary: "Partita casalinga di Treviso Basket contro Dolomiti Energia Trentino, 18a giornata del campionato di Serie A di basket."
+    fonte: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    trovato: '2026-11-05'
+  - title: "Nutribullet Treviso Basket - Openjobmetis Varese"
+    start: 2027-02-14T18:15
+    venue: "Palaverde"
+    address: "Via G. Marconi 10, Lancenigo"
+    town: "Villorba"
+    lat: 45.72412
+    lon: 12.26262
+    category: sport
+    subcategory: basket
+    access: biglietto
+    official_url: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    summary: "Partita casalinga di Treviso Basket contro Openjobmetis Varese, 20a giornata del campionato di Serie A di basket."
+    fonte: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+    trovato: '2026-11-05'
+  - title: "Benetton Rugby - Queensland Reds"
+    start: 2026-11-27T20:00
+    venue: "Stadio Comunale di Monigo"
+    town: "Treviso"
+    category: sport
+    subcategory: rugby
+    access: biglietto
+    official_url: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    summary: "Benetton Rugby gioca in casa contro Queensland Reds, partita amichevole."
+    fonte: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    trovato: '2026-11-05'
+  - title: "Benetton Rugby - Lyon Rugby"
+    start: 2026-12-12T18:30
+    venue: "Stadio Comunale di Monigo"
+    town: "Treviso"
+    category: sport
+    subcategory: rugby
+    access: biglietto
+    official_url: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    summary: "Benetton Rugby gioca in casa contro Lyon Rugby, partita di EPCR Challenge Cup."
+    fonte: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    trovato: '2026-11-05'
+  - title: "Benetton Rugby - Zebre Parma"
+    start: 2026-12-27T14:30
+    venue: "Stadio Comunale di Monigo"
+    town: "Treviso"
+    category: sport
+    subcategory: rugby
+    access: biglietto
+    official_url: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    summary: "Benetton Rugby gioca in casa contro Zebre Parma, partita di United Rugby Championship."
+    fonte: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    trovato: '2026-11-05'
+  - title: "Benetton Rugby - Hollywoodbets Sharks"
+    start: 2027-01-16T18:30
+    venue: "Stadio Comunale di Monigo"
+    town: "Treviso"
+    category: sport
+    subcategory: rugby
+    access: biglietto
+    official_url: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    summary: "Benetton Rugby gioca in casa contro Hollywoodbets Sharks, partita di EPCR Challenge Cup."
+    fonte: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    trovato: '2026-11-05'
+  - title: "Benetton Rugby - Vodacom Bulls"
+    start: 2027-01-23T18:30
+    venue: "Stadio Comunale di Monigo"
+    town: "Treviso"
+    category: sport
+    subcategory: rugby
+    access: biglietto
+    official_url: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    summary: "Benetton Rugby gioca in casa contro Vodacom Bulls, partita di United Rugby Championship."
+    fonte: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    trovato: '2026-11-05'
+  - title: "Benetton Rugby - Hollywoodbets Sharks"
+    start: 2027-01-30T20:45
+    venue: "Stadio Comunale di Monigo"
+    town: "Treviso"
+    category: sport
+    subcategory: rugby
+    access: biglietto
+    official_url: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    summary: "Benetton Rugby gioca in casa contro Hollywoodbets Sharks, partita di United Rugby Championship."
+    fonte: https://benettonrugby.it/calendario/prima-squadra-maschile/
+    trovato: '2026-11-05'
+  - title: "I racconti del Memoriale: Mille cipressi"
+    start: 2026-11-08
+    venue: "Memoriale Brion"
+    address: "Via Brioni"
+    town: "Altivole"
+    category: arte-cultura
+    subcategory: visite
+    access: biglietto
+    price: "18 euro, ridotto 13, iscritti FAI e residenti 10, gratis fino a 5 anni"
+    official_url: https://fondoambiente.it/eventi/i-racconti-del-memoriale
+    summary: "Visita guidata all'aperto di circa un'ora e mezza al Memoriale Brion di Carlo Scarpa, percorso 'Mille cipressi'. Prenotazione obbligatoria sul sito del FAI."
+    fonte: https://fondoambiente.it/eventi/i-racconti-del-memoriale
+    trovato: '2026-11-05'
+  - title: "I racconti del Memoriale: Carlo Scarpa e Venezia"
+    start: 2026-11-29
+    venue: "Memoriale Brion"
+    address: "Via Brioni"
+    town: "Altivole"
+    category: arte-cultura
+    subcategory: visite
+    access: biglietto
+    price: "18 euro, ridotto 13, iscritti FAI e residenti 10, gratis fino a 5 anni"
+    official_url: https://fondoambiente.it/eventi/i-racconti-del-memoriale
+    summary: "Visita guidata all'aperto di circa un'ora e mezza al Memoriale Brion di Carlo Scarpa, percorso 'Carlo Scarpa e Venezia'. Prenotazione obbligatoria sul sito del FAI."
+    fonte: https://fondoambiente.it/eventi/i-racconti-del-memoriale
+    trovato: '2026-11-05'
+  - title: "La migrazione dei rapaci diurni in provincia di Treviso"
+    start: 2026-11-13T20:30
+    end: 2026-11-13T23:00
+    venue: "Centro Sociale Carlo Tamai"
+    address: "Via Roma 81"
+    town: "Silea"
+    category: natura-outdoor
+    access: libero
+    price: "ingresso gratuito"
+    official_url: https://www.comune.silea.tv.it/eventi/La-migrazione-dei-rapaci-diurni-in-provincia-di-Treviso.html
+    summary: "Serata divulgativa sulla migrazione dei rapaci diurni nel trevigiano, tenuta da un biologo naturalista, promossa dal Comune di Silea."
+    fonte: https://www.comune.silea.tv.it/home/vivere/eventi.html
+    trovato: '2026-11-05'

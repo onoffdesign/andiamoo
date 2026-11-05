@@ -606,9 +606,108 @@ fonti:
   categorie: [sagre-feste, arte-cultura]
   comuni: [Mogliano Veneto]
   province: [TV]
-  frequenza: settimanale
+  frequenza: mensile
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-05'
+  automatizzabile: no
+  stato: debole
+  note: "trovato il 2026-11-02. Il 2026-11-05 la ricerca da' solo post di anni passati (weekend 01-03 novembre = 2024, appuntamenti dal 20 al 24 novembre): non sembra aggiornato, riprovare a dicembre e poi mettere ferma"
+- nome: Comune di Quinto di Treviso (eventi)
+  url: https://www.comune.quintoditreviso.tv.it/eventi/
+  query: Comune di Quinto di Treviso vivere il comune eventi
+  tipo: comune
+  categorie: [arte-cultura, famiglie-bambini]
+  comuni: [Quinto di Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-05'
+  automatizzabile: si
+  stato: spostata
+  note: "tema design-comuni: passata al PC come html_llm (comune-quinto) il 2026-11-05; 3 incontri in evidenza (sicurezza, genitori, Venezia) senza orari nell'elenco"
+- nome: Comune di Silea (eventi)
+  url: https://www.comune.silea.tv.it/home/vivere/eventi.html
+  query: Comune di Silea eventi
+  tipo: comune
+  categorie: [arte-cultura, natura-outdoor, famiglie-bambini]
+  comuni: [Silea]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-05'
+  automatizzabile: si
+  stato: spostata
+  note: "6 eventi futuri con schede complete (orario, luogo, ingresso): passata al PC come html_llm (comune-silea). Giornata PlasticFree del 14/11: la scheda dice anche 14 giugno, non aggiunta"
+- nome: Comune di Monastier di Treviso (eventi)
+  url: https://www.comune.monastierditreviso.tv.it/
+  query: Comune di Monastier di Treviso eventi
+  tipo: comune
+  categorie: [sagre-feste, arte-cultura]
+  comuni: [Monastier di Treviso]
+  province: [TV]
+  frequenza: mensile
   qualita: 2
-  ultimo_controllo: null
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-05'
+  automatizzabile: si
+  stato: spostata
+  note: "stesso portale di Silea (scheda Panevin 2026): passata al PC come html_llm (comune-monastier), elenco da confermare nel rapporto"
+- nome: Comune di Orsago (eventi)
+  url: https://www.comune.orsago.tv.it/home/vivere/eventi.html
+  query: Comune di Orsago eventi
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: [Orsago]
+  province: [TV]
+  frequenza: trimestrale
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-05'
+  automatizzabile: no
+  stato: debole
+  note: "il 2026-11-05 nessun evento in programma (ultimo il 15/10); gli eventi di Orsago sono quasi solo su microturismodellevenezie, che non e' affidabile per le date"
+- nome: FAI Memoriale Brion (visite guidate)
+  url: https://fondoambiente.it/eventi/i-racconti-del-memoriale
+  query: FAI Memoriale Brion Altivole eventi visite
+  tipo: museo
+  categorie: [arte-cultura]
+  comuni: [Altivole]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-05'
   automatizzabile: no
   stato: attiva
-  note: "trovato il 2026-11-02: post settimanali con gli appuntamenti del weekend a Mogliano; da valutare"
+  note: "visite 'I racconti del Memoriale' una domenica al mese (marzo-novembre) con prezzi e prenotazione; controllare a febbraio il calendario 2027. Le pagine eventi FAI della provincia (fondoambiente.it/eventi) sono una buona fonte anche per altri beni FAI"
+- nome: Treviso Basket (calendario Serie A)
+  url: https://trevisobasket.it/calendario/serie-a-tvb-2026-27/
+  query: Treviso Basket calendario Serie A 2026-27
+  tipo: sport
+  categorie: [sport]
+  comuni: [Villorba]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 7, ultimi: [7] }
+  ultimo_controllo: '2026-11-05'
+  automatizzabile: no
+  stato: attiva
+  note: "tutte le partite con data, ora e avversario in una lettura (Palaverde, Via Marconi 10, Lancenigo). Gli orari della LBA vengono fissati a blocchi di giornate: ricontrollare ogni mese"
+- nome: Benetton Rugby (calendario prima squadra)
+  url: https://benettonrugby.it/calendario/prima-squadra-maschile/
+  query: Benetton Rugby calendario prima squadra
+  tipo: sport
+  categorie: [sport]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-05'
+  automatizzabile: no
+  stato: attiva
+  note: "partite casalinghe allo stadio di Monigo (URC, Challenge Cup, amichevoli) con ora; il 20/11 a Monigo anche Italia XV - Queensland Reds (non aggiunta: cercare la pagina FIR)"

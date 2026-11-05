@@ -471,9 +471,6 @@ correggi:
     category: teatro-spettacoli
     summary: "Serata benefica con musica, uno spettacolo di magia e interventi di sportivi, artisti e imprenditori, organizzata da Academy of Excellence."
     nota: "pagina di iscrizione Eventbrite dell'organizzatore: porte alle 19, fine alle 23; prezzo non indicato"
-  aacb8abe5224c830:
-    title: "Fuori copione, nessun limite: mattina per le scuole superiori"
-    nota: "titolo ripulito; sessione per le scuole, accesso da confermare"
   c244694694b8bfbc:
     venue: Albina di Gaiarine
     official_url: https://calendariopodismoveneto.blogspot.com/2025/12/albina-di-gaiarine-tv-su-larden-drio-la.html
@@ -823,6 +820,7 @@ rimuovi:
   91b83a36a05cd654: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   b793be755bbe7691: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   0282e7bf042a0cf3: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
+  aacb8abe5224c830: "sessione del mattino riservata alle scuole superiori, non aperta al pubblico (resta lo show serale 89cbd8271e8be202)"
 verificati:
   d20b8daa82d71b50: "2026-10-31"
   00e3dd8ae3bf8877: "2026-11-01"

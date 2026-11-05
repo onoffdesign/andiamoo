@@ -259,6 +259,33 @@ sources:
     ai_rewrite: true
     note: "Stesso tema design-comuni di San Biagio; era in ops/fonti.yaml (qualita' 5), letta a mano dalla redazione."
 
+  - id: comune-quinto
+    name: Comune di Quinto di Treviso
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.quintoditreviso.tv.it/eventi/]
+    hint: "Eventi del Comune di Quinto di Treviso (TV), anno 2026 se non indicato; town Quinto di Treviso se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-05: WordPress tema design-comuni come San Biagio (schede /vivere-il-comune/eventi/...). Elenco /eventi/ dal menu del sito: controllare nel rapporto la prima notte."
+
+  - id: comune-silea
+    name: Comune di Silea
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.silea.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Silea (TV), anno 2026 se non indicato; town Silea se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-05: portale come Povegliano e Loria (schede /eventi/<nome>.html), 6 eventi futuri; codice IPA non trovato nella pagina, quindi html_llm e non myportal."
+
+  - id: comune-monastier
+    name: Comune di Monastier di Treviso
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.monastierditreviso.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Monastier di Treviso (TV), anno 2026 se non indicato; town Monastier di Treviso se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-05: stesso portale di Silea (scheda /eventi/Panevin-2026---Monastier-di-Treviso.html); indirizzo dell'elenco come negli altri comuni dello stesso portale, da controllare nel rapporto."
+
   - id: teatro-da-ponte
     name: Teatro Lorenzo Da Ponte (Vittorio Veneto)
     type: html_llm
