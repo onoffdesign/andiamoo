@@ -862,6 +862,74 @@ correggi:
     official_url: "https://www.eventbrite.it/e/autumn-social-run-tickets-2003545181572"
     nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): domenica 8/11 ore 15:00 da Tocai"
     verificato: "2026-11-06"
+  ae3c046bd3c58969:
+    title: "Gli effetti del cambiamento climatico in viticoltura"
+    start: "2026-11-10T18:00"
+    end: "2026-11-10T21:00"
+    all_day: false
+    venue: "Sala Polivalente"
+    address: "Via 2 Giugno 45"
+    lat: 45.68699
+    lon: 12.38081
+    access: "libero"
+    price: "gratuito"
+    subcategory: "conferenze"
+    summary: "Incontro della CIA Agricoltori Italiani di Treviso sugli effetti del cambiamento climatico sulla viticoltura, la fertilita' dei suoli e la gestione dell'acqua."
+    official_url: "https://www.comune.sanbiagio.tv.it/vivere-il-comune/eventi/gli-effetti-del-cambiamento-climantico-in-viticoltura/"
+    nota: "scheda del Comune di San Biagio: 10/11 18-21, Sala Polivalente di Via 2 Giugno 45, gratuito; coordinate della biblioteca allo stesso indirizzo"
+    verificato: "2026-11-06"
+  3420000c120c60f7:
+    start: "2026-11-21T09:00"
+    end: "2026-11-21T13:00"
+    all_day: false
+    venue: "Centro Culturale Skhole'"
+    address: "Via Postumia Centro 65"
+    access: "iscrizione"
+    price: "gratuito"
+    official_url: "https://www.comune.sanbiagio.tv.it/vivere-il-comune/eventi/ge-ni-generazioni-e-nuovi-inizi-primo-soccorso-pedatrico-copy-copy/"
+    title: "Ge.Ni. Generazioni e Nuovi Inizi: primo soccorso pediatrico"
+    summary: "Corso di primo soccorso per le emergenze con i bambini piccoli, rivolto a genitori, nonni e altre persone che se ne prendono cura."
+    nota: "scheda del Comune di San Biagio: 21/11 9-13, Centro Culturale Skhole' (primo piano), Via Postumia Centro 65, gratuito con iscrizione online; punto da ricalcolare sull'indirizzo"
+    verificato: "2026-11-06"
+  37416dabca97565c:
+    start: "2026-11-14T09:30"
+    end: "2026-11-14T11:30"
+    all_day: false
+    venue: "Biblioteca Comunale"
+    address: "Via 2 Giugno 45"
+    category: "famiglie-bambini"
+    subcategory: "laboratori"
+    audience: [famiglie]
+    access: "iscrizione"
+    price: "gratuito, prenotazione entro il giovedi' precedente"
+    official_url: "https://www.comune.sanbiagio.tv.it/vivere-il-comune/eventi/leggiamo-in-biblioteca-2026-2-copy/"
+    summary: "Letture e laboratori per bambini della scuola dell'infanzia e primaria a cura del Gruppo Biblioteca."
+    nota: "scheda del Comune di San Biagio: 14/11 9:30-11:30, Biblioteca di Via 2 Giugno 45, gratuito con prenotazione"
+    verificato: "2026-11-06"
+  2c30dc0b71315687:
+    venue: "Biblioteca Comunale"
+    address: "Via 2 Giugno 45"
+    category: "famiglie-bambini"
+    subcategory: "laboratori"
+    audience: [famiglie]
+    access: "iscrizione"
+    price: "gratuito, prenotazione entro il giovedi' precedente"
+    official_url: "https://www.comune.sanbiagio.tv.it/vivere-il-comune/eventi/leggiamo-in-biblioteca-2026-2-copy-2/"
+    summary: "Letture e laboratori per bambini della scuola dell'infanzia e primaria a cura del Gruppo Biblioteca."
+    nota: "elenco eventi del Comune di San Biagio (12/12, stesse attivita' del 14/11); luogo e prenotazione come la data del 14/11, orario non letto"
+    verificato: "2026-11-06"
+  0acb4781ce863355:
+    category: "sagre-feste"
+    subcategory: "ricorrenze"
+    nota: "era in sport: e' la cerimonia del 4 novembre davanti al Municipio; luogo e orario da verificare sul programma allegato"
+    verificato: "2026-11-06"
+  7a170e0720179983:
+    start: "2026-11-08T09:00"
+    all_day: false
+    summary: "Giornata conclusiva della rievocazione storica con mostre e spettacoli dal mattino, l'arrivo dei Conti con cavalieri e arcieri alle 14:30 e uno spettacolo di fuoco in chiusura."
+    official_url: "https://www.anticafierasantalucia.com/eventi/29-rievocazione-storica-dellantica-fiera-2/"
+    nota: "scheda del Comitato Antica Fiera: 8/11 apertura alle 9:00, arrivo dei Conti alle 14:30; ingresso non indicato"
+    verificato: "2026-11-06"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f54314f107c85ed7: "concluso il 29/10/2026"
@@ -887,6 +955,7 @@ rimuovi:
   b793be755bbe7691: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   0282e7bf042a0cf3: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   aacb8abe5224c830: "sessione del mattino riservata alle scuole superiori, non aperta al pubblico (resta lo show serale 89cbd8271e8be202)"
+  f8b485538cb22ecf: "pagina di presentazione della stagione, non un evento: gli spettacoli dell'Accademico sono gia' sul sito uno per uno (Opera Locos, Falstaff, Double Bill, Il male oscuro, Don Chisciotte)"
 verificati:
   d20b8daa82d71b50: "2026-10-31"
   00e3dd8ae3bf8877: "2026-11-01"
