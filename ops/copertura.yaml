@@ -7,7 +7,7 @@
 
 comuni_TV:
   Altivole: 2026-11-05
-  Arcade: null
+  Arcade: 2026-11-06
   Asolo: null
   Borso del Grappa: 2026-11-01
   Breda di Piave: null
@@ -24,7 +24,7 @@ comuni_TV:
   Chiarano: null
   Cimadolmo: null
   Cison di Valmarino: 2026-10-30
-  Codognè: null
+  Codognè: 2026-11-06
   Colle Umberto: null
   Conegliano: 2026-10-30
   Cordignano: 2026-10-30
@@ -46,14 +46,14 @@ comuni_TV:
   Maser: 2026-11-02
   Maserada sul Piave: 2026-11-02
   Meduna di Livenza: null
-  Miane: null
+  Miane: 2026-11-06
   Mogliano Veneto: null
   Monastier di Treviso: 2026-11-05
   Monfumo: null
   Montebelluna: null
   Morgano: 2026-10-30
-  Moriago della Battaglia: null
-  Motta di Livenza: null
+  Moriago della Battaglia: 2026-11-06
+  Motta di Livenza: 2026-11-06
   Nervesa della Battaglia: null
   Oderzo: null
   Ormelle: null
@@ -84,7 +84,7 @@ comuni_TV:
   Santa Lucia di Piave: null
   Sarmede: null
   Segusino: null
-  Sernaglia della Battaglia: null
+  Sernaglia della Battaglia: 2026-11-06
   Silea: 2026-11-05
   Spresiano: null
   Susegana: null
@@ -109,7 +109,7 @@ aggregatori:
   trevisotoday.it (eventi): 2026-10-30
   oggitreviso.it: null
   qdpnews.it: null
-  eventbrite.it (Treviso): null
+  eventbrite.it (Treviso): 2026-11-06
   allevents.in (Treviso): null
   calendariopodismo.it: null
   calendariopodismoveneto.blogspot.com: 2026-11-02
@@ -140,7 +140,7 @@ aggregatori:
   fleamapket.com (mercatini): 2026-11-01
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
-  trevisoeventi.com (calendario provincia): 2026-11-05
+  trevisoeventi.com (calendario provincia): 2026-11-06
   hellomoglianoveneto.net (appuntamenti del weekend): 2026-11-05
   nautiluscantiereteatrale.it (compagnia in tournee, al PC): 2026-11-05
   fondoambiente.it (eventi FAI in provincia): 2026-11-05
@@ -164,6 +164,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Sport > Motori": 2026-11-06
+  "Mercatini e fiere > Mercati agricoli": 2026-11-06
+  "Business e formazione > Convegni e conferenze": 2026-11-06
+  "Sagre e cibo > Vino e bevande": 2026-11-06
   "Business e formazione > Networking": 2026-11-05
   "Sport > Eventi per chi guarda": 2026-11-05
   "Sport > Equitazione": 2026-11-05

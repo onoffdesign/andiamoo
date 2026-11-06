@@ -2,6 +2,44 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-06
+
+- **Giro del PC**: NON ha girato per la terza notte di fila (ultimo rapporto finito il 2026-11-03 alle 01:23). Coda,
+  campione e segnalazioni sono quelli del 3/11; gli eventi aggiunti dalla redazione dal 2/11 non sono ancora sul sito.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (33 rimasti, lavorati 12) e altri eventi: 20 corretti, 1 rimosso, 0 verificati.
+  Eventbrite: l'elenco dei gratuiti di Treviso ha confermato accesso (gratuito su iscrizione) e orario di 14 eventi
+  (In principium erat verbum, Giammarco Sicuro, G Star, Tomaso da Modena, Il canto di Orsola, Concerto di San Leonardo,
+  Quinto Concerto Sinfonico, Deep Trend H-FARM, Guido Damini, La Roste Ride, Autumn social run, STORIES, due del
+  4passiFestival). San Biagio: convegno sul clima in viticoltura (10/11 18-21, Sala Polivalente, gratuito), Ge.Ni. primo
+  soccorso pediatrico (21/11 9-13, Skhole', iscrizione), LeggiAMO in Biblioteca 14/11 e 12/12 (biblioteca, su
+  prenotazione). Antica Fiera di Santa Lucia: orari dell'8/11. Castelfranco: tolta la pagina della stagione di prosa
+  (gli spettacoli sono gia' uno per uno), cerimonia del 4 novembre spostata da sport a ricorrenze.
+  Restano aperti: accesso di Autunno Musicale e Maserada sul Palco, Giallo in Castello (nessuna scheda 2026 di novembre),
+  Sile Classica 22/11 (ingresso non pubblicato), eventi Eventbrite non gratuiti (.Ettore, Cosniga, CRM da moku, A scena
+  aperta, Giovanni IMI, Farra profuma d'autunno), Fogliart e Macedonia Sintetica (solo Instagram).
+- **Controllo a campione**: 3/10 (accesso 4, link 2, luogo 1), stesso campione del 3/11.
+- **Eventi aggiunti** (12): sagre-feste 5 (Prealpi in Festa a Cordignano 6, 7 e 8/11; Antica Fiera di Santa Lucia 7/11),
+  sport 3 (Treviso FBC al Tenni con Novara, Pergolettese, Arzignano), musica 2 (Cappella Sistina a Sernaglia 7/11,
+  Harmonia Mundi all'Antica Fiera 6/11), mercatini-fiere 1 (libro e stampa antichi ad Asolo 7-8/11), famiglie-bambini 1
+  (burattini di Pinocchio a Sernaglia 8/11), arte-cultura 1 (sicurezza in strada a Codogne' 19/11).
+- **Comuni controllati**: Sernaglia della Battaglia (design-comuni: al PC), Codogne' (pagina eventi vuota), Miane (Festa
+  dei Marroni finita il 1/11), Motta di Livenza (sito del Comune non apribile), Moriago e Arcade (solo portali).
+- **Categorie cercate**: Motori (solo calendari nazionali), Mercati agricoli (mercati settimanali fissi: non eventi),
+  Convegni (festival gia' coperti), Vino (degustazioni su appuntamento del Consorzio: non eventi). +11 voci.
+- **Fonti note**: Nordest24 (guida del weekend, 3 eventi), Eventi Venetando (Prealpi in Festa, 3 eventi), trevisoeventi
+  (test di copertura). VenetoToday non riaperta.
+- **Fonti nuove catalogate**: 5 (elenco Eventbrite gratuiti, Comune di Sernaglia, Comune di Codogne', Comune di Mogliano,
+  Treviso FBC). Spostate in sources.yaml: 3 (eventbrite `free_listing_urls`, comune-sernaglia html_llm,
+  comune-mogliano myportal C_F269, da controllare nel primo rapporto).
+- **Miglioria**: la fonte jsonld accetta `free_listing_urls`: gli eventi di un elenco "solo gratuiti" prendono accesso
+  iscrizione e prezzo gratuito (Eventbrite); test nuovo.
+- **Test di copertura**: 1/10.
+- **Pulizia**: tolte 2 rimozioni di eventi conclusi prima del 30/10.
+- **Ricerche**: 60 su 70.
+- **Problemi aperti**: il PC fermo dal 3/11 (nessun evento nuovo sul sito da tre notti); San Martin a Mojan (7-8/11) e
+  Imoco - Macerata (8/11) non confermati; sagre di Colle Umberto, Visna' e Castagnole solo su aggregatori.
+
 ## 2026-11-05
 
 - **Giro del PC**: NON ha girato stanotte ne' la notte del 4/11 (ultimo rapporto finito il 2026-11-03 alle 01:23,

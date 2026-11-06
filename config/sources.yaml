@@ -200,6 +200,16 @@ sources:
     note: "Aggiunta da Claude il 2026-10-31: portale MyPortal (/myportal/C_L407_BIBLIO/), stesso tipo del Comune. Da controllare nel rapporto la prima notte: se 0 eventi o errore, il tipo di contenuto potrebbe non essere pnrr_event."
     # 2026-11-02: disattivata da Claude: robots.txt di bibliotecatreviso.it vieta /myportal/ (WebFetch: robots_disallowed) e il PC ha trovato 0 eventi due notti di fila. Non riattivare senza permesso del sito.
 
+  - id: comune-mogliano
+    name: Comune di Mogliano Veneto
+    type: myportal
+    enabled: true
+    base_url: https://www.comunemoglianoveneto.it
+    ipa: C_F269
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-06: i documenti del Comune sono su /myportal/C_F269/ (MyPortal della Regione Veneto). Da controllare nel rapporto la prima notte: se errore o 0 eventi, verificare robots e tipo di contenuto."
+
   - id: comune-paese
     name: Comune di Paese
     type: myportal
@@ -251,6 +261,15 @@ sources:
     hint: "Eventi del Comune di San Biagio di Callalta (TV), anno 2026 se non indicato; town San Biagio di Callalta se non indicato."
     ai_rewrite: true
     note: "WordPress con tema design-comuni: elenco con giorno, titolo e link alla scheda. 8 eventi futuri al 2026-11-02."
+
+  - id: comune-sernaglia
+    name: Comune di Sernaglia della Battaglia
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.sernaglia.tv.it/eventi]
+    hint: "Eventi del Comune di Sernaglia della Battaglia (TV), anno 2026 se non indicato; town Sernaglia della Battaglia se non indicato (frazioni Fontigo, Falze' di Piave)."
+    ai_rewrite: true
+    note: "Aggiunto da Claude il 2026-11-06: stesso tema design-comuni di San Biagio, 9 eventi tra 6 e 20 novembre; schede con ora e luogo."
 
   - id: comune-castelfranco
     name: Comune di Castelfranco Veneto

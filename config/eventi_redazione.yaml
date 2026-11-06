@@ -1289,3 +1289,144 @@ eventi:
     summary: "Spettacolo della compagnia Nautilus Cantiere Teatrale al teatro di San Biagio di Callalta."
     fonte: https://nautiluscantiereteatrale.it/appuntamenti/
     trovato: '2026-11-05'
+  - title: "Mostra mercato del libro e della stampa antichi"
+    start: 2026-11-07T09:30
+    end: 2026-11-08
+    venue: "Sala della Ragione"
+    town: "Asolo"
+    category: mercatini-fiere
+    subcategory: antiquariato
+    access: libero
+    price: "ingresso libero"
+    official_url: https://www.nordest24.it/veneto-cosa-fare-6-8-novembre-2026-legno-libri-rievocazioni-arte
+    summary: "Quinta edizione della mostra mercato di libri e stampe antiche nella Sala della Ragione di Asolo."
+    fonte: https://www.nordest24.it/veneto-cosa-fare-6-8-novembre-2026-legno-libri-rievocazioni-arte
+    trovato: '2026-11-06'
+  - title: "Harmonia Mundi, concerto all'Antica Fiera di Santa Lucia"
+    start: 2026-11-06T20:30
+    venue: "Filanda Grande"
+    town: "Santa Lucia di Piave"
+    category: musica
+    subcategory: concerti
+    official_url: https://www.anticafierasantalucia.com/eventi/29-rievocazione-storica-dellantica-fiera-2/
+    summary: "Concerto Harmonia Mundi alla Filanda Grande, nella serata di apertura della rievocazione storica dell'Antica Fiera."
+    fonte: https://www.nordest24.it/veneto-cosa-fare-6-8-novembre-2026-legno-libri-rievocazioni-arte
+    trovato: '2026-11-06'
+  - title: "Rievocazione storica dell'Antica Fiera di Santa Lucia: mercato medievale e spettacoli"
+    start: 2026-11-07T09:00
+    venue: "Campo Fiera ed Ex Filanda"
+    town: "Santa Lucia di Piave"
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.anticafierasantalucia.com/eventi/29-rievocazione-storica-dellantica-fiera-2/
+    summary: "Sabato della rievocazione con mercatino medievale e mostra dalle 9, corteo alle 14:30, spettacolo Belfagor alle 18:30 e concerto alle 20:30 alla Filanda Grande."
+    fonte: https://www.nordest24.it/veneto-cosa-fare-6-8-novembre-2026-legno-libri-rievocazioni-arte
+    trovato: '2026-11-06'
+  - title: "Ut Unum Sint: la Cappella Musicale Pontificia Sistina in concerto"
+    start: 2026-11-07T20:00
+    end: 2026-11-07T22:00
+    venue: "Chiesa arcipretale di Santa Maria Assunta"
+    address: "Via G. Marconi 1"
+    town: "Sernaglia della Battaglia"
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/ut-unum-sint-la-cappella-musicale-pontificia-sistina-in-concerto/
+    summary: "Concerto della Cappella Musicale Pontificia Sistina diretta da Marcos Pavan nella chiesa parrocchiale di Sernaglia."
+    fonte: https://www.comune.sernaglia.tv.it/
+    trovato: '2026-11-06'
+  - title: "Spettacolo di burattini: la storia di Pinocchio"
+    start: 2026-11-08T16:30
+    end: 2026-11-08T17:30
+    venue: "Sala Consiliare"
+    address: "Piazza Martiri della Liberta'"
+    town: "Sernaglia della Battaglia"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    audience: [famiglie]
+    access: iscrizione
+    official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/spettacolo-burattini-pinocchio/
+    summary: "Spettacolo di burattini e pupazzi di Alberto De Bastiani sulla storia di Pinocchio, per famiglie e bambini."
+    fonte: https://www.comune.sernaglia.tv.it/
+    trovato: '2026-11-06'
+  - title: "Circolando fuori casa. La buona sicurezza in strada non ha eta'"
+    start: 2026-11-19T15:30
+    end: 2026-11-19T17:00
+    venue: "Biblioteca Comunale"
+    town: "Codognè"
+    category: arte-cultura
+    subcategory: incontri-pubblici
+    official_url: https://www.comune.codogne.tv.it/novita/circolando-fuori-casa-la-buona-sicurezza-in-strada-non-ha-eta/
+    summary: "Incontro pubblico in biblioteca sulla sicurezza in strada."
+    fonte: https://www.comune.codogne.tv.it/
+    trovato: '2026-11-06'
+  - title: "Prealpi in Festa: serata corale e cena Prealpi in Tavola"
+    start: 2026-11-06T19:00
+    venue: "Chiesa Arcipretale e Piazza Italia"
+    town: "Cordignano"
+    category: sagre-feste
+    subcategory: sagre
+    access: libero
+    price: "serata corale a ingresso libero; cena su prenotazione"
+    official_url: https://www.eventivenetando.it/it/eventi/feste-e-sagre/32-prealpi-in-festa/16979
+    summary: "Terza serata della 32esima Prealpi in Festa, con una serata corale nella chiesa arcipretale e la cena Prealpi in Tavola."
+    fonte: https://www.trevisoeventi.com/cordignano-prealpi-in-festa.html
+    trovato: '2026-11-06'
+  - title: "Prealpi in Festa: escursioni, conferenza storica e Aperitivo del Bosco"
+    start: 2026-11-07T10:00
+    end: 2026-11-07T23:59
+    venue: "Piazza Italia"
+    town: "Cordignano"
+    category: sagre-feste
+    subcategory: sagre
+    access: libero
+    price: "ingresso libero; escursioni su prenotazione"
+    official_url: https://www.eventivenetando.it/it/eventi/feste-e-sagre/32-prealpi-in-festa/16979
+    summary: "Sabato della Prealpi in Festa con escursioni guidate alle 10 e alle 14:30, una conferenza storica alle 18:30 e l'Aperitivo del Bosco dalle 19."
+    fonte: https://www.trevisoeventi.com/cordignano-prealpi-in-festa.html
+    trovato: '2026-11-06'
+  - title: "Prealpi in Festa: mercato, triathlon del boscaiolo e castagnata"
+    start: 2026-11-08T09:00
+    end: 2026-11-08T19:00
+    venue: "Piazza Italia e Villa Brandolini Zanussi"
+    town: "Cordignano"
+    category: sagre-feste
+    subcategory: sagre
+    access: libero
+    price: "ingresso libero; pranzo su prenotazione"
+    official_url: https://www.eventivenetando.it/it/eventi/feste-e-sagre/32-prealpi-in-festa/16979
+    summary: "Giornata conclusiva con mercato dei prodotti, triathlon del boscaiolo alle 10:30, pranzo con lo spiedo, castagnata, sfilata e spettacoli per bambini, premiazione del simposio di scultura in legno alle 16:30."
+    fonte: https://www.trevisoeventi.com/cordignano-prealpi-in-festa.html
+    trovato: '2026-11-06'
+  - title: "Treviso - Novara (Serie C)"
+    start: 2026-11-08T17:30
+    venue: "Stadio Omobono Tenni"
+    town: "Treviso"
+    category: sport
+    subcategory: calcio
+    access: biglietto
+    official_url: https://trevisocalcio.tv/il-calendario-del-treviso-fbc/
+    summary: "Partita casalinga del Treviso FBC contro il Novara nel campionato di Serie C."
+    fonte: https://www.trevisoeventi.com/calcio-treviso.html
+    trovato: '2026-11-06'
+  - title: "Treviso - Pergolettese (Serie C)"
+    start: 2026-11-22
+    venue: "Stadio Omobono Tenni"
+    town: "Treviso"
+    category: sport
+    subcategory: calcio
+    access: biglietto
+    official_url: https://trevisocalcio.tv/il-calendario-del-treviso-fbc/
+    summary: "Partita casalinga del Treviso FBC contro la Pergolettese nel campionato di Serie C; orario non ancora pubblicato."
+    fonte: https://trevisocalcio.tv/il-calendario-del-treviso-fbc/
+    trovato: '2026-11-06'
+  - title: "Treviso - Arzignano Valchiampo (Serie C)"
+    start: 2026-12-06
+    venue: "Stadio Omobono Tenni"
+    town: "Treviso"
+    category: sport
+    subcategory: calcio
+    access: biglietto
+    official_url: https://trevisocalcio.tv/il-calendario-del-treviso-fbc/
+    summary: "Partita casalinga del Treviso FBC contro l'Arzignano Valchiampo nel campionato di Serie C; orario non ancora pubblicato."
+    fonte: https://trevisocalcio.tv/il-calendario-del-treviso-fbc/
+    trovato: '2026-11-06'

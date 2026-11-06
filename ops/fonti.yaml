@@ -112,14 +112,15 @@ fonti:
   frequenza: settimanale
   qualita: 3
   resa:
-    controlli: 1
-    eventi_trovati: 1
+    controlli: 2
+    eventi_trovati: 4
     ultimi:
     - 1
-  ultimo_controllo: '2026-10-30'
+    - 3
+  ultimo_controllo: '2026-11-06'
   automatizzabile: 'no'
   stato: attiva
-  note: Articoli con date, orari e prezzi; confermare sul sito ufficiale.
+  note: "Articoli con date, orari e prezzi; confermare sul sito ufficiale. | 2026-11-06: la guida 'Veneto, cosa fare dal ... al ...' del weekend esce il giovedi': una lettura, 2 eventi TV (Asolo, Santa Lucia)."
 - nome: VenetoToday (eventi Treviso)
   url: https://venetotoday.it/
   query: venetotoday Treviso programma 2026
@@ -215,14 +216,15 @@ fonti:
   frequenza: settimanale
   qualita: 2
   resa:
-    controlli: 1
-    eventi_trovati: 0
+    controlli: 2
+    eventi_trovati: 3
     ultimi:
     - 0
-  ultimo_controllo: '2026-10-30'
+    - 3
+  ultimo_controllo: '2026-11-06'
   automatizzabile: 'no'
   stato: attiva
-  note: Stanotte errore del server su WebFetch; riprovare.
+  note: "2026-11-06: le schede si aprono e riportano il programma completo per giorno (Prealpi in Festa 2026). Controllare l'anno: la XXII Sagra di San Martino di Colle Umberto e' del 2022."
 - nome: Fleamapket (mercatini)
   url: https://www.fleamapket.com/
   query: fleamapket <comune> mercatino
@@ -711,3 +713,74 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "partite casalinghe allo stadio di Monigo (URC, Challenge Cup, amichevoli) con ora; il 20/11 a Monigo anche Italia XV - Queensland Reds (non aggiunta: cercare la pagina FIR)"
+- nome: Eventbrite, elenco eventi gratuiti in provincia di Treviso
+  url: https://www.eventbrite.it/d/italy--treviso--85685297/free--events/
+  query: eventbrite Eventi in Treviso Italia gratuiti
+  tipo: biglietteria
+  categorie: [arte-cultura, musica, business, sport]
+  comuni: [Treviso, Conegliano, Spresiano, Roncade, Tarzo]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 14, ultimi: [14] }
+  ultimo_controllo: '2026-11-06'
+  automatizzabile: si
+  stato: spostata
+  note: "20 eventi per pagina, 7 pagine; ?page=2 si apre con WebFetch. Tutti gratuiti: conferma l'accesso (iscrizione gratuita) di decine di eventi Eventbrite in una lettura. Passato al PC come free_listing_urls della fonte eventbrite (2026-11-06)."
+- nome: Comune di Sernaglia della Battaglia (eventi)
+  url: https://www.comune.sernaglia.tv.it/eventi
+  query: Comune di Sernaglia Della Battaglia eventi
+  tipo: comune
+  categorie: [musica, famiglie-bambini, arte-cultura]
+  comuni: [Sernaglia della Battaglia]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-06'
+  automatizzabile: si
+  stato: spostata
+  note: "design-comuni come San Biagio: 9 eventi tra 6 e 20/11, schede con ora e luogo. Passato al PC (comune-sernaglia, html_llm)."
+- nome: Comune di Codogne' (eventi e novita')
+  url: https://www.comune.codogne.tv.it/eventi/
+  query: Comune di Codognè eventi
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: [Codognè]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-06'
+  automatizzabile: no
+  stato: debole
+  note: "design-comuni ma la pagina eventi e' vuota a novembre; l'unico incontro era tra le novita'."
+- nome: Comune di Mogliano Veneto (MyPortal)
+  url: https://www.comunemoglianoveneto.it/
+  query: Comune di Mogliano Veneto eventi
+  tipo: comune
+  categorie: [arte-cultura, sagre-feste]
+  comuni: [Mogliano Veneto]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-06'
+  automatizzabile: si
+  stato: spostata
+  note: "documenti su /myportal/C_F269/: passato al PC come myportal (comune-mogliano). San Martin a Mojan (7-8/11) non coperto: lapiazzaweb vieta i robot."
+- nome: Treviso FBC (calendario Serie C)
+  url: https://trevisocalcio.tv/il-calendario-del-treviso-fbc/
+  query: IL CALENDARIO DEL TREVISO FBC trevisocalcio
+  tipo: sport
+  categorie: [sport]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 3, ultimi: [3] }
+  ultimo_controllo: '2026-11-06'
+  automatizzabile: no
+  stato: attiva
+  note: "date e avversari di tutta la stagione, niente orari (gli orari della Serie C escono a blocchi): aggiungere le partite in casa dei 30 giorni e ricontrollare l'ora. Stadio Tenni."
+

@@ -45,6 +45,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
 - **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio
 - **Motori** [raduno, rally, gara] · rally · motocross · enduro moto · auto e moto d'epoca (raduni) · karting
+  · calendario ACI Sport del mese [acisport calendari] · mostre scambio di auto e moto d'epoca · autocross
 - **Equitazione** [concorso ippico] · salto ostacoli · endurance · passeggiate a cavallo · palio
   · concorsi FISE del Veneto [equiresults calendario, rideup]
 - **Sport di precisione** · tiro con l'arco · golf · bocce · biliardo · freccette
@@ -89,6 +90,8 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   funghi, baccala', pesce, spiedo, polenta) · patronali · feste di frazione
   · feste dei santuari mariani di novembre [Madonna della Salute] · sagre di San Martino
 - **Vino e bevande** [degustazione, cantine aperte] · Prosecco e colline del Conegliano Valdobbiadene · mostre dei vini
+  · Veneto Wine Stars (Conegliano) · Go To Veneto (Strada del Conegliano Valdobbiadene) · birrifici artigianali
+  (non sono eventi le degustazioni in cantina su appuntamento del calendario del Consorzio)
   · birre artigianali · distillati e grappa · cantine aperte
 - **Cibo** · street food · cene a tema · corsi di cucina · mercati contadini con degustazioni · pranzi benefici con pasta di tradizione [pranzo solidale, magnar ben] · mostre mercato del radicchio [mostra del radicchio, Fiori d'Inverno] (gennaio)
 - **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed
@@ -122,7 +125,8 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Mercatini** [mercatino] · antiquariato e modernariato [ricorrenza mensile] · hobbistica e artigianato · antiquariato mensile nei borghi del centro [Cose d'Altri Tempi, quarta domenica]
   · vintage e usato · mercatini di Natale · baratto e swap party · libri usati
   · mercatini di Natale di paese gia' da meta' novembre [mercatino di Natale <comune>]
-- **Mercati agricoli** · mercato contadino · Campagna Amica
+- **Mercati agricoli** · mercato contadino · Campagna Amica · mercati straordinari di Natale e di stagione
+  · mostre mercato di prodotti d'autunno [profumi e sapori] (i mercati settimanali fissi sono un servizio, non un evento)
 - **Fiere** [fiera, expo] · fiere storiche di paese · fiere di settore · fiere dell'auto e moto d'epoca · fiere del
   fumetto e del gioco
   · rievocazioni storiche delle fiere antiche [antica fiera, rievocazione storica] · mostre mercato dei prodotti d'autunno [profumi e sapori d'autunno]
@@ -131,6 +135,8 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 ## Business e formazione (`business`)
 
 - **Convegni e conferenze** [convegno, seminario] · impresa · innovazione · sostenibilita'
+  · incontri tecnici per agricoltori (CIA, Coldiretti, Condifesa) · incontri d'impresa su Eventbrite [Eventbrite business gratuiti]
+  · festival dell'educazione [EducarSi', 4passiFestival]
 - **Formazione** [workshop, corso, masterclass] · digitale e marketing · lingue · fotografia · scrittura
 - **Lavoro** [job day, career day, recruiting day] · job day e fiere del lavoro · orientamento universitario
   · career day di universita' e ITS
@@ -157,3 +163,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-10-31 · +12 voci · dove: Arte e cultura > Conferenze (+2), Tecnologia e scienza (+1), Musica > Musica partecipata (+2), Spettacoli > Cinema (+1), Famiglie > Spettacoli per bambini (+2), Natura > Escursioni (+1), Business > Lavoro (+1), Sagre (+2)
 - 2026-11-02 · +12 voci · dove: Spettacoli > Teatro (+4), Comicita' (+1), Danza (+1), Famiglie > Laboratori (+2), Mercatini (+1), Fiere (+2), Collezionismo (+1)
 - 2026-11-05 · +11 voci · dove: Sport > Eventi per chi guarda (+4), Arti marziali (+1), Equitazione (+1), Business > Networking (+2), Natura > Ambiente (+1), Animali (+1), Arte e cultura > Visite guidate (+1)
+- 2026-11-06 · +11 voci · dove: Sport > Motori (+3), Sagre > Vino e bevande (+3), Mercatini > Mercati agricoli (+2), Business > Convegni e conferenze (+3)

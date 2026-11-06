@@ -101,6 +101,9 @@ lo schema e si parte dalle regole generali e da quelle della regione.
 - Comuni con il portale `/home/vivere/eventi.html` ma senza codice IPA nella pagina (Silea, Monastier): al PC come
   `html_llm`, non `myportal` con un codice dedotto. Le fonti myportal con codice dedotto del 1-2/11 (Maser,
   Povegliano, Loria) danno errore di connessione dal PC.
+- Accesso degli eventi Eventbrite (2026-11-06): non aprire le schede una per una; l'elenco "Eventi in Treviso gratuiti"
+  (/d/italy--treviso--85685297/free--events/, anche ?page=N) conferma in una lettura 20 eventi gratuiti con ora e luogo.
+  Ora lo legge il PC. Gli eventi Eventbrite che non vi compaiono sono probabilmente a pagamento: serve la scheda.
 - Miglioria 2026-11-05: la sigla della provincia nel comune ("Treviso (TV)", "Farra di Soligo TV") faceva fallire la
   ricerca dell'area del comune e spediva i punti in un altro comune (Gli Alcuni: 45 eventi a Vittorio Veneto). Ora
   il geocoder la toglie (`clean_town`), il raccoglitore tribe pulisce i luoghi "• Treviso – Teatro" e ogni fonte
@@ -124,6 +127,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-06 · TV · ricerche 60 · eventi nuovi 12 · eventi per ricerca 0,2 (piu' 14 corretti in blocco con 2 letture) · fonti al PC +3 (elenco Eventbrite gratuiti, Comune di Sernaglia html_llm, Comune di Mogliano myportal) · miglioria: la fonte Eventbrite legge anche l'elenco "solo gratuiti" (`free_listing_urls`): gli eventi che vi compaiono prendono accesso iscrizione e prezzo gratuito, cosi' l'errore di accesso piu' frequente della coda e del campione sparisce senza ricerche
 - 2026-11-05 · TV · ricerche 50 · eventi nuovi 18 · eventi per ricerca 0,4 · fonti al PC +4 (Comune di Quinto, Silea e Monastier come html_llm; Nautilus Cantiere Teatrale come tribe_api) · miglioria: geocoder senza sigla della provincia nel comune, luoghi tribe ripuliti, `escludi_titoli` per le repliche per le scuole (meno errori di posizione e meno non-eventi senza ricerche)
 - 2026-11-02 · TV · ricerche 52 · eventi nuovi 46 · eventi per ricerca 0,9 · fonti al PC +5 (Teatro Da Ponte, Comune di San Biagio, Comune di Castelfranco come html_llm; Comune di Povegliano e Comune di Loria come myportal) · miglioria: i siti senza dati strutturati ma con un buon elenco (tema design-comuni, calendari dei teatri) vanno al PC come html_llm invece di essere riletti a mano ogni settimana
 

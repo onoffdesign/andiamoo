@@ -8,7 +8,6 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 ## Ricerche che funzionano
 - Per gruppi di eventi Eventbrite nello stesso luogo (es. 6 a Santa Caterina) cercare i titoli insieme: esce il
   festival che li organizza e il suo programma verifica tutto con 2-3 letture.
-- Calendario Podismo Veneto (pagina del mese) conferma in una lettura orari e distanze di tutte le gare TV.
 - WebSearch "standard" rende poco sui siti locali (risultati USA): per comuni, rassegne e teatri usare "extended".
 - WebFetch apre solo link comparsi nei risultati: i link della coda (comune.treviso.it, 2night, eventiesagre) vanno
   prima fatti uscire con una ricerca mirata (titolo + comune + anno).
@@ -28,13 +27,16 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   degli eventi in coda, una lettura per evento con ora, luogo e ingresso.
 - Le schede di un teatro amatoriale hanno orario e prezzo, l'elenco no: basta aprire una scheda per la rassegna.
 
+- Le pagine elenco dei comuni design-comuni (San Biagio, Sernaglia, Castelfranco) mettono nei risultati i link alle
+  schede: dopo una lettura dell'elenco le schede si aprono con WebFetch anche se non erano nei risultati di ricerca.
+- La guida del weekend di Nordest24 ("Veneto, cosa fare dal ... al ...") esce il giovedi': una lettura, eventi TV con
+  programma per giorno. Eventivenetando ha i programmi completi delle feste (Prealpi in Festa).
+
 ## Fonti da evitare o poco utili
 - bibliotecatreviso.it vieta /myportal/ nei robots (WebFetch robots_disallowed): fonte del PC disattivata.
 - teatro.it (pagine date) da' errore a WebFetch; imocovolley.it mostra in prima pagina solo le partite gia' giocate.
 - Gli articoli di VenetoToday e Nordest24 sulle rassegne non dicono quasi mai l'ingresso: per l'accesso servono le
   schede dell'organizzatore (es. musincantus.it/evento/...), non le testate.
-- Ricerche su .Ettore (Signoressa): la pagina organizzatore Eventbrite non elenca eventi; tre eventi restano in coda.
-- distrettolaghi.it e' il Lago Maggiore (Piemonte), non il Lago di Revine: inutile.
 - cheventi.it e arteven.it/pr/treviso danno errore a WebFetch; Eventbrite non si apre senza un risultato di ricerca.
 - eventivenetando ed eventiesagre per le sagre spesso mostrano l'edizione di anni passati: controllare l'anno.
 - deliziedautunno.tv e cultura.gov.it vietano i robot: non aprirli, usarli solo come titolo nei risultati.
@@ -54,8 +56,14 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   lat/lon) e la shell non raggiunge Nominatim: 4 letture sprecate il 2026-11-05. Meglio dare indirizzo e comune
   giusti (il PC ricalcola) o il centro certo piu' vicino.
 - hellomoglianoveneto.net: nei risultati solo post di anni passati. trevisoimprese.it vieta i robot.
-- Eventbrite: la pagina organizzatore di .Ettore non elenca gli eventi; l'elenco Eventbrite non ha il prezzo nel
-  JSON-LD, quindi l'accesso resta sconosciuto: serve leggere la scheda dell'evento.
+- Eventbrite: la pagina organizzatore di .Ettore non elenca gli eventi. L'accesso si conferma con l'elenco dei gratuiti
+  (/d/italy--treviso--85685297/free--events/?page=N, ora letto dal PC); chi non vi compare va visto sulla scheda.
+
+- WebFetch rifiuta anche i link presi dentro una pagina letta se il dominio e' nuovo (veneto.eu, comune.mottadilivenza
+  dopo un redirect, wp-json di musincantus): 3 letture perse il 2026-11-06. lapiazzaweb.it vieta i robot.
+- Il calendario delle degustazioni del Consorzio Conegliano Valdobbiadene sono disponibilita' su appuntamento, non eventi.
+- Le pagine del Comune di Castelfranco per "Giallo in Castello" nei risultati sono tutte di edizioni passate (2024,
+  maggio 2026): le date di novembre restano senza scheda.
 
 ## Calendario (chi pubblica quando)
 - Teatri comunali: le stagioni 2026/27 escono a fine ottobre con vendite da inizio novembre (Castelfranco).
