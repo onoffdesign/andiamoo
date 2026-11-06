@@ -15,7 +15,7 @@ $since = (Get-Date).AddDays(-5)
 & {
     "===== DIAGNOSI $(Get-Date -Format s) ====="
     "--- Attivita' pianificate"
-    foreach ($n in "Andiamoo-Pipeline", "Andiamoo-Resoconto") {
+    foreach ($n in "Andiamoo-Pipeline", "Andiamoo-Recupero", "Andiamoo-Resoconto") {
         $t = Get-ScheduledTask -TaskName $n -ErrorAction SilentlyContinue
         if (-not $t) { "$n : NON TROVATA"; continue }
         $i = Get-ScheduledTaskInfo -TaskName $n

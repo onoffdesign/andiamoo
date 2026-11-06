@@ -204,7 +204,8 @@ def main(argv=None) -> int:
         log.info("Coda di revisione: %d eventi", len(queue))
 
     if not args.no_publish and settings()["publish"]["git_push"]:
-        publish(f"Aggiornamento eventi: {payload['count']} eventi")
+        if not publish(f"Aggiornamento eventi: {payload['count']} eventi"):
+            return 2                       # non pubblicato: il giro di recupero delle 02:40 ci riprova
     return 0
 
 

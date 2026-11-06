@@ -39,6 +39,9 @@ $trigger = New-ScheduledTaskTrigger -Daily -At "01:00"
 $settings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
             -ExecutionTimeLimit (New-TimeSpan -Hours 4) -MultipleInstances IgnoreNew
 # Resoconto su Telegram alle 07:30, dopo la revisione di Claude (03:37): risveglio, invio, di nuovo ibernazione
+# Giro di recupero alle 02:40: parte davvero solo se quello dell'01:00 non ha pubblicato (es. Wi-Fi assente)
+$recAction = New-ScheduledTaskAction -Execute "$Root\windows\run_pipeline.bat" -Argument "recupero" -WorkingDirectory $Root
+$recTrigger = New-ScheduledTaskTrigger -Daily -At "02:40"
 $repAction = New-ScheduledTaskAction -Execute "$Root\windows\run_report.bat" -Argument "notte" -WorkingDirectory $Root
 $repTrigger = New-ScheduledTaskTrigger -Daily -At "07:30"
 $repSettings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
@@ -47,7 +50,8 @@ $who = "$env:USERDOMAIN\$env:USERNAME"
 if ($ConPassword) {
     $cred = Get-Credential -UserName $who -Message "Password di Windows (o dell'account Microsoft) per il giro notturno"
     $pw = $cred.GetNetworkCredential().Password
-    foreach ($t in @(@("Andiamoo-Pipeline", $action, $trigger, $settings), @("Andiamoo-Resoconto", $repAction, $repTrigger, $repSettings))) {
+    foreach ($t in @(@("Andiamoo-Pipeline", $action, $trigger, $settings), @("Andiamoo-Recupero", $recAction, $recTrigger, $settings),
+                     @("Andiamoo-Resoconto", $repAction, $repTrigger, $repSettings))) {
         Register-ScheduledTask -TaskName $t[0] -Action $t[1] -Trigger $t[2] -Settings $t[3] -User $who -Password $pw `
             -RunLevel Highest -Force | Out-Null
     }
@@ -56,6 +60,8 @@ if ($ConPassword) {
     $logon = if ($Interattivo) { "Interactive" } else { "S4U" }
     $principal = New-ScheduledTaskPrincipal -UserId $who -LogonType $logon -RunLevel Highest
     Register-ScheduledTask -TaskName "Andiamoo-Pipeline" -Action $action -Trigger $trigger -Settings $settings `
+        -Principal $principal -Force | Out-Null
+    Register-ScheduledTask -TaskName "Andiamoo-Recupero" -Action $recAction -Trigger $recTrigger -Settings $settings `
         -Principal $principal -Force | Out-Null
     Register-ScheduledTask -TaskName "Andiamoo-Resoconto" -Action $repAction -Trigger $repTrigger -Settings $repSettings `
         -Principal $principal -Force | Out-Null

@@ -14,6 +14,13 @@ for /l %%i in (1,1,24) do (
 call "%~dp0aggiorna_codice.bat" >> logs\pipeline.log 2>&1
 REM NB: le righe fino a "call aggiorna_codice" restano uguali: l'aggiornamento riscrive questo file mentre gira,
 REM quindi si cambia solo cio' che viene dopo.
+REM Giro di recupero (attivita' Andiamoo-Recupero, 02:40): parte solo se il giro dell'01:00 non ha pubblicato.
+set FATTO=
+if exist logs\giro_ok.txt set /p FATTO=<logs\giro_ok.txt
+if /i "%~1"=="recupero" if "%FATTO%"=="%date%" (
+  echo %date% %time% Recupero non necessario: il giro di oggi ha gia' pubblicato >> logs\pipeline.log
+  goto fine
+)
 REM Rete ancora assente? Dopo il risveglio, senza nessuno collegato, il Wi-Fi puo' metterci di piu': altri 10 minuti.
 set RETE=0
 for /l %%i in (1,1,120) do (
@@ -30,7 +37,8 @@ if "%RETE%"=="0" (
 REM Ollama ha un log suo: se partisse con il log del giro, lo terrebbe aperto e bloccherebbe tutte le righe dopo
 call "%~dp0avvia_ollama.bat" >> logs\ollama.log 2>&1
 ".venv\Scripts\python.exe" -m pipeline.run >> logs\pipeline.log 2>&1
+if not errorlevel 1 echo %date%>logs\giro_ok.txt
 echo %date% %time% Fine del giro (codice %errorlevel%) >> logs\pipeline.log
 :fine
 REM ibernazione anche se il log fosse bloccato (in quel caso si scrive in fine_notte.log)
-if /i "%~1"=="notte" powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\pipeline.log 2>&1 || powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\fine_notte.log 2>&1
+if not "%~1"=="" powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\pipeline.log 2>&1 || powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\fine_notte.log 2>&1

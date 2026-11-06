@@ -5,7 +5,7 @@
 #   - la sessione e' bloccata                                    -> iberna
 #   - la sessione e' aperta ma nessuno tocca mouse o tastiera da 15 minuti -> iberna
 #   - se Windows non dice da quanto non si usa il PC: iberna se il PC e' stato risvegliato dal timer della notte
-#     (00:50-01:15 o 07:20-07:45), altrimenti lo lascia acceso (qualcuno lo aveva acceso a mano)
+#     (00:50-01:15, 02:30-02:55 o 07:20-07:45), altrimenti lo lascia acceso (qualcuno lo aveva acceso a mano)
 #   - altrimenti (qualcuno sta lavorando)                         -> resta acceso
 # Ogni decisione viene scritta nel log con i dati usati, per capire cosa e' successo.
 
@@ -81,7 +81,7 @@ Write-Output "$(Stamp) Sessione: utente='$user' attiva=$active stato=$flags (0 b
 $byTimer = $false
 if ($wake -and ((Get-Date) - $wake).TotalHours -lt 4) {
     $m = $wake.Hour * 60 + $wake.Minute
-    $byTimer = ($m -ge 50 -and $m -le 75) -or ($m -ge 440 -and $m -le 465)
+    $byTimer = ($m -ge 50 -and $m -le 75) -or ($m -ge 150 -and $m -le 175) -or ($m -ge 440 -and $m -le 465)
 }
 
 $reason = $null
