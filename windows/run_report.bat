@@ -22,4 +22,4 @@ if "%RETE%"=="0" (
 )
 ".venv\Scripts\python.exe" -m pipeline.report >> logs\pipeline.log 2>&1
 :fine
-if /i "%~1"=="notte" powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\pipeline.log 2>&1
+if /i "%~1"=="notte" powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\pipeline.log 2>&1 || powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\fine_notte.log 2>&1

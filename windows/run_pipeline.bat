@@ -27,8 +27,10 @@ if "%RETE%"=="0" (
   netsh wlan show interfaces >> logs\pipeline.log 2>&1
   goto fine
 )
-call "%~dp0avvia_ollama.bat" >> logs\pipeline.log 2>&1
+REM Ollama ha un log suo: se partisse con il log del giro, lo terrebbe aperto e bloccherebbe tutte le righe dopo
+call "%~dp0avvia_ollama.bat" >> logs\ollama.log 2>&1
 ".venv\Scripts\python.exe" -m pipeline.run >> logs\pipeline.log 2>&1
 echo %date% %time% Fine del giro (codice %errorlevel%) >> logs\pipeline.log
 :fine
-if /i "%~1"=="notte" powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\pipeline.log 2>&1
+REM ibernazione anche se il log fosse bloccato (in quel caso si scrive in fine_notte.log)
+if /i "%~1"=="notte" powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\pipeline.log 2>&1 || powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\fine_notte.log 2>&1
