@@ -27,6 +27,9 @@ $since = (Get-Date).AddDays(-5)
     "--- Piano energetico"
     powercfg /getactivescheme
     powercfg /query SCHEME_CURRENT SUB_SLEEP RTCWAKE | Select-String "Indice impostazione corrente|Current AC Power Setting|Current DC Power Setting|Impostazione corrente"
+    "--- Rete (cavo o Wi-Fi; i profili Wi-Fi 'di tutti gli utenti' si collegano anche senza accesso)"
+    Get-NetAdapter -Physical -ErrorAction SilentlyContinue | ForEach-Object { "{0} : {1} ({2})" -f $_.Name, $_.Status, $_.MediaType }
+    netsh wlan show profiles 2>$null | Select-String "Profilo|Profile"
     "--- Accensioni, spegnimenti, ibernazioni e risvegli dal $($since.ToString('dd/MM'))"
     $ids = @{ "Microsoft-Windows-Kernel-General" = @(12, 13); "Microsoft-Windows-Kernel-Power" = @(41, 42, 107, 506, 507);
               "Microsoft-Windows-Power-Troubleshooter" = @(1); "User32" = @(1074); "EventLog" = @(6008) }
@@ -46,7 +49,8 @@ $since = (Get-Date).AddDays(-5)
     "--- Fine del log del giro"
     $log = Join-Path $Root "logs\pipeline.log"
     if (Test-Path $log) {
-        Select-String -Path $log -Pattern "=====|Sessione|ibernazione|in uso|ERROR|Traceback|Pubblicato|Rete" | Select-Object -Last 25 | ForEach-Object { $_.Line }
+        Select-String -Path $log -Pattern "=====|Sessione|ibernazione|in uso|ERROR|Pubblicato|rete|Fine del giro|Eventi sul sito|allineato|error:" |
+            Select-Object -Last 30 | ForEach-Object { $_.Line }
     } else { "logs\pipeline.log non trovato" }
 } 2>&1 | Tee-Object -FilePath $Out
 

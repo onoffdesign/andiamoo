@@ -12,6 +12,23 @@ for /l %%i in (1,1,24) do (
 )
 :rete
 call "%~dp0aggiorna_codice.bat" >> logs\pipeline.log 2>&1
+REM NB: le righe fino a "call aggiorna_codice" restano uguali: l'aggiornamento riscrive questo file mentre gira,
+REM quindi si cambia solo cio' che viene dopo.
+REM Rete ancora assente? Dopo il risveglio, senza nessuno collegato, il Wi-Fi puo' metterci di piu': altri 10 minuti.
+set RETE=0
+for /l %%i in (1,1,120) do (
+  ping -n 1 github.com > nul 2>&1 && (set RETE=1& goto rete_ok)
+  ping -n 6 127.0.0.1 > nul
+)
+:rete_ok
+if "%RETE%"=="0" (
+  echo %date% %time% Nessuna rete dopo 12 minuti: giro saltato. Stato della rete: >> logs\pipeline.log
+  ipconfig >> logs\pipeline.log 2>&1
+  netsh wlan show interfaces >> logs\pipeline.log 2>&1
+  goto fine
+)
 call "%~dp0avvia_ollama.bat" >> logs\pipeline.log 2>&1
 ".venv\Scripts\python.exe" -m pipeline.run >> logs\pipeline.log 2>&1
+echo %date% %time% Fine del giro (codice %errorlevel%) >> logs\pipeline.log
+:fine
 if /i "%~1"=="notte" powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0fine_notte.ps1" >> logs\pipeline.log 2>&1
