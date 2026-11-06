@@ -162,8 +162,12 @@ correggi:
     verificato: 2026-10-30
   e14defa5502908bf:
     title: "Concerto di San Leonardo"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato ore 20:45, Duomo di San Leonardo"
+    verificato: "2026-11-06"
+    start: "2026-11-07T20:45"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    official_url: "https://www.eventbrite.it/e/biglietti-concerto-di-san-leonardo-2002863989107"
   8405c33af65c2827:
     official_url: https://www.comune.treviso.it/home/dettaglio/eventi/giornata-ecologica-1-11-2026
     nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
@@ -200,13 +204,17 @@ correggi:
   093511c03bff50c2:
     access: iscrizione
     official_url: https://4passi.org/programma2026/
-    nota: 'incontro del 4passiFestival 2026 (4passi.org): prenotazione su Eventbrite'
-    verificato: "2026-10-31"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 7/11 ore 12:00"
+    verificato: "2026-11-06"
+    start: "2026-11-07T12:00"
+    price: "gratuito, iscrizione su Eventbrite"
   0b4c2dc2fdce0397:
     access: iscrizione
     official_url: https://4passi.org/programma2026/
-    nota: 'incontro del 4passiFestival 2026 (4passi.org): prenotazione su Eventbrite'
-    verificato: "2026-10-31"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 7/11 ore 21:00"
+    verificato: "2026-11-06"
+    start: "2026-11-07T21:00"
+    price: "gratuito, iscrizione su Eventbrite"
   e0cf81c1121f112d:
     access: iscrizione
     official_url: https://4passi.org/programma2026/
@@ -296,16 +304,25 @@ correggi:
     verificato: "2026-10-31"
   69644ff861cf5095:
     official_url: https://www.eventbrite.com/e/biglietti-stories-anima-club-07112026-2003338421146
-    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
-    verificato: "2026-10-31"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 7/11 ore 22:30"
+    verificato: "2026-11-06"
+    start: "2026-11-07T22:30"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
   98964d33e652c035:
     official_url: https://www.eventbrite.it/e/biglietti-quinto-concerto-sinfonico-dautunno-2002990979940
-    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato. Non e'' un doppione della Marcia d''Autunno (stesso giorno, evento diverso)'
-    verificato: "2026-10-31"
+    nota: "compare nell'elenco Eventbrite degli eventi gratuiti di Treviso (6/11): domenica 8/11 ore 18:00"
+    verificato: "2026-11-06"
+    start: "2026-11-08T18:00"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
   17fefd1ce9bd870c:
     official_url: https://www.eventbrite.co.uk/e/biglietti-la-roste-ride-2003650613923
-    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
-    verificato: "2026-10-31"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 14/11 ore 9:30"
+    verificato: "2026-11-06"
+    start: "2026-11-14T09:30"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
   569cff5c938f9b82:
     official_url: https://www.eventbrite.it/e/il-25-novembre-cooperativo-con-se-domani-non-torno-tickets-2003699075874
     nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
@@ -796,6 +813,55 @@ correggi:
     access: iscrizione
     nota: "corso di 5 lezioni del lunedi' (26/10-23/11), 20:30-22:30, quota 90 euro con iscrizione fino a esaurimento posti (VenetoToday); controllo a campione"
     verificato: "2026-11-05"
+  44bad86a4953f673:
+    start: "2026-11-14T20:30"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 14/11 ore 20:30"
+    verificato: "2026-11-06"
+  1511d41e619b5064:
+    start: "2026-12-04T20:45"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    summary: "Serata a Ponte di Piave con il giornalista Giammarco Sicuro."
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): venerdi' 4/12 ore 20:45"
+    verificato: "2026-11-06"
+  6041a7182612d409:
+    start: "2026-11-11T19:30"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): mercoledi' 11/11 ore 19:30"
+    verificato: "2026-11-06"
+  f65244e0dfcb3813:
+    start: "2026-11-17T09:00"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): martedi' 17/11 ore 9:00 (piu' un'altra data)"
+    verificato: "2026-11-06"
+  95e70a547deb0448:
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): due date, 28 e 29/11; orario del 28 non letto"
+    verificato: "2026-11-06"
+  3ae4cecc9ed9584b:
+    start: "2026-11-18T09:00"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    nota: "compare nell'elenco Eventbrite degli eventi gratuiti di Treviso (6/11): mercoledi' 18/11 ore 9:00"
+    verificato: "2026-11-06"
+  1485087ac2044f08:
+    start: "2026-12-05T21:00"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    nota: "compare nell'elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 5/12 ore 21:00"
+    verificato: "2026-11-06"
+  34bf9bd6548bdea6:
+    start: "2026-11-08T15:00"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
+    official_url: "https://www.eventbrite.it/e/autumn-social-run-tickets-2003545181572"
+    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): domenica 8/11 ore 15:00 da Tocai"
+    verificato: "2026-11-06"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f54314f107c85ed7: "concluso il 29/10/2026"

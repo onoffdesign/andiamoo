@@ -217,3 +217,16 @@ def test_clean_town_drops_province_sigla():
     assert clean_town("Treviso (TV)") == "Treviso"
     assert clean_town("Farra di Soligo TV") == "Farra di Soligo"
     assert clean_town("Olmi di San Biagio di Callalta") == "Olmi di San Biagio di Callalta"
+
+
+def test_jsonld_free_listing_marks_eventbrite_free():
+    """Elenco Eventbrite "solo gratuiti": accesso su iscrizione e prezzo gratuito (2026-11-06)."""
+    src = dict(SRC, pagina_iscrizione=True)
+    e = [x for x in (jsonld.to_event(o, src) for o in jsonld.iter_jsonld(fx("eventbrite_listing.html"))) if x][0]
+    e.access, e.price = "sconosciuto", ""
+    jsonld.mark_free(e, src)
+    assert e.access == "iscrizione" and e.price == "gratuito"
+    e2 = [x for x in (jsonld.to_event(o, SRC) for o in jsonld.iter_jsonld(fx("eventbrite_listing.html"))) if x][0]
+    e2.access, e2.price = "biglietto", "10 €"
+    jsonld.mark_free(e2, SRC)
+    assert e2.access == "biglietto" and e2.price == "10 €"

@@ -72,6 +72,8 @@ sources:
     portal: true          # grande portale: solo "scoperta", con tetto per giro
     max_events: 40
     enabled: true
+    free_listing_urls:      # elenco "solo gratuiti": accesso su iscrizione, prezzo gratuito (2026-11-06)
+      - https://www.eventbrite.it/d/italy--treviso--85685297/free--events/
     listing_urls:
       - https://www.eventbrite.it/d/italy--treviso/all-events/
       - https://www.eventbrite.it/d/italy--treviso/business--events/

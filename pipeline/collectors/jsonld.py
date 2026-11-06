@@ -132,6 +132,14 @@ def to_event(obj: dict, src: dict, page_text: str = "") -> Event | None:
     return ev
 
 
+def mark_free(ev: Event, src: dict) -> None:
+    """Evento letto da un elenco "solo gratuiti": gratuito, su iscrizione se la piattaforma e' di iscrizione."""
+    if ev.access in ("sconosciuto", "", None):
+        ev.access = src.get("free_access") or ("iscrizione" if src.get("pagina_iscrizione") else "libero")
+    if not ev.price:
+        ev.price = src.get("free_price", "gratuito")
+
+
 def main_text(html: str) -> str:
     soup = BeautifulSoup(html, "lxml")
     node = soup.find("article") or soup.find("main") or soup.body
@@ -152,13 +160,20 @@ def collect(src: dict, ctx: Context) -> Iterator[Event]:
     seen: set[str] = set()
     pattern = re.compile(src["detail_link_regex"]) if src.get("detail_link_regex") else None
     pages: list[str] = []
-    for base in map(expand_months, src.get("listing_urls", [])):
-        pages.append(base)
+    # Elenchi filtrati "solo gratuiti" (es. Eventbrite /free--events/): letti per primi, cosi' gli eventi che
+    # compaiono anche negli elenchi generali prendono l'accesso gratuito invece di "sconosciuto" (2026-11-06).
+    free_bases = [expand_months(u) for u in src.get("free_listing_urls", [])]
+    free_pages: set[str] = set()
+    for base in free_bases + [expand_months(u) for u in src.get("listing_urls", [])]:
+        group = [base]
         for n in range(2, int(src.get("max_pages", 1)) + 1):
             if src.get("pagination"):
-                pages.append(src["pagination"].format(n=n, base=base))
+                group.append(src["pagination"].format(n=n, base=base))
             elif src.get("page_param"):
-                pages.append(f"{base}{'&' if '?' in base else '?'}{src['page_param']}={n}")
+                group.append(f"{base}{'&' if '?' in base else '?'}{src['page_param']}={n}")
+        if base in free_bases:
+            free_pages.update(group)
+        pages.extend(group)
     pages = list(dict.fromkeys(pages))
 
     detail_links: list[str] = []
@@ -177,6 +192,8 @@ def collect(src: dict, ctx: Context) -> Iterator[Event]:
             ev = to_event(obj, src)
             if ev and ev.source_url not in seen:
                 seen.add(ev.source_url)
+                if url in free_pages:
+                    mark_free(ev, src)
                 yield ev
         if pattern and src.get("fetch_details"):
             soup = BeautifulSoup(html, "lxml")
