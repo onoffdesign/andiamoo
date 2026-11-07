@@ -397,8 +397,10 @@ correggi:
     verificato: "2026-11-01"
   dfdb24fdc47fbbda:
     title: "Filippo Spreafico: anteprima del nuovo spettacolo al Mattorosso"
-    nota: "titolo ripulito"
-    verificato: "2026-11-01"
+    official_url: "https://mattorosso.it/filippo-spreafico-strand-up-comedy"
+    price: "12 euro con prima consumazione; cena e spettacolo su prenotazione"
+    nota: "pagina del Mattorosso: 12/11, apertura comica di Alberto De Luca; orario non indicato. Prima il link era il profilo Instagram"
+    verificato: "2026-11-07"
   c4e6f2f03fb00b51:
     title: Bilancio di sostenibilita'
     nota: "titolo ripulito"
@@ -495,9 +497,11 @@ correggi:
     nota: "volantino sul Calendario Podismo Veneto (organizza Trevisando); stesso evento della 13a Marcia della Salute di calendariopodismo"
     verificato: "2026-11-02"
   fa57d002006bd558:
-    official_url: https://www.prosecco.run/ultra-trail/conegliano-valdobbiadene-prosecco-ultra-trail/
-    nota: "sito della gara dal Calendario Podismo Veneto di dicembre: partenza da Vidor alle 7:30, 51 km, arrivo a Conegliano"
-    verificato: "2026-11-02"
+    town: "Vittorio Veneto"
+    official_url: "https://www.prosecco.run/ultra-trail/"
+    price: "iscrizione da 80 euro (a scaglioni), entro il 22/11"
+    nota: "pagina ufficiale prosecco.run: 51 km, 5/12 alle 7:30 con partenza da Vittorio Veneto (il Calendario Podismo Veneto indicava Vidor, sede del festival); iscrizioni online fino al 22/11 o a 300 iscritti"
+    verificato: "2026-11-07"
   8fc46e02f590aa84:
     official_url: https://www.prosecco.run/
     nota: "sito della gara dal Calendario Podismo Veneto di dicembre: maratona alle 8, mezza alle 10, 10 km alle 10:10"
@@ -519,100 +523,76 @@ correggi:
     nota: "pagina del Comune dove si prenotano le visite Percorsi d'Arte (edizione 2025: gratuite con prenotazione); per il 2026 orario e costo da confermare"
   cea8061fd793f6c1:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   7f52064ba637bc90:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   436f5c373f6d934b:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   9c702b9c8d7c1798:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   9c99fd0b94db09da:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   d8a6ed4da8a33f92:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   5700722f5933fcc6:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   29ffb881abc34ffb:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   41142143ed595116:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   fd80a812894ffc63:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   1098ba870aa91689:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   b95e3071cbe8148a:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   a0e154a5ad153426:
     venue: "Teatro Comunale Mario Del Monaco"
     address: "Corso del Popolo 31"
@@ -623,140 +603,106 @@ correggi:
     verificato: "2026-11-05"
   2c29a3194589d8bb:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   42253dce9b241471:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   fa540d0d659400ba:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   6613a12ac4627b42:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   ce02c8e52484ad60:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   c351fc89df650927:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   18253c2810702882:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   d803c72ff0cf382c:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   fc2423f033bf8083:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   2a77a734431704f3:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   28c4f8dea345963d:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   92629461cc94fde4:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   1775c10b730b4857:
     venue: "Alcuni Teatro Sant'Anna"
     address: "Viale Brigata Treviso 18"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    town: "Treviso"
+    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   da800983b02c167c:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   85c3e9210bf8da5e:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   e4d8fe63435fe51f:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   611fb7e1d192d0ee:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent"
-    town: Treviso
-    lat: 45.66637
-    lon: 12.24305
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it (Viale Felissent, Villa Manfrin detta Margherita). Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
-    verificato: "2026-11-05"
+    address: "Viale G. G. Felissent 56"
+    town: "Treviso"
+    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
+    verificato: "2026-11-07"
   3c84c4e68ab945a9:
     title: "Requiem di Fauré per il centenario di Antonio Panighel"
     start: "2026-11-07T20:45"
@@ -930,6 +876,79 @@ correggi:
     official_url: "https://www.anticafierasantalucia.com/eventi/29-rievocazione-storica-dellantica-fiera-2/"
     nota: "scheda del Comitato Antica Fiera: 8/11 apertura alle 9:00, arrivo dei Conti alle 14:30; ingresso non indicato"
     verificato: "2026-11-06"
+  1c9ef4e1afabdfb6:
+    venue: "Stadio Comunale di Monigo"
+    lat: 45.6803
+    lon: 12.2132
+    nota: "coordinate dello stadio da Wikipedia (Stadio Comunale di Monigo); prima solo il comune"
+    verificato: "2026-11-07"
+  7581b612a5505d2d:
+    venue: "Stadio Comunale di Monigo"
+    lat: 45.6803
+    lon: 12.2132
+    nota: "coordinate dello stadio da Wikipedia (Stadio Comunale di Monigo); prima solo il comune"
+    verificato: "2026-11-07"
+  3ad8baec60cd1d56:
+    venue: "Stadio Comunale di Monigo"
+    lat: 45.6803
+    lon: 12.2132
+    nota: "coordinate dello stadio da Wikipedia (Stadio Comunale di Monigo); prima solo il comune"
+    verificato: "2026-11-07"
+  80b3769551ebf157:
+    venue: "Stadio Comunale di Monigo"
+    lat: 45.6803
+    lon: 12.2132
+    nota: "coordinate dello stadio da Wikipedia (Stadio Comunale di Monigo); prima solo il comune"
+    verificato: "2026-11-07"
+  c4d061d669b01b42:
+    venue: "Stadio Comunale di Monigo"
+    lat: 45.6803
+    lon: 12.2132
+    nota: "coordinate dello stadio da Wikipedia (Stadio Comunale di Monigo); prima solo il comune"
+    verificato: "2026-11-07"
+  aa5b76749c85f476:
+    venue: "Stadio Comunale di Monigo"
+    lat: 45.6803
+    lon: 12.2132
+    nota: "coordinate dello stadio da Wikipedia (Stadio Comunale di Monigo); prima solo il comune"
+    verificato: "2026-11-07"
+  5bffbbba438adc4f:
+    town: "Godega di Sant'Urbano"
+    official_url: "https://calendariopodismoveneto.blogspot.com/2025/12/pianzano-tv-marcia-san-nicolo-6122026.html"
+    nota: "volantino sul Calendario Podismo Veneto: a Pianzano, ore 9, percorsi 4-7-13-18 km"
+    verificato: "2026-11-07"
+  cf7fdce12386d38e:
+    official_url: "https://calendariopodismoveneto.blogspot.com/2026/01/montebelluna-tv-monte-christmas-walk.html"
+    nota: "scheda sul Calendario Podismo Veneto: 8/12 ore 9:30, 8,5 km, FIASP"
+    verificato: "2026-11-07"
+  277dc35791ed6052:
+    official_url: "https://calendariopodismoveneto.blogspot.com/2025/12/revine-tv-babbo-run-13122026.html"
+    nota: "volantino sul Calendario Podismo Veneto: 13/12, percorsi 5 e 8 km; orario non indicato. Non e' un doppione dello spettacolo di Castelfranco"
+    verificato: "2026-11-07"
+  4f1797af13a1a6e0:
+    official_url: "https://calendariopodismoveneto.blogspot.com/2025/12/asolo-tv-corsa-dei-babbi-natale-20102026.html"
+    nota: "volantino sul Calendario Podismo Veneto: 20/12 ore 11, 4,5 km"
+    verificato: "2026-11-07"
+  f2826c5f7c7cbbe0:
+    start: "2026-12-20T10:00"
+    all_day: false
+    venue: ""
+    official_url: "https://calendariopodismoveneto.blogspot.com/2025/12/conegliano-tv-santa-klaus-run-20122026.html"
+    nota: "volantino sul Calendario Podismo Veneto: 20/12 ore 10, 4,5 e 9,5 km, organizza Trevisando"
+    verificato: "2026-11-07"
+  902c136eac1b9aed:
+    start: "2026-12-26T09:30"
+    all_day: false
+    official_url: "https://calendariopodismoveneto.blogspot.com/2025/12/vittorio-veneto-tv-little-run-26122026.html"
+    nota: "volantino sul Calendario Podismo Veneto: 26/12 ore 9:30, 6 e 15 km"
+    verificato: "2026-11-07"
+  c7285ff4cd8190b6:
+    start: "2026-12-27T08:30"
+    all_day: false
+    venue: ""
+    official_url: "https://calendariopodismoveneto.blogspot.com/2025/10/giavera-del-montello-tv-maratonina-di.html"
+    nota: "volantino sul Calendario Podismo Veneto: 27/12, 19 km alle 8:30, 4-6-11 km alle 9, FIASP"
+    verificato: "2026-11-07"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
@@ -962,3 +981,6 @@ verificati:
   613f4a07328c6ac0: "2026-11-01"
   06cfa4a504a8c8e5: "2026-11-01"
   3ae4cecc9ed9584b: "2026-11-01"
+  0a974667d1a42b7e: "2026-11-07"
+  8fc46e02f590aa84: "2026-11-07"
+  5700722f5933fcc6: "2026-11-07"
