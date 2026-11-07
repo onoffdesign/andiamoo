@@ -949,6 +949,13 @@ correggi:
     official_url: "https://calendariopodismoveneto.blogspot.com/2025/10/giavera-del-montello-tv-maratonina-di.html"
     nota: "volantino sul Calendario Podismo Veneto: 27/12, 19 km alle 8:30, 4-6-11 km alle 9, FIASP"
     verificato: "2026-11-07"
+  26c570eb621d8877:
+    venue: "Teatro Comunale di Trevignano"
+    address: "Via Puccini 1, Falzè"
+    nota: "indirizzo dalla pagina di Trevignano Cultura su trevisoeventi.com (Teatro Comunale, Falzè, Via Puccini 1); domenica a teatro alle 17, ingresso 8 euro senza prenotazione"
+    access: "biglietto"
+    price: "8 euro, senza prenotazione"
+    verificato: "2026-11-07"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
