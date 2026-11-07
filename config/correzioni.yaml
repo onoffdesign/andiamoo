@@ -49,11 +49,6 @@ correggi:
     lon: 12.25089
     nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
     verificato: 2026-10-29
-  7b9d26a8acf449fe:
-    lat: 45.663
-    lon: 12.2488
-    nota: "chiesa di Santa Margherita, sede del Museo Salce, vicino a Ponte Santa Margherita (coordinate da aroundus.com)"
-    verificato: 2026-10-29
   a608aaede79776b8:
     title: "Mercatino dell'antiquariato e collezionismo a Badoere"
     start: "2026-11-01"
@@ -97,20 +92,6 @@ correggi:
   662108727f341882:
     official_url: https://www.corrinrosa.run/san-vendemiano/
     nota: "sito ufficiale da running.life; 8/11/2026, 6, 12 e 21 km"
-    verificato: 2026-10-30
-  b209d78ab96e9084:
-    title: "Libertà, cultura e diritti oltre la censura: Majid Bita all'Altromercato Store"
-    venue: Altromercato Store
-    address: Viale della Repubblica angolo via Ellero, Treviso
-    nota: "titolo ripulito; indirizzo del negozio da greenme.it"
-    verificato: 2026-10-30
-  9dea55fc79d22f47:
-    title: "La casa coi merli: presentazione del libro su Aldo Piccoli a Casa Robegan"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  8f0f9ffffeefcc89:
-    title: "Jam Session con Sque & Band e TreviBlues all'OstiNate"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
     verificato: 2026-10-30
   353ab20488db2a11:
     title: "Festa del Novello alla Cantina Pizzolato"

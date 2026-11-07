@@ -51,7 +51,7 @@ alla parte 1.
 
 Formato: `- AAAA-MM-GG · segnalazione #id · uid · cosa diceva (in breve) · cosa e' stato fatto`
 
-(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02, 2026-11-05 e 2026-11-06: nessuna arrivata)
+(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02, 2026-11-05, 2026-11-06 e 2026-11-07: nessuna arrivata)
 
 ## 3. Controllo a campione
 
@@ -66,6 +66,7 @@ Formato (una riga per notte, la piu' recente in alto):
 Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
+- 2026-11-07 · corretti 1/10 · errori: data 0, orario 1, luogo 2, accesso 1, categoria 0, link 2 · lezione: campione nuovo (giro del PC del 6/11 mattina). Due eventi del 6/11 gia' conclusi e due non aperti per budget (visita La materia dei sogni, Villa Bornello). Giusto solo Treviso Basket - Scafati. Corretti: Prosecco Ultra Trail (parte da Vittorio Veneto, non da Vidor), link e prezzo di Spreafico al Mattorosso (pagina del locale al posto di Instagram), punto del Parco degli Alberi Parlanti (era il provvisorio in centro: ora indirizzo Viale Felissent 56 da geolocalizzare). Restano l'accesso del concerto della Cappella Sistina (non pubblicato) e il link Instagram di Bim Boom Jam. Sotto l'80%: la causa principale resta il link social degli eventi di insolitotrantran, gia' nella parte 1
 - 2026-11-06 · corretti 3/10 · errori: data 0, orario 0, luogo 1, accesso 4, categoria 0, link 2 · lezione: stesso campione del 3/11 (il PC non gira), ricontrollato dopo le correzioni. STORIES all'Anima Club ora giusto (gratuito su iscrizione, 22:30) grazie all'elenco Eventbrite dei gratuiti; restano l'accesso di tre eventi Eventbrite assenti da quell'elenco (Bosa Ceramiche, Medicina cinese, Viaggio nel radical design: probabilmente a pagamento, scheda non apribile) e di Autunno Musicale, i link Instagram (Pro Loco Maserada, Macedonia Sintetica) e il luogo della staffetta di cross. Sotto l'80%: regola aggiunta nella parte 1 (accesso Eventbrite)
 - 2026-11-05 · corretti 0/10 · errori: data 0, orario 0, luogo 2, accesso 6, categoria 0, link 2 · lezione: campione del 3/11 (il PC non gira da allora). L'accesso e' l'errore principale: 4 eventi Eventbrite (.Ettore, Cosniga, Anima Club) e Autunno Musicale senza ingresso pubblicato; corretti Anatomia di un film (corso su iscrizione) e la posizione di Nardo il ghepardo (Gli Alcuni, era a Vittorio Veneto). Restano i link Instagram di Pro Loco Maserada e Macedonia Sintetica. Sotto l'80%: causa nella parte 1 (posizione) e in lezioni (Eventbrite senza prezzo nel JSON-LD dell'elenco)
 - 2026-11-02 · corretti 7/10 · errori: data 0, orario 1, luogo 1, accesso 2, categoria 0, link 0 · lezione: il PC non ha girato, campione uguale a ieri: ricontrollato dopo le correzioni. Il link non e' piu' un errore; restano la staffetta di cross di Santa Lucia (solo il comune), la visita ad Anzano (pagina del Comune per la prenotazione, ma orario e costo 2026 non pubblicati) e il CRM da moku (solo Eventbrite, non apribile). Sotto l'80%: la causa sono i dati che l'organizzatore non pubblica (orario, accesso), non errori di trascrizione.

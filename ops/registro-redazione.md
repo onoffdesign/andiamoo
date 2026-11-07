@@ -2,6 +2,48 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-07
+
+- **Giro del PC**: il giro dell'01:00 di stanotte NON ha pubblicato (ultimo rapporto finito il 2026-11-06 alle 09:40,
+  giro a mano di Federico: 299 eventi, 16,4 minuti). Coda e campione sono quelli del 6/11. Fonti in errore nel rapporto:
+  insolitotrantran (API tribe 404, e il sito da' errore anche a WebFetch), comune-maser, comune-povegliano, comune-loria,
+  comune-silea e comune-monastier (WinError 10060, timeout dal PC; i primi tre da 3 giri); 2night, ticketone, dice e
+  comune-paese a zero. Non disattivate: da guardare dal PC.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (57, lavorati circa 30) e campione: 45 corretti, 0 rimossi, 3 verificati.
+  Stadio di Monigo: coordinate da Wikipedia per le 6 partite del Benetton Rugby (erano sparse nel comune). Gli Alcuni:
+  tolto il punto provvisorio in centro a 29 schede (Parco degli Alberi Parlanti, ora Viale G. G. Felissent 56 da
+  mailticket, e Teatro Sant'Anna, Viale Brigata Treviso 18): il PC le geolocalizza per indirizzo. Podismo: volantini del
+  Calendario Podismo Veneto come link per 7 gare (Marcia di San Nicolo' a Pianzano, Monte Christmas Walk, Babbo Run,
+  Babbi Natale di Asolo, Santa Klaus Run 10:00, LitTLe RuN 9:30, Maratonina di San Silvestro 8:30). Prosecco Ultra Trail
+  da Vittorio Veneto con iscrizione da 80 euro; Spreafico al Mattorosso con link e prezzo del locale; Quattro donne e un
+  bastardo al Teatro Comunale di Falze' (Via Puccini 1, 8 euro). Pulizia: tolte 4 correzioni di eventi del 30/10.
+  Restano aperti: eventi del Comune di Quinto e di Sernaglia (siti non apribili con WebFetch), accesso di Autunno
+  Musicale e Maserada sul Palco, X-mas Run Treviso (12/12 per Podismo Veneto, 13/12 per calendariopodismo).
+- **Controllo a campione**: 1/10 (luogo 2, link 2, accesso 1, orario 1; 2 conclusi, 2 non aperti).
+- **Eventi aggiunti** (46): sagre-feste 19 (sagra di San Martino a Colle Umberto 7 giornate, Festa d'Autunno a Visna'
+  9, sagra di San Mauro a Castagnole, San Martin a Mojan 7 e 8/11), musica 11 (10 date del Mattorosso, Note da Oscar a
+  Villa Onigo 15/11), sport 7 (parkrun Treviso 5 sabati, social run del Mattorosso, Imoco - Macerata 8/11),
+  teatro-spettacoli 5 (Anima Teatro a Monastier 4 date, Saverio Raimondo al Mattorosso), mercatini-fiere 4 (Milipiave a
+  Spresiano, antiquariato di Portobuffole' 8/11 e 13/12, antiquariato di Collalto).
+- **Comuni controllati**: Carbonera, Castelcucco, Colle Umberto (solo portali; per Colle Umberto la sagra da
+  trevisoeventi), Vedelago e Valdobbiadene (siti del Comune vietati a WebFetch; sagra di San Martino di Vedelago solo
+  con articoli del 2023). Chiarano non fatto.
+- **Categorie cercate**: Collezionismo (Milipiave, Portobuffole', Collalto), Sport per tutti (parkrun, social run),
+  Circo e arti di strada (solo circhi in tournee, nessuna data TV confermata), Storia e rievocazioni (San Martin a
+  Mojan). +10 voci.
+- **Fonti note**: Sagramap (6 sagre TV di novembre, resa 5 dopo le verifiche), VenetoToday (nessun evento nuovo),
+  trevisoeventi (test di copertura e 8 schede). cheventi non riaperta (errore a WebFetch).
+- **Fonti nuove catalogate**: 5 (Mattorosso, Trevignano Cultura, parkrun Treviso, Associazione Istadea, Pro Loco
+  Mogliano). Spostate in sources.yaml: 1 (mattorosso html_llm, da controllare nel primo rapporto per i doppioni).
+- **Miglioria**: regola nuova per Treviso: le schede di trevisoeventi danno programma e organizzatore in una lettura,
+  un evento per giornata, official_url l'organizzatore o la scheda. Chiusi i buchi del test di copertura di tre notti.
+- **Test di copertura**: 4/10.
+- **Ricerche**: 62 su 70.
+- **Problemi aperti**: il giro dell'01:00 non pubblica (eventi della redazione dal 6/11 non ancora sul sito); fonti
+  comunali in timeout dal PC; insolitotrantran in errore; Trevignano Cultura e Pro Loco Mogliano da provare come
+  tribe_api dal PC; Premio di pittura di Cordignano e sagra di Moriago non aggiunti (non confermati).
+
 ## 2026-11-06
 
 - **Giro del PC**: NON ha girato per la terza notte di fila (ultimo rapporto finito il 2026-11-03 alle 01:23). Coda,

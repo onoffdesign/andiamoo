@@ -77,6 +77,12 @@ lo schema e si parte dalle regole generali e da quelle della regione.
   ha un codice diverso (controllarlo nel sorgente della pagina) o non pubblica eventi.
 - Siti che vietano i robot o danno errore a WebFetch (usare solo i risultati di ricerca): trevisosotterranea.it,
   comune.pievedisoligo.tv.it, rockol.it, itinerarinelgusto.it, comune.cappellamaggiore.tv.it.
+  Dal 2026-11-07 anche i siti design-comuni di Quinto, Vedelago e Valdobbiadene (robots_disallowed per WebFetch).
+- Feste di paese e rassegne comunali (miglioria 2026-11-07): il calendario di trevisoeventi elenca i titoli, la
+  scheda di dettaglio di ciascuno (stesso dominio, si apre con WebFetch) ha programma per giorno, luogo, ingresso e
+  sito dell'organizzatore. Una lettura per festa: si aggiunge un evento per giornata con programma, con
+  `official_url` il sito dell'organizzatore se c'e', altrimenti la scheda di trevisoeventi (meglio di Facebook).
+  Le date dei mercatini mensili nelle schede vanno controllate con la regola (es. 'seconda domenica').
 - Teatri: Teatro Accademia di Conegliano (stagione di prosa, orari non sempre pubblicati); Teatro Accademico di
   Castelfranco (stagione Arteven e Ragazzi che Teatro: la scheda del Comune ha date, orari e prezzi). I teatri
   comunali del circuito Arteven sono il buco piu' grande della copertura: partire da MyArteven.
@@ -127,6 +133,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-07 · TV · ricerche 62 · eventi nuovi 46 · eventi per ricerca 0,7 · fonti al PC +1 (Mattorosso html_llm) · miglioria: le schede di dettaglio di trevisoeventi si aprono con WebFetch e danno in una lettura il programma giorno per giorno e il sito dell'organizzatore: i buchi che il test di copertura trovava da tre notti (sagre di Colle Umberto, Visna' e Castagnole, Anima Teatro, mercatini di antiquariato, Milipiave) sono stati chiusi con una lettura ciascuno. Regola nuova nella sezione Treviso
 - 2026-11-06 · TV · ricerche 60 · eventi nuovi 12 · eventi per ricerca 0,2 (piu' 14 corretti in blocco con 2 letture) · fonti al PC +3 (elenco Eventbrite gratuiti, Comune di Sernaglia html_llm, Comune di Mogliano myportal) · miglioria: la fonte Eventbrite legge anche l'elenco "solo gratuiti" (`free_listing_urls`): gli eventi che vi compaiono prendono accesso iscrizione e prezzo gratuito, cosi' l'errore di accesso piu' frequente della coda e del campione sparisce senza ricerche
 - 2026-11-05 · TV · ricerche 50 · eventi nuovi 18 · eventi per ricerca 0,4 · fonti al PC +4 (Comune di Quinto, Silea e Monastier come html_llm; Nautilus Cantiere Teatrale come tribe_api) · miglioria: geocoder senza sigla della provincia nel comune, luoghi tribe ripuliti, `escludi_titoli` per le repliche per le scuole (meno errori di posizione e meno non-eventi senza ricerche)
 - 2026-11-02 · TV · ricerche 52 · eventi nuovi 46 · eventi per ricerca 0,9 · fonti al PC +5 (Teatro Da Ponte, Comune di San Biagio, Comune di Castelfranco come html_llm; Comune di Povegliano e Comune di Loria come myportal) · miglioria: i siti senza dati strutturati ma con un buon elenco (tema design-comuni, calendari dei teatri) vanno al PC come html_llm invece di essere riletti a mano ogni settimana

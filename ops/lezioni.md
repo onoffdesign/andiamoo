@@ -29,6 +29,11 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 
 - Le pagine elenco dei comuni design-comuni (San Biagio, Sernaglia, Castelfranco) mettono nei risultati i link alle
   schede: dopo una lettura dell'elenco le schede si aprono con WebFetch anche se non erano nei risultati di ricerca.
+- Le schede di dettaglio di trevisoeventi (es. /colle-umberto-sagra-di-san-martino.html) si aprono e danno programma per
+  giorno e sito dell'organizzatore: 8 letture il 2026-11-07 hanno dato 37 eventi. Le pagine elenco dei locali
+  (mattorosso.it/eventi) danno 20 date in una lettura.
+- Calendario Podismo Veneto del mese: una lettura ha dato i volantini di 7 gare (official_url) e un orario diverso dalla
+  pagina ufficiale (Prosecco Ultra Trail parte da Vittorio Veneto, non da Vidor): la pagina della gara vince.
 - La guida del weekend di Nordest24 ("Veneto, cosa fare dal ... al ...") esce il giovedi': una lettura, eventi TV con
   programma per giorno. Eventivenetando ha i programmi completi delle feste (Prealpi in Festa).
 
@@ -61,6 +66,11 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 
 - WebFetch rifiuta anche i link presi dentro una pagina letta se il dominio e' nuovo (veneto.eu, comune.mottadilivenza
   dopo un redirect, wp-json di musincantus): 3 letture perse il 2026-11-06. lapiazzaweb.it vieta i robot.
+- 2026-11-07: robots_disallowed per WebFetch anche comune.quintoditreviso.tv.it, comune.vedelago.tv.it e
+  comune.valdobbiadene.tv.it; insolitotrantran.it da' errore (anche l'API tribe del PC: 404). Permesso negato senza
+  risposta (lettura persa): pagine nuove di sernaglia, imocovolley.it/calendar, trevignanocultura.it, culturalheritageonline.
+- Ricerche sui comuni piccoli (Carbonera, Castelcucco, Colle Umberto) e la newsletter UNPLI 'Weekend con le Pro Loco'
+  (nessun evento veneto): resa 0. lavitadelpopolo.it a volte mostra articoli di anni passati (Vedelago 2023).
 - Il calendario delle degustazioni del Consorzio Conegliano Valdobbiadene sono disponibilita' su appuntamento, non eventi.
 - Le pagine del Comune di Castelfranco per "Giallo in Castello" nei risultati sono tutte di edizioni passate (2024,
   maggio 2026): le date di novembre restano senza scheda.

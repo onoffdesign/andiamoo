@@ -133,11 +133,12 @@ fonti:
   frequenza: settimanale
   qualita: 3
   resa:
-    controlli: 1
+    controlli: 2
     eventi_trovati: 0
     ultimi:
     - 0
-  ultimo_controllo: '2026-10-30'
+    - 0
+  ultimo_controllo: '2026-11-07'
   automatizzabile: 'no'
   stato: attiva
   note: Si apre con WebFetch (TrevisoToday invece da' errore).
@@ -254,11 +255,12 @@ fonti:
   frequenza: settimanale
   qualita: 2
   resa:
-    controlli: 1
-    eventi_trovati: 0
+    controlli: 2
+    eventi_trovati: 5
     ultimi:
     - 0
-  ultimo_controllo: '2026-10-31'
+    - 5
+  ultimo_controllo: '2026-11-07'
   automatizzabile: 'no'
   stato: attiva
   note: "Candidato non ancora aperto. | 2026-10-31: elenca 15 sagre TV di novembre ma senza link ne' organizzatore; utile solo per scoprire, le conferme ufficiali non si trovano (eventivenetando e eventiesagre mostrano edizioni passate)"
@@ -783,4 +785,74 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "date e avversari di tutta la stagione, niente orari (gli orari della Serie C escono a blocchi): aggiungere le partite in casa dei 30 giorni e ricontrollare l'ora. Stadio Tenni."
+- nome: Mattorosso (Montebelluna, calendario del locale)
+  url: https://mattorosso.it/eventi
+  query: Mattorosso eventi Montebelluna
+  tipo: locale
+  categorie: [musica, teatro-spettacoli, sport]
+  comuni: [Montebelluna]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 12, ultimi: [12] }
+  ultimo_controllo: '2026-11-07'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "elenco con ~20 date fino a gennaio in una lettura (titolo, data, tipo); orari e prezzi solo nelle schede (es. comicita' 12 euro con consumazione). Candidato per html_llm del PC."
+- nome: Trevignano Cultura (stagione teatro e concerti)
+  url: https://trevignanocultura.it/
+  query: trevignanocultura events Trevignano
+  tipo: comune
+  categorie: [teatro-spettacoli, musica]
+  comuni: [Trevignano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-07'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "19 date fino a marzo 2027 (Teatro Comunale di Falze', Via Puccini 1, e Villa Onigo); schede /events/<slug>/ che fanno pensare a The Events Calendar: provare /wp-json/tribe/events/v1/events e robots.txt dal PC. Domenica a teatro alle 17, 8 euro senza prenotazione. Il 2026-11-07 la scheda non si e' aperta con WebFetch (permesso)."
+- nome: parkrun Treviso
+  url: https://www.parkrun.it/treviso/
+  query: parkrun Treviso
+  tipo: sport
+  categorie: [sport]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 5, ultimi: [5] }
+  ultimo_controllo: '2026-11-07'
+  automatizzabile: no
+  stato: attiva
+  note: "5 km gratuiti ogni sabato alle 9 al Parco dello Storga (Via Cal di Breda 130), registrazione una tantum: aggiungere i sabati dei prossimi 30 giorni e controllare eventuali sospensioni."
+- nome: Associazione Istadea (Colle Umberto)
+  url: https://www.istadea.it/
+  query: Istadea Colle Umberto sagra San Martino
+  tipo: associazione
+  categorie: [sagre-feste]
+  comuni: [Colle Umberto]
+  province: [TV]
+  frequenza: annuale
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 7, ultimi: [7] }
+  ultimo_controllo: '2026-11-07'
+  automatizzabile: no
+  stato: attiva
+  note: "organizza la Sagra di San Martino (inizio novembre, Piazza Marconi di San Martino); programma completo sulla scheda di trevisoeventi."
+- nome: Pro Loco Mogliano Veneto
+  url: https://prolocomoglianoveneto.org/
+  query: prolocomoglianoveneto event
+  tipo: proloco
+  categorie: [sagre-feste, arte-cultura]
+  comuni: [Mogliano Veneto]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-07'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "schede /event/<slug>/ (San Martin a Mojan): probabile The Events Calendar, da provare dal PC. Programma trovato su Nordest24."
 

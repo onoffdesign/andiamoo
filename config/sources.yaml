@@ -280,6 +280,15 @@ sources:
     ai_rewrite: true
     note: "Stesso tema design-comuni di San Biagio; era in ops/fonti.yaml (qualita' 5), letta a mano dalla redazione."
 
+  - id: mattorosso
+    name: Mattorosso Montebelluna
+    type: html_llm
+    enabled: true
+    listing_urls: [https://mattorosso.it/eventi]
+    hint: "Calendario del locale Mattorosso, Via Piave 108, Montebelluna (TV): concerti, dj set, comicita', karaoke, social run. Anno 2026 per novembre-dicembre, 2027 da gennaio se non indicato; venue Mattorosso, town Montebelluna."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-07: elenco con ~20 date in una pagina (WebFetch la apre, quindi i robot non la vietano); orari e prezzi solo nelle schede. Gli eventi fino al 17/12 sono anche in eventi_redazione: controllare i doppioni nel primo rapporto."
+
   - id: comune-quinto
     name: Comune di Quinto di Treviso
     type: html_llm

@@ -13,10 +13,10 @@ comuni_TV:
   Breda di Piave: null
   Caerano di San Marco: null
   Cappella Maggiore: 2026-11-01
-  Carbonera: null
+  Carbonera: 2026-11-07
   Casale sul Sile: null
   Casier: null
-  Castelcucco: null
+  Castelcucco: 2026-11-07
   Castelfranco Veneto: 2026-10-31
   Castello di Godego: null
   Cavaso del Tomba: null
@@ -25,7 +25,7 @@ comuni_TV:
   Cimadolmo: null
   Cison di Valmarino: 2026-10-30
   Codognè: 2026-11-06
-  Colle Umberto: null
+  Colle Umberto: 2026-11-07
   Conegliano: 2026-10-30
   Cordignano: 2026-10-30
   Cornuda: null
@@ -91,9 +91,9 @@ comuni_TV:
   Tarzo: null
   Trevignano: null
   Treviso: 2026-10-30
-  Valdobbiadene: null
+  Valdobbiadene: 2026-11-07
   Vazzola: null
-  Vedelago: null
+  Vedelago: 2026-11-07
   Vidor: 2026-10-31
   Villorba: 2026-11-01
   Vittorio Veneto: 2026-11-02
@@ -140,7 +140,7 @@ aggregatori:
   fleamapket.com (mercatini): 2026-11-01
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
-  trevisoeventi.com (calendario provincia): 2026-11-06
+  trevisoeventi.com (calendario provincia): 2026-11-07
   hellomoglianoveneto.net (appuntamenti del weekend): 2026-11-05
   nautiluscantiereteatrale.it (compagnia in tournee, al PC): 2026-11-05
   fondoambiente.it (eventi FAI in provincia): 2026-11-05
@@ -164,6 +164,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Mercatini e fiere > Collezionismo": 2026-11-07
+  "Sport > Sport per tutti": 2026-11-07
+  "Spettacoli > Circo e arti di strada": 2026-11-07
+  "Arte e cultura > Storia e rievocazioni": 2026-11-07
   "Sport > Motori": 2026-11-06
   "Mercatini e fiere > Mercati agricoli": 2026-11-06
   "Business e formazione > Convegni e conferenze": 2026-11-06

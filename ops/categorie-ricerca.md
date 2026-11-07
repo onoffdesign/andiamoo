@@ -55,6 +55,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · basket di Serie A al Palaverde [Treviso Basket calendario] · rugby URC e Challenge Cup a Monigo [Benetton Rugby calendario]
   · pallavolo A1 femminile al Palaverde [Imoco] · calcio di Serie C allo stadio Tenni [Treviso calcio]
 - **Sport per tutti** · open day delle societa' · giornate dello sport · sport adattato e paralimpico
+  · corse libere gratuite del sabato mattina [parkrun Treviso, Parco dello Storga] · social run dei locali e dei negozi di sport [social run, run club] · camminate dei Babbi Natale [corsa dei Babbi Natale, Santa Klaus run]
 
 ## Arte e cultura (`arte-cultura`)
 
@@ -68,6 +69,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · ambiente · astronomia (serate osservative) · festival di cittadinanza e cooperazione [festival, dialogo, 4passi]
   · teatro forum e incontri partecipati
 - **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni
+  · feste di San Martino con il santo a cavallo e il taglio del mantello [San Martin, San Martino a cavallo] · feste contadine con mostra di animali e benedizione delle macchine agricole [festa contadina, benedizione dei trattori]
 - **Patrimonio e tradizioni** · dialetto e cultura veneta · artigianato tradizionale · musei etnografici
 - **Tecnologia e scienza** · maker e robotica · divulgazione scientifica · eventi di astronomia
   · lezioni pubbliche dei gruppi di astrofili [lezioni per il pubblico, astrofili]
@@ -105,6 +107,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Comicita'** · stand-up comedy · cabaret · serate comiche a puntate nei ridotti [Funny Friday]
 - **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci]
 - **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada
+  · circhi di Natale in tournee [circo di Natale, Circusfans tournee] · trampolieri e artisti di strada nei mercatini di Natale [trampolieri, mercatino di Natale]
 - **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi
   · documentari · prime visioni con ospiti · documentari con gli autori in sala
 - **Musical e operetta** · musical · operetta
@@ -131,6 +134,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   fumetto e del gioco
   · rievocazioni storiche delle fiere antiche [antica fiera, rievocazione storica] · mostre mercato dei prodotti d'autunno [profumi e sapori d'autunno]
 - **Collezionismo** · numismatica e filatelia · vinili e dischi · giocattoli d'epoca · collezionismo militare [militaria, Milipiave]
+  · mercatini mensili di antiquariato nei centri storici [antiquariato seconda domenica, Portobuffole', Collalto] · mostre mercato di antiquariato nei borghi con passeggiate storiche [antiquariato Collalto, lavatoio] · tornei di carte delle sagre [torneo di briscola, burraco di San Martino]
 
 ## Business e formazione (`business`)
 
@@ -164,3 +168,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-02 · +12 voci · dove: Spettacoli > Teatro (+4), Comicita' (+1), Danza (+1), Famiglie > Laboratori (+2), Mercatini (+1), Fiere (+2), Collezionismo (+1)
 - 2026-11-05 · +11 voci · dove: Sport > Eventi per chi guarda (+4), Arti marziali (+1), Equitazione (+1), Business > Networking (+2), Natura > Ambiente (+1), Animali (+1), Arte e cultura > Visite guidate (+1)
 - 2026-11-06 · +11 voci · dove: Sport > Motori (+3), Sagre > Vino e bevande (+3), Mercatini > Mercati agricoli (+2), Business > Convegni e conferenze (+3)
+- 2026-11-07 · +10 voci · dove: Sport > Sport per tutti (+3), Arte e cultura > Storia e rievocazioni (+2), Spettacoli > Circo e arti di strada (+2), Mercatini > Collezionismo (+3)
