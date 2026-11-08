@@ -2,6 +2,43 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-08
+
+- **Giro del PC**: NON ha girato per la seconda notte di fila (ultimo rapporto finito il 2026-11-06 alle 09:40). Coda,
+  campione e rapporto sono quelli del 6/11; gli eventi aggiunti dalla redazione dal 6/11 non sono ancora sul sito.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (46 aperti su 57) e campione: 9 corretti, 0 rimossi, 1 verificato. Calendario Podismo Veneto di
+  dicembre: Camminata di Natale a Castello di Godego (9:00, era "Godego") e Corsa dei Babbi Natale di Ormelle con il link
+  al mese. Cornuda Santa Klaus da sagritaly: 6/12 dalle 8 alle 18 in Piazza Giovanni XXIII, palio alle 15. Maserada sul
+  Palco (14, 21, 28/11): ore 21 e Viale Cacciaganga 2 da trevisoeventi. Sile Classica 22/11: Auditorium dell'Istituto
+  Comprensivo. Bim Boom Jam: comune Sernaglia della Battaglia. Villa Bornello: tolto lo slogan dal luogo. H-FARM a Ca'
+  Tron: punto giusto (verificato). Restano aperti: accesso di Autunno Musicale e Maserada sul Palco (non pubblicato),
+  Farra profuma d'autunno (solo Eventbrite), passeggiate Beescover di Tarzo e Cison (sito in errore), eventi di Quinto e
+  Sernaglia, X-mas Run (12/12 per Podismo Veneto, 13/12 per calendariopodismo), Corsa dei Babbi Natale di Ponzano.
+- **Controllo a campione**: 3/10 (3 conclusi; luogo 3, link 1, data 1, orario 1).
+- **Eventi aggiunti** (14): sagre-feste 10 (Sagra del Frico a Lorenzaga 6 serate, Rassegna Triveneta delle Birre
+  Artigianali a Camalo' 13-22/11, Gusti d'Autunno a Camalo', Festa di Sant'Andrea a Santandra', Palio delle Botti tra
+  Soligo e Col San Martino 14/11), musica 2 (Petite Messe di Rossini a Cusignana 14/11, Concerto dell'Anniversario a
+  Povegliano 8/12), mercatini-fiere 1 (mercatino di Natale di Segusino 15/11), arte-cultura 1 (letture sulla violenza di
+  genere a Povegliano 28/11).
+- **Comuni controllati**: Gaiarine e Trevignano (siti MyPortal: passati al PC), Farra di Soligo (Palio delle Botti),
+  Vazzola (solo la Festa d'Autunno gia' presente), Cessalto (sito vietato a WebFetch), Follina (sito della Pro Loco vuoto).
+  Sagra Madonna dea Salute di Albina (20-22/11) solo su microturismo: non aggiunta.
+- **Categorie cercate**: Musica partecipata, Patrimonio e tradizioni, Racchetta, Cinema: resa 0 (pagine di anni passati).
+  +10 voci.
+- **Fonti note**: Libreria San Leonardo (1 evento, oggi stesso: non aggiunto), Cinema Edera (rassegne in errore),
+  Treviso Sotterranea e cheventi non riaperte (vietate o in errore).
+- **Fonti nuove catalogate**: 5 (trovasagre, PDF eventi del Comune di Povegliano, Paesi in Festa, Sagritaly, Pro Loco
+  Segusino). Spostate in sources.yaml: 2 (comune-trevignano C_L402 e comune-gaiarine C_D854, codici catastali da
+  confermare nel primo rapporto).
+- **Miglioria**: per le sagre si parte dall'elenco del mese di trovasagre (9 mancanti su 13 in una lettura) e dai PDF annuali
+  degli eventi dei Comuni; regola nella sezione Treviso del metodo.
+- **Test di copertura**: 7/10 (trevisoeventi); sagre di trovasagre 4/13.
+- **Ricerche**: 59 su 70.
+- **Problemi aperti**: il PC non pubblica dal 6/11 mattina; sagre di trovasagre ancora da confermare (Sarano, Roganzuolo,
+  Musano, Villanova, Solighetto, Cena del Lesso, Festival del Radicchio di Ponzano, Mostra dei vini di Volpago);
+  codici IPA di Trevignano e Gaiarine da controllare; fonti comunali in timeout dal PC.
+
 ## 2026-11-07
 
 - **Giro del PC**: il giro dell'01:00 di stanotte NON ha pubblicato (ultimo rapporto finito il 2026-11-06 alle 09:40,

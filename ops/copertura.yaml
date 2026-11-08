@@ -20,7 +20,7 @@ comuni_TV:
   Castelfranco Veneto: 2026-10-31
   Castello di Godego: null
   Cavaso del Tomba: null
-  Cessalto: null
+  Cessalto: 2026-11-08
   Chiarano: null
   Cimadolmo: null
   Cison di Valmarino: 2026-10-30
@@ -30,12 +30,12 @@ comuni_TV:
   Cordignano: 2026-10-30
   Cornuda: null
   Crocetta del Montello: null
-  Farra di Soligo: null
-  Follina: null
+  Farra di Soligo: 2026-11-08
+  Follina: 2026-11-08
   Fontanelle: null
   Fonte: null
   Fregona: 2026-10-31
-  Gaiarine: null
+  Gaiarine: 2026-11-08
   Giavera del Montello: null
   Godega di Sant'Urbano: 2026-10-30
   Gorgo al Monticano: 2026-11-05
@@ -89,10 +89,10 @@ comuni_TV:
   Spresiano: null
   Susegana: null
   Tarzo: null
-  Trevignano: null
+  Trevignano: 2026-11-08
   Treviso: 2026-10-30
   Valdobbiadene: 2026-11-07
-  Vazzola: null
+  Vazzola: 2026-11-08
   Vedelago: 2026-11-07
   Vidor: 2026-10-31
   Villorba: 2026-11-01
@@ -101,6 +101,9 @@ comuni_TV:
   Zenson di Piave: null
   Zero Branco: null
 aggregatori:
+  trovasagre.com (Treviso): 2026-11-08
+  paesiinfesta.com: 2026-11-08
+  sagritaly.com (Veneto): 2026-11-08
   insolitotrantran.it: null
   eventiesagre.it: 2026-10-30
   2night.it (Treviso): null
@@ -164,6 +167,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Musica e party > Musica partecipata": 2026-11-08
+  "Arte e cultura > Patrimonio e tradizioni": 2026-11-08
+  "Sport > Racchetta": 2026-11-08
+  "Spettacoli > Cinema": 2026-11-08
   "Mercatini e fiere > Collezionismo": 2026-11-07
   "Sport > Sport per tutti": 2026-11-07
   "Spettacoli > Circo e arti di strada": 2026-11-07

@@ -1,32 +1,31 @@
 {
- "data": "2026-11-07",
- "aggiunti": 46,
- "corretti": 45,
- "rimossi": 0,
- "verificati": 3,
- "aggiunti_per_categoria": {
-  "sagre-feste": 19,
-  "musica": 11,
-  "sport": 7,
-  "teatro-spettacoli": 5,
-  "mercatini-fiere": 4
- },
- "fonti_nuove": 5,
- "fonti_spostate": 1,
- "fonti_sistemate": 0,
- "qualita_campione": "1/10",
- "segnalazioni_gestite": 0,
- "provincia_attiva": "TV",
- "copertura_test": "4/10",
- "ricerche": 62,
- "eventi_per_ricerca": 0.7,
- "categorie_aggiunte": 10,
- "miglioria": "schede di trevisoeventi: programma per giornata e organizzatore in una lettura, chiusi i buchi del test di copertura",
- "problemi": [
-  "il giro del PC dell'01:00 non ha pubblicato (ultimo giro 6/11 alle 09:40)",
-  "comuni Maser, Povegliano, Loria, Silea, Monastier in timeout dal PC",
-  "insolitotrantran: API tribe 404",
-  "siti comunali di Quinto, Vedelago, Valdobbiadene vietati a WebFetch",
-  "campione 1/10: link social e accesso non pubblicati"
- ]
+  "data": "2026-11-08",
+  "aggiunti": 14,
+  "corretti": 9,
+  "rimossi": 0,
+  "verificati": 1,
+  "aggiunti_per_categoria": {
+    "sagre-feste": 10,
+    "musica": 2,
+    "mercatini-fiere": 1,
+    "arte-cultura": 1
+  },
+  "fonti_nuove": 5,
+  "fonti_spostate": 2,
+  "fonti_sistemate": 0,
+  "qualita_campione": "3/10",
+  "segnalazioni_gestite": 0,
+  "provincia_attiva": "TV",
+  "copertura_test": "7/10",
+  "ricerche": 59,
+  "eventi_per_ricerca": 0.2,
+  "categorie_aggiunte": 10,
+  "miglioria": "sagre del mese da trovasagre (9 mancanti su 13 in una lettura) e PDF annuali degli eventi dei Comuni come fonte ufficiale",
+  "problemi": [
+    "il giro del PC non pubblica dal 6/11 mattina: coda, campione ed eventi nuovi fermi",
+    "8 sagre di trovasagre da confermare (Volpago, Ponzano, Solighetto, Sarano...)",
+    "codici IPA di Comune di Trevignano e Gaiarine da controllare nel primo rapporto",
+    "accesso non pubblicato per Autunno Musicale e Maserada sul Palco",
+    "fonti comunali in timeout dal PC (Maser, Povegliano, Loria, Silea, Monastier)"
+  ]
 }

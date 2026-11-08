@@ -404,8 +404,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: '2026-11-01'
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-08'
   automatizzabile: no
   stato: attiva
   note: "programmazione con orari; rassegne (I martedi' a 4 euro della Regione, film in lingua originale, Edera Film Festival). Pagina 'prossimamente.html' per le uscite. Link ufficiale per gli eventi dell'Edera presi da insolitotrantran."
@@ -418,8 +418,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: '2026-11-01'
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-08'
   automatizzabile: no
   stato: attiva
   note: "2-3 presentazioni e letture a settimana (Tutta la Commedia canto per canto, autori), Piazza Santa Maria dei Battuti 16, ingresso libero con prenotazione consigliata. Il 2026-11-01 la pagina mostrava solo date di ottobre: ricontrollare a meta' novembre."
@@ -855,4 +855,73 @@ fonti:
   automatizzabile: da_valutare
   stato: attiva
   note: "schede /event/<slug>/ (San Martin a Mojan): probabile The Events Calendar, da provare dal PC. Programma trovato su Nordest24."
-
+- nome: TrovaSagre (provincia di Treviso)
+  url: https://trovasagre.com/sagre/veneto/treviso
+  query: trovasagre sagre veneto treviso
+  tipo: aggregatore
+  categorie: [sagre-feste, mercatini-fiere]
+  comuni: [tutti]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 13, ultimi: [13] }
+  ultimo_controllo: '2026-11-08'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "elenco delle sagre del mese con frazione e date (schede /evento/<nome>-<anno>): 13 sagre TV in una lettura, 9 non ancora sul sito. Solo scoperta: confermare su Pro Loco, Comune o Paesi in Festa. Alcune date di 'Altri appuntamenti' sbagliate."
+- nome: Comune di Povegliano, calendario eventi 2026 (PDF)
+  url: https://www.comune.povegliano.tv.it/dam/jcr:097381cb-632c-4f18-be19-f5f78d0b6651/EVENTI%20POVEGLIANO%202026.pdf
+  query: Eventi Povegliano 2026 pdf comune
+  tipo: comune
+  categorie: [sagre-feste, musica, arte-cultura]
+  comuni: [Povegliano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 5, ultimi: [5] }
+  ultimo_controllo: '2026-11-08'
+  automatizzabile: no
+  stato: attiva
+  note: "calendario annuale di tutte le associazioni (Camalo', Santandra'), date ma quasi mai ore e luoghi. Ufficiale. Molti comuni pubblicano un PDF simile: cercare 'Eventi <comune> 2026 pdf'."
+- nome: Paesi in Festa (sagre Friuli e Veneto orientale)
+  url: https://paesiinfesta.com/
+  query: paesiinfesta veneto treviso sagra <frazione>
+  tipo: aggregatore
+  categorie: [sagre-feste]
+  comuni: [Motta di Livenza, Oderzo, Gorgo al Monticano, Cessalto, Meduna di Livenza]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-08'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "schede con programma e menu dell'anno in corso inviate dalle Pro Loco (Sagra del Frico di Lorenzaga). Utile per l'Opitergino-Mottense, dove le Pro Loco hanno solo Facebook."
+- nome: Sagritaly (sagre Veneto)
+  url: https://sagritaly.com/regioni-sagre/veneto/
+  query: sagritaly <nome evento> <comune>
+  tipo: aggregatore
+  categorie: [sagre-feste, mercatini-fiere]
+  comuni: [tutti]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-08'
+  automatizzabile: no
+  stato: attiva
+  note: "schede con anno, orari e piazza (Cornuda Santa Klaus 2026); la sezione eventi-e-sagre-passati va ignorata."
+- nome: Pro Loco Segusino
+  url: http://www.prolocosegusino.it/
+  query: Pro Loco Segusino mercatino di Natale
+  tipo: proloco
+  categorie: [mercatini-fiere, sport]
+  comuni: [Segusino]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-08'
+  automatizzabile: no
+  stato: attiva
+  note: "mercatino di Natale di meta' novembre con camminata; programma completo sulla scheda di trevisoeventi."

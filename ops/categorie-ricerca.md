@@ -41,6 +41,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Sport di squadra** [torneo, partita, campionato]
   - calcio · calcio a 5 · basket · pallavolo · beach volley · rugby · pallamano · hockey · baseball e softball
 - **Racchetta** [torneo, open] · tennis · padel · ping pong · badminton · pickleball
+  · tornei open FITP di padel [calendario tornei padel FITP Veneto, PDF regionale] · esibizioni ed eventi nei club [padel cup, clinic]
 - **Arti marziali e combattimento** [stage, torneo, open day] · judo · karate · taekwondo · boxe · kickboxing · scherma
   · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
 - **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio
@@ -71,6 +72,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni
   · feste di San Martino con il santo a cavallo e il taglio del mantello [San Martin, San Martino a cavallo] · feste contadine con mostra di animali e benedizione delle macchine agricole [festa contadina, benedizione dei trattori]
 - **Patrimonio e tradizioni** · dialetto e cultura veneta · artigianato tradizionale · musei etnografici
+  · palio e giochi tradizionali di paese [palio delle botti, transumanza delle botti] · musei d'impresa con aperture mensili [museo del caffe', primo sabato del mese] · aperture di palazzi delle fondazioni [Ca' Spineda, visita gratuita]
 - **Tecnologia e scienza** · maker e robotica · divulgazione scientifica · eventi di astronomia
   · lezioni pubbliche dei gruppi di astrofili [lezioni per il pubblico, astrofili]
 - **Comunita'** · incontri di quartiere · volontariato · feste delle associazioni · gruppi di conversazione
@@ -84,6 +86,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ
 - **Ballo** [serata danzante] · liscio · balli latini · swing e lindy hop · tango · balli di gruppo
 - **Musica partecipata** · open mic · karaoke · jam session aperte · drum circle [cerchio di percussioni]
+  · open mic di stand-up comedy [open mic comicita'] · jam nelle sale prove comunali [free jam session, Progetto Giovani]
   · concerti in cuffia [silent concert, silent wifi]
 
 ## Sagre e cibo (`sagre-feste`)
@@ -109,6 +112,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada
   · circhi di Natale in tournee [circo di Natale, Circusfans tournee] · trampolieri e artisti di strada nei mercatini di Natale [trampolieri, mercatino di Natale]
 - **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi
+  · cineforum di vallata [Cineforum Quartier del Piave, rassegna d'autunno] · cinema a prezzo ridotto in piu' sale [Martedi' al Cinema 4 euro] · proiezioni gratuite per ricorrenze [25 novembre, ingresso gratuito]
   · documentari · prime visioni con ospiti · documentari con gli autori in sala
 - **Musical e operetta** · musical · operetta
 
@@ -169,3 +173,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-05 · +11 voci · dove: Sport > Eventi per chi guarda (+4), Arti marziali (+1), Equitazione (+1), Business > Networking (+2), Natura > Ambiente (+1), Animali (+1), Arte e cultura > Visite guidate (+1)
 - 2026-11-06 · +11 voci · dove: Sport > Motori (+3), Sagre > Vino e bevande (+3), Mercatini > Mercati agricoli (+2), Business > Convegni e conferenze (+3)
 - 2026-11-07 · +10 voci · dove: Sport > Sport per tutti (+3), Arte e cultura > Storia e rievocazioni (+2), Spettacoli > Circo e arti di strada (+2), Mercatini > Collezionismo (+3)
+- 2026-11-08 · +10 voci · dove: Sport > Racchetta (+2), Arte e cultura > Patrimonio e tradizioni (+3), Musica > Musica partecipata (+2), Spettacoli > Cinema (+3)

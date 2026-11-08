@@ -66,6 +66,10 @@ dell'anno con piu' eventi, errori tipici. Quando si apre una provincia nuova (ve
 lo schema e si parte dalle regole generali e da quelle della regione.
 
 ### Treviso (TV) - provincia attiva dal 2026-10
+- Sagre del mese (miglioria del 2026-11-08): leggere prima l'elenco di trovasagre.com/sagre/veneto/treviso (13 sagre
+  con frazione e date in una lettura), confrontarlo con `--cerca`, poi confermare solo le mancanti su Pro Loco, Comune
+  o Paesi in Festa (Opitergino-Mottense). Molti comuni pubblicano un PDF con il calendario annuale di tutte le
+  associazioni (cercare "Eventi <comune> 2026 pdf"): ufficiale, una lettura per tutto l'anno (Povegliano: 5 eventi).
 - Aggregatori locali utili: insolitotrantran (eventi piccoli e culturali), 2night (serate, titoli da ripulire),
   eventiesagre (sagre; a volte sbaglia il comune, es. "Mordano" per Badoere di Morgano), calendari podistici
   (calendariopodismo, podismoveneto, running.life), Musincantus per la musica d'autunno.
@@ -133,6 +137,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-08 · TV · ricerche 59 · eventi nuovi 14 · eventi per ricerca 0,2 (piu' 9 corretti) · fonti al PC +2 (Comune di Trevignano e Comune di Gaiarine myportal, codici da confermare) · miglioria: elenco delle sagre del mese di trovasagre come primo passo per le sagre (9 mancanti su 13 in una lettura) e PDF annuali degli eventi dei Comuni come fonte ufficiale a basso costo; regola nuova nella sezione Treviso
 - 2026-11-07 · TV · ricerche 62 · eventi nuovi 46 · eventi per ricerca 0,7 · fonti al PC +1 (Mattorosso html_llm) · miglioria: le schede di dettaglio di trevisoeventi si aprono con WebFetch e danno in una lettura il programma giorno per giorno e il sito dell'organizzatore: i buchi che il test di copertura trovava da tre notti (sagre di Colle Umberto, Visna' e Castagnole, Anima Teatro, mercatini di antiquariato, Milipiave) sono stati chiusi con una lettura ciascuno. Regola nuova nella sezione Treviso
 - 2026-11-06 · TV · ricerche 60 · eventi nuovi 12 · eventi per ricerca 0,2 (piu' 14 corretti in blocco con 2 letture) · fonti al PC +3 (elenco Eventbrite gratuiti, Comune di Sernaglia html_llm, Comune di Mogliano myportal) · miglioria: la fonte Eventbrite legge anche l'elenco "solo gratuiti" (`free_listing_urls`): gli eventi che vi compaiono prendono accesso iscrizione e prezzo gratuito, cosi' l'errore di accesso piu' frequente della coda e del campione sparisce senza ricerche
 - 2026-11-05 · TV · ricerche 50 · eventi nuovi 18 · eventi per ricerca 0,4 · fonti al PC +4 (Comune di Quinto, Silea e Monastier come html_llm; Nautilus Cantiere Teatrale come tribe_api) · miglioria: geocoder senza sigla della provincia nel comune, luoghi tribe ripuliti, `escludi_titoli` per le repliche per le scuole (meno errori di posizione e meno non-eventi senza ricerche)

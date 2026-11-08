@@ -23,8 +23,6 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   copertura; poi conferma sul sito dell'organizzatore (auditorium, comitato, teatro).
 - I calendari di stagione dei teatri (Teatro Da Ponte) danno decine di date con ora, sala e scheda in una lettura.
 - I calendari delle squadre (trevisobasket.it, benettonrugby.it) danno tutte le partite in casa in una lettura.
-- Le pagine elenco dei comuni (San Biagio, Silea) danno in una lettura i link alle schede: aprire solo le schede
-  degli eventi in coda, una lettura per evento con ora, luogo e ingresso.
 - Le schede di un teatro amatoriale hanno orario e prezzo, l'elenco no: basta aprire una scheda per la rassegna.
 
 - Le pagine elenco dei comuni design-comuni (San Biagio, Sernaglia, Castelfranco) mettono nei risultati i link alle
@@ -32,10 +30,11 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - Le schede di dettaglio di trevisoeventi (es. /colle-umberto-sagra-di-san-martino.html) si aprono e danno programma per
   giorno e sito dell'organizzatore: 8 letture il 2026-11-07 hanno dato 37 eventi. Le pagine elenco dei locali
   (mattorosso.it/eventi) danno 20 date in una lettura.
-- Calendario Podismo Veneto del mese: una lettura ha dato i volantini di 7 gare (official_url) e un orario diverso dalla
-  pagina ufficiale (Prosecco Ultra Trail parte da Vittorio Veneto, non da Vidor): la pagina della gara vince.
 - La guida del weekend di Nordest24 ("Veneto, cosa fare dal ... al ...") esce il giovedi': una lettura, eventi TV con
   programma per giorno. Eventivenetando ha i programmi completi delle feste (Prealpi in Festa).
+
+- trovasagre.com/sagre/veneto/treviso: 13 sagre TV in una lettura (2026-11-08); paesiinfesta.com ha programma e
+  menu dell'anno per le sagre del Mottense; i PDF annuali degli eventi dei Comuni (Povegliano) danno tutto l'anno.
 
 ## Fonti da evitare o poco utili
 - bibliotecatreviso.it vieta /myportal/ nei robots (WebFetch robots_disallowed): fonte del PC disattivata.
@@ -47,7 +46,7 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - deliziedautunno.tv e cultura.gov.it vietano i robot: non aprirli, usarli solo come titolo nei risultati.
 - trevisotoday.it da' errore a WebFetch; venetotoday.it invece si apre.
 - microturismodellevenezie.it ha date contraddittorie nella stessa scheda: mai usarla come conferma.
-- Vietano i robot o danno errore: trevisosotterranea.it, comune.pievedisoligo.tv.it, rockol.it, itinerarinelgusto.it,
+- Vietano i robot o danno errore: trevisosotterranea.it, trevisoimprese.it, hellomoglianoveneto (solo post vecchi), comune.pievedisoligo.tv.it, rockol.it, itinerarinelgusto.it,
   comune.cappellamaggiore.tv.it, puntoettore.it (pagina eventi vuota, eventi solo su Eventbrite e Instagram).
 - WebFetch rifiuta anche gli indirizzi presi dai file del repository (coda, sito_ufficiale): solo link usciti da
   WebSearch. Le 4 aperture tentate cosi' il 2026-11-01 sono ricerche sprecate.
@@ -60,7 +59,6 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - Coordinate esatte: WebFetch non legge le mappe (wanderlog chiede un permesso, tripaligner e zero.eu non hanno
   lat/lon) e la shell non raggiunge Nominatim: 4 letture sprecate il 2026-11-05. Meglio dare indirizzo e comune
   giusti (il PC ricalcola) o il centro certo piu' vicino.
-- hellomoglianoveneto.net: nei risultati solo post di anni passati. trevisoimprese.it vieta i robot.
 - Eventbrite: la pagina organizzatore di .Ettore non elenca gli eventi. L'accesso si conferma con l'elenco dei gratuiti
   (/d/italy--treviso--85685297/free--events/?page=N, ora letto dal PC); chi non vi compare va visto sulla scheda.
 
@@ -71,15 +69,18 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   risposta (lettura persa): pagine nuove di sernaglia, imocovolley.it/calendar, trevignanocultura.it, culturalheritageonline.
 - Ricerche sui comuni piccoli (Carbonera, Castelcucco, Colle Umberto) e la newsletter UNPLI 'Weekend con le Pro Loco'
   (nessun evento veneto): resa 0. lavitadelpopolo.it a volte mostra articoli di anni passati (Vedelago 2023).
-- Il calendario delle degustazioni del Consorzio Conegliano Valdobbiadene sono disponibilita' su appuntamento, non eventi.
 - Le pagine del Comune di Castelfranco per "Giallo in Castello" nei risultati sono tutte di edizioni passate (2024,
   maggio 2026): le date di novembre restano senza scheda.
+
+- 2026-11-08: danno errore a WebFetch beescover.com, prolococamalo.it, cinemaedera.it/rassegne.html, oggitreviso.it;
+  robots_disallowed comune.cessalto.tv.it; prolocofollina.it e la home MyPortal di Trevignano arrivano vuote.
+  trevisoinfo.it mostra edizioni del 2011; la news 'nuovo cartellone' di musincantus e' del 2021.
+- Ricerche per ambito (open mic, tornei di padel, cineforum, jam) danno pagine di anni passati: resa 0 su 4.
 
 ## Calendario (chi pubblica quando)
 - Teatri comunali: le stagioni 2026/27 escono a fine ottobre con vendite da inizio novembre (Castelfranco).
 - Sagre di San Martino e Madonna della Salute: tutte a novembre, quasi solo su Facebook e aggregatori.
 - Mostre del radicchio rosso (Preganziol, Zero Branco, rassegna Fiori d'Inverno): a gennaio, programmi a dicembre.
-- Garden center (Bardin): festival d'autunno settembre-ottobre, poi Natale.
 
 ## Errori da non ripetere
 - eventiesagre a volte sbaglia il nome del comune (Badoere di Morgano scritto "Mordano", poi geocodificato a caso):
