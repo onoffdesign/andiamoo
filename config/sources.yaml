@@ -250,6 +250,26 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-02: schede /eventi/<nome>.html come Povegliano (MyPortal). Codice IPA dal codice catastale (E692): da controllare nel rapporto la prima notte."
 
+  - id: comune-trevignano
+    name: Comune di Trevignano
+    type: myportal
+    enabled: true
+    base_url: https://www.comune.trevignano.tv.it
+    ipa: C_L402
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-08: la home del Comune ha titolo myPortal. Codice IPA dal codice catastale (L402, da confermare): da controllare nel rapporto la prima notte."
+
+  - id: comune-gaiarine
+    name: Comune di Gaiarine
+    type: myportal
+    enabled: true
+    base_url: https://www.comune.gaiarine.tv.it
+    ipa: C_D854
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-08: pagina eventi /home/vivere/eventi.html come Povegliano e Loria (MyPortal). Codice IPA dal codice catastale (D854, da confermare): da controllare nel rapporto la prima notte."
+
   # ---------- Siti con il tema "design comuni" (WordPress, /vivere-il-comune/eventi/) ----------
   # Nessun JSON-LD: la pagina elenco ha titolo, giorno e link; il modello locale estrae gli eventi (costo zero
   # crediti Claude). Aggiunti da Claude il 2026-11-02: da controllare nel rapporto la prima notte.

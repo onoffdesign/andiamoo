@@ -937,6 +937,56 @@ correggi:
     access: "biglietto"
     price: "8 euro, senza prenotazione"
     verificato: "2026-11-07"
+  1f561346b87bc073:
+    town: "Castello di Godego"
+    start: "2026-12-06T09:00"
+    official_url: "https://calendariopodismoveneto.blogspot.com/2025/04/dicembre-2026.html"
+    nota: "Calendario Podismo Veneto di dicembre 2026: Castello di Godego, 10 km, partenza alle 9:00; nessun volantino, link alla pagina del mese"
+    verificato: "2026-11-08"
+  50014b4d6788abe6:
+    official_url: "https://calendariopodismoveneto.blogspot.com/2025/04/dicembre-2026.html"
+    nota: "Calendario Podismo Veneto di dicembre 2026: Ormelle, 5 e 11 km, alle 9:30; nessun volantino, link alla pagina del mese"
+    verificato: "2026-11-08"
+  839ec47e21d61954:
+    title: "Cornuda Santa Klaus, mercatino aspettando il Natale"
+    start: "2026-12-06T08:00"
+    end: "2026-12-06T18:00"
+    all_day: false
+    venue: "Piazza Giovanni XXIII"
+    address: "Piazza Giovanni XXIII"
+    summary: "Mercatino di Natale con bancarelle di artigianato e prodotti tipici, casetta di Babbo Natale e, alle 15, il Palio dei Babbi Natale."
+    official_url: "https://sagritaly.com/territorio/eventi-e-sagre/cornuda-santa-klaus-mercatino-aspettando-il-natale/"
+    nota: "sagritaly, edizione 2026: 6/12 dalle 8 alle 18, Piazza Giovanni XXIII, Palio dei Babbi Natale alle 15; ingresso non indicato. Organizzatore NSV Organizzazione Eventi solo su Facebook"
+    verificato: "2026-11-08"
+  dce166f5c85d15a0:
+    town: "Sernaglia della Battaglia"
+    venue: "Isola B APS, ex Mulino di Falze' di Piave"
+    nota: "Falze' di Piave e' frazione di Sernaglia della Battaglia; punto gia' all'indirizzo. Link resta Instagram: nessun sito trovato (ricerca del 2026-11-08)"
+  e0892dc34ddb49de:
+    venue: "Auditorium dell'Istituto Comprensivo"
+    nota: "sileclassica.it: 22/11 alle 18, Auditorium Istituto Comprensivo di Casale sul Sile; ingresso non indicato"
+    verificato: "2026-11-08"
+  ce0df8b3af2cfb1c:
+    venue: "Villa Bornello"
+    nota: "tolto lo slogan dal nome del luogo; la pagina del podcast parla solo dell'edizione del 30/4, la data del 3/12 resta quella della pagina Eventbrite"
+  c2410368e6251d29:
+    start: "2026-11-14T21:00"
+    all_day: false
+    address: "Viale Cacciaganga 2"
+    nota: "orario 21:00 e indirizzo dalla scheda di trevisoeventi della rassegna (2026-11-08); il sito dell'auditorium non indica ora ne' prezzo 2026"
+    verificato: "2026-11-08"
+  d6339cb5f05075c0:
+    start: "2026-11-21T21:00"
+    all_day: false
+    address: "Viale Cacciaganga 2"
+    nota: "orario 21:00 e indirizzo dalla scheda di trevisoeventi della rassegna (2026-11-08); il sito dell'auditorium non indica ora ne' prezzo 2026"
+    verificato: "2026-11-08"
+  e0baf75224cec587:
+    start: "2026-11-28T21:00"
+    all_day: false
+    address: "Viale Cacciaganga 2"
+    nota: "orario 21:00 e indirizzo dalla scheda di trevisoeventi della rassegna (2026-11-08); il sito dell'auditorium non indica ora ne' prezzo 2026"
+    verificato: "2026-11-08"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
@@ -962,6 +1012,7 @@ rimuovi:
   aacb8abe5224c830: "sessione del mattino riservata alle scuole superiori, non aperta al pubblico (resta lo show serale 89cbd8271e8be202)"
   f8b485538cb22ecf: "pagina di presentazione della stagione, non un evento: gli spettacoli dell'Accademico sono gia' sul sito uno per uno (Opera Locos, Falstaff, Double Bill, Il male oscuro, Don Chisciotte)"
 verificati:
+  5f912b8299bbe9e3: "2026-11-08"        # H-FARM, Via Adriano Olivetti 1 a Ca' Tron: il campus e' davvero a 7 km dal centro di Roncade
   d20b8daa82d71b50: "2026-10-31"
   00e3dd8ae3bf8877: "2026-11-01"
   8707de21e04dfb7b: "2026-11-01"
