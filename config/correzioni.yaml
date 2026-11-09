@@ -987,6 +987,24 @@ correggi:
     address: "Viale Cacciaganga 2"
     nota: "orario 21:00 e indirizzo dalla scheda di trevisoeventi della rassegna (2026-11-08); il sito dell'auditorium non indica ora ne' prezzo 2026"
     verificato: "2026-11-08"
+  fa4934d0d359ecdc:
+    title: "Papa' ha bruciato i biscotti: proiezione al Cinema Edera"
+    venue: Cinema Edera
+    address: Piazza Martiri di Belfiore 2
+    town: Treviso
+    lat: 45.6793
+    lon: 12.25292
+    category: teatro-spettacoli
+    summary: "Proiezione del documentario di Jeffrey Zani sul passaggio alla paternita', seguita da un confronto con lo psicologo Franco Baldoni. Fa parte del Mese del Bambino del Comune di Treviso."
+    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-14-11-2026
+    nota: "programma del Mese del Bambino (trevisoperte.it, 7/10/2026): 14/11 ore 10:30 al Cinema Edera; titolo corretto 'Papa' ha bruciato i biscotti'; coordinate del cinema dalla scheda Eventbrite del 25/11"
+    verificato: "2026-11-09"
+  3599078b988f2277:
+    venue: Soligo
+    town: Farra di Soligo
+    official_url: https://www.hillsnordicwalking.it/camminata-autunno/
+    nota: "pagina dell'organizzatore A.S.D. Hills Nordic Walking (Farra di Soligo): conferma domenica 22/11/2026; punto di partenza non pubblicato, resta il centro di Soligo"
+    verificato: "2026-11-09"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
@@ -1011,6 +1029,19 @@ rimuovi:
   0282e7bf042a0cf3: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   aacb8abe5224c830: "sessione del mattino riservata alle scuole superiori, non aperta al pubblico (resta lo show serale 89cbd8271e8be202)"
   f8b485538cb22ecf: "pagina di presentazione della stagione, non un evento: gli spettacoli dell'Accademico sono gia' sul sito uno per uno (Opera Locos, Falstaff, Double Bill, Il male oscuro, Don Chisciotte)"
+  7d50f0d774a3597a: "concluso il 6/11/2026"
+  425677aee61dbc23: "concluso il 6/11/2026"
+  e175f08605d77f83: "concluso il 6/11/2026"
+  c61e8640851fd291: "concluso il 6/11/2026"
+  3283bd8c2d58f498: "concluso il 6/11/2026"
+  3499fdda118d318d: "concluso il 7/11/2026"
+  7b4a58e6d6ed9565: "concluso il 7/11/2026"
+  6ac6d3fcea187743: "concluso il 7/11/2026"
+  6182d7567ea519b4: "concluso il 7/11/2026"
+  edb1f99d0fb82a6e: "concluso il 7/11/2026"
+  8fa2a1c939b61896: "concluso l'8/11/2026"
+  ed55e45c9cbea33c: "concluso l'8/11/2026"
+  a315f3686572da5d: "concluso il 6/11/2026"
 verificati:
   5f912b8299bbe9e3: "2026-11-08"        # H-FARM, Via Adriano Olivetti 1 a Ca' Tron: il campus e' davvero a 7 km dal centro di Roncade
   d20b8daa82d71b50: "2026-10-31"
