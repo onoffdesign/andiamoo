@@ -1,31 +1,33 @@
 {
-  "data": "2026-11-08",
-  "aggiunti": 14,
-  "corretti": 9,
-  "rimossi": 0,
-  "verificati": 1,
-  "aggiunti_per_categoria": {
-    "sagre-feste": 10,
-    "musica": 2,
-    "mercatini-fiere": 1,
-    "arte-cultura": 1
-  },
-  "fonti_nuove": 5,
-  "fonti_spostate": 2,
-  "fonti_sistemate": 0,
-  "qualita_campione": "3/10",
-  "segnalazioni_gestite": 0,
-  "provincia_attiva": "TV",
-  "copertura_test": "7/10",
-  "ricerche": 59,
-  "eventi_per_ricerca": 0.2,
-  "categorie_aggiunte": 10,
-  "miglioria": "sagre del mese da trovasagre (9 mancanti su 13 in una lettura) e PDF annuali degli eventi dei Comuni come fonte ufficiale",
-  "problemi": [
-    "il giro del PC non pubblica dal 6/11 mattina: coda, campione ed eventi nuovi fermi",
-    "8 sagre di trovasagre da confermare (Volpago, Ponzano, Solighetto, Sarano...)",
-    "codici IPA di Comune di Trevignano e Gaiarine da controllare nel primo rapporto",
-    "accesso non pubblicato per Autunno Musicale e Maserada sul Palco",
-    "fonti comunali in timeout dal PC (Maser, Povegliano, Loria, Silea, Monastier)"
-  ]
+ "data": "2026-11-09",
+ "aggiunti": 66,
+ "corretti": 2,
+ "rimossi": 13,
+ "verificati": 0,
+ "aggiunti_per_categoria": {
+  "teatro-spettacoli": 31,
+  "sagre-feste": 13,
+  "sport": 10,
+  "arte-cultura": 10,
+  "musica": 1,
+  "mercatini-fiere": 1
+ },
+ "fonti_nuove": 7,
+ "fonti_spostate": 0,
+ "fonti_sistemate": 0,
+ "qualita_campione": "3/10",
+ "segnalazioni_gestite": 0,
+ "provincia_attiva": "TV",
+ "copertura_test": "8/10",
+ "ricerche": 57,
+ "eventi_per_ricerca": 1.2,
+ "categorie_aggiunte": 11,
+ "miglioria": "per mostre, stagioni teatrali, campionati e rassegne tematiche si parte dalla pagina con l'intera stagione: 59 eventi da 8 letture",
+ "problemi": [
+  "il PC non gira dal 6/11 mattina (terza notte): gli eventi nuovi della redazione non sono sul sito",
+  "campione 3/10, fermo con il PC",
+  "partite casalinghe Imoco di novembre-dicembre da confermare",
+  "siti dei comuni di Sernaglia, Quinto e Montebelluna vietati a WebFetch",
+  "feste del radicchio senza luogo preciso: da completare prima delle date"
+ ]
 }

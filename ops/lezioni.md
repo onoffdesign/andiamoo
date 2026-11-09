@@ -36,51 +36,38 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - trovasagre.com/sagre/veneto/treviso: 13 sagre TV in una lettura (2026-11-08); paesiinfesta.com ha programma e
   menu dell'anno per le sagre del Mottense; i PDF annuali degli eventi dei Comuni (Povegliano) danno tutto l'anno.
 
+- 2026-11-09: le pagine che elencano una stagione intera rendono di piu' (Teatro Stabile del Veneto 28 date, Fiori
+  d'Inverno 13 feste, Imoco 6 partite, biblioteca di Zero Branco 6 eventi con una lettura ciascuna).
+
 ## Fonti da evitare o poco utili
-- bibliotecatreviso.it vieta /myportal/ nei robots (WebFetch robots_disallowed): fonte del PC disattivata.
-- teatro.it (pagine date) da' errore a WebFetch; imocovolley.it mostra in prima pagina solo le partite gia' giocate.
-- Gli articoli di VenetoToday e Nordest24 sulle rassegne non dicono quasi mai l'ingresso: per l'accesso servono le
-  schede dell'organizzatore (es. musincantus.it/evento/...), non le testate.
-- cheventi.it e arteven.it/pr/treviso danno errore a WebFetch; Eventbrite non si apre senza un risultato di ricerca.
+- Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
+  teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
+  museiveneto.cultura.gov.it, trevisosotterranea.it, trevisoimprese.it, rockol.it, itinerarinelgusto.it, lapiazzaweb.it,
+  insolitotrantran.it, beescover.com, prolococamalo.it, cinemaedera.it/rassegne.html; siti dei comuni di Pieve di
+  Soligo, Cappella Maggiore, Quinto, Vedelago, Valdobbiadene, Cessalto, Sernaglia, Montebelluna. venetotoday.it si apre.
+- Vuoti o vecchi: puntoettore.it (eventi solo su Eventbrite), hellomoglianoveneto, prolocofollina.it, home MyPortal di
+  Trevignano, trevisoinfo.it (2011), Pro Loco di Cimadolmo (2017), lavitadelpopolo.it a volte (Vedelago 2023).
+- Gli articoli di VenetoToday e Nordest24 sulle rassegne non dicono quasi mai l'ingresso: servono le schede
+  dell'organizzatore (es. musincantus.it/evento/...).
 - eventivenetando ed eventiesagre per le sagre spesso mostrano l'edizione di anni passati: controllare l'anno.
-- deliziedautunno.tv e cultura.gov.it vietano i robot: non aprirli, usarli solo come titolo nei risultati.
-- trevisotoday.it da' errore a WebFetch; venetotoday.it invece si apre.
 - microturismodellevenezie.it ha date contraddittorie nella stessa scheda: mai usarla come conferma.
-- Vietano i robot o danno errore: trevisosotterranea.it, trevisoimprese.it, hellomoglianoveneto (solo post vecchi), comune.pievedisoligo.tv.it, rockol.it, itinerarinelgusto.it,
-  comune.cappellamaggiore.tv.it, puntoettore.it (pagina eventi vuota, eventi solo su Eventbrite e Instagram).
-- WebFetch rifiuta anche gli indirizzi presi dai file del repository (coda, sito_ufficiale): solo link usciti da
-  WebSearch. Le 4 aperture tentate cosi' il 2026-11-01 sono ricerche sprecate.
-- Ricerche "eventi <comune> novembre <anno>" sui comuni piccoli: escono solo portali (virgilio, ilborghista,
-  cheventi) e quasi mai eventi; resa ~0. Meglio cercare "Pro Loco <comune>" e il sito del comune per scoprire se
-  e' MyPortal (si passa al PC).
-- Ricerche per tema generiche (bambini all'aperto, presentazioni di libri) danno guide e pagine vecchie
-  (edizioni di giugno o gennaio): servono parole del periodo (Natale, San Martino) e un comune.
-
-- Coordinate esatte: WebFetch non legge le mappe (wanderlog chiede un permesso, tripaligner e zero.eu non hanno
-  lat/lon) e la shell non raggiunge Nominatim: 4 letture sprecate il 2026-11-05. Meglio dare indirizzo e comune
+- WebFetch rifiuta gli indirizzi presi dai file del repository e spesso i link dentro una pagina letta (domini nuovi,
+  redirect, wp-json, pagine /page/2/, schede di itinerarinellarte: 8 rifiutate il 2026-11-09). Provare un link solo
+  prima di lanciarne altri in parallelo; i link usciti da WebSearch si aprono.
+- Ricerche "eventi <comune> <mese>" e "Pro Loco <comune>" sui comuni piccoli (Carbonera, Castelcucco, Cimadolmo,
+  Cavaso, Tarzo): resa ~0, escono portali. Meglio scoprire se il sito del comune e' MyPortal (si passa al PC).
+- Ricerche per tema o ambito generiche (bambini all'aperto, open mic, padel, cineforum, jam, nuoto e canoa in autunno)
+  danno guide e pagine vecchie: servono parole del periodo (Natale, San Martino) e un comune.
+- Coordinate esatte: WebFetch non legge le mappe e la shell non raggiunge Nominatim. Meglio dare indirizzo e comune
   giusti (il PC ricalcola) o il centro certo piu' vicino.
-- Eventbrite: la pagina organizzatore di .Ettore non elenca gli eventi. L'accesso si conferma con l'elenco dei gratuiti
-  (/d/italy--treviso--85685297/free--events/?page=N, ora letto dal PC); chi non vi compare va visto sulla scheda.
-
-- WebFetch rifiuta anche i link presi dentro una pagina letta se il dominio e' nuovo (veneto.eu, comune.mottadilivenza
-  dopo un redirect, wp-json di musincantus): 3 letture perse il 2026-11-06. lapiazzaweb.it vieta i robot.
-- 2026-11-07: robots_disallowed per WebFetch anche comune.quintoditreviso.tv.it, comune.vedelago.tv.it e
-  comune.valdobbiadene.tv.it; insolitotrantran.it da' errore (anche l'API tribe del PC: 404). Permesso negato senza
-  risposta (lettura persa): pagine nuove di sernaglia, imocovolley.it/calendar, trevignanocultura.it, culturalheritageonline.
-- Ricerche sui comuni piccoli (Carbonera, Castelcucco, Colle Umberto) e la newsletter UNPLI 'Weekend con le Pro Loco'
-  (nessun evento veneto): resa 0. lavitadelpopolo.it a volte mostra articoli di anni passati (Vedelago 2023).
-- Le pagine del Comune di Castelfranco per "Giallo in Castello" nei risultati sono tutte di edizioni passate (2024,
-  maggio 2026): le date di novembre restano senza scheda.
-
-- 2026-11-08: danno errore a WebFetch beescover.com, prolococamalo.it, cinemaedera.it/rassegne.html, oggitreviso.it;
-  robots_disallowed comune.cessalto.tv.it; prolocofollina.it e la home MyPortal di Trevignano arrivano vuote.
-  trevisoinfo.it mostra edizioni del 2011; la news 'nuovo cartellone' di musincantus e' del 2021.
-- Ricerche per ambito (open mic, tornei di padel, cineforum, jam) danno pagine di anni passati: resa 0 su 4.
+- Eventbrite: l'accesso si conferma con l'elenco dei gratuiti (letto dal PC); chi non vi compare va visto sulla scheda.
+- Newsletter UNPLI 'Weekend con le Pro Loco': nessun evento veneto.
 
 ## Calendario (chi pubblica quando)
 - Teatri comunali: le stagioni 2026/27 escono a fine ottobre con vendite da inizio novembre (Castelfranco).
 - Sagre di San Martino e Madonna della Salute: tutte a novembre, quasi solo su Facebook e aggregatori.
-- Mostre del radicchio rosso (Preganziol, Zero Branco, rassegna Fiori d'Inverno): a gennaio, programmi a dicembre.
+- Feste del radicchio (rassegna Fiori d'Inverno di UNPLI): da fine novembre a marzo; calendario a inizio novembre,
+  programmi delle singole feste di solito una o due settimane prima.
 
 ## Errori da non ripetere
 - eventiesagre a volte sbaglia il nome del comune (Badoere di Morgano scritto "Mordano", poi geocodificato a caso):
@@ -89,3 +76,5 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   prima della riga "rimuovi:" che inizia a capo, non della prima occorrenza.
 - In correzioni.yaml le date senza ora vanno tra virgolette ("2026-11-01"): altrimenti --applica si blocca
   (TypeError nel sort) anche se --controlla le dice valide.
+- --controlla non verifica le sottocategorie: usare solo quelle di config/categories.yaml (teatro, non prosa;
+  sagre, non radicchio). Corrette 41 voci il 2026-11-09.

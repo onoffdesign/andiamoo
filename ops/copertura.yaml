@@ -19,10 +19,10 @@ comuni_TV:
   Castelcucco: 2026-11-07
   Castelfranco Veneto: 2026-10-31
   Castello di Godego: null
-  Cavaso del Tomba: null
+  Cavaso del Tomba: 2026-11-09
   Cessalto: 2026-11-08
   Chiarano: null
-  Cimadolmo: null
+  Cimadolmo: 2026-11-09
   Cison di Valmarino: 2026-10-30
   Codognè: 2026-11-06
   Colle Umberto: 2026-11-07
@@ -50,7 +50,7 @@ comuni_TV:
   Mogliano Veneto: null
   Monastier di Treviso: 2026-11-05
   Monfumo: null
-  Montebelluna: null
+  Montebelluna: 2026-11-09
   Morgano: 2026-10-30
   Moriago della Battaglia: 2026-11-06
   Motta di Livenza: 2026-11-06
@@ -83,12 +83,12 @@ comuni_TV:
   San Zenone degli Ezzelini: null
   Santa Lucia di Piave: null
   Sarmede: null
-  Segusino: null
+  Segusino: 2026-11-08
   Sernaglia della Battaglia: 2026-11-06
   Silea: 2026-11-05
   Spresiano: null
   Susegana: null
-  Tarzo: null
+  Tarzo: 2026-11-09
   Trevignano: 2026-11-08
   Treviso: 2026-10-30
   Valdobbiadene: 2026-11-07
@@ -99,7 +99,7 @@ comuni_TV:
   Vittorio Veneto: 2026-11-02
   Volpago del Montello: 2026-10-30
   Zenson di Piave: null
-  Zero Branco: null
+  Zero Branco: 2026-11-09
 aggregatori:
   trovasagre.com (Treviso): 2026-11-08
   paesiinfesta.com: 2026-11-08
@@ -117,8 +117,10 @@ aggregatori:
   calendariopodismo.it: null
   calendariopodismoveneto.blogspot.com: 2026-11-02
   running.life: null
-  Pro Loco e UNPLI Treviso: 2026-10-30
-  'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': 2026-10-30
+  Pro Loco e UNPLI Treviso: 2026-11-09
+  itinerarinellarte.it (mostre Treviso): 2026-11-09
+  bibliotecazerobranco.it: 2026-11-09
+  'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': 2026-11-09
   musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: 2026-10-30
   'biblioteche: rete BiblioMarca': null
   H-FARM e spazi per eventi business: null
@@ -167,6 +169,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Sport > Sport d'acqua": 2026-11-09
+  "Arte e cultura > Mostre": 2026-11-09
+  "Spettacoli > Teatro": 2026-11-09
+  "Sport > Sport di squadra": 2026-11-09
   "Musica e party > Musica partecipata": 2026-11-08
   "Arte e cultura > Patrimonio e tradizioni": 2026-11-08
   "Sport > Racchetta": 2026-11-08

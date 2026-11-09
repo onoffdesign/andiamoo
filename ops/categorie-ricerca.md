@@ -35,11 +35,13 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - palestre indoor (open day, corsi base) · ice climbing · gare FASI
 - **Montagna ed escursionismo** (vedi anche Natura) [escursione CAI, uscita sociale]
   - escursioni guidate · via ferrata · scialpinismo · ciaspolate [racchette da neve] · alpinismo
-- **Sport d'acqua** [regata, gara di nuoto]
+- **Sport d'acqua** [regata, gara di nuoto] (in autunno rara: nessun evento il 2026-11-09)
+  · campionati di canottaggio di fondo sul Sile [canottieri, tricolori di fondo] · meeting di nuoto nelle piscine comunali [swim cup, trofeo]
   - nuoto in piscina · nuoto in acque libere · canoa e kayak · rafting · SUP [stand up paddle] · canottaggio
   - vela · pesca sportiva
 - **Sport di squadra** [torneo, partita, campionato]
   - calcio · calcio a 5 · basket · pallavolo · beach volley · rugby · pallamano · hockey · baseball e softball
+  - rugby di Serie A Elite in casa [calendario federugby, Mogliano] · Champions League di pallavolo femminile [CEV, Palaverde]
 - **Racchetta** [torneo, open] · tennis · padel · ping pong · badminton · pickleball
   · tornei open FITP di padel [calendario tornei padel FITP Veneto, PDF regionale] · esibizioni ed eventi nei club [padel cup, clinic]
 - **Arti marziali e combattimento** [stage, torneo, open day] · judo · karate · taekwondo · boxe · kickboxing · scherma
@@ -62,6 +64,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 
 - **Mostre** [mostra, esposizione, vernissage, inaugurazione] · arte antica · arte contemporanea · fotografia
   · illustrazione e fumetto · design · collettive di artisti locali
+  · manifesti pubblicitari e grafica d'epoca [Collezione Salce] · mostre in ville con parco [villa, giardino, biglietto mostra e parco] · collezioni private aperte nei fine settimana [apertura straordinaria, curatore] · premi di pittura delle Pro Loco [premio nazionale di pittura, acquerello]
 - **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale]
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
@@ -106,6 +109,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 
 - **Teatro** [spettacolo, stagione teatrale] · prosa · teatro dialettale · commedia · teatro ragazzi (vedi Famiglie)
   · teatro di strada · improvvisazione
+  · stagioni di prosa dei teatri stabili con turni di abbonamento [stagione di prosa, biglietti e abbonamenti, repliche] · stagioni dei teatri comunali di paese nel circuito Arteven [stagione teatrale, auditorium, Vivaticket]
   · rassegne di teatro amatoriale nei paesi [rassegna teatrale, compagnie amatoriali, auditorium] · letture teatrali per le ricorrenze civili [4 novembre] · spettacolo di Capodanno a teatro [Capodanno a teatro] · teatro classico a puntate sui miti greci [rassegna Class]
 - **Comicita'** · stand-up comedy · cabaret · serate comiche a puntate nei ridotti [Funny Friday]
 - **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci]
@@ -155,7 +159,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 ## Natura e benessere (`natura-outdoor`)
 
 - **Escursioni** [escursione guidata, passeggiata naturalistica] · camminate in collina e sul Montello · lungo i fiumi
-  (Sile, Piave) · notturne e al chiaro di luna · birdwatching · forest bathing
+  (Sile, Piave) · notturne e al chiaro di luna · birdwatching · forest bathing · camminate di nordic walking aperte a tutti [nordic walking, camminata d'autunno]
   · passeggiate urbane ai margini della citta' (Legambiente)
 - **Ambiente** · pulizia di parchi e fiumi · piantumazioni · educazione ambientale · domeniche ecologiche con distribuzione di piantine [domenica ecologica, alberi in pianura] · Puliamo il Mondo di Legambiente [puliamo il mondo] (settembre-ottobre)
   · raccolte di rifiuti di Plastic Free e FIPSAS [plastic free, zeroplastic]
@@ -174,3 +178,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-06 · +11 voci · dove: Sport > Motori (+3), Sagre > Vino e bevande (+3), Mercatini > Mercati agricoli (+2), Business > Convegni e conferenze (+3)
 - 2026-11-07 · +10 voci · dove: Sport > Sport per tutti (+3), Arte e cultura > Storia e rievocazioni (+2), Spettacoli > Circo e arti di strada (+2), Mercatini > Collezionismo (+3)
 - 2026-11-08 · +10 voci · dove: Sport > Racchetta (+2), Arte e cultura > Patrimonio e tradizioni (+3), Musica > Musica partecipata (+2), Spettacoli > Cinema (+3)
+- 2026-11-09 · +11 voci · dove: Arte e cultura > Mostre (+4), Spettacoli > Teatro (+2), Sport > Sport d'acqua (+2), Sport di squadra (+2), Natura > Escursioni (+1)

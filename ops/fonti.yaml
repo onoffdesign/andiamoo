@@ -528,8 +528,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
-  ultimo_controllo: '2026-11-02'
+  resa: { controlli: 2, eventi_trovati: 4, ultimi: [2, 2] }
+  ultimo_controllo: '2026-11-09'
   automatizzabile: no
   stato: attiva
   note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale"
@@ -925,3 +925,101 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "mercatino di Natale di meta' novembre con camminata; programma completo sulla scheda di trevisoeventi."
+- nome: Itinerari nell'arte (mostre in provincia di Treviso)
+  url: https://www.itinerarinellarte.it/it/mostre/treviso
+  query: itinerarinellarte mostre Treviso
+  tipo: aggregatore
+  categorie: [arte-cultura]
+  comuni: [Treviso, Conegliano, Asolo, Montebelluna, Castelfranco Veneto, Oderzo, Vittorio Veneto]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
+  ultimo_controllo: '2026-11-09'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "prima pagina = 10 mostre TV in corso con date e sede (solo 1 era sul sito). Le schede (orari, prezzi) si aprono SOLO se compaiono prima in una ricerca: 8 aperture dirette rifiutate il 2026-11-09. Restano da aggiungere: Andar per fiere (Treviso), Cesco Magnolato (Oderzo), Paolo Battistin (Vittorio Veneto, fino al 21/11), Fotografia italiana 1955 (Castelfranco, fino al 15/11)"
+- nome: Teatro Stabile del Veneto, stagione di prosa del Teatro Del Monaco
+  url: https://www.teatrostabileveneto.it/biglietti-abbonamenti-stagione-prosa-26/27-teatro-del-monaco-treviso
+  query: Biglietti e Abbonamenti Stagione 26/27 teatro Del Monaco Treviso teatrostabileveneto
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 28, ultimi: [28] }
+  ultimo_controllo: '2026-11-09'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "una lettura = 12 spettacoli con tutte le repliche (gio 19:30, ven e sab 20:30, dom 16:00) e prezzi. Aggiunti fino al 21/02/2027; da aggiungere a gennaio Malinconico (11-14/3), L'ultima domenica di agosto (18-21/3), aprile. La stagione lirica e concertistica del Del Monaco e' a parte (da cercare)"
+- nome: Biblioteca comunale di Zero Branco (eventi e stagione del Teatro Comisso)
+  url: https://www.bibliotecazerobranco.it/eventi
+  query: bibliotecazerobranco eventi
+  tipo: biblioteca
+  categorie: [arte-cultura, teatro-spettacoli, famiglie-bambini]
+  comuni: [Zero Branco]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-09'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "elenco con schede /eventi/<n>/<titolo> che si aprono dopo la lettura dell'elenco; la scheda 294 ha tutta la stagione teatrale (circuito Arteven, Stivalaccio Teatro). Candidata html_llm per il PC"
+- nome: Imoco Volley, calendario partite
+  url: https://imocovolley.it/fixtures/
+  query: Prosecco Doc Imoco Volley fixtures Palaverde
+  tipo: sport
+  categorie: [sport]
+  comuni: [Villorba]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-09'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "la prima pagina mostra gennaio-marzo 2027; le pagine /fixtures/page/N/ non si aprono (permesso negato). Mancano le partite casalinghe di novembre e dicembre 2026: cercarle una per una ('Imoco Volley vs <avversario> Palaverde')"
+- nome: Federugby, calendario Serie A Elite maschile
+  url: https://www.federugby.it/serie-a-elite-maschile-ufficializzato-il-calendario-2026-2027/
+  query: Serie A Elite maschile ufficializzato il calendario 2026/2027 federugby
+  tipo: sport
+  categorie: [sport]
+  comuni: [Mogliano Veneto]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
+  ultimo_controllo: '2026-11-09'
+  automatizzabile: no
+  stato: attiva
+  note: "elenca solo le giornate di andata in chiaro: aggiunte le 4 partite in casa del Mogliano fino al 23/01. Il ritorno (6/2, 6/3, 10/4, 24/4) va confermato su rugbymogliano.it"
+- nome: Fiori d'Inverno, rassegna del radicchio (UNPLI Treviso)
+  url: https://www.umbriaecultura.it/fiori-dinverno-radicchio/
+  query: Fiori d'Inverno 2026-2027 feste radicchio comuni
+  tipo: aggregatore
+  categorie: [sagre-feste]
+  comuni: [Ponzano Veneto, Spresiano, Quinto di Treviso, Castelfranco Veneto, Preganziol, Treviso, Zero Branco, Casier, Mogliano Veneto, Vedelago, Roncade]
+  province: [TV]
+  frequenza: annuale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 13, ultimi: [13] }
+  ultimo_controllo: '2026-11-09'
+  automatizzabile: no
+  stato: attiva
+  note: "una lettura = tutte le feste del radicchio da novembre a marzo con le date. Mancano luoghi e programmi: ricontrollare le Pro Loco una settimana prima di ogni festa (PrimaVera in Festa di Roncade 14 e 21/3 ancora da aggiungere)"
+- nome: Hills Nordic Walking (Farra di Soligo)
+  url: https://www.hillsnordicwalking.it/appuntamenti/
+  query: hillsnordicwalking appuntamenti
+  tipo: associazione
+  categorie: [sport, natura-outdoor]
+  comuni: [Farra di Soligo, Pieve di Soligo]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-09'
+  automatizzabile: no
+  stato: debole
+  note: "pagine con la sola data, senza orario ne' ritrovo: serve solo come link ufficiale delle camminate (Camminata d'autunno del 22/11)"

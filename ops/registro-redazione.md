@@ -2,6 +2,45 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-09
+
+- **Giro del PC**: NON ha girato per la terza notte di fila (ultimo rapporto finito il 2026-11-06 alle 09:40). Coda,
+  campione e rapporto sono quelli del 6/11; tutti gli eventi aggiunti dalla redazione dal 6/11 (oltre 120) non sono
+  ancora sul sito perche' il PC deve geolocalizzarli. Correzioni e rimozioni sono state applicate con --applica.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (38 aperti su 57) e campione: 2 corretti, 13 rimossi (conclusi tra il 6 e l'8/11), 0
+  verificati. "Papa' ha bruciato i biscotti" del Mese del Bambino: titolo giusto, al Cinema Edera (Piazza Martiri di
+  Belfiore 2) alle 10:30. Camminata d'Autunno del 22/11: link alla pagina di Hills Nordic Walking, comune Farra di
+  Soligo (ritrovo non pubblicato). Restano aperti: eventi di Sernaglia e Quinto (siti vietati a WebFetch), accesso di
+  Circolando fuori casa a Codogne' e di Autunno Musicale, CRM da moku e radical design da .Ettore (solo Eventbrite),
+  Macedonia Sintetica al CW Gate (solo Instagram), X-mas Run (12 o 13/12), Corsa dei Babbi Natale di Ponzano.
+- **Controllo a campione**: 3/10 (3 conclusi; data 1, orario 1, luogo 1, link 1).
+- **Eventi aggiunti** (66): teatro-spettacoli 31 (stagione di prosa del Teatro Del Monaco: 7 spettacoli, 28 repliche
+  dal 19/11 al 21/2; Teatro Comisso di Zero Branco: 3 spettacoli), sagre-feste 13 (rassegna Fiori d'Inverno: feste del
+  radicchio a Paderno, Spresiano, Quinto, Castelfranco, Preganziol, Treviso, Zero Branco, Dosson, Mogliano, Vedelago),
+  sport 10 (Imoco Volley al Palaverde 6 partite da gennaio, Mogliano Rugby 4 partite in casa), arte-cultura 10 (mostre:
+  Renato Casaro e L'Ultima Rinascita alla Collezione Salce, Ritratti di donna a Palazzo Sarcinelli, Klimt a Villa
+  Freya, Villa Romivo con 2 aperture straordinarie; Premio di pittura di Cordignano; 2 incontri nella biblioteca di
+  Zero Branco), musica 1 (Una notte per Faber al Comisso), mercatini-fiere 1 (Profumi e Sapori d'Autunno a Susegana).
+- **Comuni controllati**: Zero Branco (biblioteca: nuova fonte, 6 eventi), Montebelluna (mostra di Villa Romivo; sito
+  del Comune vietato a WebFetch), Cimadolmo (Pro Loco ferma al 2017), Cavaso del Tomba e Tarzo (solo portali).
+- **Categorie cercate**: Arte e cultura > Mostre (5 mostre, 1 su 10 era sul sito), Spettacoli > Teatro (28 date),
+  Sport > Sport di squadra (10 partite), Sport > Sport d'acqua (resa 0). +11 voci nell'albero.
+- **Fonti note**: Treviso Eventi (2 eventi nuovi e test di copertura), Treviso Sotterranea e cheventi non riaperte
+  (vietate o in errore).
+- **Fonti nuove catalogate**: 7 (itinerarinellarte mostre TV, Teatro Stabile del Veneto stagione del Del Monaco,
+  Biblioteca di Zero Branco, Imoco Volley fixtures, Federugby Serie A Elite, Fiori d'Inverno, Hills Nordic Walking).
+  Spostate in sources.yaml: 0 (la biblioteca di Zero Branco e' candidata html_llm).
+- **Miglioria**: per mostre, stagioni teatrali, campionati e rassegne tematiche si parte dalla pagina che elenca la
+  stagione intera: 59 eventi da 8 letture. Regola nella sezione Treviso del metodo. Corrette anche 41 sottocategorie
+  non valide (prosa, radicchio) che --controlla non segnala.
+- **Test di copertura**: 8/10 (trevisoeventi); mostre di itinerarinellarte 1/10; criterio di saturazione del lunedi'
+  non rispettato, resta Treviso.
+- **Ricerche**: 57 su 70.
+- **Problemi aperti**: il PC non pubblica dal 6/11 mattina (terza notte); partite casalinghe dell'Imoco di novembre e
+  dicembre e ritorno del Mogliano Rugby da confermare; mostre ancora da aggiungere (Andar per fiere, Magnolato a
+  Oderzo, Battistin a Vittorio Veneto); stagione lirica del Del Monaco; luoghi delle feste del radicchio.
+
 ## 2026-11-08
 
 - **Giro del PC**: NON ha girato per la seconda notte di fila (ultimo rapporto finito il 2026-11-06 alle 09:40). Coda,
