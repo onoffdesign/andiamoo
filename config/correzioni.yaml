@@ -1005,6 +1005,58 @@ correggi:
     official_url: https://www.hillsnordicwalking.it/camminata-autunno/
     nota: "pagina dell'organizzatore A.S.D. Hills Nordic Walking (Farra di Soligo): conferma domenica 22/11/2026; punto di partenza non pubblicato, resta il centro di Soligo"
     verificato: "2026-11-09"
+  1adf807aa7d1dd2e:
+    title: "Venezia, quello che non si vede: Il fuoco sotto l'acqua"
+    start: 2026-11-11T20:30
+    end: 2026-11-11T23:00
+    venue: Biblioteca comunale di Quinto di Treviso
+    address: Via G. D'Annunzio 9
+    access: libero
+    price: ingresso gratuito
+    official_url: https://www.comune.quintoditreviso.tv.it/vivere-il-comune/eventi/venezia-quello-che-non-si-vede-sette-incontri-tra-storie-libri-e-segreti-di-una-citta-da-scoprire-copy-3/
+    summary: Secondo incontro del ciclo sulla storia nascosta di Venezia, con lo scrittore Giovanni Montanaro, organizzato dalla biblioteca comunale.
+    nota: "scheda del Comune di Quinto: 20:30-23:00 in biblioteca, gratuito"
+    verificato: "2026-11-10"
+  8d5c60bd6368fe0b:
+    start: 2026-11-20T17:30
+    end: 2026-11-20T18:30
+    venue: Biblioteca comunale di Quinto di Treviso
+    address: Via G. D'Annunzio 9
+    access: libero
+    price: ingresso gratuito
+    official_url: https://www.comune.quintoditreviso.tv.it/vivere-il-comune/eventi/voci-di-carta-chiedi-alla-polvere/
+    summary: Incontro del gruppo di lettura della biblioteca dedicato al romanzo Chiedi alla polvere di John Fante.
+    nota: "scheda del Comune di Quinto: 17:30-18:30 in biblioteca, gratuito"
+    verificato: "2026-11-10"
+  c1c3c83e3d9a3da5:
+    title: "Sicurezza e prevenzione: contrasto ai furti in abitazione"
+    start: 2026-11-21T15:00
+    venue: Ex scuole Pio X
+    address: Vicolo Pio X 2
+    access: libero
+    price: ingresso libero e gratuito
+    official_url: https://www.comune.quintoditreviso.tv.it/novita/sicurezza-e-prevenzione/
+    summary: Incontro pubblico con consigli pratici per proteggere la casa dai furti, organizzato dall'Associazione Nazionale Carabinieri con il patrocinio del Comune.
+    nota: "pagina del Comune di Quinto: terzo incontro del ciclo, ore 15"
+    verificato: "2026-11-10"
+  e79117bb680d6362:
+    start: 2026-11-29T10:00
+    venue: Stadio comunale di Ponzano Veneto
+    address: Via del Bellato 2
+    access: iscrizione
+    price: 7 euro adulti, offerta libera bambini fino a 12 anni
+    official_url: https://cisonoancheio.it/corsa-dei-babbi-natale
+    nota: "podopodo.it e Calendario Podismo Veneto: ritrovo 9, partenza 10, percorsi di 6 e 10 km; organizza Finche' ci siete voi ci sono anche io"
+    verificato: "2026-11-10"
+  1ada507dcdbc34b2:
+    start: 2026-12-13T10:00
+    venue: Piazza dei Signori
+    address: Piazza dei Signori
+    access: iscrizione
+    price: 12 euro adulti (con costume), 3 euro bambini fino a 12 anni
+    official_url: https://avaibooksports.com/inscripcion/xmas-run-2026/
+    nota: "trovaeventi: domenica 13/12 partenza alle 10 da Piazza dei Signori, iscrizioni su avaibooksports; scioglie il dubbio 12 o 13/12"
+    verificato: "2026-11-10"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
@@ -1054,3 +1106,7 @@ verificati:
   0a974667d1a42b7e: "2026-11-07"
   8fc46e02f590aa84: "2026-11-07"
   5700722f5933fcc6: "2026-11-07"
+  b96034424bcd9ccc: "2026-11-10"
+  1f5b9f6cf260dd62: "2026-11-10"
+  85f873f2267b4e72: "2026-11-10"
+  c3409eb65d248dcb: "2026-11-10"

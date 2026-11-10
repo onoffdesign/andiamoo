@@ -36,8 +36,9 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - trovasagre.com/sagre/veneto/treviso: 13 sagre TV in una lettura (2026-11-08); paesiinfesta.com ha programma e
   menu dell'anno per le sagre del Mottense; i PDF annuali degli eventi dei Comuni (Povegliano) danno tutto l'anno.
 
-- 2026-11-09: le pagine che elencano una stagione intera rendono di piu' (Teatro Stabile del Veneto 28 date, Fiori
-  d'Inverno 13 feste, Imoco 6 partite, biblioteca di Zero Branco 6 eventi con una lettura ciascuna).
+- 2026-11-10: le schede dei comuni con elenco vietato (Quinto) si aprono se escono da una ricerca con il titolo
+  esatto; il PDF del calendario stagionale allegato alla notizia del Comune (San Fior) si apre e vale un mese.
+  collaltodisusegana.it: home con link a festival, mercatini e Natale, tutte apribili.
 
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -62,8 +63,13 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   giusti (il PC ricalcola) o il centro certo piu' vicino.
 - Eventbrite: l'accesso si conferma con l'elenco dei gratuiti (letto dal PC); chi non vi compare va visto sulla scheda.
 - Newsletter UNPLI 'Weekend con le Pro Loco': nessun evento veneto.
+- 2026-11-10: rifiutati o vietati anche ilgazzettino.it, italiaeventinews.altervista.org, fondazionezavrel.it, i volantini
+  del blog Calendario Podismo Veneto e la scheda del Comune di Codogne'. Musincantus non pubblica l'ingresso dei concerti
+  di Autunno Musicale (solo il Lobgesang "libero con offerta"): verificati senza accesso, inutile ricercarlo.
+- Ricerche di sport tradizionali (palio, tiro alla fune) a novembre: resa 0, sono eventi estivi o dentro le sagre.
 
 ## Calendario (chi pubblica quando)
+- Mostre di presepi: le date della stagione escono a fine novembre (a inizio novembre ci sono solo quelle dell'anno prima).
 - Teatri comunali: le stagioni 2026/27 escono a fine ottobre con vendite da inizio novembre (Castelfranco).
 - Sagre di San Martino e Madonna della Salute: tutte a novembre, quasi solo su Facebook e aggregatori.
 - Feste del radicchio (rassegna Fiori d'Inverno di UNPLI): da fine novembre a marzo; calendario a inizio novembre,

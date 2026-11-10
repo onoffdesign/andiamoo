@@ -390,11 +390,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: '2026-11-01'
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-10'
   automatizzabile: no
   stato: attiva
-  note: "WordPress The Events Calendar (/calendario/elenco/?tribe-bar-date=...), ma robots.txt vieta i robot: non va in sources.yaml ne' aperta con WebFetch. Usare solo i titoli dei risultati di ricerca e il link /calendario/ come official_url."
+  note: "2026-11-10: la ricerca mostra solo articoli vecchi, nessuna data nuova. WordPress The Events Calendar (/calendario/elenco/?tribe-bar-date=...), ma robots.txt vieta i robot: non va in sources.yaml ne' aperta con WebFetch. Usare solo i titoli dei risultati di ricerca e il link /calendario/ come official_url."
 - nome: Cinema Edera (Treviso)
   url: https://www.cinemaedera.it/i-film-della-settimana.html
   query: Cinema Edera Treviso film della settimana
@@ -864,8 +864,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 13, ultimi: [13] }
-  ultimo_controllo: '2026-11-08'
+  resa: { controlli: 2, eventi_trovati: 19, ultimi: [13, 6] }
+  ultimo_controllo: '2026-11-10'
   automatizzabile: da_valutare
   stato: attiva
   note: "elenco delle sagre del mese con frazione e date (schede /evento/<nome>-<anno>): 13 sagre TV in una lettura, 9 non ancora sul sito. Solo scoperta: confermare su Pro Loco, Comune o Paesi in Festa. Alcune date di 'Altri appuntamenti' sbagliate."
@@ -1023,3 +1023,73 @@ fonti:
   automatizzabile: no
   stato: debole
   note: "pagine con la sola data, senza orario ne' ritrovo: serve solo come link ufficiale delle camminate (Camminata d'autunno del 22/11)"
+- nome: Collalto di Susegana (sito del borgo)
+  url: https://www.collaltodisusegana.it/
+  query: collaltodisusegana eventi a Collalto
+  tipo: associazione
+  categorie: [musica, mercatini-fiere, arte-cultura]
+  comuni: [Susegana]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 5, ultimi: [5] }
+  ultimo_controllo: '2026-11-10'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "home con link alle pagine di festival organistico (date, ore, ingresso), mostra mercato dell'antiquariato (date dell'anno), visite guidate e Natale a Collalto (5, 6, 8/12). Le schede si aprono dopo la home."
+- nome: Comune di San Fior, Autunno Sanfiorese (PDF)
+  url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+  query: Autunno Sanfiorese 2026 comune San Fior
+  tipo: comune
+  categorie: [teatro-spettacoli, musica, famiglie-bambini, sagre-feste, sport]
+  comuni: [San Fior]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 10, ultimi: [10] }
+  ultimo_controllo: '2026-11-10'
+  automatizzabile: no
+  stato: attiva
+  note: "il calendario e' nel PDF allegato alla notizia (si apre con WebFetch): ~25 appuntamenti da novembre a dicembre. Alcuni giorni della settimana non corrispondono alle date (17, 18, 21/12, 7/12, 11-12/11): non aggiunti, da ricontrollare. Probabile edizione primavera/estate in un PDF simile."
+- nome: Comune di Quinto di Treviso, schede eventi
+  url: https://www.comune.quintoditreviso.tv.it/vivere-il-comune/eventi/
+  query: comune.quintoditreviso.tv.it eventi <titolo>
+  tipo: comune
+  categorie: [arte-cultura, famiglie-bambini]
+  comuni: [Quinto di Treviso]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-10'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "l'elenco /eventi/ e' vietato a WebFetch, ma le schede uscite da una ricerca con il titolo si aprono e danno ora, luogo (biblioteca, Via D'Annunzio 9) e ingresso: 3 eventi della coda sistemati il 2026-11-10. Ogni incontro di un ciclo ha una scheda 'copy-N'."
+- nome: Podopodo (corse e camminate)
+  url: https://podopodo.it/
+  query: podopodo <nome gara> <comune> <anno>
+  tipo: aggregatore
+  categorie: [sport]
+  comuni: [tutti]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-10'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "schede /<tipo>/<AAAA>/<MM>/<GG>/<gara>/ con ritrovo, indirizzo, ora di partenza, quota e sito dell'organizzatore: completa le gare del Calendario Podismo Veneto (Babbi Natale di Ponzano)."
+- nome: TrovaEventi
+  url: https://trovaeventi.com/
+  query: trovaeventi <comune> <data> <evento>
+  tipo: aggregatore
+  categorie: [sport, sagre-feste, musica]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-10'
+  automatizzabile: no
+  stato: attiva
+  note: "schede con data e anno nel titolo e link d'iscrizione (X-mas Run 13/12). Solo scoperta."

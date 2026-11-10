@@ -27,6 +27,8 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - mezza maratona e maratona · 10 km · staffette · corse a tema (color run, notturne, in maschera)
   - trail running [trail, skyrace, ultratrail, vertical] → gotrail
   - corsa campestre [cross] · corsa in montagna
+  - corse dei Babbi Natale [Babbi Natale, Santa Klaus run, X-mas run] (fine novembre - dicembre) → podopodo, trovaeventi
+  - corse benefiche di associazioni [corsa solidale, per la ricerca] · ciclocross di dicembre [trofeo ciclocross, memorial]
 - **Ciclismo** [gran fondo, cicloturistica, randonnée, gravel]
   - strada · mountain bike [XC, enduro, marathon MTB] · gravel · ciclocross · e-bike · BMX
   - cicloturistiche ed eroiche · pedalate per famiglie · bike test e raduni
@@ -54,6 +56,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Sport di precisione** · tiro con l'arco · golf · bocce · biliardo · freccette
 - **Ginnastica e danza sportiva** · ginnastica artistica e ritmica · danza sportiva · cheerleading
 - **Sport tradizionali e popolari** · palio e giochi storici · tiro alla fune · corsa nei sacchi
+  · giochi popolari dentro le sagre (pignatte, corsa nei sacchi, partita delle vecchie glorie) · palio di Sant'Andrea (Solighetto) · Panevin e foghera (5-6 gennaio)
 - **Eventi per chi guarda** [partita, match] · partite di serie A-B-C delle squadre locali · grandi eventi sportivi
   · basket di Serie A al Palaverde [Treviso Basket calendario] · rugby URC e Challenge Cup a Monigo [Benetton Rugby calendario]
   · pallavolo A1 femminile al Palaverde [Imoco] · calcio di Serie C allo stadio Tenni [Treviso calcio]
@@ -125,11 +128,13 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Laboratori** [laboratorio per bambini] · creativi · scientifici · di lettura · di cucina
   · laboratori del sabato pomeriggio nei musei civici [laboratori weekend, Museo Bailo, Santa Caterina] · visite guidate per famiglie alle mostre
 - **Letture e biblioteche** [ora del racconto, letture animate] · nati per leggere
+  · gruppi di lettura per ragazzi 11-14 anni · gruppi di lettura degli adulti [book club, libro del mese] · letture di San Nicolo' [Sannicolibri] · cicli di incontri con autori in biblioteca [Il Veneto legge, BiblioMarca]
 - **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia
   · rassegne domenicali dei teatri comunali [teatro ragazzi, domeniche a teatro, Ragazzi che Teatro]
   · letture animate con musica dal vivo
 - **All'aperto** · fattorie didattiche · cacce al tesoro · feste di quartiere per famiglie · parchi avventura · laboratori nei garden center [laboratorio bambini garden] · piantumazione di bulbi per bambini · villaggi delle zucche [villaggio delle zucche] (ottobre)
 - **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini
+  · accensione del presepe e dell'albero (8 dicembre) · mostre di presepi (date dell'anno escono a fine novembre) · San Nicolo' (6 dicembre)
 
 ## Mercatini e fiere (`mercatini-fiere`)
 

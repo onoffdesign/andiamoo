@@ -66,6 +66,12 @@ dell'anno con piu' eventi, errori tipici. Quando si apre una provincia nuova (ve
 lo schema e si parte dalle regole generali e da quelle della regione.
 
 ### Treviso (TV) - provincia attiva dal 2026-10
+- Coda con siti dei comuni vietati a WebFetch (miglioria del 2026-11-10): l'elenco /eventi/ del comune e' vietato, ma
+  le singole schede no. Cercare "comune.<dominio> eventi <titolo esatto>" (anche 2-3 titoli in OR nella stessa ricerca):
+  le schede escono nei risultati e si aprono con ora, luogo e ingresso (Quinto: 3 eventi della coda sistemati con 4
+  ricerche, dopo una settimana in coda). Le stagioni dei comuni piccoli stanno spesso in un PDF allegato a una notizia
+  ("Autunno <comune> <anno>"): il PDF si apre e da' un mese intero (San Fior: 10 eventi con una lettura); controllare
+  che giorno della settimana e data coincidano prima di aggiungere.
 - Eventi di stagione (miglioria del 2026-11-09): mostre, stagioni teatrali, campionati e rassegne tematiche coprono
   mesi interi e si leggono in blocco. Ordine: elenco di itinerarinellarte.it/it/mostre/treviso (10 mostre, 1 sola era
   sul sito; le schede si aprono solo dopo che compaiono in una ricerca "<titolo> <sede> orari biglietti"), pagina
@@ -144,6 +150,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-10 · TV · ricerche 52 · eventi nuovi 22 · eventi per ricerca 0,4 (piu' 5 corretti e 4 verificati dalla coda) · fonti al PC +0 · miglioria: per la coda dei comuni con elenco vietato si cercano le schede con il titolo esatto e il dominio del comune (si aprono), e i calendari stagionali dei comuni piccoli si leggono dal PDF allegato alla notizia (San Fior 10 eventi in una lettura)
 - 2026-11-09 · TV · ricerche 57 · eventi nuovi 66 · eventi per ricerca 1,2 (piu' 2 corretti e 13 conclusi tolti dalla coda) · fonti al PC +0 · miglioria: per mostre, stagioni teatrali, campionati e rassegne tematiche si parte dalla pagina che elenca l'intera stagione (elenco mostre di itinerarinellarte, abbonamenti del Teatro Stabile del Veneto, calendari di squadre e federazioni, rassegna Fiori d'Inverno): 59 eventi da 8 letture; regola nuova nella sezione Treviso
 - 2026-11-08 · TV · ricerche 59 · eventi nuovi 14 · eventi per ricerca 0,2 (piu' 9 corretti) · fonti al PC +2 (Comune di Trevignano e Comune di Gaiarine myportal, codici da confermare) · miglioria: elenco delle sagre del mese di trovasagre come primo passo per le sagre (9 mancanti su 13 in una lettura) e PDF annuali degli eventi dei Comuni come fonte ufficiale a basso costo; regola nuova nella sezione Treviso
 - 2026-11-07 · TV · ricerche 62 · eventi nuovi 46 · eventi per ricerca 0,7 · fonti al PC +1 (Mattorosso html_llm) · miglioria: le schede di dettaglio di trevisoeventi si aprono con WebFetch e danno in una lettura il programma giorno per giorno e il sito dell'organizzatore: i buchi che il test di copertura trovava da tre notti (sagre di Colle Umberto, Visna' e Castagnole, Anima Teatro, mercatini di antiquariato, Milipiave) sono stati chiusi con una lettura ciascuno. Regola nuova nella sezione Treviso

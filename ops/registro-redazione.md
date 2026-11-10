@@ -2,6 +2,47 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-10
+
+- **Giro del PC**: NON ha girato per la quarta notte di fila (ultimo rapporto finito il 2026-11-06 alle 09:40). Coda,
+  campione e rapporto sono ancora quelli del 6/11; gli eventi aggiunti dalla redazione dal 6/11 (oltre 140) non sono
+  sul sito finche' il PC non li geolocalizza. Correzioni e rimozioni applicate con --applica.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (24 aperti su 57 all'inizio) e campione: 5 corretti, 0 rimossi, 4 verificati. Quinto di
+  Treviso: "Venezia, quello che non si vede" dell'11/11 (20:30 in biblioteca, Via D'Annunzio 9, gratuito), "Voci di
+  carta" del 20/11 (17:30-18:30, gratuito), "Sicurezza e prevenzione" del 21/11 (ore 15 alle ex scuole Pio X, ingresso
+  libero). Corsa dei Babbi Natale di Ponzano: partenza alle 10 (non 9) dallo stadio, Via del Bellato 2, 7 euro, sito
+  dell'organizzatore. X-mas Run di Treviso: domenica 13/12 alle 10 da Piazza dei Signori, iscrizioni su avaibooksports.
+  Verificati i 4 concerti di Autunno Musicale (date, ore e chiese giuste; l'ingresso non e' pubblicato da nessuno).
+  Restano aperti: 7 eventi di Sernaglia (sito vietato, schede non trovate), "Venezia, quello che non si vede" del 10/12
+  (luogo da confermare), Circolando fuori casa a Codogne' (scheda rifiutata), Farra profuma d'autunno, CRM da moku e
+  radical design da .Ettore (solo Eventbrite), passeggiata Beescover a Cison, Macedonia Sintetica al CW Gate.
+- **Controllo a campione**: 3/10, stesso campione del 6/11, nessuna ricerca spesa (vedi segnalazioni-e-controllo).
+- **Eventi aggiunti** (22): sagre-feste 7 (San Martino a Sarano e a Musano, Madonna della Salute a Villanova, 50a
+  Mostra dei vini del Montello a Volpago, Sant'Andrea e Immacolata a Solighetto, Cena del Lesso a Sant'Angelo,
+  accensione del presepe a San Fior), teatro-spettacoli 3 (Compagnia Colonna Infame a San Fior), musica 3 (Festival
+  Organistico di Collalto 15/11 e 20/12, concerto del 29/11 a San Fior), famiglie-bambini 3 (gruppo di lettura ragazzi
+  e Sannicolibri a San Fior), mercatini-fiere 3 (Natale a Collalto 5, 6, 8/12), arte-cultura 2 (Le Immagini della
+  Fantasia 44 a Sarmede fino al 14/2, mostra su Canova e Nelson alla Gypsotheca di Possagno fino al 25/4), sport 1
+  (ciclocross di San Fior il 27/12).
+- **Comuni controllati**: Possagno (mostra), Susegana (sito del borgo di Collalto, 5 eventi), San Fior (PDF di Autunno
+  Sanfiorese, 10 eventi; date con giorno della settimana sbagliato non aggiunte), Sarmede (mostra), Fontanelle e
+  Monfumo (resa 0).
+- **Categorie cercate**: Sport > Corsa (2 correzioni, nessuna gara nuova: il PC legge gia' Calendario Podismo Veneto),
+  Famiglie e bambini > Letture e biblioteche (3 da San Fior e Quinto), Famiglie e bambini > Ricorrenze (presepi: date
+  2026 non ancora uscite), Sport > Sport tradizionali e popolari (resa 0). +13 voci nell'albero.
+- **Fonti note**: TrovaSagre (6 eventi e test di copertura), Treviso Sotterranea (0, solo articoli vecchi), cheventi non
+  riaperta (vietata).
+- **Fonti nuove catalogate**: 5 (Collalto di Susegana, Autunno Sanfiorese del Comune di San Fior, schede eventi del
+  Comune di Quinto, Podopodo, TrovaEventi). Spostate in sources.yaml: 0.
+- **Miglioria**: per la coda dei comuni con elenco vietato si cercano le schede con titolo esatto e dominio del comune
+  (si aprono); i calendari stagionali dei comuni piccoli si leggono dal PDF allegato alla notizia.
+- **Test di copertura**: 3/10 sulle sagre di trovasagre (aggiunte le mancanti con date certe).
+- **Ricerche**: 52 su 70.
+- **Problemi aperti**: il PC non pubblica dal 6/11 mattina (quarta notte); sagre poco coperte (3/10); 7 eventi di
+  Sernaglia in coda senza fonte apribile; San Martin di Roganzuolo e Falze' (11/11) e festa di Bibano non aggiunti per
+  mancanza di dati; date dubbie nel PDF di San Fior (17, 18, 21/12).
+
 ## 2026-11-09
 
 - **Giro del PC**: NON ha girato per la terza notte di fila (ultimo rapporto finito il 2026-11-06 alle 09:40). Coda,

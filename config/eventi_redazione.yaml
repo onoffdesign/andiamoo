@@ -2891,3 +2891,263 @@ eventi:
     summary: "Festa dedicata al radicchio trevigiano nell'ambito della rassegna Fiori d'Inverno 2026-2027 promossa da UNPLI Treviso con le Pro Loco e il Consorzio di Tutela."
     fonte: "https://www.umbriaecultura.it/fiori-dinverno-radicchio/"
     trovato: "2026-11-09"
+  - title: 5 Sfumature di Giallo (Autunno Sanfiorese)
+    start: 2026-11-14T21:00
+    venue: Sala polifunzionale del Municipio
+    address: Piazza G. Marconi 2
+    town: San Fior
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Spettacolo teatrale della Compagnia Colonna Infame proposto dall'Amministrazione comunale nel calendario Autunno Sanfiorese.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: Robe da matti (Autunno Sanfiorese)
+    start: 2026-11-21T21:00
+    venue: Sala polifunzionale del Municipio
+    address: Piazza G. Marconi 2
+    town: San Fior
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Spettacolo teatrale della Compagnia Colonna Infame proposto dall'Amministrazione comunale nel calendario Autunno Sanfiorese.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: 39 Scalini (Autunno Sanfiorese)
+    start: 2026-11-28T21:00
+    venue: Sala polifunzionale del Municipio
+    address: Piazza G. Marconi 2
+    town: San Fior
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Spettacolo teatrale della Compagnia Colonna Infame proposto dall'Amministrazione comunale nel calendario Autunno Sanfiorese.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: Concerto per la Giornata contro la violenza sulle donne
+    start: 2026-11-29T17:30
+    venue: Sala polifunzionale del Municipio
+    address: Piazza G. Marconi 2
+    town: San Fior
+    category: musica
+    subcategory: concerti
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Concerto dell'Associazione Musicale Sanfiorese con l'Amministrazione comunale in occasione della Giornata contro la violenza sulle donne.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: 'La magia dell''inchiostro: gruppo di lettura per ragazzi'
+    start: 2026-11-24T16:30
+    venue: Sala polifunzionale del Municipio
+    address: Piazza G. Marconi 2
+    town: San Fior
+    category: famiglie-bambini
+    subcategory: laboratori
+    audience: [giovani]
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Incontro del gruppo di lettura per ragazzi dagli 11 ai 14 anni, nel calendario Autunno Sanfiorese.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: 'La magia dell''inchiostro: gruppo di lettura per ragazzi'
+    start: 2026-12-22T16:30
+    venue: Sala polifunzionale del Municipio
+    address: Piazza G. Marconi 2
+    town: San Fior
+    category: famiglie-bambini
+    subcategory: laboratori
+    audience: [giovani]
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Incontro del gruppo di lettura per ragazzi dagli 11 ai 14 anni, nel calendario Autunno Sanfiorese.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: 'Sannicolibri: letture animate'
+    start: '2026-12-06'
+    venue: Sala polifunzionale del Municipio
+    address: Piazza G. Marconi 2
+    town: San Fior
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Letture animate per bambini in occasione di San Nicolo', nel calendario Autunno Sanfiorese.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: Accensione del presepe al Parco della Rimembranza
+    start: 2026-12-08T18:30
+    venue: Parco della Rimembranza
+    town: San Fior
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Accensione del presepe nel parco a cura dell'Amministrazione comunale, degli Amici del Presepe e del Gruppo Alpini.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: 13o Trofeo Citta' di San Fior - 7o Memorial A. Lot (ciclocross)
+    start: 2026-12-27T08:00
+    venue: Castello Roganzuolo
+    town: San Fior
+    category: sport
+    subcategory: ciclismo
+    official_url: https://www.comune.san-fior.tv.it/novita/autunno-sanfiorese-2026/
+    summary: Gara di ciclocross organizzata dalla SS Sanfiorese Ciclismo a Castello Roganzuolo.
+    fonte: https://www.comune.san-fior.tv.it/wp-content/uploads/2026/03/Autunno-Sanfiorese-ultima.pdf
+    trovato: '2026-11-10'
+  - title: 'Festival Organistico Internazionale di Collalto: Susana Garcia Lastra'
+    start: 2026-11-15T16:00
+    end: 2026-11-15T17:30
+    venue: Chiesa di San Giorgio di Collalto
+    address: Collalto
+    town: Susegana
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    price: ingresso libero
+    official_url: https://www.collaltodisusegana.it/festival-organistico-internazionale-collalto-21a-edizione/
+    summary: Concerto d'organo di Susana Garcia Lastra nella 21a edizione del Festival Organistico Internazionale di Collalto.
+    fonte: https://www.collaltodisusegana.it/festival-organistico-internazionale-collalto-21a-edizione/
+    trovato: '2026-11-10'
+  - title: 'Festival Organistico Internazionale di Collalto: Donato Cuzzato'
+    start: 2026-12-20T16:00
+    end: 2026-12-20T17:30
+    venue: Chiesa di San Giorgio di Collalto
+    address: Collalto
+    town: Susegana
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    price: ingresso libero
+    official_url: https://www.collaltodisusegana.it/festival-organistico-internazionale-collalto-21a-edizione/
+    summary: Concerto d'organo di Donato Cuzzato nella 21a edizione del Festival Organistico Internazionale di Collalto.
+    fonte: https://www.collaltodisusegana.it/festival-organistico-internazionale-collalto-21a-edizione/
+    trovato: '2026-11-10'
+  - title: 'Natale a Collalto: mercatino di Natale nel borgo'
+    start: '2026-12-05'
+    venue: Borgo medievale di Collalto
+    address: Collalto
+    town: Susegana
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.collaltodisusegana.it/eventi-a-collalto/natale-a-collalto/
+    summary: Mercatino di Natale con casette di artigianato, visite guidate al borgo medievale e attivita' per bambini.
+    fonte: https://www.collaltodisusegana.it/visite-guidate-gratuite-a-collalto/
+    trovato: '2026-11-10'
+  - title: 'Natale a Collalto: mercatino di Natale nel borgo'
+    start: '2026-12-06'
+    venue: Borgo medievale di Collalto
+    address: Collalto
+    town: Susegana
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.collaltodisusegana.it/eventi-a-collalto/natale-a-collalto/
+    summary: Mercatino di Natale con casette di artigianato, visite guidate al borgo medievale e attivita' per bambini.
+    fonte: https://www.collaltodisusegana.it/visite-guidate-gratuite-a-collalto/
+    trovato: '2026-11-10'
+  - title: 'Natale a Collalto: mercatino di Natale nel borgo'
+    start: '2026-12-08'
+    venue: Borgo medievale di Collalto
+    address: Collalto
+    town: Susegana
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.collaltodisusegana.it/eventi-a-collalto/natale-a-collalto/
+    summary: Mercatino di Natale con casette di artigianato, visite guidate al borgo medievale e attivita' per bambini.
+    fonte: https://www.collaltodisusegana.it/visite-guidate-gratuite-a-collalto/
+    trovato: '2026-11-10'
+  - title: 'Le Immagini della Fantasia 44: mostra internazionale d''illustrazione per l''infanzia'
+    start: '2026-11-07'
+    end: '2027-02-14'
+    venue: Casa della Fantasia
+    address: Via Marconi 2/A
+    town: Sarmede
+    category: arte-cultura
+    subcategory: mostre
+    audience: [famiglie]
+    official_url: https://fondazionezavrel.it/le-immagini-della-fantasia-44/
+    summary: Quarantaquattresima edizione della mostra internazionale di illustrazione per l'infanzia, a cura di Silvia Paccassoni.
+    fonte: https://splendido.site/events/le-immagini-della-fantasia-44/?occurrence=2026-11-28
+    trovato: '2026-11-10'
+  - title: 'Opera grandiosa ed immortale: Canova e il monumento a Nelson'
+    start: '2026-11-01'
+    end: '2027-04-25'
+    venue: Museo Gypsotheca Antonio Canova
+    address: Via Canova 74
+    town: Possagno
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: ingresso al museo 13 euro, ridotto 10 euro
+    official_url: https://www.museocanova.it/
+    summary: Mostra curata da Paolo Mariuz sul monumento funebre progettato da Canova per Horatio Nelson, con disegni, modelli, cere e una ricostruzione in scala.
+    fonte: https://www.sbircialanotizia.it/articoli/2026/10/30/canova-nelson-k7m2q/
+    trovato: '2026-11-10'
+  - title: Sagra del patrono di Sarano - San Martino
+    start: '2026-11-11'
+    end: '2026-11-15'
+    venue: Sarano
+    town: Santa Lucia di Piave
+    category: sagre-feste
+    subcategory: feste-patronali
+    official_url: https://trovasagre.com/evento/sagra-del-patrono-di-sarano-san-martino-sarano-santa-lucia-di-piave-tv-2026
+    summary: Festa del patrono con chiosco e serate a tema; le specialita' gastronomiche sono su prenotazione, anche da asporto.
+    fonte: https://trovasagre.com/sagre/veneto/treviso
+    trovato: '2026-11-10'
+  - title: Festa di San Martino a Musano
+    start: '2026-11-13'
+    end: '2026-11-15'
+    venue: Musano
+    town: Trevignano
+    category: sagre-feste
+    subcategory: feste-patronali
+    official_url: https://trovasagre.com/evento/festa-di-san-martino-musano-tv-2026
+    summary: Festa della parrocchia di San Martino Vescovo con stand gastronomico, gara dei dolci il sabato e pranzo comunitario su prenotazione la domenica.
+    fonte: https://trovasagre.com/sagre/veneto/treviso
+    trovato: '2026-11-10'
+  - title: Festa della Madonna della Salute a Villanova
+    start: '2026-11-14'
+    end: '2026-11-22'
+    venue: Area festeggiamenti di Via Bernardi
+    address: Via Bernardi, Villanova
+    town: Sernaglia della Battaglia
+    category: sagre-feste
+    subcategory: feste-patronali
+    official_url: https://trovasagre.com/evento/festa-madonna-della-salute-villanova-sernaglia-della-battaglia-tv-2026
+    summary: Festa paesana con stand gastronomico, serate musicali, giochi popolari, mercatini, mostra di foto storiche e processione la domenica.
+    fonte: https://trovasagre.com/sagre/veneto/treviso
+    trovato: '2026-11-10'
+  - title: 50a Mostra dei vini del Montello e dei Colli Asolani
+    start: '2026-11-13'
+    end: '2026-11-29'
+    town: Volpago del Montello
+    category: sagre-feste
+    subcategory: degustazioni
+    official_url: https://www.deliziedautunno.tv/eventi/mostra-dei-vini-del-montello-e-dei-colli-asolani/
+    summary: Cinquantesima edizione della mostra dei vini del territorio con degustazioni, piatti locali e una mostra sull'artigianato e la storia economica della zona.
+    fonte: https://trovasagre.com/evento/mostra-dei-vini-del-montello-e-dei-colli-asolani-volpago-del-montello-tv-2026
+    trovato: '2026-11-10'
+  - title: Festa di Sant'Andrea e dell'Immacolata a Solighetto
+    start: '2026-11-27'
+    end: '2026-12-08'
+    venue: Piazza Liberta
+    address: Piazza Liberta, Solighetto
+    town: Pieve di Soligo
+    category: sagre-feste
+    subcategory: sagre
+    official_url: https://trovasagre.com/evento/festa-di-s-andrea-e-dellimmacolata-solighetto-pieve-di-soligo-tv-2026
+    summary: Festa con stand gastronomico in nove giornate, il Palio di Sant'Andrea il 29 novembre e la festa dell'Immacolata l'8 dicembre.
+    fonte: https://trovasagre.com/sagre/veneto/treviso
+    trovato: '2026-11-10'
+  - title: Cena del Lesso della Pro Loco di Sant'Angelo
+    start: '2026-11-28'
+    venue: Capannone della Pro Loco di Sant'Angelo
+    address: Sant'Angelo
+    town: Treviso
+    category: sagre-feste
+    subcategory: cene
+    access: iscrizione
+    price: su prenotazione entro il 22 novembre
+    official_url: https://trovasagre.com/evento/cena-del-lesso-santangelo-treviso-tv-2026
+    summary: Cena a base di bollito organizzata dalla Pro Loco di Sant'Angelo, su prenotazione.
+    fonte: https://trovasagre.com/sagre/veneto/treviso
+    trovato: '2026-11-10'

@@ -32,7 +32,7 @@ comuni_TV:
   Crocetta del Montello: null
   Farra di Soligo: 2026-11-08
   Follina: 2026-11-08
-  Fontanelle: null
+  Fontanelle: 2026-11-10
   Fonte: null
   Fregona: 2026-10-31
   Gaiarine: 2026-11-08
@@ -49,7 +49,7 @@ comuni_TV:
   Miane: 2026-11-06
   Mogliano Veneto: null
   Monastier di Treviso: 2026-11-05
-  Monfumo: null
+  Monfumo: 2026-11-10
   Montebelluna: 2026-11-09
   Morgano: 2026-10-30
   Moriago della Battaglia: 2026-11-06
@@ -65,7 +65,7 @@ comuni_TV:
   Ponte di Piave: 2026-10-31
   Ponzano Veneto: 2026-10-31
   Portobuffolè: null
-  Possagno: null
+  Possagno: 2026-11-10
   Povegliano: 2026-11-02
   Preganziol: null
   Quinto di Treviso: 2026-11-05
@@ -76,18 +76,18 @@ comuni_TV:
   Roncade: 2026-10-30
   Salgareda: null
   San Biagio di Callalta: 2026-11-02
-  San Fior: null
+  San Fior: 2026-11-10
   San Pietro di Feletto: null
   San Polo di Piave: null
   San Vendemiano: 2026-10-30
   San Zenone degli Ezzelini: null
   Santa Lucia di Piave: null
-  Sarmede: null
+  Sarmede: 2026-11-10
   Segusino: 2026-11-08
   Sernaglia della Battaglia: 2026-11-06
   Silea: 2026-11-05
   Spresiano: null
-  Susegana: null
+  Susegana: 2026-11-10
   Tarzo: 2026-11-09
   Trevignano: 2026-11-08
   Treviso: 2026-10-30
@@ -101,7 +101,9 @@ comuni_TV:
   Zenson di Piave: null
   Zero Branco: 2026-11-09
 aggregatori:
-  trovasagre.com (Treviso): 2026-11-08
+  trovaeventi.com: 2026-11-10
+  podopodo.it: 2026-11-10
+  trovasagre.com (Treviso): 2026-11-10
   paesiinfesta.com: 2026-11-08
   sagritaly.com (Veneto): 2026-11-08
   insolitotrantran.it: null
@@ -169,6 +171,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Sport > Corsa": 2026-11-10
+  "Famiglie e bambini > Letture e biblioteche": 2026-11-10
+  "Famiglie e bambini > Ricorrenze": 2026-11-10
+  "Sport > Sport tradizionali e popolari": 2026-11-10
   "Sport > Sport d'acqua": 2026-11-09
   "Arte e cultura > Mostre": 2026-11-09
   "Spettacoli > Teatro": 2026-11-09
