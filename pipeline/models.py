@@ -34,7 +34,7 @@ class Event:
     town: str = ""
     lat: Optional[float] = None
     lon: Optional[float] = None
-    geo_precision: str = ""          # source | address | venue | town
+    geo_precision: str = ""          # source | address | venue | frazione | town
     # Gestione
     status: str = "published"        # published | pending | rejected
     also_on: list[dict] = field(default_factory=list)   # altre fonti dello stesso evento

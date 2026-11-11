@@ -527,6 +527,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   9c99fd0b94db09da:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -539,6 +541,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   5700722f5933fcc6:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -557,6 +561,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   fd80a812894ffc63:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -569,6 +575,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   b95e3071cbe8148a:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -583,6 +591,8 @@ correggi:
     nota: "indirizzo dalla scheda Gli Alcuni. Era a Vittorio Veneto o in campagna (37 km a nord): il comune 'Treviso (TV)' con la sigla confondeva la geocodifica. Punto messo in Piazza dei Signori (centro di Treviso, a circa 2 km), punto provvisorio: va sostituito con quello esatto del luogo"
     verificato: "2026-11-05"
   2c29a3194589d8bb:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -595,6 +605,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   fa540d0d659400ba:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -613,6 +625,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   c351fc89df650927:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -625,6 +639,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   d803c72ff0cf382c:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -637,6 +653,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   2a77a734431704f3:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -649,6 +667,8 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   92629461cc94fde4:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
@@ -661,24 +681,32 @@ correggi:
     nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   da800983b02c167c:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
     nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   85c3e9210bf8da5e:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
     nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   e4d8fe63435fe51f:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"
     nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
   611fb7e1d192d0ee:
+    lat: 45.69036
+    lon: 12.25858
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
     town: "Treviso"

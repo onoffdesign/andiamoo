@@ -42,6 +42,13 @@ Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella
   "sconosciuto" degli eventi Eventbrite (il JSON-LD dell'elenco non ha il prezzo). Si legge l'elenco "solo gratuiti"
   di Eventbrite: chi vi compare e' gratuito su iscrizione. (ora nel codice: `free_listing_urls` della fonte eventbrite)
 
+- 2026-11-11 · **Punti sparsi nel centro storico.** Gli eventi di Gli Alcuni al Parco degli Alberi Parlanti (Viale
+  G. G. Felissent 56) comparivano in punti a caso del centro di Treviso: Nominatim non trovava l'indirizzo con le
+  iniziali e il PC ripiegava sul centro del comune, che sulla mappa viene sparso. Per i luoghi che tornano ogni
+  settimana si scrivono le coordinate verificate in `config/luoghi.yaml`; il geocoder prova anche l'indirizzo senza
+  iniziali e senza parentesi e, se trova solo la frazione (Dosson, Camalo', Collalto), mette il punto sulla frazione e
+  non sul centro del comune. (ora nel codice: `known_place`, `place_queries`, precisione `frazione`)
+
 ## 2. Segnalazioni dal sito
 
 Il PC esporta ogni notte in `ops/segnalazioni.json` le segnalazioni degli ultimi 30 giorni (mai i contatti di chi

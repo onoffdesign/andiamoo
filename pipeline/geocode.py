@@ -13,7 +13,7 @@ from typing import Optional
 
 import httpx
 
-from .config import settings, user_agent
+from .config import ROOT, settings, user_agent
 from .models import Event
 from .store import Store
 
@@ -27,6 +27,33 @@ WIDE_TYPES = {"county", "state", "region", "province", "country"}
 NOT_PLACES = {"italia", "italy", "tv", "veneto", "provincia di treviso"}
 # "Treviso (TV)", "Treviso TV", "Farra di Soligo TV": la sigla della provincia confonde la ricerca del comune
 # (il 2026-11-05 tutti gli eventi di Gli Alcuni a Treviso erano finiti a Vittorio Veneto, 37 km a nord)
+# frazioni e quartieri: se la ricerca trova solo la frazione (Dosson, Camalo', Collalto) il punto e' comunque
+# piu' giusto del centro del comune, sparso a caso nel centro storico (2026-11-11)
+FRAZIONE_TYPES = {"village", "hamlet", "suburb", "quarter", "neighbourhood", "isolated_dwelling", "locality"}
+INITIALS_RE = re.compile(r"\b(?:[A-Z]\.\s*){1,3}(?=[A-Z][a-z])")     # "Viale G. G. Felissent" -> "Viale Felissent"
+PAREN_RE = re.compile(r"\s*\([^)]*\)")
+
+
+def _norm(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", (text or "").lower().replace("’", "'").replace("'", " ")).strip()
+
+
+def load_known_places() -> list[dict]:
+    """Luoghi con coordinate verificate (config/luoghi.yaml): valgono prima di Nominatim."""
+    import yaml
+    path = ROOT / "config" / "luoghi.yaml"
+    if not path.exists():
+        return []
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    out = []
+    for item in data.get("luoghi", []) or []:
+        names = [_norm(n) for n in item.get("nomi", []) if _norm(n)]
+        if names and item.get("lat") is not None and item.get("lon") is not None:
+            out.append({"names": names, "town": _norm(item.get("comune", "")),
+                        "lat": float(item["lat"]), "lon": float(item["lon"])})
+    return out
+
+
 TOWN_SUFFIX_RE = re.compile(r"\s*\((?:[A-Z]{2}|[Pp]rov[^)]*)\)\s*$|\s+(?:TV|VE|PD|BL|VI|VR|RO|PN|UD)$")
 
 
@@ -65,6 +92,7 @@ class Geocoder:
         deep = cfg["geocoding"].get("deep_search", {})
         self.max_km = float(deep.get("max_km_from_town", 8))
         self.max_candidates = int(deep.get("max_candidates", 5))
+        self.known = load_known_places()
 
     def _call(self, url: str, params: dict) -> Optional[dict | list]:
         if self.offline:
@@ -126,6 +154,13 @@ class Geocoder:
     def place_queries(ev: Event, town: str) -> list[tuple[str, str]]:
         """Luogo e indirizzo interi, poi ogni loro parte separata da virgole ("Mura di Treviso, Porta San Tomaso")."""
         out = []
+        venue, address = PAREN_RE.sub("", ev.venue or "").strip(), INITIALS_RE.sub("", ev.address or "").strip()
+        if (venue, address) != ((ev.venue or ""), (ev.address or "")):
+            if address and town:
+                out.append((f"{venue + ', ' if venue else ''}{address}, {town}", "address"))
+                out.append((f"{address}, {town}", "address"))
+            if venue and town:
+                out.append((f"{venue}, {town}", "venue"))
         if ev.address and town:
             out.append((f"{ev.venue + ', ' if ev.venue else ''}{ev.address}, {town}", "address"))
             out.append((f"{ev.address}, {town}", "address"))
@@ -194,7 +229,12 @@ class Geocoder:
             area = self.town_area(town)
             if area and area["province"] not in self.allowed:
                 return False            # il comune e' fuori provincia: scartato
+        known = self.known_place(ev, town)
+        if known:
+            self._apply(ev, known, "venue")
+            return True
         attempts = self.place_queries(ev, town)
+        frazione = None
         if not town and ev.venue:
             attempts.append((ev.venue + ", provincia di Treviso", "venue"))
         for query, precision in attempts:
@@ -204,6 +244,9 @@ class Geocoder:
             if self.is_area(info):
                 if not town:
                     area = area or info     # senza comune: l'area trovata fa da ripiego
+                elif (frazione is None and info.get("type") in FRAZIONE_TYPES and area
+                      and 0.5 < km_between(area["lat"], area["lon"], info["lat"], info["lon"]) <= self.max_km):
+                    frazione = info         # la frazione nominata nel luogo, non il centro del comune
                 continue
             if area and km_between(area["lat"], area["lon"], info["lat"], info["lon"]) > self.max_km:
                 continue                # omonimo lontano dal comune dell'evento
@@ -212,10 +255,26 @@ class Geocoder:
         if finder is not None and (town or area):
             if self.deep_search(ev, finder, area):
                 return True
+        if frazione:
+            self._apply(ev, frazione, "frazione")
+            return True
         if area:
             self._apply(ev, area, "town")
             return True
         return False
+
+    def known_place(self, ev: Event, town: str) -> Optional[dict]:
+        """Luogo di config/luoghi.yaml citato nel luogo o nell'indirizzo dell'evento, nello stesso comune."""
+        if not self.known:
+            return None
+        text = f" {_norm(ev.venue)} {_norm(ev.address)} "
+        t = _norm(town)
+        for place in self.known:
+            if place["town"] and t and place["town"] != t:
+                continue
+            if any(f" {n} " in text for n in place["names"]):
+                return {"lat": place["lat"], "lon": place["lon"], "town": town, "province": "", "type": "known"}
+        return None
 
     # ---------------------------------------------------------------- ricerca approfondita
     def deep_search(self, ev: Event, finder, area: Optional[dict]) -> bool:

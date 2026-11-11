@@ -28,6 +28,8 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
   dice da dove vengono. Se non trovi il punto esatto, metti le coordinate del posto piu' vicino che conosci con
   certezza (la piazza, la chiesa o il centro della frazione, il parco, l'ingresso delle mura) e scrivilo nella nota.
   Mai lasciare un evento in un altro comune o in aperta campagna per mancanza di dati.
+  Se lo stesso luogo torna in piu' eventi (teatri, parchi, sale civiche), scrivi le sue coordinate verificate in
+  `config/luoghi.yaml` (nomi, comune, lat, lon, nota): il PC le usa per tutti gli eventi presenti e futuri.
 
 ## Memoria: impara e migliora ogni notte
 

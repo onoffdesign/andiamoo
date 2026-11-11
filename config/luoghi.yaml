@@ -1,0 +1,18 @@
+# Luoghi con coordinate verificate: il PC li usa prima di OpenStreetMap (Nominatim) quando il nome compare nel
+# luogo o nell'indirizzo di un evento dello stesso comune. Servono per i posti che Nominatim non trova dal testo
+# delle fonti (nomi tra parentesi, iniziali, indirizzi scritti male) e che tornano ogni settimana.
+# Ogni voce: nomi (parti di testo da riconoscere, senza maiuscole ne' accenti), comune, lat, lon, nota (da dove
+# vengono le coordinate). Aggiungere solo coordinate verificate su una fonte affidabile.
+luoghi:
+  - nomi: ["Parco degli Alberi Parlanti", "Felissent 56"]
+    comune: Treviso
+    lat: 45.69036
+    lon: 12.25858
+    nota: "Parco di Gli Alcuni in Viale G. G. Felissent 56, al confine con Villorba. Coordinate di OpenStreetMap
+      (stesso punto che Nominatim da' per 'Parco degli Alberi Parlanti, Treviso'). Aggiunto il 2026-11-11: 14 eventi
+      erano sparsi a caso nel centro storico perche' l'indirizzo con le iniziali non veniva trovato."
+  - nomi: ["Teatro Sant'Anna", "Brigata Treviso 18"]
+    comune: Treviso
+    lat: 45.6814
+    lon: 12.2530
+    nota: "Alcuni Teatro Sant'Anna, Viale Brigata Treviso 18. Coordinate gia' trovate dal PC per indirizzo (19 eventi)."
