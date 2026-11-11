@@ -1,0 +1,468 @@
+{
+ "generato": "2026-11-11T11:50+01:00",
+ "riepilogo": {
+  "eventi_controllati": 428,
+  "allineati_in_automatico": 0,
+  "luoghi_con_punti_diversi": 0,
+  "lontani_dal_comune": 0,
+  "solo_comune_con_luogo": 51,
+  "solo_comune_senza_luogo": 34,
+  "candidati_luoghi_noti": 25
+ },
+ "punti_diversi": [],
+ "lontani_dal_comune": [],
+ "senza_punto": [
+  {
+   "luogo": "Sala polifunzionale del Municipio, Piazza G. Marconi 2, San Fior",
+   "eventi": 7,
+   "uid": [
+    "2dc0a3ec4c5a1869",
+    "08f68502db291a8d",
+    "8c2cf35547410c6b",
+    "7a0ae462bd1b757d",
+    "57f9b881d65931bb",
+    "8ac4399391ad071f",
+    "0905d8617fcd4d1d"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Marconi, Piazza Marconi, San Martino, Colle Umberto",
+   "eventi": 5,
+   "uid": [
+    "e99158ed8add41ab",
+    "c580e18adeab08cc",
+    "61fadb05ad71719e",
+    "454c10a0f5122147",
+    "9ce607b40afe8f5d"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Villa Romivo, Via Matteotti 2, Montebelluna",
+   "eventi": 3,
+   "uid": [
+    "50fe2d6109ba542d",
+    "b9661238cee3f308",
+    "89e180cabd42ee6a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Auditorium Don E. Vidotto, Viale Cacciaganga 2, Maserada sul Piave",
+   "eventi": 3,
+   "uid": [
+    "c2410368e6251d29",
+    "d6339cb5f05075c0",
+    "e0baf75224cec587"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Borgo medievale di Collalto, Collalto, Susegana",
+   "eventi": 3,
+   "uid": [
+    "bd0c7bd5d3bc5a08",
+    "2ba9b4813e243449",
+    "4efadef2da3e46ca"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Dosson, Casier",
+   "eventi": 3,
+   "uid": [
+    "913c93659c25d385",
+    "5ebd09dc2e3ee2dc",
+    "e794218a4cf23169"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Camalo', Povegliano",
+   "eventi": 2,
+   "uid": [
+    "eaa3fb894afc8ee3",
+    "f37b67d1de0cb1e1"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Chiesa di San Giorgio di Collalto, Collalto, Susegana",
+   "eventi": 2,
+   "uid": [
+    "dfb11445d21ea61d",
+    "412aef7f1fa15b2e"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Villa Freya, Asolo",
+   "eventi": 1,
+   "uid": [
+    "8c3f0c521116f9de"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sarano, Santa Lucia di Piave",
+   "eventi": 1,
+   "uid": [
+    "ba55989f660f821a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Musano, Trevignano",
+   "eventi": 1,
+   "uid": [
+    "d582c0121787efc3"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Area Mercato, dietro al Municipio, Maserada sul Piave (Treviso), Maserada sul Piave",
+   "eventi": 1,
+   "uid": [
+    "63d4ced78683f4d9"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Portici del centro di Roncade, Centro storico, Roncade, Roncade",
+   "eventi": 1,
+   "uid": [
+    "f730d08ba4a59b07"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Pro Loco di Soligo (partenza), Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "5f44c7a01844c899"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Area Mercato, dietro al Municipio, Maserada sul Piave (Treviso), Area Mercato, dietro al Municipio, Maserada sul Piave (Treviso), Maserada sul Piave",
+   "eventi": 1,
+   "uid": [
+    "73206897776c98d7"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Centro di Segusino, Segusino",
+   "eventi": 1,
+   "uid": [
+    "c0e39b745f4d659a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sala Consiliare, Piazza Tobagi, San Biagio di Callalta",
+   "eventi": 1,
+   "uid": [
+    "871b0b258fc0c35a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Paderno, Ponzano Veneto",
+   "eventi": 1,
+   "uid": [
+    "75821875b9f8410c"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Festa della Madonna della Salute, località Salvatoronda, Bibano di Godega di Sant’Urbano (TV), località Salvatoronda, Bibano di Godega di Sant’Urbano (TV), Godega di Sant'Urbano",
+   "eventi": 1,
+   "uid": [
+    "f005f822cd8d06ef"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Aula Magna I.I.S. A. Palladio, Treviso, Treviso",
+   "eventi": 1,
+   "uid": [
+    "7b4e5e0f5eb24802"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "3599078b988f2277"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Auditorium dell'Istituto Comprensivo, Casale sul Sile",
+   "eventi": 1,
+   "uid": [
+    "e0892dc34ddb49de"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Oratorio di Sant'Andrea, Povegliano",
+   "eventi": 1,
+   "uid": [
+    "4c8cf3915c14b7fd"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Biblioteca Comunale di Povegliano, Povegliano",
+   "eventi": 1,
+   "uid": [
+    "7f96fd2b4e4ac5b3"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Capannone della Pro Loco di Sant'Angelo, Sant'Angelo, Treviso",
+   "eventi": 1,
+   "uid": [
+    "2bcb7a5e04166ca4"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Villa Bornello, 141/a Strada di Santa Bona Vecchia, Treviso",
+   "eventi": 1,
+   "uid": [
+    "ce0df8b3af2cfb1c"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Cison Di Valmarino, Cison Di Valmarino",
+   "eventi": 1,
+   "uid": [
+    "4fbdd28a935da130"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "CW Gate, Susegana (TV), Susegana",
+   "eventi": 1,
+   "uid": [
+    "5c70a42b45f25491"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Centro storico, Portobuffolè",
+   "eventi": 1,
+   "uid": [
+    "38e6dd4cdee6e95a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Castello Roganzuolo, San Fior",
+   "eventi": 1,
+   "uid": [
+    "439db138b47448f1"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Teatro di San Biagio di Callalta, San Biagio di Callalta",
+   "eventi": 1,
+   "uid": [
+    "428924341c55c32a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  }
+ ],
+ "allineati": [],
+ "candidati_luoghi": [
+  {
+   "nomi": [
+    "Teatro Comunale Mario Del Monaco"
+   ],
+   "comune": "Treviso",
+   "lat": 45.66341,
+   "lon": 12.24459,
+   "eventi": 29
+  },
+  {
+   "nomi": [
+    "Teatro Accademia"
+   ],
+   "comune": "Conegliano",
+   "lat": 45.88699,
+   "lon": 12.29726,
+   "eventi": 15
+  },
+  {
+   "nomi": [
+    "Teatro Lorenzo Da Ponte"
+   ],
+   "comune": "Vittorio Veneto",
+   "lat": 45.99755,
+   "lon": 12.29029,
+   "eventi": 15
+  },
+  {
+   "nomi": [
+    "Palaverde"
+   ],
+   "comune": "Villorba",
+   "lat": 45.72412,
+   "lon": 12.26262,
+   "eventi": 13
+  },
+  {
+   "nomi": [
+    "Teatro Accademico"
+   ],
+   "comune": "Castelfranco Veneto",
+   "lat": 45.67182,
+   "lon": 11.92591,
+   "eventi": 13
+  },
+  {
+   "nomi": [
+    "Mattorosso"
+   ],
+   "comune": "Montebelluna",
+   "lat": 45.77775,
+   "lon": 12.05787,
+   "eventi": 11
+  },
+  {
+   "nomi": [
+    "Ridotto del Teatro Da Ponte"
+   ],
+   "comune": "Vittorio Veneto",
+   "lat": 45.99755,
+   "lon": 12.29029,
+   "eventi": 10
+  },
+  {
+   "nomi": [
+    "Centro Vicinalis"
+   ],
+   "comune": "Vazzola",
+   "lat": 45.83277,
+   "lon": 12.41815,
+   "eventi": 7
+  },
+  {
+   "nomi": [
+    "Area della sagra di Lorenzaga"
+   ],
+   "comune": "Motta di Livenza",
+   "lat": 45.76496,
+   "lon": 12.63847,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Stadio Comunale di Monigo"
+   ],
+   "comune": "Treviso",
+   "lat": 45.6803,
+   "lon": 12.2132,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Auditorium Giovanni Comisso"
+   ],
+   "comune": "Zero Branco",
+   "lat": 45.60798,
+   "lon": 12.1817,
+   "eventi": 5
+  },
+  {
+   "nomi": [
+    "Museo di Santa Caterina"
+   ],
+   "comune": "Treviso",
+   "lat": 45.66674,
+   "lon": 12.25086,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    ".Ettore"
+   ],
+   "comune": "Signoressa",
+   "lat": 45.74102,
+   "lon": 12.12182,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Parco dello Storga"
+   ],
+   "comune": "Treviso",
+   "lat": 45.69453,
+   "lon": 12.27042,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Libreria Ubik Treviso"
+   ],
+   "comune": "Treviso",
+   "lat": 45.66353,
+   "lon": 12.24501,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Stadio Maurizio Quaggia"
+   ],
+   "comune": "Mogliano Veneto",
+   "lat": 45.55568,
+   "lon": 12.2447,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Musei Civici di Treviso - Sede Santa Caterina"
+   ],
+   "comune": "Treviso",
+   "lat": 45.66694,
+   "lon": 12.25086,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Teatro Damiano Chiesa"
+   ],
+   "comune": "Gaiarine",
+   "lat": 45.90389,
+   "lon": 12.51211,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Palazzo Foscolo"
+   ],
+   "comune": "Oderzo",
+   "lat": 45.77866,
+   "lon": 12.49109,
+   "eventi": 3
+  },
+  {
+   "nomi": [
+    "Museo Bailo"
+   ],
+   "comune": "Treviso",
+   "lat": 45.66757,
+   "lon": 12.23811,
+   "eventi": 3
+  }
+ ],
+ "nota": "Primo controllo scritto da Claude il 2026-11-11 dai dati pubblicati, senza i centri dei comuni (lontani_dal_comune non calcolato): il PC lo riscrive a ogni giro."
+}

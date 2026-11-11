@@ -26,7 +26,8 @@ def budget() -> dict:
     path = OPS / "budget.yaml"
     data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
     defaults = {"piano": "pro", "ricerche_max": 70, "coda_max": 30, "campione": 10, "test_copertura": 10,
-                "fonti_note": 8, "comuni": 6, "ambiti_categorie": 4, "categorie_nuove": 10, "fonti_nuove": 5}
+                "fonti_note": 8, "comuni": 6, "ambiti_categorie": 4, "categorie_nuove": 10, "fonti_nuove": 5,
+                "posizioni": 10}
     return {**defaults, **(data or {})}
 
 
@@ -118,6 +119,15 @@ def main(argv=None) -> int:
     print(f"   - coda di revisione: {_count('revisione.json', 'eventi')} in coda, lavorane al massimo {b['coda_max']} "
           f"(nell'ordine del file)")
     print(f"   - controllo a campione: {_count('campione.json', 'eventi')} eventi in ops/campione.json")
+    pos_path = ROOT / "ops" / "posizioni.json"
+    if pos_path.exists():
+        r = json.loads(pos_path.read_text(encoding="utf-8")).get("riepilogo", {})
+        print(f"   - posizioni (ops/posizioni.json): {r.get('luoghi_con_punti_diversi', 0)} luoghi con punti diversi, "
+              f"{r.get('lontani_dal_comune', 0)} eventi lontani dal comune, {r.get('solo_comune_con_luogo', 0)} con luogo "
+              f"ma senza punto, {r.get('candidati_luoghi_noti', 0)} candidati per config/luoghi.yaml "
+              f"(allineati in automatico: {r.get('allineati_in_automatico', 0)}); sistemane almeno {b.get('posizioni', 10)}")
+    else:
+        print("   - posizioni: ops/posizioni.json non ancora scritto dal PC")
     print(f"   - fonti note da riaprire ({b['fonti_note']}):")
     for f in due_sources(b["fonti_note"]):
         print(f"       · {f.get('nome')} | {f.get('query') or f.get('url')} | ultimo controllo {f.get('ultimo_controllo') or 'mai'}")

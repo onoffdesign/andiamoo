@@ -48,6 +48,9 @@ Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella
   settimana si scrivono le coordinate verificate in `config/luoghi.yaml`; il geocoder prova anche l'indirizzo senza
   iniziali e senza parentesi e, se trova solo la frazione (Dosson, Camalo', Collalto), mette il punto sulla frazione e
   non sul centro del comune. (ora nel codice: `known_place`, `place_queries`, precisione `frazione`)
+  Federico: "non posso essere io a dirtelo ogni volta". Da allora il PC controlla a ogni giro la posizione di
+  tutti gli eventi (`pipeline/posizioni.py`, risultato in `ops/posizioni.json`) e la revisione notturna sistema i
+  luoghi segnalati ogni notte (passo 3b2). (ora nel codice)
 
 ## 2. Segnalazioni dal sito
 

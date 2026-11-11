@@ -124,6 +124,15 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
 3b. **Controllo a campione** - gli eventi di `ops/campione.json` (quanti dice il budget): controlla i sei campi come spiegato nella parte 3
    di `ops/segnalazioni-e-controllo.md`, correggi gli errori e scrivi la riga della notte. Se un errore si ripete,
    aggiungi una regola alla parte 1.
+3b2. **Controllo delle posizioni** - `ops/posizioni.json`, scritto dal PC a ogni giro (`pipeline/posizioni.py`) su
+   tutti gli eventi: il PC allinea da solo gli eventi con solo il comune che nominano un luogo gia' posizionato in
+   altri eventi; restano da sistemare, nell'ordine e per luogo (non per evento), quanti dice il budget (`posizioni`):
+   `punti_diversi` (stesso luogo con punti diversi), `lontani_dal_comune` (punto probabilmente nel comune sbagliato),
+   `senza_punto` (luoghi con un nome ma solo il comune, i piu' frequenti per primi). Per ognuno trova il punto su una
+   fonte affidabile e scrivilo in `config/luoghi.yaml` (vale per tutti gli eventi presenti e futuri di quel luogo);
+   per un evento singolo usa `lat`/`lon` in `correzioni.yaml`. I `candidati_luoghi` (luoghi con 3+ eventi e punto
+   coerente) si aggiungono a `config/luoghi.yaml` dopo un controllo veloce. Nel registro scrivi i numeri del
+   riepilogo prima e dopo. Le posizioni non si verificano piu' solo quando qualcuno segnala un errore.
 3c. **Test di copertura** - sulla provincia attiva, come spiegato in `ops/espansione.md`: 10 eventi trovati in modo
    indipendente (quanti dice il budget, `test_copertura`), quanti sono gia' sul sito. Ogni lunedi' valuta anche il criterio di saturazione con
    `ops/saturazione.csv` e il registro. Se e' rispettato (criterio confermato da Federico il 2026-10-30),

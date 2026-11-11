@@ -4,6 +4,7 @@ ops/rapporto.json   com'e' andato il giro sul PC (fonti, errori, AI, tempi)
 ops/revisione.json  eventi da verificare stanotte, con il motivo, i piu' vicini nel tempo per primi
 ops/scoperte.csv    siti ufficiali trovati nei portali: candidati a diventare fonti dirette
 ops/segnalazioni.json  segnalazioni arrivate dal sito ("Segnala un errore") negli ultimi 30 giorni, senza contatti
+ops/posizioni.json  controllo automatico delle posizioni (pipeline/posizioni.py)
 ops/campione.json   eventi scelti a caso per il controllo a campione della qualita' (stessi per tutta la notte)
 ops/saturazione.csv una riga per provincia e per notte: eventi nei prossimi 30 giorni e eventi nuovi trovati
                     (serve a decidere quando una provincia e' "satura" e si passa alla successiva, vedi ops/espansione.md)
@@ -78,7 +79,8 @@ def possible_duplicates(events: list[Event]) -> dict[str, str]:
     return out
 
 
-def build_queue(events: list[Event], corrections: dict, ai_on: bool, centers: dict | None = None) -> list[dict]:
+def build_queue(events: list[Event], corrections: dict, ai_on: bool, centers: dict | None = None,
+                extra: dict | None = None) -> list[dict]:
     today = today_rome()
     done = set(corrections["verificati"]) | set(corrections["correggi"]) | set(corrections["rimuovi"])
     dup = possible_duplicates(events)
@@ -93,6 +95,8 @@ def build_queue(events: list[Event], corrections: dict, ai_on: bool, centers: di
         r = reasons_for(ev, ai_on, centers)
         if ev.uid in dup:
             r.append(f"possibile doppione di {dup[ev.uid]}")
+        if extra and ev.uid in extra:
+            r.append(extra[ev.uid])
         if not r:
             continue
         items.append({

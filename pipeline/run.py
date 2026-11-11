@@ -15,7 +15,7 @@ import sys
 import time
 from datetime import timedelta
 
-from . import archive, editorial, quality
+from . import archive, editorial, posizioni, quality
 from .collectors import Context, registry
 from .config import DATA_DIR, settings, sources
 from .dedupe import dedupe
@@ -171,6 +171,18 @@ def main(argv=None) -> int:
     # correzioni e rimozioni della redazione (revisione notturna di Claude), con nuova geocodifica se serve
     unique = editorial.apply_events(unique, None if args.offline_geo else (geo if not args.export_only else Geocoder(store)),
                                     corrections)
+    # controllo automatico delle posizioni di tutti gli eventi: allinea gli eventi con solo il comune ai luoghi
+    # gia' posizionati e scrive in ops/posizioni.json cio' che non torna (vedi pipeline/posizioni.py)
+    centers, town_province = {}, {}
+    if not args.export_only:
+        for town in {(e.town or "").strip() for e in unique if e.town and e.lat is not None}:
+            area = geo.town_area(town)
+            if area:
+                centers[town.lower()] = (area["lat"], area["lon"])
+                if area.get("province"):
+                    town_province[town.lower()] = area["province"].replace("IT-", "")
+    pos_report = posizioni.check(unique, centers)
+    report["posizioni"] = pos_report["riepilogo"]
     payload = export(unique)
     # archivio storico: ogni evento pubblicato resta conservato, anche dopo la fine o se viene tolto
     archive.seed_from_store(store)
@@ -187,14 +199,8 @@ def main(argv=None) -> int:
         # coda di revisione per Claude e rapporto del giro, pubblicati in ops/
         ai_on = getattr(llm, "name", "") == "ollama"
         located_events = [e for e in unique if e.lat is not None]
-        centers, town_province = {}, {}
-        for town in {(e.town or "").strip() for e in located_events if e.town}:
-            area = geo.town_area(town)
-            if area:
-                centers[town.lower()] = (area["lat"], area["lon"])
-                if area.get("province"):
-                    town_province[town.lower()] = area["province"].replace("IT-", "")
-        queue = quality.build_queue(located_events, corrections, ai_on, centers)
+        queue = quality.build_queue(located_events, corrections, ai_on, centers, posizioni.flagged_uids(pos_report))
+        posizioni.write(pos_report)
         report.update({"giro_pc": True, "motore_ai": getattr(llm, "name", ""), "modello": settings()["llm"]["text_model"] if ai_on else "",
                        "minuti": round((time.time() - started) / 60, 1), "in_revisione": len(queue)})
         quality.write_ops(report, queue, quality.site_reports(store, unique), quality.quality_sample(located_events, int(budget().get("campione", 10))))

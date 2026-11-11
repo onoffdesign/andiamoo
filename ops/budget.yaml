@@ -14,3 +14,4 @@ comuni: 6                    # comuni della provincia attiva da controllare (max
 ambiti_categorie: 4          # ambiti di ops/categorie-ricerca.md da cercare nella provincia attiva (max: 12)
 categorie_nuove: 10          # voci nuove da aggiungere all'albero delle categorie (max: 25)
 fonti_nuove: 5               # fonti nuove da cercare e valutare (max: 15)
+posizioni: 10                # luoghi di ops/posizioni.json da sistemare (punti diversi, lontani, senza punto) (max: 30)
