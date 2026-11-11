@@ -3151,3 +3151,274 @@ eventi:
     summary: Cena a base di bollito organizzata dalla Pro Loco di Sant'Angelo, su prenotazione.
     fonte: https://trovasagre.com/sagre/veneto/treviso
     trovato: '2026-11-10'
+  - title: "Cesco Magnolato. La luce che non muore. Incisioni e dipinti"
+    start: '2026-10-24'
+    end: '2027-01-24'
+    venue: Palazzo Foscolo
+    address: Via Garibaldi 65
+    town: Oderzo
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: intero 10 euro, ridotto 8 euro, gratuito per i minori di 18 anni
+    official_url: https://www.oderzocultura.it/cesco-magnolato-1926-2026/
+    summary: Mostra diffusa per il centenario di Cesco Magnolato con incisioni e dipinti a Palazzo Foscolo, a Ca' Lozzio e al Museo del Duomo.
+    fonte: https://www.oderzocultura.it/eventi/
+    trovato: '2026-11-11'
+  - title: Alla scoperta della Pinacoteca Alberto Martini
+    start: '2026-11-15T15:30'
+    venue: Pinacoteca Alberto Martini, Palazzo Foscolo
+    address: Via Garibaldi 65
+    town: Oderzo
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    price: biglietto del Polo museale, prenotazione obbligatoria
+    official_url: https://www.oderzocultura.it/giornate-martiniane-2026/
+    summary: Visita guidata alla Pinacoteca dedicata ad Alberto Martini, nell'ambito delle Giornate Martiniane.
+    fonte: https://www.oderzocultura.it/giornate-martiniane-2026/
+    trovato: '2026-11-11'
+  - title: La Grande Guerra nella grafica di Alberto Martini
+    start: '2026-11-19T18:00'
+    venue: Museo della Battaglia
+    address: Museo della Battaglia
+    town: Vittorio Veneto
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.oderzocultura.it/giornate-martiniane-2026/
+    summary: Giornata di studi sulle opere di Alberto Martini dedicate alla Prima guerra mondiale, con la presentazione degli atti.
+    fonte: https://www.oderzocultura.it/giornate-martiniane-2026/
+    trovato: '2026-11-11'
+  - title: Alberto Martini. Un artista contemporaneo?
+    start: '2026-11-23T10:30'
+    venue: Palazzo Foscolo
+    address: Via Garibaldi 65
+    town: Oderzo
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.oderzocultura.it/giornate-martiniane-2026/
+    summary: Incontro sull'immaginario di Alberto Martini tra passato e presente, in collaborazione con l'archivio della Biennale di Venezia.
+    fonte: https://www.oderzocultura.it/giornate-martiniane-2026/
+    trovato: '2026-11-11'
+  - title: La cultura genera valore
+    start: '2026-11-24T18:00'
+    venue: Palazzo Foscolo
+    address: Via Garibaldi 65
+    town: Oderzo
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.oderzocultura.it/giornate-martiniane-2026/
+    summary: Incontro sul ruolo della cultura come motore di innovazione e sviluppo, a chiusura delle Giornate Martiniane.
+    fonte: https://www.oderzocultura.it/giornate-martiniane-2026/
+    trovato: '2026-11-11'
+  - title: Il museo intorno. Anello del Covolo e giardino biblico
+    start: '2026-11-22T09:30'
+    end: '2026-11-22T12:30'
+    venue: Santuario della Beata Vergine del Covolo
+    address: Via Madonna del Covolo 149, Crespano del Grappa
+    town: Pieve del Grappa
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 12 euro, bambini 10 euro, prenotazione entro il 18 novembre
+    official_url: https://www.oderzocultura.it/il-museo-intorno-22-novembre-2026/
+    summary: Escursione ad anello di circa 4 km con un'archeologa e una guida ambientale fino al giardino biblico botanico del Centro Don Paolo Chiavacci. Annullata in caso di pioggia.
+    fonte: https://www.oderzocultura.it/eventi/
+    trovato: '2026-11-11'
+  - title: Storie sotto l'albero
+    start: '2026-11-12T16:30'
+    end: '2026-11-12T17:30'
+    venue: Biblioteca Civica di Oderzo
+    address: Via Garibaldi 80
+    town: Oderzo
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito, prenotazione obbligatoria
+    official_url: https://www.oderzocultura.it/storie-sotto-lalbero-2026/
+    summary: Letture per bambini in biblioteca, con prenotazione obbligatoria.
+    fonte: https://www.oderzocultura.it/eventi/
+    trovato: '2026-11-11'
+  - title: Storie sotto l'albero
+    start: '2026-11-26T16:30'
+    end: '2026-11-26T17:30'
+    venue: Biblioteca Civica di Oderzo
+    address: Via Garibaldi 80
+    town: Oderzo
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito, prenotazione obbligatoria
+    official_url: https://www.oderzocultura.it/storie-sotto-lalbero-2026/
+    summary: Letture per bambini in biblioteca, con prenotazione obbligatoria.
+    fonte: https://www.oderzocultura.it/eventi/
+    trovato: '2026-11-11'
+  - title: Storie sotto l'albero
+    start: '2026-12-10T16:30'
+    end: '2026-12-10T17:30'
+    venue: Biblioteca Civica di Oderzo
+    address: Via Garibaldi 80
+    town: Oderzo
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito, prenotazione obbligatoria
+    official_url: https://www.oderzocultura.it/storie-sotto-lalbero-2026/
+    summary: Letture per bambini in biblioteca, con prenotazione obbligatoria.
+    fonte: https://www.oderzocultura.it/eventi/
+    trovato: '2026-11-11'
+  - title: "Gianmarco Carroccia - Emozioni"
+    start: '2026-11-14T21:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: "da 35 euro"
+    official_url: https://www.ticketone.it/event/gianmarco-carroccia-emozioni-viaggio-tra-le-canzoni-di-battisti-e-mogol-teatro-accademia-21411654/
+    summary: "Concerto dedicato alle canzoni di Lucio Battisti e Mogol."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "I Legnanesi - C'era una volta"
+    start: '2026-11-21T21:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: "da 38 euro"
+    official_url: https://www.ticketone.it/event/i-legnanesi-cera-una-volta-teatro-accademia-21357314/
+    summary: "Spettacolo comico della compagnia I Legnanesi."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "Antonio Ornano - Ingrato"
+    start: '2026-11-28T21:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: "da 26 euro"
+    official_url: https://www.ticketone.it/event/antonio-ornano-ingrato-teatro-accademia-21523109/
+    summary: "Spettacolo di stand-up comedy di Antonio Ornano."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "K Pop Dream - Missione Natale"
+    start: '2026-11-29T18:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: "da 23 euro"
+    official_url: https://www.ticketone.it/event/k-pop-dream-missione-natale-teatro-accademia-21566697/
+    summary: "Spettacolo musicale a tema natalizio ispirato al K-pop."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "Awed, Dadda e Dose - Lasciate ogni esperienza, voi che entrate"
+    start: '2026-12-08T21:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: "da 33 euro"
+    official_url: https://www.ticketone.it/event/awed-dadda-e-dose-a-teatro-teatro-accademia-21710640/
+    summary: "Spettacolo comico dei creator Awed, Dadda e Dose."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "Michael starring Gus Jackson"
+    start: '2026-12-10T21:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: "da 38 euro"
+    official_url: https://www.ticketone.it/event/michael-starring-gus-jackson-teatro-accademia-22093267/
+    summary: "Spettacolo musicale dedicato a Michael Jackson con Gus Jackson."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "Valentina Persia - Nata con la guepiere"
+    start: '2026-12-12T21:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.ticketone.it/event/valentina-persia-nata-con-la-guepiere-teatro-accademia-21180390/
+    summary: "Spettacolo comico di Valentina Persia."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "Eleazaro Rossi - Kamikaze"
+    start: '2026-12-13T17:30'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: "da 41,90 euro"
+    official_url: https://www.ticketone.it/event/eleazaro-rossi-kamikaze-teatro-accademia-22260378/
+    summary: "Spettacolo di stand-up comedy di Eleazaro Rossi, replica pomeridiana."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "Eleazaro Rossi - Kamikaze"
+    start: '2026-12-13T21:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: "esaurito"
+    official_url: https://www.eleazaro.it/kamikaze-tour-2026/
+    summary: "Spettacolo di stand-up comedy di Eleazaro Rossi, replica serale (esaurita)."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "Il lago dei cigni - Russian Classical Ballet"
+    start: '2026-12-19T21:00'
+    venue: Teatro Accademia
+    address: Piazza Giovanni Battista Cima 5
+    town: Conegliano
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    price: "da 25 euro"
+    official_url: https://www.ticketone.it/event/il-lago-dei-cigni-russian-classical-ballet-teatro-accademia-21348696/
+    summary: "Balletto classico Il lago dei cigni nell'interpretazione del Russian Classical Ballet."
+    fonte: https://www.ticketone.it/venue/teatro-accademia-16706/
+    trovato: '2026-11-11'
+  - title: "Eleazaro Rossi - Kamikaze"
+    start: '2026-11-14T18:30'
+    venue: Auditorium Fondazione Cassamarca
+    address: Piazza delle Istituzioni 7
+    town: Treviso
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: esaurito
+    official_url: https://www.eleazaro.it/kamikaze-tour-2026/
+    summary: "Spettacolo di stand-up comedy di Eleazaro Rossi (replica esaurita)."
+    fonte: https://pleasestandup.it/citta/veneto/
+    trovato: '2026-11-11'
+  - title: "Eleazaro Rossi - Kamikaze"
+    start: '2026-11-14T21:00'
+    venue: Auditorium Fondazione Cassamarca
+    address: Piazza delle Istituzioni 7
+    town: Treviso
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: esaurito
+    official_url: https://www.eleazaro.it/kamikaze-tour-2026/
+    summary: "Spettacolo di stand-up comedy di Eleazaro Rossi (replica esaurita)."
+    fonte: https://pleasestandup.it/citta/veneto/
+    trovato: '2026-11-11'
