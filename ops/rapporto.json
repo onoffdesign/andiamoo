@@ -1,30 +1,30 @@
 {
  "fonti": {
   "redazione": {
-   "trovati": 115,
-   "nel_periodo": 114,
-   "in_provincia": 114,
-   "nuovi": 30,
+   "trovati": 293,
+   "nel_periodo": 254,
+   "in_provincia": 254,
+   "nuovi": 162,
    "errore": "",
-   "solo_comune": 14,
-   "secondi": 65
+   "solo_comune": 54,
+   "secondi": 164
   },
   "insolitotrantran": {
    "trovati": 0,
    "nel_periodo": 0,
    "in_provincia": 0,
    "nuovi": 0,
-   "errore": "Client error '404 Not Found' for url 'https://www.insolitotrantran.it/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-11-06'\nFor more information check: https://developer.mozilla.org/en-US/"
+   "errore": "Client error '404 Not Found' for url 'https://www.insolitotrantran.it/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-11-11'\nFor more information check: https://developer.mozilla.org/en-US/"
   },
   "eventiesagre": {
    "trovati": 9,
-   "nel_periodo": 9,
-   "in_provincia": 6,
-   "nuovi": 3,
+   "nel_periodo": 8,
+   "in_provincia": 5,
+   "nuovi": 0,
    "errore": "",
    "non_eventi": 1,
-   "solo_comune": 4,
-   "secondi": 33
+   "solo_comune": 3,
+   "secondi": 20
   },
   "2night": {
    "trovati": 0,
@@ -37,10 +37,10 @@
   "eventbrite": {
    "trovati": 218,
    "nel_periodo": 40,
-   "in_provincia": 37,
-   "nuovi": 15,
+   "in_provincia": 33,
+   "nuovi": 17,
    "errore": "",
-   "secondi": 131
+   "secondi": 100
   },
   "ticketone": {
    "trovati": 0,
@@ -48,7 +48,7 @@
    "in_provincia": 0,
    "nuovi": 0,
    "errore": "",
-   "secondi": 90
+   "secondi": 150
   },
   "dice": {
    "trovati": 0,
@@ -59,47 +59,47 @@
    "secondi": 2
   },
   "running-life": {
-   "trovati": 18,
+   "trovati": 19,
    "nel_periodo": 10,
    "in_provincia": 9,
-   "nuovi": 0,
-   "errore": "",
-   "non_eventi": 1,
-   "secondi": 3
-  },
-  "calendariopodismo": {
-   "trovati": 23,
-   "nel_periodo": 20,
-   "in_provincia": 20,
-   "nuovi": 7,
-   "errore": "",
-   "secondi": 52
-  },
-  "podismoveneto": {
-   "trovati": 30,
-   "nel_periodo": 29,
-   "in_provincia": 29,
    "nuovi": 1,
    "errore": "",
-   "solo_comune": 27,
+   "non_eventi": 1,
+   "secondi": 16
+  },
+  "calendariopodismo": {
+   "trovati": 22,
+   "nel_periodo": 20,
+   "in_provincia": 20,
+   "nuovi": 4,
+   "errore": "",
+   "secondi": 47
+  },
+  "podismoveneto": {
+   "trovati": 29,
+   "nel_periodo": 23,
+   "in_provincia": 23,
+   "nuovi": 4,
+   "errore": "",
+   "solo_comune": 23,
    "secondi": 5
   },
   "gotrail": {
    "trovati": 10,
    "nel_periodo": 5,
    "in_provincia": 5,
-   "nuovi": 0,
+   "nuovi": 1,
    "errore": "",
-   "secondi": 1
+   "secondi": 6
   },
   "comune-treviso": {
-   "trovati": 13,
-   "nel_periodo": 3,
-   "in_provincia": 3,
-   "nuovi": 0,
+   "trovati": 8,
+   "nel_periodo": 4,
+   "in_provincia": 4,
+   "nuovi": 2,
    "errore": "",
    "solo_comune": 2,
-   "secondi": 5
+   "secondi": 21
   },
   "comune-mogliano": {
    "trovati": 27,
@@ -122,71 +122,104 @@
    "nel_periodo": 0,
    "in_provincia": 0,
    "nuovi": 0,
-   "errore": "[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato"
+   "errore": "Client error '404 404' for url 'https://www.comune.maser.tv.it/myportal/C_F009/api/content?type=pnrr_event&pageIndex=1&onlyNotHidden=true&parent=/Eventi&includeSubFolders=true&sortBy=modifiedAt&desc=t"
   },
   "comune-povegliano": {
    "trovati": 0,
    "nel_periodo": 0,
    "in_provincia": 0,
    "nuovi": 0,
-   "errore": "[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato"
+   "errore": "Client error '404 404' for url 'https://www.comune.povegliano.tv.it/myportal/C_G944/api/content?type=pnrr_event&pageIndex=1&onlyNotHidden=true&parent=/Eventi&includeSubFolders=true&sortBy=modifiedAt&d"
   },
   "comune-loria": {
    "trovati": 0,
    "nel_periodo": 0,
    "in_provincia": 0,
    "nuovi": 0,
-   "errore": "[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato"
+   "errore": "Client error '404 404' for url 'https://www.comune.loria.tv.it/myportal/C_E692/api/content?type=pnrr_event&pageIndex=1&onlyNotHidden=true&parent=/Eventi&includeSubFolders=true&sortBy=modifiedAt&desc=t"
   },
-  "comune-san-biagio": {
-   "trovati": 11,
-   "nel_periodo": 11,
-   "in_provincia": 11,
-   "nuovi": 4,
-   "errore": "",
-   "solo_comune": 9,
-   "secondi": 25
-  },
-  "comune-sernaglia": {
-   "trovati": 10,
-   "nel_periodo": 10,
-   "in_provincia": 10,
-   "nuovi": 10,
-   "errore": "",
-   "solo_comune": 10,
-   "secondi": 24
-  },
-  "comune-castelfranco": {
-   "trovati": 5,
-   "nel_periodo": 5,
-   "in_provincia": 5,
+  "comune-trevignano": {
+   "trovati": 17,
+   "nel_periodo": 0,
+   "in_provincia": 0,
    "nuovi": 0,
    "errore": "",
-   "solo_comune": 2,
-   "secondi": 3
+   "secondi": 2
   },
-  "comune-quinto": {
-   "trovati": 11,
-   "nel_periodo": 8,
-   "in_provincia": 8,
-   "nuovi": 7,
-   "errore": "",
-   "solo_comune": 8,
-   "secondi": 25
-  },
-  "comune-silea": {
+  "comune-gaiarine": {
    "trovati": 0,
    "nel_periodo": 0,
    "in_provincia": 0,
    "nuovi": 0,
-   "errore": "[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato"
+   "errore": "Client error '404 404' for url 'https://www.comune.gaiarine.tv.it/myportal/C_D854/api/content?type=pnrr_event&pageIndex=1&onlyNotHidden=true&parent=/Eventi&includeSubFolders=true&sortBy=modifiedAt&des"
+  },
+  "comune-san-biagio": {
+   "trovati": 6,
+   "nel_periodo": 6,
+   "in_provincia": 6,
+   "nuovi": 3,
+   "errore": "",
+   "solo_comune": 4,
+   "secondi": 15
+  },
+  "comune-roncade": {
+   "trovati": 1,
+   "nel_periodo": 1,
+   "in_provincia": 1,
+   "nuovi": 1,
+   "errore": "",
+   "secondi": 15
+  },
+  "comune-sernaglia": {
+   "trovati": 7,
+   "nel_periodo": 7,
+   "in_provincia": 7,
+   "nuovi": 2,
+   "errore": "",
+   "solo_comune": 7,
+   "secondi": 18
+  },
+  "comune-castelfranco": {
+   "trovati": 2,
+   "nel_periodo": 2,
+   "in_provincia": 2,
+   "nuovi": 1,
+   "errore": "",
+   "secondi": 6
+  },
+  "mattorosso": {
+   "trovati": 1,
+   "nel_periodo": 1,
+   "in_provincia": 1,
+   "nuovi": 1,
+   "errore": "",
+   "solo_comune": 1,
+   "secondi": 12
+  },
+  "comune-quinto": {
+   "trovati": 10,
+   "nel_periodo": 7,
+   "in_provincia": 7,
+   "nuovi": 4,
+   "errore": "",
+   "solo_comune": 7,
+   "secondi": 22
+  },
+  "comune-silea": {
+   "trovati": 13,
+   "nel_periodo": 7,
+   "in_provincia": 7,
+   "nuovi": 7,
+   "errore": "",
+   "solo_comune": 7,
+   "secondi": 23
   },
   "comune-monastier": {
    "trovati": 0,
    "nel_periodo": 0,
    "in_provincia": 0,
    "nuovi": 0,
-   "errore": "[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato"
+   "errore": "Expecting ',' delimiter: line 92 column 6 (char 4430)"
   },
   "teatro-da-ponte": {
    "trovati": 1,
@@ -194,24 +227,24 @@
    "in_provincia": 0,
    "nuovi": 0,
    "errore": "",
-   "secondi": 6
+   "secondi": 2
   },
   "gli-alcuni": {
-   "trovati": 61,
-   "nel_periodo": 57,
-   "in_provincia": 35,
-   "nuovi": 2,
+   "trovati": 64,
+   "nel_periodo": 61,
+   "in_provincia": 39,
+   "nuovi": 10,
    "errore": "",
-   "secondi": 179
+   "secondi": 33
   },
   "nautilus-teatro": {
-   "trovati": 19,
-   "nel_periodo": 16,
-   "in_provincia": 3,
-   "nuovi": 3,
+   "trovati": 17,
+   "nel_periodo": 14,
+   "in_provincia": 2,
+   "nuovi": 0,
    "errore": "",
-   "solo_comune": 2,
-   "secondi": 63
+   "solo_comune": 1,
+   "secondi": 8
   },
   "modulo-organizzatori": {
    "trovati": 0,
@@ -224,33 +257,33 @@
   "qdpnews": {
    "trovati": 1,
    "nel_periodo": 1,
-   "in_provincia": 0,
-   "nuovi": 0,
+   "in_provincia": 1,
+   "nuovi": 1,
    "errore": "",
-   "secondi": 4
+   "secondi": 5
   }
  },
- "luoghi_ricalcolati": 14,
- "chiamate_ai": 126,
- "richieste_web": 91,
- "richieste_geocoding": 119,
- "luoghi_trovati_con_ricerca": 14,
- "pagine_luogo_lette": 8,
+ "luoghi_ricalcolati": 8,
+ "chiamate_ai": 78,
+ "richieste_web": 112,
+ "richieste_geocoding": 167,
+ "luoghi_trovati_con_ricerca": 19,
+ "pagine_luogo_lette": 26,
  "archivio": {
-  "pubblicati": 299,
-  "conclusi": 4,
-  "rimossi": 18,
+  "pubblicati": 428,
+  "conclusi": 0,
+  "rimossi": 0,
   "non_piu_presenti": 4
  },
  "scoperte": 31,
- "eventi_sul_sito": 299,
- "correzioni_attive": 145,
- "rimossi_dalla_redazione": 23,
+ "eventi_sul_sito": 428,
+ "correzioni_attive": 171,
+ "rimossi_dalla_redazione": 36,
  "giro_pc": true,
  "motore_ai": "ollama",
  "modello": "gemma3:12b",
- "minuti": 16.4,
- "in_revisione": 57,
- "finito_alle": "2026-11-06T09:40+01:00",
+ "minuti": 13.7,
+ "in_revisione": 60,
+ "finito_alle": "2026-11-11T09:19+01:00",
  "segnalazioni_30_giorni": 0
 }
