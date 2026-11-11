@@ -2,6 +2,49 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-11
+
+- **Giro del PC**: NON ha girato per la quinta notte di fila (ultimo rapporto finito il 2026-11-06 alle 09:40; nessun
+  commit del PC da allora). Coda, campione, segnalazioni e rapporto sono quelli del 6/11; gli eventi aggiunti dalla
+  redazione dal 6/11 (oltre 170 con quelli di stanotte) non sono sul sito finche' il PC non li geolocalizza.
+  Correzioni applicate con --applica (141 attive, sito a 286 eventi).
+- **Fonti in errore** (rapporto del 6/11): ticketone a 0 eventi anche con le pagine /cityd/: aggiunte le pagine /venue/
+  del Teatro Accademia e dell'Auditorium Cassamarca (da controllare nel prossimo rapporto). Restano insolitotrantran
+  (API 404), comune-maser, -povegliano, -loria, -silea, -monastier (timeout dal PC), 2night e dice a zero.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (15 aperti su 57): 0 corretti, 0 rimossi, 0 verificati. Provate 3 ricerche (schede di
+  Sernaglia con titolo esatto, Biblioweek di San Biagio, Macedonia Sintetica al CW Gate): nessuna pagina utile. Restano
+  aperti i 7 eventi di Sernaglia (luogo al centro del comune), Biblioweek, Farra profuma d'autunno, CRM da moku e radical
+  design da .Ettore (solo Eventbrite), Circolando fuori casa a Codogne', passeggiata di Cison, Macedonia Sintetica,
+  "Venezia, quello che non si vede" del 10/12.
+- **Controllo a campione**: 3/10, stesso campione del 6/11, nessuna ricerca spesa (vedi segnalazioni-e-controllo).
+- **Eventi aggiunti** (30): arte-cultura 11 (mostra Cesco Magnolato a Oderzo fino al 24/1, Giornate Martiniane 15, 19,
+  23, 24/11, 4 presentazioni alla Ubik di Treviso, Land Editore alla biblioteca di Montebelluna, mostra su Lipparini al
+  Bailo fino al 7/2), teatro-spettacoli 10 (Teatro Accademia di Conegliano: Legnanesi, Ornano, K Pop Dream, Awed Dadda e
+  Dose, Valentina Persia, 2 repliche di Eleazaro Rossi, Il lago dei cigni; Eleazaro Rossi all'Auditorium Cassamarca 2
+  repliche esaurite), musica 3 (Carroccia e Michael al Teatro Accademia, inaugurazione del Conservatorio Steffani),
+  famiglie-bambini 3 (Storie sotto l'albero a Oderzo 12/11, 26/11, 10/12), natura-outdoor 2 (Il museo intorno al Covolo,
+  SoulCollage ad Ananda Marga), mercatini-fiere 1 (Fondentemente in Piazza dei Signori 13-15/11).
+- **Comuni controllati**: Oderzo (Fondazione Oderzo Cultura, 10 eventi), Breda di Piave (sito Municipium, nessun evento
+  nuovo verificato), Istrana (Villa Lattes senza eventi datati), Casier, Salgareda (Festa d'autunno con date "indicative",
+  non aggiunta), Meduna di Livenza: resa 0 per gli ultimi cinque.
+- **Categorie cercate**: Spettacoli > Comicita' (12 eventi tra TicketOne e Please Stand Up), Spettacoli > Musical e
+  operetta (resa 0 dalla ricerca, 2 tributi da TicketOne), Musica e party > Ballo (milonghe solo con schede vecchie),
+  Natura e benessere > Animali (resa 0). +11 voci nell'albero.
+- **Fonti note**: cheventi non riaperta (vietata): messa ferma per toglierla dal piano.
+- **Fonti nuove catalogate**: 8 (Fondazione Oderzo Cultura, TicketOne Teatro Accademia, Please Stand Up, Conservatorio
+  Steffani, Ubik Treviso, Comune di Roncade, Ananda Marga Treviso, guida del weekend di TViWeb). Spostate in sources.yaml:
+  3 (comune-roncade html_llm, pagine /venue/ dentro la fonte ticketone).
+- **Miglioria**: per gli spettacoli commerciali si legge la pagina del locale su TicketOne (/venue/), che passa al PC;
+  regola nuova nella sezione Treviso del metodo.
+- **Test di copertura**: 4/10 (mancavano Oderzo Cultura, Conservatorio, Ubik, Land Editore, Ananda Marga, Fondentemente:
+  aggiunti).
+- **Ricerche**: 61 su 70.
+- **Problemi aperti**: il PC non pubblica dal 6/11 mattina (quinta notte); la fonte ticketone del PC da' 0 eventi (forse
+  protezione anti-bot: se anche le /venue/ restano a zero va letta con il browser o da Claude); 15 eventi in coda senza
+  fonte apribile; Festa d'autunno di Salgareda senza date confermate; candidati html_llm da valutare (Oderzo Cultura,
+  Ubik Treviso, Breda di Piave Municipium).
+
 ## 2026-11-10
 
 - **Giro del PC**: NON ha girato per la quarta notte di fila (ultimo rapporto finito il 2026-11-06 alle 09:40). Coda,

@@ -284,6 +284,15 @@ sources:
     ai_rewrite: true
     note: "WordPress con tema design-comuni: elenco con giorno, titolo e link alla scheda. 8 eventi futuri al 2026-11-02."
 
+  - id: comune-roncade
+    name: Comune di Roncade
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.roncade.tv.it/it/eventi]
+    hint: "Eventi del Comune di Roncade (TV), anno 2026 se non indicato; town Roncade se non indicato (frazioni Biancade, San Cipriano, Musestre, Ca' Tron, Vallio)."
+    ai_rewrite: true
+    note: "Aggiunto da Claude il 2026-11-11. Sito Municipium: elenco con giorno, titolo e link alla scheda (15 eventi futuri in prima pagina, orari e luoghi solo nelle schede). Anche Breda di Piave usa Municipium (breda-di-piave-api.municipiumapp.it): stesso schema da provare. Da controllare nel prossimo rapporto."
+
   - id: comune-sernaglia
     name: Comune di Sernaglia della Battaglia
     type: html_llm

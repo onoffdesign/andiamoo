@@ -3422,3 +3422,105 @@ eventi:
     summary: "Spettacolo di stand-up comedy di Eleazaro Rossi (replica esaurita)."
     fonte: https://pleasestandup.it/citta/veneto/
     trovato: '2026-11-11'
+  - title: "Michela Andriolo firma le copie di L'ombra del salice"
+    start: '2026-11-14T10:00'
+    venue: "Libreria Ubik Treviso"
+    address: "Corso del Popolo 40"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "libri"
+    official_url: "https://www.ubiklibri.it/librerie/ubik-treviso"
+    summary: "Firmacopie del romanzo L'ombra del salice con l'autrice, dalle 10 alle 18:30."
+    fonte: "https://www.ubiklibri.it/librerie/ubik-treviso"
+    trovato: '2026-11-11'
+  - title: "Mistero al Circolo Colonna: presentazione con Fabrizio e Roberto Costantini"
+    start: '2026-11-19T18:00'
+    venue: "Libreria Ubik Treviso"
+    address: "Corso del Popolo 40"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "libri"
+    official_url: "https://www.ubiklibri.it/librerie/ubik-treviso"
+    summary: "Presentazione del libro Mistero al Circolo Colonna con gli autori, in dialogo con Fulvio Luna Romero."
+    fonte: "https://www.ubiklibri.it/librerie/ubik-treviso"
+    trovato: '2026-11-11'
+  - title: "Progetta lo studio non solo gli edifici: presentazione del libro"
+    start: '2026-11-20T18:00'
+    venue: "Libreria Ubik Treviso"
+    address: "Corso del Popolo 40"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "libri"
+    official_url: "https://www.ubiklibri.it/librerie/ubik-treviso"
+    summary: "Presentazione del libro di Daniele Devoti e Davide Zamuner dedicato alla progettazione dello studio professionale."
+    fonte: "https://www.ubiklibri.it/librerie/ubik-treviso"
+    trovato: '2026-11-11'
+  - title: "Antares e i viaggi tra i mondi: presentazione con Susanna Romanzi"
+    start: '2026-11-21T17:30'
+    venue: "Libreria Ubik Treviso"
+    address: "Corso del Popolo 40"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "libri"
+    official_url: "https://www.ubiklibri.it/librerie/ubik-treviso"
+    summary: "Presentazione del libro di Susanna Romanzi, in dialogo con Enrico Corradini."
+    fonte: "https://www.ubiklibri.it/librerie/ubik-treviso"
+    trovato: '2026-11-11'
+  - title: "La ricamatrice di Cranbourne Alley: presentazione con Julia da Ros"
+    start: '2026-11-28T17:00'
+    venue: "Biblioteca comunale di Montebelluna"
+    town: "Montebelluna"
+    category: "arte-cultura"
+    subcategory: "libri"
+    official_url: "https://www.landeditore.it/eventi/land-editore-sette-appuntamenti-letterari-dal-26-al-28-novembre-2026-tra-presentazioni-di-libri-e-firmacopie/"
+    summary: "Presentazione del romanzo La ricamatrice di Cranbourne Alley con l'autrice Julia da Ros."
+    fonte: "https://www.landeditore.it/eventi/"
+    trovato: '2026-11-11'
+  - title: "Inaugurazione dell'anno accademico del Conservatorio Steffani"
+    start: '2026-11-24T17:30'
+    venue: "Teatro Accademico"
+    address: "Via Giuseppe Garibaldi 4"
+    town: "Castelfranco Veneto"
+    category: "musica"
+    subcategory: "jazz-classica"
+    access: "iscrizione"
+    price: "ingresso libero con prenotazione del posto"
+    official_url: "https://conscfv.it/eventi/"
+    summary: "Cerimonia di apertura del nuovo anno accademico del Conservatorio Agostino Steffani."
+    fonte: "https://conscfv.it/eventi/"
+    trovato: '2026-11-11'
+  - title: "Serata SoulCollage con Laura Driadi"
+    start: '2026-12-09T20:30'
+    venue: "Ananda Marga Treviso"
+    address: "Via Cavour 7/a"
+    town: "Ponzano Veneto"
+    category: "natura-outdoor"
+    subcategory: "yoga"
+    official_url: "https://www.anandamargatreviso.it/9-dicembre-2026-serata-soulcollage-con-laura-driadi/"
+    summary: "Serata dedicata alla tecnica creativa del SoulCollage con Laura Driadi."
+    fonte: "https://www.anandamargatreviso.it/"
+    trovato: '2026-11-11'
+  - title: "Fondentemente: mostra mercato del cioccolato artigianale"
+    start: '2026-11-13T10:00'
+    end: '2026-11-15T20:00'
+    venue: "Piazza dei Signori"
+    address: "Piazza dei Signori"
+    town: "Treviso"
+    category: "mercatini-fiere"
+    subcategory: "fiere"
+    official_url: "https://confartigianatomarcatrevigiana.it/13-14-15-novembre-fondentemente/"
+    summary: "Mostra mercato del cioccolato artigianale con dimostrazioni degli studenti della scuola Lepido Rocco e degustazioni di cioccolata calda sabato sera."
+    fonte: "https://www.tviweb.it/www-tviweb-it-sagre-mostre-eventi-veneto-weekend/"
+    trovato: '2026-11-11'
+  - title: "Ludovico Lipparini e la pittura filoellenica: il giuramento di Lord Byron a Missolungi"
+    start: '2026-11-06'
+    end: '2027-02-07'
+    venue: "Museo Bailo"
+    address: "Borgo Cavour 24"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "mostre"
+    official_url: "https://www.digitradio.it/colori-luoghi-ditalia/da-treviso-alla-grecia-ludovico-lipparini-il-pittore-che-racconto-gli-ideali-di-liberta/"
+    summary: "Mostra dedicata al pittore Ludovico Lipparini e alla pittura ispirata alla guerra d'indipendenza greca, attorno al dipinto del giuramento di Lord Byron."
+    fonte: "https://www.tviweb.it/www-tviweb-it-sagre-mostre-eventi-veneto-weekend/"
+    trovato: '2026-11-11'

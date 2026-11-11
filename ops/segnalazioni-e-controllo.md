@@ -51,7 +51,7 @@ alla parte 1.
 
 Formato: `- AAAA-MM-GG · segnalazione #id · uid · cosa diceva (in breve) · cosa e' stato fatto`
 
-(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02, 2026-11-05, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-09 e 2026-11-10: nessuna arrivata)
+(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02, 2026-11-05, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-09, 2026-11-10 e 2026-11-11: nessuna arrivata; il file e' fermo al 6/11 perche' il PC non gira)
 
 ## 3. Controllo a campione
 
@@ -66,6 +66,7 @@ Formato (una riga per notte, la piu' recente in alto):
 Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
+- 2026-11-11 · corretti 3/10 · errori: data 1, orario 1, luogo 1, accesso 0, categoria 0, link 1 · lezione: quinto giorno con il campione del 6/11 (il PC non gira), nessuna ricerca spesa: tre eventi conclusi gia' tolti, giusti Treviso Basket - Scafati, Spreafico al Mattorosso (12/11) e Prosecco Ultra Trail; aperti gli stessi quattro punti (data del 3/12 di Villa Bornello, visita per famiglie della Materia dei sogni, link Instagram di Bim Boom Jam, punto del Parco degli Alberi Parlanti). Sotto l'80%: la causa resta il PC fermo, gia' nei problemi
 - 2026-11-10 · corretti 3/10 · errori: data 1, orario 1, luogo 1, accesso 0, categoria 0, link 1 · lezione: quarto giorno con lo stesso campione del 6/11 (il PC non gira), nessuna ricerca spesa: i tre eventi conclusi sono gia' tolti, restano giusti Treviso Basket - Scafati, Spreafico al Mattorosso e Prosecco Ultra Trail; aperti gli stessi quattro punti (data del 3/12 di Villa Bornello, visita per famiglie della Materia dei sogni, link Instagram di Bim Boom Jam, punto del Parco degli Alberi Parlanti). Sotto l'80%: la causa resta il PC fermo, gia' nei problemi
 - 2026-11-09 · corretti 3/10 · errori: data 1, orario 1, luogo 1, accesso 0, categoria 0, link 1 · lezione: terzo giorno con lo stesso campione (il PC non gira dal 6/11). Tre eventi gia' conclusi (Non e' un mondo per donne, Prealpi in Festa, Cappella Sistina a Sernaglia): tolti dal sito. Restano giusti Treviso Basket - Scafati, Spreafico al Mattorosso e Prosecco Ultra Trail. Ancora aperti: data del 3/12 di Villa Bornello, visita per famiglie della Materia dei sogni, link Instagram di Bim Boom Jam (nessuna pagina dell'Isola B nei risultati), punto del Parco degli Alberi Parlanti (in attesa del PC). Sotto l'80%: causa il PC fermo, gia' nei problemi
 - 2026-11-08 · corretti 3/10 · errori: data 1, orario 1, luogo 3, accesso 0, categoria 0, link 1 · lezione: stesso campione del 6/11 (il PC non gira), tre eventi gia' conclusi. Giusti Treviso Basket - Scafati, Spreafico al Mattorosso e Prosecco Ultra Trail dopo le correzioni di ieri. Corretti stanotte: comune di Bim Boom Jam (Falze' di Piave e' frazione di Sernaglia), nome del luogo di Villa Bornello (era uno slogan). Restano: la data del 3/12 di Villa Bornello (la pagina del podcast parla solo dell'edizione di aprile), la visita per famiglie della Materia dei sogni (non elencata nella pagina dei Musei Civici), il link Instagram di Bim Boom Jam e il punto del Parco degli Alberi Parlanti (in attesa del giro del PC). Sotto l'80%: la causa resta il PC fermo (campione e correzioni non si rinnovano), gia' nei problemi

@@ -10,12 +10,12 @@ comuni_TV:
   Arcade: 2026-11-06
   Asolo: null
   Borso del Grappa: 2026-11-01
-  Breda di Piave: null
+  Breda di Piave: 2026-11-11
   Caerano di San Marco: null
   Cappella Maggiore: 2026-11-01
   Carbonera: 2026-11-07
   Casale sul Sile: null
-  Casier: null
+  Casier: 2026-11-11
   Castelcucco: 2026-11-07
   Castelfranco Veneto: 2026-10-31
   Castello di Godego: null
@@ -39,13 +39,13 @@ comuni_TV:
   Giavera del Montello: null
   Godega di Sant'Urbano: 2026-10-30
   Gorgo al Monticano: 2026-11-05
-  Istrana: null
+  Istrana: 2026-11-11
   Loria: 2026-11-02
   Mansuè: 2026-11-01
   Mareno di Piave: null
   Maser: 2026-11-02
   Maserada sul Piave: 2026-11-02
-  Meduna di Livenza: null
+  Meduna di Livenza: 2026-11-11
   Miane: 2026-11-06
   Mogliano Veneto: null
   Monastier di Treviso: 2026-11-05
@@ -55,7 +55,7 @@ comuni_TV:
   Moriago della Battaglia: 2026-11-06
   Motta di Livenza: 2026-11-06
   Nervesa della Battaglia: null
-  Oderzo: null
+  Oderzo: 2026-11-11
   Ormelle: null
   Orsago: 2026-11-05
   Paese: 2026-11-01
@@ -74,7 +74,7 @@ comuni_TV:
   Revine Lago: 2026-10-31
   Riese Pio X: null
   Roncade: 2026-10-30
-  Salgareda: null
+  Salgareda: 2026-11-11
   San Biagio di Callalta: 2026-11-02
   San Fior: 2026-11-10
   San Pietro di Feletto: null
@@ -171,6 +171,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Musica e party > Ballo": 2026-11-11
+  "Spettacoli > Musical e operetta": 2026-11-11
+  "Natura e benessere > Animali": 2026-11-11
+  "Spettacoli > Comicita'": 2026-11-11
   "Sport > Corsa": 2026-11-10
   "Famiglie e bambini > Letture e biblioteche": 2026-11-10
   "Famiglie e bambini > Ricorrenze": 2026-11-10

@@ -201,10 +201,10 @@ fonti:
     eventi_trovati: 0
     ultimi:
     - 0
-  ultimo_controllo: '2026-10-31'
+  ultimo_controllo: '2026-11-11'
   automatizzabile: 'no'
-  stato: attiva
-  note: "Candidato non ancora aperto: pagine per comune e per organizzatore. | 2026-10-31: la pagina provinciale da' errore a WebFetch (client_error); usare solo i risultati di ricerca"
+  stato: ferma
+  note: "Candidato non ancora aperto: pagine per comune e per organizzatore. | 2026-10-31: la pagina provinciale da' errore a WebFetch (client_error); usare solo i risultati di ricerca | 2026-11-11: messa ferma, vietata a WebFetch da tre settimane e proposta ogni notte dal piano senza resa; compare solo come titolo nei risultati"
 - nome: Eventi Venetando
   url: https://www.eventivenetando.it/
   query: eventivenetando Treviso 2026
@@ -1093,3 +1093,115 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "schede con data e anno nel titolo e link d'iscrizione (X-mas Run 13/12). Solo scoperta."
+- nome: Fondazione Oderzo Cultura, eventi
+  url: https://www.oderzocultura.it/eventi/
+  query: oderzocultura.it eventi <mese> <anno>
+  tipo: museo
+  categorie: [arte-cultura, famiglie-bambini, natura-outdoor]
+  comuni: [Oderzo, Motta di Livenza, Pieve del Grappa, Vittorio Veneto]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 10, ultimi: [10] }
+  ultimo_controllo: '2026-11-11'
+  automatizzabile: forse
+  stato: attiva
+  note: "elenco con titoli e link (date solo nelle schede, pulsante 'carica altro'); le schede si aprono e hanno ora, sede con indirizzo, prezzo e prenotazione (Giornate Martiniane, mostra Magnolato, Il museo intorno, Storie sotto l'albero ogni due giovedi'). Candidata html_llm con dettaglio delle schede."
+- nome: TicketOne, pagina del Teatro Accademia di Conegliano
+  url: https://www.ticketone.it/venue/teatro-accademia-16706/
+  query: TicketOne Teatro Accademia Conegliano
+  tipo: biglietteria
+  categorie: [teatro-spettacoli, musica]
+  comuni: [Conegliano]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 10, ultimi: [10] }
+  ultimo_controllo: '2026-11-11'
+  automatizzabile: si
+  stato: spostata
+  note: "43 eventi, 10 per pagina con data, ora, artista e prezzo da; ?page=2 restituisce la prima pagina. Comici, tributi, balletti non presenti nella stagione di prosa del teatro. Aggiunta alla fonte ticketone di config/sources.yaml il 2026-11-11 (con la pagina dell'Auditorium Cassamarca)."
+- nome: Please Stand Up, serate in Veneto
+  url: https://pleasestandup.it/citta/veneto/
+  query: pleasestandup Veneto serate Treviso Conegliano
+  tipo: aggregatore
+  categorie: [teatro-spettacoli]
+  comuni: [Treviso, Conegliano]
+  province: [TV, VE, PD, VR, VI]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
+  ultimo_controllo: '2026-11-11'
+  automatizzabile: forse
+  stato: attiva
+  note: "tutte le serate di stand-up e cabaret del Veneto con data, ora e locale, paginata. Solo scoperta: confermare su TicketOne o sul sito del comico (eleazaro.it)."
+- nome: Conservatorio Steffani di Castelfranco, eventi
+  url: https://conscfv.it/eventi/
+  query: conscfv.it eventi Conservatorio Steffani Castelfranco
+  tipo: musica
+  categorie: [musica]
+  comuni: [Castelfranco Veneto]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-11'
+  automatizzabile: no
+  stato: attiva
+  note: "WordPress con Elementor, niente tribe ne' JSON-LD visibili. Pochi eventi, ma con ingresso e sede (Teatro Accademico)."
+- nome: Libreria Ubik Treviso, eventi
+  url: https://www.ubiklibri.it/librerie/ubik-treviso
+  query: Ubik Treviso eventi libreria Corso del Popolo
+  tipo: libreria
+  categorie: [arte-cultura]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
+  ultimo_controllo: '2026-11-11'
+  automatizzabile: forse
+  stato: attiva
+  note: "presentazioni e firmacopie con giorno e ora (anno non scritto, controllare il giorno della settimana). Candidata html_llm."
+- nome: Comune di Roncade, eventi (Municipium)
+  url: https://www.comune.roncade.tv.it/it/eventi
+  query: Comune di Roncade eventi
+  tipo: comune
+  categorie: [arte-cultura, famiglie-bambini, mercatini-fiere, teatro-spettacoli]
+  comuni: [Roncade]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-11'
+  automatizzabile: si
+  stato: spostata
+  note: "15 eventi futuri in prima pagina (biblioteca, antiquariato, teatro parrocchiale), orari solo nelle schede. Passata al PC come html_llm (comune-roncade) il 2026-11-11. Anche Breda di Piave usa Municipium."
+- nome: Ananda Marga Treviso, centro yoga
+  url: https://www.anandamargatreviso.it/
+  query: anandamargatreviso eventi
+  tipo: associazione
+  categorie: [natura-outdoor]
+  comuni: [Ponzano Veneto]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-11'
+  automatizzabile: no
+  stato: attiva
+  note: "serate e mattinate con data e ora; il luogo non sempre e' scritto (sede Via Cavour 7/a, Ponzano)."
+- nome: TViWeb, guida del weekend in Veneto
+  url: https://www.tviweb.it/www-tviweb-it-sagre-mostre-eventi-veneto-weekend/
+  query: tviweb sagre feste fiere marce mostre Veneto weekend <date>
+  tipo: testata
+  categorie: [sagre-feste, mercatini-fiere, arte-cultura]
+  comuni: [Treviso, Vedelago, Povegliano, Maserada sul Piave, Susegana, Zenson di Piave, Resana]
+  province: [TV, VI, PD, VE, VR, BL, RO]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-11'
+  automatizzabile: no
+  stato: attiva
+  note: "40 appuntamenti del weekend divisi per provincia (14 in TV) con luogo e sito citato: ottima per il test di copertura e per scoprire; esce a meta' settimana."

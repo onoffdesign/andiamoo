@@ -90,7 +90,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · hip hop e rap · elettronica live · world e folk · tributi e cover band
 - **Festival musicali** · estivi all'aperto · rassegne d'autunno · festival di musica antica
 - **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ
-- **Ballo** [serata danzante] · liscio · balli latini · swing e lindy hop · tango · balli di gruppo
+- **Ballo** [serata danzante] · liscio · balli latini · swing e lindy hop · tango [milonga settimanale, pomeridiana di tango] · balli di gruppo
 - **Musica partecipata** · open mic · karaoke · jam session aperte · drum circle [cerchio di percussioni]
   · open mic di stand-up comedy [open mic comicita'] · jam nelle sale prove comunali [free jam session, Progetto Giovani]
   · concerti in cuffia [silent concert, silent wifi]
@@ -114,14 +114,14 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · teatro di strada · improvvisazione
   · stagioni di prosa dei teatri stabili con turni di abbonamento [stagione di prosa, biglietti e abbonamenti, repliche] · stagioni dei teatri comunali di paese nel circuito Arteven [stagione teatrale, auditorium, Vivaticket]
   · rassegne di teatro amatoriale nei paesi [rassegna teatrale, compagnie amatoriali, auditorium] · letture teatrali per le ricorrenze civili [4 novembre] · spettacolo di Capodanno a teatro [Capodanno a teatro] · teatro classico a puntate sui miti greci [rassegna Class]
-- **Comicita'** · stand-up comedy · cabaret · serate comiche a puntate nei ridotti [Funny Friday]
-- **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci]
+- **Comicita'** · stand-up comedy [repliche pomeridiane e serali] · cabaret · serate comiche a puntate nei ridotti [Funny Friday] · teatro dialettale comico [Legnanesi] · creator e youtuber a teatro
+- **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci] · compagnie di balletto russo in tournee [Il lago dei cigni]
 - **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada
   · circhi di Natale in tournee [circo di Natale, Circusfans tournee] · trampolieri e artisti di strada nei mercatini di Natale [trampolieri, mercatino di Natale]
 - **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi
   · cineforum di vallata [Cineforum Quartier del Piave, rassegna d'autunno] · cinema a prezzo ridotto in piu' sale [Martedi' al Cinema 4 euro] · proiezioni gratuite per ricorrenze [25 novembre, ingresso gratuito]
   · documentari · prime visioni con ospiti · documentari con gli autori in sala
-- **Musical e operetta** · musical · operetta
+- **Musical e operetta** · musical · operetta · tributi musicali a teatro [Battisti, Michael Jackson] · spettacoli K-pop per famiglie
 
 ## Famiglie e bambini (`famiglie-bambini`)
 
@@ -170,7 +170,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · raccolte di rifiuti di Plastic Free e FIPSAS [plastic free, zeroplastic]
 - **Benessere** [yoga, meditazione] · yoga all'aperto · meditazione · pilates · camminata nordica [nordic walking]
 - **Orti e giardini** · giardini aperti · corsi di orticoltura · mostre di piante e fiori
-- **Animali** · eventi cinofili [raduno cani, sfilata cani] · fattorie aperte · serate su fauna e migrazioni [rapaci, birdwatching]
+- **Animali** · eventi cinofili [raduno cani, sfilata cani, mostra canina] · fattorie aperte · serate su fauna e migrazioni [rapaci, birdwatching] · mostre ornitologiche · benedizione degli animali [Sant'Antonio Abate, gennaio]
 
 ## Voci aggiunte (registro)
 
@@ -178,6 +178,7 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 
 - 2026-10-30 · prima versione dell'albero, scritta a partire dalle 9 categorie del sito
 - 2026-10-31 · +12 voci · dove: Arte e cultura > Conferenze (+2), Tecnologia e scienza (+1), Musica > Musica partecipata (+2), Spettacoli > Cinema (+1), Famiglie > Spettacoli per bambini (+2), Natura > Escursioni (+1), Business > Lavoro (+1), Sagre (+2)
+- 2026-11-11 · +11 voci · dove: Musica > Ballo (+2), Spettacoli > Comicita' (+3), Musical e operetta (+2), Natura > Animali (+3), Spettacoli > Danza (+1, balletto classico in tournee)
 - 2026-11-02 · +12 voci · dove: Spettacoli > Teatro (+4), Comicita' (+1), Danza (+1), Famiglie > Laboratori (+2), Mercatini (+1), Fiere (+2), Collezionismo (+1)
 - 2026-11-05 · +11 voci · dove: Sport > Eventi per chi guarda (+4), Arti marziali (+1), Equitazione (+1), Business > Networking (+2), Natura > Ambiente (+1), Animali (+1), Arte e cultura > Visite guidate (+1)
 - 2026-11-06 · +11 voci · dove: Sport > Motori (+3), Sagre > Vino e bevande (+3), Mercatini > Mercati agricoli (+2), Business > Convegni e conferenze (+3)

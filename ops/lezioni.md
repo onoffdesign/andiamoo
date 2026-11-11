@@ -6,6 +6,7 @@ Si legge all'inizio di ogni notte; si aggiorna alla fine (aggiungi, correggi, to
 Tienila breve: al massimo ~80 righe, raggruppate per tema.
 
 ## Ricerche che funzionano
+(trevisoeventi, teatri, squadre, trovasagre, PDF dei comuni ed Eventbrite: ora nel metodo, sezione Treviso)
 - Per gruppi di eventi Eventbrite nello stesso luogo (es. 6 a Santa Caterina) cercare i titoli insieme: esce il
   festival che li organizza e il suo programma verifica tutto con 2-3 letture.
 - WebSearch "standard" rende poco sui siti locali (risultati USA): per comuni, rassegne e teatri usare "extended".
@@ -19,26 +20,21 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - Calendario Podismo Veneto (pagina del mese) da' anche i link ai volantini: si usano come official_url delle gare
   senza sito. Una lettura ha sistemato 7 gare e trovato una gara mancante.
 
-- Il calendario di trevisoeventi.com rende ~25 eventi TV per lettura: ideale per scoprire e per il test di
-  copertura; poi conferma sul sito dell'organizzatore (auditorium, comitato, teatro).
-- I calendari di stagione dei teatri (Teatro Da Ponte) danno decine di date con ora, sala e scheda in una lettura.
-- I calendari delle squadre (trevisobasket.it, benettonrugby.it) danno tutte le partite in casa in una lettura.
 - Le schede di un teatro amatoriale hanno orario e prezzo, l'elenco no: basta aprire una scheda per la rassegna.
 
 - Le pagine elenco dei comuni design-comuni (San Biagio, Sernaglia, Castelfranco) mettono nei risultati i link alle
   schede: dopo una lettura dell'elenco le schede si aprono con WebFetch anche se non erano nei risultati di ricerca.
-- Le schede di dettaglio di trevisoeventi (es. /colle-umberto-sagra-di-san-martino.html) si aprono e danno programma per
-  giorno e sito dell'organizzatore: 8 letture il 2026-11-07 hanno dato 37 eventi. Le pagine elenco dei locali
-  (mattorosso.it/eventi) danno 20 date in una lettura.
 - La guida del weekend di Nordest24 ("Veneto, cosa fare dal ... al ...") esce il giovedi': una lettura, eventi TV con
   programma per giorno. Eventivenetando ha i programmi completi delle feste (Prealpi in Festa).
 
-- trovasagre.com/sagre/veneto/treviso: 13 sagre TV in una lettura (2026-11-08); paesiinfesta.com ha programma e
-  menu dell'anno per le sagre del Mottense; i PDF annuali degli eventi dei Comuni (Povegliano) danno tutto l'anno.
 
 - 2026-11-10: le schede dei comuni con elenco vietato (Quinto) si aprono se escono da una ricerca con il titolo
   esatto; il PDF del calendario stagionale allegato alla notizia del Comune (San Fior) si apre e vale un mese.
   collaltodisusegana.it: home con link a festival, mercatini e Natale, tutte apribili.
+
+- 2026-11-11: la guida del weekend di TViWeb ("Sagre, feste, fiere, marce e mostre in Veneto: 40 appuntamenti per il
+  weekend del ...") esce a meta' settimana con 14 eventi TV e il sito citato: vale per test di copertura e scoperta.
+  Comuni con sito Municipium (Roncade, Breda di Piave): elenco eventi apribile, passabile al PC come html_llm.
 
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -61,12 +57,18 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   danno guide e pagine vecchie: servono parole del periodo (Natale, San Martino) e un comune.
 - Coordinate esatte: WebFetch non legge le mappe e la shell non raggiunge Nominatim. Meglio dare indirizzo e comune
   giusti (il PC ricalcola) o il centro certo piu' vicino.
-- Eventbrite: l'accesso si conferma con l'elenco dei gratuiti (letto dal PC); chi non vi compare va visto sulla scheda.
 - Newsletter UNPLI 'Weekend con le Pro Loco': nessun evento veneto.
 - 2026-11-10: rifiutati o vietati anche ilgazzettino.it, italiaeventinews.altervista.org, fondazionezavrel.it, i volantini
   del blog Calendario Podismo Veneto e la scheda del Comune di Codogne'. Musincantus non pubblica l'ingresso dei concerti
   di Autunno Musicale (solo il Lobgesang "libero con offerta"): verificati senza accesso, inutile ricercarlo.
 - Ricerche di sport tradizionali (palio, tiro alla fune) a novembre: resa 0, sono eventi estivi o dentro le sagre.
+
+- 2026-11-11: resa 0 o pagine vecchie: sito del Comune di Salgareda (halleysac, notizie ferme al 2023) e Pro Loco
+  Salgareda (redirect infinito http/https); Meduna di Livenza (solo PDF stagionali vecchi); Villa Lattes di Istrana
+  (nessun evento datato); teatrocristallo.it e' il Teatro Cristallo di Bolzano, non di Oderzo; le notizie di Natale del
+  Comune di Montebelluna in cima ai risultati sono del 2024; asolomusica.com elenca quasi solo concerti a Venezia e nel
+  Vicentino; montegrappa.org ha camminate senza comune; faitango.it ha schede delle milonghe di anni passati.
+  Ricerche per ambito "Animali" (mostre canine e ornitologiche) e "Musical" in provincia: resa 0.
 
 ## Calendario (chi pubblica quando)
 - Mostre di presepi: le date della stagione escono a fine novembre (a inizio novembre ci sono solo quelle dell'anno prima).
