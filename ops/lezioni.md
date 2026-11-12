@@ -35,6 +35,9 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - 2026-11-11: la guida del weekend di TViWeb ("Sagre, feste, fiere, marce e mostre in Veneto: 40 appuntamenti per il
   weekend del ...") esce a meta' settimana con 14 eventi TV e il sito citato: vale per test di copertura e scoperta.
   Comuni con sito Municipium (Roncade, Breda di Piave): elenco eventi apribile, passabile al PC come html_llm.
+- 2026-11-12: le schede del Mattorosso hanno ora e ingresso (l'elenco no): una lettura per scheda. La pagina eventi
+  di mestre.ubiklibri.it elenca anche le presentazioni della Ubik di Treviso con data e ora. Anteprima Sagre ha date
+  e luogo esatto delle sagre (Frico: salone dietro la chiesa di Lorenzaga) senza l'ingresso.
 
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -69,6 +72,9 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   Comune di Montebelluna in cima ai risultati sono del 2024; asolomusica.com elenca quasi solo concerti a Venezia e nel
   Vicentino; montegrappa.org ha camminate senza comune; faitango.it ha schede delle milonghe di anni passati.
   Ricerche per ambito "Animali" (mostre canine e ornitologiche) e "Musical" in provincia: resa 0.
+- 2026-11-12: palestre di arrampicata (Gioco Verticale, Orizzonti Verticali) senza eventi datati sul sito; schede
+  delle uscite CAI Treviso "in aggiornamento" fino a pochi giorni prima; Comune di Mareno di Piave: home MyPortal senza
+  link agli eventi; ricerche "tiro con l'arco" e "boulder" in provincia: solo calendari nazionali, resa 0.
 
 ## Calendario (chi pubblica quando)
 - Mostre di presepi: le date della stagione escono a fine novembre (a inizio novembre ci sono solo quelle dell'anno prima).

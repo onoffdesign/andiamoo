@@ -3545,7 +3545,7 @@ eventi:
     subcategory: "jazz-classica"
     access: offerta
     price: "offerta libera, prenotazione consigliata"
-    official_url: "https://www.comune.fonte.tv.it/vivere-il-comune/eventi/dialoghi-viennesi-copy-copy/"
+    official_url: "https://www.malipieroasolo.it/salotto-musicale-2026/"
     summary: "Concerto da camera con voce narrante e pianoforte che ripercorre la vita di Chopin attraverso le sue musiche, nella rassegna Salotto Musicale 2026 dell'Istituto Musicale Malipiero."
     fonte: "https://www.comune.fonte.tv.it/c026029/po/po_p_eventi.php"
     trovato: '2026-11-12'
@@ -3625,4 +3625,17 @@ eventi:
     official_url: "https://trovasagre.com/evento/festa-di-santa-caterina-barbisano-pieve-di-soligo-tv-2026"
     summary: "Festa della Pro Loco di Barbisano e del Gruppo Alpini: messa alle 19 e cena con piatti della tradizione."
     fonte: "https://trovasagre.com/sagre/veneto/treviso"
+    trovato: '2026-11-12'
+  - title: "Il tizio con la parrucca: la vita di Johann Sebastian Bach"
+    start: '2026-11-21T21:00'
+    venue: "Sala Betania, chiesa parrocchiale di Onè"
+    address: "Via Roma 56, Onè di Fonte"
+    town: "Fonte"
+    category: "musica"
+    subcategory: "jazz-classica"
+    access: offerta
+    price: "offerta libera, prenotazione consigliata"
+    official_url: "https://www.malipieroasolo.it/salotto-musicale-2026/"
+    summary: "Concerto con voce narrante, violoncello e pianoforte che ripercorre la vita di Bach attraverso le sue musiche, nella rassegna Salotto Musicale 2026 dell'Istituto Musicale Malipiero."
+    fonte: "https://www.malipieroasolo.it/salotto-musicale-2026/"
     trovato: '2026-11-12'

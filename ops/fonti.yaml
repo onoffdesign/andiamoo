@@ -794,11 +794,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 1, eventi_trovati: 12, ultimi: [12] }
-  ultimo_controllo: '2026-11-07'
-  automatizzabile: da_valutare
-  stato: attiva
-  note: "elenco con ~20 date fino a gennaio in una lettura (titolo, data, tipo); orari e prezzi solo nelle schede (es. comicita' 12 euro con consumazione). Candidato per html_llm del PC."
+  resa: { controlli: 2, eventi_trovati: 12, ultimi: [0, 12] }
+  ultimo_controllo: '2026-11-12'
+  automatizzabile: spostata
+  stato: spostata
+  note: "gia' letta dal PC (fonte mattorosso, html_llm); il 12/11 usata solo per orari e prezzi: le schede dicono ora e ingresso (reggaeton e karaoke gratuiti, live 12 euro con drink). Elenco con ~20 date fino a gennaio in una lettura (titolo, data, tipo); orari e prezzi solo nelle schede (es. comicita' 12 euro con consumazione). Candidato per html_llm del PC."
 - nome: Trevignano Cultura (stagione teatro e concerti)
   url: https://trevignanocultura.it/
   query: trevignanocultura events Trevignano
@@ -864,8 +864,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 19, ultimi: [13, 6] }
-  ultimo_controllo: '2026-11-10'
+  resa: { controlli: 3, eventi_trovati: 22, ultimi: [3, 13, 6] }
+  ultimo_controllo: '2026-11-12'
   automatizzabile: da_valutare
   stato: attiva
   note: "elenco delle sagre del mese con frazione e date (schede /evento/<nome>-<anno>): 13 sagre TV in una lettura, 9 non ancora sul sito. Solo scoperta: confermare su Pro Loco, Comune o Paesi in Festa. Alcune date di 'Altri appuntamenti' sbagliate."
@@ -1102,8 +1102,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 5
-  resa: { controlli: 1, eventi_trovati: 10, ultimi: [10] }
-  ultimo_controllo: '2026-11-11'
+  resa: { controlli: 2, eventi_trovati: 10, ultimi: [0, 10] }
+  ultimo_controllo: '2026-11-12'
   automatizzabile: forse
   stato: attiva
   note: "elenco con titoli e link (date solo nelle schede, pulsante 'carica altro'); le schede si aprono e hanno ora, sede con indirizzo, prezzo e prenotazione (Giornate Martiniane, mostra Magnolato, Il museo intorno, Storie sotto l'albero ogni due giovedi'). Candidata html_llm con dettaglio delle schede."
@@ -1205,3 +1205,87 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "40 appuntamenti del weekend divisi per provincia (14 in TV) con luogo e sito citato: ottima per il test di copertura e per scoprire; esce a meta' settimana."
+- nome: Comune di Cornuda, eventi
+  url: https://www.comune.cornuda.tv.it/home/vivere/eventi.html
+  query: Comune di Cornuda eventi
+  tipo: comune
+  categorie: [business, arte-cultura]
+  comuni: [Cornuda]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-12'
+  automatizzabile: spostata
+  stato: spostata
+  note: "portale come Silea, 1 evento futuro al 12/11: passato al PC come html_llm (comune-cornuda)."
+- nome: Comune di Chiarano, eventi
+  url: https://www.comune.chiarano.tv.it/home/vivere/eventi.html
+  query: Comune di Chiarano eventi
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: [Chiarano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-12'
+  automatizzabile: spostata
+  stato: spostata
+  note: "portale come Silea; in evidenza una presentazione di libro (12/11) e una mostra legata a Cessalto (VE): passato al PC come html_llm (comune-chiarano)."
+- nome: Comune di Fonte, eventi (design-comuni)
+  url: https://www.comune.fonte.tv.it/eventi
+  query: Comune di Fonte eventi
+  tipo: comune
+  categorie: [musica, arte-cultura]
+  comuni: [Fonte]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-12'
+  automatizzabile: spostata
+  stato: spostata
+  note: "schede con ora, luogo con indirizzo e ingresso (Salotto Musicale a Onè); la pagina con il calendario e' /c026029/po/po_p_eventi.php. Passato al PC come html_llm (comune-fonte)."
+- nome: Comune di San Polo di Piave, eventi (Municipium)
+  url: https://www.comune.sanpolodipiave.tv.it/it/eventi
+  query: Comune di San Polo di Piave eventi
+  tipo: comune
+  categorie: [famiglie-bambini]
+  comuni: [San Polo di Piave]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-12'
+  automatizzabile: spostata
+  stato: spostata
+  note: "Municipium come Roncade, 2 laboratori in biblioteca a novembre (ora e luogo nelle schede): passato al PC come html_llm (comune-san-polo)."
+- nome: Istituto Musicale Malipiero, Salotto Musicale
+  url: https://www.malipieroasolo.it/salotto-musicale-2026/
+  query: Salotto Musicale <anno> Istituto Musicale Malipiero
+  tipo: associazione
+  categorie: [musica]
+  comuni: [Fonte, Asolo]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-12'
+  automatizzabile: no
+  stato: attiva
+  note: "rassegna autunnale di concerti narrati a Onè di Fonte con data, ora, luogo e ingresso a offerta in una pagina."
+- nome: CAI Treviso, uscite
+  url: https://www.caitreviso.it/uscite/
+  query: CAI Treviso uscite
+  tipo: associazione
+  categorie: [natura-outdoor, sport]
+  comuni: [Treviso, Valdobbiadene, Pederobba, Vittorio Veneto]
+  province: [TV, BL]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-12'
+  automatizzabile: no
+  stato: attiva
+  note: "elenco uscite fino a dicembre con data, gruppo e meta, ma le schede sono 'in aggiornamento' fino a pochi giorni prima (niente ritrovo, ora, costo): riaprire la settimana prima. Mete in TV: Cartizze 25/11, Monfenera 4/12, Monte Baldo di Vittorio Veneto 9/12. Molte uscite fuori provincia (BL)."

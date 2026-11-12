@@ -1,33 +1,30 @@
 {
- "data": "2026-11-11",
- "aggiunti": 30,
- "corretti": 0,
+ "data": "2026-11-12",
+ "aggiunti": 10,
+ "corretti": 17,
  "rimossi": 0,
- "verificati": 0,
+ "verificati": 15,
  "aggiunti_per_categoria": {
-  "arte-cultura": 11,
-  "teatro-spettacoli": 10,
-  "musica": 3,
-  "famiglie-bambini": 3,
-  "natura-outdoor": 2,
-  "mercatini-fiere": 1
+  "sagre-feste": 7,
+  "musica": 2,
+  "arte-cultura": 1
  },
- "fonti_nuove": 8,
- "fonti_spostate": 3,
- "fonti_sistemate": 1,
- "qualita_campione": "3/10",
+ "fonti_nuove": 6,
+ "fonti_spostate": 4,
+ "fonti_sistemate": 0,
+ "qualita_campione": "4/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "4/10",
+ "copertura_test": "8/10",
  "ricerche": 61,
- "eventi_per_ricerca": 0.5,
+ "eventi_per_ricerca": 0.2,
  "categorie_aggiunte": 11,
- "miglioria": "spettacoli commerciali letti dalla pagina del locale su TicketOne (/venue/), passata al PC; cheventi tolta dal giro",
+ "miglioria": "comuni piccoli riconosciuti dal tipo di portale e passati al PC con una lettura; 17 luoghi ricorrenti in luoghi.yaml dai candidati del PC",
  "problemi": [
-  "Il PC non pubblica dal 6/11 mattina (quinta notte): oltre 170 eventi aggiunti non sono sul sito",
-  "La fonte ticketone del PC da' 0 eventi: aggiunte le pagine /venue/, da controllare",
-  "15 eventi in coda senza fonte apribile (7 di Sernaglia)",
-  "Copertura 4/10: mancano librerie, enti culturali dei comuni e spettacoli in biglietteria",
-  "Festa d'autunno di Salgareda con date non confermate"
+  "Il giro del PC delle 01:00 non e' partito (ultimo a mano l'11/11 mattina)",
+  "Campione 4/10: accesso non pubblicato da sagre e rassegne, link solo Instagram",
+  "Da controllare nel prossimo rapporto le 4 fonti nuove dei comuni e le posizioni ricalcolate",
+  "Eventi di Sernaglia e Silea in coda senza scheda apribile",
+  "Autunno Sanfiorese con calendario solo nel PDF"
  ]
 }

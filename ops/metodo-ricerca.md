@@ -66,6 +66,12 @@ dell'anno con piu' eventi, errori tipici. Quando si apre una provincia nuova (ve
 lo schema e si parte dalle regole generali e da quelle della regione.
 
 ### Treviso (TV) - provincia attiva dal 2026-10
+- Comuni piccoli dalla home (miglioria del 2026-11-12): basta aprire la home o la pagina eventi del sito comunale
+  uscita dalla ricerca "Comune di <nome> eventi" e riconoscere il portale dall'indirizzo: `/home/vivere/eventi.html`
+  (portale di Silea), `/eventi` con schede `/vivere-il-comune/eventi/` (design-comuni), `/it/eventi` (Municipium).
+  Si passa subito al PC come `html_llm` senza leggere gli eventi uno per uno: 4 comuni in 8 letture (Cornuda,
+  Chiarano, Fonte, San Polo). Le schede le legge poi il PC ogni notte a costo zero. I candidati di
+  `ops/posizioni.json` con 3+ eventi e punto coerente vanno in `config/luoghi.yaml` senza ricerche (17 il 12/11).
 - Spettacoli commerciali in biglietteria (miglioria del 2026-11-11): comici, tributi, musical e balletti in tournee non
   stanno nelle stagioni dei teatri ne' sui siti dei comuni. La pagina del locale su TicketOne (`/venue/<nome>-<id>/`,
   esce cercando "TicketOne <teatro> <comune>") da' 10 date con ora e prezzo per lettura (Teatro Accademia: 10 su 10
@@ -155,6 +161,8 @@ nuovi filtri), senza ricercarle da capo.
 ## 5. Andamento (una riga per notte, la piu' recente in alto)
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
+
+- 2026-11-12 · TV · ricerche 61 · eventi nuovi 10 · eventi per ricerca 0,2 · fonti al PC +4 (Comuni di Cornuda, Chiarano, Fonte, San Polo di Piave, html_llm) · miglioria: i comuni piccoli si riconoscono dal tipo di portale e passano al PC con una lettura, senza ricercare gli eventi uno per uno; 17 luoghi ricorrenti in luoghi.yaml dai candidati del PC senza ricerche. Notte spesa soprattutto in manutenzione (24 eventi della coda, campione nuovo)
 
 - 2026-11-11 · TV · ricerche 61 · eventi nuovi 30 · eventi per ricerca 0,5 · fonti al PC +3 (Comune di Roncade html_llm; pagine /venue/ di TicketOne del Teatro Accademia e dell'Auditorium Cassamarca) · miglioria: per gli spettacoli commerciali (comici, tributi, balletti in tournee) si legge la pagina del locale su TicketOne (/venue/<nome>-<id>/), non la pagina citta': 10 eventi del Teatro Accademia in una lettura, nessuno era sul sito; le pagine /venue/ passano al PC. Tolta dal giro cheventi (stato ferma: vietata, proposta ogni notte a vuoto)
 - 2026-11-10 · TV · ricerche 52 · eventi nuovi 22 · eventi per ricerca 0,4 (piu' 5 corretti e 4 verificati dalla coda) · fonti al PC +0 · miglioria: per la coda dei comuni con elenco vietato si cercano le schede con il titolo esatto e il dominio del comune (si aprono), e i calendari stagionali dei comuni piccoli si leggono dal PDF allegato alla notizia (San Fior 10 eventi in una lettura)

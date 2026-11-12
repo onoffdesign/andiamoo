@@ -2,6 +2,48 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-12
+
+- **Giro del PC**: NON ha girato stanotte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano dopo cinque
+  notti ferme; 428 eventi sul sito, 60 in coda). Il giro dell'11/11 ha rinnovato coda, campione e posizioni ma e' stato
+  fatto prima del codice nuovo delle posizioni (luoghi.yaml, frazioni): i 51 eventi con solo il comune si
+  ricalcolano al prossimo giro. Correzioni applicate con --applica (sito a 428 eventi, 120 correzioni applicate).
+- **Fonti in errore**: non riaperte (rapporto dell'11/11 da guardare con il giro nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (24 eventi lavorati su 60): 17 corretti, 0 rimossi, 15 verificati. Mattorosso: ora e ingresso
+  di Spreafico (doppione del vecchio uid con luogo e link), Noche Reggaeton (22, gratuito +18), Cindy & The Rock History
+  (22, 12 euro con drink), karaoke (22, gratuito). Fondentemente (accesso libero, link Confartigianato), firmacopie Ubik
+  (fino alle 18:30), Mogliano-Viadana (biglietto, Via Colelli 2, Ciaotickets), Palio delle Botti (aperto a tutti),
+  Festival del Radicchio di Paderno (link Fiori d'Inverno al posto di un sito umbro), Giornate Martiniane al Museo della
+  Battaglia (indirizzo), Villa Freya (Via Forestuzzo), 6 serate della Sagra del Frico (salone dietro la chiesa).
+  Verificate come periodo continuo 8 mostre lunghe, le 4 repliche di Alcesti, 2 presentazioni Ubik, il talk H-FARM.
+  Restano aperti: sagre di Sarano, Musano, Villanova e Camalo' (accesso non pubblicato, posizione dalla frazione al
+  prossimo giro), eventi di Sernaglia e Silea senza scheda, Autunno Sanfiorese (calendario solo nel PDF), Mostra dei
+  vini del Montello (solo siti vietati), Segusino, Zero Branco.
+- **Controllo a campione**: 4/10 (vedi segnalazioni-e-controllo).
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati; aggiunti 17 luoghi noti a
+  config/luoghi.yaml dai candidati (teatri Del Monaco, Accademia, Da Ponte, Accademico, Damiano Chiesa, Palaverde,
+  Mattorosso, Monigo, Quaggia, Santa Caterina, Bailo, Ubik, Palazzo Foscolo, Storga, Comisso, Vicinalis, Lorenzaga) e
+  2 indirizzi (Villa Freya, Museo della Battaglia). I numeri dopo li dara' il prossimo giro del PC.
+- **Eventi aggiunti** (10): sagre-feste 7 (Festa di San Martino a Santa Maria del Sile 13, 14, 15/11; Festa di Santa
+  Caterina a Barbisano 20, 21, 22, 25/11), musica 2 (Salotto Musicale a Onè di Fonte: Chopin 14/11, Bach 21/11),
+  arte-cultura 1 (I 98 eroi dell'Austria alla Ubik, 25/11).
+- **Comuni controllati**: San Polo di Piave, Cornuda, Chiarano, Fonte (passati al PC), San Zenone degli Ezzelini (solo
+  portali nei risultati), Mareno di Piave (home MyPortal senza eventi).
+- **Categorie cercate**: Sport di precisione, Arrampicata, Montagna ed escursionismo (resa 0: CAI Treviso con schede
+  ancora vuote), Sagre (TrovaSagre: 2 feste mancanti). +11 voci nell'albero.
+- **Fonti note**: Mattorosso (gia' al PC, schede per orari e prezzi), TrovaSagre (+3 feste), Oderzo Cultura (0 nuovi),
+  Ubik Treviso (+1). Comune di Orsago non riaperto (debole, trimestrale).
+- **Fonti nuove catalogate**: 6 (Comuni di Cornuda, Chiarano, Fonte, San Polo di Piave; Istituto Musicale Malipiero;
+  CAI Treviso uscite). Spostate in sources.yaml: 4 (i quattro comuni, html_llm).
+- **Miglioria**: comuni piccoli riconosciuti dal tipo di portale e passati al PC con una lettura (regola nella sezione
+  Treviso del metodo); luoghi ricorrenti da candidati del PC senza ricerche.
+- **Test di copertura**: 8/10 (sagre di TrovaSagre).
+- **Ricerche**: 61 su 70 (4 rifiutate subito: link presi dai file del repository).
+- **Problemi aperti**: il giro del PC delle 01:00 non e' partito anche stanotte (l'ultimo e' stato a mano l'11/11
+  mattina); controllare nel prossimo rapporto le 4 fonti nuove dei comuni e le posizioni ricalcolate; accesso non
+  pubblicato da molte sagre e rassegne (campione sotto l'80%); calendario dell'Autunno Sanfiorese solo in PDF.
+
 ## 2026-11-11
 
 - **Giro del PC**: NON ha girato per la quinta notte di fila (ultimo rapporto finito il 2026-11-06 alle 09:40; nessun

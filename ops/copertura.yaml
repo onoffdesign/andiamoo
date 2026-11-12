@@ -21,19 +21,19 @@ comuni_TV:
   Castello di Godego: null
   Cavaso del Tomba: 2026-11-09
   Cessalto: 2026-11-08
-  Chiarano: null
+  Chiarano: 2026-11-12
   Cimadolmo: 2026-11-09
   Cison di Valmarino: 2026-10-30
   Codognè: 2026-11-06
   Colle Umberto: 2026-11-07
   Conegliano: 2026-10-30
   Cordignano: 2026-10-30
-  Cornuda: null
+  Cornuda: 2026-11-12
   Crocetta del Montello: null
   Farra di Soligo: 2026-11-08
   Follina: 2026-11-08
   Fontanelle: 2026-11-10
-  Fonte: null
+  Fonte: 2026-11-12
   Fregona: 2026-10-31
   Gaiarine: 2026-11-08
   Giavera del Montello: null
@@ -42,7 +42,7 @@ comuni_TV:
   Istrana: 2026-11-11
   Loria: 2026-11-02
   Mansuè: 2026-11-01
-  Mareno di Piave: null
+  Mareno di Piave: 2026-11-12
   Maser: 2026-11-02
   Maserada sul Piave: 2026-11-02
   Meduna di Livenza: 2026-11-11
@@ -78,9 +78,9 @@ comuni_TV:
   San Biagio di Callalta: 2026-11-02
   San Fior: 2026-11-10
   San Pietro di Feletto: null
-  San Polo di Piave: null
+  San Polo di Piave: 2026-11-12
   San Vendemiano: 2026-10-30
-  San Zenone degli Ezzelini: null
+  San Zenone degli Ezzelini: 2026-11-12
   Santa Lucia di Piave: null
   Sarmede: 2026-11-10
   Segusino: 2026-11-08
@@ -171,6 +171,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Sport > Sport di precisione": 2026-11-12
+  "Sport > Arrampicata": 2026-11-12
+  "Sagre e cibo > Sagre": 2026-11-12
+  "Sport > Montagna ed escursionismo": 2026-11-12
   "Musica e party > Ballo": 2026-11-11
   "Spettacoli > Musical e operetta": 2026-11-11
   "Natura e benessere > Animali": 2026-11-11

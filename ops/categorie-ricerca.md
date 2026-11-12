@@ -35,8 +35,12 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Arrampicata** [arrampicata, climbing, boulder, falesia]
   - boulder [contest boulder, open boulder] · lead [difficolta'] · speed · falesia [raduno in falesia]
   - palestre indoor (open day, corsi base) · ice climbing · gare FASI
+  · palestre della provincia [Gioco Verticale - Le Bloc a Treviso, Orizzonti Verticali a Montebelluna, Arena Boulder]:
+    i siti non pubblicano eventi datati, contest solo sui social (2026-11-12: resa 0) · calendario gare FASI [federclimb calendario gare]
 - **Montagna ed escursionismo** (vedi anche Natura) [escursione CAI, uscita sociale]
   - escursioni guidate · via ferrata · scialpinismo · ciaspolate [racchette da neve] · alpinismo
+  · uscite delle sezioni CAI [CAI Treviso uscite, gruppi Seniores, Kalipe', Neveganti]: mete in provincia (Cartizze,
+    Monfenera, Monte Baldo di Vittorio Veneto), schede complete solo pochi giorni prima · uscite di fine anno con pranzo
 - **Sport d'acqua** [regata, gara di nuoto] (in autunno rara: nessun evento il 2026-11-09)
   · campionati di canottaggio di fondo sul Sile [canottieri, tricolori di fondo] · meeting di nuoto nelle piscine comunali [swim cup, trofeo]
   - nuoto in piscina · nuoto in acque libere · canoa e kayak · rafting · SUP [stand up paddle] · canottaggio
@@ -54,6 +58,8 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Equitazione** [concorso ippico] · salto ostacoli · endurance · passeggiate a cavallo · palio
   · concorsi FISE del Veneto [equiresults calendario, rideup]
 - **Sport di precisione** · tiro con l'arco · golf · bocce · biliardo · freccette
+  · gare indoor di tiro con l'arco da novembre a febbraio [inviti FITArco, ianseo] · tiro 3D nel bosco (Crocetta)
+    · gare di bocce nei bocciodromi comunali [bocciofila, gara a coppie] (2026-11-12: nessun evento TV trovato)
 - **Ginnastica e danza sportiva** · ginnastica artistica e ritmica · danza sportiva · cheerleading
 - **Sport tradizionali e popolari** · palio e giochi storici · tiro alla fune · corsa nei sacchi
   · giochi popolari dentro le sagre (pignatte, corsa nei sacchi, partita delle vecchie glorie) · palio di Sant'Andrea (Solighetto) · Panevin e foghera (5-6 gennaio)
@@ -100,6 +106,8 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Sagre** [sagra, festa paesana, festa patronale] · di prodotto (zucca, radicchio, castagne e marroni, asparagi,
   funghi, baccala', pesce, spiedo, polenta) · patronali · feste di frazione
   · feste dei santuari mariani di novembre [Madonna della Salute] · sagre di San Martino
+  · feste di quartiere dei circoli NOI [circolo NOI, festa di quartiere] · feste di Santa Caterina e Sant'Andrea
+    (fine novembre, Barbisano, Colbertaldo, Solighetto) · cene del lesso e dello spiedo delle Pro Loco
 - **Vino e bevande** [degustazione, cantine aperte] · Prosecco e colline del Conegliano Valdobbiadene · mostre dei vini
   · Veneto Wine Stars (Conegliano) · Go To Veneto (Strada del Conegliano Valdobbiadene) · birrifici artigianali
   (non sono eventi le degustazioni in cantina su appuntamento del calendario del Consorzio)
@@ -182,6 +190,7 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-02 · +12 voci · dove: Spettacoli > Teatro (+4), Comicita' (+1), Danza (+1), Famiglie > Laboratori (+2), Mercatini (+1), Fiere (+2), Collezionismo (+1)
 - 2026-11-05 · +11 voci · dove: Sport > Eventi per chi guarda (+4), Arti marziali (+1), Equitazione (+1), Business > Networking (+2), Natura > Ambiente (+1), Animali (+1), Arte e cultura > Visite guidate (+1)
 - 2026-11-06 · +11 voci · dove: Sport > Motori (+3), Sagre > Vino e bevande (+3), Mercatini > Mercati agricoli (+2), Business > Convegni e conferenze (+3)
+- 2026-11-12 · +11 voci · dove: Sport > Arrampicata (+2), Montagna ed escursionismo (+2), Sport di precisione (+3), Sagre (+4)
 - 2026-11-07 · +10 voci · dove: Sport > Sport per tutti (+3), Arte e cultura > Storia e rievocazioni (+2), Spettacoli > Circo e arti di strada (+2), Mercatini > Collezionismo (+3)
 - 2026-11-08 · +10 voci · dove: Sport > Racchetta (+2), Arte e cultura > Patrimonio e tradizioni (+3), Musica > Musica partecipata (+2), Spettacoli > Cinema (+3)
 - 2026-11-09 · +11 voci · dove: Arte e cultura > Mostre (+4), Spettacoli > Teatro (+2), Sport > Sport d'acqua (+2), Sport di squadra (+2), Natura > Escursioni (+1)
