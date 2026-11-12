@@ -16,3 +16,88 @@ luoghi:
     lat: 45.6814
     lon: 12.2530
     nota: "Alcuni Teatro Sant'Anna, Viale Brigata Treviso 18. Coordinate gia' trovate dal PC per indirizzo (19 eventi)."
+  - nomi: ["Teatro Comunale Mario Del Monaco", "Teatro Del Monaco"]
+    comune: Treviso
+    lat: 45.66341
+    lon: 12.24459
+    nota: "Punto trovato dal PC per indirizzo, uguale in 29 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Teatro Accademia"]
+    comune: Conegliano
+    lat: 45.88699
+    lon: 12.29726
+    nota: "Punto trovato dal PC per indirizzo, uguale in 15 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Teatro Lorenzo Da Ponte", "Teatro Da Ponte"]
+    comune: Vittorio Veneto
+    lat: 45.99755
+    lon: 12.29029
+    nota: "Punto trovato dal PC per indirizzo, uguale in 25 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Palaverde"]
+    comune: Villorba
+    lat: 45.72412
+    lon: 12.26262
+    nota: "Punto trovato dal PC per indirizzo, uguale in 13 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Teatro Accademico"]
+    comune: Castelfranco Veneto
+    lat: 45.67182
+    lon: 11.92591
+    nota: "Punto trovato dal PC per indirizzo, uguale in 13 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Mattorosso"]
+    comune: Montebelluna
+    lat: 45.77775
+    lon: 12.05787
+    nota: "Punto trovato dal PC per indirizzo, uguale in 11 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Centro Vicinalis"]
+    comune: Vazzola
+    lat: 45.83277
+    lon: 12.41815
+    nota: "Punto trovato dal PC per indirizzo, uguale in 7 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Area della sagra di Lorenzaga", "Colmello di Lorenzaga"]
+    comune: Motta di Livenza
+    lat: 45.76496
+    lon: 12.63847
+    nota: "Punto trovato dal PC per indirizzo, uguale in 6 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Stadio Comunale di Monigo", "Stadio di Monigo"]
+    comune: Treviso
+    lat: 45.6803
+    lon: 12.2132
+    nota: "Punto trovato dal PC per indirizzo, uguale in 6 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Auditorium Giovanni Comisso"]
+    comune: Zero Branco
+    lat: 45.60798
+    lon: 12.1817
+    nota: "Punto trovato dal PC per indirizzo, uguale in 5 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Museo di Santa Caterina", "Museo Santa Caterina", "Sede Santa Caterina"]
+    comune: Treviso
+    lat: 45.66674
+    lon: 12.25086
+    nota: "Punto trovato dal PC per indirizzo, uguale in 8 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Parco dello Storga"]
+    comune: Treviso
+    lat: 45.69453
+    lon: 12.27042
+    nota: "Punto trovato dal PC per indirizzo, uguale in 4 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Libreria Ubik Treviso"]
+    comune: Treviso
+    lat: 45.66353
+    lon: 12.24501
+    nota: "Punto trovato dal PC per indirizzo, uguale in 4 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Stadio Maurizio Quaggia", "Stadio Quaggia"]
+    comune: Mogliano Veneto
+    lat: 45.55568
+    lon: 12.2447
+    nota: "Punto trovato dal PC per indirizzo, uguale in 4 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Teatro Damiano Chiesa"]
+    comune: Gaiarine
+    lat: 45.90389
+    lon: 12.51211
+    nota: "Punto trovato dal PC per indirizzo, uguale in 4 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Palazzo Foscolo"]
+    comune: Oderzo
+    lat: 45.77866
+    lon: 12.49109
+    nota: "Punto trovato dal PC per indirizzo, uguale in 3 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Museo Bailo"]
+    comune: Treviso
+    lat: 45.66757
+    lon: 12.23811
+    nota: "Punto trovato dal PC per indirizzo, uguale in 3 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."

@@ -347,6 +347,42 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-05: stesso portale di Silea (scheda /eventi/Panevin-2026---Monastier-di-Treviso.html); indirizzo dell'elenco come negli altri comuni dello stesso portale, da controllare nel rapporto."
 
+  - id: comune-cornuda
+    name: Comune di Cornuda
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.cornuda.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Cornuda (TV), anno 2026 se non indicato; town Cornuda se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-12: stesso portale di Silea (schede /eventi/<nome>.html); un solo evento futuro al 12/11 (incontro AGRILAB del 16/11). Da controllare nel rapporto."
+
+  - id: comune-chiarano
+    name: Comune di Chiarano
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.chiarano.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Chiarano (TV), anno 2026 se non indicato; town Chiarano se non indicato. Escludere gli eventi che si svolgono in altri comuni (es. Cessalto, provincia di Venezia)."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-12: stesso portale di Silea; elenco /home/vivere/eventi.html indicato nella home (2 eventi in evidenza al 12/11). Da controllare nel rapporto."
+
+  - id: comune-fonte
+    name: Comune di Fonte
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.fonte.tv.it/eventi]
+    hint: "Eventi del Comune di Fonte (TV), anno 2026 se non indicato; town Fonte se non indicato (frazioni Onè, San Pietro, Fonte Alto)."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-12: WordPress tema design-comuni (schede /vivere-il-comune/eventi/...) con ora, luogo e ingresso nelle schede (concerti del Salotto Musicale). Da controllare nel rapporto."
+
+  - id: comune-san-polo
+    name: Comune di San Polo di Piave
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.sanpolodipiave.tv.it/it/eventi]
+    hint: "Eventi del Comune di San Polo di Piave (TV), anno 2026 se non indicato; town San Polo di Piave se non indicato (frazione Rai)."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-12: sito Municipium come Roncade (elenco con giorno, titolo e link alla scheda; 2 laboratori in biblioteca a novembre). Da controllare nel rapporto."
+
   - id: teatro-da-ponte
     name: Teatro Lorenzo Da Ponte (Vittorio Veneto)
     type: html_llm

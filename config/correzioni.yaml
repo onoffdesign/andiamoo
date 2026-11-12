@@ -1085,6 +1085,91 @@ correggi:
     official_url: https://avaibooksports.com/inscripcion/xmas-run-2026/
     nota: "trovaeventi: domenica 13/12 partenza alle 10 da Piazza dei Signori, iscrizioni su avaibooksports; scioglie il dubbio 12 o 13/12"
     verificato: "2026-11-10"
+  379c4f16e1478942:
+    title: "Filippo Spreafico: Strand Up Comedy al Mattorosso"
+    venue: Mattorosso
+    address: Via Piave 108
+    official_url: "https://mattorosso.it/filippo-spreafico-strand-up-comedy"
+    access: biglietto
+    price: "12 euro con prima consumazione; cena e spettacolo su prenotazione"
+    nota: "elenco eventi del Mattorosso (12/11); stessi dati della scheda gia' verificata il 7/11 (dfdb24fdc47fbbda)"
+    verificato: "2026-11-12"
+  afc3acaf10c74d66:
+    start: 2026-11-13T22:00
+    access: libero
+    price: "ingresso gratuito, riservato ai maggiorenni"
+    official_url: "https://mattorosso.it/rosso-la-noche-reggaeton-8"
+    nota: "scheda del Mattorosso: dalle 22 alle 3, ingresso gratuito, +18"
+    verificato: "2026-11-12"
+  faf915cda68325cb:
+    start: 2026-11-14T22:00
+    access: biglietto
+    price: "12 euro con drink dopo cena; con la cena 6 euro di servizio live"
+    official_url: "https://mattorosso.it/cindy-the-rock-history"
+    nota: "scheda del Mattorosso: live dalle 22"
+    verificato: "2026-11-12"
+  601a98c56757cb4f:
+    start: 2026-11-19T22:00
+    access: libero
+    price: "ingresso gratuito; cena dalle 20:30 su prenotazione"
+    official_url: "https://mattorosso.it/lasciateci-cantare-levento-karaoke-10"
+    nota: "scheda del Mattorosso: cena dalle 20:30, dalle 22 ingresso libero"
+    verificato: "2026-11-12"
+  b5937cf54799705d:
+    access: libero
+    official_url: "https://confartigianatomarcatrevigiana.it/13-14-15-novembre-fondentemente/"
+    nota: "Confartigianato Marca Trevigiana: stand in Piazza dei Signori ven 10-20, sab 9-24, dom 9-20; mostra mercato all'aperto in piazza"
+    verificato: "2026-11-12"
+  9bcffea25610b7df:
+    end: 2026-11-14T18:30
+    nota: "elenco eventi Ubik: firmacopie dalle 10 alle 18:30"
+    verificato: "2026-11-12"
+  995f5a1db1aa5c2e:
+    access: biglietto
+    address: Via Colelli 2
+    ticket_url: "https://www.ciaotickets.com/it/biglietti/mogliano-veneto-rugby-rugby-viadana-1970-0"
+    nota: "Ciaotickets: sabato 14/11 ore 15:30, Stadio Quaggia, Via Colelli 2; prezzi non indicati"
+    verificato: "2026-11-12"
+  5f44c7a01844c899:
+    access: libero
+    nota: "Qdpnews: partenza alle 13 dalla Pro Loco di Soligo, 14:30 piazza del Municipio di Farra, dalle 16 Piazza Rovere a Col San Martino fino alle 18; aperta a tutti"
+    verificato: "2026-11-12"
+  75821875b9f8410c:
+    official_url: "https://www.fioridinverno.tv/eventi/1-mostra-del-radicchio-tardivo-di-treviso-igp/"
+    nota: "calendario Fiori d'Inverno: 4a edizione a Paderno dal 20 al 29/11; prima il link era un sito umbro"
+    verificato: "2026-11-12"
+  ed1bb12011b31e37:
+    address: Piazza Giovanni Paolo I
+    nota: "Giornate Martiniane (Oderzo Cultura): 19/11 ore 18 al Museo della Battaglia di Vittorio Veneto; ingresso non indicato"
+    verificato: "2026-11-12"
+  8c3f0c521116f9de:
+    address: Via Forestuzzo
+    nota: "parco di Villa Freya in Via Forestuzzo ad Asolo; prima solo il comune"
+    verificato: "2026-11-12"
+  0d1ec027b00cd9ac:
+    venue: "Salone polivalente dietro la chiesa di Lorenzaga"
+    nota: "Anteprima Sagre: sabato e domenica 7-8, 14-15, 21-22, 28-29/11, cucina dalle 18, Via Colmello 18; ingresso non indicato (Associazione Pro Lorenzaga)"
+    verificato: "2026-11-12"
+  39d0348e28cfbad8:
+    venue: "Salone polivalente dietro la chiesa di Lorenzaga"
+    nota: "Anteprima Sagre: sabato e domenica 7-8, 14-15, 21-22, 28-29/11, cucina dalle 18, Via Colmello 18; ingresso non indicato (Associazione Pro Lorenzaga)"
+    verificato: "2026-11-12"
+  81ca8663da357d8b:
+    venue: "Salone polivalente dietro la chiesa di Lorenzaga"
+    nota: "Anteprima Sagre: sabato e domenica 7-8, 14-15, 21-22, 28-29/11, cucina dalle 18, Via Colmello 18; ingresso non indicato (Associazione Pro Lorenzaga)"
+    verificato: "2026-11-12"
+  6e25a79a558f68b0:
+    venue: "Salone polivalente dietro la chiesa di Lorenzaga"
+    nota: "Anteprima Sagre: sabato e domenica 7-8, 14-15, 21-22, 28-29/11, cucina dalle 18, Via Colmello 18; ingresso non indicato (Associazione Pro Lorenzaga)"
+    verificato: "2026-11-12"
+  a27e2810774b7187:
+    venue: "Salone polivalente dietro la chiesa di Lorenzaga"
+    nota: "Anteprima Sagre: sabato e domenica 7-8, 14-15, 21-22, 28-29/11, cucina dalle 18, Via Colmello 18; ingresso non indicato (Associazione Pro Lorenzaga)"
+    verificato: "2026-11-12"
+  9cdc92fdd26a9ded:
+    venue: "Salone polivalente dietro la chiesa di Lorenzaga"
+    nota: "Anteprima Sagre: sabato e domenica 7-8, 14-15, 21-22, 28-29/11, cucina dalle 18, Via Colmello 18; ingresso non indicato (Associazione Pro Lorenzaga)"
+    verificato: "2026-11-12"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
@@ -1138,3 +1223,18 @@ verificati:
   1f5b9f6cf260dd62: "2026-11-10"
   85f873f2267b4e72: "2026-11-10"
   c3409eb65d248dcb: "2026-11-10"
+  0b909c95765b91f4: "2026-11-12"
+  e66d93592c95d7a7: "2026-11-12"
+  50fe2d6109ba542d: "2026-11-12"
+  80ce5c384824e1b9: "2026-11-12"
+  763db6826f3f3a69: "2026-11-12"
+  2d67cd5277bef8ac: "2026-11-12"
+  c53aebeafeaf95ee: "2026-11-12"
+  744c00f2e1a1fbf4: "2026-11-12"
+  e7615ee49c4e1085: "2026-11-12"
+  5598a8e47615ef83: "2026-11-12"
+  6cee3d39a1718fc5: "2026-11-12"
+  e3e2cf4622a52f6b: "2026-11-12"
+  8e665f1ea095f535: "2026-11-12"
+  35498b6affb8e7dd: "2026-11-12"
+  a9bdd63386b01fbb: "2026-11-12"
