@@ -30,12 +30,12 @@ sources:
     type: tribe_api
     portal: true          # grande portale: solo "scoperta", con tetto per giro
     max_events: 40
-    enabled: true
+    enabled: false
     base_url: https://www.insolitotrantran.it
     per_page: 50
     max_pages: 6
     ai_rewrite: true
-    note: "API pubblica, robots.txt libero. ~100 eventi TV+VE; luogo spesso solo nel testo -> AI."
+    note: "API pubblica, robots.txt libero. ~100 eventi TV+VE; luogo spesso solo nel testo -> AI. 2026-11-13: disattivata da Claude, l'API tribe risponde 404 da piu' giri (plugin rimosso o spostato); da riprovare se il sito torna a pubblicarla."
 
   - id: eventiesagre
     name: eventiesagre.it
@@ -224,33 +224,30 @@ sources:
 
   - id: comune-maser
     name: Comune di Maser
-    type: myportal
+    type: html_llm
     enabled: true
-    base_url: https://www.comune.maser.tv.it
-    ipa: C_F009
-    page_size: 40
+    listing_urls: [https://www.comune.maser.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Maser (TV), anno 2026 se non indicato; town Maser se non indicato."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-01: sito MyPortal (/home/vivere/...). Codice IPA dal codice catastale (F009): da controllare nel rapporto la prima notte."
+    note: "Aggiunta da Claude il 2026-11-01: sito MyPortal (/home/vivere/...). Codice IPA dal codice catastale (F009): da controllare nel rapporto la prima notte. 2026-11-13: l'API MyPortal con il codice catastale da' 404 dal PC; passata a html_llm sulla pagina eventi come Silea (stesso portale, funziona)."
 
   - id: comune-povegliano
     name: Comune di Povegliano
-    type: myportal
+    type: html_llm
     enabled: true
-    base_url: https://www.comune.povegliano.tv.it
-    ipa: C_G944
-    page_size: 40
+    listing_urls: [https://www.comune.povegliano.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Povegliano (TV), anno 2026 se non indicato; town Povegliano se non indicato."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-02: sito MyPortal (/home/vivere/eventi.html, schede /eventi/<nome>.html). Codice IPA dal codice catastale (G944): da controllare nel rapporto la prima notte."
+    note: "Aggiunta da Claude il 2026-11-02: sito MyPortal (/home/vivere/eventi.html, schede /eventi/<nome>.html). Codice IPA dal codice catastale (G944): da controllare nel rapporto la prima notte. 2026-11-13: l'API MyPortal con il codice catastale da' 404 dal PC; passata a html_llm sulla pagina eventi come Silea (stesso portale, funziona)."
 
   - id: comune-loria
     name: Comune di Loria
-    type: myportal
+    type: html_llm
     enabled: true
-    base_url: https://www.comune.loria.tv.it
-    ipa: C_E692
-    page_size: 40
+    listing_urls: [https://www.comune.loria.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Loria (TV), anno 2026 se non indicato; town Loria se non indicato."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-02: schede /eventi/<nome>.html come Povegliano (MyPortal). Codice IPA dal codice catastale (E692): da controllare nel rapporto la prima notte."
+    note: "Aggiunta da Claude il 2026-11-02: schede /eventi/<nome>.html come Povegliano (MyPortal). Codice IPA dal codice catastale (E692): da controllare nel rapporto la prima notte. 2026-11-13: l'API MyPortal con il codice catastale da' 404 dal PC; passata a html_llm sulla pagina eventi come Silea (stesso portale, funziona)."
 
   - id: comune-trevignano
     name: Comune di Trevignano
@@ -264,13 +261,12 @@ sources:
 
   - id: comune-gaiarine
     name: Comune di Gaiarine
-    type: myportal
+    type: html_llm
     enabled: true
-    base_url: https://www.comune.gaiarine.tv.it
-    ipa: C_D854
-    page_size: 40
+    listing_urls: [https://www.comune.gaiarine.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Gaiarine (TV), anno 2026 se non indicato; town Gaiarine se non indicato."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-08: pagina eventi /home/vivere/eventi.html come Povegliano e Loria (MyPortal). Codice IPA dal codice catastale (D854, da confermare): da controllare nel rapporto la prima notte."
+    note: "Aggiunta da Claude il 2026-11-08: pagina eventi /home/vivere/eventi.html come Povegliano e Loria (MyPortal). Codice IPA dal codice catastale (D854, da confermare): da controllare nel rapporto la prima notte. 2026-11-13: l'API MyPortal con il codice catastale da' 404 dal PC; passata a html_llm sulla pagina eventi come Silea (stesso portale, funziona)."
 
   # ---------- Siti con il tema "design comuni" (WordPress, /vivere-il-comune/eventi/) ----------
   # Nessun JSON-LD: la pagina elenco ha titolo, giorno e link; il modello locale estrae gli eventi (costo zero
@@ -337,6 +333,15 @@ sources:
     hint: "Eventi del Comune di Silea (TV), anno 2026 se non indicato; town Silea se non indicato."
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-05: portale come Povegliano e Loria (schede /eventi/<nome>.html), 6 eventi futuri; codice IPA non trovato nella pagina, quindi html_llm e non myportal."
+
+  - id: comune-resana
+    name: Comune di Resana
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.resana.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di Resana (TV), anno 2026 se non indicato; town Resana se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-13: stesso portale di Silea (pagina eventi linkata nel footer della home, notizie /notizie/<data>-<nome>.html); da controllare nel rapporto la prima notte."
 
   - id: comune-monastier
     name: Comune di Monastier di Treviso

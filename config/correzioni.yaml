@@ -1170,6 +1170,64 @@ correggi:
     venue: "Salone polivalente dietro la chiesa di Lorenzaga"
     nota: "Anteprima Sagre: sabato e domenica 7-8, 14-15, 21-22, 28-29/11, cucina dalle 18, Via Colmello 18; ingresso non indicato (Associazione Pro Lorenzaga)"
     verificato: "2026-11-12"
+  78fef05c2ed34366:
+    start: "2026-11-21T17:30"
+    venue: "Biblioteca comunale di Quinto di Treviso"
+    address: "Via D'Annunzio 9"
+    official_url: "https://www.comune.quintoditreviso.tv.it/novita/donne-lungo-il-sile-storie-di-forza-e-radici/"
+    summary: "Consegna del Premio Donna 2026 alle 17:30 e alle 18 un incontro su lavoro, memoria e tradizioni locali a 80 anni dalle Madri Costituenti."
+    nota: "pagina della notizia del Comune di Quinto (ora, luogo, programma); accesso non indicato"
+    verificato: "2026-11-13"
+  61fadb05ad71719e:
+    venue: "Stand della sagra in Piazza Marconi"
+    address: "Piazza Guglielmo Marconi, San Martino"
+    nota: "programma della sagra su trevisoeventi (organizza Istadea): piazza della frazione San Martino, non il centro del comune"
+    verificato: "2026-11-13"
+  454c10a0f5122147:
+    venue: "Stand della sagra in Piazza Marconi"
+    address: "Piazza Guglielmo Marconi, San Martino"
+    nota: "programma della sagra su trevisoeventi (organizza Istadea): piazza della frazione San Martino, non il centro del comune"
+    verificato: "2026-11-13"
+  9ce607b40afe8f5d:
+    venue: "Stand della sagra in Piazza Marconi"
+    address: "Piazza Guglielmo Marconi, San Martino"
+    nota: "programma della sagra su trevisoeventi (organizza Istadea): piazza della frazione San Martino, non il centro del comune"
+    verificato: "2026-11-13"
+  bb6c660107d19fa8:
+    start: "2026-11-13T20:00"
+    venue: "Sala consiliare del Municipio di Refrontolo"
+    access: "libero"
+    price: "ingresso libero"
+    official_url: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/tributo-a-francesco-fabbri-venerdi-la-presentazione-del-libro/"
+    summary: "Presentazione del libro dedicato all'ex ministro Francesco Fabbri, a 50 anni dalla scomparsa, con l'autore Marco Zabotti in dialogo con una giornalista."
+    nota: "articolo di Qdpnews (ora, sala consiliare, ingresso libero; organizza il Comune)"
+    verificato: "2026-11-13"
+  7b4e5e0f5eb24802:
+    title: "Generazione Cristallo"
+    venue: "Aula Magna dell'I.I.S. Andrea Palladio"
+    price: "gratuito su prenotazione fino a esaurimento posti"
+    official_url: "https://www.comune.treviso.it/home/dettaglio/eventi/generazione-cristallo-2026"
+    nota: "titolo e prezzo ripuliti; link alla scheda del Comune di Treviso (fonte MyPortal)"
+    verificato: "2026-11-13"
+  02e803fbfbd0d4d4:
+    title: "Sportelli informativi dell'Istituto G.B. Cerletti"
+    venue: "Istituto G.B. Cerletti"
+    address: "Via XXVIII Aprile"
+    official_url: "https://www.eventbrite.it/e/sportelli-informativi-tickets-2002825363577"
+    nota: "titolo ripulito; la pagina Eventbrite e' la pagina di iscrizione dell'organizzatore"
+    verificato: "2026-11-13"
+  eaa3fb894afc8ee3:
+    venue: "Pro Loco di Camalo'"
+    address: "Via Povegliano 45/A, Camalo'"
+    access: "libero"
+    price: "ingresso libero"
+    nota: "indirizzo e ingresso libero dalla guida del weekend di TViWeb (13-15/11)"
+    verificato: "2026-11-13"
+  1bd6d80749a50cdb:
+    venue: "Ex Asilo Gobbato"
+    address: "Via Schiavonesca Nuova 76"
+    nota: "luogo dalla guida del weekend di TViWeb (13-15/11); ingresso non indicato"
+    verificato: "2026-11-13"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
@@ -1207,6 +1265,8 @@ rimuovi:
   8fa2a1c939b61896: "concluso l'8/11/2026"
   ed55e45c9cbea33c: "concluso l'8/11/2026"
   a315f3686572da5d: "concluso il 6/11/2026"
+  0cf85d869332204f: "data sbagliata: il programma del Comune di Quinto non ha incontri il 20/11 (il successivo dopo l'11/11 e' il 10/12); riassunto di un altro evento"
+  ad284bd1f3d711ba: "data sbagliata: il programma del Comune di Quinto ha l'incontro il 10/12, non il 12/12 (doppione di b5a4d534543fe28c)"
 verificati:
   5f912b8299bbe9e3: "2026-11-08"        # H-FARM, Via Adriano Olivetti 1 a Ca' Tron: il campus e' davvero a 7 km dal centro di Roncade
   d20b8daa82d71b50: "2026-10-31"
