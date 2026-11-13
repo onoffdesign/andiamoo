@@ -481,19 +481,6 @@ eventi:
     summary: Mercatino mensile di antiquariato, modernariato e oggetti da collezione lungo Borgo Cavour e via Canova.
     fonte: https://www.fleamapket.com/event/mercatino-dellantiquariato-a-treviso-cose-daltri-tempi/2027-01-24/
     trovato: '2026-11-01'
-  - title: "Uno nessuno tutti: storia di un soldato senza nome"
-    start: 2026-11-04T20:30
-    venue: "Teatro Lorenzo Da Ponte"
-    address: "Via Martiri della Liberta' 36"
-    town: "Vittorio Veneto"
-    category: teatro-spettacoli
-    subcategory: teatro
-    access: iscrizione
-    price: "Gratuito con prenotazione obbligatoria"
-    official_url: https://teatrolorenzodaponte.it/cartellone/uno-nessuno-tutti-04-11-2026/
-    summary: "Lettura teatrale del Gruppo Teatrale Castellani, testo e regia di Piero Turco, dedicata ai soldati e alle persone comuni nei momenti difficili della storia del Paese."
-    fonte: https://teatrolorenzodaponte.it/calendario/
-    trovato: '2026-11-02'
   - title: "Strighe maledette!"
     start: 2026-11-15T20:30
     venue: "Teatro Lorenzo Da Ponte"
@@ -3643,6 +3630,7 @@ eventi:
     start: "2026-11-15T08:30"
     end: "2026-11-15T18:00"
     venue: "Villa Wassermann"
+    address: "Via della Vittoria 180"
     town: "Giavera del Montello"
     category: "sagre-feste"
     subcategory: "ricorrenze"
@@ -3682,4 +3670,40 @@ eventi:
     official_url: "https://www.comune.vedelago.tv.it/vivere-il-comune/eventi/sagra-di-san-martino-vedelago/"
     summary: "Ultima sera della sagra parrocchiale con lo stand gastronomico aperto dalle 18:30 e servizio da asporto."
     fonte: "https://veneto.piazzainfesta.it/vedelago/sagra-di-san-martino-125953"
+    trovato: "2026-11-13"
+  - title: "Into the woods, abitare il mondo con cura: sfilata di moda equosolidale (4passiFestival)"
+    start: "2026-11-13T19:30"
+    venue: "Altromercato Store"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "incontri-pubblici"
+    access: "iscrizione"
+    price: "gratuito, prenotazione consigliata"
+    official_url: "https://www.nordest24.it/4passifestival-moda-etica-treviso"
+    summary: "Sfilata che presenta la collezione autunno-inverno del commercio equo e racconta produttori e tessuti della moda sostenibile, nel programma della ventesima edizione di 4passiFestival."
+    fonte: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/tarzo/4passifestival-ventesima-edizione-piu-di-30-eventi-che-guardano-al-futuro/"
+    trovato: "2026-11-13"
+  - title: "Dalla natura alla pelle: la bellezza che nasce dai diritti (4passiFestival)"
+    start: "2026-11-19"
+    venue: "Altromercato Store"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "incontri-pubblici"
+    access: "iscrizione"
+    price: "gratuito, prenotazione consigliata"
+    official_url: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/tarzo/4passifestival-ventesima-edizione-piu-di-30-eventi-che-guardano-al-futuro/"
+    summary: "Incontro sulla cosmesi naturale e sulle filiere del commercio equo, nel programma di 4passiFestival."
+    fonte: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/tarzo/4passifestival-ventesima-edizione-piu-di-30-eventi-che-guardano-al-futuro/"
+    trovato: "2026-11-13"
+  - title: "Alexander Langer: un'eredita' per guardare nel futuro (4passiFestival)"
+    start: "2026-11-26"
+    venue: "Altromercato Store"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "incontri-pubblici"
+    access: "iscrizione"
+    price: "gratuito, prenotazione consigliata"
+    official_url: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/tarzo/4passifestival-ventesima-edizione-piu-di-30-eventi-che-guardano-al-futuro/"
+    summary: "Incontro dedicato alla figura e al pensiero di Alexander Langer, nel programma di 4passiFestival."
+    fonte: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/tarzo/4passifestival-ventesima-edizione-piu-di-30-eventi-che-guardano-al-futuro/"
     trovato: "2026-11-13"

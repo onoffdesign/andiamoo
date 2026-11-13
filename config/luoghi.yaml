@@ -101,3 +101,13 @@ luoghi:
     lat: 45.66757
     lon: 12.23811
     nota: "Punto trovato dal PC per indirizzo, uguale in 3 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-12 (dentro il comune, nella zona giusta)."
+  - nomi: ["Borgo medievale di Collalto", "Chiesa di San Giorgio di Collalto", "Borgo di Collalto"]
+    comune: Susegana
+    lat: 45.85653
+    lon: 12.20851
+    nota: "Punto del Castello di Collalto da Mapcarta (dati OpenStreetMap), aggiunto il 2026-11-13: il borgo e la chiesa di San Giorgio sono accanto ai ruderi del castello. Prima 5 eventi (Natale a Collalto, Festival Organistico) erano sul centro di Susegana, 1,2 km piu' a est."
+  - nomi: [".Ettore"]
+    comune: Signoressa
+    lat: 45.74102
+    lon: 12.12182
+    nota: "Punto trovato dal PC per indirizzo, uguale in 4 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-13 (Signoressa, frazione di Trevignano)."

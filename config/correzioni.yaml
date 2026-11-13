@@ -14,13 +14,6 @@
 #   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
 
 correggi:
-  4e84f1eeea38a5c7:
-    venue: Porta San Tomaso (mura di Treviso)
-    address: Porta San Tomaso, Treviso
-    lat: 45.66994
-    lon: 12.25089
-    nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
-    verificato: 2026-10-29
   4247ba408253fcd3:
     venue: Porta San Tomaso (mura di Treviso)
     address: Porta San Tomaso, Treviso
@@ -49,21 +42,6 @@ correggi:
     lon: 12.25089
     nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
     verificato: 2026-10-29
-  a608aaede79776b8:
-    title: "Mercatino dell'antiquariato e collezionismo a Badoere"
-    start: "2026-11-01"
-    end: ""
-    venue: Rotonda di Badoere (barchesse)
-    address: Piazza Indipendenza, Badoere di Morgano
-    town: Morgano
-    category: mercatini-fiere
-    subcategory: antiquariato
-    access: libero
-    lat: 45.63396
-    lon: 12.08352
-    official_url: https://www.comune.morgano.tv.it
-    nota: "la pagina eventiesagre scrive 'Mordano' per errore: e' a Badoere di Morgano, nelle barchesse, prima domenica del mese tranne agosto (eventiesagre e cosedicasa, organizzatore Comune di Morgano). Prossima data 1/11; coordinate da komoot (highlight 5914389, Rotonda di Badoere)"
-    verificato: 2026-10-30
   30fd144b9925fdef:
     title: "Mercatino dell'antiquariato e del collezionismo a Godega di Sant'Urbano"
     start: "2026-11-15"
@@ -93,50 +71,6 @@ correggi:
     official_url: https://www.corrinrosa.run/san-vendemiano/
     nota: "sito ufficiale da running.life; 8/11/2026, 6, 12 e 21 km"
     verificato: 2026-10-30
-  353ab20488db2a11:
-    title: "Festa del Novello alla Cantina Pizzolato"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  0f892fc7b9b702ac:
-    title: "La notte dei teschi messicani: Halloween al Cantiere"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  b640a5f978ec5c88:
-    title: "80 Voglia Party: Halloween anni '80 al Mattorosso"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  cec3abe5c7ee8b0e:
-    title: "Haunted Beat: Halloween all'Outsider Pub"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  c8abb13e50120929:
-    title: "Halloween a Villa Braida"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  062122fe9945c72e:
-    title: "Halloween al Bastian Osteria"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  5bbd472acc550675:
-    title: "Takemeback on Halloween: Hogwarts 00's Rave"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  15afe1f1492637f1:
-    title: "It's going to be cruel: Halloween di Intima a Villa Lin Andrighetti"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  65125fb4e0dc1de0:
-    title: "The Rocky Horror Picture Show Night: sing-along di Halloween al Cinema Edera"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  b38a1c0908f17a02:
-    title: "Gesti segni colori: laboratori di scrittura a mano e legatoria al Museo Salce"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
-  d80362df681891fc:
-    title: "La vera storia di San Giorgio e il Drago alle Grotte del Caglieron"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
   925e217085586c12:
     title: "Prossima Fermata: parole e musica lungo il fiume al Teatro del Pane"
     nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
@@ -149,28 +83,8 @@ correggi:
     access: "iscrizione"
     price: "gratuito, iscrizione su Eventbrite"
     official_url: "https://www.eventbrite.it/e/biglietti-concerto-di-san-leonardo-2002863989107"
-  8405c33af65c2827:
-    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/giornata-ecologica-1-11-2026
-    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
-    verificato: 2026-10-30
-  fe2d7e3c40b75ecc:
-    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/commemorazione-defunti-2026
-    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
-    verificato: 2026-10-30
-  6622ddad90f519de:
-    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/giornata-nazionale-forze-armate-2026
-    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
-    verificato: 2026-10-30
-  7dae98b2efa5c276:
-    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-31-10-2026
-    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
-    verificato: 2026-10-30
   6dbac29c5966f22b:
     official_url: https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-6-11-2026
-    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
-    verificato: 2026-10-30
-  395e1d0bce8abdb8:
-    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/memory-cafe-treviso-2-11-2026
     nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
     verificato: 2026-10-30
   2a01ab319dd00143:
@@ -210,22 +124,6 @@ correggi:
     official_url: https://4passi.org/programma2026/
     nota: incontro del 4passiFestival 2026 (4passi.org); controllo a campione
     verificato: "2026-10-31"
-  f03fe9dcfb338712:
-    title: 'Risonanze del Sile: Silent Wifi Concert per ADVAR'
-    start: "2026-11-01T17:00"
-    access: iscrizione
-    venue: Piazza Universita'
-    official_url: https://www.sileclassica.it/
-    category: musica
-    subcategory: jazz-classica
-    summary: Concerto in cuffia con Davide Conte al pianoforte, letture de Il Portolano e interventi di Streben Teatro; il ricavato va ad ADVAR.
-    nota: 'programma Sile Classica 2026 (sileclassica.it): ore 17, prenotazione su Eventbrite'
-    verificato: "2026-10-31"
-  1f67c4ef2e3314fa:
-    venue: Sonego di Fregona
-    official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
-    nota: 'Calendario Podismo Veneto novembre 2026: partenza ore 10 da Sonego, 2,9 km D+1000; nessun sito dell''organizzatore'
-    verificato: "2026-10-31"
   e7a571593d0c4f14:
     start: "2026-11-07T18:00"
     official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
@@ -244,14 +142,6 @@ correggi:
     official_url: https://www.atleticasanbiagio.it/
     nota: 'Calendario Podismo Veneto: competitiva 21,097 km ore 9:30, non competitiva 6 e 10 km ore 9; organizza Atletica San Biagio; controllo a campione'
     verificato: "2026-10-31"
-  b00bcef845e8c8e2:
-    official_url: https://www.eventbrite.it/e/biglietti-oltre-il-traguardo-2003958051477
-    nota: 'posizione giusta: campus H-FARM in via Adriano Olivetti a Ca'' Tron, frazione di Roncade a sud del capoluogo; link: pagina di iscrizione dell''organizzatore'
-    verificato: "2026-10-31"
-  d6dd2848a2f5e006:
-    title: 'Takemeback on Hogwarts: rave anni 2000 di Halloween al Magis Club'
-    nota: titolo ripulito
-    verificato: "2026-10-31"
   a0f44877772aeff2:
     title: 'Satorday: giardinaggio selvaggio e talee al Parco Fenderl'
     nota: titolo ripulito
@@ -262,20 +152,8 @@ correggi:
     official_url: https://www.trevisotoday.it/eventi/intelligenza-emotiva-san-vendemiano-2026.html
     nota: 'TrevisoToday: percorso di incontri sul digitale per la comunita'' educante, non un evento business; controllo a campione'
     verificato: "2026-10-31"
-  40a6b81b06d05003:
-    official_url: https://www.eventbrite.it/e/biglietti-bike-test-fantic-presso-autosile-treviso-1982498169392
-    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
-    verificato: "2026-10-31"
-  e1758e6851d1e9a8:
-    official_url: https://www.eventbrite.com/e/biglietti-litografia-su-pietra-2002231443145
-    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
-    verificato: "2026-10-31"
   473f9628e2768f72:
     official_url: https://www.eventbrite.com/e/biglietti-oltre-la-corsa-2003923171149
-    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
-    verificato: "2026-10-31"
-  c51dc5fdb093f9a2:
-    official_url: https://www.eventbrite.it/e/biglietti-bosa-ceramiche-dalla-materia-al-design-2003398534948
     nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
     verificato: "2026-10-31"
   26a85098f1633145:
@@ -312,11 +190,6 @@ correggi:
     official_url: https://www.eventbrite.it/e/biglietti-degustazione-calici-riedel-2003233008855
     nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
     verificato: "2026-10-31"
-  eb448d471b9e41ac:
-    title: Dracula di Bram Stoker (versione originale) al Cinema Edera
-    official_url: https://www.cinemaedera.it/i-film-della-settimana.html
-    nota: "programmazione del Cinema Edera: 1/11 ore 21:15, versione 4K in inglese sottotitolata; era il profilo Instagram"
-    verificato: "2026-11-01"
   fd16d46f8c338876:
     title: "La chiamavano Trinita': pranzo benefico per il Santuario delle Cendrole"
     start: "2026-11-29T12:00"
@@ -1228,15 +1101,34 @@ correggi:
     address: "Via Schiavonesca Nuova 76"
     nota: "luogo dalla guida del weekend di TViWeb (13-15/11); ingresso non indicato"
     verificato: "2026-11-13"
+  bd0c7bd5d3bc5a08:
+    lat: 45.85653
+    lon: 12.20851
+    nota: "punto del Castello di Collalto da Mapcarta (OpenStreetMap): borgo e chiesa di San Giorgio accanto; era sul centro di Susegana"
+    verificato: "2026-11-13"
+  2ba9b4813e243449:
+    lat: 45.85653
+    lon: 12.20851
+    nota: "punto del Castello di Collalto da Mapcarta (OpenStreetMap): borgo e chiesa di San Giorgio accanto; era sul centro di Susegana"
+    verificato: "2026-11-13"
+  4efadef2da3e46ca:
+    lat: 45.85653
+    lon: 12.20851
+    nota: "punto del Castello di Collalto da Mapcarta (OpenStreetMap): borgo e chiesa di San Giorgio accanto; era sul centro di Susegana"
+    verificato: "2026-11-13"
+  dfb11445d21ea61d:
+    lat: 45.85653
+    lon: 12.20851
+    nota: "punto del Castello di Collalto da Mapcarta (OpenStreetMap): borgo e chiesa di San Giorgio accanto; era sul centro di Susegana"
+    verificato: "2026-11-13"
+  412aef7f1fa15b2e:
+    lat: 45.85653
+    lon: 12.20851
+    nota: "punto del Castello di Collalto da Mapcarta (OpenStreetMap): borgo e chiesa di San Giorgio accanto; era sul centro di Susegana"
+    verificato: "2026-11-13"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
-  06c3efce2c9ae5aa: "fuori provincia: Arredamont e' a Longarone (BL)"
-  cba7b17a31b2e7c8: "concluso nella notte del 30-31/10/2026"
-  d4bb012b9395670f: "concluso il 1/11/2026"
   f1ef4b7e8e4186db: "doppione di Su l'arden drio la Livenza (c244694694b8bfbc), stessa marcia di Albina del 22/11: tenuta la scheda col volantino"
-  e0636afff9716e6c: "concluso: scheda del 4/11 di Biblioweek (rassegna 4/10-14/11)"
-  591b428c73348f14: "concluso il 4/11/2026"
-  7cbdd19e0c518b47: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   00d344513fbdd03c: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   786e744948aa8c0f: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   0c2c4e44b796f5ff: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
@@ -1272,7 +1164,6 @@ verificati:
   d20b8daa82d71b50: "2026-10-31"
   00e3dd8ae3bf8877: "2026-11-01"
   8707de21e04dfb7b: "2026-11-01"
-  f03fe9dcfb338712: "2026-11-01"
   613f4a07328c6ac0: "2026-11-01"
   06cfa4a504a8c8e5: "2026-11-01"
   3ae4cecc9ed9584b: "2026-11-01"

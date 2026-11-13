@@ -27,7 +27,6 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - La guida del weekend di Nordest24 ("Veneto, cosa fare dal ... al ...") esce il giovedi': una lettura, eventi TV con
   programma per giorno. Eventivenetando ha i programmi completi delle feste (Prealpi in Festa).
 
-
 - 2026-11-10: le schede dei comuni con elenco vietato (Quinto) si aprono se escono da una ricerca con il titolo
   esatto; il PDF del calendario stagionale allegato alla notizia del Comune (San Fior) si apre e vale un mese.
   collaltodisusegana.it: home con link a festival, mercatini e Natale, tutte apribili.
@@ -38,6 +37,10 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - 2026-11-12: le schede del Mattorosso hanno ora e ingresso (l'elenco no): una lettura per scheda. La pagina eventi
   di mestre.ubiklibri.it elenca anche le presentazioni della Ubik di Treviso con data e ora. Anteprima Sagre ha date
   e luogo esatto delle sagre (Frico: salone dietro la chiesa di Lorenzaga) senza l'ingresso.
+
+- 2026-11-13: Mapcarta (WebSearch con allowed_domains mapcarta.com) da' le coordinate OSM di castelli, chiese e
+  ville con nome; le pagine Wikipedia lette da WebFetch perdono le coordinate. Qdpnews si apre e ha programmi
+  orari completi delle feste dei comuni (Giavera) e dei festival (4passi): buona come official_url.
 
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -66,17 +69,22 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   di Autunno Musicale (solo il Lobgesang "libero con offerta"): verificati senza accesso, inutile ricercarlo.
 - Ricerche di sport tradizionali (palio, tiro alla fune) a novembre: resa 0, sono eventi estivi o dentro le sagre.
 
-- 2026-11-11: resa 0 o pagine vecchie: sito del Comune di Salgareda (halleysac, notizie ferme al 2023) e Pro Loco
-  Salgareda (redirect infinito http/https); Meduna di Livenza (solo PDF stagionali vecchi); Villa Lattes di Istrana
-  (nessun evento datato); teatrocristallo.it e' il Teatro Cristallo di Bolzano, non di Oderzo; le notizie di Natale del
-  Comune di Montebelluna in cima ai risultati sono del 2024; asolomusica.com elenca quasi solo concerti a Venezia e nel
-  Vicentino; montegrappa.org ha camminate senza comune; faitango.it ha schede delle milonghe di anni passati.
-  Ricerche per ambito "Animali" (mostre canine e ornitologiche) e "Musical" in provincia: resa 0.
+- 2026-11-11: resa 0 o pagine vecchie: Comune e Pro Loco di Salgareda, Meduna di Livenza, Villa Lattes di Istrana,
+  teatrocristallo.it (e' Bolzano), notizie di Natale 2024 di Montebelluna, asolomusica.com, montegrappa.org,
+  faitango.it; ambiti "Animali" e "Musical" in provincia.
 - 2026-11-12: palestre di arrampicata (Gioco Verticale, Orizzonti Verticali) senza eventi datati sul sito; schede
   delle uscite CAI Treviso "in aggiornamento" fino a pochi giorni prima; Comune di Mareno di Piave: home MyPortal senza
   link agli eventi; ricerche "tiro con l'arco" e "boulder" in provincia: solo calendari nazionali, resa 0.
 
+- 2026-11-13: robots vietato anche per il sito del Comune di Silea (le schede) e di Caerano di San Marco; il sito
+  della Pro Loco di Segusino non esce, i mercatini di Segusino solo su portali senza dati 2026. Le guide del weekend
+  (TViWeb) sbagliano a volte le date (4passiFestival): confermare. I link letti dentro una pagina (TViWeb ->
+  piazzainfesta, comune di Vedelago) vengono rifiutati: 6 letture perse; prima una ricerca col titolo.
+  Ricerca "visite guidate Treviso" e "accensione albero Natale": solo pagine generiche o del 2025.
+
 ## Calendario (chi pubblica quando)
+- Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli
+  articoli del 2025; quelli nuovi escono dopo il 15-20 novembre.
 - Mostre di presepi: le date della stagione escono a fine novembre (a inizio novembre ci sono solo quelle dell'anno prima).
 - Teatri comunali: le stagioni 2026/27 escono a fine ottobre con vendite da inizio novembre (Castelfranco).
 - Sagre di San Martino e Madonna della Salute: tutte a novembre, quasi solo su Facebook e aggregatori.

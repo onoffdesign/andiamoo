@@ -343,6 +343,24 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-13: stesso portale di Silea (pagina eventi linkata nel footer della home, notizie /notizie/<data>-<nome>.html); da controllare nel rapporto la prima notte."
 
+  - id: comune-giavera
+    name: Comune di Giavera del Montello
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.giavera.tv.it/eventi/]
+    hint: "Eventi del Comune di Giavera del Montello (TV), anno 2026 se non indicato; town Giavera del Montello se non indicato. Escludi convocazioni di commissioni e consigli comunali."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-13: WordPress con tema design-comuni come San Biagio (schede /vivere-il-comune/eventi/<nome>/); da controllare nel rapporto la prima notte."
+
+  - id: comune-nervesa
+    name: Comune di Nervesa della Battaglia
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.nervesa.tv.it/eventi]
+    hint: "Eventi del Comune di Nervesa della Battaglia (TV), anno 2026 se non indicato; town Nervesa della Battaglia se non indicato. Escludi convocazioni di commissioni e consigli comunali."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-13: WordPress con tema design-comuni come San Biagio (schede /vivere-il-comune/eventi/<nome>/); da controllare nel rapporto la prima notte."
+
   - id: comune-monastier
     name: Comune di Monastier di Treviso
     type: html_llm

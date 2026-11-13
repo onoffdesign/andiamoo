@@ -2,6 +2,52 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-13
+
+- **Giro del PC**: NON ha girato stanotte ne' la notte scorsa (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a
+  mano). Coda, campione e posizioni sono quelli dell'11/11; gli eventi aggiunti dalla redazione e i luoghi nuovi
+  aspettano il prossimo giro. Correzioni applicate con --applica (sito da 428 a 426 eventi, 134 correzioni applicate).
+- **Fonti in errore** (rapporto dell'11/11): comune-maser, -povegliano, -loria, -gaiarine (API MyPortal 404 col codice
+  catastale) passate a html_llm sulla pagina /home/vivere/eventi.html come Silea, senza ricerche; insolitotrantran
+  disattivata (API tribe 404 da piu' giri). Restano: comune-monastier (errore JSON dell'AI, probabilmente casuale),
+  2night, dice e ticketone a zero, comune-mogliano e -trevignano con eventi solo fuori periodo.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (14 eventi lavorati su 30 del budget): 14 corretti, 2 rimossi, 0 verificati. Donne lungo il
+  Sile a Quinto (17:30, biblioteca di Via D'Annunzio 9, link della notizia del Comune); rimossi due incontri di
+  "Venezia, quello che non si vede" con date fuori dal programma del Comune (20/11 e 12/12). Sagra di San Martino a
+  Colle Umberto (13, 14, 15/11: Piazza Guglielmo Marconi nella frazione San Martino). Tributo a Francesco Fabbri a
+  Refrontolo (20:00, sala consiliare, ingresso libero, da Qdpnews). Generazione Cristallo e Sportelli del Cerletti
+  (titoli e prezzo ripuliti, link). Birre Artigianali di Camalo' (Via Povegliano 45/A, ingresso libero) e Mostra dei
+  vini del Montello (Ex Asilo Gobbato, Via Schiavonesca Nuova 76) dalla guida TViWeb. Cinque eventi di Collalto
+  (Natale a Collalto, Festival Organistico) con il punto del castello. Restano aperti: eventi di Sernaglia e Silea
+  (siti senza scheda o vietati), Autunno Sanfiorese (PDF), sagre con accesso non pubblicato, Segusino, Biblioweek e
+  centenario della biblioteca di Castelfranco, Circolando a Codogne', Zero Branco.
+- **Controllo a campione**: 4/10 (vedi segnalazioni-e-controllo).
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11, il PC
+  non ha girato). Aggiunti 2 luoghi a config/luoghi.yaml (Borgo e chiesa di San Giorgio di Collalto dal Castello su
+  Mapcarta; .Ettore di Signoressa dai candidati) e coordinate dirette per 5 eventi; indirizzi giusti per Colle
+  Umberto (3), Camalo', Volpago, Quinto (biblioteca). Tre ricerche su Mapcarta senza risultato (Villa Romivo, municipio
+  di San Fior, auditorium di Maserada). I numeri dopo li dara' il prossimo giro.
+- **Eventi aggiunti** (7): sagre-feste 4 (Sagra di San Martino a Vedelago 13, 14, 15/11; Festa dell'Agricoltura a
+  Villa Wassermann di Giavera 15/11), arte-cultura 3 (4passiFestival all'Altromercato di Treviso: sfilata 13/11,
+  incontri 19 e 26/11).
+- **Comuni controllati**: Resana, Giavera del Montello, Nervesa della Battaglia (passati al PC), Caerano di San Marco
+  (robots vietato), Portobuffole' (portale nuovo /home/novita, Natale non ancora pubblicato), Santa Lucia di Piave
+  (Antica Fiera gia' conclusa, nessun evento nuovo).
+- **Categorie cercate**: Visite guidate, Escursioni, Feste stagionali (resa 0: pagine generiche o del 2025), Orti e
+  giardini (non cercata a parte, voce aggiunta). +11 voci nell'albero.
+- **Fonti note**: TViWeb (+4 eventi, date di 4passi sbagliate), Nordest24 (+1, guida Veneto del weekend non uscita).
+  Eventi Venetando e Comune di Orsago non riaperti (budget).
+- **Fonti nuove catalogate**: 6 (Qdpnews, Piazza in Festa, Comuni di Giavera, Nervesa, Resana, Portobuffole').
+  Spostate in sources.yaml: 3 (Resana, Giavera, Nervesa, html_llm); sistemate 5 (4 comuni MyPortal, insolitotrantran).
+- **Pulizia**: tolte 32 voci di eventi conclusi prima del 6/11 da correzioni.yaml e 1 da eventi_redazione.yaml.
+- **Miglioria**: coordinate dei luoghi con nome da Mapcarta (una ricerca con allowed_domains e una lettura).
+- **Test di copertura**: 6/10 (guida TViWeb del weekend).
+- **Ricerche**: 59 su 70 (6 letture rifiutate: link presi da dentro la guida TViWeb).
+- **Problemi aperti**: il giro del PC non parte da due notti (l'ultimo e' stato a mano l'11/11 mattina); controllare
+  nel prossimo rapporto le 7 fonti dei comuni nuove o sistemate; i siti dei comuni di Silea e Caerano vietano la
+  lettura a WebFetch (il PC rispetta robots: controllare se legge ancora Silea); accesso non pubblicato da molte sagre.
+
 ## 2026-11-12
 
 - **Giro del PC**: NON ha girato stanotte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano dopo cinque

@@ -72,6 +72,15 @@ lo schema e si parte dalle regole generali e da quelle della regione.
   Si passa subito al PC come `html_llm` senza leggere gli eventi uno per uno: 4 comuni in 8 letture (Cornuda,
   Chiarano, Fonte, San Polo). Le schede le legge poi il PC ogni notte a costo zero. I candidati di
   `ops/posizioni.json` con 3+ eventi e punto coerente vanno in `config/luoghi.yaml` senza ricerche (17 il 12/11).
+- Coordinate dei luoghi con Mapcarta (miglioria del 2026-11-13): la shell non raggiunge OpenStreetMap e le pagine
+  Wikipedia lette da WebFetch perdono le coordinate. Una WebSearch "standard" con `allowed_domains: ["mapcarta.com"]`
+  e il nome del luogo fa uscire la scheda Mapcarta (dati OpenStreetMap), che WebFetch apre e da' lat/lon esatti in
+  una lettura: Castello di Collalto -> 5 eventi sistemati (borgo e chiesa di San Giorgio). Funziona per castelli,
+  chiese, ville e parchi con nome; non per municipi, auditorium e sale civiche (escono solo i paesi). Per quelli
+  basta l'indirizzo giusto nella correzione: il PC ricalcola.
+- Comuni MyPortal con API in errore (2026-11-13): se l'API `myportal` col codice catastale da' 404, il portale e'
+  quello di Silea: si passa a `html_llm` sulla pagina `/home/vivere/eventi.html`, senza ricerche (Maser, Povegliano,
+  Loria, Gaiarine).
 - Spettacoli commerciali in biglietteria (miglioria del 2026-11-11): comici, tributi, musical e balletti in tournee non
   stanno nelle stagioni dei teatri ne' sui siti dei comuni. La pagina del locale su TicketOne (`/venue/<nome>-<id>/`,
   esce cercando "TicketOne <teatro> <comune>") da' 10 date con ora e prezzo per lettura (Teatro Accademia: 10 su 10
@@ -162,6 +171,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-13 · TV · ricerche 59 · eventi nuovi 7 · eventi per ricerca 0,1 · fonti al PC +3 (Comuni di Resana, Giavera del Montello, Nervesa della Battaglia, html_llm) e 4 sistemate (Maser, Povegliano, Loria, Gaiarine da myportal a html_llm) · miglioria: coordinate dei luoghi con nome da Mapcarta in una ricerca e una lettura (5 eventi di Collalto); comuni MyPortal in 404 passati a html_llm senza ricerche. 6 letture rifiutate perche' i link venivano da dentro una pagina letta (TViWeb)
 - 2026-11-12 · TV · ricerche 61 · eventi nuovi 10 · eventi per ricerca 0,2 · fonti al PC +4 (Comuni di Cornuda, Chiarano, Fonte, San Polo di Piave, html_llm) · miglioria: i comuni piccoli si riconoscono dal tipo di portale e passano al PC con una lettura, senza ricercare gli eventi uno per uno; 17 luoghi ricorrenti in luoghi.yaml dai candidati del PC senza ricerche. Notte spesa soprattutto in manutenzione (24 eventi della coda, campione nuovo)
 
 - 2026-11-11 · TV · ricerche 61 · eventi nuovi 30 · eventi per ricerca 0,5 · fonti al PC +3 (Comune di Roncade html_llm; pagine /venue/ di TicketOne del Teatro Accademia e dell'Auditorium Cassamarca) · miglioria: per gli spettacoli commerciali (comici, tributi, balletti in tournee) si legge la pagina del locale su TicketOne (/venue/<nome>-<id>/), non la pagina citta': 10 eventi del Teatro Accademia in una lettura, nessuno era sul sito; le pagine /venue/ passano al PC. Tolta dal giro cheventi (stato ferma: vietata, proposta ogni notte a vuoto)

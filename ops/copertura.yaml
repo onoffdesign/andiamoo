@@ -11,7 +11,7 @@ comuni_TV:
   Asolo: null
   Borso del Grappa: 2026-11-01
   Breda di Piave: 2026-11-11
-  Caerano di San Marco: null
+  Caerano di San Marco: 2026-11-13
   Cappella Maggiore: 2026-11-01
   Carbonera: 2026-11-07
   Casale sul Sile: null
@@ -36,7 +36,7 @@ comuni_TV:
   Fonte: 2026-11-12
   Fregona: 2026-10-31
   Gaiarine: 2026-11-08
-  Giavera del Montello: null
+  Giavera del Montello: 2026-11-13
   Godega di Sant'Urbano: 2026-10-30
   Gorgo al Monticano: 2026-11-05
   Istrana: 2026-11-11
@@ -54,7 +54,7 @@ comuni_TV:
   Morgano: 2026-10-30
   Moriago della Battaglia: 2026-11-06
   Motta di Livenza: 2026-11-06
-  Nervesa della Battaglia: null
+  Nervesa della Battaglia: 2026-11-13
   Oderzo: 2026-11-11
   Ormelle: null
   Orsago: 2026-11-05
@@ -64,13 +64,13 @@ comuni_TV:
   Pieve di Soligo: 2026-11-01
   Ponte di Piave: 2026-10-31
   Ponzano Veneto: 2026-10-31
-  Portobuffolè: null
+  Portobuffolè: 2026-11-13
   Possagno: 2026-11-10
   Povegliano: 2026-11-02
   Preganziol: null
   Quinto di Treviso: 2026-11-05
   Refrontolo: 2026-11-02
-  Resana: null
+  Resana: 2026-11-13
   Revine Lago: 2026-10-31
   Riese Pio X: null
   Roncade: 2026-10-30
@@ -81,7 +81,7 @@ comuni_TV:
   San Polo di Piave: 2026-11-12
   San Vendemiano: 2026-10-30
   San Zenone degli Ezzelini: 2026-11-12
-  Santa Lucia di Piave: null
+  Santa Lucia di Piave: 2026-11-13
   Sarmede: 2026-11-10
   Segusino: 2026-11-08
   Sernaglia della Battaglia: 2026-11-06
@@ -171,6 +171,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Arte e cultura > Visite guidate": 2026-11-13
+  "Natura e benessere > Escursioni": 2026-11-13
+  "Sagre e cibo > Feste stagionali": 2026-11-13
+  "Natura e benessere > Orti e giardini": 2026-11-13
   "Sport > Sport di precisione": 2026-11-12
   "Sport > Arrampicata": 2026-11-12
   "Sagre e cibo > Sagre": 2026-11-12

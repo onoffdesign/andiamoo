@@ -1,30 +1,29 @@
 {
- "data": "2026-11-12",
- "aggiunti": 10,
- "corretti": 17,
- "rimossi": 0,
- "verificati": 15,
+ "data": "2026-11-13",
+ "aggiunti": 7,
+ "corretti": 14,
+ "rimossi": 2,
+ "verificati": 0,
  "aggiunti_per_categoria": {
-  "sagre-feste": 7,
-  "musica": 2,
-  "arte-cultura": 1
+  "sagre-feste": 4,
+  "arte-cultura": 3
  },
  "fonti_nuove": 6,
- "fonti_spostate": 4,
- "fonti_sistemate": 0,
+ "fonti_spostate": 3,
+ "fonti_sistemate": 5,
  "qualita_campione": "4/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "8/10",
- "ricerche": 61,
- "eventi_per_ricerca": 0.2,
+ "copertura_test": "6/10",
+ "ricerche": 59,
+ "eventi_per_ricerca": 0.1,
  "categorie_aggiunte": 11,
- "miglioria": "comuni piccoli riconosciuti dal tipo di portale e passati al PC con una lettura; 17 luoghi ricorrenti in luoghi.yaml dai candidati del PC",
+ "miglioria": "coordinate dei luoghi con nome (castelli, chiese, ville) da Mapcarta con una ricerca e una lettura; comuni MyPortal in 404 passati a html_llm senza ricerche",
  "problemi": [
-  "Il giro del PC delle 01:00 non e' partito (ultimo a mano l'11/11 mattina)",
+  "Il giro del PC delle 01:00 non e' partito per la seconda notte (ultimo a mano l'11/11 mattina)",
   "Campione 4/10: accesso non pubblicato da sagre e rassegne, link solo Instagram",
-  "Da controllare nel prossimo rapporto le 4 fonti nuove dei comuni e le posizioni ricalcolate",
-  "Eventi di Sernaglia e Silea in coda senza scheda apribile",
+  "Da controllare nel prossimo rapporto 7 fonti dei comuni nuove o sistemate",
+  "Siti dei Comuni di Silea e Caerano vietati ai robot: eventi di Silea in coda senza verifica",
   "Autunno Sanfiorese con calendario solo nel PDF"
  ]
 }

@@ -112,15 +112,16 @@ fonti:
   frequenza: settimanale
   qualita: 3
   resa:
-    controlli: 2
-    eventi_trovati: 4
+    controlli: 3
+    eventi_trovati: 5
     ultimi:
     - 1
     - 3
-  ultimo_controllo: '2026-11-06'
+    - 1
+  ultimo_controllo: '2026-11-13'
   automatizzabile: 'no'
   stato: attiva
-  note: "Articoli con date, orari e prezzi; confermare sul sito ufficiale. | 2026-11-06: la guida 'Veneto, cosa fare dal ... al ...' del weekend esce il giovedi': una lettura, 2 eventi TV (Asolo, Santa Lucia)."
+  note: "Articoli con date, orari e prezzi; confermare sul sito ufficiale. | 2026-11-13: la guida del weekend Veneto non e' uscita nei risultati (solo quella FVG); l'articolo su 4passiFestival ha dato ora e prenotazione della sfilata del 13/11. | 2026-11-06: la guida 'Veneto, cosa fare dal ... al ...' del weekend esce il giovedi': una lettura, 2 eventi TV (Asolo, Santa Lucia)."
 - nome: VenetoToday (eventi Treviso)
   url: https://venetotoday.it/
   query: venetotoday Treviso programma 2026
@@ -1200,11 +1201,11 @@ fonti:
   province: [TV, VI, PD, VE, VR, BL, RO]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
-  ultimo_controllo: '2026-11-11'
+  resa: { controlli: 2, eventi_trovati: 6, ultimi: [2, 4] }
+  ultimo_controllo: '2026-11-13'
   automatizzabile: no
   stato: attiva
-  note: "40 appuntamenti del weekend divisi per provincia (14 in TV) con luogo e sito citato: ottima per il test di copertura e per scoprire; esce a meta' settimana."
+  note: "40 appuntamenti del weekend divisi per provincia (14 in TV) con luogo e sito citato: ottima per il test di copertura e per scoprire; esce a meta' settimana. L'indirizzo resta lo stesso ogni settimana (riletta il 13/11: 4 eventi nuovi). Le date vanno confermate: il 13/11 dava 4passiFestival il 14-15/11, ma il weekend centrale era il 6-8/11. I link interni (piazzainfesta, comuni) non si aprono con WebFetch se non escono da una ricerca."
 - nome: Comune di Cornuda, eventi
   url: https://www.comune.cornuda.tv.it/home/vivere/eventi.html
   query: Comune di Cornuda eventi
@@ -1289,3 +1290,87 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "elenco uscite fino a dicembre con data, gruppo e meta, ma le schede sono 'in aggiornamento' fino a pochi giorni prima (niente ritrovo, ora, costo): riaprire la settimana prima. Mete in TV: Cartizze 25/11, Monfenera 4/12, Monte Baldo di Vittorio Veneto 9/12. Molte uscite fuori provincia (BL)."
+- nome: Qdpnews (articoli sugli eventi dei comuni)
+  url: https://www.qdpnews.it/
+  query: qdpnews <comune> <titolo o tema> 2026
+  tipo: testata
+  categorie: [sagre-feste, arte-cultura, musica]
+  comuni: [Refrontolo, Giavera del Montello, Treviso, Pieve di Soligo, Caerano di San Marco]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
+  ultimo_controllo: '2026-11-13'
+  automatizzabile: no
+  stato: attiva
+  note: "Testata locale apribile con WebFetch: articoli con programma orario completo (Festa dell'Agricoltura di Giavera, programma di 4passiFestival, presentazioni di libri). Vale come official_url quando l'organizzatore (spesso il Comune) non ha una pagina. Gia' fonte del PC (qdpnews in sources.yaml) per le notizie, ma le serate dei comuni piccoli escono solo cercando."
+- nome: Piazza in Festa (Veneto)
+  url: https://veneto.piazzainfesta.it/
+  query: piazzainfesta <comune> <titolo>
+  tipo: aggregatore
+  categorie: [sagre-feste, mercatini-fiere, arte-cultura]
+  comuni: [Vedelago, Giavera del Montello, Resana, Zenson di Piave, Cappella Maggiore, Santa Lucia di Piave]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 3, ultimi: [3] }
+  ultimo_controllo: '2026-11-13'
+  automatizzabile: no
+  stato: attiva
+  note: "Schede compilate con l'AI da documenti dei comuni e locandine (lo dichiara): utili per scoprire e per luogo e organizzatore, mai come conferma. Si apre solo se la scheda esce da una ricerca."
+- nome: Comune di Giavera del Montello, eventi
+  url: https://www.comune.giavera.tv.it/eventi/
+  query: Comune di Giavera del Montello eventi
+  tipo: comune
+  categorie: [arte-cultura, sagre-feste]
+  comuni: [Giavera del Montello]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-13'
+  automatizzabile: si
+  stato: spostata
+  note: "design-comuni come San Biagio, schede con ora, indirizzo (Villa Wassermann, Via della Vittoria 180) e ingresso. Passata al PC il 2026-11-13 (comune-giavera, html_llm)."
+- nome: Comune di Nervesa della Battaglia, eventi
+  url: https://www.comune.nervesa.tv.it/eventi
+  query: Comune di Nervesa della Battaglia eventi
+  tipo: comune
+  categorie: [arte-cultura, famiglie-bambini, teatro-spettacoli]
+  comuni: [Nervesa della Battaglia]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-13'
+  automatizzabile: si
+  stato: spostata
+  note: "design-comuni: letture in biblioteca, Letture d'Argento, Cantico delle Maledette (26/11), Laboratori di Natale (24/11-17/12). Contiene anche convocazioni di commissioni (da escludere). Passata al PC il 2026-11-13 (comune-nervesa, html_llm)."
+- nome: Comune di Resana, eventi
+  url: https://www.comune.resana.tv.it/home/vivere/eventi.html
+  query: Comune di Resana eventi biblioteca
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: [Resana]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-13'
+  automatizzabile: si
+  stato: spostata
+  note: "stesso portale di Silea (home senza eventi, pagina eventi nel footer); la biblioteca pubblica i programmi come notizie (/notizie/<data>-biblio.html). Passata al PC il 2026-11-13 (comune-resana, html_llm)."
+- nome: Comune di Portobuffole', novita' ed eventi
+  url: https://www.comune.portobuffole.tv.it/home/novita
+  query: Comune di Portobuffole eventi Natale
+  tipo: comune
+  categorie: [mercatini-fiere, sagre-feste]
+  comuni: [Portobuffole']
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-13'
+  automatizzabile: forse
+  stato: attiva
+  note: "i vecchi indirizzi /po/mostra_news.php rimandano a /home/novita (portale nuovo, come Silea). Mercatini e presepi di dicembre escono di solito a fine novembre: riaprire allora."
