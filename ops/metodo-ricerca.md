@@ -78,6 +78,13 @@ lo schema e si parte dalle regole generali e da quelle della regione.
   una lettura: Castello di Collalto -> 5 eventi sistemati (borgo e chiesa di San Giorgio). Funziona per castelli,
   chiese, ville e parchi con nome; non per municipi, auditorium e sale civiche (escono solo i paesi). Per quelli
   basta l'indirizzo giusto nella correzione: il PC ricalcola.
+- Locali di musica dal vivo e schede con mappa (miglioria del 2026-11-14): il New Age Club di Roncade, il club di
+  concerti piu' grande della provincia, non aveva fonte (un solo evento da Eventbrite): la sua pagina /events/ ha dato
+  16 serate dei prossimi 40 giorni in una lettura, con il link alla biglietteria di ciascuna. I locali con un
+  calendario proprio valgono piu' delle ricerche per categoria ("serata club Treviso" esce solo con portali): cercare
+  "<locale> events" e passare la pagina al PC. Per le coordinate dei luoghi ricorrenti, le schede di Eventi Venetando
+  (Consorzio Pro Loco Quartier del Piave) riportano i numeri della mappa (lat/lon) che WebFetch legge: 3 luoghi in
+  `config/luoghi.yaml` senza ricerche dedicate, dove Mapcarta per municipi e piazze non aveva dato nulla (4 ricerche).
 - Comuni MyPortal con API in errore (2026-11-13): se l'API `myportal` col codice catastale da' 404, il portale e'
   quello di Silea: si passa a `html_llm` sulla pagina `/home/vivere/eventi.html`, senza ricerche (Maser, Povegliano,
   Loria, Gaiarine).
@@ -171,6 +178,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-14 · TV · ricerche 57 · eventi nuovi 34 · eventi per ricerca 0,6 · fonti al PC +0 (New Age Club candidato) · miglioria: pagina /events/ dei locali di musica dal vivo (New Age Club: 16 serate mancanti in una lettura) e coordinate dei luoghi dalla mappa delle schede di Eventi Venetando; Mapcarta inutile per piazze e municipi (4 ricerche a vuoto)
 - 2026-11-13 · TV · ricerche 59 · eventi nuovi 7 · eventi per ricerca 0,1 · fonti al PC +3 (Comuni di Resana, Giavera del Montello, Nervesa della Battaglia, html_llm) e 4 sistemate (Maser, Povegliano, Loria, Gaiarine da myportal a html_llm) · miglioria: coordinate dei luoghi con nome da Mapcarta in una ricerca e una lettura (5 eventi di Collalto); comuni MyPortal in 404 passati a html_llm senza ricerche. 6 letture rifiutate perche' i link venivano da dentro una pagina letta (TViWeb)
 - 2026-11-12 · TV · ricerche 61 · eventi nuovi 10 · eventi per ricerca 0,2 · fonti al PC +4 (Comuni di Cornuda, Chiarano, Fonte, San Polo di Piave, html_llm) · miglioria: i comuni piccoli si riconoscono dal tipo di portale e passano al PC con una lettura, senza ricercare gli eventi uno per uno; 17 luoghi ricorrenti in luoghi.yaml dai candidati del PC senza ricerche. Notte spesa soprattutto in manutenzione (24 eventi della coda, campione nuovo)
 

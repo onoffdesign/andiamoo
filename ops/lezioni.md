@@ -42,6 +42,10 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   ville con nome; le pagine Wikipedia lette da WebFetch perdono le coordinate. Qdpnews si apre e ha programmi
   orari completi delle feste dei comuni (Giavera) e dei festival (4passi): buona come official_url.
 
+- 2026-11-14: Eventi Venetando (Consorzio Pro Loco Quartier del Piave) apre le schede anche dai link letti nella home,
+  con ora, prezzo e numeri della mappa; Spettacoli di Mistero (UNPLI) ha schede apribili con prezzo e prenotazione.
+  I calendari mensili dei comuni piccoli escono come articoli Qdpnews ("Novembre pievese").
+
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
   teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
@@ -82,6 +86,11 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   piazzainfesta, comune di Vedelago) vengono rifiutati: 6 letture perse; prima una ricerca col titolo.
   Ricerca "visite guidate Treviso" e "accensione albero Natale": solo pagine generiche o del 2025.
 
+- 2026-11-14: Mapcarta non trova piazze, municipi e ville poco note (Piazza Marconi di San Martino, municipio di San
+  Fior, Villa Freya): escono solo i paesi, 4 ricerche a vuoto. Sito della Biblioteca di Castelfranco sospeso;
+  provincia.treviso.it (calendario Pari Opportunita') da' errore a WebFetch; Comune di Crocetta senza eventi.
+  Ricerche per ambito "serata club", "saggio ginnastica", "cena comunitaria": solo portali e guide nazionali.
+
 ## Calendario (chi pubblica quando)
 - Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli
   articoli del 2025; quelli nuovi escono dopo il 15-20 novembre.
@@ -90,6 +99,7 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - Sagre di San Martino e Madonna della Salute: tutte a novembre, quasi solo su Facebook e aggregatori.
 - Feste del radicchio (rassegna Fiori d'Inverno di UNPLI): da fine novembre a marzo; calendario a inizio novembre,
   programmi delle singole feste di solito una o due settimane prima.
+- Piste di ghiaccio di Natale: a meta' novembre escono solo articoli degli anni passati; cercarle da fine novembre.
 
 ## Errori da non ripetere
 - eventiesagre a volte sbaglia il nome del comune (Badoere di Morgano scritto "Mordano", poi geocodificato a caso):

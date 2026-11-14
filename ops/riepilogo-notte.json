@@ -1,29 +1,32 @@
 {
- "data": "2026-11-13",
- "aggiunti": 7,
- "corretti": 14,
- "rimossi": 2,
+ "data": "2026-11-14",
+ "aggiunti": 34,
+ "corretti": 2,
+ "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "sagre-feste": 4,
-  "arte-cultura": 3
+  "musica": 18,
+  "arte-cultura": 6,
+  "teatro-spettacoli": 5,
+  "sagre-feste": 3,
+  "famiglie-bambini": 2
  },
- "fonti_nuove": 6,
- "fonti_spostate": 3,
- "fonti_sistemate": 5,
- "qualita_campione": "4/10",
+ "fonti_nuove": 5,
+ "fonti_spostate": 0,
+ "fonti_sistemate": 0,
+ "qualita_campione": "5/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "6/10",
- "ricerche": 59,
- "eventi_per_ricerca": 0.1,
+ "copertura_test": "3/10",
+ "ricerche": 57,
+ "eventi_per_ricerca": 0.6,
  "categorie_aggiunte": 11,
- "miglioria": "coordinate dei luoghi con nome (castelli, chiese, ville) da Mapcarta con una ricerca e una lettura; comuni MyPortal in 404 passati a html_llm senza ricerche",
+ "miglioria": "Pagina /events/ dei locali di musica dal vivo (New Age Club: 16 serate mancanti in una lettura) e coordinate dei luoghi ricorrenti dalla mappa delle schede di Eventi Venetando",
  "problemi": [
-  "Il giro del PC delle 01:00 non e' partito per la seconda notte (ultimo a mano l'11/11 mattina)",
-  "Campione 4/10: accesso non pubblicato da sagre e rassegne, link solo Instagram",
-  "Da controllare nel prossimo rapporto 7 fonti dei comuni nuove o sistemate",
-  "Siti dei Comuni di Silea e Caerano vietati ai robot: eventi di Silea in coda senza verifica",
-  "Autunno Sanfiorese con calendario solo nel PDF"
+  "Il giro del PC non parte da tre notti (ultimo a mano l'11/11): coda, campione e posizioni fermi",
+  "41 eventi aggiunti il 13 e 14/11 aspettano il giro del PC per comparire sul sito",
+  "New Age Club da passare al PC (verificare se ha dati strutturati)",
+  "Siti dei comuni di Silea e Sernaglia vietati a WebFetch: 9 eventi in coda senza luogo",
+  "Accesso non pubblicato da molte sagre e rassegne (campione 5/10)"
  ]
 }

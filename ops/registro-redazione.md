@@ -2,6 +2,52 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-14
+
+- **Giro del PC**: NON ha girato per la terza notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; i 34 eventi aggiunti stanotte e i 4 luoghi nuovi
+  compaiono sul sito solo al prossimo giro. Correzioni applicate con --applica (sito a 426 eventi, 136 correzioni).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo dopo quello dell'11/11, gia' lavorato il 13/11).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione** (13 eventi futuri ancora aperti, gli altri 12 rimasti sono gia' conclusi): 1 corretto (reading
+  I passi affrettati a Zero Branco: ingresso libero, Biblioteca G. Cozzi, dalla scheda della biblioteca), 0 rimossi,
+  0 verificati. Ricerche a vuoto per Madonna della Salute di Villanova (solo articoli 2024-2025), Mercatino di Segusino
+  (solo aggregatori e Facebook), Circolando fuori casa a Codogne' (solo pagine di altri comuni), centenario della
+  Biblioteca di Castelfranco (sito della biblioteca sospeso). Restano aperti: eventi di Sernaglia e Silea (siti
+  vietati), Autunno Sanfiorese (accesso non pubblicato), Biblioweek di San Biagio.
+- **Altre correzioni**: Treviso Walk in Red del 22/11 (luogo: Parco del Sant'Artemio, da Qdpnews e VenetoToday).
+- **Controllo a campione**: 5/10 (vedi segnalazioni-e-controllo).
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11, il PC
+  non ha girato; tutti i 20 candidati sono gia' in luoghi.yaml). Aggiunti 4 luoghi a config/luoghi.yaml: New Age Club
+  di Roncade (coordinate della scheda Eventbrite), Sala dei Battuti di Conegliano, Museo del Cenedese di Vittorio
+  Veneto, Ex Opificio di Valdobbiadene (mappe delle schede di Eventi Venetando); coordinate dirette per 6 eventi nuovi.
+  Mapcarta non ha trovato Piazza Marconi di San Martino, il municipio di San Fior, Villa Freya (4 ricerche, 3 letture).
+- **Eventi aggiunti** (34): musica 18 (16 serate e concerti del New Age Club dal 14/11 al 23/12; concerto della Dama
+  Castellana alla Sala dei Battuti; Omnia vincit Amor a Palazzo Reale di Crespano), arte-cultura 6 (Per le vie del
+  mistero a Treviso, Il codice del Bestiario a Castelfranco, Animali fantastici al Museo del Cenedese, Franco Zizola a
+  Valdobbiadene, gruppo di lettura e mostra La Meraviglia del Mondo a Crespano), teatro-spettacoli 5 (stagione del
+  Teatro Careni di Pieve di Soligo fino all'11/3), sagre-feste 3 (Festa di San Martino a Mosnigo 14 e 15/11, Olio in
+  Villa a Maser), famiglie-bambini 2 (Il mistero di Misteria a Pieve di Soligo, Pinocchio a Paderno del Grappa).
+- **Comuni controllati**: Casale sul Sile (biblioteca e Comune: solo serate di prevenzione senza dati), Pieve del
+  Grappa (calendario Novembre pievese di Qdpnews: 4 eventi), Crocetta del Montello (nessun evento), Castello di Godego
+  e Zenson di Piave (solo portali). Mogliano Veneto non cercato: gia' fonte del PC.
+- **Categorie cercate**: Musica e party > Serate e club (New Age Club: 16 eventi), Sport > Sport invernali (piste di
+  ghiaccio: solo articoli vecchi), Sport > Ginnastica e danza sportiva (solo calendari nazionali), Arte e cultura >
+  Comunita' (Walk in Red gia' presente). +11 voci nell'albero.
+- **Fonti note**: Eventi Venetando (+8 eventi in 7 letture, qualita' alzata a 4), VenetoToday (+0, una correzione).
+  Sagramap, Istadea, Comune di Orsago e le altre non riaperte (budget).
+- **Fonti nuove catalogate**: 5 (New Age Club, Veneto Spettacoli di Mistero, Biblioteca e Comune di Casale sul Sile,
+  Comune di Crocetta, stagione del Teatro Careni). Spostate in sources.yaml: 0 (New Age Club candidato: da controllare
+  se ha dati strutturati). Sistemate: 0.
+- **Pulizia**: tolte 12 voci di eventi conclusi prima del 7/11 da correzioni.yaml e 6 da eventi_redazione.yaml.
+- **Miglioria**: pagina /events/ dei locali di musica dal vivo (16 serate mancanti in una lettura) e coordinate dei
+  luoghi ricorrenti dalla mappa delle schede di Eventi Venetando.
+- **Test di copertura**: 3/10 (guida culturale del weekend di Qdpnews e sagre di TrovaSagre).
+- **Ricerche**: 57 su 70.
+- **Problemi aperti**: il giro del PC non parte da tre notti (ultimo a mano l'11/11): coda, campione e posizioni
+  fermi, i 41 eventi aggiunti il 13 e 14/11 non sono ancora sul sito; passare New Age Club al PC (verificare JSON-LD);
+  siti dei comuni di Silea e Sernaglia vietati a WebFetch; accesso non pubblicato da molte sagre e rassegne.
+
 ## 2026-11-13
 
 - **Giro del PC**: NON ha girato stanotte ne' la notte scorsa (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a

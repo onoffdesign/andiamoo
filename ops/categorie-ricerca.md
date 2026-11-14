@@ -53,6 +53,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Arti marziali e combattimento** [stage, torneo, open day] · judo · karate · taekwondo · boxe · kickboxing · scherma
   · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
 - **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio
+  · piste di ghiaccio di Natale nelle piazze e nei centri commerciali [pista di ghiaccio, on ice] (da fine novembre) · gare e saggi di pattinaggio artistico sulle piste di Natale [saggio pattinaggio]
 - **Motori** [raduno, rally, gara] · rally · motocross · enduro moto · auto e moto d'epoca (raduni) · karting
   · calendario ACI Sport del mese [acisport calendari] · mostre scambio di auto e moto d'epoca · autocross
 - **Equitazione** [concorso ippico] · salto ostacoli · endurance · passeggiate a cavallo · palio
@@ -61,6 +62,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · gare indoor di tiro con l'arco da novembre a febbraio [inviti FITArco, ianseo] · tiro 3D nel bosco (Crocetta)
     · gare di bocce nei bocciodromi comunali [bocciofila, gara a coppie] (2026-11-12: nessun evento TV trovato)
 - **Ginnastica e danza sportiva** · ginnastica artistica e ritmica · danza sportiva · cheerleading
+  · saggi di Natale delle societa' di ginnastica [saggio di Natale, palazzetto] (meta' dicembre) · gare regionali FGI ospitate nei palazzetti della provincia [federginnastica, prova regionale]
 - **Sport tradizionali e popolari** · palio e giochi storici · tiro alla fune · corsa nei sacchi
   · giochi popolari dentro le sagre (pignatte, corsa nei sacchi, partita delle vecchie glorie) · palio di Sant'Andrea (Solighetto) · Panevin e foghera (5-6 gennaio)
 - **Eventi per chi guarda** [partita, match] · partite di serie A-B-C delle squadre locali · grandi eventi sportivi
@@ -88,6 +90,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Tecnologia e scienza** · maker e robotica · divulgazione scientifica · eventi di astronomia
   · lezioni pubbliche dei gruppi di astrofili [lezioni per il pubblico, astrofili]
 - **Comunita'** · incontri di quartiere · volontariato · feste delle associazioni · gruppi di conversazione
+  · iniziative della rete provinciale Pari Opportunita' verso il 25 novembre [25 novembre, panchina rossa, walk in red] · serate di prevenzione e salute dei comuni [si-cura, prevenzione, serata informativa] · donazioni di sangue AVIS con colazione [donazione, avis] · gruppi di lettura delle biblioteche [gruppo di lettura]
 
 ## Musica e party (`musica`)
 
@@ -96,6 +99,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · hip hop e rap · elettronica live · world e folk · tributi e cover band
 - **Festival musicali** · estivi all'aperto · rassegne d'autunno · festival di musica antica
 - **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ
+  · feste a tema dei club (cartoni, film, tributi) [party a tema, shrek party] · anniversari dei locali con dj ospiti gratuiti [celebration weekend] · serate Remember della vigilia di Natale [remember]
 - **Ballo** [serata danzante] · liscio · balli latini · swing e lindy hop · tango [milonga settimanale, pomeridiana di tango] · balli di gruppo
 - **Musica partecipata** · open mic · karaoke · jam session aperte · drum circle [cerchio di percussioni]
   · open mic di stand-up comedy [open mic comicita'] · jam nelle sale prove comunali [free jam session, Progetto Giovani]
@@ -199,3 +203,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-08 · +10 voci · dove: Sport > Racchetta (+2), Arte e cultura > Patrimonio e tradizioni (+3), Musica > Musica partecipata (+2), Spettacoli > Cinema (+3)
 - 2026-11-09 · +11 voci · dove: Arte e cultura > Mostre (+4), Spettacoli > Teatro (+2), Sport > Sport d'acqua (+2), Sport di squadra (+2), Natura > Escursioni (+1)
 - 2026-11-13 · +11 voci · dove: Arte e cultura > Visite guidate (+2), Mostre (+1), Conferenze e incontri (+2), Sagre > Feste stagionali (+3), Natura > Escursioni (+2), Orti e giardini (+1)
+- 2026-11-14 · +11 voci · dove: Sport > Sport invernali (+2), Ginnastica e danza sportiva (+2), Arte e cultura > Comunita' (+4), Musica > Serate e club (+3)

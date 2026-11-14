@@ -14,11 +14,11 @@ comuni_TV:
   Caerano di San Marco: 2026-11-13
   Cappella Maggiore: 2026-11-01
   Carbonera: 2026-11-07
-  Casale sul Sile: null
+  Casale sul Sile: 2026-11-14
   Casier: 2026-11-11
   Castelcucco: 2026-11-07
   Castelfranco Veneto: 2026-10-31
-  Castello di Godego: null
+  Castello di Godego: 2026-11-14
   Cavaso del Tomba: 2026-11-09
   Cessalto: 2026-11-08
   Chiarano: 2026-11-12
@@ -29,7 +29,7 @@ comuni_TV:
   Conegliano: 2026-10-30
   Cordignano: 2026-10-30
   Cornuda: 2026-11-12
-  Crocetta del Montello: null
+  Crocetta del Montello: 2026-11-14
   Farra di Soligo: 2026-11-08
   Follina: 2026-11-08
   Fontanelle: 2026-11-10
@@ -60,7 +60,7 @@ comuni_TV:
   Orsago: 2026-11-05
   Paese: 2026-11-01
   Pederobba: null
-  Pieve del Grappa: null
+  Pieve del Grappa: 2026-11-14
   Pieve di Soligo: 2026-11-01
   Ponte di Piave: 2026-10-31
   Ponzano Veneto: 2026-10-31
@@ -98,7 +98,7 @@ comuni_TV:
   Villorba: 2026-11-01
   Vittorio Veneto: 2026-11-02
   Volpago del Montello: 2026-10-30
-  Zenson di Piave: null
+  Zenson di Piave: 2026-11-14
   Zero Branco: 2026-11-09
 aggregatori:
   trovaeventi.com: 2026-11-10
@@ -171,6 +171,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Arte e cultura > Comunita'": 2026-11-14
+  "Musica e party > Serate e club": 2026-11-14
+  "Sport > Sport invernali": 2026-11-14
+  "Sport > Ginnastica e danza sportiva": 2026-11-14
   "Arte e cultura > Visite guidate": 2026-11-13
   "Natura e benessere > Escursioni": 2026-11-13
   "Sagre e cibo > Feste stagionali": 2026-11-13

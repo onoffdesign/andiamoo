@@ -71,10 +71,6 @@ correggi:
     official_url: https://www.corrinrosa.run/san-vendemiano/
     nota: "sito ufficiale da running.life; 8/11/2026, 6, 12 e 21 km"
     verificato: 2026-10-30
-  925e217085586c12:
-    title: "Prossima Fermata: parole e musica lungo il fiume al Teatro del Pane"
-    nota: "titolo ripulito (suffisso del comune, emoji o titolo giornalistico)"
-    verificato: 2026-10-30
   e14defa5502908bf:
     title: "Concerto di San Leonardo"
     nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato ore 20:45, Duomo di San Leonardo"
@@ -83,19 +79,6 @@ correggi:
     access: "iscrizione"
     price: "gratuito, iscrizione su Eventbrite"
     official_url: "https://www.eventbrite.it/e/biglietti-concerto-di-san-leonardo-2002863989107"
-  6dbac29c5966f22b:
-    official_url: https://www.comune.treviso.it/home/dettaglio/eventi/mese-bambino-6-11-2026
-    nota: "la pagina del Comune di Treviso e' la pagina ufficiale dell'evento"
-    verificato: 2026-10-30
-  2a01ab319dd00143:
-    start: "2026-11-06T18:00"
-    access: iscrizione
-    price: ''
-    official_url: https://4passi.org/programma2026/
-    venue: Santa Caterina (4passiFestival)
-    summary: Dialogo del 4passiFestival con la preside Antonella Di Bartolo sul contrasto alla poverta' educativa nella scuola.
-    nota: 'programma 4passiFestival 2026 (4passi.org): ore 18, prenotazione su Eventbrite'
-    verificato: "2026-10-31"
   093511c03bff50c2:
     access: iscrizione
     official_url: https://4passi.org/programma2026/
@@ -286,10 +269,6 @@ correggi:
     title: "Delizie d'Autunno: sapori del territorio"
     nota: "titolo ripulito"
     verificato: "2026-11-01"
-  aa63431f9d1b201b:
-    lat: 45.66695
-    lon: 12.25086
-    nota: "Sala Coletti: secondo Nordest24 (programma del 6/11) e' nel quadrante del complesso di Santa Caterina; indirizzo esatto non pubblicato, punto messo a Santa Caterina (piazzetta Botter), il posto certo piu' vicino"
   95bf289bed4dd21d:
     address: Via Antonio Vivaldi 30
     nota: "sede dell'Istituto Comprensivo di Roncade in via Vivaldi 30 (scheda OpenPNRR del progetto dell'IC); auditorium nel plesso, geocodifica dall'indirizzo"
@@ -1133,6 +1112,12 @@ correggi:
     summary: "Letture dal libro Passi affrettati di Dacia Maraini a cura del gruppo Voci d'inchiostro di Preganziol, in vista della Giornata contro la violenza sulle donne del 25 novembre."
     nota: "scheda della Biblioteca di Zero Branco (eventi/295): 20/11 ore 18, Via G. B. Guidini 52, ingresso libero e gratuito"
     verificato: "2026-11-14"
+  40f06c6dc73e0fd5:
+    venue: Parco del Sant'Artemio (sede della Provincia di Treviso)
+    category: sport
+    subcategory: corsa
+    nota: "Qdpnews e VenetoToday del 10/11/2026: prima edizione della corsa contro la violenza di genere di Trevisatletica con Telefono Rosa al Parco del Sant'Artemio; ora e iscrizione non pubblicate"
+    verificato: "2026-11-14"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f1ef4b7e8e4186db: "doppione di Su l'arden drio la Livenza (c244694694b8bfbc), stessa marcia di Albina del 22/11: tenuta la scheda col volantino"
@@ -1151,11 +1136,6 @@ rimuovi:
   0282e7bf042a0cf3: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   aacb8abe5224c830: "sessione del mattino riservata alle scuole superiori, non aperta al pubblico (resta lo show serale 89cbd8271e8be202)"
   f8b485538cb22ecf: "pagina di presentazione della stagione, non un evento: gli spettacoli dell'Accademico sono gia' sul sito uno per uno (Opera Locos, Falstaff, Double Bill, Il male oscuro, Don Chisciotte)"
-  7d50f0d774a3597a: "concluso il 6/11/2026"
-  425677aee61dbc23: "concluso il 6/11/2026"
-  e175f08605d77f83: "concluso il 6/11/2026"
-  c61e8640851fd291: "concluso il 6/11/2026"
-  3283bd8c2d58f498: "concluso il 6/11/2026"
   3499fdda118d318d: "concluso il 7/11/2026"
   7b4a58e6d6ed9565: "concluso il 7/11/2026"
   6ac6d3fcea187743: "concluso il 7/11/2026"
@@ -1163,15 +1143,12 @@ rimuovi:
   edb1f99d0fb82a6e: "concluso il 7/11/2026"
   8fa2a1c939b61896: "concluso l'8/11/2026"
   ed55e45c9cbea33c: "concluso l'8/11/2026"
-  a315f3686572da5d: "concluso il 6/11/2026"
   0cf85d869332204f: "data sbagliata: il programma del Comune di Quinto non ha incontri il 20/11 (il successivo dopo l'11/11 e' il 10/12); riassunto di un altro evento"
   ad284bd1f3d711ba: "data sbagliata: il programma del Comune di Quinto ha l'incontro il 10/12, non il 12/12 (doppione di b5a4d534543fe28c)"
 verificati:
   5f912b8299bbe9e3: "2026-11-08"        # H-FARM, Via Adriano Olivetti 1 a Ca' Tron: il campus e' davvero a 7 km dal centro di Roncade
   d20b8daa82d71b50: "2026-10-31"
-  00e3dd8ae3bf8877: "2026-11-01"
   8707de21e04dfb7b: "2026-11-01"
-  613f4a07328c6ac0: "2026-11-01"
   06cfa4a504a8c8e5: "2026-11-01"
   3ae4cecc9ed9584b: "2026-11-01"
   0a974667d1a42b7e: "2026-11-07"

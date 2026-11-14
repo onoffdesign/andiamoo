@@ -214,19 +214,21 @@ fonti:
   - sagre-feste
   - cibo-vino
   - arte-cultura
-  comuni: []
+  - teatro-spettacoli
+  comuni: [Pieve di Soligo, Moriago della Battaglia, Valdobbiadene, Vittorio Veneto, Conegliano, Maser, Segusino]
   frequenza: settimanale
-  qualita: 2
+  qualita: 4
   resa:
-    controlli: 2
-    eventi_trovati: 3
+    controlli: 3
+    eventi_trovati: 11
     ultimi:
+    - 8
     - 0
     - 3
-  ultimo_controllo: '2026-11-06'
+  ultimo_controllo: '2026-11-14'
   automatizzabile: 'no'
   stato: attiva
-  note: "2026-11-06: le schede si aprono e riportano il programma completo per giorno (Prealpi in Festa 2026). Controllare l'anno: la XXII Sagra di San Martino di Colle Umberto e' del 2022."
+  note: "2026-11-06: le schede si aprono e riportano il programma completo per giorno (Prealpi in Festa 2026). Controllare l'anno: la XXII Sagra di San Martino di Colle Umberto e' del 2022. | 2026-11-14: e' il sito del Consorzio Pro Loco Quartier del Piave; la home ('Eventi in corso') da' 8 eventi del Quartier del Piave e dintorni, le schede si aprono tutte (anche se il link viene da dentro la pagina) con ora, sede, prezzo e coordinate della mappa: 8 eventi nuovi in 7 letture. Le schede con id basso (es. /2521) sono di anni passati."
 - nome: Fleamapket (mercatini)
   url: https://www.fleamapket.com/
   query: fleamapket <comune> mercatino
@@ -1374,3 +1376,73 @@ fonti:
   automatizzabile: forse
   stato: attiva
   note: "i vecchi indirizzi /po/mostra_news.php rimandano a /home/novita (portale nuovo, come Silea). Mercatini e presepi di dicembre escono di solito a fine novembre: riaprire allora."
+- nome: New Age Club (Roncade)
+  url: https://www.newageclub.it/events/
+  query: New Age Club Treviso events
+  tipo: locale
+  categorie: [musica]
+  comuni: [Roncade]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 16, ultimi: [16] }
+  ultimo_controllo: 2026-11-14
+  automatizzabile: da verificare
+  stato: attiva
+  note: "2026-11-14: il principale club di concerti della provincia non era coperto (solo un evento Eventbrite). La pagina /events/ elenca tutte le date fino ad aprile con link a TicketOne, TicketSMS, Vivaticket; senza ora ne' prezzo. Candidata per config/sources.yaml: controllare dal PC se ha JSON-LD Event o API tribe (sito WordPress?), altrimenti html_llm."
+- nome: Veneto Spettacoli di Mistero (UNPLI)
+  url: https://www.spettacolidimistero.it/
+  query: Spettacoli di Mistero 2026 Treviso
+  tipo: ente
+  categorie: [arte-cultura, teatro-spettacoli, famiglie-bambini]
+  comuni: [Treviso, Castelfranco Veneto, Conegliano, Vittorio Veneto]
+  province: [Veneto]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: 2026-11-14
+  automatizzabile: da verificare
+  stato: attiva
+  note: "Festival regionale delle Pro Loco (UNPLI) di ottobre-novembre: visite teatralizzate, cacce al tesoro, spettacoli. La home mostra solo i prossimi eventi; le schede /eventi/<nome> si aprono con ora, ritrovo, prezzo e prenotazione. Riaprire da inizio ottobre 2027."
+- nome: Biblioteca comunale di Casale sul Sile
+  url: https://biblioteca.comunecasale.tv.it/eventi-e-avvisi
+  query: Biblioteca Comunale di Casale sul Sile eventi e avvisi
+  tipo: biblioteca
+  categorie: [arte-cultura, famiglie-bambini]
+  comuni: [Casale sul Sile]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-14
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Pagina lunga (oltre 100.000 caratteri) con mostre e avvisi; il 14/11 nessun evento futuro. Il sito del Comune (comune.casalesulsile.tv.it/eventi/, tema design-comuni) aveva solo due serate di prevenzione senza ora ne' luogo: candidato html_llm se pubblica di piu'."
+- nome: Comune di Crocetta del Montello (eventi)
+  url: https://www.comune.crocetta.tv.it/eventi/
+  query: Comune di Crocetta del Montello eventi
+  tipo: comune
+  categorie: []
+  comuni: [Crocetta del Montello]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-14
+  automatizzabile: 'no'
+  stato: debole
+  note: "2026-11-14: tema design-comuni, 'Nessun evento in programma'. Riaprire a dicembre per il Natale."
+- nome: Teatro Careni, stagione E' teatro. Ancora teatro (Pieve di Soligo)
+  url: https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/
+  query: Teatro Careni Pieve di Soligo stagione Ancora teatro
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: [Pieve di Soligo]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 5, ultimi: [5] }
+  ultimo_controllo: 2026-11-14
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Stagione di 6 spettacoli del giovedi' alle 21 (novembre-aprile), 15 euro; il Comune non ha una pagina apribile, l'articolo di Qdpnews del 28/10/2026 ha il calendario completo. Aggiunte le date fino all'11/3; manca Sette: da Tebe a Sarajevo del 15/4/2027 (fuori orizzonte)."

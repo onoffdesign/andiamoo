@@ -151,52 +151,6 @@ eventi:
     official_url: https://teatroaccademia.it/prosa/
     summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Primo Reggiani.
     trovato: '2026-10-30'
-  - title: Spazi... che spaziano (4passiFestival)
-    start: 2026-11-06T09:00
-    venue: Chiesa di Santa Caterina
-    address: Via Santa Caterina 29
-    town: Treviso
-    category: arte-cultura
-    subcategory: conferenze
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    summary: Convegno del 4passiFestival su esperienze e approcci nei contesti di poverta' educativa e segregazione scolastica.
-    fonte: https://venetotoday.it/treviso-il-6-novembre-il-4passifestival-si-divide-in-quattro-guida-pratica-tra-scuola-teatro-percussioni-e-futuro
-    trovato: '2026-10-31'
-  - title: Drum Circle (4passiFestival)
-    start: 2026-11-06T16:00
-    venue: Universita' di Treviso
-    town: Treviso
-    category: musica
-    subcategory: festival-musicali
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    summary: Cerchio di percussioni aperto a tutti, senza bisogno di esperienza musicale, guidato da Cristiano Botti.
-    fonte: https://venetotoday.it/treviso-il-6-novembre-il-4passifestival-si-divide-in-quattro-guida-pratica-tra-scuola-teatro-percussioni-e-futuro
-    trovato: '2026-10-31'
-  - title: 'Che cosa ci vuoi fare: scene di ordinaria molestia (4passiFestival)'
-    start: 2026-11-06T20:30
-    venue: Sala Coletti
-    town: Treviso
-    category: teatro-spettacoli
-    subcategory: teatro
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    summary: Spettacolo di teatro forum sulle dinamiche della violenza di genere, in cui il pubblico propone soluzioni alle scene.
-    fonte: https://venetotoday.it/treviso-il-6-novembre-il-4passifestival-si-divide-in-quattro-guida-pratica-tra-scuola-teatro-percussioni-e-futuro
-    trovato: '2026-10-31'
-  - title: 'IMMAGINA: esercizi di futuro con Stefano Laffi (4passiFestival)'
-    start: 2026-11-06T20:45
-    venue: Chiesa di Santa Caterina
-    address: Via Santa Caterina 29
-    town: Treviso
-    category: arte-cultura
-    subcategory: incontri-pubblici
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    summary: Laboratorio condotto da Stefano Laffi che usa la citta' come campo per esercitare l'immaginazione collettiva.
-    fonte: https://venetotoday.it/treviso-il-6-novembre-il-4passifestival-si-divide-in-quattro-guida-pratica-tra-scuola-teatro-percussioni-e-futuro
-    trovato: '2026-10-31'
   - title: Sguardi dall'Africa sul mondo (4passiFestival)
     start: 2026-11-07T17:00
     venue: Chiesa di Santa Caterina
@@ -1289,16 +1243,6 @@ eventi:
     summary: "Quinta edizione della mostra mercato di libri e stampe antiche nella Sala della Ragione di Asolo."
     fonte: https://www.nordest24.it/veneto-cosa-fare-6-8-novembre-2026-legno-libri-rievocazioni-arte
     trovato: '2026-11-06'
-  - title: "Harmonia Mundi, concerto all'Antica Fiera di Santa Lucia"
-    start: 2026-11-06T20:30
-    venue: "Filanda Grande"
-    town: "Santa Lucia di Piave"
-    category: musica
-    subcategory: concerti
-    official_url: https://www.anticafierasantalucia.com/eventi/29-rievocazione-storica-dellantica-fiera-2/
-    summary: "Concerto Harmonia Mundi alla Filanda Grande, nella serata di apertura della rievocazione storica dell'Antica Fiera."
-    fonte: https://www.nordest24.it/veneto-cosa-fare-6-8-novembre-2026-legno-libri-rievocazioni-arte
-    trovato: '2026-11-06'
   - title: "Rievocazione storica dell'Antica Fiera di Santa Lucia: mercato medievale e spettacoli"
     start: 2026-11-07T09:00
     venue: "Campo Fiera ed Ex Filanda"
@@ -1345,18 +1289,6 @@ eventi:
     official_url: https://www.comune.codogne.tv.it/novita/circolando-fuori-casa-la-buona-sicurezza-in-strada-non-ha-eta/
     summary: "Incontro pubblico in biblioteca sulla sicurezza in strada."
     fonte: https://www.comune.codogne.tv.it/
-    trovato: '2026-11-06'
-  - title: "Prealpi in Festa: serata corale e cena Prealpi in Tavola"
-    start: 2026-11-06T19:00
-    venue: "Chiesa Arcipretale e Piazza Italia"
-    town: "Cordignano"
-    category: sagre-feste
-    subcategory: sagre
-    access: libero
-    price: "serata corale a ingresso libero; cena su prenotazione"
-    official_url: https://www.eventivenetando.it/it/eventi/feste-e-sagre/32-prealpi-in-festa/16979
-    summary: "Terza serata della 32esima Prealpi in Festa, con una serata corale nella chiesa arcipretale e la cena Prealpi in Tavola."
-    fonte: https://www.trevisoeventi.com/cordignano-prealpi-in-festa.html
     trovato: '2026-11-06'
   - title: "Prealpi in Festa: escursioni, conferenza storica e Aperitivo del Bosco"
     start: 2026-11-07T10:00
@@ -4059,4 +3991,78 @@ eventi:
     official_url: "https://www.ticketsms.it/event/xuPbCzyZ"
     summary: "Serata Remember nel club di Roncade, dalle 23."
     fonte: "https://www.newageclub.it/events/"
+    trovato: "2026-11-14"
+  - title: "Per le vie del mistero: visita guidata nel centro di Treviso"
+    start: "2026-11-14T16:00"
+    end: "2026-11-14T17:30"
+    venue: "IAT Treviso Centro, Museo di Santa Caterina"
+    address: "Piazzetta Mario Botter 1"
+    town: "Treviso"
+    category: "arte-cultura"
+    subcategory: "visite"
+    access: "biglietto"
+    price: "9 euro, 7 euro dai 6 ai 14 anni e persone con disabilita'; prenotazione obbligatoria"
+    official_url: "https://www.spettacolidimistero.it/eventi/per-le-vie-del-mistero-7"
+    summary: "Visita guidata di circa 90 minuti nel centro storico sugli aneddoti che legano la citta' agli animali, con tappa alla Chiesa di San Francesco, nel festival Veneto Spettacoli di Mistero."
+    fonte: "https://www.qdpnews.it/comuni/treviso-provincia/gli-eventi-culturali-del-weekend/"
+    trovato: "2026-11-14"
+  - title: "Il codice del Bestiario, fuga dal 1779: caccia al tesoro a Castelfranco"
+    start: "2026-11-15T10:30"
+    venue: "Ufficio IAT, Palazzo Soranzo Novello"
+    town: "Castelfranco Veneto"
+    category: "arte-cultura"
+    subcategory: "visite"
+    access: "biglietto"
+    price: "6 euro, ridotto 3 euro; prenotazione obbligatoria allo IAT"
+    official_url: "https://www.spettacolidimistero.it/eventi/il-codice-del-bestiario-fuga-dal-1779-2"
+    summary: "Caccia al tesoro in costume tra gli enigmi della citta' murata, con partenze ogni 20 minuti dalle 10:30 e durata di circa un'ora, nel festival Veneto Spettacoli di Mistero."
+    fonte: "https://www.qdpnews.it/comuni/treviso-provincia/gli-eventi-culturali-del-weekend/"
+    trovato: "2026-11-14"
+  - title: "Ciarlatani: i mercanti di illusioni al Teatro Careni"
+    start: "2026-12-10T21:00"
+    venue: "Teatro Careni"
+    town: "Pieve di Soligo"
+    category: "teatro-spettacoli"
+    subcategory: "teatro"
+    access: "biglietto"
+    price: "15 euro; prevendita in Biblioteca comunale, biglietteria del teatro dalle 18:30"
+    official_url: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/"
+    summary: "Spettacolo scritto e diretto da Andrea Nardin, secondo appuntamento della stagione E' teatro. Ancora teatro."
+    fonte: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/"
+    trovato: "2026-11-14"
+  - title: "Gli invisibili: la solitudine dei giusti al Teatro Careni"
+    start: "2027-01-21T21:00"
+    venue: "Teatro Careni"
+    town: "Pieve di Soligo"
+    category: "teatro-spettacoli"
+    subcategory: "teatro"
+    access: "biglietto"
+    price: "15 euro; prevendita in Biblioteca comunale, biglietteria del teatro dalle 18:30"
+    official_url: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/"
+    summary: "Spettacolo della Nuova Compagnia Teatrale con la regia di Enzo Rapisarda, nella stagione E' teatro. Ancora teatro."
+    fonte: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/"
+    trovato: "2026-11-14"
+  - title: "Le dolenti note della Banda Osiris al Teatro Careni"
+    start: "2027-02-18T21:00"
+    venue: "Teatro Careni"
+    town: "Pieve di Soligo"
+    category: "teatro-spettacoli"
+    subcategory: "teatro"
+    access: "biglietto"
+    price: "15 euro; prevendita in Biblioteca comunale, biglietteria del teatro dalle 18:30"
+    official_url: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/"
+    summary: "Spettacolo musicale e comico della Banda Osiris nella stagione E' teatro. Ancora teatro."
+    fonte: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/"
+    trovato: "2026-11-14"
+  - title: "Lo sciopero delle bambine al Teatro Careni"
+    start: "2027-03-11T21:00"
+    venue: "Teatro Careni"
+    town: "Pieve di Soligo"
+    category: "teatro-spettacoli"
+    subcategory: "teatro"
+    access: "biglietto"
+    price: "15 euro; prevendita in Biblioteca comunale, biglietteria del teatro dalle 18:30"
+    official_url: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/"
+    summary: "Spettacolo di PEM Habitat Teatrali con Rita Pelusio e Rossana Mola, regia di Enrico Messina, nella stagione E' teatro. Ancora teatro."
+    fonte: "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/"
     trovato: "2026-11-14"
