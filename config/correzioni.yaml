@@ -1126,6 +1126,13 @@ correggi:
     lon: 12.20851
     nota: "punto del Castello di Collalto da Mapcarta (OpenStreetMap): borgo e chiesa di San Giorgio accanto; era sul centro di Susegana"
     verificato: "2026-11-13"
+  5cf1bcdd54711107:
+    venue: Biblioteca Comunale G. Cozzi
+    access: libero
+    price: ingresso libero e gratuito
+    summary: "Letture dal libro Passi affrettati di Dacia Maraini a cura del gruppo Voci d'inchiostro di Preganziol, in vista della Giornata contro la violenza sulle donne del 25 novembre."
+    nota: "scheda della Biblioteca di Zero Branco (eventi/295): 20/11 ore 18, Via G. B. Guidini 52, ingresso libero e gratuito"
+    verificato: "2026-11-14"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f1ef4b7e8e4186db: "doppione di Su l'arden drio la Livenza (c244694694b8bfbc), stessa marcia di Albina del 22/11: tenuta la scheda col volantino"

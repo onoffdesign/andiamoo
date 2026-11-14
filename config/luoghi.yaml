@@ -111,3 +111,27 @@ luoghi:
     lat: 45.74102
     lon: 12.12182
     nota: "Punto trovato dal PC per indirizzo, uguale in 4 eventi (candidato di ops/posizioni.json); controllato a vista il 2026-11-13 (Signoressa, frazione di Trevignano)."
+  - nomi: ["New Age Club", "Via Tintoretto 14"]
+    comune: Roncade
+    lat: 45.63932
+    lon: 12.38358
+    nota: "Locale di Via Tintoretto 14 a Roncade (zona industriale). Coordinate pubblicate dall'organizzatore nella scheda
+      Eventbrite di LA Guns (precisione 'source'). Aggiunto il 2026-11-14 con 16 serate del locale."
+  - nomi: ["Sala dei Battuti"]
+    comune: Conegliano
+    lat: 45.88692
+    lon: 12.29771
+    nota: "Sala dei Battuti accanto al Duomo di Conegliano. Coordinate della mappa della scheda di Eventi Venetando
+      (Consorzio Pro Loco Quartier del Piave) del concerto del 14/11/2026, aggiunto il 2026-11-14."
+  - nomi: ["Museo del Cenedese"]
+    comune: Vittorio Veneto
+    lat: 45.99918
+    lon: 12.28952
+    nota: "Museo del Cenedese nella Loggia di Serravalle. Coordinate della mappa della scheda di Eventi Venetando
+      (visita del 15/11/2026), aggiunto il 2026-11-14."
+  - nomi: ["Ex Opificio", "Sala dell'Acqua"]
+    comune: Valdobbiadene
+    lat: 45.90125
+    lon: 11.99588
+    nota: "Sala dell'Acqua dell'Ex Opificio, sede degli incontri del festival Tra Libri e Pensieri. Coordinate della
+      mappa della scheda di Eventi Venetando, aggiunto il 2026-11-14."
