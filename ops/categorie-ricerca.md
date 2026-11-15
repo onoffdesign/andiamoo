@@ -97,7 +97,10 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Concerti** [concerto, live] · rock e indie · cantautori · jazz [jam session] · blues · classica e cameristica
   · lirica e opera · musica corale [coro, rassegna corale] · bande e fanfare · musica sacra e organo · metal
   · hip hop e rap · elettronica live · world e folk · tributi e cover band
+  · stagioni liriche dei teatri comunali [stagione lirica, opera, operetta] (2026-11-15) → risorse.teatrostabileveneto · concerti di Natale gospel [gospel, concerto di Natale] (2026-11-15)
 - **Festival musicali** · estivi all'aperto · rassegne d'autunno · festival di musica antica
+  · festival di musica a cappella [a cappella, VivaVoce] (2026-11-15) · festival organistici dei comuni [festival organistico, organi storici] (2026-11-15)
+  · stagioni sinfoniche delle orchestre regionali [Filarmonia Veneta, Gocce musicali] (2026-11-15) → classicalive
 - **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ
   · feste a tema dei club (cartoni, film, tributi) [party a tema, shrek party] · anniversari dei locali con dj ospiti gratuiti [celebration weekend] · serate Remember della vigilia di Natale [remember]
 - **Ballo** [serata danzante] · liscio · balli latini · swing e lindy hop · tango [milonga settimanale, pomeridiana di tango] · balli di gruppo
@@ -170,9 +173,10 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · incontri tecnici per agricoltori (CIA, Coldiretti, Condifesa) · incontri d'impresa su Eventbrite [Eventbrite business gratuiti]
   · festival dell'educazione [EducarSi', 4passiFestival]
 - **Formazione** [workshop, corso, masterclass] · digitale e marketing · lingue · fotografia · scrittura
+  · corsi delle Camere di commercio (spesso solo e-learning) [CCIAA formazione] (2026-11-15) · minirassegne culturali infrasettimanali nelle ville comunali [DeINDOPARA] (2026-11-15)
 - **Lavoro** [job day, career day, recruiting day] · job day e fiere del lavoro · orientamento universitario
   · career day di universita' e ITS
-- **Startup e innovazione** · hackathon · pitch · open day di incubatori
+- **Startup e innovazione** · hackathon · pitch · open day di incubatori · talk ispirazionali nei campus [inspirational talk, H-FARM] (2026-11-15)
 - **Networking** · aperitivi di networking · eventi di associazioni di categoria
   · business night delle associazioni di commercianti [Confcommercio business night] · incontri Confapi
 
@@ -185,6 +189,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Ambiente** · pulizia di parchi e fiumi · piantumazioni · educazione ambientale · domeniche ecologiche con distribuzione di piantine [domenica ecologica, alberi in pianura] · Puliamo il Mondo di Legambiente [puliamo il mondo] (settembre-ottobre)
   · raccolte di rifiuti di Plastic Free e FIPSAS [plastic free, zeroplastic]
 - **Benessere** [yoga, meditazione] · yoga all'aperto · meditazione · pilates · camminata nordica [nordic walking]
+  · bagni di gong e suono [bagno di gong, master gong] (2026-11-15) · giornate dello yoga cittadine [YogaDay] (2026-11-15)
 - **Orti e giardini** · giardini aperti · corsi di orticoltura · mostre di piante e fiori · laboratori con gli apicoltori [apicoltore, cera d'api]
 - **Animali** · eventi cinofili [raduno cani, sfilata cani, mostra canina] · fattorie aperte · serate su fauna e migrazioni [rapaci, birdwatching] · mostre ornitologiche · benedizione degli animali [Sant'Antonio Abate, gennaio]
 
@@ -204,3 +209,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-09 · +11 voci · dove: Arte e cultura > Mostre (+4), Spettacoli > Teatro (+2), Sport > Sport d'acqua (+2), Sport di squadra (+2), Natura > Escursioni (+1)
 - 2026-11-13 · +11 voci · dove: Arte e cultura > Visite guidate (+2), Mostre (+1), Conferenze e incontri (+2), Sagre > Feste stagionali (+3), Natura > Escursioni (+2), Orti e giardini (+1)
 - 2026-11-14 · +11 voci · dove: Sport > Sport invernali (+2), Ginnastica e danza sportiva (+2), Arte e cultura > Comunita' (+4), Musica > Serate e club (+3)
+- 2026-11-15 · +10 voci · dove: Musica > Festival musicali (+3), Musica > Concerti (+2), Business > Startup (+1), Business > Formazione (+2), Natura > Benessere (+2)

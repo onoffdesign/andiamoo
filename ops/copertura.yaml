@@ -8,7 +8,7 @@
 comuni_TV:
   Altivole: 2026-11-05
   Arcade: 2026-11-06
-  Asolo: null
+  Asolo: 2026-11-15
   Borso del Grappa: 2026-11-01
   Breda di Piave: 2026-11-11
   Caerano di San Marco: 2026-11-13
@@ -47,7 +47,7 @@ comuni_TV:
   Maserada sul Piave: 2026-11-02
   Meduna di Livenza: 2026-11-11
   Miane: 2026-11-06
-  Mogliano Veneto: null
+  Mogliano Veneto: 2026-11-15   # gia' fonte del PC (comune-mogliano myportal): non serve cercarlo a mano
   Monastier di Treviso: 2026-11-05
   Monfumo: 2026-11-10
   Montebelluna: 2026-11-09
@@ -56,7 +56,7 @@ comuni_TV:
   Motta di Livenza: 2026-11-06
   Nervesa della Battaglia: 2026-11-13
   Oderzo: 2026-11-11
-  Ormelle: null
+  Ormelle: 2026-11-15
   Orsago: 2026-11-05
   Paese: 2026-11-01
   Pederobba: null
@@ -67,17 +67,17 @@ comuni_TV:
   Portobuffolè: 2026-11-13
   Possagno: 2026-11-10
   Povegliano: 2026-11-02
-  Preganziol: null
+  Preganziol: 2026-11-15
   Quinto di Treviso: 2026-11-05
   Refrontolo: 2026-11-02
   Resana: 2026-11-13
   Revine Lago: 2026-10-31
-  Riese Pio X: null
+  Riese Pio X: 2026-11-15
   Roncade: 2026-10-30
   Salgareda: 2026-11-11
   San Biagio di Callalta: 2026-11-02
   San Fior: 2026-11-10
-  San Pietro di Feletto: null
+  San Pietro di Feletto: 2026-11-15
   San Polo di Piave: 2026-11-12
   San Vendemiano: 2026-10-30
   San Zenone degli Ezzelini: 2026-11-12
@@ -101,6 +101,9 @@ comuni_TV:
   Zenson di Piave: 2026-11-14
   Zero Branco: 2026-11-09
 aggregatori:
+  classicalive.it (Treviso): 2026-11-15
+  sagratour.it (Treviso): 2026-11-15
+  trovasagre.com (mercatini di Natale): 2026-11-15
   trovaeventi.com: 2026-11-10
   podopodo.it: 2026-11-10
   trovasagre.com (Treviso): 2026-11-10
@@ -171,6 +174,10 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Business e formazione > Startup e innovazione": 2026-11-15
+  "Musica e party > Festival musicali": 2026-11-15
+  "Business e formazione > Formazione": 2026-11-15
+  "Natura e benessere > Benessere": 2026-11-15
   "Arte e cultura > Comunita'": 2026-11-14
   "Musica e party > Serate e club": 2026-11-14
   "Sport > Sport invernali": 2026-11-14

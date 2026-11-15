@@ -173,11 +173,13 @@ nuovi filtri), senza ricercarle da capo.
 | calendariopodismo | tutta Italia | parametro `localita` |
 | TicketOne, DICE, Xceed | tutta Italia | pagine citta' o locale (verificare termini d'uso prima di monetizzare) |
 | UNPLI / Pro Loco | per regione | pagina eventi regionale e provinciale |
+| ClassicaLive (musica classica, lirica, cori) | tutta Italia | pagina `/it/luoghi/<regione>/<provincia>/`: concerti dei prossimi mesi con ora, luogo e link all'organizzatore (prezzi dalle pagine degli organizzatori). 2026-11-15: 22 concerti TV in una lettura, 10 su 14 mancavano |
 
 ## 5. Andamento (una riga per notte, la piu' recente in alto)
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-15 · TV · ricerche 57 · eventi nuovi 14 · eventi per ricerca 0,25 (piu' 1 corretto) · fonti al PC +0 (ClassicaLive candidata) · miglioria: per la musica classica e la lirica si parte da ClassicaLive per provincia (una lettura, ora e organizzatore di ogni concerto) e dalla pagina stagione di risorse.teatrostabileveneto per date e fasce di prezzo: 12 concerti e opere mancanti in 3 letture. Notte povera per il resto: 6 comuni del piano senza eventi (siti design-comuni vuoti), posizioni non sistemate (Mapcarta a vuoto), 5 letture rifiutate per link presi dentro le pagine
 - 2026-11-14 · TV · ricerche 57 · eventi nuovi 34 · eventi per ricerca 0,6 · fonti al PC +0 (New Age Club candidato) · miglioria: pagina /events/ dei locali di musica dal vivo (New Age Club: 16 serate mancanti in una lettura) e coordinate dei luoghi dalla mappa delle schede di Eventi Venetando; Mapcarta inutile per piazze e municipi (4 ricerche a vuoto)
 - 2026-11-13 · TV · ricerche 59 · eventi nuovi 7 · eventi per ricerca 0,1 · fonti al PC +3 (Comuni di Resana, Giavera del Montello, Nervesa della Battaglia, html_llm) e 4 sistemate (Maser, Povegliano, Loria, Gaiarine da myportal a html_llm) · miglioria: coordinate dei luoghi con nome da Mapcarta in una ricerca e una lettura (5 eventi di Collalto); comuni MyPortal in 404 passati a html_llm senza ricerche. 6 letture rifiutate perche' i link venivano da dentro una pagina letta (TViWeb)
 - 2026-11-12 · TV · ricerche 61 · eventi nuovi 10 · eventi per ricerca 0,2 · fonti al PC +4 (Comuni di Cornuda, Chiarano, Fonte, San Polo di Piave, html_llm) · miglioria: i comuni piccoli si riconoscono dal tipo di portale e passano al PC con una lettura, senza ricercare gli eventi uno per uno; 17 luoghi ricorrenti in luoghi.yaml dai candidati del PC senza ricerche. Notte spesa soprattutto in manutenzione (24 eventi della coda, campione nuovo)

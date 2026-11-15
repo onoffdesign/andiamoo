@@ -134,15 +134,16 @@ fonti:
   frequenza: settimanale
   qualita: 3
   resa:
-    controlli: 2
-    eventi_trovati: 0
+    controlli: 3
+    eventi_trovati: 2
     ultimi:
+    - 2
     - 0
     - 0
-  ultimo_controllo: '2026-11-07'
+  ultimo_controllo: '2026-11-15'
   automatizzabile: 'no'
   stato: attiva
-  note: Si apre con WebFetch (TrevisoToday invece da' errore).
+  note: "Si apre con WebFetch (TrevisoToday invece da' errore). 2026-11-15: la ricerca con allowed_domains venetotoday.it da' 10 articoli recenti in una ricerca; molti parlano di eventi gia' passati, ingresso quasi mai indicato."
 - nome: Cosedicasa mercatini antiquariato (Treviso)
   url: https://www.cosedicasa.com/mercatini/
   query: cosedicasa mercatino antiquariato <comune>
@@ -1446,3 +1447,101 @@ fonti:
   automatizzabile: 'no'
   stato: attiva
   note: "Stagione di 6 spettacoli del giovedi' alle 21 (novembre-aprile), 15 euro; il Comune non ha una pagina apribile, l'articolo di Qdpnews del 28/10/2026 ha il calendario completo. Aggiunte le date fino all'11/3; manca Sette: da Tebe a Sarajevo del 15/4/2027 (fuori orizzonte)."
+- nome: ClassicaLive (concerti di musica classica a Treviso e provincia)
+  url: https://www.classicalive.it/it/luoghi/veneto/treviso/
+  query: classicalive Treviso concerti musica classica
+  tipo: aggregatore
+  categorie: [musica]
+  comuni: [Treviso, Castelfranco Veneto, Roncade]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 11, ultimi: [11] }
+  ultimo_controllo: 2026-11-15
+  automatizzabile: da verificare
+  stato: attiva
+  note: "Una lettura: 22 concerti dei prossimi 4 mesi con ora, luogo e link all'organizzatore (Teatro Stabile, Filarmonia Veneta, Musincantus, Sile Classica); 10 su 14 non erano sul sito. Niente prezzi: si prendono dalle pagine degli organizzatori. Pagina lunga (240 mila caratteri): rileggere con offset 100000 per marzo e oltre. Esiste per ogni provincia (/luoghi/veneto/<provincia>/): utile anche per le province successive. Candidata per sources.yaml se ha JSON-LD."
+- nome: Teatro Del Monaco, stagione lirica e concertistica 26/27 (Teatro Stabile del Veneto)
+  url: https://risorse.teatrostabileveneto.it/treviso-teatro-del-monaco-stagione-lirica-concertistica-26-27
+  query: teatrostabileveneto Treviso Del Monaco stagione lirica concertistica 2026 2027
+  tipo: teatro
+  categorie: [musica]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 10, ultimi: [10] }
+  ultimo_controllo: 2026-11-15
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Date e fasce di prezzo di tutta la stagione (lirica 14-60, concerti 10-38, Giovani Promesse 8-28 euro), senza gli orari dei concerti (presi da ClassicaLive). Mancano ancora l'ora del Gala Premio Silveri (25/11) e del Concerto di Natale gospel (22/12): riaprire a dicembre."
+- nome: Sagratour (sagre di Treviso)
+  url: https://sagratour.it/sagre/treviso/
+  query: sagratour sagre Treviso
+  tipo: aggregatore
+  categorie: [sagre-feste, cibo-vino]
+  comuni: []
+  province: [TV]
+  frequenza: settimanale
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-15
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Le schede si aprono e hanno programma per giorno e coordinate, ma dichiarano di non essere la fonte ufficiale e gli organizzatori sono spesso solo su Facebook: serve per scoprire (Folpada di Canizzano 22/11, Festa della Madonna della Salute di Bibano 13-22/11) e per il test di copertura."
+- nome: Comune di Asolo (eventi, OpenCity)
+  url: https://www.comune.asolo.tv.it/Vivere-il-comune/Eventi
+  query: Comune di Asolo eventi
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: [Asolo]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-15
+  automatizzabile: da verificare
+  stato: attiva
+  note: "Portale OpenCity Italia; la home ha solo avvisi (giornata ecologica del 22/11 senza ora e luogo). La pagina Eventi non si e' aperta (permesso scaduto): riprovare dai risultati di una ricerca. OpenCity espone spesso un'API JSON: candidato per il PC."
+- nome: Comune di Riese Pio X (eventi)
+  url: https://www.comune.riesepiox.tv.it/eventi
+  query: Comune di Riese Pio X eventi
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: [Riese Pio X]
+  province: [TV]
+  frequenza: trimestrale
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-15
+  automatizzabile: 'no'
+  stato: debole
+  note: "Tema design-comuni, 'Nessun evento in programma'. La rassegna DeINDOPARA (martedi' a Villa Eger, novembre-maggio) ha il programma solo in un'immagine JPG."
+- nome: Comune di Preganziol (eventi)
+  url: https://www.comune.preganziol.tv.it/eventi/
+  query: Comune di Preganziol eventi
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: [Preganziol]
+  province: [TV]
+  frequenza: trimestrale
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-15
+  automatizzabile: 'no'
+  stato: debole
+  note: "Tema design-comuni, 'Nessun evento in programma' il 2026-11-15."
+- nome: Comune e Pro Loco di San Pietro di Feletto
+  url: https://www.comune.sanpietrodifeletto.tv.it/eventi
+  query: Comune di San Pietro di Feletto eventi
+  tipo: comune
+  categorie: [sagre-feste, cibo-vino]
+  comuni: [San Pietro di Feletto]
+  province: [TV]
+  frequenza: trimestrale
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-15
+  automatizzabile: 'no'
+  stato: debole
+  note: "Comune (WordPress) senza eventi a novembre-dicembre; prolocosanpietrodifeletto.it fermo a settembre 2026."

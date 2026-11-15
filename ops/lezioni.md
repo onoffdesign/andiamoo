@@ -91,6 +91,14 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   provincia.treviso.it (calendario Pari Opportunita') da' errore a WebFetch; Comune di Crocetta senza eventi.
   Ricerche per ambito "serata club", "saggio ginnastica", "cena comunitaria": solo portali e guide nazionali.
 
+- 2026-11-15: resa 0 i comuni di Asolo (OpenCity, pagina eventi non aperta), Preganziol, Riese Pio X, San Pietro di
+  Feletto e Ormelle (design-comuni "Nessun evento"); Pro Loco di San Pietro di Feletto ferma a settembre; yogaday.it e
+  balyogandotreviso.it fermi al 2023-2025; CCIAA Treviso-Belluno solo corsi e-learning; mercatinodinatale.it e
+  2d2web.com vietati; mercatinidinatale.it e magicoveneto senza date 2026; "Novembre rosa, filo rosso" di Silea:
+  in rete solo le edizioni 2023 e 2024. Sagratour ha schede apribili con programma e coordinate ma non e' fonte
+  ufficiale. Link presi dentro ClassicaLive (teatrostabileveneto, filarmoniaveneta, musincantus) rifiutati: farli
+  uscire con una ricerca (la pagina stagione di risorse.teatrostabileveneto esce cercando il nome della stagione).
+
 ## Calendario (chi pubblica quando)
 - Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli
   articoli del 2025; quelli nuovi escono dopo il 15-20 novembre.

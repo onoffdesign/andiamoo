@@ -153,18 +153,6 @@ eventi:
     official_url: https://teatroaccademia.it/prosa/
     summary: Spettacolo di prosa della stagione 2026/27 del Teatro Accademia, con Primo Reggiani.
     trovato: '2026-10-30'
-  - title: Sguardi dall'Africa sul mondo (4passiFestival)
-    start: 2026-11-07T17:00
-    venue: Chiesa di Santa Caterina
-    address: Via Santa Caterina 29
-    town: Treviso
-    category: arte-cultura
-    subcategory: incontri-pubblici
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    summary: Dialogo con padre Filippo Ferraro, moderato da Costanza Spocci, nell'ambito del 4passiFestival.
-    fonte: https://www.nordest24.it/treviso-4passifestival-cinque-appuntamenti-30-ottobre-8-novembre-2026
-    trovato: '2026-10-31'
   - title: Passeggiata ai margini della citta' (4passiFestival)
     start: 2026-11-08T09:00
     venue: Piazza Martiri di Belfiore
@@ -869,20 +857,6 @@ eventi:
     summary: "Spettacolo per bambini del Centro Teatrale Da Ponte al Teatro La Loggia."
     fonte: https://teatrolorenzodaponte.it/calendario/
     trovato: '2026-11-02'
-  - title: "Fuori dalla cornice: laboratorio per bambini al Museo Bailo"
-    start: 2026-11-07T15:00
-    venue: "Museo Bailo"
-    address: "Borgo Cavour 24"
-    town: "Treviso"
-    category: famiglie-bambini
-    subcategory: laboratori
-    access: iscrizione
-    official_url: https://visitmuseumtreviso.com/shop/laboratorio-per-bambini-fuori-dalla-cornice/
-    audience:
-    - famiglie
-    summary: "Laboratorio creativo per bambini nelle sale del Museo Bailo, su prenotazione."
-    fonte: https://visitmuseumtreviso.com/laboratori-weekend/
-    trovato: '2026-11-02'
   - title: "Esplosione di colori: laboratorio per bambini a Santa Caterina"
     start: 2026-11-14T15:00
     venue: "Museo di Santa Caterina"
@@ -950,19 +924,6 @@ eventi:
     - famiglie
     summary: "Laboratorio creativo per bambini al Museo di Santa Caterina, su prenotazione."
     fonte: https://visitmuseumtreviso.com/laboratori-weekend/
-    trovato: '2026-11-02'
-  - title: "Vicini (Maserada sul Palco)"
-    start: 2026-11-07T21:00
-    venue: "Auditorium Don E. Vidotto"
-    address: "Viale Caccianiga 2"
-    town: "Maserada sul Piave"
-    category: teatro-spettacoli
-    subcategory: teatro
-    access: biglietto
-    price: "8 euro, gratis fino a 10 anni"
-    official_url: https://auditoriumaserada.it/vicini-maserada-sul-palco-13/
-    summary: "Commedia della compagnia Teatro Roncade, regia di Alberto Moscatelli, nella rassegna Maserada sul Palco: una coppia appena trasferita in periferia alle prese con vicini invadenti."
-    fonte: https://auditoriumaserada.it/
     trovato: '2026-11-02'
   - title: "Il nido di colombi (Maserada sul Palco)"
     start: 2026-11-14
@@ -1245,28 +1206,6 @@ eventi:
     summary: "Quinta edizione della mostra mercato di libri e stampe antiche nella Sala della Ragione di Asolo."
     fonte: https://www.nordest24.it/veneto-cosa-fare-6-8-novembre-2026-legno-libri-rievocazioni-arte
     trovato: '2026-11-06'
-  - title: "Rievocazione storica dell'Antica Fiera di Santa Lucia: mercato medievale e spettacoli"
-    start: 2026-11-07T09:00
-    venue: "Campo Fiera ed Ex Filanda"
-    town: "Santa Lucia di Piave"
-    category: sagre-feste
-    subcategory: ricorrenze
-    official_url: https://www.anticafierasantalucia.com/eventi/29-rievocazione-storica-dellantica-fiera-2/
-    summary: "Sabato della rievocazione con mercatino medievale e mostra dalle 9, corteo alle 14:30, spettacolo Belfagor alle 18:30 e concerto alle 20:30 alla Filanda Grande."
-    fonte: https://www.nordest24.it/veneto-cosa-fare-6-8-novembre-2026-legno-libri-rievocazioni-arte
-    trovato: '2026-11-06'
-  - title: "Ut Unum Sint: la Cappella Musicale Pontificia Sistina in concerto"
-    start: 2026-11-07T20:00
-    end: 2026-11-07T22:00
-    venue: "Chiesa arcipretale di Santa Maria Assunta"
-    address: "Via G. Marconi 1"
-    town: "Sernaglia della Battaglia"
-    category: musica
-    subcategory: jazz-classica
-    official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/ut-unum-sint-la-cappella-musicale-pontificia-sistina-in-concerto/
-    summary: "Concerto della Cappella Musicale Pontificia Sistina diretta da Marcos Pavan nella chiesa parrocchiale di Sernaglia."
-    fonte: https://www.comune.sernaglia.tv.it/
-    trovato: '2026-11-06'
   - title: "Spettacolo di burattini: la storia di Pinocchio"
     start: 2026-11-08T16:30
     end: 2026-11-08T17:30
@@ -1291,19 +1230,6 @@ eventi:
     official_url: https://www.comune.codogne.tv.it/novita/circolando-fuori-casa-la-buona-sicurezza-in-strada-non-ha-eta/
     summary: "Incontro pubblico in biblioteca sulla sicurezza in strada."
     fonte: https://www.comune.codogne.tv.it/
-    trovato: '2026-11-06'
-  - title: "Prealpi in Festa: escursioni, conferenza storica e Aperitivo del Bosco"
-    start: 2026-11-07T10:00
-    end: 2026-11-07T23:59
-    venue: "Piazza Italia"
-    town: "Cordignano"
-    category: sagre-feste
-    subcategory: sagre
-    access: libero
-    price: "ingresso libero; escursioni su prenotazione"
-    official_url: https://www.eventivenetando.it/it/eventi/feste-e-sagre/32-prealpi-in-festa/16979
-    summary: "Sabato della Prealpi in Festa con escursioni guidate alle 10 e alle 14:30, una conferenza storica alle 18:30 e l'Aperitivo del Bosco dalle 19."
-    fonte: https://www.trevisoeventi.com/cordignano-prealpi-in-festa.html
     trovato: '2026-11-06'
   - title: "Prealpi in Festa: mercato, triathlon del boscaiolo e castagnata"
     start: 2026-11-08T09:00
@@ -1351,17 +1277,6 @@ eventi:
     summary: "Partita casalinga del Treviso FBC contro l'Arzignano Valchiampo nel campionato di Serie C; orario non ancora pubblicato."
     fonte: https://trevisocalcio.tv/il-calendario-del-treviso-fbc/
     trovato: '2026-11-06'
-  - title: "Sagra di San Martino a Colle Umberto"
-    start: "2026-11-07T18:30"
-    summary: "Stand gastronomico della Sagra di San Martino con piatti alla griglia e, alle 21:30, musica dal vivo con i Vertical Smile."
-    venue: "Piazza Marconi"
-    address: "Piazza Marconi, San Martino"
-    town: "Colle Umberto"
-    category: "sagre-feste"
-    access: "libero"
-    official_url: "https://www.istadea.it/"
-    fonte: "https://www.trevisoeventi.com/colle-umberto-sagra-di-san-martino.html"
-    trovato: "2026-11-07"
   - title: "Sagra di San Martino a Colle Umberto"
     start: "2026-11-08T12:00"
     summary: "Giornata della Sagra di San Martino con spiedo da asporto su prenotazione a mezzogiorno, cucina aperta dalle 18:30 e serata a favore della scuola dell'infanzia parrocchiale."
@@ -1427,17 +1342,6 @@ eventi:
     access: "libero"
     official_url: "https://www.istadea.it/"
     fonte: "https://www.trevisoeventi.com/colle-umberto-sagra-di-san-martino.html"
-    trovato: "2026-11-07"
-  - title: "Festa d'Autunno a Visnà"
-    start: "2026-11-07T19:30"
-    summary: "Stand enogastronomico della Festa d'Autunno della Pro Loco di Visnà, con musica di Renza Glamour alle 21."
-    venue: "Centro Vicinalis"
-    address: "Via Marsura, Visnà"
-    town: "Vazzola"
-    category: "sagre-feste"
-    access: "libero"
-    official_url: "https://www.trevisoeventi.com/vazzola-visna-festa-d-autunno.html"
-    fonte: "https://www.trevisoeventi.com/vazzola-visna-festa-d-autunno.html"
     trovato: "2026-11-07"
   - title: "Festa d'Autunno a Visnà"
     start: "2026-11-08T19:30"
@@ -1539,18 +1443,6 @@ eventi:
     summary: "Sagra parrocchiale di San Mauro con stand gastronomico al coperto ogni sera dalle 19, spettacoli dalle 21, lotteria e luna park."
     fonte: "https://www.trevisoeventi.com/paese-castagnole-sagra-di-san-mauro.html"
     trovato: "2026-11-07"
-  - title: "Una gonna che nasconde più di un segreto (Anima Teatro)"
-    start: "2026-11-07T20:45"
-    summary: "Commedia della compagnia teatrale Estragone di Pordenone nella rassegna Anima Teatro promossa dal Comune di Monastier."
-    venue: "Centro Polivalente"
-    address: "Piazza Marconi 1"
-    town: "Monastier di Treviso"
-    category: "teatro-spettacoli"
-    access: "libero"
-    price: "ingresso gratuito senza prenotazione"
-    official_url: "https://www.trevisoeventi.com/monastier-di-treviso.html"
-    fonte: "https://www.trevisoeventi.com/monastier-di-treviso.html"
-    trovato: "2026-11-07"
   - title: "Twist (Anima Teatro)"
     start: "2026-11-14T20:45"
     summary: "Commedia della compagnia teatrale Arte Povera di Mogliano Veneto nella rassegna Anima Teatro promossa dal Comune di Monastier."
@@ -1645,18 +1537,6 @@ eventi:
     official_url: "https://imocovolley.it/event/prosecco-doc-a-carraro-imoco-volley-vs-cbf-balducci-hr-macerata/"
     summary: "Partita casalinga della Prosecco Doc A.Carraro Imoco Volley contro la CBF Balducci HR Macerata nel campionato di Serie A femminile."
     fonte: "https://www.trevisoeventi.com/calendario-eventi-treviso.htm"
-    trovato: "2026-11-07"
-  - title: "parkrun Treviso"
-    start: "2026-11-07T09:00"
-    venue: "Parco dello Storga"
-    address: "Via Cal di Breda 130"
-    town: "Treviso"
-    category: "sport"
-    access: "iscrizione"
-    price: "gratuito, registrazione una tantum sul sito parkrun"
-    official_url: "https://www.parkrun.it/treviso/"
-    summary: "Corsa o camminata libera e cronometrata di 5 km al Parco dello Storga, aperta a tutti; serve registrarsi una volta e portare il proprio codice a barre."
-    fonte: "https://www.parkrun.it/treviso/"
     trovato: "2026-11-07"
   - title: "parkrun Treviso"
     start: "2026-11-14T09:00"
@@ -1838,18 +1718,6 @@ eventi:
     address: "Via Piave 108"
     town: "Montebelluna"
     fonte: "https://mattorosso.it/eventi"
-    trovato: "2026-11-07"
-  - title: "San Martin a Mojan"
-    venue: "Piazza dei Caduti e Corti Benedettine"
-    address: "Piazza dei Caduti"
-    town: "Mogliano Veneto"
-    category: "sagre-feste"
-    access: "libero"
-    official_url: "https://prolocomoglianoveneto.org/event/san-martin-a-mojan-vi-edizione/"
-    fonte: "https://www.nordest24.it/san-martin-mojan-2026-mogliano-veneto-programma-famiglie"
-    start: "2026-11-07T10:00"
-    end: "2026-11-07T19:00"
-    summary: "Prima giornata della festa di San Martino con mercato di prodotti regionali, mostra dei legumi, racconti per bambini, San Martino a cavallo alle 16 e laboratorio di caseificazione."
     trovato: "2026-11-07"
   - title: "San Martin a Mojan"
     venue: "Piazza dei Caduti e Corti Benedettine"

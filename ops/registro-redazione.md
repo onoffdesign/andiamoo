@@ -2,6 +2,48 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-15
+
+- **Giro del PC**: NON ha girato per la quarta notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 (ora 55) compaiono sul sito
+  solo al prossimo giro. Correzioni applicate con --applica.
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: dei 13 eventi futuri ancora aperti nessuno risolto; 2 ricerche e 2 letture spese su Sernaglia
+  (laboratorio di ceramica e legatoria: nessuna pagina oltre il sito del Comune, vietato) e su Novembre rosa, filo rosso
+  di Silea (in rete solo le edizioni 2023 e 2024). Gli altri non ricercati: gia' cercati a vuoto da 2-3 notti.
+- **Altre correzioni**: accesso del Concerto dell'Immacolata dell'8/12 (offerta, ingresso libero con offerta responsabile).
+- **Controllo a campione**: 5/10, 6/10 dopo la correzione (vedi segnalazioni-e-controllo).
+- **Posizioni**: prima e dopo 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11, il
+  PC non ha girato). Nessun luogo aggiunto: Mapcarta non ha trovato Villa Romivo ne' Camalo' e la scheda di Dosson ha
+  dato errore (4 ricerche e letture). I luoghi senza punto piu' frequenti hanno un indirizzo (Piazza G. Marconi 2 a San
+  Fior, Via Matteotti 2 a Montebelluna, Viale Cacciaganga 2 a Maserada) o sono frazioni (Dosson, Camalo', Musano,
+  Sarano, Paderno), che il geocoder posiziona dal giro dell'11/11: da ricontrollare dopo il prossimo giro.
+- **Eventi aggiunti** (14): musica 14 (stagione lirica e concertistica del Teatro Del Monaco: Pagliacci 4 e 6/12, Gocce
+  musicali della Filarmonia Veneta 15/12, 19/1 e 16/2, recital Takezawa 26/1, Altri rami 2/2, Il pipistrello 7/2, Il
+  cappello di paglia di Firenze 5 e 7/3; L'Appassionata al Teatro Accademico di Castelfranco 21/11; Te Deum di Salieri e
+  Requiem di Mozart al Sacro Cuore 13/12; VivaVoce Festival al Sant'Artemio 21/11, Rebel Bit e Ringmasters).
+  Non aggiunti: Folpada di Canizzano (22/11) e Festa della Madonna della Salute di Bibano (13-22/11), solo su Sagratour e
+  Facebook; Passeggiata di Natale a Villa d'Asolo (13/12, ora e ritrovo solo nel volantino); Gala Premio Silveri (25/11)
+  e Concerto di Natale gospel (22/12) al Del Monaco senza ora; mercatini di Natale di Badoere (date 2026 non ufficiali).
+- **Comuni controllati**: Asolo, Preganziol, Riese Pio X, San Pietro di Feletto (Comune e Pro Loco), Ormelle: nessun
+  evento pubblicato. Mogliano Veneto segnato come gia' fonte del PC.
+- **Categorie cercate**: Business e formazione > Startup e innovazione (resa 0), Musica e party > Festival musicali
+  (ClassicaLive e VivaVoce: 14 eventi), Business e formazione > Formazione (CCIAA solo e-learning, resa 0), Natura e
+  benessere > Benessere (siti di yoga fermi, resa 0). +10 voci nell'albero.
+- **Fonti note**: VenetoToday (+2 eventi in 1 ricerca e 3 letture). Sagramap sostituita da Sagratour (0 eventi aggiunti);
+  Cinema Edera, Libreria San Leonardo, Istadea (annuale, sagra gia' conclusa) e Comune di Orsago non riaperti.
+- **Fonti nuove catalogate**: 7 (ClassicaLive Treviso, stagione lirica e concertistica del Del Monaco, Sagratour,
+  Comuni di Asolo, Riese Pio X, Preganziol, San Pietro di Feletto). Spostate in sources.yaml: 0 (ClassicaLive candidata,
+  Comune di Asolo OpenCity da verificare). Sistemate: 0.
+- **Pulizia**: tolte 14 voci di eventi conclusi prima dell'8/11 da correzioni.yaml e 11 da eventi_redazione.yaml.
+- **Miglioria**: ClassicaLive per provincia come prima lettura per classica, lirica e cori (nel metodo, sezione 4).
+- **Test di copertura**: 4/10 (concerti di ClassicaLive).
+- **Ricerche**: 57 su 70 (24 WebSearch, 33 WebFetch, di cui 5 rifiutate per link presi dentro le pagine).
+- **Problemi aperti**: il giro del PC non parte da quattro notti; la fonte del Teatro Stabile al PC copre solo la prosa
+  del Del Monaco (stagione lirica e concertistica aggiunta a mano: valutare una fonte); ClassicaLive da passare al PC se
+  ha JSON-LD; siti dei comuni di Silea e Sernaglia vietati; programmi di Natale 2026 dei comuni non ancora usciti.
+
 ## 2026-11-14
 
 - **Giro del PC**: NON ha girato per la terza notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

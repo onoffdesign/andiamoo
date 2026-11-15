@@ -71,33 +71,6 @@ correggi:
     official_url: https://www.corrinrosa.run/san-vendemiano/
     nota: "sito ufficiale da running.life; 8/11/2026, 6, 12 e 21 km"
     verificato: 2026-10-30
-  e14defa5502908bf:
-    title: "Concerto di San Leonardo"
-    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato ore 20:45, Duomo di San Leonardo"
-    verificato: "2026-11-06"
-    start: "2026-11-07T20:45"
-    access: "iscrizione"
-    price: "gratuito, iscrizione su Eventbrite"
-    official_url: "https://www.eventbrite.it/e/biglietti-concerto-di-san-leonardo-2002863989107"
-  093511c03bff50c2:
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 7/11 ore 12:00"
-    verificato: "2026-11-06"
-    start: "2026-11-07T12:00"
-    price: "gratuito, iscrizione su Eventbrite"
-  0b4c2dc2fdce0397:
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 7/11 ore 21:00"
-    verificato: "2026-11-06"
-    start: "2026-11-07T21:00"
-    price: "gratuito, iscrizione su Eventbrite"
-  e0cf81c1121f112d:
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    nota: 'incontro del 4passiFestival 2026 (4passi.org): prenotazione su Eventbrite'
-    verificato: "2026-10-31"
   ef8ba02c69882fca:
     access: iscrizione
     official_url: https://4passi.org/programma2026/
@@ -106,11 +79,6 @@ correggi:
   d5659bcbeb9044e4:
     official_url: https://4passi.org/programma2026/
     nota: incontro del 4passiFestival 2026 (4passi.org); controllo a campione
-    verificato: "2026-10-31"
-  e7a571593d0c4f14:
-    start: "2026-11-07T18:00"
-    official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
-    nota: 'Calendario Podismo Veneto novembre 2026: partenza 18-19:30, 9 km; nessun sito dell''organizzatore'
     verificato: "2026-10-31"
   2a09c7a77c43cbd7:
     official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
@@ -125,24 +93,11 @@ correggi:
     official_url: https://www.atleticasanbiagio.it/
     nota: 'Calendario Podismo Veneto: competitiva 21,097 km ore 9:30, non competitiva 6 e 10 km ore 9; organizza Atletica San Biagio; controllo a campione'
     verificato: "2026-10-31"
-  a0f44877772aeff2:
-    title: 'Satorday: giardinaggio selvaggio e talee al Parco Fenderl'
-    nota: titolo ripulito
-    verificato: "2026-10-31"
   46b06155733f7c7f:
     category: arte-cultura
     subcategory: conferenze
     official_url: https://www.trevisotoday.it/eventi/intelligenza-emotiva-san-vendemiano-2026.html
     nota: 'TrevisoToday: percorso di incontri sul digitale per la comunita'' educante, non un evento business; controllo a campione'
-    verificato: "2026-10-31"
-  473f9628e2768f72:
-    official_url: https://www.eventbrite.com/e/biglietti-oltre-la-corsa-2003923171149
-    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
-    verificato: "2026-10-31"
-  26a85098f1633145:
-    official_url: https://www.eventbrite.com/e/biglietti-visite-guidata-alla-chiesa-della-santissima-trinita-la-mattarella-2003506031473
-    nota: 'pagina di iscrizione Eventbrite dell''organizzatore: nessun altro sito trovato'
-    title: Visita guidata alla Chiesa della Santissima Trinita' La Mattarella
     verificato: "2026-10-31"
   69644ff861cf5095:
     official_url: https://www.eventbrite.com/e/biglietti-stories-anima-club-07112026-2003338421146
@@ -354,12 +309,6 @@ correggi:
   817cda9bed8d18cc:
     official_url: https://comune.cappellamaggiore.tv.it/luoghi-del-sacro/
     nota: "pagina del Comune dove si prenotano le visite Percorsi d'Arte (edizione 2025: gratuite con prenotazione); per il 2026 orario e costo da confermare"
-  cea8061fd793f6c1:
-    venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent 56"
-    town: "Treviso"
-    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
-    verificato: "2026-11-07"
   7f52064ba637bc90:
     venue: "Parco degli Alberi Parlanti (Villa Margherita)"
     address: "Viale G. G. Felissent 56"
@@ -564,19 +513,6 @@ correggi:
     town: "Treviso"
     nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
-  3c84c4e68ab945a9:
-    title: "Requiem di Fauré per il centenario di Antonio Panighel"
-    start: "2026-11-07T20:45"
-    venue: "Chiesa di Sant'Andrea Apostolo"
-    address: "Sant'Andrea di Barbarana"
-    town: "San Biagio di Callalta"
-    category: musica
-    access: offerta
-    price: "offerta libera"
-    official_url: https://www.accademiasegattini.it/2026/10/12/2026-11-07-santandrea-di-barbarana-concerto-omaggio-al-m-antonio-panighel/
-    summary: "Esecuzione del Requiem di Gabriel Faure' per soli, coro e orchestra con la Corale Attilio Zaramella, altri due cori e l'Orchestra Filarmonica Enrico Segattini, nel centenario della nascita del maestro Antonio Panighel."
-    nota: "ora, chiesa e ingresso a offerta dalla pagina dell'Accademia Segattini (orchestra), evento promosso dal Comune"
-    verificato: "2026-11-05"
   c7e886ecc313f32a:
     title: "Rispettiamo l'ambiente #Zeroplastic a Olmi"
     start: "2026-11-08T09:00"
@@ -1136,11 +1072,7 @@ rimuovi:
   0282e7bf042a0cf3: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   aacb8abe5224c830: "sessione del mattino riservata alle scuole superiori, non aperta al pubblico (resta lo show serale 89cbd8271e8be202)"
   f8b485538cb22ecf: "pagina di presentazione della stagione, non un evento: gli spettacoli dell'Accademico sono gia' sul sito uno per uno (Opera Locos, Falstaff, Double Bill, Il male oscuro, Don Chisciotte)"
-  3499fdda118d318d: "concluso il 7/11/2026"
-  7b4a58e6d6ed9565: "concluso il 7/11/2026"
-  6ac6d3fcea187743: "concluso il 7/11/2026"
   6182d7567ea519b4: "concluso il 7/11/2026"
-  edb1f99d0fb82a6e: "concluso il 7/11/2026"
   8fa2a1c939b61896: "concluso l'8/11/2026"
   ed55e45c9cbea33c: "concluso l'8/11/2026"
   0cf85d869332204f: "data sbagliata: il programma del Comune di Quinto non ha incontri il 20/11 (il successivo dopo l'11/11 e' il 10/12); riassunto di un altro evento"
