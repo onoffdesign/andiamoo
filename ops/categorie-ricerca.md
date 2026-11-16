@@ -32,6 +32,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Ciclismo** [gran fondo, cicloturistica, randonnée, gravel]
   - strada · mountain bike [XC, enduro, marathon MTB] · gravel · ciclocross · e-bike · BMX
   - cicloturistiche ed eroiche · pedalate per famiglie · bike test e raduni
+  · circuiti di ciclocross regionali [Trofeo Triveneto CX, Master Cross] (2026-11-16) → federciclismo trofeo-triveneto · ciclocross giovanile e staffette a squadre [team relay, giovanissimi] (2026-11-16) · ciclocross di fine anno e Santo Stefano [cross di fine anno] (2026-11-16)
 - **Arrampicata** [arrampicata, climbing, boulder, falesia]
   - boulder [contest boulder, open boulder] · lead [difficolta'] · speed · falesia [raduno in falesia]
   - palestre indoor (open day, corsi base) · ice climbing · gare FASI
@@ -82,6 +83,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · letture per adulti · poesia e slam poetry
 - **Conferenze e incontri** [conferenza, talk, dialogo] · storia locale · scienza e divulgazione · filosofia
   · ambiente · astronomia (serate osservative) · festival di cittadinanza e cooperazione [festival, dialogo, 4passi]
+  · guide all'ascolto con letture [guida all'ascolto, viaggio tra i grandi della musica] (2026-11-16) → trevisoeventi pagine comune · conferenze di centri culturali e spirituali [conferenza pubblica, simbolismo] (2026-11-16)
   · teatro forum e incontri partecipati · cicli comunali su salute e territorio [salute e territorio, agricoltura biologica] · sfilate di moda equosolidale nelle botteghe [sfilata, Altromercato, 4passi]
 - **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni
   · feste di San Martino con il santo a cavallo e il taglio del mantello [San Martin, San Martino a cavallo] · feste contadine con mostra di animali e benedizione delle macchine agricole [festa contadina, benedizione dei trattori]
@@ -97,6 +99,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Concerti** [concerto, live] · rock e indie · cantautori · jazz [jam session] · blues · classica e cameristica
   · lirica e opera · musica corale [coro, rassegna corale] · bande e fanfare · musica sacra e organo · metal
   · hip hop e rap · elettronica live · world e folk · tributi e cover band
+  · concerti tributo nei teatri [tribute show, tribute band, omaggio a] (2026-11-16) → TicketOne /cityd/<comune>/concerti-55/, canzoni.it · stagioni musicali dei cinema-teatri [cinema teatro, Oderzo suona] (2026-11-16) → cinemacristallo · cori gospel in tournee [mass choir] (2026-11-16)
   · stagioni liriche dei teatri comunali [stagione lirica, opera, operetta] (2026-11-15) → risorse.teatrostabileveneto · concerti di Natale gospel [gospel, concerto di Natale] (2026-11-15)
 - **Festival musicali** · estivi all'aperto · rassegne d'autunno · festival di musica antica
   · festival di musica a cappella [a cappella, VivaVoce] (2026-11-15) · festival organistici dei comuni [festival organistico, organi storici] (2026-11-15)
@@ -150,6 +153,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia
   · rassegne domenicali dei teatri comunali [teatro ragazzi, domeniche a teatro, Ragazzi che Teatro]
   · letture animate con musica dal vivo
+  · rassegne comunali di prosa per famiglie la domenica pomeriggio [Domenica a teatro, ingresso 8 euro] (2026-11-16) → trevisoeventi stagione Trevignano Cultura · spettacoli natalizi per ragazzi nei teatri commerciali [K-pop, missione Natale] (2026-11-16)
 - **All'aperto** · fattorie didattiche · cacce al tesoro · feste di quartiere per famiglie · parchi avventura · laboratori nei garden center [laboratorio bambini garden] · piantumazione di bulbi per bambini · villaggi delle zucche [villaggio delle zucche] (ottobre)
 - **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini
   · accensione del presepe e dell'albero (8 dicembre) · mostre di presepi (date dell'anno escono a fine novembre) · San Nicolo' (6 dicembre)
@@ -210,3 +214,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-13 · +11 voci · dove: Arte e cultura > Visite guidate (+2), Mostre (+1), Conferenze e incontri (+2), Sagre > Feste stagionali (+3), Natura > Escursioni (+2), Orti e giardini (+1)
 - 2026-11-14 · +11 voci · dove: Sport > Sport invernali (+2), Ginnastica e danza sportiva (+2), Arte e cultura > Comunita' (+4), Musica > Serate e club (+3)
 - 2026-11-15 · +10 voci · dove: Musica > Festival musicali (+3), Musica > Concerti (+2), Business > Startup (+1), Business > Formazione (+2), Natura > Benessere (+2)
+- 2026-11-16 · +10 voci · dove: Sport > Ciclismo (+3), Musica > Concerti (+3), Arte e cultura > Conferenze e incontri (+2), Famiglie > Spettacoli per bambini (+2)

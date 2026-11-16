@@ -26,8 +26,8 @@ comuni_TV:
   Cison di Valmarino: 2026-10-30
   Codognè: 2026-11-06
   Colle Umberto: 2026-11-07
-  Conegliano: 2026-10-30
-  Cordignano: 2026-10-30
+  Conegliano: 2026-11-16
+  Cordignano: 2026-11-16
   Cornuda: 2026-11-12
   Crocetta del Montello: 2026-11-14
   Farra di Soligo: 2026-11-08
@@ -51,7 +51,7 @@ comuni_TV:
   Monastier di Treviso: 2026-11-05
   Monfumo: 2026-11-10
   Montebelluna: 2026-11-09
-  Morgano: 2026-10-30
+  Morgano: 2026-11-16
   Moriago della Battaglia: 2026-11-06
   Motta di Livenza: 2026-11-06
   Nervesa della Battaglia: 2026-11-13
@@ -59,7 +59,7 @@ comuni_TV:
   Ormelle: 2026-11-15
   Orsago: 2026-11-05
   Paese: 2026-11-01
-  Pederobba: null
+  Pederobba: 2026-11-16
   Pieve del Grappa: 2026-11-14
   Pieve di Soligo: 2026-11-01
   Ponte di Piave: 2026-10-31
@@ -79,14 +79,14 @@ comuni_TV:
   San Fior: 2026-11-10
   San Pietro di Feletto: 2026-11-15
   San Polo di Piave: 2026-11-12
-  San Vendemiano: 2026-10-30
+  San Vendemiano: 2026-11-16
   San Zenone degli Ezzelini: 2026-11-12
   Santa Lucia di Piave: 2026-11-13
   Sarmede: 2026-11-10
   Segusino: 2026-11-08
   Sernaglia della Battaglia: 2026-11-06
   Silea: 2026-11-05
-  Spresiano: null
+  Spresiano: 2026-11-16
   Susegana: 2026-11-10
   Tarzo: 2026-11-09
   Trevignano: 2026-11-08
@@ -105,6 +105,15 @@ aggregatori:
   sagratour.it (Treviso): 2026-11-15
   trovasagre.com (mercatini di Natale): 2026-11-15
   trovaeventi.com: 2026-11-10
+  canzoni.it (concerti Treviso): 2026-11-16
+  federciclismo.it (Trofeo Triveneto ciclocross): 2026-11-16
+  trevisomtb.it (calendario MTB e ciclocross): 2026-11-16
+  prolocovenete.it (eventi Pro Loco per provincia, elenco caricato via JS): 2026-11-16
+  vivertempo.it (fermo al 2018): 2026-11-16
+  loveitalia.fun (3 eventi, senza fonte): 2026-11-16
+  trevisoperte.it (Urbecom, elenco in errore): 2026-11-16
+  cinemacristallo.com (Teatro Cristallo Oderzo, al PC): 2026-11-16
+  cinemabusan.it (Mogliano, eventi con ospiti): 2026-11-16
   podopodo.it: 2026-11-10
   trovasagre.com (Treviso): 2026-11-10
   paesiinfesta.com: 2026-11-08
@@ -122,8 +131,8 @@ aggregatori:
   calendariopodismo.it: null
   calendariopodismoveneto.blogspot.com: 2026-11-02
   running.life: null
-  Pro Loco e UNPLI Treviso: 2026-11-09
-  itinerarinellarte.it (mostre Treviso): 2026-11-09
+  Pro Loco e UNPLI Treviso: 2026-11-16
+  itinerarinellarte.it (mostre Treviso): 2026-11-16
   bibliotecazerobranco.it: 2026-11-09
   'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': 2026-11-09
   musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: 2026-10-30
@@ -150,7 +159,7 @@ aggregatori:
   fleamapket.com (mercatini): 2026-11-01
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
-  trevisoeventi.com (calendario provincia): 2026-11-07
+  trevisoeventi.com (calendario provincia): 2026-11-16
   hellomoglianoveneto.net (appuntamenti del weekend): 2026-11-05
   nautiluscantiereteatrale.it (compagnia in tournee, al PC): 2026-11-05
   fondoambiente.it (eventi FAI in provincia): 2026-11-05
@@ -174,6 +183,8 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
+  "Sport > Ciclismo": 2026-11-16
+  "Musica e party > Concerti": 2026-11-16
   "Business e formazione > Startup e innovazione": 2026-11-15
   "Musica e party > Festival musicali": 2026-11-15
   "Business e formazione > Formazione": 2026-11-15
@@ -226,10 +237,10 @@ categorie_TV:
   "Natura e benessere > Ambiente": 2026-11-01
   "Arte e cultura > Libri e lettura": 2026-11-01
   "Sagre e cibo > Cibo": 2026-11-01
-  "Arte e cultura > Conferenze e incontri": 2026-10-31
+  "Arte e cultura > Conferenze e incontri": 2026-11-16
   "Business e formazione > Lavoro": 2026-10-31
   "Arte e cultura > Tecnologia e scienza": 2026-10-31
-  "Famiglie e bambini > Spettacoli per bambini": 2026-10-31
+  "Famiglie e bambini > Spettacoli per bambini": 2026-11-16
   musica: 2026-10-30
   nightlife: null
   sagre-feste: 2026-10-30

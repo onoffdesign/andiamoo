@@ -14,13 +14,6 @@
 #   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
 
 correggi:
-  4247ba408253fcd3:
-    venue: Porta San Tomaso (mura di Treviso)
-    address: Porta San Tomaso, Treviso
-    lat: 45.66994
-    lon: 12.25089
-    nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
-    verificato: 2026-10-29
   60e877f3721e8af9:
     venue: Porta San Tomaso (mura di Treviso)
     address: Porta San Tomaso, Treviso
@@ -62,32 +55,6 @@ correggi:
     access: libero
     nota: "ogni secondo sabato del mese, 9-18, Pro Loco Roncade (eventiesagre); 'sotto i portici' dal pieghevole del Comune (marzo 2025). Punto lasciato al centro di Roncade, via esatta non trovata. Prossima data 14/11, il 12/12 da aggiungere piu' avanti"
     verificato: 2026-10-30
-  a09d9e6a21ac0b7b:
-    official_url: https://www.traildelgevero.it
-    venue: Case Marian
-    nota: "sito ufficiale da gotrail e haid; partenza e arrivo alle Case Marian di Cison di Valmarino (gotrail)"
-    verificato: 2026-10-30
-  662108727f341882:
-    official_url: https://www.corrinrosa.run/san-vendemiano/
-    nota: "sito ufficiale da running.life; 8/11/2026, 6, 12 e 21 km"
-    verificato: 2026-10-30
-  ef8ba02c69882fca:
-    access: iscrizione
-    official_url: https://4passi.org/programma2026/
-    nota: 'incontro del 4passiFestival 2026 (4passi.org): prenotazione su Eventbrite'
-    verificato: "2026-10-31"
-  d5659bcbeb9044e4:
-    official_url: https://4passi.org/programma2026/
-    nota: incontro del 4passiFestival 2026 (4passi.org); controllo a campione
-    verificato: "2026-10-31"
-  2a09c7a77c43cbd7:
-    official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
-    nota: 'Calendario Podismo Veneto novembre 2026: ore 9, 6 e 14 km; nessun sito dell''organizzatore. Ritrovo delle edizioni passate in Piazza Donatori di Sangue, da confermare'
-    verificato: "2026-10-31"
-  cac8a41d191e5cf7:
-    official_url: https://calendariopodismoveneto.blogspot.com/2025/04/novembre-2026.html
-    nota: 'Calendario Podismo Veneto novembre 2026: ore 9, 5-12-18 km; nessun sito dell''organizzatore'
-    verificato: "2026-10-31"
   2f95a09b29660503:
     start: "2026-11-22T09:30"
     official_url: https://www.atleticasanbiagio.it/
@@ -99,20 +66,6 @@ correggi:
     official_url: https://www.trevisotoday.it/eventi/intelligenza-emotiva-san-vendemiano-2026.html
     nota: 'TrevisoToday: percorso di incontri sul digitale per la comunita'' educante, non un evento business; controllo a campione'
     verificato: "2026-10-31"
-  69644ff861cf5095:
-    official_url: https://www.eventbrite.com/e/biglietti-stories-anima-club-07112026-2003338421146
-    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 7/11 ore 22:30"
-    verificato: "2026-11-06"
-    start: "2026-11-07T22:30"
-    access: "iscrizione"
-    price: "gratuito, iscrizione su Eventbrite"
-  98964d33e652c035:
-    official_url: https://www.eventbrite.it/e/biglietti-quinto-concerto-sinfonico-dautunno-2002990979940
-    nota: "compare nell'elenco Eventbrite degli eventi gratuiti di Treviso (6/11): domenica 8/11 ore 18:00"
-    verificato: "2026-11-06"
-    start: "2026-11-08T18:00"
-    access: "iscrizione"
-    price: "gratuito, iscrizione su Eventbrite"
   17fefd1ce9bd870c:
     official_url: https://www.eventbrite.co.uk/e/biglietti-la-roste-ride-2003650613923
     nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 14/11 ore 9:30"
@@ -224,14 +177,6 @@ correggi:
     title: "Delizie d'Autunno: sapori del territorio"
     nota: "titolo ripulito"
     verificato: "2026-11-01"
-  95bf289bed4dd21d:
-    address: Via Antonio Vivaldi 30
-    nota: "sede dell'Istituto Comprensivo di Roncade in via Vivaldi 30 (scheda OpenPNRR del progetto dell'IC); auditorium nel plesso, geocodifica dall'indirizzo"
-  f8162ccc753b1b45:
-    title: "Panettone Resistente: presentazione a colazione all'Osteria del Django"
-    venue: Osteria del CS Django
-    address: Via Daniele Monterumici 11
-    nota: "indirizzo del Centro Sociale Django (ex caserma Piave) da sherwood.it e Waze; titolo ripulito"
   b665ec02e9b8accd:
     address: Via Adriano Olivetti 1
     lat: 45.56438
@@ -309,24 +254,6 @@ correggi:
   817cda9bed8d18cc:
     official_url: https://comune.cappellamaggiore.tv.it/luoghi-del-sacro/
     nota: "pagina del Comune dove si prenotano le visite Percorsi d'Arte (edizione 2025: gratuite con prenotazione); per il 2026 orario e costo da confermare"
-  7f52064ba637bc90:
-    venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent 56"
-    town: "Treviso"
-    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
-    verificato: "2026-11-07"
-  436f5c373f6d934b:
-    venue: "Parco degli Alberi Parlanti (Villa Margherita)"
-    address: "Viale G. G. Felissent 56"
-    town: "Treviso"
-    nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
-    verificato: "2026-11-07"
-  9c702b9c8d7c1798:
-    venue: "Alcuni Teatro Sant'Anna"
-    address: "Viale Brigata Treviso 18"
-    town: "Treviso"
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
-    verificato: "2026-11-07"
   9c99fd0b94db09da:
     lat: 45.69036
     lon: 12.25858
@@ -513,19 +440,6 @@ correggi:
     town: "Treviso"
     nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
-  c7e886ecc313f32a:
-    title: "Rispettiamo l'ambiente #Zeroplastic a Olmi"
-    start: "2026-11-08T09:00"
-    end: "2026-11-08T11:55"
-    venue: "Parcheggio di Via Risorgive"
-    address: "Via Risorgive, Olmi"
-    category: natura-outdoor
-    access: iscrizione
-    price: "gratuito"
-    official_url: https://www.comune.sanbiagio.tv.it/vivere-il-comune/eventi/rispettiamo-lambiente-zeroplastic-olmi-2/
-    summary: "Giornata ecologica di raccolta dei rifiuti abbandonati a Olmi, organizzata da FIPSAS Treviso con il patrocinio del Comune. Iscrizione gratuita obbligatoria per l'assicurazione."
-    nota: "fonte: pagina eventi e scheda del Comune di San Biagio di Callalta"
-    verificato: "2026-11-05"
   eedf9cd1ee79589a:
     title: "StraWoman a Olmi"
     start: "2026-11-15T10:00"
@@ -598,13 +512,6 @@ correggi:
     price: "gratuito, iscrizione su Eventbrite"
     nota: "compare nell'elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 5/12 ore 21:00"
     verificato: "2026-11-06"
-  34bf9bd6548bdea6:
-    start: "2026-11-08T15:00"
-    access: "iscrizione"
-    price: "gratuito, iscrizione su Eventbrite"
-    official_url: "https://www.eventbrite.it/e/autumn-social-run-tickets-2003545181572"
-    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): domenica 8/11 ore 15:00 da Tocai"
-    verificato: "2026-11-06"
   ae3c046bd3c58969:
     title: "Gli effetti del cambiamento climatico in viticoltura"
     start: "2026-11-10T18:00"
@@ -660,18 +567,6 @@ correggi:
     official_url: "https://www.comune.sanbiagio.tv.it/vivere-il-comune/eventi/leggiamo-in-biblioteca-2026-2-copy-2/"
     summary: "Letture e laboratori per bambini della scuola dell'infanzia e primaria a cura del Gruppo Biblioteca."
     nota: "elenco eventi del Comune di San Biagio (12/12, stesse attivita' del 14/11); luogo e prenotazione come la data del 14/11, orario non letto"
-    verificato: "2026-11-06"
-  0acb4781ce863355:
-    category: "sagre-feste"
-    subcategory: "ricorrenze"
-    nota: "era in sport: e' la cerimonia del 4 novembre davanti al Municipio; luogo e orario da verificare sul programma allegato"
-    verificato: "2026-11-06"
-  7a170e0720179983:
-    start: "2026-11-08T09:00"
-    all_day: false
-    summary: "Giornata conclusiva della rievocazione storica con mostre e spettacoli dal mattino, l'arrivo dei Conti con cavalieri e arcieri alle 14:30 e uno spettacolo di fuoco in chiusura."
-    official_url: "https://www.anticafierasantalucia.com/eventi/29-rievocazione-storica-dellantica-fiera-2/"
-    nota: "scheda del Comitato Antica Fiera: 8/11 apertura alle 9:00, arrivo dei Conti alle 14:30; ingresso non indicato"
     verificato: "2026-11-06"
   1c9ef4e1afabdfb6:
     venue: "Stadio Comunale di Monigo"
@@ -745,13 +640,6 @@ correggi:
     venue: ""
     official_url: "https://calendariopodismoveneto.blogspot.com/2025/10/giavera-del-montello-tv-maratonina-di.html"
     nota: "volantino sul Calendario Podismo Veneto: 27/12, 19 km alle 8:30, 4-6-11 km alle 9, FIASP"
-    verificato: "2026-11-07"
-  26c570eb621d8877:
-    venue: "Teatro Comunale di Trevignano"
-    address: "Via Puccini 1, Falzè"
-    nota: "indirizzo dalla pagina di Trevignano Cultura su trevisoeventi.com (Teatro Comunale, Falzè, Via Puccini 1); domenica a teatro alle 17, ingresso 8 euro senza prenotazione"
-    access: "biglietto"
-    price: "8 euro, senza prenotazione"
     verificato: "2026-11-07"
   1f561346b87bc073:
     town: "Castello di Godego"
@@ -1072,9 +960,6 @@ rimuovi:
   0282e7bf042a0cf3: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"
   aacb8abe5224c830: "sessione del mattino riservata alle scuole superiori, non aperta al pubblico (resta lo show serale 89cbd8271e8be202)"
   f8b485538cb22ecf: "pagina di presentazione della stagione, non un evento: gli spettacoli dell'Accademico sono gia' sul sito uno per uno (Opera Locos, Falstaff, Double Bill, Il male oscuro, Don Chisciotte)"
-  6182d7567ea519b4: "concluso il 7/11/2026"
-  8fa2a1c939b61896: "concluso l'8/11/2026"
-  ed55e45c9cbea33c: "concluso l'8/11/2026"
   0cf85d869332204f: "data sbagliata: il programma del Comune di Quinto non ha incontri il 20/11 (il successivo dopo l'11/11 e' il 10/12); riassunto di un altro evento"
   ad284bd1f3d711ba: "data sbagliata: il programma del Comune di Quinto ha l'incontro il 10/12, non il 12/12 (doppione di b5a4d534543fe28c)"
 verificati:

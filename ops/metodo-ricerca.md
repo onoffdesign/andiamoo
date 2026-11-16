@@ -66,6 +66,13 @@ dell'anno con piu' eventi, errori tipici. Quando si apre una provincia nuova (ve
 lo schema e si parte dalle regole generali e da quelle della regione.
 
 ### Treviso (TV) - provincia attiva dal 2026-10
+- Cinema-teatri e calendario di trevisoeventi (miglioria del 2026-11-16): le stagioni dei cinema-teatri (Teatro Cristallo
+  di Oderzo: 10 spettacoli e concerti fino a marzo, nessuno sul sito) non stanno nei circuiti dei teatri comunali; si
+  trovano partendo dalla pagina concerti per citta' di TicketOne (/cityd/<comune>/concerti-55/) o da canzoni.it e
+  vanno al PC come `html_llm`. Il calendario di trevisoeventi riletto dopo una settimana ha dato 23 eventi mancanti in
+  una lettura (rassegne comunali come Trevignano Cultura, calendari di Imoco e Treviso FBC, mercatini mensili): resta la
+  prima lettura della notte. Codice: il raccoglitore `myportal` prende ora il comune dal campo `town` o dal nome della
+  fonte ("Comune di X"); prima tutti i comuni MyPortal senza `town` (Mogliano, Paese, Trevignano) finivano a Treviso.
 - Comuni piccoli dalla home (miglioria del 2026-11-12): basta aprire la home o la pagina eventi del sito comunale
   uscita dalla ricerca "Comune di <nome> eventi" e riconoscere il portale dall'indirizzo: `/home/vivere/eventi.html`
   (portale di Silea), `/eventi` con schede `/vivere-il-comune/eventi/` (design-comuni), `/it/eventi` (Municipium).
@@ -179,6 +186,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-16 · TV · ricerche 51 · eventi nuovi 50 · eventi per ricerca 1,0 (piu' 13 link delle feste del radicchio portati al sito ufficiale) · fonti al PC +4 (Teatro Cristallo di Oderzo, Comune di San Vendemiano, Libreria San Leonardo html_llm; Comune di Spresiano myportal) e pagina /venue/ del Cristallo nella fonte ticketone · miglioria: comune della fonte nei portali MyPortal (codice e test) e cinema-teatri cercati dalla pagina concerti per citta' di TicketOne
 - 2026-11-15 · TV · ricerche 57 · eventi nuovi 14 · eventi per ricerca 0,25 (piu' 1 corretto) · fonti al PC +0 (ClassicaLive candidata) · miglioria: per la musica classica e la lirica si parte da ClassicaLive per provincia (una lettura, ora e organizzatore di ogni concerto) e dalla pagina stagione di risorse.teatrostabileveneto per date e fasce di prezzo: 12 concerti e opere mancanti in 3 letture. Notte povera per il resto: 6 comuni del piano senza eventi (siti design-comuni vuoti), posizioni non sistemate (Mapcarta a vuoto), 5 letture rifiutate per link presi dentro le pagine
 - 2026-11-14 · TV · ricerche 57 · eventi nuovi 34 · eventi per ricerca 0,6 · fonti al PC +0 (New Age Club candidato) · miglioria: pagina /events/ dei locali di musica dal vivo (New Age Club: 16 serate mancanti in una lettura) e coordinate dei luoghi dalla mappa delle schede di Eventi Venetando; Mapcarta inutile per piazze e municipi (4 ricerche a vuoto)
 - 2026-11-13 · TV · ricerche 59 · eventi nuovi 7 · eventi per ricerca 0,1 · fonti al PC +3 (Comuni di Resana, Giavera del Montello, Nervesa della Battaglia, html_llm) e 4 sistemate (Maser, Povegliano, Loria, Gaiarine da myportal a html_llm) · miglioria: coordinate dei luoghi con nome da Mapcarta in una ricerca e una lettura (5 eventi di Collalto); comuni MyPortal in 404 passati a html_llm senza ricerche. 6 letture rifiutate perche' i link venivano da dentro una pagina letta (TViWeb)

@@ -1,28 +1,32 @@
 {
- "data": "2026-11-15",
- "aggiunti": 14,
- "corretti": 1,
+ "data": "2026-11-16",
+ "aggiunti": 50,
+ "corretti": 13,
  "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "musica": 14
+  "sport": 16,
+  "musica": 13,
+  "teatro-spettacoli": 12,
+  "arte-cultura": 6,
+  "mercatini-fiere": 3
  },
- "fonti_nuove": 7,
- "fonti_spostate": 0,
- "fonti_sistemate": 0,
- "qualita_campione": "5/10",
+ "fonti_nuove": 11,
+ "fonti_spostate": 4,
+ "fonti_sistemate": 3,
+ "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "4/10",
- "ricerche": 57,
- "eventi_per_ricerca": 0.25,
+ "copertura_test": "3/10",
+ "ricerche": 51,
+ "eventi_per_ricerca": 1.0,
  "categorie_aggiunte": 10,
- "miglioria": "ClassicaLive per provincia come prima lettura per classica, lirica e cori: 12 concerti e opere mancanti del Del Monaco e dintorni in 3 letture",
+ "miglioria": "Il raccoglitore MyPortal prende il comune dal campo town o dal nome della fonte (prima Mogliano, Paese e Trevignano finivano a Treviso); cinema-teatri cercati dalla pagina concerti per citta' di TicketOne (Teatro Cristallo di Oderzo al PC)",
  "problemi": [
-  "Il giro del PC non parte da quattro notti (ultimo a mano l'11/11): coda, campione e posizioni fermi",
-  "55 eventi aggiunti dal 13/11 aspettano il giro del PC per comparire sul sito",
-  "La fonte del Teatro Stabile al PC copre solo la prosa: la stagione lirica e concertistica del Del Monaco era assente",
-  "ClassicaLive e Comune di Asolo (OpenCity) da valutare per config/sources.yaml",
-  "Siti dei comuni di Silea e Sernaglia vietati a WebFetch: eventi in coda senza luogo"
+  "Il giro del PC non parte da cinque notti (ultimo rapporto 11/11): coda, campione e posizioni fermi, oltre 100 eventi aggiunti non ancora sul sito",
+  "Imoco - Bergamo del 7/2 assente dal calendario ufficiale del club: da ricontrollare",
+  "Treviso - Pergolettese: 21/11 alle 14:30 per trevisoeventi, 22/11 per il club",
+  "Fonte ticketone a 0 eventi nell'ultimo rapporto anche con le pagine /venue/",
+  "Programmi di Natale 2026 dei comuni non ancora pubblicati"
  ]
 }

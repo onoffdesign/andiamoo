@@ -367,6 +367,15 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-16 senza leggere gli eventi (metodo dei comuni piccoli): portale /home/vivere/eventi.html come Silea. Controllare nel rapporto: se 0 eventi o errore, cercare il codice IPA nel sorgente della pagina (myportal) o disattivare."
 
+  - id: libreria-san-leonardo
+    name: Libreria Universitaria San Leonardo
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.libreriasanleonardo.it/notes]
+    hint: "Presentazioni di libri e incontri della Libreria Universitaria San Leonardo, Piazza Santa Maria dei Battuti 16, Treviso. Anno 2026 per novembre-dicembre, 2027 da gennaio se non indicato. Venue Libreria San Leonardo, town Treviso, category arte-cultura, subcategory libri."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-16: la pagina /notes elenca 4-5 incontri con data e ora (dall'8 al 13/11 nella lettura di oggi), riaperta a mano da tre notti dalla fonte nota: ora la legge il PC."
+
   - id: comune-resana
     name: Comune di Resana
     type: html_llm

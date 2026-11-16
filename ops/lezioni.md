@@ -6,17 +6,12 @@ Si legge all'inizio di ogni notte; si aggiorna alla fine (aggiungi, correggi, to
 Tienila breve: al massimo ~80 righe, raggruppate per tema.
 
 ## Ricerche che funzionano
-(trevisoeventi, teatri, squadre, trovasagre, PDF dei comuni ed Eventbrite: ora nel metodo, sezione Treviso)
+(trevisoeventi, teatri, squadre, trovasagre, PDF dei comuni, Eventbrite, ricerca extended, link da far uscire con una
+ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - Per gruppi di eventi Eventbrite nello stesso luogo (es. 6 a Santa Caterina) cercare i titoli insieme: esce il
   festival che li organizza e il suo programma verifica tutto con 2-3 letture.
-- WebSearch "standard" rende poco sui siti locali (risultati USA): per comuni, rassegne e teatri usare "extended".
-- WebFetch apre solo link comparsi nei risultati: i link della coda (comune.treviso.it, 2night, eventiesagre) vanno
-  prima fatti uscire con una ricerca mirata (titolo + comune + anno).
 - Rassegne con programma su sito WordPress (es. musincantus.it): la pagina /eventi/elenco/?tribe-bar-search=<comune>
   da' tutte le date con indirizzo in una volta.
-- Mercatini ricorrenti: le schede cosedicasa.com indicano la regola (seconda/terza domenica), le sospensioni e la
-  prossima data; servono per dividere in date singole. Su fleamapket i risultati di ricerca mostrano gia' gli
-  indirizzi con la data (/AAAA-MM-GG/): bastano per sapere le date confermate senza aprire le pagine.
 - Calendario Podismo Veneto (pagina del mese) da' anche i link ai volantini: si usano come official_url delle gare
   senza sito. Una lettura ha sistemato 7 gare e trovato una gara mancante.
 
@@ -45,6 +40,11 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - 2026-11-14: Eventi Venetando (Consorzio Pro Loco Quartier del Piave) apre le schede anche dai link letti nella home,
   con ora, prezzo e numeri della mappa; Spettacoli di Mistero (UNPLI) ha schede apribili con prezzo e prenotazione.
   I calendari mensili dei comuni piccoli escono come articoli Qdpnews ("Novembre pievese").
+
+- 2026-11-16: la pagina /cityd/<comune>/concerti-55/ di TicketOne si apre e da' 13 concerti con ora e link (Conegliano);
+  il sito ufficiale fioridinverno.tv ha le schede di ogni festa del radicchio; le pagine comune di trevisoeventi
+  (cordignano.html, ormelle.html) danno programma, orari e ingresso. Il calendario della Federciclismo del Trofeo
+  Triveneto CX elenca le gare TV della stagione (senza ora ne' luogo esatto).
 
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -99,6 +99,12 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
   ufficiale. Link presi dentro ClassicaLive (teatrostabileveneto, filarmoniaveneta, musincantus) rifiutati: farli
   uscire con una ricerca (la pagina stagione di risorse.teatrostabileveneto esce cercando il nome della stagione).
 
+- 2026-11-16: Mapcarta con id numerico (es. /18700670, Dosson) da' errore a WebFetch: per le frazioni non serve, il
+  geocoder le posiziona dal giro dell'11/11. A vuoto: vivertempo.it (fermo al 2018), loveitalia.fun (3 eventi senza
+  fonte), trevisoperte.it (elenco in errore), elenco di prolocovenete.it (caricato via JavaScript), articoli Qdpnews sul
+  Natale di Pederobba (2024), trevisomtb.it (calendario 2026 fermo ad aprile), trevignanocultura.it (EventON, schede
+  della stagione passata), Comune di Conegliano (OpenCms, nessun elenco).
+
 ## Calendario (chi pubblica quando)
 - Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli
   articoli del 2025; quelli nuovi escono dopo il 15-20 novembre.
@@ -107,6 +113,7 @@ Tienila breve: al massimo ~80 righe, raggruppate per tema.
 - Sagre di San Martino e Madonna della Salute: tutte a novembre, quasi solo su Facebook e aggregatori.
 - Feste del radicchio (rassegna Fiori d'Inverno di UNPLI): da fine novembre a marzo; calendario a inizio novembre,
   programmi delle singole feste di solito una o due settimane prima.
+- Mercatini di Natale: al 16 novembre le guide nazionali (thewom) dicono che i programmi di Treviso non sono ancora usciti.
 - Piste di ghiaccio di Natale: a meta' novembre escono solo articoli degli anni passati; cercarle da fine novembre.
 
 ## Errori da non ripetere

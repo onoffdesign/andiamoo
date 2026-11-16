@@ -264,10 +264,10 @@ fonti:
     ultimi:
     - 0
     - 5
-  ultimo_controllo: '2026-11-07'
+  ultimo_controllo: '2026-11-16'
   automatizzabile: 'no'
-  stato: attiva
-  note: "Candidato non ancora aperto. | 2026-10-31: elenca 15 sagre TV di novembre ma senza link ne' organizzatore; utile solo per scoprire, le conferme ufficiali non si trovano (eventivenetando e eventiesagre mostrano edizioni passate)"
+  stato: ferma
+  note: "Candidato non ancora aperto. | 2026-10-31: elenca 15 sagre TV di novembre ma senza link ne' organizzatore; utile solo per scoprire, le conferme ufficiali non si trovano (eventivenetando e eventiesagre mostrano edizioni passate) 2026-11-16: non riaperta, sostituita da Sagratour dal 15/11."
 - nome: Trevisoinfo
   url: https://www.trevisoinfo.it/delizie-d-autunno.htm
   query: trevisoinfo Delizie d'Autunno 2026
@@ -422,11 +422,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
-  ultimo_controllo: '2026-11-08'
+  resa: { controlli: 3, eventi_trovati: 0, ultimi: [0, 0, 0] }
+  ultimo_controllo: '2026-11-16'
   automatizzabile: no
-  stato: attiva
-  note: "2-3 presentazioni e letture a settimana (Tutta la Commedia canto per canto, autori), Piazza Santa Maria dei Battuti 16, ingresso libero con prenotazione consigliata. Il 2026-11-01 la pagina mostrava solo date di ottobre: ricontrollare a meta' novembre."
+  stato: spostata
+  note: "2-3 presentazioni e letture a settimana (Tutta la Commedia canto per canto, autori), Piazza Santa Maria dei Battuti 16, ingresso libero con prenotazione consigliata. Il 2026-11-01 la pagina mostrava solo date di ottobre: ricontrollare a meta' novembre. 2026-11-16: /notes elenca gli incontri con data e ora ma nessuno dopo il 13/11; passata al PC come html_llm (libreria-san-leonardo)."
 - nome: Bardin Garden Store (Lancenigo di Villorba)
   url: https://www.bardingardenstore.it/eventi/
   query: Bardin garden store eventi laboratori bambini
@@ -532,11 +532,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 2, eventi_trovati: 4, ultimi: [2, 2] }
-  ultimo_controllo: '2026-11-09'
+  resa: { controlli: 3, eventi_trovati: 27, ultimi: [2, 2, 23] }
+  ultimo_controllo: '2026-11-16'
   automatizzabile: no
   stato: attiva
-  note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale"
+  note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale 2026-11-16: una lettura ha dato 23 eventi mancanti fino a gennaio (stagione Trevignano Cultura, Imoco e Treviso FBC, mercatini, Cordignano, Ormelle); le pagine comune (cordignano.html, ormelle.html) si aprono con programma e orari."
 - nome: Auditorium Don E. Vidotto (Maserada sul Piave)
   url: https://auditoriumaserada.it/
   query: Maserada sul Palco rassegna teatro auditorium Vidotto
@@ -938,11 +938,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
-  ultimo_controllo: '2026-11-09'
+  resa: { controlli: 2, eventi_trovati: 5, ultimi: [4, 1] }
+  ultimo_controllo: '2026-11-16'
   automatizzabile: da_valutare
   stato: attiva
-  note: "prima pagina = 10 mostre TV in corso con date e sede (solo 1 era sul sito). Le schede (orari, prezzi) si aprono SOLO se compaiono prima in una ricerca: 8 aperture dirette rifiutate il 2026-11-09. Restano da aggiungere: Andar per fiere (Treviso), Cesco Magnolato (Oderzo), Paolo Battistin (Vittorio Veneto, fino al 21/11), Fotografia italiana 1955 (Castelfranco, fino al 15/11)"
+  note: "prima pagina = 10 mostre TV in corso con date e sede (solo 1 era sul sito). Le schede (orari, prezzi) si aprono SOLO se compaiono prima in una ricerca: 8 aperture dirette rifiutate il 2026-11-09. Restano da aggiungere: Andar per fiere (Treviso), Cesco Magnolato (Oderzo), Paolo Battistin (Vittorio Veneto, fino al 21/11), Fotografia italiana 1955 (Castelfranco, fino al 15/11) 2026-11-16: la pagina /mostre/treviso/mostre-tematiche ha dato Andar per fiere al Salce (mancante); le schede uscite dalla ricerca si aprono."
 - nome: Teatro Stabile del Veneto, stagione di prosa del Teatro Del Monaco
   url: https://www.teatrostabileveneto.it/biglietti-abbonamenti-stagione-prosa-26/27-teatro-del-monaco-treviso
   query: Biglietti e Abbonamenti Stagione 26/27 teatro Del Monaco Treviso teatrostabileveneto
@@ -1008,11 +1008,11 @@ fonti:
   province: [TV]
   frequenza: annuale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 13, ultimi: [13] }
-  ultimo_controllo: '2026-11-09'
+  resa: { controlli: 2, eventi_trovati: 13, ultimi: [13, 0] }
+  ultimo_controllo: '2026-11-16'
   automatizzabile: no
   stato: attiva
-  note: "una lettura = tutte le feste del radicchio da novembre a marzo con le date. Mancano luoghi e programmi: ricontrollare le Pro Loco una settimana prima di ogni festa (PrimaVera in Festa di Roncade 14 e 21/3 ancora da aggiungere)"
+  note: "una lettura = tutte le feste del radicchio da novembre a marzo con le date. Mancano luoghi e programmi: ricontrollare le Pro Loco una settimana prima di ogni festa (PrimaVera in Festa di Roncade 14 e 21/3 ancora da aggiungere) 2026-11-16: il sito ufficiale fioridinverno.tv ha l'elenco con le schede di ogni festa (link usati come official_url al posto di umbriaecultura); Rio San Martino di Scorze' e Mirano sono in provincia di Venezia."
 - nome: Hills Nordic Walking (Farra di Soligo)
   url: https://www.hillsnordicwalking.it/appuntamenti/
   query: hillsnordicwalking appuntamenti
@@ -1545,3 +1545,157 @@ fonti:
   automatizzabile: 'no'
   stato: debole
   note: "Comune (WordPress) senza eventi a novembre-dicembre; prolocosanpietrodifeletto.it fermo a settembre 2026."
+- nome: Teatro Cristallo di Oderzo (stagione teatrale e concerti)
+  url: https://www.cinemacristallo.com/teatro-cristallo-oderzo/
+  query: Teatro Cristallo Oderzo programmazione cinemacristallo
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: [Oderzo]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 9, ultimi: [9] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'si'
+  stato: spostata
+  note: "Elenco di 10 spettacoli e concerti fino a marzo 2027, nessuno era sul sito; ore solo nelle schede /movie/<titolo>/ con link TicketOne. Al PC come html_llm (teatro-cristallo-oderzo) e pagina /venue/teatro-cristallo-87927/ nella fonte ticketone."
+- nome: TicketOne, concerti a Conegliano (Teatro Accademia)
+  url: https://www.ticketone.it/cityd/conegliano-1116/concerti-55/
+  query: TicketOne Teatro Accademia Conegliano concerti
+  tipo: biglietteria
+  categorie: [musica]
+  comuni: [Conegliano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 5, ultimi: [5] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'si'
+  stato: attiva
+  note: "13 concerti con data, ora e link alla scheda in una lettura; 5 su 7 entro marzo mancavano. La pagina /venue/teatro-accademia-16706/ e' gia' nella fonte ticketone del PC, che pero' al rapporto dell'11/11 dava 0 eventi: controllarla al prossimo giro."
+- nome: Trofeo Triveneto Ciclocross (Federciclismo)
+  url: https://www.federciclismo.it/fuoristrada/ciclocross/circuiti-ciclocross/trofeo-triveneto/
+  query: Trofeo Triveneto CX federciclismo calendario
+  tipo: sport
+  categorie: [sport]
+  comuni: [San Fior, Casale sul Sile, Cordignano, Motta di Livenza]
+  province: [TV, PD, VR, VE, UD, TN, BZ]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 3, ultimi: [3] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Calendario ufficiale della stagione di ciclocross 2026/27 con data, localita' e societa' organizzatrice (14 tappe nel Triveneto, 5 in TV); senza orari ne' luoghi esatti. Vale anche per le province successive."
+- nome: Imoco Volley, calendario incontri 2026/27
+  url: https://imocovolley.it/calendar/calendario-incontri-2026-27/
+  query: Imoco Volley calendario incontri 2026/27
+  tipo: sport
+  categorie: [sport]
+  comuni: [Villorba]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Tutte le partite casalinghe di campionato e Champions con ora provvisoria; meglio della pagina /fixtures/. Il 2026-11-16 non elencava Imoco - Bergamo del 7/2 (presente sul sito dal 9/11): da ricontrollare."
+- nome: Treviso FBC, calendario Serie C
+  url: https://trevisocalcio.tv/il-calendario-del-treviso-fbc/
+  query: IL CALENDARIO DEL TREVISO FBC trevisocalcio
+  tipo: sport
+  categorie: [sport]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 7, ultimi: [7] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Date ufficiali di tutte le partite al Tenni, senza orari (escono a ridosso). Trevisoeventi da' Treviso - Pergolettese sabato 21/11 alle 14:30, il calendario del club domenica 22/11: lasciata la data del club."
+- nome: Canzoni.it, concerti in provincia di Treviso
+  url: https://www.canzoni.it/concerti/italia/treviso/
+  query: Concerti Treviso canzoni.it date artisti biglietti
+  tipo: aggregatore
+  categorie: [musica]
+  comuni: [Roncade, Oderzo, Conegliano]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Solo scoperta (non ufficiale): 8 concerti TV con ora, ha portato al Teatro Cristallo di Oderzo e ai concerti del Teatro Accademia. Vale per tutte le province (pagina /concerti/italia/<citta>/)."
+- nome: Pro Loco Venete (UNPLI Veneto), esplora gli eventi
+  url: https://www.prolocovenete.it/esplora-gli-eventi/?province=6
+  query: prolocovenete.it evento treviso
+  tipo: aggregatore
+  categorie: [sagre-feste, mercatini-fiere]
+  comuni: [Morgano]
+  province: [TV, PD, VR, VI, VE, RO, BL]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'forse'
+  stato: attiva
+  note: "Schede /evento/treviso/<nome>/ con data, ora, luogo e Pro Loco (plugin cld_eventi), ma l'elenco per provincia si carica via JavaScript e WebFetch lo vede vuoto: candidata per il browser del PC."
+- nome: Cinema Teatro Busan (Mogliano Veneto)
+  url: https://www.cinemabusan.it/
+  query: Cinema Teatro Busan Mogliano eventi con ospiti
+  tipo: cinema
+  categorie: [teatro-spettacoli]
+  comuni: [Mogliano Veneto]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'no'
+  stato: debole
+  note: "Home con le proiezioni con ospiti (/eventi/); nessuno spettacolo teatrale in programma fino a marzo."
+- nome: Centro Culturale Estrada (Treviso), conferenze pubbliche
+  url: https://www.centroestradatreviso.com/conferenze-pubbliche
+  query: Centro Estrada Treviso conferenze pubbliche
+  tipo: associazione
+  categorie: [arte-cultura]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: trimestrale
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'no'
+  stato: debole
+  note: "Due conferenze l'anno, ingresso libero su prenotazione."
+- nome: Comune di San Vendemiano (eventi)
+  url: https://www.comune.sanvendemiano.tv.it/home/vivere/eventi.html
+  query: Comune di San Vendemiano Eventi
+  tipo: comune
+  categorie: [sagre-feste, arte-cultura]
+  comuni: [San Vendemiano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'si'
+  stato: spostata
+  note: "Portale /home/vivere/eventi.html come Silea: passato al PC come html_llm senza leggere gli eventi."
+- nome: Comune di Spresiano (MyPortal)
+  url: https://www.comune.spresiano.tv.it/
+  query: Comune di Spresiano eventi
+  tipo: comune
+  categorie: [sagre-feste, arte-cultura]
+  comuni: [Spresiano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-16
+  automatizzabile: 'si'
+  stato: spostata
+  note: "Sito MyPortal: al PC come myportal con IPA C_I927 (codice catastale), da controllare nel rapporto."

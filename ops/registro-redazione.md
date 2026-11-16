@@ -2,6 +2,56 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-16
+
+- **Giro del PC**: NON ha girato per la quinta notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 (ora oltre 100) compaiono sul
+  sito solo al prossimo giro. Correzioni applicate con --applica (sito a 426 eventi).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo). Dal rapporto dell'11/11: la fonte ticketone dava 0 eventi
+  anche con le pagine /venue/, insolitotrantran 404 sull'API, comune-monastier errore di JSON dell'AI.
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa; i 13 eventi futuri aperti sono gli stessi cercati a vuoto da 3-4 notti
+  (siti di Sernaglia e Silea vietati, accessi non pubblicati).
+- **Altre correzioni**: link ufficiale di 13 feste del radicchio di Fiori d'Inverno portato da umbriaecultura al sito
+  ufficiale fioridinverno.tv (schede di Paderno, Spresiano, Quinto, Castelfranco e Preganziol).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo).
+- **Posizioni**: prima e dopo 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati, tutti gia' in
+  config/luoghi.yaml (numeri dell'11/11). Nessun luogo aggiunto: la scheda Mapcarta di Dosson da' errore (2 ricerche);
+  i luoghi senza punto piu' frequenti hanno un indirizzo o sono frazioni che il geocoder posiziona dal codice dell'11/11.
+- **Eventi aggiunti** (50): sport 16 (Imoco Volley 6 partite casalinghe dal 26/11 al 14/3, Treviso FBC 7 partite dal
+  20/12 al 7/3, ciclocross di San Fior, Cross del Sile, finale del Trofeo Triveneto a Cordignano), musica 13 (Teatro
+  Accademia: South Carolina Mass Choir, Morricone, Notte per Faber, Concato, Celentano; Teatro Cristallo: Innuendo 26 e
+  27/11, Buena Vista, Velvet Dress; Trevignano: Concerto di Natale, di Capodanno, Quartetto Aires 17 e 31/1), teatro e
+  spettacoli 12 (Trevignano Cultura: La notte dei bambini, Esprimi un desiderio, Gardizero, Pene d'amor perdute, Di male
+  in meglio, Giovanni Vernia; Teatro Cristallo: Fradeo Sol Comare Luna, Casanova Grand Tour, Eroina, Un grosso affare,
+  Sottobanco; proiezione con ospiti al Busan), arte e cultura 6 (Andar per fiere al Salce, Mostra del libro di Ormelle,
+  3 guide all'ascolto a Cordignano, conferenza al Centro Estrada), mercatini 3 (antiquariato di Roncade 12/12, Godega
+  20/12, Badoere 6/12).
+  Non aggiunti: Tina Merlin a Paese (24/11, la legge il PC dal Comune), Canto VII della Commedia alla San Leonardo (non
+  pubblicato), Il canto della foresta al Busan (mattina, forse per le scuole).
+- **Comuni controllati**: Spresiano (MyPortal, passato al PC), Pederobba (solo articoli del Natale 2024), Cordignano
+  (3 serate da trevisoeventi), Morgano (mercatino di dicembre), Conegliano (OpenCms senza elenco; concerti dal Teatro
+  Accademia), San Vendemiano (portale /home/vivere, passato al PC).
+- **Categorie cercate**: Sport > Ciclismo (Trofeo Triveneto: 3 gare), Musica e party > Concerti (13 concerti),
+  Famiglie > Spettacoli per bambini (resa 0, Gli Alcuni gia' al PC), Arte e cultura > Conferenze e incontri (4). +10 voci.
+- **Fonti note**: Treviso Eventi (23 eventi in una lettura), Fiori d'Inverno (0 nuovi, 13 link sistemati), Itinerari
+  nell'arte (+1), Libreria San Leonardo (0, passata al PC). Sagramap segnata ferma; Cinema Edera, Istadea e Orsago non
+  riaperti (vietato, annuale, debole).
+- **Fonti nuove catalogate**: 11 (Teatro Cristallo di Oderzo, TicketOne concerti Conegliano, Trofeo Triveneto CX,
+  calendario Imoco, calendario Treviso FBC, canzoni.it, Pro Loco Venete, Cinema Busan, Centro Estrada, Comuni di San
+  Vendemiano e Spresiano). Spostate in sources.yaml: 4 (teatro-cristallo-oderzo, comune-san-vendemiano e
+  libreria-san-leonardo html_llm; comune-spresiano myportal) piu' la pagina /venue/ del Cristallo nella fonte ticketone.
+  Sistemate: 3 (campo town per comune-mogliano, comune-paese, comune-trevignano).
+- **Codice**: il raccoglitore myportal metteva a Treviso gli eventi di ogni comune senza `town`; ora usa il nome della
+  fonte (test in tests/test_pipeline.py, 74 verdi).
+- **Pulizia**: tolte 22 voci di eventi conclusi prima del 9/11 da correzioni.yaml e 21 da eventi_redazione.yaml.
+- **Miglioria**: comune della fonte nei portali MyPortal e cinema-teatri dalla pagina concerti per citta' di TicketOne.
+- **Test di copertura**: 3/10. Criterio di saturazione (lunedi'): non rispettato.
+- **Ricerche**: 51 su 70 (21 WebSearch, 30 WebFetch, di cui 3 a vuoto per errore del sito).
+- **Problemi aperti**: il giro del PC non parte da cinque notti; da ricontrollare Imoco - Bergamo del 7/2 (assente dal
+  calendario del club) e l'ora di Treviso - Pergolettese (21/11 alle 14:30 per trevisoeventi, 22/11 per il club); fonte
+  ticketone a 0 eventi nell'ultimo rapporto; programmi di Natale 2026 dei comuni non ancora usciti.
+
 ## 2026-11-15
 
 - **Giro del PC**: NON ha girato per la quarta notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
