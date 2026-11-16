@@ -11,6 +11,16 @@ from . import Context
 
 log = logging.getLogger(__name__)
 
+def source_town(src: dict) -> str:
+    """Comune della fonte: campo `town`, altrimenti dal nome "Comune di X" (mai Treviso per un altro comune)."""
+    if src.get("town"):
+        return src["town"]
+    name = (src.get("name") or "").strip()
+    if name.lower().startswith("comune di "):
+        return name[len("comune di "):].strip()
+    return "Treviso"
+
+
 GENERIC_PLACES = {"centro storico", "territorio comunale", "varie sedi", "online", "luoghi vari"}
 
 
@@ -43,7 +53,7 @@ def parse(data: dict, src: dict, places: dict[str, dict]) -> Iterator[Event]:
             start=start, end=end, all_day=all_day,
             venue=place_title,
             address=place_addr,
-            town=src.get("town", "Treviso"),
+            town=source_town(src),
             price=money[:80],
             raw_text=text[:8000],
             ai_allowed=src.get("ai_rewrite", True),

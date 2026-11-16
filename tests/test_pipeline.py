@@ -108,6 +108,10 @@ def test_myportal():
     assert "Piazza Indipendenza" in eco.raw_text
     assert eco.source_url == "https://www.comune.treviso.it/home/dettaglio/eventi/giornata-ecologica-1-11-2026"
     assert evs[1].start == "2026-10-29T08:30"
+    # comune della fonte dal nome: gli eventi di Paese o Mogliano non finiscono a Treviso
+    assert myportal.source_town({"name": "Comune di Mogliano Veneto"}) == "Mogliano Veneto"
+    assert myportal.source_town({"name": "Comune di Paese", "town": "Paese"}) == "Paese"
+    assert myportal.source_town({"name": "Biblioteche di Treviso"}) == "Treviso"
 
 
 def test_calendariopodismo():

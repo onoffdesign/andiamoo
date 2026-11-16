@@ -208,6 +208,7 @@ sources:
     enabled: true
     base_url: https://www.comunemoglianoveneto.it
     ipa: C_F269
+    town: Mogliano Veneto
     page_size: 40
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-06: i documenti del Comune sono su /myportal/C_F269/ (MyPortal della Regione Veneto). Da controllare nel rapporto la prima notte: se errore o 0 eventi, verificare robots e tipo di contenuto."
@@ -218,9 +219,21 @@ sources:
     enabled: true
     base_url: https://www.comune.paese.tv.it
     ipa: C_G229
+    town: Paese
     page_size: 40
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-01: il sito del Comune e' MyPortal della Regione Veneto. Codice IPA dal codice catastale (G229): da controllare nel rapporto la prima notte."
+
+  - id: comune-spresiano
+    name: Comune di Spresiano
+    type: myportal
+    enabled: true
+    base_url: https://www.comune.spresiano.tv.it
+    ipa: C_I927
+    town: Spresiano
+    page_size: 40
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-16: la pagina del Comune descrive i servizi MyPortal; codice IPA dal codice catastale I927. Da controllare nel rapporto: se 404, passare a html_llm su /home/vivere/eventi.html come Maser e Loria."
 
   - id: comune-maser
     name: Comune di Maser
@@ -255,6 +268,7 @@ sources:
     enabled: true
     base_url: https://www.comune.trevignano.tv.it
     ipa: C_L402
+    town: Trevignano
     page_size: 40
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-08: la home del Comune ha titolo myPortal. Codice IPA dal codice catastale (L402, da confermare): da controllare nel rapporto la prima notte."
