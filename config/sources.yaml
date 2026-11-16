@@ -98,6 +98,7 @@ sources:
       - https://www.ticketone.it/cityd/conegliano-1116/
       - https://www.ticketone.it/venue/teatro-accademia-16706/
       - https://www.ticketone.it/venue/auditorium-fondazione-cassamarca-89469/
+      - https://www.ticketone.it/venue/teatro-cristallo-87927/
     fetch_details: false
     ai_rewrite: false
     note: "Evento + luogo + prezzo minimo nel JSON-LD della pagina citta'. Altri comuni: aggiungere le loro pagine /city/. 2026-11-11: le pagine /cityd/ danno ancora 0 eventi al PC; aggiunte le pagine dei locali /venue/ (Teatro Accademia: 43 eventi, 10 per pagina, letti da Claude con WebFetch), da controllare nel prossimo rapporto. 2026-10-30: zero eventi dalla pagina /en/, passata alla versione italiana /cityd/ (che elenca eventi) e aggiunta Conegliano."
@@ -330,6 +331,15 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-07: elenco con ~20 date in una pagina (WebFetch la apre, quindi i robot non la vietano); orari e prezzi solo nelle schede. Gli eventi fino al 17/12 sono anche in eventi_redazione: controllare i doppioni nel primo rapporto."
 
+  - id: teatro-cristallo-oderzo
+    name: Teatro Cristallo Oderzo
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.cinemacristallo.com/teatro-cristallo-oderzo/]
+    hint: "Stagione teatrale e concerti del Teatro Cristallo, Via Garibaldi 44, Oderzo (TV). Le date sono senza anno: 2026 per novembre-dicembre, 2027 da gennaio. Venue Teatro Cristallo, town Oderzo. Ignorare i film della programmazione del cinema."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-16: elenco di 10 spettacoli e concerti della stagione 2026/27 (nessuno era sul sito); ore solo nelle schede /movie/<titolo>/ (Innuendo Experience 26 e 27/11 alle 21). Aggiunta anche la pagina /venue/teatro-cristallo-87927/ alla fonte ticketone."
+
   - id: comune-quinto
     name: Comune di Quinto di Treviso
     type: html_llm
@@ -347,6 +357,15 @@ sources:
     hint: "Eventi del Comune di Silea (TV), anno 2026 se non indicato; town Silea se non indicato."
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-05: portale come Povegliano e Loria (schede /eventi/<nome>.html), 6 eventi futuri; codice IPA non trovato nella pagina, quindi html_llm e non myportal."
+
+  - id: comune-san-vendemiano
+    name: Comune di San Vendemiano
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.sanvendemiano.tv.it/home/vivere/eventi.html]
+    hint: "Eventi del Comune di San Vendemiano (TV), anno 2026 per novembre-dicembre e 2027 da gennaio se non indicato; town San Vendemiano se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-16 senza leggere gli eventi (metodo dei comuni piccoli): portale /home/vivere/eventi.html come Silea. Controllare nel rapporto: se 0 eventi o errore, cercare il codice IPA nel sorgente della pagina (myportal) o disattivare."
 
   - id: comune-resana
     name: Comune di Resana
