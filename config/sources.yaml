@@ -340,6 +340,24 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-16: elenco di 10 spettacoli e concerti della stagione 2026/27 (nessuno era sul sito); ore solo nelle schede /movie/<titolo>/ (Innuendo Experience 26 e 27/11 alle 21). Aggiunta anche la pagina /venue/teatro-cristallo-87927/ alla fonte ticketone."
 
+  - id: scopri-oderzo
+    name: Scopri Oderzo (IAT di Oderzo)
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.scoprioderzo.it/my-calendar/]
+    hint: "Calendario dell'ufficio turistico IAT di Oderzo (TV), plugin My Calendar: mese corrente, anno 2026 se non indicato. Town Oderzo se non indicato; sedi frequenti Palazzo Foscolo (Via Garibaldi 65), Museo Archeologico Eno Bellis, Museo del Duomo. Le mostre compaiono divise per settimana: tenerle come un solo evento con inizio e fine."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-17: sito ufficiale IAT, 6 voci da meta' novembre (concerto a Palazzo Foscolo, Te' al museo, mostra Magnolato), orari e ingresso nelle schede /mc-events/. Nessun feed iCal visibile."
+
+  - id: fondazione-benetton
+    name: Fondazione Benetton Studi Ricerche
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.fbsr.it/agenda-home/]
+    hint: "Agenda della Fondazione Benetton Studi Ricerche, Treviso: incontri, proiezioni e concerti a Palazzo Bomben (Via Cornarotta 7) e nella chiesa di San Teonisto (Via San Nicolo' 31). Anno 2026 se non indicato, 2027 da gennaio. Escludere eventi online (Zoom) e quelli per le scuole."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-17: 5 eventi da meta' novembre in una pagina, nessuno era sul sito; orari solo nelle schede /evento/ (rifiutate a WebFetch se non escono da una ricerca). Biglietti su liveticket.it."
+
   - id: comune-quinto
     name: Comune di Quinto di Treviso
     type: html_llm

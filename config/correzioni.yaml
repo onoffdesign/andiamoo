@@ -14,6 +14,14 @@
 #   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
 
 correggi:
+  f252b44a2ae7c293:
+    start: "2026-11-21T14:30"
+    nota: "anticipo di sabato alle 14:30: Trivenetogoal del 18/09/2026 (date e orari della Lega Pro dalla 9a alla 20a giornata), confermato da trevisoeventi"
+    verificato: "2026-11-17"
+  6ff5e404b2e3bf25:
+    start: "2026-12-06T12:30"
+    nota: "domenica alle 12:30: Trivenetogoal del 18/09/2026 (date e orari della Lega Pro dalla 9a alla 20a giornata)"
+    verificato: "2026-11-17"
   60e877f3721e8af9:
     venue: Porta San Tomaso (mura di Treviso)
     address: Porta San Tomaso, Treviso
@@ -962,6 +970,7 @@ rimuovi:
   f8b485538cb22ecf: "pagina di presentazione della stagione, non un evento: gli spettacoli dell'Accademico sono gia' sul sito uno per uno (Opera Locos, Falstaff, Double Bill, Il male oscuro, Don Chisciotte)"
   0cf85d869332204f: "data sbagliata: il programma del Comune di Quinto non ha incontri il 20/11 (il successivo dopo l'11/11 e' il 10/12); riassunto di un altro evento"
   ad284bd1f3d711ba: "data sbagliata: il programma del Comune di Quinto ha l'incontro il 10/12, non il 12/12 (doppione di b5a4d534543fe28c)"
+  6a0f52129fca99e0: "partita in trasferta: il calendario di Serie A1 (Corriere dello Sport, 21/07/2026) ha Bergamo - Conegliano il 7/2/2027; la gara casalinga con Bergamo era il 15/11"
 verificati:
   5f912b8299bbe9e3: "2026-11-08"        # H-FARM, Via Adriano Olivetti 1 a Ca' Tron: il campus e' davvero a 7 km dal centro di Roncade
   d20b8daa82d71b50: "2026-10-31"
