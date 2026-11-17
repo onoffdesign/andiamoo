@@ -77,6 +77,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Mostre** [mostra, esposizione, vernissage, inaugurazione] · arte antica · arte contemporanea · fotografia
   · illustrazione e fumetto · design · collettive di artisti locali · mostre fotografiche sulla storia del Piave [alluvione, mostra fotografica]
   · manifesti pubblicitari e grafica d'epoca [Collezione Salce] · mostre in ville con parco [villa, giardino, biglietto mostra e parco] · collezioni private aperte nei fine settimana [apertura straordinaria, curatore] · premi di pittura delle Pro Loco [premio nazionale di pittura, acquerello]
+  · mostre diffuse su piu' sedi di una citta' [mostra diffusa, centenario] (2026-11-17)
 - **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale]
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
@@ -91,6 +92,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · palio e giochi tradizionali di paese [palio delle botti, transumanza delle botti] · musei d'impresa con aperture mensili [museo del caffe', primo sabato del mese] · aperture di palazzi delle fondazioni [Ca' Spineda, visita gratuita]
 - **Tecnologia e scienza** · maker e robotica · divulgazione scientifica · eventi di astronomia
   · lezioni pubbliche dei gruppi di astrofili [lezioni per il pubblico, astrofili]
+  · serate di osservazione degli astrofili trevigiani [astrofili trevigiani, appuntamenti] (sito solo http, WebFetch in loop: 2026-11-17) · lezioni-concerto e lezioni di musica nelle fondazioni [lezione di musica, Landscapes] (2026-11-17)
 - **Comunita'** · incontri di quartiere · volontariato · feste delle associazioni · gruppi di conversazione
   · iniziative della rete provinciale Pari Opportunita' verso il 25 novembre [25 novembre, panchina rossa, walk in red] · serate di prevenzione e salute dei comuni [si-cura, prevenzione, serata informativa] · donazioni di sangue AVIS con colazione [donazione, avis] · gruppi di lettura delle biblioteche [gruppo di lettura]
 
@@ -110,6 +112,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Musica partecipata** · open mic · karaoke · jam session aperte · drum circle [cerchio di percussioni]
   · open mic di stand-up comedy [open mic comicita'] · jam nelle sale prove comunali [free jam session, Progetto Giovani]
   · concerti in cuffia [silent concert, silent wifi]
+  · concerti da ascoltare a occhi chiusi con poesia e coro [a occhi chiusi] (2026-11-17)
 
 ## Sagre e cibo (`sagre-feste`)
 
@@ -123,6 +126,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   (non sono eventi le degustazioni in cantina su appuntamento del calendario del Consorzio)
   · birre artigianali · distillati e grappa · cantine aperte
 - **Cibo** · street food · cene a tema · corsi di cucina · mercati contadini con degustazioni · pranzi benefici con pasta di tradizione [pranzo solidale, magnar ben] · mostre mercato del radicchio [mostra del radicchio, Fiori d'Inverno] (gennaio)
+  · mostre mercato dell'olio nelle ville [Olio in Villa] (fine novembre) · te' e merende al museo [te' al museo] (2026-11-17)
 - **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed
   Epifania · feste di primavera e d'estate
   · accensione dell'albero e apertura dei villaggi di Natale (fine novembre) [accensione albero, villaggio di Natale]
@@ -163,6 +167,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Mercatini** [mercatino] · antiquariato e modernariato [ricorrenza mensile] · hobbistica e artigianato · antiquariato mensile nei borghi del centro [Cose d'Altri Tempi, quarta domenica]
   · vintage e usato · mercatini di Natale · baratto e swap party · libri usati
   · mercatini di Natale di paese gia' da meta' novembre [mercatino di Natale <comune>]
+  · mercatini natalizi a weekend nei borghi [Stelle a Natale, artigianato vivo] (primi due weekend di dicembre)
 - **Mercati agricoli** · mercato contadino · Campagna Amica · mercati straordinari di Natale e di stagione
   · mostre mercato di prodotti d'autunno [profumi e sapori] (i mercati settimanali fissi sono un servizio, non un evento)
 - **Fiere** [fiera, expo] · fiere storiche di paese · fiere di settore · fiere dell'auto e moto d'epoca · fiere del
@@ -180,6 +185,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · corsi delle Camere di commercio (spesso solo e-learning) [CCIAA formazione] (2026-11-15) · minirassegne culturali infrasettimanali nelle ville comunali [DeINDOPARA] (2026-11-15)
 - **Lavoro** [job day, career day, recruiting day] · job day e fiere del lavoro · orientamento universitario
   · career day di universita' e ITS
+  · job meeting itineranti delle universita' [Job Meeting, career day] (in provincia rari, resa 0 il 2026-11-17)
 - **Startup e innovazione** · hackathon · pitch · open day di incubatori · talk ispirazionali nei campus [inspirational talk, H-FARM] (2026-11-15)
 - **Networking** · aperitivi di networking · eventi di associazioni di categoria
   · business night delle associazioni di commercianti [Confcommercio business night] · incontri Confapi
@@ -192,6 +198,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · camminate abbinate alle mostre mercato d'autunno [camminata, colline nascoste] · percorsi tra i presepi nel bosco del Montello [presepi nel bosco] (dicembre)
 - **Ambiente** · pulizia di parchi e fiumi · piantumazioni · educazione ambientale · domeniche ecologiche con distribuzione di piantine [domenica ecologica, alberi in pianura] · Puliamo il Mondo di Legambiente [puliamo il mondo] (settembre-ottobre)
   · raccolte di rifiuti di Plastic Free e FIPSAS [plastic free, zeroplastic]
+  · raccolte dei volontari Plastic Free [cleanup Plastic Free] (elenco solo con registrazione: 2026-11-17) · gruppi di ecovolontari dei comuni [Passi Puliti, ecovolontari] · Festa dell'albero del 21 novembre [Giornata nazionale degli alberi, festa degli alberi]
 - **Benessere** [yoga, meditazione] · yoga all'aperto · meditazione · pilates · camminata nordica [nordic walking]
   · bagni di gong e suono [bagno di gong, master gong] (2026-11-15) · giornate dello yoga cittadine [YogaDay] (2026-11-15)
 - **Orti e giardini** · giardini aperti · corsi di orticoltura · mostre di piante e fiori · laboratori con gli apicoltori [apicoltore, cera d'api]
@@ -214,4 +221,5 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-13 · +11 voci · dove: Arte e cultura > Visite guidate (+2), Mostre (+1), Conferenze e incontri (+2), Sagre > Feste stagionali (+3), Natura > Escursioni (+2), Orti e giardini (+1)
 - 2026-11-14 · +11 voci · dove: Sport > Sport invernali (+2), Ginnastica e danza sportiva (+2), Arte e cultura > Comunita' (+4), Musica > Serate e club (+3)
 - 2026-11-15 · +10 voci · dove: Musica > Festival musicali (+3), Musica > Concerti (+2), Business > Startup (+1), Business > Formazione (+2), Natura > Benessere (+2)
+- 2026-11-17 · +11 voci · dove: Arte e cultura > Tecnologia e scienza (+2), Mostre (+1), Business > Lavoro (+1), Sagre > Cibo (+2), Natura > Ambiente (+3), Mercatini (+1), Musica > Musica partecipata (+1)
 - 2026-11-16 · +10 voci · dove: Sport > Ciclismo (+3), Musica > Concerti (+3), Arte e cultura > Conferenze e incontri (+2), Famiglie > Spettacoli per bambini (+2)

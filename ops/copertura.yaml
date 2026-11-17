@@ -23,7 +23,7 @@ comuni_TV:
   Cessalto: 2026-11-08
   Chiarano: 2026-11-12
   Cimadolmo: 2026-11-09
-  Cison di Valmarino: 2026-10-30
+  Cison di Valmarino: 2026-11-17
   Codognè: 2026-11-06
   Colle Umberto: 2026-11-07
   Conegliano: 2026-11-16
@@ -37,7 +37,7 @@ comuni_TV:
   Fregona: 2026-10-31
   Gaiarine: 2026-11-08
   Giavera del Montello: 2026-11-13
-  Godega di Sant'Urbano: 2026-10-30
+  Godega di Sant'Urbano: 2026-11-17
   Gorgo al Monticano: 2026-11-05
   Istrana: 2026-11-11
   Loria: 2026-11-02
@@ -55,7 +55,7 @@ comuni_TV:
   Moriago della Battaglia: 2026-11-06
   Motta di Livenza: 2026-11-06
   Nervesa della Battaglia: 2026-11-13
-  Oderzo: 2026-11-11
+  Oderzo: 2026-11-17
   Ormelle: 2026-11-15
   Orsago: 2026-11-05
   Paese: 2026-11-01
@@ -63,7 +63,7 @@ comuni_TV:
   Pieve del Grappa: 2026-11-14
   Pieve di Soligo: 2026-11-01
   Ponte di Piave: 2026-10-31
-  Ponzano Veneto: 2026-10-31
+  Ponzano Veneto: 2026-11-17
   Portobuffolè: 2026-11-13
   Possagno: 2026-11-10
   Povegliano: 2026-11-02
@@ -73,7 +73,7 @@ comuni_TV:
   Resana: 2026-11-13
   Revine Lago: 2026-10-31
   Riese Pio X: 2026-11-15
-  Roncade: 2026-10-30
+  Roncade: 2026-11-17
   Salgareda: 2026-11-11
   San Biagio di Callalta: 2026-11-02
   San Fior: 2026-11-10
@@ -90,14 +90,14 @@ comuni_TV:
   Susegana: 2026-11-10
   Tarzo: 2026-11-09
   Trevignano: 2026-11-08
-  Treviso: 2026-10-30
+  Treviso: 2026-11-17
   Valdobbiadene: 2026-11-07
   Vazzola: 2026-11-08
   Vedelago: 2026-11-07
   Vidor: 2026-10-31
   Villorba: 2026-11-01
   Vittorio Veneto: 2026-11-02
-  Volpago del Montello: 2026-10-30
+  Volpago del Montello: 2026-11-17
   Zenson di Piave: 2026-11-14
   Zero Branco: 2026-11-09
 aggregatori:
@@ -234,12 +234,12 @@ categorie_TV:
   "Famiglie e bambini > Laboratori": 2026-11-02
   "Mercatini e fiere > Fiere": 2026-11-02
   "Famiglie e bambini > All'aperto": 2026-11-01
-  "Natura e benessere > Ambiente": 2026-11-01
+  "Natura e benessere > Ambiente": 2026-11-17
   "Arte e cultura > Libri e lettura": 2026-11-01
-  "Sagre e cibo > Cibo": 2026-11-01
+  "Sagre e cibo > Cibo": 2026-11-17
   "Arte e cultura > Conferenze e incontri": 2026-11-16
-  "Business e formazione > Lavoro": 2026-10-31
-  "Arte e cultura > Tecnologia e scienza": 2026-10-31
+  "Business e formazione > Lavoro": 2026-11-17
+  "Arte e cultura > Tecnologia e scienza": 2026-11-17
   "Famiglie e bambini > Spettacoli per bambini": 2026-11-16
   musica: 2026-10-30
   nightlife: null

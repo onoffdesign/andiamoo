@@ -532,8 +532,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 3, eventi_trovati: 27, ultimi: [2, 2, 23] }
-  ultimo_controllo: '2026-11-16'
+  resa: { controlli: 4, eventi_trovati: 27, ultimi: [2, 2, 23, 0] }
+  ultimo_controllo: '2026-11-17'
   automatizzabile: no
   stato: attiva
   note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale 2026-11-16: una lettura ha dato 23 eventi mancanti fino a gennaio (stagione Trevignano Cultura, Imoco e Treviso FBC, mercatini, Cordignano, Ormelle); le pagine comune (cordignano.html, ormelle.html) si aprono con programma e orari."
@@ -1699,3 +1699,74 @@ fonti:
   automatizzabile: 'si'
   stato: spostata
   note: "Sito MyPortal: al PC come myportal con IPA C_I927 (codice catastale), da controllare nel rapporto."
+- nome: Cison Borgo Vivo (Pro Loco Cison di Valmarino)
+  url: https://cisonborgovivo.it/eventi/
+  query: Eventi a Cison di Valmarino Borgo Vivo
+  tipo: proloco
+  categorie: [mercatini-fiere, teatro-spettacoli, sagre-feste]
+  comuni: [Cison di Valmarino]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: 2026-11-17
+  automatizzabile: 'si'
+  stato: attiva
+  note: "elenco con date fino ad agosto 2027 (Stelle a Natale, Presepi, Artigianato Vivo), schede apribili ma senza orari ne' ingresso; la rassegna del Teatro La Loggia rimanda a teatrolorenzodaponte.it/cison-di-valmarino (gia' al PC)."
+- nome: Scopri Oderzo (IAT di Oderzo)
+  url: https://www.scoprioderzo.it/my-calendar/
+  query: Oderzo eventi (allowed_domains scoprioderzo.it)
+  tipo: comune
+  categorie: [arte-cultura, musica, mercatini-fiere]
+  comuni: [Oderzo]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 5, ultimi: [5] }
+  ultimo_controllo: 2026-11-17
+  automatizzabile: 'si'
+  stato: spostata
+  note: "sito ufficiale IAT con plugin My Calendar (mese corrente, nessun link al mese dopo, nessun feed visibile); schede /mc-events/ con ora, sede e ingresso, apribili. Passata al PC come html_llm (scopri-oderzo) il 2026-11-17."
+- nome: Fondazione Benetton Studi Ricerche (agenda)
+  url: https://www.fbsr.it/agenda-home/
+  query: fbsr.it agenda <mese> <anno> (allowed_domains fbsr.it)
+  tipo: associazione
+  categorie: [arte-cultura, musica]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
+  ultimo_controllo: 2026-11-17
+  automatizzabile: 'si'
+  stato: spostata
+  note: "agenda con 5 eventi (Palazzo Bomben, San Teonisto) senza orari; le schede /evento/ lette dall'agenda vengono rifiutate (4 letture perse), il programma della rassegna esce in /edizioni/landscapes-5/ (12 date fino a giugno 2027, biglietti su liveticket). Passata al PC come html_llm (fondazione-benetton) il 2026-11-17."
+- nome: TicketOne concerti a Treviso
+  url: https://www.ticketone.it/cityd/treviso-2045/concerti-55/
+  query: ticketone.it cityd treviso concerti (allowed_domains ticketone.it)
+  tipo: biglietteria
+  categorie: [musica, teatro-spettacoli]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: 2026-11-17
+  automatizzabile: 'si'
+  stato: spostata
+  note: "come la pagina di Conegliano: righe con data, ora e sala; esiste anche /teatro-58/. Al PC come html_llm (ticketone-categorie) il 2026-11-17 con Conegliano."
+- nome: Trivenetogoal (calendario del Treviso FBC con orari)
+  url: https://www.trivenetogoal.it/2026/09/18/treviso-date-e-orari-dalla-nona-alla-ventesima-giornata-a-cittadella-domenica-1-novembre/265446/
+  query: Treviso date e orari giornata Serie C trivenetogoal
+  tipo: testata
+  categorie: [sport]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: 2026-11-17
+  automatizzabile: no
+  stato: attiva
+  note: "date e orari ufficiali della Lega Pro per blocchi di giornate (escono a settembre e a dicembre): ha sistemato 4 orari delle partite al Tenni. Cercare l'articolo del blocco successivo (dalla 21a giornata) a dicembre."
+

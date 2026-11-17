@@ -2,6 +2,46 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-17
+
+- **Giro del PC**: NON ha girato per la sesta notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica (sito a 425 eventi).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo). Per la fonte ticketone a 0 eventi aggiunta la fonte
+  html_llm ticketone-categorie (pagine /concerti-55/ e /teatro-58/).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (stessi eventi aperti dell'11/11, gia' cercati a vuoto).
+- **Correzioni**: orari ufficiali di Treviso - Pergolettese (sabato 21/11 alle 14:30, non domenica 22), Arzignano
+  (6/12 alle 12:30), Carpi (20/12 alle 17:30), Trento (3/1 alle 17:30) da Trivenetogoal. Rimossa Imoco - Bergamo del
+  7/2: e' in trasferta (calendario A1 del Corriere dello Sport); aggiunta la casalinga mancante Imoco - Cuneo del 13/12.
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima e dopo 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11).
+  Nessun luogo aggiunto: 2 ricerche Mapcarta a vuoto (Villa Romivo, Auditorium Vidotto); i luoghi piu' frequenti hanno
+  un indirizzo che il PC geolocalizza al prossimo giro.
+- **Eventi aggiunti** (18): mercatini 7 (Stelle a Natale a Cison 5-8 e 12-13/12, Cose d'altri tempi in Borgo Cavour
+  22/11), arte e cultura 6 (mostra Magnolato a Oderzo, 3 Te' al museo di Oderzo Cultura, Salotti vivaldiani e lezione
+  di Bietti della Fondazione Benetton), musica 4 (concerto a occhi chiusi a Palazzo Foscolo, Venice Baroque
+  Orchestra e Venice Vocal Jam a San Teonisto, Una notte per Faber al Sant'Anna 16/4), sport 1 (Imoco - Cuneo).
+  Non aggiunti: Natale sotto le mura a Castelfranco (solo schede 2025), antiquariato di Montebelluna 21/11 (nessuna
+  pagina), Museo del Caffe' Dersut (date incoerenti tra elenco e scheda), Lungo il fiume Sile alla Fondazione Benetton
+  (scheda non apribile), La Voce del Lof a Cison 28/11 (scheda non aperta per budget).
+- **Comuni controllati**: Cison di Valmarino (Cison Borgo Vivo, 6 date), Godega (0, solo Antica Fiera di marzo),
+  Volpago (0, solo un articolo TrevisoToday sugli Alpini dell'8/12), Ponzano (0, associazioniponzanoveneto senza eventi
+  in provincia), Treviso e Roncade (al PC; programma di Natale 2026 non ancora uscito), Oderzo (IAT, 5 eventi).
+- **Categorie cercate**: Tecnologia e scienza (astrofili: sito in loop di redirect), Lavoro (0), Cibo (0), Ambiente
+  (0: Festa dell'albero e Plastic Free senza eventi TV leggibili). +11 voci nell'albero.
+- **Fonti note**: Treviso Eventi (0 nuovi dal calendario fino ad aprile, 2 dalle schede: tutto il resto era gia' sul
+  sito). Non riaperte: Quinto, Cinema Edera, Treviso Sotterranea, Istadea, Orsago (vietate, annuali o deboli).
+- **Fonti nuove catalogate**: 5 (Cison Borgo Vivo, Scopri Oderzo, Fondazione Benetton, TicketOne concerti Treviso,
+  Trivenetogoal). Spostate in sources.yaml: 3 html_llm (scopri-oderzo, fondazione-benetton, ticketone-categorie).
+- **Miglioria**: pagine TicketOne per categoria e citta' al PC come html_llm; per IAT e fondazioni si legge l'agenda
+  e il programma della rassegna, non le schede (rifiutate).
+- **Test di copertura**: 5/10.
+- **Ricerche**: 59 su 70 (34 WebSearch, 25 WebFetch, di cui 5 a vuoto: 4 schede fbsr rifiutate e un redirect).
+- **Problemi aperti**: il giro del PC non parte da sei notti; programmi di Natale 2026 dei comuni maggiori non ancora
+  usciti (ricercarli dal 20/11); da controllare nel primo rapporto le 3 fonti nuove e il doppione tra ticketone e
+  ticketone-categorie.
+
 ## 2026-11-16
 
 - **Giro del PC**: NON ha girato per la quinta notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

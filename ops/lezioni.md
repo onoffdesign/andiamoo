@@ -45,6 +45,9 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   il sito ufficiale fioridinverno.tv ha le schede di ogni festa del radicchio; le pagine comune di trevisoeventi
   (cordignano.html, ormelle.html) danno programma, orari e ingresso. Il calendario della Federciclismo del Trofeo
   Triveneto CX elenca le gare TV della stagione (senza ora ne' luogo esatto).
+- 2026-11-17: le pagine IAT con My Calendar (scoprioderzo.it/my-calendar/) e le agende delle fondazioni (fbsr.it/agenda-home/)
+  si aprono e danno eventi che nessun aggregatore ha; i programmi di rassegna escono in /edizioni/<nome>/. Gli orari
+  ufficiali delle partite di Serie C per blocchi di giornate escono su Trivenetogoal (4 orari sistemati in una lettura).
 
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -104,6 +107,12 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   fonte), trevisoperte.it (elenco in errore), elenco di prolocovenete.it (caricato via JavaScript), articoli Qdpnews sul
   Natale di Pederobba (2024), trevisomtb.it (calendario 2026 fermo ad aprile), trevignanocultura.it (EventON, schede
   della stagione passata), Comune di Conegliano (OpenCms, nessun elenco).
+
+- 2026-11-17: astrofilitrevigiani.it solo http (WebFetch va in loop di redirect); associazioniponzanoveneto.it senza eventi
+  2026 in provincia; occhi.it ha ancora le schede 2025 dei mercatini di Natale; plasticfreeonlus.it elenca le raccolte
+  solo dopo registrazione; le schede fbsr.it/evento/ lette dall'agenda vengono rifiutate (4 letture perse).
+  Programmi di Natale 2026 di Treviso, Oderzo, Vittorio Veneto, Godega e Ponzano al 17/11 non ancora usciti
+  (in cima solo articoli 2025).
 
 ## Calendario (chi pubblica quando)
 - Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli

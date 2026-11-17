@@ -1,32 +1,30 @@
 {
- "data": "2026-11-16",
- "aggiunti": 50,
- "corretti": 13,
- "rimossi": 0,
+ "data": "2026-11-17",
+ "aggiunti": 18,
+ "corretti": 4,
+ "rimossi": 1,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "sport": 16,
-  "musica": 13,
-  "teatro-spettacoli": 12,
+  "mercatini-fiere": 7,
   "arte-cultura": 6,
-  "mercatini-fiere": 3
+  "musica": 4,
+  "sport": 1
  },
- "fonti_nuove": 11,
- "fonti_spostate": 4,
- "fonti_sistemate": 3,
+ "fonti_nuove": 5,
+ "fonti_spostate": 3,
+ "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "3/10",
- "ricerche": 51,
- "eventi_per_ricerca": 1.0,
- "categorie_aggiunte": 10,
- "miglioria": "Il raccoglitore MyPortal prende il comune dal campo town o dal nome della fonte (prima Mogliano, Paese e Trevignano finivano a Treviso); cinema-teatri cercati dalla pagina concerti per citta' di TicketOne (Teatro Cristallo di Oderzo al PC)",
+ "copertura_test": "5/10",
+ "ricerche": 59,
+ "eventi_per_ricerca": 0.3,
+ "categorie_aggiunte": 11,
+ "miglioria": "Pagine TicketOne per categoria e citta' passate al PC come fonte html_llm (le /cityd/ non hanno JSON-LD)",
  "problemi": [
-  "Il giro del PC non parte da cinque notti (ultimo rapporto 11/11): coda, campione e posizioni fermi, oltre 100 eventi aggiunti non ancora sul sito",
-  "Imoco - Bergamo del 7/2 assente dal calendario ufficiale del club: da ricontrollare",
-  "Treviso - Pergolettese: 21/11 alle 14:30 per trevisoeventi, 22/11 per il club",
-  "Fonte ticketone a 0 eventi nell'ultimo rapporto anche con le pagine /venue/",
-  "Programmi di Natale 2026 dei comuni non ancora pubblicati"
+  "Il giro del PC non parte da sei notti (ultimo rapporto 11/11)",
+  "Programmi di Natale 2026 dei comuni maggiori non ancora usciti",
+  "Da controllare nel primo rapporto: scopri-oderzo, fondazione-benetton, ticketone-categorie",
+  "Campione fermo a 6/10 per accessi e link non pubblicati dagli organizzatori"
  ]
 }

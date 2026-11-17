@@ -103,6 +103,20 @@ sources:
     ai_rewrite: false
     note: "Evento + luogo + prezzo minimo nel JSON-LD della pagina citta'. Altri comuni: aggiungere le loro pagine /city/. 2026-11-11: le pagine /cityd/ danno ancora 0 eventi al PC; aggiunte le pagine dei locali /venue/ (Teatro Accademia: 43 eventi, 10 per pagina, letti da Claude con WebFetch), da controllare nel prossimo rapporto. 2026-10-30: zero eventi dalla pagina /en/, passata alla versione italiana /cityd/ (che elenca eventi) e aggiunta Conegliano."
 
+  - id: ticketone-categorie
+    name: TicketOne (pagine per categoria e citta')
+    type: html_llm
+    portal: true
+    max_events: 30
+    enabled: true
+    listing_urls:
+      - https://www.ticketone.it/cityd/treviso-2045/concerti-55/
+      - https://www.ticketone.it/cityd/treviso-2045/teatro-58/
+      - https://www.ticketone.it/cityd/conegliano-1116/concerti-55/
+    hint: "Elenchi TicketOne di concerti e teatro per citta': ogni riga ha data, ora, titolo, sala e citta'. Tenere solo gli eventi in provincia di Treviso (la pagina mostra anche Venezia e Padova). Accesso biglietto; official_url il link /event/ della riga."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-17: la fonte jsonld ticketone da' 0 eventi dalle pagine /cityd/ (nessun JSON-LD), mentre le pagine /concerti-55/ e /teatro-58/ si leggono come testo (Conegliano: 13 concerti il 16/11; Treviso: 2 concerti il 17/11, uno mancante). Se raddoppia con ticketone, disattivare le /cityd/ in quella."
+
   - id: dice
     name: DICE
     type: jsonld
