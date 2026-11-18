@@ -511,6 +511,26 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-05: WordPress con The Events Calendar (meta tec-api, /appuntamenti/, /evento/). Compagnia vicentina con date anche in provincia di Treviso (Falze' di Trevignano, San Biagio): le altre le filtra l'area."
 
+  - id: visit-fregona
+    name: Visit Fregona (Pro Loco di Fregona)
+    type: tribe_api
+    enabled: true
+    base_url: https://www.visitfregona.it
+    per_page: 50
+    max_pages: 2
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-18: WordPress con viste /eventi/ elenco/mese/oggi tipiche di The Events Calendar (API non verificata dal cloud: se il rapporto da' 404 passare a html_llm su /news-eventi/). Eventi della Pro Loco di Fregona e delle Grotte del Caglieron; togliere le riunioni dei soci (non sono eventi pubblici). WebFetch apre il sito, prolocofregona.it invece vieta i robot."
+    escludi_titoli: "(?i)^(riunione|convocazione assemblea)"
+
+  - id: teatro-del-pane
+    name: Teatro del Pane (Lancenigo di Villorba)
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.teatrodelpane.it/spettacoli/stagione-2026.aspx
+    hint: "Stagione del Teatro del Pane, Via Fontane 91, Lancenigo di Villorba (TV): ogni riga ha data (gg/mm), titolo e artisti, senza ora. Ingresso riservato ai soci ACSI con prenotazione (access iscrizione). Ogni data e' un evento; town Villorba. Quando esce la stagione 2027 aggiornare l'indirizzo (stagione-2027.aspx)."
+    note: "Aggiunta da Claude il 2026-11-18: pagina della stagione leggibile da WebFetch, 11 date nessuna delle quali era sul sito."
+
   # ---------- Segnalazioni ----------
   - id: modulo-organizzatori
     name: Modulo organizzatori
