@@ -531,6 +531,24 @@ sources:
     hint: "Stagione del Teatro del Pane, Via Fontane 91, Lancenigo di Villorba (TV): ogni riga ha data (gg/mm), titolo e artisti, senza ora. Ingresso riservato ai soci ACSI con prenotazione (access iscrizione). Ogni data e' un evento; town Villorba. Quando esce la stagione 2027 aggiornare l'indirizzo (stagione-2027.aspx)."
     note: "Aggiunta da Claude il 2026-11-18: pagina della stagione leggibile da WebFetch, 11 date nessuna delle quali era sul sito."
 
+  - id: virtuosi-italiani-treviso
+    name: I Virtuosi Italiani, stagione al Teatro Eden e al Teatro delle Voci (Treviso)
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.ivirtuositaliani.eu/teatro-eden-teatro-delle-voci-treviso
+    hint: "Stagione 2026/27 de I Virtuosi Italiani a Treviso: ogni riga ha titolo, data e sala (Teatro Eden, Via Daniele Monterumici; Teatro delle Voci, Via Tre Venezie 17). L'ora e i prezzi sono solo nelle schede (Teatro delle Voci: 25 euro, ridotti 20 e 10). Concerti di musica classica a biglietto; official_url la scheda della riga."
+    note: "Aggiunta da Claude il 2026-11-18: 17 concerti dal 18/11 al 12/5, nessuno era sul sito. Le schede si aprono con WebFetch."
+
+  - id: ubik-treviso
+    name: Libreria Ubik Treviso, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://treviso.ubiklibri.it/eventi.html
+    hint: "Presentazioni e firmacopie della Libreria Ubik, Corso del Popolo 40, Treviso: ogni riga ha giorno della settimana, giorno e mese (anno non scritto: e' quello in cui il giorno della settimana torna), ora, titolo del libro, autori. Tenere solo gli eventi di Treviso. official_url https://treviso.ubiklibri.it/eventi.html (i link delle righe sono post Instagram, non usarli). Categoria arte-cultura, sottocategoria libri."
+    note: "Aggiunta da Claude il 2026-11-18: 7 presentazioni in una lettura; prima si cercavano a mano ogni settimana."
+
   # ---------- Segnalazioni ----------
   - id: modulo-organizzatori
     name: Modulo organizzatori

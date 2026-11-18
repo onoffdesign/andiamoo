@@ -167,6 +167,8 @@ lo schema e si parte dalle regole generali e da quelle della regione.
   il geocoder la toglie (`clean_town`), il raccoglitore tribe pulisce i luoghi "• Treviso – Teatro" e ogni fonte
   puo' avere `escludi_titoli` (regex) per scartare le repliche riservate alle scuole.
 
+- 2026-11-18: **sale con stagione propria fuori da TicketOne** (I Virtuosi Italiani al Teatro Eden e al Teatro delle Voci, Teatro del Pane di Lancenigo): la pagina della stagione da' tutte le date in una lettura e passa al PC come html_llm. Vivaticket (pagine venue) vieta i robot e le schede /event/ di TicketOne lette fuori dalla pagina citta' danno errore: non aprirle.
+
 ## 4. Aggregatori che valgono per piu' province
 
 Fonti utili in piu' province: si configurano una volta e si allargano a ogni provincia nuova (nuove pagine citta' o
@@ -186,6 +188,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-18 · TV · ricerche 58 · eventi nuovi 36 · eventi per ricerca 0,6 · fonti al PC +4 (I Virtuosi Italiani, Teatro del Pane, Libreria Ubik Treviso html_llm; Visit Fregona tribe_api) · miglioria: le sale con stagione propria che non vendono su TicketOne (orchestre, teatri associativi) si trovano cercando "<sala> stagione programma" e passano subito al PC: 28 eventi in 2 letture, nessuno era sul sito; la pagina eventi di una catena di librerie si fa uscire con allowed_domains (treviso.ubiklibri.it/eventi.html)
 - 2026-11-17 · TV · ricerche 59 · eventi nuovi 18 (piu' 4 orari e 1 rimozione) · eventi per ricerca 0,3 · fonti al PC +3 (Scopri Oderzo, Fondazione Benetton Studi Ricerche, TicketOne per categoria e citta', tutte html_llm) · miglioria: le pagine TicketOne /concerti-55/ e /teatro-58/ (testo leggibile) passano al PC come fonte html_llm separata, perche' le /cityd/ non hanno JSON-LD e la fonte jsonld dava 0; per le fondazioni e gli IAT si legge l'agenda e il programma della rassegna (/edizioni/), non le schede
 - 2026-11-16 · TV · ricerche 51 · eventi nuovi 50 · eventi per ricerca 1,0 (piu' 13 link delle feste del radicchio portati al sito ufficiale) · fonti al PC +4 (Teatro Cristallo di Oderzo, Comune di San Vendemiano, Libreria San Leonardo html_llm; Comune di Spresiano myportal) e pagina /venue/ del Cristallo nella fonte ticketone · miglioria: comune della fonte nei portali MyPortal (codice e test) e cinema-teatri cercati dalla pagina concerti per citta' di TicketOne
 - 2026-11-15 · TV · ricerche 57 · eventi nuovi 14 · eventi per ricerca 0,25 (piu' 1 corretto) · fonti al PC +0 (ClassicaLive candidata) · miglioria: per la musica classica e la lirica si parte da ClassicaLive per provincia (una lettura, ora e organizzatore di ogni concerto) e dalla pagina stagione di risorse.teatrostabileveneto per date e fasce di prezzo: 12 concerti e opere mancanti in 3 letture. Notte povera per il resto: 6 comuni del piano senza eventi (siti design-comuni vuoti), posizioni non sistemate (Mapcarta a vuoto), 5 letture rifiutate per link presi dentro le pagine

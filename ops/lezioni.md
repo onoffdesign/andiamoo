@@ -49,6 +49,10 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   si aprono e danno eventi che nessun aggregatore ha; i programmi di rassegna escono in /edizioni/<nome>/. Gli orari
   ufficiali delle partite di Serie C per blocchi di giornate escono su Trivenetogoal (4 orari sistemati in una lettura).
 
+- 2026-11-18: gli avvisi dei Comuni per le casette dei mercatini (Castelfranco) danno le date ufficiali del Natale prima
+  del programma; qdpnews ha il programma del Natale di Conegliano (5/12-3/1). scoppiospettacoli.it ha le schede dei
+  balletti in tournee con prezzi. La pagina della stagione de I Virtuosi Italiani apre anche le schede (ora e prezzi).
+
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
   teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
@@ -114,6 +118,12 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   Programmi di Natale 2026 di Treviso, Oderzo, Vittorio Veneto, Godega e Ponzano al 17/11 non ancora usciti
   (in cima solo articoli 2025).
 
+- 2026-11-18: vivaticket.com (pagine venue) vieta i robot; le schede TicketOne /event/ uscite da una ricerca danno
+  errore (3 letture perse, New Age Club); prolocofregona.it e prolococastelfrancoveneto.it vietano i robot; Comune di
+  Vidor (Municipium) e Pro Loco ASC Mansue' senza eventi futuri; Spazio Paraggi chiuso (ora 'La Stanza'); Mapcarta per
+  le frazioni (Castello Roganzuolo) e i municipi: ancora a vuoto. Ricerche per ambito 'fiere' e 'bambini all'aperto' a
+  vuoto anche con il nome del santo.
+
 ## Calendario (chi pubblica quando)
 - Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli
   articoli del 2025; quelli nuovi escono dopo il 15-20 novembre.
@@ -122,7 +132,8 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - Sagre di San Martino e Madonna della Salute: tutte a novembre, quasi solo su Facebook e aggregatori.
 - Feste del radicchio (rassegna Fiori d'Inverno di UNPLI): da fine novembre a marzo; calendario a inizio novembre,
   programmi delle singole feste di solito una o due settimane prima.
-- Mercatini di Natale: al 16 novembre le guide nazionali (thewom) dicono che i programmi di Treviso non sono ancora usciti.
+- Mercatini di Natale: al 16 novembre le guide nazionali (thewom) dicono che i programmi di Treviso non sono ancora usciti;
+  al 18/11 escono i programmi di Conegliano (qdpnews) e le date di Castelfranco (avviso del Comune), non ancora Treviso.
 - Piste di ghiaccio di Natale: a meta' novembre escono solo articoli degli anni passati; cercarle da fine novembre.
 
 ## Errori da non ripetere

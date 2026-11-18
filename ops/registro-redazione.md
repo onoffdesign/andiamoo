@@ -2,6 +2,44 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-18
+
+- **Giro del PC**: NON ha girato per la settima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica (sito a 425 eventi).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (6 eventi futuri aperti, gli stessi cercati a vuoto dall'11/11).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima e dopo 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11).
+  Nessun luogo aggiunto: 2 ricerche Mapcarta a vuoto (Castello Roganzuolo, municipio di San Fior).
+- **Eventi aggiunti** (36): musica 17 (stagione de I Virtuosi Italiani al Teatro Eden e al Teatro delle Voci, dal 18/11
+  al 12/5), teatro e spettacoli 10 (9 date del Teatro del Pane di Lancenigo, Lo Schiaccianoci del Balletto di Siena al
+  Teatro Accademia il 27/12), arte e cultura 4 (3 presentazioni alla Ubik di Treviso, Com'era il Sile a Palazzo
+  Bomben), mercatini 2 (antiquariato di Asolo 13/12, Natale sotto le mura a Castelfranco dal 21/11 al 10/1), sagre e
+  feste 2 (Magia del Natale a Conegliano dal 5/12, cenone del Teatro del Pane), business 1 (Veneto Acquisti Verdi 26/11).
+  Non aggiunti: Andrea Cerrato al New Age Club 21/1 (schede TicketOne in errore), Natale in Borgo Cavour (nessuna
+  pagina 2026), riapertura di Casa dei Carraresi (allestimento permanente, non un evento).
+- **Comuni controllati**: Fregona (Visit Fregona, nessun evento futuro, passata al PC), Revine Lago (0), Vidor (0,
+  Municipium vuoto), Castelfranco (Natale sotto le mura dall'avviso del Comune; Pro Loco vieta i robot), Ponte di
+  Piave (0), Mansue' (0, Pro Loco ferma a settembre).
+- **Categorie cercate**: Libri e lettura (Ubik, 3), Danza (Schiaccianoci, 1), Fiere (0), Famiglie all'aperto (0).
+  +11 voci nell'albero.
+- **Fonti note**: Libreria Ubik (3 nuovi, ora al PC), Please Stand Up (0: porta solo a TicketOne, gia' al PC),
+  Canzoni.it (0 nuovi su 9 entro marzo). Non riaperte: Quinto, Cinema Edera, Treviso Sotterranea, Istadea, Orsago
+  (vietate, annuali o deboli; Orsago una ricerca a vuoto).
+- **Fonti nuove catalogate**: 5 (I Virtuosi Italiani, Teatro del Pane, Visit Fregona, Ordine degli Architetti di
+  Treviso, SiViaggia). Spostate in sources.yaml: 4 (virtuosi-italiani-treviso, teatro-del-pane e ubik-treviso
+  html_llm; visit-fregona tribe_api).
+- **Miglioria**: le sale con stagione propria fuori da TicketOne (orchestre, teatri associativi) si cercano per nome
+  con "stagione programma" e passano subito al PC: 28 eventi in 2 letture.
+- **Test di copertura**: 7/10.
+- **Ricerche**: 58 su 70 (33 WebSearch, 25 WebFetch, di cui 7 a vuoto: 3 robots vietati, 3 schede TicketOne in
+  errore, 1 sito del Comune in errore).
+- **Problemi aperti**: il giro del PC non parte da sette notti; al primo rapporto controllare le 4 fonti nuove
+  (visit-fregona tribe_api non verificata) e i possibili doppioni tra fonti del PC ed eventi della redazione
+  (Teatro del Pane, Virtuosi, Ubik); programma di Natale di Treviso non ancora uscito.
+
 ## 2026-11-17
 
 - **Giro del PC**: NON ha girato per la sesta notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

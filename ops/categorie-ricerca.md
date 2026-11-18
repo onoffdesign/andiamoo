@@ -81,6 +81,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale]
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
+  · calendario settimanale delle presentazioni delle librerie di catena [eventi nelle librerie] (2026-11-18) → treviso.ubiklibri.it/eventi.html · firmacopie del sabato in libreria [firmacopie]
   · letture per adulti · poesia e slam poetry
 - **Conferenze e incontri** [conferenza, talk, dialogo] · storia locale · scienza e divulgazione · filosofia
   · ambiente · astronomia (serate osservative) · festival di cittadinanza e cooperazione [festival, dialogo, 4passi]
@@ -99,6 +100,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 ## Musica e party (`musica`)
 
 - **Concerti** [concerto, live] · rock e indie · cantautori · jazz [jam session] · blues · classica e cameristica
+  · stagioni cameristiche delle orchestre con sale proprie [I Virtuosi Italiani, Teatro delle Voci, Teatro Eden] (2026-11-18) → ivirtuositaliani.eu · concerti narrati con attore e strumento antico [concerto narrato, viola da gamba]
   · lirica e opera · musica corale [coro, rassegna corale] · bande e fanfare · musica sacra e organo · metal
   · hip hop e rap · elettronica live · world e folk · tributi e cover band
   · concerti tributo nei teatri [tribute show, tribute band, omaggio a] (2026-11-16) → TicketOne /cityd/<comune>/concerti-55/, canzoni.it · stagioni musicali dei cinema-teatri [cinema teatro, Oderzo suona] (2026-11-16) → cinemacristallo · cori gospel in tournee [mass choir] (2026-11-16)
@@ -126,6 +128,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   (non sono eventi le degustazioni in cantina su appuntamento del calendario del Consorzio)
   · birre artigianali · distillati e grappa · cantine aperte
 - **Cibo** · street food · cene a tema · corsi di cucina · mercati contadini con degustazioni · pranzi benefici con pasta di tradizione [pranzo solidale, magnar ben] · mostre mercato del radicchio [mostra del radicchio, Fiori d'Inverno] (gennaio)
+  · cenoni di Capodanno con spettacolo nei teatri e nei circoli [cenone di Capodanno, cena spettacolo] (2026-11-18) → teatrodelpane.it
   · mostre mercato dell'olio nelle ville [Olio in Villa] (fine novembre) · te' e merende al museo [te' al museo] (2026-11-17)
 - **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed
   Epifania · feste di primavera e d'estate
@@ -141,6 +144,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · rassegne di teatro amatoriale nei paesi [rassegna teatrale, compagnie amatoriali, auditorium] · letture teatrali per le ricorrenze civili [4 novembre] · spettacolo di Capodanno a teatro [Capodanno a teatro] · teatro classico a puntate sui miti greci [rassegna Class]
 - **Comicita'** · stand-up comedy [repliche pomeridiane e serali] · cabaret · serate comiche a puntate nei ridotti [Funny Friday] · teatro dialettale comico [Legnanesi] · creator e youtuber a teatro
 - **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci] · compagnie di balletto russo in tournee [Il lago dei cigni]
+  · balletti di Natale delle compagnie italiane nei teatri commerciali [Balletto di Siena, Schiaccianoci] (2026-11-18) → scoppiospettacoli · spettacoli natalizi per famiglie nei teatri associativi tra Natale e Capodanno [villaggio incantato]
 - **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada
   · circhi di Natale in tournee [circo di Natale, Circusfans tournee] · trampolieri e artisti di strada nei mercatini di Natale [trampolieri, mercatino di Natale]
 - **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi
@@ -159,7 +163,9 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · letture animate con musica dal vivo
   · rassegne comunali di prosa per famiglie la domenica pomeriggio [Domenica a teatro, ingresso 8 euro] (2026-11-16) → trevisoeventi stagione Trevignano Cultura · spettacoli natalizi per ragazzi nei teatri commerciali [K-pop, missione Natale] (2026-11-16)
 - **All'aperto** · fattorie didattiche · cacce al tesoro · feste di quartiere per famiglie · parchi avventura · laboratori nei garden center [laboratorio bambini garden] · piantumazione di bulbi per bambini · villaggi delle zucche [villaggio delle zucche] (ottobre)
+  · ruote panoramiche e piste di ghiaccio dei Natali in centro [ruota panoramica, pista di pattinaggio] (2026-11-18) · case di Babbo Natale nei cortili dei centri storici [casa di Babbo Natale]
 - **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini
+  · cassette delle lettere di Babbo Natale e slitte virtuali nelle piazze [slitta virtuale] (2026-11-18)
   · accensione del presepe e dell'albero (8 dicembre) · mostre di presepi (date dell'anno escono a fine novembre) · San Nicolo' (6 dicembre)
 
 ## Mercatini e fiere (`mercatini-fiere`)
@@ -171,6 +177,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Mercati agricoli** · mercato contadino · Campagna Amica · mercati straordinari di Natale e di stagione
   · mostre mercato di prodotti d'autunno [profumi e sapori] (i mercati settimanali fissi sono un servizio, non un evento)
 - **Fiere** [fiera, expo] · fiere storiche di paese · fiere di settore · fiere dell'auto e moto d'epoca · fiere del
+  · mercatini di Natale comunali con casette assegnate per avviso pubblico [avviso casette mercatini di Natale] (2026-11-18): l'avviso del Comune da' le date ufficiali
   fumetto e del gioco
   · rievocazioni storiche delle fiere antiche [antica fiera, rievocazione storica] · mostre mercato dei prodotti d'autunno [profumi e sapori d'autunno]
 - **Collezionismo** · numismatica e filatelia · vinili e dischi · giocattoli d'epoca · collezionismo militare [militaria, Milipiave]
@@ -223,3 +230,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-15 · +10 voci · dove: Musica > Festival musicali (+3), Musica > Concerti (+2), Business > Startup (+1), Business > Formazione (+2), Natura > Benessere (+2)
 - 2026-11-17 · +11 voci · dove: Arte e cultura > Tecnologia e scienza (+2), Mostre (+1), Business > Lavoro (+1), Sagre > Cibo (+2), Natura > Ambiente (+3), Mercatini (+1), Musica > Musica partecipata (+1)
 - 2026-11-16 · +10 voci · dove: Sport > Ciclismo (+3), Musica > Concerti (+3), Arte e cultura > Conferenze e incontri (+2), Famiglie > Spettacoli per bambini (+2)
+- 2026-11-18 · +11 voci · dove: Arte e cultura > Libri e lettura (+2), Spettacoli > Danza (+2), Musica > Concerti (+2), Mercatini > Fiere (+1), Famiglie > All'aperto (+2), Famiglie > Ricorrenze (+1), Sagre > Cibo (+1, cenoni di Capodanno nei teatri)

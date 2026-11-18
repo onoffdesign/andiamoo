@@ -17,7 +17,7 @@ comuni_TV:
   Casale sul Sile: 2026-11-14
   Casier: 2026-11-11
   Castelcucco: 2026-11-07
-  Castelfranco Veneto: 2026-10-31
+  Castelfranco Veneto: 2026-11-18
   Castello di Godego: 2026-11-14
   Cavaso del Tomba: 2026-11-09
   Cessalto: 2026-11-08
@@ -34,14 +34,14 @@ comuni_TV:
   Follina: 2026-11-08
   Fontanelle: 2026-11-10
   Fonte: 2026-11-12
-  Fregona: 2026-10-31
+  Fregona: 2026-11-18
   Gaiarine: 2026-11-08
   Giavera del Montello: 2026-11-13
   Godega di Sant'Urbano: 2026-11-17
   Gorgo al Monticano: 2026-11-05
   Istrana: 2026-11-11
   Loria: 2026-11-02
-  Mansuè: 2026-11-01
+  Mansuè: 2026-11-18
   Mareno di Piave: 2026-11-12
   Maser: 2026-11-02
   Maserada sul Piave: 2026-11-02
@@ -62,7 +62,7 @@ comuni_TV:
   Pederobba: 2026-11-16
   Pieve del Grappa: 2026-11-14
   Pieve di Soligo: 2026-11-01
-  Ponte di Piave: 2026-10-31
+  Ponte di Piave: 2026-11-18
   Ponzano Veneto: 2026-11-17
   Portobuffolè: 2026-11-13
   Possagno: 2026-11-10
@@ -71,7 +71,7 @@ comuni_TV:
   Quinto di Treviso: 2026-11-05
   Refrontolo: 2026-11-02
   Resana: 2026-11-13
-  Revine Lago: 2026-10-31
+  Revine Lago: 2026-11-18
   Riese Pio X: 2026-11-15
   Roncade: 2026-11-17
   Salgareda: 2026-11-11
@@ -94,7 +94,7 @@ comuni_TV:
   Valdobbiadene: 2026-11-07
   Vazzola: 2026-11-08
   Vedelago: 2026-11-07
-  Vidor: 2026-10-31
+  Vidor: 2026-11-18
   Villorba: 2026-11-01
   Vittorio Veneto: 2026-11-02
   Volpago del Montello: 2026-11-17
@@ -105,7 +105,13 @@ aggregatori:
   sagratour.it (Treviso): 2026-11-15
   trovasagre.com (mercatini di Natale): 2026-11-15
   trovaeventi.com: 2026-11-10
-  canzoni.it (concerti Treviso): 2026-11-16
+  canzoni.it (concerti Treviso): 2026-11-18
+  siviaggia.it (sagre e feste del mese in Veneto): 2026-11-18
+  ivirtuositaliani.eu (stagione Teatro Eden e Teatro delle Voci, al PC): 2026-11-18
+  teatrodelpane.it (Teatro del Pane, al PC): 2026-11-18
+  visitfregona.it (Pro Loco Fregona, al PC): 2026-11-18
+  ordinearchitettitreviso.it (eventi dell'Ordine): 2026-11-18
+  vivaticket.com (venue Palaverde, robots vietato): 2026-11-18
   federciclismo.it (Trofeo Triveneto ciclocross): 2026-11-16
   trevisomtb.it (calendario MTB e ciclocross): 2026-11-16
   prolocovenete.it (eventi Pro Loco per provincia, elenco caricato via JS): 2026-11-16
@@ -230,12 +236,12 @@ categorie_TV:
   "Sport > Equitazione": 2026-11-05
   "Sport > Arti marziali e combattimento": 2026-11-05
   "Mercatini e fiere > Mercatini": 2026-11-02
-  "Spettacoli > Danza": 2026-11-02
+  "Spettacoli > Danza": 2026-11-18
   "Famiglie e bambini > Laboratori": 2026-11-02
-  "Mercatini e fiere > Fiere": 2026-11-02
-  "Famiglie e bambini > All'aperto": 2026-11-01
+  "Mercatini e fiere > Fiere": 2026-11-18
+  "Famiglie e bambini > All'aperto": 2026-11-18
   "Natura e benessere > Ambiente": 2026-11-17
-  "Arte e cultura > Libri e lettura": 2026-11-01
+  "Arte e cultura > Libri e lettura": 2026-11-18
   "Sagre e cibo > Cibo": 2026-11-17
   "Arte e cultura > Conferenze e incontri": 2026-11-16
   "Business e formazione > Lavoro": 2026-11-17

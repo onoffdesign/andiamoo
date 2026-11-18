@@ -1134,11 +1134,11 @@ fonti:
   province: [TV, VE, PD, VR, VI]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
-  ultimo_controllo: '2026-11-11'
+  resa: { controlli: 2, eventi_trovati: 4, ultimi: [4, 0] }
+  ultimo_controllo: '2026-11-18'
   automatizzabile: forse
   stato: attiva
-  note: "tutte le serate di stand-up e cabaret del Veneto con data, ora e locale, paginata. Solo scoperta: confermare su TicketOne o sul sito del comico (eleazaro.it)."
+  note: "tutte le serate di stand-up e cabaret del Veneto con data, ora e locale, paginata. Solo scoperta: confermare su TicketOne o sul sito del comico (eleazaro.it). 2026-11-18: la query porta solo alle pagine Stand Up Comedy di TicketOne (gia' al PC con /teatro-58/): da ricontrollare solo ogni due settimane."
 - nome: Conservatorio Steffani di Castelfranco, eventi
   url: https://conscfv.it/eventi/
   query: conscfv.it eventi Conservatorio Steffani Castelfranco
@@ -1155,18 +1155,18 @@ fonti:
   note: "WordPress con Elementor, niente tribe ne' JSON-LD visibili. Pochi eventi, ma con ingresso e sede (Teatro Accademico)."
 - nome: Libreria Ubik Treviso, eventi
   url: https://www.ubiklibri.it/librerie/ubik-treviso
-  query: Ubik Treviso eventi libreria Corso del Popolo
+  query: ubiklibri eventi Ubik Treviso presentazione (allowed_domains ubiklibri.it) -> treviso.ubiklibri.it/eventi.html
   tipo: libreria
   categorie: [arte-cultura]
   comuni: [Treviso]
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
-  ultimo_controllo: '2026-11-11'
+  resa: { controlli: 2, eventi_trovati: 7, ultimi: [4, 3] }
+  ultimo_controllo: '2026-11-18'
   automatizzabile: forse
-  stato: attiva
-  note: "presentazioni e firmacopie con giorno e ora (anno non scritto, controllare il giorno della settimana). Candidata html_llm."
+  stato: spostata
+  note: "presentazioni e firmacopie con giorno e ora (anno non scritto, controllare il giorno della settimana). Al PC come html_llm (ubik-treviso) dal 2026-11-18. 2026-11-18: la pagina giusta e' treviso.ubiklibri.it/eventi.html (WebSearch con allowed_domains ubiklibri.it), 7 presentazioni fino al 29/11 con giorno e ora, link solo Instagram."
 - nome: Comune di Roncade, eventi (Municipium)
   url: https://www.comune.roncade.tv.it/it/eventi
   query: Comune di Roncade eventi
@@ -1624,11 +1624,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 2
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: 2026-11-16
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-18'
   automatizzabile: 'no'
   stato: attiva
-  note: "Solo scoperta (non ufficiale): 8 concerti TV con ora, ha portato al Teatro Cristallo di Oderzo e ai concerti del Teatro Accademia. Vale per tutte le province (pagina /concerti/italia/<citta>/)."
+  note: "Solo scoperta (non ufficiale): 8 concerti TV con ora, ha portato al Teatro Cristallo di Oderzo e ai concerti del Teatro Accademia. Vale per tutte le province (pagina /concerti/italia/<citta>/). 2026-11-18: 13 concerti, i 9 entro marzo gia' tutti sul sito tranne Andrea Cerrato (21/1, scheda TicketOne non apribile)."
 - nome: Pro Loco Venete (UNPLI Veneto), esplora gli eventi
   url: https://www.prolocovenete.it/esplora-gli-eventi/?province=6
   query: prolocovenete.it evento treviso
@@ -1769,4 +1769,73 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "date e orari ufficiali della Lega Pro per blocchi di giornate (escono a settembre e a dicembre): ha sistemato 4 orari delle partite al Tenni. Cercare l'articolo del blocco successivo (dalla 21a giornata) a dicembre."
-
+- nome: I Virtuosi Italiani, stagione a Treviso (Teatro Eden e Teatro delle Voci)
+  url: https://www.ivirtuositaliani.eu/teatro-eden-teatro-delle-voci-treviso
+  query: I Virtuosi Italiani Teatro Eden Teatro delle Voci Treviso stagione
+  tipo: organizzatore
+  categorie: [musica]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 17, ultimi: [17] }
+  ultimo_controllo: '2026-11-18'
+  automatizzabile: si
+  stato: spostata
+  note: "17 concerti della stagione dal 18/11 al 12/5 con data e sala, nessuno era sul sito; ora e prezzi nelle schede (si aprono). Al PC come html_llm (virtuosi-italiani-treviso) il 2026-11-18."
+- nome: Teatro del Pane (Lancenigo di Villorba)
+  url: https://www.teatrodelpane.it/spettacoli/stagione-2026.aspx
+  query: Teatro del Pane Villorba stagione programma
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: [Villorba]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 11, ultimi: [11] }
+  ultimo_controllo: '2026-11-18'
+  automatizzabile: si
+  stato: spostata
+  note: "Stagione per anno solare (stagione-2026.aspx): date e artisti senza ora; ingresso per soci ACSI con prenotazione. Al PC come html_llm (teatro-del-pane) il 2026-11-18; a gennaio cambiare l'indirizzo in stagione-2027.aspx."
+- nome: Visit Fregona (Pro Loco di Fregona)
+  url: https://www.visitfregona.it/news-eventi/
+  query: visitfregona eventi Grotte del Caglieron
+  tipo: pro_loco
+  categorie: [famiglie-bambini, natura-outdoor, sagre-feste]
+  comuni: [Fregona]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-18'
+  automatizzabile: si
+  stato: spostata
+  note: "WordPress con viste /eventi/ tipo The Events Calendar; al 18/11 nessun evento futuro (ultime: Vertikal Pizzoc e San Giorgio alle Grotte del 1/11). prolocofregona.it vieta i robot. Al PC come tribe_api (visit-fregona) il 2026-11-18: se da' 404 passare a html_llm."
+- nome: Ordine degli Architetti di Treviso, eventi
+  url: https://www.ordinearchitettitreviso.it/eventi
+  query: ordinearchitettitreviso eventi
+  tipo: ente
+  categorie: [business, arte-cultura]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-18'
+  automatizzabile: forse
+  stato: attiva
+  note: "Elenco di incontri e convegni anche di altri enti (Fondazione Benetton, Confindustria) con data, ora, sede e link di iscrizione; molti sono riservati agli iscritti o online: tenere solo quelli aperti in provincia."
+- nome: SiViaggia, sagre e feste del mese in Veneto
+  url: https://siviaggia.it/notizie/sagre-feste-veneto-dicembre-2026/609673/
+  query: siviaggia sagre feste Veneto <mese> <anno>
+  tipo: aggregatore
+  categorie: [mercatini-fiere, sagre-feste]
+  comuni: [Treviso, Castelfranco Veneto, Asolo, Cison di Valmarino, Morgano, Montebelluna, Roncade, Portobuffole']
+  province: [TV, VE, PD, VR, VI, BL, RO]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-18'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Articolo mensile con mercatini e feste per provincia (10 TV a dicembre), senza orari ne' siti: solo scoperta e test di copertura (7/10 gia' sul sito il 18/11)."

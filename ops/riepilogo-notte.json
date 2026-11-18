@@ -1,30 +1,32 @@
 {
- "data": "2026-11-17",
- "aggiunti": 18,
- "corretti": 4,
- "rimossi": 1,
+ "data": "2026-11-18",
+ "aggiunti": 36,
+ "corretti": 0,
+ "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "mercatini-fiere": 7,
-  "arte-cultura": 6,
-  "musica": 4,
-  "sport": 1
+  "musica": 17,
+  "teatro-spettacoli": 10,
+  "arte-cultura": 4,
+  "mercatini-fiere": 2,
+  "sagre-feste": 2,
+  "business": 1
  },
  "fonti_nuove": 5,
- "fonti_spostate": 3,
+ "fonti_spostate": 4,
  "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "5/10",
- "ricerche": 59,
- "eventi_per_ricerca": 0.3,
+ "copertura_test": "7/10",
+ "ricerche": 58,
+ "eventi_per_ricerca": 0.6,
  "categorie_aggiunte": 11,
- "miglioria": "Pagine TicketOne per categoria e citta' passate al PC come fonte html_llm (le /cityd/ non hanno JSON-LD)",
+ "miglioria": "Sale con stagione propria fuori da TicketOne (I Virtuosi Italiani, Teatro del Pane) trovate per nome e passate subito al PC: 28 eventi in 2 letture",
  "problemi": [
-  "Il giro del PC non parte da sei notti (ultimo rapporto 11/11)",
-  "Programmi di Natale 2026 dei comuni maggiori non ancora usciti",
-  "Da controllare nel primo rapporto: scopri-oderzo, fondazione-benetton, ticketone-categorie",
-  "Campione fermo a 6/10 per accessi e link non pubblicati dagli organizzatori"
+  "Il giro del PC non parte da 7 notti (ultimo rapporto 11/11)",
+  "Campione fermo a 6/10: accessi non pubblicati e link Instagram",
+  "Da controllare al primo giro: visit-fregona (tribe_api non verificata) e doppioni con gli eventi della redazione",
+  "Posizioni: 51 luoghi senza punto, Mapcarta inutile per frazioni e municipi"
  ]
 }
