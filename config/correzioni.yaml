@@ -520,22 +520,6 @@ correggi:
     price: "gratuito, iscrizione su Eventbrite"
     nota: "compare nell'elenco Eventbrite degli eventi gratuiti di Treviso (6/11): sabato 5/12 ore 21:00"
     verificato: "2026-11-06"
-  ae3c046bd3c58969:
-    title: "Gli effetti del cambiamento climatico in viticoltura"
-    start: "2026-11-10T18:00"
-    end: "2026-11-10T21:00"
-    all_day: false
-    venue: "Sala Polivalente"
-    address: "Via 2 Giugno 45"
-    lat: 45.68699
-    lon: 12.38081
-    access: "libero"
-    price: "gratuito"
-    subcategory: "conferenze"
-    summary: "Incontro della CIA Agricoltori Italiani di Treviso sugli effetti del cambiamento climatico sulla viticoltura, la fertilita' dei suoli e la gestione dell'acqua."
-    official_url: "https://www.comune.sanbiagio.tv.it/vivere-il-comune/eventi/gli-effetti-del-cambiamento-climantico-in-viticoltura/"
-    nota: "scheda del Comune di San Biagio: 10/11 18-21, Sala Polivalente di Via 2 Giugno 45, gratuito; coordinate della biblioteca allo stesso indirizzo"
-    verificato: "2026-11-06"
   3420000c120c60f7:
     start: "2026-11-21T09:00"
     end: "2026-11-21T13:00"

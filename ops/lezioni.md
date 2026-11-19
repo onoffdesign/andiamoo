@@ -53,6 +53,11 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   del programma; qdpnews ha il programma del Natale di Conegliano (5/12-3/1). scoppiospettacoli.it ha le schede dei
   balletti in tournee con prezzi. La pagina della stagione de I Virtuosi Italiani apre anche le schede (ora e prezzi).
 
+- 2026-11-19: il calendario di trevisoeventi e' lungo 130 mila caratteri: la seconda lettura con offset 100000 da' febbraio-aprile
+  (6 date di Trevignano Cultura mancanti). WebSearch con allowed_domains (trevisoeventi.com, oderzocultura.it, trovasagre.com,
+  caitreviso.it, newageclub.it) fa uscire subito la pagina giusta: 5 ricerche, 5 pagine utili. Le pagine comune di
+  Il Tacco di Bacco elencano concerti e spettacoli in biglietteria di tutta l'area: buone per scoprire e per il test.
+
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
   teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
@@ -124,6 +129,12 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   le frazioni (Castello Roganzuolo) e i municipi: ancora a vuoto. Ricerche per ambito 'fiere' e 'bambini all'aperto' a
   vuoto anche con il nome del santo.
 
+- 2026-11-19: resa 0 le ricerche per comune di Villorba, Borso del Grappa, Cappella Maggiore e Pieve di Soligo (solo
+  eventiesagre, virgilio e il Tacco di Bacco), gli ambiti laboratori di Natale, arti marziali ed equitazione (solo
+  calendari federali e pagine di altre regioni); virgilio.it da' errore a WebFetch; newageclub.it/events/ in errore;
+  le schede CAI a 6 giorni dall'uscita sono ancora 'in aggiornamento'. Programmi di Natale di Treviso, Villorba e Pieve
+  al 19/11 non ancora usciti.
+
 ## Calendario (chi pubblica quando)
 - Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli
   articoli del 2025; quelli nuovi escono dopo il 15-20 novembre.
@@ -133,7 +144,8 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - Feste del radicchio (rassegna Fiori d'Inverno di UNPLI): da fine novembre a marzo; calendario a inizio novembre,
   programmi delle singole feste di solito una o due settimane prima.
 - Mercatini di Natale: al 16 novembre le guide nazionali (thewom) dicono che i programmi di Treviso non sono ancora usciti;
-  al 18/11 escono i programmi di Conegliano (qdpnews) e le date di Castelfranco (avviso del Comune), non ancora Treviso.
+  al 18/11 escono i programmi di Conegliano (qdpnews) e le date di Castelfranco (avviso del Comune), non ancora Treviso;
+  al 19/11 trevisoeventi ha le schede di Valdobbiadene e Breda, ma Treviso città non c'e' ancora.
 - Piste di ghiaccio di Natale: a meta' novembre escono solo articoli degli anni passati; cercarle da fine novembre.
 
 ## Errori da non ripetere

@@ -9,10 +9,10 @@ comuni_TV:
   Altivole: 2026-11-05
   Arcade: 2026-11-06
   Asolo: 2026-11-15
-  Borso del Grappa: 2026-11-01
+  Borso del Grappa: 2026-11-19
   Breda di Piave: 2026-11-11
   Caerano di San Marco: 2026-11-13
-  Cappella Maggiore: 2026-11-01
+  Cappella Maggiore: 2026-11-19
   Carbonera: 2026-11-07
   Casale sul Sile: 2026-11-14
   Casier: 2026-11-11
@@ -58,10 +58,10 @@ comuni_TV:
   Oderzo: 2026-11-17
   Ormelle: 2026-11-15
   Orsago: 2026-11-05
-  Paese: 2026-11-01
+  Paese: 2026-11-19
   Pederobba: 2026-11-16
   Pieve del Grappa: 2026-11-14
-  Pieve di Soligo: 2026-11-01
+  Pieve di Soligo: 2026-11-19
   Ponte di Piave: 2026-11-18
   Ponzano Veneto: 2026-11-17
   Portobuffolè: 2026-11-13
@@ -95,7 +95,7 @@ comuni_TV:
   Vazzola: 2026-11-08
   Vedelago: 2026-11-07
   Vidor: 2026-11-18
-  Villorba: 2026-11-01
+  Villorba: 2026-11-19
   Vittorio Veneto: 2026-11-02
   Volpago del Montello: 2026-11-17
   Zenson di Piave: 2026-11-14
@@ -104,9 +104,10 @@ aggregatori:
   classicalive.it (Treviso): 2026-11-15
   sagratour.it (Treviso): 2026-11-15
   trovasagre.com (mercatini di Natale): 2026-11-15
+  trovasagre.com (sagre di dicembre in Veneto): 2026-11-19
   trovaeventi.com: 2026-11-10
   canzoni.it (concerti Treviso): 2026-11-18
-  siviaggia.it (sagre e feste del mese in Veneto): 2026-11-18
+  siviaggia.it (sagre e feste del mese in Veneto): 2026-11-19
   ivirtuositaliani.eu (stagione Teatro Eden e Teatro delle Voci, al PC): 2026-11-18
   teatrodelpane.it (Teatro del Pane, al PC): 2026-11-18
   visitfregona.it (Pro Loco Fregona, al PC): 2026-11-18
@@ -165,7 +166,9 @@ aggregatori:
   fleamapket.com (mercatini): 2026-11-01
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
-  trevisoeventi.com (calendario provincia): 2026-11-16
+  trevisoeventi.com (calendario provincia): 2026-11-19
+  iltaccodibacco.it (pagine per comune, concerti e teatri nel raggio di 20 km): 2026-11-19
+  virgilio.it/italia/<comune>/eventi (errore a WebFetch): 2026-11-19
   hellomoglianoveneto.net (appuntamenti del weekend): 2026-11-05
   nautiluscantiereteatrale.it (compagnia in tournee, al PC): 2026-11-05
   fondoambiente.it (eventi FAI in provincia): 2026-11-05
@@ -233,11 +236,11 @@ categorie_TV:
   "Sagre e cibo > Vino e bevande": 2026-11-06
   "Business e formazione > Networking": 2026-11-05
   "Sport > Eventi per chi guarda": 2026-11-05
-  "Sport > Equitazione": 2026-11-05
-  "Sport > Arti marziali e combattimento": 2026-11-05
-  "Mercatini e fiere > Mercatini": 2026-11-02
+  "Sport > Equitazione": 2026-11-19
+  "Sport > Arti marziali e combattimento": 2026-11-19
+  "Mercatini e fiere > Mercatini": 2026-11-19
   "Spettacoli > Danza": 2026-11-18
-  "Famiglie e bambini > Laboratori": 2026-11-02
+  "Famiglie e bambini > Laboratori": 2026-11-19
   "Mercatini e fiere > Fiere": 2026-11-18
   "Famiglie e bambini > All'aperto": 2026-11-18
   "Natura e benessere > Ambiente": 2026-11-17

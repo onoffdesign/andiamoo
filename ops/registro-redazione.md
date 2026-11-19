@@ -2,6 +2,45 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-19
+
+- **Giro del PC**: NON ha girato per l'ottava notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica (sito a 425 eventi, 145 correzioni attive).
+- **Preparazione**: `--cerca` si bloccava per rapidfuzz mancante; risolto installando requirements.txt (passo gia'
+  scritto nella Preparazione).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (5 eventi futuri aperti, gli stessi cercati a vuoto dall'11/11); 7 eventi
+  dell'Autunno Sanfiorese sistemati con la posizione (vedi sotto).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11, tutti i
+  candidati gia' in luoghi.yaml). Aggiunta la Sala polifunzionale del Municipio di San Fior (Casa Comunale da
+  Tuttitalia) in luoghi.yaml e come lat/lon nei 7 eventi: dopo, 44 eventi con luogo senza punto (stima, il PC ricalcola).
+- **Eventi aggiunti** (16): teatro e spettacoli 7 (Tina Merlin al Cinema Manzoni di Paese 24/11, Notre Dame de Paris
+  alla Prealpi SanBiagio Arena 29/11, Luca Bono al Teatro Accademia 23/1, 4 date di Trevignano Cultura da febbraio a
+  marzo), musica 3 (De Andre' a Villa Onigo, Da Dylan a De Gregori, Anna Castiglia al New Age 18/12), mercatini 3
+  (Valdobbiadene 8, 13 e 20/12), famiglie e bambini 2 (laboratori di Oderzo Cultura 12/12 e 8/2), sagre e feste 1
+  (La Breda di Natale 29/11).
+  Non aggiunti: Festa di San Nicolo' a Borgo Milies (solo TrovaSagre), uscite CAI (schede in aggiornamento), Quintorigo,
+  Raffaella! e Bluvertigo (schede non aperte per budget), Federico Buffa al Teatro Accademia (scheda TicketOne in errore).
+- **Comuni controllati**: Paese (trevisoeventi, 1), Villorba, Borso del Grappa, Cappella Maggiore, Pieve di Soligo (0,
+  solo portali). Povegliano non controllato (gia' al PC).
+- **Categorie cercate**: Famiglie > Laboratori (0 con la ricerca, 2 da Oderzo Cultura), Mercatini (3 da trevisoeventi),
+  Arti marziali (0), Equitazione (0). +12 voci nell'albero.
+- **Fonti note**: Treviso Eventi (11 nuovi in due letture e 3 schede), Oderzo Cultura (2), TrovaSagre (0), CAI Treviso
+  (0, schede in aggiornamento), New Age Club (1, /events/ in errore). Non riaperte: Quinto, Cinema Edera, Treviso
+  Sotterranea, Istadea, Orsago (vietate, annuali o deboli).
+- **Fonti nuove catalogate**: 4 (Il Tacco di Bacco, agenda MyCity del Comune di Trevignano, Prealpi SanBiagio Arena su
+  TicketOne, Virgilio come fonte da evitare). Spostate in sources.yaml: 0.
+- **Pulizia**: tolte 1 voce di correzioni.yaml e 2 di eventi_redazione.yaml (eventi conclusi prima del 12/11).
+- **Miglioria**: le fonti note si riaprono con WebSearch ristretta al loro dominio (5 su 5 pagine giuste); query di 4
+  fonti riscritte in fonti.yaml.
+- **Test di copertura**: 5/10 (Il Tacco di Bacco, spettacoli in biglietteria).
+- **Ricerche**: 51 su 70 (30 WebSearch, 21 WebFetch, di cui 4 a vuoto: newageclub /events/, virgilio, 2 schede TicketOne).
+- **Problemi aperti**: il giro del PC non parte da otto notti; programmi di Natale di Treviso citta' non ancora usciti;
+  al primo giro controllare i doppioni tra le fonti del PC (ticketone, Trevignano) e gli eventi della redazione.
+
 ## 2026-11-18
 
 - **Giro del PC**: NON ha girato per la settima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

@@ -1,32 +1,32 @@
 {
- "data": "2026-11-18",
- "aggiunti": 36,
- "corretti": 0,
+ "data": "2026-11-19",
+ "aggiunti": 16,
+ "corretti": 7,
  "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "musica": 17,
-  "teatro-spettacoli": 10,
-  "arte-cultura": 4,
-  "mercatini-fiere": 2,
-  "sagre-feste": 2,
-  "business": 1
+  "teatro-spettacoli": 7,
+  "musica": 3,
+  "mercatini-fiere": 3,
+  "famiglie-bambini": 2,
+  "sagre-feste": 1
  },
- "fonti_nuove": 5,
- "fonti_spostate": 4,
+ "fonti_nuove": 4,
+ "fonti_spostate": 0,
  "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "7/10",
- "ricerche": 58,
- "eventi_per_ricerca": 0.6,
- "categorie_aggiunte": 11,
- "miglioria": "Sale con stagione propria fuori da TicketOne (I Virtuosi Italiani, Teatro del Pane) trovate per nome e passate subito al PC: 28 eventi in 2 letture",
+ "copertura_test": "5/10",
+ "ricerche": 51,
+ "eventi_per_ricerca": 0.3,
+ "categorie_aggiunte": 12,
+ "miglioria": "Fonti note riaperte con WebSearch ristretta al loro dominio (allowed_domains): 5 su 5 pagine giuste, query di 4 fonti riscritte",
  "problemi": [
-  "Il giro del PC non parte da 7 notti (ultimo rapporto 11/11)",
+  "Il giro del PC non parte da 8 notti (ultimo rapporto 11/11)",
   "Campione fermo a 6/10: accessi non pubblicati e link Instagram",
-  "Da controllare al primo giro: visit-fregona (tribe_api non verificata) e doppioni con gli eventi della redazione",
-  "Posizioni: 51 luoghi senza punto, Mapcarta inutile per frazioni e municipi"
+  "Programmi di Natale di Treviso citta' non ancora usciti",
+  "Al primo giro controllare doppioni tra fonti del PC ed eventi della redazione",
+  "Posizioni: 44 eventi con luogo senza punto, mancano fonti di coordinate per frazioni"
  ]
 }

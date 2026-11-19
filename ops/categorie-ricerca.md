@@ -52,12 +52,14 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Racchetta** [torneo, open] · tennis · padel · ping pong · badminton · pickleball
   · tornei open FITP di padel [calendario tornei padel FITP Veneto, PDF regionale] · esibizioni ed eventi nei club [padel cup, clinic]
 - **Arti marziali e combattimento** [stage, torneo, open day] · judo · karate · taekwondo · boxe · kickboxing · scherma
+  · gare regionali FIJLKAM con informativa PDF (Conegliano) [informativa, trofeo] (2026-11-19: solo calendari e PDF, resa 0) · stage di Natale delle palestre di karate [stage di Natale karate]
   · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
 - **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio
   · piste di ghiaccio di Natale nelle piazze e nei centri commerciali [pista di ghiaccio, on ice] (da fine novembre) · gare e saggi di pattinaggio artistico sulle piste di Natale [saggio pattinaggio]
 - **Motori** [raduno, rally, gara] · rally · motocross · enduro moto · auto e moto d'epoca (raduni) · karting
   · calendario ACI Sport del mese [acisport calendari] · mostre scambio di auto e moto d'epoca · autocross
 - **Equitazione** [concorso ippico] · salto ostacoli · endurance · passeggiate a cavallo · palio
+  · concorsi indoor invernali nei maneggi coperti [concorso indoor, salto ostacoli inverno] (2026-11-19: resa 0, escono solo calendari nazionali) · befana a cavallo e presepi equestri [presepe a cavallo]
   · concorsi FISE del Veneto [equiresults calendario, rideup]
 - **Sport di precisione** · tiro con l'arco · golf · bocce · biliardo · freccette
   · gare indoor di tiro con l'arco da novembre a febbraio [inviti FITArco, ianseo] · tiro 3D nel bosco (Crocetta)
@@ -139,6 +141,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 ## Spettacoli (`teatro-spettacoli`)
 
 - **Teatro** [spettacolo, stagione teatrale] · prosa · teatro dialettale · commedia · teatro ragazzi (vedi Famiglie)
+  · monologhi di teatro civile nei cinema di paese [Tina Merlin, Vajont, cinema Manzoni] (2026-11-19) · spettacoli di parole e musica con giornalisti e cantautori [Concita De Gregorio] (2026-11-19)
   · teatro di strada · improvvisazione
   · stagioni di prosa dei teatri stabili con turni di abbonamento [stagione di prosa, biglietti e abbonamenti, repliche] · stagioni dei teatri comunali di paese nel circuito Arteven [stagione teatrale, auditorium, Vivaticket]
   · rassegne di teatro amatoriale nei paesi [rassegna teatrale, compagnie amatoriali, auditorium] · letture teatrali per le ricorrenze civili [4 novembre] · spettacolo di Capodanno a teatro [Capodanno a teatro] · teatro classico a puntate sui miti greci [rassegna Class]
@@ -151,11 +154,13 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · cineforum di vallata [Cineforum Quartier del Piave, rassegna d'autunno] · cinema a prezzo ridotto in piu' sale [Martedi' al Cinema 4 euro] · proiezioni gratuite per ricorrenze [25 novembre, ingresso gratuito]
   · documentari · prime visioni con ospiti · documentari con gli autori in sala
 - **Musical e operetta** · musical · operetta · tributi musicali a teatro [Battisti, Michael Jackson] · spettacoli K-pop per famiglie
+  · grandi musical in tournee nei palazzetti [Notre Dame de Paris, Prealpi SanBiagio Arena] (2026-11-19) → TicketOne · illusionisti e prestigiatori nei teatri commerciali [L'Illusionista] (2026-11-19)
 
 ## Famiglie e bambini (`famiglie-bambini`)
 
 - **Laboratori** [laboratorio per bambini] · creativi · scientifici · di lettura · di cucina
   · laboratori del sabato pomeriggio nei musei civici [laboratori weekend, Museo Bailo, Santa Caterina] · visite guidate per famiglie alle mostre
+  · laboratori a pagamento delle fondazioni culturali nelle feste (Natale, Carnevale) [rassegna Non e' una barba, Oderzo Cultura] (2026-11-19) · notti al museo in pigiama per bambini [superpoteri in pigiama]
 - **Letture e biblioteche** [ora del racconto, letture animate] · nati per leggere
   · gruppi di lettura per ragazzi 11-14 anni · gruppi di lettura degli adulti [book club, libro del mese] · letture di San Nicolo' [Sannicolibri] · cicli di incontri con autori in biblioteca [Il Veneto legge, BiblioMarca]
 - **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia
@@ -174,6 +179,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · vintage e usato · mercatini di Natale · baratto e swap party · libri usati
   · mercatini di Natale di paese gia' da meta' novembre [mercatino di Natale <comune>]
   · mercatini natalizi a weekend nei borghi [Stelle a Natale, artigianato vivo] (primi due weekend di dicembre)
+  · mercatini di Natale nei giorni festivi (8, 13 e 20 dicembre) con accensione dell'albero e cori [mercatini di Natale Valdobbiadene] (2026-11-19) · antiquariato in piazza nei giorni di dicembre [Fiera del Trovarobe, mercatino dell'Antico]
 - **Mercati agricoli** · mercato contadino · Campagna Amica · mercati straordinari di Natale e di stagione
   · mostre mercato di prodotti d'autunno [profumi e sapori] (i mercati settimanali fissi sono un servizio, non un evento)
 - **Fiere** [fiera, expo] · fiere storiche di paese · fiere di settore · fiere dell'auto e moto d'epoca · fiere del
@@ -231,3 +237,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-17 · +11 voci · dove: Arte e cultura > Tecnologia e scienza (+2), Mostre (+1), Business > Lavoro (+1), Sagre > Cibo (+2), Natura > Ambiente (+3), Mercatini (+1), Musica > Musica partecipata (+1)
 - 2026-11-16 · +10 voci · dove: Sport > Ciclismo (+3), Musica > Concerti (+3), Arte e cultura > Conferenze e incontri (+2), Famiglie > Spettacoli per bambini (+2)
 - 2026-11-18 · +11 voci · dove: Arte e cultura > Libri e lettura (+2), Spettacoli > Danza (+2), Musica > Concerti (+2), Mercatini > Fiere (+1), Famiglie > All'aperto (+2), Famiglie > Ricorrenze (+1), Sagre > Cibo (+1, cenoni di Capodanno nei teatri)
+- 2026-11-19 · +12 voci · dove: Famiglie > Laboratori (+2), Mercatini (+2), Spettacoli > Musical (+2), Teatro (+2), Sport > Arti marziali (+2), Equitazione (+2)

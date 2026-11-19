@@ -525,18 +525,19 @@ fonti:
   note: "schede /eventi/<nome>.html come Povegliano: spostato in config/sources.yaml (comune-loria, C_E692) il 2026-11-02, da verificare nel rapporto"
 - nome: Treviso Eventi (calendario provincia)
   url: https://www.trevisoeventi.com/calendario-eventi-treviso.htm
-  query: TREVISO EVENTI Calendario 2026 eventi Treviso provincia
+  query: '"calendario eventi Treviso <mese> <anno>" con allowed_domains [trevisoeventi.com] (senza il dominio non esce)'
   tipo: aggregatore
   categorie: [sagre-feste, mercatini-fiere, teatro-spettacoli, musica, sport]
   comuni: [Treviso]
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 4, eventi_trovati: 27, ultimi: [2, 2, 23, 0] }
-  ultimo_controllo: '2026-11-17'
+  resa: { controlli: 5, eventi_trovati: 38, ultimi: [11, 2, 2, 23, 0] }
+  ultimo_controllo: '2026-11-19'
   automatizzabile: no
   stato: attiva
-  note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale 2026-11-16: una lettura ha dato 23 eventi mancanti fino a gennaio (stagione Trevignano Cultura, Imoco e Treviso FBC, mercatini, Cordignano, Ormelle); le pagine comune (cordignano.html, ormelle.html) si aprono con programma e orari."
+  note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale 2026-11-16: una lettura ha dato 23 eventi mancanti fino a gennaio (stagione Trevignano Cultura, Imoco e Treviso FBC, mercatini, Cordignano, Ormelle); le pagine comune (cordignano.html, ormelle.html) si aprono con programma e orari. 2026-11-19: due letture (pagina lunga 130 mila caratteri, serve offset 100000) piu' 3 schede (paese.html, breda-di-piave.html, valdobbiadene-mercatini-di-natale.html, tutte apribili): 11 eventi mancanti (Natale di Breda e Valdobbiadene, 6 date di Trevignano Cultura fino a marzo). La pagina natale-feste.html elenca le schede di Natale ma senza date."
+
 - nome: Auditorium Don E. Vidotto (Maserada sul Piave)
   url: https://auditoriumaserada.it/
   query: Maserada sul Palco rassegna teatro auditorium Vidotto
@@ -861,18 +862,19 @@ fonti:
   note: "schede /event/<slug>/ (San Martin a Mojan): probabile The Events Calendar, da provare dal PC. Programma trovato su Nordest24."
 - nome: TrovaSagre (provincia di Treviso)
   url: https://trovasagre.com/sagre/veneto/treviso
-  query: trovasagre sagre veneto treviso
+  query: '"trovasagre sagre veneto treviso" con allowed_domains [trovasagre.com], poi /sagre/veneto/<mese>-<anno>'
   tipo: aggregatore
   categorie: [sagre-feste, mercatini-fiere]
   comuni: [tutti]
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 3, eventi_trovati: 22, ultimi: [3, 13, 6] }
-  ultimo_controllo: '2026-11-12'
+  resa: { controlli: 4, eventi_trovati: 22, ultimi: [0, 3, 13, 6] }
+  ultimo_controllo: '2026-11-19'
   automatizzabile: da_valutare
   stato: attiva
-  note: "elenco delle sagre del mese con frazione e date (schede /evento/<nome>-<anno>): 13 sagre TV in una lettura, 9 non ancora sul sito. Solo scoperta: confermare su Pro Loco, Comune o Paesi in Festa. Alcune date di 'Altri appuntamenti' sbagliate."
+  note: "elenco delle sagre del mese con frazione e date (schede /evento/<nome>-<anno>): 13 sagre TV in una lettura, 9 non ancora sul sito. Solo scoperta: confermare su Pro Loco, Comune o Paesi in Festa. Alcune date di 'Altri appuntamenti' sbagliate. 2026-11-19: la pagina /sagre/veneto/dicembre-2026 ha solo 3 eventi TV (2 gia' sul sito, Borgo Milies senza pagina 2026)."
+
 - nome: Comune di Povegliano, calendario eventi 2026 (PDF)
   url: https://www.comune.povegliano.tv.it/dam/jcr:097381cb-632c-4f18-be19-f5f78d0b6651/EVENTI%20POVEGLIANO%202026.pdf
   query: Eventi Povegliano 2026 pdf comune
@@ -1099,18 +1101,19 @@ fonti:
   note: "schede con data e anno nel titolo e link d'iscrizione (X-mas Run 13/12). Solo scoperta."
 - nome: Fondazione Oderzo Cultura, eventi
   url: https://www.oderzocultura.it/eventi/
-  query: oderzocultura.it eventi <mese> <anno>
+  query: '"Oderzo Cultura eventi <mese>" con allowed_domains [oderzocultura.it]'
   tipo: museo
   categorie: [arte-cultura, famiglie-bambini, natura-outdoor]
   comuni: [Oderzo, Motta di Livenza, Pieve del Grappa, Vittorio Veneto]
   province: [TV]
   frequenza: settimanale
   qualita: 5
-  resa: { controlli: 2, eventi_trovati: 10, ultimi: [0, 10] }
-  ultimo_controllo: '2026-11-12'
+  resa: { controlli: 3, eventi_trovati: 12, ultimi: [2, 0, 10] }
+  ultimo_controllo: '2026-11-19'
   automatizzabile: forse
   stato: attiva
-  note: "elenco con titoli e link (date solo nelle schede, pulsante 'carica altro'); le schede si aprono e hanno ora, sede con indirizzo, prezzo e prenotazione (Giornate Martiniane, mostra Magnolato, Il museo intorno, Storie sotto l'albero ogni due giovedi'). Candidata html_llm con dettaglio delle schede."
+  note: "elenco con titoli e link (date solo nelle schede, pulsante 'carica altro'); le schede si aprono e hanno ora, sede con indirizzo, prezzo e prenotazione (Giornate Martiniane, mostra Magnolato, Il museo intorno, Storie sotto l'albero ogni due giovedi'). Candidata html_llm con dettaglio delle schede. 2026-11-19: WebSearch con allowed_domains oderzocultura.it fa uscire le pagine di rassegna (Non e' una barba 2026/2027: laboratori per bambini con ora, sede e prezzo)."
+
 - nome: TicketOne, pagina del Teatro Accademia di Conegliano
   url: https://www.ticketone.it/venue/teatro-accademia-16706/
   query: TicketOne Teatro Accademia Conegliano
@@ -1281,18 +1284,19 @@ fonti:
   note: "rassegna autunnale di concerti narrati a Onè di Fonte con data, ora, luogo e ingresso a offerta in una pagina."
 - nome: CAI Treviso, uscite
   url: https://www.caitreviso.it/uscite/
-  query: CAI Treviso uscite
+  query: '"CAI Treviso uscite" con allowed_domains [caitreviso.it]'
   tipo: associazione
   categorie: [natura-outdoor, sport]
   comuni: [Treviso, Valdobbiadene, Pederobba, Vittorio Veneto]
   province: [TV, BL]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: '2026-11-12'
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-19'
   automatizzabile: no
   stato: attiva
-  note: "elenco uscite fino a dicembre con data, gruppo e meta, ma le schede sono 'in aggiornamento' fino a pochi giorni prima (niente ritrovo, ora, costo): riaprire la settimana prima. Mete in TV: Cartizze 25/11, Monfenera 4/12, Monte Baldo di Vittorio Veneto 9/12. Molte uscite fuori provincia (BL)."
+  note: "elenco uscite fino a dicembre con data, gruppo e meta, ma le schede sono 'in aggiornamento' fino a pochi giorni prima (niente ritrovo, ora, costo): riaprire la settimana prima. Mete in TV: Cartizze 25/11, Monfenera 4/12, Monte Baldo di Vittorio Veneto 9/12. Molte uscite fuori provincia (BL). 2026-11-19: 9 uscite fino al 19/12, scheda del Cartizze (25/11) ancora 'in aggiornamento' a 6 giorni: si legge solo l'elenco, mai le schede prima della settimana stessa."
+
 - nome: Qdpnews (articoli sugli eventi dei comuni)
   url: https://www.qdpnews.it/
   query: qdpnews <comune> <titolo o tema> 2026
@@ -1386,11 +1390,12 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 16, ultimi: [16] }
-  ultimo_controllo: 2026-11-14
+  resa: { controlli: 2, eventi_trovati: 17, ultimi: [1, 16] }
+  ultimo_controllo: '2026-11-19'
   automatizzabile: da verificare
   stato: attiva
-  note: "2026-11-14: il principale club di concerti della provincia non era coperto (solo un evento Eventbrite). La pagina /events/ elenca tutte le date fino ad aprile con link a TicketOne, TicketSMS, Vivaticket; senza ora ne' prezzo. Candidata per config/sources.yaml: controllare dal PC se ha JSON-LD Event o API tribe (sito WordPress?), altrimenti html_llm."
+  note: "2026-11-14: il principale club di concerti della provincia non era coperto (solo un evento Eventbrite). La pagina /events/ elenca tutte le date fino ad aprile con link a TicketOne, TicketSMS, Vivaticket; senza ora ne' prezzo. Candidata per config/sources.yaml: controllare dal PC se ha JSON-LD Event o API tribe (sito WordPress?), altrimenti html_llm. 2026-11-19: /events/ in errore a WebFetch; le schede TicketOne dei concerti (/event/<nome>-new-age-club-<id>/) uscite da una ricerca si aprono a volte (Anna Castiglia si', Tito Tarantula no)."
+
 - nome: Veneto Spettacoli di Mistero (UNPLI)
   url: https://www.spettacolidimistero.it/
   query: Spettacoli di Mistero 2026 Treviso
@@ -1839,3 +1844,59 @@ fonti:
   automatizzabile: 'no'
   stato: attiva
   note: "Articolo mensile con mercatini e feste per provincia (10 TV a dicembre), senza orari ne' siti: solo scoperta e test di copertura (7/10 gia' sul sito il 18/11)."
+- nome: Il Tacco di Bacco (pagine per comune)
+  url: https://iltaccodibacco.it/villorba/
+  query: iltaccodibacco <comune>
+  tipo: aggregatore
+  categorie: [musica, teatro-spettacoli, arte-cultura]
+  comuni: [Villorba, Treviso, Conegliano, Roncade, Montebelluna, Vittorio Veneto, Oderzo]
+  province: [TV, VE]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 3, ultimi: [3] }
+  ultimo_controllo: '2026-11-19'
+  automatizzabile: no
+  stato: attiva
+  note: "esce in quasi ogni ricerca per comune. Una pagina comune da' ~40 concerti, spettacoli e mostre nel raggio di 20 km fino a giugno (anche Mestre e Venezia), con data, sala e scheda interna ma senza link all'organizzatore: solo scoperta, conferma su TicketOne o sul sito della sala. Usata il 2026-11-19 per il test di copertura (5/10) e per 3 eventi mancanti (Notre Dame de Paris, Anna Castiglia, poi Luca Bono)."
+- nome: Comune di Trevignano, agenda (MyCity)
+  url: https://trevignano.mycity.it/agenda-smart/3656721/argomenti/10517
+  query: trevignano.mycity.it agenda-smart
+  tipo: comune
+  categorie: [teatro-spettacoli, musica]
+  comuni: [Trevignano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-19'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "agenda del Comune per argomento (rassegne della stagione Trevignano Cultura) con prezzo e prenotazione; i link escono dal calendario di trevisoeventi. Non aperta direttamente il 2026-11-19 (dati presi da trevisoeventi): candidata html_llm se si apre."
+- nome: Prealpi SanBiagio Arena (Conegliano, ex Zoppas Arena)
+  url: https://www.ticketone.it/event/notre-dame-de-paris-prealpi-sanbiagio-arena-21492229/
+  query: ticketone Prealpi SanBiagio Arena Conegliano
+  tipo: biglietteria
+  categorie: [musica, teatro-spettacoli]
+  comuni: [Conegliano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-19'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "palazzetto di Viale dello Sport 2 per grandi musical e concerti; schede TicketOne con ora e fasce di prezzo. Candidata come pagina /venue/ di TicketOne nella fonte ticketone del PC (da cercare l'id della venue)."
+- nome: Virgilio Italia, eventi per comune
+  url: https://www.virgilio.it/italia/silea/eventi
+  query: virgilio italia <comune> eventi
+  tipo: aggregatore
+  categorie: [sagre-feste, mercatini-fiere]
+  comuni: [tutti]
+  province: [TV]
+  frequenza: mai
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-19'
+  automatizzabile: no
+  stato: debole
+  note: "esce in molte ricerche per comune con pagine datate 2024-2025; WebFetch da' errore del sito. Da non aprire."
