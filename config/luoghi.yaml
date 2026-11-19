@@ -135,3 +135,10 @@ luoghi:
     lon: 11.99588
     nota: "Sala dell'Acqua dell'Ex Opificio, sede degli incontri del festival Tra Libri e Pensieri. Coordinate della
       mappa della scheda di Eventi Venetando, aggiunto il 2026-11-14."
+  - nomi: ["Sala polifunzionale del Municipio", "Piazza G. Marconi 2", "Piazza Guglielmo Marconi 2"]
+    comune: San Fior
+    lat: 45.92340
+    lon: 12.36290
+    nota: "Municipio di San Fior, Piazza Guglielmo Marconi 2 (sala polifunzionale dell'Autunno Sanfiorese). Coordinate di
+      Tuttitalia (45 55 24 N, 12 21 46 E), riferite alla Casa Comunale come l'altitudine. Aggiunto il 2026-11-19 per 7
+      eventi che avevano solo il comune."

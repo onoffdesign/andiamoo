@@ -950,6 +950,41 @@ correggi:
     subcategory: corsa
     nota: "Qdpnews e VenetoToday del 10/11/2026: prima edizione della corsa contro la violenza di genere di Trevisatletica con Telefono Rosa al Parco del Sant'Artemio; ora e iscrizione non pubblicate"
     verificato: "2026-11-14"
+  2dc0a3ec4c5a1869:
+    lat: 45.9234
+    lon: 12.3629
+    nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
+    verificato: "2026-11-19"
+  08f68502db291a8d:
+    lat: 45.9234
+    lon: 12.3629
+    nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
+    verificato: "2026-11-19"
+  8c2cf35547410c6b:
+    lat: 45.9234
+    lon: 12.3629
+    nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
+    verificato: "2026-11-19"
+  7a0ae462bd1b757d:
+    lat: 45.9234
+    lon: 12.3629
+    nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
+    verificato: "2026-11-19"
+  57f9b881d65931bb:
+    lat: 45.9234
+    lon: 12.3629
+    nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
+    verificato: "2026-11-19"
+  8ac4399391ad071f:
+    lat: 45.9234
+    lon: 12.3629
+    nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
+    verificato: "2026-11-19"
+  0905d8617fcd4d1d:
+    lat: 45.9234
+    lon: 12.3629
+    nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
+    verificato: "2026-11-19"
 rimuovi:
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f1ef4b7e8e4186db: "doppione di Su l'arden drio la Livenza (c244694694b8bfbc), stessa marcia di Albina del 22/11: tenuta la scheda col volantino"
