@@ -184,7 +184,7 @@ def apply_payload(payload: dict, corr: Optional[dict] = None) -> dict:
 
 def find(text: Optional[str], day: Optional[str], uid: Optional[str]) -> int:
     """Per la revisione: evita di leggere tutto events.json, cerca solo cio' che serve."""
-    from rapidfuzz import fuzz
+    from rapidfuzz import fuzz, utils
     payload = json.loads((ROOT / settings()["publish"]["export_path"]).read_text(encoding="utf-8"))
     if uid:
         hit = next((d for d in payload["events"] if d.get("uid") == uid), None)
@@ -198,10 +198,17 @@ def find(text: Optional[str], day: Optional[str], uid: Optional[str]) -> int:
         if day and not ((d.get("start") or "")[:10] <= day <= (d.get("end") or d.get("start") or "")[:10]):
             continue
         hay = " ".join(str(d.get(k) or "") for k in ("title", "venue", "town"))
-        score = fuzz.token_set_ratio(text.lower(), hay.lower())
+        # default_process toglie punteggiatura e maiuscole ("Casaro." = "casaro"); a parita' di punteggio
+        # vince il titolo piu' simile al testo intero, cosi' una parola comune (Treviso) non copre i risultati giusti
+        score = fuzz.token_set_ratio(text, hay, processor=utils.default_process)
         if score >= 55:
-            scored.append((score, d))
-    for score, d in sorted(scored, key=lambda x: -x[0])[:8]:
+            tie = fuzz.partial_ratio(text, str(d.get("title") or ""), processor=utils.default_process)
+            scored.append((score, tie, d))
+    scored.sort(key=lambda x: (-x[0], -x[1]))
+    if len(scored) > 8:
+        print(f"({len(scored)} risultati, mostrati i primi 8: aggiungi parole o --data per restringere)")
+    scored = [(s_, d) for s_, _t, d in scored]
+    for score, d in scored[:8]:
         print(f"{score:3.0f}  {d['uid']}  {d.get('start')}  {d.get('title')}  |  {d.get('venue') or ''} {d.get('town') or ''}")
     if not scored:
         print("nessun evento simile sul sito")

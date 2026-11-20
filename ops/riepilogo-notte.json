@@ -1,32 +1,27 @@
 {
- "data": "2026-11-19",
- "aggiunti": 16,
- "corretti": 7,
+ "data": "2026-11-20",
+ "aggiunti": 3,
+ "corretti": 0,
  "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "teatro-spettacoli": 7,
-  "musica": 3,
-  "mercatini-fiere": 3,
-  "famiglie-bambini": 2,
-  "sagre-feste": 1
+  "arte-cultura": 2,
+  "famiglie-bambini": 1
  },
- "fonti_nuove": 4,
+ "fonti_nuove": 3,
  "fonti_spostate": 0,
  "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "5/10",
- "ricerche": 51,
- "eventi_per_ricerca": 0.3,
- "categorie_aggiunte": 12,
- "miglioria": "Fonti note riaperte con WebSearch ristretta al loro dominio (allowed_domains): 5 su 5 pagine giuste, query di 4 fonti riscritte",
+ "copertura_test": "8/10",
+ "ricerche": 52,
+ "eventi_per_ricerca": 0.06,
+ "categorie_aggiunte": 10,
+ "miglioria": "--cerca toglie la punteggiatura e ordina per titolo: niente piu' falsi mancanti (6 stanotte)",
  "problemi": [
-  "Il giro del PC non parte da 8 notti (ultimo rapporto 11/11)",
-  "Campione fermo a 6/10: accessi non pubblicati e link Instagram",
-  "Programmi di Natale di Treviso citta' non ancora usciti",
-  "Al primo giro controllare doppioni tra fonti del PC ed eventi della redazione",
-  "Posizioni: 44 eventi con luogo senza punto, mancano fonti di coordinate per frazioni"
+  "il giro del PC non parte da nove notti (ultimo 11/11)",
+  "campione fermo a 6/10 con gli stessi 4 errori aperti",
+  "programma del Natale a Treviso 2026 non ancora letto"
  ]
 }

@@ -40,11 +40,11 @@ comuni_TV:
   Godega di Sant'Urbano: 2026-11-17
   Gorgo al Monticano: 2026-11-05
   Istrana: 2026-11-11
-  Loria: 2026-11-02
+  Loria: 2026-11-20
   Mansuè: 2026-11-18
   Mareno di Piave: 2026-11-12
-  Maser: 2026-11-02
-  Maserada sul Piave: 2026-11-02
+  Maser: 2026-11-20
+  Maserada sul Piave: 2026-11-20
   Meduna di Livenza: 2026-11-11
   Miane: 2026-11-06
   Mogliano Veneto: 2026-11-15   # gia' fonte del PC (comune-mogliano myportal): non serve cercarlo a mano
@@ -66,10 +66,10 @@ comuni_TV:
   Ponzano Veneto: 2026-11-17
   Portobuffolè: 2026-11-13
   Possagno: 2026-11-10
-  Povegliano: 2026-11-02
+  Povegliano: 2026-11-20
   Preganziol: 2026-11-15
   Quinto di Treviso: 2026-11-05
-  Refrontolo: 2026-11-02
+  Refrontolo: 2026-11-20
   Resana: 2026-11-13
   Revine Lago: 2026-11-18
   Riese Pio X: 2026-11-15
@@ -96,7 +96,7 @@ comuni_TV:
   Vedelago: 2026-11-07
   Vidor: 2026-11-18
   Villorba: 2026-11-19
-  Vittorio Veneto: 2026-11-02
+  Vittorio Veneto: 2026-11-20
   Volpago del Montello: 2026-11-17
   Zenson di Piave: 2026-11-14
   Zero Branco: 2026-11-09
@@ -231,11 +231,11 @@ categorie_TV:
   "Spettacoli > Circo e arti di strada": 2026-11-07
   "Arte e cultura > Storia e rievocazioni": 2026-11-07
   "Sport > Motori": 2026-11-06
-  "Mercatini e fiere > Mercati agricoli": 2026-11-06
-  "Business e formazione > Convegni e conferenze": 2026-11-06
+  "Mercatini e fiere > Mercati agricoli": 2026-11-20
+  "Business e formazione > Convegni e conferenze": 2026-11-20
   "Sagre e cibo > Vino e bevande": 2026-11-06
-  "Business e formazione > Networking": 2026-11-05
-  "Sport > Eventi per chi guarda": 2026-11-05
+  "Business e formazione > Networking": 2026-11-20
+  "Sport > Eventi per chi guarda": 2026-11-20
   "Sport > Equitazione": 2026-11-19
   "Sport > Arti marziali e combattimento": 2026-11-19
   "Mercatini e fiere > Mercatini": 2026-11-19

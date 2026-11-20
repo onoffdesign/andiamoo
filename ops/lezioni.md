@@ -58,11 +58,16 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   caitreviso.it, newageclub.it) fa uscire subito la pagina giusta: 5 ricerche, 5 pagine utili. Le pagine comune di
   Il Tacco di Bacco elencano concerti e spettacoli in biglietteria di tutta l'area: buone per scoprire e per il test.
 
+- 2026-11-20: la guida delle mostre del weekend di TViWeb (esce il martedi') ha le mostre TV con orari e sito: ottima per il test.
+  Villa di Maser pubblica le attivita' dell'anno in /visite-ed-eventi/eventi?year=AAAA. Prima di aprire un link guardare la
+  lista qui sotto: stanotte 4 letture perse su domini gia' noti come vietati (cultura.gov.it, museiveneto, trevisotoday, teatro.it).
+  Gli articoli Qdpnews e La Vita del Popolo sul Natale senza anno nell'indirizzo erano del 2025: guardare la data nei risultati.
+
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
   teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
   museiveneto.cultura.gov.it, trevisosotterranea.it, trevisoimprese.it, rockol.it, itinerarinelgusto.it, lapiazzaweb.it,
-  insolitotrantran.it, beescover.com, prolococamalo.it, cinemaedera.it/rassegne.html; siti dei comuni di Pieve di
+  insolitotrantran.it, beescover.com, prolococamalo.it, cinemaedera.it/rassegne.html, liceoartisticotreviso.edu.it; siti dei comuni di Pieve di
   Soligo, Cappella Maggiore, Quinto, Vedelago, Valdobbiadene, Cessalto, Sernaglia, Montebelluna. venetotoday.it si apre.
 - Vuoti o vecchi: puntoettore.it (eventi solo su Eventbrite), hellomoglianoveneto, prolocofollina.it, home MyPortal di
   Trevignano, trevisoinfo.it (2011), Pro Loco di Cimadolmo (2017), lavitadelpopolo.it a volte (Vedelago 2023).

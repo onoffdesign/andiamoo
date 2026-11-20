@@ -70,7 +70,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · giochi popolari dentro le sagre (pignatte, corsa nei sacchi, partita delle vecchie glorie) · palio di Sant'Andrea (Solighetto) · Panevin e foghera (5-6 gennaio)
 - **Eventi per chi guarda** [partita, match] · partite di serie A-B-C delle squadre locali · grandi eventi sportivi
   · basket di Serie A al Palaverde [Treviso Basket calendario] · rugby URC e Challenge Cup a Monigo [Benetton Rugby calendario]
-  · pallavolo A1 femminile al Palaverde [Imoco] · calcio di Serie C allo stadio Tenni [Treviso calcio]
+  · pallavolo A1 femminile al Palaverde [Imoco] · Champions League di pallavolo al Palaverde [CEV Champions League Imoco] (2026-11-20) · calcio di Serie C allo stadio Tenni [Treviso calcio]
 - **Sport per tutti** · open day delle societa' · giornate dello sport · sport adattato e paralimpico
   · corse libere gratuite del sabato mattina [parkrun Treviso, Parco dello Storga] · social run dei locali e dei negozi di sport [social run, run club] · camminate dei Babbi Natale [corsa dei Babbi Natale, Santa Klaus run]
 
@@ -80,6 +80,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · illustrazione e fumetto · design · collettive di artisti locali · mostre fotografiche sulla storia del Piave [alluvione, mostra fotografica]
   · manifesti pubblicitari e grafica d'epoca [Collezione Salce] · mostre in ville con parco [villa, giardino, biglietto mostra e parco] · collezioni private aperte nei fine settimana [apertura straordinaria, curatore] · premi di pittura delle Pro Loco [premio nazionale di pittura, acquerello]
   · mostre diffuse su piu' sedi di una citta' [mostra diffusa, centenario] (2026-11-17)
+  · mostre di costumi teatrali e restauro tessile [Avanscena, costumi di scena] · mostre nelle gallerie dei licei artistici [galleria del liceo, inaugurazione] · retrospettive di scultori del territorio [Toni Benetton] (2026-11-20)
 - **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale]
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
@@ -161,6 +162,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Laboratori** [laboratorio per bambini] · creativi · scientifici · di lettura · di cucina
   · laboratori del sabato pomeriggio nei musei civici [laboratori weekend, Museo Bailo, Santa Caterina] · visite guidate per famiglie alle mostre
   · laboratori a pagamento delle fondazioni culturali nelle feste (Natale, Carnevale) [rassegna Non e' una barba, Oderzo Cultura] (2026-11-19) · notti al museo in pigiama per bambini [superpoteri in pigiama]
+  · giochi di indagine per famiglie nelle ville venete a Natale [caccia al tesoro, detective, Villa di Maser] (2026-11-20)
 - **Letture e biblioteche** [ora del racconto, letture animate] · nati per leggere
   · gruppi di lettura per ragazzi 11-14 anni · gruppi di lettura degli adulti [book club, libro del mese] · letture di San Nicolo' [Sannicolibri] · cicli di incontri con autori in biblioteca [Il Veneto legge, BiblioMarca]
 - **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia
@@ -182,6 +184,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · mercatini di Natale nei giorni festivi (8, 13 e 20 dicembre) con accensione dell'albero e cori [mercatini di Natale Valdobbiadene] (2026-11-19) · antiquariato in piazza nei giorni di dicembre [Fiera del Trovarobe, mercatino dell'Antico]
 - **Mercati agricoli** · mercato contadino · Campagna Amica · mercati straordinari di Natale e di stagione
   · mostre mercato di prodotti d'autunno [profumi e sapori] (i mercati settimanali fissi sono un servizio, non un evento)
+  · giornate dell'olio nuovo nelle ville con i produttori [olio in villa, olio nuovo] (2026-11-20)
 - **Fiere** [fiera, expo] · fiere storiche di paese · fiere di settore · fiere dell'auto e moto d'epoca · fiere del
   · mercatini di Natale comunali con casette assegnate per avviso pubblico [avviso casette mercatini di Natale] (2026-11-18): l'avviso del Comune da' le date ufficiali
   fumetto e del gioco
@@ -194,6 +197,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Convegni e conferenze** [convegno, seminario] · impresa · innovazione · sostenibilita'
   · incontri tecnici per agricoltori (CIA, Coldiretti, Condifesa) · incontri d'impresa su Eventbrite [Eventbrite business gratuiti]
   · festival dell'educazione [EducarSi', 4passiFestival]
+  · convegni tecnici delle aziende in sedi museali [convegno tecnico, iscrizione, Volteco] · summit dell'imprenditoria con ospiti dello sport [Let's Experience] (2026-11-20)
 - **Formazione** [workshop, corso, masterclass] · digitale e marketing · lingue · fotografia · scrittura
   · corsi delle Camere di commercio (spesso solo e-learning) [CCIAA formazione] (2026-11-15) · minirassegne culturali infrasettimanali nelle ville comunali [DeINDOPARA] (2026-11-15)
 - **Lavoro** [job day, career day, recruiting day] · job day e fiere del lavoro · orientamento universitario
@@ -202,6 +206,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Startup e innovazione** · hackathon · pitch · open day di incubatori · talk ispirazionali nei campus [inspirational talk, H-FARM] (2026-11-15)
 - **Networking** · aperitivi di networking · eventi di associazioni di categoria
   · business night delle associazioni di commercianti [Confcommercio business night] · incontri Confapi
+  · assemblee di categoria aperte su registrazione [assemblea panificatori, Federmoda] · giornate di networking nei concessionari [networking d'impresa, Centro Porsche] (2026-11-20)
 
 ## Natura e benessere (`natura-outdoor`)
 
@@ -238,3 +243,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-16 · +10 voci · dove: Sport > Ciclismo (+3), Musica > Concerti (+3), Arte e cultura > Conferenze e incontri (+2), Famiglie > Spettacoli per bambini (+2)
 - 2026-11-18 · +11 voci · dove: Arte e cultura > Libri e lettura (+2), Spettacoli > Danza (+2), Musica > Concerti (+2), Mercatini > Fiere (+1), Famiglie > All'aperto (+2), Famiglie > Ricorrenze (+1), Sagre > Cibo (+1, cenoni di Capodanno nei teatri)
 - 2026-11-19 · +12 voci · dove: Famiglie > Laboratori (+2), Mercatini (+2), Spettacoli > Musical (+2), Teatro (+2), Sport > Arti marziali (+2), Equitazione (+2)
+- 2026-11-20 · +10 voci · dove: Arte e cultura > Mostre (+3), Famiglie > Laboratori (+1), Mercatini > Mercati agricoli (+1), Business > Convegni (+2), Networking (+2), Sport > Eventi per chi guarda (+1)

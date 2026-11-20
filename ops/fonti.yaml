@@ -112,13 +112,13 @@ fonti:
   frequenza: settimanale
   qualita: 3
   resa:
-    controlli: 3
+    controlli: 4
     eventi_trovati: 5
     ultimi:
-    - 1
     - 3
     - 1
-  ultimo_controllo: '2026-11-13'
+    - 0
+  ultimo_controllo: '2026-11-20'
   automatizzabile: 'no'
   stato: attiva
   note: "Articoli con date, orari e prezzi; confermare sul sito ufficiale. | 2026-11-13: la guida del weekend Veneto non e' uscita nei risultati (solo quella FVG); l'articolo su 4passiFestival ha dato ora e prenotazione della sfilata del 13/11. | 2026-11-06: la guida 'Veneto, cosa fare dal ... al ...' del weekend esce il giovedi': una lettura, 2 eventi TV (Asolo, Santa Lucia)."
@@ -394,8 +394,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
-  ultimo_controllo: '2026-11-10'
+  resa: { controlli: 3, eventi_trovati: 0, ultimi: [0, 0, 0] }
+  ultimo_controllo: '2026-11-20'
   automatizzabile: no
   stato: attiva
   note: "2026-11-10: la ricerca mostra solo articoli vecchi, nessuna data nuova. WordPress The Events Calendar (/calendario/elenco/?tribe-bar-date=...), ma robots.txt vieta i robot: non va in sources.yaml ne' aperta con WebFetch. Usare solo i titoli dei risultati di ricerca e il link /calendario/ come official_url."
@@ -408,8 +408,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
-  ultimo_controllo: '2026-11-08'
+  resa: { controlli: 3, eventi_trovati: 0, ultimi: [0, 0, 0] }
+  ultimo_controllo: '2026-11-20'
   automatizzabile: no
   stato: attiva
   note: "programmazione con orari; rassegne (I martedi' a 4 euro della Regione, film in lingua originale, Edera Film Festival). Pagina 'prossimamente.html' per le uscite. Link ufficiale per gli eventi dell'Edera presi da insolitotrantran."
@@ -1207,11 +1207,11 @@ fonti:
   province: [TV, VI, PD, VE, VR, BL, RO]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 6, ultimi: [2, 4] }
-  ultimo_controllo: '2026-11-13'
+  resa: { controlli: 3, eventi_trovati: 8, ultimi: [2, 4, 2] }
+  ultimo_controllo: '2026-11-20'
   automatizzabile: no
   stato: attiva
-  note: "40 appuntamenti del weekend divisi per provincia (14 in TV) con luogo e sito citato: ottima per il test di copertura e per scoprire; esce a meta' settimana. L'indirizzo resta lo stesso ogni settimana (riletta il 13/11: 4 eventi nuovi). Le date vanno confermate: il 13/11 dava 4passiFestival il 14-15/11, ma il weekend centrale era il 6-8/11. I link interni (piazzainfesta, comuni) non si aprono con WebFetch se non escono da una ricerca."
+  note: "40 appuntamenti del weekend divisi per provincia (14 in TV) con luogo e sito citato: ottima per il test di copertura e per scoprire; esce a meta' settimana. L'indirizzo resta lo stesso ogni settimana (riletta il 13/11: 4 eventi nuovi). Le date vanno confermate: il 13/11 dava 4passiFestival il 14-15/11, ma il weekend centrale era il 6-8/11. I link interni (piazzainfesta, comuni) non si aprono con WebFetch se non escono da una ricerca. | 2026-11-20: la guida delle sagre del 20-22/11 non era ancora uscita; c'e' la guida delle MOSTRE del weekend ('Mostre in Veneto nel weekend dal ... al ...', 8 mostre TV con orari e sito): 6 su 8 gia' sul sito, 2 nuove."
 - nome: Comune di Cornuda, eventi
   url: https://www.comune.cornuda.tv.it/home/vivere/eventi.html
   query: Comune di Cornuda eventi
@@ -1306,8 +1306,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
-  ultimo_controllo: '2026-11-13'
+  resa: { controlli: 2, eventi_trovati: 4, ultimi: [4, 0] }
+  ultimo_controllo: '2026-11-20'
   automatizzabile: no
   stato: attiva
   note: "Testata locale apribile con WebFetch: articoli con programma orario completo (Festa dell'Agricoltura di Giavera, programma di 4passiFestival, presentazioni di libri). Vale come official_url quando l'organizzatore (spesso il Comune) non ha una pagina. Gia' fonte del PC (qdpnews in sources.yaml) per le notizie, ma le serate dei comuni piccoli escono solo cercando."
@@ -1900,3 +1900,45 @@ fonti:
   automatizzabile: no
   stato: debole
   note: "esce in molte ricerche per comune con pagine datate 2024-2025; WebFetch da' errore del sito. Da non aprire."
+- nome: Villa di Maser, eventi dell'anno
+  url: https://www.villadimaser.it/it-IT/visite-ed-eventi/eventi?year=2026
+  query: villa di maser eventi <mese> <anno> (WebSearch con allowed_domains villadimaser.it)
+  tipo: luogo
+  categorie: [arte-cultura, famiglie-bambini, sagre-feste]
+  comuni: [Maser]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-20'
+  automatizzabile: da_valutare
+  stato: attiva
+  note: "elenco 'Prossimi eventi' in 3 pagine (?year=AAAA); le schede /visite-ed-eventi/eventi/<nome>-AAAA si aprono e hanno durata e prezzo, non sempre i giorni. Attenzione alle schede delle edizioni passate (brindiamo alle feste era 2025-26). Candidata html_llm per il PC."
+- nome: Confcommercio provincia di Treviso, eventi
+  url: https://www.confcommercioprovinciaditreviso.it/eventi
+  query: Confcommercio provincia di Treviso eventi
+  tipo: associazione
+  categorie: [business]
+  comuni: [Treviso, Vittorio Veneto]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-20'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "assemblee di categoria, serate di networking (Business Night) e seminari aperti a tutti su registrazione; pubblica pochi giorni prima: il 20/11 nessun evento futuro, l'ultimo del 16/11. Ricontrollare a meta' mese."
+- nome: Teatro.it, spettacoli a Treviso
+  url: https://www.teatro.it/spettacoli/treviso
+  query: teatro.it spettacoli Treviso
+  tipo: aggregatore
+  categorie: [teatro-spettacoli]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mai
+  qualita: 1
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-20'
+  automatizzabile: 'no'
+  stato: debole
+  note: "WebFetch da' errore del sito; esce nelle ricerche sulle stagioni teatrali ma la stagione del Del Monaco e' gia' nelle fonti (teatrostabileveneto). Da non aprire."

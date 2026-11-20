@@ -2,6 +2,45 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-20
+
+- **Giro del PC**: NON ha girato per la nona notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica (sito a 425 eventi, 145 correzioni attive).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (gli stessi eventi aperti cercati a vuoto dall'11/11).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11).
+  Aggiunta in luoghi.yaml la sede di San Gaetano della Collezione Salce (OpenStreetMap da Mapcarta). Cercati a vuoto su
+  Mapcarta Villa Romivo, Villa Freya e Auditorium Vidotto (3 ricerche). Dopo: stima 50 con luogo senza punto.
+- **Eventi aggiunti** (3): arte e cultura 2 (L'ephemere necessaire alla Collezione Salce 20-28/11, Toni Benetton alla
+  Galleria del Liceo Artistico 21/11-8/12), famiglie e bambini 1 (Indagine di Natale a Villa di Maser 21/11-3/1).
+  Tolti prima della pubblicazione 6 doppioni aggiunti per errore (Renato Casaro. Horror, L'ultima rinascita, 4 partite
+  Imoco al Palaverde): erano gia' sul sito o in redazione ma `--cerca` non li trovava (vedi miglioria).
+  Non aggiunti: Natale a Treviso 2026 (TrevisoToday vietato, articoli trovati del 2025), Schettini, Panpers e Bruzzone
+  al Teatro Accademia (da marzo, fonte TicketOne del PC).
+- **Comuni controllati**: Vittorio Veneto (gia' coperto dal Da Ponte), Maserada sul Piave (coperto), Maser (Villa di
+  Maser, 1), Refrontolo (0, solo portali), Loria e Povegliano (gia' fonti MyPortal del PC, non cercati).
+- **Categorie cercate**: Sport > Eventi per chi guarda (Imoco gia' completa), Business > Networking (0, Confcommercio
+  senza eventi futuri), Convegni (0, Volteco era del 14/10), Mercati agricoli (0). +10 voci nell'albero.
+- **Fonti note**: TViWeb (guida mostre, 2 nuovi), Nordest24 (0, VivaVoce gia' presente), Qdpnews (0, articoli 2025),
+  Cinema Edera (0), Treviso Sotterranea (0). Non riaperte: Quinto (vietato), Istadea (San Martino passato), Piazza in
+  Festa (budget).
+- **Fonti nuove catalogate**: 3 (Villa di Maser eventi, Confcommercio provincia di Treviso, teatro.it come da evitare);
+  valutate anche Il Tacco di Bacco Vittorio Veneto (gia' nel catalogo) e la Galleria del Liceo Artistico (vietata).
+  Spostate in sources.yaml: 0.
+- **Pulizia**: tolte 2 voci di eventi_redazione.yaml (Sagra di San Martino a Colle Umberto, Storie sotto l'albero,
+  concluse prima del 13/11); correzioni.yaml non toccato (le voci da togliere vanno riconosciute dall'archivio).
+- **Miglioria**: `pipeline/editorial.py --cerca` ora toglie punteggiatura e maiuscole (rapidfuzz default_process),
+  ordina a parita' di punteggio per titolo piu' simile e dice quanti risultati ci sono: 6 falsi mancanti di stanotte
+  ora escono al primo posto. Test verdi (74).
+- **Test di copertura**: 8/10 (guida mostre TViWeb e Il Tacco di Bacco).
+- **Ricerche**: 52 su 70 (28 WebSearch, 24 WebFetch, di cui 8 a vuoto: cultura.gov.it 3, liceo, museiveneto,
+  italia.it, TrevisoToday, teatro.it).
+- **Problemi aperti**: il giro del PC non parte da nove notti; programma del Natale a Treviso 2026 non ancora letto;
+  al primo giro controllare i doppioni tra le fonti del PC e gli eventi della redazione.
+
 ## 2026-11-19
 
 - **Giro del PC**: NON ha girato per l'ottava notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

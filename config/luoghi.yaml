@@ -142,3 +142,10 @@ luoghi:
     nota: "Municipio di San Fior, Piazza Guglielmo Marconi 2 (sala polifunzionale dell'Autunno Sanfiorese). Coordinate di
       Tuttitalia (45 55 24 N, 12 21 46 E), riferite alla Casa Comunale come l'altitudine. Aggiunto il 2026-11-19 per 7
       eventi che avevano solo il comune."
+  - nomi: ["Collezione Salce, sede di San Gaetano", "Collezione Salce, chiesa di San Gaetano", "Salce San Gaetano"]
+    comune: Treviso
+    lat: 45.66577
+    lon: 12.25044
+    nota: "Museo nazionale Collezione Salce, sede di San Gaetano (vicino alla chiesa di San Gaetano e a Santa
+      Caterina). Coordinate di OpenStreetMap da Mapcarta (way 138762436). Aggiunto il 2026-11-20 per le mostre
+      Renato Casaro. Horror e L'ephemere necessaire."
