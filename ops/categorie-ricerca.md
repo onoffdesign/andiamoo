@@ -33,7 +33,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - strada · mountain bike [XC, enduro, marathon MTB] · gravel · ciclocross · e-bike · BMX
   - cicloturistiche ed eroiche · pedalate per famiglie · bike test e raduni
   · circuiti di ciclocross regionali [Trofeo Triveneto CX, Master Cross] (2026-11-16) → federciclismo trofeo-triveneto · ciclocross giovanile e staffette a squadre [team relay, giovanissimi] (2026-11-16) · ciclocross di fine anno e Santo Stefano [cross di fine anno] (2026-11-16)
-- **Arrampicata** [arrampicata, climbing, boulder, falesia]
+- **Arrampicata** [arrampicata, climbing, boulder, falesia] · rassegne di film di arrampicata [Reel Rock, film festival montagna]
   - boulder [contest boulder, open boulder] · lead [difficolta'] · speed · falesia [raduno in falesia]
   - palestre indoor (open day, corsi base) · ice climbing · gare FASI
   · palestre della provincia [Gioco Verticale - Le Bloc a Treviso, Orizzonti Verticali a Montebelluna, Arena Boulder]:
@@ -56,7 +56,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
 - **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio
   · piste di ghiaccio di Natale nelle piazze e nei centri commerciali [pista di ghiaccio, on ice] (da fine novembre) · gare e saggi di pattinaggio artistico sulle piste di Natale [saggio pattinaggio]
-- **Motori** [raduno, rally, gara] · rally · motocross · enduro moto · auto e moto d'epoca (raduni) · karting
+- **Motori** [raduno, rally, gara] · rally · motocross · enduro moto · auto e moto d'epoca (raduni) · karting · motoraduni di Babbo Natale [babbi natale in moto, raccolta benefica] · raduni della Befana in moto
   · calendario ACI Sport del mese [acisport calendari] · mostre scambio di auto e moto d'epoca · autocross
 - **Equitazione** [concorso ippico] · salto ostacoli · endurance · passeggiate a cavallo · palio
   · concorsi indoor invernali nei maneggi coperti [concorso indoor, salto ostacoli inverno] (2026-11-19: resa 0, escono solo calendari nazionali) · befana a cavallo e presepi equestri [presepe a cavallo]
@@ -90,7 +90,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · ambiente · astronomia (serate osservative) · festival di cittadinanza e cooperazione [festival, dialogo, 4passi]
   · guide all'ascolto con letture [guida all'ascolto, viaggio tra i grandi della musica] (2026-11-16) → trevisoeventi pagine comune · conferenze di centri culturali e spirituali [conferenza pubblica, simbolismo] (2026-11-16)
   · teatro forum e incontri partecipati · cicli comunali su salute e territorio [salute e territorio, agricoltura biologica] · sfilate di moda equosolidale nelle botteghe [sfilata, Altromercato, 4passi]
-- **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni
+- **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni · presepi viventi [presepio vivente, figuranti] · presepi inclusivi · passeggiate sulle tracce dei pittori dell'Ottocento [Ciardi]
   · feste di San Martino con il santo a cavallo e il taglio del mantello [San Martin, San Martino a cavallo] · feste contadine con mostra di animali e benedizione delle macchine agricole [festa contadina, benedizione dei trattori]
 - **Patrimonio e tradizioni** · dialetto e cultura veneta · artigianato tradizionale · musei etnografici
   · palio e giochi tradizionali di paese [palio delle botti, transumanza delle botti] · musei d'impresa con aperture mensili [museo del caffe', primo sabato del mese] · aperture di palazzi delle fondazioni [Ca' Spineda, visita gratuita]
@@ -126,7 +126,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · feste dei santuari mariani di novembre [Madonna della Salute] · sagre di San Martino
   · feste di quartiere dei circoli NOI [circolo NOI, festa di quartiere] · feste di Santa Caterina e Sant'Andrea
     (fine novembre, Barbisano, Colbertaldo, Solighetto) · cene del lesso e dello spiedo delle Pro Loco
-- **Vino e bevande** [degustazione, cantine aperte] · Prosecco e colline del Conegliano Valdobbiadene · mostre dei vini
+- **Vino e bevande** [degustazione, cantine aperte] · Prosecco e colline del Conegliano Valdobbiadene · mostre dei vini · degustazioni di Natale in cantina [brindisi, bollicine di Natale] · serate del vino novello
   · Veneto Wine Stars (Conegliano) · Go To Veneto (Strada del Conegliano Valdobbiadene) · birrifici artigianali
   (non sono eventi le degustazioni in cantina su appuntamento del calendario del Consorzio)
   · birre artigianali · distillati e grappa · cantine aperte
@@ -149,7 +149,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Comicita'** · stand-up comedy [repliche pomeridiane e serali] · cabaret · serate comiche a puntate nei ridotti [Funny Friday] · teatro dialettale comico [Legnanesi] · creator e youtuber a teatro
 - **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci] · compagnie di balletto russo in tournee [Il lago dei cigni]
   · balletti di Natale delle compagnie italiane nei teatri commerciali [Balletto di Siena, Schiaccianoci] (2026-11-18) → scoppiospettacoli · spettacoli natalizi per famiglie nei teatri associativi tra Natale e Capodanno [villaggio incantato]
-- **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada
+- **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada · circo di Natale in tournee [circo acrobatico, Christmas edition] · clown e circo musicale nei palazzetti
   · circhi di Natale in tournee [circo di Natale, Circusfans tournee] · trampolieri e artisti di strada nei mercatini di Natale [trampolieri, mercatino di Natale]
 - **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi
   · cineforum di vallata [Cineforum Quartier del Piave, rassegna d'autunno] · cinema a prezzo ridotto in piu' sale [Martedi' al Cinema 4 euro] · proiezioni gratuite per ricorrenze [25 novembre, ingresso gratuito]
@@ -244,3 +244,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-18 · +11 voci · dove: Arte e cultura > Libri e lettura (+2), Spettacoli > Danza (+2), Musica > Concerti (+2), Mercatini > Fiere (+1), Famiglie > All'aperto (+2), Famiglie > Ricorrenze (+1), Sagre > Cibo (+1, cenoni di Capodanno nei teatri)
 - 2026-11-19 · +12 voci · dove: Famiglie > Laboratori (+2), Mercatini (+2), Spettacoli > Musical (+2), Teatro (+2), Sport > Arti marziali (+2), Equitazione (+2)
 - 2026-11-20 · +10 voci · dove: Arte e cultura > Mostre (+3), Famiglie > Laboratori (+1), Mercatini > Mercati agricoli (+1), Business > Convegni (+2), Networking (+2), Sport > Eventi per chi guarda (+1)
+- 2026-11-21 · +10 voci · dove: Sport > Arrampicata (+1), Motori (+2), Arte e cultura > Storia e rievocazioni (+3), Sagre > Vino e bevande (+2), Spettacoli > Circo e arti di strada (+2)

@@ -2,6 +2,44 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-21
+
+- **Giro del PC**: NON ha girato per la decima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica (sito a 425 eventi, 146 correzioni attive).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: 22 voci non ancora gestite, 21 gia' concluse (spariscono dal sito da sole); resta l'accesso
+  della Festa della Madonna della Salute a Villanova (fino al 22/11, non pubblicato). Nessuna ricerca spesa.
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11; i
+  candidati sono tutti gia' in luoghi.yaml). Aggiunta la Biblioteca comunale di Quinto (Via D'Annunzio 9). Cercati su
+  Mapcarta Castello Roganzuolo, chiesa di Sant'Angelo e Portobuffole' (5 ricerche, 2 schede in errore; il centro di
+  Portobuffole' coincide col punto del comune). Dopo: stima 50 con luogo senza punto.
+- **Eventi corretti** (1): Venezia, quello che non si vede del 10/12 a Quinto (titolo, ora 20:30, biblioteca, gratuito, link).
+- **Eventi aggiunti** (8): musica 4 (Gala Premio Paolo Silveri 25/11 e Concerto di Natale gospel 22/12 al Del Monaco dal
+  libretto del Teatro Stabile, Concerto di Santa Cecilia 24/11, Angelo Branduardi al Teatro Accademia 11/12), sport 1
+  (Reel Rock Tour a Paese 1/12), business 2 (laboratori di aromaterapia 28/11 e cucito 12/12 a Quinto, per residenti),
+  spettacoli 1 (Il mago di Oz al Teatro Accademico 21/3).
+  Non aggiunti: Monet. Una vita a colori al Del Monaco (26/11, scheda non apribile), Capodanno da Oscar al Teatro
+  Accademia (solo la data), gli spettacoli TicketOne di Conegliano da febbraio (li legge il PC), Saul (data incerta nel PDF).
+- **Comuni controllati**: San Biagio di Callalta, Gorgo al Monticano, Silea, Altivole, Orsago (0, solo portali ed
+  edizioni passate), Quinto di Treviso (3 schede del Comune, 2 eventi nuovi e 1 correzione).
+- **Categorie cercate**: Sagre > Vino e bevande (0, solo esperienze in cantina), Sport > Motori (0), Arte e cultura >
+  Storia e rievocazioni (0, presepi viventi solo edizioni passate), Spettacoli > Circo (0 confermati). +10 voci nell'albero.
+- **Fonti note**: Quinto schede (3), Teatro Del Monaco stagione (2), Eventi Venetando (0, pagine Natale 2023),
+  Piazza in Festa (0), Orsago (0). Senza ricerca: Istadea (annuale, San Martino passato), Spettacoli di Mistero (festival
+  finito, frequenza annuale).
+- **Fonti nuove catalogate**: 2 (mentelocale Treviso, Happy Ticket Treviso); valutate e scartate le pagine comune e
+  Presepi di eventiesagre (solo edizioni passate). Spostate in sources.yaml: 0.
+- **Pulizia**: non fatta (le voci da togliere vanno riconosciute dall'archivio, che il PC non aggiorna dall'11/11).
+- **Miglioria**: la pagina provincia di mentelocale da' test di copertura e scoperta in una sola lettura; i mancanti si
+  confermano sul libretto della sala o su Happy Ticket (metodo-ricerca).
+- **Test di copertura**: 6/10 (spettacoli di mentelocale).
+- **Ricerche**: 58 su 70 (26 WebSearch, 32 WebFetch, di cui 8 a vuoto: 6 schede mentelocale rifiutate, 2 Mapcarta).
+- **Problemi aperti**: il giro del PC non parte da dieci notti; programma del Natale a Treviso 2026 non ancora trovato;
+  Monet al Del Monaco da confermare; al primo giro controllare i doppioni tra le fonti del PC e gli eventi della redazione.
+
 ## 2026-11-20
 
 - **Giro del PC**: NON ha girato per la nona notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

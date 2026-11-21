@@ -6,7 +6,7 @@
 # "pickleball: rara").
 
 comuni_TV:
-  Altivole: 2026-11-05
+  Altivole: 2026-11-21
   Arcade: 2026-11-06
   Asolo: 2026-11-15
   Borso del Grappa: 2026-11-19
@@ -38,7 +38,7 @@ comuni_TV:
   Gaiarine: 2026-11-08
   Giavera del Montello: 2026-11-13
   Godega di Sant'Urbano: 2026-11-17
-  Gorgo al Monticano: 2026-11-05
+  Gorgo al Monticano: 2026-11-21
   Istrana: 2026-11-11
   Loria: 2026-11-20
   Mansuè: 2026-11-18
@@ -57,7 +57,7 @@ comuni_TV:
   Nervesa della Battaglia: 2026-11-13
   Oderzo: 2026-11-17
   Ormelle: 2026-11-15
-  Orsago: 2026-11-05
+  Orsago: 2026-11-21
   Paese: 2026-11-19
   Pederobba: 2026-11-16
   Pieve del Grappa: 2026-11-14
@@ -68,14 +68,14 @@ comuni_TV:
   Possagno: 2026-11-10
   Povegliano: 2026-11-20
   Preganziol: 2026-11-15
-  Quinto di Treviso: 2026-11-05
+  Quinto di Treviso: 2026-11-21
   Refrontolo: 2026-11-20
   Resana: 2026-11-13
   Revine Lago: 2026-11-18
   Riese Pio X: 2026-11-15
   Roncade: 2026-11-17
   Salgareda: 2026-11-11
-  San Biagio di Callalta: 2026-11-02
+  San Biagio di Callalta: 2026-11-21
   San Fior: 2026-11-10
   San Pietro di Feletto: 2026-11-15
   San Polo di Piave: 2026-11-12
@@ -85,7 +85,7 @@ comuni_TV:
   Sarmede: 2026-11-10
   Segusino: 2026-11-08
   Sernaglia della Battaglia: 2026-11-06
-  Silea: 2026-11-05
+  Silea: 2026-11-21
   Spresiano: 2026-11-16
   Susegana: 2026-11-10
   Tarzo: 2026-11-09
@@ -126,7 +126,9 @@ aggregatori:
   paesiinfesta.com: 2026-11-08
   sagritaly.com (Veneto): 2026-11-08
   insolitotrantran.it: null
-  eventiesagre.it: 2026-10-30
+  eventiesagre.it: 2026-11-21
+  mentelocale.it/treviso: 2026-11-21
+  happyticket.com/it/treviso: 2026-11-21
   2night.it (Treviso): null
   zero.eu (Veneto): null
   itinerarinelgusto.it (sagre TV): null
@@ -228,12 +230,12 @@ categorie_TV:
   "Spettacoli > Cinema": 2026-11-08
   "Mercatini e fiere > Collezionismo": 2026-11-07
   "Sport > Sport per tutti": 2026-11-07
-  "Spettacoli > Circo e arti di strada": 2026-11-07
-  "Arte e cultura > Storia e rievocazioni": 2026-11-07
-  "Sport > Motori": 2026-11-06
+  "Spettacoli > Circo e arti di strada": 2026-11-21
+  "Arte e cultura > Storia e rievocazioni": 2026-11-21
+  "Sport > Motori": 2026-11-21
   "Mercatini e fiere > Mercati agricoli": 2026-11-20
   "Business e formazione > Convegni e conferenze": 2026-11-20
-  "Sagre e cibo > Vino e bevande": 2026-11-06
+  "Sagre e cibo > Vino e bevande": 2026-11-21
   "Business e formazione > Networking": 2026-11-20
   "Sport > Eventi per chi guarda": 2026-11-20
   "Sport > Equitazione": 2026-11-19

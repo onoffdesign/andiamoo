@@ -61,7 +61,7 @@ alla parte 1.
 
 Formato: `- AAAA-MM-GG · segnalazione #id · uid · cosa diceva (in breve) · cosa e' stato fatto`
 
-(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02, 2026-11-05, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-09, 2026-11-10, 2026-11-11 2026-11-12, 2026-11-13, 2026-11-14, 2026-11-15, 2026-11-16, 2026-11-17, 2026-11-18, 2026-11-19 e 2026-11-20: nessuna arrivata; il PC ha riesportato il file l'11/11 mattina con 0 segnalazioni)
+(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02, 2026-11-05, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-09, 2026-11-10, 2026-11-11 2026-11-12, 2026-11-13, 2026-11-14, 2026-11-15, 2026-11-16, 2026-11-17, 2026-11-18, 2026-11-19, 2026-11-20 e 2026-11-21: nessuna arrivata; il PC ha riesportato il file l'11/11 mattina con 0 segnalazioni)
 
 ## 3. Controllo a campione
 
@@ -76,6 +76,7 @@ Formato (una riga per notte, la piu' recente in alto):
 Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
+- 2026-11-21 · corretti 6/10 · errori: data 0, orario 0, luogo 1, accesso 2, categoria 0, link 2 · lezione: decima notte con il campione dell'11/11 (il PC non gira), nessuna ricerca spesa: restano gli stessi quattro aperti (accesso non pubblicato di Giornate Martiniane e Sagra del Frico, luogo e link delle Letture animate di Silea, link Instagram e accesso di Borgo Caiada), ormai quasi tutti conclusi. Sotto l'80%: cause gia' note, nessuna regola nuova
 - 2026-11-20 · corretti 6/10 · errori: data 0, orario 0, luogo 1, accesso 2, categoria 0, link 2 · lezione: nona notte con il campione dell'11/11 (il PC non gira), nessuna ricerca spesa: restano gli stessi quattro aperti (accesso non pubblicato di Giornate Martiniane e Sagra del Frico, luogo e link delle Letture animate di Silea, link Instagram e accesso di Borgo Caiada). Sotto l'80%: cause gia' note, nessuna regola nuova
 - 2026-11-19 · corretti 6/10 · errori: data 0, orario 0, luogo 1, accesso 2, categoria 0, link 2 · lezione: ottava notte con il campione dell'11/11 (il PC non gira), nessuna ricerca spesa: restano gli stessi quattro aperti (accesso non pubblicato di Giornate Martiniane e Sagra del Frico, luogo e link delle Letture animate di Silea, link Instagram e accesso di Borgo Caiada), cercati a vuoto da 6-7 notti. Sotto l'80%: cause gia' note, nessuna regola nuova
 - 2026-11-18 · corretti 6/10 · errori: data 0, orario 0, luogo 1, accesso 2, categoria 0, link 2 · lezione: settima notte con il campione dell'11/11 (il PC non gira), nessuna ricerca spesa: stessi quattro aperti (accesso non pubblicato di Giornate Martiniane e Sagra del Frico, luogo e link delle Letture animate di Silea, link Instagram e accesso di Borgo Caiada), gia' cercati a vuoto da 5-6 notti. Sotto l'80%: cause gia' note, nessuna regola nuova
