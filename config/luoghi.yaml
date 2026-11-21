@@ -149,3 +149,10 @@ luoghi:
     nota: "Museo nazionale Collezione Salce, sede di San Gaetano (vicino alla chiesa di San Gaetano e a Santa
       Caterina). Coordinate di OpenStreetMap da Mapcarta (way 138762436). Aggiunto il 2026-11-20 per le mostre
       Renato Casaro. Horror e L'ephemere necessaire."
+  - nomi: ["Biblioteca comunale di Quinto", "Via G. D'Annunzio 9", "Via D'Annunzio 9"]
+    comune: Quinto di Treviso
+    lat: 45.64725
+    lon: 12.16589
+    nota: "Biblioteca comunale di Quinto di Treviso, Via G. D'Annunzio 9 (indirizzo dalla scheda del Comune). Coordinate trovate
+      dal PC per indirizzo (precisione venue) per l'incontro dell'11/11 di Venezia, quello che non si vede. Aggiunto il 2026-11-21
+      per gli altri incontri della rassegna, che avevano solo il comune."

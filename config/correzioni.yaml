@@ -14,6 +14,18 @@
 #   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
 
 correggi:
+  b5a4d534543fe28c:
+    title: "Venezia, quello che non si vede: La citta' che sussurra"
+    start: "2026-12-10T20:30"
+    all_day: false
+    venue: "Biblioteca comunale di Quinto di Treviso"
+    address: "Via G. D'Annunzio 9"
+    price: "gratuito"
+    lat: 45.64725
+    lon: 12.16589
+    official_url: "https://www.comune.quintoditreviso.tv.it/vivere-il-comune/eventi/venezia-quello-che-non-si-vede-sette-incontri-tra-storie-libri-e-segreti-di-una-citta-da-scoprire-copy-2/"
+    nota: "scheda del Comune di Quinto: giovedi' 10/12 20:30-23:00 in biblioteca, ingresso gratuito; coordinate della biblioteca da luoghi.yaml"
+    verificato: "2026-11-21"
   f252b44a2ae7c293:
     start: "2026-11-21T14:30"
     nota: "anticipo di sabato alle 14:30: Trivenetogoal del 18/09/2026 (date e orari della Lega Pro dalla 9a alla 20a giornata), confermato da trevisoeventi"
