@@ -14,6 +14,7 @@ Le correzioni valgono per l'uid pubblicato sul sito (dopo la deduplica). Si appl
 Comandi:
   python -m pipeline.editorial --controlla          verifica che i file della redazione siano validi
   python -m pipeline.editorial --applica            applica correzioni e rimozioni al sito pubblicato
+  python -m pipeline.editorial --doppioni           probabili doppioni in eventi_redazione.yaml
 """
 from __future__ import annotations
 
@@ -215,14 +216,55 @@ def find(text: Optional[str], day: Optional[str], uid: Optional[str]) -> int:
     return 0
 
 
+def _norm_words(s) -> set:
+    return set(re.sub(r"[^a-z0-9 ]", " ", str(s or "").lower()).split())
+
+
+def duplicates(events: list) -> list:
+    """Coppie di eventi della redazione con stesso giorno, ora e comune e titolo quasi uguale (doppioni)."""
+    groups: dict = {}
+    for i, e in enumerate(events):
+        start = str(e.get("start") or "")
+        key = (start[:10], start[11:16], " ".join(sorted(_norm_words(e.get("town")))))
+        groups.setdefault(key, []).append(i)
+    pairs = []
+    for idx in groups.values():
+        for a in range(len(idx)):
+            for b in range(a + 1, len(idx)):
+                ta, tb = (_norm_words(events[idx[a]].get("title")), _norm_words(events[idx[b]].get("title")))
+                if ta and tb and len(ta & tb) / min(len(ta), len(tb)) >= 0.6:
+                    pairs.append((idx[a], idx[b]))
+    return pairs
+
+
+def find_duplicates() -> int:
+    """Stampa i probabili doppioni in eventi_redazione.yaml (stesso giorno e comune, titolo simile).
+    L'ora vuota conta come 'qualsiasi ora': confronta anche eventi senza ora con eventi con ora."""
+    data = yaml.safe_load(CURATED.read_text(encoding="utf-8")) or {}
+    events = data.get("eventi") or []
+    loose = [dict(e, start=str(e.get("start") or "")[:10]) for e in events]
+    hour = [str(e.get("start") or "")[11:16] for e in events]
+    pairs = sorted(p for p in set(duplicates(loose)) if not (hour[p[0]] and hour[p[1]] and hour[p[0]] != hour[p[1]]))
+    for a, b in pairs:
+        ea, eb = events[a], events[b]
+        print(f"{str(ea.get('start'))[:16]}  {ea.get('title')}  ||  {str(eb.get('start'))[:16]}  {eb.get('title')}"
+              f"  ({ea.get('town')})")
+    print(f"{len(pairs)} possibili doppioni (stesso giorno e comune; repliche a ore diverse sono legittime)")
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Correzioni della redazione")
+    ap.add_argument("--doppioni", action="store_true",
+                    help="elenca i probabili doppioni in eventi_redazione.yaml (stesso giorno e comune)")
     ap.add_argument("--controlla", action="store_true", help="verifica i file della redazione")
     ap.add_argument("--applica", action="store_true", help="applica correzioni e rimozioni al sito pubblicato")
     ap.add_argument("--cerca", metavar="TESTO", help="cerca un evento gia' sul sito (titolo, luogo, comune)")
     ap.add_argument("--data", metavar="AAAA-MM-GG", help="con --cerca: solo eventi attivi in quel giorno")
     ap.add_argument("--uid", help="mostra tutti i dati di un evento pubblicato")
     args = ap.parse_args(argv)
+    if args.doppioni:
+        return find_duplicates()
     if args.cerca or args.uid:
         return find(args.cerca, args.data, args.uid)
     errs = check()

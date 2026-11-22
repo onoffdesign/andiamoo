@@ -14,6 +14,10 @@
 #   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
 
 correggi:
+  0076f28ed3e239a6:
+    official_url: "https://trevisando.it/marcia/santa-klaus-run/"
+    nota: "calendario Trevisando 2026 delle marce non competitive (PDF): 20/12 a Conegliano, partenza alle 10, 4,5 e 9,5 km, organizza e20run A.S.D.; link alla scheda Trevisando"
+    verificato: "2026-11-22"
   b5a4d534543fe28c:
     title: "Venezia, quello che non si vede: La citta' che sussurra"
     start: "2026-12-10T20:30"
@@ -652,9 +656,9 @@ correggi:
     nota: "Calendario Podismo Veneto di dicembre 2026: Castello di Godego, 10 km, partenza alle 9:00; nessun volantino, link alla pagina del mese"
     verificato: "2026-11-08"
   50014b4d6788abe6:
-    official_url: "https://calendariopodismoveneto.blogspot.com/2025/04/dicembre-2026.html"
-    nota: "Calendario Podismo Veneto di dicembre 2026: Ormelle, 5 e 11 km, alle 9:30; nessun volantino, link alla pagina del mese"
-    verificato: "2026-11-08"
+    official_url: "https://trevisando.it/marcia/corsa-dei-babbi-natale/"
+    nota: "Calendario Podismo Veneto di dicembre 2026 e calendario Trevisando 2026: Ormelle, 5 e 11 km, alle 9:30, organizza A.S.D. Nuova Atletica 3 Comuni con G.P. 3B Salgareda; link alla scheda Trevisando (prima pagina del mese)"
+    verificato: "2026-11-22"
   839ec47e21d61954:
     title: "Cornuda Santa Klaus, mercatino aspettando il Natale"
     start: "2026-12-06T08:00"
