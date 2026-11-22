@@ -1,30 +1,28 @@
 {
- "data": "2026-11-21",
- "aggiunti": 8,
- "corretti": 1,
- "rimossi": 0,
+ "data": "2026-11-22",
+ "aggiunti": 3,
+ "corretti": 2,
+ "rimossi": 1,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "musica": 4,
-  "sport": 1,
-  "business": 2,
-  "teatro-spettacoli": 1
+  "mercatini-fiere": 1,
+  "sport": 2
  },
- "fonti_nuove": 2,
+ "fonti_nuove": 3,
  "fonti_spostate": 0,
  "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "6/10",
- "ricerche": 58,
- "eventi_per_ricerca": 0.14,
+ "copertura_test": "8/10",
+ "ricerche": 53,
+ "eventi_per_ricerca": 0.06,
  "categorie_aggiunte": 10,
- "miglioria": "pagina provincia di mentelocale per test di copertura e scoperta in una lettura, conferma sul libretto della sala e su Happy Ticket",
+ "miglioria": "comando --doppioni per trovare i doppioni dentro eventi_redazione.yaml (con test)",
  "problemi": [
-  "il giro del PC non parte da dieci notti (ultimo 11/11)",
-  "campione e coda fermi all'11/11, quasi tutti eventi conclusi",
-  "programma del Natale a Treviso 2026 ancora non trovato (solo pagine 2023-2025)",
-  "Monet. Una vita a colori al Del Monaco (26/11) non confermato"
+  "il giro del PC non parte da undici notti (ultimo 11/11)",
+  "posizioni: Mapcarta non trova piazze e scuole, 51 luoghi senza punto",
+  "programma del Natale a Treviso 2026 non ancora trovato",
+  "al primo giro controllare i doppioni tra calendariopodismo e le marce aggiunte"
  ]
 }

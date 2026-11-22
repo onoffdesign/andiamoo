@@ -109,7 +109,7 @@ fonti:
   - musica
   comuni:
   - Treviso
-  frequenza: settimanale
+  frequenza: mensile
   qualita: 3
   resa:
     controlli: 4
@@ -131,18 +131,19 @@ fonti:
   - arte-cultura
   comuni:
   - Treviso
-  frequenza: settimanale
+  frequenza: mensile
   qualita: 3
   resa:
-    controlli: 3
+    controlli: 4
     eventi_trovati: 2
     ultimi:
-    - 2
     - 0
     - 0
-  ultimo_controllo: '2026-11-15'
+    - 0
+  ultimo_controllo: '2026-11-22'
+  frequenza_nota: "3 controlli a zero (2026-11-22): passata a mensile"
   automatizzabile: 'no'
-  stato: attiva
+  stato: debole
   note: "Si apre con WebFetch (TrevisoToday invece da' errore). 2026-11-15: la ricerca con allowed_domains venetotoday.it da' 10 articoli recenti in una ricerca; molti parlano di eventi gia' passati, ingresso quasi mai indicato."
 - nome: Cosedicasa mercatini antiquariato (Treviso)
   url: https://www.cosedicasa.com/mercatini/
@@ -1461,8 +1462,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 11, ultimi: [11] }
-  ultimo_controllo: 2026-11-15
+  resa: { controlli: 2, eventi_trovati: 11, ultimi: [11, 0] }
+  ultimo_controllo: '2026-11-22'
   automatizzabile: da verificare
   stato: attiva
   note: "Una lettura: 22 concerti dei prossimi 4 mesi con ora, luogo e link all'organizzatore (Teatro Stabile, Filarmonia Veneta, Musincantus, Sile Classica); 10 su 14 non erano sul sito. Niente prezzi: si prendono dalle pagine degli organizzatori. Pagina lunga (240 mila caratteri): rileggere con offset 100000 per marzo e oltre. Esiste per ogni provincia (/luoghi/veneto/<provincia>/): utile anche per le province successive. Candidata per sources.yaml se ha JSON-LD."
@@ -1489,8 +1490,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 2
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: 2026-11-15
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-22'
   automatizzabile: 'no'
   stato: attiva
   note: "Le schede si aprono e hanno programma per giorno e coordinate, ma dichiarano di non essere la fonte ufficiale e gli organizzatori sono spesso solo su Facebook: serve per scoprire (Folpada di Canizzano 22/11, Festa della Madonna della Salute di Bibano 13-22/11) e per il test di copertura."
@@ -1517,8 +1518,8 @@ fonti:
   province: [TV]
   frequenza: trimestrale
   qualita: 1
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: 2026-11-15
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-22'
   automatizzabile: 'no'
   stato: debole
   note: "Tema design-comuni, 'Nessun evento in programma'. La rassegna DeINDOPARA (martedi' a Villa Eger, novembre-maggio) ha il programma solo in un'immagine JPG."
@@ -1531,8 +1532,8 @@ fonti:
   province: [TV]
   frequenza: trimestrale
   qualita: 1
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: 2026-11-15
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-22'
   automatizzabile: 'no'
   stato: debole
   note: "Tema design-comuni, 'Nessun evento in programma' il 2026-11-15."
@@ -1545,8 +1546,8 @@ fonti:
   province: [TV]
   frequenza: trimestrale
   qualita: 1
-  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
-  ultimo_controllo: 2026-11-15
+  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
+  ultimo_controllo: '2026-11-22'
   automatizzabile: 'no'
   stato: debole
   note: "Comune (WordPress) senza eventi a novembre-dicembre; prolocosanpietrodifeletto.it fermo a settembre 2026."
@@ -1970,4 +1971,46 @@ fonti:
   automatizzabile: da_valutare
   stato: attiva
   note: "Trovata il 2026-11-21 (link biglietteria delle schede mentelocale). Vende Treviso Basket, Gocce musicali, Teatro Accademia, Teatro Accademico. Le pagine sala /it/locations/treviso/<comune>/<sala>.htm elencano gli spettacoli in vendita con la data (senza ora); le schede /acquista-biglietti/ hanno data, ora e sala. Una scheda vecchia (Federico Buffa) da' 404 con stato 200. Usare WebSearch con allowed_domains happyticket.com. JSON-LD non verificato: da controllare per sources.yaml."
+- nome: Trevisando (calendario delle marce non competitive della provincia)
+  url: https://trevisando.it/wp-content/uploads/2026/01/TREVISANDO-2026-A5-2.pdf
+  query: trevisando marce non competitive <anno> (WebSearch con allowed_domains trevisando.it)
+  tipo: aggregatore
+  categorie: [sport]
+  comuni: [Godega di Sant'Urbano, Vittorio Veneto, Conegliano, Ormelle, Gaiarine]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-22'
+  automatizzabile: forse
+  stato: attiva
+  note: "Calendario annuale in PDF (esce a gennaio: TREVISANDO-<anno>-A5.pdf) con data, localita', ora di partenza, km e gruppo organizzatore di ogni marcia; le schede /marcia/<nome>/ hanno indirizzo di partenza e valgono come official_url. Le pagine si aprono solo dopo una ricerca su trevisando.it. Il 2026-11-22: 2 marce mancanti (San Nicolo' a Pianzano, LiTLe Run) e 2 link sistemati."
+- nome: Fiere di Santa Lucia di Piave (quartiere fieristico)
+  url: https://www.fieresantalucia.it/fiera-internazionale-agricoltura/visitatori/
+  query: fieresantalucia.it fiera <mese> <anno> (allowed_domains fieresantalucia.it)
+  tipo: organizzatore
+  categorie: [mercatini-fiere, business]
+  comuni: [Santa Lucia di Piave]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-22'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Sito dell'Azienda Speciale Fiere: pagina visitatori con orari e prezzi, PDF orari con le date dell'anno (Fiera dell'Agricoltura 12-14/12/2026). Le altre fiere dell'anno (giugno e autunno) vanno cercate con la stessa query."
+- nome: Concerti Classica Treviso (stagione estiva)
+  url: https://roncade-api.municipiumapp.it/s3/5925/allegati/concerti-classica-treviso.pdf
+  query: concerticlassicatreviso stagione <anno>
+  tipo: organizzatore
+  categorie: [musica]
+  comuni: [Treviso, Roncade, Casale sul Sile]
+  province: [TV]
+  frequenza: annuale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-22'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Stagione da maggio a luglio (XVI nel 2026) al Circolo Unificato dell'Esercito di Treviso e nelle chiese di Biancade e San Cipriano, con prezzi e prenotazione; il programma esce come PDF allegato del Comune di Roncade. Riaprire ad aprile."
 

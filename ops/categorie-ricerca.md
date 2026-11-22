@@ -29,6 +29,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - corsa campestre [cross] · corsa in montagna
   - corse dei Babbi Natale [Babbi Natale, Santa Klaus run, X-mas run] (fine novembre - dicembre) → podopodo, trovaeventi
   - corse benefiche di associazioni [corsa solidale, per la ricerca] · ciclocross di dicembre [trofeo ciclocross, memorial]
+  · calendario annuale delle marce non competitive provinciali [Trevisando, marce non competitive <anno>] (2026-11-22) → trevisando.it · marce di San Nicolo' e dell'Immacolata [marcia San Nicolo', marcia dell'Immacolata] (2026-11-22) · corse di solidarieta' di Santo Stefano [little run, corsa 26 dicembre] (2026-11-22)
 - **Ciclismo** [gran fondo, cicloturistica, randonnée, gravel]
   - strada · mountain bike [XC, enduro, marathon MTB] · gravel · ciclocross · e-bike · BMX
   - cicloturistiche ed eroiche · pedalate per famiglie · bike test e raduni
@@ -51,6 +52,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - rugby di Serie A Elite in casa [calendario federugby, Mogliano] · Champions League di pallavolo femminile [CEV, Palaverde]
 - **Racchetta** [torneo, open] · tennis · padel · ping pong · badminton · pickleball
   · tornei open FITP di padel [calendario tornei padel FITP Veneto, PDF regionale] · esibizioni ed eventi nei club [padel cup, clinic]
+  · tornei di padel di fine anno nei circoli [torneo di Natale padel, open di dicembre] (2026-11-22): in provincia escono solo su Playtomic e social, resa 0
 - **Arti marziali e combattimento** [stage, torneo, open day] · judo · karate · taekwondo · boxe · kickboxing · scherma
   · gare regionali FIJLKAM con informativa PDF (Conegliano) [informativa, trofeo] (2026-11-19: solo calendari e PDF, resa 0) · stage di Natale delle palestre di karate [stage di Natale karate]
   · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
@@ -94,6 +96,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · feste di San Martino con il santo a cavallo e il taglio del mantello [San Martin, San Martino a cavallo] · feste contadine con mostra di animali e benedizione delle macchine agricole [festa contadina, benedizione dei trattori]
 - **Patrimonio e tradizioni** · dialetto e cultura veneta · artigianato tradizionale · musei etnografici
   · palio e giochi tradizionali di paese [palio delle botti, transumanza delle botti] · musei d'impresa con aperture mensili [museo del caffe', primo sabato del mese] · aperture di palazzi delle fondazioni [Ca' Spineda, visita gratuita]
+  · falo' dell'Epifania [panevin, pan e vin, brusa la vecia] (2026-11-22): i programmi escono a fine dicembre, cercare dal 20/12
 - **Tecnologia e scienza** · maker e robotica · divulgazione scientifica · eventi di astronomia
   · lezioni pubbliche dei gruppi di astrofili [lezioni per il pubblico, astrofili]
   · serate di osservazione degli astrofili trevigiani [astrofili trevigiani, appuntamenti] (sito solo http, WebFetch in loop: 2026-11-17) · lezioni-concerto e lezioni di musica nelle fondazioni [lezione di musica, Landscapes] (2026-11-17)
@@ -189,8 +192,10 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · mercatini di Natale comunali con casette assegnate per avviso pubblico [avviso casette mercatini di Natale] (2026-11-18): l'avviso del Comune da' le date ufficiali
   fumetto e del gioco
   · rievocazioni storiche delle fiere antiche [antica fiera, rievocazione storica] · mostre mercato dei prodotti d'autunno [profumi e sapori d'autunno]
+  · fiere agricole di dicembre nei quartieri fieristici [fiera dell'agricoltura, macchine agricole, zootecnia] (2026-11-22) → fieresantalucia.it · padiglioni dei prodotti tipici dentro le fiere agricole [ex Filande] (2026-11-22) · fiere di inizio anno dei quartieri fieristici [fiera di gennaio, fiera di primavera] (2026-11-22)
 - **Collezionismo** · numismatica e filatelia · vinili e dischi · giocattoli d'epoca · collezionismo militare [militaria, Milipiave]
   · mercatini mensili di antiquariato nei centri storici [antiquariato seconda domenica, Portobuffole', Collalto] · mostre mercato di antiquariato nei borghi con passeggiate storiche [antiquariato Collalto, lavatoio] · tornei di carte delle sagre [torneo di briscola, burraco di San Martino]
+  · mercatini con pausa invernale (dicembre sospeso) [sospeso a dicembre, ultima domenica del mese] (2026-11-22): controllare la regola prima di aggiungere le date · mercatini dell'usato di fine gennaio [ripresa mercatini gennaio] (2026-11-22)
 
 ## Business e formazione (`business`)
 
@@ -245,3 +250,5 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-19 · +12 voci · dove: Famiglie > Laboratori (+2), Mercatini (+2), Spettacoli > Musical (+2), Teatro (+2), Sport > Arti marziali (+2), Equitazione (+2)
 - 2026-11-20 · +10 voci · dove: Arte e cultura > Mostre (+3), Famiglie > Laboratori (+1), Mercatini > Mercati agricoli (+1), Business > Convegni (+2), Networking (+2), Sport > Eventi per chi guarda (+1)
 - 2026-11-21 · +10 voci · dove: Sport > Arrampicata (+1), Motori (+2), Arte e cultura > Storia e rievocazioni (+3), Sagre > Vino e bevande (+2), Spettacoli > Circo e arti di strada (+2)
+
+- 2026-11-22 · +10 voci · dove: Sport > Corsa (+3), Mercatini > Fiere (+3), Collezionismo (+2), Sport > Racchetta (+1), Arte e cultura > Patrimonio e tradizioni (+1)

@@ -2,6 +2,43 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-22
+
+- **Giro del PC**: NON ha girato per l'undicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica (sito a 425 eventi, 147 correzioni attive).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (stessi eventi aperti dell'11/11, quasi tutti conclusi).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11; 22 dei 51
+  sono gia' coperti da luoghi.yaml o dalla precisione per frazione del codice nuovo). Cercati su Mapcarta Piazza Marconi
+  di San Martino (Colle Umberto), Istituto Palladio di Treviso, Oratorio di Sant'Andrea di Povegliano, sala consiliare di
+  San Biagio di Callalta (4 ricerche, solo centri dei paesi). Nessun luogo aggiunto. Dopo: invariato.
+- **Eventi corretti** (2): link della Santa Klaus Run di Conegliano (non ne aveva) e della Corsa dei Babbi Natale di
+  Ormelle (era la pagina del mese), entrambi alle schede Trevisando.
+- **Eventi rimossi** (1, dalla redazione): doppione di Anna Castiglia al New Age Club del 18/12 (tenuta la voce con ora e prezzo).
+- **Eventi aggiunti** (3): mercatini e fiere 1 (Fiera Internazionale dell'Agricoltura di Santa Lucia di Piave 12-14/12),
+  sport 2 (Marcia San Nicolo' a Pianzano 6/12, LiTLe Run per il Piccolo Rifugio a Vittorio Veneto 26/12).
+  Non aggiunti: Eric Culm al CSO Django (12/12, rockol non si apre), Quintorigo e John De Leo al New Age (27/1, solo Il Tacco
+  di Bacco), Mostra del radicchio di Mogliano (date non pubblicate).
+- **Comuni controllati**: Monastier, Miane, Arcade, Motta di Livenza, Sernaglia, Moriago (0: solo portali ed edizioni
+  passate), Santa Lucia di Piave (1, la fiera).
+- **Categorie cercate**: Mercatini > Collezionismo (0, gia' tutti sul sito; Spresiano sospeso a dicembre), Sport > Sport
+  per tutti (2), Arte e cultura > Patrimonio e tradizioni (0, panevin e presepi 2027 non ancora usciti), Sport > Racchetta
+  (0). +10 voci nell'albero.
+- **Fonti note**: ClassicaLive, Sagratour, Riese Pio X, Preganziol, San Pietro di Feletto, VenetoToday (tutte 0, solo
+  ricerca; VenetoToday a 3 controlli a zero: frequenza mensile, stato debole).
+- **Fonti nuove catalogate**: 3 (Trevisando, Fiere di Santa Lucia, Concerti Classica Treviso); scartate beescover (solo
+  edizioni passate su eventiesagre) e i PDF 2026 della biblioteca di Roncade (conclusi). Spostate in sources.yaml: 0.
+- **Pulizia**: non fatta (l'archivio non si aggiorna dall'11/11).
+- **Miglioria**: nuovo comando `python -m pipeline.editorial --doppioni` (con test) per i doppioni dentro la redazione,
+  aggiunto al passo 7 della revisione.
+- **Test di copertura**: 8/10 (corse e camminate di running.life).
+- **Ricerche**: 53 su 70 (34 WebSearch, 19 WebFetch, di cui 3 a vuoto: 2 rockol, 1 trevisando prima della ricerca).
+- **Problemi aperti**: il giro del PC non parte da undici notti; programma del Natale a Treviso 2026 non ancora trovato;
+  al primo giro controllare i doppioni tra calendariopodismo e le marce aggiunte stanotte.
+
 ## 2026-11-21
 
 - **Giro del PC**: NON ha girato per la decima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

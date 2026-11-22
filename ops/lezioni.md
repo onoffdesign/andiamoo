@@ -67,11 +67,16 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   danno gli spettacoli in vendita; il libretto PDF della stagione del Teatro Stabile (risorse.teatrostabileveneto.it/hubfs/...) ha date e ore.
   Le pagine eventi di eventiesagre per comune (Silea, Altivole, Orsago) e per Presepi danno solo edizioni passate: non riaprirle.
 
+- 2026-11-22: per corse e camminate il calendario running.life di un comune (raggio 30 km) e' il test di copertura dello
+  sport in una lettura; i mancanti si confermano sul calendario PDF Trevisando dell'anno (ora, km, gruppo) e sulle schede
+  trevisando.it/marcia/<nome>/ (indirizzo di partenza), apribili dopo una ricerca con allowed_domains trevisando.it.
+  Le pagine comune di Il Tacco di Bacco piccole (Riese, Motta) mostrano solo 2-3 eventi "in evidenza": non valgono una lettura.
+
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
   teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
   museiveneto.cultura.gov.it, trevisosotterranea.it, trevisoimprese.it, rockol.it, itinerarinelgusto.it, lapiazzaweb.it,
-  insolitotrantran.it, beescover.com, schede Mapcarta /de/ e /W... (2 su 3 in errore il 21/11), eventivenetando.it per Natale (pagine 2023), prolococamalo.it, cinemaedera.it/rassegne.html, liceoartisticotreviso.edu.it; siti dei comuni di Pieve di
+  insolitotrantran.it, beescover.com, schede eventiesagre uscite da ricerca per comune (5 su 5 di edizioni 2019-2023 il 22/11), rockol.it anche per le pagine locale, schede Mapcarta /de/ e /W... (2 su 3 in errore il 21/11), eventivenetando.it per Natale (pagine 2023), prolococamalo.it, cinemaedera.it/rassegne.html, liceoartisticotreviso.edu.it; siti dei comuni di Pieve di
   Soligo, Cappella Maggiore, Quinto, Vedelago, Valdobbiadene, Cessalto, Sernaglia, Montebelluna. venetotoday.it si apre.
 - Vuoti o vecchi: puntoettore.it (eventi solo su Eventbrite), hellomoglianoveneto, prolocofollina.it, home MyPortal di
   Trevignano, trevisoinfo.it (2011), Pro Loco di Cimadolmo (2017), lavitadelpopolo.it a volte (Vedelago 2023).

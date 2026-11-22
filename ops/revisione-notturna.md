@@ -151,6 +151,7 @@ Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/eve
 7. **Verifica e pubblicazione**
    ```
    python -m pipeline.editorial --controlla      # deve dire "validi"
+   python -m pipeline.editorial --doppioni       # doppioni dentro eventi_redazione.yaml: togli il meno completo
    python -m pytest -q tests                     # tutti verdi
    python -m pipeline.editorial --applica        # correzioni e rimozioni subito sul sito
    ```

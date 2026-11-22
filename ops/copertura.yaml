@@ -7,7 +7,7 @@
 
 comuni_TV:
   Altivole: 2026-11-21
-  Arcade: 2026-11-06
+  Arcade: 2026-11-22
   Asolo: 2026-11-15
   Borso del Grappa: 2026-11-19
   Breda di Piave: 2026-11-11
@@ -46,14 +46,14 @@ comuni_TV:
   Maser: 2026-11-20
   Maserada sul Piave: 2026-11-20
   Meduna di Livenza: 2026-11-11
-  Miane: 2026-11-06
+  Miane: 2026-11-22
   Mogliano Veneto: 2026-11-15   # gia' fonte del PC (comune-mogliano myportal): non serve cercarlo a mano
-  Monastier di Treviso: 2026-11-05
+  Monastier di Treviso: 2026-11-22
   Monfumo: 2026-11-10
   Montebelluna: 2026-11-09
   Morgano: 2026-11-16
-  Moriago della Battaglia: 2026-11-06
-  Motta di Livenza: 2026-11-06
+  Moriago della Battaglia: 2026-11-22
+  Motta di Livenza: 2026-11-22
   Nervesa della Battaglia: 2026-11-13
   Oderzo: 2026-11-17
   Ormelle: 2026-11-15
@@ -81,10 +81,10 @@ comuni_TV:
   San Polo di Piave: 2026-11-12
   San Vendemiano: 2026-11-16
   San Zenone degli Ezzelini: 2026-11-12
-  Santa Lucia di Piave: 2026-11-13
+  Santa Lucia di Piave: 2026-11-22
   Sarmede: 2026-11-10
   Segusino: 2026-11-08
-  Sernaglia della Battaglia: 2026-11-06
+  Sernaglia della Battaglia: 2026-11-22
   Silea: 2026-11-21
   Spresiano: 2026-11-16
   Susegana: 2026-11-10
@@ -139,7 +139,9 @@ aggregatori:
   allevents.in (Treviso): null
   calendariopodismo.it: null
   calendariopodismoveneto.blogspot.com: 2026-11-02
-  running.life: null
+  running.life: 2026-11-22
+  trevisando.it: 2026-11-22
+  fieresantalucia.it: 2026-11-22
   Pro Loco e UNPLI Treviso: 2026-11-16
   itinerarinellarte.it (mostre Treviso): 2026-11-16
   bibliotecazerobranco.it: 2026-11-09
@@ -225,11 +227,11 @@ categorie_TV:
   "Spettacoli > Teatro": 2026-11-09
   "Sport > Sport di squadra": 2026-11-09
   "Musica e party > Musica partecipata": 2026-11-08
-  "Arte e cultura > Patrimonio e tradizioni": 2026-11-08
-  "Sport > Racchetta": 2026-11-08
+  "Arte e cultura > Patrimonio e tradizioni": 2026-11-22
+  "Sport > Racchetta": 2026-11-22
   "Spettacoli > Cinema": 2026-11-08
-  "Mercatini e fiere > Collezionismo": 2026-11-07
-  "Sport > Sport per tutti": 2026-11-07
+  "Mercatini e fiere > Collezionismo": 2026-11-22
+  "Sport > Sport per tutti": 2026-11-22
   "Spettacoli > Circo e arti di strada": 2026-11-21
   "Arte e cultura > Storia e rievocazioni": 2026-11-21
   "Sport > Motori": 2026-11-21
