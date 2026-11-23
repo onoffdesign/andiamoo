@@ -2,6 +2,43 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-23
+
+- **Giro del PC**: NON ha girato per la dodicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica (sito a 425 eventi, 147 correzioni attive).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (stessi eventi aperti dell'11/11, quasi tutti conclusi).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11). Cercati
+  Villa Romivo (Montebelluna), Villa Freya (Asolo) e Auditorium Don Vidotto (Maserada) su Mapcarta e sul web (3
+  ricerche, nessun punto affidabile). Nessun luogo aggiunto. Dopo: invariato.
+- **Eventi corretti**: 0. **Rimossi**: 0. **Verificati**: 0.
+- **Eventi aggiunti** (37): dal programma del Natale a Treviso del Comune (Qdpnews, 20/11/2026) 36 eventi: famiglie e
+  bambini 12, sagre e feste (ricorrenze di Natale) 5, musica 8, spettacoli 4, mercatini e fiere 4, sport 2 (Regata dei
+  Babbi Natale sul Sile, pista Treviso on Ice), arte e cultura 1 (mostra di Nadia Soligo); dalla stagione lirica e
+  concertistica 26/27 del Teatro Stabile 1 (Saul di Handel al Del Monaco, 16/3). Parte del testo dell'articolo e' stata
+  letta in forma riassunta: al primo giro del PC controllare a campione orari e luoghi dei quartieri.
+  Non aggiunti: rassegna dei cori scolastici (date non dettagliate), RICreazione, Natale in Borgo, La sporta dea
+  Marantega (date non indicate), concerti del Del Monaco oltre i 120 giorni (annotati in fonti.yaml).
+- **Comuni controllati**: Codogne', Carbonera, Castelcucco, Colle Umberto, Valdobbiadene, Vedelago (0: solo portali e
+  edizioni passate).
+- **Categorie cercate**: Spettacoli > Cinema (0), Musica e party > Musica partecipata (0), Spettacoli > Teatro (0),
+  Sport > Sport d'acqua (0 dalla ricerca; 1 dal programma del Natale). +11 voci nell'albero.
+- **Fonti note**: Itinerari nell'arte, Fiori d'Inverno, Centro Estrada (0, solo ricerca); stagione lirica del Del Monaco (1).
+- **Fonti nuove catalogate**: 1 (programma del Natale a Treviso su Qdpnews). Valutati e scartati: programmi natalizi
+  Qdpnews di Montebelluna e Vittorio Veneto (2023 e 2025), calendario IAT di Oderzo (WebFetch rifiutato), Canottieri Sile
+  e Casa Robegan (nessuna pagina eventi nei risultati). Spostate in sources.yaml: 0.
+- **Pulizia**: non fatta (l'archivio non si aggiorna dall'11/11).
+- **Miglioria**: `piano_notte` rispetta le frequenze annuale e trimestrale e salta le fonti `mai`; avvisa quando il PC e'
+  fermo da piu' di 2 giorni (con test).
+- **Test di copertura**: 9/10 (guida di dicembre di SiViaggia, stessa lista del 18/11). Criterio di saturazione del
+  lunedi': non rispettato, resta Treviso.
+- **Ricerche**: 38 su 70 (31 WebSearch, 7 WebFetch, di cui 4 a vuoto: 3 articoli Qdpnews di anni passati, 1 rifiutato).
+- **Problemi aperti**: il giro del PC non parte da dodici notti; programmi del Natale 2026 di Castelfranco, Oderzo,
+  Montebelluna, Vittorio Veneto e Mogliano ancora da trovare (solo su TrevisoToday e OggiTreviso, non apribili).
+
 ## 2026-11-22
 
 - **Giro del PC**: NON ha girato per l'undicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

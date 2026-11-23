@@ -72,12 +72,17 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   trevisando.it/marcia/<nome>/ (indirizzo di partenza), apribili dopo una ricerca con allowed_domains trevisando.it.
   Le pagine comune di Il Tacco di Bacco piccole (Riese, Motta) mostrano solo 2-3 eventi "in evidenza": non valgono una lettura.
 
+- 2026-11-23: il programma del Natale del capoluogo esce su Qdpnews (articolo del 20/11 con l'anno nei metadati): 36 eventi
+  nuovi in una lettura. La ricerca "<comune> eventi dicembre 2026" per i comuni piccoli (Codogne', Carbonera, Castelcucco,
+  Colle Umberto, Valdobbiadene, Vedelago) da' solo portali generici a fine novembre: meglio cercare il programma del Natale
+  del comune a fine mese. Il libretto PDF della stagione lirica e concertistica del Teatro Stabile ha anche gli orari.
+
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
   teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
   museiveneto.cultura.gov.it, trevisosotterranea.it, trevisoimprese.it, rockol.it, itinerarinelgusto.it, lapiazzaweb.it,
   insolitotrantran.it, beescover.com, schede eventiesagre uscite da ricerca per comune (5 su 5 di edizioni 2019-2023 il 22/11), rockol.it anche per le pagine locale, schede Mapcarta /de/ e /W... (2 su 3 in errore il 21/11), eventivenetando.it per Natale (pagine 2023), prolococamalo.it, cinemaedera.it/rassegne.html, liceoartisticotreviso.edu.it; siti dei comuni di Pieve di
-  Soligo, Cappella Maggiore, Quinto, Vedelago, Valdobbiadene, Cessalto, Sernaglia, Montebelluna. venetotoday.it si apre.
+  Soligo, Cappella Maggiore, Quinto, Vedelago, Valdobbiadene, Cessalto, Sernaglia, Montebelluna. scoprioderzo.it/my-calendar/ se non esce da una ricerca della notte (rifiutato il 23/11), articoli Qdpnews senza anno nell'indirizzo per il Natale (3 su 3 di anni passati il 23/11). venetotoday.it si apre.
 - Vuoti o vecchi: puntoettore.it (eventi solo su Eventbrite), hellomoglianoveneto, prolocofollina.it, home MyPortal di
   Trevignano, trevisoinfo.it (2011), Pro Loco di Cimadolmo (2017), lavitadelpopolo.it a volte (Vedelago 2023).
 - Gli articoli di VenetoToday e Nordest24 sulle rassegne non dicono quasi mai l'ingresso: servono le schede

@@ -43,7 +43,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - escursioni guidate · via ferrata · scialpinismo · ciaspolate [racchette da neve] · alpinismo
   · uscite delle sezioni CAI [CAI Treviso uscite, gruppi Seniores, Kalipe', Neveganti]: mete in provincia (Cartizze,
     Monfenera, Monte Baldo di Vittorio Veneto), schede complete solo pochi giorni prima · uscite di fine anno con pranzo
-- **Sport d'acqua** [regata, gara di nuoto] (in autunno rara: nessun evento il 2026-11-09)
+- **Sport d'acqua** [regata, gara di nuoto] (in autunno rara: nessun evento il 2026-11-09) · regate in costume di Natale sul fiume [regata dei Babbi Natale, canottieri] (2026-11-23)
   · campionati di canottaggio di fondo sul Sile [canottieri, tricolori di fondo] · meeting di nuoto nelle piscine comunali [swim cup, trofeo]
   - nuoto in piscina · nuoto in acque libere · canoa e kayak · rafting · SUP [stand up paddle] · canottaggio
   - vela · pesca sportiva
@@ -56,7 +56,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Arti marziali e combattimento** [stage, torneo, open day] · judo · karate · taekwondo · boxe · kickboxing · scherma
   · gare regionali FIJLKAM con informativa PDF (Conegliano) [informativa, trofeo] (2026-11-19: solo calendari e PDF, resa 0) · stage di Natale delle palestre di karate [stage di Natale karate]
   · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
-- **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio
+- **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio · piste di pattinaggio in piazza [on ice, pista del ghiaccio] (novembre-gennaio, 2026-11-23)
   · piste di ghiaccio di Natale nelle piazze e nei centri commerciali [pista di ghiaccio, on ice] (da fine novembre) · gare e saggi di pattinaggio artistico sulle piste di Natale [saggio pattinaggio]
 - **Motori** [raduno, rally, gara] · rally · motocross · enduro moto · auto e moto d'epoca (raduni) · karting · motoraduni di Babbo Natale [babbi natale in moto, raccolta benefica] · raduni della Befana in moto
   · calendario ACI Sport del mese [acisport calendari] · mostre scambio di auto e moto d'epoca · autocross
@@ -92,7 +92,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · ambiente · astronomia (serate osservative) · festival di cittadinanza e cooperazione [festival, dialogo, 4passi]
   · guide all'ascolto con letture [guida all'ascolto, viaggio tra i grandi della musica] (2026-11-16) → trevisoeventi pagine comune · conferenze di centri culturali e spirituali [conferenza pubblica, simbolismo] (2026-11-16)
   · teatro forum e incontri partecipati · cicli comunali su salute e territorio [salute e territorio, agricoltura biologica] · sfilate di moda equosolidale nelle botteghe [sfilata, Altromercato, 4passi]
-- **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni · presepi viventi [presepio vivente, figuranti] · presepi inclusivi · passeggiate sulle tracce dei pittori dell'Ottocento [Ciardi]
+- **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni · presepi viventi [presepio vivente, figuranti] · presepi inclusivi · passeggiate sulle tracce dei pittori dell'Ottocento [Ciardi] · cortei natalizi della tradizione [ciarastea, Giuseppe e Maria cercano alloggio] (2026-11-23)
   · feste di San Martino con il santo a cavallo e il taglio del mantello [San Martin, San Martino a cavallo] · feste contadine con mostra di animali e benedizione delle macchine agricole [festa contadina, benedizione dei trattori]
 - **Patrimonio e tradizioni** · dialetto e cultura veneta · artigianato tradizionale · musei etnografici
   · palio e giochi tradizionali di paese [palio delle botti, transumanza delle botti] · musei d'impresa con aperture mensili [museo del caffe', primo sabato del mese] · aperture di palazzi delle fondazioni [Ca' Spineda, visita gratuita]
@@ -105,7 +105,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 
 ## Musica e party (`musica`)
 
-- **Concerti** [concerto, live] · rock e indie · cantautori · jazz [jam session] · blues · classica e cameristica
+- **Concerti** [concerto, live] · rock e indie · cantautori · jazz [jam session] · blues · classica e cameristica · cori gospel nei quartieri [gospel, coro] · concerti bandistici di Natale [banda in festa] (2026-11-23)
   · stagioni cameristiche delle orchestre con sale proprie [I Virtuosi Italiani, Teatro delle Voci, Teatro Eden] (2026-11-18) → ivirtuositaliani.eu · concerti narrati con attore e strumento antico [concerto narrato, viola da gamba]
   · lirica e opera · musica corale [coro, rassegna corale] · bande e fanfare · musica sacra e organo · metal
   · hip hop e rap · elettronica live · world e folk · tributi e cover band
@@ -114,10 +114,10 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Festival musicali** · estivi all'aperto · rassegne d'autunno · festival di musica antica
   · festival di musica a cappella [a cappella, VivaVoce] (2026-11-15) · festival organistici dei comuni [festival organistico, organi storici] (2026-11-15)
   · stagioni sinfoniche delle orchestre regionali [Filarmonia Veneta, Gocce musicali] (2026-11-15) → classicalive
-- **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ
+- **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ · Capodanno in piazza con dj e spettacolo piromusicale [Capodanno in piazza, piromusicale] (2026-11-23)
   · feste a tema dei club (cartoni, film, tributi) [party a tema, shrek party] · anniversari dei locali con dj ospiti gratuiti [celebration weekend] · serate Remember della vigilia di Natale [remember]
 - **Ballo** [serata danzante] · liscio · balli latini · swing e lindy hop · tango [milonga settimanale, pomeridiana di tango] · balli di gruppo
-- **Musica partecipata** · open mic · karaoke · jam session aperte · drum circle [cerchio di percussioni]
+- **Musica partecipata** · open mic · karaoke · jam session aperte · drum circle [cerchio di percussioni] · rassegne di cori scolastici in piazza [cori delle scuole, Natale] (2026-11-23)
   · open mic di stand-up comedy [open mic comicita'] · jam nelle sale prove comunali [free jam session, Progetto Giovani]
   · concerti in cuffia [silent concert, silent wifi]
   · concerti da ascoltare a occhi chiusi con poesia e coro [a occhi chiusi] (2026-11-17)
@@ -136,7 +136,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Cibo** · street food · cene a tema · corsi di cucina · mercati contadini con degustazioni · pranzi benefici con pasta di tradizione [pranzo solidale, magnar ben] · mostre mercato del radicchio [mostra del radicchio, Fiori d'Inverno] (gennaio)
   · cenoni di Capodanno con spettacolo nei teatri e nei circoli [cenone di Capodanno, cena spettacolo] (2026-11-18) → teatrodelpane.it
   · mostre mercato dell'olio nelle ville [Olio in Villa] (fine novembre) · te' e merende al museo [te' al museo] (2026-11-17)
-- **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed
+- **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed · accensione dell'albero e delle luminarie [accensione albero, luminarie] · sculture di ghiaccio dal vivo [scultori del ghiaccio] (2026-11-23)
   Epifania · feste di primavera e d'estate
   · accensione dell'albero e apertura dei villaggi di Natale (fine novembre) [accensione albero, villaggio di Natale]
   · feste del Ringraziamento e dell'agricoltura a San Martino con trattori d'epoca [festa del Ringraziamento, palio della gerla]
@@ -174,13 +174,13 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · rassegne comunali di prosa per famiglie la domenica pomeriggio [Domenica a teatro, ingresso 8 euro] (2026-11-16) → trevisoeventi stagione Trevignano Cultura · spettacoli natalizi per ragazzi nei teatri commerciali [K-pop, missione Natale] (2026-11-16)
 - **All'aperto** · fattorie didattiche · cacce al tesoro · feste di quartiere per famiglie · parchi avventura · laboratori nei garden center [laboratorio bambini garden] · piantumazione di bulbi per bambini · villaggi delle zucche [villaggio delle zucche] (ottobre)
   · ruote panoramiche e piste di ghiaccio dei Natali in centro [ruota panoramica, pista di pattinaggio] (2026-11-18) · case di Babbo Natale nei cortili dei centri storici [casa di Babbo Natale]
-- **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini
+- **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini · arrivo della Befana in piazza [Befana, carboncini] · pomeriggi a tema in biblioteca [Natale a Hogwarts] (2026-11-23)
   · cassette delle lettere di Babbo Natale e slitte virtuali nelle piazze [slitta virtuale] (2026-11-18)
   · accensione del presepe e dell'albero (8 dicembre) · mostre di presepi (date dell'anno escono a fine novembre) · San Nicolo' (6 dicembre)
 
 ## Mercatini e fiere (`mercatini-fiere`)
 
-- **Mercatini** [mercatino] · antiquariato e modernariato [ricorrenza mensile] · hobbistica e artigianato · antiquariato mensile nei borghi del centro [Cose d'Altri Tempi, quarta domenica]
+- **Mercatini** [mercatino] · antiquariato e modernariato [ricorrenza mensile] · hobbistica e artigianato · antiquariato mensile nei borghi del centro [Cose d'Altri Tempi, quarta domenica] · mercatini solidali dei laboratori per persone con disabilita' [mercatino solidale] (2026-11-23)
   · vintage e usato · mercatini di Natale · baratto e swap party · libri usati
   · mercatini di Natale di paese gia' da meta' novembre [mercatino di Natale <comune>]
   · mercatini natalizi a weekend nei borghi [Stelle a Natale, artigianato vivo] (primi due weekend di dicembre)
@@ -252,3 +252,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-21 · +10 voci · dove: Sport > Arrampicata (+1), Motori (+2), Arte e cultura > Storia e rievocazioni (+3), Sagre > Vino e bevande (+2), Spettacoli > Circo e arti di strada (+2)
 
 - 2026-11-22 · +10 voci · dove: Sport > Corsa (+3), Mercatini > Fiere (+3), Collezionismo (+2), Sport > Racchetta (+1), Arte e cultura > Patrimonio e tradizioni (+1)
+- 2026-11-23 · +11 voci · dove: Sport > Sport d'acqua (+1), Sport invernali (+1), Musica > Musica partecipata (+1), Concerti (+2), Serate (+1), Sagre > Feste stagionali (+2), Arte e cultura > Storia e rievocazioni (+1), Famiglie > Ricorrenze (+2), Mercatini (+1); nate dal programma del Natale a Treviso

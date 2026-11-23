@@ -1,28 +1,33 @@
 {
- "data": "2026-11-22",
- "aggiunti": 3,
- "corretti": 2,
- "rimossi": 1,
+ "data": "2026-11-23",
+ "aggiunti": 37,
+ "corretti": 0,
+ "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "mercatini-fiere": 1,
-  "sport": 2
+  "famiglie-bambini": 12,
+  "musica": 9,
+  "sagre-feste": 5,
+  "teatro-spettacoli": 4,
+  "mercatini-fiere": 4,
+  "sport": 2,
+  "arte-cultura": 1
  },
- "fonti_nuove": 3,
+ "fonti_nuove": 1,
  "fonti_spostate": 0,
  "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "8/10",
- "ricerche": 53,
- "eventi_per_ricerca": 0.06,
- "categorie_aggiunte": 10,
- "miglioria": "comando --doppioni per trovare i doppioni dentro eventi_redazione.yaml (con test)",
+ "copertura_test": "9/10",
+ "ricerche": 38,
+ "eventi_per_ricerca": 0.97,
+ "categorie_aggiunte": 11,
+ "miglioria": "piano della notte con tutte le frequenze delle fonti e avviso quando il PC e' fermo (con test)",
  "problemi": [
-  "il giro del PC non parte da undici notti (ultimo 11/11)",
-  "posizioni: Mapcarta non trova piazze e scuole, 51 luoghi senza punto",
-  "programma del Natale a Treviso 2026 non ancora trovato",
-  "al primo giro controllare i doppioni tra calendariopodismo e le marce aggiunte"
+  "il giro del PC non parte da dodici notti (ultimo 11/11)",
+  "programmi del Natale 2026 di Castelfranco, Oderzo, Montebelluna, Vittorio Veneto e Mogliano solo su siti non apribili",
+  "36 eventi del Natale a Treviso da articolo letto in parte in forma riassunta: controllare a campione",
+  "posizioni: 51 luoghi senza punto, Mapcarta non trova ville e auditorium"
  ]
 }

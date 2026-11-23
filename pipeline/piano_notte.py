@@ -19,7 +19,9 @@ from .config import ROOT
 from .textutil import today_rome
 
 OPS = ROOT / "ops"
-FREQ_DAYS = {"giornaliera": 1, "settimanale": 7, "mensile": 30}
+FREQ_DAYS = {"giornaliera": 1, "settimanale": 7, "mensile": 30, "trimestrale": 90, "annuale": 365}
+NEVER = ("mai",)  # fonti da non riaprire da sole (solo su richiesta)
+PC_STALE_DAYS = 2  # oltre questo il rapporto del PC e' vecchio: coda, campione e posizioni non sono rinnovati
 
 
 def budget() -> dict:
@@ -87,7 +89,7 @@ def due_sources(n: int) -> list[dict]:
     data = yaml.safe_load((OPS / "fonti.yaml").read_text(encoding="utf-8")) or {}
     today, due = today_rome(), []
     for f in data.get("fonti") or []:
-        if str(f.get("stato", "attiva")) in ("spostata", "ferma"):
+        if str(f.get("stato", "attiva")) in ("spostata", "ferma") or str(f.get("frequenza")) in NEVER:
             continue
         last = _day(f.get("ultimo_controllo"))
         every = FREQ_DAYS.get(str(f.get("frequenza", "settimanale")), 7)
@@ -96,6 +98,18 @@ def due_sources(n: int) -> list[dict]:
         due.append(f)
     due.sort(key=lambda f: (-int(f.get("qualita") or 0), str(f.get("ultimo_controllo") or "")))
     return due[:n]
+
+
+def pc_status(today: date | None = None) -> tuple[str, int | None]:
+    """(data dell'ultimo giro del PC, giorni passati) da ops/rapporto.json; giorni None se il rapporto manca."""
+    try:
+        r = json.loads((OPS / "rapporto.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return "mai", None
+    d = _day(r.get("finito_alle"))
+    if d is None:
+        return "mai", None
+    return d.isoformat(), ((today or today_rome()) - d).days
 
 
 def _count(name: str, key: str) -> int:
@@ -111,7 +125,15 @@ def main(argv=None) -> int:
     cov = yaml.safe_load((OPS / "copertura.yaml").read_text(encoding="utf-8")) or {}
     print(f"PIANO DELLA NOTTE {today_rome().isoformat()} · piano Claude: {b['piano']} · "
           f"al massimo {b['ricerche_max']} ricerche (WebSearch + WebFetch) in tutta la notte")
-    print(f"Provincia attiva: {name} ({sigla})\n")
+    print(f"Provincia attiva: {name} ({sigla})")
+    last, days = pc_status()
+    if days is None or days > PC_STALE_DAYS:
+        print(f"ATTENZIONE: il PC non gira dal {last} ({days if days is not None else '?'} giorni). Coda, campione e "
+              f"posizioni sono vecchi: non spendere ricerche su di loro, riporta i numeri gia' noti e usa il budget "
+              f"per la ricerca. Segnalalo nel messaggio finale.")
+    else:
+        print(f"Giro del PC: ultimo il {last}")
+    print()
 
     print("1. Manutenzione")
     print(f"   - segnalazioni dal sito: {_count('segnalazioni.json', 'segnalazioni')} negli ultimi 30 giorni "

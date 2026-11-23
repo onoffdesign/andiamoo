@@ -941,8 +941,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 5, ultimi: [4, 1] }
-  ultimo_controllo: '2026-11-16'
+  resa: { controlli: 3, eventi_trovati: 5, ultimi: [4, 1, 0] }
+  ultimo_controllo: '2026-11-23'
   automatizzabile: da_valutare
   stato: attiva
   note: "prima pagina = 10 mostre TV in corso con date e sede (solo 1 era sul sito). Le schede (orari, prezzi) si aprono SOLO se compaiono prima in una ricerca: 8 aperture dirette rifiutate il 2026-11-09. Restano da aggiungere: Andar per fiere (Treviso), Cesco Magnolato (Oderzo), Paolo Battistin (Vittorio Veneto, fino al 21/11), Fotografia italiana 1955 (Castelfranco, fino al 15/11) 2026-11-16: la pagina /mostre/treviso/mostre-tematiche ha dato Andar per fiere al Salce (mancante); le schede uscite dalla ricerca si aprono."
@@ -1011,8 +1011,8 @@ fonti:
   province: [TV]
   frequenza: annuale
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 13, ultimi: [13, 0] }
-  ultimo_controllo: '2026-11-16'
+  resa: { controlli: 3, eventi_trovati: 13, ultimi: [13, 0, 0] }
+  ultimo_controllo: '2026-11-23'
   automatizzabile: no
   stato: attiva
   note: "una lettura = tutte le feste del radicchio da novembre a marzo con le date. Mancano luoghi e programmi: ricontrollare le Pro Loco una settimana prima di ogni festa (PrimaVera in Festa di Roncade 14 e 21/3 ancora da aggiungere) 2026-11-16: il sito ufficiale fioridinverno.tv ha l'elenco con le schede di ogni festa (link usati come official_url al posto di umbriaecultura); Rio San Martino di Scorze' e Mirano sono in provincia di Venezia."
@@ -1476,11 +1476,11 @@ fonti:
   province: [TV]
   frequenza: mensile
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 12, ultimi: [10, 2] }
-  ultimo_controllo: '2026-11-21'
+  resa: { controlli: 3, eventi_trovati: 13, ultimi: [10, 2, 1] }
+  ultimo_controllo: '2026-11-23'
   automatizzabile: 'no'
   stato: attiva
-  note: "Date e fasce di prezzo di tutta la stagione (lirica 14-60, concerti 10-38, Giovani Promesse 8-28 euro), senza gli orari dei concerti (presi da ClassicaLive). Mancano ancora l'ora del Gala Premio Silveri (25/11) e del Concerto di Natale gospel (22/12): riaprire a dicembre."
+  note: "Date e fasce di prezzo di tutta la stagione (lirica 14-60, concerti 10-38, Giovani Promesse 8-28 euro), senza gli orari dei concerti (presi da ClassicaLive). Il libretto PDF (risorse.teatrostabileveneto.it/hubfs/Stagione%20Lirica%20Concertistica%2026_27.pdf) ha anche gli orari: letto il 23/11, aggiunto Saul (16/3); oltre i 120 giorni restano Chamberjam (24/3), Faes (6/4), Volodos (13/4), Opus Avantra (21/4), Treviso Suona Jazz (30/4, 22/5), Scuola Napoletana (12/5): aggiungerli tra dicembre e gennaio."
 - nome: Sagratour (sagre di Treviso)
   url: https://sagratour.it/sagre/treviso/
   query: sagratour sagre Treviso
@@ -1672,8 +1672,8 @@ fonti:
   province: [TV]
   frequenza: trimestrale
   qualita: 1
-  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
-  ultimo_controllo: 2026-11-16
+  resa: { controlli: 2, eventi_trovati: 1, ultimi: [1, 0] }
+  ultimo_controllo: '2026-11-23'
   automatizzabile: 'no'
   stato: debole
   note: "Due conferenze l'anno, ingresso libero su prenotazione."
@@ -2013,4 +2013,17 @@ fonti:
   automatizzabile: 'no'
   stato: attiva
   note: "Stagione da maggio a luglio (XVI nel 2026) al Circolo Unificato dell'Esercito di Treviso e nelle chiese di Biancade e San Cipriano, con prezzi e prenotazione; il programma esce come PDF allegato del Comune di Roncade. Riaprire ad aprile."
-
+- nome: Natale a Treviso, programma del Comune (articolo Qdpnews)
+  url: https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/
+  query: qdpnews Natale a Treviso <anno> appuntamenti rassegna diffusa centro quartieri
+  tipo: testata
+  categorie: [sagre-feste, musica, famiglie-bambini, mercatini-fiere, teatro-spettacoli]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: annuale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 36, ultimi: [36] }
+  ultimo_controllo: '2026-11-23'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Programma completo del Natale del Comune (oltre 150 appuntamenti, 28/11-6/1) con ora e luogo, pubblicato il 20/11/2026; quasi niente prezzi. TrevisoToday e OggiTreviso hanno lo stesso programma ma vietano WebFetch. Riaprire a meta' novembre di ogni anno, controllando la data dell'articolo."
