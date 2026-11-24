@@ -30,6 +30,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - corse dei Babbi Natale [Babbi Natale, Santa Klaus run, X-mas run] (fine novembre - dicembre) → podopodo, trovaeventi
   - corse benefiche di associazioni [corsa solidale, per la ricerca] · ciclocross di dicembre [trofeo ciclocross, memorial]
   · calendario annuale delle marce non competitive provinciali [Trevisando, marce non competitive <anno>] (2026-11-22) → trevisando.it · marce di San Nicolo' e dell'Immacolata [marcia San Nicolo', marcia dell'Immacolata] (2026-11-22) · corse di solidarieta' di Santo Stefano [little run, corsa 26 dicembre] (2026-11-22)
+  · corse solidali di Santo Stefano [run 26 dicembre] (2026-11-24)
 - **Ciclismo** [gran fondo, cicloturistica, randonnée, gravel]
   - strada · mountain bike [XC, enduro, marathon MTB] · gravel · ciclocross · e-bike · BMX
   - cicloturistiche ed eroiche · pedalate per famiglie · bike test e raduni
@@ -83,8 +84,10 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · manifesti pubblicitari e grafica d'epoca [Collezione Salce] · mostre in ville con parco [villa, giardino, biglietto mostra e parco] · collezioni private aperte nei fine settimana [apertura straordinaria, curatore] · premi di pittura delle Pro Loco [premio nazionale di pittura, acquerello]
   · mostre diffuse su piu' sedi di una citta' [mostra diffusa, centenario] (2026-11-17)
   · mostre di costumi teatrali e restauro tessile [Avanscena, costumi di scena] · mostre nelle gallerie dei licei artistici [galleria del liceo, inaugurazione] · retrospettive di scultori del territorio [Toni Benetton] (2026-11-20)
+  · mostre nelle gallerie dei licei artistici [galleria del liceo artistico] (2026-11-24) · rassegne per gli anniversari di un artista [700 anni, centenario]
 - **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale]
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
+  · itinerari guidati con letture e musica nelle chiese [sulle orme di] (2026-11-24) · visite guidate dello IAT legate a una rassegna [IAT visita guidata]
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
   · calendario settimanale delle presentazioni delle librerie di catena [eventi nelle librerie] (2026-11-18) → treviso.ubiklibri.it/eventi.html · firmacopie del sabato in libreria [firmacopie]
   · letture per adulti · poesia e slam poetry
@@ -111,6 +114,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · hip hop e rap · elettronica live · world e folk · tributi e cover band
   · concerti tributo nei teatri [tribute show, tribute band, omaggio a] (2026-11-16) → TicketOne /cityd/<comune>/concerti-55/, canzoni.it · stagioni musicali dei cinema-teatri [cinema teatro, Oderzo suona] (2026-11-16) → cinemacristallo · cori gospel in tournee [mass choir] (2026-11-16)
   · stagioni liriche dei teatri comunali [stagione lirica, opera, operetta] (2026-11-15) → risorse.teatrostabileveneto · concerti di Natale gospel [gospel, concerto di Natale] (2026-11-15)
+  · date dei tour nei club con pacchetti meet and greet [meet and greet, club tour] (2026-11-24)
 - **Festival musicali** · estivi all'aperto · rassegne d'autunno · festival di musica antica
   · festival di musica a cappella [a cappella, VivaVoce] (2026-11-15) · festival organistici dei comuni [festival organistico, organi storici] (2026-11-15)
   · stagioni sinfoniche delle orchestre regionali [Filarmonia Veneta, Gocce musicali] (2026-11-15) → classicalive
@@ -219,6 +223,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   (Sile, Piave) · notturne e al chiaro di luna · birdwatching · forest bathing · camminate di nordic walking aperte a tutti [nordic walking, camminata d'autunno]
   · passeggiate urbane ai margini della citta' (Legambiente)
   · camminate abbinate alle mostre mercato d'autunno [camminata, colline nascoste] · percorsi tra i presepi nel bosco del Montello [presepi nel bosco] (dicembre)
+  · escursioni delle Pro Loco del primo weekend di dicembre [Boschi a Natale] (2026-11-24) · grotte e forre [Grotte del Caglieron] · sentieri dei carbonai e dei mulini [carbonai, mulini] · parchi archeologici didattici [Livelet, palafitte]
 - **Ambiente** · pulizia di parchi e fiumi · piantumazioni · educazione ambientale · domeniche ecologiche con distribuzione di piantine [domenica ecologica, alberi in pianura] · Puliamo il Mondo di Legambiente [puliamo il mondo] (settembre-ottobre)
   · raccolte di rifiuti di Plastic Free e FIPSAS [plastic free, zeroplastic]
   · raccolte dei volontari Plastic Free [cleanup Plastic Free] (elenco solo con registrazione: 2026-11-17) · gruppi di ecovolontari dei comuni [Passi Puliti, ecovolontari] · Festa dell'albero del 21 novembre [Giornata nazionale degli alberi, festa degli alberi]
@@ -237,6 +242,7 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-02 · +12 voci · dove: Spettacoli > Teatro (+4), Comicita' (+1), Danza (+1), Famiglie > Laboratori (+2), Mercatini (+1), Fiere (+2), Collezionismo (+1)
 - 2026-11-05 · +11 voci · dove: Sport > Eventi per chi guarda (+4), Arti marziali (+1), Equitazione (+1), Business > Networking (+2), Natura > Ambiente (+1), Animali (+1), Arte e cultura > Visite guidate (+1)
 - 2026-11-06 · +11 voci · dove: Sport > Motori (+3), Sagre > Vino e bevande (+3), Mercatini > Mercati agricoli (+2), Business > Convegni e conferenze (+3)
+- 2026-11-24 · +10 voci · dove: Natura > Escursioni (+4), Arte e cultura > Mostre (+2), Visite guidate (+2), Musica > Concerti (+1), Sport > Corsa (+1)
 - 2026-11-12 · +11 voci · dove: Sport > Arrampicata (+2), Montagna ed escursionismo (+2), Sport di precisione (+3), Sagre (+4)
 - 2026-11-07 · +10 voci · dove: Sport > Sport per tutti (+3), Arte e cultura > Storia e rievocazioni (+2), Spettacoli > Circo e arti di strada (+2), Mercatini > Collezionismo (+3)
 - 2026-11-08 · +10 voci · dove: Sport > Racchetta (+2), Arte e cultura > Patrimonio e tradizioni (+3), Musica > Musica partecipata (+2), Spettacoli > Cinema (+3)

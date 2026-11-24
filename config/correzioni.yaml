@@ -19,6 +19,8 @@ correggi:
     all_day: false
     venue: "Auditorium Santa Caterina"
     official_url: "https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/"
+    access: "iscrizione"
+    price: "gratuito, iscrizione su Eventbrite"
     nota: "pagina della rassegna Tomaso 700 dei Musei Civici: primo turno sabato 28/11 alle 20:30 all'Auditorium Santa Caterina, secondo turno domenica 29/11 alle 16 (aggiunto in redazione), gratuito con prenotazione"
     verificato: "2026-11-24"
   0076f28ed3e239a6:
@@ -53,13 +55,6 @@ correggi:
     nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
     verificato: 2026-10-29
   8186906e477ccf5f:
-    venue: Porta San Tomaso (mura di Treviso)
-    address: Porta San Tomaso, Treviso
-    lat: 45.66994
-    lon: 12.25089
-    nota: "ritrovo a Porta San Tomaso; coordinate da komoot (highlight 1550389). Era al centro della provincia, 16 km a nord"
-    verificato: 2026-10-29
-  19283ff22f7bb490:
     venue: Porta San Tomaso (mura di Treviso)
     address: Porta San Tomaso, Treviso
     lat: 45.66994
@@ -525,11 +520,6 @@ correggi:
     access: "iscrizione"
     price: "gratuito, iscrizione su Eventbrite"
     nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): martedi' 17/11 ore 9:00 (piu' un'altra data)"
-    verificato: "2026-11-06"
-  95e70a547deb0448:
-    access: "iscrizione"
-    price: "gratuito, iscrizione su Eventbrite"
-    nota: "elenco Eventbrite degli eventi gratuiti di Treviso (6/11): due date, 28 e 29/11; orario del 28 non letto"
     verificato: "2026-11-06"
   3ae4cecc9ed9584b:
     start: "2026-11-18T09:00"

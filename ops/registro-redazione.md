@@ -2,6 +2,48 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-24
+
+- **Giro del PC**: NON ha girato per la tredicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica.
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (stessi eventi aperti dell'11/11, quasi tutti conclusi).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11). Cercati su
+  Mapcarta il Municipio di San Fior e Villa Bornello (2 ricerche, solo centri e localita'). Nessun luogo aggiunto. Dopo: invariato.
+- **Eventi corretti** (1, piu' 1 voce doppia di correzioni.yaml unita): Il canto di Orsola (rassegna Tomaso 700): ora 20:30, Auditorium Santa Caterina, link alla pagina della rassegna.
+- **Rimossi**: 0. **Verificati**: 0.
+- **Eventi aggiunti** (13): natura e benessere 8 (escursioni Boschi a Natale delle Pro Loco del 5-6/12 a Vittorio Veneto,
+  Follina, Revine Lago, Conegliano, Fregona, Cordignano e Cison di Valmarino x2, dal programma UNPLI Veneto); arte e cultura 3
+  (visite guidate IAT Tomaso 700 del 28/11 e 19/12, Sulle orme di Tomaso 13/12); musica 2 (secondo turno de Il canto di Orsola
+  29/11, Andrea Cerrato al New Age 21/1). Ora e ritrovo delle escursioni letti due volte dal programma (pagina lunga letta a
+  meta'): l'ora di Vittorio Veneto non e' certa ed e' rimasta vuota.
+  Non aggiunti: Bluvertigo al New Age 18/3/2027 (solo Il Tacco di Bacco), Tito Tarantula, Flextony e Tigerplug, Will (schede
+  TicketOne non apribili), Motorpsycho 22/4/2027 (oltre 120 giorni), Notte Bianca di Castelfranco 27/11 (nessuna pagina ufficiale
+  trovata), Raffaella Carra' Show 27/3/2027 (oltre 120 giorni).
+- **Comuni controllati**: Trevignano, Follina, Cessalto, Segusino, Gaiarine, Vazzola (0 dalle ricerche per comune: solo
+  eventiesagre di anni passati e omonimi; Follina e Cison ricevono poi 3 escursioni da Boschi a Natale).
+- **Categorie cercate**: Arte e cultura > Mostre (0 nuove: le 8 mostre TV di TViWeb e quelle dei Musei Civici sono tutte sul
+  sito; 3 appuntamenti della rassegna Tomaso 700), Sport > Corsa (0: le 4 marce di dicembre del calendario Trevisando gia'
+  sul sito), Sport > Sport di squadra (0: Imoco, Treviso Basket e Benetton Rugby gia' tutti in redazione), Sport > Sport
+  tradizionali e popolari (0). +10 voci nell'albero.
+- **Fonti note**: Trevisando (0), Musei Civici (4 dalla pagina della rassegna), Il Tacco di Bacco Castelfranco (0 nuovi entro 120 giorni).
+- **Fonti nuove catalogate**: 4 (Boschi a Natale UNPLI, TViWeb mostre del weekend, rassegna Tomaso 700, schede TicketOne del
+  New Age). Scartati: Qdpnews Natale di Montebelluna e della Marca, eventiesagre Natale a Mogliano e concerti di Natale (tutti
+  2016-2025). Spostate in sources.yaml: 0.
+- **Pulizia**: non fatta (l'archivio non si aggiorna dall'11/11).
+- **Miglioria**: `--controlla` ora segnala gli uid ripetuti in correzioni.yaml (YAML teneva solo l'ultima voce: la
+  correzione di stanotte a Il canto di Orsola non si applicava; trovato e unito anche un doppione di Treviso Sotterranea),
+  con test. Nel metodo: anno tra virgolette in extended per i programmi stagionali e data di pubblicazione chiesta per
+  prima all'agente che legge la pagina (stanotte 7 letture a vuoto su pagine di anni passati).
+- **Test di copertura**: 9/10 (8 mostre di TViWeb, Lipparini dei Musei Civici, Boschi a Natale mancante). Criterio di
+  saturazione: non valutato (non e' lunedi').
+- **Ricerche**: 50 su 70 (23 WebSearch, 27 WebFetch, di cui 13 a vuoto: 7 pagine di anni passati, 6 rifiutate o in errore).
+- **Problemi aperti**: il giro del PC non parte da tredici notti; programmi del Natale 2026 di Castelfranco, Oderzo,
+  Montebelluna, Vittorio Veneto e Mogliano ancora non trovati; schede TicketOne del New Age apribili solo in parte.
+
 ## 2026-11-23
 
 - **Giro del PC**: NON ha girato per la dodicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

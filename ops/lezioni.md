@@ -77,6 +77,10 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   Colle Umberto, Valdobbiadene, Vedelago) da' solo portali generici a fine novembre: meglio cercare il programma del Natale
   del comune a fine mese. Il libretto PDF della stagione lirica e concertistica del Teatro Stabile ha anche gli orari.
 
+- 2026-11-24: la pagina di una singola rassegna dei Musei Civici (/mostre-ed-eventi/<rassegna>/) ha ora, luogo e link di
+  prenotazione di ogni appuntamento; il programma UNPLI di Boschi a Natale elenca le escursioni delle Pro Loco di tutte
+  le province venete con una scheda ciascuna (ora e ritrovo). Le schede TicketOne del New Age si aprono 1 su 3.
+
 ## Fonti da evitare o poco utili
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
   teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
@@ -153,6 +157,10 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   calendari federali e pagine di altre regioni); virgilio.it da' errore a WebFetch; newageclub.it/events/ in errore;
   le schede CAI a 6 giorni dall'uscita sono ancora 'in aggiornamento'. Programmi di Natale di Treviso, Villorba e Pieve
   al 19/11 non ancora usciti.
+
+- 2026-11-24: ricerche "eventi <comune> dicembre" e "<comune> Natale" senza dominio (Trevignano, Follina, Cessalto,
+  Vazzola) danno solo eventiesagre di anni passati e omonimi (Trevignano Romano): saltarle. Qdpnews Natale di Montebelluna
+  e della Marca, eventiesagre Mogliano e concerti di Natale: tutti 2016-2025.
 
 ## Calendario (chi pubblica quando)
 - Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli

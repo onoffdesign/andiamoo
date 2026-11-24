@@ -189,3 +189,11 @@ def test_archive_keeps_every_published_event(tmp_path):
     assert recs["c3"]["stato"] == "non_piu_presente"
     assert archive.write_files(store, folder) == 0                 # nulla di nuovo: file non riscritti
     assert archive.search("radicchio", "2026", folder)[0]["uid"] == "a1"
+
+
+def test_duplicate_keys_in_correzioni():
+    from pipeline.editorial import duplicate_keys
+    text = "correggi:\n  abc:\n    title: x\n  def:\n    title: y\n  abc:\n    start: z\nrimuovi:\n  abc: \"motivo\"\n"
+    errs = duplicate_keys(text)
+    assert len(errs) == 1 and "correggi.abc" in errs[0]
+    assert duplicate_keys("correggi:\n  a:\n    t: 1\nverificati:\n  a: 2026-11-24\n") == []

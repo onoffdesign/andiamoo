@@ -48,6 +48,10 @@ Come cercare:
 - WebFetch apre solo link comparsi nei risultati di ricerca: cercare "titolo + comune + anno" per far uscire la
   pagina giusta.
 - Controllare sempre l'anno: molte pagine parlano di edizioni passate.
+- (2026-11-24) **Anno prima di aprire.** Per programmi stagionali (Natale, estate) la ricerca deve avere l'anno tra
+  virgolette ("Natale 2026") in modalita' extended: stanotte cosi' sono uscite solo pagine dell'anno, mentre le ricerche
+  senza virgolette hanno dato 7 letture a vuoto su articoli 2016-2025 (Qdpnews, eventiesagre). Quando si fa leggere
+  una pagina a un agente, chiedere per prima la data di pubblicazione e di fermarsi subito se non e' dell'anno.
 - Dati strutturati prima di tutto: una pagina con JSON-LD `Event`, un sito WordPress con The Events Calendar
   (`/wp-json/tribe/events/v1/events`) o un comune MyPortal si passano al PC subito.
 - Fonti ufficiali come conferma e come `official_url`; aggregatori e piattaforme solo per scoprire.
@@ -192,6 +196,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-24 · TV · ricerche 50 · eventi nuovi 13 (piu' 1 correzione) · eventi per ricerca 0,26 · fonti al PC +0 (catalogate Boschi a Natale UNPLI, TViWeb mostre, rassegna Tomaso 700, TicketOne New Age) · miglioria: `--controlla` segnala gli uid ripetuti in correzioni.yaml (una correzione nuova si perdeva in silenzio); anno tra virgolette in extended per i programmi stagionali e data di pubblicazione chiesta per prima all'agente di lettura (7 letture a vuoto su pagine di anni passati); ricerche per comune senza dominio ancora a resa 0 (6)
 - 2026-11-23 · TV · ricerche 38 · eventi nuovi 37 · eventi per ricerca 1,0 · fonti al PC +0 · miglioria: piano della notte con tutte le frequenze delle fonti e avviso del PC fermo; il programma del Natale del capoluogo da una sola lettura (36 eventi)
 - 2026-11-22 · TV · ricerche 53 · eventi nuovi 3 (piu' 2 link sistemati e 1 doppione tolto) · eventi per ricerca 0,06 · fonti al PC +0 (catalogate Trevisando, Fiere di Santa Lucia, Concerti Classica Treviso) · miglioria: `python -m pipeline.editorial --doppioni` trova i doppioni dentro eventi_redazione.yaml (stesso giorno e comune, titolo simile, ore uguali o mancanti): da lanciare a ogni fine notte prima del commit, stanotte 1 doppione (Anna Castiglia) che --cerca non segnala perche' entrambi della redazione. Ricerche per comune e per ambito senza dominio ancora a resa ~0 (11 ricerche), posizioni non sistemate (Mapcarta a vuoto su piazze e scuole)
 - 2026-11-21 · TV · ricerche 58 · eventi nuovi 8 (piu' 1 correzione e 1 luogo) · eventi per ricerca 0,14 · fonti al PC +0 (catalogate mentelocale Treviso e Happy Ticket Treviso) · miglioria: pagina provincia di mentelocale per test di copertura e scoperta in una lettura, conferma su libretto della sala e biglietteria; ricerche per comune e per ambito senza dominio ancora a resa 0 (10 ricerche), Mapcarta rifiuta 2 schede su 3

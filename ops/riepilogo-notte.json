@@ -1,33 +1,29 @@
 {
- "data": "2026-11-23",
- "aggiunti": 37,
- "corretti": 0,
+ "data": "2026-11-24",
+ "aggiunti": 13,
+ "corretti": 1,
  "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "famiglie-bambini": 12,
-  "musica": 9,
-  "sagre-feste": 5,
-  "teatro-spettacoli": 4,
-  "mercatini-fiere": 4,
-  "sport": 2,
-  "arte-cultura": 1
+  "natura-outdoor": 8,
+  "arte-cultura": 3,
+  "musica": 2
  },
- "fonti_nuove": 1,
+ "fonti_nuove": 4,
  "fonti_spostate": 0,
  "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
  "copertura_test": "9/10",
- "ricerche": 38,
- "eventi_per_ricerca": 0.97,
- "categorie_aggiunte": 11,
- "miglioria": "piano della notte con tutte le frequenze delle fonti e avviso quando il PC e' fermo (con test)",
+ "ricerche": 50,
+ "eventi_per_ricerca": 0.26,
+ "categorie_aggiunte": 10,
+ "miglioria": "--controlla segnala gli uid ripetuti in correzioni.yaml (una correzione nuova si perdeva in silenzio); anno tra virgolette in ricerca extended per i programmi stagionali",
  "problemi": [
-  "il giro del PC non parte da dodici notti (ultimo 11/11)",
-  "programmi del Natale 2026 di Castelfranco, Oderzo, Montebelluna, Vittorio Veneto e Mogliano solo su siti non apribili",
-  "36 eventi del Natale a Treviso da articolo letto in parte in forma riassunta: controllare a campione",
-  "posizioni: 51 luoghi senza punto, Mapcarta non trova ville e auditorium"
+  "il giro del PC non parte dall'11/11 (13 notti)",
+  "programmi del Natale 2026 di Castelfranco, Oderzo, Montebelluna, Vittorio Veneto e Mogliano non trovati",
+  "schede TicketOne del New Age apribili solo in parte",
+  "ora dell'escursione Boschi a Natale di Vittorio Veneto da confermare"
  ]
 }

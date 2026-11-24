@@ -79,12 +79,31 @@ def validate_fields(fields: dict, where: str) -> list[str]:
     return errs
 
 
+def duplicate_keys(text: str) -> list[str]:
+    """uid ripetuti nella stessa sezione di correzioni.yaml: YAML tiene solo l'ultimo e la correzione nuova si perde
+    in silenzio (2026-11-24: Il canto di Orsola corretto due volte, valeva la voce vecchia)."""
+    errs, section, seen = [], None, {}
+    for n, line in enumerate(text.splitlines(), 1):
+        if line and not line.startswith((" ", "#")) and line.rstrip().endswith(":"):
+            section, seen = line.rstrip()[:-1], {}
+            continue
+        m = re.match(r"^  ([^\s#:][^:]*):", line)
+        if section and m:
+            key = m.group(1).strip().strip("'\"")
+            if key in seen:
+                errs.append(f"{section}.{key}: ripetuto alle righe {seen[key]} e {n}, unisci le due voci (vale solo l'ultima)")
+            else:
+                seen[key] = n
+    return errs
+
+
 def check() -> list[str]:
     errs = []
     try:
         corr = load()
     except yaml.YAMLError as e:
         return [f"correzioni.yaml non leggibile: {e}"]
+    errs += duplicate_keys(CORRECTIONS.read_text(encoding="utf-8")) if CORRECTIONS.exists() else []
     for uid, fields in corr["correggi"].items():
         if not isinstance(fields, dict):
             errs.append(f"correggi.{uid}: deve contenere i campi da cambiare")

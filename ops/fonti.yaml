@@ -2027,3 +2027,59 @@ fonti:
   automatizzabile: 'no'
   stato: attiva
   note: "Programma completo del Natale del Comune (oltre 150 appuntamenti, 28/11-6/1) con ora e luogo, pubblicato il 20/11/2026; quasi niente prezzi. TrevisoToday e OggiTreviso hanno lo stesso programma ma vietano WebFetch. Riaprire a meta' novembre di ogni anno, controllando la data dell'articolo."
+- nome: Boschi a Natale (UNPLI Veneto, escursioni delle Pro Loco)
+  url: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+  query: unpliveneto programma Boschi a Natale <anno>
+  tipo: aggregatore
+  categorie: [natura-outdoor]
+  comuni: [Vittorio Veneto, Follina, Revine Lago, Conegliano, Fregona, Cordignano, Cison di Valmarino]
+  province: [TV, BL, PD, RO, VE, VR, VI]
+  frequenza: annuale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 8, ultimi: [8] }
+  ultimo_controllo: '2026-11-24'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Escursioni delle Pro Loco nel primo weekend di dicembre in tutte le province venete, 7 euro con prenotazione; ogni escursione ha la sua scheda su boschianatale.prolocobellunesi.it con ora, ritrovo e posti. Pagina lunga (60 mila caratteri): WebFetch la legge a meta', chiedere le righe TV. Utile anche per le province successive. Riaprire a meta' novembre."
+- nome: TViWeb, mostre in Veneto del weekend
+  url: https://www.tviweb.it/mostre-in-veneto-nel-weekend-dal-20-al-22-novembre-2026-42-esposizioni-da-visitare-da-vicenza-a-venezia/
+  query: tviweb mostre in Veneto nel weekend <date> esposizioni da visitare
+  tipo: testata
+  categorie: [arte-cultura]
+  comuni: [Treviso, Conegliano, Asolo, Possagno]
+  province: [TV, VI, VE, PD, VR, BL, RO]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-24'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Guida settimanale delle mostre aperte divisa per provincia, con date, orari e sito ufficiale di ognuna: 8 mostre TV, tutte gia' sul sito (vale come test di copertura delle mostre). Esce a meta' settimana."
+- nome: Rassegna Tomaso 700 (Musei Civici di Treviso)
+  url: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+  query: museicivicitreviso Tomaso 700 anni di sguardi
+  tipo: museo
+  categorie: [arte-cultura, musica]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mai
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
+  ultimo_controllo: '2026-11-24'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Programma della rassegna (26/9-5/12/2026, piu' visita IAT del 19/12) con ora, luogo e link di prenotazione: la pagina della singola rassegna dei Musei Civici ha piu' dati dell'elenco mostre-ed-eventi. Le altre rassegne dei Musei Civici hanno pagine simili."
+- nome: TicketOne, schede dei concerti del New Age Club
+  url: https://www.ticketone.it/event/motorpsycho-new-age-club-22287163/
+  query: ticketone new age club Roncade <artista o mese>
+  tipo: biglietteria
+  categorie: [musica]
+  comuni: [Roncade]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-24'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Una ricerca 'ticketone new age club' da' 15-20 schede di concerti del club; WebFetch ne apre circa 1 su 3 (2 su 6 il 24/11). Gia' sul sito: Nanowar, Dagood YL, LA Guns; mancano Tito Tarantula, Flextony e Tigerplug, Will (schede non apribili), Bluvertigo (18/3/2027, solo Il Tacco di Bacco). Motorpsycho 22/4/2027 (oltre 120 giorni, aggiungere a fine dicembre). Meglio se il PC legge la pagina venue TicketOne del New Age come la fonte ticketone."
