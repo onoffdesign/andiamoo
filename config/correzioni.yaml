@@ -14,6 +14,13 @@
 #   9e8d7c6b5a493827: 2026-10-30        # controllato, dati gia' corretti
 
 correggi:
+  95e70a547deb0448:
+    start: "2026-11-28T20:30"
+    all_day: false
+    venue: "Auditorium Santa Caterina"
+    official_url: "https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/"
+    nota: "pagina della rassegna Tomaso 700 dei Musei Civici: primo turno sabato 28/11 alle 20:30 all'Auditorium Santa Caterina, secondo turno domenica 29/11 alle 16 (aggiunto in redazione), gratuito con prenotazione"
+    verificato: "2026-11-24"
   0076f28ed3e239a6:
     official_url: "https://trevisando.it/marcia/santa-klaus-run/"
     nota: "calendario Trevisando 2026 delle marce non competitive (PDF): 20/12 a Conegliano, partenza alle 10, 4,5 e 9,5 km, organizza e20run A.S.D.; link alla scheda Trevisando"

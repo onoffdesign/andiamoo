@@ -5829,3 +5829,165 @@ eventi:
     fonte: https://risorse.teatrostabileveneto.it/hubfs/Stagione%20Lirica%20Concertistica%2026_27.pdf
     nota: libretto della Stagione lirica e concertistica 2026/27 del Teatro Stabile del Veneto; prezzi della fascia concertistica
     trovato: '2026-11-23'
+  - title: "Il canto di Orsola (secondo turno)"
+    start: 2026-11-29T16:00
+    venue: "Auditorium Santa Caterina"
+    address: "Piazzetta Mario Botter 1"
+    town: "Treviso"
+    category: musica
+    subcategory: concerti
+    access: iscrizione
+    price: "gratuito con prenotazione"
+    official_url: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+    summary: "Replica pomeridiana dello spettacolo prodotto da Spirito Nuovo e Fondazione Efesto nella rassegna Tomaso 700 dei Musei Civici."
+    fonte: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+    trovato: '2026-11-24'
+  - title: "Visita guidata Tomaso 700"
+    start: 2026-11-28T15:00
+    venue: "IAT Treviso"
+    town: "Treviso"
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    price: "9 euro, ridotto 7 euro"
+    official_url: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+    summary: "Visita guidata dello IAT di Treviso ai luoghi di Tomaso da Modena, nella rassegna per i 700 anni dell'artista."
+    fonte: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+    nota: "ritrovo non indicato sulla pagina; prenotazione allo IAT di Treviso"
+    trovato: '2026-11-24'
+  - title: "Visita guidata Tomaso 700"
+    start: 2026-12-19T15:00
+    venue: "IAT Treviso"
+    town: "Treviso"
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    price: "9 euro, ridotto 7 euro"
+    official_url: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+    summary: "Visita guidata dello IAT di Treviso ai luoghi di Tomaso da Modena, nella rassegna per i 700 anni dell'artista."
+    fonte: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+    nota: "ritrovo non indicato sulla pagina; prenotazione allo IAT di Treviso"
+    trovato: '2026-11-24'
+  - title: "Sulle orme di Tomaso"
+    start: 2026-12-13T16:00
+    venue: "Seminario Vescovile, chiesa di San Nicolo'"
+    town: "Treviso"
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    price: "gratuito con prenotazione"
+    official_url: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+    summary: "Itinerario guidato con letture e brani musicali sui luoghi di Tomaso da Modena, con partenza dal Seminario Vescovile."
+    fonte: https://www.museicivicitreviso.it/mostre-ed-eventi/tomaso-700/
+    nota: "massimo 45 persone per turno, prenotazione su Eventbrite"
+    trovato: '2026-11-24'
+  - title: "Boschi a Natale: Con alti, con bassi, cammino Unesco"
+    start: 2026-12-06
+    venue: "IAT Vittorio Veneto"
+    town: "Vittorio Veneto"
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: "7 euro"
+    official_url: https://boschianatale.prolocobellunesi.it/escursioni-boschi/con-alti-con-bassi-cammino-unesco-pro-loco-vittorio-veneto-aps/
+    summary: "Escursione di tre ore di media difficolta' della Pro Loco di Vittorio Veneto nella rassegna regionale Boschi a Natale delle Pro Loco."
+    fonte: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+    nota: "programma UNPLI Veneto: partenza dallo IAT, ora non letta con certezza; prenotazione online obbligatoria, scarpe da trekking"
+    trovato: '2026-11-24'
+  - title: "Boschi a Natale: Follina e dintorni tra boschi e colline"
+    start: 2026-12-06T08:30
+    venue: "Piazza Cavalieri del Tempio"
+    town: "Follina"
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: "7 euro"
+    official_url: https://boschianatale.prolocobellunesi.it/escursioni-boschi/follina-e-dintornitra-i-boschi-e-le-colline-patrimonio-unesco-pro-loco-follina-tv/
+    summary: "Escursione di tre ore della Pro Loco di Follina tra boschi e colline Unesco, nella rassegna Boschi a Natale."
+    fonte: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+    nota: "programma UNPLI Veneto, prenotazione online obbligatoria"
+    trovato: '2026-11-24'
+  - title: "Boschi a Natale: Lago di Lago, Parco dei Laghi della Vallata"
+    start: 2026-12-06T10:00
+    venue: "Parco Archeologico Didattico del Livelet"
+    address: "Via Carpene', Lago"
+    town: "Revine Lago"
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: "7 euro, gratis fino a 12 anni"
+    official_url: https://boschianatale.prolocobellunesi.it/escursioni-boschi/lago-di-lago-parco-dei-laghi-della-vallata-parco-archeologico-didattico-del-livelet-unpli-tv/
+    summary: "Escursione facile di tre ore attorno ai laghi della Vallata con partenza dal Livelet, nella rassegna Boschi a Natale."
+    fonte: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+    nota: "programma UNPLI Veneto, prenotazione online obbligatoria"
+    trovato: '2026-11-24'
+  - title: "Boschi a Natale: Le Bare, Manzana, Formeniga"
+    start: 2026-12-05T10:00
+    venue: "Agriturismo Le Spezie"
+    address: "Strada delle Spezie 47"
+    town: "Conegliano"
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: "7 euro"
+    official_url: https://boschianatale.prolocobellunesi.it/escursioni-boschi/le-bare-manzana-formeniga-pro-loco-ogliano/
+    summary: "Escursione di due ore della Pro Loco di Ogliano sulle colline tra Le Bare, Manzana e Formeniga, nella rassegna Boschi a Natale."
+    fonte: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+    nota: "programma UNPLI Veneto, prenotazione online obbligatoria"
+    trovato: '2026-11-24'
+  - title: "Boschi a Natale: Parco Grotte del Caglieron"
+    start: 2026-12-06T10:00
+    venue: "Grotte del Caglieron"
+    address: "Via Ronzon 2"
+    town: "Fregona"
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: "7 euro"
+    official_url: https://boschianatale.prolocobellunesi.it/escursioni-boschi/parco-grotte-del-caglieron-pro-loco-fregona/
+    summary: "Escursione facile di due ore nel parco delle Grotte del Caglieron con la Pro Loco di Fregona, nella rassegna Boschi a Natale."
+    fonte: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+    nota: "programma UNPLI Veneto, prenotazione online obbligatoria, scarponi da montagna"
+    trovato: '2026-11-24'
+  - title: "Boschi a Natale: Parco tematico dei Carbonai"
+    start: 2026-12-06T10:00
+    venue: "Parco tematico didattico dei Carbonai"
+    address: "Strada Faidel, localita' Lamar"
+    town: "Cordignano"
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: "7 euro"
+    official_url: https://boschianatale.prolocobellunesi.it/escursioni-boschi/parco-tematico-didattico-dei-carbonai-pro-loco-cordignano-aps/
+    summary: "Escursione di due ore al parco dei Carbonai con degustazione finale di prodotti tipici, a cura della Pro Loco di Cordignano."
+    fonte: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+    nota: "programma UNPLI Veneto, prenotazione online obbligatoria"
+    trovato: '2026-11-24'
+  - title: "Boschi a Natale: Via dell'Acqua e dei Mulini"
+    start: 2026-12-05T14:00
+    venue: "Info Point di Cison di Valmarino"
+    address: "Piazza Brandolini 6"
+    town: "Cison di Valmarino"
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: "7 euro, gratis fino a 12 anni"
+    official_url: https://boschianatale.prolocobellunesi.it/escursioni-boschi/via-dellacqua-e-dei-mulini-pro-loco-di-cison-di-valmarino-aps/
+    summary: "Escursione di due ore lungo la Via dell'Acqua e dei Mulini con la Pro Loco di Cison, nella rassegna Boschi a Natale."
+    fonte: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+    nota: "programma UNPLI Veneto, prenotazione online obbligatoria"
+    trovato: '2026-11-24'
+  - title: "Boschi a Natale: Via dell'Acqua e dei Mulini"
+    start: 2026-12-06T10:00
+    venue: "Info Point di Cison di Valmarino"
+    address: "Piazza Brandolini 6"
+    town: "Cison di Valmarino"
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: "7 euro, gratis fino a 12 anni"
+    official_url: https://boschianatale.prolocobellunesi.it/escursioni-boschi/via-dellacqua-e-dei-mulini-pro-loco-di-cison-di-valmarino-aps/
+    summary: "Escursione di due ore lungo la Via dell'Acqua e dei Mulini con la Pro Loco di Cison, nella rassegna Boschi a Natale."
+    fonte: https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/
+    nota: "programma UNPLI Veneto, prenotazione online obbligatoria"
+    trovato: '2026-11-24'
