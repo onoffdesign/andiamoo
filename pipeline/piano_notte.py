@@ -4,6 +4,7 @@ Legge i file di memoria e stampa solo le voci da lavorare, cosi' Claude non deve
 crescono ogni notte (copertura, catalogo delle fonti, albero delle categorie): meno testo letto, meno crediti.
 
 Uso:  python -m pipeline.piano_notte
+      python -m pipeline.piano_notte --url <link>   (dice se il dominio e' tra quelli che WebFetch non legge)
 """
 from __future__ import annotations
 
@@ -112,6 +113,30 @@ def pc_status(today: date | None = None) -> tuple[str, int | None]:
     return d.isoformat(), ((today or today_rome()) - d).days
 
 
+def blocked_domains() -> list[dict]:
+    path = OPS / "domini-illeggibili.yaml"
+    try:
+        data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    except OSError:
+        return []
+    return [d for d in data.get("domini") or [] if d.get("dominio")]
+
+
+def blocked(url: str) -> dict | None:
+    """La voce di domini-illeggibili.yaml che copre il link (dominio o sottodominio, percorso se indicato)."""
+    m = re.match(r"^(?:[a-z]+://)?([^/?#]+)([^?#]*)", url.strip().lower())
+    if not m:
+        return None
+    host, path = m.group(1).split(":")[0], m.group(2) or "/"
+    if host.startswith("www."):
+        host = host[4:]
+    for d in blocked_domains():
+        dom = d["dominio"].lower()
+        if (host == dom or host.endswith("." + dom)) and path.startswith((d.get("percorso") or "/").lower()):
+            return d
+    return None
+
+
 def _count(name: str, key: str) -> int:
     try:
         return len(json.loads((OPS / name).read_text(encoding="utf-8")).get(key) or [])
@@ -120,6 +145,15 @@ def _count(name: str, key: str) -> int:
 
 
 def main(argv=None) -> int:
+    args = list(sys.argv[1:] if argv is None else argv)
+    if args[:1] == ["--url"] and len(args) > 1:
+        d = blocked(args[1])
+        if d:
+            print(f"DA EVITARE: {d['dominio']}{d.get('percorso') or ''} non si legge con WebFetch"
+                  + (f" ({d['nota']})" if d.get("nota") else ""))
+            return 1
+        print("ok: dominio non segnato come illeggibile")
+        return 0
     b = budget()
     name, sigla = active_province()
     cov = yaml.safe_load((OPS / "copertura.yaml").read_text(encoding="utf-8")) or {}
@@ -133,6 +167,9 @@ def main(argv=None) -> int:
               f"per la ricerca. Segnalalo nel messaggio finale.")
     else:
         print(f"Giro del PC: ultimo il {last}")
+    doms = [d["dominio"] + (d.get("percorso") or "") for d in blocked_domains()]
+    if doms:
+        print(f"Non aprire con WebFetch (ops/domini-illeggibili.yaml): {', '.join(doms)}")
     print()
 
     print("1. Manutenzione")

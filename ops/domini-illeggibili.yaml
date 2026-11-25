@@ -1,0 +1,24 @@
+# Domini che WebFetch non legge (robot vietati, errore del sito, pagine rifiutate): usarli solo come titolo nei
+# risultati di WebSearch e confermare l'evento altrove. Li stampa `python -m pipeline.piano_notte`; per un link:
+# `python -m pipeline.piano_notte --url <link>` dice se e' da evitare prima di spendere una lettura.
+# Si aggiunge un dominio dopo 2 letture a vuoto; si toglie se torna a aprirsi (scrivere la data in nota).
+domini:
+  - {dominio: trevisotoday.it, nota: "client_error a ogni lettura (3 a vuoto il 2026-11-25)"}
+  - {dominio: oggitreviso.it}
+  - {dominio: teatro.it}
+  - {dominio: cheventi.it}
+  - {dominio: cultura.gov.it, nota: "anche museiveneto.cultura.gov.it"}
+  - {dominio: deliziedautunno.tv}
+  - {dominio: trevisosotterranea.it}
+  - {dominio: trevisoimprese.it}
+  - {dominio: rockol.it}
+  - {dominio: itinerarinelgusto.it}
+  - {dominio: lapiazzaweb.it}
+  - {dominio: insolitotrantran.it}
+  - {dominio: beescover.com}
+  - {dominio: prolococamalo.it}
+  - {dominio: liceoartisticotreviso.edu.it}
+  - {dominio: bibliotecatreviso.it, percorso: /myportal/}
+  - {dominio: arteven.it, percorso: /pr/treviso}
+  - {dominio: cinemaedera.it, percorso: /rassegne.html}
+  - {dominio: comune.montebelluna.tv.it}

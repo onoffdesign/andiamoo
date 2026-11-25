@@ -26,3 +26,15 @@ def test_pc_status_reports_stale_report(tmp_path, monkeypatch):
 def test_pc_status_without_report(tmp_path, monkeypatch):
     monkeypatch.setattr(piano_notte, "OPS", tmp_path)
     assert piano_notte.pc_status(date(2026, 11, 23)) == ("mai", None)
+
+
+def test_blocked_domains_match_subdomains_and_paths(tmp_path, monkeypatch):
+    (tmp_path / "domini-illeggibili.yaml").write_text(
+        "domini:\n  - {dominio: trevisotoday.it}\n  - {dominio: arteven.it, percorso: /pr/treviso}\n", encoding="utf-8")
+    monkeypatch.setattr(piano_notte, "OPS", tmp_path)
+    assert piano_notte.blocked("https://www.trevisotoday.it/eventi/x.html")["dominio"] == "trevisotoday.it"
+    assert piano_notte.blocked("https://arteven.it/pr/treviso/stagione") is not None
+    assert piano_notte.blocked("https://arteven.it/altro") is None
+    assert piano_notte.blocked("https://notrevisotoday.it/") is None
+    assert piano_notte.main(["--url", "https://trevisotoday.it/a"]) == 1
+    assert piano_notte.main(["--url", "https://www.newageclub.it/events/"]) == 0
