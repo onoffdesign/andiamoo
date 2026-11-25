@@ -1138,8 +1138,8 @@ fonti:
   province: [TV, VE, PD, VR, VI]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 4, ultimi: [4, 0] }
-  ultimo_controllo: '2026-11-18'
+  resa: { controlli: 3, eventi_trovati: 4, ultimi: [4, 0, 0] }
+  ultimo_controllo: '2026-11-25'
   automatizzabile: forse
   stato: attiva
   note: "tutte le serate di stand-up e cabaret del Veneto con data, ora e locale, paginata. Solo scoperta: confermare su TicketOne o sul sito del comico (eleazaro.it). 2026-11-18: la query porta solo alle pagine Stand Up Comedy di TicketOne (gia' al PC con /teatro-58/): da ricontrollare solo ogni due settimane."
@@ -1391,11 +1391,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 17, ultimi: [1, 16] }
-  ultimo_controllo: '2026-11-19'
+  resa: { controlli: 3, eventi_trovati: 29, ultimi: [1, 16, 12] }
+  ultimo_controllo: '2026-11-25'
   automatizzabile: da verificare
   stato: attiva
-  note: "2026-11-14: il principale club di concerti della provincia non era coperto (solo un evento Eventbrite). La pagina /events/ elenca tutte le date fino ad aprile con link a TicketOne, TicketSMS, Vivaticket; senza ora ne' prezzo. Candidata per config/sources.yaml: controllare dal PC se ha JSON-LD Event o API tribe (sito WordPress?), altrimenti html_llm. 2026-11-19: /events/ in errore a WebFetch; le schede TicketOne dei concerti (/event/<nome>-new-age-club-<id>/) uscite da una ricerca si aprono a volte (Anna Castiglia si', Tito Tarantula no)."
+  note: "2026-11-14: il principale club di concerti della provincia non era coperto (solo un evento Eventbrite). La pagina /events/ elenca tutte le date fino ad aprile con link a TicketOne, TicketSMS, Vivaticket; senza ora ne' prezzo. Candidata per config/sources.yaml: controllare dal PC se ha JSON-LD Event o API tribe (sito WordPress?), altrimenti html_llm. 2026-11-19: /events/ in errore a WebFetch; le schede TicketOne dei concerti (/event/<nome>-new-age-club-<id>/) uscite da una ricerca si aprono a volte (Anna Castiglia si', Tito Tarantula no). 2026-11-25: /events/ uscita da WebSearch con allowed_domains newageclub.it si e' aperta: 26 date fino ad aprile, 12 mancanti aggiunte (anno dal giorno della settimana, senza ora); e' la via migliore, meglio delle schede TicketOne."
 
 - nome: Veneto Spettacoli di Mistero (UNPLI)
   url: https://www.spettacolidimistero.it/
@@ -1630,11 +1630,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 2
-  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
-  ultimo_controllo: '2026-11-18'
+  resa: { controlli: 3, eventi_trovati: 0, ultimi: [0, 0, 0] }
+  ultimo_controllo: '2026-11-25'
   automatizzabile: 'no'
-  stato: attiva
-  note: "Solo scoperta (non ufficiale): 8 concerti TV con ora, ha portato al Teatro Cristallo di Oderzo e ai concerti del Teatro Accademia. Vale per tutte le province (pagina /concerti/italia/<citta>/). 2026-11-18: 13 concerti, i 9 entro marzo gia' tutti sul sito tranne Andrea Cerrato (21/1, scheda TicketOne non apribile)."
+  stato: debole
+  note: "2026-11-25: tre controlli a zero (7 concerti entro marzo, tutti sul sito): ora debole, vale solo come test di copertura della musica. Solo scoperta (non ufficiale): 8 concerti TV con ora, ha portato al Teatro Cristallo di Oderzo e ai concerti del Teatro Accademia. Vale per tutte le province (pagina /concerti/italia/<citta>/). 2026-11-18: 13 concerti, i 9 entro marzo gia' tutti sul sito tranne Andrea Cerrato (21/1, scheda TicketOne non apribile)."
 - nome: Pro Loco Venete (UNPLI Veneto), esplora gli eventi
   url: https://www.prolocovenete.it/esplora-gli-eventi/?province=6
   query: prolocovenete.it evento treviso
@@ -1840,11 +1840,11 @@ fonti:
   province: [TV, VE, PD, VR, VI, BL, RO]
   frequenza: mensile
   qualita: 2
-  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
-  ultimo_controllo: '2026-11-18'
+  resa: { controlli: 2, eventi_trovati: 2, ultimi: [2, 0] }
+  ultimo_controllo: '2026-11-25'
   automatizzabile: 'no'
   stato: attiva
-  note: "Articolo mensile con mercatini e feste per provincia (10 TV a dicembre), senza orari ne' siti: solo scoperta e test di copertura (7/10 gia' sul sito il 18/11)."
+  note: "2026-11-25: riletto per il test di copertura, 9/10 gia' sul sito (manca solo Natale in Borgo Cavour, senza pagina ufficiale trovata). Articolo mensile con mercatini e feste per provincia (10 TV a dicembre), senza orari ne' siti: solo scoperta e test di copertura (7/10 gia' sul sito il 18/11)."
 - nome: Il Tacco di Bacco (pagine per comune)
   url: https://iltaccodibacco.it/villorba/
   query: iltaccodibacco <comune>
@@ -2083,3 +2083,31 @@ fonti:
   automatizzabile: 'no'
   stato: attiva
   note: "Una ricerca 'ticketone new age club' da' 15-20 schede di concerti del club; WebFetch ne apre circa 1 su 3 (2 su 6 il 24/11). Gia' sul sito: Nanowar, Dagood YL, LA Guns; mancano Tito Tarantula, Flextony e Tigerplug, Will (schede non apribili), Bluvertigo (18/3/2027, solo Il Tacco di Bacco). Motorpsycho 22/4/2027 (oltre 120 giorni, aggiungere a fine dicembre). Meglio se il PC legge la pagina venue TicketOne del New Age come la fonte ticketone."
+- nome: Balliamo Liscio, calendario delle balere
+  url: https://www.balliamoliscio.it/locale/veneto/treviso/castelfranco-veneto/eurobaita-al-lago/
+  query: balliamoliscio <locale o comune> Treviso
+  tipo: aggregatore
+  categorie: [musica]
+  comuni: [Castelfranco Veneto]
+  province: [TV, VE, PD, VI]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-25'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Pagine per locale con la tabella delle serate (data e orchestra, niente ora ne' prezzo): Eurobaita al lago 5 serate tra il 25/11 e il 31/12/2026. Il locale non ha un sito trovato: serve una pagina ufficiale prima di pubblicare. Unica fonte trovata per Musica e party > Ballo (liscio). Elenco dei locali: /locali/."
+- nome: Comune di Castelfranco Veneto, rassegne (pagine evento)
+  url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
+  query: site comune.castelfrancoveneto.tv.it <rassegna> 2026 2027
+  tipo: comune
+  categorie: [teatro-spettacoli, famiglie-bambini, arte-cultura]
+  comuni: [Castelfranco Veneto]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-25'
+  automatizzabile: 'no'
+  stato: attiva
+  note: "Una ricerca con allowed_domains comune.castelfrancoveneto.tv.it da' le pagine delle rassegne (prosa 2026/27, Ragazzi che Teatro, Winter & Writers) e l'avviso dei mercatini di Natale 2026/27; l'elenco /tutti-gli-eventi/ il 25/11 mostrava 0 prossimi eventi. Winter & Writers: la pagina trovata e' l'edizione di gennaio 2026."

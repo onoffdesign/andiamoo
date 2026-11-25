@@ -1,29 +1,31 @@
 {
- "data": "2026-11-24",
- "aggiunti": 13,
- "corretti": 1,
+ "data": "2026-11-25",
+ "aggiunti": 16,
+ "corretti": 0,
  "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "natura-outdoor": 8,
-  "arte-cultura": 3,
-  "musica": 2
+  "musica": 11,
+  "arte-cultura": 2,
+  "mercatini-fiere": 1,
+  "teatro-spettacoli": 1,
+  "famiglie-bambini": 1
  },
- "fonti_nuove": 4,
+ "fonti_nuove": 2,
  "fonti_spostate": 0,
  "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
  "copertura_test": "9/10",
- "ricerche": 50,
- "eventi_per_ricerca": 0.26,
+ "ricerche": 53,
+ "eventi_per_ricerca": 0.3,
  "categorie_aggiunte": 10,
- "miglioria": "--controlla segnala gli uid ripetuti in correzioni.yaml (una correzione nuova si perdeva in silenzio); anno tra virgolette in ricerca extended per i programmi stagionali",
+ "miglioria": "elenco dei domini che WebFetch non legge (ops/domini-illeggibili.yaml) stampato dal piano della notte, con controllo --url prima di ogni lettura",
  "problemi": [
-  "il giro del PC non parte dall'11/11 (13 notti)",
-  "programmi del Natale 2026 di Castelfranco, Oderzo, Montebelluna, Vittorio Veneto e Mogliano non trovati",
-  "schede TicketOne del New Age apribili solo in parte",
-  "ora dell'escursione Boschi a Natale di Vittorio Veneto da confermare"
+  "il giro del PC non parte dall'11/11 (14 notti)",
+  "programmi del Natale 2026 di Montebelluna, Oderzo, Vittorio Veneto e Mogliano non trovati",
+  "orari delle date del New Age da gennaio a marzo da completare",
+  "elenco eventi del Comune di Castelfranco vuoto (fonte del PC)"
  ]
 }

@@ -21,6 +21,9 @@ Le tre misure vanno nel riepilogo della notte (`ops/riepilogo-notte.json`) e nel
 
 ## Regola d'oro: ogni notte una miglioria
 
+Prima di aprire un link: `python -m pipeline.piano_notte --url <link>` (domini illeggibili in `ops/domini-illeggibili.yaml`,
+stampati anche in testa al piano; 2026-11-25). Un dominio che fallisce 2 volte si aggiunge li'.
+
 Ogni notte almeno **una** miglioria concreta e misurabile, scritta in fondo alla sezione giusta con la data:
 - una fonte con dati strutturati spostata al PC (`config/sources.yaml`);
 - una query piu' precisa che porta dritto alla pagina eventi (nel campo `query` di `ops/fonti.yaml`);
@@ -196,6 +199,7 @@ nuovi filtri), senza ricercarle da capo.
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-25 · TV · ricerche 53 · eventi nuovi 16 · eventi per ricerca 0,30 · fonti al PC +0 (catalogate Balliamo Liscio e le pagine rassegna del Comune di Castelfranco; Canzoni.it passata a debole) · miglioria: `ops/domini-illeggibili.yaml` con i domini che WebFetch non legge, stampati dal piano della notte, e `python -m pipeline.piano_notte --url <link>` per controllare un link prima di spendere una lettura (stanotte 3 letture perse su TrevisoToday, gia' noto come vietato); il calendario ufficiale di un club (newageclub.it/events/) aperto con allowed_domains da' 26 date in una lettura
 - 2026-11-24 · TV · ricerche 50 · eventi nuovi 13 (piu' 1 correzione) · eventi per ricerca 0,26 · fonti al PC +0 (catalogate Boschi a Natale UNPLI, TViWeb mostre, rassegna Tomaso 700, TicketOne New Age) · miglioria: `--controlla` segnala gli uid ripetuti in correzioni.yaml (una correzione nuova si perdeva in silenzio); anno tra virgolette in extended per i programmi stagionali e data di pubblicazione chiesta per prima all'agente di lettura (7 letture a vuoto su pagine di anni passati); ricerche per comune senza dominio ancora a resa 0 (6)
 - 2026-11-23 · TV · ricerche 38 · eventi nuovi 37 · eventi per ricerca 1,0 · fonti al PC +0 · miglioria: piano della notte con tutte le frequenze delle fonti e avviso del PC fermo; il programma del Natale del capoluogo da una sola lettura (36 eventi)
 - 2026-11-22 · TV · ricerche 53 · eventi nuovi 3 (piu' 2 link sistemati e 1 doppione tolto) · eventi per ricerca 0,06 · fonti al PC +0 (catalogate Trevisando, Fiere di Santa Lucia, Concerti Classica Treviso) · miglioria: `python -m pipeline.editorial --doppioni` trova i doppioni dentro eventi_redazione.yaml (stesso giorno e comune, titolo simile, ore uguali o mancanti): da lanciare a ogni fine notte prima del commit, stanotte 1 doppione (Anna Castiglia) che --cerca non segnala perche' entrambi della redazione. Ricerche per comune e per ambito senza dominio ancora a resa ~0 (11 ricerche), posizioni non sistemate (Mapcarta a vuoto su piazze e scuole)

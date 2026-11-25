@@ -81,7 +81,14 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   prenotazione di ogni appuntamento; il programma UNPLI di Boschi a Natale elenca le escursioni delle Pro Loco di tutte
   le province venete con una scheda ciascuna (ora e ritrovo). Le schede TicketOne del New Age si aprono 1 su 3.
 
+- 2026-11-25: il calendario /events/ del New Age, uscito da WebSearch con allowed_domains newageclub.it, si apre (il 19/11 no):
+  26 date fino ad aprile senza anno, che si ricava dal giorno della settimana. Le ricerche generiche "standard" su ricorrenze
+  (Santa Lucia, San Nicolo') e ballo escono quasi solo dal Trentino: per la provincia servono allowed_domains (qdpnews,
+  trevisoeventi) o il nome del comune. Gli agenti di lettura che provano i link interni (Il Tacco di Bacco, veneto.eu) li
+  vedono rifiutati: chiedere una sola pagina. I programmi del Natale 2026 di Montebelluna non sono ancora usciti (solo 2025/26).
+
 ## Fonti da evitare o poco utili
+- Elenco dei domini che WebFetch non legge: ora in `ops/domini-illeggibili.yaml` (lo stampa il piano della notte).
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
   teatro.it, cheventi.it, arteven.it/pr/treviso, trevisotoday.it, oggitreviso.it, deliziedautunno.tv, cultura.gov.it,
   museiveneto.cultura.gov.it, trevisosotterranea.it, trevisoimprese.it, rockol.it, itinerarinelgusto.it, lapiazzaweb.it,

@@ -85,7 +85,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · mostre diffuse su piu' sedi di una citta' [mostra diffusa, centenario] (2026-11-17)
   · mostre di costumi teatrali e restauro tessile [Avanscena, costumi di scena] · mostre nelle gallerie dei licei artistici [galleria del liceo, inaugurazione] · retrospettive di scultori del territorio [Toni Benetton] (2026-11-20)
   · mostre nelle gallerie dei licei artistici [galleria del liceo artistico] (2026-11-24) · rassegne per gli anniversari di un artista [700 anni, centenario]
-- **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale]
+- **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale] · visite speleologiche ad acquedotti e sotterranei [Asolo Sotterranea, acquedotto della Bot] (2026-11-25)
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
   · itinerari guidati con letture e musica nelle chiese [sulle orme di] (2026-11-24) · visite guidate dello IAT legate a una rassegna [IAT visita guidata]
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
@@ -118,9 +118,9 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Festival musicali** · estivi all'aperto · rassegne d'autunno · festival di musica antica
   · festival di musica a cappella [a cappella, VivaVoce] (2026-11-15) · festival organistici dei comuni [festival organistico, organi storici] (2026-11-15)
   · stagioni sinfoniche delle orchestre regionali [Filarmonia Veneta, Gocce musicali] (2026-11-15) → classicalive
-- **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ · Capodanno in piazza con dj e spettacolo piromusicale [Capodanno in piazza, piromusicale] (2026-11-23)
+- **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ · Capodanno in piazza con dj e spettacolo piromusicale [Capodanno in piazza, piromusicale] (2026-11-23) · feste diurne per over 30 [daytime party] (2026-11-25)
   · feste a tema dei club (cartoni, film, tributi) [party a tema, shrek party] · anniversari dei locali con dj ospiti gratuiti [celebration weekend] · serate Remember della vigilia di Natale [remember]
-- **Ballo** [serata danzante] · liscio · balli latini · swing e lindy hop · tango [milonga settimanale, pomeridiana di tango] · balli di gruppo
+- **Ballo** [serata danzante] · liscio · balli latini · swing e lindy hop · tango [milonga settimanale, pomeridiana di tango] · balli di gruppo · balere e orchestre di liscio [calendario per locale, serata di San Silvestro in balera] (2026-11-25)
 - **Musica partecipata** · open mic · karaoke · jam session aperte · drum circle [cerchio di percussioni] · rassegne di cori scolastici in piazza [cori delle scuole, Natale] (2026-11-23)
   · open mic di stand-up comedy [open mic comicita'] · jam nelle sale prove comunali [free jam session, Progetto Giovani]
   · concerti in cuffia [silent concert, silent wifi]
@@ -153,7 +153,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · teatro di strada · improvvisazione
   · stagioni di prosa dei teatri stabili con turni di abbonamento [stagione di prosa, biglietti e abbonamenti, repliche] · stagioni dei teatri comunali di paese nel circuito Arteven [stagione teatrale, auditorium, Vivaticket]
   · rassegne di teatro amatoriale nei paesi [rassegna teatrale, compagnie amatoriali, auditorium] · letture teatrali per le ricorrenze civili [4 novembre] · spettacolo di Capodanno a teatro [Capodanno a teatro] · teatro classico a puntate sui miti greci [rassegna Class]
-- **Comicita'** · stand-up comedy [repliche pomeridiane e serali] · cabaret · serate comiche a puntate nei ridotti [Funny Friday] · teatro dialettale comico [Legnanesi] · creator e youtuber a teatro
+- **Comicita'** · stand-up comedy [repliche pomeridiane e serali] · cabaret · serate comiche a puntate nei ridotti [Funny Friday] · teatro dialettale comico [Legnanesi] · creator e youtuber a teatro · comici in tournee nei teatri comunali [Teatro Accademia] · stand-up nei club musicali (2026-11-25)
 - **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci] · compagnie di balletto russo in tournee [Il lago dei cigni]
   · balletti di Natale delle compagnie italiane nei teatri commerciali [Balletto di Siena, Schiaccianoci] (2026-11-18) → scoppiospettacoli · spettacoli natalizi per famiglie nei teatri associativi tra Natale e Capodanno [villaggio incantato]
 - **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada · circo di Natale in tournee [circo acrobatico, Christmas edition] · clown e circo musicale nei palazzetti
@@ -170,7 +170,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · laboratori del sabato pomeriggio nei musei civici [laboratori weekend, Museo Bailo, Santa Caterina] · visite guidate per famiglie alle mostre
   · laboratori a pagamento delle fondazioni culturali nelle feste (Natale, Carnevale) [rassegna Non e' una barba, Oderzo Cultura] (2026-11-19) · notti al museo in pigiama per bambini [superpoteri in pigiama]
   · giochi di indagine per famiglie nelle ville venete a Natale [caccia al tesoro, detective, Villa di Maser] (2026-11-20)
-- **Letture e biblioteche** [ora del racconto, letture animate] · nati per leggere
+- **Letture e biblioteche** [ora del racconto, letture animate] · nati per leggere · laboratori creativi nei musei civici [mosaico, Piccoli Klimt] · rassegne invernali di incontri con autori [Winter & Writers] (2026-11-25)
   · gruppi di lettura per ragazzi 11-14 anni · gruppi di lettura degli adulti [book club, libro del mese] · letture di San Nicolo' [Sannicolibri] · cicli di incontri con autori in biblioteca [Il Veneto legge, BiblioMarca]
 - **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia
   · rassegne domenicali dei teatri comunali [teatro ragazzi, domeniche a teatro, Ragazzi che Teatro]
@@ -178,7 +178,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · rassegne comunali di prosa per famiglie la domenica pomeriggio [Domenica a teatro, ingresso 8 euro] (2026-11-16) → trevisoeventi stagione Trevignano Cultura · spettacoli natalizi per ragazzi nei teatri commerciali [K-pop, missione Natale] (2026-11-16)
 - **All'aperto** · fattorie didattiche · cacce al tesoro · feste di quartiere per famiglie · parchi avventura · laboratori nei garden center [laboratorio bambini garden] · piantumazione di bulbi per bambini · villaggi delle zucche [villaggio delle zucche] (ottobre)
   · ruote panoramiche e piste di ghiaccio dei Natali in centro [ruota panoramica, pista di pattinaggio] (2026-11-18) · case di Babbo Natale nei cortili dei centri storici [casa di Babbo Natale]
-- **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini · arrivo della Befana in piazza [Befana, carboncini] · pomeriggi a tema in biblioteca [Natale a Hogwarts] (2026-11-23)
+- **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini · arrivo della Befana in piazza [Befana, carboncini] · pomeriggi a tema in biblioteca [Natale a Hogwarts] (2026-11-23) · mercatini natalizi di autoproduzioni nei club [DIY Xmas Market] · feste a tema nella sera di Natale (2026-11-25)
   · cassette delle lettere di Babbo Natale e slitte virtuali nelle piazze [slitta virtuale] (2026-11-18)
   · accensione del presepe e dell'albero (8 dicembre) · mostre di presepi (date dell'anno escono a fine novembre) · San Nicolo' (6 dicembre)
 
@@ -242,6 +242,7 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-02 · +12 voci · dove: Spettacoli > Teatro (+4), Comicita' (+1), Danza (+1), Famiglie > Laboratori (+2), Mercatini (+1), Fiere (+2), Collezionismo (+1)
 - 2026-11-05 · +11 voci · dove: Sport > Eventi per chi guarda (+4), Arti marziali (+1), Equitazione (+1), Business > Networking (+2), Natura > Ambiente (+1), Animali (+1), Arte e cultura > Visite guidate (+1)
 - 2026-11-06 · +11 voci · dove: Sport > Motori (+3), Sagre > Vino e bevande (+3), Mercatini > Mercati agricoli (+2), Business > Convegni e conferenze (+3)
+- 2026-11-25 · +10 voci · dove: Musica > Ballo (+2), Serate e club (+1), Spettacoli > Comicita' (+2), Famiglie > Letture e biblioteche (+2), Ricorrenze (+2), Arte e cultura > Visite guidate (+1)
 - 2026-11-24 · +10 voci · dove: Natura > Escursioni (+4), Arte e cultura > Mostre (+2), Visite guidate (+2), Musica > Concerti (+1), Sport > Corsa (+1)
 - 2026-11-12 · +11 voci · dove: Sport > Arrampicata (+2), Montagna ed escursionismo (+2), Sport di precisione (+3), Sagre (+4)
 - 2026-11-07 · +10 voci · dove: Sport > Sport per tutti (+3), Arte e cultura > Storia e rievocazioni (+2), Spettacoli > Circo e arti di strada (+2), Mercatini > Collezionismo (+3)

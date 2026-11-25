@@ -2,6 +2,50 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-25
+
+- **Giro del PC**: NON ha girato per la quattordicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
+  Coda, campione e posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al
+  prossimo giro. Correzioni applicate con --applica (sito a 425 eventi, 147 correzioni attive).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo). Da guardare al prossimo giro: l'elenco /tutti-gli-eventi/ del
+  Comune di Castelfranco (fonte html_llm del PC) il 25/11 mostrava "0 prossimi eventi".
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (stessi eventi aperti dell'11/11, quasi tutti conclusi).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11; i candidati
+  sono gia' tutti in luoghi.yaml o coperti da un nome esistente). Aggiunto a config/luoghi.yaml il Castello di Collalto
+  (Mapcarta) per borgo e chiesa di San Giorgio di Collalto (5 eventi); Piazza Marconi di San Martino (Colle Umberto) non
+  trovata. Dopo: 1 luogo in piu' (29 in luoghi.yaml), gli altri numeri si aggiornano al prossimo giro.
+- **Eventi corretti**: 0. **Rimossi**: 0. **Verificati**: 0.
+- **Eventi aggiunti** (16): musica 11 (dal calendario ufficiale del New Age Club: Febbre a 90 del 25/12, Random 9/1, Over 30
+  16/1, Mellow Mood 23/1, Quintorigo e John De Leo 27/1, Non Farcela 29/1, 90 Tribute Night 30/1, Shred Fest 31/1, Teenage
+  Dream 6/2, The Rasmus 10/2, Bluvertigo 18/3; anno dal giorno della settimana, ora non indicata); mercatini e fiere 1 (DIY
+  Xmas Market al New Age 20/12); teatro e spettacoli 1 (Filippo Caccamo al Teatro Accademia 6/3/2027, TicketOne); arte e
+  cultura 2 e famiglie 1 (Asolo Sotterranea 28/11, workshop di mosaico e Piccoli Klimt al Museo Civico 29/11, da Nordest24).
+  Non aggiunti: Natale in Borgo Cavour 13 e 20/12 (solo SiViaggia), serate di liscio dell'Eurobaita al lago (solo Balliamo
+  Liscio, senza ora ne' sito), visite natalizie alla chiesa di Santa Lucia e esposizioni cinofile ENCI (TrevisoToday non si legge).
+- **Comuni controllati**: Farra di Soligo, Cimadolmo, Cavaso del Tomba, Tarzo, Zero Branco, Montebelluna (0 dalle ricerche
+  per comune: portali e articoli di anni passati; programma del Natale 2026 di Montebelluna non ancora uscito).
+- **Categorie cercate**: Famiglie > Ricorrenze (0: Santa Lucia e San Nicolo' danno solo il Trentino), Famiglie > Letture e
+  biblioteche (0 + 2 laboratori di Asolo), Musica > Ballo (0: trovato solo Balliamo Liscio), Spettacoli > Comicita' (1,
+  Caccamo; Eleazaro Rossi gia' sul sito). +10 voci nell'albero.
+- **Fonti note**: New Age Club (12 nuovi), Canzoni.it (0, terza volta: ora debole), Please Stand Up (0, solo dalla ricerca),
+  SiViaggia dicembre (0, usato per il test).
+- **Fonti nuove catalogate**: 2 (Balliamo Liscio, pagine rassegna del Comune di Castelfranco). Valutate e scartate: Il Tacco
+  di Bacco danza di Villorba (vuota), TicketOne cabaret di Conegliano (errore), Winter & Writers (edizione di gennaio 2026).
+  Spostate in sources.yaml: 0.
+- **Pulizia**: non fatta (l'archivio non si aggiorna dall'11/11).
+- **Miglioria**: `ops/domini-illeggibili.yaml` (21 domini) stampato in testa al piano della notte e controllo
+  `python -m pipeline.piano_notte --url <link>`, con test: stanotte 3 letture perse su TrevisoToday, gia' segnato come vietato
+  in mezzo a lezioni.md.
+- **Test di copertura**: 9/10 (articolo SiViaggia dei mercatini di dicembre; manca Natale in Borgo Cavour). Criterio di
+  saturazione: non valutato (non e' lunedi').
+- **Ricerche**: 53 su 70 (30 WebSearch, 23 WebFetch, di cui 14 a vuoto: 3 TrevisoToday, 5 link interni rifiutati, 2 pagine di
+  edizioni passate, 4 pagine vuote o in errore).
+- **Problemi aperti**: il giro del PC non parte da quattordici notti; programmi del Natale 2026 di Montebelluna, Oderzo,
+  Vittorio Veneto e Mogliano non trovati; ora delle date del New Age da gennaio a marzo da completare; elenco eventi del
+  Comune di Castelfranco vuoto.
+
 ## 2026-11-24
 
 - **Giro del PC**: NON ha girato per la tredicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).
