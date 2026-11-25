@@ -156,3 +156,10 @@ luoghi:
     nota: "Biblioteca comunale di Quinto di Treviso, Via G. D'Annunzio 9 (indirizzo dalla scheda del Comune). Coordinate trovate
       dal PC per indirizzo (precisione venue) per l'incontro dell'11/11 di Venezia, quello che non si vede. Aggiunto il 2026-11-21
       per gli altri incontri della rassegna, che avevano solo il comune."
+  - nomi: ["Borgo medievale di Collalto", "Castello di Collalto", "San Giorgio di Collalto"]
+    comune: Susegana
+    lat: 45.85653
+    lon: 12.20851
+    nota: "Rovine del Castello di Collalto, coordinate di Mapcarta (GeoNames/OSM) lette il 2026-11-25. Il borgo e la
+      chiesa di San Giorgio sono accanto al castello: e' il punto certo piu' vicino per gli eventi del borgo (5 eventi
+      con solo il comune in ops/posizioni.json)."
