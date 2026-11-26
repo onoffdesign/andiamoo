@@ -32,7 +32,7 @@ comuni_TV:
   Crocetta del Montello: 2026-11-14
   Farra di Soligo: 2026-11-25
   Follina: 2026-11-24
-  Fontanelle: 2026-11-10
+  Fontanelle: 2026-11-26
   Fonte: 2026-11-12
   Fregona: 2026-11-18
   Gaiarine: 2026-11-24
@@ -49,7 +49,7 @@ comuni_TV:
   Miane: 2026-11-22
   Mogliano Veneto: 2026-11-15   # gia' fonte del PC (comune-mogliano myportal): non serve cercarlo a mano
   Monastier di Treviso: 2026-11-22
-  Monfumo: 2026-11-10
+  Monfumo: 2026-11-26
   Montebelluna: 2026-11-25
   Morgano: 2026-11-16
   Moriago della Battaglia: 2026-11-22
@@ -65,7 +65,7 @@ comuni_TV:
   Ponte di Piave: 2026-11-18
   Ponzano Veneto: 2026-11-17
   Portobuffolè: 2026-11-13
-  Possagno: 2026-11-10
+  Possagno: 2026-11-26
   Povegliano: 2026-11-20
   Preganziol: 2026-11-15
   Quinto di Treviso: 2026-11-21
@@ -76,18 +76,18 @@ comuni_TV:
   Roncade: 2026-11-17
   Salgareda: 2026-11-11
   San Biagio di Callalta: 2026-11-21
-  San Fior: 2026-11-10
+  San Fior: 2026-11-26
   San Pietro di Feletto: 2026-11-15
   San Polo di Piave: 2026-11-12
   San Vendemiano: 2026-11-16
   San Zenone degli Ezzelini: 2026-11-12
   Santa Lucia di Piave: 2026-11-22
-  Sarmede: 2026-11-10
+  Sarmede: 2026-11-26
   Segusino: 2026-11-24
   Sernaglia della Battaglia: 2026-11-22
   Silea: 2026-11-21
   Spresiano: 2026-11-16
-  Susegana: 2026-11-10
+  Susegana: 2026-11-26
   Tarzo: 2026-11-25
   Trevignano: 2026-11-24
   Treviso: 2026-11-17
@@ -178,7 +178,7 @@ aggregatori:
   fondoambiente.it (eventi FAI in provincia): 2026-11-05
   teatro.it (danza Treviso): 2026-11-02
 community:
-  'canali Telegram pubblici: trekking ed escursioni Treviso': null
+  'canali Telegram pubblici: trekking ed escursioni Treviso': 2026-11-26
   'canali Telegram pubblici: camminate, run club, bici': null
   'canali Telegram pubblici: eventi, serate e uscite Treviso': null
   'community Instagram/TikTok di trekking indipendente (Veneto)': null
@@ -210,13 +210,13 @@ categorie_TV:
   "Natura e benessere > Escursioni": 2026-11-13
   "Sagre e cibo > Feste stagionali": 2026-11-13
   "Natura e benessere > Orti e giardini": 2026-11-13
-  "Sport > Sport di precisione": 2026-11-12
+  "Sport > Sport di precisione": 2026-11-26
   "Sport > Arrampicata": 2026-11-12
   "Sagre e cibo > Sagre": 2026-11-12
-  "Sport > Montagna ed escursionismo": 2026-11-12
+  "Sport > Montagna ed escursionismo": 2026-11-26
   "Musica e party > Ballo": 2026-11-25
-  "Spettacoli > Musical e operetta": 2026-11-11
-  "Natura e benessere > Animali": 2026-11-11
+  "Spettacoli > Musical e operetta": 2026-11-26
+  "Natura e benessere > Animali": 2026-11-26
   "Spettacoli > Comicita'": 2026-11-25
   "Sport > Corsa": 2026-11-24
   "Famiglie e bambini > Letture e biblioteche": 2026-11-25

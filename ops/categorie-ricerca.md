@@ -76,6 +76,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · pallavolo A1 femminile al Palaverde [Imoco] · Champions League di pallavolo al Palaverde [CEV Champions League Imoco] (2026-11-20) · calcio di Serie C allo stadio Tenni [Treviso calcio]
 - **Sport per tutti** · open day delle societa' · giornate dello sport · sport adattato e paralimpico
   · corse libere gratuite del sabato mattina [parkrun Treviso, Parco dello Storga] · social run dei locali e dei negozi di sport [social run, run club] · camminate dei Babbi Natale [corsa dei Babbi Natale, Santa Klaus run]
+  · camminate in costume da Babbo Natale [camminata dei Babbi Natale, Christmas run] · parkrun del sabato (5 km cronometrati) [parkrun] (2026-11-26)
 
 ## Arte e cultura (`arte-cultura`)
 
@@ -105,6 +106,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · serate di osservazione degli astrofili trevigiani [astrofili trevigiani, appuntamenti] (sito solo http, WebFetch in loop: 2026-11-17) · lezioni-concerto e lezioni di musica nelle fondazioni [lezione di musica, Landscapes] (2026-11-17)
 - **Comunita'** · incontri di quartiere · volontariato · feste delle associazioni · gruppi di conversazione
   · iniziative della rete provinciale Pari Opportunita' verso il 25 novembre [25 novembre, panchina rossa, walk in red] · serate di prevenzione e salute dei comuni [si-cura, prevenzione, serata informativa] · donazioni di sangue AVIS con colazione [donazione, avis] · gruppi di lettura delle biblioteche [gruppo di lettura]
+  · conferenze nei musei legate alle mostre in corso [conferenza, museo, Gypsotheca] (2026-11-26)
 
 ## Musica e party (`musica`)
 
@@ -125,6 +127,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · open mic di stand-up comedy [open mic comicita'] · jam nelle sale prove comunali [free jam session, Progetto Giovani]
   · concerti in cuffia [silent concert, silent wifi]
   · concerti da ascoltare a occhi chiusi con poesia e coro [a occhi chiusi] (2026-11-17)
+  · camminate cantate e cori itineranti di Natale [Cantar Nadal, canti di Natale] (2026-11-26)
 
 ## Sagre e cibo (`sagre-feste`)
 
@@ -145,6 +148,8 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · accensione dell'albero e apertura dei villaggi di Natale (fine novembre) [accensione albero, villaggio di Natale]
   · feste del Ringraziamento e dell'agricoltura a San Martino con trattori d'epoca [festa del Ringraziamento, palio della gerla]
   · fiere di Santa Lucia (13 dicembre) [Santa Lucia, fiera]
+  · passaggio di San Nicolo' per le vie e nelle frazioni (4-6 dicembre) [San Nicolo', passaggio] (2026-11-26)
+  · Krampus nei mercatini di fine novembre [Krampus, Pelund] (2026-11-26) · Panevin nelle frazioni (5 gennaio) [Panevin]
 
 ## Spettacoli (`teatro-spettacoli`)
 
@@ -181,6 +186,8 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini · arrivo della Befana in piazza [Befana, carboncini] · pomeriggi a tema in biblioteca [Natale a Hogwarts] (2026-11-23) · mercatini natalizi di autoproduzioni nei club [DIY Xmas Market] · feste a tema nella sera di Natale (2026-11-25)
   · cassette delle lettere di Babbo Natale e slitte virtuali nelle piazze [slitta virtuale] (2026-11-18)
   · accensione del presepe e dell'albero (8 dicembre) · mostre di presepi (date dell'anno escono a fine novembre) · San Nicolo' (6 dicembre)
+  · slitta e giro di Babbo Natale per il paese (24 dicembre) [slitta di Babbo Natale] (2026-11-26)
+  · letture per 0-3 anni in biblioteca [letture cucu', nati per leggere] · Babbo Natale nelle sedi di Alpini e Pro Loco [Babbo Natale incontra i bambini] (2026-11-26)
 
 ## Mercatini e fiere (`mercatini-fiere`)
 
@@ -200,6 +207,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Collezionismo** · numismatica e filatelia · vinili e dischi · giocattoli d'epoca · collezionismo militare [militaria, Milipiave]
   · mercatini mensili di antiquariato nei centri storici [antiquariato seconda domenica, Portobuffole', Collalto] · mostre mercato di antiquariato nei borghi con passeggiate storiche [antiquariato Collalto, lavatoio] · tornei di carte delle sagre [torneo di briscola, burraco di San Martino]
   · mercatini con pausa invernale (dicembre sospeso) [sospeso a dicembre, ultima domenica del mese] (2026-11-22): controllare la regola prima di aggiungere le date · mercatini dell'usato di fine gennaio [ripresa mercatini gennaio] (2026-11-22)
+  · mercatini benefici parrocchiali delle domeniche d'Avvento [mercatino d'Avvento, mercatino benefico] (2026-11-26)
 
 ## Business e formazione (`business`)
 
@@ -260,3 +268,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 
 - 2026-11-22 · +10 voci · dove: Sport > Corsa (+3), Mercatini > Fiere (+3), Collezionismo (+2), Sport > Racchetta (+1), Arte e cultura > Patrimonio e tradizioni (+1)
 - 2026-11-23 · +11 voci · dove: Sport > Sport d'acqua (+1), Sport invernali (+1), Musica > Musica partecipata (+1), Concerti (+2), Serate (+1), Sagre > Feste stagionali (+2), Arte e cultura > Storia e rievocazioni (+1), Famiglie > Ricorrenze (+2), Mercatini (+1); nate dal programma del Natale a Treviso
+- 2026-11-26 · +11 voci · dove: Sagre > Feste stagionali (+3), Famiglie (+3), Sport > Corsa (+2), Musica > Musica partecipata (+1), Arte e cultura > Conferenze (+1), Mercatini > Mercatini di Natale (+1); nate dal calendario del Natale di Farra di Soligo, da TrovaSagre e dall'agenda del Museo Canova

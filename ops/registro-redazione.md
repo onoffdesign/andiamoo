@@ -2,6 +2,47 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-26
+
+- **Giro del PC**: NON ha girato per la quindicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19). Coda, campione e
+  posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al prossimo giro. Correzioni
+  applicate con --applica (sito a 425 eventi, 147 correzioni attive).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (stessi eventi dell'11/11, quasi tutti conclusi).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: prima 0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati (numeri dell'11/11). Cercati su
+  Mapcarta la Sala polifunzionale del Municipio di San Fior, Villa Romivo di Montebelluna e l'Auditorium Santo Stefano di Farra
+  di Soligo: nessuno trovato. Dopo: invariati (29 luoghi in luoghi.yaml).
+- **Eventi corretti**: 0. **Rimossi**: 0. **Verificati**: 0.
+- **Eventi aggiunti** (44): famiglie 17, sagre e feste 7, mercatini 6, arte e cultura 5, sport 4, musica 3, teatro 2.
+  Calendario del Natale di Farra di Soligo (27, da Qdpnews del 25/11: laboratori, letture in biblioteca, spettacoli all'Auditorium
+  Santo Stefano, accensioni degli alberi a Farra, Col San Martino e San Gallo, Note di Natale, Camminata dei Babbi Natale,
+  mercatino benefico delle domeniche d'Avvento a Soligo); TrovaSagre (Christmas Fest di Spresiano 5-8/12, San Nicolo' a Osigo
+  5/12, Sant'Andrea a Campea 28/11-5/12, Pelund Orsaghese 29/11); Pro Loco di Morgano (mercatini di Badoere 20/12); agenda del
+  Museo Canova (9: conferenze su Scarpa 28/11 e Flaxman 5/12, visite del 28-29/11, laboratori creativi dal 19/12 al 20/3);
+  parkrun Treviso 12, 19 e 26/12 (il PC non le genera da fermo; il 5/12 c'era gia').
+  Non aggiunti: Illuminiamo il Natale a Susegana 28-29/11 (TrovaSagre "da confermare"), San Nicolo' a Borgo Milies (scheda
+  rifiutata), Mercatino RiCReazione di Treviso 18-20/12 (scheda rifiutata), uscite CAI (fuori provincia o riservate), Panevin di Farra (senza luogo).
+- **Comuni controllati**: Sarmede (solo la mostra della Zavrel gia' sul sito), Monfumo e Fontanelle (0: solo portali e omonimi
+  piemontesi), San Fior (gia' coperto dal Comune), Possagno (Museo Canova, 9), Susegana (Natale a Collalto gia' sul sito).
+- **Categorie cercate**: Spettacoli > Musical e operetta (0; TicketOne non si legge), Natura e benessere > Animali (0, terza volta:
+  rara), Sport > Sport di precisione (0: arco e bocce danno solo circolari federali), Sport > Montagna ed escursionismo (0 + CAI).
+  Community: canali Telegram di trekking (nessuno trevigiano). +11 voci nell'albero.
+- **Fonti note**: TrovaSagre (6 nuovi in 2 elenchi e 7 schede), Oderzo Cultura (0), Treviso Eventi natale-feste (0), CAI Treviso
+  (0, terza volta: ora debole e mensile).
+- **Fonti nuove catalogate**: 3 (Pro Loco di Morgano, agenda del Museo Canova, calendari del Natale su Qdpnews). Spostate in
+  sources.yaml: 1 (museo-canova, tribe_api, da provare al primo giro).
+- **Pulizia**: non fatta (l'archivio non si aggiorna dall'11/11).
+- **Miglioria**: `python -m pipeline.editorial --comune <nome>` (eventi futuri di un comune, sito + redazione, con i domini delle
+  fonti), con test; citato in revisione-notturna.md.
+- **Test di copertura**: 5/10 (TrovaSagre dicembre + 2 eventi di Oderzo e San Fior). Criterio di saturazione: non valutato.
+- **Ricerche**: 54 su 70 (33 WebSearch, 21 WebFetch, di cui 7 a vuoto: 2 articoli Qdpnews del 2025, TicketOne, 2 schede
+  TrovaSagre rifiutate, natale-feste senza date, CAI).
+- **Problemi aperti**: il giro del PC non parte da quindici notti; fonte museo-canova da provare al primo giro (e togliere i
+  doppioni della redazione); 51 luoghi senza punto fermi; programmi del Natale 2026 di Montebelluna, Oderzo, Vittorio Veneto e
+  Mogliano ancora non trovati.
+
 ## 2026-11-25
 
 - **Giro del PC**: NON ha girato per la quattordicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19, giro a mano).

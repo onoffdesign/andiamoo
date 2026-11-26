@@ -97,6 +97,8 @@ edizione quando si avvicina la data) e a controllare gli eventi con stato `non_p
 prima della fine: annullati o spostati?).
 Per controllare se un evento e' gia' sul sito senza leggere tutto `docs/data/events.json`:
 `python -m pipeline.editorial --cerca "titolo o luogo" --data AAAA-MM-GG` e `--uid <uid>`.
+Prima di cercare un comune: `python -m pipeline.editorial --comune "<nome>"` elenca i suoi eventi futuri (sito +
+redazione) e le fonti da cui vengono, cosi' non si spende una ricerca su cio' che e' gia' coperto.
 
 ## Passi
 

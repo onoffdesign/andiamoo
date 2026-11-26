@@ -6725,3 +6725,45 @@ eventi:
     fonte: https://www.museocanova.it/agenda/
     nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
     trovato: '2026-11-26'
+  - title: parkrun Treviso
+    start: 2026-12-12T09:00
+    venue: Parco dello Storga
+    address: Via Cal di Breda 130
+    town: Treviso
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    price: gratuito, registrazione una tantum sul sito parkrun
+    official_url: https://www.parkrun.it/treviso/
+    summary: Corsa o camminata libera e cronometrata di 5 km al Parco dello Storga, aperta a tutti; serve registrarsi una volta e portare il proprio codice a barre.
+    fonte: https://www.parkrun.it/treviso/
+    nota: appuntamento fisso di ogni sabato alle 9 (fonte parkrun gia' letta dal PC fino al 28/11); date di dicembre aggiunte perche' il PC non gira dall'11/11; eventuali sospensioni festive non verificate
+    trovato: '2026-11-26'
+  - title: parkrun Treviso
+    start: 2026-12-19T09:00
+    venue: Parco dello Storga
+    address: Via Cal di Breda 130
+    town: Treviso
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    price: gratuito, registrazione una tantum sul sito parkrun
+    official_url: https://www.parkrun.it/treviso/
+    summary: Corsa o camminata libera e cronometrata di 5 km al Parco dello Storga, aperta a tutti; serve registrarsi una volta e portare il proprio codice a barre.
+    fonte: https://www.parkrun.it/treviso/
+    nota: appuntamento fisso di ogni sabato alle 9 (fonte parkrun gia' letta dal PC fino al 28/11); date di dicembre aggiunte perche' il PC non gira dall'11/11; eventuali sospensioni festive non verificate
+    trovato: '2026-11-26'
+  - title: parkrun Treviso
+    start: 2026-12-26T09:00
+    venue: Parco dello Storga
+    address: Via Cal di Breda 130
+    town: Treviso
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    price: gratuito, registrazione una tantum sul sito parkrun
+    official_url: https://www.parkrun.it/treviso/
+    summary: Corsa o camminata libera e cronometrata di 5 km al Parco dello Storga, aperta a tutti; serve registrarsi una volta e portare il proprio codice a barre.
+    fonte: https://www.parkrun.it/treviso/
+    nota: appuntamento fisso di ogni sabato alle 9 (fonte parkrun gia' letta dal PC fino al 28/11); date di dicembre aggiunte perche' il PC non gira dall'11/11; eventuali sospensioni festive non verificate
+    trovato: '2026-11-26'

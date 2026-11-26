@@ -533,11 +533,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 5, eventi_trovati: 38, ultimi: [11, 2, 2, 23, 0] }
-  ultimo_controllo: '2026-11-19'
+  resa: { controlli: 6, eventi_trovati: 38, ultimi: [0, 11, 2, 2, 23] }
+  ultimo_controllo: '2026-11-26'
   automatizzabile: no
   stato: attiva
-  note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale 2026-11-16: una lettura ha dato 23 eventi mancanti fino a gennaio (stagione Trevignano Cultura, Imoco e Treviso FBC, mercatini, Cordignano, Ormelle); le pagine comune (cordignano.html, ormelle.html) si aprono con programma e orari. 2026-11-19: due letture (pagina lunga 130 mila caratteri, serve offset 100000) piu' 3 schede (paese.html, breda-di-piave.html, valdobbiadene-mercatini-di-natale.html, tutte apribili): 11 eventi mancanti (Natale di Breda e Valdobbiadene, 6 date di Trevignano Cultura fino a marzo). La pagina natale-feste.html elenca le schede di Natale ma senza date."
+  note: "una lettura = ~25 eventi TV con date, comune e luogo (sagre, mercatini, rassegne, sport): ottimo per scoprire e per il test di copertura (solo 2 su 25 erano sul sito). Alcune schede non aggiornate (Maserada sul Palco datata, intestazioni 2024): confermare sempre sul sito ufficiale 2026-11-16: una lettura ha dato 23 eventi mancanti fino a gennaio (stagione Trevignano Cultura, Imoco e Treviso FBC, mercatini, Cordignano, Ormelle); le pagine comune (cordignano.html, ormelle.html) si aprono con programma e orari. 2026-11-19: due letture (pagina lunga 130 mila caratteri, serve offset 100000) piu' 3 schede (paese.html, breda-di-piave.html, valdobbiadene-mercatini-di-natale.html, tutte apribili): 11 eventi mancanti (Natale di Breda e Valdobbiadene, 6 date di Trevignano Cultura fino a marzo). La pagina natale-feste.html elenca le schede di Natale ma senza date. 2026-11-26: letta solo natale-feste.html (titoli senza date, nessun evento nuovo): per il Natale aprire le schede comune, non questa pagina."
 
 - nome: Auditorium Don E. Vidotto (Maserada sul Piave)
   url: https://auditoriumaserada.it/
@@ -870,11 +870,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 4, eventi_trovati: 22, ultimi: [0, 3, 13, 6] }
-  ultimo_controllo: '2026-11-19'
+  resa: { controlli: 5, eventi_trovati: 28, ultimi: [6, 0, 3, 13, 6] }
+  ultimo_controllo: '2026-11-26'
   automatizzabile: da_valutare
   stato: attiva
-  note: "elenco delle sagre del mese con frazione e date (schede /evento/<nome>-<anno>): 13 sagre TV in una lettura, 9 non ancora sul sito. Solo scoperta: confermare su Pro Loco, Comune o Paesi in Festa. Alcune date di 'Altri appuntamenti' sbagliate. 2026-11-19: la pagina /sagre/veneto/dicembre-2026 ha solo 3 eventi TV (2 gia' sul sito, Borgo Milies senza pagina 2026)."
+  note: "elenco delle sagre del mese con frazione e date (schede /evento/<nome>-<anno>): 13 sagre TV in una lettura, 9 non ancora sul sito. Solo scoperta: confermare su Pro Loco, Comune o Paesi in Festa. Alcune date di 'Altri appuntamenti' sbagliate. 2026-11-19: la pagina /sagre/veneto/dicembre-2026 ha solo 3 eventi TV (2 gia' sul sito, Borgo Milies senza pagina 2026). 2026-11-26: /sagre/veneto/dicembre-2026 ha 8 eventi TV (3 gia' sul sito); le schede /evento/ si aprono (Christmas Fest Spresiano, San Nicolo' a Osigo, Sant'Andrea a Campea aggiunti), Borgo Milies rifiutata. La pagina /mercatini-di-natale/veneto ha 8 mercatini TV con link alle schede /mercatini/ (Badoere con link alla Pro Loco, Orsago aggiunti; Susegana 'da confermare')."
 
 - nome: Comune di Povegliano, calendario eventi 2026 (PDF)
   url: https://www.comune.povegliano.tv.it/dam/jcr:097381cb-632c-4f18-be19-f5f78d0b6651/EVENTI%20POVEGLIANO%202026.pdf
@@ -1109,11 +1109,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 5
-  resa: { controlli: 3, eventi_trovati: 12, ultimi: [2, 0, 10] }
-  ultimo_controllo: '2026-11-19'
+  resa: { controlli: 4, eventi_trovati: 12, ultimi: [0, 2, 0, 10] }
+  ultimo_controllo: '2026-11-26'
   automatizzabile: forse
   stato: attiva
-  note: "elenco con titoli e link (date solo nelle schede, pulsante 'carica altro'); le schede si aprono e hanno ora, sede con indirizzo, prezzo e prenotazione (Giornate Martiniane, mostra Magnolato, Il museo intorno, Storie sotto l'albero ogni due giovedi'). Candidata html_llm con dettaglio delle schede. 2026-11-19: WebSearch con allowed_domains oderzocultura.it fa uscire le pagine di rassegna (Non e' una barba 2026/2027: laboratori per bambini con ora, sede e prezzo)."
+  note: "elenco con titoli e link (date solo nelle schede, pulsante 'carica altro'); le schede si aprono e hanno ora, sede con indirizzo, prezzo e prenotazione (Giornate Martiniane, mostra Magnolato, Il museo intorno, Storie sotto l'albero ogni due giovedi'). Candidata html_llm con dettaglio delle schede. 2026-11-19: WebSearch con allowed_domains oderzocultura.it fa uscire le pagine di rassegna (Non e' una barba 2026/2027: laboratori per bambini con ora, sede e prezzo). 2026-11-26: ricerca con allowed_domains: Te' al Museo (2 e 16/12) e Storie sotto l'albero gia' sul sito; nessun evento nuovo."
 
 - nome: TicketOne, pagina del Teatro Accademia di Conegliano
   url: https://www.ticketone.it/venue/teatro-accademia-16706/
@@ -1290,13 +1290,13 @@ fonti:
   categorie: [natura-outdoor, sport]
   comuni: [Treviso, Valdobbiadene, Pederobba, Vittorio Veneto]
   province: [TV, BL]
-  frequenza: settimanale
+  frequenza: mensile
   qualita: 3
-  resa: { controlli: 2, eventi_trovati: 0, ultimi: [0, 0] }
-  ultimo_controllo: '2026-11-19'
+  resa: { controlli: 3, eventi_trovati: 0, ultimi: [0, 0, 0] }
+  ultimo_controllo: '2026-11-26'
   automatizzabile: no
-  stato: attiva
-  note: "elenco uscite fino a dicembre con data, gruppo e meta, ma le schede sono 'in aggiornamento' fino a pochi giorni prima (niente ritrovo, ora, costo): riaprire la settimana prima. Mete in TV: Cartizze 25/11, Monfenera 4/12, Monte Baldo di Vittorio Veneto 9/12. Molte uscite fuori provincia (BL). 2026-11-19: 9 uscite fino al 19/12, scheda del Cartizze (25/11) ancora 'in aggiornamento' a 6 giorni: si legge solo l'elenco, mai le schede prima della settimana stessa."
+  stato: debole
+  note: "elenco uscite fino a dicembre con data, gruppo e meta, ma le schede sono 'in aggiornamento' fino a pochi giorni prima (niente ritrovo, ora, costo): riaprire la settimana prima. Mete in TV: Cartizze 25/11, Monfenera 4/12, Monte Baldo di Vittorio Veneto 9/12. Molte uscite fuori provincia (BL). 2026-11-19: 9 uscite fino al 19/12, scheda del Cartizze (25/11) ancora 'in aggiornamento' a 6 giorni: si legge solo l'elenco, mai le schede prima della settimana stessa. 2026-11-26: terzo controllo a zero (7 uscite fino al 19/12, quasi tutte in Dolomiti o riservate a gruppi e accompagnatori, schede 'in aggiornamento'): ora debole, ricontrollare a gennaio per le ciaspolate."
 
 - nome: Qdpnews (articoli sugli eventi dei comuni)
   url: https://www.qdpnews.it/
@@ -2111,3 +2111,45 @@ fonti:
   automatizzabile: 'no'
   stato: attiva
   note: "Una ricerca con allowed_domains comune.castelfrancoveneto.tv.it da' le pagine delle rassegne (prosa 2026/27, Ragazzi che Teatro, Winter & Writers) e l'avviso dei mercatini di Natale 2026/27; l'elenco /tutti-gli-eventi/ il 25/11 mostrava 0 prossimi eventi. Winter & Writers: la pagina trovata e' l'edizione di gennaio 2026."
+- nome: Pro Loco di Morgano, eventi
+  url: https://www.prolocomorgano.it/eventi.php
+  query: '"Pro Loco Morgano eventi" con allowed_domains [prolocomorgano.it]'
+  tipo: pro loco
+  categorie: [mercatini-fiere, sagre-feste]
+  comuni: [Morgano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-26'
+  automatizzabile: no
+  stato: attiva
+  note: "pagina breve con le date dell'anno dei mercatini di Badoere (Rotonda, 9-19) e della Mostra dell'asparago; trovata dalla scheda TrovaSagre. 2026-11-26: mercatino di Natale del 20/12."
+- nome: Museo Gypsotheca Antonio Canova, agenda
+  url: https://www.museocanova.it/agenda/
+  query: '"Museo Gypsotheca Canova Possagno eventi" con allowed_domains [museocanova.it]'
+  tipo: museo
+  categorie: [arte-cultura, famiglie-bambini]
+  comuni: [Possagno]
+  province: [TV]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 9, ultimi: [9] }
+  ultimo_controllo: '2026-11-26'
+  automatizzabile: si
+  stato: spostata
+  note: "agenda con mostre, visite guidate di ogni sabato e domenica, laboratori mensili e conferenze, link /calendario/<evento>/<data>/ di The Events Calendar: passata al PC come tribe_api museo-canova il 2026-11-26 (API da provare al primo giro)."
+- nome: Qdpnews, calendari del Natale dei comuni
+  url: https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/
+  query: '"Natale 2026 programma comune dicembre eventi Pro Loco" con allowed_domains [qdpnews.it]'
+  tipo: testata
+  categorie: [sagre-feste, famiglie-bambini, musica, teatro-spettacoli]
+  comuni: [tutti]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 27, ultimi: [27] }
+  ultimo_controllo: '2026-11-26'
+  automatizzabile: no
+  stato: attiva
+  note: "a fine novembre escono gli articoli con i calendari del Natale dei comuni (Farra di Soligo 25/11/2026: 27 appuntamenti con ora e luogo). Molti risultati sono del 2025 (Natale nella Marca, Magico Natale di Vittorio Veneto): chiedere all'agente di leggere prima la data di pubblicazione e fermarsi se non e' 2026."

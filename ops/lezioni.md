@@ -87,6 +87,12 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   trevisoeventi) o il nome del comune. Gli agenti di lettura che provano i link interni (Il Tacco di Bacco, veneto.eu) li
   vedono rifiutati: chiedere una sola pagina. I programmi del Natale 2026 di Montebelluna non sono ancora usciti (solo 2025/26).
 
+- 2026-11-26: Qdpnews con allowed_domains e "Natale 2026 programma comune" da' i calendari del Natale appena usciti (Farra di
+  Soligo, 27 appuntamenti in una lettura); far leggere all'agente prima la data di pubblicazione: 2 articoli su 3 erano del 2025.
+  Le schede TrovaSagre /evento/ e /mercatini/ si aprono (5 su 7) e a volte rimandano al sito della Pro Loco (Morgano).
+  Prima di cercare un comune guardare `python -m pipeline.editorial --comune <nome>`: San Fior era gia' coperto dal Comune.
+  Mapcarta non trova sale civiche, auditorium e ville minori (0 su 3): per le posizioni servono indirizzo e comune giusti.
+
 ## Fonti da evitare o poco utili
 - Elenco dei domini che WebFetch non legge: ora in `ops/domini-illeggibili.yaml` (lo stampa il piano della notte).
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,

@@ -1,31 +1,34 @@
 {
- "data": "2026-11-25",
- "aggiunti": 16,
+ "data": "2026-11-26",
+ "aggiunti": 44,
  "corretti": 0,
  "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "musica": 11,
-  "arte-cultura": 2,
-  "mercatini-fiere": 1,
-  "teatro-spettacoli": 1,
-  "famiglie-bambini": 1
+  "famiglie-bambini": 17,
+  "sagre-feste": 7,
+  "mercatini-fiere": 6,
+  "arte-cultura": 5,
+  "sport": 4,
+  "musica": 3,
+  "teatro-spettacoli": 2
  },
- "fonti_nuove": 2,
- "fonti_spostate": 0,
+ "fonti_nuove": 3,
+ "fonti_spostate": 1,
  "fonti_sistemate": 0,
  "qualita_campione": "6/10",
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
- "copertura_test": "9/10",
- "ricerche": 53,
- "eventi_per_ricerca": 0.3,
- "categorie_aggiunte": 10,
- "miglioria": "elenco dei domini che WebFetch non legge (ops/domini-illeggibili.yaml) stampato dal piano della notte, con controllo --url prima di ogni lettura",
+ "copertura_test": "5/10",
+ "ricerche": 54,
+ "eventi_per_ricerca": 0.81,
+ "categorie_aggiunte": 11,
+ "miglioria": "editorial --comune: eventi futuri di un comune e loro fonti prima di cercarlo",
  "problemi": [
-  "il giro del PC non parte dall'11/11 (14 notti)",
-  "programmi del Natale 2026 di Montebelluna, Oderzo, Vittorio Veneto e Mogliano non trovati",
-  "orari delle date del New Age da gennaio a marzo da completare",
-  "elenco eventi del Comune di Castelfranco vuoto (fonte del PC)"
+  "il PC non gira dall'11/11 (quindicesima notte)",
+  "fonte museo-canova da provare al primo giro",
+  "51 luoghi senza punto, Mapcarta 0 su 3",
+  "programmi del Natale di Montebelluna, Oderzo, Vittorio Veneto e Mogliano non trovati",
+  "test di copertura 5/10: le feste di dicembre mancano finche' il PC e' fermo"
  ]
 }
