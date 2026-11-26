@@ -6591,3 +6591,137 @@ eventi:
     fonte: https://trovasagre.com/sagre/veneto/dicembre-2026
     nota: scheda TrovaSagre 2026; pranzo della domenica su prenotazione entro il 27/11; orari e organizzatore non indicati
     trovato: '2026-11-26'
+  - title: Mercatini di Natale a Badoere
+    start: 2026-12-20T09:00
+    end: 2026-12-20T19:00
+    venue: Piazza La Rotonda
+    town: Morgano
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.prolocomorgano.it/eventi.php
+    summary: Mercatino natalizio della Pro Loco di Morgano sotto i portici della Rotonda di Badoere.
+    fonte: https://trovasagre.com/mercatini/mercatini-di-natale-badoere-di-morgano
+    nota: pagina eventi della Pro Loco di Morgano letta il 26/11/2026
+    trovato: '2026-11-26'
+  - title: Pelund Orsaghese, mercatino di Natale con i Krampus
+    start: 2026-11-29T09:00
+    end: 2026-11-29T19:00
+    venue: Piazze di Orsago
+    town: Orsago
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://trovasagre.com/mercatini/mercatino-di-natale-orsago
+    summary: Mercatino di Natale nelle piazze del paese con il passaggio dei Krampus.
+    fonte: https://trovasagre.com/mercatini-di-natale/veneto
+    nota: scheda TrovaSagre 2026; organizzatore e sito ufficiale non indicati
+    trovato: '2026-11-26'
+  - title: Architecture in conversion and the work of Carlo Scarpa
+    start: 2026-11-28T16:00
+    end: 2026-11-28T18:00
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.museocanova.it/calendario/architecture-in-conversion-and-the-work-of-carlo-scarpa/
+    summary: Incontro dedicato al riuso dell'architettura e all'opera di Carlo Scarpa, autore dell'ala moderna della Gypsotheca.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'
+  - title: 'Visita guidata: Canova, che mito!'
+    start: 2026-11-28T16:30
+    end: 2026-11-28T17:30
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.museocanova.it/calendario/visita-guidata-canova-che-mito/2026-11-28/
+    summary: Visita guidata alla Gypsotheca dedicata ai soggetti mitologici delle opere di Canova.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'
+  - title: Visita guidata per famiglie al Museo Canova
+    start: 2026-11-29T16:00
+    end: 2026-11-29T17:00
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.museocanova.it/calendario/visite-famiglie/2026-11-29/
+    summary: Visita guidata pensata per famiglie con bambini tra i gessi di Canova.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'
+  - title: 'Domenica in mostra: il Monumento a Nelson'
+    start: 2026-11-29T16:30
+    end: 2026-11-29T18:30
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.museocanova.it/calendario/domenica-in-mostra/2026-11-29/
+    summary: Appuntamento domenicale di visita alla mostra sul monumento di Canova per Horatio Nelson.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'
+  - title: John Flaxman e il monumento all'Ammiraglio Nelson
+    start: 2026-12-05T16:00
+    end: 2026-12-05T17:00
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.museocanova.it/calendario/john-flaxman-e-il-monumento-allammiraglio-nelson/
+    summary: Conferenza sullo scultore John Flaxman e sul monumento a Nelson, legata alla mostra in corso al museo.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'
+  - title: Laboratori creativi al Museo Canova
+    start: 2026-12-19T16:00
+    end: 2026-12-19T17:00
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.museocanova.it/calendario/laboratori-creativi-2/2026-12-19/
+    summary: Laboratorio creativo per bambini ispirato alle opere del museo.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'
+  - title: Laboratori creativi al Museo Canova
+    start: 2027-01-16T16:00
+    end: 2027-01-16T17:00
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.museocanova.it/calendario/laboratori-creativi-2/2027-01-16/
+    summary: Laboratorio creativo per bambini ispirato alle opere del museo.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'
+  - title: Laboratori creativi al Museo Canova
+    start: 2027-02-20T16:00
+    end: 2027-02-20T17:00
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.museocanova.it/calendario/laboratori-creativi-2/2027-02-20/
+    summary: Laboratorio creativo per bambini ispirato alle opere del museo.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'
+  - title: Laboratori creativi al Museo Canova
+    start: 2027-03-20T16:00
+    end: 2027-03-20T17:00
+    venue: Museo Gypsotheca Antonio Canova
+    town: Possagno
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.museocanova.it/calendario/laboratori-creativi-2/2027-03-20/
+    summary: Laboratorio creativo per bambini ispirato alle opere del museo.
+    fonte: https://www.museocanova.it/agenda/
+    nota: agenda del Museo letta il 26/11/2026; prezzo e prenotazione non indicati nell'agenda
+    trovato: '2026-11-26'

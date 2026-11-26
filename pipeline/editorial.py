@@ -235,6 +235,47 @@ def find(text: Optional[str], day: Optional[str], uid: Optional[str]) -> int:
     return 0
 
 
+def town_overview(town: str, since: Optional[str] = None, show: int = 40) -> list:
+    """Eventi futuri di un comune (sito + redazione, senza doppioni) e domini dei link: si guarda prima di spendere
+    una ricerca su un comune, per sapere cosa e' gia' coperto e da quali fonti."""
+    from datetime import date
+    since = since or date.today().isoformat()
+    path = ROOT / settings()["publish"]["export_path"]
+    site = json.loads(path.read_text(encoding="utf-8")).get("events", []) if path.exists() else []
+    curated = (yaml.safe_load(CURATED.read_text(encoding="utf-8")) or {}).get("eventi") if CURATED.exists() else []
+    want = " ".join(sorted(_norm_words(town)))
+    seen, rows = set(), []
+    for d in site + [{**c, "uid": "redazione"} for c in curated or []]:
+        if " ".join(sorted(_norm_words(d.get("town")))) != want:
+            continue
+        start, end = str(d.get("start") or ""), str(d.get("end") or d.get("start") or "")
+        if end[:10] < since:
+            continue
+        key = (start[:10], " ".join(sorted(_norm_words(d.get("title")))))
+        if key in seen:
+            continue
+        seen.add(key)
+        url = d.get("official_url") or d.get("action_url") or d.get("source_url") or ""
+        dom = re.sub(r"^https?://(www\.)?", "", str(url)).split("/")[0]
+        rows.append((start, str(d.get("title") or ""), d.get("uid"), dom))
+    rows.sort()
+    return rows
+
+
+def print_town(town: str, since: Optional[str]) -> int:
+    rows = town_overview(town, since)
+    doms: dict = {}
+    for r in rows:
+        doms[r[3]] = doms.get(r[3], 0) + 1
+    print(f"{town}: {len(rows)} eventi futuri (sito + redazione)")
+    for start, title, uid, dom in rows[:40]:
+        print(f"  {start[:16]}  {title}  [{uid}, {dom}]")
+    if len(rows) > 40:
+        print(f"  ... altri {len(rows) - 40}")
+    print("fonti:", ", ".join(f"{k or '-'} {v}" for k, v in sorted(doms.items(), key=lambda x: -x[1])) or "nessuna")
+    return 0
+
+
 def _norm_words(s) -> set:
     return set(re.sub(r"[^a-z0-9 ]", " ", str(s or "").lower()).split())
 
@@ -281,9 +322,13 @@ def main(argv=None) -> int:
     ap.add_argument("--cerca", metavar="TESTO", help="cerca un evento gia' sul sito (titolo, luogo, comune)")
     ap.add_argument("--data", metavar="AAAA-MM-GG", help="con --cerca: solo eventi attivi in quel giorno")
     ap.add_argument("--uid", help="mostra tutti i dati di un evento pubblicato")
+    ap.add_argument("--comune", metavar="NOME",
+                    help="eventi futuri di un comune (sito + redazione) e loro fonti: da guardare prima di cercarlo")
     args = ap.parse_args(argv)
     if args.doppioni:
         return find_duplicates()
+    if args.comune:
+        return print_town(args.comune, args.data)
     if args.cerca or args.uid:
         return find(args.cerca, args.data, args.uid)
     errs = check()

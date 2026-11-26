@@ -501,6 +501,16 @@ sources:
     escludi_titoli: "\\|\\s*scuole\\b"
     note: "Aggiunta da Claude il 2026-10-31: WordPress con The Events Calendar (meta tec-api). Dal 2026-11-05 esclude le repliche '| scuole' (riservate alle classi). Eventi a Treviso (Parco degli Alberi Parlanti, Teatro Sant'Anna) ma anche a Padova e fuori regione: li filtra l'area. robots.txt lo rispetta il PC."
 
+  - id: museo-canova
+    name: Museo Gypsotheca Antonio Canova (Possagno)
+    type: tribe_api
+    enabled: true
+    base_url: https://www.museocanova.it
+    per_page: 50
+    max_pages: 3
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-26: l'agenda usa i percorsi /calendario/<evento>/<data>/ e tribe-bar-date di The Events Calendar (visite guidate ogni sabato e domenica, laboratori, conferenze, mostre). API non provata dal cloud: se il prossimo giro da' errore, passare a jsonld sulla pagina /agenda/ o disattivare. Eventi a Possagno; robots.txt lo rispetta il PC. Le date singole gia' in eventi_redazione.yaml (laboratori, conferenze) vanno tolte se il PC le trova."
+
   - id: nautilus-teatro
     name: Nautilus Cantiere Teatrale (date in tournee)
     type: tribe_api

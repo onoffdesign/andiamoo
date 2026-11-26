@@ -197,3 +197,21 @@ def test_duplicate_keys_in_correzioni():
     errs = duplicate_keys(text)
     assert len(errs) == 1 and "correggi.abc" in errs[0]
     assert duplicate_keys("correggi:\n  a:\n    t: 1\nverificati:\n  a: 2026-11-24\n") == []
+
+
+def test_town_overview_merges_site_and_curated(files, tmp_path, monkeypatch):
+    _, cur = files
+    site = tmp_path / "events.json"
+    site.write_text(json.dumps({"events": [
+        {"uid": "a1", "title": "39 Scalini", "start": "2026-11-28T21:00", "town": "San Fior",
+         "official_url": "https://www.comune.san-fior.tv.it/x"},
+        {"uid": "b2", "title": "Vecchio", "start": "2026-11-01", "town": "San Fior"},
+        {"uid": "c3", "title": "Altrove", "start": "2026-11-28", "town": "Treviso"}]}), encoding="utf-8")
+    cur.write_text(yaml.safe_dump({"eventi": [
+        {"title": "39 scalini", "start": "2026-11-28T21:00", "town": "San Fior"},
+        {"title": "Ciclocross", "start": "2026-12-27", "town": "san fior", "official_url": "https://federciclismo.it/a"}]}),
+        encoding="utf-8")
+    monkeypatch.setattr(editorial, "settings", lambda: {"publish": {"export_path": str(site)}})
+    rows = editorial.town_overview("San Fior", "2026-11-26")
+    assert [r[1] for r in rows] == ["39 Scalini", "Ciclocross"]
+    assert rows[0][3] == "comune.san-fior.tv.it" and rows[1][2] == "redazione"
