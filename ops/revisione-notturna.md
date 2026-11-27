@@ -153,7 +153,7 @@ redazione) e le fonti da cui vengono, cosi' non si spende una ricerca su cio' ch
 7. **Verifica e pubblicazione**
    ```
    python -m pipeline.editorial --controlla      # deve dire "validi"
-   python -m pipeline.editorial --doppioni       # doppioni dentro eventi_redazione.yaml: togli il meno completo
+   python -m pipeline.editorial --doppioni       # doppioni dentro eventi_redazione.yaml e con il sito: togli il meno completo
    python -m pytest -q tests                     # tutti verdi
    python -m pipeline.editorial --applica        # correzioni e rimozioni subito sul sito
    ```

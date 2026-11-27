@@ -93,6 +93,12 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   Prima di cercare un comune guardare `python -m pipeline.editorial --comune <nome>`: San Fior era gia' coperto dal Comune.
   Mapcarta non trova sale civiche, auditorium e ville minori (0 su 3): per le posizioni servono indirizzo e comune giusti.
 
+- 2026-11-27: Nordest24 e' la testata migliore per i calendari del Natale appena usciti (Villorba, 32 appuntamenti in una lettura,
+  articolo del 26/11/2026 con l'anno nell'indirizzo); le pagine /localita/treviso e /category/eventi si aprono ed elencano gli
+  articoli della settimana, ma gli articoli letti li' vengono rifiutati: prima una ricerca con allowed_domains nordest24.it e
+  i titoli (4 letture perse). Qdpnews ha dato 2 programmi 2026 su 5 (Vittorio Veneto, Montebelluna); 3 erano del 2021-2025.
+  Le notizie dei Comuni (Nervesa, Preganziol) linkate da TViWeb non si aprono: sono gia' fonti del PC.
+
 ## Fonti da evitare o poco utili
 - Elenco dei domini che WebFetch non legge: ora in `ops/domini-illeggibili.yaml` (lo stampa il piano della notte).
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,

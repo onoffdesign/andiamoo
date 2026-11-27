@@ -10,12 +10,12 @@ comuni_TV:
   Arcade: 2026-11-22
   Asolo: 2026-11-15
   Borso del Grappa: 2026-11-19
-  Breda di Piave: 2026-11-11
+  Breda di Piave: 2026-11-27
   Caerano di San Marco: 2026-11-13
   Cappella Maggiore: 2026-11-19
   Carbonera: 2026-11-23
   Casale sul Sile: 2026-11-14
-  Casier: 2026-11-11
+  Casier: 2026-11-27
   Castelcucco: 2026-11-23
   Castelfranco Veneto: 2026-11-18
   Castello di Godego: 2026-11-14
@@ -39,18 +39,18 @@ comuni_TV:
   Giavera del Montello: 2026-11-13
   Godega di Sant'Urbano: 2026-11-17
   Gorgo al Monticano: 2026-11-21
-  Istrana: 2026-11-11
+  Istrana: 2026-11-27
   Loria: 2026-11-20
   Mansuè: 2026-11-18
   Mareno di Piave: 2026-11-12
   Maser: 2026-11-20
   Maserada sul Piave: 2026-11-20
-  Meduna di Livenza: 2026-11-11
+  Meduna di Livenza: 2026-11-27
   Miane: 2026-11-22
   Mogliano Veneto: 2026-11-15   # gia' fonte del PC (comune-mogliano myportal): non serve cercarlo a mano
   Monastier di Treviso: 2026-11-22
   Monfumo: 2026-11-26
-  Montebelluna: 2026-11-25
+  Montebelluna: 2026-11-27
   Morgano: 2026-11-16
   Moriago della Battaglia: 2026-11-22
   Motta di Livenza: 2026-11-22
@@ -74,13 +74,13 @@ comuni_TV:
   Revine Lago: 2026-11-18
   Riese Pio X: 2026-11-15
   Roncade: 2026-11-17
-  Salgareda: 2026-11-11
+  Salgareda: 2026-11-27
   San Biagio di Callalta: 2026-11-21
   San Fior: 2026-11-26
   San Pietro di Feletto: 2026-11-15
   San Polo di Piave: 2026-11-12
   San Vendemiano: 2026-11-16
-  San Zenone degli Ezzelini: 2026-11-12
+  San Zenone degli Ezzelini: 2026-11-27
   Santa Lucia di Piave: 2026-11-22
   Sarmede: 2026-11-26
   Segusino: 2026-11-24
@@ -95,8 +95,8 @@ comuni_TV:
   Vazzola: 2026-11-24
   Vedelago: 2026-11-23
   Vidor: 2026-11-18
-  Villorba: 2026-11-19
-  Vittorio Veneto: 2026-11-20
+  Villorba: 2026-11-27
+  Vittorio Veneto: 2026-11-27
   Volpago del Montello: 2026-11-17
   Zenson di Piave: 2026-11-14
   Zero Branco: 2026-11-25
@@ -206,13 +206,13 @@ categorie_TV:
   "Musica e party > Serate e club": 2026-11-14
   "Sport > Sport invernali": 2026-11-14
   "Sport > Ginnastica e danza sportiva": 2026-11-14
-  "Arte e cultura > Visite guidate": 2026-11-13
+  "Arte e cultura > Visite guidate": 2026-11-27
   "Natura e benessere > Escursioni": 2026-11-13
   "Sagre e cibo > Feste stagionali": 2026-11-13
-  "Natura e benessere > Orti e giardini": 2026-11-13
+  "Natura e benessere > Orti e giardini": 2026-11-27
   "Sport > Sport di precisione": 2026-11-26
-  "Sport > Arrampicata": 2026-11-12
-  "Sagre e cibo > Sagre": 2026-11-12
+  "Sport > Arrampicata": 2026-11-27
+  "Sagre e cibo > Sagre": 2026-11-27
   "Sport > Montagna ed escursionismo": 2026-11-26
   "Musica e party > Ballo": 2026-11-25
   "Spettacoli > Musical e operetta": 2026-11-26

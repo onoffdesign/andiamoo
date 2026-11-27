@@ -7480,3 +7480,134 @@ eventi:
     summary: Concerto dell'Epifania del Coro Tatanzambe con i cori parrocchiali di Fontane.
     fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
     trovato: '2026-11-27'
+  - title: 'Piedi per terra, castelli in aria: mostra di acquerelli in Municipio'
+    start: 2026-11-28T18:00
+    end: '2027-01-24'
+    venue: Sale espositive del Municipio
+    address: Via Alcide De Gasperi 55
+    town: San Vendemiano
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.nordest24.it/san-vendemiano-mostra-piedi-per-terra-castelli-in-aria
+    summary: Mostra del gruppo artistico Raccontando Acquerellando, inaugurata il 28 novembre alle 18; aperta sabato 15-18 e domenica 10-12 e 15-18, chiusa a Natale e Capodanno.
+    fonte: Nordest24 (25/11/2026)
+    trovato: '2026-11-27'
+  - title: 'La notte dei desideri: stelle e comete nella storia dell''arte'
+    start: 2026-12-03T20:30
+    venue: Sale espositive del Municipio
+    address: Via Alcide De Gasperi 55
+    town: San Vendemiano
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.nordest24.it/san-vendemiano-mostra-piedi-per-terra-castelli-in-aria
+    summary: Incontro sulla rappresentazione di stelle e comete nell'arte con la storica dell'arte Lorena Gava e intermezzi di canto moderno, nell'ambito della mostra in Municipio.
+    fonte: Nordest24 (25/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Seguendo la stella: laboratorio di pastelli e acquerelli'
+    start: 2026-12-12T14:30
+    end: 2026-12-12T16:30
+    venue: Sale espositive del Municipio
+    address: Via Alcide De Gasperi 55
+    town: San Vendemiano
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.nordest24.it/san-vendemiano-mostra-piedi-per-terra-castelli-in-aria
+    summary: Laboratorio creativo con pastelli a olio e acquerelli aperto a tutte le eta', collegato alla mostra in Municipio.
+    fonte: Nordest24 (25/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Favole ad alta voce: letture animate in Municipio'
+    start: 2026-12-28T16:00
+    end: 2026-12-28T17:30
+    venue: Sale espositive del Municipio
+    address: Via Alcide De Gasperi 55
+    town: San Vendemiano
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.nordest24.it/san-vendemiano-mostra-piedi-per-terra-castelli-in-aria
+    summary: Letture animate alle 16 per i bambini della scuola dell'infanzia e alle 17 per quelli della primaria.
+    fonte: Nordest24 (25/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Speciali Insieme: premiazioni e tavola rotonda su sport e inclusione'
+    start: 2026-11-27T19:00
+    venue: Palazzetto dello Sport di Zero Branco
+    town: Zero Branco
+    category: sport
+    subcategory: altri-sport
+    access: libero
+    official_url: https://www.nordest24.it/speciali-insieme-sport-inclusione-zero-branco
+    summary: Premiazione di atleti e associazioni e tavola rotonda sul ruolo delle societa' sportive nell'inclusione, promosse dal Tavolo per l'inclusione del Comune; ingresso libero.
+    fonte: Nordest24 (25/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Speciali Insieme: convegno sulla didattica inclusiva e l''attivita'' motoria'
+    start: 2026-11-28T08:30
+    end: 2026-11-28T13:00
+    venue: Auditorium Comunale Comisso
+    town: Zero Branco
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://www.nordest24.it/speciali-insieme-sport-inclusione-zero-branco
+    summary: Mattinata di interventi e workshop su scuola, sport e inclusione con Dario Ianes e Benedetta Zagni; ingresso libero senza prenotazione.
+    fonte: Nordest24 (25/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Contiamo l''Italia: mostre di StatisticAll per i 100 anni di Istat'
+    start: 2026-11-27T09:30
+    end: 2026-11-29T19:00
+    venue: Palazzo dei Trecento
+    town: Treviso
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.festivalstatistica.it
+    summary: Mostre e videoproiezione del festival della statistica dedicate al centenario dell'Istat, aperte ogni giorno dalle 9.30 alle 19.
+    fonte: Nordest24, programma di StatisticAll 2026 (23/11/2026)
+    trovato: '2026-11-27'
+  - title: 'StatisticAll: 100 anni di Istat per raccontare l''Italia'
+    start: 2026-11-27T11:00
+    venue: Museo di Santa Caterina
+    town: Treviso
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.festivalstatistica.it
+    summary: Incontro del festival della statistica con il presidente dell'Istat Francesco Maria Chelli sul centenario dell'istituto.
+    fonte: Nordest24, programma di StatisticAll 2026 (23/11/2026)
+    trovato: '2026-11-27'
+  - title: 'StatisticAll: presentazione del libro Pochi bambini'
+    start: 2026-11-27T18:15
+    venue: Museo di Santa Caterina
+    town: Treviso
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.festivalstatistica.it
+    summary: Presentazione del libro di Gianpiero Dalla Zuanna sul calo delle nascite, nel programma del festival della statistica.
+    fonte: Nordest24, programma di StatisticAll 2026 (23/11/2026)
+    trovato: '2026-11-27'
+  - title: 'StatisticAll: il basket in numeri'
+    start: 2026-11-28T15:30
+    venue: Ca' dei Carraresi
+    town: Treviso
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.festivalstatistica.it
+    summary: Incontro del festival della statistica sull'uso dei dati nella pallacanestro.
+    fonte: Nordest24, programma di StatisticAll 2026 (23/11/2026)
+    trovato: '2026-11-27'
+  - title: 'StatisticAll: come cambiano i bilanci delle famiglie'
+    start: 2026-11-28T17:00
+    venue: Ca' dei Carraresi
+    town: Treviso
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.festivalstatistica.it
+    summary: Incontro del festival della statistica sui cambiamenti dei bilanci familiari.
+    fonte: Nordest24, programma di StatisticAll 2026 (23/11/2026)
+    trovato: '2026-11-27'
+  - title: 'StatisticAll: gli statistici del futuro e Premio Oliviero Lessi'
+    start: 2026-11-29T11:00
+    venue: Ca' dei Carraresi
+    town: Treviso
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.festivalstatistica.it
+    summary: Mattinata conclusiva del festival con un incontro sulle nuove generazioni di statistici e la premiazione delle tesi di statistica.
+    fonte: Nordest24, programma di StatisticAll 2026 (23/11/2026)
+    trovato: '2026-11-27'

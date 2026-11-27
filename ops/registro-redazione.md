@@ -2,6 +2,46 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-27
+
+- **Giro del PC**: NON ha girato per la sedicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19). Coda, campione e
+  posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al prossimo giro. Correzioni
+  applicate con --applica (sito a 423 eventi, 145 correzioni attive, 2 rimossi).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (stessi eventi dell'11/11, quasi tutti conclusi).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: numeri dell'11/11 invariati (0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati); nessuna
+  ricerca spesa (Mapcarta a vuoto su sale e ville minori nelle ultime notti).
+- **Eventi corretti**: 0. **Rimossi**: 2 (LitTLe RuN e Marcia di San Nicolo' del calendario podistico, doppioni senza luogo
+  di schede della redazione). **Verificati**: 0.
+- **Eventi aggiunti** (77): famiglie 20, mercatini 16, musica 14, arte e cultura 12, sagre e feste 11, sport 3, teatro 1.
+  Magico Natale di Vittorio Veneto (12, Qdpnews 26/11: Villaggio di Natale, Krampus, Botti a Natale, laboratori alla Loggia
+  dei Grani, Kinder Haus, Capodanno); Natale di Montebelluna (25, Qdpnews 24/11: mercatini di Corso Mazzini, pista di Piazza
+  Sedese, Echi di fiabe, concerti al Palamazzalovo, Epifania in Duomo); Natale di Villorba (26, Nordest24 26/11: mercatini,
+  concerti, tombole, Panevin, Incanti di Epifania); Preganziol e Nervesa 29/11 (guida TViWeb, link ai Comuni); mostra in
+  Municipio a San Vendemiano con 3 incontri, Speciali Insieme a Zero Branco (2), StatisticAll a Treviso (6) da Nordest24.
+  Non aggiunti: Magico Natale nelle Antiche Terre di Susegana e Sant'Andrea a Colbertaldo (solo aggregatori), Christmas Market
+  di via Sant'Agostino, Zena dei Oss, Fiere del Teatro di Sarmede, Festa dei Giovanotti di Follina (solo piazzainfesta o
+  eventivenetando), RiCReazione (nessuna pagina), concerti di aprile di Il Tacco di Bacco (fuori orizzonte).
+- **Comuni controllati**: Meduna di Livenza, Istrana, Salgareda, San Zenone (0: solo portali), Breda di Piave e Casier (gia'
+  coperti), Vittorio Veneto (12), Montebelluna (25), Villorba (26); Oderzo e Mogliano ancora senza programma del Natale 2026.
+- **Categorie cercate**: Sagre e cibo > Sagre (TrovaSagre mercatini, 7/8 gia' sul sito), Sport > Arrampicata (0, solo calendari
+  FASI), Natura e benessere > Orti e giardini (0), Arte e cultura > Visite guidate (0 nuovi: Musei Civici gia' coperti). +10
+  voci nell'albero.
+- **Fonti note**: TViWeb (2 nuovi), Qdpnews calendari del Natale (37), Il Tacco di Bacco (0), Treviso Sotterranea e Cinema
+  Edera non riaperte (domini illeggibili).
+- **Fonti nuove catalogate**: 2 (Nordest24 calendari e notizie per localita', StatisticAll). Spostate in sources.yaml: 0
+  (Comuni di Nervesa e Preganziol gia' fonti del PC).
+- **Pulizia**: non fatta (l'archivio non si aggiorna dall'11/11).
+- **Miglioria**: `--doppioni` segnala anche gli eventi futuri della redazione gia' sul sito da un'altra fonte (titoli scritti
+  diversi), con test; 2 doppioni trovati e tolti.
+- **Test di copertura**: 8/10 (guida TViWeb del 27-29/11). Criterio di saturazione: non valutato.
+- **Ricerche**: 53 su 70 (30 WebSearch, 23 WebFetch, di cui 10 a vuoto: 3 articoli di anni passati, 7 link letti dentro una
+  pagina e rifiutati).
+- **Problemi aperti**: il giro del PC non parte da sedici notti; programmi del Natale 2026 di Oderzo, Mogliano e Castelfranco
+  non trovati; 51 luoghi senza punto fermi; molti eventi del Natale senza orario (dal programma dei Comuni).
+
 ## 2026-11-26
 
 - **Giro del PC**: NON ha girato per la quindicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19). Coda, campione e

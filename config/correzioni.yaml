@@ -983,6 +983,8 @@ correggi:
     nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
     verificato: "2026-11-19"
 rimuovi:
+  902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
+  5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   c294f51cbc693925: "non e' un evento: calendario di eventi e sagre di tutta Italia (eventiesagre), segnalato da Federico il 29/10/2026"
   f1ef4b7e8e4186db: "doppione di Su l'arden drio la Livenza (c244694694b8bfbc), stessa marcia di Albina del 22/11: tenuta la scheda col volantino"
   00d344513fbdd03c: "replica riservata alle scuole (teatro per le scuole di Gli Alcuni), non aperta al pubblico"

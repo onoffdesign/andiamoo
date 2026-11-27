@@ -14,7 +14,7 @@ Le correzioni valgono per l'uid pubblicato sul sito (dopo la deduplica). Si appl
 Comandi:
   python -m pipeline.editorial --controlla          verifica che i file della redazione siano validi
   python -m pipeline.editorial --applica            applica correzioni e rimozioni al sito pubblicato
-  python -m pipeline.editorial --doppioni           probabili doppioni in eventi_redazione.yaml
+  python -m pipeline.editorial --doppioni           probabili doppioni in eventi_redazione.yaml e tra redazione e sito
 """
 from __future__ import annotations
 
@@ -297,6 +297,34 @@ def duplicates(events: list) -> list:
     return pairs
 
 
+def site_duplicates(curated: list, site: list) -> list:
+    """Eventi della redazione che sono gia' sul sito da un'altra fonte (stesso giorno e comune, titolo simile, ore
+    uguali o mancanti): (indice nella redazione, uid sul sito). Succede quando --cerca non li trova per un titolo
+    scritto diverso (LiTLe Run / LitTLe RuN) o quando il PC li ha raccolti dopo che la redazione li aveva aggiunti."""
+    from rapidfuzz import fuzz, utils
+    by_key: dict = {}
+    for d in site:
+        if d.get("source") == "redazione":  # gli eventi della redazione pubblicati dal PC sono gli stessi
+            continue
+        start = str(d.get("start") or "")
+        by_key.setdefault((start[:10], " ".join(sorted(_norm_words(d.get("town"))))), []).append(d)
+    out = []
+    for i, c in enumerate(curated):
+        start = str(c.get("start") or "")
+        for d in by_key.get((start[:10], " ".join(sorted(_norm_words(c.get("town"))))), []):
+            h1, h2 = start[11:16], str(d.get("start") or "")[11:16]
+            if h1 and h2 and h1 != h2:
+                continue
+            ta, tb = str(c.get("title") or ""), str(d.get("title") or "")
+            score = fuzz.token_set_ratio(ta, tb, processor=utils.default_process)
+            if min(len(ta), len(tb)) >= 8:  # titolo corto dentro uno lungo, scritto diverso (LitTLe RuN)
+                score = max(score, fuzz.partial_ratio(ta, tb, processor=utils.default_process))
+            if score >= 85:
+                out.append((i, d.get("uid")))
+                break
+    return out
+
+
 def find_duplicates() -> int:
     """Stampa i probabili doppioni in eventi_redazione.yaml (stesso giorno e comune, titolo simile).
     L'ora vuota conta come 'qualsiasi ora': confronta anche eventi senza ora con eventi con ora."""
@@ -310,6 +338,15 @@ def find_duplicates() -> int:
         print(f"{str(ea.get('start'))[:16]}  {ea.get('title')}  ||  {str(eb.get('start'))[:16]}  {eb.get('title')}"
               f"  ({ea.get('town')})")
     print(f"{len(pairs)} possibili doppioni (stesso giorno e comune; repliche a ore diverse sono legittime)")
+    path = ROOT / settings()["publish"]["export_path"]
+    site = json.loads(path.read_text(encoding="utf-8")).get("events", []) if path.exists() else []
+    today = date.today().isoformat()
+    same = [(i, uid) for i, uid in site_duplicates(events, site) if str(events[i].get("start") or "")[:10] >= today]
+    for i, uid in same:
+        e = events[i]
+        print(f"gia' sul sito: {str(e.get('start'))[:16]}  {e.get('title')}  ({e.get('town')})  = {uid}")
+    print(f"{len(same)} eventi futuri della redazione gia' sul sito da un'altra fonte (da togliere dalla redazione"
+          f" se l'evento del sito e' completo)")
     return 0
 
 

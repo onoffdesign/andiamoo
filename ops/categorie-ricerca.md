@@ -39,7 +39,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   - boulder [contest boulder, open boulder] · lead [difficolta'] · speed · falesia [raduno in falesia]
   - palestre indoor (open day, corsi base) · ice climbing · gare FASI
   · palestre della provincia [Gioco Verticale - Le Bloc a Treviso, Orizzonti Verticali a Montebelluna, Arena Boulder]:
-    i siti non pubblicano eventi datati, contest solo sui social (2026-11-12: resa 0) · calendario gare FASI [federclimb calendario gare]
+    i siti non pubblicano eventi datati, contest solo sui social (2026-11-12: resa 0) · calendario gare FASI [federclimb calendario gare] · prove della Veneto Boulder Cup FASI [boulder cup, programma di gara] (2026-11-27: nessuna prova in provincia nei prossimi 120 giorni)
 - **Montagna ed escursionismo** (vedi anche Natura) [escursione CAI, uscita sociale]
   - escursioni guidate · via ferrata · scialpinismo · ciaspolate [racchette da neve] · alpinismo
   · uscite delle sezioni CAI [CAI Treviso uscite, gruppi Seniores, Kalipe', Neveganti]: mete in provincia (Cartizze,
@@ -76,7 +76,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · pallavolo A1 femminile al Palaverde [Imoco] · Champions League di pallavolo al Palaverde [CEV Champions League Imoco] (2026-11-20) · calcio di Serie C allo stadio Tenni [Treviso calcio]
 - **Sport per tutti** · open day delle societa' · giornate dello sport · sport adattato e paralimpico
   · corse libere gratuite del sabato mattina [parkrun Treviso, Parco dello Storga] · social run dei locali e dei negozi di sport [social run, run club] · camminate dei Babbi Natale [corsa dei Babbi Natale, Santa Klaus run]
-  · camminate in costume da Babbo Natale [camminata dei Babbi Natale, Christmas run] · parkrun del sabato (5 km cronometrati) [parkrun] (2026-11-26)
+  · camminate in costume da Babbo Natale [camminata dei Babbi Natale, Christmas run] · parkrun del sabato (5 km cronometrati) [parkrun] (2026-11-26) · tornei solidali di Natale negli oratori [torneo di burraco, calcio balilla, NOI] (2026-11-27)
 
 ## Arte e cultura (`arte-cultura`)
 
@@ -88,14 +88,14 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · mostre nelle gallerie dei licei artistici [galleria del liceo artistico] (2026-11-24) · rassegne per gli anniversari di un artista [700 anni, centenario]
 - **Visite guidate** [visita guidata, passeggiata culturale] · centri storici · ville venete · chiese e abbazie · beni del FAI [fondoambiente eventi, I racconti del Memoriale] · visite speleologiche ad acquedotti e sotterranei [Asolo Sotterranea, acquedotto della Bot] (2026-11-25)
   · percorsi sotterranei e mura · musei aperti la sera · giornate FAI e ville aperte
-  · itinerari guidati con letture e musica nelle chiese [sulle orme di] (2026-11-24) · visite guidate dello IAT legate a una rassegna [IAT visita guidata]
+  · itinerari guidati con letture e musica nelle chiese [sulle orme di] (2026-11-24) · visite guidate dello IAT legate a una rassegna [IAT visita guidata] · visite animate nei musei civici durante le feste [visita animata, vacanze di Natale al museo] (2026-11-27)
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
   · calendario settimanale delle presentazioni delle librerie di catena [eventi nelle librerie] (2026-11-18) → treviso.ubiklibri.it/eventi.html · firmacopie del sabato in libreria [firmacopie]
   · letture per adulti · poesia e slam poetry
 - **Conferenze e incontri** [conferenza, talk, dialogo] · storia locale · scienza e divulgazione · filosofia
   · ambiente · astronomia (serate osservative) · festival di cittadinanza e cooperazione [festival, dialogo, 4passi]
   · guide all'ascolto con letture [guida all'ascolto, viaggio tra i grandi della musica] (2026-11-16) → trevisoeventi pagine comune · conferenze di centri culturali e spirituali [conferenza pubblica, simbolismo] (2026-11-16)
-  · teatro forum e incontri partecipati · cicli comunali su salute e territorio [salute e territorio, agricoltura biologica] · sfilate di moda equosolidale nelle botteghe [sfilata, Altromercato, 4passi]
+  · teatro forum e incontri partecipati · cicli comunali su salute e territorio [salute e territorio, agricoltura biologica] · sfilate di moda equosolidale nelle botteghe [sfilata, Altromercato, 4passi] · festival della statistica e dei dati [StatisticAll, Istat] (2026-11-27) · incontri collaterali alle mostre nei municipi [incontro in Municipio, storia dell'arte] (2026-11-27)
 - **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni · presepi viventi [presepio vivente, figuranti] · presepi inclusivi · passeggiate sulle tracce dei pittori dell'Ottocento [Ciardi] · cortei natalizi della tradizione [ciarastea, Giuseppe e Maria cercano alloggio] (2026-11-23)
   · feste di San Martino con il santo a cavallo e il taglio del mantello [San Martin, San Martino a cavallo] · feste contadine con mostra di animali e benedizione delle macchine agricole [festa contadina, benedizione dei trattori]
 - **Patrimonio e tradizioni** · dialetto e cultura veneta · artigianato tradizionale · musei etnografici
@@ -103,7 +103,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · falo' dell'Epifania [panevin, pan e vin, brusa la vecia] (2026-11-22): i programmi escono a fine dicembre, cercare dal 20/12
 - **Tecnologia e scienza** · maker e robotica · divulgazione scientifica · eventi di astronomia
   · lezioni pubbliche dei gruppi di astrofili [lezioni per il pubblico, astrofili]
-  · serate di osservazione degli astrofili trevigiani [astrofili trevigiani, appuntamenti] (sito solo http, WebFetch in loop: 2026-11-17) · lezioni-concerto e lezioni di musica nelle fondazioni [lezione di musica, Landscapes] (2026-11-17)
+  · serate di osservazione degli astrofili trevigiani [astrofili trevigiani, appuntamenti] (sito solo http, WebFetch in loop: 2026-11-17) · lezioni-concerto e lezioni di musica nelle fondazioni [lezione di musica, Landscapes] (2026-11-17) · sport e statistica [basket in numeri, dati] (2026-11-27)
 - **Comunita'** · incontri di quartiere · volontariato · feste delle associazioni · gruppi di conversazione
   · iniziative della rete provinciale Pari Opportunita' verso il 25 novembre [25 novembre, panchina rossa, walk in red] · serate di prevenzione e salute dei comuni [si-cura, prevenzione, serata informativa] · donazioni di sangue AVIS con colazione [donazione, avis] · gruppi di lettura delle biblioteche [gruppo di lettura]
   · conferenze nei musei legate alle mostre in corso [conferenza, museo, Gypsotheca] (2026-11-26)
@@ -135,7 +135,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   funghi, baccala', pesce, spiedo, polenta) · patronali · feste di frazione
   · feste dei santuari mariani di novembre [Madonna della Salute] · sagre di San Martino
   · feste di quartiere dei circoli NOI [circolo NOI, festa di quartiere] · feste di Santa Caterina e Sant'Andrea
-    (fine novembre, Barbisano, Colbertaldo, Solighetto) · cene del lesso e dello spiedo delle Pro Loco
+    (fine novembre, Barbisano, Colbertaldo, Solighetto) · cene del lesso e dello spiedo delle Pro Loco · tombole e tombolate di Santo Stefano e dell'Epifania negli oratori [tombolata, NOI] (2026-11-27)
 - **Vino e bevande** [degustazione, cantine aperte] · Prosecco e colline del Conegliano Valdobbiadene · mostre dei vini · degustazioni di Natale in cantina [brindisi, bollicine di Natale] · serate del vino novello
   · Veneto Wine Stars (Conegliano) · Go To Veneto (Strada del Conegliano Valdobbiadene) · birrifici artigianali
   (non sono eventi le degustazioni in cantina su appuntamento del calendario del Consorzio)
@@ -187,7 +187,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · cassette delle lettere di Babbo Natale e slitte virtuali nelle piazze [slitta virtuale] (2026-11-18)
   · accensione del presepe e dell'albero (8 dicembre) · mostre di presepi (date dell'anno escono a fine novembre) · San Nicolo' (6 dicembre)
   · slitta e giro di Babbo Natale per il paese (24 dicembre) [slitta di Babbo Natale] (2026-11-26)
-  · letture per 0-3 anni in biblioteca [letture cucu', nati per leggere] · Babbo Natale nelle sedi di Alpini e Pro Loco [Babbo Natale incontra i bambini] (2026-11-26)
+  · letture per 0-3 anni in biblioteca [letture cucu', nati per leggere] · Babbo Natale nelle sedi di Alpini e Pro Loco [Babbo Natale incontra i bambini] (2026-11-26) · Babbo Natale per le vie delle frazioni la Vigilia [Babbo Natale per le vie] (2026-11-27) · calze e animazione della Befana nei teatri e auditorium comunali [incanti di Epifania, calza della Befana] (2026-11-27)
 
 ## Mercatini e fiere (`mercatini-fiere`)
 
@@ -237,7 +237,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · raccolte dei volontari Plastic Free [cleanup Plastic Free] (elenco solo con registrazione: 2026-11-17) · gruppi di ecovolontari dei comuni [Passi Puliti, ecovolontari] · Festa dell'albero del 21 novembre [Giornata nazionale degli alberi, festa degli alberi]
 - **Benessere** [yoga, meditazione] · yoga all'aperto · meditazione · pilates · camminata nordica [nordic walking]
   · bagni di gong e suono [bagno di gong, master gong] (2026-11-15) · giornate dello yoga cittadine [YogaDay] (2026-11-15)
-- **Orti e giardini** · giardini aperti · corsi di orticoltura · mostre di piante e fiori · laboratori con gli apicoltori [apicoltore, cera d'api]
+- **Orti e giardini** · giardini aperti · corsi di orticoltura · mostre di piante e fiori · laboratori con gli apicoltori [apicoltore, cera d'api] · corsi di potatura invernale dei comuni e delle associazioni [corso di potatura, innesti] (2026-11-27: solo PDF fuori provincia)
 - **Animali** · eventi cinofili [raduno cani, sfilata cani, mostra canina] · fattorie aperte · serate su fauna e migrazioni [rapaci, birdwatching] · mostre ornitologiche · benedizione degli animali [Sant'Antonio Abate, gennaio]
 
 ## Voci aggiunte (registro)
@@ -269,3 +269,5 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-22 · +10 voci · dove: Sport > Corsa (+3), Mercatini > Fiere (+3), Collezionismo (+2), Sport > Racchetta (+1), Arte e cultura > Patrimonio e tradizioni (+1)
 - 2026-11-23 · +11 voci · dove: Sport > Sport d'acqua (+1), Sport invernali (+1), Musica > Musica partecipata (+1), Concerti (+2), Serate (+1), Sagre > Feste stagionali (+2), Arte e cultura > Storia e rievocazioni (+1), Famiglie > Ricorrenze (+2), Mercatini (+1); nate dal programma del Natale a Treviso
 - 2026-11-26 · +11 voci · dove: Sagre > Feste stagionali (+3), Famiglie (+3), Sport > Corsa (+2), Musica > Musica partecipata (+1), Arte e cultura > Conferenze (+1), Mercatini > Mercatini di Natale (+1); nate dal calendario del Natale di Farra di Soligo, da TrovaSagre e dall'agenda del Museo Canova
+
+- 2026-11-27 · +10 voci · dove: Arte e cultura > Visite guidate (+1), Conferenze e incontri (+2), Tecnologia e scienza (+1), Sagre (+1), Famiglie > Ricorrenze (+2), Natura > Orti e giardini (+1), Sport > Arrampicata (+1), Sport > Sport per tutti (+1, tornei di calcio balilla e burraco solidali negli oratori)

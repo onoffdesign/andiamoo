@@ -1208,11 +1208,11 @@ fonti:
   province: [TV, VI, PD, VE, VR, BL, RO]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 3, eventi_trovati: 8, ultimi: [2, 4, 2] }
-  ultimo_controllo: '2026-11-20'
+  resa: { controlli: 4, eventi_trovati: 10, ultimi: [2, 4, 2, 2] }
+  ultimo_controllo: '2026-11-27'
   automatizzabile: no
   stato: attiva
-  note: "40 appuntamenti del weekend divisi per provincia (14 in TV) con luogo e sito citato: ottima per il test di copertura e per scoprire; esce a meta' settimana. L'indirizzo resta lo stesso ogni settimana (riletta il 13/11: 4 eventi nuovi). Le date vanno confermate: il 13/11 dava 4passiFestival il 14-15/11, ma il weekend centrale era il 6-8/11. I link interni (piazzainfesta, comuni) non si aprono con WebFetch se non escono da una ricerca. | 2026-11-20: la guida delle sagre del 20-22/11 non era ancora uscita; c'e' la guida delle MOSTRE del weekend ('Mostre in Veneto nel weekend dal ... al ...', 8 mostre TV con orari e sito): 6 su 8 gia' sul sito, 2 nuove."
+  note: "40 appuntamenti del weekend divisi per provincia (14 in TV) con luogo e sito citato: ottima per il test di copertura e per scoprire; esce a meta' settimana. L'indirizzo resta lo stesso ogni settimana (riletta il 13/11: 4 eventi nuovi). Le date vanno confermate: il 13/11 dava 4passiFestival il 14-15/11, ma il weekend centrale era il 6-8/11. I link interni (piazzainfesta, comuni) non si aprono con WebFetch se non escono da una ricerca. | 2026-11-20: la guida delle sagre del 20-22/11 non era ancora uscita; c'e' la guida delle MOSTRE del weekend ('Mostre in Veneto nel weekend dal ... al ...', 8 mostre TV con orari e sito): 6 su 8 gia' sul sito, 2 nuove. | 2026-11-27: la guida del 27-29/11 ('Sagre, feste e mercatini in Veneto: 90 appuntamenti') ha 19 eventi TV; letta solo per riassunto (pagina lunga), 8/10 dei primi gia' sul sito; aggiunti Preganziol e Nervesa (link ai Comuni, gia' fonti del PC). Quasi tutti i link sono aggregatori."
 - nome: Comune di Cornuda, eventi
   url: https://www.comune.cornuda.tv.it/home/vivere/eventi.html
   query: Comune di Cornuda eventi
@@ -1854,8 +1854,8 @@ fonti:
   province: [TV, VE]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 1, eventi_trovati: 3, ultimi: [3] }
-  ultimo_controllo: '2026-11-19'
+  resa: { controlli: 2, eventi_trovati: 3, ultimi: [3, 0] }
+  ultimo_controllo: '2026-11-27'
   automatizzabile: no
   stato: attiva
   note: "esce in quasi ogni ricerca per comune. Una pagina comune da' ~40 concerti, spettacoli e mostre nel raggio di 20 km fino a giugno (anche Mestre e Venezia), con data, sala e scheda interna ma senza link all'organizzatore: solo scoperta, conferma su TicketOne o sul sito della sala. Usata il 2026-11-19 per il test di copertura (5/10) e per 3 eventi mancanti (Notre Dame de Paris, Anna Castiglia, poi Luca Bono)."
@@ -2148,8 +2148,36 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 27, ultimi: [27] }
-  ultimo_controllo: '2026-11-26'
+  resa: { controlli: 2, eventi_trovati: 64, ultimi: [27, 37] }
+  ultimo_controllo: '2026-11-27'
   automatizzabile: no
   stato: attiva
-  note: "a fine novembre escono gli articoli con i calendari del Natale dei comuni (Farra di Soligo 25/11/2026: 27 appuntamenti con ora e luogo). Molti risultati sono del 2025 (Natale nella Marca, Magico Natale di Vittorio Veneto): chiedere all'agente di leggere prima la data di pubblicazione e fermarsi se non e' 2026."
+  note: "a fine novembre escono gli articoli con i calendari del Natale dei comuni (Farra di Soligo 25/11/2026: 27 appuntamenti con ora e luogo). Molti risultati sono del 2025 (Natale nella Marca, Magico Natale di Vittorio Veneto): chiedere all'agente di leggere prima la data di pubblicazione e fermarsi se non e' 2026. 2026-11-27: Magico Natale di Vittorio Veneto (26/11/2026, 12 aggiunti) e Natale di Montebelluna ('Sabato si accende il Natale', 24/11/2026, 25 aggiunti); a vuoto 3 articoli di anni passati (Montebelluna 2023, weekend 2025, Asolo 2021)."
+- nome: Nordest24, calendari del Natale e notizie per localita'
+  url: https://www.nordest24.it/localita/treviso
+  query: '"Natale 2026 eventi calendario <comune>" con allowed_domains [nordest24.it]; elenco recente in /localita/treviso e /category/eventi'
+  tipo: testata
+  categorie: [sagre-feste, famiglie-bambini, musica, arte-cultura]
+  comuni: [Villorba, Treviso, San Vendemiano, Zero Branco, Nervesa della Battaglia, Farra di Soligo]
+  province: [TV]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 38, ultimi: [38] }
+  ultimo_controllo: '2026-11-27'
+  automatizzabile: no
+  stato: attiva
+  note: "articoli datati nell'indirizzo e nei metadati, con programma completo (Villorba 32 appuntamenti del Natale, 26/11/2026; StatisticAll; mostra in Municipio a San Vendemiano). Le pagine /localita/treviso e /category/eventi si aprono ed elencano gli articoli dell'ultima settimana: buone per scoprire; gli articoli letti dentro l'elenco vengono rifiutati, si aprono dopo una ricerca con allowed_domains nordest24.it e il titolo."
+- nome: StatisticAll, festival della statistica
+  url: https://www.festivalstatistica.it
+  query: StatisticAll Treviso <anno> programma
+  tipo: festival
+  categorie: [arte-cultura]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: annuale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-27'
+  automatizzabile: no
+  stato: attiva
+  note: "fine novembre, sedi Museo Santa Caterina, Ca' dei Carraresi, Palazzo dei Trecento; programma trovato su Nordest24 (23/11/2026). Cercare la nuova edizione a meta' novembre."
