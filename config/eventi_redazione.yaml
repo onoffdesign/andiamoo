@@ -6767,3 +6767,414 @@ eventi:
     fonte: https://www.parkrun.it/treviso/
     nota: appuntamento fisso di ogni sabato alle 9 (fonte parkrun gia' letta dal PC fino al 28/11); date di dicembre aggiunte perche' il PC non gira dall'11/11; eventuali sospensioni festive non verificate
     trovato: '2026-11-26'
+  - title: 'Magico Natale: Villaggio di Natale in Piazza del Popolo'
+    start: 2026-11-27T17:00
+    end: '2027-01-06'
+    venue: Piazza del Popolo
+    town: Vittorio Veneto
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Villaggio natalizio con casette dei mercatini e appuntamenti musicali in piazza, organizzato dall'associazione Vittorio al Centro con il Comune.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Demoni Italiani in concerto al Villaggio di Natale
+    start: 2026-11-27T21:00
+    venue: Piazza del Popolo
+    town: Vittorio Veneto
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Concerto in piazza per la serata di apertura del Villaggio di Natale, dopo la bicchierata inaugurale delle 20.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Castagnata e concerto del Coro Alpini Col di Lana
+    start: '2026-11-29'
+    venue: Piazza del Popolo
+    town: Vittorio Veneto
+    category: musica
+    subcategory: concerti
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Castagnata nel Villaggio di Natale con il concerto del coro alpino Col di Lana.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: Parole che illuminano nella festa di San Nicolo'
+    start: 2026-12-05T16:30
+    venue: Piazza Flaminio
+    town: Vittorio Veneto
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Letture e animazione per la festa di San Nicolo' a cura del gruppo Parole che Illuminano della Pro Loco; alle 18 il corteo raggiunge la Casa degli Alpini per l'arrivo del santo.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Kinder Haus: laboratori, giochi e letture di Natale'
+    start: '2026-12-05'
+    end: '2027-01-03'
+    venue: Galleria Concordia
+    town: Vittorio Veneto
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Spazio natalizio per bambini e ragazzi con laboratori, giochi e letture, in gran parte gratuiti.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Sfilata dei Krampus al Villaggio di Natale
+    start: '2026-12-07'
+    venue: Piazza del Popolo
+    town: Vittorio Veneto
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Sfilata in costume dei Krampus della tradizione alpina tra le casette del Villaggio di Natale.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: Laboratori creativi di Natale alla Loggia dei Grani
+    start: '2026-12-12'
+    venue: Loggia dei Grani, Piazza Minucci
+    town: Vittorio Veneto
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Laboratori creativi a tema natalizio nella loggia di Serravalle.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: Laboratori creativi di Natale alla Loggia dei Grani
+    start: '2026-12-13'
+    venue: Loggia dei Grani, Piazza Minucci
+    town: Vittorio Veneto
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Laboratori creativi a tema natalizio nella loggia di Serravalle.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: Laboratori creativi di Natale alla Loggia dei Grani
+    start: '2026-12-20'
+    venue: Loggia dei Grani, Piazza Minucci
+    town: Vittorio Veneto
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Laboratori creativi a tema natalizio nella loggia di Serravalle.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: Arrivo della slitta di Babbo Natale
+    start: '2026-12-19'
+    venue: Piazza del Popolo
+    town: Vittorio Veneto
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Arrivo di Babbo Natale con la slitta nel Villaggio di Natale.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: 'Botti a Natale: Palio delle Botti d''inverno'
+    start: '2026-12-20'
+    venue: Piazza del Popolo
+    town: Vittorio Veneto
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Seconda edizione della versione invernale del Palio delle Botti, nel Villaggio di Natale.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: WoW che Capodanno!
+    start: 2026-12-31T21:00
+    end: 2027-01-01T04:00
+    venue: Piazza del Popolo
+    town: Vittorio Veneto
+    category: musica
+    subcategory: party
+    official_url: https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/
+    summary: Festa di Capodanno in piazza con l'emittente Radio WoW, dalle 21 alle 4.
+    fonte: Qdpnews, programma del Magico Natale 2026/27 (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale in Corso Mazzini
+    start: 2026-11-28T09:00
+    end: 2026-11-28T19:00
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale in Corso Mazzini
+    start: 2026-12-05T09:00
+    end: 2026-12-05T19:00
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale in Corso Mazzini
+    start: 2026-12-06T09:00
+    end: 2026-12-06T19:00
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale in Corso Mazzini
+    start: 2026-12-12T09:00
+    end: 2026-12-12T19:00
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale in Corso Mazzini
+    start: 2026-12-13T09:00
+    end: 2026-12-13T19:00
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale in Corso Mazzini
+    start: 2026-12-20T09:00
+    end: 2026-12-20T19:00
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale in Corso Mazzini
+    start: '2026-11-29'
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: Mercatino delle associazioni e delle scuole
+    start: 2026-12-08T09:00
+    end: 2026-12-08T19:00
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Bancarelle di associazioni e scuole nel giorno dell'Immacolata; alle 16 i bambini cantano davanti alla bancarella della scuola.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Inaugurazione del Villaggio di Natale
+    start: 2026-11-28T15:00
+    venue: Villaggio di Natale, davanti al Municipio
+    town: Montebelluna
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Apertura del villaggio con Babbo Natale, laboratori, truccabimbi e spettacolo di magia; alle 16 il coro dei bambini e alle 16.30 il taglio del nastro.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Pista di ghiaccio e casette gastronomiche in Piazza Sedese
+    start: 2026-11-28T15:00
+    end: '2027-01-17'
+    venue: Piazza Sedese
+    town: Montebelluna
+    category: sport
+    subcategory: altri-sport
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Pista di pattinaggio su ghiaccio con casette gastronomiche, aperta dal lunedi' al sabato 15-19 e la domenica 10-13 e 15-19, a cura de Il Mosaico.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Giochi giganti e da tavolo in Piazza Negrelli
+    start: '2026-11-29'
+    venue: Piazza Negrelli
+    town: Montebelluna
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Giochi in formato gigante e giochi da tavolo in piazza a cura dell'associazione Carridisarmati.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: 'Echi di fiabe: A raccontar le storie'
+    start: 2026-12-06T17:30
+    venue: Auditorium della Biblioteca
+    town: Montebelluna
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Racconto di fiabe natalizie per bambini nell'auditorium della biblioteca civica.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Echi di fiabe: Pollicino'
+    start: 2026-12-20T17:30
+    venue: Auditorium della Biblioteca
+    town: Montebelluna
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Racconto della fiaba di Pollicino per bambini nell'auditorium della biblioteca civica.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Accensione dell'albero di Natale con il Coro Mani Bianche
+    start: 2026-12-08T17:30
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Accensione dell'albero di Natale cittadino accompagnata dal coro; in caso di maltempo rinviata al 12 dicembre.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Inaugurazione della mostra dei presepi
+    start: 2026-12-11T16:30
+    venue: Villa Correr Pisani
+    town: Montebelluna
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Apertura della mostra di presepi allestita nella villa.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Inaugurazione del presepe cittadino
+    start: 2026-12-12T11:30
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Inaugurazione del presepe della citta' con i canti del Coro del Duomo.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercato straordinario di Natale
+    start: 2026-12-13T08:00
+    end: 2026-12-13T13:00
+    venue: Loggia dei Grani, zona sud
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: fiere
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Mercato straordinario domenicale nel periodo natalizio.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercato straordinario di Natale
+    start: 2026-12-20T08:00
+    end: 2026-12-20T19:00
+    venue: Loggia dei Grani, zona sud
+    town: Montebelluna
+    category: mercatini-fiere
+    subcategory: fiere
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Mercato straordinario domenicale nel periodo natalizio.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Frozen The Show al Villaggio di Natale
+    start: '2026-12-19'
+    venue: Villaggio di Natale, davanti al Municipio
+    town: Montebelluna
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Spettacolo per bambini ispirato a Frozen sul palco del Villaggio di Natale.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    nota: orario non indicato nel programma
+    trovato: '2026-11-27'
+  - title: Aperitivo della Vigilia con Radio Peter Pan
+    start: 2026-12-24T14:30
+    end: 2026-12-24T18:30
+    venue: Villaggio di Natale, davanti al Municipio
+    town: Montebelluna
+    category: musica
+    subcategory: aperitivo
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Pomeriggio musicale della Vigilia con l'emittente Radio Peter Pan.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Serata di cabaret al Palamazzalovo
+    start: 2026-12-26T21:00
+    venue: Palamazzalovo
+    town: Montebelluna
+    category: teatro-spettacoli
+    subcategory: comicita
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Spettacolo di cabaret a cura di Oberon Bottega delle Arti.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Concerto della Banda musicale e delle Majorettes Citta' di Montebelluna
+    start: 2026-12-27T20:45
+    venue: Palamazzalovo
+    town: Montebelluna
+    category: musica
+    subcategory: concerti
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Concerto natalizio della banda cittadina con esibizione del gruppo majorettes.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Concerto di Capodanno dell'Orchestra Legrenzi
+    start: 2026-12-29T20:45
+    venue: Palamazzalovo
+    town: Montebelluna
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Concerto di fine anno dell'Orchestra Giovanni Legrenzi.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: Capodanno in piazza a Montebelluna
+    start: 2026-12-31T22:00
+    venue: Corso Mazzini
+    town: Montebelluna
+    category: musica
+    subcategory: party
+    access: libero
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Festa di fine anno nell'area pedonale del corso.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
+  - title: 59° Concerto dell'Epifania
+    start: 2027-01-06T15:30
+    venue: Duomo di Montebelluna
+    town: Montebelluna
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/
+    summary: Tradizionale concerto dell'Epifania del Coro del Duomo.
+    fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
+    trovato: '2026-11-27'
