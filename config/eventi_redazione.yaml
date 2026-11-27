@@ -7178,3 +7178,305 @@ eventi:
     summary: Tradizionale concerto dell'Epifania del Coro del Duomo.
     fonte: Qdpnews, programma del Natale di Montebelluna (24/11/2026)
     trovato: '2026-11-27'
+  - title: Mercatino di Natale a Preganziol
+    start: 2026-11-29T09:30
+    venue: Piazza Gabbin
+    town: Preganziol
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.comune.preganziol.tv.it/novita/mercatino-di-natale-a-preganziol-domenica-29-novembre-in-piazza-gabbin/
+    summary: Mercatino natalizio in piazza con uno spettacolo alle 11, l'arrivo di Babbo Natale alle 14.30 e l'accensione dell'albero alle 17; con maltempo si sposta nella Sala Polivalente Secco.
+    fonte: TViWeb, guida del weekend 27-29/11/2026 (26/11), che rimanda alla notizia del Comune
+    nota: pagina del Comune non apribile da WebFetch; data e piazza confermate anche dall'indirizzo della notizia
+    trovato: '2026-11-27'
+  - title: Effetto Natale a Nervesa della Battaglia
+    start: 2026-11-29T09:00
+    end: 2026-11-29T21:00
+    venue: Piazza La Piave
+    town: Nervesa della Battaglia
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.comune.nervesa.tv.it/novita/effetto-natale-domenica-29-novembre-2026/
+    summary: Giornata natalizia in centro con mostra mercato, show cooking, laboratorio del tiramisu' per bambini, presepe vivente, gara di torte, arrivo di Babbo Natale e musica fino alle 21.
+    fonte: TViWeb, guida del weekend 27-29/11/2026 (26/11), che rimanda alla notizia del Comune
+    nota: pagina del Comune non apribile da WebFetch; data confermata anche dall'indirizzo della notizia
+    trovato: '2026-11-27'
+  - title: Mercatino di Natale della Caritas di Lancenigo
+    start: 2026-11-28T15:00
+    end: 2026-12-20T18:00
+    venue: Oratorio di Lancenigo
+    town: Villorba
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: 'Mercatino solidale della Caritas aperto fino al 20 dicembre: feriali 15-18 (mercoledi'' anche 19-20), sabato 15-19, festivi 9-12.30 e 15-18.'
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Torneo solidale di Natale di burraco
+    start: 2026-12-01T19:00
+    venue: NOI Fontane
+    town: Villorba
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Torneo di burraco a scopo benefico organizzato dal circolo NOI di Fontane.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Torneo solidale di Natale di burraco
+    start: 2026-12-16T15:00
+    venue: NOI Fontane
+    town: Villorba
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Torneo di burraco a scopo benefico organizzato dal circolo NOI di Fontane.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Recital di pianoforte di Gregory Goureschidze
+    start: 2026-12-04T20:30
+    venue: Auditorium Mario Del Monaco
+    address: Piazza Carlo e Giovanni Pinarello, Catena
+    town: Villorba
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Recital pianistico dedicato a San Francesco e alla visione mistica, promosso dal Comune; ingresso gratuito con prenotazione consigliata.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale in Piazza Aldo Moro
+    start: 2026-12-05T09:30
+    end: 2026-12-05T19:00
+    venue: Piazza Aldo Moro
+    town: Villorba
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Mercatino natalizio promosso dal Comune nella piazza del capoluogo.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Inaugurazione della Mostra dei Presepi di Catena
+    start: 2026-12-08T11:00
+    venue: Oratorio NOI di Catena
+    town: Villorba
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Apertura della mostra di presepi allestita dall'oratorio di Catena.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: PGV si veste di Natale
+    start: 2026-12-09T14:00
+    end: 2026-12-09T17:00
+    venue: Biblioteca comunale
+    address: Via della Liberta' 2, Carita'
+    town: Villorba
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Pomeriggio di attivita' natalizie del Progetto Giovani Villorba in biblioteca, senza iscrizione.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: '25 anni dei Cuccioli: presentazione e mostra'
+    start: 2026-12-11T18:30
+    venue: Biblioteca comunale
+    address: Via della Liberta' 2, Carita'
+    town: Villorba
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Incontro per i 25 anni della serie animata dei Cuccioli con l'inaugurazione di una mostra dedicata.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Mercatini di Natale a Catena
+    start: 2026-12-13T09:00
+    end: 2026-12-13T17:00
+    venue: Area parrocchiale di Catena
+    town: Villorba
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Mercatino con una trentina di espositori e cibo, con letture animate alle 11 e un laboratorio per bambini alle 15.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Aspettando il Natale: concerto della Banda di Villorba'
+    start: 2026-12-13T16:00
+    venue: Chiesa parrocchiale di Catena
+    town: Villorba
+    category: musica
+    subcategory: concerti
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Concerto natalizio della banda comunale Albino Gagno con i cori.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Letture animate di Natale per bambini
+    start: 2026-12-20T16:00
+    venue: NOI Fontane
+    town: Villorba
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Letture animate per bambini dai 3 anni al circolo NOI di Fontane.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Concerto di Natale dell'orchestra del Liceo musicale
+    start: 2026-12-20T17:00
+    venue: Chiesa parrocchiale di Fontane
+    town: Villorba
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Concerto natalizio dell'orchestra dei ragazzi del Liceo musicale di Castelfranco Veneto.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Concerto di Natale della Banda Albino Gagno
+    start: 2026-12-21T20:30
+    venue: Sala parrocchiale Pio X
+    town: Villorba
+    category: musica
+    subcategory: concerti
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Concerto natalizio della banda comunale di Villorba.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: PGV Christmas Party
+    start: 2026-12-23T14:00
+    end: 2026-12-23T17:00
+    venue: Parco di Villa Giovannina
+    address: Via della Liberta' 4, Carita'
+    town: Villorba
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Festa natalizia per ragazzi del Progetto Giovani Villorba, a ingresso libero senza iscrizione.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Babbo Natale per le vie di Villorba
+    start: 2026-12-24T15:00
+    end: 2026-12-24T18:30
+    venue: Centro di Villorba
+    town: Villorba
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Babbo Natale gira per le vie del centro, a cura del Gruppo Sagra e Amici Villorba.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Babbo Natale per le vie di Catena
+    start: 2026-12-24T16:30
+    end: 2026-12-24T19:30
+    venue: Centro di Catena
+    town: Villorba
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Babbo Natale gira per le vie della frazione, a cura della Polisportiva di Catena.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Tombola dell'Amore
+    start: 2026-12-26T15:30
+    venue: Oratorio di Lancenigo
+    town: Villorba
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Tombola di Santo Stefano organizzata dal circolo NOI e dalla parrocchia di Lancenigo.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Tombolata di Santo Stefano
+    start: 2026-12-26T20:30
+    venue: Oratorio parrocchiale di Villorba
+    town: Villorba
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Tombola serale di Santo Stefano del circolo NOI di Villorba.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Torneo di Natale di calcio balilla
+    start: 2026-12-27T16:30
+    end: 2026-12-28T19:00
+    venue: NOI Fontane
+    town: Villorba
+    category: sport
+    subcategory: altri-sport
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Torneo di calcio balilla aperto a tutte le eta', con seconda giornata il 28 dicembre.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Concerto di Fine Anno e Premio Lirico Citta' di Villorba
+    start: 2026-12-28T20:45
+    venue: Palateatro di Fontane
+    address: Via Cave 15, Fontane
+    town: Villorba
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Terza edizione del premio lirico con il concerto di fine anno della Filarmonia Veneta, promossi dal Comune.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Tombolata dei Re Magi
+    start: 2027-01-03T16:00
+    venue: NOI Fontane
+    town: Villorba
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Tombola dell'Epifania al circolo NOI di Fontane.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: 'Felicita'' formato bimbi: Missione Befana'
+    start: 2027-01-03T16:00
+    end: 2027-01-03T18:00
+    venue: Oratorio di Lancenigo
+    town: Villorba
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Pomeriggio per bambini con la creazione della calza della Befana e giochi; prenotazione richiesta.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Panevin degli Alpini di Villorba
+    start: 2027-01-04T20:00
+    venue: Via Volpere
+    town: Villorba
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Falo' dell'Epifania con arrivo della Befana, pinza e vin brule', a cura del Gruppo Alpini.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Panevin dell'Oratorio di Catena
+    start: 2027-01-05T20:00
+    venue: Oratorio NOI di Catena
+    town: Villorba
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Falo' dell'Epifania con la Befana, calze per i bambini, tombola e sottoscrizione a premi.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Incanti di Epifania
+    start: 2027-01-06T15:30
+    venue: Auditorium Mario Del Monaco
+    address: Piazza Carlo e Giovanni Pinarello, Catena
+    town: Villorba
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Animazione per bambini con distribuzione delle calze, promossa dal Comune.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
+  - title: Concerto di Epifania a Fontane
+    start: 2027-01-09T20:30
+    venue: Chiesa di Fontane
+    town: Villorba
+    category: musica
+    subcategory: concerti
+    official_url: https://www.nordest24.it/villorba-eventi-natale-2026
+    summary: Concerto dell'Epifania del Coro Tatanzambe con i cori parrocchiali di Fontane.
+    fonte: Nordest24, calendario del Natale di Villorba (26/11/2026)
+    trovato: '2026-11-27'
