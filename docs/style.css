@@ -1203,3 +1203,12 @@ body.view-list .inline-card .card-acc { font-size: 1rem; }
 .card.full.a2 .card-actions { margin-top: 14px; }
 .card.full.a2 .report-link { margin-top: 10px; }
 .card.full.a2 > .fav { top: 10px; right: 8px; }
+/* popup A2: ritmo regolare tra i blocchi */
+.card.full.a2 .p-date { margin-top: 14px; }
+.card.full.a2 .p-place { margin-top: 12px !important; margin-bottom: 0; }
+.card.full.a2 .card-acc { margin-top: 12px; }
+.card.full.a2 .card-acc:empty { display: none; }
+.card.full.a2 .p-desc { margin-top: 12px !important; margin-bottom: 0; }
+.card.full.a2 .card-actions { margin-top: 16px; }
+.card.full.a2 .report-link { margin-top: 12px; }
+.card.full.a2 > * { flex: none; }
