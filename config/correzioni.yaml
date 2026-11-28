@@ -346,12 +346,6 @@ correggi:
     town: "Treviso"
     nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
-  42253dce9b241471:
-    venue: "Alcuni Teatro Sant'Anna"
-    address: "Viale Brigata Treviso 18"
-    town: "Treviso"
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
-    verificato: "2026-11-07"
   fa540d0d659400ba:
     lat: 45.69036
     lon: 12.25858
@@ -1111,6 +1105,245 @@ correggi:
     lon: 12.21836
     nota: 'Qdpnews 20/11: sabato 12/12 alle 15 in via Santa Bona Nuova 110/B, presso la Cartoleria Kikka. Il civico non e'' in OpenStreetMap: punto sulla chiesa di Santa Bona sulla stessa strada (way 140914479), il posto certo piu'' vicino; era sul centro di Treviso, a circa 3 km'
     verificato: '2026-11-28'
+  6fc192d818a4edaa:
+    venue: Biblioteca del Centro Studi Campostrini
+    address: Via Santa Maria in Organo 4
+    lat: 45.44403
+    lon: 11.00544
+    nota: 'scheda del Comune di Verona: Biblioteca del Centro Studi Campostrini, via Santa Maria in Organo 4, ogni giorno fino al 20/12, ingresso gratuito; coordinate del civico da OpenStreetMap (node 4553714374)'
+    verificato: '2026-11-28'
+  a9b9cad583bf74f6:
+    access: libero
+    price: ingresso gratuito senza prenotazione
+    nota: 'scheda del Comune di Pordenone: mostra aperta gratuitamente senza prenotazione, venerdi'' 15-19, sabato e domenica 10-13 e 15-19, fino al 9/12'
+    verificato: '2026-11-28'
+  8e434337d51eb422:
+    access: biglietto
+    nota: 'pagina dei Musei Civici di Treviso: mostra-dossier al Museo Bailo dal 14/11/2026 al 7/2/2027, martedi''-domenica 10-18, con biglietto del museo (prezzo non indicato nella scheda)'
+    verificato: '2026-11-28'
+  f049d28f340f9283:
+    access: biglietto
+    nota: 'scheda VIVA del Comune di Vicenza: mostra in Basilica Palladiana dal 14/11/2026 al 2/5/2027, informazioni e biglietti su mostreinbasilica.it (prezzo non indicato nella scheda)'
+    verificato: '2026-11-28'
+  6e065b78d1a2ae67:
+    venue: Gallerie d'Italia, Palazzo Leoni Montanari
+    address: Contra' Santa Corona 25
+    lat: 45.55016
+    lon: 11.5467
+    nota: 'scheda VIVA del Comune di Vicenza: Gallerie di Palazzo Leoni Montanari, Contra'' Santa Corona 25, martedi''-domenica fino al 2/5/2027, intero 5 euro, ridotto 3; coordinate di OpenStreetMap (way 138720450)'
+    verificato: '2026-11-28'
+  afda5f9466e012fa:
+    access: libero
+    price: ingresso gratuito
+    lat: 45.40891
+    lon: 11.87507
+    nota: 'pagina di Padova Cultura: Oratorio di San Rocco dal 21/11/2026 al 7/3/2027, martedi''-domenica 9.30-19, ingresso gratuito; coordinate di OpenStreetMap (way 132001308)'
+    verificato: '2026-11-28'
+  1fc8efb0ba56c38d:
+    access: libero
+    price: ingresso gratuito
+    nota: 'scheda del Comune di Verona: mostra al Centro Internazionale di Fotografia Scavi Scaligeri dal 21/11/2026 al 10/1/2027, ingresso gratuito, con alcune visite guidate gratuite'
+    verificato: '2026-11-28'
+  b5f2e2615c9430c0:
+    lat: 45.40919
+    lon: 11.87139
+    nota: 'Teatro Verdi di Padova, Via dei Livello 32: coordinate di OpenStreetMap (way 131966263), ora anche in config/luoghi.yaml; date dalla stagione di prosa di Padova Cultura'
+    verificato: '2026-11-28'
+  c76fcb844c398726:
+    lat: 45.95844
+    lon: 12.65908
+    nota: 'scheda del Comune di Pordenone: pista in Piazza XX Settembre dal 27/11 al 6/1, feriali 15-21, festivi 10-12 e 15-23 (costi ''in definizione'': accesso lasciato vuoto); punto della piazza da OpenStreetMap (way 154793628, Piazzale Venti Settembre)'
+    verificato: '2026-11-28'
+  b86c2756c4eef091:
+    address: Piazza XX Settembre
+    lat: 45.95856
+    lon: 12.66069
+    nota: 'scheda del Comune di Pordenone: Sala Novita'', piano terra della Biblioteca civica in Piazza XX Settembre, lunedi'' 14-18.45, martedi''-sabato 9-18.45 (costo non indicato); coordinate della biblioteca da OpenStreetMap (relation 2080505)'
+    verificato: '2026-11-28'
+  9a7dd94a2fbf044a:
+    lat: 45.95844
+    lon: 12.65908
+    nota: 'scheda del Comune di Pordenone: 12 casette in Piazza XX Settembre dal 27/11 al 6/1 con orari giorno per giorno; punto della piazza da OpenStreetMap (way 154793628, Piazzale Venti Settembre)'
+    verificato: '2026-11-28'
+  cfaa29a247bbbc91:
+    access: libero
+    price: ingresso libero
+    nota: 'scheda del Comune di Pordenone (Itinerari sonori XXVII): concerto di Natale, ingresso libero'
+    verificato: '2026-11-28'
+  05ccf303e27cfdd4:
+    access: libero
+    price: ingresso gratuito
+    nota: 'scheda del Comune di Pordenone: 23o Gala'' della Magia, ingresso gratuito'
+    verificato: '2026-11-28'
+  02fa416b30e03e08:
+    address: Via Vittorio Veneto 21
+    access: libero
+    price: gratuito
+    lat: 45.96824
+    lon: 12.6824
+    nota: 'scheda del Comune di Pordenone (Natale a Torre): presepe artistico nel parco del Castello di Torre, Via Vittorio Veneto 21, inaugurazione domenica 29/11 alle 17.45, gratuito; coordinate del parco da OpenStreetMap (way 232879674)'
+    verificato: '2026-11-28'
+  335bafcdc80b89f9:
+    lat: 45.73019
+    lon: 11.86435
+    nota: 'articolo di Nordest24 del 28/11 (Natale a Ramon): rassegna di gLoriArt dal 29/11 al 13/12 nella sala mostre della Biblioteca, inaugurazione domenica 29/11 alle 11; coordinate della Biblioteca comunale di Loria a Ramon da OpenStreetMap (node 1428978448)'
+    verificato: '2026-11-28'
+  06980f33952afe60:
+    access: biglietto
+    price: visita 7 euro (piu' 1 euro di prevendita), oltre al biglietto ridotto del museo
+    nota: 'scheda della biglietteria dei Musei Civici di Treviso: visite sabato 28 e domenica 29/11 alle 10.30 e 15.30, biglietto della visita 7 euro (piu'' 1 euro di prevendita) oltre all''ingresso ridotto del museo'
+    verificato: '2026-11-28'
+  22b1c26e789c3b06:
+    lat: 45.6834
+    lon: 12.24515
+    nota: 'articolo di Nordest24: domenica 29/11 alle 19 all''Altromercato Store di via Grimaldi Prati 2, ingresso gratuito con prenotazione; coordinate del negozio da OpenStreetMap (node 3926172570)'
+    verificato: '2026-11-28'
+  91b589770cd3b1c4:
+    address: Corso Santi Felice e Fortunato 225
+    lat: 45.54406
+    lon: 11.53309
+    nota: 'scheda VIVA del Comune di Vicenza: Basilica dei Santi Felice e Fortunato, Corso SS. Felice e Fortunato 225, domenica 29/11 alle 17, ingresso libero con offerta responsabile; coordinate di OpenStreetMap (way 138907607)'
+    verificato: '2026-11-28'
+  56daee1415779085:
+    start: 2026-11-29T18:00
+    all_day: false
+    nota: 'pagina del Mattorosso: domenica 29/11, porte e iscrizioni al contest dalle 18, show dalle 20 (ingresso non indicato)'
+    verificato: '2026-11-28'
+  c9b3a59c03d70cff:
+    lat: 45.95844
+    lon: 12.65908
+    nota: 'scheda del Comune di Pordenone (Casette di Natale): show cooking di Fabrizio Nonis il 2/12 alle 18.30 alle casette in Piazza XX Settembre (costo non indicato); punto della piazza da OpenStreetMap (way 154793628)'
+    verificato: '2026-11-28'
+  f084eee354f95c33:
+    address: Corso Vittorio Emanuele II 49
+    lat: 45.05448
+    lon: 12.05653
+    nota: 'pagina della biblioteca di Adria (OPAC Now): mercoledi'' 2/12 alle 16 nella Sala Federighi della sede municipale, terzo piano, ingresso libero; coordinate del Comune di Adria, Corso Vittorio Emanuele II 49, da OpenStreetMap (node 8450796305)'
+    verificato: '2026-11-28'
+  89dd9e6ba2fbeca5:
+    lat: 45.40769
+    lon: 11.87709
+    nota: 'pagina di Padova Cultura: festival dal 3 all''8/12 al Caffe'' Pedrocchi e in altri luoghi del centro, appuntamenti con modalita'' diverse (alcuni esauriti o su prenotazione): accesso lasciato vuoto; coordinate del Caffe'' Pedrocchi da OpenStreetMap (node 325130331)'
+    verificato: '2026-11-28'
+  270619e5c9656cce:
+    lat: 45.77973
+    lon: 11.80377
+    nota: 'scheda del Comune di Mussolente: giovedi'' 3/12 alle 17.30, Via Firenze 11/A, gratuito; punto di Via Firenze da OpenStreetMap (way 27062138), a 60 m dalla biblioteca segnata in OSM'
+    verificato: '2026-11-28'
+  3f0f63aee873645c:
+    venue: Chiesa dei Santi Ilario e Taziano
+    address: Via Vittorio Veneto 26
+    access: libero
+    price: ingresso libero
+    lat: 45.96763
+    lon: 12.68138
+    nota: 'scheda del Comune di Pordenone (Natale a Torre): concerto alle 20 nella Chiesa dei Santi Ilario e Taziano, Via Vittorio Veneto 26, ingresso libero; coordinate della chiesa da OpenStreetMap (way 36685673)'
+    verificato: '2026-11-28'
+  7ebdf4c7b3ddf00b:
+    lat: 45.91492
+    lon: 12.15557
+    nota: 'articolo di Qdpnews sul Natale di Farra: venerdi'' 4/12 alle 15 San Nicolo'' alla sede del Gruppo Alpini di Soligo (calendario interamente gratuito); la sede non e'' in OpenStreetMap: punto sulla chiesa dei Santi Pietro e Paolo di Soligo (way 228400866), centro della frazione'
+    verificato: '2026-11-28'
+  22979ba3c3497d3f:
+    lat: 45.78245
+    lon: 12.49339
+    nota: 'scheda di Scopri Oderzo: venerdi'' 4/12 alle 20.30 nel Duomo di Oderzo, ingresso libero con offerte per AVSI; coordinate del Duomo da OpenStreetMap (way 1273633281)'
+    verificato: '2026-11-28'
+  93255faf1988a724:
+    start: 2026-12-04T22:00
+    end: 2026-12-05T03:00
+    all_day: false
+    access: libero
+    price: ingresso gratuito (solo maggiorenni)
+    nota: 'pagina del Mattorosso: venerdi'' 4/12 dalle 22 alle 3, ingresso gratuito, maggiorenni'
+    verificato: '2026-11-28'
+  501e8056b36f1cb7:
+    lat: 45.66369
+    lon: 12.247
+    nota: 'articolo di Qdpnews sul Natale a Treviso: giochi in legno ai Giardini di Sant''Andrea sabato 5, martedi'' 8 e sabato 19/12 dalle 14 alle 18; coordinate dei Giardinetti di Sant''Andrea da OpenStreetMap (way 230360516), ora in config/luoghi.yaml anche per le altre due date'
+    verificato: '2026-11-28'
+  a06870798e2401b2:
+    lat: 45.66777
+    lon: 12.24148
+    nota: 'articolo di Qdpnews sul Natale a Treviso: sabato 5/12 alle 18 a Casa Robegan (Treviso Suona Jazz Festival); punto di Casa Robegan, Via Canova 38, da OpenStreetMap (node 11665435389)'
+    verificato: '2026-11-28'
+  c84602036fe577a3:
+    lat: 45.89443
+    lon: 12.08575
+    nota: 'articolo di Qdpnews sul Natale di Farra: sabato 5/12 alle 18 passaggio di San Nicolo'' per le vie di Col San Martino (calendario gratuito); punto sul centro della frazione da OpenStreetMap (node 1411057987)'
+    verificato: '2026-11-28'
+  92b719c870a9fae8:
+    lat: 45.99922
+    lon: 12.28963
+    nota: 'articolo di Qdpnews sul Magico Natale di Vittorio Veneto: 5/12 alle 16.30 in Piazza Flaminio, poi alle 18 alla Casa degli Alpini; coordinate della piazza da OpenStreetMap (way 113964860)'
+    verificato: '2026-11-28'
+  a97dc8f41067c603:
+    lat: 45.71187
+    lon: 12.25713
+    nota: 'articolo di Nordest24 sul Natale di Villorba: sabato 5/12 dalle 9.30 alle 19 in piazza Aldo Moro (Carita''); coordinate della piazza da OpenStreetMap (way 803504452)'
+    verificato: '2026-11-28'
+  e8eed57ff889f2d2:
+    lat: 45.78301
+    lon: 12.4938
+    nota: 'scheda di Scopri Oderzo: dal 28/11 al 6/1 nel centro storico (Piazza Castello, Piazza Grande, Piazzale Europa); punto su Piazza Grande da OpenStreetMap (way 855333297)'
+    verificato: '2026-11-28'
+  4dfbbdc40123136b:
+    lat: 45.78301
+    lon: 12.4938
+    nota: 'scheda di Scopri Oderzo: sabato 5/12 cori itineranti in centro storico dalle 15.30 alle 18.30, alle 16 arriva San Nicolo''; punto su Piazza Grande da OpenStreetMap (way 855333297)'
+    verificato: '2026-11-28'
+  563ecece564b8a4d:
+    lat: 45.76148
+    lon: 12.5277
+    nota: 'scheda di Scopri Oderzo: sabato 5/12 alle 20.30, Sala Polivalente degli impianti sportivi di Piavon, entrata libera con prenotazione consigliata; la sala non e'' in OpenStreetMap: punto sul centro della frazione di Piavon (node 1447241753)'
+    verificato: '2026-11-28'
+  4e0c2f978e1dd68d:
+    lat: 45.50555
+    lon: 11.40904
+    nota: 'scheda del Comune di Montecchio Maggiore: sabato 5/12 10-19 in Piazza Marconi, accensione dalle 17.20, gratuito; coordinate della piazza da OpenStreetMap (way 31971361)'
+    verificato: '2026-11-28'
+  f844ad7c74dcf27b:
+    start: 2026-12-06T10:00
+    venue: Sala espositiva
+    access: libero
+    price: ingresso gratuito
+    nota: 'scheda del Comune di Pordenone: mostra di presepi artigianali dal 6/12/2026 al 6/1/2027 (prima apertura 6/12 10-12 e 15-18, non il 5/12), luogo indicato solo come ''Sala espositiva'', ingresso gratuito'
+    verificato: '2026-11-28'
+  b43f704604aa69c3:
+    venue: Nuovo Ospedale di Pordenone, ingresso principale
+    address: Via Montereale 30
+    access: libero
+    price: ingresso libero
+    lat: 45.96899
+    lon: 12.65391
+    nota: 'scheda del Comune di Pordenone: sabato 5/12 alle 17.30 all''ingresso principale del nuovo Ospedale, via Montereale 30, ingresso libero; punto sull''ospedale di via Montereale da OpenStreetMap (way 70756952)'
+    verificato: '2026-11-28'
+  0233dcb3d2eb48e8:
+    venue: Palazzetto dello Sport
+    address: Via Fratelli Rosselli
+    access: biglietto
+    lat: 45.97079
+    lon: 12.6602
+    nota: 'scheda del Comune di Pordenone: sabato 5/12 al Palazzetto dello Sport di Via Fratelli Rosselli, biglietti in vendita sul circuito TicketOne (prezzo non indicato); coordinate del palazzetto da OpenStreetMap (way 36215278)'
+    verificato: '2026-11-28'
+  0ae4e9d8a9e28b52:
+    access: biglietto
+    price: ingresso 18 euro con prima consumazione obbligatoria
+    nota: 'pagina del Mattorosso: sabato 5/12, ingresso 18 euro con prima consumazione obbligatoria, la prenotazione garantisce l''ingresso (orario non indicato)'
+    verificato: '2026-11-28'
+  42253dce9b241471:
+    venue: Alcuni Teatro Sant'Anna
+    address: Viale Brigata Treviso 18
+    town: Treviso
+    nota: 'scheda dello spettacolo su live.alcuni.it: domenica 13/12 alle 16.30 al Teatro Sant''Anna, biglietto intero 7 euro (la pagina della rassegna non elenca questa data)'
+    verificato: '2026-11-28'
+    official_url: https://live.alcuni.it/evento/la-mia-vera-storia-di-natale-13-12-26/
+    price: intero 7 euro
+  b11a4370eb1efdd8:
+    lat: 45.43838
+    lon: 11.00225
+    nota: 'visitverona.it (conferenze dei Musei Civici): martedi'' 22/12 alle 17 in Sala Sandro Ruffo del Museo di Storia Naturale, ingresso libero; coordinate del museo, Lungadige Porta Vittoria 9, da OpenStreetMap (node 3637952756)'
+    verificato: '2026-11-28'
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
@@ -1162,12 +1395,10 @@ verificati:
   35498b6affb8e7dd: "2026-11-12"
   a9bdd63386b01fbb: "2026-11-12"
   b665ec02e9b8accd: 2026-11-28
-  b403f9e97845d59a: 2026-11-28
   16386aafbb6b0aea: 2026-11-28
   765fbc3f4401c523: 2026-11-28
   439db138b47448f1: 2026-11-28
   80ce5c384824e1b9: 2026-11-28
-  cc3dcb242c1f8003: 2026-11-28
   1fb0bfae2e063d8c: 2026-11-28
   e81620a223ac8112: '2026-11-28'
   4d08efd6446445ba: '2026-11-28'
@@ -1187,7 +1418,6 @@ verificati:
   7b1ec483c755280a: '2026-11-28'
   7f96fd2b4e4ac5b3: '2026-11-28'
   d5d8dfd20f95a90e: '2026-11-28'
-  7dad1d0f5d869a1d: '2026-11-28'
   faea2d5ad01727e4: '2026-11-28'
   ef5eddf44202f50d: '2026-11-28'
   55deb04d5af64d5e: '2026-11-28'
@@ -1226,3 +1456,31 @@ verificati:
   1994edf38b39b2fc: '2026-11-28'
   7cf6eb8574d70e43: '2026-11-28'
   5d296097c34940f0: '2026-11-28'
+  f7cef2282b13c3ad: '2026-11-28'
+  3ef5e8c634aa3f08: '2026-11-28'
+  904ecabf4f336f9c: '2026-11-28'
+  4ed0867c5e031352: '2026-11-28'
+  0d9b0b75efbc2135: '2026-11-28'
+  b223d733d21ca16c: '2026-11-28'
+  47d84c697dbd2c7c: '2026-11-28'
+  56fc9849e811495a: '2026-11-28'
+  425f9af8b1965605: '2026-11-28'
+  3286286e0c7123b9: '2026-11-28'
+  561a23347f938f98: '2026-11-28'
+  3dfa935a7bba677f: '2026-11-28'
+  7348cbb1d12b1b51: '2026-11-28'
+  7466f5190dbe2de8: '2026-11-28'
+  7dad1d0f5d869a1d: '2026-11-28'
+  694da3bd6288e192: '2026-11-28'
+  d3386545893c5d21: '2026-11-28'
+  b403f9e97845d59a: '2026-11-28'
+  cc3dcb242c1f8003: '2026-11-28'
+  107d458d03491835: '2026-11-28'
+  57f9b881d65931bb: '2026-11-28'
+  0070f6f1313641b0: '2026-11-28'
+  1c16da6f9afa33d3: '2026-11-28'
+  1effa42b37bca032: '2026-11-28'
+  1e65c32d079521a6: '2026-11-28'
+  0c2c25396160a526: '2026-11-28'
+  073ae02ee72f38be: '2026-11-28'
+  b33cc7b9cff4550c: '2026-11-28'

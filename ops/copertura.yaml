@@ -329,6 +329,16 @@ province:
   PN: '2026-11-28'
   TS: '2026-11-28'
   GO: '2026-11-28'
+  TN: '2026-11-28'
+  BZ: '2026-11-28'
+  MI: '2026-11-28'
+  BS: '2026-11-28'
+  BG: '2026-11-28'
+  MB: '2026-11-28'
+  VA: '2026-11-28'
+  CO: '2026-11-28'
+  PV: '2026-11-28'
+  MN: '2026-11-28'
 
 # Comuni delle province della fase 2b controllati (pagina ufficiale letta o ricerca mirata).
 comuni_PD:
@@ -375,3 +385,37 @@ comuni_GO:
   Monfalcone: '2026-11-28'
   San Canzian d'Isonzo: '2026-11-28'
   Villesse: '2026-11-28'
+comuni_TN:
+  Trento: '2026-11-28'
+  Malé: '2026-11-28'
+  Pergine Valsugana: '2026-11-28'
+  Predaia: '2026-11-28'
+comuni_BZ:
+  Bolzano: '2026-11-28'
+  Laces: '2026-11-28'
+  Valle Aurina: '2026-11-28'
+  San Leonardo in Passiria: '2026-11-28'
+comuni_MI:
+  Milano: '2026-11-28'
+  Ossona: '2026-11-28'
+  Bresso: '2026-11-28'
+comuni_BS:
+  Brescia: '2026-11-28'
+  Castelcovati: '2026-11-28'
+comuni_BG:
+  Bergamo: '2026-11-28'
+comuni_MB:
+  Monza: '2026-11-28'
+  Verano Brianza: '2026-11-28'
+  Ornago: '2026-11-28'
+  Usmate Velate: '2026-11-28'
+comuni_VA:
+  Varese: '2026-11-28'
+  Venegono Superiore: '2026-11-28'
+comuni_CO:
+  Como: '2026-11-28'
+comuni_PV:
+  Pavia: '2026-11-28'
+comuni_MN:
+  Mantova: '2026-11-28'
+  Ostiglia: '2026-11-28'

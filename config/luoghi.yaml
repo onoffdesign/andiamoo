@@ -599,3 +599,248 @@ luoghi:
     lat: 45.95143
     lon: 13.61590
     nota: "Kulturni center Lojze Bratuz, Viale XX Settembre 85. OpenStreetMap way 36354404. Aggiunto il 2026-11-28."
+  - nomi: ["Biblioteca civica, Sala Novita", "Biblioteca civica di Pordenone"]
+    comune: Pordenone
+    lat: 45.95856
+    lon: 12.66069
+    nota: "Biblioteca Civica di Pordenone, Piazza XX Settembre. OpenStreetMap relation 2080505. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Piazza XX Settembre", "Piazzale XX Settembre"]
+    comune: Pordenone
+    lat: 45.95844
+    lon: 12.65908
+    nota: "Piazza XX Settembre (in OpenStreetMap 'Piazzale Venti Settembre', area pedonale way 154793628), sede delle casette di Natale e della pista di ghiaccio (12 eventi). Nominatim non la trova con il nome scritto in cifre. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Parco del Castello di Torre", "Castello di Torre"]
+    comune: Pordenone
+    lat: 45.96824
+    lon: 12.6824
+    nota: "Parco del Castello di Torre, Via Vittorio Veneto 21. OpenStreetMap way 232879674. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Chiesa dei Santi Ilario e Taziano", "Santi Ilario e Taziano"]
+    comune: Pordenone
+    lat: 45.96763
+    lon: 12.68138
+    nota: "Chiesa dei Santi Ilario e Taziano a Torre, Via Vittorio Veneto 26. OpenStreetMap way 36685673. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Nuovo Ospedale", "Via Montereale"]
+    comune: Pordenone
+    lat: 45.96899
+    lon: 12.65391
+    nota: "Ospedale di Pordenone, Via Montereale (OpenStreetMap way 70756952, Ospedale Santa Maria degli Angeli): il nuovo ospedale e' nella stessa area; punto sull'ospedale, ingresso esatto non in OSM. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Palazzetto dello Sport", "Palasport di Pordenone"]
+    comune: Pordenone
+    lat: 45.97079
+    lon: 12.6602
+    nota: "Palazzetto dello Sport di Pordenone, Via Interna / Via Fratelli Rosselli. OpenStreetMap way 36215278. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Teatro Verdi", "Via dei Livello 32"]
+    comune: Padova
+    lat: 45.40919
+    lon: 11.87139
+    nota: "Teatro Verdi di Padova, Via dei Livello 32 (in OSM Teatro Giuseppe Verdi, Piazzetta Lucia Valentini Terrani). OpenStreetMap way 131966263 (10 eventi). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Oratorio di San Rocco"]
+    comune: Padova
+    lat: 45.40891
+    lon: 11.87507
+    nota: "Oratorio di San Rocco, Via Santa Lucia / Via Martiri d'Ungheria. OpenStreetMap way 132001308. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Caffe Pedrocchi"]
+    comune: Padova
+    lat: 45.40769
+    lon: 11.87709
+    nota: "Caffe' Pedrocchi, Via VIII Febbraio 15. OpenStreetMap node 325130331. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Piazzetta Pedrocchi"]
+    comune: Padova
+    lat: 45.40793
+    lon: 11.87709
+    nota: "Piazzetta Cappellato Pedrocchi. OpenStreetMap way 30601564. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Centro Studi Campostrini", "Santa Maria in Organo 4"]
+    comune: Verona
+    lat: 45.44403
+    lon: 11.00544
+    nota: "Centro Studi Campostrini, Via Santa Maria in Organo 4 (numero civico in OpenStreetMap, node 4553714374). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Museo di Storia Naturale"]
+    comune: Verona
+    lat: 45.43838
+    lon: 11.00225
+    nota: "Museo di Storia Naturale di Verona, Lungadige Porta Vittoria 9 (Sala Sandro Ruffo). OpenStreetMap node 3637952756. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Santa Maria in Stelle"]
+    comune: Verona
+    lat: 45.49551
+    lon: 11.03409
+    nota: "Frazione di Santa Maria in Stelle (OpenStreetMap node 2624535607): punto sul centro della frazione, dove sta la chiesa; edificio non cercato. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Piazza dei Signori"]
+    comune: Vicenza
+    lat: 45.54732
+    lon: 11.54655
+    nota: "Piazza dei Signori di Vicenza. OpenStreetMap way 42466890. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Gallerie d'Italia", "Palazzo Leoni Montanari", "Santa Corona 25"]
+    comune: Vicenza
+    lat: 45.55016
+    lon: 11.5467
+    nota: "Gallerie d'Italia, Palazzo Leoni Montanari, Contra' Santa Corona 25. OpenStreetMap way 138720450. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Basilica dei Santi Felice e Fortunato", "Santi Felice e Fortunato 225"]
+    comune: Vicenza
+    lat: 45.54406
+    lon: 11.53309
+    nota: "Basilica dei Santi Felice e Fortunato, Corso SS. Felice e Fortunato 225. OpenStreetMap way 138907607. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Giardini di Sant'Andrea", "Giardinetti di Sant'Andrea"]
+    comune: Treviso
+    lat: 45.66369
+    lon: 12.247
+    nota: "Giardinetti di Sant'Andrea. OpenStreetMap way 230360516 (Il giardino dei giochi di Natale, 3 eventi). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Casa Robegan"]
+    comune: Treviso
+    lat: 45.66777
+    lon: 12.24148
+    nota: "Casa Robegan, Via Antonio Canova 38: punto del cartello di Casa da Noal e Casa Robegan in OpenStreetMap (node 11665435389), davanti all'ingresso. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Chiesa di Sant'Agnese", "Borgo Cavour 35"]
+    comune: Treviso
+    lat: 45.66681
+    lon: 12.23811
+    nota: "Chiesa di Sant'Agnese, Borgo Cavour 35 (numero civico in OpenStreetMap, node 4531859632). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Cattedrale di Treviso", "Duomo di Treviso", "Piazza del Duomo 1"]
+    comune: Treviso
+    lat: 45.66637
+    lon: 12.24322
+    nota: "Duomo (Cattedrale) di Treviso. OpenStreetMap way 242711512. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Tempio di San Francesco", "Chiesa di San Francesco"]
+    comune: Treviso
+    lat: 45.66832
+    lon: 12.24767
+    nota: "Tempio (chiesa) di San Francesco, Viale Sant'Antonio da Padova / Via San Francesco. OpenStreetMap way 457339352. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Basilica di Santa Maria Maggiore", "Santa Maria Maggiore"]
+    comune: Treviso
+    lat: 45.66553
+    lon: 12.25302
+    nota: "Basilica di Santa Maria Maggiore. OpenStreetMap way 1175546232. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Auditorium di Santa Caterina", "Auditorium Santa Caterina"]
+    comune: Treviso
+    lat: 45.66702
+    lon: 12.25102
+    nota: "Complesso di Santa Caterina (Piazzetta Mario Botter), dove sta l'auditorium. OpenStreetMap way 242715413. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Piazzetta Aldo Moro"]
+    comune: Treviso
+    lat: 45.66556
+    lon: 12.24587
+    nota: "Piazzetta Aldo Moro. OpenStreetMap way 457233018. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Teatro La Stanza"]
+    comune: Treviso
+    lat: 45.66288
+    lon: 12.24536
+    nota: "Teatro La Stanza in Via Pescatori: punto della via in OpenStreetMap (way 51982886, via breve del centro), civico non in OSM. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Quartiere di Sant'Angelo", "Papa Leone III"]
+    comune: Treviso
+    lat: 45.65086
+    lon: 12.21308
+    nota: "Via Papa Leone III nel quartiere di Sant'Angelo. OpenStreetMap way 37211182 (punto della via). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Quartiere di San Paolo", "Viale Francia 2"]
+    comune: Treviso
+    lat: 45.68483
+    lon: 12.20963
+    nota: "Viale Francia 2, quartiere di San Paolo (numero civico in OpenStreetMap, node 4531887687). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["San Pelagio"]
+    comune: Treviso
+    lat: 45.69578
+    lon: 12.22859
+    nota: "Chiesa di San Pelagio Martire, Via delle Verine (San Pelaio). OpenStreetMap way 140913275. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Altromercato Store", "Grimaldi Prati 2"]
+    comune: Treviso
+    lat: 45.6834
+    lon: 12.24515
+    nota: "Altromercato, Via Margherita Grimaldi Prati 2. OpenStreetMap node 3926172570. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Castello Roganzuolo"]
+    comune: San Fior
+    lat: 45.92198
+    lon: 12.33631
+    nota: "Frazione di Castello Roganzuolo. OpenStreetMap node 561667801 (centro della frazione). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Museo Archeologico Eno Bellis", "Eno Bellis"]
+    comune: Oderzo
+    lat: 45.77888
+    lon: 12.49153
+    nota: "Museo Archeologico Eno Bellis, Via Garibaldi. OpenStreetMap node 2301298907. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Duomo di Oderzo"]
+    comune: Oderzo
+    lat: 45.78245
+    lon: 12.49339
+    nota: "Duomo di Oderzo. OpenStreetMap way 1273633281. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Centro di Oderzo", "Centro storico di Oderzo", "Piazza Grande"]
+    comune: Oderzo
+    lat: 45.78301
+    lon: 12.4938
+    nota: "Piazza Grande, cuore del centro storico di Oderzo. OpenStreetMap way 855333297. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Quartiere fieristico", "Area Fiera"]
+    comune: Santa Lucia di Piave
+    lat: 45.84313
+    lon: 12.29049
+    nota: "Area fiera di Santa Lucia di Piave. OpenStreetMap way 416386394. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Biblioteca di Ramon", "Biblioteca comunale di Loria"]
+    comune: Loria
+    lat: 45.73019
+    lon: 11.86435
+    nota: "Biblioteca comunale di Loria a Ramon, Via Chiesa. OpenStreetMap node 1428978448 (sala mostre della biblioteca). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Piazza Flaminio"]
+    comune: Vittorio Veneto
+    lat: 45.99922
+    lon: 12.28963
+    nota: "Piazza Flaminio a Serravalle. OpenStreetMap way 113964860. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Piazza Aldo Moro"]
+    comune: Villorba
+    lat: 45.71187
+    lon: 12.25713
+    nota: "Piazza Aldo Moro a Carita' di Villorba. OpenStreetMap way 803504452. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Sala Federighi"]
+    comune: Adria
+    lat: 45.05448
+    lon: 12.05653
+    nota: "Sala Federighi nella sede municipale di Adria, Corso Vittorio Emanuele II 49. OpenStreetMap node 8450796305 (Comune di Adria). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Piazza Marconi"]
+    comune: Montecchio Maggiore
+    lat: 45.50555
+    lon: 11.40904
+    nota: "Piazza Guglielmo Marconi. OpenStreetMap way 31971361. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Teatro de la Sena"]
+    comune: Feltre
+    lat: 46.01794
+    lon: 11.90993
+    nota: "Teatro de la Sena nel Palazzo della Ragione, Via delle Beccherie. OpenStreetMap way 149053654 (candidato di ops/posizioni.json, 6 eventi, punto coerente). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Museo Civico Archeologico di Mel"]
+    comune: Borgo Valbelluna
+    lat: 46.06225
+    lon: 12.07934
+    nota: "Museo Civico Archeologico di Mel: punto trovato dal PC per indirizzo, uguale in 4 eventi (candidato di ops/posizioni.json), controllato a vista (centro di Mel). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Cinema Teatro Esperia", "Cinema Esperia"]
+    comune: Padova
+    lat: 45.41509
+    lon: 11.83616
+    nota: "Cinema Teatro Esperia, Via Chiesanuova. OpenStreetMap way 131976112 (candidato di ops/posizioni.json, 3 eventi). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Sala Consiliare del Comune"]
+    comune: San Lorenzo Isontino
+    lat: 45.93289
+    lon: 13.5265
+    nota: "Sala consiliare del Comune: punto trovato dal PC per indirizzo, uguale in 3 eventi (candidato di ops/posizioni.json), controllato a vista (centro del paese). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Teatro Comunale di Trevignano", "Via Puccini 1"]
+    comune: Trevignano
+    lat: 45.74185
+    lon: 12.09054
+    nota: "Teatro comunale di Falze' di Trevignano, Via Puccini 1: punto di Via Puccini a Falze' in OpenStreetMap (way 144525286), civico non in OSM (9 eventi). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Villa Onigo"]
+    comune: Trevignano
+    lat: 45.73779
+    lon: 12.06646
+    nota: "Villa Onigo, Via Mazzarolo 5. OpenStreetMap way 152880537. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Musano"]
+    comune: Trevignano
+    lat: 45.72566
+    lon: 12.11801
+    nota: "Frazione di Musano (OpenStreetMap node 1424126847), punto sul centro della frazione dove sta la chiesa arcipretale. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Centro Sociale di Tambre", "Centro sociale"]
+    comune: Tambre
+    lat: 46.12911
+    lon: 12.42281
+    nota: "Centro Sociale, Piazza 11 Gennaio 1945 10. OpenStreetMap way 492295124. Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Centro Polivalente", "Piazza Marconi 1"]
+    comune: Monastier di Treviso
+    lat: 45.65012
+    lon: 12.43289
+    nota: "Centro polivalente in Piazza Marconi 1: punto della piazza in OpenStreetMap (way 888498486). Aggiunto il 2026-11-28 (revisione, terza prova)."
+  - nomi: ["Via Gazzari 1", "Aula Magna della Scuola Secondaria"]
+    comune: Cordignano
+    lat: 45.95105
+    lon: 12.41466
+    nota: "Scuola secondaria di Via Gazzari 1: punto della via in OpenStreetMap (way 163830911), civico non in OSM. Aggiunto il 2026-11-28 (revisione, terza prova)."

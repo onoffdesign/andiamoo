@@ -1,16 +1,26 @@
 {
- "generato": "2026-11-28T16:24+01:00",
+ "generato": "2026-11-28T16:30+01:00",
  "riepilogo": {
   "eventi_controllati": 917,
-  "allineati_in_automatico": 2,
+  "allineati_in_automatico": 0,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 2,
-  "solo_comune_con_luogo": 242,
-  "solo_comune_senza_luogo": 30,
-  "candidati_luoghi_noti": 4
+  "lontani_dal_comune": 4,
+  "solo_comune_con_luogo": 153,
+  "solo_comune_senza_luogo": 29,
+  "candidati_luoghi_noti": 0
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
+  {
+   "luogo": "Chiesa di Santa Maria in Stelle, Verona",
+   "km_dal_centro": 7,
+   "eventi": 2,
+   "uid": [
+    "f2b9625e7e599171",
+    "4d2523a784f48a14"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
   {
    "luogo": "Ristoro Campo Scuola, Nevegal, Belluno",
    "km_dal_centro": 7,
@@ -31,56 +41,6 @@
   }
  ],
  "senza_punto": [
-  {
-   "luogo": "Piazza XX Settembre, Pordenone",
-   "eventi": 12,
-   "uid": [
-    "9a7dd94a2fbf044a",
-    "c76fcb844c398726",
-    "32b2bd95c26a4317",
-    "a49abe6fb79c5cab",
-    "76c8297c52dbacbb",
-    "61881c34f1b5cd04",
-    "c29820ab4e2583b2",
-    "f18da89f9a3b64db",
-    "c9b3a59c03d70cff",
-    "a8cd1e9ec152bf10"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Verdi, Via dei Livello 32, Padova",
-   "eventi": 10,
-   "uid": [
-    "c3b4322b67ca9481",
-    "b5f2e2615c9430c0",
-    "241065cda6412c9c",
-    "a01bb95d2d870982",
-    "8fa43e4f91f43a1b",
-    "87c5e4db2e1cf25d",
-    "32f936403041c774",
-    "c57670d941f25b68",
-    "28c30e95ad50bbb3",
-    "3e5288398582184c"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Comunale di Trevignano, Via Puccini 1, Falze', Trevignano",
-   "eventi": 9,
-   "uid": [
-    "d323fe72456e5078",
-    "0e28e0b9006e5f17",
-    "4dae7a8bdc650e22",
-    "46d461f32628e360",
-    "a2d01460107f2936",
-    "f9287d72ec296f53",
-    "1cf1473d8920d491",
-    "3ec57eebb611369e",
-    "90fdfdf5110eb707"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
   {
    "luogo": "Parco del Donatore, Via San Pancrazio, Loria",
    "eventi": 6,
@@ -141,17 +101,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Centro Sociale di Tambre, Saletta Scacchi, Tambre",
-   "eventi": 4,
-   "uid": [
-    "c31eda2a69e08852",
-    "e2c14115e52f9ce1",
-    "f1c103732b08b5fa",
-    "c621d11f8b6fa633"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Piazza Marconi e Via Garibaldi, Piazza Marconi, Valdobbiadene",
    "eventi": 3,
    "uid": [
@@ -162,30 +111,11 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Giardini di Sant'Andrea, Treviso",
-   "eventi": 3,
-   "uid": [
-    "501e8056b36f1cb7",
-    "7b7e9195c3267d21",
-    "d03d05473c95091a"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Falze', Trevignano",
    "eventi": 2,
    "uid": [
     "16550e702abd4e3c",
     "c154ab989bd88661"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Aula Magna della Scuola Secondaria, Via Gazzari 1, Cordignano",
-   "eventi": 2,
-   "uid": [
-    "65b9ecd0bac88cd6",
-    "60f75597680c5040"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -262,33 +192,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Museo di Storia Naturale, Sala Sandro Ruffo, Verona",
-   "eventi": 2,
-   "uid": [
-    "b11a4370eb1efdd8",
-    "65733c5d56a6b2e0"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazza dei Signori, Vicenza",
-   "eventi": 2,
-   "uid": [
-    "c30e43fa12481305",
-    "3400ea68baff0486"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Chiesa di Santa Maria in Stelle, Verona",
-   "eventi": 2,
-   "uid": [
-    "f2b9625e7e599171",
-    "4d2523a784f48a14"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Sala Guarnieri, Pedavena",
    "eventi": 2,
    "uid": [
@@ -324,22 +227,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Chiesa di Sant'Agnese, Borgo Cavour 35, Treviso",
-   "eventi": 1,
-   "uid": [
-    "85f873f2267b4e72"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Cattedrale di Treviso, Piazza del Duomo 1, Treviso",
-   "eventi": 1,
-   "uid": [
-    "c3409eb65d248dcb"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Sala Papa Luciani, Via Piave 24, Falze' di Piave, Sernaglia della Battaglia",
    "eventi": 1,
    "uid": [
@@ -352,14 +239,6 @@
    "eventi": 1,
    "uid": [
     "428924341c55c32a"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Centro Polivalente, Piazza Marconi 1, Monastier di Treviso",
-   "eventi": 1,
-   "uid": [
-    "190ad15530b1f6a1"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -388,14 +267,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Castello Roganzuolo, San Fior",
-   "eventi": 1,
-   "uid": [
-    "439db138b47448f1"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Ananda Marga Treviso, Via Cavour 7/a, Ponzano Veneto",
    "eventi": 1,
    "uid": [
@@ -404,74 +275,126 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Musano, Trevignano",
+   "luogo": "Portici del centro di Roncade, Roncade",
    "eventi": 1,
    "uid": [
-    "387db65f01f3a06f"
+    "800e2f9adf3db8e7"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Villa Onigo, Via Mazzarolo 5, Trevignano",
+   "luogo": "Centro Culturale Estrada, Strada Comunale delle Corti 73, Treviso",
    "eventi": 1,
    "uid": [
-    "034728c469386bf3"
+    "3cc6319357334bcf"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Parco di Villa Olivi, Breda di Piave",
+   "eventi": 1,
+   "uid": [
+    "26dab9938a6bec7c"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Prealpi SanBiagio Arena, Viale dello Sport 2, Conegliano",
+   "eventi": 1,
+   "uid": [
+    "34c285b0ee6f53d2"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Canottieri Sile, Via Tezzone, Treviso",
+   "eventi": 1,
+   "uid": [
+    "e0dcb2497f132fb6"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Duomo (partenza), Treviso",
+   "eventi": 1,
+   "uid": [
+    "29209272479d8cb8"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Parco Archeologico Didattico del Livelet, Via Carpene', Lago, Revine Lago",
+   "eventi": 1,
+   "uid": [
+    "4940be76c5355d16"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Agriturismo Le Spezie, Strada delle Spezie 47, Conegliano",
+   "eventi": 1,
+   "uid": [
+    "1190e119d5443d95"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Grotte del Caglieron, Via Ronzon 2, Fregona",
+   "eventi": 1,
+   "uid": [
+    "cc15b12b8f6175b0"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Parco tematico didattico dei Carbonai, Strada Faidel, localita' Lamar, Cordignano",
+   "eventi": 1,
+   "uid": [
+    "f53cebee25a751db"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Acquedotto romano della Bot, Asolo",
+   "eventi": 1,
+   "uid": [
+    "55deb04d5af64d5e"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza di Farra di Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "68120fa018662856"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Colle di San Gallo, Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "dfbc90bd332aade7"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Farra di Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "ba7bdaab1cdeccde"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sede del Gruppo Alpini di Farra di Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "0c2c25396160a526"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
- "allineati": [
-  {
-   "uid": "acf2c7e5885f3c54",
-   "titolo": "Il canto di Orsola (secondo turno)",
-   "luogo": "Auditorium Santa Caterina, Piazzetta Mario Botter 1, Treviso",
-   "lat": 45.66674,
-   "lon": 12.25086
-  },
-  {
-   "uid": "e291d9acc5c348b0",
-   "titolo": "Parole... Spazi di cura: premiazione del contest letterario",
-   "luogo": "Auditorium Santa Caterina, Piazzetta Mario Botter 1, Treviso",
-   "lat": 45.66674,
-   "lon": 12.25086
-  }
- ],
- "candidati_luoghi": [
-  {
-   "nomi": [
-    "Teatro de la Sena, Palazzo della Ragione"
-   ],
-   "comune": "Feltre",
-   "lat": 46.01834,
-   "lon": 11.91025,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Museo Civico Archeologico di Mel"
-   ],
-   "comune": "Borgo Valbelluna",
-   "lat": 46.06225,
-   "lon": 12.07934,
-   "eventi": 4
-  },
-  {
-   "nomi": [
-    "Cinema Teatro Esperia"
-   ],
-   "comune": "Padova",
-   "lat": 45.41466,
-   "lon": 11.83627,
-   "eventi": 3
-  },
-  {
-   "nomi": [
-    "Sala Consiliare del Comune"
-   ],
-   "comune": "San Lorenzo Isontino",
-   "lat": 45.93289,
-   "lon": 13.5265,
-   "eventi": 3
-  }
- ]
+ "allineati": [],
+ "candidati_luoghi": []
 }

@@ -6,15 +6,15 @@
  "in_revisione": 60,
  "posizioni": {
   "eventi_controllati": 917,
-  "allineati_in_automatico": 2,
+  "allineati_in_automatico": 0,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 2,
-  "solo_comune_con_luogo": 242,
-  "solo_comune_senza_luogo": 30,
-  "candidati_luoghi_noti": 4
+  "lontani_dal_comune": 4,
+  "solo_comune_con_luogo": 153,
+  "solo_comune_senza_luogo": 29,
+  "candidati_luoghi_noti": 0
  },
  "senza_posizione": 0,
- "correzioni_attive": 177,
+ "correzioni_attive": 218,
  "rimossi_dalla_redazione": 22,
- "finito_alle": "2026-11-28T16:24+01:00"
+ "finito_alle": "2026-11-28T16:30+01:00"
 }
