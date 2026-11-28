@@ -15,7 +15,7 @@
 
   const state = {
     from: null, to: null, preset: "all", cats: new Set(), access: new Set(), aud: new Set(), q: "",
-    selected: null, detail: false, sort: "date", me: null, fav: false,
+    selected: null, detail: false, sort: "distance", me: null, fav: false, place: null,   // place: nome del luogo di "Vicino a"
     view: "map", pick: null,                 // vista mappa/lista; primo giorno scelto nel calendario (in attesa del secondo)
     sidebarHidden: false, hiddenBeforeDetail: false,
   };
@@ -447,6 +447,7 @@
     try { localStorage.setItem("andiamo-vista", v); } catch (_) { /* privato */ }
     if (v === "list") {
       closeCard(); state.selected = null;
+      ensurePlace();
       // il titolo del giorno resta fermo subito sotto la riga con preferiti e "Piu' vicini"
       requestAnimationFrame(() => document.documentElement.style.setProperty("--list-head", `${Math.round($("#sheet-head").getBoundingClientRect().height)}px`));
     }
@@ -1354,8 +1355,7 @@
     navigator.geolocation.getCurrentPosition((pos) => {
       btn.classList.remove("busy");
       btn.setAttribute("aria-pressed", "true");
-      state.me = { lat: pos.coords.latitude, lon: pos.coords.longitude };
-      state.sort = "distance";
+      setPlace({ lat: pos.coords.latitude, lon: pos.coords.longitude }, null, { gps: true });
       if (mapReady) {
         if (!meMarker) { const d = document.createElement("div"); d.className = "me-dot"; meMarker = new maplibregl.Marker({ element: d }); }
         meMarker.setLngLat([state.me.lon, state.me.lat]).addTo(map);
@@ -1369,11 +1369,80 @@
     }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
   }
 
-  function toggleSort() {
-    if (!state.me) { locate(); return; }
-    state.sort = state.sort === "distance" ? "date" : "distance";
+  // ---------------------------------------------------------------- "Vicino a ..." (vista lista)
+  // Di default la lista e' ordinata per vicinanza: alla posizione del telefono/computer, oppure al comune scritto a mano
+  // (ricordato su questo dispositivo). Il nome viene dal comune piu' vicino (docs/data/comuni.json).
+  let TOWNS = null;
+  const loadTowns = () => TOWNS || (TOWNS = fetch(new URL("comuni.json", new URL(window.ANDIAMO_DATA || "data/events.json", location.href)))
+    .then((r) => r.json()).catch(() => []));
+  const fold = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/['’`]/g, " ").replace(/\s+/g, " ").trim();
+  async function nearestTown(lat, lon) {
+    const rows = await loadTowns();
+    let best = null, bd = Infinity;
+    const k = Math.cos(lat * Math.PI / 180);
+    for (const t of rows) { const d = (t[2] - lat) ** 2 + ((t[3] - lon) * k) ** 2; if (d < bd) { bd = d; best = t; } }
+    return best && bd < 0.5 ? best[0] : null;                       // oltre ~70 km: fuori dall'Italia
+  }
+  function setPlace(me, name, opts = {}) {
+    state.me = me; state.place = name; state.sort = "distance";
+    if (opts.save) { try { localStorage.setItem("andiamo-luogo", JSON.stringify({ ...me, name })); } catch (_) { /* privato */ } }
+    if (opts.gps) { try { localStorage.removeItem("andiamo-luogo"); } catch (_) { /* privato */ } }
+    if (!name) nearestTown(me.lat, me.lon).then((n) => { if (state.me === me) { state.place = n || "la tua posizione"; renderSortBtn(); } });
     update();
   }
+  function renderSortBtn() {
+    const b = $("#sort-btn");
+    const on = state.sort === "distance" && !!state.me;
+    b.setAttribute("aria-pressed", String(on));
+    b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span>${
+      on ? `Vicino a ${esc(state.place || "…")}` : state.me ? "Per data" : "Vicino a…"}</span>`;
+    b.title = "Cambia il luogo";
+  }
+  // prima apertura della lista: posizione salvata, altrimenti quella del dispositivo (se l'utente la concede)
+  let askedPlace = false;
+  function ensurePlace() {
+    if (state.me || askedPlace) return;
+    askedPlace = true;
+    try { const saved = JSON.parse(localStorage.getItem("andiamo-luogo") || "null"); if (saved && saved.lat) { setPlace({ lat: saved.lat, lon: saved.lon }, saved.name); return; } } catch (_) { /* */ }
+    if (!navigator.geolocation) { openNear(); return; }
+    navigator.geolocation.getCurrentPosition((pos) => setPlace({ lat: pos.coords.latitude, lon: pos.coords.longitude }, null),
+      () => openNear(), { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 });
+  }
+  function openNear(open = true) {
+    const pop = $("#near-pop");
+    pop.hidden = !open;
+    $("#sort-btn").setAttribute("aria-expanded", String(open));
+    if (open) { $("#near-q").value = ""; renderNearList(""); setTimeout(() => $("#near-q").focus(), 30); loadTowns(); }
+  }
+  async function renderNearList(q) {
+    const ul = $("#near-list"), f = fold(q);
+    if (f.length < 2) { ul.innerHTML = `<li class="near-hint">Scrivi almeno due lettere del comune</li>`; return; }
+    const rows = await loadTowns();
+    if (fold($("#near-q").value) !== f) return;                     // nel frattempo l'utente ha scritto altro
+    const starts = [], has = [];
+    for (const t of rows) { const n = fold(t[0]); if (n.startsWith(f)) starts.push(t); else if (n.includes(f)) has.push(t); if (starts.length >= 8) break; }
+    const hits = [...starts, ...has].slice(0, 8);
+    ul.innerHTML = hits.length ? hits.map((t, i) => `<li><button type="button" role="option" data-i="${i}">${esc(t[0])} <small>${esc(t[1])}</small></button></li>`).join("")
+      : `<li class="near-hint">Nessun comune trovato</li>`;
+    ul.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+      const t = hits[+b.dataset.i];
+      Sound.play("chip"); openNear(false);
+      setPlace({ lat: t[2], lon: t[3] }, t[0], { save: true });
+      toast(`Eventi ordinati per distanza da ${t[0]}`);
+    }));
+  }
+  function setupNear() {
+    $("#sort-btn").addEventListener("click", (ev) => { ev.stopPropagation(); Sound.play("chip"); openNear($("#near-pop").hidden); });
+    $("#near-q").addEventListener("input", (ev) => renderNearList(ev.target.value));
+    $("#near-q").addEventListener("keydown", (ev) => {
+      if (ev.key === "Enter") { const b = $("#near-list button"); if (b) b.click(); }
+      if (ev.key === "Escape") openNear(false);
+    });
+    $("#near-gps").addEventListener("click", () => { openNear(false); locate(); });
+    $("#near-date").addEventListener("click", () => { openNear(false); state.sort = "date"; update(); });
+    document.addEventListener("click", (ev) => { if (!$("#near-pop").hidden && !ev.composedPath().includes($("#near"))) openNear(false); });
+  }
+  function toggleSort() { openNear($("#near-pop").hidden); }
 
   let toastTimer;
   function toast(msg) {
@@ -1407,9 +1476,7 @@
     renderFavBtn();
     $("#list-toggle-count").textContent = n;
     $("#list-toggle").setAttribute("aria-label", `Mostra l'elenco: ${n} ${n === 1 ? "evento" : "eventi"}`);
-    const sortBtn = $("#sort-btn");
-    sortBtn.setAttribute("aria-pressed", String(state.sort === "distance" && !!state.me));
-    sortBtn.textContent = state.sort === "distance" && state.me ? "Più vicini" : state.me ? "Per data" : "Più vicini";
+    renderSortBtn();
     $("#reset").hidden = !(state.cats.size || state.access.size || state.aud.size || state.q || onlyUids || state.fav);
     if (mapReady) {
       map.getSource("ev").setData(geojson(onMap));
@@ -1861,7 +1928,7 @@
       ev.currentTarget.setAttribute("aria-expanded", String(open));
     });
     $("#locate").addEventListener("click", locate);
-    $("#sort-btn").addEventListener("click", toggleSort);
+    setupNear();
     document.addEventListener("keydown", (ev) => { if (ev.key === "Escape" && state.detail) closeDetail(); });
 
     const m = location.hash.match(/e=([0-9a-f]+)/);

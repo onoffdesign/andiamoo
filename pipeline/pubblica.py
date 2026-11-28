@@ -148,6 +148,24 @@ def quality_ops(events: list[Event], towns: dict, old_uids: set, no_place: int) 
     return {"in_revisione": len(queue), "saturazione": {r["provincia"]: r["nuovi_oggi"] for r in rows}}
 
 
+def write_site_towns(path: Path | None = None) -> int:
+    """Elenco dei comuni per il sito (docs/data/comuni.json: [nome, sigla, lat, lon]): serve alla vista lista per dire
+    "Vicino a ..." dalla posizione e per scrivere a mano il luogo. Nessun dato personale: solo i centri dei comuni."""
+    path = path or export_dir() / "comuni.json"
+    if not COMUNI.exists():
+        return 0
+    lines = [l for l in COMUNI.read_text(encoding="utf-8").splitlines() if l and not l.startswith("#")]
+    rows = [[r["comune"], r["sigla"], round(float(r["lat"]), 4), round(float(r["lon"]), 4)] for r in csv.DictReader(lines)]
+    text = json.dumps(rows, ensure_ascii=False, separators=(",", ":"))
+    if not path.exists() or path.read_text(encoding="utf-8") != text:
+        path.write_text(text, encoding="utf-8")
+    return len(rows)
+
+
+def export_dir() -> Path:
+    return (ROOT / settings()["publish"]["export_path"]).parent
+
+
 def build(write: bool = True) -> dict:
     from .export import export
     towns, known, sigle = load_towns(), load_known_places(), allowed_sigle()
@@ -173,6 +191,7 @@ def build(write: bool = True) -> dict:
         return stats
     payload = export(events)
     stats["pubblicati"] = payload["count"]
+    stats["comuni_sito"] = write_site_towns()
     shown = {d["uid"] for d in payload["events"]}          # solo cio' che e' davvero sul sito (non i trattenuti)
     stats.update(quality_ops([e for e in events if e.uid in shown], towns, {e.uid for e in site}, len(no_place)))
     NO_PLACE.write_text(json.dumps({"generato": datetime.now(ROME).isoformat(timespec="minutes"),
