@@ -513,17 +513,33 @@
   }
 
   // ---------------------------------------------------------------- mappa
-  // Mappa minimale "a puntini": la terra e' una trama di punti, il mare e' carta liscia, strade e confini principali
-  // sono file di punti; restano solo i nomi di citta' e paesi. Tutto il resto della base (edifici, parchi, binari,
-  // stradine, numeri delle strade, aeroporti) e' nascosto.
-  // La terra non ha un colore di fondo: il suo grigio nasce solo dalla trama fitta di puntini sulla carta.
-  const MAP_INK = { paper: "#f5f3ee", dot: "#a49d8e", road: "#a9a293", border: "#958e80", text: "#6b665d" };
-  function dotPattern() {
-    const s = 2, step = 3, cv = document.createElement("canvas");     // un puntino ogni 3 px, a ogni zoom
-    cv.width = cv.height = step * s;
-    const g = cv.getContext("2d");
-    g.fillStyle = MAP_INK.paper; g.fillRect(0, 0, cv.width, cv.height);
-    g.fillStyle = MAP_INK.dot; g.beginPath(); g.arc(cv.width / 2, cv.height / 2, 0.55 * s, 0, Math.PI * 2); g.fill();
+  // Mappa illustrata, come una stampa su carta: mare color carta, terra verde con grana a puntini (piu' scura lungo
+  // le coste), strade principali come file di perline d'inchiostro, solo i nomi di citta' e paesi scritti a mano.
+  // Tutto il resto della base (edifici, parchi, binari, stradine, numeri delle strade, aeroporti) e' nascosto.
+  const HAND_FONT = ["andiamo-hand"];        // Patrick Hand, convertito in glifi per MapLibre (docs/fonts)
+  const LIVE_COLOR = "#f4b942";              // eventi in corso: un alone caldo color sole, niente rosso d'allarme
+  const MAP_INK = { paper: "#f4efe3", land: "#5db48b", grain: "#2f8a63", light: "#a6dcbd", coast: "#237652",
+    road: "#1d2a24", minor: "#2c7a57", border: "#f4efe3", text: "#16301f" };
+
+  // numeri casuali ripetibili: la grana e i segnaposti sono uguali a ogni caricamento
+  const rng = (seed) => () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
+
+  // Grana della terra: tanti puntini casuali piu' scuri e qualcuno piu' chiaro sul verde (effetto stampa riso).
+  function grainPattern() {
+    const s = 2, size = 96, cv = document.createElement("canvas");
+    cv.width = cv.height = size * s;
+    const g = cv.getContext("2d"), r = rng(42);
+    g.fillStyle = MAP_INK.land; g.fillRect(0, 0, cv.width, cv.height);
+    const dots = (n, color, alpha, rad) => {
+      g.fillStyle = color;
+      for (let i = 0; i < n; i++) {
+        g.globalAlpha = alpha * (0.45 + r() * 0.55);
+        g.beginPath(); g.arc(r() * cv.width, r() * cv.height, (rad * (0.6 + r() * 0.6)) * s, 0, Math.PI * 2); g.fill();
+      }
+    };
+    dots(2600, MAP_INK.grain, 0.55, 0.55);
+    dots(900, MAP_INK.light, 0.5, 0.5);
+    g.globalAlpha = 1;
     return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
   }
   function warmStyle() {
@@ -534,26 +550,43 @@
       lay(id, "line-cap", "round"); lay(id, "line-join", "round");
       set(id, "line-color", color); set(id, "line-width", width); set(id, "line-dasharray", [0, gap]); set(id, "line-opacity", 1);
     };
-    if (!map.hasImage("land-dots")) map.addImage("land-dots", dotPattern(), { pixelRatio: 2 });
-    const HIDE = /park|landcover|landuse|building|aeroway|pier|path|rail|tunnel|casing|shield|highway-name|airport|label_other|label_village|waterway_line_label|boundary_disputed/;
+    if (!map.hasImage("land-grain")) map.addImage("land-grain", grainPattern(), { pixelRatio: 2 });
+    // scritte della mappa nel carattere a mano del sito (glifi serviti dal sito stesso, cartella fonts/)
+    try { map.setGlyphs(`${new URL(window.ANDIAMO_FONTS || "fonts/", location.href).href}{fontstack}/{range}.pbf`); } catch (_) { /* */ }
+    const HIDE = /park|landcover|landuse|building|aeroway|pier|path|rail|tunnel|casing|shield|highway-name|airport|label_other|label_village|waterway_line_label|boundary_disputed|subtle/;
     for (const l of map.getStyle().layers) {
       const id = l.id;
-      if (["clusters", "clusters-live", "cluster-count", "points", "points-live", "sel-live", "points-hover", "points-selected"].includes(id)) continue;
-      if (l.type === "background") { set(id, "background-color", MAP_INK.paper); set(id, "background-pattern", "land-dots"); }
+      if (["clusters", "clusters-ink", "clusters-live", "cluster-count", "points", "points-live", "sel-live", "points-hover", "points-selected"].includes(id)) continue;
+      if (l.type === "background") { set(id, "background-color", MAP_INK.land); set(id, "background-pattern", "land-grain"); }
       else if (HIDE.test(id)) hide(id);
       else if (l.type === "fill" && /water/.test(id)) { set(id, "fill-color", MAP_INK.paper); set(id, "fill-outline-color", MAP_INK.paper); }
       else if (l.type === "line" && /waterway/.test(id)) { set(id, "line-color", MAP_INK.paper); }
-      else if (/motorway/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 6, 1.4, 10, 2, 14, 3]);
-      else if (/highway_major/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 8, 1.2, 12, 1.8, 16, 2.6]);
-      else if (id === "highway_minor") { dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 13, 1, 16, 2], 2.6); try { map.setLayerZoomRange(id, 13, 24); } catch (_) { /* */ } }
-      else if (id === "boundary_2") dotted(id, MAP_INK.border, ["interpolate", ["linear"], ["zoom"], 3, 1.3, 8, 2.2], 2);
-      else if (id === "boundary_3") dotted(id, MAP_INK.dot, 1.2, 2.6);
+      else if (/motorway/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 5, 1.6, 10, 2.4, 14, 3.4], 1.7);
+      else if (/highway_major/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 9, 1.3, 12, 2, 16, 2.8], 1.9);
+      else if (id === "highway_minor") { dotted(id, MAP_INK.minor, ["interpolate", ["linear"], ["zoom"], 13, 1.1, 16, 2], 2.2); try { map.setLayerZoomRange(id, 13, 24); } catch (_) { /* */ } }
+      else if (id === "boundary_2") { dotted(id, MAP_INK.border, ["interpolate", ["linear"], ["zoom"], 3, 1.6, 8, 2.6], 2); set(id, "line-opacity", 0.85); }
+      else if (id === "boundary_3") { dotted(id, MAP_INK.border, 1.3, 3); set(id, "line-opacity", 0.45); }
       else if (l.type === "line") hide(id);
       else if (l.type === "symbol") {
+        lay(id, "text-font", HAND_FONT);
+        if (/^label_/.test(id)) lay(id, "text-field", ["coalesce", ["get", "name:it"], ["get", "name:latin"], ["get", "name"]]);
         if (id === "label_town") { try { map.setLayerZoomRange(id, 9, 24); } catch (_) { /* */ } }   // paesi solo da vicino
-        set(id, "text-color", MAP_INK.text); set(id, "text-halo-color", MAP_INK.paper); set(id, "text-halo-width", 1.4);
-        set(id, "text-halo-blur", 0.5); lay(id, "text-transform", /country|state/.test(id) ? "uppercase" : "none");
+        const sea = /water/.test(id);
+        set(id, "text-color", sea ? "#3d8a69" : MAP_INK.text);
+        set(id, "text-halo-color", sea ? MAP_INK.paper : "rgba(214, 240, 224, .55)"); set(id, "text-halo-width", sea ? 1.2 : 1.6);
+        set(id, "text-halo-blur", 0.8); lay(id, "text-transform", /country|state/.test(id) ? "uppercase" : "none");
+        if (/country|state/.test(id)) lay(id, "text-letter-spacing", 0.12);
       }
+    }
+    // coste piu' scure: una riga sfumata lungo il bordo dell'acqua, sotto il mare (si vede solo dal lato della terra)
+    const water = map.getLayer("water");
+    if (water && !map.getLayer("coast-shade")) {
+      try {
+        map.addLayer({ id: "coast-shade", type: "line", source: water.source, "source-layer": water.sourceLayer || "water",
+          paint: { "line-color": MAP_INK.coast, "line-opacity": 0.55,
+            "line-width": ["interpolate", ["linear"], ["zoom"], 4, 5, 8, 10, 13, 16], "line-blur": ["interpolate", ["linear"], ["zoom"], 4, 5, 8, 10, 13, 16] } },
+        "water");
+      } catch (_) { /* stile senza acqua */ }
     }
   }
 
@@ -571,39 +604,71 @@
     "natura-outdoor": "M5 20c0-9.5 6.5-15 15-15 0 9-5.5 15-14.5 15M5 20l8-8",
     "": "M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6-4.5-4.2 6.1-.7z",
   };
+  // Segnaposti illustrati: tondo pieno con bordo d'inchiostro, ombra a puntini in basso a destra e qualche luce
+  // in alto a sinistra (come la grana della terra), icona a tratto pulito. Ogni categoria ha la sua grana fissa.
+  const INK = "#1d1b18";
+  const seedOf = (t) => [...t].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) % 2147483646, 7) + 1;
+  function grainDisc(g, cx, cy, r, color, shade, light, seed, n = 260) {
+    g.save();
+    g.beginPath(); g.arc(cx, cy, r, 0, Math.PI * 2); g.fillStyle = color; g.fill(); g.clip();
+    const rnd = rng(seed);
+    for (let i = 0; i < n; i++) {
+      const a = rnd() * Math.PI * 2, d = Math.sqrt(rnd()) * r, x = Math.cos(a) * d, y = Math.sin(a) * d;
+      const k = (x + y) / (r * 1.25);                       // -1 in alto a sinistra, +1 in basso a destra
+      if (k > 0 && rnd() < Math.pow(k, 1.1) * 0.95) { g.fillStyle = shade; g.globalAlpha = 0.5 + rnd() * 0.35; }
+      else if (k < -0.35 && rnd() < -k * 0.35) { g.fillStyle = light; g.globalAlpha = 0.45 + rnd() * 0.35; }
+      else continue;
+      g.beginPath(); g.arc(cx + x, cy + y, 0.35 + rnd() * 0.35, 0, Math.PI * 2); g.fill();
+    }
+    g.restore(); g.globalAlpha = 1;
+  }
   function pinImage(color, icon, selected) {
     const s = 2, r = selected ? 15 : 13, size = (r + 3) * 2;
     const cv = document.createElement("canvas");
     cv.width = cv.height = size * s;
     const g = cv.getContext("2d");
     g.scale(s, s);
+    const fill = selected ? INK : color, line = selected ? color : INK, d = ICONS[icon] !== undefined ? ICONS[icon] : ICONS[""];
+    grainDisc(g, size / 2, size / 2, r, fill, selected ? "#000" : "rgba(20, 16, 10, .9)", "#fff", seedOf(icon + (selected ? "s" : "")));
     g.beginPath(); g.arc(size / 2, size / 2, r, 0, Math.PI * 2);
-    g.fillStyle = selected ? "#111" : color; g.fill();
-    g.lineWidth = selected ? 2.5 : 1.5; g.strokeStyle = selected ? color : "#111"; g.stroke();
+    g.lineWidth = selected ? 2.5 : 1.6; g.strokeStyle = line; g.stroke();
     const k = (selected ? 15 : 13.5) / 24;
     g.translate(size / 2 - 12 * k, size / 2 - 12 * k); g.scale(k, k);
-    g.lineWidth = 2.2; g.lineCap = "round"; g.lineJoin = "round"; g.strokeStyle = selected ? color : "#111";
-    g.stroke(new Path2D(ICONS[icon] !== undefined ? ICONS[icon] : ICONS[""]));
+    g.lineWidth = 2.2; g.lineCap = "round"; g.lineJoin = "round"; g.strokeStyle = line;
+    g.stroke(new Path2D(d));
+    g.setTransform(1, 0, 0, 1, 0, 0);
     return { width: cv.width, height: cv.height, data: g.getImageData(0, 0, cv.width, cv.height).data };
   }
 
-  // Anello che pulsa attorno agli eventi in corso (immagine animata di MapLibre: si ridisegna a ogni fotogramma).
+  // Gruppi di eventi: tondo d'inchiostro con la stessa grana, in tre grandezze (come i raggi di CLUSTER_R).
+  function clusterImage(r, live) {
+    const s = 2, size = (r + 4) * 2, cv = document.createElement("canvas");
+    cv.width = cv.height = size * s;
+    const g = cv.getContext("2d");
+    g.scale(s, s);
+    grainDisc(g, size / 2, size / 2, r, INK, "#000", "#8a8478", seedOf("c" + r), 420);
+    g.beginPath(); g.arc(size / 2, size / 2, r, 0, Math.PI * 2);
+    g.lineWidth = live ? 2.6 : 2; g.strokeStyle = live ? LIVE_COLOR : MAP_INK.paper; g.stroke();
+    g.setTransform(1, 0, 0, 1, 0, 0);
+    return { width: cv.width, height: cv.height, data: g.getImageData(0, 0, cv.width, cv.height).data };
+  }
+
+  // Eventi in corso: un alone morbido che "respira" piano attorno al segnaposto (un giro ogni 4 secondi),
+  // con un sottile cerchio a matita che si allarga e svanisce. Niente lampeggi ne' colori d'allarme.
   const REDUCED = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function pulseImage(color, base) {
-    const s = 2, size = 92;
+    const s = 2, size = 84, PERIOD = 4000;
     return { width: size * s, height: size * s, data: new Uint8ClampedArray(size * s * size * s * 4),
       onAdd() { const c = document.createElement("canvas"); c.width = c.height = size * s; this.g = c.getContext("2d"); },
       render() {
-        const g = this.g, t = REDUCED() ? 0.35 : (performance.now() % 1800) / 1800;
+        const g = this.g, t = REDUCED() ? 0.3 : (performance.now() % PERIOD) / PERIOD;
+        const breathe = 0.5 - 0.5 * Math.cos(t * Math.PI * 2);           // 0 -> 1 -> 0, dolce
         g.setTransform(s, 0, 0, s, 0, 0); g.clearRect(0, 0, size, size);
-        for (const ph of REDUCED() ? [t] : [t, (t + 0.5) % 1]) {
-          const rad = base + 3 + ph * 26, a = (1 - ph) * 0.85;
-          g.beginPath(); g.arc(size / 2, size / 2, rad, 0, Math.PI * 2);
-          g.fillStyle = color; g.globalAlpha = a * 0.3; g.fill();
-          g.globalAlpha = a; g.lineWidth = 2.5; g.strokeStyle = color; g.stroke();
-          g.globalAlpha = a * 0.8; g.lineWidth = 1.2; g.strokeStyle = "#111";
-          g.beginPath(); g.arc(size / 2, size / 2, rad + 1.5, 0, Math.PI * 2); g.stroke();
-        }
+        g.beginPath(); g.arc(size / 2, size / 2, base + 5 + breathe * 5, 0, Math.PI * 2);
+        g.fillStyle = color; g.globalAlpha = 0.16 + breathe * 0.1; g.fill();
+        const ease = 1 - Math.pow(1 - t, 2), rad = base + 6 + ease * 20;
+        g.beginPath(); g.arc(size / 2, size / 2, rad, 0, Math.PI * 2);
+        g.globalAlpha = (1 - t) * 0.55; g.lineWidth = 1.6; g.strokeStyle = color; g.stroke();
         g.globalAlpha = 1;
         this.data = g.getImageData(0, 0, size * s, size * s).data;
         if (!REDUCED()) map.triggerRepaint();
@@ -663,6 +728,7 @@
   function popIn() {
     animateProp("points", "layout", "icon-size", 0.35, 1, 460);
     animateProp("clusters", "paint", "circle-radius", 0.35, 1, 460, CLUSTER_R);
+    animateProp("clusters-ink", "layout", "icon-size", 0.35, 1, 460);
   }
 
   // Suoni brevi, sintetizzati (nessun file): si possono spegnere dal pulsante con l'altoparlante.
@@ -815,7 +881,11 @@
         map.addImage(`pin-sel-${c.id}`, pinImage(c.color, c.id, true), { pixelRatio: 2 });
         map.addImage(`pulse-${c.id}`, pulseImage(c.color, 13), { pixelRatio: 2 });
       });
-      map.addImage("pulse-cluster", pulseImage("#ff4d2e", 17), { pixelRatio: 2 });
+      map.addImage("pulse-cluster", pulseImage(LIVE_COLOR, 17), { pixelRatio: 2 });
+      for (const r of [15, 19, 24]) {
+        map.addImage(`cl-${r}`, clusterImage(r, false), { pixelRatio: 2 });
+        map.addImage(`cl-${r}-live`, clusterImage(r, true), { pixelRatio: 2 });
+      }
       map.addSource("ev", { type: "geojson", data: geojson([]), cluster: true, clusterRadius: 40, clusterMaxZoom: 13,
         clusterProperties: { live: ["max", ["case", ["==", ["get", "live"], true], 1, 0]] } });
       const ring = (prefix) => ({ "icon-image": ["concat", prefix, ["get", "category"]], "icon-allow-overlap": true,
@@ -825,11 +895,14 @@
       map.addLayer({ id: "points-live", type: "symbol", source: "ev",
         filter: ["all", ["!", ["has", "point_count"]], ["==", ["get", "live"], true]], layout: ring("pulse-") });
       map.addLayer({ id: "clusters", type: "circle", source: "ev", filter: ["has", "point_count"],
-        paint: { "circle-color": "#111", "circle-radius": CLUSTER_R(1),
-          "circle-stroke-width": ["case", [">", ["get", "live"], 0], 2.5, 2],
-          "circle-stroke-color": ["case", [">", ["get", "live"], 0], "#ff4d2e", "#f5f3ee"] } });
+        // il cerchio resta solo come area da toccare: si vede il tondo a mano dello strato sopra
+        paint: { "circle-color": INK, "circle-radius": CLUSTER_R(1), "circle-opacity": 0, "circle-stroke-width": 0 } });
+      map.addLayer({ id: "clusters-ink", type: "symbol", source: "ev", filter: ["has", "point_count"],
+        layout: { "icon-image": ["concat", "cl-", ["step", ["get", "point_count"], "15", 10, "19", 40, "24"],
+          ["case", [">", ["get", "live"], 0], "-live", ""]], "icon-allow-overlap": true, "icon-ignore-placement": true } });
       map.addLayer({ id: "cluster-count", type: "symbol", source: "ev", filter: ["has", "point_count"],
-        layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 12, "text-font": ["Noto Sans Bold"] },
+        layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 15, "text-font": HAND_FONT,
+          "text-allow-overlap": true, "text-ignore-placement": true },
         paint: { "text-color": "#fff" } });
       const icon = (prefix) => ["concat", prefix, ["get", "category"]];
       map.addLayer({ id: "points", type: "symbol", source: "ev", filter: pointsFilter(""),
@@ -946,7 +1019,7 @@
     const dirs = `https://www.google.com/maps/dir/?api=1&destination=${e.geo_precision === "town"
       ? encodeURIComponent([e.venue, e.address, e.town].filter(Boolean).join(", ")) : `${e.lat},${e.lon}`}`;
     el.innerHTML = `
-      <div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}<span class="cat-tag">${esc(c.label)}${sub ? ` · ${esc(sub)}` : ""}</span>${favButton(e, "fav")}</div>
+      <div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${opts.popup ? "" : `<span class="cat-tag">${esc(c.label)}${sub ? ` · ${esc(sub)}` : ""}</span>`}${favButton(e, "fav")}</div>
       <div class="card-when">
         <strong class="w-day">${esc(dayLabel(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}
       </div>
