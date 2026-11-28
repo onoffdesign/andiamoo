@@ -1,12 +1,12 @@
 {
- "generato": "2026-11-28T19:57+01:00",
+ "generato": "2026-11-28T20:07+01:00",
  "riepilogo": {
-  "eventi_controllati": 2211,
+  "eventi_controllati": 2212,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 62,
-  "solo_comune_con_luogo": 140,
-  "solo_comune_senza_luogo": 28,
+  "solo_comune_con_luogo": 130,
+  "solo_comune_senza_luogo": 27,
   "candidati_luoghi_noti": 0
  },
  "punti_diversi": [],
@@ -133,18 +133,6 @@
   }
  ],
  "senza_punto": [
-  {
-   "luogo": "Ex Complesso Conventuale San Francesco, Via XXIV Maggio 5, Alessandria",
-   "eventi": 5,
-   "uid": [
-    "bf95b9219047249a",
-    "984627cfb2f6a67e",
-    "9694c6b84cfde25d",
-    "a218ba2ae03f2f63",
-    "3233b486b10bafc4"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
   {
    "luogo": "Biblioteca comunale di Farra di Soligo, Farra di Soligo",
    "eventi": 4,
@@ -400,14 +388,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Piazza Caduti nei Lager, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "b5806380fecf7257"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Sede della Pro Loco di Soligo, Farra di Soligo",
    "eventi": 1,
    "uid": [
@@ -476,6 +456,22 @@
    "eventi": 1,
    "uid": [
     "02dc3e77dbb05064"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Palestra Polivalente, Via A. De Gasperi 44, San Vendemiano",
+   "eventi": 1,
+   "uid": [
+    "035a4d9e541da131"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Uberto Bacilieri, Giavera del Montello",
+   "eventi": 1,
+   "uid": [
+    "7ed2660a7a7541db"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }

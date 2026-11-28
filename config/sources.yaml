@@ -169,7 +169,7 @@ sources:
     ai_rewrite: true
     default_category: sport
     default_subcategory: outdoor
-    note: "Stesso formato di running.life; da confermare al primo avvio."
+    note: "Stesso formato di running.life. Letta da Claude (giro) il 2026-11-28: l'elenco si apre, 4 trail fino a marzo, gia' sul sito o con schede vecchie (Ridges Trail 14/2 con dati del 2023)."
 
   - id: vivaticket
     name: Vivaticket
@@ -620,14 +620,14 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-28 (giro): The Events Calendar, l'API /wp-json/tribe/events/v1/events risponde da curl (9 eventi in 120 giorni: Autunno Musicale a Treviso e la stagione CortinAteatro a Cortina d'Ampezzo, con venue, indirizzo e orario). Era nella fonte nota di ops/fonti.yaml, letta a mano. Descrizioni con un commento HTML in testa da ignorare; una scheda ha la fine sbagliata (Schiaccianoci 4/1 con fine 6/3)."
   - id: teatro-cilea
-    name: Teatro Francesco Cilea (Reggio Calabria)
+    name: Teatro Cilea (Napoli)
     type: tribe_api
     enabled: true
     base_url: https://teatrocilea.it
     per_page: 50
     max_pages: 1
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): The Events Calendar, 11 eventi futuri. Venue vuoto nell'API: e' sempre il Teatro Cilea."
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): The Events Calendar, 11 eventi futuri. Venue vuoto nell'API: e' sempre il Teatro Cilea. Correzione del giro del 2026-11-28: teatrocilea.it e' il Teatro Cilea di Napoli (Via San Domenico 11, Vomero), non il Teatro Francesco Cilea di Reggio Calabria; gli eventi vanno con town Napoli."
   - id: marche-teatro
     name: Marche Teatro (Ancona)
     type: tribe_api

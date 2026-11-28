@@ -31101,3 +31101,16 @@ eventi:
     summary: Corsa e camminata natalizia di 5 chilometri con partenza dal polifunzionale di Talamona.
     fonte: https://portedivaltellina.it/luogo/talamona-polifunzionale
     trovato: '2026-11-28'
+  - title: Sebastiao Salgado. Fotografie della collezione della Maison Europeenne de la Photographie
+    start: 2026-10-24
+    end: 2027-04-04
+    venue: Museo Civico di Bassano del Grappa
+    address: Piazza Garibaldi 34
+    town: Bassano del Grappa
+    lat: 45.7664
+    lon: 11.7352
+    category: arte-cultura
+    official_url: https://www.finestresullarte.info/mostre/bassano-del-grappa-dedica-prima-mostra-italiana-sull-intera-opera-sebastiao-salgado
+    summary: Mostra con 160 fotografie di Sebastiao Salgado dalla collezione della Maison Europeenne de la Photographie di Parigi, organizzata dal Comune e dai Musei Civici di Bassano.
+    fonte: https://www.finestresullarte.info/mostre/bassano-del-grappa-dedica-prima-mostra-italiana-sull-intera-opera-sebastiao-salgado (date e organizzatori, letta il 2026-11-28); indirizzo e coordinate del museo da en.wikipedia.org/wiki/Museo_Civico_di_Bassano. Trovato nel test di copertura dal PDF di iltaccodibacco.it/asiago
+    trovato: '2026-11-28'

@@ -1,128 +1,122 @@
-# Revisione, notte del 2026-11-28 (quarta prova)
+# Revisione, notte del 2026-11-28 (sessione della sera)
 
-Riscritto da capo. Lavoro fatto su `ops/posizioni.json`, `ops/revisione.json` e `ops/campione.json` generati alle 16:54
-(1216 eventi controllati, 60 in coda, 20 di campione).
+Riscritto da capo. Lavoro fatto su `ops/posizioni.json` (17:58), `ops/revisione.json` (60 in coda) e `ops/campione.json`
+(20 eventi). Nessuna voce di `ops/senza-posizione.json` (era vuoto).
 
 ## Numeri
-- Quota: 63 su 75. 7 WebSearch, 1 WebFetch e 55 letture di pagine ufficiali o di fonti ammesse dalla shell (curl,
-  contate come WebFetch, una per pagina; tra queste il PDF dell'Autunno Sanfiorese letto con pdftotext). Fuori quota,
-  come nelle prove precedenti: circa 230 interrogazioni a Nominatim (OpenStreetMap) dalla shell, con 1,1 secondi di
-  pausa. Overpass non risponde dalla sessione (connessione chiusa o timeout su tre server).
-- Posizioni: 105 luoghi nuovi in config/luoghi.yaml (da 165 a 270) e 1 luogo spostato (Cordignano); 4 punti singoli
-  in lat/lon nelle correzioni, piu' 5 punti di eventi della coda e del campione.
-- Coda di revisione: 60 lavorati su 60. Corretti 13, rimossi 0, verificati 40 (37 dopo la sistemazione del luogo o la
-  lettura della fonte, 3 falsi allarmi di posizione). Ne restano 7 (vedi "Cosa resta").
-- Campione: 10/20 corretti; 7 correzioni scritte, 11 verificati.
-- Test di copertura: 4/20 (provincia di Padova), 6 eventi aggiunti in config/notte/revisione-eventi.yaml.
-- File: config/notte/revisione-correzioni.yaml (24 correggi, 51 verificati, 0 rimuovi),
-  config/notte/revisione-eventi.yaml (6 eventi), config/luoghi.yaml. `python -m pipeline.notte --controlla revisione`:
-  parti valide.
+- Quota: 72 su 75 (8 WebSearch, 64 WebFetch). Tra le WebFetch, 24 interrogazioni a Nominatim (OpenStreetMap) e 3
+  tentativi a vuoto su Overpass (timeout e 503: non usarlo). All'inizio circa 30 interrogazioni a Nominatim dalla
+  shell, poi fermate perche' il permesso e' stato negato: da li' in avanti solo WebFetch, contate nella quota.
+- Posizioni: 46 luoghi nuovi in config/luoghi.yaml (7 dai candidati, 39 dai senza punto e dalla coda), 2 punti
+  singoli in lat/lon nelle correzioni, 11 luoghi "lontani dal comune" controllati (falsi allarmi, nessuna modifica).
+- Coda di revisione (file delle 19:57): 27 su 60 chiusi con una voce (11 correggi, 16 verificati); altri 4 hanno ora il
+  punto da luoghi.yaml ma l'accesso non e' stato letto. Ne restano 33, quasi tutti teatri di Bologna e Modena con accesso
+  sconosciuto.
+- Campione: 12/20.
+- Test di copertura: 7/20; 1 evento aggiunto in config/notte/revisione-eventi.yaml.
+- File: config/notte/revisione-correzioni.yaml (21 correggi, 0 rimuovi, 28 verificati), config/notte/revisione-eventi.yaml
+  (1 evento), config/luoghi.yaml (46 voci con "aggiunto il 2026-11-28 (revisione)"; la prima parte e' gia' entrata nel
+  commit ed86f12 del coordinatore). `python -m pipeline.notte --controlla revisione`: parti valide. Test: 96 passati.
 
 ## Posizioni
-- Prima (16:54): luoghi con punti diversi 4 (in realta' 2, ognuno elencato due volte: Teatro comunale di Trevignano e
-  Aula Magna della scuola di Cordignano), lontani dal comune 5 eventi, solo comune con luogo 293, solo comune senza
-  luogo 29, candidati 13.
-- Ricalcolo con gli stessi eventi dopo il lavoro (script sui file del repository, senza pubblicare): solo comune con
-  luogo da 314 a 132 eventi, candidati da 13 a 0, punti diversi 0 dopo le correzioni (il ricalcolo non legge le
-  correzioni della notte). Con le parti degli altri agenti unite dopo (1897 eventi): solo comune con luogo 177,
-  candidati 37 (erano 51 prima dei 13 aggiunti per ultimi), lontani 61.
-- Punti diversi: Trevignano, l'evento 4d45272078d3abc0 aveva un punto suo a 450 m dagli altri 9: ora quello di
-  luoghi.yaml. Cordignano: Via Gazzari 1 e' la sede dell'istituto comprensivo, la scuola media e' in Via Vittorio
-  Veneto 12 (tuttitalia.it): punto spostato sull'edificio della scuola (OSM way 234787583) e lo stesso punto
-  nell'evento 521981068923ec69, che era a 700 m.
-- Lontani dal comune, tutti falsi allarmi verificati: Lutago (frazione di Valle Aurina), Santa Maria in Stelle
-  (frazione di Verona), Nevegal (Belluno), H-FARM (Ca' Tron, Roncade). Dopo l'unione delle parti degli altri agenti ne
-  compaiono di nuovi, anche questi falsi allarmi: Teatro Toniolo e Teatro del Parco (Mestre, comune di Venezia, 50
-  eventi), Santuario di Oropa (Biella), Scardovari (Porto Tolle). Da guardare: Centro polivalente di Longastrino,
-  Via Bassa 59, scritto "Alfonsine" (Longastrino e' quasi tutta nel comune di Argenta, FE).
-- Senza punto, i piu' frequenti per primi (tutti con l'oggetto di OpenStreetMap nella nota): Teatro Donizetti (33
-  eventi), Teatro Sociale di Como con Foyer e Sala Bianca (30), Teatro Manzoni di Monza (14), Teatro comunale di
-  Pergine con il Foyer Bepi Roner (9), Teatro Sociale di Bergamo (8), Teatro Grande di Brescia con il Ridotto (7),
-  Parco del Donatore di Ramon (6, punto della via), Auditorium Santo Stefano di Farra e NOI Fontane (5 ciascuno, punto
-  noto piu' vicino: la chiesa parrocchiale), Dosson, Ananda Marga, Piazza Marconi di Valdobbiadene, Mantova (Teatro
-  Sociale, Bibiena, PalaUnical, Piazza Martiri di Belfiore), Pavia (Cineteatro Volta, biblioteche Bonetta, Ragazzi e
-  Mirabello Scala, Palazzo centrale dell'Universita'), Varese (Villa Panza, Ippodromo, Museo Castiglioni), Bresso,
-  Ossona, Usmate, Verona (Filarmonico, Duomo, San Michele Extra), Padova (Basilica del Santo, Piazza Capitaniato,
-  Auditorium Pollini), Vicenza, Venezia, Belluno, Tarcento, Predaia, Seren del Grappa (Museo Secco, Via Marconi 19),
-  Omate, e 25 luoghi della provincia di Treviso (Loggia dei Grani, Villa Correr Pisani, Duomo di Montebelluna, Palateatro
-  e chiesa di Fontane, stadio del rugby di Villorba, Casa Giorgione, Piavon, Canottieri Sile, Palazzo Sarcinelli,
-  Biancade, Solighetto, Piazza Rigo, Paderno, Campea, Grotte del Caglieron, ecc.).
-- Candidati: tutti i 13 delle 16:54 (Teatro Comunale e Teatro di Gries di Bolzano, Teatro Sociale, Buonconsiglio,
-  Roccabruna, piazze e Gallerie di Trento, Prealpi SanBiagio Arena, Piazza Raiffeisen, Morter) e 13 dei 51 comparsi
-  dopo l'unione (Toniolo, Teatro del Parco, Thiene, Astra, Salieri, Regio di Torino, Comunale di Vicenza, Russolo,
-  Modernissimo, Villa dei Leoni, Coccia, Marconi di Abano, Don Bosco di Chioggia), tutti con il punto comune degli
-  eventi gia' pubblicati (controllato su OpenStreetMap, entro 200 m) per non creare punti diversi.
-- Teatro Nuovo di Verona: punto nell'evento (4f6ca99deffbaeaa) e non in luoghi.yaml, perche' il nome e' contenuto in
-  "Cinema-Teatro Nuovo di San Michele Extra".
+- Prima (ops/posizioni.json delle 17:58, 2211 eventi): punti diversi 0, lontani dal comune 62 eventi, solo comune con
+  luogo 205, solo comune senza luogo 28, candidati 8.
+- Stesso calcolo rifatto sul repository attuale (2400 eventi, con quelli aggiunti dopo le 17:58): solo comune con luogo
+  da 261 a 172 (89 eventi ora con il punto), candidati da 8 a 0, punti diversi 0, lontani 62 (invariati: sono falsi
+  allarmi).
+- Senza punto, sistemati (OSM = Nominatim, con l'oggetto nella nota): Teatro Comunale Abbado di Ferrara (15 eventi),
+  Biblioteca 0-18 di Cuneo (6), Teatro delle Passioni di Modena (6, ingresso in Via Peretti 9 dal pieghevole di ERT),
+  Ex complesso di San Francesco di Alessandria (5), Barbisano (4, punto della frazione), Reggio Emilia Welcome IAT-R
+  (3), Sant'Artemio di Treviso, ZolAuditorium, Biblioteca Calvo di Alessandria, Cortile del Broletto di Novara, Museo
+  Garda di Ivrea (punto della piazza), Palazzo Reale di Crespano (punto della piazza), MAUTO, OGR, Palazzo Barolo e
+  Galleria Sabauda a Torino, Palazzo Oropa e Piazza Monsignor Rossi a Biella, Piazza Alfieri ad Asti, Museo Civico di
+  Bassano (Wikipedia).
+- Punto noto piu' vicino (luogo gia' in luoghi.yaml o punto coerente di altri eventi, scritto nella nota): Chiostro di
+  San Mercuriale, Biblioteca Capitolare e Piazza Duomo di Treviso, Borgo Cavour, parrocchia di Catena, Mostra del vino
+  di Col San Martino, Piazza Caduti nei Lager di Farra (parcheggio dell'Auditorium, dal calendario del Comune), chiesa
+  di Ramon, Biblioteca Cozzi di Zero Branco, San Michele Extra, Cortile Federico II di Cremona, Piazza Martiri di
+  Reggiolo, Piazza XX Settembre di Lecco, Piazza della Vittoria e Corso Garibaldi di Reggio, Via Cavour di Padova,
+  centro storico di Vicenza; centri di Roncade, Segusino, Villorba e Asolo (centro del comune ISTAT o piazza gia' nota).
+- Candidati: tutti gli 8 aggiunti (Piazza Garibaldi di Sondrio con il "Centro di Sondrio", Piazza Saffi, Piazza della
+  Repubblica di Misano, Piazza Prampolini, Piazza San Prospero, Piazza Ghiaia, Piazza Gramsci di Alfonsine), ognuno
+  controllato contro un luogo gia' noto o il centro del comune (entro 200 m).
+- Lontani dal comune, tutti falsi allarmi: Teatro Toniolo e Teatro del Parco (Mestre, comune di Venezia, 50 eventi),
+  Santuario di Oropa (Biella), H-FARM e Auditorium H-Farm (Ca' Tron, Roncade), Santa Maria in Stelle (Verona), Nevegal
+  (Belluno), Scardovari (Porto Tolle), Lutago (Valle Aurina), Fiere di Parma (6 km, zona fiera a nord della citta').
+  Da guardare ancora: Centro polivalente di Longastrino, Via Bassa 59, scritto "Alfonsine" (Longastrino e' divisa tra
+  Argenta e Alfonsine, non verificato).
+- Restano senza punto, i piu' frequenti: Biblioteca di Farra di Soligo (4), Scuola di musica Luchesi di Silea (4,
+  Nominatim trova solo la via), Biblioteca di Paese (4) e Cinema Teatro Manzoni di Paese (3), stand di San Martino di
+  Colle Umberto (3), Villa Romivo di Montebelluna (3), stand di Vedelago (3), Piazza Mazzini di Lecco (3: Nominatim da'
+  la piazza omonima di Casatenovo, da evitare), Auditorium Vidotto di Maserada (3), Santa Maria del Sile (3), Giardini
+  Pubblici di Forli' (2). Le ricerche sulle biblioteche dei piccoli comuni trevigiani non hanno dato l'indirizzo.
 
 ## Coda di revisione (60)
-- Corretti: accesso e prezzo di Albers a Villa Panza (intero 20 euro), Musicantica e Doppia esposizione a Trento
-  (gratuiti), Dinosauri e DinoCuccioli 28 e 29/11 (3 euro), Alla scoperta di Pavia (ingresso libero con prenotazione
-  obbligatoria), Tutte dormono sulla collina e Ateius a Pavia (gratuiti), Con tutto il rispetto a Taio (gratuito);
-  luogo e indirizzo delle biblioteche di Pavia, dei Mercatini di Tarcento (IAT, Via Divisione Julia 13), di Natale a
-  Pergine (Piazza Garibaldi, punto noto piu' vicino); prezzo "evento di beneficenza" di Canto di me stesso.
-- Verificati: 31 eventi con il solo problema del luogo, ora risolto da luoghi.yaml; schede lette senza costo
-  pubblicato (Tremlett, Cyclo-Cross, Limana, Bardies, Creazzo); nessun doppione vero tra i 4 "possibili doppioni"
-  (Trento, Padova, Possagno: eventi diversi).
+- Corretti: accesso e prezzo di Macbeth (Ferrara), Il ragazzo dai pantaloni rosa (Valli), Bancal (Fabbri), L'esecuzione
+  (Pavarotti-Freni), Age (Storchi, anche l'orario 20:30), La scuola di magia (ZolAuditorium), Tiepolo alla Galleria
+  Sabauda, Banksy a Palazzo Barolo, Kusama alle OGR (tutti a biglietto con i prezzi); concorso Cappuccilli al Ridotto
+  del Ponchielli (ingresso libero); Magico Paese di Natale di Asti (gratuito).
+- Verificati sulla fonte, senza prezzo pubblicato: mercatino, pista e Giardini di Luce di Forli', mercatino e Cortile
+  Federico II di Cremona, mercatino di Lecco, accensione delle luci di Sondrio, Monet al Teatro Due, le 6 mostre e la
+  pista di Reggio Emilia (date di fine giuste), Saetta McQueen al MAUTO.
+- Risolti dai luoghi nuovi (punto): Ivrea (2), Alessandria (Calvo), Biella (pista), Zola, Ferrara, Torino.
+- Falsi allarmi chiusi: Teatro del Parco (Mestre, comune di Venezia), "possibili doppioni" tra eventi di citta' diverse
+  (Verona e Castelfranco, Padova e Sondrio).
+- Restano (33): Giardini Pubblici di Forli' (2, senza punto), Winter Park di Cremona (senza punto), Natale sotto le mura
+  di Castelfranco, Mostra del Libro di Ormelle, Padernello, Ivrea, Alessandria e Biella (punto sistemato, accesso non
+  letto), Galleria del Liceo di Treviso, Salce, Castello di Novara, Cuneo, Teatro Due, Coccia, Oleggio, Storchi
+  Ridotto, mercatino di Modena, radicchio di Spresiano, e i teatri e musei di Bologna e Casalecchio (culturabologna ed
+  ERT, accesso sconosciuto, non letti per quota).
 
-## Controllo a campione (20 eventi delle 16:54)
-Corretti 10/20: Accensione dell'albero in Piazza dei Signori, parkrun Treviso, Mondi su carta a Fossalta, visita al
-Buonconsiglio, Corso Mazzini 12/12 e 20/12, Un Natale di desideri a Oderzo, Bunny Club al New Age, Il Mago di Oz
-alle Stimate, La magia dell'inchiostro a San Fior.
-Errori (corretti tutti tranne la Marcia di Oderzo):
-- luogo 7: punto sul centro del comune per Con tutto il rispetto (Predaia), La danza delle libellule e Boudchart
-  (Bergamo), TeatrOrnago (Omate), Concerto di Natale al Santo (Padova), La zona rossa (Museo Secco); Marcia dei Babbi
-  Natale di Oderzo senza luogo.
-- accesso 2: Predaia (gratuito, era sconosciuto), visita in LIS al Museo Canova (gratuita con prenotazione, era
-  biglietto).
-- link 3: Nardo il ghepardo e Black Gold portavano alla pagina della rassegna di Gli Alcuni (ora la scheda); la
-  Marcia di Oderzo ha come link un blog podistico che non da' luogo ne' orario: non corretto, da cercare la pagina
-  dell'organizzatore.
-- In piu': Boudchart ha anche una replica alle 20:30 del 12/12 che non e' sul sito.
+## Controllo a campione (20 eventi)
+Corretti 12/20 · errori: data 0, orario 1, luogo 6, accesso 4, categoria 0, link 1.
+Giusti: Serial Singers a Modena, Rassegna degli artisti di Ramon, L'elefantino a Piacenza, Prima della Scala a Sondrio,
+Innuendo a Belluno, mercatini di Valdobbiadene, Marco Polo a Bolzano (aggiunto il prezzo), Madre per sempre a San Dona',
+I tre pini di Natale a Farra, Aperitivo della Vigilia a Montebelluna, Presepi d'autore a Forli', Domenica in mostra al
+Canova (aggiunto il prezzo).
+Errori (tutti corretti tranne dove detto):
+- luogo 6: Memorial Frazzoni (ZolAuditorium) e Anna Oxa (Teatro Abbado) sul centro del comune, ora in luoghi.yaml;
+  Fiati all'opera (chiesa di Ramon) e La Magia del Dono (Portici di Palazzo Oropa), ora in luoghi.yaml; Babbo Run di
+  Revine Lago senza luogo (scritto "Area polifunzionale di Revine", manca il punto); incontro sulla sicurezza di
+  Sernaglia senza luogo (la fonte non lo dice).
+- accesso 4: Palazzo Magnani (15 euro), Giselle (da 12,50 euro), Memorial Frazzoni e Anna Oxa (a pagamento), scritti
+  "sconosciuto" mentre la fonte dava il prezzo.
+- orario 1: Babbo Run, le 10:00 non compaiono sulla pagina (non corretto).
+- link 1: incontro di Sernaglia senza link (ora la scheda del Comune).
+- La Magia del Dono di Biella: la pagina del Comune non contiene il programma (rimanda a un PDF), contenuto non
+  verificato.
+Lezione: sotto l'80% per le stesse due cause delle notti scorse, il punto sul solo comune per i teatri e le sale delle
+province nuove (Emilia, Piemonte) e l'accesso lasciato "sconosciuto" quando la scheda del teatro pubblica i prezzi.
+Proposta per la parte 1 (la scrive il coordinatore): chi aggiunge eventi da schede di teatri legge anche la riga dei
+prezzi e scrive access: biglietto e price; "sconosciuto" solo se la scheda non ne parla.
 
-Riga per la parte 3 (la scrive il coordinatore):
-`- 2026-11-28 (notte, quarta prova) · corretti 10/20 · errori: data 0, orario 0, luogo 7, accesso 2, categoria 0, link 3 · lezione: sotto l'80% per il punto sul solo comune negli eventi delle fonti nuove di Lombardia e Trentino (teatri di Bergamo, Pavia, Omate, Predaia) e di Padova: sistemati con 105 luoghi nuovi; resta il link alla pagina della rassegna di Gli Alcuni invece della scheda dello spettacolo (seconda notte)`
-
-## Test di copertura (provincia di Padova)
-20 eventi presi in modo indipendente dall'elenco di Turismo Padova (turismopadova.it/eventi, pagine 1-3, non in
-config/sources.yaml), cercati con `python -m pipeline.editorial --comune Padova` e nei file della notte.
-- Presenti 4: Tony Gallo. Melancholy, Disney in concerto, La Traviata, Concerto di Natale al Santo.
-- Mancanti 16: Vespri di Avvento a Santa Giustina, Sogniamo con OPSA&Friends, Accendiamo il Natale (Via Sette
-  Martiri), Percorsi di Natale a Camposampiero, Dietro le quinte del Teatro Verdi, Parole e musica per Emergency,
-  L'isola del Natale (Gli Alcuni a Padova, 28/11), Casa Conti, Nicola De Maria e la Transavanguardia, Jack e il
-  fagiolo magico, Latin Mood, Amici della Musica con Beatrice Martin, Pleyel in duo, Le parole per dirla, Concerti per
-  l'Avvento degli Amici della Musica, Miroirs di Andrea Rebaudengo.
-- Aggiunti 6 (schede lette): OPSA&Friends, Dietro le quinte, Emergency, Latin Mood, Beatrice Martin, Nicola De Maria;
-  senza orario dove la scheda non lo pubblica. Gli altri 10 restano da aggiungere (schede di turismopadova.it).
-Riga per ops/espansione.md:
-`- 2026-11-28 (notte, quarta prova) · PD · copertura 4/20 (test della revisione: 20 eventi dall'elenco di turismopadova.it pagine 1-3; presenti Tony Gallo, Disney in concerto, La Traviata, Concerto di Natale al Santo; 6 dei 16 mancanti aggiunti, restano Vespri di Avvento, Accendiamo il Natale, Percorsi di Natale a Camposampiero, L'isola del Natale, Casa Conti, Jack e il fagiolo magico, Pleyel in duo, Le parole per dirla, Concerti per l'Avvento, Miroirs) · criterio di saturazione: non valutato (non e' lunedi')`
-
-## Cosa resta (per la notte dopo)
-- In coda senza verifica: Andar per fiere (Collezione Salce: fonte ufficiale illeggibile, forse chiusa il 4/11), Human
-  Atlas a Casa Robegan (link a iltaccodibacco, nessuna pagina ufficiale trovata con una ricerca), Mostra del libro di
-  Ormelle (finisce oggi), feste del radicchio di Spresiano e Quinto senza luogo, Padernello (Piazza San Filippo Neri non
-  in OSM), Sala Guarnieri di Pedavena, auditorium di Chiarano (Via Roma 65/a non in OSM), Liechtr'zeit a San Leonardo.
-- Luoghi senza punto trovato: biblioteche di Farra, Paese e Maser, Scuola Luchesi di Silea (Via Cendon 23, via lunga
-  in tre tratti), Cinema Teatro Manzoni di Paese (in OSM c'e' un "Cinema Multisala Manzoni" in Via della Costituzione,
-  non confermato), IAT Treviso, Info Point di Cison (Piazza Brandolini 6), Sala Guarnieri; dopo l'unione Teatro Abbado
-  di Ferrara (15), Biblioteca 0-18 di Cuneo (6), San Francesco di Alessandria (5).
-- Candidati non messi per mancanza di riscontro in OSM: Teatro Vivaldi di Jesolo, Remondini di Bassano, Millepini di
-  Asiago, Pascutto di San Stino, Serafin di Cavarzere; Teatro Alighieri di Ravenna (OSM da' solo la fermata).
+## Test di copertura
+7/20. Eventi presi da due elenchi non presenti in config/sources.yaml:
+- PDF di iltaccodibacco.it/asiago (provincia di Vicenza), 12 eventi, 0 sul sito: The Huntrix Experience a Bolzano
+  Vicentino, mostra di Salgado al Museo Civico di Bassano (aggiunta stanotte, dal sito finestresullarte.info), Genesis e
+  ABBAdream e Celentano e Maccio Capatonda alla CMP Arena, Dire Straits Reload e Concato e Morricone e Awed al Teatro
+  Astra di Schio, Morricone e Caccamo al Jacopo da Ponte. Non aggiunti: per i concerti si trovano solo TicketOne e
+  aggregatori, quasi tutti oltre i 30 giorni.
+- Programma del Natale del Comune di Lecco, 8 eventi, 7 sul sito (manca l'apertura del villaggio "Natale tra Lago e
+  Monti" del 5/12). Nota: l'elenco e' gia' la fonte di altri eventi del sito, quindi questa parte del test e' meno
+  indipendente.
+- Da controllare: lo Schiaccianoci del 17/12 a Lecco e' sul sito al Teatro della Societa', il Comune lo scrive al
+  Teatro Cenacolo Francescano. Non corretto (nel dubbio).
 
 ## Lezioni
-- Le schede dei Comuni con il modello AgID (Pavia, Trento, Predaia, Tarcento, Ornago, Chiarano) hanno sempre le
-  sezioni "Dove" e "Costo": una lettura toglie insieme luogo e accesso sconosciuto. Il testo utile e' a fine pagina.
-- I teatri delle fonti nuove (Donizetti, Sociale di Como, Manzoni di Monza) arrivano con indirizzo e civico giusti:
-  Nominatim li trova subito per nome; conviene metterli in luoghi.yaml lo stesso giorno in cui entra la fonte.
-- Per i candidati con punto gia' coerente si tiene il punto degli eventi pubblicati, non quello di OSM, anche se a
-  150 m: altrimenti gli eventi futuri finirebbero in un punto diverso da quelli gia' sul sito.
-- Un nome generico in luoghi.yaml ("Teatro Nuovo", "Soligo") cattura anche altri luoghi che lo contengono
-  ("Cinema-Teatro Nuovo di San Michele Extra", "Farra di Soligo"): in quei casi meglio il punto nell'evento.
-- oderzocultura.it risponde con una pagina anti-bot alla shell, WebFetch la legge.
+- WebFetch apre anche indirizzi non comparsi nei risultati (Nominatim, Wikipedia, schede note): Nominatim con
+  "via e civico, comune" trova quasi sempre il punto nelle citta' (Torino, Novara, Alessandria, Zola, Biella), quasi mai
+  per nome del luogo o nei paesi piccoli (Silea, Paese, Farra, Lecco). Overpass non risponde.
+- I PDF salvati da WebFetch si leggono con pdftotext (elenchi di iltaccodibacco.it).
+- Molti luoghi si sistemano senza ricerche: lo stesso posto ha gia' un punto in un altro evento con un nome diverso
+  (abbazia e chiostro, piazza e palazzo comunale). Conviene confrontare per parole del nome e dell'indirizzo prima di
+  cercare.
+- Gli eventi il cui luogo e' cambiato in config/correzioni.yaml restano sul centro del comune anche se il luogo e' in
+  luoghi.yaml (la pubblicazione non ricalcola il punto dopo la correzione): servono lat e lon nella correzione
+  (Tarcento, Zero Branco). Possibile miglioria del codice.
 
 ## Problemi
-- luoghi.yaml vale solo per gli eventi della redazione: gli eventi gia' sul sito presi da altre fonti (es. comune-silea)
-  non lo usano, servono lat/lon nella correzione (fatto per la Biblioteca dei Liberi Pensatori).
-- `ops/posizioni.json` elenca ogni luogo con punti diversi due volte (chiave del nome e chiave dell'indirizzo): i 4
-  "punti diversi" erano 2.
-- Campione al 50%, sotto l'80%: causa principale il punto sul solo comune dei luoghi delle fonti nuove, ora coperti.
+- Shell: l'accesso a Nominatim da riga di comando e' stato negato dai permessi a meta' lavoro; usate solo WebFetch.
+- Fonti nuove viste: nessuna da catalogare. cosedicasa.com e' gia' vietata (comparsa nei risultati, non aperta);
+  TicketOne compare nei risultati per i concerti del test (non aperta).
+- Approvazioni chieste: nessuna, a parte il permesso negato per le richieste a Nominatim dalla shell.

@@ -922,13 +922,6 @@ correggi:
     lon: 12.20851
     nota: "punto del Castello di Collalto da Mapcarta (OpenStreetMap): borgo e chiesa di San Giorgio accanto; era sul centro di Susegana"
     verificato: "2026-11-13"
-  5cf1bcdd54711107:
-    venue: Biblioteca Comunale G. Cozzi
-    access: libero
-    price: ingresso libero e gratuito
-    summary: "Letture dal libro Passi affrettati di Dacia Maraini a cura del gruppo Voci d'inchiostro di Preganziol, in vista della Giornata contro la violenza sulle donne del 25 novembre."
-    nota: "scheda della Biblioteca di Zero Branco (eventi/295): 20/11 ore 18, Via G. B. Guidini 52, ingresso libero e gratuito"
-    verificato: "2026-11-14"
   40f06c6dc73e0fd5:
     venue: Parco del Sant'Artemio (sede della Provincia di Treviso)
     category: sport
@@ -1409,11 +1402,6 @@ correggi:
     price: ingresso libero, prenotazione obbligatoria
     nota: 'scheda del Comune di Pavia: dalle 10, eta'' 5-10 anni, ingresso libero con prenotazione obbligatoria; punto da luoghi.yaml (civico in OpenStreetMap)'
     verificato: '2026-11-28'
-  a0c0014511d7489a:
-    venue: IAT Tarcento
-    address: Via Divisione Julia 13
-    nota: 'scheda del Comune di Tarcento: luogo Ufficio IAT, Via Divisione Julia 13; dal 28/11 alle 9 al 20/12 alle 18, a cura della Pro Loco; costo non indicato; punto da luoghi.yaml'
-    verificato: '2026-11-28'
   5da1d1abb65ddf33:
     price: evento di beneficenza con raccolta fondi
     nota: 'scheda del Comune di Pavia: sabato 28/11 alle 21 al CineTeatro Cesare Volta, costo ''evento di beneficenza'' (tipo di ingresso non indicato); punto da luoghi.yaml'
@@ -1489,6 +1477,112 @@ correggi:
     address: Via Guglielmo Marconi 19
     nota: 'controllo a campione: scheda di Dolomiti Prealpi, sabato 19/12 alle 20:30 inaugurazione della mostra La zona rossa; museo in Via Marconi 19 (museionline.info, visitdolomitibellunesi.com), punto da luoghi.yaml; costo non pubblicato'
     verificato: '2026-11-28'
+  a0c0014511d7489a:
+    venue: IAT Tarcento
+    address: Via Divisione Julia 13
+    nota: Punto dell'IAT di Tarcento, Via Divisione Julia 13 (stesso punto di config/luoghi.yaml)
+    verificato: 2026-11-28
+    lat: 46.21824
+    lon: 13.2235
+  5cf1bcdd54711107:
+    venue: Biblioteca Comunale G. Cozzi
+    access: libero
+    price: ingresso libero e gratuito
+    summary: Letture dal libro Passi affrettati di Dacia Maraini a cura del gruppo Voci d'inchiostro di Preganziol, in vista della Giornata contro la violenza sulle donne del 25 novembre.
+    nota: 'Biblioteca G. Cozzi nel complesso di Villa Guidini: punto del Teatro Comisso di Villa Guidini (luogo gia'' noto), punto noto piu'' vicino; stesso punto di config/luoghi.yaml'
+    verificato: 2026-11-28
+    lat: 45.60837
+    lon: 12.17951
+  1d6fa89c18ca05d5:
+    access: biglietto
+    price: 15 euro, ridotto 12 euro
+    nota: Prezzi dalla scheda di reggioemiliawelcome.it letta il 2026-11-28
+    verificato: 2026-11-28
+  0f15ac6f4b074909:
+    access: biglietto
+    price: da 12,50 a 35 euro (ridotti da 7,50 euro)
+    nota: Prezzi dalla scheda di teatrocomunalemodena.it letta il 2026-11-28
+    verificato: 2026-11-28
+  3079480a79b50826:
+    access: biglietto
+    nota: Evento a pagamento secondo culturabologna.it (biglietti su Liveticket e in biglietteria), importo non indicato; letto il 2026-11-28
+    verificato: 2026-11-28
+  1750dc67bf5253c1:
+    access: biglietto
+    price: da 40 a 50 euro
+    nota: Prezzi dalla scheda di teatrocomunaleferrara.it letta il 2026-11-28; punto del teatro ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  4f8265437079da15:
+    price: da 5 a 25 euro
+    nota: Prezzo dalla scheda di eventi.comune.bolzano.it letta il 2026-11-28
+    verificato: 2026-11-28
+  53a85aea95eb772a:
+    price: 5 euro (visita alle collezioni delle 16:30), 4 euro (visita alla mostra delle 17:30)
+    nota: Prezzi dalla pagina del calendario di museocanova.it letta il 2026-11-28
+    verificato: 2026-11-28
+  34c883bf18c3e28c:
+    official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/incontri-informativi-sulla-sicurezza-invecchiare-bene-e-conoscere-le-malattie-della-terza-eta-sanguinamento-anale/
+    nota: Scheda dell'evento sul sito del Comune di Sernaglia (dall'elenco /eventi letto il 2026-11-28); l'elenco non da' ne' luogo ne' orario
+    verificato: 2026-11-28
+  72363e6911a929f6:
+    venue: Area polifunzionale di Revine
+    nota: Luogo di partenza dalla pagina di calendariopodismoveneto letta il 2026-11-28 (orario non indicato, punto da cercare)
+    verificato: 2026-11-28
+  cee2ada47f582ec8:
+    access: biglietto
+    price: da 15 a 63 euro (giovani fino a 20 anni 9 euro)
+    nota: Prezzi dalla scheda di teatrocomunaleferrara.it letta il 2026-11-28
+    verificato: 2026-11-28
+  0ffb2cb6ec5bbcd0:
+    access: biglietto
+    price: 5 euro con la card ZolAuditorium in famiglia
+    nota: Evento a pagamento secondo culturabologna.it letto il 2026-11-28 (prezzo intero non indicato)
+    verificato: 2026-11-28
+  24211cd690f364a8:
+    access: biglietto
+    price: da 35 a 55 euro
+    nota: Prezzi dalla scheda di iteatri.re.it letta il 2026-11-28
+    verificato: 2026-11-28
+  ef4c13a326436169:
+    access: libero
+    venue: Teatro Amilcare Ponchielli, Ridotto
+    nota: Finale al Ridotto, ingresso libero e gratuito secondo teatroponchielli.it letto il 2026-11-28
+    verificato: 2026-11-28
+  65197353231ab50b:
+    access: biglietto
+    price: 50 o 55 euro
+    nota: Prezzi dalla scheda di accademiaperduta.it letta il 2026-11-28
+    verificato: 2026-11-28
+  f54b897121025939:
+    access: biglietto
+    price: da 9 a 30 euro
+    nota: Prezzi dalla scheda di teatrocomunalemodena.it letta il 2026-11-28
+    verificato: 2026-11-28
+  f78ddfcc6a40e5e7:
+    start: 2026-11-28T20:30
+    access: biglietto
+    price: da 11,99 euro
+    nota: Orario e prezzo dalla scheda di modena.emiliaromagnateatro.com letta il 2026-11-28
+    verificato: 2026-11-28
+  910a05b2ea20f0b3:
+    access: libero
+    nota: Ingresso completamente gratuito secondo comune.asti.it letto il 2026-11-28; punto di Piazza Alfieri ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  9ed709bf49b2e733:
+    access: biglietto
+    price: 15 euro, ridotto 2 euro (18-25 anni), gratuito sotto i 18 anni
+    nota: Prezzi dalla scheda di turismotorino.org letta il 2026-11-28; punto della Galleria Sabauda ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  79c50621d9acec51:
+    access: biglietto
+    price: da 14 a 16 euro, ridotti da 7 euro
+    nota: Prezzi dalla scheda di turismotorino.org letta il 2026-11-28; punto di Palazzo Barolo ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  efb5597a1e500967:
+    access: biglietto
+    price: 15 euro, ridotto 5 euro, prenotazione dell'orario obbligatoria
+    nota: Prezzi dalla scheda di turismotorino.org letta il 2026-11-28; punto delle OGR ora in config/luoghi.yaml
+    verificato: 2026-11-28
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
@@ -1679,3 +1773,31 @@ verificati:
   00d40e205342f983: '2026-11-28'
   2483a2989896a122: '2026-11-28'
   0905d8617fcd4d1d: '2026-11-28'
+  144846997ddd0672: 2026-11-28
+  335bafcdc80b89f9: 2026-11-28
+  332f97cec396e0f3: 2026-11-28
+  b792efc16127c6c9: 2026-11-28
+  4b11d3d78b2543b8: 2026-11-28
+  a9ddc97b1e577969: 2026-11-28
+  f9cd1f8da953b96d: 2026-11-28
+  0176f4033b10a234: 2026-11-28
+  6d36f6c1183b82f4: 2026-11-28
+  6a377d4c7f155154: 2026-11-28
+  92528e90ff7a0112: 2026-11-28
+  6ad55f02dbd32b65: 2026-11-28
+  69d1c1c2e659c873: 2026-11-28
+  d68e654a941daf48: 2026-11-28
+  5a92545cc59b4c8c: 2026-11-28
+  00dddad7cc0b6c79: 2026-11-28
+  5fde750815887a83: 2026-11-28
+  2c168d7a8591868b: 2026-11-28
+  d9e1927cac311b66: 2026-11-28
+  efe5907f79aa48d4: 2026-11-28
+  15e181e7312d5bde: 2026-11-28
+  c55a8de03599daec: 2026-11-28
+  3ccd6a3e78fed2c7: 2026-11-28
+  db6cbab384ee2798: 2026-11-28
+  b12b3bf624935d31: 2026-11-28
+  34afafe79428c382: 2026-11-28
+  58e3f6b6972b840e: 2026-11-28
+  f6249f42024b8652: 2026-11-28

@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T19:57+01:00",
+ "generato": "2026-11-28T20:07+01:00",
  "eventi": [
   {
    "uid": "1d6fa89c18ca05d5",
@@ -13,8 +13,8 @@
    "lon": 10.627348,
    "precisione": "address",
    "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
+   "accesso": "biglietto",
+   "prezzo": "15 euro, ridotto 12 euro",
    "sito_ufficiale": "https://www.reggioemiliawelcome.it/it/eventi/eventi-culturali/le-porte-dellinvisibile-kandinskij-klee-malevic-alla-luce-del-pensiero-di-pavel-florenskij",
    "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026"
   },
@@ -81,8 +81,8 @@
    "lon": 10.930043,
    "precisione": "address",
    "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
+   "accesso": "biglietto",
+   "prezzo": "da 12,50 a 35 euro (ridotti da 7,50 euro)",
    "sito_ufficiale": "https://www.teatrocomunalemodena.it/spettacolo/serbian-national-theatre-giselle/",
    "pagina_fonte": "https://www.teatrocomunalemodena.it/spettacoli/"
   },
@@ -98,7 +98,7 @@
    "lon": 11.21839,
    "precisione": "venue",
    "categoria": "musica",
-   "accesso": "sconosciuto",
+   "accesso": "biglietto",
    "prezzo": "",
    "sito_ufficiale": "https://www.culturabologna.it/objects/memorial-gigliola-frazzoni-tra-la-via-emilia-e-il-west",
    "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura"
@@ -111,9 +111,9 @@
    "luogo": "Portici di Palazzo Oropa",
    "indirizzo": "Via Battistero 4",
    "comune": "Biella",
-   "lat": 45.56651,
-   "lon": 8.05408,
-   "precisione": "town",
+   "lat": 45.56646,
+   "lon": 8.05401,
+   "precisione": "venue",
    "categoria": "arte-cultura",
    "accesso": "libero",
    "prezzo": "",
@@ -151,7 +151,7 @@
    "categoria": "business",
    "accesso": "sconosciuto",
    "prezzo": "",
-   "sito_ufficiale": "",
+   "sito_ufficiale": "https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/incontri-informativi-sulla-sicurezza-invecchiare-bene-e-conoscere-le-malattie-della-terza-eta-sanguinamento-anale/",
    "pagina_fonte": "https://www.comune.sernaglia.tv.it/eventi"
   },
   {
@@ -193,7 +193,7 @@
    "titolo": "Babbo Run a Revine Lago",
    "inizio": "2026-12-13T10:00",
    "fine": null,
-   "luogo": "",
+   "luogo": "Area polifunzionale di Revine",
    "indirizzo": "",
    "comune": "Revine Lago",
    "lat": 45.99209,
@@ -213,9 +213,9 @@
    "luogo": "Chiesa parrocchiale di Ramon",
    "indirizzo": "",
    "comune": "Loria",
-   "lat": 45.72836,
-   "lon": 11.86653,
-   "precisione": "town",
+   "lat": 45.72993,
+   "lon": 11.86429,
+   "precisione": "venue",
    "categoria": "musica",
    "accesso": "sconosciuto",
    "prezzo": "",
@@ -235,7 +235,7 @@
    "precisione": "address",
    "categoria": "teatro-spettacoli",
    "accesso": "biglietto",
-   "prezzo": "",
+   "prezzo": "da 5 a 25 euro",
    "sito_ufficiale": "https://eventi.comune.bolzano.it/agenda/event/80801",
    "pagina_fonte": "https://eventi.comune.bolzano.it (API OpenAgenda del Comune di Bolzano)"
   },
@@ -251,8 +251,8 @@
    "lon": 11.62066,
    "precisione": "venue",
    "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
+   "accesso": "biglietto",
+   "prezzo": "da 40 a 50 euro",
    "sito_ufficiale": "https://www.teatrocomunaleferrara.it/spettacolo/anna-oxa-voce-sorgente-ferrara/",
    "pagina_fonte": "https://www.teatrocomunaleferrara.it/"
   },
@@ -337,7 +337,7 @@
    "precisione": "venue",
    "categoria": "arte-cultura",
    "accesso": "biglietto",
-   "prezzo": "",
+   "prezzo": "5 euro (visita alle collezioni delle 16:30), 4 euro (visita alla mostra delle 17:30)",
    "sito_ufficiale": "https://www.museocanova.it/calendario/domenica-in-mostra/2026-12-27/",
    "pagina_fonte": "https://www.museocanova.it/wp-json/tribe/events/v1/events"
   }

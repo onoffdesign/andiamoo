@@ -813,6 +813,97 @@ eventi:
   summary: Spettacolo della stagione 2026/27 del Teatro Nazionale di Genova, in scena alla Sala Mercato, Teatro Gustavo Modena.
   fonte: https://www.teatronazionalegenova.it/rassegne/cartellone-2026-27.htm
   trovato: '2026-11-28'
+- title: L'occhio del lupo
+  start: '2026-11-26'
+  end: '2026-11-29'
+  venue: Teatro della Tosse
+  address: Piazza Renato Negri 6
+  town: Genova
+  lat: 44.4049524
+  lon: 8.9318247
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodellatosse.it/eventi/l-occhio-del-lupo.htm
+  summary: Spettacolo dal romanzo di Daniel Pennac, con Pennac e Massimiliano Barbini, nella Sala Dino Campana del Teatro
+    della Tosse.
+  fonte: https://teatrodellatosse.it/
+  trovato: '2026-11-28'
+- title: The Red Wine Bluegrass Party n.18, The Ligurian Session
+  start: '2026-11-28'
+  venue: Teatro della Tosse
+  address: Piazza Renato Negri 6
+  town: Genova
+  lat: 44.4049524
+  lon: 8.9318247
+  category: musica
+  subcategory: concerti
+  official_url: https://teatrodellatosse.it/eventi/the-red-wine-bluegrass-party-n-18.htm
+  summary: Serata di musica bluegrass con i Red Wine nella Sala Aldo Trionfo del Teatro della Tosse.
+  fonte: https://teatrodellatosse.it/
+  trovato: '2026-11-28'
+- title: Commencer a exister, Circumnavigando Festival
+  start: 2026-12-26T20:30
+  venue: Teatro della Tosse
+  address: Piazza Renato Negri 6
+  town: Genova
+  lat: 44.4049524
+  lon: 8.9318247
+  category: teatro-spettacoli
+  subcategory: circo-magia
+  access: biglietto
+  official_url: https://teatrodellatosse.it/eventi/commencer-exister.htm
+  summary: Spettacolo di circo-teatro della compagnia Le Sirque tra racconto autobiografico e performance fisica, nella Sala
+    Aldo Trionfo per il Circumnavigando Festival.
+  fonte: https://teatrodellatosse.it/eventi/commencer-exister.htm
+  trovato: '2026-11-28'
+- title: World Press Photo 2026
+  start: '2026-09-25'
+  end: '2026-12-08'
+  venue: Palazzo Ducale
+  address: Piazza Giacomo Matteotti 9
+  town: Genova
+  lat: 44.4075011
+  lon: 8.933284
+  category: arte-cultura
+  subcategory: mostre
+  access: biglietto
+  official_url: https://palazzoducale.genova.it/en/mostra/world-press-photo-2026/
+  summary: Mostra delle fotografie premiate al World Press Photo 2026 nella Loggia degli Abati di Palazzo Ducale.
+  fonte: https://palazzoducale.genova.it/en/events-calendar/
+  trovato: '2026-11-28'
+- title: Renoir, Monet, Toulouse-Lautrec, Cezanne. La Collezione Scharf
+  start: '2026-10-16'
+  end: '2027-05-02'
+  venue: Palazzo Ducale
+  address: Piazza Giacomo Matteotti 9
+  town: Genova
+  lat: 44.4075011
+  lon: 8.933284
+  category: arte-cultura
+  subcategory: mostre
+  access: biglietto
+  official_url: https://palazzoducale.genova.it/en/mostra/renoir-monet-toulouse-lautrec-cezanne/
+  summary: Mostra di opere della Collezione Scharf, da Renoir e Monet a Toulouse-Lautrec e Cezanne, nel Sottoporticato di
+    Palazzo Ducale.
+  fonte: https://palazzoducale.genova.it/en/events-calendar/
+  trovato: '2026-11-28'
+- title: Se la colpa e' degli uomini, mostra di Generazione Ducale
+  start: '2026-11-19'
+  end: '2026-12-08'
+  venue: Palazzo Ducale
+  address: Piazza Giacomo Matteotti 9
+  town: Genova
+  lat: 44.4075011
+  lon: 8.933284
+  category: arte-cultura
+  subcategory: mostre
+  access: libero
+  official_url: https://palazzoducale.genova.it/mostra/se-la-colpa-e-degli-uomini
+  summary: Mostra a cura di Generazione Ducale nella Sala Dogana di Palazzo Ducale; il 4 dicembre alle 16 e' previsto un talk
+    di presentazione.
+  fonte: https://palazzoducale.genova.it/mostra/se-la-colpa-e-degli-uomini
+  trovato: '2026-11-28'
 - title: Scandalo, con Anna Valle e Gianmarco Saurino
   start: '2026-12-04'
   end: '2026-12-06'
@@ -1192,4 +1283,1243 @@ eventi:
   official_url: https://www.teatroverdifirenze.it/wp-content/uploads/2026/09/cronologico-1-settembre.pdf
   summary: La commedia di Moliere con Alessandro Riccio al Teatro di Fiesole, nella rassegna Off Verdi.
   fonte: https://www.teatroverdifirenze.it/wp-content/uploads/2026/09/cronologico-1-settembre.pdf
+  trovato: '2026-11-28'
+- title: L'occasione fa il ladro
+  start: '2026-12-04'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/opera-lirica-teatro-di-pisa/
+  summary: La farsa di Gioachino Rossini nella stagione lirica 2026/27 del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: L'occasione fa il ladro
+  start: '2026-12-06'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/opera-lirica-teatro-di-pisa/
+  summary: La farsa di Gioachino Rossini nella stagione lirica 2026/27 del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Il medico dei maiali
+  start: '2027-01-09'
+  end: '2027-01-10'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/prosa-al-teatro-di-pisa/
+  summary: Spettacolo della stagione di prosa 2026/27 del Teatro Verdi di Pisa, in doppia recita.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Pierino e il lupo
+  start: '2027-01-16'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/
+  summary: La fiaba musicale di Sergej Prokof'ev proposta dal Teatro di Pisa per le famiglie.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Montalbano, La forma dell'acqua
+  start: '2027-01-30'
+  end: '2027-01-31'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/prosa-al-teatro-di-pisa/
+  summary: Versione teatrale del romanzo di Andrea Camilleri nella stagione di prosa del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Otello
+  start: '2027-02-05'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/opera-lirica-teatro-di-pisa/
+  summary: L'opera di Giuseppe Verdi nella stagione lirica 2026/27 del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Otello
+  start: '2027-02-07'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/opera-lirica-teatro-di-pisa/
+  summary: L'opera di Giuseppe Verdi nella stagione lirica 2026/27 del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Malinconico moderatamente felice
+  start: '2027-02-13'
+  end: '2027-02-14'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/prosa-al-teatro-di-pisa/
+  summary: Spettacolo con Massimiliano Gallo nella stagione di prosa 2026/27 del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Caruso, passione 2.0
+  start: '2027-02-24'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: danza
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/
+  summary: Spettacolo della stagione 2026/27 del Teatro di Pisa dedicato a Enrico Caruso.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Non ti pago
+  start: '2027-02-27'
+  end: '2027-02-28'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/prosa-al-teatro-di-pisa/
+  summary: La commedia di Eduardo De Filippo nella stagione di prosa 2026/27 del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Aida
+  start: '2027-03-12'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/opera-lirica-teatro-di-pisa/
+  summary: L'opera di Giuseppe Verdi nella stagione lirica 2026/27 del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Aida
+  start: '2027-03-14'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/en/opera-lirica-teatro-di-pisa/
+  summary: L'opera di Giuseppe Verdi nella stagione lirica 2026/27 del Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Dopo la prova, Compagnia Gabriele Lavia
+  start: '2027-03-20'
+  end: '2027-03-21'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://teatrodipisa.it/calendario/dopo-la-prova/
+  summary: Il testo di Ingmar Bergman con la Compagnia Gabriele Lavia al Teatro Verdi di Pisa.
+  fonte: teatrodipisa.it (pagine prosa, opera e home nei risultati di WebSearch del 2026-11-28; il sito non si apre con WebFetch)
+  trovato: '2026-11-28'
+- title: Edward Hopper, mostra a Palazzo Blu
+  start: '2026-10-14'
+  end: '2027-03-07'
+  venue: Palazzo Blu
+  address: Lungarno Gambacorti 9
+  town: Pisa
+  lat: 43.7156502
+  lon: 10.3997452
+  category: arte-cultura
+  subcategory: mostre
+  access: biglietto
+  price: 16 euro intero
+  official_url: https://www.turismo.pisa.it/en/eventi/Edward-Hopper-exhibition-at-Palazzo-Blu
+  summary: Mostra con oltre 150 opere di Edward Hopper tra dipinti, disegni, incisioni e acquerelli, organizzata con il Whitney
+    Museum di New York.
+  fonte: https://www.turismo.pisa.it/en/eventi/Edward-Hopper-exhibition-at-Palazzo-Blu
+  trovato: '2026-11-28'
+- title: BANKSY e la Street Art
+  start: '2026-12-26'
+  end: '2027-05-16'
+  venue: Arsenali Repubblicani
+  address: Lungarno Ranieri Simonelli
+  town: Pisa
+  lat: 43.7146873
+  lon: 10.3930979
+  category: arte-cultura
+  subcategory: mostre
+  official_url: https://www.turismo.pisa.it/eventi/index.html/?cat=1
+  summary: Mostra dedicata a Banksy e alla street art negli Arsenali Repubblicani di Pisa.
+  fonte: https://www.turismo.pisa.it/eventi/index.html/?cat=1
+  trovato: '2026-11-28'
+- title: Pisa 1946. Dalle macerie al futuro
+  start: '2026-11-06'
+  end: '2027-01-10'
+  venue: Museo Nazionale di San Matteo
+  address: Piazza San Matteo in Soarta 1
+  town: Pisa
+  lat: 43.7147201
+  lon: 10.4078619
+  category: arte-cultura
+  subcategory: mostre
+  official_url: https://www.turismo.pisa.it/eventi/index.html/?cat=1
+  summary: Mostra al Museo Nazionale di San Matteo sulla Pisa del dopoguerra e della ricostruzione.
+  fonte: https://www.turismo.pisa.it/eventi/index.html/?cat=1
+  trovato: '2026-11-28'
+- title: Presepi storici meccanici 2026
+  start: '2026-12-08'
+  end: '2027-01-31'
+  venue: Museo di Storia Naturale dell'Universita' di Pisa, Certosa di Calci
+  address: Via Roma 79
+  town: Calci
+  lat: 43.7221587
+  lon: 10.5227771
+  category: arte-cultura
+  subcategory: mostre
+  official_url: https://www.turismo.pisa.it/eventi/index.html/?cat=1
+  summary: Esposizione di presepi storici meccanici al Museo di Storia Naturale dell'Universita' di Pisa nella Certosa di
+    Calci.
+  fonte: https://www.turismo.pisa.it/eventi/index.html/?cat=1
+  trovato: '2026-11-28'
+- title: Concerto di Natale dell'Universita' di Pisa
+  start: '2026-12-11'
+  venue: Teatro Verdi
+  address: Via Palestro 40
+  town: Pisa
+  lat: 43.7169705
+  lon: 10.4044717
+  category: musica
+  subcategory: concerti
+  official_url: https://www.turismo.pisa.it/eventi/index.html/?cat=1
+  summary: Concerto di Natale promosso dall'Universita' di Pisa al Teatro Verdi.
+  fonte: https://www.turismo.pisa.it/eventi/index.html/?cat=1
+  trovato: '2026-11-28'
+- title: Lisistrata
+  start: 2026-11-30T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La commedia di Aristofane nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Lisistrata
+  start: 2026-12-01T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La commedia di Aristofane nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Lisistrata
+  start: 2026-12-02T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La commedia di Aristofane nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Lo Schiaccianoci, Balletto di Siena
+  start: 2026-12-03T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: danza
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Il balletto di Cajkovskij interpretato dal Balletto di Siena, fuori abbonamento al Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Tartufo
+  start: 2026-12-15T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La commedia di Moliere nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Tartufo
+  start: 2026-12-16T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La commedia di Moliere nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Tartufo
+  start: 2026-12-17T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La commedia di Moliere nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Bestiario idrico
+  start: 2027-01-16T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della rassegna Contemporanea 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Sonoma
+  start: 2027-01-22T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: danza
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione Musica e Balletto 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Dopo la prova, con Gabriele Lavia
+  start: 2027-01-26T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Il testo di Ingmar Bergman con Gabriele Lavia, in prima regionale al Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Dopo la prova, con Gabriele Lavia
+  start: 2027-01-27T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Il testo di Ingmar Bergman con Gabriele Lavia, in prima regionale al Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Dopo la prova, con Gabriele Lavia
+  start: 2027-01-28T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Il testo di Ingmar Bergman con Gabriele Lavia, in prima regionale al Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Il bar sotto il mare
+  start: 2027-01-29T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo tratto da Stefano Benni, in prima regionale al Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Sonata a Kreutzer
+  start: 2027-02-01T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Hospitality Suite
+  start: 2027-02-10T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Hospitality Suite
+  start: 2027-02-11T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Hospitality Suite
+  start: 2027-02-12T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Riccardo III
+  start: 2027-02-16T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La tragedia di William Shakespeare nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Riccardo III
+  start: 2027-02-17T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La tragedia di William Shakespeare nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Riccardo III
+  start: 2027-02-18T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: La tragedia di William Shakespeare nella stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Antigone
+  start: 2027-02-26T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Dr. Nest
+  start: 2027-03-09T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Dr. Nest
+  start: 2027-03-10T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Dr. Nest
+  start: 2027-03-11T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della stagione 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Shakespearology
+  start: 2027-03-12T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo della rassegna Contemporanea 2026/27 del Teatro Chiabrera.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Romeo e Giulietta
+  start: 2027-03-31T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Spettacolo in esclusiva regionale al Teatro Chiabrera, in scena dal 31 marzo al 2 aprile.
+  fonte: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Oipa', viaggio nel mandolino italiano
+  start: 2026-12-18T21:00
+  venue: Teatro Comunale Gabriello Chiabrera
+  address: Piazza Armando Diaz 2
+  town: Savona
+  lat: 44.3105267
+  lon: 8.4814745
+  category: musica
+  subcategory: jazz-classica
+  access: biglietto
+  official_url: https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  summary: Concerto sulla storia del mandolino italiano da Vivaldi a Della Vecchia, con Carlo Aonzo solista.
+  fonte: https://teatrochiabrera.it/musica-e-balletto-2026-27/ e https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  trovato: '2026-11-28'
+- title: Edoardo Leo, Ti racconto una storia
+  start: 2026-12-05T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: Edoardo Leo in uno spettacolo di letture e racconti al Teatro Cavour.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: La cena dei cretini, The Kitchen Company
+  start: 2026-12-17T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: La commedia di Francis Veber messa in scena da The Kitchen Company.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: La cena dei cretini, The Kitchen Company
+  start: 2026-12-18T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: La commedia di Francis Veber messa in scena da The Kitchen Company.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: La vie en rose / Bolero, Balletto di Milano
+  start: 2027-01-22T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: danza
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: Serata di balletto del Balletto di Milano al Teatro Cavour.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: Cenerentola il musical
+  start: 2027-01-30T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: Musical con musiche di Andrea Sardi, testi di Alessio Fusi e regia di Andrea Cecchi.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: Nausicaa, di Giuseppe Conte
+  start: 2027-02-12T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: Spettacolo fuori abbonamento prodotto dal Teatro Pubblico Ligure con il Teatro Cavour.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: La locandiera, regia di Sergio Maifredi
+  start: 2027-02-26T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: La commedia di Carlo Goldoni prodotta dal Teatro Pubblico Ligure con il Teatro Cavour.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: La locandiera, regia di Sergio Maifredi
+  start: 2027-02-27T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: La commedia di Carlo Goldoni prodotta dal Teatro Pubblico Ligure con il Teatro Cavour.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: La locandiera, regia di Sergio Maifredi
+  start: 2027-02-28T16:30
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: La commedia di Carlo Goldoni prodotta dal Teatro Pubblico Ligure con il Teatro Cavour.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: Commedia di Gabriele Pignotta con Rocio Munoz Morales e Giorgio Lupano
+  start: 2027-03-05T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: Commedia scritta e diretta da Gabriele Pignotta, in scena con Rocio Munoz Morales e Giorgio Lupano.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: The Night of Gospel, Vincent Bohanan & The Victorious Army
+  start: 2026-12-19T21:00
+  venue: Teatro Cavour
+  address: Via Felice Cascione 35
+  town: Imperia
+  lat: 43.8762622
+  lon: 8.0144903
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  official_url: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  summary: Concerto gospel di Vincent Bohanan con The Victorious Army al Teatro Cavour.
+  fonte: https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027
+  trovato: '2026-11-28'
+- title: Marco Polo e le citta' invisibili, con Luca Zingaretti
+  start: 2026-12-09T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Adattamento di Edoardo Erba da Italo Calvino, regia di Giuseppe Dipasquale, con Luca Zingaretti.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Marco Polo e le citta' invisibili, con Luca Zingaretti
+  start: 2026-12-10T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Adattamento di Edoardo Erba da Italo Calvino, regia di Giuseppe Dipasquale, con Luca Zingaretti.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Madre Courage e i suoi figli, con Lunetta Savino
+  start: 2026-12-18T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Il testo di Bertolt Brecht con la regia di Leo Muscato e Lunetta Savino protagonista.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Madre Courage e i suoi figli, con Lunetta Savino
+  start: 2026-12-19T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Il testo di Bertolt Brecht con la regia di Leo Muscato e Lunetta Savino protagonista.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Tre variazioni della vita
+  start: 2027-01-12T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Il testo di Yasmina Reza con Ugo Dighero e Mariangeles Torres, regia di Luigi Saravo.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Assassinio sull'Orient Express
+  start: 2027-01-26T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Adattamento di Ken Ludwig dal romanzo di Agatha Christie, regia di Roberto Valerio, con Claudio Gregori.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Assassinio sull'Orient Express
+  start: 2027-01-27T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Adattamento di Ken Ludwig dal romanzo di Agatha Christie, regia di Roberto Valerio, con Claudio Gregori.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Scaramuccia
+  start: 2027-02-03T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Commedia dell'arte con soggetto e regia di Marco Zoppello.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: La reginetta di Leenane, con Ambra Angiolini
+  start: 2027-02-16T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Il testo di Martin McDonagh con Ambra Angiolini e Ivana Monti, regia di Raphael Tobia Vogel.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: La reginetta di Leenane, con Ambra Angiolini
+  start: 2027-02-17T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Il testo di Martin McDonagh con Ambra Angiolini e Ivana Monti, regia di Raphael Tobia Vogel.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Metadietro, Antonio Rezza
+  start: 2027-03-03T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Spettacolo di Flavia Mastrella e Antonio Rezza, con Antonio Rezza e Daniele Cavaioli.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Metadietro, Antonio Rezza
+  start: 2027-03-04T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Spettacolo di Flavia Mastrella e Antonio Rezza, con Antonio Rezza e Daniele Cavaioli.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Improvvisamente l'estate scorsa
+  start: 2027-03-23T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Il dramma di Tennessee Williams con Laura Marinoni, regia di Stefano Cordella.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: Improvvisamente l'estate scorsa
+  start: 2027-03-24T20:45
+  venue: Teatro Civico
+  address: Corso Cavour 20
+  town: La Spezia
+  lat: 44.1036188
+  lon: 9.8218535
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  summary: Il dramma di Tennessee Williams con Laura Marinoni, regia di Stefano Cordella.
+  fonte: https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  trovato: '2026-11-28'
+- title: La traviata, Saison Culturelle
+  start: 2026-11-28T20:30
+  venue: Teatro Splendor
+  address: Via Jean-Boniface Festaz 82
+  town: Aosta
+  lat: 45.7349785
+  lon: 7.3163232
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://saisonculturellevda.it/spettacoli/musica/la-traviata/
+  summary: L'opera di Giuseppe Verdi al Teatro Splendor nella Saison Culturelle 2026/27.
+  fonte: https://saisonculturellevda.it/
+  trovato: '2026-11-28'
+- title: La traviata, Saison Culturelle
+  start: 2026-11-29T15:00
+  venue: Teatro Splendor
+  address: Via Jean-Boniface Festaz 82
+  town: Aosta
+  lat: 45.7349785
+  lon: 7.3163232
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://saisonculturellevda.it/spettacoli/musica/la-traviata/
+  summary: L'opera di Giuseppe Verdi al Teatro Splendor nella Saison Culturelle 2026/27.
+  fonte: https://saisonculturellevda.it/
+  trovato: '2026-11-28'
+- title: Giornalismo e letteratura, incontro con Leila Guerriero
+  start: 2026-11-30T18:00
+  venue: Teatro Splendor
+  address: Via Jean-Boniface Festaz 82
+  town: Aosta
+  lat: 45.7349785
+  lon: 7.3163232
+  category: arte-cultura
+  subcategory: libri
+  official_url: https://saisonculturellevda.it/spettacoli/letteratura/giornalismo-e-letteratura-una-voce-internazionale-leila-guerriero/
+  summary: Incontro con la giornalista e scrittrice argentina Leila Guerriero nella Saison Culturelle.
+  fonte: https://saisonculturellevda.it/
+  trovato: '2026-11-28'
+- title: Ana Vidovic, recital di chitarra
+  start: 2026-12-04T20:30
+  venue: Teatro Splendor
+  address: Via Jean-Boniface Festaz 82
+  town: Aosta
+  lat: 45.7349785
+  lon: 7.3163232
+  category: musica
+  subcategory: jazz-classica
+  access: biglietto
+  official_url: https://saisonculturellevda.it/spettacoli/musica/ana-vidovic/
+  summary: Recital della chitarrista Ana Vidovic al Teatro Splendor nella Saison Culturelle 2026/27.
+  fonte: https://saisonculturellevda.it/
+  trovato: '2026-11-28'
+- title: Strappo alla regola, con Maria Amelia Monti
+  start: 2026-11-29T21:00
+  venue: Teatro Civico
+  address: Via Monte di Pieta' 15
+  town: Vercelli
+  lat: 45.3279312
+  lon: 8.4216795
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  summary: Commedia con testo e regia di Edoardo Erba, con Maria Amelia Monti e Claudia Gusmano.
+  fonte: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  trovato: '2026-11-28'
+- title: Il Presidente, con Filippo Nigro
+  start: 2026-12-11T21:00
+  venue: Teatro Civico
+  address: Via Monte di Pieta' 15
+  town: Vercelli
+  lat: 45.3279312
+  lon: 8.4216795
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  summary: Spettacolo tratto da Davide Carnevali con la regia di Fabrizio Arcuri e Filippo Nigro.
+  fonte: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  trovato: '2026-11-28'
+- title: Ditegli sempre di si'
+  start: 2027-01-21T21:00
+  venue: Teatro Civico
+  address: Via Monte di Pieta' 15
+  town: Vercelli
+  lat: 45.3279312
+  lon: 8.4216795
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  summary: La commedia di Eduardo De Filippo con la regia di Domenico Pinelli, nella rassegna Teatro No Limits.
+  fonte: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  trovato: '2026-11-28'
+- title: Malinconico, moderatamente felice
+  start: 2027-02-04T21:00
+  venue: Teatro Civico
+  address: Via Monte di Pieta' 15
+  town: Vercelli
+  lat: 45.3279312
+  lon: 8.4216795
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  summary: Spettacolo diretto e interpretato da Massimiliano Gallo al Teatro Civico.
+  fonte: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  trovato: '2026-11-28'
+- title: Terzo tempo, con Paolo Hendel e Lucia Vasini
+  start: 2027-02-17T21:00
+  venue: Teatro Civico
+  address: Via Monte di Pieta' 15
+  town: Vercelli
+  lat: 45.3279312
+  lon: 8.4216795
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  summary: Drammaturgia di Lidia Ravera ed Emanuela Giordano, con Lucia Vasini e Paolo Hendel.
+  fonte: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  trovato: '2026-11-28'
+- title: Cari genitori, con Giulio Scarpati e Amanda Sandrelli
+  start: 2027-03-06T21:00
+  venue: Teatro Civico
+  address: Via Monte di Pieta' 15
+  town: Vercelli
+  lat: 45.3279312
+  lon: 8.4216795
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  summary: Commedia con la regia di Antonio Zavatteri nella rassegna Teatro No Limits.
+  fonte: https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato
+  trovato: '2026-11-28'
+- title: Abracadabra, Babilonia Teatri
+  start: 2026-12-05T21:00
+  venue: Centro Eventi Il Maggiore
+  address: Via San Bernardino 49
+  town: Verbania
+  lat: 45.9306469
+  lon: 8.5718717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  summary: Spettacolo di Babilonia Teatri con Valeria Raimondi, Enrico Castellani e Francesco Scimemi.
+  fonte: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  trovato: '2026-11-28'
+- title: Natale acido, Arianna Porcelli Safonov
+  start: 2026-12-19T21:00
+  venue: Centro Eventi Il Maggiore
+  address: Via San Bernardino 49
+  town: Verbania
+  lat: 45.9306469
+  lon: 8.5718717
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  official_url: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  summary: Monologo comico di Arianna Porcelli Safonov sui lati meno da cartolina delle feste.
+  fonte: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  trovato: '2026-11-28'
+- title: Metaforicamente Schiros
+  start: 2027-01-30T21:00
+  venue: Centro Eventi Il Maggiore
+  address: Via San Bernardino 49
+  town: Verbania
+  lat: 45.9306469
+  lon: 8.5718717
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  official_url: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  summary: Spettacolo di Beatrice Schiros con testo scritto insieme a Gabriele Scotti.
+  fonte: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  trovato: '2026-11-28'
+- title: GenZ, chi sono veramente?
+  start: 2027-02-06T21:00
+  venue: Centro Eventi Il Maggiore
+  address: Via San Bernardino 49
+  town: Verbania
+  lat: 45.9306469
+  lon: 8.5718717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  summary: Spettacolo di Alessandra Scotti con Francesco Di Tullio sulla generazione Z.
+  fonte: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  trovato: '2026-11-28'
+- title: Paolo Kessisoglu, Sfidati di me
+  start: 2027-03-06T21:00
+  venue: Centro Eventi Il Maggiore
+  address: Via San Bernardino 49
+  town: Verbania
+  lat: 45.9306469
+  lon: 8.5718717
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  official_url: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  summary: Spettacolo di Paolo Kessisoglu con la regia di Gioele Dix.
+  fonte: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  trovato: '2026-11-28'
+- title: Belle ripiene
+  start: 2027-03-13T21:00
+  venue: Centro Eventi Il Maggiore
+  address: Via San Bernardino 49
+  town: Verbania
+  lat: 45.9306469
+  lon: 8.5718717
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  official_url: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  summary: Commedia di Massimo Romeo Piparo e Giulia Ricciardi al Centro Eventi Il Maggiore.
+  fonte: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  trovato: '2026-11-28'
+- title: Alessandro Bergonzoni, Arrivano i Dunque
+  start: 2027-03-20T21:00
+  venue: Centro Eventi Il Maggiore
+  address: Via San Bernardino 49
+  town: Verbania
+  lat: 45.9306469
+  lon: 8.5718717
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  official_url: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  summary: Il nuovo spettacolo di Alessandro Bergonzoni al Centro Eventi Il Maggiore.
+  fonte: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  trovato: '2026-11-28'
+- title: Vincent Bohanan & The Victorious Army, serata gospel
+  start: 2026-12-23T21:00
+  venue: Centro Eventi Il Maggiore
+  address: Via San Bernardino 49
+  town: Verbania
+  lat: 45.9306469
+  lon: 8.5718717
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  official_url: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
+  summary: Concerto gospel di Vincent Bohanan e del coro The Victorious Army al Centro Eventi Il Maggiore.
+  fonte: https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita
   trovato: '2026-11-28'

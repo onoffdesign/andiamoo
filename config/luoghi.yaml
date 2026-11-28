@@ -2042,3 +2042,38 @@ luoghi:
     lat: 45.80217
     lon: 11.91237
     nota: "Centro storico: centro del comune (ISTAT, config/comuni.csv), a 80 m dal Museo Civico (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Ex Complesso Conventuale San Francesco", "Via XXIV Maggio 5"]
+    comune: "Alessandria"
+    lat: 44.91132
+    lon: 8.61029
+    nota: "Ex convento ed ex Ospedale militare di San Francesco, Via XXIV Maggio 5: il complesso occupa un intero isolato del centro (fondoambiente.it, artribune.com); punto del 'Complesso San Francesco' su OpenStreetMap (Nominatim, way 1499005883), a 30 m dal Teatro San Francesco (luogo gia' noto). Aggiunto il 2026-11-28 (revisione). 5 eventi."
+  - nomi: ["Portici di Palazzo Oropa", "Palazzo Oropa", "Via Battistero 4"]
+    comune: "Biella"
+    lat: 45.56646
+    lon: 8.05401
+    nota: "Palazzo Oropa (sede del Comune), Via Battistero 4. Coordinate di OpenStreetMap (Nominatim, civico 4, node 3202707461); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Monsignor Carlo Rossi", "Piazza Monsignor Rossi"]
+    comune: "Biella"
+    lat: 45.56636
+    lon: 8.05360
+    nota: "Piazza Monsignor Carlo Rossi (davanti al Duomo). Coordinate di OpenStreetMap (Nominatim, relation 6370981); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Chiesa parrocchiale di Ramon"]
+    comune: "Loria"
+    lat: 45.72993
+    lon: 11.86429
+    nota: "Chiesa parrocchiale di Ramon: punto di Via Chiesa a Ramon su OpenStreetMap (Nominatim, way 499378234), a 30 m dalla biblioteca di Ramon (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Caduti nei Lager"]
+    comune: "Farra di Soligo"
+    lat: 45.90576
+    lon: 12.12565
+    nota: "Piazza Caduti nei Lager, 'parcheggio dell'Auditorium' secondo il calendario del Natale di Farra (qdpnews.it, 2026): punto dell'Auditorium Santo Stefano (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Alfieri", "Piazza Vittorio Alfieri"]
+    comune: "Asti"
+    lat: 44.90002
+    lon: 8.20744
+    nota: "Piazza Vittorio Alfieri. Coordinate di OpenStreetMap (Nominatim, way 456018158 place=square); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Museo Civico di Bassano del Grappa", "Museo Civico di Bassano", "Piazza Garibaldi 34"]
+    comune: "Bassano del Grappa"
+    lat: 45.7664
+    lon: 11.7352
+    nota: "Museo Civico, Piazza Garibaldi 34: indirizzo e coordinate da Wikipedia (en.wikipedia.org/wiki/Museo_Civico_di_Bassano, 45.7664 N 11.7352 E); aggiunto il 2026-11-28 (revisione)."

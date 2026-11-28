@@ -1,29 +1,6 @@
 {
- "generato": "2026-11-28T19:57+01:00",
+ "generato": "2026-11-28T20:07+01:00",
  "eventi": [
-  {
-   "uid": "b12b3bf624935d31",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Saetta McQueen al Museo",
-   "inizio": "2026-09-10",
-   "fine": "2027-01-31",
-   "luogo": "MAUTO Museo Nazionale dell'Automobile",
-   "indirizzo": "Corso Unita' d'Italia 40",
-   "comune": "Torino",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismotorino.org",
-   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
-   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/saetta-mc-queen-al-museo",
-   "riassunto": "Allestimento in Sala Formula dedicato a Saetta McQueen a vent'anni dal film Cars, tra cinema e storia dell'automobile.",
-   "lat": 45.03185,
-   "lon": 7.67345,
-   "precisione": "venue"
-  },
   {
    "uid": "4d5cf01bcdc28c8e",
    "motivi": [
@@ -48,73 +25,28 @@
    "precisione": "venue"
   },
   {
-   "uid": "9ed709bf49b2e733",
+   "uid": "c30c4d475865daa8",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
+    "durata oltre 45 giorni: sono date singole o un periodo?",
+    "titolo da ripulire"
    ],
-   "titolo": "Di padre in figlio. L'universo grafico di Giambattista e Giandomenico Tiepolo",
-   "inizio": "2026-10-15",
-   "fine": "2027-01-17",
-   "luogo": "Galleria Sabauda, Spazio Scoperte",
-   "indirizzo": "Piazzetta Reale 1",
-   "comune": "Torino",
+   "titolo": "Sebastiao Salgado. Fotografie della collezione della Maison Europeenne de la Photographie",
+   "inizio": "2026-10-24",
+   "fine": "2027-04-04",
+   "luogo": "Museo Civico di Bassano del Grappa",
+   "indirizzo": "Piazza Garibaldi 34",
+   "comune": "Bassano del Grappa",
    "categoria": "arte-cultura",
    "accesso": "sconosciuto",
    "prezzo": "",
-   "fonte": "turismotorino.org",
-   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
-   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/di-padre-in-figlio-l-universo-grafico-di-giambattista-e-giandomenico-tiepolo",
-   "riassunto": "Mostra sull'attivita' grafica di Giandomenico Tiepolo messa a confronto con quella del padre Giambattista.",
-   "lat": 45.07415,
-   "lon": 7.68604,
-   "precisione": "venue"
-  },
-  {
-   "uid": "79c50621d9acec51",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Banksy. Street is the Museum",
-   "inizio": "2026-10-22",
-   "fine": "2027-01-31",
-   "luogo": "Palazzo Falletti di Barolo",
-   "indirizzo": "Via delle Orfane 7",
-   "comune": "Torino",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismotorino.org",
-   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
-   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/banksy-street-is-the-museum",
-   "riassunto": "Oltre 150 opere dedicate a Banksy nelle cantine storiche di Palazzo Falletti di Barolo.",
-   "lat": 45.07481,
-   "lon": 7.67868,
-   "precisione": "venue"
-  },
-  {
-   "uid": "efb5597a1e500967",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Yayoi Kusama. Infinity Mirrored Room",
-   "inizio": "2026-10-31",
-   "fine": "2027-02-25",
-   "luogo": "OGR Torino",
-   "indirizzo": "Corso Castelfidardo 22",
-   "comune": "Torino",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismotorino.org",
-   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
-   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/yayoi-kusama-infinity-mirrored-room",
-   "riassunto": "Le OGR espongono una delle stanze a specchi infinite di Yayoi Kusama.",
-   "lat": 45.06669,
-   "lon": 7.65965,
-   "precisione": "venue"
+   "fonte": "finestresullarte.info",
+   "pagina_fonte": "https://www.finestresullarte.info/mostre/bassano-del-grappa-dedica-prima-mostra-italiana-sull-intera-opera-sebastiao-salgado (date e organizzatori, letta il 2026-11-28); indirizzo e coordinate del museo da en.wikipedia.org/wiki/Museo_Civico_di_Bassano. Trovato nel test di copertura dal PDF di iltaccodibacco.it/asiago",
+   "sito_ufficiale": "https://www.finestresullarte.info/mostre/bassano-del-grappa-dedica-prima-mostra-italiana-sull-intera-opera-sebastiao-salgado",
+   "riassunto": "Mostra con 160 fotografie di Sebastiao Salgado dalla collezione della Maison Europeenne de la Photographie di Parigi, organizzata dal Comune e dai Musei Civici di Bassano.",
+   "lat": 45.7664,
+   "lon": 11.7352,
+   "precisione": "address"
   },
   {
    "uid": "f54d160db291759b",
@@ -160,28 +92,6 @@
    "lat": 45.4675,
    "lon": 7.87834,
    "precisione": "venue"
-  },
-  {
-   "uid": "910a05b2ea20f0b3",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Il Magico Paese di Natale in piazza Alfieri",
-   "inizio": "2026-11-13",
-   "fine": "2026-12-20",
-   "luogo": "Piazza Alfieri",
-   "indirizzo": "Piazza Vittorio Alfieri",
-   "comune": "Asti",
-   "categoria": "mercatini-fiere",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "comune.asti.it",
-   "pagina_fonte": "https://www.comune.asti.it/vivere-comune/eventi?f%5B0%5D=quando%3Anext_thirty_days",
-   "sito_ufficiale": "https://www.comune.asti.it/vivere-comune/eventi/magico-paese-natale-0",
-   "riassunto": "Ventesima edizione del mercatino natalizio con casette in legno di artigianato, gastronomia e cibo di strada in piazza Alfieri.",
-   "lat": 44.89913,
-   "lon": 8.20414,
-   "precisione": "town"
   },
   {
    "uid": "83541ec862156e56",
@@ -319,28 +229,6 @@
    "precisione": "venue"
   },
   {
-   "uid": "58e3f6b6972b840e",
-   "motivi": [
-    "possibile doppione di 09780e2cc9d96f7a"
-   ],
-   "titolo": "Mercatini di Natale 2026",
-   "inizio": "2026-11-21",
-   "fine": "2026-12-27",
-   "luogo": "Piazza Bra, Piazza dei Signori e Piazza Sacco e Vanzetti",
-   "indirizzo": "",
-   "comune": "Verona",
-   "categoria": "mercatini-fiere",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "comune.verona.it",
-   "pagina_fonte": "https://www.comune.verona.it/content/view/full/15340",
-   "sito_ufficiale": "https://www.comune.verona.it/content/view/full/15340",
-   "riassunto": "Diciottesima edizione dei mercatini di Natale nel centro storico, organizzata da Comitato per Verona, Confcommercio e Confesercenti con il Comune.",
-   "lat": 45.43879,
-   "lon": 10.99368,
-   "precisione": "venue"
-  },
-  {
    "uid": "e95b8eb2373a9e9e",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
@@ -361,28 +249,6 @@
    "lat": 45.77874,
    "lon": 12.42014,
    "precisione": "town"
-  },
-  {
-   "uid": "6ad55f02dbd32b65",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Mercatino di Natale di Lecco",
-   "inizio": "2026-11-25",
-   "fine": "2027-01-06",
-   "luogo": "Piazza Cermenati e Piazza XX Settembre",
-   "indirizzo": "Piazza Cermenati",
-   "comune": "Lecco",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "comune.lecco.it",
-   "pagina_fonte": "https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026",
-   "sito_ufficiale": "https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026",
-   "riassunto": "Casette con artigianato e idee regalo aperte tutti i giorni nel centro di Lecco, organizzate da Fiva Confcommercio.",
-   "lat": 45.85497,
-   "lon": 9.38969,
-   "precisione": "venue"
   },
   {
    "uid": "3caaf34c4ea05d6d",
@@ -431,7 +297,6 @@
   {
    "uid": "8baf2b2bbac65b62",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
     "durata oltre 45 giorni: sono date singole o un periodo?",
     "possibile doppione di c76fcb844c398726"
    ],
@@ -448,9 +313,9 @@
    "pagina_fonte": "https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)",
    "sito_ufficiale": "https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/",
    "riassunto": "Pista di pattinaggio sul ghiaccio accanto al Battistero, aperta tutti i giorni con orari serali nel fine settimana.",
-   "lat": 45.56651,
-   "lon": 8.05408,
-   "precisione": "town"
+   "lat": 45.56636,
+   "lon": 8.0536,
+   "precisione": "venue"
   },
   {
    "uid": "baeb61e5f4bf3249",
@@ -495,259 +360,6 @@
    "riassunto": "Spettacolo di danza del coreografo Fabrizio Favale nel Ridotto del Teatro Storchi.",
    "lat": 44.643521,
    "lon": 10.931095,
-   "precisione": "address"
-  },
-  {
-   "uid": "69d1c1c2e659c873",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di b31551132ec1d97d"
-   ],
-   "titolo": "Mercatino di Natale in piazza del Comune",
-   "inizio": "2026-11-28T10:00",
-   "fine": "2027-01-06",
-   "luogo": "Piazza del Comune",
-   "indirizzo": "Piazza del Comune",
-   "comune": "Cremona",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismocremona.it",
-   "pagina_fonte": "https://www.turismocremona.it/it/evento/natale-cremona-2026",
-   "sito_ufficiale": "https://www.turismocremona.it/it/evento/natale-cremona-2026",
-   "riassunto": "Primo mercatino natalizio in piazza del Comune, aperto dal giovedi' alla domenica dalle 10 alle 20 e tutti i giorni dal 7 al 13 dicembre e dal 26 dicembre al 6 gennaio.",
-   "lat": 45.133338,
-   "lon": 10.024738,
-   "precisione": "address"
-  },
-  {
-   "uid": "d68e654a941daf48",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 69d1c1c2e659c873"
-   ],
-   "titolo": "Mercatino di Natale in piazza Saffi",
-   "inizio": "2026-11-28T09:00",
-   "fine": "2027-01-10",
-   "luogo": "Piazza Aurelio Saffi",
-   "indirizzo": "Piazza Aurelio Saffi",
-   "comune": "Forlì",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "forlichebrillaofficial.it",
-   "pagina_fonte": "https://forlichebrillaofficial.it/",
-   "sito_ufficiale": "https://forlichebrillaofficial.it/",
-   "riassunto": "Casette del mercatino natalizio in piazza Saffi, aperte dalle 9 alle 20.",
-   "lat": 44.222376,
-   "lon": 12.041327,
-   "precisione": "address"
-  },
-  {
-   "uid": "144846997ddd0672",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di d68e654a941daf48"
-   ],
-   "titolo": "Serial Singers Gospel Choir al Mercatino di Natale di Modena",
-   "inizio": "2026-11-28T16:00",
-   "fine": "2026-11-28T18:00",
-   "luogo": "Piazza Grande",
-   "indirizzo": "Piazza Grande",
-   "comune": "Modena",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "mercatinodinataletirolesemodena.it",
-   "pagina_fonte": "https://www.mercatinodinataletirolesemodena.it/spettacoli",
-   "sito_ufficiale": "https://www.mercatinodinataletirolesemodena.it/spettacoli",
-   "riassunto": "Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.",
-   "lat": 44.645943,
-   "lon": 10.925617,
-   "precisione": "address"
-  },
-  {
-   "uid": "5a92545cc59b4c8c",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di d68e654a941daf48"
-   ],
-   "titolo": "Pista di pattinaggio di piazza Saffi",
-   "inizio": "2026-11-28",
-   "fine": "2027-01-10",
-   "luogo": "Piazza Aurelio Saffi",
-   "indirizzo": "Piazza Aurelio Saffi",
-   "comune": "Forlì",
-   "categoria": "sport",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "forlichebrillaofficial.it",
-   "pagina_fonte": "https://forlichebrillaofficial.it/",
-   "sito_ufficiale": "https://forlichebrillaofficial.it/",
-   "riassunto": "Pista di pattinaggio sul ghiaccio in piazza Saffi, aperta il pomeriggio nei feriali e tutto il giorno nei festivi.",
-   "lat": 44.222376,
-   "lon": 12.041327,
-   "precisione": "address"
-  },
-  {
-   "uid": "00dddad7cc0b6c79",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Reggio Emilia on Ice",
-   "inizio": "2026-11-28",
-   "fine": "2027-01-17",
-   "luogo": "Piazza della Vittoria",
-   "indirizzo": "Piazza della Vittoria",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "sport",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "reggioemiliawelcome.it",
-   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "sito_ufficiale": "https://www.reggioemiliawelcome.it/it/eventi/eventi-sportivi/reggio-emilia-on-ice",
-   "riassunto": "Pista di pattinaggio sul ghiaccio in piazza della Vittoria, aperta tutti i giorni con orario prolungato durante le feste.",
-   "lat": 44.700638,
-   "lon": 10.629835,
-   "precisione": "address"
-  },
-  {
-   "uid": "5fde750815887a83",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Gregory Crewdson. Eveningside",
-   "inizio": "2026-11-28",
-   "fine": "2027-01-17",
-   "luogo": "Chiostri di San Pietro",
-   "indirizzo": "Via Emilia San Pietro 44/c",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "reggioemiliawelcome.it",
-   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "sito_ufficiale": "https://www.reggioemiliawelcome.it/it/eventi/eventi-culturali/gregory-crewdson-eveningside",
-   "riassunto": "Mostra del fotografo statunitense Gregory Crewdson ai Chiostri di San Pietro.",
-   "lat": 44.698583,
-   "lon": 10.637197,
-   "precisione": "address"
-  },
-  {
-   "uid": "2c168d7a8591868b",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Alain Urrutia. Abiapuntua",
-   "inizio": "2026-11-28",
-   "fine": "2027-02-14",
-   "luogo": "Collezione Maramotti",
-   "indirizzo": "Via Fratelli Cervi 66",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "reggioemiliawelcome.it",
-   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "sito_ufficiale": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "riassunto": "Mostra del pittore Alain Urrutia alla Collezione Maramotti, aperta dal giovedi' alla domenica.",
-   "lat": 44.708087,
-   "lon": 10.601416,
-   "precisione": "address"
-  },
-  {
-   "uid": "d9e1927cac311b66",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Quando lo sguardo si posa. Daniela De Lorenzo e Cristina Gozzini",
-   "inizio": "2026-11-28",
-   "fine": "2027-02-14",
-   "luogo": "Palazzo dei Musei",
-   "indirizzo": "Via Spallanzani 1",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "reggioemiliawelcome.it",
-   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "sito_ufficiale": "https://www.musei.re.it/appuntamenti/quando-lo-sguardo-si-posa/",
-   "riassunto": "Mostra delle artiste Daniela De Lorenzo e Cristina Gozzini ai Musei Civici.",
-   "lat": 44.700221,
-   "lon": 10.632631,
-   "precisione": "address"
-  },
-  {
-   "uid": "efe5907f79aa48d4",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "@KNIT. Intrecciare il passato per nostalgia del futuro",
-   "inizio": "2026-11-28",
-   "fine": "2027-02-28",
-   "luogo": "Palazzo dei Musei",
-   "indirizzo": "Via Spallanzani 1",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "reggioemiliawelcome.it",
-   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "sito_ufficiale": "https://www.musei.re.it/appuntamenti/mostra-knit-intrecciare-il-passato-per-nostalgia-del-futuro/",
-   "riassunto": "Mostra dedicata alla maglia e all'intreccio ai Musei Civici di Reggio Emilia.",
-   "lat": 44.700221,
-   "lon": 10.632631,
-   "precisione": "address"
-  },
-  {
-   "uid": "15e181e7312d5bde",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Luigi Ghirri. A Series of Dreams",
-   "inizio": "2026-11-28",
-   "fine": "2027-02-28",
-   "luogo": "Palazzo dei Musei",
-   "indirizzo": "Via Spallanzani 1",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "reggioemiliawelcome.it",
-   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "sito_ufficiale": "https://www.musei.re.it/appuntamenti/mostra-luigi-ghirri-a-series-of-dreams/",
-   "riassunto": "Mostra sul fotografo Luigi Ghirri tra paesaggi visivi e sonori ai Musei Civici.",
-   "lat": 44.700221,
-   "lon": 10.632631,
-   "precisione": "address"
-  },
-  {
-   "uid": "1d6fa89c18ca05d5",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Le porte dell'invisibile. Kandinskij, Klee, Malevic e Florenskij",
-   "inizio": "2026-11-28",
-   "fine": "2027-03-17",
-   "luogo": "Palazzo Magnani",
-   "indirizzo": "Corso Garibaldi 29",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "reggioemiliawelcome.it",
-   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "sito_ufficiale": "https://www.reggioemiliawelcome.it/it/eventi/eventi-culturali/le-porte-dellinvisibile-kandinskij-klee-malevic-alla-luce-del-pensiero-di-pavel-florenskij",
-   "riassunto": "Mostra di opere di Kandinskij, Klee e Malevic lette alla luce del pensiero di Pavel Florenskij.",
-   "lat": 44.697225,
-   "lon": 10.627348,
    "precisione": "address"
   },
   {
@@ -908,94 +520,6 @@
    "precisione": "address"
   },
   {
-   "uid": "ef4c13a326436169",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Concorso internazionale di canto lirico Cappuccilli, Patane', Respighi (finale)",
-   "inizio": "2026-11-28T17:00",
-   "fine": null,
-   "luogo": "Teatro Amilcare Ponchielli",
-   "indirizzo": "Corso Vittorio Emanuele II 52",
-   "comune": "Cremona",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatroponchielli.it",
-   "pagina_fonte": "https://www.teatroponchielli.it/",
-   "sito_ufficiale": "https://www.teatroponchielli.it/spettacolo/20-concorso-internazionale-di-canto-lirico/",
-   "riassunto": "Ventesima edizione del concorso internazionale per giovani cantanti lirici dedicato a Piero Cappuccilli, Giuseppe Patane' e Ottorino Respighi.",
-   "lat": 45.132171,
-   "lon": 10.019045,
-   "precisione": "address"
-  },
-  {
-   "uid": "65197353231ab50b",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Bancàl, Virginia Raffaele",
-   "inizio": "2026-11-28T21:00",
-   "fine": null,
-   "luogo": "Teatro Diego Fabbri",
-   "indirizzo": "Corso Armando Diaz 47",
-   "comune": "Forlì",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "accademiaperduta.it",
-   "pagina_fonte": "https://accademiaperduta.it/teatro-diego-fabbri-forli/",
-   "sito_ufficiale": "https://accademiaperduta.it/teatro-diego-fabbri-forli/bancal/",
-   "riassunto": "Spettacolo comico di Virginia Raffaele nella stagione del Teatro Diego Fabbri.",
-   "lat": 44.221041,
-   "lon": 12.039194,
-   "precisione": "address"
-  },
-  {
-   "uid": "f54b897121025939",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "L'esecuzione, sotto lo sguardo di Tosca (Salvatore Passantino)",
-   "inizio": "2026-11-28T20:00",
-   "fine": "2026-11-29",
-   "luogo": "Teatro Comunale Pavarotti-Freni",
-   "indirizzo": "Corso Canalgrande 85",
-   "comune": "Modena",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatrocomunalemodena.it",
-   "pagina_fonte": "https://www.teatrocomunalemodena.it/spettacoli/",
-   "sito_ufficiale": "https://www.teatrocomunalemodena.it/spettacolo/salvatore-passantino-lesecuzione/",
-   "riassunto": "Spettacolo di Salvatore Passantino al Teatro Comunale Pavarotti-Freni, con replica domenica 29 novembre alle 15:30.",
-   "lat": 44.646885,
-   "lon": 10.930043,
-   "precisione": "address"
-  },
-  {
-   "uid": "db6cbab384ee2798",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Accensione delle luci di Natale di Sondrio",
-   "inizio": "2026-11-28T17:00",
-   "fine": null,
-   "luogo": "Piazza Campello",
-   "indirizzo": "Piazza Campello",
-   "comune": "Sondrio",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "eventi.sondrioevalmalenco.it",
-   "pagina_fonte": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
-   "sito_ufficiale": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
-   "riassunto": "Accensione delle luminarie natalizie con le autorita' e un'esibizione musicale di Gaia Del Principe, apertura di Sondrio Natale 2026.",
-   "lat": 46.171057,
-   "lon": 9.87194,
-   "precisione": "address"
-  },
-  {
    "uid": "bf45b770a80ae2fa",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -1040,94 +564,6 @@
    "precisione": "address"
   },
   {
-   "uid": "f78ddfcc6a40e5e7",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Age (CollettivO CineticO)",
-   "inizio": "2026-11-28",
-   "fine": null,
-   "luogo": "Teatro Storchi",
-   "indirizzo": "Largo Garibaldi 15",
-   "comune": "Modena",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "modena.emiliaromagnateatro.com",
-   "pagina_fonte": "https://modena.emiliaromagnateatro.com/",
-   "sito_ufficiale": "https://modena.emiliaromagnateatro.com/spettacolo/age/",
-   "riassunto": "Spettacolo di Francesca Pennini e della compagnia CollettivO CineticO al Teatro Storchi.",
-   "lat": 44.643521,
-   "lon": 10.931095,
-   "precisione": "address"
-  },
-  {
-   "uid": "3ccd6a3e78fed2c7",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Monet. Una vita a colori",
-   "inizio": "2026-11-28",
-   "fine": "2026-11-29",
-   "luogo": "Teatro Due, Spazio Grande",
-   "indirizzo": "Viale Basetti 12/a",
-   "comune": "Parma",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatrodue.org",
-   "pagina_fonte": "https://www.teatrodue.org/",
-   "sito_ufficiale": "https://www.teatrodue.org/monet-una-vita-a-colori/",
-   "riassunto": "Spettacolo dedicato alla vita di Claude Monet nello Spazio Grande del Teatro Due.",
-   "lat": 44.796453,
-   "lon": 10.325244,
-   "precisione": "address"
-  },
-  {
-   "uid": "24211cd690f364a8",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Il ragazzo dai pantaloni rosa, il musical",
-   "inizio": "2026-11-28",
-   "fine": "2026-11-29",
-   "luogo": "Teatro Municipale Valli",
-   "indirizzo": "Piazza Martiri del 7 Luglio 7",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "iteatri.re.it",
-   "pagina_fonte": "https://www.iteatri.re.it/",
-   "sito_ufficiale": "https://www.iteatri.re.it/spettacolo/il-ragazzo-dai-pantaloni-rosa-il-musical/",
-   "riassunto": "Musical tratto dalla storia di Andrea Spezzacatena, in scena al Teatro Valli.",
-   "lat": 44.701106,
-   "lon": 10.631383,
-   "precisione": "address"
-  },
-  {
-   "uid": "f6249f42024b8652",
-   "motivi": [
-    "possibile doppione di db6cbab384ee2798"
-   ],
-   "titolo": "Accensione dell'albero e videomapping (Natale a Padova)",
-   "inizio": "2026-11-28T17:00",
-   "fine": null,
-   "luogo": "Palazzo Moroni",
-   "indirizzo": "",
-   "comune": "Padova",
-   "categoria": "sagre-feste",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "padovacultura.padovanet.it",
-   "pagina_fonte": "https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026",
-   "sito_ufficiale": "https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026",
-   "riassunto": "Accensione dell'albero di dodici metri davanti a Palazzo Moroni e proiezioni di videomapping nelle piazze delle Erbe, della Frutta, dei Signori e del Duomo.",
-   "lat": 45.40717,
-   "lon": 11.87673,
-   "precisione": "venue"
-  },
-  {
    "uid": "9aabe2d0cf699ef8",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -1149,28 +585,6 @@
    "lat": 45.67164,
    "lon": 12.15354,
    "precisione": "town"
-  },
-  {
-   "uid": "34afafe79428c382",
-   "motivi": [
-    "posizione a 10 km dal centro di Venezia: verifica dove si trova e correggi lat/lon"
-   ],
-   "titolo": "Il Gatto con gli Stivali",
-   "inizio": "2026-11-29T16:30",
-   "fine": null,
-   "luogo": "Teatro del Parco, Mestre",
-   "indirizzo": "Via Sergio Gori 11, Parco Albanese",
-   "comune": "Venezia",
-   "categoria": "teatro-spettacoli",
-   "accesso": "biglietto",
-   "prezzo": "",
-   "fonte": "myarteven.it",
-   "pagina_fonte": "https://www.myarteven.it/ (calendario delle repliche nella home, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.myarteven.it/rassegne/mestre-teatro-del-parco-2627/il-gatto-con-gli-stivali-simona-bucci/venezia-il-gatto-con-gli-stivali-29112026-1630",
-   "riassunto": "Spettacolo teatrale nella rassegna Teatro del Parco 26/27 (Teatro del Parco, Mestre), con Compagnia Simona Bucci.",
-   "lat": 45.49952,
-   "lon": 12.25798,
-   "precisione": "address"
   },
   {
    "uid": "277d7790ec39c90c",
@@ -1346,6 +760,582 @@
    "riassunto": "Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.",
    "lat": 44.645943,
    "lon": 10.925617,
+   "precisione": "address"
+  },
+  {
+   "uid": "3e380c2f6aa29387",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Cenerentola (Sondrio Festival)",
+   "inizio": "2026-11-29T14:30",
+   "fine": null,
+   "luogo": "Teatro Sociale di Sondrio",
+   "indirizzo": "Piazza Garibaldi 26",
+   "comune": "Sondrio",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "eventi.sondrioevalmalenco.it",
+   "pagina_fonte": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
+   "sito_ufficiale": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
+   "riassunto": "Spettacolo di musica e narrazione dedicato alla fiaba di Cenerentola, nel programma del Sondrio Festival.",
+   "lat": 46.17055,
+   "lon": 9.86937,
+   "precisione": "address"
+  },
+  {
+   "uid": "39bcc9bb3ce777fa",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Human Atlas. Due secoli di fotografia dalla collezione Mario Trevisan",
+   "inizio": "2026-11-29",
+   "fine": "2027-02-28",
+   "luogo": "Casa Robegan",
+   "indirizzo": "Via Antonio Canova 38",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "intero 8 euro, ridotto 5, famiglia 16",
+   "fonte": "iltaccodibacco.it",
+   "pagina_fonte": "https://iltaccodibacco.it/oderzo/",
+   "sito_ufficiale": "https://iltaccodibacco.it/veneto/eventi/338165.html",
+   "riassunto": "Mostra di 80 fotografie della collezione di Mario Trevisan, curata da Carlo Sala e promossa da Fondazione Mazzotti e Comune di Treviso per il bicentenario della fotografia. Aperta da venerdi' a domenica dalle 10 alle 18, con aperture straordinarie nelle feste.",
+   "lat": 45.66777,
+   "lon": 12.24148,
+   "precisione": "address"
+  },
+  {
+   "uid": "d9e158d77e43fd56",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "AiAiAi Pinocchio!",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "luogo": "Teatro Storchi",
+   "indirizzo": "Largo Garibaldi 15",
+   "comune": "Modena",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "modena.emiliaromagnateatro.com",
+   "pagina_fonte": "https://modena.emiliaromagnateatro.com/",
+   "sito_ufficiale": "https://modena.emiliaromagnateatro.com/spettacolo/aiaiai-pinocchio/",
+   "riassunto": "Spettacolo di danza per ragazzi e famiglie di Gruppo Ibrido e Artemis Danza ispirato a Pinocchio.",
+   "lat": 44.643521,
+   "lon": 10.931095,
+   "precisione": "address"
+  },
+  {
+   "uid": "9bd100951c2827c1",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Mercatino di Natale in piazza Ghiaia",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "luogo": "Piazza Ghiaia",
+   "indirizzo": "Piazza Ghiaia",
+   "comune": "Parma",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "emiliaromagnaturismo.it",
+   "pagina_fonte": "https://emiliaromagnaturismo.it/en/events/christmas-in-parma",
+   "sito_ufficiale": "https://emiliaromagnaturismo.it/en/events/christmas-in-parma",
+   "riassunto": "Mercatino natalizio in piazza Ghiaia nel programma Natale a Parma 2026.",
+   "lat": 44.802742,
+   "lon": 10.324652,
+   "precisione": "address"
+  },
+  {
+   "uid": "3a29a2e9c94195ee",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Gli anni in bianco e nero, Francesca Giannone (Finalmente Domenica)",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "luogo": "Teatro Municipale Valli, Ridotto",
+   "indirizzo": "Piazza Martiri del 7 Luglio 7",
+   "comune": "Reggio nell'Emilia",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "iteatri.re.it",
+   "pagina_fonte": "https://www.iteatri.re.it/",
+   "sito_ufficiale": "https://www.iteatri.re.it/spettacolo/francesca-giannone/",
+   "riassunto": "Incontro con la scrittrice Francesca Giannone nella rassegna Finalmente Domenica.",
+   "lat": 44.701106,
+   "lon": 10.631383,
+   "precisione": "address"
+  },
+  {
+   "uid": "2487a0661f1bc65d",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Apertura della pista di pattinaggio di Sondrio Natale",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "luogo": "Piazza Garibaldi",
+   "indirizzo": "Piazza Garibaldi",
+   "comune": "Sondrio",
+   "categoria": "sport",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "eventi.sondrioevalmalenco.it",
+   "pagina_fonte": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
+   "sito_ufficiale": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
+   "riassunto": "Apertura della pista di pattinaggio sul ghiaccio all'aperto in piazza Garibaldi per le feste.",
+   "lat": 46.170894,
+   "lon": 9.869946,
+   "precisione": "address"
+  },
+  {
+   "uid": "da94c9dddb59ca99",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Il Sindaco Pescatore",
+   "inizio": "2026-11-30T21:00",
+   "fine": null,
+   "luogo": "Teatro Alighieri",
+   "indirizzo": "Via Mariani 2",
+   "comune": "Ravenna",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "teatroalighieri.org",
+   "pagina_fonte": "https://www.teatroalighieri.org/spettacoli/",
+   "sito_ufficiale": "https://www.teatroalighieri.org/events/il-sindaco-pescatore/",
+   "riassunto": "Spettacolo con Ettore Bassi dedicato alla figura di Angelo Vassallo, sindaco di Pollica ucciso nel 2010, con la partecipazione di studenti delle scuole superiori.",
+   "lat": 44.4171588,
+   "lon": 12.2012762,
+   "precisione": "address"
+  },
+  {
+   "uid": "35feed7e333c3082",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Cesare Cremonini, Amatour Live Indoor 2026",
+   "inizio": "2026-11-30T21:00",
+   "fine": null,
+   "luogo": "Unipol Arena",
+   "indirizzo": "Via Gino Cervi 2",
+   "comune": "Casalecchio di Reno",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/cesare-cremonini-amatour-live-indoor-2026",
+   "riassunto": "Concerto di Cesare Cremonini nel tour nei palazzetti.",
+   "lat": 44.485953,
+   "lon": 11.248152,
+   "precisione": "address"
+  },
+  {
+   "uid": "37401a309e36dab9",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Da quei ragazzi",
+   "inizio": "2026-11-30T20:30",
+   "fine": null,
+   "luogo": "Teatro Duse",
+   "indirizzo": "Via Cartoleria 42",
+   "comune": "Bologna",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/da-quei-ragazzi",
+   "riassunto": "Spettacolo al Teatro Duse.",
+   "lat": 44.488635,
+   "lon": 11.348369,
+   "precisione": "address"
+  },
+  {
+   "uid": "375283474f96aa22",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Nata con la Guepiere, Valentina Persia",
+   "inizio": "2026-12-01T21:00",
+   "fine": null,
+   "luogo": "Teatro Celebrazioni",
+   "indirizzo": "Via Saragozza 234",
+   "comune": "Bologna",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/nata-con-la-guepiere-valentina-persia",
+   "riassunto": "Spettacolo comico di Valentina Persia.",
+   "lat": 44.48954,
+   "lon": 11.312546,
+   "precisione": "address"
+  },
+  {
+   "uid": "af9f1f077e4edf50",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Soweto Gospel Choir, Joy",
+   "inizio": "2026-12-01T21:00",
+   "fine": null,
+   "luogo": "Teatro Duse",
+   "indirizzo": "Via Cartoleria 42",
+   "comune": "Bologna",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/soweto-gospel-choir-joy",
+   "riassunto": "Concerto del coro sudafricano Soweto Gospel Choir.",
+   "lat": 44.488635,
+   "lon": 11.348369,
+   "precisione": "address"
+  },
+  {
+   "uid": "3614d889cf460b7e",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "La stanza (Teatrino Giullare)",
+   "inizio": "2026-12-01",
+   "fine": "2026-12-02",
+   "luogo": "Teatro delle Moline",
+   "indirizzo": "Via delle Moline 1/b",
+   "comune": "Bologna",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "bologna.emiliaromagnateatro.com",
+   "pagina_fonte": "https://bologna.emiliaromagnateatro.com/",
+   "sito_ufficiale": "https://bologna.emiliaromagnateatro.com/spettacolo/la-stanza/",
+   "riassunto": "Spettacolo della compagnia Teatrino Giullare in scena al Teatro delle Moline.",
+   "lat": 44.497699,
+   "lon": 11.348376,
+   "precisione": "address"
+  },
+  {
+   "uid": "9788bdcacf470516",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Mercatino delle Cose Buone",
+   "inizio": "2026-12-01",
+   "fine": "2027-01-06",
+   "luogo": "Piazza San Prospero",
+   "indirizzo": "Piazza San Prospero",
+   "comune": "Reggio nell'Emilia",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "reggioemiliawelcome.it",
+   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
+   "sito_ufficiale": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
+   "riassunto": "Mercatino natalizio di prodotti e idee regalo in piazza San Prospero per tutto il periodo delle feste.",
+   "lat": 44.697216,
+   "lon": 10.631976,
+   "precisione": "address"
+  },
+  {
+   "uid": "14e942aa659b233b",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Reel Rock Tour Italia 2026",
+   "inizio": "2026-12-01T20:00",
+   "fine": null,
+   "luogo": "Cinema Teatro Manzoni",
+   "indirizzo": "",
+   "comune": "Paese",
+   "categoria": "sport",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "mentelocale.it",
+   "pagina_fonte": "https://www.mentelocale.it/treviso/137798-reel-rock-tour-italia-2026.htm",
+   "sito_ufficiale": "https://www.happyticket.com/treviso/acquista-biglietti/1-316124-gbizelvjzzj7nbb.htm",
+   "riassunto": "Serata di proiezione della rassegna Reel Rock 20 con quattro mediometraggi sull'arrampicata all'aperto, per circa due ore e mezza.",
+   "lat": 45.67164,
+   "lon": 12.15354,
+   "precisione": "town"
+  },
+  {
+   "uid": "3fae87078133f455",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "La rivincita degli imperi",
+   "inizio": "2026-12-02",
+   "fine": "2026-12-04",
+   "luogo": "Sala Polivalente CDT",
+   "indirizzo": "Largo Barale 1",
+   "comune": "Cuneo",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "cuneocultura.it",
+   "pagina_fonte": "https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)",
+   "sito_ufficiale": "https://www.cuneocultura.it/evento/la-rivincita-degli-imperi/",
+   "riassunto": "Tre incontri con storici, politologi, teologi e giornalisti sul ritorno delle dinamiche imperiali nello scenario internazionale.",
+   "lat": 44.3933,
+   "lon": 7.55117,
+   "precisione": "town"
+  },
+  {
+   "uid": "a6c2697a47caaab1",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Cesare Cremonini, Amatour Live Indoor 2026",
+   "inizio": "2026-12-02T21:00",
+   "fine": null,
+   "luogo": "Unipol Arena",
+   "indirizzo": "Via Gino Cervi 2",
+   "comune": "Casalecchio di Reno",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/cesare-cremonini-amatour-live-indoor-2026",
+   "riassunto": "Concerto di Cesare Cremonini nel tour nei palazzetti.",
+   "lat": 44.485953,
+   "lon": 11.248152,
+   "precisione": "address"
+  },
+  {
+   "uid": "a5c67d9cf2f6e5bd",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Arte contemporanea e intelligenze. Quali citta' d'arte?",
+   "inizio": "2026-12-02T18:00",
+   "fine": null,
+   "luogo": "MAMbo, Museo d'Arte Moderna di Bologna",
+   "indirizzo": "Via Don Giovanni Minzoni 14",
+   "comune": "Bologna",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/arte-contemporanea-e-intelligenze-quali-citta-d-arte-64f6a1",
+   "riassunto": "Incontro sull'arte contemporanea e le citta' d'arte al MAMbo.",
+   "lat": 44.502552,
+   "lon": 11.336965,
+   "precisione": "address"
+  },
+  {
+   "uid": "257d0946e8ee811e",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Io marte tu mercole, R-Evolution",
+   "inizio": "2026-12-02T21:00",
+   "fine": null,
+   "luogo": "Teatro Dehon",
+   "indirizzo": "Via Libia 59",
+   "comune": "Bologna",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/gianluca-scintilla-fubelli-federica-camba-io-marte-tu-mercole-2dic2026",
+   "riassunto": "Spettacolo comico con Gianluca Scintilla Fubelli e Federica Camba.",
+   "lat": 44.496643,
+   "lon": 11.365916,
+   "precisione": "address"
+  },
+  {
+   "uid": "38503affcfaddd97",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Con un cuore che ascolta",
+   "inizio": "2026-12-02",
+   "fine": "2026-12-04",
+   "luogo": "Teatro Due",
+   "indirizzo": "Viale Basetti 12/a",
+   "comune": "Parma",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "teatrodue.org",
+   "pagina_fonte": "https://www.teatrodue.org/",
+   "sito_ufficiale": "https://www.teatrodue.org/con-un-cuore-che-ascolta/",
+   "riassunto": "Spettacolo in scena al Teatro Due dal 2 al 4 dicembre.",
+   "lat": 44.796453,
+   "lon": 10.325244,
+   "precisione": "address"
+  },
+  {
+   "uid": "b738e4d26bf3da3d",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Omaggio a Gyorgy Kurtag: Anna Prohaska e Isabelle Faust",
+   "inizio": "2026-12-02",
+   "fine": null,
+   "luogo": "Teatro Municipale Valli",
+   "indirizzo": "Piazza Martiri del 7 Luglio 7",
+   "comune": "Reggio nell'Emilia",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "iteatri.re.it",
+   "pagina_fonte": "https://www.iteatri.re.it/",
+   "sito_ufficiale": "https://www.iteatri.re.it/spettacolo/anna-prohaska-soprano-isabelle-faust-violino/",
+   "riassunto": "Concerto del soprano Anna Prohaska e della violinista Isabelle Faust nel centenario della nascita di Gyorgy Kurtag.",
+   "lat": 44.701106,
+   "lon": 10.631383,
+   "precisione": "address"
+  },
+  {
+   "uid": "84c5a9c994c9df48",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Dentro e fuori dai libri... con un buco nel calzino",
+   "inizio": "2026-12-02T17:00",
+   "fine": null,
+   "luogo": "Biblioteca 0-18 di Cuneo",
+   "indirizzo": "Via Santa Maria 11",
+   "comune": "Cuneo",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "cuneocultura.it",
+   "pagina_fonte": "https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)",
+   "sito_ufficiale": "https://www.cuneocultura.it/evento/dentro-e-fuori-dai-libri-con-un-buco-nel-calzino-24-48-mesi/",
+   "riassunto": "Laboratorio di lettura per genitori e bambini dai 24 ai 48 mesi.",
+   "lat": 44.39465,
+   "lon": 7.55021,
+   "precisione": "venue"
+  },
+  {
+   "uid": "ae1e0d4e8db9ece9",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Abisso e Potere (Teatro dei Venti)",
+   "inizio": "2026-12-02",
+   "fine": "2026-12-06",
+   "luogo": "Teatro delle Passioni, Sala Grande",
+   "indirizzo": "Viale Carlo Sigonio 382",
+   "comune": "Modena",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "modena.emiliaromagnateatro.com",
+   "pagina_fonte": "https://modena.emiliaromagnateatro.com/",
+   "sito_ufficiale": "https://modena.emiliaromagnateatro.com/spettacolo/abisso-e-potere/",
+   "riassunto": "Spettacolo della compagnia modenese Teatro dei Venti nella Sala Grande del Teatro delle Passioni.",
+   "lat": 44.63796,
+   "lon": 10.92312,
+   "precisione": "venue"
+  },
+  {
+   "uid": "3b9eaf4cd67c7cfc",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Dalla bussola al LiDAR (I giovedi' del CAI di Feltre)",
+   "inizio": "2026-12-03T20:30",
+   "fine": null,
+   "luogo": "Sala Guarnieri",
+   "indirizzo": "",
+   "comune": "Pedavena",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "dolomitiprealpi.it",
+   "pagina_fonte": "https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://www.dolomitiprealpi.it/event/i-giovedi-del-cai-di-feltre-30/",
+   "riassunto": "Serata con il Gruppo Speleo Feltre su vent'anni di ricerca delle epigrafi militari della Grande Guerra sul Massiccio del Grappa e sull'uso del LiDAR.",
+   "lat": 46.03939,
+   "lon": 11.88144,
+   "precisione": "town"
+  },
+  {
+   "uid": "1f6dc007eca07fde",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Basta un libro: incontro con Paola Barbato",
+   "inizio": "2026-12-03T18:00",
+   "fine": "2026-12-03T20:00",
+   "luogo": "BAS, Biblioteca Comunale Aurelio Saffi",
+   "indirizzo": "Via Albicini 12",
+   "comune": "Forlì",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "forlichebrillaofficial.it",
+   "pagina_fonte": "https://forlichebrillaofficial.it/",
+   "sito_ufficiale": "https://forlichebrillaofficial.it/",
+   "riassunto": "Incontro con la scrittrice Paola Barbato alla Biblioteca Saffi.",
+   "lat": 44.22269,
+   "lon": 12.04069,
+   "precisione": "town"
+  },
+  {
+   "uid": "f942f63c344c092d",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "20a Mostra del Radicchio Rosso di Treviso IGP",
+   "inizio": "2026-12-03",
+   "fine": "2026-12-08",
+   "luogo": "",
+   "indirizzo": "",
+   "comune": "Quinto di Treviso",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "fioridinverno.tv",
+   "pagina_fonte": "https://www.fioridinverno.tv/ (letta il 2026-11-28)",
+   "sito_ufficiale": "https://www.fioridinverno.tv/eventi/colori-sapori-di-primavera-quinto/",
+   "riassunto": "Festa dedicata al radicchio trevigiano nell'ambito della rassegna Fiori d'Inverno 2026-2027 promossa da UNPLI Treviso con le Pro Loco e il Consorzio di Tutela.",
+   "lat": 45.646,
+   "lon": 12.16602,
+   "precisione": "town"
+  },
+  {
+   "uid": "87b47d2d94716cbc",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Back to Hawkins, Stranger Things Tribute",
+   "inizio": "2026-12-03T21:00",
+   "fine": null,
+   "luogo": "Teatro Celebrazioni",
+   "indirizzo": "Via Saragozza 234",
+   "comune": "Bologna",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/back-to-hawkins-stranger-things-tribute",
+   "riassunto": "Spettacolo musicale ispirato alla serie Stranger Things.",
+   "lat": 44.48954,
+   "lon": 11.312546,
    "precisione": "address"
   }
  ]
