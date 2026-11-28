@@ -1104,3 +1104,11 @@ body.view-list .inline-card .card.full > .fav { top: -2px; }
 @media (max-width: 760px) { body.view-list .inline-card { padding: 0 12px 6px; } }
 body.view-list .inline-card .card.full { padding-left: 22px; padding-right: 22px; padding-bottom: 16px; }
 @media (max-width: 760px) { body.view-list .inline-card .card.full { padding-left: 16px; padding-right: 16px; } }
+
+/* vista lista: la data e' un titolo all'inizio del suo gruppo di eventi e scorre con loro (niente fascia fissa) */
+body.view-list .group {
+  position: static !important; background: none !important; padding: 22px 20px 8px; box-shadow: none;
+  font-size: 1.75rem;
+}
+body.view-list .panel .panel-body > ol > .group:first-child { padding-top: 6px; }
+@media (max-width: 760px) { body.view-list .group { padding: 18px 12px 6px; font-size: 1.5rem; } }
