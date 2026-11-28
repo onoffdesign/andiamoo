@@ -123,7 +123,6 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   display: flex; flex-direction: column; gap: 10px; padding: 8px;
 }
 /* calendario chiuso: solo il pulsante con l'intervallo scelto e il cambio vista; aperto: periodi e giorni */
-.days[data-open="true"] { right: calc(var(--gap) * 2); padding: 8px 12px 8px 8px; }
 .days-bar { display: flex; align-items: center; gap: 8px; }
 .cal-btn {
   display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 10px 0 10px; border: 0; border-radius: 8px;
@@ -140,12 +139,48 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 }
 .view-seg button svg { width: 16px; height: 16px; }
 .view-seg button[aria-pressed="true"] { background: var(--panel); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); }
-.days-panel { display: none; align-items: flex-end; gap: 12px; flex-wrap: wrap; }
+/* riquadro del calendario: si apre sotto il pulsante, sopra la mappa, senza spostare le altre barre */
+.days-panel {
+  display: none; position: absolute; z-index: 5; top: calc(100% + 8px); left: -1.5px; width: 316px; padding: 12px;
+  flex-direction: column; gap: 10px; background-color: var(--panel); background-image: var(--paper);
+  border: 1.5px solid #1d1b18; border-radius: 16px 11px 18px 10px / 11px 17px 10px 16px; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18);
+}
 .days[data-open="true"] .days-panel { display: flex; animation: card-in .25s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 0 0; }
-.range-hint { flex-basis: 100%; margin: 0; color: var(--ink-2); font-size: .75rem; }
-.day.r-start { background: rgba(17, 17, 17, .08); border-radius: 6px 0 0 6px; }
-.day.r-end { background: rgba(17, 17, 17, .08); border-radius: 0 6px 6px 0; }
-.day.r-start.r-end { border-radius: 6px; }
+.range-hint { margin: 0; color: var(--ink-2); font-size: .8125rem; text-align: center; }
+.cal-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.cal-month { font-family: var(--display); text-transform: uppercase; font-size: .9375rem; font-weight: 700; letter-spacing: .05em; }
+.cal-nav { width: 32px; height: 32px; display: grid; place-items: center; border: 0; border-radius: 8px; background: var(--chip); cursor: pointer; }
+.cal-nav svg { width: 16px; height: 16px; }
+.cal-nav:disabled { opacity: .3; cursor: default; }
+.cal-dow, .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); }
+.cal-dow span { text-align: center; font-size: .75rem; color: var(--ink-2); font-weight: 600; }
+.cal-dow span:nth-child(n + 6) { color: var(--ink); }
+.cal-grid { row-gap: 2px; }
+.cday {
+  position: relative; height: 40px; display: grid; place-items: center; padding: 0; border: 0; background: none; cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+.cday .blob {
+  position: absolute; left: 50%; top: 50%; width: var(--blob); height: var(--blob); transform: translate(-50%, -50%);
+  border-radius: 50%; background: var(--land); opacity: .55; transition: transform .2s ease;
+}
+.cday .num { position: relative; font-size: .9375rem; font-weight: 600; line-height: 1; }
+.cday.weekend .num { font-weight: 700; }
+.cday.today .num { text-decoration: underline; text-underline-offset: 3px; }
+.cday:disabled { cursor: default; }
+.cday:disabled .num { color: #c4bcab; }
+.cday:not(:disabled):hover .blob { transform: translate(-50%, -50%) scale(1.12); }
+.cday:not(:disabled):hover .num { color: #000; }
+/* intervallo scelto: fascia chiara tra i due giorni, primo e ultimo cerchiati d'inchiostro */
+.cday[aria-pressed="true"]::before { content: ""; position: absolute; inset: 4px 0; background: rgba(29, 27, 24, .1); }
+.cday.r-start::before { left: 4px; border-radius: 16px 0 0 16px; }
+.cday.r-end::before { right: 4px; border-radius: 0 16px 16px 0; }
+.cday.r-start.r-end::before { border-radius: 16px; }
+.cday.r-start::after, .cday.r-end::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 32px; height: 32px; transform: translate(-50%, -50%);
+  border-radius: 50%; border: 2px solid #1d1b18;
+}
+.cday.r-start .num, .cday.r-end .num { font-weight: 800; }
 .presets { display: flex; gap: 6px; flex-shrink: 0; padding-bottom: 4px; }
 .presets button {
   height: 30px; padding: 0 10px; border: 0; border-radius: 6px; background: var(--chip);
@@ -384,11 +419,11 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .reset-x svg { width: 18px; height: 18px; stroke-width: 2.4; }
 .reset-x:hover { background: var(--chip); }
 
-/* desktop: categorie in una barra in cima, sotto il calendario; in basso restano Accesso e azzera */
+/* desktop: categorie in una barra in cima, accanto al calendario; in basso restano Accesso e azzera */
 @media (min-width: 761px) {
   .chips-row {
-    position: fixed; z-index: 3; top: var(--cats-top, 196px); left: calc(var(--gap) * 2); right: calc(var(--gap) * 2);
-    padding: 8px 10px; background: var(--panel); border-radius: var(--r);
+    position: fixed; z-index: 3; top: var(--cats-top, 88px); left: var(--cats-left, 380px); right: calc(var(--gap) * 2);
+    height: var(--cats-h, 54px); padding: 0 10px; background: var(--panel); border-radius: var(--r);
   }
   .filters { right: auto; padding: 8px 12px; }
   .selects { margin-top: 0; padding-top: 0; border-top: 0; flex-wrap: nowrap; }
@@ -638,23 +673,12 @@ body.view-list .stage { background: var(--land); }
 
   /* giorni: periodi, divisore e barre in un'unica riga che scorre */
   .days { top: calc(var(--top) + 52px); left: 10px !important; right: auto; padding: 6px; gap: 8px; }
-  .days[data-open="true"] { right: 10px; padding: 6px; }
-  .days-panel {
-    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 8px;
-    mask-image: linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);
-  }
-  .days-panel::-webkit-scrollbar { display: none; }
-  .range-hint { display: none; }
+  .days-panel { width: calc(100vw - 20px); max-width: 360px; }
   .view-seg button span { display: none; }
   body.view-list .cards-view { inset: 0; border-radius: 0; padding: var(--below-filters, 200px) 10px calc(24px + var(--sab)); }
   .cards-list { grid-template-columns: 1fr; }
   .presets { padding-bottom: 6px; gap: 4px; }
   .presets button { height: 34px; padding: 0 8px; font-size: .6875rem; font-stretch: 100%; letter-spacing: .02em; }
-  .strip-wrap { flex: none; }
-  .strip-nav { display: none; }
-  .strip { overflow: visible; flex: none; }
-  .day { --day-w: 36px; grid-template-rows: 22px auto auto; min-height: 50px; }
-  .day .bar-wrap { height: 22px; }
 
   /* categorie: una riga; "Filtri" apre accesso/pubblico/luogo */
   .filters { top: var(--below-days, calc(var(--top) + 126px)); left: 10px !important; right: 10px; bottom: auto; padding: 6px; }
@@ -784,3 +808,11 @@ button svg, a svg, .cal-btn svg { filter: url(#hand-line); }
 @keyframes live-dot { 0%, 100% { box-shadow: 0 0 0 0 rgba(244, 185, 66, .45); } 50% { box-shadow: 0 0 0 6px rgba(244, 185, 66, 0); } }
 .live-tag { background: #1d1b18; }
 .maplibregl-ctrl-attrib { font-family: var(--text); }
+
+/* calendario sopra elenco e mappa quando e' aperto; categorie con la stessa carta dei pannelli */
+.days { z-index: 6; }
+@media (min-width: 761px) {
+  .chips-row { background-color: var(--panel); background-image: var(--paper); border: 1.5px solid #1d1b18; }
+}
+/* descrizione dell'evento piu' piccola */
+.card-desc { font-size: .8125rem !important; line-height: 1.45 !important; }

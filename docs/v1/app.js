@@ -210,11 +210,11 @@
     $("#cal-btn").setAttribute("aria-expanded", String(open));
     if (!open) state.pick = null;
     renderRangeHint();
-    if (open) requestAnimationFrame(() => {        // il primo giorno scelto in vista
-      const on = $("#strip .day[aria-pressed=\"true\"]");
-      if (on) on.scrollIntoView({ block: "nearest", inline: "center" });
-      updateStripNav();
-    });
+    if (open) {                                     // si apre sul mese del primo giorno scelto
+      const t = today(), f = state.preset !== "all" && state.from ? parseDay(state.from) : t;
+      state.calMonth = Math.max(0, (f.getFullYear() - t.getFullYear()) * 12 + f.getMonth() - t.getMonth());
+      renderStrip();
+    }
   }
   function renderRangeHint() {
     $("#cal-label").textContent = rangeLabel();
@@ -232,44 +232,51 @@
     onlyUids = null; update();
   }
 
-  // ---------------------------------------------------------------- striscia giorni
+  // ---------------------------------------------------------------- calendario del mese
+  // Un riquadro con il mese: ogni giorno e' un numero dentro un cerchio tanto piu' grande quanti piu' eventi ha
+  // (nessun cerchio se non ce ne sono). Si scorre mese per mese entro l'orizzonte degli eventi.
   function renderStrip() {
-    const strip = $("#strip");
-    const t = today();
+    const grid = $("#strip");
+    const t = today(), last = addDays(t, STRIP_DAYS - 1);
+    const maxMonth = (last.getFullYear() - t.getFullYear()) * 12 + last.getMonth() - t.getMonth();
+    state.calMonth = Math.min(Math.max(0, state.calMonth || 0), maxMonth);
+    const first = new Date(t.getFullYear(), t.getMonth() + state.calMonth, 1);
+    const ndays = new Date(first.getFullYear(), first.getMonth() + 1, 0).getDate();
     const base = EVENTS.filter((e) => matches(e, { date: true }));
-    const counts = [];
-    for (let i = 0; i < STRIP_DAYS; i++) { const d = iso(addDays(t, i)); counts.push(base.filter((e) => spans(e, d, d)).length); }
-    const max = Math.max(1, ...counts);
-    const keep = strip.scrollLeft;
-    strip.innerHTML = "";
-    let days = null;                       // giorni raggruppati per mese: l'etichetta del mese resta ferma mentre si scorre
-    counts.forEach((n, i) => {
-      const d = addDays(t, i), key = iso(d);
-      if (i === 0 || d.getDate() === 1) {
-        const m = document.createElement("div");
-        m.className = "month";
-        m.innerHTML = `<span class="mlabel">${MONTHS[d.getMonth()].slice(0, 3)}${d.getMonth() === 0 && i > 0 ? ` ${d.getFullYear()}` : ""}</span><div class="mdays"></div>`;
-        strip.appendChild(m);
-        days = m.querySelector(".mdays");
-      }
+    const tKey = iso(t), lastKey = iso(last);
+    const days = [];
+    for (let i = 1; i <= ndays; i++) {
+      const d = new Date(first.getFullYear(), first.getMonth(), i), key = iso(d);
+      const open = key >= tKey && key <= lastKey;
+      days.push({ d, key, open, n: open ? base.filter((e) => spans(e, key, key)).length : 0 });
+    }
+    const max = Math.max(1, ...days.map((x) => x.n));
+    grid.innerHTML = "";
+    for (let i = 0; i < (first.getDay() + 6) % 7; i++) grid.appendChild(document.createElement("span"));   // da lunedi'
+    for (const { d, key, open, n } of days) {
       const b = document.createElement("button");
       b.type = "button";
-      b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty");
-      const on = state.preset !== "all" && state.from && key >= state.from && (!state.to || key <= state.to);
+      b.className = "cday" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (key === tKey ? " today" : "");
+      b.disabled = !open;
+      const on = open && state.preset !== "all" && state.from && key >= state.from && key <= (state.to || state.from);
       b.setAttribute("aria-pressed", String(!!on));
       if (on && key === state.from) b.classList.add("r-start");
-      if (on && key === state.to) b.classList.add("r-end");
+      if (on && key === (state.to || state.from)) b.classList.add("r-end");
+      const size = n ? Math.round(12 + Math.sqrt(n / max) * 22) : 0;       // da 12 a 34 px
+      b.style.setProperty("--blob", `${size}px`);
       b.setAttribute("aria-label", `${dayLabel(d)}: ${n} eventi`);
-      b.innerHTML = `<span class="bar-wrap"><span class="bar" style="height:${Math.round((n / max) * 28) + 2}px"></span></span>
-        <span class="dow">${i === 0 ? "oggi" : DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span>`;
-      b.addEventListener("click", () => { Sound.play("chip"); pickDay(key); });
-      days.appendChild(b);
-    });
-    strip.scrollLeft = keep;
-    document.querySelectorAll(".presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.preset === state.preset)));
+      b.title = open ? `${n} ${n === 1 ? "evento" : "eventi"}` : "";
+      b.innerHTML = `${n ? '<span class="blob" aria-hidden="true"></span>' : ""}<span class="num">${d.getDate()}</span>`;
+      if (open) b.addEventListener("click", () => { Sound.play("chip"); pickDay(key); });
+      grid.appendChild(b);
+    }
+    $("#cal-month").textContent = `${MONTHS[first.getMonth()]} ${first.getFullYear()}`;
+    $("#cal-prev").disabled = state.calMonth <= 0;
+    $("#cal-next").disabled = state.calMonth >= maxMonth;
+    document.querySelectorAll(".presets button").forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.preset === state.preset)));
     renderRangeHint();
-    updateStripNav();
   }
+  const updateStripNav = () => {};
 
   // frecce avanti/indietro (desktop) per le righe che scorrono: giorni e categorie
   function updateScrollNav(sel) {
@@ -279,7 +286,6 @@
     $(`#${id}-next`).disabled = atEnd;
     s.classList.toggle("at-end", atEnd);
   }
-  const updateStripNav = () => updateScrollNav("#strip");
 
   function setupScrollNav(sel) {
     const s = $(sel), id = sel.slice(1);
@@ -575,7 +581,7 @@
     if (!map.hasImage("sea-paper")) map.addImage("sea-paper", paperPattern(), { pixelRatio: 2 });
     // scritte della mappa nel carattere a mano del sito (glifi serviti dal sito stesso, cartella fonts/)
     try { map.setGlyphs(`${new URL(window.ANDIAMO_FONTS || "fonts/", location.href).href}{fontstack}/{range}.pbf`); } catch (_) { /* */ }
-    const HIDE = /park|landcover|landuse|building|aeroway|pier|path|rail|tunnel|casing|shield|highway-name|airport|label_other|label_village|waterway_line_label|boundary_disputed|subtle/;
+    const HIDE = /park|landcover|landuse|building|aeroway|pier|path|rail|tunnel|casing|shield|highway-name|airport|label_other|label_village|label_state|waterway_line_label|boundary_disputed|subtle/;
     for (const l of map.getStyle().layers) {
       const id = l.id;
       if (["clusters", "clusters-ink", "clusters-live", "cluster-count", "points", "points-live", "sel-live", "points-hover", "points-selected"].includes(id)) continue;
@@ -592,7 +598,8 @@
       else if (l.type === "symbol") {
         lay(id, "text-font", HAND_FONT);
         if (/^label_/.test(id)) lay(id, "text-field", ["coalesce", ["get", "name:it"], ["get", "name:latin"], ["get", "name"]]);
-        if (id === "label_town") { try { map.setLayerZoomRange(id, 9, 24); } catch (_) { /* */ } }   // paesi solo da vicino
+        if (id === "label_town") { try { map.setLayerZoomRange(id, 7, 24); } catch (_) { /* */ } }   // cittadine da zoom medio
+        if (/label_city/.test(id)) lay(id, "text-size", ["interpolate", ["linear"], ["zoom"], 4, 12, 8, 16, 12, 20]);
         const sea = /water/.test(id);
         set(id, "text-color", sea ? "#3d8a69" : MAP_INK.text);
         set(id, "text-halo-color", sea ? MAP_INK.paper : "rgba(214, 240, 224, .55)"); set(id, "text-halo-width", sea ? 1.2 : 1.6);
@@ -1757,16 +1764,20 @@
     setupAdd();
     setupReport();
     setupSearch();
-    setupScrollNav("#strip");
+    $("#cal-prev").addEventListener("click", () => { state.calMonth = (state.calMonth || 0) - 1; renderStrip(); });
+    $("#cal-next").addEventListener("click", () => { state.calMonth = (state.calMonth || 0) + 1; renderStrip(); });
     setupScrollNav("#chips");
     setupFilters();
     // barre dei giorni e dei filtri a tutta larghezza: l'elenco (desktop) sta nello spazio tra le due;
     // su telefono i filtri partono sotto la barra dei giorni
     const placePanels = () => {
       const root = document.documentElement.style, gap = MOBILE() ? 8 : 12;
-      const daysBottom = $(".days").getBoundingClientRect().bottom;
-      root.setProperty("--cats-top", `${Math.round(daysBottom + 10)}px`);   // desktop: categorie sotto il calendario
-      const above = MOBILE() ? daysBottom : $(".chips-row").getBoundingClientRect().bottom;
+      const bar = $(".days").getBoundingClientRect(), daysBottom = bar.bottom;
+      // desktop: le categorie stanno sulla stessa riga del calendario, alla sua destra e alte uguali
+      root.setProperty("--cats-top", `${Math.round(bar.top)}px`);
+      root.setProperty("--cats-left", `${Math.round(bar.right + 10)}px`);
+      root.setProperty("--cats-h", `${Math.round(bar.height)}px`);
+      const above = MOBILE() ? daysBottom : Math.max(daysBottom, $(".chips-row").getBoundingClientRect().bottom);
       root.setProperty("--below-days", `${Math.round(above + gap)}px`);
       if (!MOBILE()) root.setProperty("--above-filters", `${Math.round(window.innerHeight - $(".filters").getBoundingClientRect().top + gap)}px`);
       root.setProperty("--below-filters", `${Math.round($(".filters").getBoundingClientRect().bottom + gap)}px`);
