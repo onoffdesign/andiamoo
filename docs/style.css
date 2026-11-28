@@ -748,12 +748,13 @@ body { background: var(--bg) var(--paper); }
 .wordmark, .kicker, .presets button, .chip, .pill-btn, .cta, .detail h2, .card h3, .group, .text-btn, .sort,
 .dlg h2, .btn-dark, .btn-light, .field-badge { font-stretch: normal; letter-spacing: .04em; }
 
-/* carta sopra la mappa: grana e una leggera ombra ai bordi, come un foglio stampato */
+/* bordi del foglio: leggera ombra fissa (la grana della carta e' nella mappa) */
 @media (min-width: 761px) { .map { border: 1.5px solid #1d1b18; } }
 .map .maplibregl-canvas-container { position: absolute; inset: 0; }
 .map .maplibregl-canvas-container::after {
   content: ""; position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply;
-  background-image: var(--paper), radial-gradient(ellipse at 50% 45%, transparent 60%, rgba(90, 70, 30, .16) 100%);
+  /* la grana e' disegnata nella mappa (si sposta con lei): qui resta solo l'ombra morbida ai bordi del foglio */
+  background-image: radial-gradient(ellipse at 50% 45%, transparent 60%, rgba(90, 70, 30, .14) 100%);
 }
 
 /* pannelli e card: carta con bordo d'inchiostro e angoli un po' irregolari */

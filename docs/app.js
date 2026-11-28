@@ -542,6 +542,27 @@
     g.globalAlpha = 1;
     return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
   }
+  // Carta del mare: crema con grana fine e qualche fibra, disegnata nella mappa stessa (si sposta con lei).
+  function paperPattern() {
+    const s = 2, size = 128, cv = document.createElement("canvas");
+    cv.width = cv.height = size * s;
+    const g = cv.getContext("2d"), r = rng(7);
+    g.fillStyle = MAP_INK.paper; g.fillRect(0, 0, cv.width, cv.height);
+    for (let i = 0; i < 5200; i++) {
+      g.fillStyle = r() < 0.75 ? "#8a7a5a" : "#ffffff";
+      g.globalAlpha = 0.05 + r() * 0.1;
+      g.fillRect(r() * cv.width, r() * cv.height, 1 + r() * 1.2, 1 + r() * 1.2);
+    }
+    g.strokeStyle = "#9a8865"; g.lineWidth = 0.8;
+    for (let i = 0; i < 40; i++) {                       // fibre corte
+      const x = r() * cv.width, y = r() * cv.height, a = r() * Math.PI, l = 6 + r() * 14;
+      g.globalAlpha = 0.06 + r() * 0.06;
+      g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(x + Math.cos(a) * l / 2 + r() * 4, y + Math.sin(a) * l / 2 + r() * 4,
+        x + Math.cos(a) * l, y + Math.sin(a) * l); g.stroke();
+    }
+    g.globalAlpha = 1;
+    return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
+  }
   function warmStyle() {
     const set = (id, prop, val) => { try { map.setPaintProperty(id, prop, val); } catch (_) { /* proprieta' assente */ } };
     const lay = (id, prop, val) => { try { map.setLayoutProperty(id, prop, val); } catch (_) { /* proprieta' assente */ } };
@@ -551,6 +572,7 @@
       set(id, "line-color", color); set(id, "line-width", width); set(id, "line-dasharray", [0, gap]); set(id, "line-opacity", 1);
     };
     if (!map.hasImage("land-grain")) map.addImage("land-grain", grainPattern(), { pixelRatio: 2 });
+    if (!map.hasImage("sea-paper")) map.addImage("sea-paper", paperPattern(), { pixelRatio: 2 });
     // scritte della mappa nel carattere a mano del sito (glifi serviti dal sito stesso, cartella fonts/)
     try { map.setGlyphs(`${new URL(window.ANDIAMO_FONTS || "fonts/", location.href).href}{fontstack}/{range}.pbf`); } catch (_) { /* */ }
     const HIDE = /park|landcover|landuse|building|aeroway|pier|path|rail|tunnel|casing|shield|highway-name|airport|label_other|label_village|waterway_line_label|boundary_disputed|subtle/;
@@ -559,7 +581,7 @@
       if (["clusters", "clusters-ink", "clusters-live", "cluster-count", "points", "points-live", "sel-live", "points-hover", "points-selected"].includes(id)) continue;
       if (l.type === "background") { set(id, "background-color", MAP_INK.land); set(id, "background-pattern", "land-grain"); }
       else if (HIDE.test(id)) hide(id);
-      else if (l.type === "fill" && /water/.test(id)) { set(id, "fill-color", MAP_INK.paper); set(id, "fill-outline-color", MAP_INK.paper); }
+      else if (l.type === "fill" && /water/.test(id)) { set(id, "fill-color", MAP_INK.paper); set(id, "fill-pattern", "sea-paper"); }
       else if (l.type === "line" && /waterway/.test(id)) { set(id, "line-color", MAP_INK.paper); }
       else if (/motorway/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 5, 1.6, 10, 2.4, 14, 3.4], 1.7);
       else if (/highway_major/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 9, 1.3, 12, 2, 16, 2.8], 1.9);
