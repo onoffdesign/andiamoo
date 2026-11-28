@@ -1146,14 +1146,17 @@
       ? encodeURIComponent([e.venue, e.address, e.town].filter(Boolean).join(", ")) : `${e.lat},${e.lon}`}`;
     // in cima a sinistra solo OGGI / DOMANI (e "In corso"); per gli altri giorni niente, la data e' sotto
     const diff = Math.round((d0 - today()) / 86400000);
-    const tags = (LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : "")
+    const tags = opts.inline ? "" : (LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : "")
       + (diff <= 0 && !LIVE.has(e.uid) ? '<span class="day-tag">Oggi</span>' : diff === 1 ? '<span class="day-tag">Domani</span>' : "");
     el.innerHTML = `
       ${favButton(e, "fav")}
       ${tags ? `<div class="card-top">${tags}</div>` : ""}
-      <div class="card-when">
+      ${opts.inline
+        // lista: giorno e ora sono gia' a destra nel riquadro; qui solo la fine per gli eventi di piu' giorni
+        ? (untilLine ? `<div class="card-when"><span class="u">${esc(untilLine[0].toUpperCase() + untilLine.slice(1))}</span></div>` : "")
+        : `<div class="card-when">
         <strong class="w-day">${esc(plainDay(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}
-      </div>
+      </div>`}
       ${opts.inline ? "" : `<h3>${esc(e.title)}</h3>`}
       ${opts.inline ? "" : `<p class="card-place"><b>${esc(e.venue || e.town)}</b>${place2 ? `<br>${esc(place2)}` : ""}${dist ? `<br><span class="muted">${dist} da te</span>` : ""}</p>`}
       <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}</div>

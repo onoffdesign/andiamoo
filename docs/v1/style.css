@@ -1112,3 +1112,6 @@ body.view-list .group {
 }
 body.view-list .panel .panel-body > ol > .group:first-child { padding-top: 6px; }
 @media (max-width: 760px) { body.view-list .group { padding: 18px 12px 6px; font-size: 1.5rem; } }
+
+body.view-list .inline-card .card-when .u { font-size: 1.0625rem; font-weight: 600; }
+body.view-list .inline-card .card.full > .fav { top: 6px; }
