@@ -516,13 +516,14 @@
   // Mappa minimale "a puntini": la terra e' una trama di punti, il mare e' carta liscia, strade e confini principali
   // sono file di punti; restano solo i nomi di citta' e paesi. Tutto il resto della base (edifici, parchi, binari,
   // stradine, numeri delle strade, aeroporti) e' nascosto.
-  const MAP_INK = { paper: "#f5f3ee", land: "#ebe7df", dot: "#bcb6a8", road: "#c4bdaf", border: "#a39c8e", text: "#6b665d" };
+  // La terra non ha un colore di fondo: il suo grigio nasce solo dalla trama fitta di puntini sulla carta.
+  const MAP_INK = { paper: "#f5f3ee", dot: "#bab3a4", road: "#a9a293", border: "#958e80", text: "#6b665d" };
   function dotPattern() {
-    const s = 2, step = 7, cv = document.createElement("canvas");
+    const s = 2, step = 4, cv = document.createElement("canvas");
     cv.width = cv.height = step * s;
     const g = cv.getContext("2d");
-    g.fillStyle = MAP_INK.land; g.fillRect(0, 0, cv.width, cv.height);
-    g.fillStyle = MAP_INK.dot; g.beginPath(); g.arc(cv.width / 2, cv.height / 2, 1.05 * s, 0, Math.PI * 2); g.fill();
+    g.fillStyle = MAP_INK.paper; g.fillRect(0, 0, cv.width, cv.height);
+    g.fillStyle = MAP_INK.dot; g.beginPath(); g.arc(cv.width / 2, cv.height / 2, 0.85 * s, 0, Math.PI * 2); g.fill();
     return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
   }
   function warmStyle() {
@@ -538,7 +539,7 @@
     for (const l of map.getStyle().layers) {
       const id = l.id;
       if (["clusters", "clusters-live", "cluster-count", "points", "points-live", "sel-live", "points-hover", "points-selected"].includes(id)) continue;
-      if (l.type === "background") { set(id, "background-color", MAP_INK.land); set(id, "background-pattern", "land-dots"); }
+      if (l.type === "background") { set(id, "background-color", MAP_INK.paper); set(id, "background-pattern", "land-dots"); }
       else if (HIDE.test(id)) hide(id);
       else if (l.type === "fill" && /water/.test(id)) { set(id, "fill-color", MAP_INK.paper); set(id, "fill-outline-color", MAP_INK.paper); }
       else if (l.type === "line" && /waterway/.test(id)) { set(id, "line-color", MAP_INK.paper); }
