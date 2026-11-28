@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T12:28+01:00",
+ "generato": "2026-11-28T12:31+01:00",
  "riepilogo": {
   "eventi_controllati": 786,
   "allineati_in_automatico": 2,
@@ -225,6 +225,14 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "Biblioteca dei Liberi Pensatori, Via Don Minzoni 14, Silea",
+   "eventi": 1,
+   "uid": [
+    "b49775d14e84764d"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Chiesa di Sant'Agnese, Borgo Cavour 35, Treviso",
    "eventi": 1,
    "uid": [
@@ -381,14 +389,6 @@
    "eventi": 1,
    "uid": [
     "d28b0837bf5981d1"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Duomo di Treviso (partenza), Piazza Duomo, Treviso",
-   "eventi": 1,
-   "uid": [
-    "5cc7b9938d42cbc4"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }

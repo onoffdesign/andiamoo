@@ -22,3 +22,5 @@ domini:
   - {dominio: arteven.it, percorso: /pr/treviso}
   - {dominio: cinemaedera.it, percorso: /rassegne.html}
   - {dominio: comune.montebelluna.tv.it}
+  - {dominio: comune.venezia.it, nota: "protezione Incapsula, anche live.comune.venezia.it (2026-11-28)"}
+  - {dominio: veneziaunica.it, nota: "protezione Incapsula (2026-11-28)"}

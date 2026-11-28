@@ -103,6 +103,16 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   e si aprono tutte (4 su 4, una del 2024). Nordest24 /category/eventi elenca gli articoli TV della settimana: utile come test di copertura
   (8/10 gia' sul sito). Gli articoli Qdpnews senza anno nell'indirizzo restano quasi sempre vecchi (3 su 5 stanotte: 2023, 2024, 2025).
 
+- 2026-11-28 (notte): brochure e programmi in immagine (Ateneo di Treviso): scaricare il file dal sito ufficiale e
+  leggerlo come immagine, un anno di conferenze in una lettura. Le schede delle gare del Calendario Podismo Veneto
+  sono volantini in immagine: usare la pagina del mese (ora e km) e la scheda solo come official_url; i giorni della
+  settimana della pagina del mese sono sfasati, vale la data nel link della scheda.
+- 2026-11-28 (notte): comuni OpenCity (Vicenza, Verona, Udine): l'API /api/opendata/v2/content/search da' tutti gli
+  eventi anche quando l'elenco HTML e' vuoto. Portali WordPress: provare /wp-json/tribe/events/v1/events.
+  Siti comunali Municipium (/it/events) e Design Comuni (/eventi/) si leggono; le schede hanno orari e costi.
+- 2026-11-28 (notte): la shell raggiunge i siti e Nominatim: posizioni dei luoghi senza spendere ricerche
+  ("town hall in <comune>", "library in <comune>", teatri, musei e piazze per nome), con una pausa tra le richieste.
+
 ## Fonti da evitare o poco utili
 - Elenco dei domini che WebFetch non legge: ora in `ops/domini-illeggibili.yaml` (lo stampa il piano della notte).
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -189,6 +199,14 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   Vazzola) danno solo eventiesagre di anni passati e omonimi (Trevignano Romano): saltarle. Qdpnews Natale di Montebelluna
   e della Marca, eventiesagre Mogliano e concerti di Natale: tutti 2016-2025.
 
+- 2026-11-28 (notte): non leggibili con WebFetch i comuni MyPortal con solo base_url (Mogliano, Treviso, Spresiano,
+  Paese, Trevignano: vale /home/vivere/eventi.html dove esiste), fbsr.it, libreriasanleonardo.it/notes, i siti comunali
+  JavaScript del Friuli (Palmanova, Casarsa, Polcenigo, Monfalcone, San Canzian, Villesse), MyPortal 3 (comune.rovigo.it),
+  Venezia (Incapsula). Teatro Accademia /events/ dietro verifica anti-bot. Pro Loco Castello di Godego ferma al 2020.
+- 2026-11-28 (notte): ricerche per ambito senza dominio (ginnastica, lavoro, astronomia, startup, teatro ragazzi): 0
+  eventi su 6. I comuni design-comuni con "Nessun evento in programma" (Preganziol, Crocetta, San Pietro di Feletto)
+  sprecano una lettura: per i comuni piccoli meglio Nordest24, Qdpnews o la pagina del mese del podismo.
+
 ## Calendario (chi pubblica quando)
 - Programmi di Natale dei comuni (accensione dell'albero, villaggi): a meta' novembre in cima ci sono ancora gli
   articoli del 2025; quelli nuovi escono dopo il 15-20 novembre.
@@ -214,3 +232,7 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   (TypeError nel sort) anche se --controlla le dice valide.
 - --controlla non verifica le sottocategorie: usare solo quelle di config/categories.yaml (teatro, non prosa;
   sagre, non radicchio). Corrette 41 voci il 2026-11-09.
+
+- 2026-11-28 (notte): un test (test_apply_payload_in_cloud) riscriveva ops/prelievi.csv e poteva toccare
+  ops/da-verificare.json: ora il fixture li sposta in una cartella temporanea. Pubblicare mentre un agente lavora rigenera
+  coda e campione: gli agenti lavorano le versioni del piano, non ricaricarle a meta'.

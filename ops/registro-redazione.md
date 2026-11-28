@@ -4,21 +4,41 @@ Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/
 
 ## 2026-11-28 (sessione notturna, quattro agenti)
 
-- **Rete bloccata**: la rete della sessione cloud non raggiungeva nessun sito (WebFetch: ENOTFOUND su comunemoglianoveneto.it,
-  libreriasanleonardo.it, comune.treviso.it, mapcarta.com, padovacultura.padovanet.it, comune.verona.it, cinemaedera.it,
-  qdpnews.it). Gli agenti sono stati fermati dopo le prime prove; nessun dato preso dai soli riassunti di WebSearch.
-- **Fonti del giro lette**: 0 su 40. **Verifiche delle fonti**: 0 su 12 (restano da verificare).
-- **Modulo del sito**: 2 righe, entrambe di prova (TEST), ignorate.
-- **Coda di revisione**: 0 su 60. **Campione**: non controllato. **Posizioni**: invariate (0 punti diversi, 1 lontano, falso
-  allarme H-FARM gia' verificato l'8/11; 252 con luogo senza punto). **Test di copertura**: non fatto.
-- **Eventi aggiunti / corretti / rimossi / verificati**: 0 / 0 / 0 / 0. Sito a 448 eventi.
-- **Province d'Italia**: nessuna cercata davvero (date in copertura.yaml non scritte).
-- **Ricerche usate**: 32 su 500 (giro 5, revisione 13, treviso 7, italia 6, coordinatore 1).
-- **Da riprendere quando la rete funziona** (dai resoconti in ops/notte/): programma di Magico Natale nelle Antiche Terre
-  (Susegana e Santa Lucia, Qdpnews e Nordest24 del 28/11), Natale a Treviso in piazza Rinaldi (Qdpnews), Cinema Edera della
-  settimana, fonti candidate Padova Cultura, Comune di Verona eventi, Visit Verona; luoghi senza punto Ca' dei Carraresi,
-  Corso Mazzini a Montebelluna, Gypsotheca di Possagno, Teatro del Pane.
-- **Problemi aperti**: aprire la rete della sessione ai siti esterni nelle impostazioni dell'ambiente cloud.
+- **Prima prova della notte**: rete della sessione bloccata (WebFetch ENOTFOUND), nessun dato; seconda prova con WebFetch
+  e shell funzionanti, i quattro agenti (giro, revisione, treviso, italia) hanno lavorato in parallelo e ogni parte e'
+  stata unita e pubblicata appena finita.
+- **Sito**: da 448 a 786 eventi. **Aggiunti 331**: musica 107, teatro-spettacoli 64, arte-cultura 52, famiglie-bambini 47,
+  sport 21, sagre-feste 19, mercatini-fiere 18, business 2, natura-outdoor 2. Treviso 105 (giro 61, treviso 46, meno 2
+  doppioni tolti), resto d'Italia 226 (BL 34, TS 31, VR 30, VI 29, PD 26, PN 25, VE 24, UD 14, GO 12, RO 1).
+- **Fonti del giro lette**: 39 su 39 (il piano ne elenca 39). Non leggibili con WebFetch: 5 comuni MyPortal con solo base_url
+  (Mogliano, Treviso, Spresiano, Paese, Trevignano), fbsr.it, libreriasanleonardo.it/notes (nessuna disattivata).
+  Rese migliori: Teatro Da Ponte 13, Mattorosso 14, Scopri Oderzo 10, Silea 6.
+- **Verifiche delle fonti**: ammesse happyticket.com e itinerarinellarte.it; vietate calendariopodismo.it e trovasagre.com
+  (robots.txt blocca ClaudeBot); restano da verificare 8 (trevisoeventi.com, ticketone.it, umbriaecultura.it,
+  classicalive.it, running.life, tviweb.it, eventiesagre.it, insolitotrantran.it: termini non trovati). Rimessi 2 eventi
+  di happyticket (Affinita' elettive, Capodanno da Oscar).
+- **Modulo del sito**: solo le 2 righe di prova TEST, ignorate.
+- **Coda di revisione**: 60 su 60, 12 corretti, 0 rimossi, 48 verificati (in tutto 23 correzioni e 65 verificati, con il
+  campione). **Campione**: 9/20 (luogo 6, orario 4, link 3, accesso 1), regola nuova nella parte 1.
+  **Posizioni**: 88 luoghi nuovi in config/luoghi.yaml; solo comune con luogo da 354 a 203 (su 786 eventi).
+- **Test di copertura**: 13/20.
+- **Correzioni del coordinatore**: mostra Lipparini con titolo, data (14/11) e link dei Musei Civici al posto di
+  digitradio/tviweb; tolti dalla redazione 2 doppioni (F.O.C.U.S. gia' sul sito, accensione dell'albero di Susegana).
+- **Fonti nuove catalogate**: 21 in ops/fonti.yaml (Ateneo di Treviso, Museo di Montebelluna, H-FARM College, agende
+  OpenCity di Vicenza, Verona e Udine, Fenice, Verdi di Trieste, Turismo FVG, Natale a Pordenone...). **Spostate in
+  config/sources.yaml**: dolomiti-prealpi e sala-luttazzi-trieste (tribe_api). Domini illeggibili: comune.venezia.it,
+  veneziaunica.it. Treviso Sotterranea passata a debole.
+- **Miglioria**: programmi in immagine letti scaricando il file dal sito ufficiale; il test che riscriveva
+  ops/prelievi.csv ora usa una cartella temporanea.
+- **Ricerche**: circa 370 su 500 (giro 108, revisione 53, treviso 98, italia 110, coordinatore 1), piu' letture dirette
+  dalla shell (revisione 46 pagine e circa 150 richieste a Nominatim, italia comprese nel suo conto).
+- **Problemi aperti per la notte dopo**:
+  - Stagioni teatrali di Padova, Fenice e Verdi di Trieste pubblicate come evento unico con le recite nel riassunto:
+    vanno divise in date singole come chiede la regola.
+  - Rovigo quasi vuota (sito del Comune vuoto); 6 comuni della 2b non controllati (Vescovana, Vo', Pettorazza Grimani,
+    Ceneselli, La Valle Agordina, Frisanco).
+  - Orari di Boschi a Natale a Follina e Cison da confermare; luoghi ancora senza punto: circa 203 eventi.
+  - Agende OpenCity: candidate a un raccoglitore nuovo (vedi ops/fonti.yaml).
 
 ## 2026-11-28
 

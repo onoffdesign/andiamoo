@@ -387,16 +387,16 @@ fonti:
   categorie: [arte-cultura]
   comuni: [Treviso]
   province: [TV]
-  frequenza: settimanale
+  frequenza: mensile
   qualita: 3
   resa: { controlli: 3, eventi_trovati: 0, ultimi: [0, 0, 0] }
-  ultimo_controllo: '2026-11-20'
+  ultimo_controllo: '2026-11-28'
   automatizzabile: no
-  stato: attiva
+  stato: debole
   note: "2026-11-10: la ricerca mostra solo articoli vecchi, nessuna data nuova. WordPress The Events Calendar (/calendario/elenco/?tribe-bar-date=...), ma robots.txt vieta i robot: non va in sources.yaml ne' aperta con WebFetch. Usare solo i titoli dei risultati di ricerca e il link /calendario/ come official_url."
 - nome: Cinema Edera (Treviso)
-  url: https://www.cinemaedera.it/i-film-della-settimana.html
-  query: Cinema Edera Treviso film della settimana
+  url: https://www.cinemaedera.it/
+  query: Cinema Edera Treviso (allowed_domains cinemaedera.it; la home elenca gli eventi speciali con le schede)
   tipo: cinema
   categorie: [teatro-spettacoli]
   comuni: [Treviso]
@@ -404,7 +404,7 @@ fonti:
   frequenza: settimanale
   qualita: 3
   resa: { controlli: 3, eventi_trovati: 0, ultimi: [0, 0, 0] }
-  ultimo_controllo: '2026-11-20'
+  ultimo_controllo: '2026-11-28'
   automatizzabile: no
   stato: attiva
   note: "programmazione con orari; rassegne (I martedi' a 4 euro della Regione, film in lingua originale, Edera Film Festival). Pagina 'prossimamente.html' per le uscite. Link ufficiale per gli eventi dell'Edera presi da insolitotrantran."
@@ -2203,3 +2203,321 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "Area eventi in Via Noalese: feste a tema con mercatino (Thanksgiving 29/11/2026). Nessun sito con calendario trovato: le feste escono come articoli di Nordest24 e VenetoToday."
+- nome: "Ateneo di Treviso (conferenze dell'anno accademico)"
+  url: https://www.ateneoditreviso.it/
+  query: "Ateneo di Treviso (allowed_domains ateneoditreviso.it)"
+  tipo: ente
+  categorie:
+  - arte-cultura
+  comuni:
+  - "Treviso"
+  frequenza: annuale
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Programma dell'anno solo come immagine JPG in home: si scarica e si legge come immagine. Conferenze il venerdi' alle 17:30 al Seminario Vescovile, gratuite."
+- nome: "Museo di Storia Naturale e Archeologia di Montebelluna"
+  url: https://www.museomontebelluna.it/
+  query: "museo Montebelluna eventi (allowed_domains museomontebelluna.it)"
+  tipo: museo
+  categorie:
+  - arte-cultura
+  - famiglie-bambini
+  comuni:
+  - "Montebelluna"
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. "
+- nome: "H-FARM College, open day"
+  url: https://college.h-farm.com/en/open-college/
+  query: "H-FARM College open day"
+  tipo: azienda
+  categorie:
+  - business
+  comuni:
+  - "Roncade"
+  frequenza: trimestrale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Date degli open day fino a luglio 2027."
+- nome: "Prosecco Run (GT Sport)"
+  url: https://www.prosecco.run/
+  query: "Prosecco Run Vidor"
+  tipo: sport
+  categorie:
+  - sport
+  comuni:
+  - "Vidor"
+  - "Vittorio Veneto"
+  frequenza: annuale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. "
+- nome: "Asolo Musica"
+  url: https://www.asolomusica.com/
+  query: "Asolo Musica calendario"
+  tipo: associazione
+  categorie:
+  - musica
+  comuni:
+  - "Asolo"
+  - "Castelfranco Veneto"
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Molti concerti fuori provincia (Venezia, Vicentino)."
+- nome: "Calendario sportdolomiti.it (schede gara)"
+  url: https://sportdolomiti.it/
+  query: "sportdolomiti ds_event <nome gara>"
+  tipo: sport
+  categorie:
+  - sport
+  comuni: []
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Schede gara ds_event/<codice> con data, ora e organizzatore (trail e corse in Veneto)."
+- nome: "Comune di Silea, schede evento"
+  url: https://www.comune.silea.tv.it/eventi/
+  query: "Comune di Silea eventi"
+  tipo: comune
+  categorie:
+  - famiglie-bambini
+  - arte-cultura
+  comuni:
+  - "Silea"
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Le schede hanno orari, luogo e costo che l'elenco non riporta."
+- nome: "New Age Club, schede evento"
+  url: https://www.newageclub.it/
+  query: "New Age Club Roncade evento"
+  tipo: locale
+  categorie:
+  - musica
+  comuni:
+  - "Roncade"
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Usare la scheda del locale come official_url al posto delle pagine di vendita."
+- nome: "Dolomiti Prealpi (BL)"
+  url: https://www.dolomitiprealpi.it/
+  query: "Dolomiti Prealpi eventi"
+  tipo: ufficio turistico
+  categorie:
+  - musica
+  - teatro-spettacoli
+  - arte-cultura
+  comuni:
+  - "Belluno"
+  - "Feltre"
+  - "Ponte nelle Alpi"
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 34, ultimi: [34] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Spostata in config/sources.yaml (tribe_api) il 2026-11-28."
+- nome: "VIVA, agenda del Comune di Vicenza"
+  url: https://eventi.comune.vicenza.it/Eventi
+  query: "agenda eventi Comune di Vicenza"
+  tipo: comune
+  categorie:
+  - musica
+  - teatro-spettacoli
+  - arte-cultura
+  comuni:
+  - "Vicenza"
+  frequenza: settimanale
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 25, ultimi: [25] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. API OpenCity: /api/opendata/v2/content/search/classes [event] and calendar[time_interval] = [da,a] limit 100 (239 eventi a dicembre). Candidata a un raccoglitore opencity."
+- nome: "Comune di Verona, agenda"
+  url: https://www.comune.verona.it/Vivere-il-comune/Eventi/
+  query: "Comune di Verona eventi"
+  tipo: comune
+  categorie:
+  - famiglie-bambini
+  - musica
+  - arte-cultura
+  comuni:
+  - "Verona"
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 30, ultimi: [30] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Stessa API OpenCity (94 eventi a dicembre, molti corsi ricorrenti da scartare); la pagina HTML e' vuota."
+- nome: "Comune di Udine, agenda"
+  url: https://www.comune.udine.it/Vivere-il-comune/Eventi
+  query: "Comune di Udine eventi"
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - famiglie-bambini
+  comuni:
+  - "Udine"
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 10, ultimi: [10] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Stessa API OpenCity (24 eventi a dicembre, soprattutto Civici Musei)."
+- nome: "Sala Luttazzi (Comune di Trieste)"
+  url: https://salaluttazzi.comune.trieste.it/
+  query: "Sala Luttazzi Trieste"
+  tipo: sede
+  categorie:
+  - musica
+  comuni:
+  - "Trieste"
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Spostata in config/sources.yaml (tribe_api) il 2026-11-28."
+- nome: "Natale a Pordenone (Comune)"
+  url: https://natale.comune.pordenone.it/
+  query: "Natale a Pordenone programma"
+  tipo: comune
+  categorie:
+  - musica
+  - sagre-feste
+  comuni:
+  - "Pordenone"
+  frequenza: annuale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 25, ultimi: [25] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. 151 schede in una pagina; attenzione alle pagine con i giorni della settimana del 2025."
+- nome: "Padova Cultura (Comune)"
+  url: https://padovacultura.padovanet.it/it/manifestazioni
+  query: "Padova eventi agenda (allowed_domains padovanet.it)"
+  tipo: comune
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - "Padova"
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Calendario mensile /it/calendar/month/AAAA-MM."
+- nome: "Turismo Padova"
+  url: https://www.turismopadova.it/eventi/
+  query: "Turismo Padova eventi"
+  tipo: ufficio turistico
+  categorie:
+  - teatro-spettacoli
+  - mercatini-fiere
+  comuni:
+  - "Padova"
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. 10 pagine di schede, niente dati strutturati."
+- nome: "Visit Verona"
+  url: https://www.visitverona.it/it/eventi/
+  query: "Visit Verona eventi"
+  tipo: ufficio turistico
+  categorie:
+  - musica
+  - arte-cultura
+  comuni:
+  - "Verona"
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Elenco via JS, le schede si leggono."
+- nome: "Teatro La Fenice, calendario"
+  url: https://www.teatrolafenice.it/calendario/
+  query: "Teatro La Fenice calendario"
+  tipo: teatro
+  categorie:
+  - musica
+  - teatro-spettacoli
+  comuni:
+  - "Venezia"
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Stagione intera con orari in una lettura."
+- nome: "Teatro Lirico Giuseppe Verdi di Trieste"
+  url: https://www.teatroverdi-trieste.com/it/calendario-spettacoli/
+  query: "Teatro Verdi Trieste calendario"
+  tipo: teatro
+  categorie:
+  - musica
+  - teatro-spettacoli
+  comuni:
+  - "Trieste"
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. "
+- nome: "Turismo FVG, schede evento"
+  url: https://www.turismofvg.it/eventi
+  query: "turismofvg eventi <citta'>"
+  tipo: ufficio turistico
+  categorie:
+  - arte-cultura
+  - teatro-spettacoli
+  comuni:
+  - "Udine"
+  - "Pordenone"
+  - "Trieste"
+  - "Gorizia"
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Schede /eventi/<slug> con data, ora, luogo e organizzatore."
+- nome: "Sistema Bibliotecario Provinciale di Rovigo"
+  url: https://opacnow.provincia.rovigo.it/it/now/collettivo/eventi
+  query: "eventi biblioteche provincia di Rovigo"
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - famiglie-bambini
+  comuni:
+  - "Rovigo"
+  - "Adria"
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-28'
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Unica fonte leggibile per Rovigo: il sito del Comune e' una pagina vuota."
