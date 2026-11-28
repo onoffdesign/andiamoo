@@ -922,13 +922,6 @@ correggi:
     lon: 12.20851
     nota: "punto del Castello di Collalto da Mapcarta (OpenStreetMap): borgo e chiesa di San Giorgio accanto; era sul centro di Susegana"
     verificato: "2026-11-13"
-  5cf1bcdd54711107:
-    venue: Biblioteca Comunale G. Cozzi
-    access: libero
-    price: ingresso libero e gratuito
-    summary: "Letture dal libro Passi affrettati di Dacia Maraini a cura del gruppo Voci d'inchiostro di Preganziol, in vista della Giornata contro la violenza sulle donne del 25 novembre."
-    nota: "scheda della Biblioteca di Zero Branco (eventi/295): 20/11 ore 18, Via G. B. Guidini 52, ingresso libero e gratuito"
-    verificato: "2026-11-14"
   40f06c6dc73e0fd5:
     venue: Parco del Sant'Artemio (sede della Provincia di Treviso)
     category: sport
@@ -1357,11 +1350,6 @@ correggi:
     official_url: https://teatroaccademia.it/event/uno-nessuno-centomila/
     nota: 'calendario del Teatro Accademia: martedi'' 9/2 ore 21; scheda dello spettacolo'
     verificato: '2026-11-28'
-  4d45272078d3abc0:
-    lat: 45.74185
-    lon: 12.09054
-    nota: 'stesso punto degli altri 9 eventi del Teatro comunale di Trevignano (Via Puccini 1, Falze'') in config/luoghi.yaml: l''evento aveva un punto suo a 450 m'
-    verificato: '2026-11-28'
   521981068923ec69:
     lat: 45.95006
     lon: 12.41434
@@ -1408,11 +1396,6 @@ correggi:
     access: iscrizione
     price: ingresso libero, prenotazione obbligatoria
     nota: 'scheda del Comune di Pavia: dalle 10, eta'' 5-10 anni, ingresso libero con prenotazione obbligatoria; punto da luoghi.yaml (civico in OpenStreetMap)'
-    verificato: '2026-11-28'
-  a0c0014511d7489a:
-    venue: IAT Tarcento
-    address: Via Divisione Julia 13
-    nota: 'scheda del Comune di Tarcento: luogo Ufficio IAT, Via Divisione Julia 13; dal 28/11 alle 9 al 20/12 alle 18, a cura della Pro Loco; costo non indicato; punto da luoghi.yaml'
     verificato: '2026-11-28'
   5da1d1abb65ddf33:
     price: evento di beneficenza con raccolta fondi
@@ -1488,6 +1471,480 @@ correggi:
   f82d077f058e5f26:
     address: Via Guglielmo Marconi 19
     nota: 'controllo a campione: scheda di Dolomiti Prealpi, sabato 19/12 alle 20:30 inaugurazione della mostra La zona rossa; museo in Via Marconi 19 (museionline.info, visitdolomitibellunesi.com), punto da luoghi.yaml; costo non pubblicato'
+    verificato: '2026-11-28'
+  a0c0014511d7489a:
+    venue: IAT Tarcento
+    address: Via Divisione Julia 13
+    nota: Punto dell'IAT di Tarcento, Via Divisione Julia 13 (stesso punto di config/luoghi.yaml)
+    verificato: 2026-11-28
+    lat: 46.21824
+    lon: 13.2235
+  5cf1bcdd54711107:
+    venue: Biblioteca Comunale G. Cozzi
+    access: libero
+    price: ingresso libero e gratuito
+    summary: Letture dal libro Passi affrettati di Dacia Maraini a cura del gruppo Voci d'inchiostro di Preganziol, in vista della Giornata contro la violenza sulle donne del 25 novembre.
+    nota: 'Biblioteca G. Cozzi nel complesso di Villa Guidini: punto del Teatro Comisso di Villa Guidini (luogo gia'' noto), punto noto piu'' vicino; stesso punto di config/luoghi.yaml'
+    verificato: 2026-11-28
+    lat: 45.60837
+    lon: 12.17951
+  1d6fa89c18ca05d5:
+    access: biglietto
+    price: 15 euro, ridotto 12 euro
+    nota: Prezzi dalla scheda di reggioemiliawelcome.it letta il 2026-11-28
+    verificato: 2026-11-28
+  0f15ac6f4b074909:
+    access: biglietto
+    price: da 12,50 a 35 euro (ridotti da 7,50 euro)
+    nota: Prezzi dalla scheda di teatrocomunalemodena.it letta il 2026-11-28
+    verificato: 2026-11-28
+  3079480a79b50826:
+    access: biglietto
+    nota: Evento a pagamento secondo culturabologna.it (biglietti su Liveticket e in biglietteria), importo non indicato; letto il 2026-11-28
+    verificato: 2026-11-28
+  1750dc67bf5253c1:
+    access: biglietto
+    price: da 40 a 50 euro
+    nota: Prezzi dalla scheda di teatrocomunaleferrara.it letta il 2026-11-28; punto del teatro ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  4f8265437079da15:
+    price: da 5 a 25 euro
+    nota: Prezzo dalla scheda di eventi.comune.bolzano.it letta il 2026-11-28
+    verificato: 2026-11-28
+  53a85aea95eb772a:
+    price: 5 euro (visita alle collezioni delle 16:30), 4 euro (visita alla mostra delle 17:30)
+    nota: Prezzi dalla pagina del calendario di museocanova.it letta il 2026-11-28
+    verificato: 2026-11-28
+  34c883bf18c3e28c:
+    official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/incontri-informativi-sulla-sicurezza-invecchiare-bene-e-conoscere-le-malattie-della-terza-eta-sanguinamento-anale/
+    nota: Scheda dell'evento sul sito del Comune di Sernaglia (dall'elenco /eventi letto il 2026-11-28); l'elenco non da' ne' luogo ne' orario
+    verificato: 2026-11-28
+  72363e6911a929f6:
+    venue: Area polifunzionale di Revine
+    nota: Luogo di partenza dalla pagina di calendariopodismoveneto letta il 2026-11-28 (orario non indicato, punto da cercare)
+    verificato: 2026-11-28
+  cee2ada47f582ec8:
+    access: biglietto
+    price: da 15 a 63 euro (giovani fino a 20 anni 9 euro)
+    nota: Prezzi dalla scheda di teatrocomunaleferrara.it letta il 2026-11-28
+    verificato: 2026-11-28
+  0ffb2cb6ec5bbcd0:
+    access: biglietto
+    price: 5 euro con la card ZolAuditorium in famiglia
+    nota: Evento a pagamento secondo culturabologna.it letto il 2026-11-28 (prezzo intero non indicato)
+    verificato: 2026-11-28
+  24211cd690f364a8:
+    access: biglietto
+    price: da 35 a 55 euro
+    nota: Prezzi dalla scheda di iteatri.re.it letta il 2026-11-28
+    verificato: 2026-11-28
+  ef4c13a326436169:
+    access: libero
+    venue: Teatro Amilcare Ponchielli, Ridotto
+    nota: Finale al Ridotto, ingresso libero e gratuito secondo teatroponchielli.it letto il 2026-11-28
+    verificato: 2026-11-28
+  65197353231ab50b:
+    access: biglietto
+    price: 50 o 55 euro
+    nota: Prezzi dalla scheda di accademiaperduta.it letta il 2026-11-28
+    verificato: 2026-11-28
+  f54b897121025939:
+    access: biglietto
+    price: da 9 a 30 euro
+    nota: Prezzi dalla scheda di teatrocomunalemodena.it letta il 2026-11-28
+    verificato: 2026-11-28
+  f78ddfcc6a40e5e7:
+    start: 2026-11-28T20:30
+    access: biglietto
+    price: da 11,99 euro
+    nota: Orario e prezzo dalla scheda di modena.emiliaromagnateatro.com letta il 2026-11-28
+    verificato: 2026-11-28
+  910a05b2ea20f0b3:
+    access: libero
+    nota: Ingresso completamente gratuito secondo comune.asti.it letto il 2026-11-28; punto di Piazza Alfieri ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  9ed709bf49b2e733:
+    access: biglietto
+    price: 15 euro, ridotto 2 euro (18-25 anni), gratuito sotto i 18 anni
+    nota: Prezzi dalla scheda di turismotorino.org letta il 2026-11-28; punto della Galleria Sabauda ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  79c50621d9acec51:
+    access: biglietto
+    price: da 14 a 16 euro, ridotti da 7 euro
+    nota: Prezzi dalla scheda di turismotorino.org letta il 2026-11-28; punto di Palazzo Barolo ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  efb5597a1e500967:
+    access: biglietto
+    price: 15 euro, ridotto 5 euro, prenotazione dell'orario obbligatoria
+    nota: Prezzi dalla scheda di turismotorino.org letta il 2026-11-28; punto delle OGR ora in config/luoghi.yaml
+    verificato: 2026-11-28
+  c154ab989bd88661:
+    title: 'Il tango incontra il jazz: da Piazzolla a Gershwin'
+    summary: Concerto della Blue Note Small Orchestra con musiche da Astor Piazzolla a George Gershwin.
+    access: biglietto
+    price: 8 euro, con prenotazione
+    venue: Teatro Comunale di Trevignano
+    address: Via Puccini 1, Falze'
+    lat: 45.74185
+    lon: 12.09054
+    official_url: https://trevignanocultura.it/events/il-tango-incontra-il-jazz-da-piazzolla-a-gershwin/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: il 31/1 alle 17:30 c''e'' Il tango incontra il jazz della Blue Note Small Orchestra al Teatro Comunale, non il Quartetto Aires (che suona il 17/1 a Villa Onigo, gia'' sul sito)'
+    verificato: '2026-11-28'
+  d323fe72456e5078:
+    access: biglietto
+    price: 15 euro, con prenotazione
+    official_url: https://trevignanocultura.it/events/gardizero/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: 15 euro con prenotazione'
+    verificato: '2026-11-28'
+  387db65f01f3a06f:
+    venue: Chiesa parrocchiale di Musano
+    address: Via Chiesa 1, Musano
+    access: libero
+    official_url: https://trevignanocultura.it/events/concerto-di-natale-2/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: Chiesa parrocchiale di Musano, Via Chiesa 1, ingresso libero'
+    verificato: '2026-11-28'
+  16550e702abd4e3c:
+    title: 'Concerto di Capodanno: La grande musica italiana'
+    access: biglietto
+    price: 20 euro, con prenotazione
+    venue: Teatro Comunale di Trevignano
+    address: Via Puccini 1, Falze'
+    lat: 45.74185
+    lon: 12.09054
+    official_url: https://trevignanocultura.it/events/concerto-di-capodanno-la-grande-musica-italiana/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: Teatro Comunale, Via Puccini 1, 20 euro con prenotazione'
+    verificato: '2026-11-28'
+  0e28e0b9006e5f17:
+    official_url: https://trevignanocultura.it/events/pene-damor-perdute/
+    nota: scheda ufficiale di Trevignano Cultura letta il 2026-11-28
+    verificato: '2026-11-28'
+  034728c469386bf3:
+    access: libero
+    official_url: https://trevignanocultura.it/events/4-elementi/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: ingresso libero'
+    verificato: '2026-11-28'
+  4dae7a8bdc650e22:
+    official_url: https://trevignanocultura.it/events/di-male-in-meglio/
+    nota: scheda ufficiale di Trevignano Cultura letta il 2026-11-28
+    verificato: '2026-11-28'
+  46d461f32628e360:
+    access: biglietto
+    price: 20 euro, con prenotazione
+    official_url: https://trevignanocultura.it/events/giovanni-vernia-show/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: 20 euro con prenotazione'
+    verificato: '2026-11-28'
+  3576e13e856c9ed5:
+    address: Via Mazzarolo 5
+    official_url: https://trevignanocultura.it/events/de-andre-piccole-storie-per-grandi-canzoni/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: Villa Onigo, Via Monsignor Floriano Mazzarolo 5'
+    verificato: '2026-11-28'
+  4d45272078d3abc0:
+    lat: 45.74185
+    lon: 12.09054
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: 8 euro'
+    verificato: '2026-11-28'
+    price: 8 euro
+    official_url: https://trevignanocultura.it/events/boeing-boeing-lamore-vola-e-va/
+  1c147ba6b88bd1b3:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: ''evento a pagamento'', prezzi non indicati; date 27, 28, 30/11 e 2, 4, 5, 6/12 alle 21'
+    verificato: '2026-11-28'
+  35feed7e333c3082:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: ''evento a pagamento'', prezzi non indicati; date 27, 28, 30/11 e 2, 4, 5, 6/12 alle 21'
+    verificato: '2026-11-28'
+  a6c2697a47caaab1:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: ''evento a pagamento'', prezzi non indicati; date 27, 28, 30/11 e 2, 4, 5, 6/12 alle 21'
+    verificato: '2026-11-28'
+  1253faf51d67008d:
+    access: biglietto
+    price: intero 15 euro
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: a pagamento, settore unico intero 15 euro'
+    verificato: '2026-11-28'
+  793efaad9dbff8d2:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 28/11 ore 20:30, a pagamento'
+    verificato: '2026-11-28'
+  90777c2949b594ed:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 28/11 ore 16, a pagamento, biglietti da Bologna Festival'
+    verificato: '2026-11-28'
+  3f05eb4be0666d0a:
+    access: libero
+    price: gratuito
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 29/11 ore 17 in Piazza Maggiore, evento gratuito'
+    verificato: '2026-11-28'
+  3934629077b37667:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 29/11 ore 16:30, a pagamento'
+    verificato: '2026-11-28'
+  f78c756b061dee9a:
+    access: biglietto
+    price: 15 euro, ridotto 10 con Card Cultura, oltre all'ingresso al museo; prenotazione obbligatoria
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: a pagamento con prenotazione obbligatoria su midaticket.it, 15 euro (10 con Card Cultura) oltre al biglietto del museo'
+    verificato: '2026-11-28'
+  29356b33bbca7ef1:
+    access: biglietto
+    price: intero 28,50 euro, ridotto 25, under 29 22,50
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: a pagamento, intero 28,50, ridotto 25, under 29 22,50'
+    verificato: '2026-11-28'
+  37401a309e36dab9:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 30/11 ore 20:30, a pagamento'
+    verificato: '2026-11-28'
+  375283474f96aa22:
+    access: biglietto
+    price: da 34,50 a 46 euro
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 1/12 ore 21, a pagamento, da 34,50 a 46 euro'
+    verificato: '2026-11-28'
+  af9f1f077e4edf50:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 1/12 ore 21, a pagamento'
+    verificato: '2026-11-28'
+  a5c67d9cf2f6e5bd:
+    access: libero
+    price: gratuito
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 2/12 ore 18 nella Sala Conferenze del MAMbo, evento gratuito'
+    verificato: '2026-11-28'
+  257d0946e8ee811e:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 2/12 ore 21, a pagamento'
+    verificato: '2026-11-28'
+  3caaf34c4ea05d6d:
+    access: biglietto
+    price: da 8,18 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 26 e 27/11 ore 20:30, 28/11 ore 19, 29/11 ore 16; biglietti da 8,18 euro'
+    verificato: '2026-11-28'
+  3fbcdd0df7eebf05:
+    access: biglietto
+    price: 7,63 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 27/11 17:30, 28/11 15:30 e 22:15, 29/11 18; biglietto unico 7,63 euro'
+    verificato: '2026-11-28'
+  bf45b770a80ae2fa:
+    access: biglietto
+    price: da 8,18 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 28/11 ore 18 e 29/11 ore 20; biglietti da 8,18 euro'
+    verificato: '2026-11-28'
+  33c3b4f3f41c6450:
+    access: biglietto
+    price: da 8,18 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 28/11 ore 21 e 29/11 ore 18; biglietti da 8,18 euro'
+    verificato: '2026-11-28'
+  d9e158d77e43fd56:
+    start: 2026-11-29T16:30
+    all_day: false
+    access: biglietto
+    price: da 5,45 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: unica recita domenica 29/11 alle 16:30; biglietti da 5,45 euro'
+    verificato: '2026-11-28'
+  3614d889cf460b7e:
+    access: biglietto
+    price: da 8,18 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 1/12 ore 20:30 e 2/12 ore 19; biglietti da 8,18 euro'
+    verificato: '2026-11-28'
+  7cda01a278c356d0:
+    access: biglietto
+    nota: 'teatrodue.org, scheda letta il 2026-11-28: biglietti su Vivaticket, prezzo non indicato'
+    verificato: '2026-11-28'
+  22ab68d78b4ff7c3:
+    access: biglietto
+    price: da 21 euro
+    nota: 'teatrodellatosse.it, scheda letta il 2026-11-28: 28/11 ore 21 in Sala Aldo Trionfo, biglietti da 21 euro'
+    verificato: '2026-11-28'
+  5346fba1a17527e6:
+    access: biglietto
+    price: da 25 a 65 euro, under 25 15 euro
+    nota: 'teatroponchielli.it, scheda letta il 2026-11-28: 27/11 ore 20 e 29/11 ore 16; da 25 euro (loggione) a 65 euro, under 25 15 euro'
+    verificato: '2026-11-28'
+  3a29a2e9c94195ee:
+    start: 2026-11-29T11:00
+    all_day: false
+    access: libero
+    price: ingresso libero fino a esaurimento posti
+    nota: 'iteatri.re.it, scheda letta il 2026-11-28: domenica 29/11 ore 11 al Ridotto del Valli, accesso libero fino a esaurimento posti'
+    verificato: '2026-11-28'
+  d56f0d064ddc9cba:
+    access: libero
+    price: ingresso libero, prenotazione consigliata
+    nota: 'saisonculturellevda.it, scheda letta il 2026-11-28: 30/11 ore 18, ingresso libero nel limite dei posti, prenotazione consigliata'
+    verificato: '2026-11-28'
+  3fae87078133f455:
+    access: libero
+    price: gratuito
+    nota: 'cuneocultura.it, scheda letta il 2026-11-28: 2 e 3/12 ore 20:45, 4/12 ore 16:15, ingresso libero; punto della sala da luoghi.yaml'
+    verificato: '2026-11-28'
+  bbb25b6f830d4e77:
+    access: biglietto
+    price: intero 8 euro, ridotto 6
+    nota: 'turismotorino.org, scheda letta il 2026-11-28: 5/11-31/12, mar-dom 9-13 e 15-18, intero 8 euro, ridotto 6'
+    verificato: '2026-11-28'
+  83541ec862156e56:
+    access: biglietto
+    price: intero 8 euro, ridotto 6
+    nota: 'turismotorino.org, scheda letta il 2026-11-28: 14/11-20/12, intero 8 euro, ridotto 6'
+    verificato: '2026-11-28'
+  baeb61e5f4bf3249:
+    venue: Stand della Pro Loco
+    address: Via Bragadin
+    lat: 45.77854
+    lon: 12.25686
+    nota: 'fioridinverno.tv, scheda letta il 2026-11-28: stand della Pro Loco in Via Bragadin; punto di Via Bragadin su OpenStreetMap (Nominatim, way 135517687)'
+    verificato: '2026-11-28'
+  09780e2cc9d96f7a:
+    lat: 45.67293
+    lon: 11.9268
+    nota: 'avviso del Comune di Castelfranco letto il 2026-11-28: 21/11-10/1 nei giardini a nord-est e nord-ovest sotto le mura; punto del percorso ''Attorno alle Mura'' su OpenStreetMap (Nominatim, way 130555016), punto noto piu'' vicino'
+    verificato: '2026-11-28'
+  14e942aa659b233b:
+    official_url: https://www.mentelocale.it/treviso/137798-reel-rock-tour-italia-2026.htm
+    ticket_url: https://www.happyticket.com/treviso/acquista-biglietti/1-316124-gbizelvjzzj7nbb.htm
+    nota: 'il link ufficiale era la pagina di vendita di Happy Ticket: ora in ticket_url; official_url alla scheda mentelocale (fonte dell''evento); punto del cinema da luoghi.yaml'
+    verificato: '2026-11-28'
+  15e181e7312d5bde:
+    start: '2026-04-30'
+    access: libero
+    price: gratuito
+    nota: 'musei.re.it, scheda letta il 2026-11-28 (campione): mostra dal 30/4/2026 al 28/2/2027, ingresso gratuito senza prenotazione'
+    verificato: '2026-11-28'
+  1327c1b8bc7ba147:
+    official_url: https://www.newageclub.it/events/
+    nota: 'campione: link ufficiale mancante; elenco eventi del New Age Club (newageclub.it/events/, ricerca del 2026-11-28) con Nanowar Of Steel e Induction lunedi'' 7/12; TicketOne solo come ticket_url'
+    verificato: '2026-11-28'
+  bb8e4a271641aeee:
+    price: da 15 a 65 euro
+    nota: 'teatrodonizetti.it, scheda letta il 2026-11-28 (campione): 8/12 ore 17 al Teatro Sociale, biglietti da 15 a 65 euro'
+    verificato: '2026-11-28'
+  236d05175fa0ff06:
+    access: libero
+    price: gratuito
+    nota: 'comune.cuneo.it, scheda letta il 2026-11-28: 19 o 20/11/2026-29/3/2027 al Complesso di San Francesco, mar-ven 15:30-19:30, sab-dom 10-19:30, ingresso gratuito (sul sito era a biglietto)'
+    verificato: '2026-11-28'
+  423afbec9b339bce:
+    start: 2026-12-05T20:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/ladriano-in-siria/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  182c5d46478e8912:
+    start: 2026-12-07T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/buon-compleanno-mascagni-3/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  befeff5888cdb6b7:
+    start: 2026-12-11T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/symphonic-musicals-tra-danza-e-grande-schermo/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  5bbd70a651401942:
+    start: 2026-12-12T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/symphonic-musicals-tra-danza-e-grande-schermo/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  8d4ba0a6ee90712b:
+    start: 2026-12-15T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/morte-accidentale-di-un-anarchico/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  00d78d2e11cd0ea0:
+    start: 2026-12-18T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/lo-schiaccianoci-6/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  09aa750270de6c8a:
+    start: 2026-12-19T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/vinicio-capossela-2/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  dbb4261d5bf6f3da:
+    start: 2026-12-19T19:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/concerto-di-natale-5/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  bddca08037c5eef7:
+    start: 2026-12-22T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/langelo-del-focolare/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  03ba5931745df4da:
+    start: 2026-12-30T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/valerio-lundini-i-vazzanikki/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  ffedd08103135d9a:
+    start: 2026-12-31T21:30
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/capodanno-sulle-note-di-morricone/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  c8ac6370dd1c6db6:
+    start: 2027-01-01T18:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/concerto-di-capodanno-7/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  aa6e14d678774023:
+    start: 2027-01-04T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/lago-dei-cigni-4/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  723b41497c62dd0a:
+    start: 2027-01-05T21:00
+    all_day: false
+    official_url: https://www.goldoniteatro.it/spettacoli/christmas-carol/
+    nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
+    verificato: '2026-11-28'
+  29a320a7973dc2f4:
+    start: 2027-01-14T21:00
+    all_day: false
+    price: 15 euro
+    summary: Spettacolo teatrale della stagione 2027 del Teatro Cristallo, alle 21 con ingresso unico.
+    nota: 'scheda del teatro (cinemacristallo.com/movie/fradeo-sol-comare-luna/): giovedi'' 14 gennaio ore 21, ingresso unico 15 euro'
+    verificato: '2026-11-28'
+  29c1dcd98bb6772f:
+    start: 2027-02-10T21:00
+    all_day: false
+    price: 20 euro
+    summary: Spettacolo teatrale della stagione 2027 del Teatro Cristallo, alle 21 con ingresso unico.
+    nota: 'scheda del teatro (cinemacristallo.com/movie/eroina/): mercoledi'' 10 febbraio ore 21, ingresso unico 20 euro'
+    verificato: '2026-11-28'
+  f7acad977ad35ac4:
+    start: 2027-02-11T21:00
+    all_day: false
+    category: musica
+    subcategory: concerti
+    nota: 'scheda del teatro (cinemacristallo.com/movie/oderzo-suona-buena-vista-social-club/): concerto giovedi'' 11 febbraio ore 21; prezzo non indicato, prevendita su VivaTicket'
+    verificato: '2026-11-28'
+  d2129a4c3512bc48:
+    start: 2027-02-25T21:00
+    all_day: false
+    price: 15 euro
+    summary: Spettacolo teatrale della stagione 2027 del Teatro Cristallo, alle 21 con ingresso unico.
+    nota: 'scheda del teatro (cinemacristallo.com/movie/un-grosso-affare/): giovedi'' 25 febbraio ore 21, 15 euro'
+    verificato: '2026-11-28'
+  aa2b2b1f1f619ee2:
+    start: 2027-02-26T21:00
+    all_day: false
+    category: musica
+    subcategory: concerti
+    nota: 'scheda del teatro (cinemacristallo.com/movie/velvet-dress-u2-tribute-band/): concerto venerdi'' 26 febbraio ore 21; prezzo non indicato'
+    verificato: '2026-11-28'
+  4871ce713a128eee:
+    start: 2027-03-04T21:00
+    all_day: false
+    price: 15 euro
+    summary: Spettacolo teatrale della stagione 2027 del Teatro Cristallo, alle 21 con ingresso unico.
+    nota: 'scheda del teatro (cinemacristallo.com/movie/sottobanco/): giovedi'' 4 marzo ore 21, 15 euro'
     verificato: '2026-11-28'
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
@@ -1679,3 +2136,59 @@ verificati:
   00d40e205342f983: '2026-11-28'
   2483a2989896a122: '2026-11-28'
   0905d8617fcd4d1d: '2026-11-28'
+  144846997ddd0672: 2026-11-28
+  335bafcdc80b89f9: 2026-11-28
+  332f97cec396e0f3: 2026-11-28
+  b792efc16127c6c9: 2026-11-28
+  4b11d3d78b2543b8: 2026-11-28
+  a9ddc97b1e577969: 2026-11-28
+  f9cd1f8da953b96d: 2026-11-28
+  6d36f6c1183b82f4: 2026-11-28
+  6a377d4c7f155154: 2026-11-28
+  92528e90ff7a0112: 2026-11-28
+  6ad55f02dbd32b65: 2026-11-28
+  69d1c1c2e659c873: 2026-11-28
+  d68e654a941daf48: 2026-11-28
+  5a92545cc59b4c8c: 2026-11-28
+  00dddad7cc0b6c79: 2026-11-28
+  5fde750815887a83: 2026-11-28
+  2c168d7a8591868b: 2026-11-28
+  d9e1927cac311b66: 2026-11-28
+  efe5907f79aa48d4: 2026-11-28
+  15e181e7312d5bde: 2026-11-28
+  c55a8de03599daec: 2026-11-28
+  3ccd6a3e78fed2c7: 2026-11-28
+  db6cbab384ee2798: 2026-11-28
+  b12b3bf624935d31: 2026-11-28
+  34afafe79428c382: 2026-11-28
+  58e3f6b6972b840e: 2026-11-28
+  f6249f42024b8652: 2026-11-28
+  4a04af1dcedc3b16: '2026-11-28'
+  15fba1ddc9a08298: '2026-11-28'
+  ec74346483b81fc9: '2026-11-28'
+  ce93cc5239b01a66: '2026-11-28'
+  45b23c7c7c6eeacc: '2026-11-28'
+  c30c4d475865daa8: '2026-11-28'
+  cbaeebd4a802c713: '2026-11-28'
+  8baf2b2bbac65b62: '2026-11-28'
+  36385e3f175afdc8: '2026-11-28'
+  8db85f12daee521f: '2026-11-28'
+  41db8e885ad78b74: '2026-11-28'
+  3e380c2f6aa29387: '2026-11-28'
+  2487a0661f1bc65d: '2026-11-28'
+  50ab4cb3af2b8208: '2026-11-28'
+  9bd100951c2827c1: '2026-11-28'
+  9788bdcacf470516: '2026-11-28'
+  9aabe2d0cf699ef8: '2026-11-28'
+  e5fa344d5ee49f1e: '2026-11-28'
+  9b62f5b5d2005651: '2026-11-28'
+  87adeea4c623c604: '2026-11-28'
+  4d8513625f48420a: '2026-11-28'
+  2e8836ccd59b2071: '2026-11-28'
+  f82d077f058e5f26: '2026-11-28'
+  f70bb325c355efe6: '2026-11-28'
+  0176f4033b10a234: '2026-11-28'
+  0d9ae301171368b3: '2026-11-28'
+  2e96acfb0999122c: '2026-11-28'
+  61f7d73accb4736b: '2026-11-28'
+  680e2f92cb635599: '2026-11-28'

@@ -121,8 +121,32 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - 2026-11-28 (notte): comuni OpenCity (Vicenza, Verona, Udine): l'API /api/opendata/v2/content/search da' tutti gli
   eventi anche quando l'elenco HTML e' vuoto. Portali WordPress: provare /wp-json/tribe/events/v1/events.
   Siti comunali Municipium (/it/events) e Design Comuni (/eventi/) si leggono; le schede hanno orari e costi.
-- 2026-11-28 (notte): la shell raggiunge i siti e Nominatim: posizioni dei luoghi senza spendere ricerche
-  ("town hall in <comune>", "library in <comune>", teatri, musei e piazze per nome), con una pausa tra le richieste.
+- 2026-11-28 (notte): Nominatim per le posizioni dei luoghi senza spendere ricerche ("town hall in <comune>",
+  teatri, musei e piazze per nome o "via e civico, comune"): una chiamata per luogo, dalla shell (pausa di 1-4 secondi,
+  le 629 vanno ripassate) o con WebFetch (https://nominatim.openstreetmap.org/search?q=...&format=json) quando la
+  shell e' negata dai permessi. Mettere il CAP: "Piazza X, Comune" senza CAP finisce in un altro comune (Vercelli ->
+  Buronzo, Lecco -> Casatenovo). Overpass non risponde. Il curl dalla shell verso i siti e' negato dai permessi.
+
+- 2026-11-28 (01:07): nelle province mai coperte le stagioni dei teatri comunali e di tradizione e i programmi di
+  Natale dei capoluoghi (spesso PDF) danno quasi tutti gli eventi; i comuni piccoli rendono zero (pagine 2023-2025).
+  Le API OpenCity dei comuni romagnoli (Alfonsine, Massa Lombarda) e cuneocultura.it si leggono in JSON.
+- 2026-11-28 (cinque agenti): le pagine dei circuiti e degli enti turistici valgono una provincia: AMAT Platea delle
+  Marche (100 repliche in una lettura), Visit Valsesia Vercelli (250 eventi, 3 letture con offset), il PDF PrintPDF=1
+  di Turismo Novara (274 eventi). Partire da li', poi dalle stagioni dei teatri sul sito del Comune.
+- 2026-11-28 (cinque agenti): i PDF dei programmi (teatri, enti turistici, CAI) salvati da WebFetch si leggono con
+  pdftotext, anche quando sembrano immagini: provarlo sempre prima di estrarre le immagini.
+- 2026-11-28 (cinque agenti): WebSearch con allowed_domains sui siti comunali e "eventi dicembre 2026" da' 1-3 fonti
+  nuove a ricerca (meglio i Design Comuni /vivere-il-comune/eventi/); sui siti dei teatri illeggibili da' almeno le
+  date (senza orari).
+- 2026-11-28 (cinque agenti): dalle schede dei teatri trascrivere sempre accesso e prezzo: 4 errori su 20 del campione
+  erano "sconosciuto" con il prezzo scritto nella scheda.
+
+- 2026-11-28 (sera): fonti ufficiali che rendono molto in una lettura: calendario mensile del Maggio Musicale
+  (/calendario/AAAA/MM), Destination Florence (?page=N, 284 eventi), hellorapallo.it (tribe), feed ics di Montecatini
+  Terme Tourism, sitemap-eventi.xml di Visit Tuscany, POST JSON del calendario di Turismo Lucca, PDF di Turismo Novara.
+- 2026-11-28 (sera): da evitare visitsarzana.it, teatrodellatoscana.it (anti-bot), visitsavona.com, pagina eventi del
+  Comune di Aosta (JavaScript), tempolibero.comune.prato.it (503); i dati strutturati di VisitLazio hanno l'ora sfasata
+  di un'ora: vale il testo della scheda.
 
 ## Fonti da evitare o poco utili
 - Elenco dei domini che WebFetch non legge: ora in `ops/domini-illeggibili.yaml` (lo stampa il piano della notte).
@@ -139,13 +163,13 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - microturismodellevenezie.it ha date contraddittorie nella stessa scheda: mai usarla come conferma.
 - WebFetch rifiuta gli indirizzi presi dai file del repository e spesso i link dentro una pagina letta (domini nuovi,
   redirect, wp-json, pagine /page/2/, schede di itinerarinellarte: 8 rifiutate il 2026-11-09). Provare un link solo
-  prima di lanciarne altri in parallelo; i link usciti da WebSearch si aprono.
+  prima di lanciarne altri in parallelo; i link usciti da WebSearch si aprono (dal 2026-11-28 si aprono anche
+  Nominatim e Wikipedia scritti a mano). WebFetch toglie gli script: non vede il JSON-LD e le API vanno provate dal
+  PC o con curl, non con WebFetch (teatrodipisa.it, toscanaspettacolo.it vuoti).
 - Ricerche "eventi <comune> <mese>" e "Pro Loco <comune>" sui comuni piccoli (Carbonera, Castelcucco, Cimadolmo,
   Cavaso, Tarzo): resa ~0, escono portali. Meglio scoprire se il sito del comune e' MyPortal (si passa al PC).
 - Ricerche per tema o ambito generiche (bambini all'aperto, open mic, padel, cineforum, jam, nuoto e canoa in autunno)
   danno guide e pagine vecchie: servono parole del periodo (Natale, San Martino) e un comune.
-- Coordinate esatte: WebFetch non legge le mappe e la shell non raggiunge Nominatim. Meglio dare indirizzo e comune
-  giusti (il PC ricalcola) o il centro certo piu' vicino.
 - Newsletter UNPLI 'Weekend con le Pro Loco': nessun evento veneto.
 - 2026-11-28: mentelocale.it (home e 2 schede su 3) in errore del server; Happy Ticket /treviso/locations/<id>-<sala>.htm rimanda alle
   altre province; trevisoeventi presepi-treviso.html ferma al 2025-26; finestresullarte.info/citta/treviso e arte.it calendario Treviso
@@ -235,6 +259,10 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - 2026-11-28 (notte con quattro agenti): la rete della sessione bloccava tutti i siti (WebFetch: ENOTFOUND). Prima di
   lanciare gli agenti il coordinatore prova una sola WebFetch su una pagina nota; se fallisce, gli agenti non partono e la
   notte fa solo cio' che non usa la rete (modulo, unione, pubblicazione, memoria).
+- 2026-11-28 (01:07): un agente ha scritto coordinate a memoria perche' Nominatim gli rispondeva 403; poco dopo
+  rispondeva di nuovo. Se Nominatim fallisce si riprova piu' tardi o si lascia l'evento senza lat/lon, mai stime.
+  Gli agenti non aprono la home di un candidato prima di aver letto robots.txt e termini, nemmeno per una sonda tecnica.
+  Gli agenti condividono lo scratchpad: ognuno lavora in una sua sottocartella.
 - eventiesagre a volte sbaglia il nome del comune (Badoere di Morgano scritto "Mordano", poi geocodificato a caso):
   leggere la scheda prima di rimuovere come "fuori provincia".
 - Nel modificare correzioni.yaml con script, l'intestazione commentata contiene "# rimuovi:": inserire le voci

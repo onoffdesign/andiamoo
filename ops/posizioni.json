@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T17:47+01:00",
+ "generato": "2026-11-28T20:59+01:00",
  "riepilogo": {
-  "eventi_controllati": 1862,
-  "allineati_in_automatico": 0,
+  "eventi_controllati": 3722,
+  "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 61,
-  "solo_comune_con_luogo": 167,
-  "solo_comune_senza_luogo": 28,
-  "candidati_luoghi_noti": 37
+  "lontani_dal_comune": 109,
+  "solo_comune_con_luogo": 76,
+  "solo_comune_senza_luogo": 26,
+  "candidati_luoghi_noti": 15
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -48,12 +48,110 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
+   "luogo": "Parcheggio Chalet del Terminal Bus, Breuil-Cervinia, Valtournenche",
+   "km_dal_centro": 7,
+   "eventi": 10,
+   "uid": [
+    "b7663f862b9041b3",
+    "d8433f5949eb9293",
+    "af467314c2617c90",
+    "525c16ea8504d83c",
+    "0d6b1f89736722be",
+    "ac8ff7c624666c2b",
+    "69fb8d7471b1c60d",
+    "5dee75c72d0e9af4",
+    "84ae9fb7a97e1b66",
+    "b38c860dfd71c8bf"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Tenuta dello Scompiglio, Via di Vorno 67, Capannori",
+   "km_dal_centro": 8,
+   "eventi": 6,
+   "uid": [
+    "5d4f0b6b10e3841f",
+    "78f1bd9be2126445",
+    "6558eb1f063ba8b0",
+    "71156a39ee9ca54c",
+    "f4f740994df7bc4d",
+    "d828f2e2896c37a9"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Borgo di Candelara, Pesaro",
+   "km_dal_centro": 6,
+   "eventi": 4,
+   "uid": [
+    "787ed62b272f93cc",
+    "6789fd86b32ae525",
+    "34a4b550febf8f5a",
+    "79114a031647fa75"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Parrocchia di Santa Maria a Mantignano, Via di Mantignano, Firenze",
+   "km_dal_centro": 7,
+   "eventi": 4,
+   "uid": [
+    "74e3da5d6e6ef5ca",
+    "3a2f26261b6c1f2e",
+    "44d4d77f8bac41fa",
+    "fe9f183b40055e92"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Borgo di Equi Terme, Equi Terme, Fivizzano",
+   "km_dal_centro": 8,
+   "eventi": 3,
+   "uid": [
+    "9e6c7213bb9c765e",
+    "84d5b59f1d711c9f",
+    "b79640a908396d8c"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Chiesa di Santa Brigida, Via Piana, Pontassieve",
+   "km_dal_centro": 9,
+   "eventi": 3,
+   "uid": [
+    "f8d3dc15e2a9ca80",
+    "9d53d677e08e8652",
+    "b68af330da53b0b6"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
    "luogo": "Santuario di Oropa, Via Santuario di Oropa, Biella",
    "km_dal_centro": 9,
    "eventi": 2,
    "uid": [
     "dbd55dae77d4cfd3",
     "3367526a29db517b"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Parrocchia di Santo Stefano a Ugnano, Via di Ugnano, Firenze",
+   "km_dal_centro": 8,
+   "eventi": 2,
+   "uid": [
+    "f6b8e0efeefff9b9",
+    "1c2f56ed63b1ed78"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Ex Ospedale Psichiatrico di Maggiano, Via di Fregionaia 692, Lucca",
+   "km_dal_centro": 6,
+   "eventi": 2,
+   "uid": [
+    "87eb71e04a2e80a9",
+    "4ab2dddc0e184865"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -105,6 +203,87 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
+   "luogo": "Parco di Centocelle, Via Casilina, Roma",
+   "km_dal_centro": 7,
+   "eventi": 1,
+   "uid": [
+    "a1a6ba6327b81017"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Montesicuro, Ancona",
+   "km_dal_centro": 8,
+   "eventi": 1,
+   "uid": [
+    "9a9f0fddfa2795d2"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Piazza Idelfonso Nieri, Piazza Idelfonso Nieri, Ponte a Moriano, Lucca",
+   "km_dal_centro": 8,
+   "eventi": 1,
+   "uid": [
+    "1817f3de5b6694ee"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Borgo di Villecchia, Villecchia, Tresana",
+   "km_dal_centro": 6,
+   "eventi": 1,
+   "uid": [
+    "481b6974b5eff82a"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Villa di Baggio, Via Villa di Baggio Montanina 65, Pistoia",
+   "km_dal_centro": 7,
+   "eventi": 1,
+   "uid": [
+    "8121ee5cd1208e9c"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Piazza Garibaldi, Piazza Giuseppe Garibaldi, Vada, Rosignano Marittimo",
+   "km_dal_centro": 6,
+   "eventi": 1,
+   "uid": [
+    "0fcfddb7f5b13214"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Borgo di Moggiona, Moggiona, Poppi",
+   "km_dal_centro": 7,
+   "eventi": 1,
+   "uid": [
+    "27313c3ac62ea89f"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Piazza Sardegna, Marina di Pisa, Piazza Sardegna, Pisa",
+   "km_dal_centro": 11,
+   "eventi": 1,
+   "uid": [
+    "9368cf3f20413326"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Piazza Belvedere, Tirrenia, Piazza Belvedere, Pisa",
+   "km_dal_centro": 13,
+   "eventi": 1,
+   "uid": [
+    "df0b693a8a7c53da"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
    "luogo": "Lutago, Valle Aurina",
    "km_dal_centro": 7,
    "eventi": 1,
@@ -114,55 +293,52 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
-   "luogo": "Auditorium H-Farm College, Via Adriano Olivetti 1, Roncade",
+   "luogo": "Fiere di Parma, Viale delle Esposizioni 393A, Parma",
+   "km_dal_centro": 6,
+   "eventi": 1,
+   "uid": [
+    "b68facf040c9c7bd"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Montecastelli Pisano, Montecastelli Pisano, Castelnuovo di Val di Cecina",
+   "km_dal_centro": 8,
+   "eventi": 1,
+   "uid": [
+    "ef60e6aab95b7ae1"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Museo di Archeologia Ligure, Viale Durazzo Pallavicini 11, Genova",
    "km_dal_centro": 9,
    "eventi": 1,
    "uid": [
-    "b665ec02e9b8accd"
+    "f92c30d0166e37ea"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Biblioteca Civica Rosanna Benzi, Vico Limisso, Genova",
+   "km_dal_centro": 15,
+   "eventi": 1,
+   "uid": [
+    "1cbdfc7e80d6780e"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   }
  ],
  "senza_punto": [
   {
-   "luogo": "Teatro Comunale Claudio Abbado, Corso Martiri della Liberta' 5, Ferrara",
-   "eventi": 15,
-   "uid": [
-    "cee2ada47f582ec8",
-    "0ed0f3897bef830a",
-    "5a7a595f6d014ff8",
-    "4d3cc56ce92ebbbf",
-    "6cf932bc9f2ac3b2",
-    "1750dc67bf5253c1",
-    "8d28d7f252c21bc3",
-    "347bb7bf430d88a8",
-    "3b5c5978701c25b5",
-    "715be672a02be0ec"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Biblioteca 0-18 di Cuneo, Via Santa Maria 11, Cuneo",
-   "eventi": 6,
-   "uid": [
-    "84c5a9c994c9df48",
-    "45455f66db6cf5f9",
-    "63901919ce763f9c",
-    "b565590ef005a166",
-    "798ec6e326de088d",
-    "6a0d768a812c7fa9"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Ex Complesso Conventuale San Francesco, Via XXIV Maggio 5, Alessandria",
+   "luogo": "Centro di San Vincenzo, San Vincenzo",
    "eventi": 5,
    "uid": [
-    "bf95b9219047249a",
-    "984627cfb2f6a67e",
-    "9694c6b84cfde25d",
-    "a218ba2ae03f2f63",
-    "3233b486b10bafc4"
+    "948edd267e1c11f0",
+    "cb9d2cf614c6a15e",
+    "644901aae4d46277",
+    "065f23749802279c",
+    "fb28a4f0cec32667"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -200,15 +376,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Cinema Teatro Manzoni, Paese",
-   "eventi": 2,
-   "uid": [
-    "14e942aa659b233b",
-    "c31e5381342fff87"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "IAT Treviso, Treviso",
    "eventi": 2,
    "uid": [
@@ -241,69 +408,6 @@
    "uid": [
     "3b9eaf4cd67c7cfc",
     "1f3236ca7466c8f4"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Cortile del Broletto, Via Fratelli Rosselli 20, Novara",
-   "eventi": 2,
-   "uid": [
-    "a3ed5c6f66114455",
-    "2398911482c75914"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazza Gramsci, Piazza Gramsci, Novara",
-   "eventi": 2,
-   "uid": [
-    "9660ded1893a131b",
-    "0af0395e4a8aaf51"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Chiesa di Santa Lucia, Via Chenna, Alessandria",
-   "eventi": 2,
-   "uid": [
-    "87e3f994eff5374e",
-    "cb9950221765e2fb"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Biblioteca Civica Francesca Calvo, Piazza Vittorio Veneto 1, Alessandria",
-   "eventi": 2,
-   "uid": [
-    "46c2a79dd3e0c3e9",
-    "35bacc5c85a496db"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Ludoteca Comunale C'e' Sole e Luna, Via Verona 103, Alessandria",
-   "eventi": 2,
-   "uid": [
-    "756738b35678f763",
-    "ae5d2eeb67830fb0"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Centro di Roncade, Roncade",
-   "eventi": 2,
-   "uid": [
-    "c1f4f6b62e310f6d",
-    "4eeb59dcc8c7ed58"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Museo Civico Pier Alessandro Garda, Piazza Ottinetti 18, Ivrea",
-   "eventi": 2,
-   "uid": [
-    "bbb25b6f830d4e77",
-    "83541ec862156e56"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -348,14 +452,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Portici del centro di Roncade, Roncade",
-   "eventi": 1,
-   "uid": [
-    "800e2f9adf3db8e7"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Pianzano, Via S. Urbano 42, Godega di Sant'Urbano",
    "eventi": 1,
    "uid": [
@@ -364,34 +460,10 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Piazza Duomo (partenza), Treviso",
-   "eventi": 1,
-   "uid": [
-    "29209272479d8cb8"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Parco Archeologico Didattico del Livelet, Via Carpene', Lago, Revine Lago",
-   "eventi": 1,
-   "uid": [
-    "4940be76c5355d16"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Agriturismo Le Spezie, Strada delle Spezie 47, Conegliano",
    "eventi": 1,
    "uid": [
     "1190e119d5443d95"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Parco tematico didattico dei Carbonai, Strada Faidel, localita' Lamar, Cordignano",
-   "eventi": 1,
-   "uid": [
-    "f53cebee25a751db"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -436,26 +508,10 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Piazza Caduti nei Lager, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "b5806380fecf7257"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Sede della Pro Loco di Soligo, Farra di Soligo",
    "eventi": 1,
    "uid": [
     "270a9c0e2d56fb43"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Locali della Mostra del Vino, Col San Martino, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "c55e010776be95c9"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -476,195 +532,293 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Area parrocchiale di Catena, Villorba",
+   "luogo": "Sala parrocchiale Pio X, Villorba",
    "eventi": 1,
    "uid": [
-    "44058cc5e46852a5"
+    "223a47c24964c8b1"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Oratorio parrocchiale di Villorba, Villorba",
+   "eventi": 1,
+   "uid": [
+    "0b900fd6940510ac"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sala Giorgione (Centro Sociale), Via Tiziano Vecellio, Roncade",
+   "eventi": 1,
+   "uid": [
+    "de777ff526ddec79"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Auditorium della Scuola Media, Via Roma 65/a, Chiarano",
+   "eventi": 1,
+   "uid": [
+    "707fb147d1c8ee92"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Chiesa parrocchiale di San Michele Arcangelo, Silea",
+   "eventi": 1,
+   "uid": [
+    "02dc3e77dbb05064"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Palestra Polivalente, Via A. De Gasperi 44, San Vendemiano",
+   "eventi": 1,
+   "uid": [
+    "035a4d9e541da131"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Uberto Bacilieri, Giavera del Montello",
+   "eventi": 1,
+   "uid": [
+    "7ed2660a7a7541db"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Padiglioni della Filanda e piazza di Santa Lucia di Piave, Santa Lucia di Piave",
+   "eventi": 1,
+   "uid": [
+    "425f9af8b1965605"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Cavalier Antonio Zecchin, Ormelle",
+   "eventi": 1,
+   "uid": [
+    "2386301b0f7218e0"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Conservatorio Agostino Steffani, Salone di Villa Barbarella, Castelfranco Veneto",
+   "eventi": 1,
+   "uid": [
+    "6dcb58d736daf7cd"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Area polifunzionale di Revine, Revine Lago",
+   "eventi": 1,
+   "uid": [
+    "72363e6911a929f6"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Centro storico, Belluno",
+   "eventi": 1,
+   "uid": [
+    "58daee3bc207af3a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sports Center Verona, Via Banchette 49, Verona",
+   "eventi": 1,
+   "uid": [
+    "d4759dffb0501a08"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sala espositiva, Pordenone",
+   "eventi": 1,
+   "uid": [
+    "f844ad7c74dcf27b"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Chiesetta di San Gregorio, Pordenone",
+   "eventi": 1,
+   "uid": [
+    "fcf8e71c45419155"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Santuario della Madonna delle Grazie, Pordenone",
+   "eventi": 1,
+   "uid": [
+    "7ffe5828f3b44621"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Auditorium di Villa Panizza, Paese",
+   "eventi": 1,
+   "uid": [
+    "a4496f3c2f4f4e16"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
- "allineati": [],
+ "allineati": [
+  {
+   "uid": "4fff5a491ccbb5f4",
+   "titolo": "Musica, auguri e solidarieta'",
+   "luogo": "Ex Chiesa di San Giacomo, Piazzale Guido da Montefeltro 12, Forlì",
+   "lat": 44.22136,
+   "lon": 12.03594
+  },
+  {
+   "uid": "481bdfea35c506ca",
+   "titolo": "Un'opera al mese",
+   "luogo": "Ex Chiesa di San Giacomo, Piazzale Guido da Montefeltro 12, Forlì",
+   "lat": 44.22136,
+   "lon": 12.03594
+  }
+ ],
  "candidati_luoghi": [
   {
    "nomi": [
-    "Teatro Auditorium Vivaldi"
+    "Parcheggio Chalet del Terminal Bus"
    ],
-   "comune": "Jesolo",
-   "lat": 45.50349,
-   "lon": 12.62696,
-   "eventi": 15
-  },
-  {
-   "nomi": [
-    "Teatro Remondini"
-   ],
-   "comune": "Bassano del Grappa",
-   "lat": 45.76931,
-   "lon": 11.7152,
-   "eventi": 11
-  },
-  {
-   "nomi": [
-    "Teatro Millepini"
-   ],
-   "comune": "Asiago",
-   "lat": 45.87306,
-   "lon": 11.50222,
-   "eventi": 11
-  },
-  {
-   "nomi": [
-    "Teatro R. Pascutto"
-   ],
-   "comune": "San Stino di Livenza",
-   "lat": 45.72891,
-   "lon": 12.67573,
+   "comune": "Valtournenche",
+   "lat": 45.9356,
+   "lon": 7.63044,
    "eventi": 10
   },
   {
    "nomi": [
-    "Teatro Civico"
+    "Teatro del Cuscino"
    ],
-   "comune": "Schio",
-   "lat": 45.7124,
-   "lon": 11.35383,
-   "eventi": 10
+   "comune": "Novara",
+   "lat": 45.44169,
+   "lon": 8.60452,
+   "eventi": 9
   },
   {
    "nomi": [
-    "Teatro Alighieri"
+    "Teatro Pernate Sant'Andrea"
    ],
-   "comune": "Ravenna",
-   "lat": 44.41716,
-   "lon": 12.20128,
-   "eventi": 10
-  },
-  {
-   "nomi": [
-    "Teatro Tullio Serafin"
-   ],
-   "comune": "Cavarzere",
-   "lat": 45.13562,
-   "lon": 12.08172,
+   "comune": "Novara",
+   "lat": 45.46059,
+   "lon": 8.6772,
    "eventi": 8
   },
   {
    "nomi": [
-    "Piazza della Repubblica"
+    "Teatro MP"
    ],
-   "comune": "Misano Adriatico",
-   "lat": 43.978,
-   "lon": 12.69835,
+   "comune": "Novara",
+   "lat": 45.43548,
+   "lon": 8.63084,
    "eventi": 7
   },
   {
    "nomi": [
-    "Teatro Filodrammatici"
+    "Teatro Umberto Giordano"
    ],
-   "comune": "Piacenza",
-   "lat": 45.0493,
-   "lon": 9.69126,
+   "comune": "Foggia",
+   "lat": 41.46403,
+   "lon": 15.54623,
    "eventi": 7
   },
   {
    "nomi": [
-    "Teatro Cotogni"
+    "Teatro Politeama"
    ],
-   "comune": "Castelmassa",
-   "lat": 45.01715,
-   "lon": 11.3084,
+   "comune": "Catanzaro",
+   "lat": 38.90595,
+   "lon": 16.59447,
    "eventi": 6
   },
   {
    "nomi": [
-    "Piccolo Teatro"
+    "Parrocchia del Santissimo Nome di Gesu' ai Bassi"
    ],
-   "comune": "Padova",
-   "lat": 45.38249,
-   "lon": 11.85213,
-   "eventi": 6
+   "comune": "Firenze",
+   "lat": 43.78194,
+   "lon": 11.20315,
+   "eventi": 5
   },
   {
    "nomi": [
-    "Teatro Comunale Ballarin"
+    "Parrocchia di Santa Maria a Mantignano"
    ],
-   "comune": "Lendinara",
-   "lat": 45.08325,
-   "lon": 11.59622,
-   "eventi": 6
+   "comune": "Firenze",
+   "lat": 43.78304,
+   "lon": 11.17677,
+   "eventi": 4
   },
   {
    "nomi": [
-    "Cinema Teatro Italia"
+    "Piazza dello Spirito Santo"
    ],
-   "comune": "Dolo",
-   "lat": 45.42646,
-   "lon": 12.0738,
-   "eventi": 6
+   "comune": "Pistoia",
+   "lat": 43.93421,
+   "lon": 10.9158,
+   "eventi": 4
   },
   {
    "nomi": [
-    "Teatro Cinema Super"
+    "Pineta di Montecatini Terme"
    ],
-   "comune": "Valdagno",
-   "lat": 45.64678,
-   "lon": 11.29851,
-   "eventi": 6
+   "comune": "Montecatini-Terme",
+   "lat": 43.88713,
+   "lon": 10.77452,
+   "eventi": 4
   },
   {
    "nomi": [
-    "Teatro Camploy"
+    "Biblioteca Civica Carlo Dionisotti"
    ],
-   "comune": "Verona",
-   "lat": 45.43921,
-   "lon": 11.01095,
-   "eventi": 6
+   "comune": "Romagnano Sesia",
+   "lat": 45.63364,
+   "lon": 8.3858,
+   "eventi": 3
   },
   {
    "nomi": [
-    "Teatro Aurora"
+    "Biblioteca Civica di Vercelli"
    ],
-   "comune": "Campodarsego",
-   "lat": 45.50228,
-   "lon": 11.90773,
-   "eventi": 6
+   "comune": "Vercelli",
+   "lat": 45.3276,
+   "lon": 8.42026,
+   "eventi": 3
   },
   {
    "nomi": [
-    "Teatro Sant'Antonio"
+    "Viale Giuseppe Verdi"
    ],
-   "comune": "Montecchio Maggiore",
-   "lat": 45.50898,
-   "lon": 11.40023,
-   "eventi": 6
+   "comune": "Montecatini-Terme",
+   "lat": 43.88495,
+   "lon": 10.77358,
+   "eventi": 3
   },
   {
    "nomi": [
-    "Teatro Comunale di Mirano"
+    "Teatro Grandinetti"
    ],
-   "comune": "Mirano",
-   "lat": 45.49063,
-   "lon": 12.11347,
-   "eventi": 6
+   "comune": "Lamezia Terme",
+   "lat": 38.97303,
+   "lon": 16.31815,
+   "eventi": 3
   },
   {
    "nomi": [
-    "Teatro Dario Fo"
+    "Teatro Verga, Ridotto"
    ],
-   "comune": "Camponogara",
-   "lat": 45.383,
-   "lon": 12.07193,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Municipale"
-   ],
-   "comune": "Piacenza",
-   "lat": 45.04924,
-   "lon": 9.69353,
-   "eventi": 6
+   "comune": "Catania",
+   "lat": 37.51239,
+   "lon": 15.07161,
+   "eventi": 3
   }
  ]
 }

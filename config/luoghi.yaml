@@ -1371,3 +1371,2144 @@ luoghi:
     lat: 45.2158
     lon: 12.27664
     nota: "Punto comune dei 7 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Cinema Teatro Don Bosco, Calle Don Bosco, Tombola, Saloni, Sottomarina, Chioggia, Venezia, Veneto, 30015 (OpenStreetMap node 11274707896): a 160 m dal punto comune dei 7 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Cinema Teatro Politeama"]
+    comune: "Adria"
+    lat: 45.05129
+    lon: 12.05751
+    nota: "Corso Vittorio Emanuele II 211. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale di Adria"]
+    comune: "Adria"
+    lat: 45.05486
+    lon: 12.05732
+    nota: "Vicolo Camillo Benso Cavour 9. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Millepini"]
+    comune: "Asiago"
+    lat: 45.87306
+    lon: 11.50222
+    nota: "Via Millepini 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro E. Balzan"]
+    comune: "Badia Polesine"
+    lat: 45.09402
+    lon: 11.4899
+    nota: "Via Danieli. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Berico"]
+    comune: "Barbarano Mossano"
+    lat: 45.40952
+    lon: 11.54032
+    nota: "Via IV Novembre. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Castello degli Ezzelini"]
+    comune: "Bassano del Grappa"
+    lat: 45.76911
+    lon: 11.73046
+    nota: "Piazza Castello Ezzelini 3. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Remondini"]
+    comune: "Bassano del Grappa"
+    lat: 45.76931
+    lon: 11.7152
+    nota: "Via Santissima Trinita' 8. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Aurora"]
+    comune: "Campodarsego"
+    lat: 45.50228
+    lon: 11.90773
+    nota: "Piazza Europa. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Dario Fo"]
+    comune: "Camponogara"
+    lat: 45.383
+    lon: 12.07193
+    nota: "Piazza Castellaro 36. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro parrocchiale di Canda"]
+    comune: "Canda"
+    lat: 45.03413
+    lon: 11.49751
+    nota: "Piazza Dante Alighieri. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Cotogni"]
+    comune: "Castelmassa"
+    lat: 45.01715
+    lon: 11.3084
+    nota: "Piazza Vittorio Veneto. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Tullio Serafin"]
+    comune: "Cavarzere"
+    lat: 45.13562
+    lon: 12.08172
+    nota: "Via Roma 8. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza della Memoria, Fossona"]
+    comune: "Cervarese Santa Croce"
+    lat: 45.40258
+    lon: 11.68883
+    nota: "Piazza della Memoria. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Auditorium San Nicolo'"]
+    comune: "Chioggia"
+    lat: 45.22043
+    lon: 12.27911
+    nota: "Calle San Nicolo'. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Sociale"]
+    comune: "Cittadella"
+    lat: 45.64859
+    lon: 11.78031
+    nota: "Via Indipendenza 19. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Alexander Girardi Hall"]
+    comune: "Cortina d'Ampezzo"
+    lat: 46.54033
+    lon: 12.13141
+    nota: "Via Marangoni 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Basilica dei Santi Filippo e Giacomo"]
+    comune: "Cortina d'Ampezzo"
+    lat: 46.53744
+    lon: 12.13645
+    nota: "Corso Italia 88. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Sala Civica"]
+    comune: "Costermano sul Garda"
+    lat: 45.58634
+    lon: 10.73723
+    nota: "Via Belvedere. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Cinema Teatro Italia"]
+    comune: "Dolo"
+    lat: 45.42646
+    lon: 12.0738
+    nota: "Via Comunetto 5. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Farinelli"]
+    comune: "Este"
+    lat: 45.2299
+    lon: 11.65054
+    nota: "Via Antonio Zanchi 5. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro dei Filodrammatici"]
+    comune: "Este"
+    lat: 45.22875
+    lon: 11.65146
+    nota: "Via Calle della Musica 13. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza Vendramin"]
+    comune: "Fiesso Umbertiano"
+    lat: 44.96122
+    lon: 11.60545
+    nota: "Piazza Vendramin. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro parrocchiale di Fiesso Umbertiano"]
+    comune: "Fiesso Umbertiano"
+    lat: 44.96227
+    lon: 11.60131
+    nota: "SP20 582. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Biblioteca Civica di Jesolo"]
+    comune: "Jesolo"
+    lat: 45.53687
+    lon: 12.63884
+    nota: "Piazzetta Jesolo 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Auditorium Vivaldi"]
+    comune: "Jesolo"
+    lat: 45.50349
+    lon: 12.62696
+    nota: "Viale del Bersagliere 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza Costituzione"]
+    comune: "Legnaro"
+    lat: 45.34369
+    lon: 11.96042
+    nota: "Piazza Costituzione. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale Ballarin"]
+    comune: "Lendinara"
+    lat: 45.08325
+    lon: 11.59622
+    nota: "Via Gian Battista Conti 4. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza Martiri della Liberta'"]
+    comune: "Meolo"
+    lat: 45.61895
+    lon: 12.4527
+    nota: "Piazza Martiri della Liberta'. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale di Mirano"]
+    comune: "Mirano"
+    lat: 45.49063
+    lon: 12.11347
+    nota: "Via della Vittoria 75. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Sant'Antonio"]
+    comune: "Montecchio Maggiore"
+    lat: 45.50898
+    lon: 11.40023
+    nota: "Via Pieve 6, Alte Ceccato. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Palazzetto dello Sport F. Fontebasso"]
+    comune: "Noventa di Piave"
+    lat: 45.66372
+    lon: 12.53538
+    nota: "Via Guaiane. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piccolo Teatro"]
+    comune: "Padova"
+    lat: 45.38249
+    lon: 11.85213
+    nota: "Via Asolo 2. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro San Carlo"]
+    comune: "Padova"
+    lat: 45.42726
+    lon: 11.88874
+    nota: "Via Pietro Giovanni Guarneri 22. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza Vittorio Emanuele II"]
+    comune: "Piove di Sacco"
+    lat: 45.29704
+    lon: 12.03495
+    nota: "Piazza Vittorio Emanuele II. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Filarmonico"]
+    comune: "Piove di Sacco"
+    lat: 45.29615
+    lon: 12.03374
+    nota: "Piazza Giacomo Matteotti 5. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro parrocchiale di Scardovari"]
+    comune: "Porto Tolle"
+    lat: 44.89875
+    lon: 12.45101
+    nota: "Viale della Repubblica 6. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Sala Eracle"]
+    comune: "Porto Viro"
+    lat: 45.0241
+    lon: 12.21701
+    nota: "Corso Risorgimento 119. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Auditorium Sant'Antonio"]
+    comune: "Rosolina"
+    lat: 45.07677
+    lon: 12.24679
+    nota: "Via Don Giuseppe Sambo. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Sociale"]
+    comune: "Rovigo"
+    lat: 45.0705
+    lon: 11.7894
+    nota: "Piazza Giuseppe Garibaldi 14. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Ruffo"]
+    comune: "Sacile"
+    lat: 45.95308
+    lon: 12.50255
+    nota: "Piazzetta Antonio Pasqual 22. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Auditorium Quirino De Giorgio"]
+    comune: "San Giorgio delle Pertiche"
+    lat: 45.54297
+    lon: 11.8762
+    nota: "Via Roma 364. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Cinema Teatro Giardino"]
+    comune: "San Giorgio delle Pertiche"
+    lat: 45.54163
+    lon: 11.91255
+    nota: "Via Roma 64. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro R. Pascutto"]
+    comune: "San Stino di Livenza"
+    lat: 45.72891
+    lon: 12.67573
+    nota: "Via Papa Giovanni XXIII 7. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Astra"]
+    comune: "Schio"
+    lat: 45.71306
+    lon: 11.35861
+    nota: "Via Battaglione Val Leogra 45. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Civico"]
+    comune: "Schio"
+    lat: 45.7124
+    lon: 11.35383
+    nota: "Via Pietro Maraschin 19. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Jubilaeum 2000"]
+    comune: "Stienta"
+    lat: 44.93759
+    lon: 11.54321
+    nota: "Via Giovanni XXIII 54. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale Martini"]
+    comune: "Trecenta"
+    lat: 45.03148
+    lon: 11.46065
+    nota: "Piazza Giuseppe Garibaldi 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Cinema Super"]
+    comune: "Valdagno"
+    lat: 45.64678
+    lon: 11.29851
+    nota: "Viale Trento 28. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Toniolo, Mestre"]
+    comune: "Venezia"
+    lat: 45.49321
+    lon: 12.23773
+    nota: "Piazzetta Cesare Battisti 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro del Parco, Mestre"]
+    comune: "Venezia"
+    lat: 45.49952
+    lon: 12.25798
+    nota: "Via Sergio Gori 11, Parco Albanese. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Camploy"]
+    comune: "Verona"
+    lat: 45.43921
+    lon: 11.01095
+    nota: "Via Cantarane 32. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale di Vicenza, Ridotto"]
+    comune: "Vicenza"
+    lat: 45.54807
+    lon: 11.53191
+    nota: "Viale Giuseppe Mazzini 39. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale di Vicenza, Sala Maggiore"]
+    comune: "Vicenza"
+    lat: 45.54807
+    lon: 11.53191
+    nota: "Viale Giuseppe Mazzini 39. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comisso di Villa Guidini"]
+    comune: "Zero Branco"
+    lat: 45.60837
+    lon: 12.17951
+    nota: "Via G. B. Guidini. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Alighieri"]
+    comune: "Ravenna"
+    lat: 44.4171588
+    lon: 12.2012762
+    nota: "Via Mariani 2. Verificato il 2026-11-28 dall'agente italia-b: teatroalighieri.org + OSM"
+  - nomi: ["Teatro Filodrammatici"]
+    comune: "Piacenza"
+    lat: 45.0493042
+    lon: 9.6912564
+    nota: "Via Santa Franca 33. Verificato il 2026-11-28 dall'agente italia-b: comune.piacenza.it + OSM"
+  - nomi: ["Teatro Municipale"]
+    comune: "Piacenza"
+    lat: 45.0492446
+    lon: 9.6935274
+    nota: "Via Verdi 41. Verificato il 2026-11-28 dall'agente italia-b: teatripiacenza.it + OSM"
+  - nomi: ["Biblioteca Passerini-Landi"]
+    comune: "Piacenza"
+    lat: 45.0525583
+    lon: 9.6960579
+    nota: "Via Carducci 14. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Teatro Toselli"]
+    comune: "Cuneo"
+    lat: 44.3937032
+    lon: 7.5534639
+    nota: "Via Teatro Toselli 9. Verificato il 2026-11-28 dall'agente italia-b: OSM (Teatro Civico Toselli)"
+  - nomi: ["Complesso Monumentale di San Francesco"]
+    comune: "Cuneo"
+    lat: 44.3947802
+    lon: 7.5508070
+    nota: "Via Santa Maria 10. Verificato il 2026-11-28 dall'agente italia-b: comune.cuneo.it + OSM"
+  - nomi: ["Castello Visconteo Sforzesco"]
+    comune: "Novara"
+    lat: 45.4444134
+    lon: 8.6172913
+    nota: "Piazza Martiri della Liberta' 3. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Basilica di San Gaudenzio"]
+    comune: "Novara"
+    lat: 45.4487452
+    lon: 8.6194275
+    nota: "Via Carlo Bescape'. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Teatro Civico"]
+    comune: "Oleggio"
+    lat: 45.5974311
+    lon: 8.6344550
+    nota: "Via Roma 43. Verificato il 2026-11-28 dall'agente italia-b: turismonovara.it + OSM"
+  - nomi: ["Museo Civico C.G. Fanchini"]
+    comune: "Oleggio"
+    lat: 45.5960658
+    lon: 8.6385655
+    nota: "Vicolo della Chiesa 1. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Teatro Alfieri"]
+    comune: "Asti"
+    lat: 44.8998797
+    lon: 8.2058561
+    nota: "Via al Teatro Alfieri. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Teatro San Francesco"]
+    comune: "Alessandria"
+    lat: 44.9110692
+    lon: 8.6104714
+    nota: "Via San Francesco d'Assisi 15 (OSM: 13). Verificato il 2026-11-28 dall'agente italia-b: programma del Comune + OSM"
+  - nomi: ["Cinema Teatro Astra"]
+    comune: "Misano Adriatico"
+    lat: 43.9782355
+    lon: 12.7001651
+    nota: "Via Gabriele D'Annunzio. Verificato il 2026-11-28 dall'agente italia-b: visitmisano.it + OSM"
+  - nomi: ["Teatro Amintore Galli"]
+    comune: "Rimini"
+    lat: 44.0601662
+    lon: 12.5648638
+    nota: "Piazza Cavour 22. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Santuario di Oropa"]
+    comune: "Biella"
+    lat: 45.6257302
+    lon: 7.9824967
+    nota: "Via Santuario di Oropa. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Citta' Studi"]
+    comune: "Biella"
+    lat: 45.5559091
+    lon: 8.0328237
+    nota: "Via Carlo Antonio Azario. Verificato il 2026-11-28 dall'agente italia-b: OSM, da confermare l'ingresso"
+  - nomi: ["Teatro Odeon"]
+    comune: "Biella"
+    lat: 45.5570472
+    lon: 8.0623801
+    nota: "Via Torino (Chiavazza). Verificato il 2026-11-28 dall'agente italia-b: **solo OSM**: indirizzo da confermare"
+  - nomi: ["Teatro Arena del Sole"]
+    comune: "Bologna"
+    lat: 44.49969
+    lon: 11.34354
+    nota: "Via dell'Indipendenza 44. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 10 eventi."
+  - nomi: ["Teatro delle Moline"]
+    comune: "Bologna"
+    lat: 44.497699
+    lon: 11.348376
+    nota: "Via delle Moline 1/b. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 5 eventi."
+  - nomi: ["Unipol Arena"]
+    comune: "Casalecchio di Reno"
+    lat: 44.485953
+    lon: 11.248152
+    nota: "Via Gino Cervi 2. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 4 eventi."
+  - nomi: ["Teatro Celebrazioni"]
+    comune: "Bologna"
+    lat: 44.48954
+    lon: 11.312546
+    nota: "Via Saragozza 234. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 4 eventi."
+  - nomi: ["Teatro Dehon"]
+    comune: "Bologna"
+    lat: 44.496643
+    lon: 11.365916
+    nota: "Via Libia 59. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  - nomi: ["Teatro Amilcare Ponchielli"]
+    comune: "Cremona"
+    lat: 45.132171
+    lon: 10.019045
+    nota: "Corso Vittorio Emanuele II 52. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 43 eventi."
+  - nomi: ["Auditorium Giovanni Arvedi"]
+    comune: "Cremona"
+    lat: 45.131263
+    lon: 10.023025
+    nota: "Piazza Marconi 5. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 4 eventi."
+  - nomi: ["Teatro Diego Fabbri"]
+    comune: "Forlì"
+    lat: 44.221041
+    lon: 12.039194
+    nota: "Corso Armando Diaz 47. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 23 eventi."
+  - nomi: ["Rocca di Ravaldino"]
+    comune: "Forlì"
+    lat: 44.216268
+    lon: 12.03703
+    nota: "Via Giovanni dalle Bande Nere 1. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  - nomi: ["Auditorium Conad Citta' di Forli'"]
+    comune: "Forlì"
+    lat: 44.219342
+    lon: 12.051508
+    nota: "Viale della Liberta' 2. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  - nomi: ["Teatro della Societa'"]
+    comune: "Lecco"
+    lat: 45.852714
+    lon: 9.389287
+    nota: "Piazza Garibaldi 10. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 5 eventi."
+  - nomi: ["Teatro alle Vigne"]
+    comune: "Lodi"
+    lat: 45.314831
+    lon: 9.506172
+    nota: "Via Cavour 66. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 19 eventi."
+  - nomi: ["Teatro Storchi"]
+    comune: "Modena"
+    lat: 44.643521
+    lon: 10.931095
+    nota: "Largo Garibaldi 15. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 6 eventi."
+  - nomi: ["Teatro Comunale Pavarotti-Freni"]
+    comune: "Modena"
+    lat: 44.646885
+    lon: 10.930043
+    nota: "Corso Canalgrande 85. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 5 eventi."
+  - nomi: ["Teatro Regio di Parma"]
+    comune: "Parma"
+    lat: 44.803234
+    lon: 10.326808
+    nota: "Strada Garibaldi 16/a. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 7 eventi."
+  - nomi: ["Teatro Due"]
+    comune: "Parma"
+    lat: 44.796453
+    lon: 10.325244
+    nota: "Viale Basetti 12/a. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 5 eventi."
+  - nomi: ["Teatro Municipale Valli"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.701106
+    lon: 10.631383
+    nota: "Piazza Martiri del 7 Luglio 7. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 20 eventi."
+  - nomi: ["Teatro Ariosto"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.700882
+    lon: 10.628659
+    nota: "Corso Cairoli 1. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 8 eventi."
+  - nomi: ["Teatro Cavallerizza"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.701637
+    lon: 10.628625
+    nota: "Viale Allegri 8/a. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 7 eventi."
+  - nomi: ["Palazzo dei Musei"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.700221
+    lon: 10.632631
+    nota: "Via Spallanzani 1. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  - nomi: ["Teatro Sociale di Sondrio"]
+    comune: "Sondrio"
+    lat: 46.17055
+    lon: 9.86937
+    nota: "Piazza Garibaldi 26. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 14 eventi."
+  - nomi: ["Torre Ligariana"]
+    comune: "Sondrio"
+    lat: 46.171098
+    lon: 9.872358
+    nota: "Piazza Campello. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  # --- revisione, notte del 2026-11-28 (sera): luoghi da ops/posizioni.json (senza_punto e candidati_luoghi)
+  - nomi: ["Teatro Comunale Claudio Abbado", "Teatro Comunale di Ferrara", "Corso Martiri della Liberta 5"]
+    comune: "Ferrara"
+    lat: 44.83744
+    lon: 11.62066
+    nota: "Corso Martiri della Liberta' 5 (indirizzo della fonte ufficiale teatrocomunaleferrara.it). Coordinate di OpenStreetMap (Nominatim, relation 19897518 'Teatro Comunale di Ferrara'); aggiunto il 2026-11-28 (revisione). 15 eventi."
+  - nomi: ["Biblioteca 0-18", "Via Santa Maria 11"]
+    comune: "Cuneo"
+    lat: 44.39465
+    lon: 7.55021
+    nota: "Via Santa Maria 11 (indirizzo della fonte). Coordinate di OpenStreetMap (Nominatim, numero civico node 6578480925), accanto al Complesso di San Francesco (Via Santa Maria 10); aggiunto il 2026-11-28 (revisione). 6 eventi."
+  - nomi: ["Teatro delle Passioni", "Viale Carlo Sigonio 382", "Via Peretti 9"]
+    comune: "Modena"
+    lat: 44.63796
+    lon: 10.92312
+    nota: "Teatro delle Passioni (ex AEM), ingresso in Via Antonio Peretti 9 secondo il pieghevole della stagione di Emilia Romagna Teatro (modena.emiliaromagnateatro.com), Viale Sigonio 382 secondo zero.eu. Coordinate di OpenStreetMap (Nominatim, numero civico Via Peretti 9, node 4712476616); aggiunto il 2026-11-28 (revisione). 6 eventi (Sala Grande e Sala Piccola)."
+  - nomi: ["Reggio Emilia Welcome", "IAT-R", "Via Farini 1"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69742
+    lon: 10.62994
+    nota: "Ufficio turistico in Via Luigi Carlo Farini 1/A. Coordinate di OpenStreetMap (Nominatim, node 5966008301 'IAT Reggio Emilia'); aggiunto il 2026-11-28 (revisione). 3 eventi."
+  - nomi: ["Barbisano"]
+    comune: "Pieve di Soligo"
+    lat: 45.88005
+    lon: 12.18351
+    nota: "Frazione di Barbisano: punto della frazione su OpenStreetMap (Nominatim, node 1435489273 place=village), punto noto piu' vicino per gli eventi che danno solo la frazione; aggiunto il 2026-11-28 (revisione). 4 eventi."
+  - nomi: ["Sant'Artemio", "Via Cal di Breda 116"]
+    comune: "Treviso"
+    lat: 45.69024
+    lon: 12.26811
+    nota: "Complesso del Sant'Artemio (sede della Provincia), Via Cal di Breda 116. Coordinate di OpenStreetMap (Nominatim, civico 116, way 61593691); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["MAUTO", "Museo Nazionale dell'Automobile", "Corso Unita d'Italia 40"]
+    comune: "Torino"
+    lat: 45.03185
+    lon: 7.67345
+    nota: "Corso Unita' d'Italia 40. Coordinate di OpenStreetMap (Nominatim, way 96185130 'MAUTO Museo Nazionale dell'Automobile'); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["OGR Torino", "Officine Grandi Riparazioni", "Corso Castelfidardo 22"]
+    comune: "Torino"
+    lat: 45.06669
+    lon: 7.65965
+    nota: "OGR, Corso Castelfidardo 22. Coordinate di OpenStreetMap (Nominatim, civico 22, node 5557815521 dentro il complesso delle OGR); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Palazzo Falletti di Barolo", "Palazzo Barolo", "Via delle Orfane 7"]
+    comune: "Torino"
+    lat: 45.07481
+    lon: 7.67868
+    nota: "Via delle Orfane 7. Coordinate di OpenStreetMap (Nominatim, node 11267476069 'Palazzo Falletti di Barolo'); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Galleria Sabauda"]
+    comune: "Torino"
+    lat: 45.07415
+    lon: 7.68604
+    nota: "Galleria Sabauda dei Musei Reali (lo Spazio Scoperte e' in Piazzetta Reale 1, stesso complesso). Coordinate di OpenStreetMap (Nominatim, node 246516619); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Museo Civico Pier Alessandro Garda", "Museo Garda", "Piazza Ottinetti 18"]
+    comune: "Ivrea"
+    lat: 45.46750
+    lon: 7.87834
+    nota: "Museo in Piazza Ottinetti 18: punto della piazza su OpenStreetMap (Nominatim, way 103396806), punto noto piu' vicino (il civico non e' mappato); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["ZolAuditorium"]
+    comune: "Zola Predosa"
+    lat: 44.49214
+    lon: 11.21839
+    nota: "Piazza della Repubblica 1 (indirizzo della fonte, sede del Comune). Coordinate di OpenStreetMap (Nominatim, civico 1, node 12730630375); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Biblioteca Civica Francesca Calvo", "Biblioteca Calvo", "Palazzo della Biblioteca Civica"]
+    comune: "Alessandria"
+    lat: 44.91167
+    lon: 8.61977
+    nota: "Piazza Vittorio Veneto 1. Coordinate di OpenStreetMap (Nominatim, relation 20400712 'Palazzo della Biblioteca Civica'); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Cortile del Broletto", "Broletto di Novara", "Via Fratelli Rosselli 20"]
+    comune: "Novara"
+    lat: 45.44653
+    lon: 8.61954
+    nota: "Complesso del Broletto, Via Fratelli Rosselli 20. Coordinate di OpenStreetMap (Nominatim, civico 20: node 2038050244 della Galleria Giannoni, che ha sede nel Broletto); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Chiostro di San Mercuriale"]
+    comune: "Forlì"
+    lat: 44.22267
+    lon: 12.04239
+    nota: "Chiostro dell'abbazia di San Mercuriale, Piazza Aurelio Saffi: stesso punto degli eventi gia' pubblicati nell'Abbazia di San Mercuriale (punto noto piu' vicino); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Piazza Aurelio Saffi", "Piazza Saffi"]
+    comune: "Forlì"
+    lat: 44.22238
+    lon: 12.04133
+    nota: "Candidato di ops/posizioni.json (8 eventi con lo stesso punto da indirizzo), controllato: e' la piazza centrale di Forli', a meno di 200 m dal centro del comune; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro di Sondrio (piazza Garibaldi)", "Piazza Garibaldi"]
+    comune: "Sondrio"
+    lat: 46.17089
+    lon: 9.86995
+    nota: "Candidato di ops/posizioni.json (12 + 4 eventi con lo stesso punto), controllato: Piazza Garibaldi, la piazza del Teatro Sociale (luogo gia' noto, 60 m); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza della Repubblica"]
+    comune: "Misano Adriatico"
+    lat: 43.97800
+    lon: 12.69835
+    nota: "Candidato di ops/posizioni.json (7 eventi con lo stesso punto), controllato: piazza del centro di Misano, a 150 m dal Cinema Teatro Astra (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Prampolini"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69775
+    lon: 10.63047
+    nota: "Candidato di ops/posizioni.json (7 eventi con lo stesso punto), controllato: piazza del Duomo e del Municipio, accanto a Piazza San Prospero; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza San Prospero"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69722
+    lon: 10.63198
+    nota: "Candidato di ops/posizioni.json (3 eventi con lo stesso punto), controllato: coerente con la Basilica di San Prospero (eventi gia' pubblicati, 70 m); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Ghiaia"]
+    comune: "Parma"
+    lat: 44.80274
+    lon: 10.32465
+    nota: "Candidato di ops/posizioni.json (6 eventi con lo stesso punto), controllato: piazza del centro di Parma, a 200 m dal Teatro Regio (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Antonio Gramsci", "Piazza Gramsci"]
+    comune: "Alfonsine"
+    lat: 44.50554
+    lon: 12.04101
+    nota: "Candidato di ops/posizioni.json (5 eventi con lo stesso punto), controllato: piazza centrale di Alfonsine, a 90 m dal centro del comune (ISTAT); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Biblioteca Capitolare", "Via Canoniche 9"]
+    comune: "Treviso"
+    lat: 45.66637
+    lon: 12.24322
+    nota: "Biblioteca Capitolare nelle canoniche del Duomo, Via Canoniche 9: punto della Cattedrale (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Duomo"]
+    comune: "Treviso"
+    lat: 45.66637
+    lon: 12.24322
+    nota: "Piazza del Duomo: stesso punto della Cattedrale (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Borgo Cavour"]
+    comune: "Treviso"
+    lat: 45.66757
+    lon: 12.23811
+    nota: "Eventi lungo Borgo Cavour (e Via Canova): punto del Museo Bailo, Borgo Cavour 24 (luogo gia' noto), punto noto piu' vicino; le voci con il civico (Bailo, Sant'Agnese) restano prima. Aggiunto il 2026-11-28 (revisione). 3 eventi."
+  - nomi: ["Palazzo Reale di Crespano", "Piazza San Marco 28"]
+    comune: "Pieve del Grappa"
+    lat: 45.82908
+    lon: 11.84105
+    nota: "Palazzo Reale in Piazza San Marco 28 a Crespano: punto della piazza su OpenStreetMap (Nominatim, way 128859738), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Area parrocchiale di Catena", "Chiesa parrocchiale di Catena"]
+    comune: "Villorba"
+    lat: 45.73661
+    lon: 12.26530
+    nota: "Parrocchia di Catena: stesso punto dell'Oratorio NOI di Catena (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Locali della Mostra del Vino"]
+    comune: "Farra di Soligo"
+    lat: 45.89420
+    lon: 12.08763
+    nota: "Mostra del vino di Col San Martino: punto della chiesa di Col San Martino (luogo gia' noto), punto noto piu' vicino della frazione; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Biblioteca Comunale G. Cozzi", "Biblioteca Cozzi"]
+    comune: "Zero Branco"
+    lat: 45.60837
+    lon: 12.17951
+    nota: "Biblioteca in Via G. B. Guidini 52, complesso di Villa Guidini: punto del Teatro Comisso di Villa Guidini (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Cinema-Teatro Nuovo di San Michele Extra", "Teatro Nuovo di San Michele Extra"]
+    comune: "Verona"
+    lat: 45.43407
+    lon: 11.04349
+    nota: "San Michele Extra: punto di Piazza del Popolo di San Michele Extra (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Cortile Federico II"]
+    comune: "Cremona"
+    lat: 45.13334
+    lon: 10.02474
+    nota: "Cortile del Palazzo Comunale su Piazza del Comune: stesso punto degli eventi in Piazza del Comune, punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Martiri", "Palazzo Sartoretti", "Biblioteca Giorgio Ambrosoli"]
+    comune: "Reggiolo"
+    lat: 44.91783
+    lon: 10.80320
+    nota: "Piazza Martiri di Reggiolo (Palazzo Sartoretti al civico 1, biblioteca sulla piazza): stesso punto degli eventi in Piazza Martiri, punto noto piu' vicino; aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Piazza Cermenati e Piazza XX Settembre", "Piazza XX Settembre"]
+    comune: "Lecco"
+    lat: 45.85497
+    lon: 9.38969
+    nota: "Piazza XX Settembre (accanto a Piazza Cermenati): stesso punto degli eventi in Piazza XX Settembre; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza della Vittoria"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.70064
+    lon: 10.62983
+    nota: "Stesso punto degli eventi gia' pubblicati in Piazza della Vittoria (Reggio Emilia on Ice); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Corso Garibaldi e via Ariosto"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69652
+    lon: 10.62750
+    nota: "Stesso punto degli eventi gia' pubblicati in Corso Garibaldi, punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Via Cavour e Santa Lucia"]
+    comune: "Padova"
+    lat: 45.40809
+    lon: 11.87773
+    nota: "Via Cavour: punto di Piazza Cavour (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro storico", "Corso Palladio"]
+    comune: "Vicenza"
+    lat: 45.54732
+    lon: 11.54655
+    nota: "Eventi nel centro storico o lungo Corso Palladio senza indirizzo: punto di Piazza dei Signori (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro di Roncade", "Portici del centro di Roncade"]
+    comune: "Roncade"
+    lat: 45.63038
+    lon: 12.37395
+    nota: "Eventi nel centro di Roncade senza indirizzo: centro del comune (ISTAT, config/comuni.csv), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione). 3 eventi."
+  - nomi: ["Centro di Segusino"]
+    comune: "Segusino"
+    lat: 45.91670
+    lon: 11.95407
+    nota: "Centro del comune (ISTAT, config/comuni.csv), punto noto piu' vicino per un evento 'nel centro'; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro di Villorba"]
+    comune: "Villorba"
+    lat: 45.71187
+    lon: 12.25713
+    nota: "Centro di Villorba: punto di Piazza Aldo Moro (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro storico di Asolo"]
+    comune: "Asolo"
+    lat: 45.80217
+    lon: 11.91237
+    nota: "Centro storico: centro del comune (ISTAT, config/comuni.csv), a 80 m dal Museo Civico (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Ex Complesso Conventuale San Francesco", "Via XXIV Maggio 5"]
+    comune: "Alessandria"
+    lat: 44.91132
+    lon: 8.61029
+    nota: "Ex convento ed ex Ospedale militare di San Francesco, Via XXIV Maggio 5: il complesso occupa un intero isolato del centro (fondoambiente.it, artribune.com); punto del 'Complesso San Francesco' su OpenStreetMap (Nominatim, way 1499005883), a 30 m dal Teatro San Francesco (luogo gia' noto). Aggiunto il 2026-11-28 (revisione). 5 eventi."
+  - nomi: ["Portici di Palazzo Oropa", "Palazzo Oropa", "Via Battistero 4"]
+    comune: "Biella"
+    lat: 45.56646
+    lon: 8.05401
+    nota: "Palazzo Oropa (sede del Comune), Via Battistero 4. Coordinate di OpenStreetMap (Nominatim, civico 4, node 3202707461); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Monsignor Carlo Rossi", "Piazza Monsignor Rossi"]
+    comune: "Biella"
+    lat: 45.56636
+    lon: 8.05360
+    nota: "Piazza Monsignor Carlo Rossi (davanti al Duomo). Coordinate di OpenStreetMap (Nominatim, relation 6370981); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Chiesa parrocchiale di Ramon"]
+    comune: "Loria"
+    lat: 45.72993
+    lon: 11.86429
+    nota: "Chiesa parrocchiale di Ramon: punto di Via Chiesa a Ramon su OpenStreetMap (Nominatim, way 499378234), a 30 m dalla biblioteca di Ramon (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Caduti nei Lager"]
+    comune: "Farra di Soligo"
+    lat: 45.90576
+    lon: 12.12565
+    nota: "Piazza Caduti nei Lager, 'parcheggio dell'Auditorium' secondo il calendario del Natale di Farra (qdpnews.it, 2026): punto dell'Auditorium Santo Stefano (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Alfieri", "Piazza Vittorio Alfieri"]
+    comune: "Asti"
+    lat: 44.90002
+    lon: 8.20744
+    nota: "Piazza Vittorio Alfieri. Coordinate di OpenStreetMap (Nominatim, way 456018158 place=square); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Museo Civico di Bassano del Grappa", "Museo Civico di Bassano", "Piazza Garibaldi 34"]
+    comune: "Bassano del Grappa"
+    lat: 45.7664
+    lon: 11.7352
+    nota: "Museo Civico, Piazza Garibaldi 34: indirizzo e coordinate da Wikipedia (en.wikipedia.org/wiki/Museo_Civico_di_Bassano, 45.7664 N 11.7352 E); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Teatro Bellini", "Piccolo Bellini", "Bellini Kids"]
+    comune: "Napoli"
+    lat: 40.85096
+    lon: 14.25089
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Bellini, Via Conte di Ruvo); 26 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piccolo Bellini"]
+    comune: "Napoli"
+    lat: 40.85096
+    lon: 14.25089
+    nota: "Sala del Teatro Bellini nello stesso edificio, Via Conte di Ruvo: candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Bellini); 24 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Comunale Gabriello Chiabrera", "Teatro Chiabrera"]
+    comune: "Savona"
+    lat: 44.31053
+    lon: 8.48147
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Comunale Gabriello Chiabrera); 26 eventi; indirizzo Piazza Diaz 2 confermato dal campione. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Cilea", "Via San Domenico 11"]
+    comune: "Napoli"
+    lat: 40.83999
+    lon: 14.21613
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Cilea, Via San Domenico 11, Vomero); 14 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Gustavo Modena", "Sala Mercato", "Teatro Modena", "Piazza Gustavo Modena 3"]
+    comune: "Genova"
+    lat: 44.41055
+    lon: 8.88976
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Gustavo Modena, Sampierdarena); vale anche per la Sala Mercato nello stesso complesso; 21 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Ivo Chiesa", "Piazza Borgo Pila 42"]
+    comune: "Genova"
+    lat: 44.40452
+    lon: 8.9481
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Ivo Chiesa, Corte Lambruschini); 13 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Cavour", "Via Felice Cascione 35"]
+    comune: "Imperia"
+    lat: 43.87626
+    lon: 8.01449
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Cavour, Porto Maurizio); 11 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Carlo Felice", "Passo Eugenio Montale 4"]
+    comune: "Genova"
+    lat: 44.40815
+    lon: 8.9349
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Carlo Felice); 10 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Eleonora Duse", "Teatro Duse", "Via Nicolo' Bacigalupo 6"]
+    comune: "Genova"
+    lat: 44.41125
+    lon: 8.93824
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Duse, Via Bacigalupo 6); 8 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Centro Eventi Il Maggiore", "Il Maggiore", "Via San Bernardino 49"]
+    comune: "Verbania"
+    lat: 45.93065
+    lon: 8.57187
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Centro Eventi Multifunzionale Il Maggiore, Via San Bernardino 49); 8 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Metropolitan", "Via Sant'Euplio 21"]
+    comune: "Catania"
+    lat: 37.5099
+    lon: 15.08439
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Metropolitan, Via Sant'Euplio 21); 4 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Splendor", "Via Festaz 82"]
+    comune: "Aosta"
+    lat: 45.73498
+    lon: 7.31632
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro Splendor, Via Festaz); 4 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Palazzo Ducale", "Piazza Giacomo Matteotti 9"]
+    comune: "Genova"
+    lat: 44.4075
+    lon: 8.93328
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Palazzo Ducale); 3 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro della Tosse", "Piazza Renato Negri 6"]
+    comune: "Genova"
+    lat: 44.40495
+    lon: 8.93182
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Teatro della Tosse, Piazza Renato Negri); 3 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Tomba di Cicerone"]
+    comune: "Formia"
+    lat: 41.25157
+    lon: 13.5787
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Tomba di Cicerone, Via Marco Tullio Cicerone); 3 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Cattedrale di San Marco"]
+    comune: "Latina"
+    lat: 41.4644
+    lon: 12.90268
+    nota: "candidato di ops/posizioni.json, punto uguale a quello di OpenStreetMap (Nominatim, Cattedrale di San Marco, Via Sisto V); 3 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa di Santa Lucia"]
+    comune: "Alessandria"
+    lat: 44.91521
+    lon: 8.61416
+    nota: "Chiesa di Santa Lucia, Piazzetta Santa Lucia: OpenStreetMap (Nominatim, place_of_worship). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Ludoteca Comunale C'e' Sole e Luna", "Via Verona 103"]
+    comune: "Alessandria"
+    lat: 44.91917
+    lon: 8.61711
+    nota: "Ludoteca C'e' Sole e Luna, Via Verona 103: OpenStreetMap (Nominatim, node 3456136071, stesso civico). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza Gramsci"]
+    comune: "Novara"
+    lat: 45.44524
+    lon: 8.62206
+    nota: "Piazza Antonio Gramsci: OpenStreetMap (Nominatim, way 193451383). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Cinema Teatro Manzoni", "Cinema Manzoni"]
+    comune: "Paese"
+    lat: 45.67581
+    lon: 12.15685
+    nota: "Cinema Multisala Manzoni, Via della Costituzione: OpenStreetMap (Nominatim, node 500616960). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza Mazzini"]
+    comune: "Lecco"
+    lat: 45.85264
+    lon: 9.39012
+    nota: "Piazza Giuseppe Mazzini di Lecco: OpenStreetMap (Nominatim, way 171722777); attenzione, Nominatim senza riquadro da' la piazza omonima di Casatenovo. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Auditorium Casa dell'Economia", "Casa dell'Economia", "Via Tonale 30"]
+    comune: "Lecco"
+    lat: 45.86381
+    lon: 9.40448
+    nota: "Casa dell'Economia, sede della Camera di Commercio in Viale Tonale 28-30: OpenStreetMap (Nominatim, way 308970465). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro il Piccolo"]
+    comune: "Forlì"
+    lat: 44.20431
+    lon: 12.05782
+    nota: "Teatro il Piccolo, Via de Nobili: punto della fermata 'Teatro Il Piccolo' su OpenStreetMap (Nominatim, node 9775802773), a 90 m da Via Antonio De Nobili: punto noto piu' vicino. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Giardini Pubblici", "Piazzale della Vittoria"]
+    comune: "Forlì"
+    lat: 44.218
+    lon: 12.04984
+    nota: "Giardini Pubblici di Piazzale della Vittoria: punto di Piazzale della Vittoria su OpenStreetMap (Nominatim, way 986613629), punto noto piu' vicino (indirizzo della fonte forlichebrillaofficial.it). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Sala Polivalente CDT", "Largo Barale 1"]
+    comune: "Cuneo"
+    lat: 44.38809
+    lon: 7.5441
+    nota: "Sala Polivalente CDT, Largo Barale 1 (indirizzo da cuneocultura.it): OpenStreetMap (Nominatim, node 6499362665, stesso civico). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza della Liberta'"]
+    comune: "Alessandria"
+    lat: 44.91338
+    lon: 8.61616
+    nota: "Piazza della Liberta': OpenStreetMap (Nominatim, way 1199314518 place=square). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Biblioteca Civica Negroni", "Biblioteca Negroni", "Corso Cavallotti 4"]
+    comune: "Novara"
+    lat: 45.4468
+    lon: 8.62271
+    nota: "Biblioteca Civica Carlo Negroni, Corso Cavallotti 4/6: OpenStreetMap (Nominatim, node 2043486265). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Sale d'Arte", "Via Machiavelli 13"]
+    comune: "Alessandria"
+    lat: 44.91175
+    lon: 8.61995
+    nota: "Sale d'Arte, Via Machiavelli 13: OpenStreetMap (Nominatim, node 3652451542, stesso civico). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Villa Edvige Garagnani", "Villa Garagnani"]
+    comune: "Zola Predosa"
+    lat: 44.49632
+    lon: 11.21468
+    nota: "Villa Garagnani, Via Masini 11: OpenStreetMap (Nominatim, node 10810968722). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza Bonola"]
+    comune: "Sozzago"
+    lat: 45.3976
+    lon: 8.72123
+    nota: "Piazza G. Bonola: OpenStreetMap (Nominatim, way 135617633). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Museo di Storia Naturale Faraggiana Ferrandi", "Faraggiana Ferrandi"]
+    comune: "Novara"
+    lat: 45.44898
+    lon: 8.62048
+    nota: "Museo di Storia Naturale Faraggiana Ferrandi, Via Gaudenzio Ferrari 13: OpenStreetMap (Nominatim, node 6418836885, stesso civico). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza Vittorio Veneto"]
+    comune: "Biella"
+    lat: 45.56338
+    lon: 8.05588
+    nota: "Piazza Vittorio Veneto di Biella: OpenStreetMap (Nominatim, way 154753018). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa di San Giacomo della Vittoria", "Santuario dell'Addolorata"]
+    comune: "Alessandria"
+    lat: 44.91092
+    lon: 8.6144
+    nota: "Chiesa di San Giacomo della Vittoria, Via San Giacomo della Vittoria 56: OpenStreetMap (Nominatim, way 1196068839). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Rustici di Villa Cordellina", "Villa Cordellina"]
+    comune: "Montecchio Maggiore"
+    lat: 45.50873
+    lon: 11.42492
+    nota: "Villa Cordellina Lombardi, Via Lovara: OpenStreetMap (Nominatim, way 370694701). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Porto San Pancrazio"]
+    comune: "Verona"
+    lat: 45.43304
+    lon: 11.01973
+    nota: "Quartiere di Porto San Pancrazio: punto del quartiere su OpenStreetMap (Nominatim, node 4443740396), punto noto piu' vicino. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa di San Sebastiano"]
+    comune: "Cuneo"
+    lat: 44.39234
+    lon: 7.55298
+    nota: "Chiesa di San Sebastiano, centro storico (Contrada Mondovi'): OpenStreetMap (Nominatim, way 318940908). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa di San Filippo Neri"]
+    comune: "Biella"
+    lat: 45.56806
+    lon: 8.05221
+    nota: "Chiesa parrocchiale di San Filippo Neri: OpenStreetMap (Nominatim, way 163563361). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Palazzo Cuttica"]
+    comune: "Alessandria"
+    lat: 44.91228
+    lon: 8.61691
+    nota: "Palazzo Cuttica, Via Parma 1: OpenStreetMap (Nominatim, relation 2324547). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Cittadellarte"]
+    comune: "Biella"
+    lat: 45.57243
+    lon: 8.05607
+    nota: "Cittadellarte Fondazione Pistoletto, Via Serralunga 27: OpenStreetMap (Nominatim, relation 14276299). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Sacra di San Michele"]
+    comune: "Sant'Ambrogio di Torino"
+    lat: 45.09799
+    lon: 7.34305
+    nota: "Sacra di San Michele: OpenStreetMap (Nominatim, way 682538096). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Centro storico di Gualtieri", "Piazza Bentivoglio"]
+    comune: "Gualtieri"
+    lat: 44.90534
+    lon: 10.63016
+    nota: "Piazza Bentivoglio: OpenStreetMap (Nominatim, way 1282353089). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Via Malta"]
+    comune: "Biella"
+    lat: 45.56838
+    lon: 8.05874
+    nota: "Via Malta: OpenStreetMap (Nominatim, way 157543200). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Faraggiana", "Via dei Caccia 1F"]
+    comune: "Novara"
+    lat: 45.4506
+    lon: 8.62237
+    nota: "Civico Teatro Faraggiana: OpenStreetMap (Nominatim, node 4419885457). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza Matteotti"]
+    comune: "Novara"
+    lat: 45.44596
+    lon: 8.62243
+    nota: "Piazza Giacomo Matteotti: OpenStreetMap (Nominatim, way 514558541). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Parvum"]
+    comune: "Alessandria"
+    lat: 44.91659
+    lon: 8.61892
+    nota: "Teatro Parvum, Via Mazzini 85: OpenStreetMap (Nominatim, node 3456137095, stesso civico). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Conservatorio Peri-Merulo", "Conservatorio Peri", "Conservatorio Achille Peri"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69836
+    lon: 10.63738
+    nota: "Conservatorio Achille Peri, Via Dante Alighieri 11: OpenStreetMap (Nominatim, node 4586687820). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa di San Cassiano"]
+    comune: "Biella"
+    lat: 45.57008
+    lon: 8.05442
+    nota: "Chiesa parrocchiale di San Cassiano (Biella citta', non Zubiena): OpenStreetMap (Nominatim, way 223414434). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza Cisterna", "Piazza della Cisterna"]
+    comune: "Biella"
+    lat: 45.56603
+    lon: 8.04523
+    nota: "Piazza della Cisterna (Piazzo): OpenStreetMap (Nominatim, way 354090749 place=square). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Basilica della Ghiara"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69886
+    lon: 10.62615
+    nota: "Basilica della Beata Vergine della Ghiara, Corso Garibaldi: OpenStreetMap (Nominatim, relation 2242039). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa di Santa Maria del Carmine"]
+    comune: "Alessandria"
+    lat: 44.91458
+    lon: 8.61618
+    nota: "Chiesa di Santa Maria del Carmine, Via dei Guasco 11: OpenStreetMap (Nominatim, way 1195149741). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza Duomo", "Piazza del Duomo"]
+    comune: "Belluno"
+    lat: 46.13805
+    lon: 12.21722
+    nota: "Piazza del Duomo: OpenStreetMap (Nominatim, way 399912568). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa di San Nicolo' all'Arena", "San Nicolo' all'Arena"]
+    comune: "Verona"
+    lat: 45.43969
+    lon: 10.99533
+    nota: "Chiesa di San Nicolo', Via Anfiteatro: OpenStreetMap (Nominatim, way 138814229). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Santa Lucia Extra"]
+    comune: "Verona"
+    lat: 45.42217
+    lon: 10.95186
+    nota: "Chiesa parrocchiale di Santa Lucia, Via Santa Elisabetta: OpenStreetMap (Nominatim, way 142023524). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Tempio di San Lorenzo"]
+    comune: "Vicenza"
+    lat: 45.54873
+    lon: 11.5419
+    nota: "Chiesa di San Lorenzo, Piazza San Lorenzo: OpenStreetMap (Nominatim, way 138894471). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Odeo del Teatro Olimpico", "Teatro Olimpico"]
+    comune: "Vicenza"
+    lat: 45.55015
+    lon: 11.54925
+    nota: "Teatro Olimpico (l'Odeo e' nello stesso complesso): OpenStreetMap (Nominatim, way 138718880). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Centro Sociale di Coia"]
+    comune: "Tarcento"
+    lat: 46.22464
+    lon: 13.20884
+    nota: "Centro sociale della frazione di Coia: punto della frazione su OpenStreetMap (Nominatim, node 1504261345), punto noto piu' vicino. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["BAS, Biblioteca Comunale Aurelio Saffi", "Via Albicini 12"]
+    comune: "Forlì"
+    lat: 44.22338
+    lon: 12.03548
+    nota: "BAS, Via Albicini 12 (indirizzo della fonte): civico su OpenStreetMap (Nominatim, node 4766415423). Non e' la sede di Corso della Repubblica 72. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Giardini di Piazza Roma"]
+    comune: "Cremona"
+    lat: 45.13491
+    lon: 10.02299
+    nota: "Giardini di Piazza Roma, centro storico: OpenStreetMap (Nominatim, way 72192523). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa della SS. Trinita'", "Chiesa della Santissima Trinita'"]
+    comune: "Biella"
+    lat: 45.56624
+    lon: 8.05433
+    nota: "Chiesa della SS. Trinita', addossata al Duomo con facciata su Via Italia (scheda ICCD di sigecweb.beniculturali.it): OpenStreetMap (Nominatim, way 428452000, 'Santi Fabiano e Sebastiano e Santissima Trinita'', Via Battistero). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Parco Archeologico Didattico del Livelet", "Livelet"]
+    comune: "Revine Lago"
+    lat: 45.98289
+    lon: 12.21709
+    nota: "Parco Archeologico Livelet: OpenStreetMap (Nominatim, node 2514802009). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Parco tematico didattico dei Carbonai", "Parco dei Carbonai"]
+    comune: "Cordignano"
+    lat: 46.0044
+    lon: 12.41524
+    nota: "Parco dei Carbonai, localita' Lamar: OpenStreetMap (Nominatim, way 339419061). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Borgo di Mura"]
+    comune: "Cison di Valmarino"
+    lat: 45.97127
+    lon: 12.16336
+    nota: "Borgo di Mura (Tovena): punto della localita' su OpenStreetMap (Nominatim, node 304521001). Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa antica di San Cipriano"]
+    comune: "Roncade"
+    lat: 45.61401
+    lon: 12.37842
+    nota: "Chiesa antica di San Cipriano: punto della frazione San Cipriano su OpenStreetMap (Nominatim, node 4168174828), punto noto piu' vicino. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Impianti sportivi di Fontigo"]
+    comune: "Sernaglia della Battaglia"
+    lat: 45.86108
+    lon: 12.11973
+    nota: "Impianti sportivi di Fontigo, Via Chiesa 48: punto della frazione Fontigo su OpenStreetMap (Nominatim, node 1404417544), punto noto piu' vicino. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Chiesa di San Mauro Martire"]
+    comune: "Paese"
+    lat: 45.68954
+    lon: 12.1818
+    nota: "Chiesa di San Mauro a Castagnole: punto della frazione su OpenStreetMap (Nominatim, node 1445381027), punto noto piu' vicino. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza San Filippo Neri"]
+    comune: "Paese"
+    lat: 45.68383
+    lon: 12.12375
+    nota: "Piazza San Filippo Neri di Padernello: punto della frazione su OpenStreetMap (Nominatim, node 1445333998), punto noto piu' vicino. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Rossini", "Piazzale Carlo Albani 1"]
+    comune: "Pesaro"
+    lat: 43.90788
+    lon: 12.9087
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro Rossini, Piazzale Albani 1, way 62790025); 27 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Goldoni"]
+    comune: "Livorno"
+    lat: 43.54592
+    lon: 10.31389
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro Goldoni, Via Goldoni, node 391302734); 25 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro dei Rinnovati", "Piazza del Campo 1"]
+    comune: "Siena"
+    lat: 43.31806
+    lon: 11.33247
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro dei Rinnovati, Il Campo 1, node 663860685); 17 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Guglielmi"]
+    comune: "Massa"
+    lat: 44.03589
+    lon: 10.14103
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro Comunale Pier Alessandro Guglielmi, way 134565116); 17 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Mercato del Carmine"]
+    comune: "Lucca"
+    lat: 43.84426
+    lon: 10.50559
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Mercato del Carmine, way 180363104, a 50 m); 15 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro del Giglio", "Piazza del Giglio"]
+    comune: "Lucca"
+    lat: 43.8404
+    lon: 10.50307
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro del Giglio, Piazza del Giglio, way 180148964); 15 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Metastasio"]
+    comune: "Prato"
+    lat: 43.87974
+    lon: 11.09948
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro Metastasio, Via Cairoli, way 243200131); 11 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro dei Rozzi", "Via delle Terme 15"]
+    comune: "Siena"
+    lat: 43.31897
+    lon: 11.33023
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro dell'Accademia dei Rozzi, Via delle Terme 15, node 2806773680); 10 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Sanzio"]
+    comune: "Urbino"
+    lat: 43.72426
+    lon: 12.63546
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro Sanzio, Via Matteotti, relation 1794219); 8 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Fabbricone", "Fabbricone"]
+    comune: "Prato"
+    lat: 43.89086
+    lon: 11.09985
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro Fabbricone, Via Targetti, node 622540466); 8 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Piazza del Campo"]
+    comune: "Siena"
+    lat: 43.31844
+    lon: 11.33156
+    nota: "Piazza del Campo: OpenStreetMap (Nominatim, relation 5965021 place=square); candidato con 7 eventi, punto a 55 m. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Gentile da Fabriano", "Teatro Gentile"]
+    comune: "Fabriano"
+    lat: 43.33653
+    lon: 12.90515
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro Gentile da Fabriano, way 450075005); 6 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro degli Industri", "Via Giuseppe Mazzini 101"]
+    comune: "Grosseto"
+    lat: 42.76025
+    lon: 11.11178
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro degli Industri, way 485044169); 6 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro Petrarca", "Via Guido Monaco 12"]
+    comune: "Arezzo"
+    lat: 43.46473
+    lon: 11.88007
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Teatro Petrarca, Via Guido Monaco 12, node 2618260815); 6 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Cinema Teatro Dante", "Via XX Settembre 156"]
+    comune: "Sansepolcro"
+    lat: 43.56998
+    lon: 12.14306
+    nota: "candidato di ops/posizioni.json, controllato su OpenStreetMap (Nominatim, Cinema teatro Dante, Via del Buonumore, way 1200937383); 7 eventi. Aggiunto il 2026-11-28 (revisione, sera)."
+  - nomi: ["Teatro delle Muse"]
+    comune: "Ancona"
+    lat: 43.6195966
+    lon: 13.5101245
+    nota: "Teatro delle Muse, Piazza della Repubblica. Fonte marcheteatro.it, coordinate di OpenStreetMap (Nominatim, way 179360424); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Teatro Sangiorgi", "Via Sangiuliano 233"]
+    comune: "Catania"
+    lat: 37.5046424
+    lon: 15.0885455
+    nota: "Teatro Sangiorgi, Via Sangiuliano 233. Fonte teatromassimobellini.it, coordinate di OpenStreetMap (Nominatim, relation 1861511); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Teatro Massimo Bellini", "Via Giuseppe Perrotta 12"]
+    comune: "Catania"
+    lat: 37.504157
+    lon: 15.0898267
+    nota: "Teatro Massimo Bellini, Via Giuseppe Perrotta 12. Fonte teatromassimobellini.it, coordinate di OpenStreetMap (Nominatim, way 28399127); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Villa Grazioli", "Park Hotel Villa Grazioli", "Piazza Eugenio Conti 1"]
+    comune: "Grottaferrata"
+    lat: 41.7992866
+    lon: 12.6770008
+    nota: "Park Hotel Villa Grazioli, Piazza Eugenio Conti 1. Fonte visitlazio.com, coordinate di OpenStreetMap (Nominatim, way 171942401); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Villa d'Este"]
+    comune: "Tivoli"
+    lat: 41.9624053
+    lon: 12.7967683
+    nota: "Villa d'Este, Piazza Trento 5. Fonte visitlazio.com, coordinate di OpenStreetMap (Nominatim, node 5955386790, biglietteria); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Parco di Centocelle"]
+    comune: "Roma"
+    lat: 41.8747578
+    lon: 12.5681044
+    nota: "Parco di Centocelle, Via Casilina. Fonte visitlazio.com, coordinate di OpenStreetMap (Nominatim, way 314953429); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Piazza Santa Maria"]
+    comune: "Cerveteri"
+    lat: 41.9988621
+    lon: 12.0995418
+    nota: "Piazza Santa Maria. Fonte visitlazio.com, coordinate di OpenStreetMap (Nominatim, way 1493358722); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Via Cassia 157"]
+    comune: "Vetralla"
+    lat: 42.32092
+    lon: 12.05366
+    nota: "Via Cassia 157 (Via Cassia Interna). Fonte visitlazio.com, coordinate di OpenStreetMap (Nominatim, node 2311460096, civico 157); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Piazza Vittorio Emanuele II"]
+    comune: "Pieve di Soligo"
+    lat: 45.8996349
+    lon: 12.1725943
+    nota: "Piazza Vittorio Emanuele II. Fonte running.life, coordinate di OpenStreetMap (Nominatim, way 132221062); aggiunto il 2026-11-28 (giro)."
+  - nomi: ["Piazza delle Feste"]
+    comune: "Genova"
+    lat: 44.4090664
+    lon: 8.9271757
+    nota: "Piazza delle Feste, Porto Antico. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Calata Mandraccio"]
+    comune: "Genova"
+    lat: 44.4075316
+    lon: 8.9268062
+    nota: "Calata Mandraccio, Porto Antico. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Auditorium delle Clarisse"]
+    comune: "Rapallo"
+    lat: 44.3480586
+    lon: 9.2353879
+    nota: "Auditorium delle Clarisse. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro Verdi", "Via Ghibellina 99"]
+    comune: "Firenze"
+    lat: 43.7700323
+    lon: 11.26068
+    nota: "Teatro Verdi, Via Ghibellina 99. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro Puccini"]
+    comune: "Firenze"
+    lat: 43.7862068
+    lon: 11.2253943
+    nota: "Teatro Puccini, Via delle Cascine 41 (civico da confermare). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro di Fiesole", "Largo Piero Farulli"]
+    comune: "Fiesole"
+    lat: 43.8078153
+    lon: 11.2960832
+    nota: "Teatro di Fiesole, Largo Piero Farulli. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro del Maggio Musicale Fiorentino", "Teatro del Maggio", "Piazzale Vittorio Gui 1"]
+    comune: "Firenze"
+    lat: 43.7788769
+    lon: 11.2348742
+    nota: "Teatro del Maggio Musicale Fiorentino, Piazzale Vittorio Gui 1. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Piazza di Santa Croce", "Piazza Santa Croce"]
+    comune: "Firenze"
+    lat: 43.768869
+    lon: 11.2614982
+    nota: "Piazza di Santa Croce. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro Verdi", "Via Palestro 40"]
+    comune: "Pisa"
+    lat: 43.7169705
+    lon: 10.4044717
+    nota: "Teatro Verdi, Via Palestro 40 (indirizzo da terredipisa.it). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Palazzo Blu", "Lungarno Gambacorti 9"]
+    comune: "Pisa"
+    lat: 43.7156502
+    lon: 10.3997452
+    nota: "Palazzo Blu, Lungarno Gambacorti 9. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Museo Nazionale di San Matteo", "Museo di San Matteo"]
+    comune: "Pisa"
+    lat: 43.7147201
+    lon: 10.4078619
+    nota: "Museo Nazionale di San Matteo, Piazza San Matteo in Soarta 1. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Arsenali Repubblicani"]
+    comune: "Pisa"
+    lat: 43.7146873
+    lon: 10.3930979
+    nota: "Arsenali Repubblicani: punto di Lungarno Ranieri Simonelli (terredipisa.it scrive Via Bonanno). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Stazione Leopolda"]
+    comune: "Pisa"
+    lat: 43.708589
+    lon: 10.4056663
+    nota: "Stazione Leopolda. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Certosa di Calci", "Museo di Storia Naturale", "Via Roma 79"]
+    comune: "Calci"
+    lat: 43.7221587
+    lon: 10.5227771
+    nota: "Certosa di Calci (Museo di Storia Naturale dell'Universita' di Pisa), Via Roma 79. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro Civico", "Corso Cavour 20"]
+    comune: "La Spezia"
+    lat: 44.1036188
+    lon: 9.8218535
+    nota: "Teatro Civico, Corso Cavour 20. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Chapiteau TRAC", "Chapiteau ai Giardini"]
+    comune: "La Spezia"
+    lat: 44.1037273
+    lon: 9.8237474
+    nota: "Chapiteau del TRAC Festival ai Giardini pubblici, Viale Mazzini. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro Civico", "Via Monte di Pieta' 15"]
+    comune: "Vercelli"
+    lat: 45.3279312
+    lon: 8.4216795
+    nota: "Teatro Civico, Via Monte di Pieta' 15. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Conservatorio Guido Cantelli", "Conservatorio Cantelli"]
+    comune: "Novara"
+    lat: 45.4444578
+    lon: 8.6197266
+    nota: "Conservatorio Guido Cantelli. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Cinema Araldo", "Cinema Vip", "Via Maestra 12"]
+    comune: "Novara"
+    lat: 45.4543702
+    lon: 8.6204178
+    nota: "Cinema Araldo e Vip, Via Maestra 12. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Palazzo Natta"]
+    comune: "Novara"
+    lat: 45.4463102
+    lon: 8.6226236
+    nota: "Palazzo Natta. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Spazio Nova", "Caserma Passalacqua"]
+    comune: "Novara"
+    lat: 45.4408145
+    lon: 8.6244812
+    nota: "Spazio Nova, ex Caserma Passalacqua. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro Rosmini"]
+    comune: "Borgomanero"
+    lat: 45.6964938
+    lon: 8.4682316
+    nota: "Teatro Rosmini. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Cinema Teatro Nuovo"]
+    comune: "Borgomanero"
+    lat: 45.6946701
+    lon: 8.455199
+    nota: "Cinema Teatro Nuovo, Via IV Novembre. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Villa Marazza", "Viale Marazza 5"]
+    comune: "Borgomanero"
+    lat: 45.7000768
+    lon: 8.4656488
+    nota: "Villa Marazza, Viale Marazza 5. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Palazzo Tornielli"]
+    comune: "Borgomanero"
+    lat: 45.6986906
+    lon: 8.4631636
+    nota: "Palazzo Tornielli. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Cine Teatro Silvio Pellico", "Piazza Cattaneo 24"]
+    comune: "Trecate"
+    lat: 45.4315108
+    lon: 8.7395227
+    nota: "Cine Teatro Silvio Pellico, Piazza Cattaneo 24: punto della piazza. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Castello Visconteo Sforzesco di Galliate", "Castello di Galliate"]
+    comune: "Galliate"
+    lat: 45.4787468
+    lon: 8.6956298
+    nota: "Castello Visconteo Sforzesco di Galliate. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Oratorio Beato Quagliotti", "Sala Don Manfredda"]
+    comune: "Galliate"
+    lat: 45.4761094
+    lon: 8.7005898
+    nota: "Oratorio Beato Quagliotti (Sala Don Manfredda). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Sala Crespi"]
+    comune: "Cerano"
+    lat: 45.4105316
+    lon: 8.7834326
+    nota: "Sala Crespi. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Palazzo Gallarati"]
+    comune: "Ghemme"
+    lat: 45.5990797
+    lon: 8.4184008
+    nota: "Palazzo Gallarati. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Museo Camillo Leone", "Museo Leone"]
+    comune: "Vercelli"
+    lat: 45.3267582
+    lon: 8.4232615
+    nota: "Museo Camillo Leone. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Museo del Tesoro del Duomo"]
+    comune: "Vercelli"
+    lat: 45.3298055
+    lon: 8.4234474
+    nota: "Museo del Tesoro del Duomo. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Chiesa di San Paolo"]
+    comune: "Vercelli"
+    lat: 45.3243991
+    lon: 8.4237435
+    nota: "Chiesa di San Paolo. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["San Pietro Martire"]
+    comune: "Vercelli"
+    lat: 45.3269789
+    lon: 8.4197336
+    nota: "Chiesa di San Pietro Martire. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Basilica di Sant'Andrea"]
+    comune: "Vercelli"
+    lat: 45.3287875
+    lon: 8.4191922
+    nota: "Basilica di Sant'Andrea. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Museo Borgogna"]
+    comune: "Vercelli"
+    lat: 45.3255807
+    lon: 8.4270413
+    nota: "Museo Borgogna. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Viotti Club", "Via Ferraris 14"]
+    comune: "Vercelli"
+    lat: 45.3255631
+    lon: 8.4219635
+    nota: "Viotti Club, Via Ferraris 14. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Torre dell'Angelo", "Piazza Cavour"]
+    comune: "Vercelli"
+    lat: 45.3259757
+    lon: 8.4233894
+    nota: "Torre dell'Angelo e Piazza Cavour. Coordinate di OpenStreetMap (Nominatim manda 'Piazza Cavour, Vercelli' a Buronzo: usare questo punto); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro Civico"]
+    comune: "Varallo"
+    lat: 45.8143112
+    lon: 8.2537339
+    nota: "Teatro Civico. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Palazzo d'Adda"]
+    comune: "Varallo"
+    lat: 45.8163046
+    lon: 8.2497826
+    nota: "Palazzo d'Adda. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Biblioteca Civica Farinone Centa", "Biblioteca Farinone Centa"]
+    comune: "Varallo"
+    lat: 45.8156144
+    lon: 8.2521379
+    nota: "Biblioteca Civica Farinone Centa. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro Pro Loco"]
+    comune: "Borgosesia"
+    lat: 45.7164578
+    lon: 8.2782617
+    nota: "Teatro Pro Loco di Borgosesia. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Cinema Lux"]
+    comune: "Borgosesia"
+    lat: 45.7166338
+    lon: 8.2740989
+    nota: "Cinema Lux. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Auditorium Lux"]
+    comune: "Gattinara"
+    lat: 45.6163672
+    lon: 8.3724446
+    nota: "Auditorium Lux. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Chiesa di Ognissanti"]
+    comune: "Trino"
+    lat: 45.1938727
+    lon: 8.2948651
+    nota: "Chiesa di Ognissanti. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-a)."
+  - nomi: ["Teatro dei Servi"]
+    comune: "Massa"
+    lat: 44.0396936
+    lon: 10.1425896
+    nota: "Teatro dei Servi, Via Palestro. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro degli Animosi", "Piazza Fabrizio De Andre' 1"]
+    comune: "Carrara"
+    lat: 44.0787911
+    lon: 10.0967175
+    nota: "Teatro degli Animosi, Piazza Fabrizio De Andre' 1 (indirizzo del Comune; OSM lo mette in via San Piero, stesso isolato). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Vetrina della Citta'", "Palazzo Comunale"]
+    comune: "Pontremoli"
+    lat: 44.377117
+    lon: 9.882894
+    nota: "Palazzo Comunale, Vetrina della Citta', Piazza della Repubblica. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Equi Terme"]
+    comune: "Fivizzano"
+    lat: 44.168239
+    lon: 10.152565
+    nota: "Borgo di Equi Terme (frazione). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Centro storico di Fivizzano"]
+    comune: "Fivizzano"
+    lat: 44.23835
+    lon: 10.12599
+    nota: "Centro storico di Fivizzano. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Ex Cavallerizza", "Cavallerizza"]
+    comune: "Lucca"
+    lat: 43.8428632
+    lon: 10.4966412
+    nota: "Ex Cavallerizza, Piazzale Verdi. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza Napoleone"]
+    comune: "Lucca"
+    lat: 43.8413101
+    lon: 10.5024855
+    nota: "Piazza Napoleone. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza San Giusto"]
+    comune: "Lucca"
+    lat: 43.8418783
+    lon: 10.5037734
+    nota: "Piazza San Giusto. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza dell'Anfiteatro", "Piazza Anfiteatro"]
+    comune: "Lucca"
+    lat: 43.8453496
+    lon: 10.5061437
+    nota: "Piazza dell'Anfiteatro. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Foro Boario"]
+    comune: "Lucca"
+    lat: 43.8563229
+    lon: 10.508217
+    nota: "Foro Boario, Strada Provinciale Lucca-Camaiore. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Oratorio degli Angeli Custodi"]
+    comune: "Lucca"
+    lat: 43.8441744
+    lon: 10.5080707
+    nota: "Oratorio degli Angeli Custodi, Via dell'Angelo Custode. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Biblioteca Statale di Lucca", "Biblioteca Statale"]
+    comune: "Lucca"
+    lat: 43.8449331
+    lon: 10.5013311
+    nota: "Biblioteca Statale di Lucca, Via San Giorgio. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Palazzo Mansi", "Via Galli Tassi 43"]
+    comune: "Lucca"
+    lat: 43.8436183
+    lon: 10.4990647
+    nota: "Museo Nazionale di Palazzo Mansi, Via Galli Tassi 43. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro di San Girolamo", "Teatro San Girolamo"]
+    comune: "Lucca"
+    lat: 43.8402571
+    lon: 10.5025027
+    nota: "Teatro di San Girolamo, Via San Girolamo. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Auditorium della chiesa di San Francesco", "Auditorium San Francesco", "Piazza San Francesco"]
+    comune: "Lucca"
+    lat: 43.8454916
+    lon: 10.511405
+    nota: "Auditorium della chiesa di San Francesco, Piazza San Francesco. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza Santa Maria"]
+    comune: "Lucca"
+    lat: 43.8477046
+    lon: 10.5073699
+    nota: "Piazza Santa Maria. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Comunale di Pietrasanta", "Piazza Duomo 4"]
+    comune: "Pietrasanta"
+    lat: 43.9577356
+    lon: 10.2323801
+    nota: "Teatro Comunale di Pietrasanta, Piazza Duomo 4. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Alfieri"]
+    comune: "Castelnuovo di Garfagnana"
+    lat: 44.1126141
+    lon: 10.4124098
+    nota: "Teatro Alfieri, Via Guglielmo Marconi. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Viali a mare"]
+    comune: "Viareggio"
+    lat: 43.8759554
+    lon: 10.2384624
+    nota: "Viali a mare, Viale Giosue' Carducci. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Gran Teatro Giacomo Puccini", "Auditorium Enrico Caruso", "Via delle Torbiere"]
+    comune: "Viareggio"
+    lat: 43.8342948
+    lon: 10.3069417
+    nota: "Gran Teatro Giacomo Puccini e Auditorium Enrico Caruso, Via delle Torbiere (Torre del Lago). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza Sant'Agostino"]
+    comune: "Arezzo"
+    lat: 43.462503
+    lon: 11.8814945
+    nota: "Piazza Sant'Agostino. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza Guido Monaco"]
+    comune: "Arezzo"
+    lat: 43.4631545
+    lon: 11.8785315
+    nota: "Piazza Guido Monaco. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Via Madonna Laura"]
+    comune: "Arezzo"
+    lat: 43.467842
+    lon: 11.8827554
+    nota: "Via Madonna Laura. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza Grande"]
+    comune: "Arezzo"
+    lat: 43.4647154
+    lon: 11.8842838
+    nota: "Piazza Grande. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Monti Rognosi"]
+    comune: "Anghiari"
+    lat: 43.5766958
+    lon: 12.0027208
+    nota: "Riserva naturale dei Monti Rognosi. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Duomo di Livorno"]
+    comune: "Livorno"
+    lat: 43.550099
+    lon: 10.3095841
+    nota: "Duomo di Livorno, Via Santa Giulia. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Cinema Teatro Verdi", "Teatro Verdi"]
+    comune: "San Vincenzo"
+    lat: 43.1026771
+    lon: 10.5390995
+    nota: "Cinema Teatro Verdi, Via Vittorio Emanuele II. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Roma"]
+    comune: "Castagneto Carducci"
+    lat: 43.1602635
+    lon: 10.6074866
+    nota: "Teatro Roma, Via Gramsci. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Santa Maria della Scala", "Piazza del Duomo 1"]
+    comune: "Siena"
+    lat: 43.3171886
+    lon: 11.3279706
+    nota: "Santa Maria della Scala, Piazza del Duomo 1. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Palazzo Chigi Saracini"]
+    comune: "Siena"
+    lat: 43.3171232
+    lon: 11.3309595
+    nota: "Palazzo Chigi Saracini, Via di Citta'. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Pian dei Mantellini"]
+    comune: "Siena"
+    lat: 43.3145426
+    lon: 11.3273351
+    nota: "Pian dei Mantellini. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Cattedrale di Santa Maria Assunta", "Duomo di Siena"]
+    comune: "Siena"
+    lat: 43.3177948
+    lon: 11.3290896
+    nota: "Cattedrale di Santa Maria Assunta, Piazza del Duomo. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Giardini de La Lizza", "La Lizza"]
+    comune: "Siena"
+    lat: 43.3235451
+    lon: 11.3260885
+    nota: "Giardini de La Lizza. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza Matteotti", "Piazza Giacomo Matteotti"]
+    comune: "Siena"
+    lat: 43.3215554
+    lon: 11.3286618
+    nota: "Piazza Giacomo Matteotti. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza del Duomo", "Sale Affrescate"]
+    comune: "Pistoia"
+    lat: 43.9336412
+    lon: 10.917409
+    nota: "Piazza del Duomo e Palazzo comunale (Sale Affrescate). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza della Resistenza"]
+    comune: "Pistoia"
+    lat: 43.929298
+    lon: 10.9205849
+    nota: "Giardino di piazza della Resistenza. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piccolo Teatro Mauro Bolognini", "Teatro Bolognini", "Via del Presto 5"]
+    comune: "Pistoia"
+    lat: 43.9344344
+    lon: 10.9167755
+    nota: "Piccolo Teatro Mauro Bolognini, Via del Presto 5. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Il Funaro", "Il Funaro"]
+    comune: "Pistoia"
+    lat: 43.9376993
+    lon: 10.9201532
+    nota: "Teatro Il Funaro, Via del Funaro. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza del Popolo"]
+    comune: "Montecatini-Terme"
+    lat: 43.8829828
+    lon: 10.771231
+    nota: "Piazza del Popolo. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Magnolfi"]
+    comune: "Prato"
+    lat: 43.8829718
+    lon: 11.1053604
+    nota: "Teatro Magnolfi, Via Piero Gobetti. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Museo del Tessuto", "Via Puccetti 3"]
+    comune: "Prato"
+    lat: 43.8765212
+    lon: 11.0982478
+    nota: "Museo del Tessuto, Via Puccetti 3. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Moderno"]
+    comune: "Grosseto"
+    lat: 42.7640147
+    lon: 11.1152224
+    nota: "Teatro Moderno, Via Tripoli. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Tullio Giacconi", "Teatro Giacconi"]
+    comune: "Chiaravalle"
+    lat: 43.5999718
+    lon: 13.3253684
+    nota: "Teatro Tullio Giacconi, Corso Giacomo Matteotti. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro La Fenice", "Via Cesare Battisti 24"]
+    comune: "Senigallia"
+    lat: 43.7125046
+    lon: 13.2182501
+    nota: "Teatro La Fenice, Via Cesare Battisti 24. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Goldoni", "Via del Teatro 1"]
+    comune: "Corinaldo"
+    lat: 43.64932
+    lon: 13.04549
+    nota: "Teatro Goldoni, Via del Teatro 1. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Studio Valeria Moriconi", "Teatro Studio"]
+    comune: "Jesi"
+    lat: 43.5246377
+    lon: 13.2454791
+    nota: "Teatro Studio Valeria Moriconi, Via Posterma. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Pergolesi"]
+    comune: "Jesi"
+    lat: 43.5218747
+    lon: 13.2439244
+    nota: "Teatro Pergolesi, Piazza della Repubblica. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro La Nuova Fenice", "Nuova Fenice"]
+    comune: "Osimo"
+    lat: 43.4856056
+    lon: 13.4844019
+    nota: "Teatro La Nuova Fenice, Piazza Guglielmo Marconi. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Spontini"]
+    comune: "Maiolati Spontini"
+    lat: 43.477338
+    lon: 13.1188525
+    nota: "Teatro Spontini, Via Gaspare Spontini. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Scalinata del Teatro delle Muse"]
+    comune: "Ancona"
+    lat: 43.6190546
+    lon: 13.5098727
+    nota: "Piazza della Repubblica, scalinata del Teatro delle Muse. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Chiesa del Gesu'", "Piazza Benvenuto Stracca"]
+    comune: "Ancona"
+    lat: 43.6226743
+    lon: 13.5115039
+    nota: "Chiesa del Gesu', Piazza Benvenuto Stracca. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Borgo di Varano", "Varano"]
+    comune: "Ancona"
+    lat: 43.5694069
+    lon: 13.5442005
+    nota: "Borgo di Varano (frazione). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Mole Vanvitelliana"]
+    comune: "Ancona"
+    lat: 43.614367
+    lon: 13.5044233
+    nota: "Mole Vanvitelliana. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Montesicuro"]
+    comune: "Ancona"
+    lat: 43.553211
+    lon: 13.4616056
+    nota: "Montesicuro (frazione). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Piazza Roma"]
+    comune: "Ancona"
+    lat: 43.6178592
+    lon: 13.5130692
+    nota: "Piazza Roma. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Sperimentale", "Via Redipuglia 59"]
+    comune: "Ancona"
+    lat: 43.6135194
+    lon: 13.5154073
+    nota: "Teatro Sperimentale, Via Redipuglia 59. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Museo Archeologico Nazionale delle Marche", "Via Gabriele Ferretti 6"]
+    comune: "Ancona"
+    lat: 43.6234055
+    lon: 13.5107468
+    nota: "Museo Archeologico Nazionale delle Marche, Via Gabriele Ferretti 6. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Corso Garibaldi", "Corso Giuseppe Garibaldi"]
+    comune: "Ancona"
+    lat: 43.6175018
+    lon: 13.514641
+    nota: "Corso Giuseppe Garibaldi (punto della via). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Cattedrale di San Ciriaco", "Duomo di San Ciriaco"]
+    comune: "Ancona"
+    lat: 43.6253314
+    lon: 13.5102303
+    nota: "Cattedrale di San Ciriaco, Piazza del Duomo. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Forte Altavilla"]
+    comune: "Ancona"
+    lat: 43.6026298
+    lon: 13.5426119
+    nota: "Forte Altavilla, Pietralacroce. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Arco di Traiano"]
+    comune: "Ancona"
+    lat: 43.6252721
+    lon: 13.5065081
+    nota: "Porto Antico, Arco di Traiano (Molo Nord). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Sperimentale"]
+    comune: "Pesaro"
+    lat: 43.9103068
+    lon: 12.9133822
+    nota: "Teatro Sperimentale, Via Gioacchino Rossini. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Chiesa della Santissima Annunziata", "Via dell'Annunziata 25"]
+    comune: "Pesaro"
+    lat: 43.9115255
+    lon: 12.9125387
+    nota: "Chiesa della Santissima Annunziata, Via dell'Annunziata 25. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Mercato coperto Campagna Amica", "Via Giovanni Giolitti 214", "Via Giolitti 214"]
+    comune: "Pesaro"
+    lat: 43.8961795
+    lon: 12.9084175
+    nota: "Mercato coperto Campagna Amica, Via Giovanni Giolitti 214/220. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Candelara"]
+    comune: "Pesaro"
+    lat: 43.858604
+    lon: 12.8897537
+    nota: "Borgo di Candelara (frazione). Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro della Fortuna", "Piazza XX Settembre 1"]
+    comune: "Fano"
+    lat: 43.8439657
+    lon: 13.0175208
+    nota: "Teatro della Fortuna, Piazza XX Settembre 1. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Comunale di Cagli", "Teatro Comunale"]
+    comune: "Cagli"
+    lat: 43.5455763
+    lon: 12.6474839
+    nota: "Teatro Comunale, Piazza Papa Nicolo' IV. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Bramante"]
+    comune: "Urbania"
+    lat: 43.6678961
+    lon: 12.5216017
+    nota: "Teatro Bramante, Piazza San Cristoforo. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: ["Teatro Mario Tiberini", "Teatro Tiberini"]
+    comune: "San Lorenzo in Campo"
+    lat: 43.604517
+    lon: 12.9448542
+    nota: "Teatro Mario Tiberini, Via Mario Tiberini 3. Coordinate di OpenStreetMap (Nominatim); aggiunto il 2026-11-28 (italia-b)."
+  - nomi: [Mulino di Santa Libera]
+    comune: "Santa Giustina"
+    lat: 46.078484
+    lon: 12.049691
+    nota: 'Via del Mulino 4, Salzan. Coordinate OpenStreetMap (Nominatim/Photon), fonte: dolomitiprealpi.it + OSM node 6169429754. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Centro culturale di Santa Giustina]
+    comune: "Santa Giustina"
+    lat: 46.080557
+    lon: 12.038370
+    nota: 'Via Cal de Formiga 31. Coordinate OpenStreetMap (Nominatim/Photon), fonte: dolomitiprealpi.it + OSM way 212902968 (in OSM su Via Pulliere). Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Castello di Zumelle]
+    comune: "Borgo Valbelluna"
+    lat: 46.036306
+    lon: 12.081402
+    nota: 'Via San Dona'' 4, Mel. Coordinate OpenStreetMap (Nominatim/Photon), fonte: dolomitiprealpi.it + OSM way 161233967. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Auditorium Orfeo Tamburi, Mole Vanvitelliana]
+    comune: "Ancona"
+    lat: 43.614370
+    lon: 13.504420
+    nota: 'Banchina Nazario Sauro 28. Coordinate OpenStreetMap (Nominatim/Photon), fonte: marcheteatro.it + OSM relation 11877 (stesso punto degli eventi gia'' sul sito). Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Ridotto del Teatro delle Muse]
+    comune: "Ancona"
+    lat: 43.619597
+    lon: 13.510124
+    nota: 'Piazza della Repubblica. Coordinate OpenStreetMap (Nominatim/Photon), fonte: stesso edificio del Teatro delle Muse. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Abbazia di Fossanova (Infermeria dei Conversi)]
+    comune: "Priverno"
+    lat: 41.438323
+    lon: 13.195651
+    nota: 'Via San Tommaso d''Aquino. Coordinate OpenStreetMap (Nominatim/Photon), fonte: visitlazio.com + OSM relation 2854335. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Cineteatro Il Piccolissimo]
+    comune: "Ciampino"
+    lat: 41.803870
+    lon: 12.604179
+    nota: 'Via Ludovico Ariosto. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OSM node 4257289831 (VisitLazio scrive Largo Felice Armati 1, il Comune). Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Parco di Villa Franceschini]
+    comune: "Contigliano"
+    lat: 42.409475
+    lon: 12.772738
+    nota: 'Via Ettore Franceschini. Coordinate OpenStreetMap (Nominatim/Photon), fonte: visitlazio.com + OSM way 371346706. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Piazza Garibaldi]
+    comune: "Sonnino"
+    lat: 41.414193
+    lon: 13.241926
+    nota: 'Piazza Giuseppe Garibaldi. Coordinate OpenStreetMap (Nominatim/Photon), fonte: visitlazio.com + OSM way 392466441. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Piazza Piombino]
+    comune: "Riano"
+    lat: 42.091325
+    lon: 12.522482
+    nota: 'Piazza Piombino. Coordinate OpenStreetMap (Nominatim/Photon), fonte: visitlazio.com + OSM way 209542060. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Piazza Tommaso Tittoni]
+    comune: "Manziana"
+    lat: 42.129379
+    lon: 12.132849
+    nota: 'Piazza Tommaso Tittoni. Coordinate OpenStreetMap (Nominatim/Photon), fonte: visitlazio.com + OSM relation 18267858. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Corso Francesco Petrarca]
+    comune: "Capranica"
+    lat: 42.256669
+    lon: 12.178028
+    nota: 'Corso Francesco Petrarca 40. Coordinate OpenStreetMap (Nominatim/Photon), fonte: visitlazio.com + OSM way 454009835. Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Corso Umberto I]
+    comune: "Nerola"
+    lat: 42.161662
+    lon: 12.786904
+    nota: 'Corso Umberto I 15. Coordinate OpenStreetMap (Nominatim/Photon), fonte: visitlazio.com + OSM way 391606445 (punto della via). Aggiunto il 2026-11-28 (agente giro, sera).'
+  - nomi: [Chiesa di San Salvatore]
+    comune: "Lucca"
+    lat: 43.844092
+    lon: 10.502922
+    nota: 'Piazza del Salvatore. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Chiesa di San Francesco]
+    comune: "Lucca"
+    lat: 43.845492
+    lon: 10.511405
+    nota: 'Piazza San Francesco. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Palazzo Guinigi]
+    comune: "Lucca"
+    lat: 43.843785
+    lon: 10.507228
+    nota: 'Via Guinigi 29. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Palazzo Ducale]
+    comune: "Lucca"
+    lat: 43.841379
+    lon: 10.501919
+    nota: 'Piazza Napoleone. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Foro Boario]
+    comune: "Lucca"
+    lat: 43.856323
+    lon: 10.508217
+    nota: 'Via per Camaiore. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Cattedrale di San Martino]
+    comune: "Lucca"
+    lat: 43.840630
+    lon: 10.506053
+    nota: 'Piazza San Martino. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Museo Nazionale di Villa Guinigi]
+    comune: "Lucca"
+    lat: 43.844983
+    lon: 10.512343
+    nota: 'Via della Quarquonia 4. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Museo Nazionale di Palazzo Mansi]
+    comune: "Lucca"
+    lat: 43.843618
+    lon: 10.499065
+    nota: 'Via Galli Tassi 43. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Villa Bottini]
+    comune: "Lucca"
+    lat: 43.843652
+    lon: 10.510264
+    nota: 'Via Elisa 9. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Museo Barsanti e Matteucci]
+    comune: "Lucca"
+    lat: 43.843549
+    lon: 10.507451
+    nota: 'Via Sant''Andrea 56. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Biblioteca Statale]
+    comune: "Lucca"
+    lat: 43.844933
+    lon: 10.501331
+    nota: 'Via Santa Maria Corteorlandini 12. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Casa del Boia]
+    comune: "Lucca"
+    lat: 43.845812
+    lon: 10.514139
+    nota: 'Via dei Bacchettoni. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Real Collegio]
+    comune: "Lucca"
+    lat: 43.846540
+    lon: 10.505038
+    nota: 'Piazza del Collegio 13. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Oratorio degli Angeli Custodi]
+    comune: "Lucca"
+    lat: 43.844174
+    lon: 10.508071
+    nota: 'Via dell''Angelo Custode. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Ex Ospedale Psichiatrico di Maggiano]
+    comune: "Lucca"
+    lat: 43.850454
+    lon: 10.424655
+    nota: 'Via di Fregionaia 692. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Ex Cavallerizza ducale (Cavallerizza San Donato)]
+    comune: "Lucca"
+    lat: 43.843691
+    lon: 10.496358
+    nota: 'Piazzale Verdi. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Villa Reale di Marlia]
+    comune: "Capannori"
+    lat: 43.900187
+    lon: 10.556111
+    nota: 'Via della Fraga Alta 2. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Tenuta dello Scompiglio]
+    comune: "Capannori"
+    lat: 43.797131
+    lon: 10.512406
+    nota: 'Via di Vorno 67. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Biblioteca San Giorgio]
+    comune: "Pistoia"
+    lat: 43.928132
+    lon: 10.910082
+    nota: 'Via Sandro Pertini 340. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Teatro Il Funaro]
+    comune: "Pistoia"
+    lat: 43.937699
+    lon: 10.920153
+    nota: 'Via del Funaro. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Piccolo Teatro Mauro Bolognini]
+    comune: "Pistoia"
+    lat: 43.934434
+    lon: 10.916775
+    nota: 'Via del Presto 5. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Chiesa di San Giovanni Fuorcivitas]
+    comune: "Pistoia"
+    lat: 43.932007
+    lon: 10.916403
+    nota: 'Via Cavour. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Teatro Verdi]
+    comune: "Montecatini-Terme"
+    lat: 43.885104
+    lon: 10.772458
+    nota: 'Viale Giuseppe Verdi 45. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Terme Tettuccio]
+    comune: "Montecatini-Terme"
+    lat: 43.887838
+    lon: 10.776449
+    nota: 'Piazza Domenico Giusti. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Palazzo Chigi Saracini]
+    comune: "Siena"
+    lat: 43.317123
+    lon: 11.330960
+    nota: 'Via di Citta'' 89. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Santa Maria della Scala]
+    comune: "Siena"
+    lat: 43.317189
+    lon: 11.327971
+    nota: 'Piazza del Duomo 1. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Duomo di Livorno]
+    comune: "Livorno"
+    lat: 43.550099
+    lon: 10.309584
+    nota: 'Piazza Grande. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Teatro dei Servi]
+    comune: "Massa"
+    lat: 44.039694
+    lon: 10.142590
+    nota: 'Via Palestro. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Museo Diocesano]
+    comune: "Massa"
+    lat: 44.035793
+    lon: 10.142298
+    nota: 'Via Alberica. Coordinate OpenStreetMap (Nominatim/Photon), fonte: OpenStreetMap. Aggiunto il 2026-11-28 (agente italia-b, sera).'
+  - nomi: [Teatro del Maggio Musicale Fiorentino]
+    comune: "Firenze"
+    lat: 43.778877
+    lon: 11.234874
+    nota: 'Piazza Vittorio Gui 1. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 44 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro della Pergola]
+    comune: "Firenze"
+    lat: 43.773094
+    lon: 11.261495
+    nota: 'Via della Pergola 12/32. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 20 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro di Fiesole]
+    comune: "Fiesole"
+    lat: 43.807804
+    lon: 11.296110
+    nota: 'Largo Piero Farulli 1. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 14 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro delle Clarisse]
+    comune: "Rapallo"
+    lat: 44.348260
+    lon: 9.235515
+    nota: 'Passo Santa Chiara. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 13 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatrodante Carlo Monni]
+    comune: "Campi Bisenzio"
+    lat: 43.820950
+    lon: 11.138124
+    nota: 'Piazza Dante 23. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 9 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza Garibaldi]
+    comune: "Pisa"
+    lat: 43.716443
+    lon: 10.402228
+    nota: 'Piazza Garibaldi. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 8 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Palazzo Strozzi]
+    comune: "Firenze"
+    lat: 43.771277
+    lon: 11.251992
+    nota: 'Piazza degli Strozzi. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 6 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro Niccolini]
+    comune: "Firenze"
+    lat: 43.773801
+    lon: 11.256101
+    nota: 'Via Ricasoli 3. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 5 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza Vittorio Emanuele II]
+    comune: "Pisa"
+    lat: 43.710665
+    lon: 10.398979
+    nota: 'Piazza Vittorio Emanuele II. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 5 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Via Garibaldi]
+    comune: "Genova"
+    lat: 44.411524
+    lon: 8.932530
+    nota: 'Via Garibaldi. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 5 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro Verdi]
+    comune: "Firenze"
+    lat: 43.770030
+    lon: 11.260680
+    nota: 'Via Ghibellina 99. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 4 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Museo Novecento]
+    comune: "Firenze"
+    lat: 43.772866
+    lon: 11.248841
+    nota: 'Piazza di Santa Maria Novella 10. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 4 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro di Rifredi (Nuovo Rifredi Scena Aperta)]
+    comune: "Firenze"
+    lat: 43.795540
+    lon: 11.241391
+    nota: 'Via Vittorio Emanuele II 303. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 4 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Museo La Specola]
+    comune: "Firenze"
+    lat: 43.764578
+    lon: 11.247116
+    nota: 'Via Romana 17. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 4 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Largo Ciro Menotti]
+    comune: "Pisa"
+    lat: 43.717765
+    lon: 10.402419
+    nota: 'Largo Ciro Menotti. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 4 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza Emile Chanoux]
+    comune: "Aosta"
+    lat: 45.737285
+    lon: 7.320362
+    nota: 'Piazza Emile Chanoux. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 4 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Pieve di Sant'Andrea]
+    comune: "Sarzana"
+    lat: 44.112768
+    lon: 9.961061
+    nota: 'Via Rossi. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 4 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro Goldoni]
+    comune: "Firenze"
+    lat: 43.764852
+    lon: 11.244541
+    nota: 'Via Santa Maria 15. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro di Cestello]
+    comune: "Firenze"
+    lat: 43.770173
+    lon: 11.243725
+    nota: 'Piazza di Cestello 4. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Chiesa di Santa Brigida]
+    comune: "Pontassieve"
+    lat: 43.852379
+    lon: 11.394862
+    nota: 'Via Piana. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza Cavour]
+    comune: "Barberino di Mugello"
+    lat: 43.999570
+    lon: 11.239038
+    nota: 'Piazza Cavour. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Borgo Stretto]
+    comune: "Pisa"
+    lat: 43.717426
+    lon: 10.402247
+    nota: 'Borgo Stretto. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza XX Settembre]
+    comune: "Pisa"
+    lat: 43.715398
+    lon: 10.401601
+    nota: 'Piazza XX Settembre. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza Dante Alighieri]
+    comune: "Pisa"
+    lat: 43.717745
+    lon: 10.399052
+    nota: 'Piazza Dante Alighieri. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza delle Vettovaglie]
+    comune: "Pisa"
+    lat: 43.716972
+    lon: 10.401783
+    nota: 'Piazza delle Vettovaglie. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza De Ferrari]
+    comune: "Genova"
+    lat: 44.407369
+    lon: 8.933935
+    nota: 'Piazza Raffaele De Ferrari. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 3 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Palazzo dei Vicari]
+    comune: "Scarperia e San Piero"
+    lat: 43.996166
+    lon: 11.354539
+    nota: 'Piazza dei Vicari 1. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Galleria dell'Accademia]
+    comune: "Firenze"
+    lat: 43.776917
+    lon: 11.258758
+    nota: 'Via Ricasoli 58/60. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Palazzo Pitti]
+    comune: "Firenze"
+    lat: 43.765281
+    lon: 11.250257
+    nota: 'Piazza de'' Pitti 1. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Limonaia di Villa Vogel]
+    comune: "Firenze"
+    lat: 43.775731
+    lon: 11.205745
+    nota: 'Via delle Torri 23. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Parco della Cittadella]
+    comune: "Pisa"
+    lat: 43.715076
+    lon: 10.389491
+    nota: 'Lungarno Ranieri Simonelli. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Corso Italia]
+    comune: "Pisa"
+    lat: 43.713057
+    lon: 10.400165
+    nota: 'Corso Italia. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza Chiara Gambacorti]
+    comune: "Pisa"
+    lat: 43.714238
+    lon: 10.401476
+    nota: 'Piazza Chiara Gambacorti. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza della Vittoria]
+    comune: "Genova"
+    lat: 44.403074
+    lon: 8.944988
+    nota: 'Piazza della Vittoria. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Piazza Matteotti]
+    comune: "Genova"
+    lat: 44.407103
+    lon: 8.932560
+    nota: 'Piazza Giacomo Matteotti. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Porto Antico]
+    comune: "Genova"
+    lat: 44.409370
+    lon: 8.927403
+    nota: 'Calata Falcone e Borsellino. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Biblioteca Civica Gallino]
+    comune: "Genova"
+    lat: 44.412276
+    lon: 8.890533
+    nota: 'Via Prete Nicolo'' Daste 8a. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Cattedrale di Santa Maria Assunta]
+    comune: "Sarzana"
+    lat: 44.112135
+    lon: 9.962381
+    nota: 'Piazza Calandrini. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Teatro degli Impavidi]
+    comune: "Sarzana"
+    lat: 44.111616
+    lon: 9.962905
+    nota: 'Via Mazzini. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Biblioteca Comunale]
+    comune: "Briga Novarese"
+    lat: 45.733541
+    lon: 8.453457
+    nota: 'Piazza Unità d''Italia. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
+  - nomi: [Cine Teatro Silvio Pellico]
+    comune: "Trecate"
+    lat: 45.430353
+    lon: 8.739986
+    nota: 'Piazza Riccardo Cattaneo. Coordinate OpenStreetMap (Nominatim/Photon), fonte: 2 eventi. Aggiunto il 2026-11-28 (agente italia-a, sera).'
