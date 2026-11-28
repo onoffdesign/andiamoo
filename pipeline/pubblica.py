@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
 import json
 import re
 import sys
@@ -135,6 +136,14 @@ def quality_ops(events: list[Event], towns: dict, old_uids: set, no_place: int) 
               "correzioni_attive": len(corr["correggi"]), "rimossi_dalla_redazione": len(corr["rimuovi"])}
     quality.write_ops(report, queue, None, quality.quality_sample(located, int(budget().get("campione", 10))))
     rows = quality.saturation_rows(located, town_province, {e.uid for e in located} - old_uids)
+    # piu' pubblicazioni nello stesso giorno (raccolta, revisione, prove): i nuovi del giorno si sommano
+    sat = quality.OPS / "saturazione.csv"
+    if sat.exists():
+        today = {(r["data"], r["provincia"]): r for r in csv.DictReader(io.StringIO(sat.read_text(encoding="utf-8")))}
+        for r in rows:
+            prev = today.get((r["data"], r["provincia"]))
+            if prev:
+                r["nuovi_oggi"] += int(prev.get("nuovi_oggi") or 0)
     quality.append_saturation(rows)
     return {"in_revisione": len(queue), "saturazione": {r["provincia"]: r["nuovi_oggi"] for r in rows}}
 
