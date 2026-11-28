@@ -841,4 +841,43 @@ body.view-list .panel { display: flex !important; }
 .inline-card { list-style: none; padding: 4px 20px 16px; }
 .inline-card .card.full { width: auto; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18); animation: card-in .28s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 50% 0; }
 .item button[aria-expanded="true"] { background: var(--chip); }
-body.view-list .panel .panel-body { overflow-y: auto !important; touch-action: pan-y !important; }
+body.view-list .panel { touch-action: pan-y !important; }
+
+/* ---- vista lista a tutta pagina: l'elenco intero scorre sotto testata, calendario, categorie e accesso */
+@media (min-width: 761px) {
+  body.view-list .panel {
+    display: block !important; left: var(--gap); right: var(--gap); top: var(--gap); bottom: var(--gap); width: auto; transform: none;
+    overflow-y: auto; border: 0; border-radius: 20px; background-color: var(--panel); background-image: var(--paper);
+    padding: calc(var(--below-days, 190px) - var(--gap)) calc(var(--gap) * 2 - 20px) calc(var(--above-filters, 140px) - var(--gap) + 16px);
+    scrollbar-width: thin;
+    scroll-padding-top: calc(var(--below-days, 190px) - var(--gap) + 52px); scroll-padding-bottom: calc(var(--above-filters, 140px) - var(--gap));
+  }
+  body.view-list .panel .panel-body { overflow: visible !important; padding-bottom: 0; }
+  /* il giorno resta in vista appena sotto le barre in alto */
+  body.view-list .group { top: -1px; }   /* il riferimento e' gia' sotto le barre (padding del pannello) */
+}
+@media (max-width: 760px) {
+  body.view-list .panel {
+    display: block !important; top: 0; bottom: 0; border-radius: 0; overflow-y: auto; box-shadow: none; border: 0;
+    padding: var(--below-filters, 200px) 0 calc(24px + var(--sab)); background-color: var(--panel); background-image: var(--paper);
+    scroll-padding-top: calc(var(--below-filters, 200px) + 48px);
+  }
+  body.view-list .panel .panel-body { overflow: visible !important; }
+  body.view-list .group { top: -1px; }
+  /* vista mappa senza elenco: i controlli restano sempre in basso a destra */
+  .map-ctrl { bottom: calc(14px + var(--sab)) !important; opacity: 1 !important; pointer-events: auto !important; }
+}
+body.view-list .panel-head { background: transparent; }
+
+/* cuore piu' grande nelle card */
+.card-top .fav, .card.full .card-top .fav { width: 44px; height: 44px; margin-top: -8px; margin-right: -10px; }
+.card-top .fav svg { width: 30px; height: 30px; stroke-width: 1.8; }
+
+/* cuore tra i controlli della mappa: pieno, acceso quando mostra solo i preferiti */
+#fav-map svg { width: 22px; height: 22px; }
+#fav-map svg path { fill: transparent; stroke: #e0344f; stroke-width: 2; }
+#fav-map[aria-pressed="true"] { background: #fde4e8; }
+#fav-map[aria-pressed="true"] svg path { fill: #e0344f; }
+
+/* l'elenco scorre sotto testata, calendario, categorie e accesso */
+body.view-list .panel { z-index: 2 !important; }

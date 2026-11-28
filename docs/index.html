@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Caveat:wght@500..700&family=Figtree:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=64" rel="stylesheet">
+<link href="style.css?v=68" rel="stylesheet">
 </head>
 <body>
 <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0">
@@ -124,6 +124,7 @@
   </section>
 
   <div class="float map-ctrl" role="group" aria-label="Controlli mappa">
+    <button type="button" id="fav-map" aria-pressed="false" aria-label="Mostra solo i preferiti" title="Solo i miei preferiti" hidden></button>
     <button type="button" id="locate" aria-label="Eventi vicino a me" title="Vicino a me">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
     </button>
@@ -245,6 +246,6 @@
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=66"></script>
+<script src="app.js?v=68"></script>
 </body>
 </html>
