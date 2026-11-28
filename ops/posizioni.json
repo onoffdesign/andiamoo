@@ -1,88 +1,15 @@
 {
- "generato": "2026-11-28T17:42+01:00",
+ "generato": "2026-11-28T17:47+01:00",
  "riepilogo": {
-  "eventi_controllati": 1856,
+  "eventi_controllati": 1862,
   "allineati_in_automatico": 0,
-  "luoghi_con_punti_diversi": 4,
+  "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 61,
-  "solo_comune_con_luogo": 169,
-  "solo_comune_senza_luogo": 29,
-  "candidati_luoghi_noti": 51
+  "solo_comune_con_luogo": 167,
+  "solo_comune_senza_luogo": 28,
+  "candidati_luoghi_noti": 37
  },
- "punti_diversi": [
-  {
-   "luogo": "Teatro Comunale di Trevignano, Via Puccini 1, Falze', Trevignano",
-   "eventi": 10,
-   "punti": [
-    [
-     45.7414,
-     12.0849
-    ],
-    [
-     45.7418,
-     12.0905
-    ]
-   ],
-   "uid_fuori_posto": [
-    "4d45272078d3abc0"
-   ],
-   "cosa_fare": "scegli il punto giusto e scrivilo in config/luoghi.yaml (vale per tutti gli eventi)"
-  },
-  {
-   "luogo": "Teatro Comunale di Trevignano, Via Puccini 1, Falze', Trevignano",
-   "eventi": 10,
-   "punti": [
-    [
-     45.7414,
-     12.0849
-    ],
-    [
-     45.7418,
-     12.0905
-    ]
-   ],
-   "uid_fuori_posto": [
-    "4d45272078d3abc0"
-   ],
-   "cosa_fare": "scegli il punto giusto e scrivilo in config/luoghi.yaml (vale per tutti gli eventi)"
-  },
-  {
-   "luogo": "Aula Magna della Scuola Secondaria, Via Gazzari 1, Cordignano",
-   "eventi": 3,
-   "punti": [
-    [
-     45.9447,
-     12.4178
-    ],
-    [
-     45.9501,
-     12.4143
-    ]
-   ],
-   "uid_fuori_posto": [
-    "521981068923ec69"
-   ],
-   "cosa_fare": "scegli il punto giusto e scrivilo in config/luoghi.yaml (vale per tutti gli eventi)"
-  },
-  {
-   "luogo": "Aula Magna della Scuola Secondaria, Via Gazzari 1, Cordignano",
-   "eventi": 3,
-   "punti": [
-    [
-     45.9447,
-     12.4178
-    ],
-    [
-     45.9501,
-     12.4143
-    ]
-   ],
-   "uid_fuori_posto": [
-    "521981068923ec69"
-   ],
-   "cosa_fare": "scegli il punto giusto e scrivilo in config/luoghi.yaml (vale per tutti gli eventi)"
-  }
- ],
+ "punti_diversi": [],
  "lontani_dal_comune": [
   {
    "luogo": "Teatro Toniolo, Mestre, Piazzetta Cesare Battisti 1, Venezia",
@@ -381,14 +308,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Biblioteca dei Liberi Pensatori, Via Don Minzoni 14, Silea",
-   "eventi": 1,
-   "uid": [
-    "b49775d14e84764d"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Sala Papa Luciani, Via Piave 24, Falze' di Piave, Sernaglia della Battaglia",
    "eventi": 1,
    "uid": [
@@ -555,46 +474,18 @@
     "3fd81d9b901a84a4"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Area parrocchiale di Catena, Villorba",
+   "eventi": 1,
+   "uid": [
+    "44058cc5e46852a5"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
  "allineati": [],
  "candidati_luoghi": [
-  {
-   "nomi": [
-    "Teatro Toniolo, Mestre"
-   ],
-   "comune": "Venezia",
-   "lat": 45.49321,
-   "lon": 12.23773,
-   "eventi": 39
-  },
-  {
-   "nomi": [
-    "Teatro Comunale di Thiene"
-   ],
-   "comune": "Thiene",
-   "lat": 45.70795,
-   "lon": 11.47854,
-   "eventi": 30
-  },
-  {
-   "nomi": [
-    "Teatro Metropolitano Astra"
-   ],
-   "comune": "San Donà di Piave",
-   "lat": 45.63067,
-   "lon": 12.56248,
-   "eventi": 17
-  },
-  {
-   "nomi": [
-    "Teatro Salieri"
-   ],
-   "comune": "Legnago",
-   "lat": 45.19134,
-   "lon": 11.30761,
-   "eventi": 16
-  },
   {
    "nomi": [
     "Teatro Auditorium Vivaldi"
@@ -603,42 +494,6 @@
    "lat": 45.50349,
    "lon": 12.62696,
    "eventi": 15
-  },
-  {
-   "nomi": [
-    "Teatro Regio"
-   ],
-   "comune": "Torino",
-   "lat": 45.07059,
-   "lon": 7.68796,
-   "eventi": 13
-  },
-  {
-   "nomi": [
-    "Teatro Comunale di Vicenza, Sala Maggiore"
-   ],
-   "comune": "Vicenza",
-   "lat": 45.54807,
-   "lon": 11.53191,
-   "eventi": 12
-  },
-  {
-   "nomi": [
-    "Teatro Russolo"
-   ],
-   "comune": "Portogruaro",
-   "lat": 45.77761,
-   "lon": 12.83699,
-   "eventi": 12
-  },
-  {
-   "nomi": [
-    "Teatro del Parco, Mestre"
-   ],
-   "comune": "Venezia",
-   "lat": 45.49952,
-   "lon": 12.25798,
-   "eventi": 11
   },
   {
    "nomi": [
@@ -665,15 +520,6 @@
    "comune": "San Stino di Livenza",
    "lat": 45.72891,
    "lon": 12.67573,
-   "eventi": 10
-  },
-  {
-   "nomi": [
-    "Teatro Modernissimo"
-   ],
-   "comune": "Noventa Vicentina",
-   "lat": 45.28851,
-   "lon": 11.53385,
    "eventi": 10
   },
   {
@@ -705,39 +551,120 @@
   },
   {
    "nomi": [
-    "Teatro Villa dei Leoni"
+    "Piazza della Repubblica"
    ],
-   "comune": "Mira",
-   "lat": 45.4343,
-   "lon": 12.12637,
-   "eventi": 8
-  },
-  {
-   "nomi": [
-    "Teatro Coccia"
-   ],
-   "comune": "Novara",
-   "lat": 45.44553,
-   "lon": 8.61817,
-   "eventi": 8
-  },
-  {
-   "nomi": [
-    "Teatro Marconi"
-   ],
-   "comune": "Abano Terme",
-   "lat": 45.36072,
-   "lon": 11.78836,
+   "comune": "Misano Adriatico",
+   "lat": 43.978,
+   "lon": 12.69835,
    "eventi": 7
   },
   {
    "nomi": [
-    "Teatro Don Bosco"
+    "Teatro Filodrammatici"
    ],
-   "comune": "Chioggia",
-   "lat": 45.2158,
-   "lon": 12.27664,
+   "comune": "Piacenza",
+   "lat": 45.0493,
+   "lon": 9.69126,
    "eventi": 7
+  },
+  {
+   "nomi": [
+    "Teatro Cotogni"
+   ],
+   "comune": "Castelmassa",
+   "lat": 45.01715,
+   "lon": 11.3084,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Piccolo Teatro"
+   ],
+   "comune": "Padova",
+   "lat": 45.38249,
+   "lon": 11.85213,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Comunale Ballarin"
+   ],
+   "comune": "Lendinara",
+   "lat": 45.08325,
+   "lon": 11.59622,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Cinema Teatro Italia"
+   ],
+   "comune": "Dolo",
+   "lat": 45.42646,
+   "lon": 12.0738,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Cinema Super"
+   ],
+   "comune": "Valdagno",
+   "lat": 45.64678,
+   "lon": 11.29851,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Camploy"
+   ],
+   "comune": "Verona",
+   "lat": 45.43921,
+   "lon": 11.01095,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Aurora"
+   ],
+   "comune": "Campodarsego",
+   "lat": 45.50228,
+   "lon": 11.90773,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Sant'Antonio"
+   ],
+   "comune": "Montecchio Maggiore",
+   "lat": 45.50898,
+   "lon": 11.40023,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Comunale di Mirano"
+   ],
+   "comune": "Mirano",
+   "lat": 45.49063,
+   "lon": 12.11347,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Dario Fo"
+   ],
+   "comune": "Camponogara",
+   "lat": 45.383,
+   "lon": 12.07193,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Municipale"
+   ],
+   "comune": "Piacenza",
+   "lat": 45.04924,
+   "lon": 9.69353,
+   "eventi": 6
   }
  ]
 }

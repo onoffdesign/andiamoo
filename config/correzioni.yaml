@@ -1037,23 +1037,6 @@ correggi:
     official_url: https://www.newageclub.it/evento/laperitivo-celebration-weekend/
     nota: 'scheda del New Age Club: domenica 29/11 dalle 16 alle 21, ingresso gratuito, per i 30 anni del locale'
     verificato: '2026-11-28'
-  b49775d14e84764d:
-    start: 2026-12-02T16:30
-    end: 2026-12-02T18:30
-    all_day: false
-    venue: Biblioteca dei Liberi Pensatori
-    address: Via Don Minzoni 14
-    price: gratuito
-    official_url: https://www.comune.silea.tv.it/eventi/Letture-animate-26.html
-    nota: 'scheda del Comune di Silea: 2/12 16:30-18:30 alla Biblioteca dei Liberi Pensatori, Via Don Minzoni 14, gratuito; letture del 1o e 3o mercoledi'' del mese'
-    verificato: '2026-11-28'
-  1098ba870aa91689:
-    venue: Alcuni Teatro Sant'Anna
-    address: Viale Brigata Treviso 18
-    town: Treviso
-    nota: 'scheda di Gli Alcuni: domenica 29/11 alle 16:30 al Teatro Sant''Anna, biglietto intero 7 euro'
-    verificato: '2026-11-28'
-    price: 7 euro, gratis fino a 2 anni
   180dfd4d9375b60e:
     start: 2026-12-12T22:30
     all_day: false
@@ -1374,6 +1357,138 @@ correggi:
     official_url: https://teatroaccademia.it/event/uno-nessuno-centomila/
     nota: 'calendario del Teatro Accademia: martedi'' 9/2 ore 21; scheda dello spettacolo'
     verificato: '2026-11-28'
+  4d45272078d3abc0:
+    lat: 45.74185
+    lon: 12.09054
+    nota: 'stesso punto degli altri 9 eventi del Teatro comunale di Trevignano (Via Puccini 1, Falze'') in config/luoghi.yaml: l''evento aveva un punto suo a 450 m'
+    verificato: '2026-11-28'
+  521981068923ec69:
+    lat: 45.95006
+    lon: 12.41434
+    nota: 'stesso punto degli altri eventi dell''Aula Magna della scuola secondaria di Cordignano in config/luoghi.yaml (edificio della scuola media Ippolito Nievo, OpenStreetMap way 234787583): l''evento aveva un punto suo a 700 m'
+    verificato: '2026-11-28'
+  b49775d14e84764d:
+    start: 2026-12-02T16:30
+    end: 2026-12-02T18:30
+    all_day: false
+    venue: Biblioteca dei Liberi Pensatori
+    address: Via Don Minzoni 14
+    price: gratuito
+    official_url: https://www.comune.silea.tv.it/eventi/Letture-animate-26.html
+    nota: 'Biblioteca dei Liberi Pensatori di Silea, Via Don Minzoni 14: punto di config/luoghi.yaml (OpenStreetMap way 178819481). Evento della fonte comune-silea, a cui la pubblicazione non applica luoghi.yaml'
+    verificato: '2026-11-28'
+    lat: 45.65425
+    lon: 12.29909
+  4f6ca99deffbaeaa:
+    address: Piazza Francesco Viviani
+    lat: 45.44225
+    lon: 10.99878
+    nota: Teatro Nuovo di Verona, Piazza Viviani (OpenStreetMap way 138957062). Punto nell'evento e non in luoghi.yaml per non confonderlo con il Cinema-Teatro Nuovo di San Michele Extra
+    verificato: '2026-11-28'
+  9c0a2332145cce95:
+    access: biglietto
+    price: intero 20 euro, ridotto 14 euro (6-18 anni e studenti 19-25), iscritti FAI 10 euro
+    nota: scheda del Comune di Varese, sezione Costi; mostra continua dal 9/4/2026 al 10/1/2027 a Villa Panza (punto da luoghi.yaml)
+    verificato: '2026-11-28'
+  36ced666fd5895f2:
+    venue: Biblioteca civica Carlo Bonetta
+    address: Piazza Petrarca 2
+    lat: 45.18804
+    lon: 9.15413
+    nota: 'scheda del Comune di Pavia: Dove Biblioteca civica Carlo Bonetta, Piazza Petrarca 2, costo gratuito, mostra continua dal 15/7 al 30/11; punto da OpenStreetMap (civico)'
+    verificato: '2026-11-28'
+  06f7567ca9112de2:
+    lat: 46.06266
+    lon: 11.23975
+    nota: 'Natale a Pergine nel centro storico: la scheda del Comune non da'' un luogo unico, punto noto piu'' vicino Piazza Garibaldi, piazza del centro con teatro e biblioteca (OpenStreetMap way 1571374911)'
+    verificato: '2026-11-28'
+  d14c7e663473897b:
+    venue: Biblioteca Ragazzi Paternico' e Prini
+    address: Via Paratici 23
+    access: iscrizione
+    price: ingresso libero, prenotazione obbligatoria
+    nota: 'scheda del Comune di Pavia: dalle 10, eta'' 5-10 anni, ingresso libero con prenotazione obbligatoria; punto da luoghi.yaml (civico in OpenStreetMap)'
+    verificato: '2026-11-28'
+  a0c0014511d7489a:
+    venue: IAT Tarcento
+    address: Via Divisione Julia 13
+    nota: 'scheda del Comune di Tarcento: luogo Ufficio IAT, Via Divisione Julia 13; dal 28/11 alle 9 al 20/12 alle 18, a cura della Pro Loco; costo non indicato; punto da luoghi.yaml'
+    verificato: '2026-11-28'
+  5da1d1abb65ddf33:
+    price: evento di beneficenza con raccolta fondi
+    nota: 'scheda del Comune di Pavia: sabato 28/11 alle 21 al CineTeatro Cesare Volta, costo ''evento di beneficenza'' (tipo di ingresso non indicato); punto da luoghi.yaml'
+    verificato: '2026-11-28'
+  a83cb6b0a6991a03:
+    address: Piazzale Salvo D'Acquisto 5
+    access: libero
+    price: gratuito
+    nota: 'scheda del Comune di Pavia: Biblioteca di quartiere Mirabello Scala, Piazzale Salvo D''Acquisto 5, 17:30-19:30, costo gratuito'
+    verificato: '2026-11-28'
+  5c8f83dc021f8fcb:
+    access: libero
+    price: ingresso gratuito
+    nota: 'scheda del Comune di Trento: 28/11 20:30-22:00 al Castello del Buonconsiglio, costi GRATUITO'
+    verificato: '2026-11-28'
+  32a86903a2865807:
+    access: libero
+    price: ingresso gratuito
+    nota: 'scheda del Comune di Trento: 29/11 17:00-17:30 a Le Gallerie di Piedicastello, costi GRATUITO'
+    verificato: '2026-11-28'
+  4eabc8a448899745:
+    access: biglietto
+    price: 3 euro da 1 anno in su
+    nota: 'scheda Gli Alcuni (live.alcuni.it) della serie Dinosauri e DinoCuccioli: biglietto unico 3 euro da 1 anno in su, su prenotazione'
+    verificato: '2026-11-28'
+  5e437f1b54fee592:
+    access: biglietto
+    price: 3 euro da 1 anno in su
+    nota: 'stessa serie Dinosauri e DinoCuccioli: la scheda del 28/11 elenca anche il 29/11 11:30-13:00 e da'' biglietto unico 3 euro da 1 anno in su'
+    verificato: '2026-11-28'
+  7a7dc438505cb075:
+    access: libero
+    price: ingresso libero
+    nota: 'scheda del Comune di Pavia: ore 14 Aula A di Scienze Politiche (Cortile dei Tassi, Palazzo centrale), alle 16 al Museo di archeologia; organizza il Collegio Borromeo; ingresso libero; punto da luoghi.yaml'
+    verificato: '2026-11-28'
+  737a28d42d3727e1:
+    address: Via S. Barbacovi, Taio
+    access: libero
+    price: ingresso gratuito
+    nota: 'scheda del Comune di Predaia: auditorium al piano terra della sede comunale di Taio, Via Barbacovi; costi GRATUITO; punto da luoghi.yaml'
+    verificato: '2026-11-28'
+  1098ba870aa91689:
+    venue: Alcuni Teatro Sant'Anna
+    address: Viale Brigata Treviso 18
+    town: Treviso
+    nota: 'controllo a campione: il link portava alla pagina della rassegna Una fetta di teatro, ora la scheda dello spettacolo (29/11 16:30, Teatro Sant''Anna, biglietto 7 euro, gratis fino a 2 anni)'
+    verificato: '2026-11-28'
+    price: 7 euro, gratis fino a 2 anni
+    official_url: https://live.alcuni.it/evento/nardo-il-ghepardo-alle-zoolimpiadi-29-11-26/
+  0eb39ab088509475:
+    official_url: https://live.alcuni.it/evento/black-gold-14-12-26/
+    nota: 'controllo a campione: il link portava alla pagina della rassegna gospel, ora la scheda del concerto (14/12 21:00, Teatro Sant''Anna; prezzi solo sulla biglietteria online)'
+    verificato: '2026-11-28'
+  5665f9914dda1bb5:
+    access: iscrizione
+    price: gratuito, prenotazione obbligatoria entro le 12 del giorno prima
+    nota: 'controllo a campione: scheda del Museo Canova, visita guidata in LIS di un''ora, tariffa gratuita con prenotazione obbligatoria (era biglietto)'
+    verificato: '2026-11-28'
+  9ed9def96f98898a:
+    price: da 12 a 45 euro
+    nota: 'controllo a campione: scheda del Teatro Donizetti, 6/12 15:30, prezzo da 12 a 45 euro; punto da luoghi.yaml (era sul centro di Bergamo)'
+    verificato: '2026-11-28'
+  428450fd8799b9da:
+    price: da 20 a 110 euro
+    nota: 'controllo a campione: scheda del Teatro Donizetti, Teatro Sociale, 12/12 alle 17 (c''e'' anche una replica alle 20:30, non in elenco), prezzo da 20 a 110 euro; punto da luoghi.yaml (era sul centro di Bergamo)'
+    verificato: '2026-11-28'
+  822a2f6499652134:
+    lat: 45.57869
+    lon: 9.37854
+    nota: 'controllo a campione: scheda del Comune di Ornago, 11/12 21:00 al Cinema Nuovo di Omate, Via Fabio Filzi 35, ingresso libero con prenotazione; punto noto piu'' vicino il centro di Omate (era sul centro di Agrate)'
+    verificato: '2026-11-28'
+  f82d077f058e5f26:
+    address: Via Guglielmo Marconi 19
+    nota: 'controllo a campione: scheda di Dolomiti Prealpi, sabato 19/12 alle 20:30 inaugurazione della mostra La zona rossa; museo in Via Marconi 19 (museionline.info, visitdolomitibellunesi.com), punto da luoghi.yaml; costo non pubblicato'
+    verificato: '2026-11-28'
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
@@ -1466,7 +1581,6 @@ verificati:
   6e9149b2f9327817: '2026-11-28'
   f7d751ec100c2425: '2026-11-28'
   175fe26919add87e: '2026-11-28'
-  ecbddf89a4e9241c: '2026-11-28'
   2dad8fc99644c56d: '2026-11-28'
   a4c4673ed1074528: '2026-11-28'
   8192c9ecc5a5dba5: '2026-11-28'
@@ -1514,3 +1628,54 @@ verificati:
   0c2c25396160a526: '2026-11-28'
   073ae02ee72f38be: '2026-11-28'
   b33cc7b9cff4550c: '2026-11-28'
+  d82d672090fe97c2: '2026-11-28'
+  f2b9625e7e599171: '2026-11-28'
+  4d2523a784f48a14: '2026-11-28'
+  b477c0df75b077f9: '2026-11-28'
+  68b1de4691ee1489: '2026-11-28'
+  493dafde7db3143e: '2026-11-28'
+  1871ce450293717f: '2026-11-28'
+  6c86dcb64bf21234: '2026-11-28'
+  b6f606e6ee2dc38d: '2026-11-28'
+  c927ac47ecdfab8a: '2026-11-28'
+  2c8d1fdc9a0fc0c5: '2026-11-28'
+  02384bec73446a4b: '2026-11-28'
+  31964fac10dc032c: '2026-11-28'
+  3249047596faa3f6: '2026-11-28'
+  2da8d02b54575cd1: '2026-11-28'
+  99fdc03b9c81d43f: '2026-11-28'
+  236456137570de36: '2026-11-28'
+  9e5de77a7ea92de2: '2026-11-28'
+  68d6adc95713a7c1: '2026-11-28'
+  3291a5ab2225d7a7: '2026-11-28'
+  03f4df93087a5972: '2026-11-28'
+  c8acc69cec5bf64f: '2026-11-28'
+  26dab9938a6bec7c: '2026-11-28'
+  efafbbdddbe104f3: '2026-11-28'
+  865f641248f78a22: '2026-11-28'
+  dc5b8adcbb3edf5c: '2026-11-28'
+  b90b54cf0fd22d52: '2026-11-28'
+  173e6663077e9c2a: '2026-11-28'
+  bb11ea75dfad6fdf: '2026-11-28'
+  12f83a6eb8b26c6d: '2026-11-28'
+  1d54b28440df8e02: '2026-11-28'
+  13e9830d9bb44e66: '2026-11-28'
+  a878aefccf0c1cd2: '2026-11-28'
+  acc010fef1ae5b14: '2026-11-28'
+  03876f1882e33888: '2026-11-28'
+  ee792d3f180a7169: '2026-11-28'
+  d6b8ec938b969b2d: '2026-11-28'
+  45a2b7de47506e4d: '2026-11-28'
+  ecc3e6e9299e4fe1: '2026-11-28'
+  57ec79055b058beb: '2026-11-28'
+  ecbddf89a4e9241c: '2026-11-28'
+  dae1f19c220ebb86: '2026-11-28'
+  cb4a9f7f76e4a660: '2026-11-28'
+  51ee3164e11726e4: '2026-11-28'
+  8d8f1f63ec5c736b: '2026-11-28'
+  2a4a2bc66b4a34e4: '2026-11-28'
+  180dfd4d9375b60e: '2026-11-28'
+  d8ed54a4a4e3963d: '2026-11-28'
+  00d40e205342f983: '2026-11-28'
+  2483a2989896a122: '2026-11-28'
+  0905d8617fcd4d1d: '2026-11-28'

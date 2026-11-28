@@ -213,271 +213,6 @@ eventi:
   summary: Spettacolo con Nicola Borghesi, Enzo Vetrano e Stefano Randisi.
   fonte: https://bologna.emiliaromagnateatro.com/
   trovato: '2026-11-28'
-- title: Notte Morricone
-  start: '2026-11-28'
-  end: '2026-11-29'
-  venue: Teatro EuropAuditorium
-  address: Piazza della Costituzione 4
-  town: Bologna
-  lat: 44.5186
-  lon: 11.3633
-  category: teatro-spettacoli
-  subcategory: danza
-  official_url: https://www.tcbo.it/evento/danza/notte-morricone-2026/
-  summary: Serata di danza sulle musiche di Ennio Morricone nella stagione Danza 2026 del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Il flauto magico, Short Edition
-  start: '2026-12-05'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/accademia/il-flauto-magico-short-edition-2026/
-  summary: Versione ridotta dell'opera di Mozart proposta dall'Accademia del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Angius, Grazia (Stagione sinfonica)
-  start: '2026-12-11'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/angius-grazia-2026/
-  summary: Concerto della stagione sinfonica 2026 del Teatro Comunale di Bologna all'Auditorium Manzoni.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Sauer (Concerti Gioia)
-  start: '2026-12-13'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/sauer-2026/
-  summary: Concerto del ciclo Gioia nella stagione 2026 del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Il Re Leone Live in Concert
-  start: '2026-12-18'
-  end: '2026-12-20'
-  venue: Teatro EuropAuditorium
-  address: Piazza della Costituzione 4
-  town: Bologna
-  lat: 44.5186
-  lon: 11.3633
-  category: musica
-  subcategory: concerti
-  official_url: https://www.tcbo.it/evento/speciale/il-re-leone-live-in-concert-2026/
-  summary: Proiezione del film Disney con la colonna sonora eseguita dal vivo dall'orchestra.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Concerto di Natale (Domenica in musica)
-  start: '2026-12-20'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/accademia/domenica-in-musica-concerto-di-natale-2026/
-  summary: Concerto natalizio della rassegna Domenica in musica dell'Accademia del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Concerto di fine anno diretto da Markus Stenz
-  start: 2026-12-31T18:00
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/stenz-2026/
-  summary: Concerto di chiusura della stagione 2026 del Teatro Comunale di Bologna con la Nona sinfonia di Beethoven eseguita da Orchestra e Coro del Comunale.
-  fonte: https://www.bolognawelcome.com/it/eventi/musica-e-danza/markus-stenz-teatro-comunale-bologna
-  trovato: '2026-11-28'
-- title: Dal Maso, Mancini (Concerti Gioia)
-  start: '2027-01-03'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/dal-maso-mancini-2027/
-  summary: Concerto del ciclo Gioia nella stagione del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Weigle (Stagione sinfonica)
-  start: '2027-01-10'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/weigle-2027/
-  summary: Concerto della stagione sinfonica del Teatro Comunale di Bologna all'Auditorium Manzoni.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Jaques Morelenbaum (Jazz On Symphony)
-  start: '2027-01-14'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/speciale/jaques-morelenbaum-2027/
-  summary: Concerto del violoncellista brasiliano Jaques Morelenbaum nel ciclo Jazz On Symphony.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: La straniera di Bellini
-  start: '2027-01-22'
-  end: '2027-01-24'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/opera/la-straniera-2027/
-  summary: Opera di Vincenzo Bellini nella stagione lirica del Teatro Comunale di Bologna, con recite il 22 e il 24 gennaio.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Poga (Stagione sinfonica)
-  start: '2027-01-31'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/poga-2027/
-  summary: Concerto della stagione sinfonica del Teatro Comunale di Bologna all'Auditorium Manzoni.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Marshall, Turbil, Zhang (Stagione sinfonica)
-  start: '2027-02-05'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/marshall-turbil-zhang-2027/
-  summary: Concerto della stagione sinfonica del Teatro Comunale di Bologna all'Auditorium Manzoni.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Steri, Pignoni (Concerti Gioia)
-  start: '2027-02-07'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/steri-pignoni-2027/
-  summary: Concerto del ciclo Gioia nella stagione del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Musica vocale da camera 1
-  start: '2027-02-20'
-  venue: Teatro Comunale di Bologna, Foyer Rossini
-  address: Largo Respighi 1
-  town: Bologna
-  lat: 44.4964
-  lon: 11.3524
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/musica-vocale-da-camera-1-2027/
-  summary: Concerto di musica vocale da camera nel Foyer Rossini del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Lavrencic, Incerti (Concerti Gioia)
-  start: '2027-02-21'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/lavrencic-incerti-2027/
-  summary: Concerto del ciclo Gioia nella stagione del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Il ritorno di Ulisse in patria
-  start: '2027-03-02'
-  end: '2027-03-07'
-  venue: Teatro Comunale di Bologna
-  address: Largo Respighi 1
-  town: Bologna
-  lat: 44.4964
-  lon: 11.3524
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/opera/il-ritorno-di-ulisse-in-patria-2027/
-  summary: Opera di Monteverdi che apre la stagione lirica 2027 del Teatro Comunale di Bologna, con recite il 2, 4, 6 e 7 marzo.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Sergio Bernal Dance Company
-  start: '2027-03-13'
-  end: '2027-03-14'
-  venue: Teatro Comunale di Bologna
-  address: Largo Respighi 1
-  town: Bologna
-  lat: 44.4964
-  lon: 11.3524
-  category: teatro-spettacoli
-  subcategory: danza
-  official_url: https://www.tcbo.it/evento/danza/sergio-bernal-dance-company-2027/
-  summary: Spettacolo della compagnia del ballerino spagnolo Sergio Bernal nella stagione di danza del Teatro Comunale.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Musica vocale da camera 2
-  start: '2027-03-20'
-  venue: Teatro Comunale di Bologna, Foyer Rossini
-  address: Largo Respighi 1
-  town: Bologna
-  lat: 44.4964
-  lon: 11.3524
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/musica-vocale-da-camera-2-2027/
-  summary: Concerto di musica vocale da camera nel Foyer Rossini del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
-- title: Nir, Zahn (Concerti Gioia)
-  start: '2027-03-21'
-  venue: Teatro Auditorium Manzoni
-  address: Via de' Monari 1/2
-  town: Bologna
-  lat: 44.4969
-  lon: 11.3419
-  category: musica
-  subcategory: jazz-classica
-  official_url: https://www.tcbo.it/evento/concerto/nir-zahn-2027/
-  summary: Concerto del ciclo Gioia nella stagione del Teatro Comunale di Bologna.
-  fonte: https://www.tcbo.it/
-  trovato: '2026-11-28'
 - title: Natale a Zola Predosa, mercatini a Villa Garagnani
   start: '2026-12-05'
   end: '2026-12-08'
@@ -1073,7 +808,8 @@ eventi:
   town: Cremona
   category: famiglie-bambini
   subcategory: laboratori
-  official_url: libero
+  access: libero
+  official_url: https://www.turismocremona.it/it/evento/natale-cremona-2026
   summary: Animazioni e laboratori gratuiti per bambini dal giovedi' alla domenica dalle 15:30 alle 19, nel programma Cremona che incanta.
   fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
   trovato: '2026-11-28'
@@ -1141,7 +877,8 @@ eventi:
   town: Cremona
   category: musica
   subcategory: dj-set
-  official_url: libero
+  access: libero
+  official_url: https://www.turismocremona.it/it/evento/natale-cremona-2026
   summary: Festa di fine anno gratuita con dj set e brindisi di mezzanotte.
   fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
   trovato: '2026-11-28'
@@ -1153,7 +890,8 @@ eventi:
   town: Cremona
   category: musica
   subcategory: aperitivo
-  official_url: libero
+  access: libero
+  official_url: https://www.turismocremona.it/it/evento/natale-cremona-2026
   summary: Serata del primo gennaio con dj set, karaoke e aperitivo in piazza Stradivari.
   fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
   trovato: '2026-11-28'
@@ -1930,18 +1668,6 @@ eventi:
   summary: Concerto gospel all'aperto del gruppo Sol Quair nel programma Lecco Magico Natale.
   fonte: https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026
   trovato: '2026-11-28'
-- title: Lo Schiaccianoci (Balletto di Milano)
-  start: 2026-12-17T21:00
-  venue: Teatro Cenacolo Francescano
-  address: Piazza Cappuccini 3
-  town: Lecco
-  category: teatro-spettacoli
-  subcategory: danza
-  access: biglietto
-  official_url: https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026
-  summary: Il Balletto di Milano porta in scena Lo Schiaccianoci per la stagione della Fondazione Teatre.
-  fonte: https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026
-  trovato: '2026-11-28'
 - title: Lecco Busking Fest
   start: 2026-12-19T15:00
   end: 2026-12-19T18:00
@@ -2021,6 +1747,65 @@ eventi:
   official_url: https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026
   summary: L'orchestra della Lake Como Music Academy diretta da Roberto Gianola nel concerto del primo dell'anno. Prenotazione all'Infopoint di Lecco.
   fonte: https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026
+  trovato: '2026-11-28'
+- title: Lo Schiaccianoci (Il Balletto di Milano)
+  start: 2026-12-17T21:00
+  venue: Teatro della Societa'
+  address: Piazza Garibaldi 10
+  town: Lecco
+  category: teatro-spettacoli
+  subcategory: danza
+  access: biglietto
+  official_url: https://www.teatrosocietalecco.it/spettacoli/lo-schiaccianoci/
+  summary: Il balletto di Cajkovskij nella versione del Balletto di Milano, con regia di Agnese Omodei Sale'.
+  fonte: https://www.teatrosocietalecco.it/
+  trovato: '2026-11-28'
+- title: Da Versailles a Broadway, fino al Natale
+  start: 2026-12-20T20:30
+  venue: Teatro della Societa'
+  address: Piazza Garibaldi 10
+  town: Lecco
+  category: musica
+  subcategory: jazz-classica
+  access: libero
+  official_url: https://www.teatrosocietalecco.it/spettacoli/da-versailles-a-broadway-fino-al-natale/
+  summary: Concerto natalizio con gli Ottoni dell'Orchestra Sinfonica di Milano, a ingresso libero fino a esaurimento posti.
+  fonte: https://www.teatrosocietalecco.it/
+  trovato: '2026-11-28'
+- title: Ale e Franz, Capitol'ho
+  start: 2027-01-16T20:30
+  end: '2027-01-17'
+  venue: Teatro della Societa'
+  address: Piazza Garibaldi 10
+  town: Lecco
+  category: teatro-spettacoli
+  subcategory: comicita
+  official_url: https://www.teatrosocietalecco.it/spettacoli/ale-e-franz-capitolho/
+  summary: Spettacolo comico del duo Ale e Franz, in scena il 16 e 17 gennaio alle 20:30.
+  fonte: https://www.teatrosocietalecco.it/
+  trovato: '2026-11-28'
+- title: Davide Van De Sfroos and Folkestra
+  start: 2027-03-05T20:30
+  end: '2027-03-06'
+  venue: Teatro della Societa'
+  address: Piazza Garibaldi 10
+  town: Lecco
+  category: musica
+  subcategory: concerti
+  official_url: https://www.teatrosocietalecco.it/spettacoli/davide-van-de-sfroos-and-folkestra/
+  summary: Concerto di Davide Van De Sfroos con un'orchestra di tredici elementi, il 5 e 6 marzo alle 20:30.
+  fonte: https://www.teatrosocietalecco.it/
+  trovato: '2026-11-28'
+- title: Alla scoperta di Morricone
+  start: 2027-03-21T18:00
+  venue: Teatro della Societa'
+  address: Piazza Garibaldi 10
+  town: Lecco
+  category: musica
+  subcategory: concerti
+  official_url: https://www.teatrosocietalecco.it/spettacoli/alla-scoperta-di-morricone/
+  summary: Concerto dell'Ensemble Symphony Orchestra diretta da Giacomo Loprieno con musiche di Ennio Morricone.
+  fonte: https://www.teatrosocietalecco.it/
   trovato: '2026-11-28'
 - title: Baby Reindeer / Piccola renna, con Francesco Mandelli
   start: 2026-12-04T20:45

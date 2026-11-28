@@ -586,9 +586,9 @@ luoghi:
     nota: "Piazza IV Novembre. OpenStreetMap way 38381287. Aggiunto il 2026-11-28."
   - nomi: ["Teatro Comunale Citta di Vicenza", "Viale Mazzini 39"]
     comune: Vicenza
-    lat: 45.54802
-    lon: 11.53401
-    nota: "Teatro Comunale Citta' di Vicenza, Viale Mazzini 39. OpenStreetMap way 225923237. Aggiunto il 2026-11-28 (10 eventi)."
+    lat: 45.54807
+    lon: 11.53191
+    nota: "Punto comune dei 12 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Comunale Citta' di Vicenza, Viale Mazzini 39. OpenStreetMap way 225923237. Aggiunto il 2026-11-28 (10 eventi)."
   - nomi: ["Teatro Astra"]
     comune: Vicenza
     lat: 45.54633
@@ -1306,3 +1306,68 @@ luoghi:
     lat: 45.57869
     lon: 9.37854
     nota: "Cinema Nuovo di Omate, Via Fabio Filzi 35 (scheda del Comune di Ornago): cinema e civico non in OpenStreetMap, Via Filzi ha due tratti; punto noto piu' vicino il centro della frazione di Omate (node 2171747012). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Toniolo"]
+    comune: Venezia
+    lat: 45.49321
+    lon: 12.23773
+    nota: "Punto comune dei 39 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Toniolo, Piazzetta Gian Francesco Malipiero, Quattro Cantoni, Mestre-Carpenedo, Mestre, Venezia, Veneto (OpenStreetMap way 220661736): a 140 m dal punto comune dei 39 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Comunale di Thiene"]
+    comune: Thiene
+    lat: 45.70795
+    lon: 11.47854
+    nota: "Punto comune dei 30 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Comunale, 18/22, Viale Francesco Bassani, Centro, Thiene, Vicenza, Veneto, 36016 (OpenStreetMap way 282712845): a 47 m dal punto comune dei 30 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Metropolitano Astra", "Teatro Astra"]
+    comune: San Donà di Piave
+    lat: 45.63067
+    lon: 12.56248
+    nota: "Punto comune dei 17 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Metropolitano Astra, Via Giannino Ancillotto, San Donà di Piave, Venezia, Veneto, 30027 (OpenStreetMap way 292656329): a 179 m dal punto comune dei 17 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Salieri"]
+    comune: Legnago
+    lat: 45.19134
+    lon: 11.30761
+    nota: "Punto comune dei 16 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Salieri, 26, Via Venti Settembre, Porto, Legnago, Verona, Veneto, 37045 (OpenStreetMap way 208220756): a 18 m dal punto comune dei 16 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Regio"]
+    comune: Torino
+    lat: 45.07059
+    lon: 7.68796
+    nota: "Punto comune dei 13 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Regio, 215, Piazza Castello, Quadrilatero Romano, Centro, Circoscrizione 1, Torino, Piemonte, 10124 (OpenStreetMap way 111499553): a 0 m dal punto comune dei 13 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Comunale di Vicenza"]
+    comune: Vicenza
+    lat: 45.54802
+    lon: 11.53401
+    nota: "Teatro Comunale, 39, Viale Giuseppe Mazzini, San Felice, Vicenza, Veneto, 36100 (OpenStreetMap way 225923237): a 163 m dal punto comune dei 12 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Russolo", "Teatro Luigi Russolo"]
+    comune: Portogruaro
+    lat: 45.77761
+    lon: 12.83699
+    nota: "Punto comune dei 12 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Luigi Russolo, Piazza Marconi, Trabaldi, Portogruaro, Venezia, Veneto, 30026 (OpenStreetMap node 1867583374): a 171 m dal punto comune dei 12 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro del Parco"]
+    comune: Venezia
+    lat: 45.49952
+    lon: 12.25798
+    nota: "Punto comune dei 11 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro del Parco, 11, Via Sergio Gori, Bissuola, Mestre-Carpenedo, Mestre, Venezia, Veneto, 30174 (OpenStreetMap way 19906045): a 122 m dal punto comune dei 11 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Modernissimo"]
+    comune: Noventa Vicentina
+    lat: 45.28851
+    lon: 11.53385
+    nota: "Punto comune dei 10 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Modernissimo, Via Broli, Noventa Vicentina, Vicenza, Veneto, 36025 (OpenStreetMap node 2019018413): a 179 m dal punto comune dei 10 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Villa dei Leoni"]
+    comune: Mira
+    lat: 45.4343
+    lon: 12.12637
+    nota: "Punto comune dei 8 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Villa dei Leoni, Via Nazionale, Piazza Vecchia, Mira Taglio, Venezia, Veneto, 30034 (OpenStreetMap way 189969503): a 159 m dal punto comune dei 8 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Coccia"]
+    comune: Novara
+    lat: 45.44553
+    lon: 8.61817
+    nota: "Punto comune dei 8 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Teatro Coccia, Piazza Giacomo Puccini, Centro, Novara, Piemonte, 28100 (OpenStreetMap way 115553933): a 0 m dal punto comune dei 8 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Marconi"]
+    comune: Abano Terme
+    lat: 45.36072
+    lon: 11.78836
+    nota: "Punto comune dei 7 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Cinema Teatro \"Marconi\", Via San Pio X, Monteortone, Abano Terme, Padova, Veneto, 35031 (OpenStreetMap way 130025626): a 170 m dal punto comune dei 7 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Don Bosco"]
+    comune: Chioggia
+    lat: 45.2158
+    lon: 12.27664
+    nota: "Punto comune dei 7 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Cinema Teatro Don Bosco, Calle Don Bosco, Tombola, Saloni, Sottomarina, Chioggia, Venezia, Veneto, 30015 (OpenStreetMap node 11274707896): a 160 m dal punto comune dei 7 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."

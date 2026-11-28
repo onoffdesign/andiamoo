@@ -26404,3 +26404,84 @@ eventi:
     trovato: '2026-11-28'
     lat: 45.5570472
     lon: 8.0623801
+  - title: Sogniamo con OPSA&Friends, Gran Concerto di Avvento
+    start: 2026-12-05
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismopadova.it/evento/natale-a-padova-sogniamo-con-opsafriends/
+    summary: Concerto di Avvento dell'Opera della Provvidenza Sant'Antonio per la Giornata dei diritti delle persone con disabilita', con la Nova Symphonia Patavina, cori, danza e un monologo di Lorenzo Maragoni.
+    fonte: https://www.turismopadova.it/evento/natale-a-padova-sogniamo-con-opsafriends/
+    trovato: '2026-11-28'
+  - title: 'Dietro le quinte: alla scoperta del Teatro Verdi'
+    start: 2026-12-12
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    price: 14 euro (12 per i tesserati), 8 euro fino a 12 anni; prenotazione obbligatoria
+    official_url: https://www.turismopadova.it/evento/dietro-le-quinte-alla-scoperta-del-teatro-verdi-4/
+    summary: Visita guidata di circa un'ora e mezza tra palchi, cunicoli e loggioni del Teatro Verdi con gli addetti del Teatro Stabile del Veneto, in un unico turno.
+    fonte: https://www.turismopadova.it/evento/dietro-le-quinte-alla-scoperta-del-teatro-verdi-4/
+    trovato: '2026-11-28'
+  - title: Parole e musica per Emergency
+    start: 2026-12-12
+    address: Via Scrovegni 30
+    town: Padova
+    lat: 45.41325
+    lon: 11.88437
+    category: musica
+    subcategory: concerti
+    access: offerta
+    price: offerta libera e responsabile
+    official_url: https://www.turismopadova.it/evento/parole-e-musica-per-emergency/
+    summary: Serata di musica a sostegno dei progetti di Emergency con dodici artisti, organizzata dai volontari di Padova.
+    fonte: https://www.turismopadova.it/evento/parole-e-musica-per-emergency/ (punto di Via Scrovegni in OpenStreetMap, civico non presente)
+    trovato: '2026-11-28'
+  - title: Latin Mood, Contigo aprendi'
+    start: 2026-12-03
+    venue: Teatro ai Colli
+    address: Via Monte Lozzo 16
+    town: Padova
+    lat: 45.39582
+    lon: 11.83321
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    ticket_url: https://www.eventbrite.it/e/latin-mood-tickets-2003763884719
+    official_url: https://www.turismopadova.it/evento/latin-mood-contigo-aprendi/
+    summary: Serata di musica latinoamericana dal vivo, balli e coreografie con Los Martinez Latin Band e scuole di danza; il ricavato va ai progetti di Team for Children per l'Oncoematologia Pediatrica di Padova.
+    fonte: https://www.turismopadova.it/evento/latin-mood-contigo-aprendi/ (punto del Teatro ai Colli in OpenStreetMap, way 59115622)
+    trovato: '2026-11-28'
+  - title: 'Amici della Musica: Beatrice Martin, clavicembalo'
+    start: 2026-12-01
+    venue: Auditorium Pollini
+    address: Via Carlo Cassan 17
+    town: Padova
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.turismopadova.it/evento/amici-della-musica-beatrice-martin-clavicembalo/
+    summary: Recital di clavicembalo con musiche di Rameau, Couperin, Boismortier, Scarlatti, Galuppi e Bach nella stagione degli Amici della Musica; prova aperta alle 10:30.
+    fonte: https://www.turismopadova.it/evento/amici-della-musica-beatrice-martin-clavicembalo/
+    trovato: '2026-11-28'
+  - title: Nicola De Maria e la Transavanguardia
+    start: 2026-12-12
+    end: 2027-02-12
+    venue: RossovermiglioArte
+    address: Via Palestro 4/e
+    town: Padova
+    lat: 45.4071
+    lon: 11.86292
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    price: ingresso libero
+    official_url: https://www.turismopadova.it/evento/nicola-de-maria-e-la-transavanguardia/
+    summary: Mostra con opere dei cinque artisti della Transavanguardia e un approfondimento su Nicola De Maria, soprattutto degli anni Ottanta; inaugurazione sabato 12 dicembre alle 17.
+    fonte: https://www.turismopadova.it/evento/nicola-de-maria-e-la-transavanguardia/ (punto del civico 4 di Via Palestro in OpenStreetMap)
+    trovato: '2026-11-28'
