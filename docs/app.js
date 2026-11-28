@@ -28,7 +28,7 @@
   const SLOTS = [[0, 0]];
   for (let r = 1; r <= 5; r++) for (let k = 0; k < 6 * r; k++) {
     const a = -Math.PI / 2 + (k * 2 * Math.PI) / (6 * r);
-    SLOTS.push([Math.round(31 * r * Math.cos(a)), Math.round(31 * r * Math.sin(a))]);
+    SLOTS.push([Math.round(40 * r * Math.cos(a)), Math.round(40 * r * Math.sin(a))]);
   }
   const SLOT = {};                         // uid -> indice in SLOTS
   const slotOff = (uid) => SLOTS[SLOT[uid] || 0];
@@ -652,7 +652,7 @@
     g.restore(); g.globalAlpha = 1;
   }
   function pinImage(color, icon, selected) {
-    const s = 2, r = selected ? 15 : 13, size = (r + 3) * 2;
+    const s = 2, r = selected ? 20 : 17, size = (r + 3) * 2;      // tondi piu' grandi
     const cv = document.createElement("canvas");
     cv.width = cv.height = size * s;
     const g = cv.getContext("2d");
@@ -661,7 +661,7 @@
     grainDisc(g, size / 2, size / 2, r, fill, selected ? "#000" : "rgba(20, 16, 10, .9)", "#fff", seedOf(icon + (selected ? "s" : "")));
     g.beginPath(); g.arc(size / 2, size / 2, r, 0, Math.PI * 2);
     g.lineWidth = selected ? 2.5 : 1.6; g.strokeStyle = line; g.stroke();
-    const k = (selected ? 15 : 13.5) / 24;
+    const k = (selected ? 20 : 18) / 24;
     g.translate(size / 2 - 12 * k, size / 2 - 12 * k); g.scale(k, k);
     g.lineWidth = 2.2; g.lineCap = "round"; g.lineJoin = "round"; g.strokeStyle = line;
     g.stroke(new Path2D(d));
@@ -686,7 +686,7 @@
   // con un sottile cerchio a matita che si allarga e svanisce. Niente lampeggi ne' colori d'allarme.
   const REDUCED = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function pulseImage(color, base) {
-    const s = 2, size = 84, PERIOD = 4000;
+    const s = 2, size = 108, PERIOD = 4000;
     return { width: size * s, height: size * s, data: new Uint8ClampedArray(size * s * size * s * 4),
       onAdd() { const c = document.createElement("canvas"); c.width = c.height = size * s; this.g = c.getContext("2d"); },
       render() {
@@ -753,7 +753,7 @@
     };
     ANIM[layer + "pin"] = requestAnimationFrame(step);
   }
-  const CLUSTER_R = (k) => ["*", k, ["step", ["get", "point_count"], 15, 10, 19, 40, 24]];
+  const CLUSTER_R = (k) => ["*", k, ["step", ["get", "point_count"], 19, 10, 24, 40, 30]];
   function popIn() {
     animateProp("points", "layout", "icon-size", 0.35, 1, 460);
     animateProp("clusters", "paint", "circle-radius", 0.35, 1, 460, CLUSTER_R);
@@ -845,7 +845,7 @@
     const el = popup.getElement();
     if (!el) return;
     const c = el.getBoundingClientRect(), v = visibleArea();
-    const box = { left: c.left, right: c.right, top: c.top, bottom: c.bottom + 38 };   // + segnaposto sotto la card
+    const box = { left: c.left, right: c.right, top: c.top, bottom: c.bottom + 46 };   // + segnaposto sotto la card
     let dx = 0, dy = 0;
     if (box.right - box.left > v.right - v.left || box.left < v.left) dx = v.left - box.left;
     else if (box.right > v.right) dx = v.right - box.right;
@@ -908,10 +908,10 @@
       DATA.categories.forEach((c) => {
         map.addImage(`pin-${c.id}`, pinImage(c.color, c.id, false), { pixelRatio: 2 });
         map.addImage(`pin-sel-${c.id}`, pinImage(c.color, c.id, true), { pixelRatio: 2 });
-        map.addImage(`pulse-${c.id}`, pulseImage(c.color, 13), { pixelRatio: 2 });
+        map.addImage(`pulse-${c.id}`, pulseImage(c.color, 17), { pixelRatio: 2 });
       });
-      map.addImage("pulse-cluster", pulseImage(LIVE_COLOR, 17), { pixelRatio: 2 });
-      for (const r of [15, 19, 24]) {
+      map.addImage("pulse-cluster", pulseImage(LIVE_COLOR, 22), { pixelRatio: 2 });
+      for (const r of [19, 24, 30]) {
         map.addImage(`cl-${r}`, clusterImage(r, false), { pixelRatio: 2 });
         map.addImage(`cl-${r}-live`, clusterImage(r, true), { pixelRatio: 2 });
       }
@@ -927,10 +927,10 @@
         // il cerchio resta solo come area da toccare: si vede il tondo a mano dello strato sopra
         paint: { "circle-color": INK, "circle-radius": CLUSTER_R(1), "circle-opacity": 0, "circle-stroke-width": 0 } });
       map.addLayer({ id: "clusters-ink", type: "symbol", source: "ev", filter: ["has", "point_count"],
-        layout: { "icon-image": ["concat", "cl-", ["step", ["get", "point_count"], "15", 10, "19", 40, "24"],
+        layout: { "icon-image": ["concat", "cl-", ["step", ["get", "point_count"], "19", 10, "24", 40, "30"],
           ["case", [">", ["get", "live"], 0], "-live", ""]], "icon-allow-overlap": true, "icon-ignore-placement": true } });
       map.addLayer({ id: "cluster-count", type: "symbol", source: "ev", filter: ["has", "point_count"],
-        layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 15, "text-font": HAND_FONT,
+        layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 18, "text-font": HAND_FONT,
           "text-allow-overlap": true, "text-ignore-placement": true },
         paint: { "text-color": "#fff" } });
       const icon = (prefix) => ["concat", prefix, ["get", "category"]];
@@ -949,7 +949,7 @@
         if (!map.getLayer(id)) continue;
         try {
           map.setLayoutProperty(id, "text-variable-anchor", ["top", "bottom", "right", "left"]);
-          map.setLayoutProperty(id, "text-radial-offset", 1.35);
+          map.setLayoutProperty(id, "text-radial-offset", 1.75);
           map.setLayoutProperty(id, "text-justify", "auto");
           map.moveLayer(id);
         } catch (_) { /* stile senza questo strato */ }
@@ -1090,7 +1090,7 @@
     const el = buildCard(e, { popup: true });
     if (popup) popup.remove();
     const [ox, oy] = slotOff(e.uid);
-    popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, focusAfterOpen: false, anchor: "bottom", offset: [ox, oy - 22], maxWidth: "none" })
+    popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, focusAfterOpen: false, anchor: "bottom", offset: [ox, oy - 26], maxWidth: "none" })
       .setLngLat(COORDS[e.uid] || [e.lon, e.lat]).setDOMContent(el).addTo(map);
     fitTitle(el.querySelector("h3"));
     markSelected(e.uid);
@@ -1103,7 +1103,7 @@
     const pad = mapPadding(), el = popup && popup.getElement();
     if (!el) return pad;
     const v = visibleArea(), r = $("#map").getBoundingClientRect(), h = el.getBoundingClientRect().height;
-    const top = Math.round(v.top - r.top + h + 24), bottom = Math.round(r.bottom - v.bottom + 18);
+    const top = Math.round(v.top - r.top + h + 28), bottom = Math.round(r.bottom - v.bottom + 22);
     // card piu' alta dello spazio: conta che si veda dall'inizio, il segnaposto puo' finire sotto l'elenco
     return { ...pad, top, bottom: top + bottom > r.height - 2 ? Math.max(0, r.height - top) : bottom };
   }
