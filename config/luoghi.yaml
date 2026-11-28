@@ -1836,3 +1836,209 @@ luoghi:
     lat: 46.171098
     lon: 9.872358
     nota: "Piazza Campello. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  # --- revisione, notte del 2026-11-28 (sera): luoghi da ops/posizioni.json (senza_punto e candidati_luoghi)
+  - nomi: ["Teatro Comunale Claudio Abbado", "Teatro Comunale di Ferrara", "Corso Martiri della Liberta 5"]
+    comune: "Ferrara"
+    lat: 44.83744
+    lon: 11.62066
+    nota: "Corso Martiri della Liberta' 5 (indirizzo della fonte ufficiale teatrocomunaleferrara.it). Coordinate di OpenStreetMap (Nominatim, relation 19897518 'Teatro Comunale di Ferrara'); aggiunto il 2026-11-28 (revisione). 15 eventi."
+  - nomi: ["Biblioteca 0-18", "Via Santa Maria 11"]
+    comune: "Cuneo"
+    lat: 44.39465
+    lon: 7.55021
+    nota: "Via Santa Maria 11 (indirizzo della fonte). Coordinate di OpenStreetMap (Nominatim, numero civico node 6578480925), accanto al Complesso di San Francesco (Via Santa Maria 10); aggiunto il 2026-11-28 (revisione). 6 eventi."
+  - nomi: ["Teatro delle Passioni", "Viale Carlo Sigonio 382", "Via Peretti 9"]
+    comune: "Modena"
+    lat: 44.63796
+    lon: 10.92312
+    nota: "Teatro delle Passioni (ex AEM), ingresso in Via Antonio Peretti 9 secondo il pieghevole della stagione di Emilia Romagna Teatro (modena.emiliaromagnateatro.com), Viale Sigonio 382 secondo zero.eu. Coordinate di OpenStreetMap (Nominatim, numero civico Via Peretti 9, node 4712476616); aggiunto il 2026-11-28 (revisione). 6 eventi (Sala Grande e Sala Piccola)."
+  - nomi: ["Reggio Emilia Welcome", "IAT-R", "Via Farini 1"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69742
+    lon: 10.62994
+    nota: "Ufficio turistico in Via Luigi Carlo Farini 1/A. Coordinate di OpenStreetMap (Nominatim, node 5966008301 'IAT Reggio Emilia'); aggiunto il 2026-11-28 (revisione). 3 eventi."
+  - nomi: ["Barbisano"]
+    comune: "Pieve di Soligo"
+    lat: 45.88005
+    lon: 12.18351
+    nota: "Frazione di Barbisano: punto della frazione su OpenStreetMap (Nominatim, node 1435489273 place=village), punto noto piu' vicino per gli eventi che danno solo la frazione; aggiunto il 2026-11-28 (revisione). 4 eventi."
+  - nomi: ["Sant'Artemio", "Via Cal di Breda 116"]
+    comune: "Treviso"
+    lat: 45.69024
+    lon: 12.26811
+    nota: "Complesso del Sant'Artemio (sede della Provincia), Via Cal di Breda 116. Coordinate di OpenStreetMap (Nominatim, civico 116, way 61593691); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["MAUTO", "Museo Nazionale dell'Automobile", "Corso Unita d'Italia 40"]
+    comune: "Torino"
+    lat: 45.03185
+    lon: 7.67345
+    nota: "Corso Unita' d'Italia 40. Coordinate di OpenStreetMap (Nominatim, way 96185130 'MAUTO Museo Nazionale dell'Automobile'); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["OGR Torino", "Officine Grandi Riparazioni", "Corso Castelfidardo 22"]
+    comune: "Torino"
+    lat: 45.06669
+    lon: 7.65965
+    nota: "OGR, Corso Castelfidardo 22. Coordinate di OpenStreetMap (Nominatim, civico 22, node 5557815521 dentro il complesso delle OGR); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Palazzo Falletti di Barolo", "Palazzo Barolo", "Via delle Orfane 7"]
+    comune: "Torino"
+    lat: 45.07481
+    lon: 7.67868
+    nota: "Via delle Orfane 7. Coordinate di OpenStreetMap (Nominatim, node 11267476069 'Palazzo Falletti di Barolo'); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Galleria Sabauda"]
+    comune: "Torino"
+    lat: 45.07415
+    lon: 7.68604
+    nota: "Galleria Sabauda dei Musei Reali (lo Spazio Scoperte e' in Piazzetta Reale 1, stesso complesso). Coordinate di OpenStreetMap (Nominatim, node 246516619); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Museo Civico Pier Alessandro Garda", "Museo Garda", "Piazza Ottinetti 18"]
+    comune: "Ivrea"
+    lat: 45.46750
+    lon: 7.87834
+    nota: "Museo in Piazza Ottinetti 18: punto della piazza su OpenStreetMap (Nominatim, way 103396806), punto noto piu' vicino (il civico non e' mappato); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["ZolAuditorium"]
+    comune: "Zola Predosa"
+    lat: 44.49214
+    lon: 11.21839
+    nota: "Piazza della Repubblica 1 (indirizzo della fonte, sede del Comune). Coordinate di OpenStreetMap (Nominatim, civico 1, node 12730630375); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Biblioteca Civica Francesca Calvo", "Biblioteca Calvo", "Palazzo della Biblioteca Civica"]
+    comune: "Alessandria"
+    lat: 44.91167
+    lon: 8.61977
+    nota: "Piazza Vittorio Veneto 1. Coordinate di OpenStreetMap (Nominatim, relation 20400712 'Palazzo della Biblioteca Civica'); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Cortile del Broletto", "Broletto di Novara", "Via Fratelli Rosselli 20"]
+    comune: "Novara"
+    lat: 45.44653
+    lon: 8.61954
+    nota: "Complesso del Broletto, Via Fratelli Rosselli 20. Coordinate di OpenStreetMap (Nominatim, civico 20: node 2038050244 della Galleria Giannoni, che ha sede nel Broletto); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Chiostro di San Mercuriale"]
+    comune: "Forlì"
+    lat: 44.22267
+    lon: 12.04239
+    nota: "Chiostro dell'abbazia di San Mercuriale, Piazza Aurelio Saffi: stesso punto degli eventi gia' pubblicati nell'Abbazia di San Mercuriale (punto noto piu' vicino); aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Piazza Aurelio Saffi", "Piazza Saffi"]
+    comune: "Forlì"
+    lat: 44.22238
+    lon: 12.04133
+    nota: "Candidato di ops/posizioni.json (8 eventi con lo stesso punto da indirizzo), controllato: e' la piazza centrale di Forli', a meno di 200 m dal centro del comune; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro di Sondrio (piazza Garibaldi)", "Piazza Garibaldi"]
+    comune: "Sondrio"
+    lat: 46.17089
+    lon: 9.86995
+    nota: "Candidato di ops/posizioni.json (12 + 4 eventi con lo stesso punto), controllato: Piazza Garibaldi, la piazza del Teatro Sociale (luogo gia' noto, 60 m); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza della Repubblica"]
+    comune: "Misano Adriatico"
+    lat: 43.97800
+    lon: 12.69835
+    nota: "Candidato di ops/posizioni.json (7 eventi con lo stesso punto), controllato: piazza del centro di Misano, a 150 m dal Cinema Teatro Astra (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Prampolini"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69775
+    lon: 10.63047
+    nota: "Candidato di ops/posizioni.json (7 eventi con lo stesso punto), controllato: piazza del Duomo e del Municipio, accanto a Piazza San Prospero; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza San Prospero"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69722
+    lon: 10.63198
+    nota: "Candidato di ops/posizioni.json (3 eventi con lo stesso punto), controllato: coerente con la Basilica di San Prospero (eventi gia' pubblicati, 70 m); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Ghiaia"]
+    comune: "Parma"
+    lat: 44.80274
+    lon: 10.32465
+    nota: "Candidato di ops/posizioni.json (6 eventi con lo stesso punto), controllato: piazza del centro di Parma, a 200 m dal Teatro Regio (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Antonio Gramsci", "Piazza Gramsci"]
+    comune: "Alfonsine"
+    lat: 44.50554
+    lon: 12.04101
+    nota: "Candidato di ops/posizioni.json (5 eventi con lo stesso punto), controllato: piazza centrale di Alfonsine, a 90 m dal centro del comune (ISTAT); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Biblioteca Capitolare", "Via Canoniche 9"]
+    comune: "Treviso"
+    lat: 45.66637
+    lon: 12.24322
+    nota: "Biblioteca Capitolare nelle canoniche del Duomo, Via Canoniche 9: punto della Cattedrale (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Duomo"]
+    comune: "Treviso"
+    lat: 45.66637
+    lon: 12.24322
+    nota: "Piazza del Duomo: stesso punto della Cattedrale (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Borgo Cavour"]
+    comune: "Treviso"
+    lat: 45.66757
+    lon: 12.23811
+    nota: "Eventi lungo Borgo Cavour (e Via Canova): punto del Museo Bailo, Borgo Cavour 24 (luogo gia' noto), punto noto piu' vicino; le voci con il civico (Bailo, Sant'Agnese) restano prima. Aggiunto il 2026-11-28 (revisione). 3 eventi."
+  - nomi: ["Palazzo Reale di Crespano", "Piazza San Marco 28"]
+    comune: "Pieve del Grappa"
+    lat: 45.82908
+    lon: 11.84105
+    nota: "Palazzo Reale in Piazza San Marco 28 a Crespano: punto della piazza su OpenStreetMap (Nominatim, way 128859738), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Area parrocchiale di Catena", "Chiesa parrocchiale di Catena"]
+    comune: "Villorba"
+    lat: 45.73661
+    lon: 12.26530
+    nota: "Parrocchia di Catena: stesso punto dell'Oratorio NOI di Catena (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Locali della Mostra del Vino"]
+    comune: "Farra di Soligo"
+    lat: 45.89420
+    lon: 12.08763
+    nota: "Mostra del vino di Col San Martino: punto della chiesa di Col San Martino (luogo gia' noto), punto noto piu' vicino della frazione; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Biblioteca Comunale G. Cozzi", "Biblioteca Cozzi"]
+    comune: "Zero Branco"
+    lat: 45.60837
+    lon: 12.17951
+    nota: "Biblioteca in Via G. B. Guidini 52, complesso di Villa Guidini: punto del Teatro Comisso di Villa Guidini (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Cinema-Teatro Nuovo di San Michele Extra", "Teatro Nuovo di San Michele Extra"]
+    comune: "Verona"
+    lat: 45.43407
+    lon: 11.04349
+    nota: "San Michele Extra: punto di Piazza del Popolo di San Michele Extra (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Cortile Federico II"]
+    comune: "Cremona"
+    lat: 45.13334
+    lon: 10.02474
+    nota: "Cortile del Palazzo Comunale su Piazza del Comune: stesso punto degli eventi in Piazza del Comune, punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza Martiri", "Palazzo Sartoretti", "Biblioteca Giorgio Ambrosoli"]
+    comune: "Reggiolo"
+    lat: 44.91783
+    lon: 10.80320
+    nota: "Piazza Martiri di Reggiolo (Palazzo Sartoretti al civico 1, biblioteca sulla piazza): stesso punto degli eventi in Piazza Martiri, punto noto piu' vicino; aggiunto il 2026-11-28 (revisione). 2 eventi."
+  - nomi: ["Piazza Cermenati e Piazza XX Settembre", "Piazza XX Settembre"]
+    comune: "Lecco"
+    lat: 45.85497
+    lon: 9.38969
+    nota: "Piazza XX Settembre (accanto a Piazza Cermenati): stesso punto degli eventi in Piazza XX Settembre; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Piazza della Vittoria"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.70064
+    lon: 10.62983
+    nota: "Stesso punto degli eventi gia' pubblicati in Piazza della Vittoria (Reggio Emilia on Ice); aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Corso Garibaldi e via Ariosto"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.69652
+    lon: 10.62750
+    nota: "Stesso punto degli eventi gia' pubblicati in Corso Garibaldi, punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Via Cavour e Santa Lucia"]
+    comune: "Padova"
+    lat: 45.40809
+    lon: 11.87773
+    nota: "Via Cavour: punto di Piazza Cavour (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro storico", "Corso Palladio"]
+    comune: "Vicenza"
+    lat: 45.54732
+    lon: 11.54655
+    nota: "Eventi nel centro storico o lungo Corso Palladio senza indirizzo: punto di Piazza dei Signori (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro di Roncade", "Portici del centro di Roncade"]
+    comune: "Roncade"
+    lat: 45.63038
+    lon: 12.37395
+    nota: "Eventi nel centro di Roncade senza indirizzo: centro del comune (ISTAT, config/comuni.csv), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione). 3 eventi."
+  - nomi: ["Centro di Segusino"]
+    comune: "Segusino"
+    lat: 45.91670
+    lon: 11.95407
+    nota: "Centro del comune (ISTAT, config/comuni.csv), punto noto piu' vicino per un evento 'nel centro'; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro di Villorba"]
+    comune: "Villorba"
+    lat: 45.71187
+    lon: 12.25713
+    nota: "Centro di Villorba: punto di Piazza Aldo Moro (luogo gia' noto), punto noto piu' vicino; aggiunto il 2026-11-28 (revisione)."
+  - nomi: ["Centro storico di Asolo"]
+    comune: "Asolo"
+    lat: 45.80217
+    lon: 11.91237
+    nota: "Centro storico: centro del comune (ISTAT, config/comuni.csv), a 80 m dal Museo Civico (luogo gia' noto); aggiunto il 2026-11-28 (revisione)."

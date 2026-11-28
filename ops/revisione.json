@@ -1,10 +1,9 @@
 {
- "generato": "2026-11-28T17:58+01:00",
+ "generato": "2026-11-28T19:57+01:00",
  "eventi": [
   {
    "uid": "b12b3bf624935d31",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
     "durata oltre 45 giorni: sono date singole o un periodo?"
    ],
@@ -21,9 +20,9 @@
    "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
    "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/saetta-mc-queen-al-museo",
    "riassunto": "Allestimento in Sala Formula dedicato a Saetta McQueen a vent'anni dal film Cars, tra cinema e storia dell'automobile.",
-   "lat": 45.07327,
-   "lon": 7.68069,
-   "precisione": "town"
+   "lat": 45.03185,
+   "lon": 7.67345,
+   "precisione": "venue"
   },
   {
    "uid": "4d5cf01bcdc28c8e",
@@ -51,7 +50,6 @@
   {
    "uid": "9ed709bf49b2e733",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
     "durata oltre 45 giorni: sono date singole o un periodo?"
    ],
@@ -68,14 +66,13 @@
    "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
    "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/di-padre-in-figlio-l-universo-grafico-di-giambattista-e-giandomenico-tiepolo",
    "riassunto": "Mostra sull'attivita' grafica di Giandomenico Tiepolo messa a confronto con quella del padre Giambattista.",
-   "lat": 45.07327,
-   "lon": 7.68069,
-   "precisione": "town"
+   "lat": 45.07415,
+   "lon": 7.68604,
+   "precisione": "venue"
   },
   {
    "uid": "79c50621d9acec51",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
     "durata oltre 45 giorni: sono date singole o un periodo?"
    ],
@@ -92,14 +89,13 @@
    "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
    "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/banksy-street-is-the-museum",
    "riassunto": "Oltre 150 opere dedicate a Banksy nelle cantine storiche di Palazzo Falletti di Barolo.",
-   "lat": 45.07327,
-   "lon": 7.68069,
-   "precisione": "town"
+   "lat": 45.07481,
+   "lon": 7.67868,
+   "precisione": "venue"
   },
   {
    "uid": "efb5597a1e500967",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
     "durata oltre 45 giorni: sono date singole o un periodo?"
    ],
@@ -116,9 +112,9 @@
    "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
    "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/yayoi-kusama-infinity-mirrored-room",
    "riassunto": "Le OGR espongono una delle stanze a specchi infinite di Yayoi Kusama.",
-   "lat": 45.07327,
-   "lon": 7.68069,
-   "precisione": "town"
+   "lat": 45.06669,
+   "lon": 7.65965,
+   "precisione": "venue"
   },
   {
    "uid": "f54d160db291759b",
@@ -145,7 +141,6 @@
   {
    "uid": "bbb25b6f830d4e77",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
     "durata oltre 45 giorni: sono date singole o un periodo?"
    ],
@@ -162,9 +157,9 @@
    "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
    "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/gabriele-basilico-paesaggio-industriale-olivetti",
    "riassunto": "Mostra di fotografie di Gabriele Basilico dedicate ai luoghi industriali Olivetti, con l'Archivio Storico Olivetti.",
-   "lat": 45.46619,
-   "lon": 7.87597,
-   "precisione": "town"
+   "lat": 45.4675,
+   "lon": 7.87834,
+   "precisione": "venue"
   },
   {
    "uid": "910a05b2ea20f0b3",
@@ -191,7 +186,6 @@
   {
    "uid": "83541ec862156e56",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
    ],
    "titolo": "Giorgio De Chirico al Museo Garda",
@@ -207,9 +201,9 @@
    "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
    "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/giorgio-de-chirico",
    "riassunto": "Esposizione di due opere di Giorgio de Chirico della Collezione Guelpa-Croff.",
-   "lat": 45.46619,
-   "lon": 7.87597,
-   "precisione": "town"
+   "lat": 45.4675,
+   "lon": 7.87834,
+   "precisione": "venue"
   },
   {
    "uid": "cbaeebd4a802c713",
@@ -371,7 +365,6 @@
   {
    "uid": "6ad55f02dbd32b65",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
    ],
    "titolo": "Mercatino di Natale di Lecco",
@@ -387,32 +380,9 @@
    "pagina_fonte": "https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026",
    "sito_ufficiale": "https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026",
    "riassunto": "Casette con artigianato e idee regalo aperte tutti i giorni nel centro di Lecco, organizzate da Fiva Confcommercio.",
-   "lat": 45.85576,
-   "lon": 9.39339,
-   "precisione": "town"
-  },
-  {
-   "uid": "35bacc5c85a496db",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Il sogno dell'Accademia. Una storia lunga cinque secoli",
-   "inizio": "2026-11-26",
-   "fine": "2027-01-29",
-   "luogo": "Biblioteca Civica Francesca Calvo",
-   "indirizzo": "Piazza Vittorio Veneto 1",
-   "comune": "Alessandria",
-   "categoria": "arte-cultura",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "comune.alessandria.it",
-   "pagina_fonte": "https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)",
-   "sito_ufficiale": "https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero",
-   "riassunto": "Le opere di Mario Fallini dialogano con i libri dei poeti dell'Accademia degli Immobili; aperta nei giorni feriali.",
-   "lat": 44.91297,
-   "lon": 8.6154,
-   "precisione": "town"
+   "lat": 45.85497,
+   "lon": 9.38969,
+   "precisione": "venue"
   },
   {
    "uid": "3caaf34c4ea05d6d",
@@ -435,6 +405,28 @@
    "lat": 44.49969,
    "lon": 11.34354,
    "precisione": "address"
+  },
+  {
+   "uid": "35bacc5c85a496db",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Il sogno dell'Accademia. Una storia lunga cinque secoli",
+   "inizio": "2026-11-26",
+   "fine": "2027-01-29",
+   "luogo": "Biblioteca Civica Francesca Calvo",
+   "indirizzo": "Piazza Vittorio Veneto 1",
+   "comune": "Alessandria",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "comune.alessandria.it",
+   "pagina_fonte": "https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)",
+   "sito_ufficiale": "https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero",
+   "riassunto": "Le opere di Mario Fallini dialogano con i libri dei poeti dell'Accademia degli Immobili; aperta nei giorni feriali.",
+   "lat": 44.91167,
+   "lon": 8.61977,
+   "precisione": "venue"
   },
   {
    "uid": "8baf2b2bbac65b62",
@@ -1136,28 +1128,6 @@
    "precisione": "venue"
   },
   {
-   "uid": "c55a8de03599daec",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Villaggio di Babbo Natale nel Cortile Federico II",
-   "inizio": "2026-11-28T15:30",
-   "fine": "2027-01-06",
-   "luogo": "Cortile Federico II",
-   "indirizzo": "Piazza del Comune",
-   "comune": "Cremona",
-   "categoria": "famiglie-bambini",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "turismocremona.it",
-   "pagina_fonte": "https://www.turismocremona.it/it/evento/natale-cremona-2026",
-   "sito_ufficiale": "https://www.turismocremona.it/it/evento/natale-cremona-2026",
-   "riassunto": "Animazioni e laboratori gratuiti per bambini dal giovedi' alla domenica dalle 15:30 alle 19, nel programma Cremona che incanta.",
-   "lat": 45.13337,
-   "lon": 10.02421,
-   "precisione": "town"
-  },
-  {
    "uid": "9aabe2d0cf699ef8",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -1178,52 +1148,6 @@
    "riassunto": "Accensione dell'albero di Natale nella frazione di Padernello con animazione degli elfi, raccolta delle letterine e ristoro, a cura della Pro Loco di Paese e de I Mangiafiabe. Apre il programma A Natale siamo tutti piu' buoni.",
    "lat": 45.67164,
    "lon": 12.15354,
-   "precisione": "town"
-  },
-  {
-   "uid": "cee2ada47f582ec8",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Macbeth",
-   "inizio": "2026-11-29T16:00",
-   "fine": null,
-   "luogo": "Teatro Comunale Claudio Abbado",
-   "indirizzo": "Corso Martiri della Liberta' 5",
-   "comune": "Ferrara",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatrocomunaleferrara.it",
-   "pagina_fonte": "https://www.teatrocomunaleferrara.it/",
-   "sito_ufficiale": "https://www.teatrocomunaleferrara.it/spettacolo/macbeth/",
-   "riassunto": "Recita dell'opera di Verdi nella stagione Opera&Danza del Teatro Comunale.",
-   "lat": 44.83599,
-   "lon": 11.61869,
-   "precisione": "town"
-  },
-  {
-   "uid": "0ffb2cb6ec5bbcd0",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "La scuola di magia",
-   "inizio": "2026-11-29T16:30",
-   "fine": null,
-   "luogo": "ZolAuditorium",
-   "indirizzo": "Piazza della Repubblica 1",
-   "comune": "Zola Predosa",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/la-scuola-di-magia",
-   "riassunto": "Spettacolo per bambini e famiglie allo ZolAuditorium.",
-   "lat": 44.49224,
-   "lon": 11.21818,
    "precisione": "town"
   },
   {
@@ -1356,6 +1280,72 @@
    "riassunto": "Appuntamento dedicato alle Memorie di Adriano di Marguerite Yourcenar al Museo Civico Archeologico.",
    "lat": 44.492715,
    "lon": 11.34386,
+   "precisione": "address"
+  },
+  {
+   "uid": "29356b33bbca7ef1",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Occhi aperti! Serata tra amici con Maurizio Nichetti",
+   "inizio": "2026-11-29T17:30",
+   "fine": null,
+   "luogo": "Teatro Celebrazioni",
+   "indirizzo": "Via Saragozza 234",
+   "comune": "Bologna",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "culturabologna.it",
+   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
+   "sito_ufficiale": "https://www.culturabologna.it/objects/occhi-aperti-serata-tra-amici-maurizio-nichetti",
+   "riassunto": "Serata con il regista e attore Maurizio Nichetti al Teatro Celebrazioni.",
+   "lat": 44.48954,
+   "lon": 11.312546,
+   "precisione": "address"
+  },
+  {
+   "uid": "5346fba1a17527e6",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Un ballo in maschera di Verdi",
+   "inizio": "2026-11-29T16:00",
+   "fine": null,
+   "luogo": "Teatro Amilcare Ponchielli",
+   "indirizzo": "Corso Vittorio Emanuele II 52",
+   "comune": "Cremona",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "teatroponchielli.it",
+   "pagina_fonte": "https://www.teatroponchielli.it/",
+   "sito_ufficiale": "https://www.teatroponchielli.it/spettacolo/un-ballo-in-maschera-2026/",
+   "riassunto": "Opera di Giuseppe Verdi con la regia di Roberto Catalano e la direzione di Andrea Solinas.",
+   "lat": 45.132171,
+   "lon": 10.019045,
+   "precisione": "address"
+  },
+  {
+   "uid": "c6235f8bd6422966",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Coro Catinaccio al Mercatino di Natale di Modena",
+   "inizio": "2026-11-29T16:00",
+   "fine": "2026-11-29T18:00",
+   "luogo": "Piazza Grande",
+   "indirizzo": "Piazza Grande",
+   "comune": "Modena",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "mercatinodinataletirolesemodena.it",
+   "pagina_fonte": "https://www.mercatinodinataletirolesemodena.it/spettacoli",
+   "sito_ufficiale": "https://www.mercatinodinataletirolesemodena.it/spettacoli",
+   "riassunto": "Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.",
+   "lat": 44.645943,
+   "lon": 10.925617,
    "precisione": "address"
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T17:58+01:00",
+ "generato": "2026-11-28T19:57+01:00",
  "eventi": [
   {
    "uid": "1d6fa89c18ca05d5",
@@ -94,9 +94,9 @@
    "luogo": "ZolAuditorium",
    "indirizzo": "Piazza della Repubblica 1",
    "comune": "Zola Predosa",
-   "lat": 44.49224,
-   "lon": 11.21818,
-   "precisione": "town",
+   "lat": 44.49214,
+   "lon": 11.21839,
+   "precisione": "venue",
    "categoria": "musica",
    "accesso": "sconosciuto",
    "prezzo": "",
@@ -247,9 +247,9 @@
    "luogo": "Teatro Comunale Claudio Abbado",
    "indirizzo": "Corso Martiri della Liberta' 5",
    "comune": "Ferrara",
-   "lat": 44.83599,
-   "lon": 11.61869,
-   "precisione": "town",
+   "lat": 44.83744,
+   "lon": 11.62066,
+   "precisione": "venue",
    "categoria": "musica",
    "accesso": "sconosciuto",
    "prezzo": "",

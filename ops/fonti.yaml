@@ -3329,3 +3329,913 @@ fonti:
   automatizzabile: no
   stato: debole
   note: "Catalogata il 2026-11-28 (fonti). DA VERIFICARE: aggregatore sagre nazionale (Trigem, Firenze); robots.txt 'Disallow:' vuoto; /info/termini-e-condizioni/ e /info/note-legali/ mostrano solo la pagina di ricerca: termini non trovati, da verificare."
+- nome: Teatro Nuovo Giovanni da Udine, calendario
+  url: https://www.teatroudine.it/wp-json/tribe/events/v1/events
+  query: Teatro Nuovo Giovanni da Udine stagione calendario
+  tipo: teatro
+  categorie: &id001
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Udine
+  province:
+  - UD
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). API The Events Calendar pubblica letta con WebFetch: 92 eventi (11 pagine), primo il 29/11/2026 (Mozart: il divino ribelle), poi concerti e prosa
+    di dicembre. Tipo suggerito: tribe_api. Pagina sito: https://www.teatroudine.it/'
+- nome: Teatro Fraschini Pavia, programma
+  url: https://www.teatrofraschini.it/wp-json/tribe/events/v1/events
+  query: Teatro Fraschini Pavia programma stagione
+  tipo: teatro
+  categorie: *id001
+  comuni:
+  - Pavia
+  province:
+  - PV
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). API The Events Calendar pubblica letta con WebFetch (oltre 300 mila caratteri): Lupin il musical 28/11, Un ballo in maschera 3 e 5/12/2026 alle 20...
+    Tipo suggerito: tribe_api. Schede: /programma/<slug>/.'
+- nome: Teatro Comunale di Ferrara, calendario
+  url: https://www.teatrocomunaleferrara.it/spettacolo/?month=next
+  query: Teatro Comunale Ferrara calendario spettacoli
+  tipo: teatro
+  categorie: *id001
+  comuni:
+  - Ferrara
+  province:
+  - FE
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: forse
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Calendario con circa 115 recite dal 27/11/2026 al 30/5/2027 (opera, prosa, teatro ragazzi), con giorno e ora. Tipo suggerito: html (forse JSON-LD,
+    da controllare dal giro).'
+- nome: Fondazione Teatro Petruzzelli Bari, eventi
+  url: https://www.fondazionepetruzzelli.it/eventi/
+  query: Fondazione Petruzzelli eventi stagione
+  tipo: teatro
+  categorie: *id001
+  comuni:
+  - Bari
+  province:
+  - BA
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress, elenco /eventi/ con 10 voci per pagina (opera, concerti, incontri); le date nell''elenco sono senza anno o incoerenti: prendere data e
+    ora dalla scheda. Tipo: html.'
+- nome: Teatro Comunale Pavarotti-Freni Modena
+  url: https://www.teatrocomunalemodena.it/
+  query: Teatro Comunale Modena stagione opera concerti
+  tipo: teatro
+  categorie: *id001
+  comuni:
+  - Modena
+  province:
+  - MO
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress (/lang/en/opera/), niente API tribe (404). Pagina eventi da trovare dalla home. Tipo: html.'
+- nome: Teatro Ponchielli Cremona
+  url: https://www.teatroponchielli.it/
+  query: Teatro Ponchielli Cremona stagione
+  tipo: teatro
+  categorie: *id001
+  comuni:
+  - Cremona
+  province:
+  - CR
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress, niente API tribe (404). Lo stesso cartellone compare sul sito del Comune di Cremona. Tipo: html.'
+- nome: Centro Servizi Culturali S. Chiara Trento
+  url: https://www.centrosantachiara.it/
+  query: Centro Santa Chiara Trento spettacoli stagione
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  - famiglie-bambini
+  comuni:
+  - Trento
+  - Rovereto
+  province:
+  - TN
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Ente della Provincia di Trento: Teatro Sociale (16 titoli 2026/27), Scappo a teatro (famiglie), Auditorium. Pagina non aperta stanotte. Tipo: html.'
+- nome: Teatro Marrucino Chieti
+  url: https://www.teatromarrucino.eu/
+  query: Teatro Marrucino Chieti stagione
+  tipo: teatro
+  categorie: *id001
+  comuni:
+  - Chieti
+  province:
+  - CH
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Sito WordPress della Deputazione teatrale; stagione 2026/27 non trovata nei risultati (solo un evento 1/12/2026). Pagina non aperta. Tipo: html.'
+- nome: Teatro Biondo Palermo
+  url: https://teatrobiondo.it/
+  query: Teatro Biondo Palermo stagione
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Palermo
+  province:
+  - PA
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Stagione 2026/27 ''Oltrepassa'' dal 17/10/2026 al 23/5/2027 (Sala Grande, Teatro Nuovo Montevergini); WordPress, l''API tribe risponde vuota. Biglietti
+    su Vivaticket (vietata: solo ticket_url). Tipo: html.'
+- nome: AMAT Marche, spettacoli nei teatri delle Marche
+  url: https://www.amatmarche.net/
+  query: AMAT Marche spettacoli calendario
+  tipo: ente
+  categorie: *id001
+  comuni:
+  - Pesaro
+  - Ancona
+  - Macerata
+  - Fermo
+  - Ascoli Piceno
+  - Recanati
+  province:
+  - PU
+  - AN
+  - MC
+  - FM
+  - AP
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Circuito regionale dei teatri delle Marche (oltre 100 teatri): ogni spettacolo ha una notizia con data e teatro. Niente API tribe (404). Utile per
+    tutte le province marchigiane. Tipo: html.'
+- nome: Turismo Cremona (Comune di Cremona), eventi
+  url: https://www.turismocremona.it/it/eventi
+  query: Turismo Cremona eventi
+  tipo: comune
+  categorie: &id002
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - mercatini-fiere
+  - famiglie-bambini
+  comuni:
+  - Cremona
+  province:
+  - CR
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Portale turistico del Comune di Cremona (Drupal, Infopoint di piazza del Comune); elenco /en/events, versione italiana /it/eventi. Alcune schede sono
+    ancora della stagione 2025/26. Tipo: html.'
+- nome: Comune di Cremona, eventi
+  url: https://www.comune.cremona.it/vivere-comune/eventi
+  query: Comune di Cremona eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Cremona
+  province:
+  - CR
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Drupal (/vivere-comune/eventi/<slug>, /vivere-comune/luoghi/ con le sedi): Stradivari Festival 5/12, Arisa al Ponchielli 21/12, I Legnanesi 31/12/2026.
+    Tipo: html.'
+- nome: Comune di Pavia, eventi
+  url: https://www.comune.pavia.it/vivere-comune/eventi
+  query: Comune di Pavia eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Pavia
+  province:
+  - PV
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Drupal con filtri (?f[0]=quando:tomorrow): mostre e visite guidate. Tipo: html.'
+- nome: Comune di Sondrio, eventi
+  url: https://comune.sondrio.it/eventi/
+  query: Comune di Sondrio eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Sondrio
+  province:
+  - SO
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: forse
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress (/eventi/<slug>/): Sondrio Natale 2026 dal 28/11/2026 al 6/1/2027 con date e ore (parata 5/12, falo'' 20/12), Gospel al Teatro Sociale 19/12.
+    Provare /wp-json/tribe/events/v1/events. Tipo: html.'
+- nome: Comune di Mantova, eventi
+  url: https://www.comune.mantova.it/it/eventi
+  query: Comune di Mantova eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Mantova
+  province:
+  - MN
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Municipium (/it/eventi/<slug>): gruppi di lettura della Baratta, teatro al Bibiena (Caveman 17/12), Capodanno 31/12/2026. Come Roncade: adatto a html_llm
+    del giro.'
+- nome: Orto Botanico di Bergamo, prossimi eventi
+  url: https://ortobotanico.comune.bergamo.it/eventi/
+  query: Orto Botanico Bergamo prossimi eventi
+  tipo: museo
+  categorie:
+  - natura-outdoor
+  - famiglie-bambini
+  - arte-cultura
+  comuni:
+  - Bergamo
+  province:
+  - BG
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Sito del Comune di Bergamo: corsi e visite con data e ora (10/12/2026 corso). Tipo: html.'
+- nome: Comune di Piacenza, eventi
+  url: https://www.comune.piacenza.it/it/eventi
+  query: Comune di Piacenza eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Piacenza
+  province:
+  - PC
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Municipium (/it/eventi/<id>/<slug>, /it/categorie-eventi/<id>): Ornitologia a Piacenza Expo 11-13/12, Lumen 22/12, Natale a Palazzo Farnese, teatro
+    per famiglie. Adatto a html_llm del giro.'
+- nome: Visit Romagna, eventi
+  url: https://visitromagna.it/eventi
+  query: Visit Romagna eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - mercatini-fiere
+  - famiglie-bambini
+  - sagre-feste
+  comuni: []
+  province:
+  - RA
+  - FC
+  - RN
+  - FE
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Portale della Destinazione Turistica Romagna (/en/events/<id>/<slug>); pagina non aperta stanotte, controllare robots.txt alla prima lettura. Tipo:
+    html.'
+- nome: ViviRovereto (Comune di Rovereto), eventi
+  url: https://eventi.comune.rovereto.tn.it/
+  query: ViviRovereto eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Rovereto
+  province:
+  - TN
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: forse
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Agenda OpenCity/OpenContent del Comune (ricerca avanzata /content/advancedsearch/(offset)/N): concerto al Mart 4/12, Divergenze 12/12/2026. Queste
+    agende hanno spesso un''API opendata: da controllare. Tipo: html.'
+- nome: Comune di Merano, eventi
+  url: https://www.comune.merano.bz.it/it/Vivere_la_citta/Eventi
+  query: Comune di Merano eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Merano
+  province:
+  - BZ
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Sito comunale con schede /it/Vivere_la_citta/Eventi/<slug> (Lumagica a Trauttmansdorff dicembre 2026, San Nicolo'' 6/12). Tipo: html.'
+- nome: Comune di Siena, eventi
+  url: https://www.comune.siena.it/vivere-il-comune/eventi
+  query: Comune di Siena eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Siena
+  province:
+  - SI
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Drupal modello Comuni: Siena Incanta Natale 2026 (28/11-10/1), Mercato nel Campo 4-8/12/2026, Stagione dei Teatri di Siena 2026/27 (Rozzi, Rinnovati).
+    Tipo: html.'
+- nome: Visit Arezzo, eventi
+  url: https://www.visitarezzo.com/
+  query: Visit Arezzo eventi
+  tipo: ente
+  categorie: *id002
+  comuni:
+  - Arezzo
+  - Monte San Savino
+  province:
+  - AR
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Portale turistico di Arezzo e provincia: spettacoli di dicembre 2026 (3, 6, 11, 13, 15, 19, 20, 22/12). Pagina eventi da trovare dalla home; verificare
+    chi gestisce il sito (se non e'' un ente, va trattato come aggregatore). Tipo: html.'
+- nome: Comune di Pistoia, eventi
+  url: https://www.comune.pistoia.it/it/eventi
+  query: Comune di Pistoia eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Pistoia
+  province:
+  - PT
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: Catalogata il 2026-11-28 (fonti, quarto giro). Municipium ('Powered by Municipium'), 3 pagine di elenco; Pistoia Citta' del Natale 2026 (28/11-8/1), fiera dell'antiquariato 13/12. Adatto a html_llm
+    del giro.
+- nome: Comune di Lucca, eventi
+  url: https://www.comune.lucca.it/vivere-il-comune/eventi/
+  query: Comune di Lucca eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Lucca
+  province:
+  - LU
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress modello Comuni (/vivere-il-comune/eventi/<slug>/): Giornate del Riuso 5-6/12/2026 al Foro Boario. Tipo: html.'
+- nome: Comune di Macerata, eventi
+  url: https://www.comune.macerata.it/vivere-il-comune/eventi/
+  query: Comune di Macerata eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Macerata
+  province:
+  - MC
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress modello Comuni; Macerata per Natale 2026 (cartellone nelle novita''), Capodanno in piazza della Liberta''. Attenzione: alcune schede (Il
+    Volo) riguardano altre citta''. Tipo: html.'
+- nome: Umbria Tourism (Regione Umbria), eventi
+  url: https://www.umbriatourism.it/it/eventi
+  query: Umbria Tourism eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - mercatini-fiere
+  - famiglie-bambini
+  - sagre-feste
+  comuni: []
+  province:
+  - PG
+  - TR
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Portale ufficiale della Regione Umbria (Liferay): in pagina solo 3 eventi in evidenza (Umbria Jazz Winter 30/12-3/1, Racconti 4-8/12), gli altri con
+    ''Carica piu'' risultati'' (JavaScript). Tipo: html.'
+- nome: Calabria Straordinaria (Regione Calabria), eventi
+  url: https://calabriastraordinaria.it/eventi
+  query: Calabria Straordinaria eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - mercatini-fiere
+  - famiglie-bambini
+  - sagre-feste
+  comuni:
+  - Catanzaro
+  province:
+  - CZ
+  - CS
+  - RC
+  - KR
+  - VV
+  frequenza: settimanale
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Portale turistico della Regione Calabria (/en/events/<slug>): l''elenco si carica con JavaScript, WebFetch vede la pagina vuota. Utile come scoperta,
+    date da confermare sui siti dei Comuni. Tipo: html.'
+- nome: Comune di Crotone, eventi
+  url: https://www.comune.crotone.it/vivere-il-comune/eventi/
+  query: Comune di Crotone eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Crotone
+  province:
+  - KR
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress modello Comuni (tema design-comuni): 422 eventi in archivio, 10 futuri in prima pagina (Assassinio sull''Orient Express 8/12, De Andre''
+    canta De Andre'' 12/12 al Teatro Scaramuzza). Tipo: html.'
+- nome: Comune di Matera, eventi
+  url: https://comune.matera.it/vivere-il-comune/eventi/
+  query: Comune di Matera eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Matera
+  province:
+  - MT
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress modello Comuni; stanotte solo avvisi (mercatini e villaggio di Natale 4/12/2026-7/1/2027, concerto di San Silvestro in piazza Vittorio Veneto).
+    Indirizzo dell''elenco eventi da confermare. Tipo: html.'
+- nome: Salerno Cultura (Comune di Salerno), eventi
+  url: https://cultura.comune.salerno.it/eventi/
+  query: Salerno Cultura eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Salerno
+  province:
+  - SA
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: forse
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Portale cultura del Comune (WordPress, filtri ?filtro_cat=prosa): dicembre 2026 completo con luoghi e prezzi (Teatro Verdi, Sala Pasolini, Teatro
+    Nuovo, Teatro delle Arti, artisti di strada, Capodanno). API tribe assente (404). Tipo: html.'
+- nome: Comune di Taranto, novita' ed eventi
+  url: https://www.comune.taranto.it/it/news
+  query: Comune di Taranto eventi Natale
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Taranto
+  province:
+  - TA
+  frequenza: settimanale
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Municipium: le iniziative stanno nelle notizie (Villaggio di Natale al Parco della Musica, Winter Camp 14-31/12/2026, Calata di Babbo Natale). Tipo:
+    html.'
+- nome: Comune di Lecce, notizie (teatri Apollo e Paisiello)
+  url: https://www.comune.lecce.it/news
+  query: Comune di Lecce stagione Teatri Apollo Paisiello
+  tipo: comune
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Lecce
+  province:
+  - LE
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). La stagione 2026/27 dei Teatri Apollo e Paisiello e'' nella notizia del 4/9/2026 (/news/dettaglio/2026/09/04/...): 1/12 e 15/12 all''Apollo. Niente
+    elenco eventi strutturato. Tipo: html.'
+- nome: Comune di Foggia, notizie
+  url: https://www.comune.foggia.it/it/news
+  query: Comune di Foggia cartellone Natale eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Foggia
+  province:
+  - FG
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Municipium: cartelloni nelle notizie (Natale, stagione del Teatro Giordano); la pagina del Natale trovata e'' del 2025: controllare l''anno. Tipo:
+    html.'
+- nome: Comune di Nuoro, eventi
+  url: https://www.comune.nuoro.it/it/vivere/eventi
+  query: Comune di Nuoro eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Nuoro
+  province:
+  - NU
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Elenco eventi del Comune: Botteghe di Natale 16-24/12/2026 in piazza Satta, centenario del Nobel a Grazia Deledda 10/12/2026. Tipo: html.'
+- nome: Comune di Oristano, eventi
+  url: https://comune.oristano.it/it/vivere-il-comune/eventi
+  query: Comune di Oristano eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Oristano
+  province:
+  - OR
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Schede /it/vivere-il-comune/eventi/evento/<slug>: Domenica in concerto, concerto finale 6/12/2026 ore 18:30 al Teatro Garau. Stessa piattaforma del
+    Comune di Sassari. Tipo: html.'
+- nome: Comune di Sassari, eventi
+  url: https://www.comune.sassari.it/it/vivere-il-comune/eventi
+  query: Comune di Sassari eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Sassari
+  province:
+  - SS
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Notizie (/it/novita/notizia/...) con i programmi di Natale e la stagione CEDAC; quelle trovate stanotte erano del 2025: controllare l''anno. Indirizzo
+    dell''elenco eventi da confermare. Tipo: html.'
+- nome: Comune di Trapani, eventi
+  url: https://comune.trapani.it/evento/
+  query: Comune di Trapani eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Trapani
+  province:
+  - TP
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). WordPress modello Comuni (/evento/<slug>/): Giornata della Pace 1/12 al Chiostro San Domenico, concerti del Luglio Musicale Trapanese 20 e 30/12/2026.
+    Tipo: html.'
+- nome: Comune di Ragusa, eventi
+  url: https://comune.ragusa.it/it/eventi
+  query: Comune di Ragusa eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Ragusa
+  province:
+  - RG
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Elenco eventi (/en/events, /it/eventi): convegno sui formaggi al CoRFiLaC 1-2/12/2026. Tipo: html.'
+- nome: Comune di Caltanissetta, eventi
+  url: https://www.comune.caltanissetta.it/it/eventi
+  query: Comune di Caltanissetta eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Caltanissetta
+  province:
+  - CL
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Municipium (/it/eventi/<slug>, archivio /it/vecchi-eventi): Pietrarossa Academy and Music Festival 9, 16, 21, 23/12/2026, Presepe vivente; stagione
+    del Teatro Regina Margherita (7 titoli, 18/12 Viva la mamma) nelle notizie. Adatto a html_llm del giro.'
+- nome: Comune di Messina, notizie
+  url: https://www.comune.messina.it/it/news
+  query: Comune di Messina eventi Natale biblioteca
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - famiglie-bambini
+  comuni:
+  - Messina
+  province:
+  - ME
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Municipium: il calendario 2026/27 della Biblioteca Cannizzaro (3/12 e ciclo Ciak si legge!) e il Natale 2026 (8/12-7/1) sono nelle notizie. Tipo:
+    html.'
+- nome: Comune di Isernia, eventi
+  url: https://comune.isernia.it/
+  query: Comune di Isernia eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Isernia
+  province:
+  - IS
+  frequenza: mensile
+  qualita: 1
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Il calendario del Comune per novembre e dicembre 2026 dice ''Nessun evento in programma'': per Isernia cercare altrove (Il Tacco di Bacco Molise).'
+- nome: Il Tacco di Bacco, eventi in Molise per giorno
+  url: https://iltaccodibacco.it/molise/events/2026-12-13/
+  query: iltaccodibacco molise eventi <AAAA-MM-GG>
+  tipo: aggregatore
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - mercatini-fiere
+  - famiglie-bambini
+  - sagre-feste
+  comuni:
+  - Campobasso
+  - Isernia
+  province:
+  - CB
+  - IS
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Aggregatore ammesso (iltaccodibacco.it in ammesse): pagine per regione e giorno (/molise/events/AAAA-MM-GG/, anche /lombardia/, /marche/); Campobasso:
+    ''Chiane chiane'' 5/11/2026-17/1/2027. Solo scoperta: confermare sui siti ufficiali.'
+- nome: Cagliari Turismo (Comune di Cagliari), eventi
+  url: https://cagliariturismo.comune.cagliari.it/it/eventi
+  query: Cagliari Turismo eventi
+  tipo: comune
+  categorie: *id002
+  comuni:
+  - Cagliari
+  province:
+  - CA
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Portale turistico del Comune (schede /en/events/<slug>, es. stagione concertistica del Teatro Lirico); WebFetch riceve 403: leggere da WebSearch o
+    dal giro.'

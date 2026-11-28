@@ -1,135 +1,115 @@
-# Agente fonti, notte del 2026-11-28 (terzo giro di verifiche)
+# Agente fonti, notte del 2026-11-28 (quarto giro)
 
 ## Numeri
-- Fonti verificate: 12. Ammesse 8, vietate 1, restano da verificare 3.
-- Fonti nuove valutate: 46 (39 catalogate come utilizzabili, 5 vietate per robots.txt, 2 da verificare), tutte in
-  ops/fonti.yaml; in config/fonti-vietate.yaml 5 vietate nuove, 1 ammessa nuova (zero.eu), 3 da verificare nuove
-  (sardegnaeventi24.it, solosagre.it, sagritaly.com).
+- Fonti da verificare del piano: 12. Ammesse 0 nuove, vietate 2 nuove (dice.fm, feverup.com), restano da verificare 7
+  (ticketone.it, classicalive.it, 2night.it, allevents.in, balliamoliscio.it, canzoni.it, cheventi.it); 3 erano gia'
+  decise (eventbrite.it e cosedicasa.com vietate, eventivenetando.it ammessa).
+- Fonti nuove valutate e salvate in ops/fonti.yaml: 43 (catalogo da 231 a 274 voci), tutte siti ufficiali
+  (Comuni, enti turistici regionali e comunali, teatri, un museo) piu' una pagina dell'aggregatore gia' ammesso
+  iltaccodibacco.it. Nessuna nuova voce in config/fonti-vietate.yaml oltre alle verifiche.
 - Eventi aggiunti: 0 (config/notte/fonti-eventi.yaml non creato). Correzioni: 0.
-- Ricerche usate: 19 su 75 (14 WebSearch, 5 WebFetch). In piu', letture con curl/httpx (user agent dichiarato
-  AndiamooBot del progetto, nessun proxy terzo): robots.txt e pagine legali delle fonti da verificare, e una sonda sui
-  siti ufficiali (robots.txt, home, API tribe e /wp-json/wp/v2/types), circa 250 richieste.
-- `python -m pipeline.notte --controlla fonti`: Parti valide. config/fonti-vietate.yaml: YAML valido.
+- Ricerche usate: 68 su 75 (WebSearch 37, WebFetch 31). Nessuna lettura da shell.
+- `python -m pipeline.notte --controlla fonti`: vedi fondo.
 
 ## Verifiche delle fonti (config/fonti-vietate.yaml)
-- **tviweb.it -> ammesse** (3 trattenuti): robots.txt blocca solo wp-admin; /privacy-note-legali-cookies/ letta:
-  nessun divieto di raccolta automatica, solo "Nessuna parte del sito ... puo' essere riprodotta o ritrasmessa senza
-  specifica autorizzazione scritta" (niente testi copiati).
-- **insolitotrantran.it -> ammesse** (8): robots.txt "tutti i motori di ricerca e gli assistenti AI sono i benvenuti"
-  (ClaudeBot e Claude-User con Allow /); /privacy/ letta, termini non esistono (nel footer solo Privacy e cookie).
-- **running.life -> ammesse** (3) e **gotrail.run -> ammesse** (1): robots.txt blocca solo /<lingua>/map/ e /demo-;
-  /privacy-policy (WebFetch, comune a running.life, gotrail.run, walking.life) non parla di scraping e non cita termini
-  d'uso; /termini, /terms-of-use e simili danno 404.
-- **mentelocale.it -> ammesse** (1): robots.txt Allow /; /informativa-privacy.htm letta, nessun divieto; termini e
-  note legali non esistono (404 e ricerca).
-- **siviaggia.it -> ammesse** (1): robots.txt blocca solo /cerca/, /search/, /ai/, wp-admin; Note legali di Italiaonline
-  (privacy.italiaonline.it/note_legali.html) lette: solo tutela del diritto d'autore, nessun divieto di raccolta
-  automatica.
-- **trevisando.it -> ammesse** (2): con curl arriva una pagina anti-bot, con WebFetch robots.txt (Yoast, Disallow
-  vuoto) e /privacy-policy/ si leggono: nessun divieto, termini d'uso non presenti.
-- **eventivenetando.it -> ammesse** (1): e' il sito del Consorzio Pro Loco del Quartier del Piave (rete pro loco,
-  categoria ammessa); robots.txt (WebFetch) blocca solo /system, /cgi-bin, /anteprima, /Facebook. Privacy non letta
-  (curl riceve la pagina anti-bot): leggere solo con WebFetch.
-- **eventiesagre.it -> vietate** (2): i Termini e Condizioni sono su iubenda (iubenda.com/termini-e-condizioni/316839,
-  Web Up Italia Srl), sezione "Diritti sui contenuti": "e' fatto divieto agli Utenti di copiare, scaricare,
-  condividere ... trasformare ... o creare opere derivate a partire dal contenuto disponibile su questa Applicazione".
-  robots.txt non blocca, ma i termini vietano lo scaricamento dei contenuti: nel dubbio vietata. I 2 eventi trattenuti
-  vanno cercati su fonti ufficiali.
-- **Restano da verificare**:
-  - ticketone.it (15): robots.txt di nuovo 503 con WebFetch ed errore di connessione con curl; termini irraggiungibili.
-  - classicalive.it (9): robots.txt Allow /; l'informativa privacy linkata nel footer non si trova (provati
-    /it/privacy-policy/, /it/cookie-policy/, /it/note-legali/, /it/termini/ e varianti: 404; due ricerche, anche su
-    iubenda, a vuoto). Serve l'indirizzo esatto dal footer (lettura manuale) o un contatto con l'associazione (Lecco).
-  - 2night.it: robots.txt vieta per tutti proprio /o/disclaimer.html e /o/privacy.html (le pagine legali), oltre a
-    /api/; le pagine eventi non sono bloccate. Le pagine dei termini non si possono leggere senza violare robots.txt:
-    serve una lettura manuale di Federico.
+- **ticketone.it** (15 trattenuti): robots.txt e /help/terms/ con WebFetch rispondono 503. Resta da verificare.
+- **classicalive.it** (9 trattenuti): /it/privacy/ 404, ricerca dell'informativa senza risultati. Resta da verificare.
+- **2night.it**: non riaperta (robots.txt blocca proprio le pagine legali). Resta da verificare.
+- **allevents.in**: robots.txt letto (gruppo ClaudeBot con solo Crawl-delay 10; per * bloccati /manage/, archivi
+  2013-2023 e link ?ref=, non le pagine eventi); /pages/terms e /pages/terms-of-service 404 e ricerca senza esito.
+  Resta da verificare.
+- **balliamoliscio.it**: robots.txt "User-agent: * / Allow: /"; /privacy-policy/ 404, nessuna pagina legale trovata.
+  Resta da verificare (aggiunta in da_verificare con nota).
+- **canzoni.it**: robots.txt (per * blocca solo /artisti/cerca.php); /privacy.php 404, nessuna pagina legale trovata.
+  Resta da verificare (aggiunta con nota).
+- **cheventi.it**: robots.txt letto (blocca wp-admin, feed e ricerche con parametri, non le pagine eventi);
+  /termini-e-condizioni/ 403. Resta da verificare (aggiunta con nota).
+- **dice.fm -> vietate**: robots.txt "User-agent: ClaudeBot / Disallow: /" (anche anthropic-ai e Claude-Web).
+- **feverup.com -> vietate**: Terms of Use (/legal/terms_italy.html) sez. 8.1 E(vi) vieta "accessing, monitoring or
+  copying any content from the Website using any robot, spider, scraper ... without our express written permission"
+  e E(vii) l'aggregazione delle attivita'.
+- eventbrite.it e cosedicasa.com gia' vietate, eventivenetando.it gia' ammessa: non riaperte.
+- Nessuna fonte e' diventata ammessa: nessun evento di ops/da-verificare.json puo' tornare sul sito per questa via.
 
-## Fonti nuove catalogate (ops/fonti.yaml)
-Tutte siti ufficiali (enti turistici, teatri, musei, festival, comuni, federazioni) con robots.txt letto, salvo zero.eu
-(aggregatore, verificato con termini). Nome | url | query | tipo.
-1. VisitLazio (Regione Lazio) | https://www.visitlazio.com/eventi-lazio/ | visitlazio eventi lazio <comune> | ufficio turistico
-2. VisitSicily (Regione Siciliana) | https://www.visitsicily.info/eventi/ | visitsicily evento <comune> | ufficio turistico
-3. Teatro Massimo Bellini Catania | https://www.teatromassimobellini.it/calendario/ | Teatro Massimo Bellini Catania calendario | teatro
-4. Teatro Cilea Reggio Calabria | https://teatrocilea.it/calendario-eventi/ | Teatro Cilea Reggio Calabria stagione | teatro
-5. Marche Teatro Ancona | https://www.marcheteatro.it/events/ | Marche Teatro Ancona stagione | teatro
-6. Teatro Bellini Napoli | https://www.teatrobellini.it/ | Teatro Bellini Napoli stagione spettacolo | teatro
-7. Teatro Lirico di Cagliari | https://www.liricocagliari.it/stagione-2027/ | Teatro Lirico Cagliari evento | teatro
-8. Fondazione Ravello | https://www.fondazioneravello.com/eventi/ | Fondazione Ravello eventi | associazione
-9. CeDAC Sardegna | https://www.cedacsardegna.it/programmazione/ | CeDAC Sardegna programmazione <comune> | teatro
-10. ERT FVG | https://ertfvg.it/calendario/ | ERT FVG calendario <comune> | teatro
-11. Teatro Stabile dell'Umbria | https://teatrostabile.umbria.it/calendario/ | Teatro Stabile Umbria calendario | teatro
-12. ATCL Lazio | https://atcllazio.it/stagione-teatrale-2026-2027/ | ATCL Lazio stagione teatrale <comune> | teatro
-13. Teatro Fenaroli Lanciano | https://www.teatrofenaroli.it/cartellone/ | Teatro Fenaroli Lanciano cartellone | teatro
-14. Teatro dei Sassi Matera (debole: schede ferme al 2024) | https://www.teatrodeisassi.it/eventi/ | Teatro dei Sassi Matera eventi | teatro
-15. Teatro Regio di Parma | https://teatroregioparma.it/calendario/ | Teatro Regio Parma calendario | teatro
-16. Teatro Regio di Torino | https://www.teatroregio.torino.it/calendario | Teatro Regio Torino calendario | teatro
-17. Maggio Musicale Fiorentino | https://www.maggiofiorentino.com/calendario | Maggio Musicale Fiorentino calendario | teatro
-18. Teatro Stabile di Torino | https://www.teatrostabiletorino.it/ | Teatro Stabile Torino cartellone | teatro
-19. Teatro Franco Parenti Milano | https://teatrofrancoparenti.it/calendario-spettacoli/ | Teatro Franco Parenti calendario spettacoli | teatro
-20. Teatro di Roma | https://www.teatrodiroma.net/calendario/ | Teatro di Roma calendario | teatro
-21. Accademia di Santa Cecilia | https://santacecilia.it/concerti/calendario-concerti/ | Santa Cecilia calendario concerti | associazione
-22. Romaeuropa | https://romaeuropa.net/agenda/ | Romaeuropa agenda | festival
-23. Palazzo Strozzi | https://www.palazzostrozzi.org/calendario/ | Palazzo Strozzi calendario | museo
-24. Triennale Milano | https://www.triennale.org/eventi | Triennale Milano eventi | museo
-25. Comune di Ancona | https://www.comune.ancona.it/it/eventi | Comune di Ancona eventi | comune
-26. Comune di Catanzaro | https://www.comune.catanzaro.it/vivere-il-comune/eventi/ | Comune di Catanzaro eventi | comune
-27. Comune di Siracusa | https://www.comune.siracusa.it/vivere-il-comune/eventi | Comune di Siracusa eventi | comune
-28. Comune di Brindisi | https://www.comune.brindisi.it/vivere-il-comune/eventi | Comune di Brindisi eventi | comune
-29. Comune di Cosenza | https://www.comune.cosenza.it/it/eventi/ | Comune di Cosenza eventi | comune
-30. Bologna Welcome | https://www.bolognawelcome.com/it/eventi | Bologna Welcome eventi | ufficio turistico
-31. Destination Florence (feelflorence.it) | https://www.destinationflorence.com/it/eventi | Feel Florence eventi Firenze | ufficio turistico
-32. in-Lombardia (Regione Lombardia) | https://www.in-lombardia.it/eventi | in-lombardia eventi <provincia> | ufficio turistico
-33. Emilia-Romagna Turismo | https://emiliaromagnaturismo.it/it/eventi | emiliaromagnaturismo eventi <comune> | ufficio turistico
-34. FIDAL, calendario gare | https://www.fidal.it/calendario.php?&anno=2026&mese=12 | calendario FIDAL <mese> <regione> | sport
-35. Umbria Jazz | https://www.umbriajazz.it/programma/ | Umbria Jazz Winter Orvieto programma | festival
-36. Teatro Alighieri Ravenna | https://www.teatroalighieri.org/lists/stagione-dei-teatri/ | Teatro Alighieri Ravenna stagione | teatro
-37. Comune di Pescara | https://www.comune.pescara.it/argomento/eventi/ | Comune di Pescara eventi | comune
-38. Zero (aggregatore ammesso) | https://zero.eu/it/ | zero.eu eventi <citta'> <data> | aggregatore
-39. Teatro Goldoni Livorno | https://www.goldoniteatro.it/spettacoli/?ts=eventi | Teatro Goldoni Livorno spettacoli | teatro
-
-Vietate per robots.txt (ClaudeBot o Claude-User con Disallow /), in vietate e nel catalogo con stato ferma:
-teatromassimo.it (Palermo), sardegnaturismo.it, lovevda.it (Valle d'Aosta), lamialiguria.it, tcbo.it (Teatro Comunale
-di Bologna). Per Sardegna, Valle d'Aosta e Liguria il portale regionale non si puo' usare: servono comuni e pro loco.
-Da verificare: sardegnaeventi24.it, solosagre.it (termini non trovati), sagritaly.com (era gia' nel catalogo e veniva
-usata: ora e' da verificare, privacy e termini non trovati).
+## Fonti nuove salvate (ops/fonti.yaml; nome, url, query, tipo)
+- Teatro Nuovo Giovanni da Udine | https://www.teatroudine.it/wp-json/tribe/events/v1/events | "Teatro Nuovo Giovanni da Udine stagione calendario" | tribe_api (92 eventi)
+- Teatro Fraschini Pavia | https://www.teatrofraschini.it/wp-json/tribe/events/v1/events | "Teatro Fraschini Pavia programma stagione" | tribe_api
+- Teatro Comunale di Ferrara | https://www.teatrocomunaleferrara.it/spettacolo/?month=next | "Teatro Comunale Ferrara calendario spettacoli" | html (circa 115 recite)
+- Fondazione Teatro Petruzzelli Bari | https://www.fondazionepetruzzelli.it/eventi/ | "Fondazione Petruzzelli eventi stagione" | html
+- Teatro Comunale Pavarotti-Freni Modena | https://www.teatrocomunalemodena.it/ | "Teatro Comunale Modena stagione opera concerti" | html
+- Teatro Ponchielli Cremona | https://www.teatroponchielli.it/ | "Teatro Ponchielli Cremona stagione" | html
+- Centro Servizi Culturali S. Chiara Trento | https://www.centrosantachiara.it/ | "Centro Santa Chiara Trento spettacoli stagione" | html
+- Teatro Marrucino Chieti | https://www.teatromarrucino.eu/ | "Teatro Marrucino Chieti stagione" | html
+- Teatro Biondo Palermo | https://teatrobiondo.it/ | "Teatro Biondo Palermo stagione" | html
+- AMAT Marche | https://www.amatmarche.net/ | "AMAT Marche spettacoli calendario" | html
+- Turismo Cremona | https://www.turismocremona.it/it/eventi | "Turismo Cremona eventi" | html
+- Comune di Cremona | https://www.comune.cremona.it/vivere-comune/eventi | "Comune di Cremona eventi" | html
+- Comune di Pavia | https://www.comune.pavia.it/vivere-comune/eventi | "Comune di Pavia eventi" | html
+- Comune di Sondrio | https://comune.sondrio.it/eventi/ | "Comune di Sondrio eventi" | html
+- Comune di Mantova | https://www.comune.mantova.it/it/eventi | "Comune di Mantova eventi" | html (Municipium)
+- Orto Botanico di Bergamo | https://ortobotanico.comune.bergamo.it/eventi/ | "Orto Botanico Bergamo prossimi eventi" | html
+- Comune di Piacenza | https://www.comune.piacenza.it/it/eventi | "Comune di Piacenza eventi" | html (Municipium)
+- Visit Romagna | https://visitromagna.it/eventi | "Visit Romagna eventi" | html
+- ViviRovereto | https://eventi.comune.rovereto.tn.it/ | "ViviRovereto eventi" | html (OpenCity, forse API opendata)
+- Comune di Merano | https://www.comune.merano.bz.it/it/Vivere_la_citta/Eventi | "Comune di Merano eventi" | html
+- Comune di Siena | https://www.comune.siena.it/vivere-il-comune/eventi | "Comune di Siena eventi" | html
+- Visit Arezzo | https://www.visitarezzo.com/ | "Visit Arezzo eventi" | html (gestore da verificare)
+- Comune di Pistoia | https://www.comune.pistoia.it/it/eventi | "Comune di Pistoia eventi" | html (Municipium)
+- Comune di Lucca | https://www.comune.lucca.it/vivere-il-comune/eventi/ | "Comune di Lucca eventi" | html
+- Comune di Macerata | https://www.comune.macerata.it/vivere-il-comune/eventi/ | "Comune di Macerata eventi" | html
+- Umbria Tourism | https://www.umbriatourism.it/it/eventi | "Umbria Tourism eventi" | html
+- Calabria Straordinaria | https://calabriastraordinaria.it/eventi | "Calabria Straordinaria eventi" | html (JavaScript)
+- Comune di Crotone | https://www.comune.crotone.it/vivere-il-comune/eventi/ | "Comune di Crotone eventi" | html
+- Comune di Matera | https://comune.matera.it/vivere-il-comune/eventi/ | "Comune di Matera eventi" | html
+- Salerno Cultura | https://cultura.comune.salerno.it/eventi/ | "Salerno Cultura eventi" | html
+- Comune di Taranto | https://www.comune.taranto.it/it/news | "Comune di Taranto eventi Natale" | html (debole)
+- Comune di Lecce, notizie | https://www.comune.lecce.it/news | "Comune di Lecce stagione Teatri Apollo Paisiello" | html
+- Comune di Foggia, notizie | https://www.comune.foggia.it/it/news | "Comune di Foggia cartellone Natale eventi" | html (debole)
+- Comune di Nuoro | https://www.comune.nuoro.it/it/vivere/eventi | "Comune di Nuoro eventi" | html
+- Comune di Oristano | https://comune.oristano.it/it/vivere-il-comune/eventi | "Comune di Oristano eventi" | html
+- Comune di Sassari | https://www.comune.sassari.it/it/vivere-il-comune/eventi | "Comune di Sassari eventi" | html
+- Comune di Trapani | https://comune.trapani.it/evento/ | "Comune di Trapani eventi" | html
+- Comune di Ragusa | https://comune.ragusa.it/it/eventi | "Comune di Ragusa eventi" | html
+- Comune di Caltanissetta | https://www.comune.caltanissetta.it/it/eventi | "Comune di Caltanissetta eventi" | html (Municipium)
+- Comune di Messina, notizie | https://www.comune.messina.it/it/news | "Comune di Messina eventi Natale biblioteca" | html (debole)
+- Comune di Isernia | https://comune.isernia.it/ | "Comune di Isernia eventi" | html (debole: calendario vuoto)
+- Il Tacco di Bacco Molise per giorno | https://iltaccodibacco.it/molise/events/2026-12-13/ | "iltaccodibacco molise eventi <AAAA-MM-GG>" | aggregatore ammesso
+- Cagliari Turismo | https://cagliariturismo.comune.cagliari.it/it/eventi | "Cagliari Turismo eventi" | html (WebFetch 403)
 
 ## Proposte per le fonti del giro (config/sources.yaml, le aggiunge il coordinatore)
-Con dati strutturati (provati stanotte):
-- VisitLazio | https://www.visitlazio.com/eventi-lazio/ | Lazio (RM, VT, RI, LT, FR) | jsonld (93 eventi futuri nella
-  pagina, con indirizzo completo in location.address)
-- Teatro Massimo Bellini | https://www.teatromassimobellini.it/calendario/ | Catania | jsonld (7 date future)
-- Teatro Bellini | https://www.teatrobellini.it/ | Napoli | jsonld (17 eventi futuri in home)
-- Teatro Cilea | https://teatrocilea.it | Reggio Calabria | tribe_api (11 eventi futuri; venue vuota: Teatro Cilea)
-- Marche Teatro | https://www.marcheteatro.it | Ancona | tribe_api (30 eventi futuri, Teatro delle Muse e Ridotto)
-In html (pagina con l'elenco):
-- VisitSicily | https://www.visitsicily.info/eventi/ | Sicilia | html (o API /wp-json/wp/v2/evento-new, 563 schede)
-- Palazzo Strozzi | https://www.palazzostrozzi.org/calendario/ | Firenze | html
-- Teatro Lirico di Cagliari | https://www.liricocagliari.it/stagione-2027/ | Cagliari | html
-- Fondazione Ravello | https://www.fondazioneravello.com/eventi/ | Ravello (SA) | html
-- Comune di Ancona | https://www.comune.ancona.it/it/eventi | Ancona | html
-- Umbria Jazz | https://www.umbriajazz.it/programma/ | Perugia e Orvieto | html
-- Santa Cecilia | https://santacecilia.it/concerti/calendario-concerti/ | Roma | html
-- Bologna Welcome | https://www.bolognawelcome.com/it/eventi | Bologna | html
-- Emilia-Romagna Turismo | https://emiliaromagnaturismo.it/it/eventi | Emilia-Romagna | html
+1. Teatro Nuovo Giovanni da Udine | https://www.teatroudine.it/wp-json/tribe/events/v1/events | Udine (UD) | tribe_api |
+   API pubblica letta: 92 eventi dal 29/11/2026; il Friuli ha poche fonti.
+2. Teatro Fraschini | https://www.teatrofraschini.it/wp-json/tribe/events/v1/events | Pavia (PV) | tribe_api | API
+   pubblica letta, stagione d'opera, prosa e concerti con date e ore.
+3. Teatro Comunale di Ferrara | https://www.teatrocomunaleferrara.it/spettacolo/?month=next | Ferrara (FE) | html |
+   circa 115 recite fino a maggio 2027 in un solo calendario.
+4. Salerno Cultura | https://cultura.comune.salerno.it/eventi/ | Salerno (SA) | html | tutto il dicembre di Salerno
+   (teatri, strada, Capodanno) con luoghi e prezzi, sito del Comune.
+5. Comune di Piacenza | https://www.comune.piacenza.it/it/eventi | Piacenza (PC) | html (Municipium, come Roncade) |
+   molti eventi con date, ore e luoghi.
+6. Comune di Mantova | https://www.comune.mantova.it/it/eventi | Mantova (MN) | html (Municipium) | biblioteche,
+   teatro, Capodanno.
+7. Comune di Pistoia | https://www.comune.pistoia.it/it/eventi | Pistoia (PT) | html (Municipium) | 3 pagine di eventi.
+8. Comune di Caltanissetta | https://www.comune.caltanissetta.it/it/eventi | Caltanissetta (CL) | html (Municipium) |
+   concerti e Natale, provincia senza fonti.
+9. Comune di Crotone | https://www.comune.crotone.it/vivere-il-comune/eventi/ | Crotone (KR) | html | 10 eventi futuri
+   in prima pagina, provincia senza fonti.
+10. Comune di Sondrio | https://comune.sondrio.it/eventi/ | Sondrio (SO) | html | Natale 2026 con date e ore.
 
 ## Lezioni
-- Molti siti ufficiali bloccano esplicitamente ClaudeBot o Claude-User in robots.txt (teatri lirici, portali regionali
-  di Sardegna, Liguria, Valle d'Aosta): controllare robots.txt prima di ogni nuova fonte, anche ufficiale.
-- I termini generati da iubenda stanno su iubenda.com/termini-e-condizioni/<id> (stesso id della privacy
-  iubenda.com/app/privacy-policy/<id>/legal): cosi' si trovano i termini di un sito senza aprirne altre pagine.
-- I portali Municipium dei comuni (/it/events: Teramo, Foggia, Taranto, Aosta) e molti teatri caricano gli eventi in
-  JavaScript: con curl la pagina e' vuota, serve WebFetch.
-- Il tema WordPress dei comuni (Designers Italia) non espone gli eventi nell'API REST.
+- WebSearch con `allowed_domains` su 3-5 siti comunali e la sola query "eventi dicembre 2026" porta dritto alle
+  pagine eventi dei Comuni (1-3 fonti nuove a ricerca); le ricerche libere per teatro o citta' danno quasi solo
+  aggregatori (iltaccodibacco, eventiesagre vietata, mentelocale) e PDF.
+- Prova dell'API tribe (/wp-json/tribe/events/v1/events) con WebFetch: 2 su 7 siti WordPress di teatri rispondono
+  (Udine, Pavia); costa una lettura e dice subito se la fonte va nel giro.
+- Molti capoluoghi del Sud usano Municipium (Taranto, Foggia, Messina, Caltanissetta, Pistoia, Mantova, Piacenza):
+  le pagine /it/eventi vanno bene per html_llm come Roncade; dove l'elenco eventi e' vuoto le iniziative stanno in
+  /it/news.
+- Le verifiche delle fonti da verificare stanno girando a vuoto: per ticketone.it, classicalive.it, allevents.in,
+  balliamoliscio.it, canzoni.it e cheventi.it i termini non si trovano o non si aprono. Serve una lettura manuale di
+  Federico (link nel footer) o un contatto: altri giri automatici sprecano ricerche.
 
 ## Problemi
-- Errore mio: la sonda automatica sulla lista di candidati ha aperto anche la home e l'URL dell'API tribe di zero.eu,
-  sardegnaeventi24.it, solosagre.it e sagritaly.com prima che fossero verificati (fonti nuove = da trattare come
-  vietate). Ne ho preso solo l'esito tecnico (WordPress sì/no, nessun dato strutturato), nessun testo o evento; per
-  le tre da verificare non ho usato nulla. In futuro la sonda va lanciata solo su siti ufficiali.
-- ticketone.it irraggiungibile per la terza volta stanotte; classicalive.it e 2night.it richiedono una lettura manuale
-  (indirizzo dei termini sconosciuto / pagine legali vietate da robots.txt).
-- Siti irraggiungibili dalla sonda (errore di connessione o proxy), da riprovare: fondazionepetruzzelli.it,
-  teatrorendano.it, teatrodisardegna.it, comune.lecce.it, comune.palermo.it, comune.nuoro.it, comune.chieti.it,
-  comune.caserta.it, comune.trapani.it, comune.perugia.it, basilicataturistica.it, abruzzoturismo.it, incampania.com,
-  operacarlofelicegenova.it, amatmarche.net, maxxi.art, mann-napoli.it, museomadre.it. 403 dalla sonda: comune.bari.it,
-  comune.potenza.it, teatrobiondo.it, yesmilano.it, piemontedalvivo.it, teatropubblicocampano.com.
+- ticketone.it (15 trattenuti) e classicalive.it (9) restano da verificare: 503 e informativa introvabile.
+- WebFetch non legge le pagine JavaScript (Calabria Straordinaria) e riceve 403 da Cagliari Turismo.
+- Non ho potuto controllare il JSON-LD delle pagine (WebFetch toglie gli script): il tipo jsonld resta da provare dal giro.
