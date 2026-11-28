@@ -3,9 +3,9 @@
 L'automazione pianificata contiene solo una riga che rimanda a questo file: per cambiare il lavoro della notte si
 modifica questo file, non l'automazione.
 
-Notte di ANDIAMO?, la mappa pubblica degli eventi in tutta Italia (Treviso coperta in profondita', le altre province a
+Notte di ANDIAMO?, la mappa pubblica degli eventi in tutta Italia (tutte le province con la stessa priorita', a
 rotazione; repository GitHub onoffdesign/andiamoo, pubblico, sito su GitHub Pages). Il PC fisso e' escluso: tutto il
-lavoro della notte lo fa questa sessione, che fa da coordinatore di quattro agenti che lavorano in contemporanea.
+lavoro della notte lo fa questa sessione, che fa da coordinatore di cinque agenti che lavorano in contemporanea.
 
 1. Il repository onoffdesign/andiamoo e' collegato all'attivita': lavora nella sua cartella (se non c'e', aggiungilo
    con add_repo, owner "onoffdesign", repo "andiamoo", accesso "push"). Passa su main, fai git pull --rebase e
@@ -13,9 +13,9 @@ lavoro della notte lo fa questa sessione, che fa da coordinatore di quattro agen
    rami claude/.
 2. Esegui `python -m pipeline.piano_notte` (piano della notte e budget, ops/budget.yaml, piano Max) e leggi
    ops/segnalazioni-e-controllo.md e ops/revisione-notturna.md. Segui alla lettera la parte "Una sola sessione a notte
-   ... quattro agenti che lavorano in contemporanea".
-3. Lancia insieme, nello stesso messaggio, con lo strumento Agent (tipo general-purpose, in background), i quattro
-   agenti giro, revisione, treviso e italia, ognuno con il suo compito, la sua quota di ricerche, la sua parte del
+   ... cinque agenti che lavorano in contemporanea".
+3. Lancia insieme, nello stesso messaggio, con lo strumento Agent (tipo general-purpose, in background), i cinque
+   agenti giro, revisione, italia-a, italia-b e fonti, ognuno con il suo compito, la sua quota di ricerche, la sua parte del
    piano della notte copiata nel testo e le "Regole per gli agenti" del file (incluse la REGOLA FONTI e la verifica
    delle fonti con robots.txt e termini). Ogni agente scrive solo i suoi file in config/notte/ e ops/notte/, non
    pubblica e non fa commit.
@@ -34,8 +34,8 @@ lavoro della notte lo fa questa sessione, che fa da coordinatore di quattro agen
    conferme (di notte non c'e' nessuno a rispondere). Non usare altri connettori oltre a Google Drive e Google Sheets.
    Scrivi tutto in italiano e non usare mai il trattino lungo (em dash).
 8. Il tuo ultimo messaggio e' il resoconto del mattino che arriva a Federico come notifica: 4-6 righe nel formato
-   indicato alla fine di ops/revisione-notturna.md (eventi sul sito e nuovi, aggiunti a Treviso e nel resto d'Italia,
-   corretti, rimossi, campione, fonti del giro lette, fonti verificate e fonti nuove, province cercate, trattenuti
+   indicato alla fine di ops/revisione-notturna.md (eventi sul sito e nuovi, aggiunti per regione,
+   corretti, rimossi, campione, fonti del giro lette, fonti verificate, fonti nuove trovate e salvate, province cercate, trattenuti
    dalla regola fonti, risposte del modulo, ricerche usate rispetto al budget, al massimo 3 problemi veri). Se durante
    la sessione ti e' stata chiesta qualche approvazione (lettura di pagine web o altro), scrivilo in una riga. Non
    parlare del PC.

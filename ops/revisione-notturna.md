@@ -4,13 +4,13 @@ Istruzioni per la sessione Claude pianificata ogni notte. **Dal 2026-11-28 il PC
 `pc.attivo: false` in `config/settings.yaml`): Claude fa tutto dal cloud, raccolta, verifica, correzione, ricerca
 e pubblicazione. Ha piena autonomia: corregge, pubblica e aggiunge fonti senza chiedere.
 
-**Una sola sessione a notte, alle 01:07, con quattro agenti che lavorano in contemporanea** (decisione di Federico
+**Una sola sessione a notte, alle 01:07, con cinque agenti che lavorano in contemporanea** (decisione di Federico
 del 2026-11-28). La sessione pianificata fa da **coordinatore**: prepara, lancia gli agenti in parallelo (strumento
 Agent, in background), legge le risposte del modulo mentre loro lavorano, poi unisce, pubblica e manda il resoconto.
 
 Il coordinatore:
 1. Preparazione, `python -m pipeline.piano_notte`, lettura di `ops/segnalazioni-e-controllo.md` e di questo file.
-2. Lancia **insieme**, nello stesso messaggio, i quattro agenti qui sotto (tipo general-purpose, in background). A
+2. Lancia **insieme**, nello stesso messaggio, i cinque agenti qui sotto (tipo general-purpose, in background). A
    ognuno passa: il suo compito, la sua quota di ricerche (il budget `ricerche_max` diviso come indicato), la parte
    del piano della notte che gli tocca (copiata nel testo), e le "Regole per gli agenti" qui sotto.
 3. Mentre lavorano: risposte del modulo Google (passo 2b), scritte in `config/notte/coordinatore-*.yaml`.
@@ -21,16 +21,22 @@ Il coordinatore:
    `ops/fonti.yaml`, `ops/lezioni.md`, `ops/metodo-ricerca.md`, `ops/categorie-ricerca.md`, `ops/espansione.md`),
    registro (passo 8), `--controlla`, test, pubblica, commit, push, messaggio finale con il resoconto.
 
-Gli agenti (quota di ricerche sul totale):
-- **giro** (25%): le "fonti del giro" del piano (per ognuna WebSearch per trovare la pagina, WebFetch, eventi futuri
-  non ancora sul sito; data in `copertura.yaml` sezione `giro`) e la verifica delle fonti da verificare (robots.txt e
-  termini). Solo lui modifica `config/fonti-vietate.yaml` e `config/sources.yaml`.
-- **revisione** (25%): coda di revisione, controllo a campione, posizioni, test di copertura (passi 2-3c). Scrive le
+Gli agenti (quota di ricerche sul totale). **Dal 2026-11-28 pomeriggio tutte le province d'Italia hanno la stessa
+priorita'**: Treviso non ha piu' una ricerca dedicata, entra nella rotazione come le altre.
+- **giro** (20%): le "fonti del giro" del piano (per ognuna WebSearch per trovare la pagina, WebFetch, eventi futuri
+  non ancora sul sito; data in `copertura.yaml` sezione `giro`) e le "fonti note da riaprire" di `ops/fonti.yaml`.
+  Solo lui modifica `config/sources.yaml` (indirizzi cambiati, fonti da spegnere).
+- **revisione** (15%): coda di revisione, controllo a campione, posizioni, test di copertura (passi 2-3c). Scrive le
   correzioni nella sua parte; solo lui modifica `config/luoghi.yaml`.
-- **treviso** (25%): ricerca su Treviso, fasi 0 e A-E (comuni e categorie del piano). Date in `copertura.yaml`
-  sezioni `comuni_TV`, `categorie_TV` e nelle sezioni di aggregatori, community e news.
-- **italia** (25%): le province d'Italia della sezione 2b del piano. Date in `copertura.yaml` sezioni `province` e
-  `comuni_<SIGLA>` delle altre province.
+- **italia-a** e **italia-b** (25% ciascuno): le province della sezione 2 del piano marcate [italia-a] o [italia-b]:
+  Comune capoluogo, portale turistico ufficiale, teatri, musei, pro loco, i comuni e l'ambito indicati. Date in
+  `copertura.yaml` sezioni `province`, `comuni_<SIGLA>`, `categorie_<SIGLA>` delle loro province.
+- **fonti** (15%): cerca sempre fonti nuove di eventi in tutta Italia (sezione 2b del piano) e verifica quelle da
+  verificare. Per ogni fonte: robots.txt e termini e condizioni (regola fonti), poi la scrive in `ops/fonti.yaml`
+  (catalogo) e, se ammessa o vietata, in `config/fonti-vietate.yaml`; solo lui modifica questi due file. Le fonti buone
+  si salvano sempre. Nel resoconto elenca quelle da aggiungere alle fonti del giro (nome, url della pagina con
+  l'elenco degli eventi, comune o provincia): le aggiunge il coordinatore in `config/sources.yaml` dopo che il giro
+  ha finito.
 
 **Regole per gli agenti** (da copiare nel loro compito):
 - tutte le regole di questo file valgono anche per loro, prima di tutto la REGOLA FONTI;
@@ -110,9 +116,9 @@ frazione, fuori area) finiscono in `ops/senza-posizione.json`: sistemali subito 
   se contengono eventi della provincia, estrai i singoli eventi e aggiungili uno per uno. Gli eventi ricorrenti
   (mercatino ogni terza domenica, visite ogni sabato) vanno divisi in date singole; mostre e rassegne con date
   continue restano un evento unico con inizio e fine.
-- **Area**: dal 2026-11-28 **tutta Italia** (`area.provinces: ["tutte"]` in `config/settings.yaml`). Treviso resta la
-  provincia coperta in profondita' (tutti i comuni, tutte le categorie); le altre 106 province si cercano a rotazione
-  (sezione "2b" del piano della notte, ordine in `pipeline/italia.py`). Eventi fuori dall'Italia, conclusi, annullati o
+- **Area**: dal 2026-11-28 **tutta Italia** (`area.provinces: ["tutte"]` in `config/settings.yaml`). Tutte le 107
+  province hanno la stessa priorita' (Treviso compresa) e si cercano a rotazione (sezione 2 del piano della notte,
+  elenco in `pipeline/italia.py`). Eventi fuori dall'Italia, conclusi, annullati o
   che non sono eventi: rimuovi. Per i pochi nomi di comune che esistono in due province (Calliano, Castro, Livo,
   Peglio, Samone, San Teodoro) scrivi la sigla nel campo town: "Calliano (TN)".
 - **Posizione giusta sulla mappa**: ogni punto deve stare dove si svolge davvero l'evento. Se hai dubbi (solo il
@@ -307,13 +313,13 @@ Fasi, in quest'ordine dopo la fase 0. **Alla fine di ogni fase** esegui `--contr
 fatto resta salvato anche se la sessione si interrompe.
 
 A. **Categorie** - usa l'albero di `ops/categorie-ricerca.md`: ogni notte cerca gli ambiti indicati dal piano della
-   notte (i meno cercati nella provincia attiva) e dentro ognuno le voci di dettaglio; in `ops/copertura.yaml`
+   notte per ogni provincia (i meno cercati in quella provincia) e dentro ognuno le voci di dettaglio; in `ops/copertura.yaml`
    sezione `categorie_<SIGLA>` scrivi "Macro > Ambito: AAAA-MM-GG", con le parole di ricerca indicate
    e aggiornando la data; segna `rara` le voci senza eventi dopo 3 ricerche. Esempi di query:
-   "concerti provincia di Treviso novembre 2026", "sagre Treviso questo weekend", "mostre Treviso 2026",
-   "corsa podistica Treviso novembre", "laboratori bambini Treviso", "convegno Treviso", "mercatino Natale Treviso",
-   "open day aziende Treviso", "degustazione vini Conegliano Valdobbiadene". Varia comune e periodo.
-B. **Comuni** - per ogni comune della provincia attiva (`comuni_<SIGLA>` in `ops/copertura.yaml`; Treviso ne ha 94) cerca la pagina eventi del sito del comune
+   "concerti provincia di <provincia> <mese> <anno>", "sagre <provincia> questo weekend", "mostre <capoluogo> <anno>",
+   "corsa podistica <provincia> <mese>", "laboratori bambini <capoluogo>", "mercatino Natale <comune>",
+   "degustazione vini <zona>". Varia comune e periodo.
+B. **Comuni** - per ogni comune indicato dal piano nelle sue province (`comuni_<SIGLA>` in `ops/copertura.yaml`) cerca la pagina eventi del sito del comune
    ("Comune di <nome> eventi") e della pro loco ("Pro Loco <nome>"), e una ricerca "eventi <nome> <mese> <anno>".
    Lavora i comuni indicati dal piano della notte (i meno recenti), poi altri se resta budget.
 C. **Aggregatori e blog** - Pro Loco/UNPLI, teatri, musei, biblioteche e gli aggregatori e blog **ammessi** in

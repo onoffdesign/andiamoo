@@ -30,7 +30,8 @@ def budget() -> dict:
     data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
     defaults = {"piano": "pro", "ricerche_max": 70, "coda_max": 30, "campione": 10, "test_copertura": 10,
                 "fonti_note": 8, "comuni": 6, "ambiti_categorie": 4, "categorie_nuove": 10, "fonti_nuove": 5,
-                "posizioni": 10, "giro": 12, "verifiche_fonti": 2, "province_italia": 0, "comuni_per_provincia": 3}
+                "posizioni": 10, "giro": 12, "verifiche_fonti": 2, "province_italia": 6, "comuni_per_provincia": 3,
+                "ambiti_per_provincia": 1}
     return {**defaults, **(data or {})}
 
 
@@ -55,7 +56,7 @@ def _day(v) -> date | None:
         return None
 
 
-def oldest(mapping: dict | None, n: int) -> list[tuple[str, str]]:
+def oldest(mapping: dict | None, n: int, salt: str = "") -> list[tuple[str, str]]:
     """Le n voci mai controllate (null) o controllate da piu' tempo; le 'rare' solo se ferme da un mese."""
     today = today_rome()
     items = []
@@ -66,7 +67,7 @@ def oldest(mapping: dict | None, n: int) -> list[tuple[str, str]]:
                 continue
         d = _day(v)
         # a parita' di data l'ordine cambia ogni notte (stabile nella stessa notte): si girano tutte le voci
-        mix = hashlib.sha1(f"{today.isoformat()}|{name}".encode()).hexdigest()
+        mix = hashlib.sha1(f"{today.isoformat()}|{salt}|{name}".encode()).hexdigest()
         items.append((d or date.min, mix, name, "mai" if d is None else d.isoformat()))
     items.sort()
     return [(name, when) for _, _, name, when in items[:n]]
@@ -232,7 +233,7 @@ def main(argv=None) -> int:
     cov = yaml.safe_load((OPS / "copertura.yaml").read_text(encoding="utf-8")) or {}
     print(f"PIANO DELLA NOTTE {today_rome().isoformat()} · piano Claude: {b['piano']} · "
           f"al massimo {b['ricerche_max']} ricerche (WebSearch + WebFetch) in tutta la notte")
-    print(f"Provincia attiva: {name} ({sigla})")
+    print("Area: tutta Italia, tutte le province con la stessa priorita' (dal 2026-11-28 pomeriggio)")
     last, days = pc_status()
     pc_on = (settings().get("pc") or {}).get("attivo", True)
     if not pc_on:
@@ -284,26 +285,29 @@ def main(argv=None) -> int:
         for src, url, when in giro_sources(cov, b["giro"]):
             print(f"       · {src['id']} | {src.get('name')} | {url} | ultima lettura {when}")
 
-    print(f"\n2. Ricerca nella provincia attiva ({sigla})")
-    print(f"   - comuni da controllare ({b['comuni']}):")
-    for town, when in oldest(cov.get(f"comuni_{sigla}"), b["comuni"]):
-        print(f"       · {town} (ultimo controllo: {when})")
-    done = cov.get(f"categorie_{sigla}") or {}
-    scopes = {s: done.get(s) for s in category_scopes()}
-    print(f"   - ambiti delle categorie da cercare ({b['ambiti_categorie']}); data in categorie_{sigla}:")
-    for scope, when in oldest(scopes, b["ambiti_categorie"]):
-        print(f"       · {scope} (ultima ricerca: {when})")
-    print(f"   - fonti nuove da cercare e valutare: {b['fonti_nuove']}")
+    from .italia import PROVINCE
+    n = b["province_italia"]
+    rows = italy_provinces(cov, n, skip="")
+    half = (len(rows) + 1) // 2
+    print(f"\n2. Ricerca in tutta Italia: tutte le {len(PROVINCE)} province hanno la stessa priorita' (Treviso compresa), "
+          f"a rotazione. Stanotte {len(rows)} province, divise tra gli agenti italia-a e italia-b. Per ognuna: Comune "
+          f"capoluogo (pagina eventi), portale turistico ufficiale (regione, provincia, APT), teatri, musei, pro loco, "
+          f"i comuni e l'ambito delle categorie indicati. Date in copertura.yaml: province.<SIGLA>, "
+          f"comuni_<SIGLA>.<Comune>, categorie_<SIGLA>.<ambito>")
+    scopes_all = category_scopes()
+    for k, (info, when) in enumerate(rows):
+        sg = info["sigla"]
+        towns = ", ".join(t for t, _ in province_towns(sg, cov, b["comuni_per_provincia"]))
+        done = cov.get(f"categorie_{sg}") or {}
+        amb = ", ".join(a for a, _ in oldest({a: done.get(a) for a in scopes_all}, b["ambiti_per_provincia"], salt=sg))
+        print(f"       · [{'italia-a' if k < half else 'italia-b'}] {info['provincia']} ({sg}, {info['regione']}) | "
+              f"capoluogo {info['capoluogo']} | comuni: {towns} | ambito: {amb} | ultima ricerca {when}")
 
-    from .italia import all_italy
-    if all_italy(settings()["area"]["provinces"]) and b["province_italia"]:
-        print(f"\n2b. Resto d'Italia (area: tutta Italia): {b['province_italia']} province a rotazione; per ognuna "
-              f"capoluogo (Comune, ufficio turistico, teatri, musei), un ambito delle categorie e i comuni indicati. "
-              f"Date in copertura.yaml: province.<SIGLA> e comuni_<SIGLA>.<Comune>")
-        for info, when in italy_provinces(cov, b["province_italia"], sigla):
-            towns = ", ".join(t for t, _ in province_towns(info["sigla"], cov, b["comuni_per_provincia"]))
-            print(f"       · {info['provincia']} ({info['sigla']}, {info['regione']}) | capoluogo {info['capoluogo']} | "
-                  f"comuni: {towns} | ultima ricerca {when}")
+    print(f"\n2b. Fonti nuove (agente fonti): cercane e valutane {b['fonti_nuove']} in tutta Italia (agende dei Comuni, "
+          f"portali turistici regionali e provinciali, teatri, musei, festival, associazioni, calendari sportivi, "
+          f"aggregatori). Per ognuna: robots.txt e termini (regola fonti), poi in ops/fonti.yaml; quelle con un elenco "
+          f"di eventi aggiornato e leggibile vanno proposte per config/sources.yaml (fonti del giro). Le buone si "
+          f"salvano sempre, anche se stanotte non se ne leggono gli eventi.")
 
     print("\n3. Misura e memoria")
     print(f"   - test di copertura: {b['test_copertura']} eventi (ops/espansione.md)")

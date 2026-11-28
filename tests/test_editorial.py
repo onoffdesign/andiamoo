@@ -165,7 +165,7 @@ def test_piano_notte_runs_on_repo_memory(capsys):
     from pipeline import piano_notte
     assert piano_notte.main([]) == 0
     out = capsys.readouterr().out
-    assert "Provincia attiva" in out and "comuni da controllare" in out
+    assert "Ricerca in tutta Italia" in out and "[italia-a]" in out and "[italia-b]" in out
     assert piano_notte.active_province()[1] == "TV"
     assert any(s.startswith("Sport > ") for s in piano_notte.category_scopes())
 

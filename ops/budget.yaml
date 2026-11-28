@@ -14,11 +14,12 @@ campione: 20                 # eventi del controllo a campione; soglia di qualit
 test_copertura: 20           # eventi del test di copertura
 fonti_note: 40               # fonti note in scadenza da riaprire (ops/fonti.yaml)
 giro: 40                     # fonti del giro (config/sources.yaml) da leggere a rotazione
-fonti_nuove: 30              # fonti nuove da cercare e valutare (prima: robots.txt e termini, regola fonti)
+fonti_nuove: 40              # fonti nuove da cercare e valutare in tutta Italia (agente fonti; robots.txt e termini)
 verifiche_fonti: 12          # fonti da verificare (robots.txt e termini): nessun divieto = ammessa
-comuni: 20                   # comuni della provincia di Treviso da controllare
-ambiti_categorie: 12         # ambiti di ops/categorie-ricerca.md da cercare a Treviso
-province_italia: 10          # altre province d'Italia a rotazione (pipeline/italia.py)
-comuni_per_provincia: 3      # comuni da controllare in ognuna di quelle province, oltre al capoluogo
+# Dal 2026-11-28 pomeriggio tutte le province hanno la stessa priorita' (Treviso compresa): niente piu' ricerca
+# dedicata a Treviso, le province girano a rotazione divise tra gli agenti italia-a e italia-b.
+province_italia: 20          # province d'Italia a rotazione per notte (pipeline/italia.py)
+comuni_per_provincia: 3      # comuni da controllare in ognuna, oltre al capoluogo
+ambiti_per_provincia: 1      # ambiti di ops/categorie-ricerca.md da cercare in ognuna
 categorie_nuove: 25          # voci nuove da aggiungere all'albero delle categorie
 posizioni: 30                # luoghi di ops/posizioni.json da sistemare
