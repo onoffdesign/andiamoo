@@ -1,5 +1,6 @@
 /* ANDIAMO?: legge data/events.json, filtra per giorni/categorie/accesso/pubblico/luogo/testo,
-   mostra mappa (segnaposti colorati con "+", card sulla mappa) ed elenco con scheda.
+   mostra mappa (segnaposti colorati con l'icona della categoria, anello animato per gli eventi in corso, piccoli
+   suoni e animazioni), card sulla mappa ed elenco con scheda.
    Su telefono l'elenco e' un pannello trascinabile (anteprima / meta' / pieno). */
 (() => {
   "use strict";
@@ -21,6 +22,7 @@
   let DATA = null, EVENTS = [], CAT = {}, map = null, mapReady = false, popup = null, meMarker = null, onlyUids = null;
   let pushedDetail = false;                // la scheda aperta ha una voce nostra nella cronologia?
   const COORDS = {};                       // uid -> [lon, lat] mostrati (con il piccolo scarto anti-sovrapposizione)
+  let LIVE = new Set();                    // uid degli eventi in corso adesso (ricalcolati ogni minuto)
 
   // ---------------------------------------------------------------- date e distanze
   const pad = (n) => String(n).padStart(2, "0");
@@ -222,7 +224,7 @@
       b.style.setProperty("--c", c.color);
       b.setAttribute("aria-pressed", String(state.cats.has(c.id)));
       b.innerHTML = `<span class="dot"></span>${esc(c.label)} <span class="n">${n}</span>`;
-      b.addEventListener("click", () => { state.cats.has(c.id) ? state.cats.delete(c.id) : state.cats.add(c.id); onlyUids = null; update(); });
+      b.addEventListener("click", () => { Sound.play("chip"); state.cats.has(c.id) ? state.cats.delete(c.id) : state.cats.add(c.id); onlyUids = null; update(); });
       box.appendChild(b);
     });
     const extra = (state.access.size ? 1 : 0) + state.aud.size;
@@ -277,15 +279,16 @@
       const longRun = e.end && e.end.slice(0, 10) !== e.start.slice(0, 10);
       let when = byDistance ? shortDay(e.start < from ? from : e.start) + (timeOf(e) ? ` ${timeOf(e)}` : "")
         : timeOf(e) || (longRun ? `fino al ${shortDate(e.end)}` : "");
+      if (LIVE.has(e.uid)) when = "In corso";
       const dist = kmText(km(e));
       const li = document.createElement("li");
       li.className = "item";
       li.innerHTML = `<button type="button" data-uid="${e.uid}" style="--c:${c.color}">
           <span class="dot" aria-hidden="true"></span>
           <span><h3>${esc(e.title)}</h3><span class="meta">${esc([e.venue, e.town].filter(Boolean).join(", "))}</span></span>
-          <span class="when">${esc(when)}${dist ? `<small>${dist}</small>` : ""}</span></button>`;
+          <span class="when${LIVE.has(e.uid) ? " live" : ""}">${esc(when)}${dist ? `<small>${dist}</small>` : ""}</span></button>`;
       const btn = li.querySelector("button");
-      btn.addEventListener("click", () => select(e.uid, { fly: true, detail: true }));
+      btn.addEventListener("click", () => { Sound.play("select"); select(e.uid, { fly: true, detail: true }); });
       btn.addEventListener("mouseenter", () => hover(e.uid));
       btn.addEventListener("mouseleave", () => hover(null));
       list.appendChild(li);
@@ -399,20 +402,140 @@
     }
   }
 
-  function pinImage(color, minus) {
-    const s = 2, r = 13, size = (r + 3) * 2;
+  // Icone delle categorie: tratti semplici su griglia 24x24, disegnati dentro il cerchio del segnaposto.
+  const circ = (x, y, r) => `M${x - r} ${y}a${r} ${r} 0 1 0 ${2 * r} 0a${r} ${r} 0 1 0 ${-2 * r} 0`;
+  const ICONS = {
+    sport: "M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0zM7 6H4.5a2.5 2.5 0 0 0 2.5 4M17 6h2.5a2.5 2.5 0 0 1-2.5 4",
+    "arte-cultura": "M3 5h18v14H3zM3 17l5-5 4 4 3-3 6 6" + circ(15.5, 9, 1.6),
+    musica: "M9 18V6l11-2.5v12.5" + circ(6.5, 18, 2.5) + circ(17.5, 16, 2.5),
+    "sagre-feste": "M6 3v7a2 2 0 0 0 4 0V3M8 10v11M17 21V3c-2 1.5-3 4-3 7v3h3",
+    "teatro-spettacoli": "M4 4h16v7a8 8 0 0 1-16 0zM8.5 9h1.5M14 9h1.5M8.5 13.5a4.5 4.5 0 0 0 7 0",
+    "famiglie-bambini": circ(12, 9, 5.5) + "M12 14.5l-1 1.5h2zM12 16c0 2-2 3-.5 5",
+    "mercatini-fiere": "M5 8h14l-1.2 13H6.2zM9 8V6.5a3 3 0 0 1 6 0V8",
+    business: "M3 8h18v12H3zM9 8V5.5h6V8M3 13.5h18",
+    "natura-outdoor": "M5 20c0-9.5 6.5-15 15-15 0 9-5.5 15-14.5 15M5 20l8-8",
+    "": "M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6-4.5-4.2 6.1-.7z",
+  };
+  function pinImage(color, icon, selected) {
+    const s = 2, r = selected ? 15 : 13, size = (r + 3) * 2;
     const cv = document.createElement("canvas");
     cv.width = cv.height = size * s;
     const g = cv.getContext("2d");
     g.scale(s, s);
     g.beginPath(); g.arc(size / 2, size / 2, r, 0, Math.PI * 2);
-    g.fillStyle = color; g.fill();
-    g.lineWidth = 1.5; g.strokeStyle = "#111"; g.stroke();
-    g.strokeStyle = "#111"; g.lineWidth = 2; g.lineCap = "round";
-    g.beginPath(); g.moveTo(size / 2 - 5, size / 2); g.lineTo(size / 2 + 5, size / 2);
-    if (!minus) { g.moveTo(size / 2, size / 2 - 5); g.lineTo(size / 2, size / 2 + 5); }
-    g.stroke();
+    g.fillStyle = selected ? "#111" : color; g.fill();
+    g.lineWidth = selected ? 2.5 : 1.5; g.strokeStyle = selected ? color : "#111"; g.stroke();
+    const k = (selected ? 15 : 13.5) / 24;
+    g.translate(size / 2 - 12 * k, size / 2 - 12 * k); g.scale(k, k);
+    g.lineWidth = 2.2; g.lineCap = "round"; g.lineJoin = "round"; g.strokeStyle = selected ? color : "#111";
+    g.stroke(new Path2D(ICONS[icon] !== undefined ? ICONS[icon] : ICONS[""]));
     return { width: cv.width, height: cv.height, data: g.getImageData(0, 0, cv.width, cv.height).data };
+  }
+
+  // Anello che pulsa attorno agli eventi in corso (immagine animata di MapLibre: si ridisegna a ogni fotogramma).
+  const REDUCED = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function pulseImage(color, base) {
+    const s = 2, size = 92;
+    return { width: size * s, height: size * s, data: new Uint8ClampedArray(size * s * size * s * 4),
+      onAdd() { const c = document.createElement("canvas"); c.width = c.height = size * s; this.g = c.getContext("2d"); },
+      render() {
+        const g = this.g, t = REDUCED() ? 0.35 : (performance.now() % 1800) / 1800;
+        g.setTransform(s, 0, 0, s, 0, 0); g.clearRect(0, 0, size, size);
+        for (const ph of REDUCED() ? [t] : [t, (t + 0.5) % 1]) {
+          const rad = base + 3 + ph * 26, a = (1 - ph) * 0.85;
+          g.beginPath(); g.arc(size / 2, size / 2, rad, 0, Math.PI * 2);
+          g.fillStyle = color; g.globalAlpha = a * 0.3; g.fill();
+          g.globalAlpha = a; g.lineWidth = 2.5; g.strokeStyle = color; g.stroke();
+          g.globalAlpha = a * 0.8; g.lineWidth = 1.2; g.strokeStyle = "#111";
+          g.beginPath(); g.arc(size / 2, size / 2, rad + 1.5, 0, Math.PI * 2); g.stroke();
+        }
+        g.globalAlpha = 1;
+        this.data = g.getImageData(0, 0, size * s, size * s).data;
+        if (!REDUCED()) map.triggerRepaint();
+        return true;
+      } };
+  }
+
+  // Eventi in corso adesso: orario d'inizio passato e non ancora finito (senza fine: 2 ore); eventi di un giorno
+  // (o di pochi giorni) senza orario: in corso tra le 9 e le 23. Le mostre lunghe non contano.
+  const romeNow = () => new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit",
+    day: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date()).replace(" ", "T");
+  const plusHours = (s16, h) => new Date(new Date(s16 + ":00Z").getTime() + h * 3600000).toISOString().slice(0, 16);
+  function isLive(e, now = romeNow()) {
+    const day = now.slice(0, 10), sd = e.start.slice(0, 10), ed = (e.end || e.start).slice(0, 10);
+    if (sd > day || ed < day) return false;
+    const days = (new Date(ed) - new Date(sd)) / 86400000, hh = now.slice(11, 13);
+    const daytime = days <= 3 && hh >= "09" && hh < "23";
+    if (e.start.length > 10) {
+      const st = e.start.slice(0, 16);
+      if (e.end && e.end.length > 10) return st <= now && now <= e.end.slice(0, 16);
+      if (ed > sd) return daytime && st <= now;          // piu' giorni, fine senza orario
+      return st <= now && now <= plusHours(st, 2);
+    }
+    return daytime;
+  }
+
+  // Animazioni dei segnaposti: una proprieta' di uno strato che va da "from" a "to" con un piccolo rimbalzo.
+  const ANIM = {};
+  const easeBack = (x) => 1 + 2.4 * Math.pow(x - 1, 3) + 1.4 * Math.pow(x - 1, 2);
+  function animateProp(layer, kind, prop, from, to, ms, make = (v) => v) {
+    if (!mapReady || !map.getLayer(layer)) return;
+    const set = (v) => (kind === "layout" ? map.setLayoutProperty : map.setPaintProperty).call(map, layer, prop, make(v));
+    cancelAnimationFrame(ANIM[layer + prop]);
+    if (REDUCED()) { set(to); return; }
+    const t0 = performance.now();
+    const step = (t) => {
+      const x = Math.min(1, (t - t0) / ms);
+      set(from + (to - from) * easeBack(x));
+      if (x < 1) ANIM[layer + prop] = requestAnimationFrame(step);
+    };
+    ANIM[layer + prop] = requestAnimationFrame(step);
+  }
+  const CLUSTER_R = (k) => ["*", k, ["step", ["get", "point_count"], 15, 10, 19, 40, 24]];
+  function popIn() {
+    animateProp("points", "layout", "icon-size", 0.35, 1, 460);
+    animateProp("clusters", "paint", "circle-radius", 0.35, 1, 460, CLUSTER_R);
+  }
+
+  // Suoni brevi, sintetizzati (nessun file): si possono spegnere dal pulsante con l'altoparlante.
+  const Sound = {
+    ctx: null,
+    on: (() => { try { return localStorage.getItem("andiamo-suoni") !== "0"; } catch (_) { return true; } })(),
+    tone(freq, t, dur, { type = "sine", gain = 0.14, to = null } = {}) {
+      const c = this.ctx, o = c.createOscillator(), g = c.createGain();
+      o.type = type; o.frequency.setValueAtTime(freq, t);
+      if (to) o.frequency.exponentialRampToValueAtTime(to, t + dur * 0.8);
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.008);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(g).connect(c.destination); o.start(t); o.stop(t + dur + 0.02);
+    },
+    play(name) {
+      if (!this.on) return;
+      try {
+        this.ctx = this.ctx || new (window.AudioContext || window.webkitAudioContext)();
+        if (this.ctx.state === "suspended") this.ctx.resume();
+        const t = this.ctx.currentTime + 0.01;
+        if (name === "select") { this.tone(520, t, 0.16, { to: 880 }); this.tone(1320, t + 0.05, 0.12, { type: "triangle", gain: 0.05 }); }
+        else if (name === "expand") [523, 659, 784].forEach((f, i) => this.tone(f, t + i * 0.055, 0.14, { type: "triangle", gain: 0.09 }));
+        else if (name === "close") this.tone(700, t, 0.12, { to: 420, gain: 0.1 });
+        else if (name === "chip") this.tone(1150, t, 0.05, { gain: 0.05 });
+      } catch (_) { /* audio non disponibile */ }
+    },
+    toggle() {
+      this.on = !this.on;
+      try { localStorage.setItem("andiamo-suoni", this.on ? "1" : "0"); } catch (_) { /* privato */ }
+      renderSoundBtn();
+      if (this.on) this.play("chip");
+    },
+  };
+  function renderSoundBtn() {
+    const b = $("#sound");
+    if (!b) return;
+    b.setAttribute("aria-pressed", String(Sound.on));
+    b.setAttribute("aria-label", Sound.on ? "Disattiva i suoni" : "Attiva i suoni");
+    b.title = Sound.on ? "Suoni attivi" : "Suoni spenti";
+    b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/>${Sound.on
+      ? '<path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/>' : '<path d="M17 9l5 6M22 9l-5 6"/>'}</svg>`;
   }
 
   // Spazio occupato dai pannelli sopra la mappa: serve a centrare i punti nella parte visibile.
@@ -469,17 +592,33 @@
     });
     map.touchZoomRotate.disableRotation();
     $("#zoom-in").addEventListener("click", () => map.zoomIn());
+    renderSoundBtn();
+    $("#sound").addEventListener("click", () => Sound.toggle());
+    setInterval(() => {                      // ogni minuto: gli eventi iniziano e finiscono
+      const now = romeNow(), next = new Set(EVENTS.filter((e) => matches(e) && isLive(e, now)).map((e) => e.uid));
+      if (next.size !== LIVE.size || [...next].some((u) => !LIVE.has(u))) update();
+    }, 60000);
     $("#zoom-out").addEventListener("click", () => map.zoomOut());
     map.once("style.load", () => {        // subito, senza aspettare tutte le tessere
       warmStyle();
       DATA.categories.forEach((c) => {
-        map.addImage(`pin-${c.id}`, pinImage(c.color, false), { pixelRatio: 2 });
-        map.addImage(`pin-sel-${c.id}`, pinImage(c.color, true), { pixelRatio: 2 });
+        map.addImage(`pin-${c.id}`, pinImage(c.color, c.id, false), { pixelRatio: 2 });
+        map.addImage(`pin-sel-${c.id}`, pinImage(c.color, c.id, true), { pixelRatio: 2 });
+        map.addImage(`pulse-${c.id}`, pulseImage(c.color, 13), { pixelRatio: 2 });
       });
-      map.addSource("ev", { type: "geojson", data: geojson([]), cluster: true, clusterRadius: 40, clusterMaxZoom: 13 });
+      map.addImage("pulse-cluster", pulseImage("#ff4d2e", 17), { pixelRatio: 2 });
+      map.addSource("ev", { type: "geojson", data: geojson([]), cluster: true, clusterRadius: 40, clusterMaxZoom: 13,
+        clusterProperties: { live: ["max", ["case", ["==", ["get", "live"], true], 1, 0]] } });
+      const ring = (prefix) => ({ "icon-image": ["concat", prefix, ["get", "category"]], "icon-allow-overlap": true,
+        "icon-ignore-placement": true });
+      map.addLayer({ id: "clusters-live", type: "symbol", source: "ev", filter: ["all", ["has", "point_count"], [">", ["get", "live"], 0]],
+        layout: { "icon-image": "pulse-cluster", "icon-allow-overlap": true, "icon-ignore-placement": true } });
+      map.addLayer({ id: "points-live", type: "symbol", source: "ev",
+        filter: ["all", ["!", ["has", "point_count"]], ["==", ["get", "live"], true]], layout: ring("pulse-") });
       map.addLayer({ id: "clusters", type: "circle", source: "ev", filter: ["has", "point_count"],
-        paint: { "circle-color": "#111", "circle-radius": ["step", ["get", "point_count"], 15, 10, 19, 40, 24],
-          "circle-stroke-width": 2, "circle-stroke-color": "#f5f3ee" } });
+        paint: { "circle-color": "#111", "circle-radius": CLUSTER_R(1),
+          "circle-stroke-width": ["case", [">", ["get", "live"], 0], 2.5, 2],
+          "circle-stroke-color": ["case", [">", ["get", "live"], 0], "#ff4d2e", "#f5f3ee"] } });
       map.addLayer({ id: "cluster-count", type: "symbol", source: "ev", filter: ["has", "point_count"],
         layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 12, "text-font": ["Noto Sans Bold"] },
         paint: { "text-color": "#fff" } });
@@ -489,6 +628,7 @@
       // evidenziato e selezionato vivono in sorgenti separate, non raggruppate: restano visibili sopra i gruppi
       map.addSource("hov", { type: "geojson", data: geojson([], true) });
       map.addSource("sel", { type: "geojson", data: geojson([], true) });
+      map.addLayer({ id: "sel-live", type: "symbol", source: "sel", filter: ["==", ["get", "live"], true], layout: ring("pulse-") });
       map.addLayer({ id: "points-hover", type: "symbol", source: "hov",
         layout: { "icon-image": icon("pin-"), "icon-size": 1.25, "icon-allow-overlap": true, "icon-ignore-placement": true } });
       map.addLayer({ id: "points-selected", type: "symbol", source: "sel",
@@ -496,6 +636,7 @@
 
       map.on("click", "clusters", (ev) => {
         const f = ev.features[0];
+        Sound.play("expand");
         map.getSource("ev").getClusterExpansionZoom(f.properties.cluster_id).then((z) =>
           map.easeTo({ center: f.geometry.coordinates, zoom: z + 0.3, padding: mapPadding() }));
       });
@@ -514,6 +655,7 @@
         const near = hits[0];
         const stacked = hits.filter((h) => Math.hypot(h.p.x - near.p.x, h.p.y - near.p.y) < 4);
         if (state.detail) closeDetail({ keepHistory: true });          // altro evento: la scheda torna elenco
+        Sound.play(stacked.length === 1 ? "select" : "expand");
         if (stacked.length === 1) {
           if (onlyUids) { onlyUids = null; update(); }
           if (MOBILE()) setSheet("peek");
@@ -521,11 +663,11 @@
         } else { onlyUids = new Set(stacked.map((h) => h.uid)); closeCard(); update(); setSheet("half"); }
       });
       // "−" sul segnaposto aperto, o clic fuori: chiude la card e la sidebar torna all'elenco
-      map.on("click", "points-selected", () => closeAll());
+      map.on("click", "points-selected", () => { Sound.play("close"); closeAll(); });
       map.on("click", (ev) => {
         if (map.queryRenderedFeatures(ev.point, { layers: ["points", "clusters", "points-selected"] }).length) return;
         if (onlyUids) { onlyUids = null; update(); }                  // l'elenco torna a tutti gli eventi
-        if (popup || state.detail) closeAll();
+        if (popup || state.detail) { Sound.play("close"); closeAll(); }
         else if (MOBILE()) setSheet("peek");
       });
       // trascinare la mappa su telefono abbassa il pannello
@@ -547,7 +689,7 @@
   function geojson(items, keepCoords) {
     if (keepCoords) {      // usa le coordinate gia' mostrate (con lo scarto anti-sovrapposizione)
       return { type: "FeatureCollection", features: items.map((e) => ({ type: "Feature",
-        properties: { uid: e.uid, category: e.category }, geometry: { type: "Point", coordinates: COORDS[e.uid] || [e.lon, e.lat] } })) };
+        properties: { uid: e.uid, category: e.category, live: LIVE.has(e.uid) }, geometry: { type: "Point", coordinates: COORDS[e.uid] || [e.lon, e.lat] } })) };
     }
     const seen = {};
     return { type: "FeatureCollection", features: items.map((e) => {
@@ -556,13 +698,15 @@
       const ang = i * 2.4, r = i ? 0.0007 * Math.sqrt(i) : 0;
       const coords = [e.lon + r * Math.cos(ang), e.lat + r * Math.sin(ang)];
       COORDS[e.uid] = coords;
-      return { type: "Feature", properties: { uid: e.uid, category: e.category }, geometry: { type: "Point", coordinates: coords } };
+      return { type: "Feature", properties: { uid: e.uid, category: e.category, live: LIVE.has(e.uid) }, geometry: { type: "Point", coordinates: coords } };
     }) };
   }
 
   const byUid = (uid) => (uid ? EVENTS.filter((e) => e.uid === uid) : []);
   function hover(uid) {
-    if (mapReady) map.getSource("hov").setData(geojson(byUid(uid), true));
+    if (!mapReady) return;
+    map.getSource("hov").setData(geojson(byUid(uid), true));
+    if (uid) animateProp("points-hover", "layout", "icon-size", 1, 1.3, 260);
   }
 
   // ---------------------------------------------------------------- card sulla mappa
@@ -572,7 +716,7 @@
     el.className = "card" + (e.title.length > 60 ? " long" : "");
     el.style.setProperty("--c", c.color);
     const dist = kmText(km(e));
-    el.innerHTML = `${accessBadge(e)}<h3>${esc(e.title)}</h3>
+    el.innerHTML = `${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${accessBadge(e)}<h3>${esc(e.title)}</h3>
       <p>${esc(whenText(e))}</p><p>${esc([e.venue, e.town].filter(Boolean).join(", "))}${dist ? ` · ${dist}` : ""}</p>
       <button class="more" type="button">Dettagli evento</button>`;
     el.querySelector(".more").addEventListener("click", () => select(e.uid, { fly: false, detail: true }));
@@ -608,6 +752,8 @@
     if (!mapReady) return;
     map.getSource("sel").setData(geojson(byUid(uid), true));
     map.setFilter("points", pointsFilter(uid || ""));
+    map.setFilter("points-live", ["all", ["!", ["has", "point_count"]], ["==", ["get", "live"], true], ["!=", ["get", "uid"], uid || ""]]);
+    if (uid) animateProp("points-selected", "layout", "icon-size", 0.55, 1.1, 420);
   }
 
   function closeCard() {
@@ -827,8 +973,11 @@
   }
 
   // ---------------------------------------------------------------- aggiornamento
+  let lastMapKey = "";
   function update(fit) {
     const onMap = EVENTS.filter((e) => matches(e));          // la mappa mostra sempre tutti gli eventi filtrati
+    const now = romeNow();
+    LIVE = new Set(onMap.filter((e) => isLive(e, now)).map((e) => e.uid));
     let items = onlyUids ? onMap.filter((e) => onlyUids.has(e.uid)) : onMap.slice();   // l'elenco puo' restringersi a un punto
     const from = state.from || "";
     if (state.sort === "distance" && state.me) items.sort((a, b) => km(a) - km(b));
@@ -849,6 +998,8 @@
     $("#reset").hidden = !(state.cats.size || state.access.size || state.aud.size || state.q || onlyUids);
     if (mapReady) {
       map.getSource("ev").setData(geojson(onMap));
+      const key = onMap.map((e) => e.uid).join();
+      if (key !== lastMapKey) { lastMapKey = key; popIn(); }
       if (fit && onMap.length && !state.selected) {
         const b = new maplibregl.LngLatBounds();
         onMap.forEach((e) => b.extend([e.lon, e.lat]));

@@ -373,6 +373,23 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .map-ctrl button:hover { background: var(--bg); }
 #locate[aria-pressed="true"] { color: var(--me); }
 #locate.busy svg { animation: spin 1s linear infinite; }
+#sound svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+#sound[aria-pressed="false"] { color: #8a857c; }
+
+/* eventi in corso: puntino che pulsa nell'elenco, etichetta nella card */
+.item .when.live { color: #d63a1f; display: inline-flex; align-items: center; gap: 6px; }
+.item .when.live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #ff4d2e;
+  box-shadow: 0 0 0 0 rgba(255, 77, 46, .6); animation: live-dot 1.6s ease-out infinite; }
+@keyframes live-dot { 0% { box-shadow: 0 0 0 0 rgba(255, 77, 46, .55); } 100% { box-shadow: 0 0 0 9px rgba(255, 77, 46, 0); } }
+.live-tag {
+  display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 0 8px; margin: 0 6px 10px 0; border-radius: 6px;
+  background: #111; color: #fff; font-family: var(--display); font-stretch: 112%; text-transform: uppercase;
+  font-size: .6875rem; font-weight: 700; letter-spacing: .03em;
+}
+.live-tag::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #ff4d2e; animation: live-dot 1.6s ease-out infinite; }
+/* la card entra con un piccolo rimbalzo */
+.ev-card .card { animation: card-in .32s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 50% 100%; }
+@keyframes card-in { from { opacity: 0; transform: translateY(8px) scale(.92); } to { opacity: 1; transform: none; } }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 .toast {
