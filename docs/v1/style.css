@@ -1078,3 +1078,14 @@ body.view-list .item button { padding: 14px 18px; }
   body.view-list .item h3 { font-size: 1.125rem; }
   body.view-list .item .meta, body.view-list .item .when { font-size: .9375rem; }
 }
+/* vista lista: testi ancora piu' grandi */
+body.view-list .item h3 { font-size: 1.625rem; line-height: 1.2; }
+body.view-list .item .meta { font-size: 1.1875rem; margin-top: 4px; display: block; }
+body.view-list .item .when { font-size: 1.1875rem; }
+body.view-list .item .when small { font-size: 1rem; }
+body.view-list .item button { padding: 18px 22px; }
+@media (max-width: 760px) {
+  body.view-list .item h3 { font-size: 1.375rem; }
+  body.view-list .item .meta, body.view-list .item .when { font-size: 1.0625rem; }
+  body.view-list .item button { padding: 14px 16px; }
+}
