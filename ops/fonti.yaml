@@ -2698,3 +2698,634 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "Catalogata il 2026-11-28. 48 mercatini in 7 province con la regola del giorno, orari e luogo; leggere con pdftotext. Utile anche all'agente italia per le altre province venete."
+- nome: "VisitLazio, eventi nel Lazio (Regione Lazio)"
+  url: https://www.visitlazio.com/eventi-lazio/
+  query: "visitlazio eventi lazio <comune>"
+  tipo: ufficio turistico
+  categorie: [sagre-feste, arte-cultura, musica, mercatini-fiere]
+  province: [RM, VT, RI, LT, FR]
+  frequenza: settimanale
+  qualita: 5
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). JSON-LD Event nella pagina elenco: 93 eventi futuri il 2026-11-28 con startDate, endDate e indirizzo completo (es. Piazza Cardinale Dolci 16, Civitella d'Agliano). robots.txt blocca solo wp-admin, /tag/, /author/, /fr/. Tipo suggerito: jsonld."
+- nome: "VisitSicily, eventi (Regione Siciliana)"
+  url: https://www.visitsicily.info/eventi/
+  query: "visitsicily evento <comune>"
+  tipo: ufficio turistico
+  categorie: [sagre-feste, arte-cultura, musica]
+  province: [PA, CT, ME, SR, RG, TP, AG, CL, EN]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). WordPress: API /wp-json/wp/v2/evento-new con 563 schede (ultime del 24-27/11/2026: Castelbuono Jazz Winter, ChocoModica Natale). La pagina /eventi/ reindirizza alla home: leggere le schede o l'API. robots.txt blocca solo wp-admin."
+- nome: "Teatro Massimo Bellini Catania, calendario"
+  url: https://www.teatromassimobellini.it/calendario/
+  query: "Teatro Massimo Bellini Catania calendario"
+  tipo: teatro
+  categorie: [musica, teatro-spettacoli]
+  comuni: ["Catania"]
+  province: [CT]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). JSON-LD Event nel calendario: 7 date future il 2026-11-28 (recital, La bella addormentata 1-2/12). Tipo suggerito: jsonld."
+- nome: "Teatro Francesco Cilea Reggio Calabria"
+  url: https://teatrocilea.it/calendario-eventi/
+  query: "Teatro Cilea Reggio Calabria stagione"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: ["Reggio di Calabria"]
+  province: [RC]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). The Events Calendar: /wp-json/tribe/events/v1/events con 11 eventi futuri (3/12 Massimiliano Gallo, 10/12 Lina Sastri); venue vuota nell'API: il luogo e' il Teatro Cilea. Tipo suggerito: tribe_api."
+- nome: "Marche Teatro (Teatro delle Muse e Ridotto, Ancona)"
+  url: https://www.marcheteatro.it/events/
+  query: "Marche Teatro Ancona stagione"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: ["Ancona"]
+  province: [AN]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). The Events Calendar: 30 eventi futuri nell'API tribe (5/12 Teatro delle Muse, 9/12 Ridotto). Tipo suggerito: tribe_api."
+- nome: "Teatro Bellini Napoli, stagione"
+  url: https://www.teatrobellini.it/
+  query: "Teatro Bellini Napoli stagione spettacolo"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: ["Napoli"]
+  province: [NA]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). JSON-LD Event in home: 63 voci, 17 future il 2026-11-28 (Misurare il salto delle rane, Neanche Parenti). Tipo suggerito: jsonld."
+- nome: "Teatro Lirico di Cagliari, eventi"
+  url: https://www.liricocagliari.it/stagione-2027/
+  query: "Teatro Lirico Cagliari evento"
+  tipo: teatro
+  categorie: [musica, teatro-spettacoli]
+  comuni: ["Cagliari"]
+  province: [CA]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). WordPress con tipo 'evento' (/wp-json/wp/v2/evento, 86 schede, ultime del 3/11/2026). Il dominio teatroliricodicagliari.it porta a liricocagliari.it. Tipo suggerito: html."
+- nome: "Fondazione Ravello, eventi"
+  url: https://www.fondazioneravello.com/eventi/
+  query: "Fondazione Ravello eventi"
+  tipo: associazione
+  categorie: [musica, arte-cultura]
+  comuni: ["Ravello"]
+  province: [SA]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). WordPress tipo 'eventi' (80 schede): concerti d'inverno a Villa Rufolo (29/11, 6/12). ravellofestival.com porta qui. Tipo suggerito: html."
+- nome: "CeDAC Sardegna, circuito teatrale"
+  url: https://www.cedacsardegna.it/programmazione/
+  query: "CeDAC Sardegna programmazione <comune>"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  province: [CA, SS, NU, OR, SU]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Circuito regionale dello spettacolo: stagioni in molti comuni sardi. Pagina con contenuto caricato in JavaScript: leggere con WebFetch. Tipo suggerito: html."
+- nome: "ERT FVG, calendario del circuito"
+  url: https://ertfvg.it/calendario/
+  query: "ERT FVG calendario <comune>"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica, famiglie-bambini]
+  province: [UD, PN, GO, TS]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Ente regionale teatrale del Friuli Venezia Giulia: calendario con filtri per genere (musica, piccoli palchi). Contenuto in JavaScript. Tipo suggerito: html."
+- nome: "Teatro Stabile dell'Umbria, calendario"
+  url: https://teatrostabile.umbria.it/calendario/
+  query: "Teatro Stabile Umbria calendario"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: ["Perugia", "Terni", "Spoleto", "Foligno"]
+  province: [PG, TR]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Stagione 2026-2027 nei teatri umbri (Morlacchi, Secci e altri). Tipo suggerito: html."
+- nome: "ATCL Lazio, stagione teatrale del circuito"
+  url: https://atcllazio.it/stagione-teatrale-2026-2027/
+  query: "ATCL Lazio stagione teatrale <comune>"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  province: [RM, VT, RI, LT, FR]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Circuito multidisciplinare del Lazio: stagioni in molti comuni piccoli e medi. Una lettura curl e' fallita (connessione): riprovare. Tipo suggerito: html."
+- nome: "Teatro Fenaroli Lanciano, cartellone"
+  url: https://www.teatrofenaroli.it/cartellone/
+  query: "Teatro Fenaroli Lanciano cartellone"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: ["Lanciano"]
+  province: [CH]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Stagione teatrale 2026-2027. Tipo suggerito: html."
+- nome: "Teatro dei Sassi Matera"
+  url: https://www.teatrodeisassi.it/eventi/
+  query: "Teatro dei Sassi Matera eventi"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: ["Matera"]
+  province: [MT]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: debole
+  note: "Catalogata il 2026-11-28 (fonti). Plugin Modern Events Calendar (/wp-json/wp/v2/mec-events, 261 schede) ma le ultime sono del 2024: controllare se la pagina /eventi/ e' aggiornata prima di usarla."
+- nome: "Teatro Regio di Parma, calendario"
+  url: https://teatroregioparma.it/calendario/
+  query: "Teatro Regio Parma calendario"
+  tipo: teatro
+  categorie: [musica, teatro-spettacoli]
+  comuni: ["Parma"]
+  province: [PR]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Calendario con date future; i biglietti rimandano a vivaticket (vietata: solo ticket_url). Tipo suggerito: html."
+- nome: "Teatro Regio di Torino, calendario"
+  url: https://www.teatroregio.torino.it/calendario
+  query: "Teatro Regio Torino calendario"
+  tipo: teatro
+  categorie: [musica, teatro-spettacoli]
+  comuni: ["Torino"]
+  province: [TO]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Calendario e programma (opera, concerti, Festival Verismo). Contenuto in JavaScript. Tipo suggerito: html."
+- nome: "Maggio Musicale Fiorentino, calendario"
+  url: https://www.maggiofiorentino.com/calendario
+  query: "Maggio Musicale Fiorentino calendario"
+  tipo: teatro
+  categorie: [musica]
+  comuni: ["Firenze", "Certaldo"]
+  province: [FI]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Calendario con schede /events/ anche fuori Firenze (Certaldo, Montefioralle). Tipo suggerito: html."
+- nome: "Teatro Stabile di Torino, cartellone"
+  url: https://www.teatrostabiletorino.it/
+  query: "Teatro Stabile Torino cartellone"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: ["Torino"]
+  province: [TO]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Schede /cartellone/ per spettacolo (Carignano, Gobetti, Fonderie Limone). Tipo suggerito: html."
+- nome: "Teatro Franco Parenti Milano, calendario"
+  url: https://teatrofrancoparenti.it/calendario-spettacoli/
+  query: "Teatro Franco Parenti calendario spettacoli"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: ["Milano"]
+  province: [MI]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Calendario e cartellone con schede per spettacolo (anche Bagni Misteriosi). Tipo suggerito: html."
+- nome: "Teatro di Roma, calendario"
+  url: https://www.teatrodiroma.net/calendario/
+  query: "Teatro di Roma calendario"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: ["Roma"]
+  province: [RM]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Argentina, India, Torlonia. Contenuto in JavaScript. Tipo suggerito: html."
+- nome: "Accademia Nazionale di Santa Cecilia, calendario concerti"
+  url: https://santacecilia.it/concerti/calendario-concerti/
+  query: "Santa Cecilia calendario concerti"
+  tipo: associazione
+  categorie: [musica]
+  comuni: ["Roma"]
+  province: [RM]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). 12 date future nella pagina il 2026-11-28 (Auditorium Parco della Musica). Tipo suggerito: html."
+- nome: "Romaeuropa Festival, agenda"
+  url: https://romaeuropa.net/agenda/
+  query: "Romaeuropa agenda"
+  tipo: festival
+  categorie: [teatro-spettacoli, musica, arte-cultura]
+  comuni: ["Roma"]
+  province: [RM]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Festival autunnale (settembre-novembre) con appuntamenti anche fuori stagione. Tipo suggerito: html."
+- nome: "Palazzo Strozzi Firenze, calendario"
+  url: https://www.palazzostrozzi.org/calendario/
+  query: "Palazzo Strozzi calendario"
+  tipo: museo
+  categorie: [arte-cultura, famiglie-bambini]
+  comuni: ["Firenze"]
+  province: [FI]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si'
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). WordPress con Modern Events Calendar (/wp-json/wp/v2/mec-events, 22 schede) e tipo 'evento' (488): visite, laboratori, mostra Broken. Tipo suggerito: html."
+- nome: "Triennale Milano, eventi"
+  url: https://www.triennale.org/eventi
+  query: "Triennale Milano eventi"
+  tipo: museo
+  categorie: [arte-cultura, musica]
+  comuni: ["Milano"]
+  province: [MI]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Incontri, concerti e performance in schede /eventi/. Tipo suggerito: html."
+- nome: "Comune di Ancona, eventi"
+  url: https://www.comune.ancona.it/it/eventi
+  query: "Comune di Ancona eventi"
+  tipo: comune
+  categorie: [arte-cultura, sagre-feste, musica]
+  comuni: ["Ancona"]
+  province: [AN]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Piattaforma Municipium: 14 schede nell'elenco (Ancona che brilla 2026). Gli stessi indirizzi /it/events valgono per Teramo, Foggia, Taranto, Aosta (pagine in JavaScript). Tipo suggerito: html."
+- nome: "Comune di Catanzaro, eventi"
+  url: https://www.comune.catanzaro.it/vivere-il-comune/eventi/
+  query: "Comune di Catanzaro eventi"
+  tipo: comune
+  categorie: [musica, arte-cultura]
+  comuni: ["Catanzaro"]
+  province: [CZ]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Modello Designers Italia (WordPress): schede /vivere-il-comune/eventi/ (rassegna Estarte). Tipo suggerito: html."
+- nome: "Comune di Siracusa, eventi"
+  url: https://www.comune.siracusa.it/vivere-il-comune/eventi
+  query: "Comune di Siracusa eventi"
+  tipo: comune
+  categorie: [arte-cultura]
+  comuni: ["Siracusa"]
+  province: [SR]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Modello Designers Italia: presentazioni, mostre, convegni. Tipo suggerito: html."
+- nome: "Comune di Brindisi, eventi"
+  url: https://www.comune.brindisi.it/vivere-il-comune/eventi
+  query: "Comune di Brindisi eventi"
+  tipo: comune
+  categorie: [musica, arte-cultura]
+  comuni: ["Brindisi"]
+  province: [BR]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Modello Designers Italia: concerti e incontri (schede per artista). Tipo suggerito: html."
+- nome: "Comune di Cosenza, eventi"
+  url: https://www.comune.cosenza.it/it/eventi/
+  query: "Comune di Cosenza eventi"
+  tipo: comune
+  categorie: [arte-cultura, musica]
+  comuni: ["Cosenza"]
+  province: [CS]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Eventi in home (stagione concertistica Autunno Musicale, mostre); l'indirizzo /it/eventi senza barra da' 404, le schede sono /it/eventi/<nome>. Tipo suggerito: html."
+- nome: "Bologna Welcome, eventi"
+  url: https://www.bolognawelcome.com/it/eventi
+  query: "Bologna Welcome eventi"
+  tipo: ufficio turistico
+  categorie: [arte-cultura, musica, sagre-feste]
+  comuni: ["Bologna"]
+  province: [BO]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Ufficio turistico della citta' metropolitana: 16 date future e 25 schede nell'elenco. Tipo suggerito: html."
+- nome: "Destination Florence (Feel Florence), eventi"
+  url: https://www.destinationflorence.com/it/eventi
+  query: "Feel Florence eventi Firenze"
+  tipo: ufficio turistico
+  categorie: [arte-cultura, musica, sagre-feste]
+  comuni: ["Firenze"]
+  province: [FI]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). feelflorence.it porta a destinationflorence.com (Comune di Firenze); schede per evento (Castanea Expo, Broken). Tipo suggerito: html."
+- nome: "in-Lombardia, eventi (Regione Lombardia)"
+  url: https://www.in-lombardia.it/eventi
+  query: "in-lombardia eventi <provincia>"
+  tipo: ufficio turistico
+  categorie: [arte-cultura, musica, sagre-feste]
+  province: [MI, BG, BS, CO, CR, LC, LO, MN, MB, PV, SO, VA]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Portale turistico regionale: schede /evento/ (Bookcity, Concerto di Natale in Duomo) e articoli mensili per provincia. Tipo suggerito: html."
+- nome: "Emilia-Romagna Turismo, eventi"
+  url: https://emiliaromagnaturismo.it/it/eventi
+  query: "emiliaromagnaturismo eventi <comune>"
+  tipo: ufficio turistico
+  categorie: [sagre-feste, arte-cultura, sport]
+  province: [BO, FE, FC, MO, PR, PC, RA, RE, RN]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Portale regionale (APT): schede /it/eventi/<comune>-<nome> (Brisighella sagra dell'olio, Coppa Davis Bologna). Tipo suggerito: html."
+- nome: "FIDAL, calendario gare nazionale"
+  url: https://www.fidal.it/calendario.php?&anno=2026&mese=12
+  query: "calendario FIDAL <mese> <regione>"
+  tipo: sport
+  categorie: [sport]
+  province: [Italia]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Federazione di atletica: calendario per mese con schede gara /calendario/<nome>/CO...; robots.txt assente (404). Contenuto filtrabile per regione. Tipo suggerito: html."
+- nome: "Umbria Jazz, programma"
+  url: https://www.umbriajazz.it/programma/
+  query: "Umbria Jazz Winter Orvieto programma"
+  tipo: festival
+  categorie: [musica]
+  comuni: ["Perugia", "Orvieto"]
+  province: [PG, TR]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). 99 schede /eventi/ nel programma: utile per Umbria Jazz Winter a Orvieto (fine dicembre). Tipo suggerito: html."
+- nome: "Teatro Alighieri Ravenna, stagione dei teatri"
+  url: https://www.teatroalighieri.org/lists/stagione-dei-teatri/
+  query: "Teatro Alighieri Ravenna stagione"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: ["Ravenna"]
+  province: [RA]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Schede /events/ per spettacolo; biglietti su vivaticket (solo ticket_url). Tipo suggerito: html."
+- nome: "Comune di Pescara, eventi"
+  url: https://www.comune.pescara.it/argomento/eventi/
+  query: "Comune di Pescara eventi"
+  tipo: comune
+  categorie: [sagre-feste, arte-cultura, mercatini-fiere]
+  comuni: ["Pescara"]
+  province: [PE]
+  frequenza: settimanale
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Modello Designers Italia: Pescara d'incanto, Mercarte. Tipo suggerito: html."
+- nome: "Zero, agenda eventi (Milano, Roma, Bologna, Torino, Firenze, Napoli, Venezia)"
+  url: https://zero.eu/it/
+  query: "zero.eu eventi <citta'> <data>"
+  tipo: aggregatore
+  categorie: [musica, arte-cultura, teatro-spettacoli]
+  comuni: ["Milano", "Roma", "Bologna", "Torino", "Firenze", "Napoli", "Venezia"]
+  province: [MI, RM, BO, TO, FI, NA, VE]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Aggregatore ammesso il 2026-11-28 (robots.txt e /corporate/termini-e-condizioni-duso/ letti). Licenza CC BY-NC-ND: citare zero.eu, niente testi modificati. robots.txt blocca le pagine eventi con parametri (?): usare solo le schede /it/eventi/<id>-<nome>,<citta>/. Tipo suggerito: html."
+- nome: "Teatro Goldoni Livorno, spettacoli"
+  url: https://www.goldoniteatro.it/spettacoli/?ts=eventi
+  query: "Teatro Goldoni Livorno spettacoli"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: ["Livorno"]
+  province: [LI]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (fonti). Elenco spettacoli; REST API chiusa (401). Tipo suggerito: html."
+- nome: "Teatro Massimo Palermo"
+  url: https://www.teatromassimo.it/
+  query: "(vietata: non usare)"
+  tipo: teatro
+  categorie: [arte-cultura]
+  comuni: ["Palermo"]
+  province: [PA]
+  frequenza: mensile
+  qualita: 1
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: ferma
+  note: "Catalogata il 2026-11-28 (fonti). VIETATA in config/fonti-vietate.yaml: robots.txt: 'User-agent: ClaudeBot / Disallow: /' (anche anthropic-ai, Claude-Web); Content-Signal ai-train=no. Cercare gli eventi su altre fonti ufficiali."
+- nome: "Sardegna Turismo (Regione Sardegna)"
+  url: https://www.sardegnaturismo.it/
+  query: "(vietata: non usare)"
+  tipo: ufficio turistico
+  categorie: [arte-cultura]
+  province: [CA, SS, NU, OR, SU]
+  frequenza: mensile
+  qualita: 1
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: ferma
+  note: "Catalogata il 2026-11-28 (fonti). VIETATA in config/fonti-vietate.yaml: robots.txt: 'User-agent: ClaudeBot / Disallow: /' (anche Claude-Web, anthropic-ai). Cercare gli eventi su altre fonti ufficiali."
+- nome: "Lovevda (Valle d'Aosta)"
+  url: https://www.lovevda.it/
+  query: "(vietata: non usare)"
+  tipo: ufficio turistico
+  categorie: [arte-cultura]
+  province: [AO]
+  frequenza: mensile
+  qualita: 1
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: ferma
+  note: "Catalogata il 2026-11-28 (fonti). VIETATA in config/fonti-vietate.yaml: robots.txt: claude-user, claude-searchbot, claudebot, claude-web, claude-code con 'Disallow: /'. Cercare gli eventi su altre fonti ufficiali."
+- nome: "La mia Liguria (Regione Liguria)"
+  url: https://www.lamialiguria.it/
+  query: "(vietata: non usare)"
+  tipo: ufficio turistico
+  categorie: [arte-cultura]
+  province: [GE, SV, IM, SP]
+  frequenza: mensile
+  qualita: 1
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: ferma
+  note: "Catalogata il 2026-11-28 (fonti). VIETATA in config/fonti-vietate.yaml: robots.txt: 'Blocco bot AI noti', ClaudeBot e anthropic-ai con 'Disallow: /'. Cercare gli eventi su altre fonti ufficiali."
+- nome: "Teatro Comunale di Bologna"
+  url: https://www.tcbo.it/
+  query: "(vietata: non usare)"
+  tipo: teatro
+  categorie: [arte-cultura]
+  comuni: ["Bologna"]
+  province: [BO]
+  frequenza: mensile
+  qualita: 1
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: ferma
+  note: "Catalogata il 2026-11-28 (fonti). VIETATA in config/fonti-vietate.yaml: robots.txt: 'User-agent: ClaudeBot / Disallow: /' (anche anthropic-ai, Claude-Web); Content-Signal ai-train=no. Cercare gli eventi su altre fonti ufficiali."
+- nome: "SardegnaEventi24"
+  url: https://sardegnaeventi24.it/
+  query: "(da verificare: non usare finche non e in ammesse)"
+  tipo: aggregatore
+  categorie: [sagre-feste, arte-cultura]
+  province: [CA, SS, NU, OR, SU]
+  frequenza: settimanale
+  qualita: 2
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: debole
+  note: "Catalogata il 2026-11-28 (fonti). DA VERIFICARE: testata-aggregatore (Rossodigitale srls); robots.txt senza Disallow; pagina 'Termini e Condizioni' nel footer non trovata (/privacy-policy/ e /disclaimer/ danno 404): da verificare."
+- nome: "Solosagre"
+  url: https://www.solosagre.it/
+  query: "(da verificare: non usare finche non e in ammesse)"
+  tipo: aggregatore
+  categorie: [sagre-feste, arte-cultura]
+  province: [Italia]
+  frequenza: settimanale
+  qualita: 2
+  resa: { controlli: 0, eventi_trovati: 0, ultimi: [] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: debole
+  note: "Catalogata il 2026-11-28 (fonti). DA VERIFICARE: aggregatore sagre nazionale (Trigem, Firenze); robots.txt 'Disallow:' vuoto; /info/termini-e-condizioni/ e /info/note-legali/ mostrano solo la pagina di ricerca: termini non trovati, da verificare."

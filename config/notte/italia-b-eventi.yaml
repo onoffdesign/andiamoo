@@ -1,0 +1,2326 @@
+# Eventi trovati dall'agente italia-b nella notte del 2026-11-28 (Emilia-Romagna e Piemonte).
+eventi:
+  # ===== RAVENNA (RA) =====
+  - title: Il Sindaco Pescatore
+    start: 2026-11-30T21:00
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatroalighieri.org/events/il-sindaco-pescatore/
+    summary: Spettacolo con Ettore Bassi dedicato alla figura di Angelo Vassallo, sindaco di Pollica ucciso nel 2010, con la partecipazione di studenti delle scuole superiori.
+    fonte: https://www.teatroalighieri.org/spettacoli/
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni (Balletto dell'Opera di Tbilisi)
+    start: 2026-12-04T20:30
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    price: da 15 a 45 euro
+    official_url: https://www.teatroalighieri.org/events/balletto-dellopera-di-tbilisi-il-lago-dei-cigni/
+    summary: Il Balletto dell'Opera di Tbilisi presenta Il lago dei cigni di Ciajkovskij nella coreografia di Petipa e Ivanov, primo titolo della stagione di danza.
+    fonte: https://www.teatroalighieri.org/events/balletto-dellopera-di-tbilisi-il-lago-dei-cigni/
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni (Balletto dell'Opera di Tbilisi)
+    start: 2026-12-05T20:30
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    price: da 15 a 45 euro
+    official_url: https://www.teatroalighieri.org/events/balletto-dellopera-di-tbilisi-il-lago-dei-cigni/
+    summary: Seconda recita del Lago dei cigni con il Balletto dell'Opera di Tbilisi nella coreografia di Petipa e Ivanov.
+    fonte: https://www.teatroalighieri.org/events/balletto-dellopera-di-tbilisi-il-lago-dei-cigni/
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni (Balletto dell'Opera di Tbilisi)
+    start: 2026-12-06T15:30
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    price: da 15 a 45 euro
+    official_url: https://www.teatroalighieri.org/events/balletto-dellopera-di-tbilisi-il-lago-dei-cigni/
+    summary: Recita pomeridiana del Lago dei cigni con il Balletto dell'Opera di Tbilisi.
+    fonte: https://www.teatroalighieri.org/events/balletto-dellopera-di-tbilisi-il-lago-dei-cigni/
+    trovato: '2026-11-28'
+  - title: Prima della Danza, presentazione del Lago dei cigni
+    start: 2026-12-04T18:00
+    venue: Teatro Alighieri, Sala Corelli
+    address: Via Mariani 2
+    town: Ravenna
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://www.teatroalighieri.org/events/balletto-dellopera-di-tbilisi-il-lago-dei-cigni/
+    summary: Incontro introduttivo al balletto Il lago dei cigni prima della recita della sera.
+    fonte: https://www.teatroalighieri.org/events/balletto-dellopera-di-tbilisi-il-lago-dei-cigni/
+    trovato: '2026-11-28'
+  - title: Profondo rosso, film con i Goblin dal vivo (IMAGinACTION)
+    start: 2026-12-08T21:00
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: musica
+    subcategory: festival-musicali
+    access: biglietto
+    price: 32 euro
+    official_url: https://www.teatroalighieri.org/events/imaginaction-4/
+    summary: Serata inaugurale della decima edizione del festival internazionale del videoclip IMAGinACTION, con la proiezione di Profondo rosso e la colonna sonora eseguita dal vivo dai Goblin.
+    fonte: https://www.teatroalighieri.org/events/imaginaction-4/
+    trovato: '2026-11-28'
+  - title: L'ombra perduta di Peter Schlemihl
+    start: 2026-12-10T21:00
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 10 a 30 euro
+    official_url: https://www.teatroalighieri.org/events/lombra-perduta-di-peter-schlemihl/
+    summary: Marco Baliani porta in scena uno spettacolo ispirato al racconto di Adelbert von Chamisso sull'uomo che vende la propria ombra.
+    fonte: https://www.teatroalighieri.org/events/lombra-perduta-di-peter-schlemihl/
+    trovato: '2026-11-28'
+  - title: L'ombra perduta di Peter Schlemihl
+    start: 2026-12-11T21:00
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 10 a 30 euro
+    official_url: https://www.teatroalighieri.org/events/lombra-perduta-di-peter-schlemihl/
+    summary: Seconda replica dello spettacolo di e con Marco Baliani tratto dal racconto di Chamisso.
+    fonte: https://www.teatroalighieri.org/events/lombra-perduta-di-peter-schlemihl/
+    trovato: '2026-11-28'
+  - title: Le convenienze ed inconvenienze teatrali
+    start: 2026-12-16T20:00
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 15 euro
+    official_url: https://www.teatroalighieri.org/events/le-convenienze-ed-inconvenienze-teatrali/
+    summary: Farsa in un atto di Donizetti interpretata dagli allievi di canto e dall'orchestra del Conservatorio Maderna Lettimi, con la regia di Alfonso Antoniozzi.
+    fonte: https://www.teatroalighieri.org/events/le-convenienze-ed-inconvenienze-teatrali/
+    trovato: '2026-11-28'
+  - title: L'anno che verra', opera pop sulle musiche di Lucio Dalla
+    start: 2026-12-22T20:00
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 15 a 55 euro
+    official_url: https://www.teatroalighieri.org/events/lanno-che-verra/
+    summary: Spettacolo musicale costruito sulle canzoni di Lucio Dalla con Pierdavide Carone, l'Orchestra Citta' di Ferrara e la MM Contemporary Dance Company.
+    fonte: https://www.teatroalighieri.org/events/lanno-che-verra/
+    trovato: '2026-11-28'
+  - title: L'anno che verra', opera pop sulle musiche di Lucio Dalla
+    start: 2026-12-23T20:00
+    venue: Teatro Alighieri
+    address: Via Mariani 2
+    town: Ravenna
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 15 a 55 euro
+    official_url: https://www.teatroalighieri.org/events/lanno-che-verra/
+    summary: Seconda serata dello spettacolo sulle canzoni di Lucio Dalla con Pierdavide Carone, orchestra, coro e compagnia di danza.
+    fonte: https://www.teatroalighieri.org/events/lanno-che-verra/
+    trovato: '2026-11-28'
+  - title: Alfonsine Mostra Mercato
+    start: 2026-11-29T08:00
+    end: 2026-11-29T18:00
+    venue: Piazza Antonio Gramsci
+    address: Piazza Antonio Gramsci
+    town: Alfonsine
+    lat: 44.505539
+    lon: 12.041005
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6444
+    summary: Mercato della Pro Loco tra piazza Gramsci, corso Matteotti e corso della Repubblica con hobbisti, creativi, oggetti usati e un mercatino dei bambini.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Alfonsine Mostra Mercato
+    start: 2026-12-27T08:00
+    end: 2026-12-27T18:00
+    venue: Piazza Antonio Gramsci
+    address: Piazza Antonio Gramsci
+    town: Alfonsine
+    lat: 44.505539
+    lon: 12.041005
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6445
+    summary: Mercato della Pro Loco nel centro di Alfonsine con hobbisti, creativi, oggetti usati e un mercatino dei bambini.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Storie invisibili, racconti di donne invincibili
+    start: 2026-11-29T17:00
+    end: 2026-11-29T19:00
+    venue: Teatro Vincenzo Monti
+    address: Corso della Repubblica 24
+    town: Alfonsine
+    lat: 44.506618
+    lon: 12.040245
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: offerta
+    price: offerta libera
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6509
+    summary: Racconti di storie di donne letti da un'attrice e accompagnati dalle canzoni dei Tupamaros, a cura del CIF di Alfonsine.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: 'Film del weekend: Se domani non torno'
+    start: 2026-11-29T21:00
+    end: 2026-11-29T23:00
+    venue: Cineteatro Gulliver
+    address: Piazza della Resistenza 2
+    town: Alfonsine
+    lat: 44.507398
+    lon: 12.039267
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: biglietto
+    price: 7 euro, ridotto 6 euro
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6619
+    summary: Proiezione del film di Paola Randi nella programmazione del fine settimana dell'Arci Gulliver; domenica c'e' anche una proiezione alle 16.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: 'Film del weekend: Se domani non torno'
+    start: 2026-11-30T21:00
+    end: 2026-11-30T23:00
+    venue: Cineteatro Gulliver
+    address: Piazza della Resistenza 2
+    town: Alfonsine
+    lat: 44.507398
+    lon: 12.039267
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: biglietto
+    price: 7 euro, ridotto 6 euro
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6619
+    summary: Ultima proiezione del film di Paola Randi al cineteatro dell'Arci Gulliver.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Festa del Volontariato e inaugurazione della pista di pattinaggio
+    start: 2026-12-06T14:00
+    end: 2026-12-06T18:00
+    venue: Piazza Antonio Gramsci
+    address: Piazza Antonio Gramsci
+    town: Alfonsine
+    lat: 44.505539
+    lon: 12.041005
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6603
+    summary: Le associazioni del territorio sono in piazza con banchetti e gastronomia; nel pomeriggio esibizione di pattinatori professionisti e accensione delle luminarie natalizie.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Alfonsine on ice
+    start: 2026-12-06T15:00
+    end: 2027-01-10T22:00
+    venue: Piazza Antonio Gramsci
+    address: Piazza Antonio Gramsci
+    town: Alfonsine
+    lat: 44.505539
+    lon: 12.041005
+    category: sport
+    subcategory: altri-sport
+    access: biglietto
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6611
+    summary: Pista di pattinaggio sul ghiaccio in piazza Gramsci per le feste, inaugurata il 6 dicembre alle 16.30 con uno spettacolo di pattinaggio.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Casa (Monti) e botteghe, Christmas edition
+    start: 2026-12-08T10:00
+    end: 2026-12-08T18:00
+    venue: Casa Monti
+    address: Via Passetto 3
+    town: Alfonsine
+    lat: 44.515198
+    lon: 12.032835
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6604
+    summary: Mercatino natalizio di artigianato, decorazioni, prodotti gastronomici e creazioni artistiche alla casa natale di Vincenzo Monti.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Favole di Vita, concerto racconto per pianoforte
+    start: 2026-12-17T20:30
+    end: 2026-12-17T22:00
+    venue: Palazzo Marini
+    address: Via Roma 10
+    town: Alfonsine
+    lat: 44.499054
+    lon: 12.042335
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6606
+    summary: Concerto racconto per pianoforte nella rassegna pianistica di Palazzo Marini, a ingresso gratuito.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Camminata dei Babbi Natale
+    start: 2026-12-19T15:30
+    end: 2026-12-19T18:00
+    venue: Piazza Antonio Gramsci
+    address: Piazza Antonio Gramsci
+    town: Alfonsine
+    lat: 44.505539
+    lon: 12.041005
+    category: sport
+    subcategory: corsa
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6609
+    summary: Nona edizione della camminata della Podistica Alfonsinese con percorsi da 7 e 2,5 km, ritrovo dalle 14 e premiazione dei gruppi piu' numerosi.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: I miei silenzi, mostra di Romeo Zanzi
+    start: 2026-12-19T17:00
+    end: 2027-01-09T18:00
+    venue: Museo della battaglia del Senio
+    address: Piazza della Resistenza 2
+    town: Alfonsine
+    lat: 44.507448
+    lon: 12.038936
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6605
+    summary: Mostra di opere di Romeo Zanzi nella galleria del museo, inaugurata sabato 19 dicembre alle 17, a ingresso gratuito.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Natale lungo le strine
+    start: 2026-12-20T15:00
+    end: 2026-12-20T18:00
+    venue: Centro polivalente di Longastrino
+    address: Via Bassa 59, Longastrino
+    town: Alfonsine
+    lat: 44.58685
+    lon: 12.007887
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6612
+    summary: Pomeriggio natalizio a Longastrino organizzato dall'associazione Lungo le strine.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Aspettando il Natale in biblioteca
+    start: 2026-12-23T16:45
+    end: 2026-12-23T18:00
+    venue: Biblioteca comunale P. Orioli
+    address: Piazza della Resistenza 2
+    town: Alfonsine
+    lat: 44.507482
+    lon: 12.038451
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    audience: [famiglie]
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6608
+    summary: Letture di Natale con le volontarie Nati per Leggere per bambini dai 3 ai 6 anni, con prenotazione obbligatoria.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Luci per la Pace
+    start: 2026-12-24T20:00
+    end: 2026-12-24T22:00
+    venue: Piazza Monti
+    address: Piazza Vincenzo Monti
+    town: Alfonsine
+    lat: 44.499689
+    lon: 12.040951
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.comune.alfonsine.ra.it/content/view/full/6613
+    summary: Camminata della vigilia di Natale da piazza Monti a piazza Gramsci, con gli auguri dell'amministrazione all'arrivo.
+    fonte: https://www.comune.alfonsine.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: 'Animali umani, monologo di Roberto Mercadini (Una Massa di Risate)'
+    start: 2026-12-12T21:00
+    end: 2026-12-12T22:00
+    venue: Sala del Carmine
+    address: Via Rustici angolo Corso Vittorio Veneto
+    town: Massa Lombarda
+    lat: 44.446081
+    lon: 11.829286
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.comune.massalombarda.ra.it/content/view/full/7320
+    summary: Monologo comico di Roberto Mercadini sull'essere umano, spettacolo fuori abbonamento della rassegna teatrale Una Massa di Risate.
+    fonte: https://www.comune.massalombarda.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  - title: Aspettando Babbo Natale a Fruges
+    start: 2026-12-19T15:30
+    end: 2026-12-19T16:30
+    venue: Centro di Quartiere di Fruges
+    address: Via San Giacomo, Fruges
+    town: Massa Lombarda
+    lat: 44.45059
+    lon: 11.804697
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    audience: [famiglie]
+    official_url: https://www.comune.massalombarda.ra.it/content/view/full/7400
+    summary: Pomeriggio a tema natalizio con merenda e animazione per bambini.
+    fonte: https://www.comune.massalombarda.ra.it/api/opendata/v2/content/search/ (agenda OpenCity del Comune)
+    trovato: '2026-11-28'
+  # ===== FERRARA (FE) =====
+  - title: "Macbeth"
+    start: 2026-11-29T16:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/macbeth/
+    summary: "Recita dell'opera di Verdi nella stagione Opera&Danza del Teatro Comunale."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Don Giovanni, Mozart massone e illuminista (Storie d'Opera)"
+    start: 2026-12-05T17:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/don-giovanni-mozart-massone-e-illuminista/
+    summary: "Incontro del ciclo Storie d'Opera dedicato al Don Giovanni di Mozart e al contesto culturale in cui nacque."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "L'anno che verra', opera pop sulle musiche di Lucio Dalla"
+    start: 2026-12-11T20:30
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/lanno-che-verra/
+    summary: "Spettacolo musicale prodotto dal Teatro Comunale di Ferrara sulle canzoni di Lucio Dalla, con Pierdavide Carone e l'Orchestra Citta' di Ferrara."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "L'anno che verra', opera pop sulle musiche di Lucio Dalla"
+    start: 2026-12-12T20:30
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/lanno-che-verra/
+    summary: "Seconda recita ferrarese dello spettacolo musicale sulle canzoni di Lucio Dalla."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Fanfara in 4 pArts"
+    start: 2026-12-13T18:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: musica
+    subcategory: concerti
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/concerto-aeronautica-teatro_comunale_ferrara_3/
+    summary: "Concerto della fanfara nella rassegna CittaTeatro del Teatro Comunale."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Anna Oxa, Voce sorgente"
+    start: 2026-12-15T21:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: musica
+    subcategory: concerti
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/anna-oxa-voce-sorgente-ferrara/
+    summary: "Concerto di Anna Oxa nella rassegna CittaTeatro."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Prima del temporale"
+    start: 2026-12-18T20:30
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/prima-del-temporale-spettacolo/
+    summary: "Spettacolo di Umberto Orsini e Massimo Popolizio nella stagione di prosa."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Prima del temporale"
+    start: 2026-12-19T20:30
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/prima-del-temporale-spettacolo/
+    summary: "Replica dello spettacolo di Umberto Orsini e Massimo Popolizio nella stagione di prosa."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Prima del temporale"
+    start: 2026-12-20T16:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/prima-del-temporale-spettacolo/
+    summary: "Replica pomeridiana dello spettacolo di Umberto Orsini e Massimo Popolizio."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "A Christmas Welcome"
+    start: 2026-12-22T20:30
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/a-christmas-welcome/
+    summary: "Appuntamento natalizio della stagione Opera&Danza del Teatro Comunale."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Romeo e Giulietta"
+    start: 2026-12-30T20:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/romeo-e-giulietta-3/
+    summary: "Titolo di fine anno della stagione Opera&Danza del Teatro Comunale."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Romeo e Giulietta"
+    start: 2026-12-31T17:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/romeo-e-giulietta-3/
+    summary: "Recita del 31 dicembre del titolo di fine anno della stagione Opera&Danza."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Concerto di Capodanno 2027, Orchestra a plettro Gino Neri"
+    start: 2027-01-01T16:30
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: musica
+    subcategory: concerti
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/concerto-di-capodanno-2027-orchestra-plettro-gino-neri/
+    summary: "Concerto del primo dell'anno con l'Orchestra a plettro Gino Neri."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Il barbiere di Siviglia"
+    start: 2027-01-15T20:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/il-barbiere-di-siviglia/
+    summary: "Opera di Rossini nella stagione Opera&Danza."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Il barbiere di Siviglia"
+    start: 2027-01-17T16:00
+    venue: Teatro Comunale Claudio Abbado
+    address: "Corso Martiri della Liberta' 5"
+    town: Ferrara
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.teatrocomunaleferrara.it/spettacolo/il-barbiere-di-siviglia/
+    summary: "Recita pomeridiana dell'opera di Rossini nella stagione Opera&Danza."
+    fonte: https://www.teatrocomunaleferrara.it/
+    trovato: '2026-11-28'
+  - title: "Storia della pieve di San Giorgio di Argenta"
+    start: 2026-12-13T16:00
+    venue: Museo Civico di Argenta
+    address: VERIFICARE
+    town: Argenta
+    category: arte-cultura
+    subcategory: visite
+    access: biglietto
+    price: 6 euro, ridotto 4 euro
+    official_url: https://www.ferrarainfo.com/it/vivi-gli-eventi/tutti-gli-eventi/eventi-multipli/eventi-argenta-2026
+    summary: "Visita guidata dedicata alla storia della pieve di San Giorgio, con ritrovo al Museo Civico."
+    fonte: https://www.ferrarainfo.com/it/vivi-gli-eventi/tutti-gli-eventi/eventi-multipli/eventi-argenta-2026
+    trovato: '2026-11-28'
+  - title: "Detective al museo, caccia al tesoro per le famiglie"
+    start: 2026-12-20T16:00
+    venue: Museo Civico di Argenta
+    address: VERIFICARE
+    town: Argenta
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.ferrarainfo.com/it/vivi-gli-eventi/tutti-gli-eventi/eventi-multipli/eventi-argenta-2026
+    summary: "Caccia al tesoro tra le sale del Museo Civico pensata per bambini e famiglie."
+    fonte: https://www.ferrarainfo.com/it/vivi-gli-eventi/tutti-gli-eventi/eventi-multipli/eventi-argenta-2026
+    trovato: '2026-11-28'
+  - title: "Argenta archeologica, visita guidata al Museo Civico"
+    start: 2026-12-27T16:00
+    venue: Museo Civico di Argenta
+    address: VERIFICARE
+    town: Argenta
+    category: arte-cultura
+    subcategory: visite
+    access: biglietto
+    price: 6 euro, ridotto 4 euro
+    official_url: https://www.ferrarainfo.com/it/vivi-gli-eventi/tutti-gli-eventi/eventi-multipli/eventi-argenta-2026
+    summary: "Visita guidata alla sezione archeologica del Museo Civico di Argenta."
+    fonte: https://www.ferrarainfo.com/it/vivi-gli-eventi/tutti-gli-eventi/eventi-multipli/eventi-argenta-2026
+    trovato: '2026-11-28'
+  # ===== RIMINI (RN) =====
+  - title: "La bella addormentata (Balletto dell'Opera di Tbilisi)"
+    start: 2026-12-02T21:00
+    venue: "Teatro Amintore Galli"
+    address: "Piazza Cavour 22"
+    town: "Rimini"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.comune.rimini.it/system/files/2026-05/Programma%20Sagra%20Musicale%20Malatestiana%202026_rev%201405.pdf
+    summary: "Balletto in tre atti su musica di Ciajkovskij presentato dal Balletto dell'Opera di Tbilisi nel programma di danza della Sagra Musicale Malatestiana."
+    fonte: https://www.comune.rimini.it/system/files/2026-05/Programma%20Sagra%20Musicale%20Malatestiana%202026_rev%201405.pdf
+    trovato: '2026-11-28'
+  - title: "Misano si accende, pista di pattinaggio su ghiaccio"
+    start: 2026-12-05T15:00
+    end: 2027-01-06T21:00
+    venue: "Piazza della Repubblica"
+    address: "Piazza della Repubblica"
+    town: "Misano Adriatico"
+    category: sport
+    subcategory: altri-sport
+    official_url: https://visitmisano.it/natale/
+    summary: "Pista di pattinaggio su ghiaccio con casette di dolci e specialita' natalizie per tutto il periodo delle feste; nei feriali apre dalle 15 alle 20."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "Inaugurazione della pista di pattinaggio e accensione delle luminarie"
+    start: 2026-12-05T15:00
+    venue: "Piazza della Repubblica"
+    address: "Piazza della Repubblica"
+    town: "Misano Adriatico"
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://visitmisano.it/natale/
+    summary: "Apertura del Natale misanese con l'inaugurazione della pista su ghiaccio, preceduta da un'esibizione di danza."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "Concerto dell'Immacolata"
+    start: 2026-12-05T21:00
+    venue: "Chiesa dell'Immacolata Concezione"
+    address: "Via Dante Alighieri"
+    town: "Misano Adriatico"
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://visitmisano.it/natale/
+    summary: "Concerto del Coro Filarmonico Le Voci Liriche nella chiesa dell'Immacolata Concezione."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "Festa con Babbo Natale e Cigarini Puppet Show"
+    start: 2026-12-06T15:00
+    venue: "Piazza della Repubblica"
+    address: "Piazza della Repubblica"
+    town: "Misano Adriatico"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://visitmisano.it/natale/
+    summary: "Pomeriggio con Babbo Natale, mercatino e spettacolo di burattini di strada alle 15.30 e alle 16.30."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "Festa con Babbo Natale e Black Smilzo"
+    start: 2026-12-13T15:00
+    venue: "Piazza della Repubblica"
+    address: "Piazza della Repubblica"
+    town: "Misano Adriatico"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://visitmisano.it/natale/
+    summary: "Pomeriggio con Babbo Natale, mercatino e spettacolo dell'artista di strada Paolo Ippolito alle 15.30 e alle 16.30."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "La capra ballerina, Gran Teatrino Pulcinella"
+    start: 2026-12-13T16:30
+    venue: "Cinema Teatro Astra"
+    address: "Via D'Annunzio"
+    town: "Misano Adriatico"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://visitmisano.it/natale/
+    summary: "Spettacolo di burattini per bambini nella rassegna A teatro ragazzi del Natale di Misano."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "Concerto gospel con i Charm City Singers International"
+    start: 2026-12-18T21:00
+    venue: "Cinema Teatro Astra"
+    address: "Via D'Annunzio"
+    town: "Misano Adriatico"
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://visitmisano.it/natale/
+    summary: "Concerto gospel nel programma natalizio Misano si accende."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "Festa con Babbo Natale, Mastrobolla e Babbi Natale in moto"
+    start: 2026-12-20T15:00
+    venue: "Piazza della Repubblica"
+    address: "Piazza della Repubblica"
+    town: "Misano Adriatico"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://visitmisano.it/natale/
+    summary: "Pomeriggio con Babbo Natale, sfilata dei Babbi Natale in moto, merenda e spettacolo di bolle di sapone alle 15.30 e alle 16.30."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "La corsa dei Babbi Natale"
+    start: 2026-12-26T09:30
+    venue: "Piazza della Repubblica"
+    address: "Piazza della Repubblica"
+    town: "Misano Adriatico"
+    category: sport
+    subcategory: corsa
+    official_url: https://visitmisano.it/natale/
+    summary: "Camminata ludico sportiva di Santo Stefano da piazza della Repubblica a Portoverde e ritorno, con ristoro finale."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "Tuffo della Befana"
+    start: 2027-01-06T11:00
+    venue: "Piazzale Roma"
+    address: "Piazzale Roma"
+    town: "Misano Adriatico"
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://visitmisano.it/natale/
+    summary: "Bagno in mare dell'Epifania in compagnia della Befana."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  - title: "Festa della Befana"
+    start: 2027-01-06T15:00
+    venue: "Piazza della Repubblica"
+    address: "Piazza della Repubblica"
+    town: "Misano Adriatico"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://visitmisano.it/natale/
+    summary: "Distribuzione della calza ai bambini fino a 10 anni, merenda e spettacoli di artisti di strada a chiusura delle feste."
+    fonte: https://visitmisano.it/natale/
+    trovato: '2026-11-28'
+  # ===== PIACENZA (PC) =====
+  - title: "Prima di andare in scena: Siberia"
+    start: 2026-12-13T11:00
+    venue: "Ridotto del Teatro Municipale"
+    address: "Via Verdi 41"
+    town: "Piacenza"
+    category: arte-cultura
+    subcategory: conferenze
+    access: biglietto
+    official_url: https://teatripiacenza.it/evento/prima-di-andare-in-scena-siberia/
+    summary: "Incontro di presentazione dell'opera Siberia di Umberto Giordano prima del debutto della stagione lirica."
+    fonte: https://teatripiacenza.it/wp-json/tribe/events/v1/events
+    trovato: '2026-11-28'
+  - title: "Siberia, #AperiOpera"
+    start: 2026-12-15T18:00
+    venue: "Foyer del Teatro Municipale"
+    address: "Via Verdi 41"
+    town: "Piacenza"
+    category: arte-cultura
+    subcategory: conferenze
+    access: biglietto
+    official_url: https://teatripiacenza.it/evento/siberia-aperiopera/
+    summary: "Presentazione dell'opera Siberia curata da giovani, in formato aperitivo, nel foyer del teatro."
+    fonte: https://teatripiacenza.it/wp-json/tribe/events/v1/events
+    trovato: '2026-11-28'
+  - title: "Siberia di Umberto Giordano"
+    start: 2026-12-18T20:00
+    venue: "Teatro Municipale"
+    address: "Via Verdi 41"
+    town: "Piacenza"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatripiacenza.it/evento/siberia-2/
+    summary: "Opera in tre atti di Umberto Giordano che inaugura la stagione lirica 2026-2027 del Teatro Municipale."
+    fonte: https://teatripiacenza.it/wp-json/tribe/events/v1/events
+    trovato: '2026-11-28'
+  - title: "Siberia di Umberto Giordano"
+    start: 2026-12-20T15:30
+    venue: "Teatro Municipale"
+    address: "Via Verdi 41"
+    town: "Piacenza"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatripiacenza.it/evento/siberia/
+    summary: "Recita pomeridiana dell'opera di Giordano che apre la stagione lirica del Teatro Municipale."
+    fonte: https://teatripiacenza.it/wp-json/tribe/events/v1/events
+    trovato: '2026-11-28'
+  - title: "Il lago dei cigni"
+    start: 2027-01-03T16:00
+    venue: "Teatro Municipale"
+    address: "Via Verdi 41"
+    town: "Piacenza"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://teatripiacenza.it/evento/il-lago-dei-cigni-2/
+    summary: "Balletto di Ciajkovskij nella stagione di danza della Fondazione Teatri di Piacenza."
+    fonte: https://teatripiacenza.it/wp-json/tribe/events/v1/events
+    trovato: '2026-11-28'
+  - title: "L'anno che verra', opera su Lucio Dalla"
+    start: 2027-01-16T20:00
+    venue: "Teatro Municipale"
+    address: "Via Verdi 41"
+    town: "Piacenza"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatripiacenza.it/evento/lanno-che-verra-opera-su-lucio-dalla/
+    summary: "Spettacolo musicale costruito sulle canzoni di Lucio Dalla, con orchestra, coro e compagnia di danza."
+    fonte: https://teatripiacenza.it/wp-json/tribe/events/v1/events
+    trovato: '2026-11-28'
+  - title: "Eleonora Abbagnato e le Stelle dell'Opera di Roma"
+    start: 2027-01-24T16:00
+    venue: "Teatro Municipale"
+    address: "Via Verdi 41"
+    town: "Piacenza"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://teatripiacenza.it/evento/eleonora-abbagnato-e-le-stelle-dellopera-di-roma/
+    summary: "Serata di danza con Eleonora Abbagnato e i primi ballerini del Teatro dell'Opera di Roma."
+    fonte: https://teatripiacenza.it/wp-json/tribe/events/v1/events
+    trovato: '2026-11-28'
+  - title: "L'elefantino (A teatro con mamma e papa')"
+    start: 2026-11-29T16:30
+    venue: "Teatro Filodrammatici"
+    address: "Via Santa Franca 33"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Spettacolo per bambini e famiglie della rassegna domenicale A teatro con mamma e papa'."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Storie di teatro aspettando il Natale"
+    start: 2026-12-03T17:00
+    venue: "Biblioteca Ragazzi Giana Anguissola"
+    address: "VERIFICARE"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: laboratori
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Lettura con animazione teatrale a cura di un'attrice del Teatro Gioco Vita, nel programma Natale nelle biblioteche."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Shodo, laboratorio di calligrafia giapponese"
+    start: 2026-12-05T15:00
+    end: 2026-12-05T17:00
+    venue: "Biblioteca Passerini-Landi"
+    address: "Via Carducci 14"
+    town: "Piacenza"
+    category: arte-cultura
+    subcategory: libri
+    access: iscrizione
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Laboratorio di calligrafia giapponese in biblioteca, su prenotazione."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Infinita bellezza"
+    start: 2026-12-09T21:00
+    venue: "Teatro Filodrammatici"
+    address: "Via Santa Franca 33"
+    town: "Piacenza"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Spettacolo serale al Teatro Filodrammatici nel cartellone Natale nei teatri."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Presentazione del libro La fabbricante di isole di Antonella Cilento"
+    start: 2026-12-10T18:00
+    venue: "Biblioteca Passerini-Landi"
+    address: "Via Carducci 14"
+    town: "Piacenza"
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "L'autrice presenta il suo libro in biblioteca, nel programma Natale nelle biblioteche."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Laboratorio di coding con PiaceDojo"
+    start: 2026-12-12T09:30
+    end: 2026-12-12T11:30
+    venue: "Biblioteca Passerini-Landi"
+    address: "Via Carducci 14"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: laboratori
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Laboratorio di programmazione per ragazzi dai 7 ai 16 anni in biblioteca."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Fuori dalle scatole! Christmas Edition"
+    start: 2026-12-12T15:30
+    venue: "Biblioteca Ragazzi Giana Anguissola"
+    address: "VERIFICARE"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: laboratori
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Pomeriggio di giochi da tavolo e di ruolo per ragazzi dai 7 anni in biblioteca."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "La notte dei regali"
+    start: 2026-12-13T16:30
+    venue: "Teatro Filodrammatici"
+    address: "Via Santa Franca 33"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Spettacolo con animazione, pittura dal vivo e narrazione per bambini dai 3 anni."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Presentazione del libro Otto ragazze di Aurora Tamiglio"
+    start: 2026-12-18T18:00
+    venue: "Biblioteca Passerini-Landi"
+    address: "Via Carducci 14"
+    town: "Piacenza"
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Presentazione di un libro in biblioteca nel programma Natale nelle biblioteche."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Scrooge il Natale"
+    start: 2026-12-20T16:30
+    venue: "Teatro Filodrammatici"
+    address: "Via Santa Franca 33"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Spettacolo per famiglie ispirato al Canto di Natale di Dickens."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "L'opera del delinquente, Il battesimo del fuoco"
+    start: 2026-12-22T21:00
+    venue: "Teatro Municipale"
+    address: "Via Verdi 41"
+    town: "Piacenza"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Spettacolo con Paolo Rossi e Bebo Storti al Teatro Municipale."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Il cielo degli orsi"
+    start: 2027-01-10T16:30
+    venue: "Teatro Filodrammatici"
+    address: "Via Santa Franca 33"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Spettacolo per bambini della rassegna domenicale per famiglie."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "La bella addormentata"
+    start: 2027-01-17T16:30
+    venue: "Teatro Filodrammatici"
+    address: "Via Santa Franca 33"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Spettacolo per bambini ispirato alla fiaba, nella rassegna domenicale per famiglie."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  - title: "Animando le figure"
+    start: 2027-01-24T16:30
+    venue: "Teatro Filodrammatici"
+    address: "Via Santa Franca 33"
+    town: "Piacenza"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    audience: [famiglie]
+    official_url: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    summary: "Spettacolo di teatro di figura per bambini e famiglie."
+    fonte: https://www.comune.piacenza.it/it/page/natale-a-piacenza
+    trovato: '2026-11-28'
+  # ===== TORINO (TO) =====
+  - title: "The Tokyo Ballet"
+    start: 2026-12-10T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    summary: "Tournee del Tokyo Ballet con Kaguyahime in prima italiana, il Regno delle Ombre dalla Bayadere e Le Sacre du Printemps di Bejart, con l'Orchestra del Teatro Regio."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    trovato: '2026-11-28'
+  - title: "The Tokyo Ballet"
+    start: 2026-12-11T14:30
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    summary: "Tournee del Tokyo Ballet con Kaguyahime in prima italiana, il Regno delle Ombre dalla Bayadere e Le Sacre du Printemps di Bejart, con l'Orchestra del Teatro Regio."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    trovato: '2026-11-28'
+  - title: "The Tokyo Ballet"
+    start: 2026-12-11T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    summary: "Tournee del Tokyo Ballet con Kaguyahime in prima italiana, il Regno delle Ombre dalla Bayadere e Le Sacre du Printemps di Bejart, con l'Orchestra del Teatro Regio."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    trovato: '2026-11-28'
+  - title: "The Tokyo Ballet"
+    start: 2026-12-12T14:30
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    summary: "Tournee del Tokyo Ballet con Kaguyahime in prima italiana, il Regno delle Ombre dalla Bayadere e Le Sacre du Printemps di Bejart, con l'Orchestra del Teatro Regio."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    trovato: '2026-11-28'
+  - title: "The Tokyo Ballet"
+    start: 2026-12-12T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    summary: "Tournee del Tokyo Ballet con Kaguyahime in prima italiana, il Regno delle Ombre dalla Bayadere e Le Sacre du Printemps di Bejart, con l'Orchestra del Teatro Regio."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    trovato: '2026-11-28'
+  - title: "The Tokyo Ballet"
+    start: 2026-12-13T15:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    summary: "Tournee del Tokyo Ballet con Kaguyahime in prima italiana, il Regno delle Ombre dalla Bayadere e Le Sacre du Printemps di Bejart, con l'Orchestra del Teatro Regio."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-18T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-19T14:30
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-19T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-20T15:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-21T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-22T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-23T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-27T15:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-28T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-29T14:30
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Lo Schiaccianoci (Balletto di Tbilisi)"
+    start: 2026-12-29T20:00
+    venue: "Teatro Regio"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    summary: "Il balletto di Ciajkovskij nella coreografia di Nina Ananiashvili e Aleksej Fadeecev, interpretato dal Balletto di Tbilisi."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/lo-schiaccianoci
+    trovato: '2026-11-28'
+  - title: "Conferenza-concerto sul Tokyo Ballet"
+    start: 2026-12-09T18:00
+    venue: "Teatro Regio, Foyer del Toro"
+    address: "Piazza Castello 215"
+    town: "Torino"
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    summary: "Incontro di presentazione con musica dedicato al programma del Tokyo Ballet."
+    fonte: https://www.teatroregio.torino.it/opera-e-balletto-2026-2027/tokyo-ballet
+    trovato: '2026-11-28'
+  - title: "Concerto di Natale alla Sacra di San Michele"
+    start: 2026-12-12T20:30
+    end: 2026-12-12T22:30
+    venue: "Sacra di San Michele"
+    address: "Via alla Sacra 14"
+    town: "Sant'Ambrogio di Torino"
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: "20 euro"
+    official_url: https://turismotorino.org/it/visita/eventi/concerto-di-natale-alla-sacra-di-san-michele
+    summary: "La Corale Lirica Ambrosiana e l'Orchestra Filarmonica Europea eseguono la Cantata n. 4 dell'Oratorio di Natale di Bach e la Messa in sol maggiore di Schubert nell'abbazia."
+    fonte: https://turismotorino.org/it/visita/eventi/concerto-di-natale-alla-sacra-di-san-michele
+    trovato: '2026-11-28'
+  - title: "Yayoi Kusama. Infinity Mirrored Room"
+    start: 2026-10-31
+    end: 2027-02-25
+    venue: "OGR Torino"
+    address: "Corso Castelfidardo 22"
+    town: "Torino"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://turismotorino.org/it/visita/eventi/yayoi-kusama-infinity-mirrored-room
+    summary: "Le OGR espongono una delle stanze a specchi infinite di Yayoi Kusama."
+    fonte: https://turismotorino.org/it/visita/eventi/agenda
+    trovato: '2026-11-28'
+  - title: "Di padre in figlio. L'universo grafico di Giambattista e Giandomenico Tiepolo"
+    start: 2026-10-15
+    end: 2027-01-17
+    venue: "Galleria Sabauda, Spazio Scoperte"
+    address: "Piazzetta Reale 1"
+    town: "Torino"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://turismotorino.org/it/visita/eventi/di-padre-in-figlio-l-universo-grafico-di-giambattista-e-giandomenico-tiepolo
+    summary: "Mostra sull'attivita' grafica di Giandomenico Tiepolo messa a confronto con quella del padre Giambattista."
+    fonte: https://turismotorino.org/it/visita/eventi/agenda
+    trovato: '2026-11-28'
+  - title: "Banksy. Street is the Museum"
+    start: 2026-10-22
+    end: 2027-01-31
+    venue: "Palazzo Falletti di Barolo"
+    address: "Via delle Orfane 7"
+    town: "Torino"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://turismotorino.org/it/visita/eventi/banksy-street-is-the-museum
+    summary: "Oltre 150 opere dedicate a Banksy nelle cantine storiche di Palazzo Falletti di Barolo."
+    fonte: https://turismotorino.org/it/visita/eventi/agenda
+    trovato: '2026-11-28'
+  - title: "Saetta McQueen al Museo"
+    start: 2026-09-10
+    end: 2027-01-31
+    venue: "MAUTO Museo Nazionale dell'Automobile"
+    address: "Corso Unita' d'Italia 40"
+    town: "Torino"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://turismotorino.org/it/visita/eventi/saetta-mc-queen-al-museo
+    summary: "Allestimento in Sala Formula dedicato a Saetta McQueen a vent'anni dal film Cars, tra cinema e storia dell'automobile."
+    fonte: https://turismotorino.org/it/visita/eventi/agenda
+    trovato: '2026-11-28'
+  - title: "Gabriele Basilico: paesaggio industriale Olivetti"
+    start: 2026-11-05
+    end: 2026-12-31
+    venue: "Museo Civico Pier Alessandro Garda"
+    address: "Piazza Ottinetti 18"
+    town: "Ivrea"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://turismotorino.org/it/visita/eventi/gabriele-basilico-paesaggio-industriale-olivetti
+    summary: "Mostra di fotografie di Gabriele Basilico dedicate ai luoghi industriali Olivetti, con l'Archivio Storico Olivetti."
+    fonte: https://turismotorino.org/it/visita/eventi/agenda
+    trovato: '2026-11-28'
+  - title: "Giorgio De Chirico al Museo Garda"
+    start: 2026-11-14
+    end: 2026-12-20
+    venue: "Museo Civico Pier Alessandro Garda"
+    address: "Piazza Ottinetti 18"
+    town: "Ivrea"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://turismotorino.org/it/visita/eventi/giorgio-de-chirico
+    summary: "Esposizione di due opere di Giorgio de Chirico della Collezione Guelpa-Croff."
+    fonte: https://turismotorino.org/it/visita/eventi/agenda
+    trovato: '2026-11-28'
+  # ===== NOVARA (NO) =====
+  - title: "Hayez Boldini Casorati. Moda e costume nella societa' moderna"
+    start: 2026-10-31
+    end: 2027-04-04
+    venue: "Castello Visconteo Sforzesco"
+    address: "Piazza Martiri della Liberta' 3"
+    town: "Novara"
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Mostra in otto sezioni che accosta dipinti dall'Ottocento agli anni Venti del Novecento ad abiti e accessori delle Collezioni Civiche milanesi; aperta da martedi' a domenica."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Broadway Time, la grande musica americana"
+    start: 2026-11-29T11:30
+    venue: "Teatro Coccia"
+    address: "Via Fratelli Rosselli 47"
+    town: "Novara"
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Concerto jazz di un quartetto dedicato al Great American Songbook, introdotto da un racconto sulla storia del jazz."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Dialoghi con la scienza: Il tempo dell'evoluzione umana, con Guido Barbujani"
+    start: 2026-11-29T11:00
+    venue: "Castello Visconteo Sforzesco, Sala delle Vetrate"
+    address: "Piazza Martiri della Liberta' 3"
+    town: "Novara"
+    category: arte-cultura
+    subcategory: scienza
+    access: iscrizione
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Il genetista Guido Barbujani racconta migrazioni, adattamenti e trasformazioni che hanno costruito la storia della specie umana."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Concerto per Santa Cecilia della Banda Filarmonica di Oleggio"
+    start: 2026-11-29T16:30
+    venue: "Teatro Civico di Oleggio"
+    address: "Via Roma 43"
+    town: "Oleggio"
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Concerto annuale della Banda Filarmonica di Oleggio per Santa Cecilia."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Il Castello racconta: Prometeo e Leviatano, con Fabrizio Pagani"
+    start: 2026-12-01T18:00
+    venue: "Castello Visconteo Sforzesco, Sala delle Vetrate"
+    address: "Piazza Martiri della Liberta' 3"
+    town: "Novara"
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Presentazione del saggio sul rapporto tra mercato e Stato nel controllo dell'economia globale, con firmacopie finale."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Il codice del volo, presentazione del libro di Marina Spada"
+    start: 2026-12-04T17:30
+    venue: "Biblioteca Civica Negroni, Sala Genocchio"
+    address: "Corso Cavallotti 6"
+    town: "Novara"
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Presentazione del libro della regista Marina Spada in biblioteca, con ingresso libero fino a esaurimento posti."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Mondina, presentazione del libro di Roberto Bottacchi"
+    start: 2026-12-04T18:00
+    venue: "Museo Civico C.G. Fanchini"
+    address: "VERIFICARE"
+    town: "Oleggio"
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Presentazione del diario immaginario di una mondariso tra Novarese e Vercellese, con letture di un'attrice."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Armonie verticali, concerto corale"
+    start: 2026-12-05T15:00
+    venue: "Basilica di San Gaudenzio"
+    address: "Via San Gaudenzio 22"
+    town: "Novara"
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Concerto dei cori VocinCanto di Torino e Novaria di Novara con ensemble strumentale, su musiche di Brahms, Gjeilo, Martin e Jenkins."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Brotherhood Gospel Choir"
+    start: 2026-12-05T16:30
+    venue: "Cortile del Broletto"
+    address: "Via Fratelli Rosselli 20"
+    town: "Novara"
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Esibizione dal vivo di un coro gospel con classici natalizi e brani del gospel contemporaneo."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Natale a Sozzago: Babbo Natale segreto e bancarelle delle associazioni"
+    start: 2026-12-05T15:30
+    venue: "Piazza Bonola"
+    address: "Piazza Bonola"
+    town: "Sozzago"
+    category: sagre-feste
+    subcategory: ricorrenze
+    audience: [famiglie]
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Pomeriggio con bancarelle delle associazioni, laboratorio creativo per bambini della Pro Loco, sfilata dei Babbi Natale in moto e accensione dell'albero alle 17."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Impermanenza, mostra fotografica di Giuseppe Perretta"
+    start: 2026-12-05T16:00
+    end: 2027-01-31
+    venue: "Museo di Storia Naturale Faraggiana Ferrandi"
+    address: "Via Gaudenzio Ferrari 13"
+    town: "Novara"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Mostra fotografica dedicata a luoghi marginali e paesaggi invernali, inaugurata il 5 dicembre alle 16."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Mercato della Terra delle Colline Novaresi, edizione natalizia"
+    start: 2026-12-06T10:00
+    venue: "Piazza Liberta'"
+    address: "Piazza Liberta'"
+    town: "Carpignano Sesia"
+    category: sagre-feste
+    subcategory: mercati-contadini
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Una ventina di piccoli produttori del cibo per la Festa d'Inverno, con area ristoro con birre artigianali e vini locali, mercatino natalizio e animazione per bambini, dalle 10 alle 18."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Free Gospel Band"
+    start: 2026-12-06T16:30
+    venue: "Cortile del Broletto"
+    address: "Via Fratelli Rosselli 20"
+    town: "Novara"
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Concerto di gospel tradizionale, contemporaneo e soul con classici natalizi in chiave jazz e swing."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Non e' la storia di un eroe, con Mauro Pescio"
+    start: 2026-12-11T21:00
+    venue: "Teatro Civico di Oleggio"
+    address: "Via Roma 43"
+    town: "Oleggio"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Spettacolo di e con Mauro Pescio tratto dal podcast Io ero il Milanese, sulla vita di un uomo passato per decenni dal carcere."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "L'azzardo per un figlio, Il Signor Bruschino"
+    start: 2026-12-11T20:30
+    venue: "Teatro Coccia"
+    address: "Via Fratelli Rosselli 47"
+    town: "Novara"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Farsa di Rossini nella stagione del Teatro Coccia."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "L'azzardo per un figlio, Il Signor Bruschino"
+    start: 2026-12-13T16:00
+    venue: "Teatro Coccia"
+    address: "Via Fratelli Rosselli 47"
+    town: "Novara"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Recita pomeridiana della farsa di Rossini al Teatro Coccia."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Una notte in Basilica, il mistero della Nativita'"
+    start: 2026-12-12T21:00
+    venue: "Basilica di San Gaudenzio"
+    address: "Via San Gaudenzio 22"
+    town: "Novara"
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Visita guidata serale alle raffigurazioni della Nativita' negli affreschi della basilica, tra Vangeli e testi apocrifi."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "I Pilastri del Cielo, presentazione del libro sugli alberi monumentali"
+    start: 2026-12-12T17:30
+    venue: "Castello Visconteo Sforzesco, Sala delle Vetrate"
+    address: "Piazza Martiri della Liberta' 3"
+    town: "Novara"
+    category: natura-outdoor
+    subcategory: green
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Presentazione di un libro dedicato agli alberi monumentali e storici delle province di Novara e del Verbano Cusio Ossola."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Calata dei Babbi Natale dalla Torre di Palazzo Natta"
+    start: 2026-12-13T16:30
+    venue: "Piazza Matteotti"
+    address: "Piazza Matteotti"
+    town: "Novara"
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    audience: [famiglie]
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "I Babbi Natale scendono dalla torre di Palazzo Natta in piazza Matteotti."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Buon compleanno Pinocchio"
+    start: 2026-12-13T11:00
+    venue: "Teatro Faraggiana"
+    address: "Via dei Caccia 1F"
+    town: "Novara"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    audience: [famiglie]
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Lettura interpretata di Pinocchio per bambini nel bicentenario della nascita di Carlo Collodi."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Concerto Gala' d'arie d'opera dell'Accademia AMO"
+    start: 2026-12-16T20:30
+    venue: "Teatro Coccia"
+    address: "Via Fratelli Rosselli 47"
+    town: "Novara"
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Concerto di arie d'opera per voci e pianoforte con gli allievi dell'Accademia AMO."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "La Boheme in una stanza, speciale Natale"
+    start: 2026-12-17T20:30
+    venue: "Teatro Coccia"
+    address: "Via Fratelli Rosselli 47"
+    town: "Novara"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Racconto teatrale e musicale della Boheme ambientato in un salotto, con brindisi finale per il pubblico."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Il Castello racconta: Dove finiscono gli anni, con Alessandro D'Avenia"
+    start: 2026-12-17T18:00
+    venue: "Castello Visconteo Sforzesco, Sala delle Vetrate"
+    address: "Piazza Martiri della Liberta' 3"
+    town: "Novara"
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Alessandro D'Avenia presenta il suo nuovo romanzo ambientato negli anni Novanta."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Lo schiaccianoci"
+    start: 2026-12-19T20:30
+    venue: "Teatro Coccia"
+    address: "Via Fratelli Rosselli 47"
+    town: "Novara"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Il balletto di Ciajkovskij al Teatro Coccia per le feste."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Lo schiaccianoci"
+    start: 2026-12-20T16:00
+    venue: "Teatro Coccia"
+    address: "Via Fratelli Rosselli 47"
+    town: "Novara"
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Recita pomeridiana del balletto di Ciajkovskij al Teatro Coccia."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Corsa dei Babbi Natale di Novara"
+    start: 2026-12-20T08:30
+    venue: "Piazza Gramsci"
+    address: "Piazza Gramsci"
+    town: "Novara"
+    category: sport
+    subcategory: corsa
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Corsa non competitiva di 5 km in costume da Babbo Natale nel centro storico, con raccolta fondi per i neonati prematuri dell'ospedale."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Presepe vivente di Novara"
+    start: 2026-12-20T16:30
+    venue: "Cortile del Castello Visconteo Sforzesco"
+    address: "Piazza Martiri della Liberta' 3"
+    town: "Novara"
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Ventunesima edizione del presepe vivente con canti popolari e corteo per le vie del centro, in partenza dal cortile del Castello."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Concerto di Natale, Messa da Requiem di Faure'"
+    start: 2026-12-21T20:30
+    venue: "Basilica di San Gaudenzio"
+    address: "Via San Gaudenzio 22"
+    town: "Novara"
+    category: musica
+    subcategory: jazz-classica
+    access: offerta
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Il Coro Filarmonico G.B. Pergolesi e artisti del Coro della Scala eseguono il Requiem di Gabriel Faure'."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Gran Gala' di San Silvestro, Swing amore e fantasia"
+    start: 2026-12-31T22:15
+    venue: "Teatro Coccia"
+    address: "Via Fratelli Rosselli 47"
+    town: "Novara"
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Spettacolo musicale dal vivo con canzoni italiane e americane del Novecento e scene di avanspettacolo e operetta."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Festa della Befana in piazza Gramsci"
+    start: 2027-01-06T15:00
+    venue: "Piazza Gramsci"
+    address: "Piazza Gramsci"
+    town: "Novara"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    audience: [famiglie]
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "La Befana distribuisce regali e dolci a tutti i bambini."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: "Predatori di pianura, con Andrea Pennacchi"
+    start: 2027-01-12T21:00
+    venue: "Teatro Civico di Oleggio"
+    address: "Via Roma 43"
+    town: "Oleggio"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: "Andrea Pennacchi porta in scena una storia di amore, possesso e vendetta liberamente tratta dalla Bilora di Ruzante."
+    fonte: https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  # ===== CUNEO (CN) =====
+  - title: "Il secolo del Barocco. Bernini, Gentileschi, Rubens"
+    start: 2026-11-20
+    end: 2027-03-29
+    venue: "Complesso Monumentale di San Francesco"
+    address: "Via Santa Maria 10"
+    town: "Cuneo"
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.comune.cuneo.it/vivere-il-comune/eventi/mostra-il-secolo-del-barocco/
+    summary: "Mostra promossa da Fondazione CRC e Intesa Sanpaolo sull'arte della Roma del Seicento, con opere di Bernini, Gentileschi e Rubens."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "La rivincita degli imperi"
+    start: 2026-12-02
+    end: 2026-12-04
+    venue: "Sala Polivalente CDT"
+    address: "Largo Barale 1"
+    town: "Cuneo"
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.cuneocultura.it/evento/la-rivincita-degli-imperi/
+    summary: "Tre incontri con storici, politologi, teologi e giornalisti sul ritorno delle dinamiche imperiali nello scenario internazionale."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Dentro e fuori dai libri... con un buco nel calzino"
+    start: 2026-12-02T17:00
+    venue: "Biblioteca 0-18 di Cuneo"
+    address: "Via Santa Maria 11"
+    town: "Cuneo"
+    category: famiglie-bambini
+    subcategory: laboratori
+    audience: [famiglie]
+    official_url: https://www.cuneocultura.it/evento/dentro-e-fuori-dai-libri-con-un-buco-nel-calzino-24-48-mesi/
+    summary: "Laboratorio di lettura per genitori e bambini dai 24 ai 48 mesi."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Simona Atzori al Teatro Toselli per la Giornata delle persone con disabilita'"
+    start: 2026-12-03
+    venue: "Teatro Toselli"
+    address: "Via Teatro Toselli 9"
+    town: "Cuneo"
+    category: arte-cultura
+    subcategory: incontri-pubblici
+    access: libero
+    official_url: https://www.cuneocultura.it/evento/cuneo-celebra-la-giornata-internazionale-delle-persone-con-disabilita-simona-atzori-al-teatro-toselli/
+    summary: "Incontro gratuito con la ballerina, pittrice e scrittrice Simona Atzori offerto dalla Citta' di Cuneo."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Aspettando il Natale in musica"
+    start: 2026-12-06T17:30
+    venue: "Chiesa di San Sebastiano"
+    address: "Contrada Mondovi'"
+    town: "Cuneo"
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.cuneocultura.it/evento/aspettando-il-natale-in-musica/
+    summary: "Concerto del Coro interparrocchiale Pacem in Terris nel programma di Illuminatale 2026; prenotazione consigliata."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Sui sentieri della memoria. Dagli scritti di Gino Giordanengo"
+    start: 2026-12-08T21:00
+    venue: "Teatro Toselli"
+    address: "Via Teatro Toselli 9"
+    town: "Cuneo"
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.cuneocultura.it/evento/sui-sentieri-della-memoria-dagli-scritti-di-gino-giordanengo/
+    summary: "Spettacolo multimediale con parole, musica dal vivo e arti visive dedicato al pensiero di Gino Giordanengo."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Ambasciatore porta... storie! In biblioteca"
+    start: 2026-12-11T17:00
+    venue: "Biblioteca 0-18 di Cuneo"
+    address: "Via Santa Maria 11"
+    town: "Cuneo"
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    audience: [famiglie]
+    official_url: https://www.cuneocultura.it/evento/ambasciatore-porta-storie-in-biblioteca-11-dicembre/
+    summary: "Letture ad alta voce con i volontari Nati per Leggere per bambini dai 3 anni."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Ambasciatore porta... storie! In biblioteca"
+    start: 2026-12-12T11:00
+    venue: "Biblioteca 0-18 di Cuneo"
+    address: "Via Santa Maria 11"
+    town: "Cuneo"
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    audience: [famiglie]
+    official_url: https://www.cuneocultura.it/evento/ambasciatore-porta-storie-in-biblioteca-12-dicembre-2/
+    summary: "Letture ad alta voce con i volontari Nati per Leggere per bambini dai 3 anni."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Toc toc, Compagnia degli Stornati"
+    start: 2026-12-12T21:00
+    venue: "Teatro Toselli"
+    address: "Via Teatro Toselli 9"
+    town: "Cuneo"
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.cuneocultura.it/evento/toc-toc-2/
+    summary: "Commedia brillante di Laurent Baffie in due atti, con ricavato devoluto all'ABIO di Cuneo."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Ambasciatore porta... storie! In biblioteca"
+    start: 2026-12-18T17:00
+    venue: "Biblioteca 0-18 di Cuneo"
+    address: "Via Santa Maria 11"
+    town: "Cuneo"
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    audience: [famiglie]
+    official_url: https://www.cuneocultura.it/evento/ambasciatore-porta-storie-in-biblioteca-18-dicembre/
+    summary: "Letture ad alta voce con i volontari Nati per Leggere per bambini dai 3 anni."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Storie e musica nel sacco"
+    start: 2026-12-29T17:00
+    venue: "Biblioteca 0-18 di Cuneo"
+    address: "Via Santa Maria 11"
+    town: "Cuneo"
+    category: famiglie-bambini
+    subcategory: laboratori
+    audience: [famiglie]
+    official_url: https://www.cuneocultura.it/evento/storie-e-musica-nel-sacco/
+    summary: "Laboratorio di lettura inclusivo tra suoni, parole e immagini per bambini dai 4 ai 7 anni."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "Ambasciatore porta... storie! In biblioteca"
+    start: 2027-01-08T17:00
+    venue: "Biblioteca 0-18 di Cuneo"
+    address: "Via Santa Maria 11"
+    town: "Cuneo"
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    audience: [famiglie]
+    official_url: https://www.cuneocultura.it/evento/ambasciatore-porta-storie-in-biblioteca-8-gennaio/
+    summary: "Letture ad alta voce con i volontari Nati per Leggere per bambini dai 3 anni."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  - title: "NoBasi, omaggio ai grandi cantautori italiani"
+    start: 2027-01-09
+    venue: "Teatro Toselli"
+    address: "Via Teatro Toselli 9"
+    town: "Cuneo"
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: "20 euro"
+    official_url: https://www.cuneocultura.it/evento/nobasi-lunga-vita-alla-musica-dal-vivo-omaggio-ai-grandi-cantautori-italiani/
+    summary: "Concerto dedicato ai cantautori italiani con ricavato devoluto all'ABIO."
+    fonte: https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)
+    trovato: '2026-11-28'
+  # ===== ASTI (AT) =====
+  - title: "Il Magico Paese di Natale in piazza Alfieri"
+    start: 2026-11-13
+    end: 2026-12-20
+    venue: "Piazza Alfieri"
+    address: "Piazza Vittorio Alfieri"
+    town: "Asti"
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.comune.asti.it/vivere-comune/eventi/magico-paese-natale-0
+    summary: "Ventesima edizione del mercatino natalizio con casette in legno di artigianato, gastronomia e cibo di strada in piazza Alfieri."
+    fonte: https://www.comune.asti.it/vivere-comune/eventi?f%5B0%5D=quando%3Anext_thirty_days
+    trovato: '2026-11-28'
+  - title: "Arrivato a questo punto, di e con Gioele Dix"
+    start: 2026-11-28T21:00
+    end: 2026-11-28T23:00
+    venue: "Teatro Alfieri"
+    address: "Via al Teatro 2"
+    town: "Asti"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.comune.asti.it/vivere-comune/eventi/stagione-teatrale-20262027-arrivato-questo-punto
+    summary: "Spettacolo di Gioele Dix nella stagione teatrale 2026/2027 della Citta' di Asti."
+    fonte: https://www.comune.asti.it/vivere-comune/eventi?f%5B0%5D=quando%3Anext_thirty_days
+    trovato: '2026-11-28'
+  - title: "Orlando. La commedia"
+    start: 2026-12-10T21:00
+    end: 2026-12-10T23:00
+    venue: "Teatro Alfieri"
+    address: "Via al Teatro 2"
+    town: "Asti"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.comune.asti.it/vivere-comune/eventi/stagione-teatrale-20262027-orlando-commedia
+    summary: "Commedia di Giuseppe Dipasquale liberamente ispirata al romanzo di Virginia Woolf, con Viola Graziosi."
+    fonte: https://www.comune.asti.it/vivere-comune/eventi?f%5B0%5D=quando%3Anext_thirty_days
+    trovato: '2026-11-28'
+  - title: "Concerto Gospel con John Lakin & Friends"
+    start: 2026-12-19T21:00
+    end: 2026-12-19T23:00
+    venue: "Teatro Alfieri"
+    address: "Via al Teatro 2"
+    town: "Asti"
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.comune.asti.it/vivere-comune/eventi/stagione-teatrale-20262027-concerto-gospel
+    summary: "Concerto gospel con sei voci, pianoforte, basso e batteria nella stagione teatrale cittadina."
+    fonte: https://www.comune.asti.it/vivere-comune/eventi?f%5B0%5D=quando%3Anext_thirty_days
+    trovato: '2026-11-28'
+  # ===== ALESSANDRIA (AL) =====
+  - title: "Villaggio di Babbo Natale in piazza della Liberta'"
+    start: 2026-12-04
+    end: 2027-01-12
+    venue: "Piazza della Liberta'"
+    address: "Piazza della Liberta'"
+    town: "Alessandria"
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Villaggio natalizio con ruota panoramica, artisti di strada e mercatino di prodotti e articoli natalizi."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Il sogno dell'Accademia. Una storia lunga cinque secoli"
+    start: 2026-11-26
+    end: 2027-01-29
+    venue: "Biblioteca Civica Francesca Calvo"
+    address: "Piazza Vittorio Veneto 1"
+    town: "Alessandria"
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Le opere di Mario Fallini dialogano con i libri dei poeti dell'Accademia degli Immobili; aperta nei giorni feriali."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Alessandria 13+1, mostra di Paolo Ventura"
+    start: 2026-12-04T17:30
+    end: 2027-01-31
+    venue: "Sale d'Arte"
+    address: "Via Machiavelli 13"
+    town: "Alessandria"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Mostra di Paolo Ventura con uno spazio dedicato alla fotografia di Chiara Fossati, aperta dal venerdi' alla domenica."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Concerto del Coro UPO"
+    start: 2026-12-05T17:00
+    venue: "Chiesa di Santa Lucia"
+    address: "Via Chenna"
+    town: "Alessandria"
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Concerto del Coro e Orchestra dell'Universita' del Piemonte Orientale nel programma natalizio."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Il Cammino delle Note, verso il Natale"
+    start: 2026-12-05T17:00
+    venue: "Ex Complesso Conventuale San Francesco"
+    address: "Via XXIV Maggio 5"
+    town: "Alessandria"
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Concerto natalizio a cura del maestro Massimo Di Lullo."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "La pace possibile, incontro con Domenico Quirico"
+    start: 2026-12-05T17:15
+    venue: "Chiesa di San Giacomo della Vittoria (Santuario dell'Addolorata)"
+    address: "Via San Giacomo della Vittoria"
+    town: "Alessandria"
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Conferenza del giornalista Domenico Quirico sul tema della pace."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Birkin Tree, song and music from Ireland"
+    start: 2026-12-05T21:15
+    venue: "Ex Complesso Conventuale San Francesco"
+    address: "Via XXIV Maggio 5"
+    town: "Alessandria"
+    category: musica
+    subcategory: concerti
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Concerto di musica tradizionale irlandese a cura dell'Associazione Culturale Corelli."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Gomitoli. Fili di voci, parole e note intorno al Natale"
+    start: 2026-12-06T21:00
+    venue: "Ex Complesso Conventuale San Francesco"
+    address: "Via XXIV Maggio 5"
+    town: "Alessandria"
+    category: musica
+    subcategory: concerti
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Concerto gospel con The Joy Gospel Singers e Daniela Tusa."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Tolkien e i dannati della Terra di Mezzo, con Wu Ming 4"
+    start: 2026-12-10T18:00
+    venue: "Palazzo Cuttica"
+    address: "Via Parma 1"
+    town: "Alessandria"
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Presentazione del saggio di Wu Ming 4 sugli ultimi e gli antieroi nell'opera di Tolkien, a cura di Attraverso Festival."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Se potessi avere una cartolina al mese"
+    start: 2026-12-10T17:00
+    end: 2027-01-15
+    venue: "Biblioteca Civica Francesca Calvo"
+    address: "Piazza Vittorio Veneto 1"
+    town: "Alessandria"
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Esposizione di cartoline d'epoca di Alessandria con una sezione di cartoline natalizie."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Mirabilia Urbis, mostra di Angelo Barone"
+    start: 2026-12-11T17:30
+    end: 2027-01-31
+    venue: "Ex Complesso Conventuale San Francesco"
+    address: "Via XXIV Maggio 5"
+    town: "Alessandria"
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Mostra di Angelo Barone aperta dal venerdi' alla domenica."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Armonie di pace a Santa Lucia"
+    start: 2026-12-11T21:00
+    venue: "Chiesa di Santa Lucia"
+    address: "Via Chenna"
+    town: "Alessandria"
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Concerto del Coro e Orchestra dell'Universita' del Piemonte Orientale con la partecipazione di un gruppo scout."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Cosi' ballavamo"
+    start: 2026-12-17T21:00
+    venue: "Teatro Parvum"
+    address: "Via Mazzini 85"
+    town: "Alessandria"
+    category: musica
+    subcategory: concerti
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Serata con le musiche da ballo degli anni Cinquanta, Sessanta e Settanta."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "P.Voices for Xmas"
+    start: 2026-12-20T18:00
+    venue: "Chiesa di Santa Maria del Carmine"
+    address: "Via Guasco"
+    town: "Alessandria"
+    category: musica
+    subcategory: concerti
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Concerto di Natale a lume di candela tra classici del gospel e del soul."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Lettura animata sulla neve"
+    start: 2026-12-21T16:30
+    venue: "Ludoteca Comunale C'e' Sole e Luna"
+    address: "Via Verona 103"
+    town: "Alessandria"
+    category: famiglie-bambini
+    subcategory: laboratori
+    audience: [famiglie]
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Lettura animata per bambini alla ludoteca comunale."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "A casa di una stella, Teatro di Prova"
+    start: 2026-12-22T17:00
+    venue: "Ludoteca Comunale C'e' Sole e Luna"
+    address: "Via Verona 103"
+    town: "Alessandria"
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    audience: [famiglie]
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Spettacolo teatrale per bambini da 0 a 4 anni con le loro famiglie."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Gelindo, La Divota Cumedia"
+    start: 2026-12-25T21:00
+    venue: "Teatro San Francesco"
+    address: "Via San Francesco d'Assisi 15"
+    town: "Alessandria"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Centoduesima edizione dello storico spettacolo natalizio della tradizione alessandrina."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Gelindo, La Divota Cumedia"
+    start: 2026-12-26T21:00
+    venue: "Teatro San Francesco"
+    address: "Via San Francesco d'Assisi 15"
+    town: "Alessandria"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Replica di Santo Stefano dello storico spettacolo natalizio alessandrino."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  - title: "Concerto di Massimo Marchese"
+    start: 2026-12-27T21:00
+    venue: "Ex Complesso Conventuale San Francesco"
+    address: "Via XXIV Maggio 5"
+    town: "Alessandria"
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero
+    summary: "Concerto nel programma natalizio della Citta' di Alessandria."
+    fonte: https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)
+    trovato: '2026-11-28'
+  # ===== BIELLA (BI) =====
+  - title: "Pista di pattinaggio di Natale nel cuore di Biella"
+    start: 2026-11-27T15:00
+    end: 2027-01-24T20:00
+    venue: "Piazza Monsignor Carlo Rossi"
+    address: "Piazza Monsignor Carlo Rossi"
+    town: "Biella"
+    category: sport
+    subcategory: altri-sport
+    access: biglietto
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Pista di pattinaggio sul ghiaccio accanto al Battistero, aperta tutti i giorni con orari serali nel fine settimana."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "La Magia del Dono, mercatino solidale"
+    start: 2026-12-05T10:00
+    end: 2026-12-05T18:00
+    venue: "Portici di Palazzo Oropa"
+    address: "Via Battistero 4"
+    town: "Biella"
+    category: arte-cultura
+    subcategory: volontariato
+    access: libero
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Mercatino solidale delle associazioni a cura del Centro territoriale del volontariato."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Accensione dell'albero di Natale in piazza Vittorio Veneto"
+    start: 2026-12-05T17:00
+    venue: "Piazza Vittorio Veneto"
+    address: "Piazza Vittorio Veneto"
+    town: "Biella"
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Cerimonia di accensione dell'albero di Natale cittadino, accanto al presepe del Collegio dei Minusier."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Concerto dell'Immacolata"
+    start: 2026-12-08T21:00
+    venue: "Chiesa di San Filippo Neri"
+    address: "Via Italia"
+    town: "Biella"
+    category: musica
+    subcategory: concerti
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Concerto della Societa' musicale G. Verdi per la festa dell'Immacolata."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Citta' del Market"
+    start: 2026-12-12T10:00
+    end: 2026-12-13T19:00
+    venue: "Cittadellarte Fondazione Pistoletto"
+    address: "Via Serralunga 27"
+    town: "Biella"
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Mercato a cura della Fondazione Pistoletto negli spazi di Cittadellarte, aperto dalle 10 alle 19."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Corsa dei Babbi Natale"
+    start: 2026-12-13T10:30
+    venue: "Via Malta"
+    address: "Via Malta"
+    town: "Biella"
+    category: sport
+    subcategory: corsa
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Corsa in costume da Babbo Natale a cura del Fondo Edo Tempia."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Concerto degli Auguri"
+    start: 2026-12-16T21:00
+    venue: "Auditorium Citta' Studi"
+    address: "Corso Giuseppe Pella 2B"
+    town: "Biella"
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Concerto della Societa' musicale G. Verdi e del Biella Jazz Club con la voce solista di Silvia Fuse'."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Concerto di Natale a San Cassiano"
+    start: 2026-12-19T21:00
+    venue: "Chiesa di San Cassiano"
+    address: "Piazza San Cassiano"
+    town: "Biella"
+    category: musica
+    subcategory: concerti
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Concerto di Natale a cura dell'Oratorio di San Cassiano."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Mercatino degli Archi"
+    start: 2026-12-20T10:00
+    end: 2026-12-20T18:00
+    venue: "Piazza Cisterna"
+    address: "Piazza Cisterna"
+    town: "Biella"
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Mercatino natalizio al Piazzo a cura dell'associazione Noi del Piazzo."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Concerto Gospel del Biella Gospel Choir"
+    start: 2026-12-20T16:00
+    venue: "Chiesa della SS. Trinita'"
+    address: "Via Italia"
+    town: "Biella"
+    category: musica
+    subcategory: concerti
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Concerto gospel natalizio del Biella Gospel Choir."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Capodanno Citta' di Biella"
+    start: 2026-12-31T22:00
+    venue: "Biella Forum"
+    address: "Via Pajett 24"
+    town: "Biella"
+    category: musica
+    subcategory: party
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Festa di Capodanno organizzata dalla Citta' di Biella al Biella Forum."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Quando arrivava il trenino: Oropa nella Belle Epoque, visita guidata"
+    start: 2027-01-02T11:00
+    venue: "Santuario di Oropa"
+    address: "Via Santuario di Oropa 480"
+    town: "Biella"
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Visita guidata del Santuario dedicata a Oropa ai tempi del trenino della Belle Epoque."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Visita guidata alla Biblioteca Storica di Oropa"
+    start: 2027-01-04T11:00
+    venue: "Santuario di Oropa"
+    address: "Via Santuario di Oropa 480"
+    town: "Biella"
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/
+    summary: "Visita guidata alla Biblioteca Storica del Santuario di Oropa."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)
+    trovato: '2026-11-28'
+  - title: "Closer, con Paolo Kessisoglu"
+    start: 2026-12-01T20:45
+    venue: "Teatro Odeon"
+    address: "VERIFICARE"
+    town: "Biella"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: "da 24 a 33 euro piu' prevendita"
+    official_url: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    summary: "Lo spettacolo di Patrick Marber sui rapporti sentimentali di quattro sconosciuti, nella stagione teatrale della Citta' di Biella."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    trovato: '2026-11-28'
+  - title: "De Andre' canta De Andre', best of tour"
+    start: 2026-12-03T20:45
+    venue: "Teatro Odeon"
+    address: "VERIFICARE"
+    town: "Biella"
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: "da 39,13 a 60 euro piu' prevendita"
+    official_url: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    summary: "Cristiano De Andre' ripropone il meglio del repertorio di Fabrizio De Andre' con la sua band."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    trovato: '2026-11-28'
+  - title: "Gospel Show 2026 con il Sunshine Gospel Choir"
+    start: 2026-12-17T20:45
+    venue: "Teatro Odeon"
+    address: "VERIFICARE"
+    town: "Biella"
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: "22 euro piu' prevendita"
+    official_url: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    summary: "Concerto natalizio del Sunshine Gospel Choir diretto da Alex Negro."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    trovato: '2026-11-28'
+  - title: "L'illusionista, di e con Luca Bono"
+    start: 2027-01-04T20:45
+    venue: "Teatro Odeon"
+    address: "VERIFICARE"
+    town: "Biella"
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    official_url: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    summary: "One man show di illusionismo di Luca Bono con la regia di Arturo Brachetti."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    trovato: '2026-11-28'
+  - title: "Colpi di timone, con Tullio Solenghi"
+    start: 2027-01-14T20:45
+    venue: "Teatro Odeon"
+    address: "VERIFICARE"
+    town: "Biella"
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: "da 24 a 33 euro piu' prevendita"
+    official_url: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    summary: "Tullio Solenghi prosegue l'omaggio a Gilberto Govi con la commedia Colpi di timone."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    trovato: '2026-11-28'
+  - title: "Intanto ti calmi, di e con Beatrice Arnera"
+    start: 2027-01-21T20:45
+    venue: "Teatro Odeon"
+    address: "VERIFICARE"
+    town: "Biella"
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    summary: "Spettacolo comico originale di Beatrice Arnera."
+    fonte: https://comune.biella.it/wp-content/uploads/sites/150/2026/10/Libretto-Biella-26-27.pdf
+    trovato: '2026-11-28'

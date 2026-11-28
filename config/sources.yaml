@@ -361,7 +361,7 @@ sources:
     listing_urls: [https://www.scoprioderzo.it/my-calendar/]
     hint: "Calendario dell'ufficio turistico IAT di Oderzo (TV), plugin My Calendar: mese corrente, anno 2026 se non indicato. Town Oderzo se non indicato; sedi frequenti Palazzo Foscolo (Via Garibaldi 65), Museo Archeologico Eno Bellis, Museo del Duomo. Le mostre compaiono divise per settimana: tenerle come un solo evento con inizio e fine."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-17: sito ufficiale IAT, 6 voci da meta' novembre (concerto a Palazzo Foscolo, Te' al museo, mostra Magnolato), orari e ingresso nelle schede /mc-events/. Nessun feed iCal visibile."
+    note: "Aggiunta da Claude il 2026-11-17: sito ufficiale IAT, 6 voci da meta' novembre (concerto a Palazzo Foscolo, Te' al museo, mostra Magnolato), orari e ingresso nelle schede /mc-events/. Nessun feed iCal visibile. Giro del 2026-11-28: ogni mese si legge con /my-calendar/?format=list&time=month&yr=AAAA&month=M e la pagina contiene JSON-LD Event (nome, inizio, fine, url) ma con location VirtualLocation: il luogo e' solo nel testo della scheda. Febbraio e marzo 2027 ancora vuoti."
 
   - id: fondazione-benetton
     name: Fondazione Benetton Studi Ricerche
@@ -406,7 +406,7 @@ sources:
     listing_urls: [https://www.libreriasanleonardo.it/notes]
     hint: "Presentazioni di libri e incontri della Libreria Universitaria San Leonardo, Piazza Santa Maria dei Battuti 16, Treviso. Anno 2026 per novembre-dicembre, 2027 da gennaio se non indicato. Venue Libreria San Leonardo, town Treviso, category arte-cultura, subcategory libri."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-16: la pagina /notes elenca 4-5 incontri con data e ora (dall'8 al 13/11 nella lettura di oggi), riaperta a mano da tre notti dalla fonte nota: ora la legge il PC. Giro del 2026-11-28: WebFetch di /notes restituisce solo il catalogo del negozio (pagina caricata da script), nessun evento leggibile; l'indirizzo e' giusto (WebSearch lo indica come 'Attivita' ed eventi in libreria', ultimi incontri al 13/11): non disattivata."
+    note: "Aggiunta da Claude il 2026-11-16: la pagina /notes elenca 4-5 incontri con data e ora (dall'8 al 13/11 nella lettura di oggi), riaperta a mano da tre notti dalla fonte nota: ora la legge il PC. Giro del 2026-11-28: WebFetch di /notes restituisce solo il catalogo del negozio (pagina caricata da script), nessun evento leggibile; l'indirizzo e' giusto (WebSearch lo indica come 'Attivita' ed eventi in libreria', ultimi incontri al 13/11): non disattivata. Terzo giro del 2026-11-28: con curl /notes si legge (titolo 'Attivita' ed eventi in libreria', incontri con data e ora, ultimo il 27/11, paginazione /notes/page:2): nessun incontro futuro pubblicato."
 
   - id: comune-resana
     name: Comune di Resana
@@ -499,7 +499,7 @@ sources:
     max_pages: 3
     ai_rewrite: true
     escludi_titoli: "\\|\\s*scuole\\b"
-    note: "Aggiunta da Claude il 2026-10-31: WordPress con The Events Calendar (meta tec-api). Dal 2026-11-05 esclude le repliche '| scuole' (riservate alle classi). Eventi a Treviso (Parco degli Alberi Parlanti, Teatro Sant'Anna) ma anche a Padova e fuori regione: li filtra l'area. robots.txt lo rispetta il PC. 2026-11-28 (giro di Claude): l'API risponde da curl (106 eventi in 120 giorni); dopo la prima pagina il sito mostra una pagina di controllo anti-bot ('One moment, please'): leggere una pagina sola con per_page=50 e date dal giorno, le altre in un altro giro. Area tutta Italia: le date fuori provincia ora si pubblicano."
+    note: "Aggiunta da Claude il 2026-10-31: WordPress con The Events Calendar (meta tec-api). Dal 2026-11-05 esclude le repliche '| scuole' (riservate alle classi). Eventi a Treviso (Parco degli Alberi Parlanti, Teatro Sant'Anna) ma anche a Padova e fuori regione: li filtra l'area. robots.txt lo rispetta il PC. 2026-11-28 (giro di Claude): l'API risponde da curl (106 eventi in 120 giorni); dopo la prima pagina il sito mostra una pagina di controllo anti-bot ('One moment, please'): leggere una pagina sola con per_page=50 e date dal giorno, le altre in un altro giro. Area tutta Italia: le date fuori provincia ora si pubblicano. Terzo giro del 2026-11-28: anche la prima pagina da curl riceve l'anti-bot; WebFetch legge l'API (start_date=2027-01-07, 50 eventi, testo di 470 mila caratteri da leggere a blocchi con offset), la pagina 2 no."
 
   - id: museo-canova
     name: Museo Gypsotheca Antonio Canova (Possagno)
@@ -610,6 +610,15 @@ sources:
     max_pages: 2
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-28: The Events Calendar (27 eventi fino a marzo), robots.txt blocca solo /wp-admin/. Venue vuoto: tutti in Sala Luttazzi, Magazzino 26 del Porto Vecchio."
+  - id: musincantus
+    name: Musincantus (Autunno Musicale Treviso, CortinAteatro)
+    type: tribe_api
+    enabled: true
+    base_url: https://www.musincantus.it
+    per_page: 50
+    max_pages: 1
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (giro): The Events Calendar, l'API /wp-json/tribe/events/v1/events risponde da curl (9 eventi in 120 giorni: Autunno Musicale a Treviso e la stagione CortinAteatro a Cortina d'Ampezzo, con venue, indirizzo e orario). Era nella fonte nota di ops/fonti.yaml, letta a mano. Descrizioni con un commento HTML in testa da ignorare; una scheda ha la fine sbagliata (Schiaccianoci 4/1 con fine 6/3)."
 
 # Profili social da seguire a mano: il bot li mostra con /profili.
 # Non vengono letti in automatico (Instagram e Facebook lo vietano e bloccano gli account):

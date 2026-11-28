@@ -841,6 +841,458 @@ luoghi:
     nota: "Centro polivalente in Piazza Marconi 1: punto della piazza in OpenStreetMap (way 888498486). Aggiunto il 2026-11-28 (revisione, terza prova)."
   - nomi: ["Via Gazzari 1", "Aula Magna della Scuola Secondaria"]
     comune: Cordignano
-    lat: 45.95105
-    lon: 12.41466
-    nota: "Scuola secondaria di Via Gazzari 1: punto della via in OpenStreetMap (way 163830911), civico non in OSM. Aggiunto il 2026-11-28 (revisione, terza prova)."
+    lat: 45.95006
+    lon: 12.41434
+    nota: "Scuola secondaria Ippolito Nievo: Via Gazzari 1 e' la sede dell'istituto comprensivo, la scuola media e' in Via Vittorio Veneto 12 (tuttitalia.it, codice TVMM825015), edificio accanto a Via Gazzari in OpenStreetMap (way 234787583). Aggiunto il 2026-11-28 (revisione, terza prova), punto spostato sull'edificio nella quarta prova."
+
+  # --- revisione del 2026-11-28, quarta prova: 73 luoghi (OpenStreetMap Nominatim, nome e indirizzo della fonte dell'evento) ---
+  - nomi: ["Teatro Donizetti", "Piazza Cavour 15"]
+    comune: Bergamo
+    lat: 45.69508
+    lon: 9.67109
+    nota: "Teatro Donizetti, Piazza Cavour 15 (indirizzo del calendario della Fondazione Teatro Donizetti). OpenStreetMap node 12453227640, stesso civico. Vale anche per la Sala della Musica Tremaglia, dentro il teatro. 33 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Sociale", "Via Colleoni 4"]
+    comune: Bergamo
+    lat: 45.70435
+    lon: 9.66238
+    nota: "Teatro Sociale di Citta' Alta, Via Colleoni 4 (OpenStreetMap node 12093604016; teatro della Fondazione Teatro Donizetti). 8 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Basilica di Santa Maria Maggiore"]
+    comune: Bergamo
+    lat: 45.70321
+    lon: 9.66222
+    nota: "Basilica di Santa Maria Maggiore in Citta' Alta, accanto a Piazza Duomo (OpenStreetMap way 79808361). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Sociale di Como", "Teatro Sociale", "Via Bellini 3", "Sala Bianca del Teatro Sociale"]
+    comune: Como
+    lat: 45.81152
+    lon: 9.08488
+    nota: "Teatro Sociale di Como, Via Bellini 3 (indirizzo della fonte teatrosocialecomo.it). OpenStreetMap way 60838674, stesso civico. Vale anche per Foyer e Sala Bianca, nello stesso edificio su Piazza Verdi. 30 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Manzoni", "Via Alessandro Manzoni 23"]
+    comune: Monza
+    lat: 45.583
+    lon: 9.27195
+    nota: "Teatro Manzoni, Via Manzoni 23 (indirizzo di teatromanzonimonza.it). OpenStreetMap way 227219077, stesso civico. 14 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro comunale di Pergine", "Foyer Bepi Roner"]
+    comune: Pergine Valsugana
+    lat: 46.06213
+    lon: 11.2392
+    nota: "Teatro comunale di Pergine Valsugana, Piazza Garibaldi (OpenStreetMap way 1162999085). Vale anche per il Foyer Bepi Roner del teatro. Non confondere con il Teatro comunale di Ischia, frazione. 9 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Biblioteca sovracomunale di Pergine", "Biblioteca comunale di Pergine"]
+    comune: Pergine Valsugana
+    lat: 46.06228
+    lon: 11.23945
+    nota: "Biblioteca di Pergine Valsugana, Piazza Garibaldi 6, accanto al teatro (OpenStreetMap way 1177909520). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Grande", "Corso Zanardelli 9/A", "Ridotto del Teatro Grande"]
+    comune: Brescia
+    lat: 45.53679
+    lon: 10.22076
+    nota: "Teatro Grande, Corso Zanardelli 9/A (indirizzo di teatrogrande.it). OpenStreetMap node 1668862274, stesso civico. Vale anche per il Ridotto. 7 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Sociale di Mantova", "Teatro Sociale", "Piazza Felice Cavallotti"]
+    comune: Mantova
+    lat: 45.15785
+    lon: 10.79042
+    nota: "Teatro Sociale di Mantova, Piazza Cavallotti (OpenStreetMap way 129490048, civico 15; la fonte scrive 14). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Scientifico Bibiena", "Teatro Bibiena", "Via Accademia 47"]
+    comune: Mantova
+    lat: 45.15787
+    lon: 10.79812
+    nota: "Teatro Scientifico Bibiena, Via dell'Accademia 47 (OpenStreetMap way 239210575, stesso civico). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["PalaUnical", "Via Melchiorre Gioia 3"]
+    comune: Mantova
+    lat: 45.16739
+    lon: 10.8262
+    nota: "PalaUnical, Viale Melchiorre Gioia 3 (OpenStreetMap way 75043693, stesso civico). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Civico Pertini", "Centro Civico Sandro Pertini", "Via Giuseppe Bologna 38"]
+    comune: Bresso
+    lat: 45.53374
+    lon: 9.1849
+    nota: "Teatro del Centro Civico Sandro Pertini, Via Bologna 38 (OpenStreetMap way 123522795, stesso civico). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Parco Renzo Rivolta"]
+    comune: Bresso
+    lat: 45.53573
+    lon: 9.19159
+    nota: "Parco Renzo Rivolta (OpenStreetMap way 529080134): punto al centro del parco, ingressi tutti attorno. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Villa Panza", "Piazza Litta 2"]
+    comune: Varese
+    lat: 45.82502
+    lon: 8.82928
+    nota: "Villa e Collezione Panza, Piazza Litta (OpenStreetMap way 291486549). 2 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Ippodromo Le Bettole", "Viale Ippodromo 27"]
+    comune: Varese
+    lat: 45.83196
+    lon: 8.82934
+    nota: "Ippodromo Le Bettole (OpenStreetMap way 245077812). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Museo Etno Archeologico Castiglioni", "Museo Castiglioni", "Vico Giambattista 46"]
+    comune: Varese
+    lat: 45.84415
+    lon: 8.81486
+    nota: "Museo Castiglioni, Viale Giambattista Vico 46 (OpenStreetMap node 6441337817, stesso civico). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Villa Scaccabarozzi"]
+    comune: Usmate Velate
+    lat: 45.65183
+    lon: 9.3437
+    nota: "Villa Scaccabarozzi (OpenStreetMap way 261211964), all'angolo di Via Cottolengo, indirizzo della scheda del Comune. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Villa Litta Modignani", "Piazza Litta Modignani 9"]
+    comune: Ossona
+    lat: 45.50621
+    lon: 8.90047
+    nota: "Villa Litta Modignani, Piazza Litta Modignani 9, sede del Municipio (OpenStreetMap way 570666569, stesso civico). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Auditorium Unita' d'Italia", "Via Dante Alighieri 1"]
+    comune: Ossona
+    lat: 45.507
+    lon: 8.89738
+    nota: "Auditorium Unita' d'Italia, Via Dante 1: edificio della scuola secondaria Giovanni XXIII allo stesso civico (OpenStreetMap way 570671807). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["CineTeatro Cesare Volta", "Piazzale Salvo D'Acquisto 1"]
+    comune: Pavia
+    lat: 45.21138
+    lon: 9.1611
+    nota: "Cineteatro Cesare Volta, Piazzale Salvo D'Acquisto 1 (OpenStreetMap node 9415931641). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Universita' di Pavia, Aula A di Scienze Politiche", "Palazzo Centrale"]
+    comune: Pavia
+    lat: 45.18688
+    lon: 9.15852
+    nota: "Palazzo centrale dell'Universita' di Pavia, Strada Nuova 65 (OpenStreetMap relation 15535016). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["TSM Trentino School of Management", "TSM-Trentino School of Management"]
+    comune: Trento
+    lat: 46.05952
+    lon: 11.11854
+    nota: "tsm-Trentino School of Management, Via Giuseppe Giusti 40 (OpenStreetMap node 5672964626). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Comunale Bolzano", "Teatro Comunale di Bolzano", "Stadttheater Bozen"]
+    comune: Bolzano
+    lat: 46.49568
+    lon: 11.35376
+    nota: "Teatro Comunale - Stadttheater, Piazza Verdi / Via dell'Isarco 40 (OpenStreetMap way 32873409): stesso punto dato dagli eventi (candidato di ops/posizioni.json, 20 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Comunale di Gries"]
+    comune: Bolzano
+    lat: 46.50163
+    lon: 11.33579
+    nota: "Teatro Comunale di Gries, Galleria Telser (OpenStreetMap node 6584437832; candidato, 3 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Walther"]
+    comune: Bolzano
+    lat: 46.49865
+    lon: 11.35518
+    nota: "Piazza Walther (OpenStreetMap relation 4003691; candidato, 3 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Sociale"]
+    comune: Trento
+    lat: 46.06969
+    lon: 11.12253
+    nota: "Teatro Sociale, Via Oss Mazzurana 19 (OpenStreetMap way 38038138; candidato, 14 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Castello del Buonconsiglio", "Via Bernardo Clesio 5"]
+    comune: Trento
+    lat: 46.07148
+    lon: 11.12668
+    nota: "Castello del Buonconsiglio, Via Clesio 5 (OpenStreetMap way 1173222628; candidato, 7 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Palazzo Roccabruna"]
+    comune: Trento
+    lat: 46.06629
+    lon: 11.1235
+    nota: "Palazzo Roccabruna, Via Santissima Trinita' 24 (OpenStreetMap way 74440455; candidato, 7 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza S. Maria Maggiore", "Piazza Santa Maria Maggiore"]
+    comune: Trento
+    lat: 46.0686
+    lon: 11.11904
+    nota: "Piazza Santa Maria Maggiore (OpenStreetMap way 1391908266; candidato, 6 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Dante"]
+    comune: Trento
+    lat: 46.07155
+    lon: 11.12044
+    nota: "Piazza Dante, davanti alla stazione (OpenStreetMap way 1390812343; candidato, 5 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Le Gallerie di Piedicastello", "Gallerie di Piedicastello"]
+    comune: Trento
+    lat: 46.07166
+    lon: 11.11351
+    nota: "Le Gallerie, Piazza di Piedicastello (OpenStreetMap node 446773163; candidato, 5 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro di Villazzano"]
+    comune: Trento
+    lat: 46.04935
+    lon: 11.14722
+    nota: "Teatro di Villazzano, Via Giordano (OpenStreetMap node 5059822977; candidato, 3 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Raiffeisen", "Raiffeisenplatz"]
+    comune: San Leonardo in Passiria
+    lat: 46.8124
+    lon: 11.2454
+    nota: "Piazza Raiffeisen (OpenStreetMap way 62114672; candidato, 7 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Morter"]
+    comune: Laces
+    lat: 46.6053
+    lon: 10.8213
+    nota: "Frazione di Morter (OpenStreetMap node 401444978, centro del paese; candidato, 3 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Prealpi Sanbiagio Arena", "Prealpi SanBiagio Arena", "Zoppas Arena", "Viale dello Sport 2"]
+    comune: Conegliano
+    lat: 45.86617
+    lon: 12.31532
+    nota: "Prealpi SanBiagio Arena (ex Zoppas Arena), Viale dello Sport 2 (OpenStreetMap way 144539654; candidato, 11 eventi). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Teatro Filarmonico"]
+    comune: Verona
+    lat: 45.43844
+    lon: 10.99031
+    nota: "Teatro Filarmonico, Via dei Mutilati (OpenStreetMap way 138812025). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Duomo di Verona", "Cattedrale di Santa Maria Matricolare"]
+    comune: Verona
+    lat: 45.44723
+    lon: 10.99707
+    nota: "Duomo, Cattedrale di Santa Maria Matricolare, Piazza Duomo (OpenStreetMap way 1193534140). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza del Popolo, San Michele Extra"]
+    comune: Verona
+    lat: 45.43407
+    lon: 11.04349
+    nota: "Piazza del Popolo di San Michele Extra (OpenStreetMap relation 21218848). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Basilica di Sant'Antonio", "Basilica del Santo", "Piazza del Santo 11"]
+    comune: Padova
+    lat: 45.40146
+    lon: 11.88085
+    nota: "Basilica di Sant'Antonio, Piazza del Santo 11 (OpenStreetMap way 27198535, stesso civico). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Capitaniato"]
+    comune: Padova
+    lat: 45.40796
+    lon: 11.87225
+    nota: "Piazza Capitaniato (OpenStreetMap way 30137769). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Auditorium Pollini", "Via Carlo Cassan 17"]
+    comune: Padova
+    lat: 45.40958
+    lon: 11.8802
+    nota: "Auditorium Cesare Pollini, Via Carlo Cassan 17 (civico in OpenStreetMap, node 4727774190). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Chiesa di San Vincenzo"]
+    comune: Vicenza
+    lat: 45.54762
+    lon: 11.54651
+    nota: "Chiesa di San Vincenzo in Piazza dei Signori (OpenStreetMap way 138906926). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza San Paolo, Alte Ceccato", "Piazza San Paolo 1"]
+    comune: Montecchio Maggiore
+    lat: 45.49558
+    lon: 11.43497
+    nota: "Piazza San Paolo di Alte Ceccato (OpenStreetMap way 31959642). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Basilica di San Marco"]
+    comune: Venezia
+    lat: 45.43455
+    lon: 12.33982
+    nota: "Basilica di San Marco (OpenStreetMap way 138800932). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Palazzo Bembo"]
+    comune: Belluno
+    lat: 46.14014
+    lon: 12.21316
+    nota: "Palazzo Bembo, Via Loreto (OpenStreetMap relation 1868704). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Angelina Zampieri"]
+    comune: Belluno
+    lat: 46.14023
+    lon: 12.21366
+    nota: "Piazza Angelina Zampieri (OpenStreetMap way 1136029249). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Palazzo Frangipane"]
+    comune: Tarcento
+    lat: 46.21652
+    lon: 13.22235
+    nota: "Palazzo Frangipane, Piazza Frangipane, sede del Comune (OpenStreetMap way 36660185). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Loggia dei Grani"]
+    comune: Montebelluna
+    lat: 45.77592
+    lon: 12.04583
+    nota: "Loggia dei Grani, Via Serena (OpenStreetMap way 134244100). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Villa Correr Pisani", "Villa Correr-Pisani"]
+    comune: Montebelluna
+    lat: 45.7891
+    lon: 12.05418
+    nota: "Villa Correr Pisani, Via Consolata, Biadene (OpenStreetMap way 265458433). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Duomo di Montebelluna"]
+    comune: Montebelluna
+    lat: 45.77412
+    lon: 12.03849
+    nota: "Duomo dell'Immacolata Concezione, Piazza Monsignor Furlan (OpenStreetMap way 351216851). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["H-FARM Campus", "H-Farm College", "Via Olivetti 1", "Via Adriano Olivetti 1"]
+    comune: Roncade
+    lat: 45.56612
+    lon: 12.43186
+    nota: "Campus di H-FARM, Via Olivetti 1, Ca' Tron (OpenStreetMap way 258461145). E' a 9 km dal centro di Roncade ma nel comune: falso allarme 'lontano dal comune'. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Chiesa di San Giovanni Battista, Biancade", "Via Paris Bordone 3"]
+    comune: Roncade
+    lat: 45.6451
+    lon: 12.35849
+    nota: "Chiesa di San Giovanni Battista di Biancade (OpenStreetMap way 193742323). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Rigo", "Piazza Luciano Rigo"]
+    comune: Spresiano
+    lat: 45.77992
+    lon: 12.25888
+    nota: "Piazza Luciano Rigo (OpenStreetMap way 1211810348). 2 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Palateatro di Fontane", "Palateatro", "Via Cave 15"]
+    comune: Villorba
+    lat: 45.70299
+    lon: 12.25034
+    nota: "Palateatro di Fontane, Via Cave 15/a (OpenStreetMap node 2346683308). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Chiesa di Fontane", "Chiesa parrocchiale di Fontane"]
+    comune: Villorba
+    lat: 45.70705
+    lon: 12.24831
+    nota: "Chiesa della Nativita' della Beata Vergine Maria di Fontane, Via Pastro (OpenStreetMap way 150660808). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Museo Casa Giorgione", "Casa Giorgione"]
+    comune: Castelfranco Veneto
+    lat: 45.67097
+    lon: 11.92692
+    nota: "Museo Casa Giorgione, Piazza San Liberale (OpenStreetMap node 2442180515). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Chiesa di Piavon"]
+    comune: Oderzo
+    lat: 45.76105
+    lon: 12.52474
+    nota: "Chiesa di San Benedetto Abate di Piavon, Via Chiesa 9 (OpenStreetMap way 178807787). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Canottieri Sile", "Via Tezzone"]
+    comune: Treviso
+    lat: 45.66237
+    lon: 12.24394
+    nota: "Canottieri Sile, Via Tezzone 17 (OpenStreetMap node 4531916858). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Marco Polo Sporting Center", "Via De Nadai 30"]
+    comune: Vittorio Veneto
+    lat: 45.9817
+    lon: 12.31357
+    nota: "Marco Polo Sporting Center (OpenStreetMap way 161026640). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Collezione Salce, sede di Santa Margherita", "Salce Santa Margherita", "Via Reggimento Italia Libera"]
+    comune: Treviso
+    lat: 45.66291
+    lon: 12.24882
+    nota: "Museo nazionale Collezione Salce, sede di Santa Margherita, Via Reggimento Italia Libera (OpenStreetMap node 11665767089). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Palazzo Sarcinelli", "Via XX Settembre 132"]
+    comune: Conegliano
+    lat: 45.88739
+    lon: 12.29881
+    nota: "Palazzo Sarcinelli, Via XX Settembre 132 (OpenStreetMap way 98237652). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Liberta, Solighetto", "Piazza Libertà, Solighetto"]
+    comune: Pieve di Soligo
+    lat: 45.9153
+    lon: 12.1685
+    nota: "Piazza Liberta' di Solighetto (OpenStreetMap way 126788048). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Rovero"]
+    comune: San Zenone degli Ezzelini
+    lat: 45.77949
+    lon: 11.839
+    nota: "Piazza Rovero (OpenStreetMap way 237382224). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Municipio"]
+    comune: Povegliano
+    lat: 45.76028
+    lon: 12.20672
+    nota: "Piazza Municipio (OpenStreetMap way 138306714). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza di Osigo", "Piazza Osigo"]
+    comune: Fregona
+    lat: 46.01149
+    lon: 12.35168
+    nota: "Piazza di Osigo (OpenStreetMap way 475700276). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Galleria del Liceo Artistico", "Via Carlo Alberto 5"]
+    comune: Treviso
+    lat: 45.66597
+    lon: 12.24995
+    nota: "Liceo artistico di Treviso, Via Carlo Alberto 5 (civico in OpenStreetMap, node 4531922088). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Centro Culturale Estrada", "Strada Comunale delle Corti 73"]
+    comune: Treviso
+    lat: 45.68221
+    lon: 12.2454
+    nota: "Strada comunale delle Corti 73 (civico in OpenStreetMap, node 4531884568). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Chiesa del Sacro Cuore"]
+    comune: Treviso
+    lat: 45.68333
+    lon: 12.23987
+    nota: "Chiesa del Sacro Cuore di Gesu', Strada di San Pelajo (OpenStreetMap way 140941796). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Dosson"]
+    comune: Casier
+    lat: 45.63544
+    lon: 12.25135
+    nota: "Frazione di Dosson (OpenStreetMap node 60280175): centro della frazione, la fonte non da' un luogo piu' preciso. 3 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Paderno"]
+    comune: Ponzano Veneto
+    lat: 45.71766
+    lon: 12.20683
+    nota: "Frazione di Paderno (OpenStreetMap node 1487570666): centro della frazione, la fonte non da' un luogo piu' preciso. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Campea"]
+    comune: Miane
+    lat: 45.93032
+    lon: 12.10727
+    nota: "Frazione di Campea (OpenStreetMap node 1435524507): centro della frazione. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Grotte del Caglieron"]
+    comune: Fregona
+    lat: 46.00727
+    lon: 12.33097
+    nota: "Grotte del Caglieron: ingresso del percorso sulla Via Grotte del Caglieron (OpenStreetMap way 148424220, accanto al pannello del percorso). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Via Volpere"]
+    comune: Villorba
+    lat: 45.74572
+    lon: 12.2284
+    nota: "Via Volpere (OpenStreetMap way 138330007). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Stadio comunale di Villorba"]
+    comune: Villorba
+    lat: 45.72446
+    lon: 12.26484
+    nota: "Campo del Villorba Rugby in Via Marconi (OpenStreetMap way 154953447), stessa via dell'indirizzo della fonte. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["NOI Fontane", "Noi Fontane"]
+    comune: Villorba
+    lat: 45.70705
+    lon: 12.24831
+    nota: "Circolo NOI della parrocchia di Fontane: sede non trovata (ricerca web e OpenStreetMap), punto noto piu' vicino la chiesa parrocchiale di Fontane, Piazza Cadorna 21 (OpenStreetMap way 150660808; indirizzo da copray.ch). 5 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Auditorium Santo Stefano"]
+    comune: Farra di Soligo
+    lat: 45.90576
+    lon: 12.12565
+    nota: "Auditorium Santo Stefano di Farra: indirizzo non trovato (ricerca web, OpenStreetMap), punto noto piu' vicino la chiesa parrocchiale di Farra di Soligo, Via del Giardino (OpenStreetMap way 1112003262). 5 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Parco del Donatore"]
+    comune: Loria
+    lat: 45.71318
+    lon: 11.86470
+    nota: "Parco del Donatore di Ramon, Via San Pancrazio (indirizzo della fonte): il parco non e' in OpenStreetMap, punto sulla Via San Pancrazio a Ramon (way 134555098). 6 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Ex scuola elementare San Pio X", "Vicolo San Pio X"]
+    comune: Quinto di Treviso
+    lat: 45.63581
+    lon: 12.16481
+    nota: "Ex scuola elementare San Pio X, Vicolo San Pio X (scheda del Comune): edificio non in OpenStreetMap, punto del vicolo (way 139979845). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Marconi"]
+    comune: Valdobbiadene
+    lat: 45.90181
+    lon: 11.99562
+    nota: "Piazza Guglielmo Marconi, piazza centrale di Valdobbiadene (OpenStreetMap way 244222943; OSM la attribuisce alla localita' Funer ma e' la piazza del centro, a 200 m dal municipio). 3 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Ananda Marga", "Via Cavour 7/a"]
+    comune: Ponzano Veneto
+    lat: 45.71124
+    lon: 12.21658
+    nota: "Centro Ananda Marga, Via Cavour 7/a (indirizzo della fonte): civico non in OpenStreetMap, punto della via a Ponzano (way 135439674). 3 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Oratorio di Soligo"]
+    comune: Farra di Soligo
+    lat: 45.91492
+    lon: 12.15557
+    nota: "Oratorio parrocchiale di Soligo: non in OpenStreetMap, punto noto piu' vicino la chiesa dei Santi Pietro e Paolo di Soligo (way 228400866), come la Canonica di Soligo. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Falze'", "Falze"]
+    comune: Trevignano
+    lat: 45.74346
+    lon: 12.09246
+    nota: "Frazione di Falze', capoluogo di Trevignano (OpenStreetMap node 1402414092): centro della frazione per gli eventi che danno solo 'Falze''. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Biblioteca Bonetta", "Biblioteca civica Carlo Bonetta", "Piazza Petrarca 2"]
+    comune: Pavia
+    lat: 45.18804
+    lon: 9.15413
+    nota: "Biblioteca civica Carlo Bonetta, Piazza Petrarca 2 (indirizzo della scheda del Comune di Pavia): civico in OpenStreetMap (node 2776053037). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Biblioteca Ragazzi", "Via Paratici 23"]
+    comune: Pavia
+    lat: 45.18432
+    lon: 9.15434
+    nota: "Biblioteca Ragazzi Paternico' e Prini, Via Paratici 23 (scheda del Comune di Pavia): civico in OpenStreetMap (node 2776067309). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Biblioteca Mirabello Scala", "Mirabello Scala"]
+    comune: Pavia
+    lat: 45.21181
+    lon: 9.15994
+    nota: "Biblioteca di quartiere Mirabello Scala, Piazzale Salvo D'Acquisto 5 (scheda del Comune di Pavia): punto del piazzale in OpenStreetMap (way 251352671), civico 5 non in OSM; accanto al Cineteatro Volta. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Villa Olivi", "Parco di Villa Olivi"]
+    comune: Breda di Piave
+    lat: 45.72461
+    lon: 12.33142
+    nota: "Villa Olivi, Via Termine (OpenStreetMap way 166642784): punto sulla villa, il parco la circonda. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Fiera"]
+    comune: Trento
+    lat: 46.06514
+    lon: 11.12395
+    nota: "Piazza di Fiera, sede del Mercatino di Natale (OpenStreetMap way 1499388066). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Piazza Martiri di Belfiore"]
+    comune: Mantova
+    lat: 45.15633
+    lon: 10.79180
+    nota: "Piazza Martiri di Belfiore (OpenStreetMap way 205706108), a 250 m dalla Rotonda di San Lorenzo. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Via Divisione Julia 13", "Via Julia 13", "IAT Tarcento"]
+    comune: Tarcento
+    lat: 46.21824
+    lon: 13.22350
+    nota: "Via Julia 13 (Via Divisione Julia 13 nella scheda del Comune per lo IAT, Via Julia 13 per la Biblioteca Cappello): civico 13 in OpenStreetMap (node 10537115133). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Auditorium comunale di Taio"]
+    comune: Predaia
+    lat: 46.32099
+    lon: 11.06581
+    nota: "Auditorium al piano terra della sede degli uffici comunali di Taio, Via S. Barbacovi (scheda del Comune di Predaia): punto della via in OpenStreetMap (way 98524826). Aggiunto il 2026-11-28 (revisione, quarta prova)."

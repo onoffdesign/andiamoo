@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T16:54+01:00",
+ "generato": "2026-11-28T17:38+01:00",
  "riepilogo": {
-  "eventi_controllati": 1216,
-  "allineati_in_automatico": 1,
+  "eventi_controllati": 1677,
+  "allineati_in_automatico": 0,
   "luoghi_con_punti_diversi": 4,
-  "lontani_dal_comune": 5,
-  "solo_comune_con_luogo": 293,
+  "lontani_dal_comune": 58,
+  "solo_comune_con_luogo": 103,
   "solo_comune_senza_luogo": 29,
-  "candidati_luoghi_noti": 13
+  "candidati_luoghi_noti": 38
  },
  "punti_diversi": [
   {
@@ -55,8 +55,8 @@
      12.4178
     ],
     [
-     45.9511,
-     12.4147
+     45.9501,
+     12.4143
     ]
    ],
    "uid_fuori_posto": [
@@ -73,8 +73,8 @@
      12.4178
     ],
     [
-     45.9511,
-     12.4147
+     45.9501,
+     12.4143
     ]
    ],
    "uid_fuori_posto": [
@@ -84,6 +84,52 @@
   }
  ],
  "lontani_dal_comune": [
+  {
+   "luogo": "Teatro Toniolo, Mestre, Piazzetta Cesare Battisti 1, Venezia",
+   "km_dal_centro": 10,
+   "eventi": 39,
+   "uid": [
+    "3bf098de7eb740f1",
+    "ddc9e1d0f6176780",
+    "fd9e9d892f8a59aa",
+    "e537b9fd5f700fb6",
+    "c5205049e16f6c5a",
+    "73192a7821c14a84",
+    "76188584eb2dc0bc",
+    "95ef7ca04b026de5",
+    "088deee09b3b4283",
+    "f6f5c1f869458c8a"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Teatro del Parco, Mestre, Via Sergio Gori 11, Parco Albanese, Venezia",
+   "km_dal_centro": 10,
+   "eventi": 11,
+   "uid": [
+    "3b1854e3e8f21e37",
+    "eb1427949ccfbb9d",
+    "34afafe79428c382",
+    "87903fa4ec906798",
+    "cc0281cbc6ba36b9",
+    "44dc37ad811ee98d",
+    "325aed4a1c5cf9b5",
+    "04ef180ba6d90e71",
+    "e16f9af5a2dfe00b",
+    "4d76423621c2573d"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "H-FARM Campus, Welcome Center, Via Olivetti 1, Roncade",
+   "km_dal_centro": 8,
+   "eventi": 2,
+   "uid": [
+    "121d33cebde20f6d",
+    "985dddbb9c56b1b1"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
   {
    "luogo": "Chiesa di Santa Maria in Stelle, Verona",
    "km_dal_centro": 7,
@@ -100,6 +146,15 @@
    "eventi": 1,
    "uid": [
     "b33cc7b9cff4550c"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Teatro parrocchiale di Scardovari, Viale della Repubblica 6, Porto Tolle",
+   "km_dal_centro": 11,
+   "eventi": 1,
+   "uid": [
+    "2dba4f3aeacd96c8"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -124,124 +179,6 @@
  ],
  "senza_punto": [
   {
-   "luogo": "Teatro Donizetti, Piazza Cavour 15, Bergamo",
-   "eventi": 32,
-   "uid": [
-    "236456137570de36",
-    "9e5de77a7ea92de2",
-    "173e6663077e9c2a",
-    "6a9ae99c7b30d9e5",
-    "9ed9def96f98898a",
-    "dc8efd2db390ee42",
-    "9d5c67c7f9fb66be",
-    "c59681371a89a3d5",
-    "42c1325908269f15",
-    "d15e6acb4ef8a408"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Sociale di Como, Via Bellini 3, Como",
-   "eventi": 26,
-   "uid": [
-    "68d6adc95713a7c1",
-    "12f83a6eb8b26c6d",
-    "f07fb70e64a45396",
-    "68114415365b2b47",
-    "a3252afe27d6f114",
-    "0d537bc17028baa2",
-    "6219faf3d4fd60b1",
-    "9a818e39813a6c43",
-    "6de852c506e3c823",
-    "9a50bfc578b66732"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Manzoni, Via Alessandro Manzoni 23, Monza",
-   "eventi": 14,
-   "uid": [
-    "b6f606e6ee2dc38d",
-    "7943b703cc79be3b",
-    "8e0ffff657eed96d",
-    "4cff2fbdfa6b2f70",
-    "74ec709e9856aa7c",
-    "79af7cf8bcab10c5",
-    "291b341a44e87624",
-    "bc561ce33c8fdd9b",
-    "7a31176141fa0fa0",
-    "8fba2475181cd33a"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro comunale di Pergine, Pergine Valsugana",
-   "eventi": 8,
-   "uid": [
-    "2da8d02b54575cd1",
-    "dc5b8adcbb3edf5c",
-    "a878aefccf0c1cd2",
-    "03876f1882e33888",
-    "ecc3e6e9299e4fe1",
-    "03e1e9f445e6ff11",
-    "222d71b88b143058",
-    "b088562beabd6379"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Sociale, Bergamo",
-   "eventi": 8,
-   "uid": [
-    "88365dcf67a45fa9",
-    "8e18a0609cb71e3c",
-    "bb8e4a271641aeee",
-    "428450fd8799b9da",
-    "a07c89f5976b343a",
-    "d01c80f7acc2034c",
-    "362c00fb322f01ae",
-    "f0d00eb0e080c75f"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Parco del Donatore, Via San Pancrazio, Loria",
-   "eventi": 6,
-   "uid": [
-    "e41aa64c21ef52c9",
-    "ba328bc3a8c9ba80",
-    "de8c69d89e94ab73",
-    "2ba4ceb7ca395e50",
-    "0b6dbc1975038383",
-    "dc43203ae5a8f3d7"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Auditorium Santo Stefano, Farra di Soligo",
-   "eventi": 5,
-   "uid": [
-    "a4c4673ed1074528",
-    "45a2b7de47506e4d",
-    "ecdfec83ba6f3b26",
-    "d2a0290cf86af47d",
-    "0176f4033b10a234"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "NOI Fontane, Villorba",
-   "eventi": 5,
-   "uid": [
-    "bc756e2b15f7414d",
-    "43049f3f70e3c2f2",
-    "b733b92cddb47a11",
-    "ef93ad2426665e34",
-    "fd6ffaa8acf96f26"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Biblioteca comunale di Farra di Soligo, Farra di Soligo",
    "eventi": 4,
    "uid": [
@@ -264,17 +201,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Teatro Grande, Corso Zanardelli 9/A, Brescia",
-   "eventi": 4,
-   "uid": [
-    "99fdc03b9c81d43f",
-    "6b50e474e11373b6",
-    "efac8dd83f4418e9",
-    "bd0bfbd4919a76e5"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Biblioteca comunale di Paese, Paese",
    "eventi": 4,
    "uid": [
@@ -286,40 +212,11 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Piazza Marconi e Via Garibaldi, Piazza Marconi, Valdobbiadene",
-   "eventi": 3,
-   "uid": [
-    "9d6730b5ba1d5be4",
-    "a9ddc97b1e577969",
-    "715397d249674ee4"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Ridotto del Teatro Grande, Corso Zanardelli 9/A, Brescia",
-   "eventi": 3,
-   "uid": [
-    "6c7d78e2717ee46d",
-    "4b558c6f1a1093ea",
-    "5f2ec01cb9eb7086"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Falze', Trevignano",
+   "luogo": "Cinema Teatro Manzoni, Paese",
    "eventi": 2,
    "uid": [
-    "16550e702abd4e3c",
-    "c154ab989bd88661"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Ex scuola elementare San Pio X, Vicolo San Pio X, Quinto di Treviso",
-   "eventi": 2,
-   "uid": [
-    "faea2d5ad01727e4",
-    "48eb199784b73fdc"
+    "14e942aa659b233b",
+    "c31e5381342fff87"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -342,47 +239,11 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Oratorio di Soligo, Farra di Soligo",
-   "eventi": 2,
-   "uid": [
-    "1c46ba8b5c368f40",
-    "d65348283e04c278"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Loggia dei Grani, zona sud, Montebelluna",
-   "eventi": 2,
-   "uid": [
-    "9b857831be628167",
-    "38f5a75d1c328756"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Biblioteca comunale di Maser, Piazza Municipio 9, Maser",
    "eventi": 2,
    "uid": [
     "7ab48d752e47eca8",
     "96987488013db8af"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "H-FARM Campus, Welcome Center, Via Olivetti 1, Roncade",
-   "eventi": 2,
-   "uid": [
-    "121d33cebde20f6d",
-    "985dddbb9c56b1b1"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Centro Ananda Marga, Via Cavour 7/a, Ponzano Veneto",
-   "eventi": 2,
-   "uid": [
-    "2d95b096b2bd85f7",
-    "955794093e4a9f1f"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -405,74 +266,11 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Biblioteca sovracomunale di Pergine Valsugana, Pergine Valsugana",
-   "eventi": 2,
-   "uid": [
-    "e3da91deab5d8be4",
-    "4cd4a8d3b12b7d9e"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Civico Pertini, Via Giuseppe Bologna 38, Bresso",
-   "eventi": 2,
-   "uid": [
-    "2446a0eeeff56b99",
-    "356e25d60d141ed8"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Foyer del Teatro Sociale di Como, piazza Verdi, Como",
-   "eventi": 2,
-   "uid": [
-    "ee792d3f180a7169",
-    "17da788b74b4ca5c"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Sociale di Mantova, Piazza Felice Cavallotti 14, Mantova",
-   "eventi": 2,
-   "uid": [
-    "d6b8ec938b969b2d",
-    "063c80ef38998b85"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazza Rigo, Piazza Luciano Rigo, Spresiano",
-   "eventi": 2,
-   "uid": [
-    "1d54b28440df8e02",
-    "3e47c89cd4e1511d"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Stadio comunale di Villorba, Via Marconi, Villorba",
-   "eventi": 2,
-   "uid": [
-    "efafbbdddbe104f3",
-    "f2a538d6ce208329"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Centro di Roncade, Roncade",
    "eventi": 2,
    "uid": [
     "c1f4f6b62e310f6d",
     "4eeb59dcc8c7ed58"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Villa Panza, Piazza Litta 2, Varese",
-   "eventi": 2,
-   "uid": [
-    "9c0a2332145cce95",
-    "b477c0df75b077f9"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -525,140 +323,379 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Ananda Marga Treviso, Via Cavour 7/a, Ponzano Veneto",
+   "luogo": "Portici del centro di Roncade, Roncade",
    "eventi": 1,
    "uid": [
-    "1fb0bfae2e063d8c"
+    "800e2f9adf3db8e7"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Pianzano, Via S. Urbano 42, Godega di Sant'Urbano",
+   "eventi": 1,
+   "uid": [
+    "e29e7ac57f3a29e4"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Duomo (partenza), Treviso",
+   "eventi": 1,
+   "uid": [
+    "29209272479d8cb8"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Parco Archeologico Didattico del Livelet, Via Carpene', Lago, Revine Lago",
+   "eventi": 1,
+   "uid": [
+    "4940be76c5355d16"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Agriturismo Le Spezie, Strada delle Spezie 47, Conegliano",
+   "eventi": 1,
+   "uid": [
+    "1190e119d5443d95"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Parco tematico didattico dei Carbonai, Strada Faidel, localita' Lamar, Cordignano",
+   "eventi": 1,
+   "uid": [
+    "f53cebee25a751db"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Acquedotto romano della Bot, Asolo",
+   "eventi": 1,
+   "uid": [
+    "55deb04d5af64d5e"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza di Farra di Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "68120fa018662856"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Colle di San Gallo, Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "dfbc90bd332aade7"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Farra di Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "ba7bdaab1cdeccde"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sede del Gruppo Alpini di Farra di Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "0c2c25396160a526"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Caduti nei Lager, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "b5806380fecf7257"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sede della Pro Loco di Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "270a9c0e2d56fb43"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Locali della Mostra del Vino, Col San Martino, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "c55e010776be95c9"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Soligo, Farra di Soligo",
+   "eventi": 1,
+   "uid": [
+    "6bb2a5dcda7e0178"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Sedese, Montebelluna",
+   "eventi": 1,
+   "uid": [
+    "3fd81d9b901a84a4"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Area parrocchiale di Catena, Villorba",
+   "eventi": 1,
+   "uid": [
+    "44058cc5e46852a5"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Chiesa parrocchiale di Catena, Villorba",
+   "eventi": 1,
+   "uid": [
+    "2e96acfb0999122c"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sala parrocchiale Pio X, Villorba",
+   "eventi": 1,
+   "uid": [
+    "223a47c24964c8b1"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Centro di Villorba, Villorba",
+   "eventi": 1,
+   "uid": [
+    "9af16ddcacb5a0b0"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Oratorio parrocchiale di Villorba, Villorba",
+   "eventi": 1,
+   "uid": [
+    "0b900fd6940510ac"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sala Giorgione (Centro Sociale), Via Tiziano Vecellio, Roncade",
+   "eventi": 1,
+   "uid": [
+    "de777ff526ddec79"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Auditorium della Scuola Media, Via Roma 65/a, Chiarano",
+   "eventi": 1,
+   "uid": [
+    "707fb147d1c8ee92"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Impianti sportivi di Fontigo, Via Chiesa 48, Fontigo, Sernaglia della Battaglia",
+   "eventi": 1,
+   "uid": [
+    "a2d04529adb5b2bc"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
- "allineati": [
-  {
-   "uid": "34c285b0ee6f53d2",
-   "titolo": "Notre Dame de Paris (musical)",
-   "luogo": "Prealpi SanBiagio Arena, Viale dello Sport 2, Conegliano",
-   "lat": 45.86617,
-   "lon": 12.31532
-  }
- ],
+ "allineati": [],
  "candidati_luoghi": [
   {
    "nomi": [
-    "Teatro Comunale Bolzano"
+    "Teatro Toniolo, Mestre"
    ],
-   "comune": "Bolzano",
-   "lat": 46.49568,
-   "lon": 11.35376,
-   "eventi": 20
+   "comune": "Venezia",
+   "lat": 45.49321,
+   "lon": 12.23773,
+   "eventi": 39
   },
   {
    "nomi": [
-    "Teatro Sociale"
+    "Teatro Comunale di Thiene"
    ],
-   "comune": "Trento",
-   "lat": 46.06969,
-   "lon": 11.12253,
-   "eventi": 14
+   "comune": "Thiene",
+   "lat": 45.70795,
+   "lon": 11.47854,
+   "eventi": 30
   },
   {
    "nomi": [
-    "Prealpi Sanbiagio Arena (Zoppas Arena)"
+    "Teatro Metropolitano Astra"
    ],
-   "comune": "Conegliano",
-   "lat": 45.86617,
-   "lon": 12.31532,
+   "comune": "San Donà di Piave",
+   "lat": 45.63067,
+   "lon": 12.56248,
+   "eventi": 17
+  },
+  {
+   "nomi": [
+    "Teatro Salieri"
+   ],
+   "comune": "Legnago",
+   "lat": 45.19134,
+   "lon": 11.30761,
+   "eventi": 16
+  },
+  {
+   "nomi": [
+    "Teatro Auditorium Vivaldi"
+   ],
+   "comune": "Jesolo",
+   "lat": 45.50349,
+   "lon": 12.62696,
+   "eventi": 15
+  },
+  {
+   "nomi": [
+    "Teatro Comunale di Vicenza, Sala Maggiore"
+   ],
+   "comune": "Vicenza",
+   "lat": 45.54807,
+   "lon": 11.53191,
+   "eventi": 12
+  },
+  {
+   "nomi": [
+    "Teatro Russolo"
+   ],
+   "comune": "Portogruaro",
+   "lat": 45.77761,
+   "lon": 12.83699,
+   "eventi": 12
+  },
+  {
+   "nomi": [
+    "Teatro del Parco, Mestre"
+   ],
+   "comune": "Venezia",
+   "lat": 45.49952,
+   "lon": 12.25798,
+   "eventi": 11
+  },
+  {
+   "nomi": [
+    "Teatro Remondini"
+   ],
+   "comune": "Bassano del Grappa",
+   "lat": 45.76931,
+   "lon": 11.7152,
+   "eventi": 11
+  },
+  {
+   "nomi": [
+    "Teatro Millepini"
+   ],
+   "comune": "Asiago",
+   "lat": 45.87306,
+   "lon": 11.50222,
+   "eventi": 11
+  },
+  {
+   "nomi": [
+    "Teatro R. Pascutto"
+   ],
+   "comune": "San Stino di Livenza",
+   "lat": 45.72891,
+   "lon": 12.67573,
    "eventi": 10
   },
   {
    "nomi": [
-    "Castello del Buonconsiglio"
+    "Teatro Modernissimo"
    ],
-   "comune": "Trento",
-   "lat": 46.07148,
-   "lon": 11.12668,
+   "comune": "Noventa Vicentina",
+   "lat": 45.28851,
+   "lon": 11.53385,
+   "eventi": 10
+  },
+  {
+   "nomi": [
+    "Teatro Civico"
+   ],
+   "comune": "Schio",
+   "lat": 45.7124,
+   "lon": 11.35383,
+   "eventi": 10
+  },
+  {
+   "nomi": [
+    "Teatro Tullio Serafin"
+   ],
+   "comune": "Cavarzere",
+   "lat": 45.13562,
+   "lon": 12.08172,
+   "eventi": 8
+  },
+  {
+   "nomi": [
+    "Teatro Villa dei Leoni"
+   ],
+   "comune": "Mira",
+   "lat": 45.4343,
+   "lon": 12.12637,
+   "eventi": 8
+  },
+  {
+   "nomi": [
+    "Teatro Marconi"
+   ],
+   "comune": "Abano Terme",
+   "lat": 45.36072,
+   "lon": 11.78836,
    "eventi": 7
   },
   {
    "nomi": [
-    "Palazzo Roccabruna"
+    "Teatro Don Bosco"
    ],
-   "comune": "Trento",
-   "lat": 46.06629,
-   "lon": 11.1235,
+   "comune": "Chioggia",
+   "lat": 45.2158,
+   "lon": 12.27664,
    "eventi": 7
   },
   {
    "nomi": [
-    "Piazza Raiffeisen"
+    "Teatro Cotogni"
    ],
-   "comune": "San Leonardo in Passiria",
-   "lat": 46.8124,
-   "lon": 11.2454,
-   "eventi": 7
-  },
-  {
-   "nomi": [
-    "Piazza S. Maria Maggiore"
-   ],
-   "comune": "Trento",
-   "lat": 46.0686,
-   "lon": 11.11904,
+   "comune": "Castelmassa",
+   "lat": 45.01715,
+   "lon": 11.3084,
    "eventi": 6
   },
   {
    "nomi": [
-    "Piazza Dante"
+    "Piccolo Teatro"
    ],
-   "comune": "Trento",
-   "lat": 46.07155,
-   "lon": 11.12044,
-   "eventi": 5
+   "comune": "Padova",
+   "lat": 45.38249,
+   "lon": 11.85213,
+   "eventi": 6
   },
   {
    "nomi": [
-    "Le Gallerie di Piedicastello"
+    "Teatro Comunale Ballarin"
    ],
-   "comune": "Trento",
-   "lat": 46.07166,
-   "lon": 11.11351,
-   "eventi": 5
-  },
-  {
-   "nomi": [
-    "Teatro di Villazzano"
-   ],
-   "comune": "Trento",
-   "lat": 46.04935,
-   "lon": 11.14722,
-   "eventi": 3
-  },
-  {
-   "nomi": [
-    "Teatro Comunale di Gries"
-   ],
-   "comune": "Bolzano",
-   "lat": 46.50163,
-   "lon": 11.33579,
-   "eventi": 3
-  },
-  {
-   "nomi": [
-    "Piazza Walther"
-   ],
-   "comune": "Bolzano",
-   "lat": 46.49865,
-   "lon": 11.35518,
-   "eventi": 3
-  },
-  {
-   "nomi": [
-    "Morter"
-   ],
-   "comune": "Laces",
-   "lat": 46.6053,
-   "lon": 10.8213,
-   "eventi": 3
+   "comune": "Lendinara",
+   "lat": 45.08325,
+   "lon": 11.59622,
+   "eventi": 6
   }
  ]
 }

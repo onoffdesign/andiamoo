@@ -1344,6 +1344,36 @@ correggi:
     lon: 11.00225
     nota: 'visitverona.it (conferenze dei Musei Civici): martedi'' 22/12 alle 17 in Sala Sandro Ruffo del Museo di Storia Naturale, ingresso libero; coordinate del museo, Lungadige Porta Vittoria 9, da OpenStreetMap (node 3637952756)'
     verificato: '2026-11-28'
+  67affe4cf2741082:
+    start: 2026-12-06T21:00
+    all_day: false
+    official_url: https://teatroaccademia.it/event/pannofino/
+    nota: 'calendario del Teatro Accademia (https://teatroaccademia.it/events/categoria/rassegna-teatrale/): domenica 6/12 ore 21; scheda dello spettacolo al posto della pagina generica /prosa/'
+    verificato: '2026-11-28'
+  23784864386960c8:
+    start: 2026-12-16T21:00
+    all_day: false
+    official_url: https://teatroaccademia.it/event/l-amante/
+    nota: 'calendario del Teatro Accademia: mercoledi'' 16/12 ore 21; scheda dello spettacolo'
+    verificato: '2026-11-28'
+  d73bf3d1b862b971:
+    start: 2027-01-10T21:00
+    all_day: false
+    official_url: https://teatroaccademia.it/event/colombari/
+    nota: 'calendario del Teatro Accademia: domenica 10/1 ore 21; scheda dello spettacolo'
+    verificato: '2026-11-28'
+  5eabc60101f91563:
+    start: 2027-01-21T21:00
+    all_day: false
+    official_url: https://teatroaccademia.it/event/lungs-polmoni/
+    nota: 'calendario del Teatro Accademia: giovedi'' 21/1 ore 21; scheda dello spettacolo'
+    verificato: '2026-11-28'
+  f2f56b896e19e18f:
+    start: 2027-02-09T21:00
+    all_day: false
+    official_url: https://teatroaccademia.it/event/uno-nessuno-centomila/
+    nota: 'calendario del Teatro Accademia: martedi'' 9/2 ore 21; scheda dello spettacolo'
+    verificato: '2026-11-28'
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
