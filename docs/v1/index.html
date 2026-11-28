@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=42" rel="stylesheet">
+<link href="style.css?v=43" rel="stylesheet">
 </head>
 <body>
 <div class="stage">
@@ -75,6 +75,7 @@
   <!-- vista lista: card complete -->
   <section class="cards-view" id="cards" aria-label="Elenco completo degli eventi">
     <div class="cards-list" id="cards-list"></div>
+    <footer class="note cards-note"><p class="ai-note">Le descrizioni degli eventi sono riassunti scritti con l'AI a partire dalle fonti. Orari e programmi possono cambiare: fa fede il sito ufficiale, a cui porta &laquo;Scopri di pi&ugrave;&raquo;.</p></footer>
   </section>
 
   <!-- elenco e scheda: su telefono e' un pannello che si trascina dal basso -->
@@ -93,7 +94,8 @@
       <ol id="list" class="list" aria-live="polite"></ol>
       <article id="detail" class="detail" hidden></article>
       <footer class="note" id="note">
-        <p>Eventi raccolti da siti pubblici, giornali locali e segnalazioni, riassunti con l'AI. Orari e programmi possono cambiare: fa fede il sito ufficiale.</p>
+        <p>Eventi raccolti da siti pubblici, giornali locali e segnalazioni.</p>
+        <p class="ai-note">Le descrizioni degli eventi sono riassunti scritti con l'AI a partire dalle fonti. Orari e programmi possono cambiare: fa fede il sito ufficiale, a cui porta &laquo;Scopri di pi&ugrave;&raquo;.</p>
         <p id="updated"></p>
       </footer>
     </div>
@@ -240,6 +242,6 @@
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>window.ANDIAMO_DATA = "../data/events.json";</script>
-<script src="app.js?v=41"></script>
+<script src="app.js?v=43"></script>
 </body>
 </html>

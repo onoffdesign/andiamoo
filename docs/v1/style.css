@@ -463,26 +463,17 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .card .more:hover { background: #333; }
 
 /* ---------- card completa (popup e vista lista) ---------- */
-.card.full { width: 330px; display: flex; flex-direction: column; gap: 10px; }
-.card.full.in-popup { max-height: min(68vh, 620px); overflow-y: auto; overscroll-behavior: contain; }
-/* nel popup i pulsanti restano sempre in vista in fondo alla card, anche quando il testo scorre */
-.card.full.in-popup .card-actions {
-  position: sticky; bottom: -12px; z-index: 1; margin: 0 -16px -12px; padding: 8px 16px 12px;
-  background: var(--c); box-shadow: 0 -8px 10px -8px rgba(0, 0, 0, .18);
-}
-.card.full.in-popup .card-actions { order: 1; }   /* "Segnala una modifica" sopra i pulsanti */
+.card.full { width: 360px; display: flex; flex-direction: column; gap: 10px; }
 .card.full .card-top { align-items: center; flex-wrap: nowrap; min-width: 0; }
 .card.full .card-top .live-tag { flex: none; }
 .card.full .cat-tag { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .card.full .card-top .live-tag { margin: 0; }
 .cat-tag { font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .6875rem; font-weight: 700; letter-spacing: .04em; }
 .card.full .card-top .fav { margin-top: -4px; }
-.card-when { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 8px; background: rgba(255, 255, 255, .55); }
-.card-when .date-tile { width: 56px; background: #fff; }
-.card-when .date-tile .d { font-size: 1.625rem; }
-.card-when strong { display: block; font-size: 1.0625rem; line-height: 1.2; }
-.card-when .t { display: block; margin-top: 2px; font-size: 1.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }
-.card-when .u { display: block; margin-top: 2px; font-size: .9375rem; }
+.card-when { display: flex; flex-direction: column; gap: 2px; }
+.card-when .w-day { display: block; font-family: var(--display); font-stretch: 112%; font-size: 1.5rem; line-height: 1.1; font-weight: 700; }
+.card-when .t { display: block; font-size: 1.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.card-when .u { display: block; font-size: 1rem; }
 .card.full h3 { margin: 0; padding: 0 0 8px; font-size: 1.125rem; }
 .card.full p { margin: 0; }
 .card-place { font-size: .9375rem; line-height: 1.35; }
@@ -656,7 +647,6 @@ body.view-list .stage { background: var(--land); }
   .view-seg button span { display: none; }
   body.view-list .cards-view { left: 10px; right: 10px; top: var(--below-filters, 200px); bottom: 0; padding-bottom: calc(24px + var(--sab)); }
   .cards-list { grid-template-columns: 1fr; }
-  .card.full.in-popup { max-height: min(58vh, 520px); }
   .presets { padding-bottom: 6px; gap: 4px; }
   .presets button { height: 34px; padding: 0 8px; font-size: .6875rem; font-stretch: 100%; letter-spacing: .02em; }
   .strip-wrap { flex: none; }
@@ -679,7 +669,7 @@ body.view-list .stage { background: var(--land); }
   /* controlli: solo "vicino a me", sopra il pannello */
   .map-ctrl { right: 10px; bottom: calc(var(--peek) + 12px); border-radius: 12px; transition: bottom .3s ease; }
   .map-ctrl button { width: 48px; height: 48px; }
-  .panel[data-sheet="half"] ~ .map-ctrl, .panel[data-sheet="full"] ~ .map-ctrl { opacity: 0; pointer-events: none; }
+  .panel[data-sheet="half"] ~ .map-ctrl, .panel[data-sheet="full"] ~ .map-ctrl, .panel[data-sheet="min"] ~ .map-ctrl { opacity: 0; pointer-events: none; }
   .toast { bottom: calc(var(--peek) + 74px); }
   .maplibregl-ctrl-bottom-right { right: auto; left: 0; bottom: var(--peek); }
   .pill-btn { padding: 0 14px; font-stretch: 105%; }
@@ -695,6 +685,7 @@ body.view-list .stage { background: var(--land); }
   .panel[data-sheet="peek"] { --sheet-y: calc(100% - var(--peek)); }
   .panel[data-sheet="half"] { --sheet-y: 45%; }
   .panel[data-sheet="full"] { --sheet-y: 0px; }
+  .panel[data-sheet="min"] { --sheet-y: calc(100% - 34px); }
   .panel-head { margin: 0 16px; padding: 22px 0 12px; touch-action: none; cursor: grab; }
   .panel-hide { display: none; }
   .grab {
@@ -711,6 +702,8 @@ body.view-list .stage { background: var(--land); }
   .detail-actions .cta { font-stretch: 100%; }
   .note { padding: 14px 16px calc(22px + var(--sab)); }
   .card { width: min(270px, calc(100vw - 40px)); }
+  .card.full.in-popup { width: calc(100vw - 24px); max-width: 420px; }
+  .card-when .w-day { font-size: 1.375rem; }
 
   /* finestre a tutto schermo */
   .dlg, .dlg.small { width: 100%; max-width: 100%; height: 100%; max-height: 100%; border-radius: 0; margin: 0; }
@@ -729,3 +722,7 @@ body.view-list .stage { background: var(--land); }
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
 
+
+/* nota comune sui riassunti con l'AI */
+.ai-note { font-size: .75rem; color: rgba(0, 0, 0, .6); }
+.cards-note { max-width: 720px; margin: 22px auto 0; text-align: center; }

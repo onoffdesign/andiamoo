@@ -694,17 +694,22 @@
   // anche per i movimenti successivi, e zoom e confini si sfaserebbero.
   function padOffset(p) { return [Math.round((p.left - p.right) / 2), Math.round((p.top - p.bottom) / 2)]; }
 
+  const SHEET_MIN = 34;                      // telefono: altezza dell'elenco ridotto alla sola maniglia
+
   // Zona della mappa davvero visibile (fuori da testata, giorni, filtri, elenco).
   function visibleArea() {
     const r = $("#map").getBoundingClientRect();
     const v = { left: r.left + 12, right: r.right - 12, top: r.top + 12, bottom: r.bottom - 12 };
     if (MOBILE()) {
       v.top = $(".filters").getBoundingClientRect().bottom + 10;
-      v.bottom = Math.min(v.bottom, $("#panel").getBoundingClientRect().top - 10);
+      // con la card aperta l'elenco scende fino a lasciare solo la maniglia (la posizione finale, non quella animata)
+      const panelTop = $("#panel").dataset.sheet === "min" ? window.innerHeight - SHEET_MIN : $("#panel").getBoundingClientRect().top;
+      v.bottom = Math.min(v.bottom, panelTop - 10);
     } else {
+      // colonna libera a destra di elenco e filtri di accesso, fino al fondo della mappa
       v.top = $(".chips-row").getBoundingClientRect().bottom + 12;
-      v.bottom = $(".filters").getBoundingClientRect().top - 12;
-      v.left = (state.sidebarHidden ? $("#list-toggle") : $("#panel")).getBoundingClientRect().right + 12;
+      v.left = Math.max((state.sidebarHidden ? $("#list-toggle") : $("#panel")).getBoundingClientRect().right,
+        $(".filters").getBoundingClientRect().right) + 12;
       v.right = $(".map-ctrl").getBoundingClientRect().left - 12;
     }
     return v;
@@ -914,18 +919,15 @@
     el.innerHTML = `
       <div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}<span class="cat-tag">${esc(c.label)}${sub ? ` · ${esc(sub)}` : ""}</span>${favButton(e, "fav")}</div>
       <div class="card-when">
-        <div class="date-tile" aria-hidden="true"><span class="dow">${DOW[d0.getDay()]}</span><span class="d">${d0.getDate()}</span><span class="m">${MONTHS[d0.getMonth()].slice(0, 3)}</span></div>
-        <div><strong>${esc(dayLabel(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}</div>
+        <strong class="w-day">${esc(dayLabel(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}
       </div>
       <h3>${esc(e.title)}</h3>
       <p class="card-place"><b>${esc(e.venue || e.town)}</b>${place2 ? `<br>${esc(place2)}` : ""}${dist ? `<br><span class="muted">${dist} da te</span>` : ""}</p>
       <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}${(e.audience || []).map((a) => `<span class="who-pill">${esc(DATA.audiences[a] || a)}</span>`).join("")}</div>
       ${e.summary ? `<p class="card-desc">${esc(e.summary)}</p>` : ""}
-      <p class="card-src">Fonte: <a href="${attr(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_name)}</a>${
-        e.ticket_url && e.ticket_url !== e.action_url ? ` · Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a>` : ""}${
-        e.ai_summary ? " · Riassunto con l'AI" : ""}</p>
+      ${e.ticket_url && e.ticket_url !== e.action_url ? `<p class="card-src">Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a></p>` : ""}
       <div class="card-actions">
-        <a class="more" href="${attr(e.action_url)}" target="_blank" rel="noopener" title="${esc(host)}">Scopri di più <i aria-hidden="true">↗</i></a>
+        <a class="more" href="${attr(e.action_url)}" target="_blank" rel="noopener" title="Fonte: ${esc(host)}" aria-label="Scopri di più su ${esc(host)}">Scopri di più <i aria-hidden="true">↗</i></a>
         <button class="mini" type="button" data-ics aria-label="Aggiungi al calendario" title="Aggiungi al calendario"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
         <a class="mini" href="${attr(dirs)}" target="_blank" rel="noopener" aria-label="Indicazioni" title="Indicazioni"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></a>
         <button class="mini" type="button" data-share aria-label="Condividi" title="Condividi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7.5 7.5 12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></button>
@@ -947,19 +949,11 @@
     const el = buildCard(e, { popup: true });
     if (popup) popup.remove();
     const [ox, oy] = slotOff(e.uid);
-    popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: [ox, oy - 22], maxWidth: "none" })
+    popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, focusAfterOpen: false, anchor: "bottom", offset: [ox, oy - 22], maxWidth: "none" })
       .setLngLat(COORDS[e.uid] || [e.lon, e.lat]).setDOMContent(el).addTo(map);
-    fitCardHeight(el);
     fitTitle(el.querySelector("h3"));
     markSelected(e.uid);
     if (!opts.noReveal) requestAnimationFrame(() => ensureCardVisible());
-  }
-
-  // La card non supera mai l'altezza della mappa visibile (tolto lo spazio del segnaposto): il resto scorre dentro.
-  function fitCardHeight(el) {
-    if (!el || !mapReady) return;
-    const v = visibleArea();
-    el.style.maxHeight = `${Math.max(200, Math.round(v.bottom - v.top - 46))}px`;
   }
 
   // Margini per centrare un punto con la card aperta: il punto finisce nella parte bassa della zona visibile,
@@ -969,8 +963,8 @@
     if (!el) return pad;
     const v = visibleArea(), r = $("#map").getBoundingClientRect(), h = el.getBoundingClientRect().height;
     const top = Math.round(v.top - r.top + h + 24), bottom = Math.round(r.bottom - v.bottom + 18);
-    if (top + bottom > r.height - 2) return pad;
-    return { ...pad, top, bottom };
+    // card piu' alta dello spazio: conta che si veda dall'inizio, il segnaposto puo' finire sotto l'elenco
+    return { ...pad, top, bottom: top + bottom > r.height - 2 ? Math.max(0, r.height - top) : bottom };
   }
 
   // Titoli: si va a capo tra parole intere. Solo una parola piu' larga della card viene spezzata,
@@ -1003,6 +997,7 @@
 
   function closeCard() {
     if (popup) { popup.remove(); popup = null; }
+    if (MOBILE() && $("#panel").dataset.sheet === "min") setSheet("peek");
     markSelected("");
   }
 
@@ -1014,7 +1009,7 @@
     if (!e) { closeDetail(); return; }
     opts = { ...opts, detail: false };       // V1: tutte le informazioni stanno nella card sulla mappa
     if (state.view === "list") setView("map", { keep: true });
-    if (MOBILE()) setSheet("peek");
+    if (MOBILE()) setSheet("min");          // la card ha bisogno di tutto lo schermo: l'elenco scende
     state.selected = uid;
     if (opts.detail) {
       if (state.sidebarHidden && !MOBILE()) { state.hiddenBeforeDetail = true; setSidebar(true, { remember: false }); }
@@ -1036,8 +1031,8 @@
       if (MOBILE() && opts.detail) { if (popup) { popup.remove(); popup = null; } markSelected(uid); }
       else showCard(e, { noReveal: !!opts.fly || !!opts.detail });
       if (opts.fly) {
+        map.once("moveend", () => ensureCardVisible());     // prima del volo: se il salto e' immediato, moveend arriva subito
         map.flyTo({ center, zoom: Math.max(map.getZoom(), 14.2), speed: 2, maxDuration: 2200, offset: padOffset(cardPadding()) });
-        map.once("moveend", () => ensureCardVisible());
       } else if (opts.detail && !MOBILE()) {
         requestAnimationFrame(() => ensureCardVisible());   // la sidebar puo' essere ricomparsa
       }
@@ -1073,7 +1068,7 @@
     state.sidebarHidden = !visible;
     document.body.classList.toggle("sidebar-hidden", !visible);
     if (opts.remember) { try { localStorage.setItem("andiamo-sidebar", visible ? "1" : "0"); } catch (_) { /* privato */ } }
-    if (mapReady) setTimeout(() => { map.resize(); if (popup) fitCardHeight(popup.getElement().querySelector(".card")); ensureCardVisible(); }, 30);
+    if (mapReady) setTimeout(() => { map.resize(); ensureCardVisible(); }, 30);
   }
 
   window.addEventListener("popstate", (ev) => {
@@ -1089,8 +1084,8 @@
     if (name === "half") name = "full";      // su telefono solo due posizioni: chiuso in basso o aperto del tutto
     p.dataset.sheet = name;
     p.style.removeProperty("--sheet-y");
-    $("#sheet-toggle").setAttribute("aria-expanded", String(name !== "peek"));
-    $("#sheet-toggle").setAttribute("aria-label", name === "peek" ? "Apri l'elenco" : "Riduci l'elenco");
+    $("#sheet-toggle").setAttribute("aria-expanded", String(name === "full"));
+    $("#sheet-toggle").setAttribute("aria-label", name === "full" ? "Riduci l'elenco" : "Apri l'elenco");
   }
 
   function setupSheet() {
@@ -1135,7 +1130,7 @@
       let target;
       if (velocity > 0.25 || dy > 50) target = "peek";
       else if (velocity < -0.25 || dy < -50) target = "full";
-      else target = p.dataset.sheet === "peek" ? "peek" : "full";
+      else target = ["peek", "min"].includes(p.dataset.sheet) ? "peek" : "full";
       setSheet(target);
     }
     // Pannello aperto: trascinando verso il basso da un punto qualsiasi del contenuto (quando e' gia'
