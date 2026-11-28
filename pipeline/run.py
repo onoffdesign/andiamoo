@@ -13,9 +13,9 @@ import logging
 import shutil
 import sys
 import time
-from datetime import timedelta
+from datetime import datetime, timedelta
 
-from . import archive, editorial, posizioni, quality
+from . import archive, editorial, fonti_vietate, posizioni, quality
 from .collectors import Context, registry
 from .config import DATA_DIR, settings, sources
 from .dedupe import dedupe
@@ -31,7 +31,7 @@ from .models import Event
 from .publish import publish
 from .store import Store
 from .telegram import Telegram, describe, moderation_buttons
-from .textutil import parse_day, today_rome
+from .textutil import ROME, parse_day, today_rome
 
 log = logging.getLogger("pipeline")
 
@@ -51,6 +51,10 @@ def in_window(ev: Event) -> bool:
 def run_source(src: dict, ctx: Context, geo: Geocoder, store: Store, tg: Telegram, finder=None) -> dict:
     collect = registry().get(src["type"])
     stats = {"trovati": 0, "nel_periodo": 0, "in_provincia": 0, "nuovi": 0, "errore": ""}
+    why = fonti_vietate.source_blocked(src)
+    if why:
+        stats["errore"] = why                 # regola fonti: non si visita ne' si analizza in automatico
+        return stats
     if not collect:
         stats["errore"] = f"tipo sconosciuto {src['type']}"
         return stats
@@ -62,6 +66,9 @@ def run_source(src: dict, ctx: Context, geo: Geocoder, store: Store, tg: Telegra
         stats["errore"] = str(e)[:200]
         return stats
     stats["trovati"] = len(raw)
+    fetched = datetime.now(ROME).isoformat(timespec="minutes")
+    for e in raw:
+        e.fetched_at = e.fetched_at or fetched     # tracciabilita': quando e' stato preso dalla fonte
     events = [e for e in raw if in_window(e)]
     # coordinate gia' note e fuori dal riquadro della provincia: scartate prima del tetto per fonte
     events = [e for e in events if e.lat is None or geo.in_bbox(e.lat, e.lon)]

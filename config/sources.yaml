@@ -71,7 +71,7 @@ sources:
     type: jsonld
     portal: true          # grande portale: solo "scoperta", con tetto per giro
     max_events: 40
-    enabled: true
+    enabled: false        # REGOLA FONTI 2026-11-28: piattaforma vietata (config/fonti-vietate.yaml)
     free_listing_urls:      # elenco "solo gratuiti": accesso su iscrizione, prezzo gratuito (2026-11-06)
       - https://www.eventbrite.it/d/italy--treviso--85685297/free--events/
     listing_urls:
@@ -92,7 +92,7 @@ sources:
     type: jsonld
     portal: true          # grande portale: solo "scoperta", con tetto per giro
     max_events: 40
-    enabled: true
+    enabled: false        # REGOLA FONTI 2026-11-28: piattaforma vietata (config/fonti-vietate.yaml)
     listing_urls:
       - https://www.ticketone.it/cityd/treviso-2045/
       - https://www.ticketone.it/cityd/conegliano-1116/
@@ -108,7 +108,7 @@ sources:
     type: html_llm
     portal: true
     max_events: 30
-    enabled: true
+    enabled: false        # REGOLA FONTI 2026-11-28: piattaforma vietata (config/fonti-vietate.yaml)
     listing_urls:
       - https://www.ticketone.it/cityd/treviso-2045/concerti-55/
       - https://www.ticketone.it/cityd/treviso-2045/teatro-58/
@@ -120,7 +120,7 @@ sources:
   - id: dice
     name: DICE
     type: jsonld
-    enabled: true
+    enabled: false        # REGOLA FONTI 2026-11-28: piattaforma vietata (config/fonti-vietate.yaml)
     listing_urls:
       - https://dice.fm/venue/treviso-opendream-lkgx
       - https://dice.fm/venue/giardini-sud-ovest-castello-di-castelfranco-veneto-xeqma

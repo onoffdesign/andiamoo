@@ -333,6 +333,8 @@
         <p>${e.ai_summary ? "Dettagli riassunti tramite AI. " : ""}Per il programma ufficiale e le iscrizioni fa fede il sito ufficiale${host ? ` (${esc(host)})` : ""}.</p>
         <p>Fonte: <a href="${attr(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_name)}</a>${
           also.length ? ` · Anche su: ${also.map((a) => `<a href="${attr(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ")}` : ""}</p>
+        ${e.ticket_url && e.ticket_url !== e.action_url ? `<p>Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${
+          esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a></p>` : ""}
         <button class="report-link" type="button" data-report>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4h11l-1.5 4L16 12H5"/></svg>Segnala una modifica o la rimozione</button>
       </div>

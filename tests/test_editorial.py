@@ -56,7 +56,7 @@ def test_apply_payload_in_cloud(files):
                                     "rimuovi": {"b2": "doppione"}}), encoding="utf-8")
     out = editorial.apply_payload(payload, editorial.load(corr))
     assert out["count"] == 1 and out["events"][0]["action_url"] == "https://ufficiale.it"
-    assert out["events"][0]["geo_precision"] == "address" and out["redazione"] == {"rimossi": 1, "corretti": 1}
+    assert out["events"][0]["geo_precision"] == "address" and out["redazione"] == {"rimossi": 1, "corretti": 1, "da_verificare": 0}
 
 
 def test_check_reports_bad_values(files):

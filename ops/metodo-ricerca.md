@@ -185,15 +185,19 @@ lo schema e si parte dalle regole generali e da quelle della regione.
 Fonti utili in piu' province: si configurano una volta e si allargano a ogni provincia nuova (nuove pagine citta' o
 nuovi filtri), senza ricercarle da capo.
 
+**Regola fonti (2026-11-28):** si usano solo gli aggregatori in `ammesse` di `config/fonti-vietate.yaml`. Quelli
+qui sotto segnati "da verificare" restano fermi finche' non si leggono robots.txt e termini d'uso; le piattaforme
+segnate "vietata" non si aprono piu' (i loro eventi si cercano dall'organizzatore).
+
 | Aggregatore | Province coperte | Come si allarga |
 |---|---|---|
-| 2night | Veneto, Friuli | pagina per citta' |
-| eventiesagre | tutta Italia | pagina per provincia (solo prima pagina) |
-| running.life, gotrail | tutta Italia | pagina calendario per provincia o citta' |
-| calendariopodismo | tutta Italia | parametro `localita` |
-| TicketOne, DICE, Xceed | tutta Italia | pagine citta' o locale (verificare termini d'uso prima di monetizzare) |
+| 2night (da verificare) | Veneto, Friuli | pagina per citta' |
+| eventiesagre (da verificare) | tutta Italia | pagina per provincia (solo prima pagina) |
+| running.life, gotrail (da verificare) | tutta Italia | pagina calendario per provincia o citta' |
+| calendariopodismo (da verificare) | tutta Italia | parametro `localita` |
+| TicketOne, DICE, Xceed (vietate) | tutta Italia | non si usano: solo link "Iscrizioni su ..." presi da una fonte ammessa |
 | UNPLI / Pro Loco | per regione | pagina eventi regionale e provinciale |
-| ClassicaLive (musica classica, lirica, cori) | tutta Italia | pagina `/it/luoghi/<regione>/<provincia>/`: concerti dei prossimi mesi con ora, luogo e link all'organizzatore (prezzi dalle pagine degli organizzatori). 2026-11-15: 22 concerti TV in una lettura, 10 su 14 mancavano |
+| ClassicaLive (musica classica, lirica, cori; da verificare) | tutta Italia | pagina `/it/luoghi/<regione>/<provincia>/`: concerti dei prossimi mesi con ora, luogo e link all'organizzatore (prezzi dalle pagine degli organizzatori). 2026-11-15: 22 concerti TV in una lettura, 10 su 14 mancavano |
 
 ## 5. Andamento (una riga per notte, la piu' recente in alto)
 

@@ -7,13 +7,45 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
 
 ## Regole (non derogabili)
 
-- **Solo fatti verificati** su pagine ufficiali (organizzatore, comune, pro loco, teatro, biglietteria) o fonti
-  affidabili. Mai dedurre o inventare date, orari, prezzi, indirizzi. Nel dubbio non correggere e annotalo nel registro.
+- **REGOLA FONTI: piattaforme con divieto di scraping** (decisa da Federico il 2026-11-28; vale per ogni fase).
+  L'elenco e' `config/fonti-vietate.yaml` (Eventbrite per primo). Prima di aprire qualsiasi link che non sia il sito
+  ufficiale di organizzatore, sede, comune, pro loco o ufficio turistico: `python -m pipeline.fonti_vietate --url <link>`.
+  - **vietata** o **da verificare** (nel dubbio = vietata): non aprirla, non leggerla, non usarla per scoprire eventi,
+    niente endpoint interni, servizi terzi di scraping, proxy, IP a rotazione o user agent falsi, niente testi,
+    descrizioni o immagini copiati. Niente ricerche "site:<dominio vietato>". Unica eccezione: l'API ufficiale con
+    chiave valida, se elencata in `api`.
+  - **Evento che risulta anche su una piattaforma vietata** (visto nei risultati di ricerca, segnalato, citato da
+    un'altra fonte): cercalo su fonti ammesse in quest'ordine: sito ufficiale dell'organizzatore, sito della sede o
+    del locale, sito del Comune o dell'ente promotore, pro loco e uffici turistici, altre fonti che non vietano
+    l'accesso automatico. Verifica che sia lo stesso evento (titolo, data, orario e luogo coincidono). Prendi i dati
+    solo dalla fonte ammessa (titolo, data, orario, luogo, prezzo, organizzatore), scrivi un riassunto originale di
+    2-3 frasi sui fatti, senza ricalcare struttura ed espressioni dell'originale, e indica la fonte usata (`fonte`:
+    il link della pagina letta, oppure nome della fonte e data). Se la fonte ammessa riporta il link di iscrizione o
+    biglietteria sulla piattaforma vietata, mettilo solo in `ticket_url` (sul sito diventa "Iscrizioni su ..."),
+    senza prendere altro da quella pagina.
+  - **Nessuna fonte ammessa**: non pubblicarlo. Va in `ops/da-verificare.json` con titolo, data e motivo per una
+    valutazione manuale (contatto con l'organizzatore o API ufficiale). Il codice ce lo mette da solo quando i dati
+    vengono da una fonte vietata; `python -m pipeline.editorial --sposta-vietati` sposta li' gli eventi della redazione
+    che non rispettano la regola (lo segnala anche `--controlla`).
+  - **Fonte nuova** (aggregatore, testata, blog, piattaforma): prima di usarla leggi robots.txt e termini d'uso e
+    scrivila in `config/fonti-vietate.yaml` (`ammesse` con data e pagina letta, oppure `vietate`). Finche' non e'
+    verificata vale come vietata. Ogni notte, se resta budget, verifica una o due fonti di `da_verificare` (e quelle
+    del catalogo di tipo aggregatore, testata o biglietteria): sono gli eventi che possono tornare sul sito.
+  - **Richiesta di rimozione** da un organizzatore o da una piattaforma: rimuovi l'evento (`rimuovi` in
+    `config/correzioni.yaml` con motivo "richiesta di rimozione da ... del AAAA-MM-GG") e annota la richiesta in
+    `ops/richieste-rimozione.md`.
+  - **Tracciabilita'**: per ogni evento pubblicato il codice registra in `ops/prelievi.csv` fonte, URL e data e ora del
+    prelievo; per gli eventi della redazione `fonte` e `trovato` sono obbligatori nella pratica: compilali sempre.
+
+- **Solo fatti verificati** su pagine ufficiali (organizzatore, comune, pro loco, teatro) o fonti ammesse dalla
+  regola fonti. Mai dedurre o inventare date, orari, prezzi, indirizzi. Nel dubbio non correggere e annotalo nel registro.
 - **Riassunti neutri**, 1-2 frasi scritte da te, mai copiate: "L'evento prevede una degustazione di vini locali e
   musica dal vivo." Niente aggettivi promozionali (imperdibile, magico, unico...), niente inviti all'azione.
 - **Link d'azione**: ogni evento deve avere `official_url` verso la pagina ufficiale (programma e iscrizioni).
-- **Niente dati personali** (telefoni, email, nomi di privati) e **niente immagini** copiate.
-- **Scraping solo come scoperta**: preferisci tanti piccoli siti ufficiali ai grandi portali; rispetta robots.txt.
+- **Niente dati personali** oltre a quelli necessari a descrivere l'evento (niente telefoni, email, nomi di privati)
+  e **nessuna immagine o locandina** presa dalle fonti.
+- **Scraping solo come scoperta**: preferisci tanti piccoli siti ufficiali ai grandi portali; rispetta robots.txt e
+  frequenze di accesso moderate.
 - **Solo eventi specifici**: una singola iniziativa con data e luogo precisi. Calendari, agende, elenchi di eventi,
   pagine di portali, guide ("Calendario eventi e sagre", "Cosa fare nel weekend"...) non sono eventi: rimuovili e,
   se contengono eventi della provincia, estrai i singoli eventi e aggiungili uno per uno. Gli eventi ricorrenti
@@ -198,16 +230,18 @@ A. **Categorie** - usa l'albero di `ops/categorie-ricerca.md`: ogni notte cerca 
 B. **Comuni** - per ogni comune della provincia attiva (`comuni_<SIGLA>` in `ops/copertura.yaml`; Treviso ne ha 94) cerca la pagina eventi del sito del comune
    ("Comune di <nome> eventi") e della pro loco ("Pro Loco <nome>"), e una ricerca "eventi <nome> <mese> <anno>".
    Lavora i comuni indicati dal piano della notte (i meno recenti), poi altri se resta budget.
-C. **Aggregatori e blog** - insolitotrantran, eventiesagre, 2night, zero.eu, itinerarinelgusto, TrevisoToday eventi,
-   Oggi Treviso, calendari podistici, Pro Loco/UNPLI, teatri, musei, biblioteche e gli altri della lista, anche di
-   nicchia. Cerca anche aggregatori e blog simili che non sono ancora nella lista e aggiungili. Gli aggregatori servono
-   a **scoprire**: il dato va confermato sulla pagina ufficiale dell'organizzatore, che diventa `official_url`.
-   Piattaforme di eventi e biglietteria da controllare ogni notte, filtrando per provincia di Treviso (e locali e
-   comuni della provincia): Meetup, Comehome, Pablo meeter, Wemeet, Fever, TicketSMS, Resident Advisor, DICE, Xceed,
-   Vivaticket, TuttiConcerti, Concerti-Italia, Rockol (sezione Concerti), Eventbrite, AllEvents. Cerca con query
-   tipo "<piattaforma> Treviso", "site:<dominio> Treviso", "site:<dominio> <comune>". Se un sito blocca i robot o
-   richiede l'accesso, usa solo i risultati di ricerca per scoprire l'evento e confermalo sulla pagina ufficiale.
-C2. **Community e canali pubblici** - molti aggregatori informali oggi si muovono su social e chat: gruppi di
+C. **Aggregatori e blog** - Pro Loco/UNPLI, teatri, musei, biblioteche e gli aggregatori e blog **ammessi** in
+   `config/fonti-vietate.yaml`. Gli aggregatori servono a **scoprire**: il dato va confermato sulla pagina ufficiale
+   dell'organizzatore, che diventa `official_url`. Un aggregatore nuovo si usa solo dopo averne letto robots.txt e
+   termini d'uso (regola fonti).
+   Piattaforme di eventi e biglietteria (Eventbrite, TicketOne, DICE, Xceed, Vivaticket, Fever, TicketSMS, Resident
+   Advisor, Meetup, AllEvents...) sono **vietate**: non si aprono e non si cercano con "site:". Se un evento compare li'
+   nei risultati di una ricerca generica, si segue la regola fonti: si cerca la fonte ammessa e il link della
+   piattaforma va solo in `ticket_url`.
+C2. **Community e canali pubblici** - SOSPESA dal 2026-11-28: Telegram (t.me), Instagram, TikTok e Facebook sono
+   nell'elenco delle fonti vietate. Le community si cercano solo attraverso il loro sito o la loro pagina su un
+   servizio ammesso; il resto di questa fase vale solo per quelle. Testo originale, per quando una piattaforma
+   diventasse ammessa: molti aggregatori informali oggi si muovono su social e chat: gruppi di
    trekking ed escursioni indipendenti, run club, community nate su Instagram o TikTok, gruppi di ballo, giochi da
    tavolo, fotografia, volontariato, che pubblicano il calendario delle uscite settimanali su **canali Telegram
    pubblici**. Come cercarli: "site:t.me Treviso trekking", "site:t.me escursioni Veneto", "canale Telegram uscite
@@ -222,13 +256,14 @@ C2. **Community e canali pubblici** - molti aggregatori informali oggi si muovon
      (`https://t.me/<canale>/<numero>`) o la pagina dell'evento; niente link a gruppi chiusi.
    - Ogni canale o community utile va in `ops/fonti.yaml` con `tipo: community` e la `query` per ritrovarla, e in
      `ops/copertura.yaml` nella sezione `community`; quelle inattive o private vanno in `ops/lezioni.md`.
-D. **Notizie** - testate locali (Tribuna di Treviso, Gazzettino, TrevisoToday, Oggi Treviso, Qdpnews, tv e radio
-   locali): articoli che annunciano eventi, inaugurazioni, festival, gare, presentazioni. Conferma sempre sulla
-   pagina ufficiale quando esiste; se c'e' solo l'articolo di una testata affidabile, usalo come `official_url`.
+D. **Notizie** - testate locali **ammesse** in `config/fonti-vietate.yaml` (le altre sono da verificare): articoli
+   che annunciano eventi, inaugurazioni, festival, gare, presentazioni. Conferma sempre sulla pagina ufficiale quando
+   esiste; l'articolo vale come `official_url` solo se la testata e' ammessa.
 
 E. **Fonti nuove** - cerca almeno 10 siti o pagine mai visti che pubblicano eventi in provincia (pro loco, comuni,
    associazioni, locali, teatri, musei, biblioteche, societa' sportive, aziende con eventi aperti, blog e aggregatori
-   di nicchia, piattaforme di biglietteria, canali Telegram pubblici e community locali). Per ognuno valuta: pagina eventi, quanti eventi futuri, se e' aggiornato, se e' ufficiale, se ha dati
+   di nicchia; mai piattaforme vietate). Prima di usarne una leggi robots.txt e termini d'uso e scrivila in
+   `config/fonti-vietate.yaml`. Per ognuno valuta: pagina eventi, quanti eventi futuri, se e' aggiornato, se e' ufficiale, se ha dati
    strutturati. Aggiungi a `ops/fonti.yaml` quelli utili (con una `query` che porti dritto alla pagina eventi) e annota
    in `ops/lezioni.md` quelli da evitare. Ogni fonte che rende tanto diventa candidata per `config/sources.yaml`.
 

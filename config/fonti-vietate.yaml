@@ -1,0 +1,68 @@
+# REGOLA FONTI: piattaforme con divieto di scraping (decisa da Federico il 2026-11-28).
+#
+# vietate         termini d'uso o robots.txt vietano scraping, crawling o estrazione automatica. Mai visitate,
+#                 scaricate o analizzate in automatico (neanche per scoprire eventi), mai i loro endpoint interni o
+#                 servizi terzi che fanno scraping, mai proxy, IP a rotazione o user agent falsi, mai copiare testi,
+#                 descrizioni o immagini. Il loro link puo' stare solo come "Iscrizioni su ..." (ticket_url), preso da
+#                 una fonte ammessa.
+# da_verificare   aggregatori e piattaforme di cui non sono ancora stati letti termini d'uso e robots.txt. In caso di
+#                 dubbio valgono come vietate: il codice le tratta esattamente come le vietate finche' non passano in
+#                 "ammesse" (o in "vietate") con la data e la pagina dei termini letta.
+# ammesse         aggregatori e piattaforme verificati: termini e robots.txt non vietano l'accesso automatico.
+#                 I siti ufficiali di organizzatori, sedi, comuni, pro loco e uffici turistici sono ammessi senza
+#                 stare in elenco; il PC rispetta comunque il loro robots.txt a ogni lettura.
+# api             unica eccezione: piattaforma vietata con chiave API ufficiale valida, usata nel rispetto delle sue
+#                 condizioni (vale solo per le chiamate all'API, non per le pagine del sito).
+#
+# "dominio" vale anche per i sottodomini (eventbrite.it copre www.eventbrite.it). "percorso" limita a una parte del
+# sito. Prima di aggiungere una fonte nuova al giro: leggere robots.txt e termini d'uso e scriverla qui.
+# Lo controllano: python -m pipeline.fonti_vietate --url <link>   e   python -m pipeline.editorial --controlla
+
+vietate:
+  - {dominio: eventbrite.it, motivo: "Termini di servizio 13.1: vietati scraping, crawling ed estrazione automatica", verificato: 2026-10-30}
+  - {dominio: eventbrite.com, motivo: "come eventbrite.it", verificato: 2026-10-30}
+  - {dominio: eventbrite.co.uk, motivo: "come eventbrite.it", verificato: 2026-10-30}
+  - {dominio: evbuc.com, motivo: "immagini e file di Eventbrite", verificato: 2026-11-28}
+  - {dominio: instagram.com, motivo: "termini Meta: vietata la raccolta automatica senza permesso", verificato: 2026-11-28}
+  - {dominio: facebook.com, motivo: "termini Meta: vietata la raccolta automatica senza permesso", verificato: 2026-11-28}
+  - {dominio: fb.me, motivo: "come facebook.com", verificato: 2026-11-28}
+  - {dominio: tiktok.com, motivo: "termini TikTok: vietato lo scraping", verificato: 2026-11-28}
+  - {dominio: news.google.com, motivo: "robots.txt vieta /rss/search (verificato dal PC)", verificato: 2026-10-29}
+  - {dominio: cultura.gov.it, motivo: "robots.txt vieta i robot (anche museiveneto.cultura.gov.it)", verificato: 2026-10-30}
+  - {dominio: deliziedautunno.tv, motivo: "robots.txt vieta i robot", verificato: 2026-10-30}
+  - {dominio: vivaticket.com, motivo: "protezione anti-bot: l'accesso automatico non e' consentito", verificato: 2026-10-30}
+  # biglietterie e piattaforme di eventi: termini d'uso non verificati, nel dubbio vietate (regola punto 1)
+  - {dominio: ticketone.it, motivo: "biglietteria: nel dubbio vietata, termini da leggere", verificato: 2026-11-28}
+  - {dominio: dice.fm, motivo: "biglietteria: nel dubbio vietata, termini da leggere", verificato: 2026-11-28}
+  - {dominio: xceed.me, motivo: "biglietteria: nel dubbio vietata, termini da leggere", verificato: 2026-11-28}
+  - {dominio: feverup.com, motivo: "piattaforma eventi: nel dubbio vietata", verificato: 2026-11-28}
+  - {dominio: ticketsms.it, motivo: "biglietteria: nel dubbio vietata", verificato: 2026-11-28}
+  - {dominio: ra.co, motivo: "piattaforma eventi: nel dubbio vietata", verificato: 2026-11-28}
+  - {dominio: meetup.com, motivo: "termini Meetup: vietato lo scraping", verificato: 2026-11-28}
+  - {dominio: allevents.in, motivo: "aggregatore: nel dubbio vietato", verificato: 2026-11-28}
+  - {dominio: t.me, motivo: "Telegram: termini non verificati, nel dubbio vietato (anche le anteprime t.me/s)", verificato: 2026-11-28}
+
+da_verificare:
+  - {dominio: eventiesagre.it, nota: "aggregatore; termini d'uso da leggere"}
+  - {dominio: 2night.it, nota: "aggregatore; robots.txt con segnali di contenuto (use=reference); termini da leggere"}
+  - {dominio: calendariopodismo.it, nota: "aggregatore gare; robots.txt use=reference; termini da leggere"}
+  - {dominio: running.life, nota: "aggregatore gare; termini da leggere"}
+  - {dominio: gotrail.run, nota: "aggregatore trail (stessa societa' di running.life); termini da leggere"}
+  - {dominio: insolitotrantran.it, nota: "aggregatore; API pubblica e robots.txt libero (2026-10); termini da leggere"}
+  - {dominio: qdpnews.it, nota: "testata giornalistica; termini da leggere"}
+  - {dominio: trovasagre.com, nota: "aggregatore sagre; termini da leggere"}
+  - {dominio: cosedicasa.com, nota: "aggregatore mercatini; termini da leggere"}
+  - {dominio: sagramap.com, nota: "aggregatore sagre; termini da leggere"}
+  - {dominio: fleamapket.com, nota: "aggregatore mercatini; termini da leggere"}
+  - {dominio: eventivenetando.it, nota: "aggregatore; termini da leggere"}
+  - {dominio: trevisoinfo.it, nota: "aggregatore; termini da leggere"}
+  - {dominio: microturismodellevenezie.it, nota: "aggregatore; termini da leggere"}
+  - {dominio: trevisotoday.it, nota: "testata; termini da leggere"}
+  - {dominio: oggitreviso.it, nota: "testata; termini da leggere"}
+
+ammesse:
+  - {dominio: prolocovenete.it, verificato: 2026-11-28, nota: "rete delle Pro Loco (UNPLI Veneto): categoria ammessa dalla regola (punto 3a); robots.txt rispettato a ogni lettura"}
+  - {dominio: unpliveneto.it, verificato: 2026-11-28, nota: "come prolocovenete.it"}
+  - {dominio: calendariopodismoveneto.blogspot.com, verificato: 2026-11-28, nota: "blog Blogger: robots.txt consente la lettura; i termini Google vietano solo l'accesso automatico contro robots.txt"}
+
+api: []

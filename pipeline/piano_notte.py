@@ -147,6 +147,13 @@ def _count(name: str, key: str) -> int:
 def main(argv=None) -> int:
     args = list(sys.argv[1:] if argv is None else argv)
     if args[:1] == ["--url"] and len(args) > 1:
+        from . import fonti_vietate
+        st, entry = fonti_vietate.status(args[1])
+        if st in fonti_vietate.BLOCKED:
+            print(f"VIETATA (regola fonti, config/fonti-vietate.yaml): {fonti_vietate.label(args[1])} e' "
+                  f"{st.replace('_', ' ')}: non aprirla ne' leggerla"
+                  + (f" ({entry.get('motivo') or entry.get('nota')})" if entry else ""))
+            return 1
         d = blocked(args[1])
         if d:
             print(f"DA EVITARE: {d['dominio']}{d.get('percorso') or ''} non si legge con WebFetch"
@@ -167,6 +174,14 @@ def main(argv=None) -> int:
               f"per la ricerca. Segnalalo nel messaggio finale.")
     else:
         print(f"Giro del PC: ultimo il {last}")
+    from . import fonti_vietate
+    lists = fonti_vietate._lists()
+    print("REGOLA FONTI: mai aprire, leggere o cercare con site: le piattaforme vietate o da verificare di "
+          "config/fonti-vietate.yaml (" + ", ".join(sorted(e["dominio"] for e in lists["vietate"])[:12]) + ", ...). "
+          "Controllo di un link: python -m pipeline.fonti_vietate --url <link>")
+    if lists["da_verificare"]:
+        print("Da verificare (vietate finche' non leggi robots.txt e termini; verificane 1-2 se resta budget): "
+              + ", ".join(e["dominio"] for e in lists["da_verificare"][:8]))
     doms = [d["dominio"] + (d.get("percorso") or "") for d in blocked_domains()]
     if doms:
         print(f"Non aprire con WebFetch (ops/domini-illeggibili.yaml): {', '.join(doms)}")

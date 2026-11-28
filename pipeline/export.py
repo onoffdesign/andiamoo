@@ -10,6 +10,7 @@ from collections import Counter
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
 
+from . import fonti_vietate
 from . import categories as cats
 from .config import DATA_DIR, ROOT, settings, taxonomy
 from .enrich import SOCIAL, action_link
@@ -65,6 +66,10 @@ def export(events: list[Event]) -> dict:
         lat, lon = scatter(ev) if ev.geo_precision == "town" else (ev.lat, ev.lon)
         d["lat"], d["lon"] = round(lat, 5), round(lon, 5)
         items.append(d)
+    # regola fonti: niente dati da piattaforme vietate o da verificare; i loro link solo come "Iscrizioni su ..."
+    items, held = fonti_vietate.separate(items)
+    fonti_vietate.write_held(held)
+    fonti_vietate.write_trace(items)
     payload = {
         "generated": datetime.now(ROME).isoformat(timespec="minutes"),
         "site": {**settings()["site"], "days_ahead": settings()["pipeline"]["days_ahead"], "api_url": api_url()},

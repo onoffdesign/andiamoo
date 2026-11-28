@@ -8,6 +8,7 @@ from urllib.robotparser import RobotFileParser
 
 import httpx
 
+from . import fonti_vietate
 from .config import settings, user_agent
 from .store import Store
 
@@ -66,6 +67,8 @@ class Fetcher:
     def get(self, url: str, *, use_cache: bool = True, max_age: float | None = None,
             accept: str = "text/html,application/json;q=0.9,*/*;q=0.8") -> str:
         max_age = self.cache_age if max_age is None else max_age
+        if fonti_vietate.blocked(url) and not fonti_vietate.api_allowed(url):
+            raise Blocked(f"fonte vietata o da verificare (config/fonti-vietate.yaml): {url}")
         if use_cache:
             cached = self.store.http_get(url, max_age)
             if cached is not None:
@@ -88,7 +91,7 @@ class Fetcher:
         return json.loads(self.get(url, accept="application/json", **kw))
 
     def get_bytes(self, url: str) -> bytes:
-        if not self.allowed(url):
+        if fonti_vietate.blocked(url) or not self.allowed(url):
             raise Blocked(url)
         self._wait(url)
         r = self.client.get(url)

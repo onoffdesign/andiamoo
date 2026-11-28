@@ -30,6 +30,7 @@ from typing import Optional
 import yaml
 
 from . import categories as cats
+from . import fonti_vietate
 from .config import ROOT, settings
 from .models import Event
 
@@ -37,6 +38,7 @@ log = logging.getLogger(__name__)
 
 CORRECTIONS = ROOT / "config" / "correzioni.yaml"
 CURATED = ROOT / "config" / "eventi_redazione.yaml"
+RULE_DAY = "2026-11-28"        # da qui gli eventi della redazione devono rispettare la regola fonti
 
 EDITABLE = {"title", "start", "end", "all_day", "summary", "category", "subcategory", "access", "price", "venue",
             "address", "town", "official_url", "ticket_url", "audience", "setting", "lat", "lon"}
@@ -144,6 +146,22 @@ def check() -> list[str]:
             if not ev.get(req):
                 errs.append(f"{where}: manca '{req}'")
         errs += validate_fields({k: v for k, v in ev.items() if k not in ("fonte", "trovato")}, where)
+        # regola fonti (dal 2026-11-28): dati solo da fonti ammesse, piattaforme vietate solo come ticket_url
+        if str(ev.get("trovato") or "") >= RULE_DAY:
+            for key in ("official_url", "fonte"):
+                url = str(ev.get(key) or "")
+                if url.startswith("http") and fonti_vietate.blocked(url):
+                    errs.append(f"{where}: {key} su fonte {fonti_vietate.status(url)[0].replace('_', ' ')} "
+                                f"({fonti_vietate.label(url)}): usa la pagina di una fonte ammessa; il link della "
+                                "piattaforma puo' stare solo in ticket_url")
+    try:
+        lists = yaml.safe_load(fonti_vietate.LIST_FILE.read_text(encoding="utf-8")) or {}
+        for key in ("vietate", "da_verificare", "ammesse", "api"):
+            for e in lists.get(key) or []:
+                if not (isinstance(e, dict) and e.get("dominio")):
+                    errs.append(f"config/fonti-vietate.yaml [{key}]: ogni voce vuole 'dominio'")
+    except (OSError, yaml.YAMLError) as e:
+        errs.append(f"config/fonti-vietate.yaml non leggibile: {e}")
     return errs
 
 
@@ -202,6 +220,10 @@ def apply_payload(payload: dict, corr: Optional[dict] = None) -> dict:
             d["action_url"] = d.get("official_url") or d.get("ticket_url") or d.get("source_url")
             stats["corretti"] += 1
         events.append(d)
+    events, held = fonti_vietate.separate(events)     # regola fonti: vale anche per cio' che e' gia' sul sito
+    fonti_vietate.write_held(held)
+    fonti_vietate.write_trace(events)
+    stats["da_verificare"] = len(held)
     events.sort(key=lambda d: d.get("start") or "")
     payload = {**payload, "events": events, "count": len(events)}
     payload["redazione"] = stats
@@ -356,11 +378,52 @@ def find_duplicates() -> int:
     return 0
 
 
+def rule_violations(items: list) -> list[tuple[int, str]]:
+    """Eventi della redazione (dal RULE_DAY) con dati o link ufficiale su fonte vietata o da verificare."""
+    out = []
+    for i, ev in enumerate(items):
+        if str(ev.get("trovato") or "") < RULE_DAY:
+            continue
+        for key in ("official_url", "fonte"):
+            url = str(ev.get(key) or "")
+            if url.startswith("http") and fonti_vietate.blocked(url):
+                out.append((i, f"{key} su fonte {fonti_vietate.status(url)[0].replace('_', ' ')}: {fonti_vietate.label(url)}"))
+                break
+    return out
+
+
+def move_violations() -> int:
+    """Toglie da eventi_redazione.yaml gli eventi che non rispettano la regola fonti e li mette in
+    ops/da-verificare.json (regola punto 4: senza fonte ammessa non si pubblica). Tiene intatto il resto del file."""
+    text = CURATED.read_text(encoding="utf-8")
+    items = (yaml.safe_load(text) or {}).get("eventi") or []
+    bad = rule_violations(items)
+    starts = [m.start() for m in re.finditer(r"^  - ", text, re.M)]
+    if len(starts) != len(items):
+        print("Struttura di eventi_redazione.yaml inattesa: spostali a mano.")
+        return 1
+    held = []
+    for i, why in bad:
+        ev = items[i]
+        held.append({"uid": None, "titolo": ev.get("title"), "inizio": str(ev.get("start") or ""),
+                     "fine": str(ev.get("end") or ""), "comune": ev.get("town"), "fonte": ev.get("fonte"),
+                     "motivo": why, "link": ev.get("official_url"), "registrato": str(date.today())})
+    drop = {i for i, _ in bad}
+    bounds = starts + [len(text)]
+    kept = text[:starts[0]] + "".join(text[bounds[k]:bounds[k + 1]] for k in range(len(items)) if k not in drop) if items else text
+    CURATED.write_text(kept, encoding="utf-8")
+    fonti_vietate.write_held(held)
+    print(f"Spostati in ops/da-verificare.json: {len(held)} eventi")
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Correzioni della redazione")
     ap.add_argument("--doppioni", action="store_true",
                     help="elenca i probabili doppioni in eventi_redazione.yaml (stesso giorno e comune)")
     ap.add_argument("--controlla", action="store_true", help="verifica i file della redazione")
+    ap.add_argument("--sposta-vietati", action="store_true",
+                    help="sposta in ops/da-verificare.json gli eventi della redazione presi da fonti vietate")
     ap.add_argument("--applica", action="store_true", help="applica correzioni e rimozioni al sito pubblicato")
     ap.add_argument("--cerca", metavar="TESTO", help="cerca un evento gia' sul sito (titolo, luogo, comune)")
     ap.add_argument("--data", metavar="AAAA-MM-GG", help="con --cerca: solo eventi attivi in quel giorno")
@@ -368,6 +431,8 @@ def main(argv=None) -> int:
     ap.add_argument("--comune", metavar="NOME",
                     help="eventi futuri di un comune (sito + redazione) e loro fonti: da guardare prima di cercarlo")
     args = ap.parse_args(argv)
+    if args.sposta_vietati:
+        return move_violations()
     if args.doppioni:
         return find_duplicates()
     if args.comune:

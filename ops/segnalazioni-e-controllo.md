@@ -29,9 +29,18 @@ Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella
   anche nel codice: il PC scarta la provincia e segnala i punti a piu' di 6 km dal centro)
 
 - 2026-10-31 · **Il link deve portare all'evento.** Controllo a campione 0/10, sempre per il link: un profilo Instagram
-  o un campo vuoto non sono un link ufficiale. Per Eventbrite la pagina dell'evento e' la pagina di iscrizione
-  dell'organizzatore e vale come link d'azione (ora nel codice). Per gli eventi di insolitotrantran con link social
-  si cerca il sito o la pagina dell'evento; se non c'e', resta in coda.
+  o un campo vuoto non sono un link ufficiale. Per gli eventi con link social si cerca il sito o la pagina
+  dell'evento; se non c'e', resta in coda. (Superata il 2026-11-28 per Eventbrite: vedi la regola fonti qui sotto.)
+
+- 2026-11-28 · **REGOLA FONTI: piattaforme con divieto di scraping** (decisa da Federico). Elenco in
+  `config/fonti-vietate.yaml`, Eventbrite per primo; nel dubbio una fonte vale come vietata. Sulle vietate: niente
+  visite, letture o analisi automatiche (nemmeno per scoprire eventi), niente endpoint interni, servizi di scraping
+  terzi, proxy o user agent falsi, niente testi o immagini. Un evento che compare li' si pubblica solo se si trova
+  su una fonte ammessa (organizzatore, sede, comune, pro loco, altre fonti ammesse), stesso titolo, data, orario e
+  luogo, con dati presi solo da li', riassunto originale di 2-3 frasi e fonte indicata; il link della piattaforma
+  solo come "Iscrizioni su ..." (`ticket_url`). Senza fonte ammessa: `ops/da-verificare.json`. Log dei prelievi in
+  `ops/prelievi.csv`, richieste di rimozione in `ops/richieste-rimozione.md`. (ora nel codice: il PC non legge le
+  fonti vietate o da verificare, nemmeno dalla cache; export e `--applica` tolgono dal sito gli eventi presi da li')
 
 - 2026-11-05 · **Sigla della provincia nel comune.** "Treviso (TV)" faceva cercare il comune sbagliato: 45 eventi di
   Gli Alcuni a Treviso erano a Vittorio Veneto (37 km). Si toglie la sigla prima di geolocalizzare e si controlla

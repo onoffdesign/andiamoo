@@ -19,7 +19,9 @@ Legge config/eventi_redazione.yaml:
 from __future__ import annotations
 
 import logging
+import re
 from typing import Iterator
+from urllib.parse import urlparse
 
 import yaml
 
@@ -43,9 +45,15 @@ def collect(src: dict, ctx: Context) -> Iterator[Event]:
         end, _ = to_local_iso(str(item["end"])) if item.get("end") else (None, False)
         cat, sub = cats.validate(item.get("category"), item.get("subcategory"))
         summary = strip_personal_data(str(item.get("summary") or "")).strip()
+        fonte = str(item.get("fonte") or "").strip()
+        src_url = fonte if fonte.startswith("http") else str(item["official_url"])
+        # nella scheda "Fonte: ..." il nome della fonte usata, non "Redazione"
+        src_name = re.sub(r"\s*\(\d{1,2}/\d{1,2}/\d{2,4}\)\s*$", "", fonte) if fonte and not fonte.startswith("http") \
+            else re.sub(r"^www\.", "", urlparse(src_url).hostname or src["name"])
         yield Event(
-            source=src["id"], source_name=src["name"],
-            source_url=str(item.get("fonte") or item["official_url"]),
+            source=src["id"], source_name=src_name or src["name"], fetched_at=str(item.get("trovato") or ""),
+            ticket_url=str(item.get("ticket_url") or ""),
+            source_url=src_url,
             title=str(item["title"]).strip(), start=start, end=end, all_day=all_day,
             summary=summary, ai_summary=bool(summary),
             category=cat, subcategory=sub,

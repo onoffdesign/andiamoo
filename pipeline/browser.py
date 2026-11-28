@@ -33,6 +33,9 @@ class Browser:
 
     def read(self, url: str, timeout_ms: int = 20000) -> tuple[str, str]:
         """Apre l'URL, attende l'eventuale redirect, ritorna (url finale, testo principale)."""
+        from . import fonti_vietate
+        if fonti_vietate.blocked(url):
+            raise RuntimeError(f"fonte vietata o da verificare (config/fonti-vietate.yaml): {url}")
         page = self._ctx.new_page()
         try:
             page.goto(url, timeout=timeout_ms, wait_until="domcontentloaded")
