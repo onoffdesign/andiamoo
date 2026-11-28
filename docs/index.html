@@ -13,7 +13,7 @@
 <link rel="preload" href="data/intro.json" as="fetch" crossorigin>
 <link rel="preload" href="fonts/patrick-hand-latin.woff2" as="font" type="font/woff2" crossorigin>
 <style>@font-face { font-family: "Andiamo Intro"; src: url("fonts/patrick-hand-latin.woff2") format("woff2"); font-display: block; }</style>
-<link href="style.css?v=81" rel="stylesheet">
+<link href="style.css?v=83" rel="stylesheet">
 </head>
 <body>
 <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0">
@@ -106,10 +106,13 @@
           <input id="near-q" type="search" placeholder="Scrivi un comune, es. Conegliano" autocomplete="off" spellcheck="false">
           <ul class="near-list" id="near-list" role="listbox"></ul>
           <div class="near-radius" role="group" aria-label="Distanza massima">
-            <span>Entro</span>
-            <button type="button" id="near-less" aria-label="Riduci di 5 km">−</button>
-            <b id="near-radius" aria-live="polite">30 km</b>
-            <button type="button" id="near-more" aria-label="Aumenta di 5 km">+</button>
+            <div class="nr-top"><span>Distanza</span><b id="near-radius" aria-live="polite">30 km</b></div>
+            <div class="nr-row">
+              <button type="button" id="near-less" aria-label="Riduci di 5 km" title="5 km">−</button>
+              <input type="range" id="near-range" min="5" max="205" step="5" value="30" aria-label="Distanza massima in km">
+              <button type="button" id="near-more" aria-label="Aumenta di 5 km" title="Tutta Italia">+</button>
+            </div>
+            <div class="nr-ends" aria-hidden="true"><span>5 km</span><span>Tutta Italia</span></div>
           </div>
           <div class="near-actions">
             <button type="button" id="near-gps">Usa la mia posizione</button>
@@ -273,6 +276,6 @@
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=79"></script>
+<script src="app.js?v=82"></script>
 </body>
 </html>
