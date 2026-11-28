@@ -661,6 +661,160 @@ sources:
       - https://www.teatrobellini.it/
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): JSON-LD Event, 17 eventi futuri. Quinto giro del 2026-11-28: il fetcher del progetto riceve 403 sulla home (anti-bot); gli eventi fino a fine marzo sono gia' sul sito."
+  - id: comune-cuneo
+    name: Comune di Cuneo, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.comune.cuneo.it/vivere-il-comune/eventi/
+    hint: "Eventi del Comune di Cuneo (sito Design Comuni): ogni scheda /vivere-il-comune/eventi/ ha data, ora, luogo e indirizzo. town Cuneo salvo diversa indicazione; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): molti eventi al mese con schede complete."
+  - id: comune-marsala
+    name: Comune di Marsala, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.comune.marsala.tp.it/it/eventi
+    hint: "Eventi del Comune di Marsala (TP): stagione concertistica e teatro con ora, luogo e prezzo nelle schede. town Marsala; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti)."
+  - id: teatro-vittorio-emanuele-messina
+    name: Teatro Vittorio Emanuele (Messina)
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.teatrovittorioemanuele.it/stagione-vittorio-emanuele-2026-2027-sala-grande/
+    hint: "Stagione 2026/27 della Sala Grande del Teatro Vittorio Emanuele, Messina: schede /evento/ con data e ora. town Messina; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): l'API tribe (/wp-json/tribe/events/v1/events) e' da provare; se risponde, passare a tribe_api."
+  - id: turismo-torino
+    name: Turismo Torino e Provincia, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://turismotorino.org/it/visita/eventi
+    hint: "Eventi di Torino e provincia dall'ente turistico ufficiale: ogni scheda ha date, luogo e comune. official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): ente ufficiale, robots.txt letto senza divieti."
+  - id: visit-tuscany
+    name: Visit Tuscany, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.visittuscany.com/it/eventi/
+    hint: "Portale turistico della Regione Toscana: eventi di tutte le province, schede senza parametri con date e luogo. town il comune della scheda; official_url la scheda o il sito dell'organizzatore."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): portale regionale, robots.txt aperto."
+  - id: comune-napoli
+    name: Comune di Napoli, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.comune.napoli.it/vivere-il-comune/eventi/
+    hint: "Eventi del Comune di Napoli (sito Design Comuni): schede con data, ora e luogo. town Napoli; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti)."
+  - id: comune-palermo
+    name: Comune di Palermo, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.comune.palermo.it/vivere-il-comune/eventi/
+    hint: "Eventi del Comune di Palermo (sito Design Comuni): schede con data, ora e luogo. town Palermo; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti)."
+  - id: auditorium-parco-musica
+    name: Auditorium Parco della Musica (Roma)
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.auditorium.com/it/
+    hint: "Concerti e spettacoli dell'Auditorium Parco della Musica Ennio Morricone, Viale Pietro de Coubertin 30, Roma: schede /it/event/<slug>/ con data, ora, sala e prezzo. town Roma; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): WordPress, schede /it/event/."
+  - id: comune-livorno
+    name: Comune di Livorno, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.comune.livorno.it/it/categorie-eventi/74150
+    hint: "Eventi del Comune di Livorno: schede con data, ora e luogo. town Livorno; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti)."
+  - id: comune-foligno
+    name: Comune di Foligno, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://comune.foligno.pg.it/vivere-il-comune/eventi/
+    hint: "Eventi del Comune di Foligno (PG, sito Design Comuni): schede con data, ora e luogo. town Foligno; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti)."
+  - id: teatro-carlo-felice
+    name: Teatro Carlo Felice (Genova)
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.carlofelice.it/
+    hint: "Opera, balletto e concerti del Teatro Carlo Felice, Passo Eugenio Montale 4, Genova: date, ora e prezzi nelle schede. town Genova; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): l'API tribe e' da provare; se risponde, passare a tribe_api."
+  - id: visit-genoa
+    name: Visit Genoa, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.visitgenoa.it/it/eventi
+    hint: "Eventi di Genova dal portale turistico del Comune (Drupal): schede con date, luogo e indirizzo. town Genova salvo diversa indicazione; official_url la scheda o il sito dell'organizzatore."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti)."
+  - id: amat-platea-marche
+    name: AMAT, Platea delle Marche (circuito teatrale)
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.amatmarche.net/platea-delle-marche-3/
+    hint: "Tutte le repliche del circuito teatrale regionale AMAT nelle Marche: ogni riga ha data, ora, titolo, teatro, comune e link alla scheda. town il comune della riga; official_url la scheda. Accesso e prezzo dalla scheda del teatro."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (agente italia-b): 100 eventi di AN e PU in una lettura. Alcuni teatri (Loreto, Cupramontana, Numana) non hanno l'indirizzo nella riga: prenderlo dalla scheda."
+  - id: toscana-spettacolo
+    name: Fondazione Toscana Spettacolo (circuito teatrale)
+    type: html_llm
+    enabled: false        # WebFetch la legge vuota (ops/domini-illeggibili.yaml): da riattivare quando si legge
+    listing_urls:
+      - https://www.toscanaspettacolo.it/calendario/
+    hint: "Calendario del circuito teatrale regionale toscano (10 province): schede /spettacolo/<slug>/ con data, teatro e comune. town il comune della scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (agente italia-b): WordPress con tipo 'spettacolo' (feed /spettacoli-teatro-toscana/feed/), robots.txt aperto (blocca solo wp-admin). WebFetch restituisce pagina vuota (3 prove), curl dalla shell legge la home: va provata /wp-json/wp/v2/spettacolo. Spenta finche' non c'e' un modo di leggerla; intanto le stagioni FTS si prendono dai siti dei Comuni."
+  - id: turismo-novara
+    name: Turismo Novara, eventi e manifestazioni (PDF)
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1
+    hint: "PDF di tutti gli eventi della provincia di Novara dall'ATL: ogni voce ha comune, luogo, spesso indirizzo e ora, senza link. Si legge con pdftotext sul file salvato da WebFetch. official_url https://www.turismonovara.it/it/doc/eventimanifestazioni."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (agente italia-a): 274 eventi dal 28/11 in una lettura; conviene un raccoglitore per il PDF."
+  - id: visit-valsesia-vercelli
+    name: Visit Valsesia Vercelli, i prossimi eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    hint: "Prossimi eventi della provincia di Vercelli (Vercelli, Valsesia, Trino) dall'ATL Terre dell'Alto Piemonte: circa 250 eventi fino ad aprile, ognuno con scheda /eventi/<slug>/, ora e luogo. Pagina di 285.000 caratteri: leggerla in 3 parti (offset 0, 100000, 200000). official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (agente italia-a): da verificare se e' WordPress con The Events Calendar (in quel caso tribe_api)."
+  - id: distretto-laghi
+    name: Distretto Turistico dei Laghi, eventi
+    type: html_llm
+    enabled: true
+    listing_urls:
+      - https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27
+      - https://www.distrettolaghi.it/it/eventi
+    hint: "Eventi del Verbano Cusio Ossola e del nord della provincia di Novara dalla DMO: il calendario delle feste ha 75 eventi con le schede /it/eventi/<slug> (orari e luoghi solo nelle schede); l'elenco generale /it/eventi va per ?page=N. town il comune della scheda; official_url la scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (agente italia-a). L'export /it/export_data_eventi risponde 500. Dopo il 6/1/2027 la prima pagina e' da cambiare."
 
 # Profili social da seguire a mano: il bot li mostra con /profili.
 # Non vengono letti in automatico (Instagram e Facebook lo vietano e bloccano gli account):

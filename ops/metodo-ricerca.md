@@ -74,6 +74,11 @@ Come cercare:
   stesso per gli altri circuiti (ATER Emilia-Romagna, Piemonte dal Vivo, Circuito Lombardo, ATCL Lazio, CeDAC Sardegna).
   Le coordinate dei luoghi si prendono da Nominatim dalla shell, mai a memoria.
 
+- 2026-11-28 (notte, cinque agenti): **per le province nuove partire dalle pagine dei circuiti teatrali regionali e
+  dai PDF dei programmi degli enti turistici, che rendono 100+ eventi a lettura; coordinate da Nominatim una chiamata
+  per luogo.** AMAT Platea delle Marche (100 repliche), Visit Valsesia Vercelli (250 eventi), PDF PrintPDF=1 di Turismo
+  Novara (274 eventi, pdftotext). Le cinque pagine migliori sono ora fonti del giro in config/sources.yaml.
+
 ## 2. Regole per regione
 
 ### Veneto
@@ -217,6 +222,7 @@ segnate "vietata" non si aprono piu' (i loro eventi si cercano dall'organizzator
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-28 (notte, cinque agenti, sera) · tutte (20 province di Piemonte, Liguria, Valle d'Aosta, Toscana e Marche + giro fuori Veneto) · ricerche 401 su 500 (giro 78, revisione 72, italia-a 97, italia-b 86, fonti 58, piu' il coordinatore) · eventi nuovi 1008 (giro 150, revisione 1, italia-a 474 di cui 175 uniti prima, italia-b 380, fonti 3) · eventi per ricerca 2,5 · fonti al giro +17 (16 attive e toscana-spettacolo spenta) · miglioria: per le province nuove partire dalle pagine dei circuiti teatrali regionali e dai PDF dei programmi degli enti turistici, che rendono 100+ eventi a lettura; coordinate da Nominatim una chiamata per luogo
 - 2026-11-28 (notte, sessione delle 01:07, cinque agenti) · 20 province di Lombardia, Emilia-Romagna, Piemonte e TV + giro · ricerche 352 (giro 57, revisione 63, italia-a 89, italia-b 124, fonti 19) · eventi nuovi 995 · eventi per ricerca 2,83 · fonti al giro +6 (musincantus, teatro-cilea, marche-teatro, visit-lazio, teatro-massimo-bellini, teatro-bellini-napoli) · miglioria: coordinate dei luoghi nuovi sempre da Nominatim interrogato dalla shell (1 richiesta al secondo, user agent del progetto), mai a memoria; il coordinatore le controlla prima di unire
 - 2026-11-28 (notte, terza prova) · TV + 10 province di Trentino-Alto Adige e Lombardia + giro (BL, TS) · ricerche circa 373 (giro 90, revisione 71, treviso 97, italia 115; molte letture dirette di API) · eventi nuovi 407 (TV circa 95, altre province circa 312) · eventi per ricerca 1,09 · fonti catalogate +10 (API OpenCity di Trento, OpenAgenda di Bolzano, Open Data Hub Alto Adige, Donizetti, Sociale di Como...) · miglioria: PDF letti con pdftotext sul file salvato da WebFetch
 - 2026-11-28 (notte) · TV + 10 province di Veneto e Friuli · ricerche circa 370 (quattro agenti, piu' letture dirette dalla shell) · eventi nuovi 331 (TV 105, altre province 226) · eventi per ricerca 0,91 · fonti al PC +2 (dolomiti-prealpi e sala-luttazzi-trieste, tribe_api; catalogate 21 fonti) · miglioria: programmi in immagine letti scaricando il file; API OpenCity dei comuni; i test non riscrivono piu' ops/prelievi.csv

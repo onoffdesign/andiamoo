@@ -2,6 +2,57 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-28 (notte, cinque agenti)
+
+- **Sito**: da 2211 a 3209 eventi. **Aggiunti 1008** in redazione: giro 150, revisione 1, italia-a 474 (di cui 175
+  uniti prima da un commit intermedio), italia-b 380, fonti 3 (il conto 1005 del coordinatore non comprendeva i 3
+  dell'agente fonti). Per categoria: teatro-spettacoli 558, musica 154, arte-cultura 79, famiglie-bambini 74,
+  mercatini-fiere 55, sagre-feste 53, sport 19, natura-outdoor 16. Per regione: Toscana 327 (LU 63, FI 47, MS 41, LI 41,
+  SI 41, AR 24, PI 23, PO 23, PT 14, GR 10), Piemonte 244 (NO 136, VC 83, VB 24, CN 1), Marche 162 (AN 93 con i 39 di
+  Marche Teatro, PU 69), Liguria 143 (GE 76, SV 28, SP 26, IM 13), Campania 64 (Napoli: Bellini e Cilea), Lazio 22,
+  Veneto 20, Valle d'Aosta 18, Sicilia 8 (Catania 7, Marsala 1).
+- **Corretti 31** (giro 10 su Trevignano Cultura, revisione 21), **rimossi 0**, **verificati 28** (revisione).
+- **Fonti del giro lette**: le 7 mai lette (teatro-bellini-napoli 50, marche-teatro 39, visit-lazio 21, teatro-cilea 14,
+  teatro-massimo-bellini 7, running-life 4, gotrail 0: scheda del 2023), 4 trevigiane gia' sature (nautilus-teatro,
+  dolomiti-prealpi, visit-fregona, comune-castelfranco: 0 nuovi) e 9 fonti note: Teatro Del Monaco (prosa) resa 10,
+  Treviso Basket 2, Benetton Rugby 1, Imoco Volley 1, Treviso FBC 1, Trevignano Cultura 0 nuovi ma 10 correzioni,
+  Biblioteca di Zero Branco 0, Collalto di Susegana 0, parkrun Treviso 0. Sistemata teatro-cilea (e' il Teatro Cilea
+  di Napoli, non quello di Reggio Calabria).
+- **Luoghi**: 201 in config/luoghi.yaml (46 della revisione, 155 del coordinatore dai resoconti: giro 14, italia-a 57,
+  italia-b 84); ora 566 voci. Non messi: il Teatro Mecenate di Arezzo (punto OSM in Via Dante a 1,96 km dal centro,
+  oltre la soglia di 1,5 km: da verificare), i 4 punti "centro via" di italia-a (Teatro Pernate, Teatro MP e Teatro
+  del Cuscino a Novara, Auditorium Tricerri a Trino) e i punti approssimati del giro (Collalto Sabino, Sezze, Greccio,
+  Vazzola, Susegana, Ponzano).
+- **Fonti nuove catalogate**: 88 in ops/fonti.yaml (46 dell'agente fonti, 42 dai resoconti di italia-a e italia-b,
+  aggiunte dal coordinatore); l'url di AMAT ora e' la pagina Platea delle Marche. Il catalogo ha 362 voci.
+- **Fonti spostate in config/sources.yaml (17)**: comune-cuneo, comune-marsala, teatro-vittorio-emanuele-messina,
+  turismo-torino, visit-tuscany, comune-napoli, comune-palermo, auditorium-parco-musica, comune-livorno,
+  comune-foligno, teatro-carlo-felice, visit-genoa (le 12 proposte dell'agente fonti), amat-platea-marche,
+  turismo-novara, visit-valsesia-vercelli, distretto-laghi e toscana-spettacolo (spenta: WebFetch la legge vuota).
+  Tutte html_llm: le API tribe di Carlo Felice e Vittorio Emanuele sono da provare.
+- **Domini illeggibili**: +7 (toscanaspettacolo.it, teatrodipisa.it, rivieradeifiori.travel, teatrodellatoscana.it,
+  viottifestival.it, regione.vda.it /cultura/eventi_spettacoli/saison_culturelle/, teatrosancarlo.it).
+- **Verifica fonti**: vietate allevents.in, canzoni.it e finishers.com; ammesse balliamoliscio.it e hdsports.org;
+  dice.fm e feverup.com vietate. Restano da verificare 7, tra cui ticketone.it (503 al quinto giro) e classicalive.it
+  (pagina legale introvabile), 2night.it, cheventi.it; eventi trattenuti che possono tornare: 0.
+- **Campione 12/20** (orario 1, luogo 6, accesso 4, link 1), sotto l'80%: regola nuova nella parte 1 di
+  ops/segnalazioni-e-controllo.md (accesso e prezzo dalle schede dei teatri). **Test di copertura 7/20** (VI e LC).
+- **Modulo**: nessuna risposta nuova (solo le due righe TEST, l'ultima del 28/11/2026 11.09.13).
+- **Ricerche**: 401 su 500 (giro 78, revisione 72, italia-a 97, italia-b 86, fonti 58, piu' il coordinatore), circa
+  300 interrogazioni a Nominatim dalla shell fuori quota. Eventi per ricerca 2,5. Voci nuove di categorie: 26.
+- **Problemi aperti per la notte dopo**:
+  - le 7 fonti da verificare, tra cui ticketone.it (503) e classicalive.it: serve un controllo a mano di Federico;
+  - 33 eventi della coda di revisione non lavorati (teatri e musei di Bologna, Modena e Casalecchio con accesso
+    sconosciuto, Giardini Pubblici di Forli', Winter Park di Cremona);
+  - campione 12/20 sotto soglia (punto sul solo comune e accesso non trascritto);
+  - Lo Schiaccianoci del 17/12 a Lecco: sul sito al Teatro della Societa', il Comune lo scrive al Teatro Cenacolo
+    Francescano (non corretto);
+  - Centro polivalente di Longastrino (Via Bassa 59) scritto come Alfonsine: Longastrino e' divisa tra Argenta e
+    Alfonsine, da verificare;
+  - comune.prato.it in 503 (Natale di Prato non letto); Teatro di Pisa senza orari (13 eventi dai risultati di ricerca);
+  - un commit intermedio ha portato un file parziale di italia-a (175 eventi) che un'altra sessione ha unito mentre
+    l'agente lavorava: d'ora in poi non includere nel commit i file config/notte/ degli agenti ancora al lavoro.
+
 ## 2026-11-28 (sessione notturna delle 01:07, cinque agenti)
 
 - **Sito**: da 1216 a 2211 eventi. **Aggiunti 995** sul sito (giro 458, italia-a 350, italia-b 183, revisione 6;

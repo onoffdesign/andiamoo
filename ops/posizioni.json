@@ -7,7 +7,7 @@
   "lontani_dal_comune": 109,
   "solo_comune_con_luogo": 77,
   "solo_comune_senza_luogo": 26,
-  "candidati_luoghi_noti": 67
+  "candidati_luoghi_noti": 32
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -687,15 +687,6 @@
  "candidati_luoghi": [
   {
    "nomi": [
-    "Teatro del Maggio Musicale Fiorentino - Sala Grande"
-   ],
-   "comune": "Firenze",
-   "lat": 43.77888,
-   "lon": 11.23487,
-   "eventi": 27
-  },
-  {
-   "nomi": [
     "Teatro della Pergola"
    ],
    "comune": "Firenze",
@@ -705,66 +696,12 @@
   },
   {
    "nomi": [
-    "Teatro del Maggio Musicale Fiorentino - Auditorium"
-   ],
-   "comune": "Firenze",
-   "lat": 43.77888,
-   "lon": 11.23487,
-   "eventi": 16
-  },
-  {
-   "nomi": [
-    "Teatro di Fiesole"
-   ],
-   "comune": "Fiesole",
-   "lat": 43.80782,
-   "lon": 11.29608,
-   "eventi": 14
-  },
-  {
-   "nomi": [
     "Teatro delle Clarisse"
    ],
    "comune": "Rapallo",
    "lat": 44.34826,
    "lon": 9.23551,
    "eventi": 13
-  },
-  {
-   "nomi": [
-    "Teatro degli Animosi"
-   ],
-   "comune": "Carrara",
-   "lat": 44.07879,
-   "lon": 10.09672,
-   "eventi": 12
-  },
-  {
-   "nomi": [
-    "Chapiteau TRAC, PIN ai Giardini Storici"
-   ],
-   "comune": "La Spezia",
-   "lat": 44.10373,
-   "lon": 9.82375,
-   "eventi": 11
-  },
-  {
-   "nomi": [
-    "Cine Teatro Silvio Pellico"
-   ],
-   "comune": "Trecate",
-   "lat": 45.43151,
-   "lon": 8.73952,
-   "eventi": 11
-  },
-  {
-   "nomi": [
-    "Teatro Rosmini"
-   ],
-   "comune": "Borgomanero",
-   "lat": 45.69649,
-   "lon": 8.46823,
-   "eventi": 11
   },
   {
    "nomi": [
@@ -786,15 +723,6 @@
   },
   {
    "nomi": [
-    "Conservatorio Guido Cantelli, Auditorium Olivieri"
-   ],
-   "comune": "Novara",
-   "lat": 45.44446,
-   "lon": 8.61973,
-   "eventi": 9
-  },
-  {
-   "nomi": [
     "Teatro del Cuscino"
    ],
    "comune": "Novara",
@@ -813,42 +741,6 @@
   },
   {
    "nomi": [
-    "Cinema Teatro Nuovo"
-   ],
-   "comune": "Borgomanero",
-   "lat": 45.69467,
-   "lon": 8.4552,
-   "eventi": 8
-  },
-  {
-   "nomi": [
-    "Teatro Sperimentale"
-   ],
-   "comune": "Ancona",
-   "lat": 43.61352,
-   "lon": 13.51541,
-   "eventi": 8
-  },
-  {
-   "nomi": [
-    "Teatro Comunale"
-   ],
-   "comune": "Cagli",
-   "lat": 43.54558,
-   "lon": 12.64748,
-   "eventi": 7
-  },
-  {
-   "nomi": [
-    "Mercato coperto Campagna Amica"
-   ],
-   "comune": "Pesaro",
-   "lat": 43.89618,
-   "lon": 12.90842,
-   "eventi": 7
-  },
-  {
-   "nomi": [
     "Teatro MP"
    ],
    "comune": "Novara",
@@ -858,12 +750,120 @@
   },
   {
    "nomi": [
-    "Teatro Roma"
+    "Tenuta dello Scompiglio"
    ],
-   "comune": "Castagneto Carducci",
-   "lat": 43.16026,
-   "lon": 10.60749,
+   "comune": "Capannori",
+   "lat": 43.79713,
+   "lon": 10.51241,
    "eventi": 6
+  },
+  {
+   "nomi": [
+    "Palazzo Strozzi"
+   ],
+   "comune": "Firenze",
+   "lat": 43.77128,
+   "lon": 11.25199,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Parrocchia del Santissimo Nome di Gesu' ai Bassi"
+   ],
+   "comune": "Firenze",
+   "lat": 43.78194,
+   "lon": 11.20315,
+   "eventi": 5
+  },
+  {
+   "nomi": [
+    "Via Garibaldi"
+   ],
+   "comune": "Genova",
+   "lat": 44.41152,
+   "lon": 8.93253,
+   "eventi": 5
+  },
+  {
+   "nomi": [
+    "Parrocchia di Santa Maria a Mantignano"
+   ],
+   "comune": "Firenze",
+   "lat": 43.78304,
+   "lon": 11.17677,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Chiesa di San Salvatore"
+   ],
+   "comune": "Lucca",
+   "lat": 43.84409,
+   "lon": 10.50292,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Piazza dello Spirito Santo"
+   ],
+   "comune": "Pistoia",
+   "lat": 43.93421,
+   "lon": 10.9158,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Pineta di Montecatini Terme"
+   ],
+   "comune": "Montecatini-Terme",
+   "lat": 43.88713,
+   "lon": 10.77452,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Teatro Niccolini"
+   ],
+   "comune": "Firenze",
+   "lat": 43.7738,
+   "lon": 11.2561,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Teatro di Rifredi (Nuovo Rifredi Scena Aperta)"
+   ],
+   "comune": "Firenze",
+   "lat": 43.79554,
+   "lon": 11.24139,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Largo Ciro Menotti"
+   ],
+   "comune": "Pisa",
+   "lat": 43.71776,
+   "lon": 10.40242,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Museo Novecento"
+   ],
+   "comune": "Firenze",
+   "lat": 43.77287,
+   "lon": 11.24884,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Pieve di Sant'Andrea"
+   ],
+   "comune": "Sarzana",
+   "lat": 44.11277,
+   "lon": 9.96106,
+   "eventi": 4
   }
  ]
 }

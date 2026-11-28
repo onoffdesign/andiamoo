@@ -24,3 +24,10 @@ domini:
   - {dominio: comune.montebelluna.tv.it}
   - {dominio: comune.venezia.it, nota: "protezione Incapsula, anche live.comune.venezia.it (2026-11-28)"}
   - {dominio: veneziaunica.it, nota: "protezione Incapsula (2026-11-28)"}
+  - {dominio: toscanaspettacolo.it, nota: "WebFetch legge pagina vuota (home, /calendario/, feed: 3 a vuoto il 2026-11-28); curl dalla shell legge la home"}
+  - {dominio: teatrodipisa.it, nota: "3 letture vuote il 2026-11-28 (home, /calendario/elenco/, API tribe): date solo dai risultati di WebSearch"}
+  - {dominio: rivieradeifiori.travel, nota: "403 due volte, anche l'API (2026-11-28)"}
+  - {dominio: teatrodellatoscana.it, nota: "/it/in-programma in JavaScript, brochure PDF oltre 10 MB (2026-11-28)"}
+  - {dominio: viottifestival.it, nota: "pagina vuota (2026-11-28)"}
+  - {dominio: regione.vda.it, percorso: /cultura/eventi_spettacoli/saison_culturelle/, nota: "404 (2026-11-28): usare saisonculturellevda.it"}
+  - {dominio: teatrosancarlo.it, nota: "pagina anti-bot a WebFetch (2026-11-28)"}
