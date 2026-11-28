@@ -445,7 +445,11 @@
     document.body.classList.toggle("view-list", v === "list");
     document.querySelectorAll(".view-seg button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === v)));
     try { localStorage.setItem("andiamo-vista", v); } catch (_) { /* privato */ }
-    if (v === "list") { closeCard(); state.selected = null; }
+    if (v === "list") {
+      closeCard(); state.selected = null;
+      // il titolo del giorno resta fermo subito sotto la riga con preferiti e "Piu' vicini"
+      requestAnimationFrame(() => document.documentElement.style.setProperty("--list-head", `${Math.round($("#sheet-head").getBoundingClientRect().height)}px`));
+    }
     else if (mapReady) setTimeout(() => map.resize(), 30);
   }
 
