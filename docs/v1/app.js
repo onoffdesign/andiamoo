@@ -842,10 +842,9 @@
         this.init();
         if (this.ctx.state === "suspended") this.ctx.resume();
         const t = this.ctx.currentTime + 0.01;
-        if (name === "select") {                         // timbro deciso sulla mappa
-          this.thud(t, { freq: 170, to: 60, dur: 0.14, gain: 0.75 });
-          this.rustle(t, 0.05, { freq: 2600, q: 1.2, gain: 0.55 });
-          this.rustle(t + 0.012, 0.09, { freq: 900, type: "lowpass", gain: 0.25 });
+        if (name === "select") {                         // puntina appoggiata sulla carta: tocco leggero e asciutto
+          this.rustle(t, 0.035, { freq: 3000, q: 1.6, gain: 0.28, attack: 0.002 });
+          this.thud(t + 0.004, { freq: 320, to: 170, dur: 0.05, gain: 0.16 });
         } else if (name === "expand") {                  // foglio che si apre
           this.rustle(t, 0.32, { freq: 700, to: 3800, q: 0.7, gain: 0.45, attack: 0.04 });
           this.rustle(t + 0.2, 0.08, { freq: 3200, q: 2, gain: 0.3 });
