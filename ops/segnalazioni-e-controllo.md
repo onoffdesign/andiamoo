@@ -76,6 +76,7 @@ Formato (una riga per notte, la piu' recente in alto):
 Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
+- 2026-11-28 · corretti 6/10 · errori: data 0, orario 0, luogo 1, accesso 2, categoria 0, link 2 · lezione: diciassettesima notte con il campione dell'11/11 (il PC non gira), nessuna ricerca spesa: restano gli stessi quattro aperti, quasi tutti conclusi. Sotto l'80%: cause gia' note, nessuna regola nuova
 - 2026-11-27 · corretti 6/10 · errori: data 0, orario 0, luogo 1, accesso 2, categoria 0, link 2 · lezione: sedicesima notte con il campione dell'11/11 (il PC non gira), nessuna ricerca spesa: restano gli stessi quattro aperti, quasi tutti conclusi. Sotto l'80%: cause gia' note, nessuna regola nuova
 - 2026-11-26 · corretti 6/10 · errori: data 0, orario 0, luogo 1, accesso 2, categoria 0, link 2 · lezione: quindicesima notte con il campione dell'11/11 (il PC non gira), nessuna ricerca spesa: restano gli stessi quattro aperti, quasi tutti conclusi. Sotto l'80%: cause gia' note, nessuna regola nuova
 - 2026-11-25 · corretti 6/10 · errori: data 0, orario 0, luogo 1, accesso 2, categoria 0, link 2 · lezione: quattordicesima notte con il campione dell'11/11 (il PC non gira), nessuna ricerca spesa: restano gli stessi quattro aperti, quasi tutti conclusi. Sotto l'80%: cause gia' note, nessuna regola nuova

@@ -1,17 +1,17 @@
 {
- "data": "2026-11-27",
- "aggiunti": 77,
+ "data": "2026-11-28",
+ "aggiunti": 25,
  "corretti": 0,
- "rimossi": 2,
+ "rimossi": 0,
  "verificati": 0,
  "aggiunti_per_categoria": {
-  "famiglie-bambini": 20,
-  "mercatini-fiere": 16,
-  "musica": 14,
-  "arte-cultura": 12,
-  "sagre-feste": 11,
-  "sport": 3,
-  "teatro-spettacoli": 1
+  "arte-cultura": 13,
+  "famiglie-bambini": 3,
+  "teatro-spettacoli": 3,
+  "mercatini-fiere": 2,
+  "musica": 2,
+  "sagre-feste": 1,
+  "sport": 1
  },
  "fonti_nuove": 2,
  "fonti_spostate": 0,
@@ -20,14 +20,15 @@
  "segnalazioni_gestite": 0,
  "provincia_attiva": "TV",
  "copertura_test": "8/10",
- "ricerche": 53,
- "eventi_per_ricerca": 1.45,
+ "ricerche": 50,
+ "eventi_per_ricerca": 0.5,
  "categorie_aggiunte": 10,
- "miglioria": "--doppioni segnala anche gli eventi della redazione gia' sul sito da un'altra fonte (2 doppioni tolti)",
+ "miglioria": "--controlla rifiuta una sottocategoria che non appartiene alla categoria indicata (con test)",
  "problemi": [
-  "il PC non gira dall'11/11 (sedici notti)",
-  "programmi del Natale di Oderzo, Mogliano e Castelfranco non trovati",
-  "51 luoghi senza punto fermi in attesa del PC",
-  "molti eventi del Natale senza orario nei programmi dei Comuni"
+  "Il giro del PC non parte da 17 notti (ultimo rapporto 11/11)",
+  "Programmi del Natale 2026 di Oderzo, Mogliano e Castelfranco non ancora usciti",
+  "Comuni piccoli senza pagina eventi (Fonte, Chiarano, San Polo, Mareno)",
+  "mentelocale.it in errore del server",
+  "11 letture su 24 a vuoto (pagine vecchie)"
  ]
 }

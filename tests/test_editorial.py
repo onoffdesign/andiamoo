@@ -215,3 +215,10 @@ def test_town_overview_merges_site_and_curated(files, tmp_path, monkeypatch):
     rows = editorial.town_overview("San Fior", "2026-11-26")
     assert [r[1] for r in rows] == ["39 Scalini", "Ciclocross"]
     assert rows[0][3] == "comune.san-fior.tv.it" and rows[1][2] == "redazione"
+
+
+def test_subcategory_must_belong_to_category():
+    errs = editorial.validate_fields({"category": "arte-cultura", "subcategory": "proiezioni"}, "x")
+    assert any("sottocategoria" in e for e in errs)
+    assert not editorial.validate_fields({"category": "teatro-spettacoli", "subcategory": "proiezioni"}, "x")
+    assert not editorial.validate_fields({"subcategory": "proiezioni"}, "x")

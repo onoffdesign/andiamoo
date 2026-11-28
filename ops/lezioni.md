@@ -99,6 +99,10 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
   i titoli (4 letture perse). Qdpnews ha dato 2 programmi 2026 su 5 (Vittorio Veneto, Montebelluna); 3 erano del 2021-2025.
   Le notizie dei Comuni (Nervesa, Preganziol) linkate da TViWeb non si aprono: sono gia' fonti del PC.
 
+- 2026-11-28: le schede eventi del Comune di Quinto escono con WebSearch allowed_domains comune.quintoditreviso.tv.it e "eventi dicembre 2026 Natale"
+  e si aprono tutte (4 su 4, una del 2024). Nordest24 /category/eventi elenca gli articoli TV della settimana: utile come test di copertura
+  (8/10 gia' sul sito). Gli articoli Qdpnews senza anno nell'indirizzo restano quasi sempre vecchi (3 su 5 stanotte: 2023, 2024, 2025).
+
 ## Fonti da evitare o poco utili
 - Elenco dei domini che WebFetch non legge: ora in `ops/domini-illeggibili.yaml` (lo stampa il piano della notte).
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -122,6 +126,10 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - Coordinate esatte: WebFetch non legge le mappe e la shell non raggiunge Nominatim. Meglio dare indirizzo e comune
   giusti (il PC ricalcola) o il centro certo piu' vicino.
 - Newsletter UNPLI 'Weekend con le Pro Loco': nessun evento veneto.
+- 2026-11-28: mentelocale.it (home e 2 schede su 3) in errore del server; Happy Ticket /treviso/locations/<id>-<sala>.htm rimanda alle
+  altre province; trevisoeventi presepi-treviso.html ferma al 2025-26; finestresullarte.info/citta/treviso e arte.it calendario Treviso
+  danno mostre concluse; ricerche generiche "pista di pattinaggio", "ciaspolata" e "Comune di <piccolo> eventi" (Fonte, Chiarano,
+  San Polo): resa 0.
 - 2026-11-10: rifiutati o vietati anche ilgazzettino.it, italiaeventinews.altervista.org, fondazionezavrel.it, i volantini
   del blog Calendario Podismo Veneto e la scheda del Comune di Codogne'. Musincantus non pubblica l'ingresso dei concerti
   di Autunno Musicale (solo il Lobgesang "libero con offerta"): verificati senza accesso, inutile ricercarlo.

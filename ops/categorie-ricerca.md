@@ -57,7 +57,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Arti marziali e combattimento** [stage, torneo, open day] · judo · karate · taekwondo · boxe · kickboxing · scherma
   · gare regionali FIJLKAM con informativa PDF (Conegliano) [informativa, trofeo] (2026-11-19: solo calendari e PDF, resa 0) · stage di Natale delle palestre di karate [stage di Natale karate]
   · gare regionali FIJLKAM [fijlkam calendario gare Veneto]
-- **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio · piste di pattinaggio in piazza [on ice, pista del ghiaccio] (novembre-gennaio, 2026-11-23)
+- **Sport invernali** · sci alpino · sci di fondo · snowboard · pattinaggio su ghiaccio · piste di pattinaggio in piazza [on ice, pista del ghiaccio] (novembre-gennaio, 2026-11-23) · inaugurazione delle piste di ghiaccio in piazza [inaugurazione pista, piazza Cima] (2026-11-28)
   · piste di ghiaccio di Natale nelle piazze e nei centri commerciali [pista di ghiaccio, on ice] (da fine novembre) · gare e saggi di pattinaggio artistico sulle piste di Natale [saggio pattinaggio]
 - **Motori** [raduno, rally, gara] · rally · motocross · enduro moto · auto e moto d'epoca (raduni) · karting · motoraduni di Babbo Natale [babbi natale in moto, raccolta benefica] · raduni della Befana in moto
   · calendario ACI Sport del mese [acisport calendari] · mostre scambio di auto e moto d'epoca · autocross
@@ -92,7 +92,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Libri e lettura** [presentazione del libro, incontro con l'autore, festival letterario] · gruppi di lettura · lettura di Dante canto per canto [Tutta la Commedia, lectura Dantis] · presentazioni in libreria universitaria
   · calendario settimanale delle presentazioni delle librerie di catena [eventi nelle librerie] (2026-11-18) → treviso.ubiklibri.it/eventi.html · firmacopie del sabato in libreria [firmacopie]
   · letture per adulti · poesia e slam poetry
-- **Conferenze e incontri** [conferenza, talk, dialogo] · storia locale · scienza e divulgazione · filosofia
+- **Conferenze e incontri** [conferenza, talk, dialogo] · storia locale · scienza e divulgazione · filosofia · cicli settimanali di conferenze delle fondazioni [Giovedi' della Cultura, Fondazione Cassamarca] (2026-11-28)
   · ambiente · astronomia (serate osservative) · festival di cittadinanza e cooperazione [festival, dialogo, 4passi]
   · guide all'ascolto con letture [guida all'ascolto, viaggio tra i grandi della musica] (2026-11-16) → trevisoeventi pagine comune · conferenze di centri culturali e spirituali [conferenza pubblica, simbolismo] (2026-11-16)
   · teatro forum e incontri partecipati · cicli comunali su salute e territorio [salute e territorio, agricoltura biologica] · sfilate di moda equosolidale nelle botteghe [sfilata, Altromercato, 4passi] · festival della statistica e dei dati [StatisticAll, Istat] (2026-11-27) · incontri collaterali alle mostre nei municipi [incontro in Municipio, storia dell'arte] (2026-11-27)
@@ -104,13 +104,13 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Tecnologia e scienza** · maker e robotica · divulgazione scientifica · eventi di astronomia
   · lezioni pubbliche dei gruppi di astrofili [lezioni per il pubblico, astrofili]
   · serate di osservazione degli astrofili trevigiani [astrofili trevigiani, appuntamenti] (sito solo http, WebFetch in loop: 2026-11-17) · lezioni-concerto e lezioni di musica nelle fondazioni [lezione di musica, Landscapes] (2026-11-17) · sport e statistica [basket in numeri, dati] (2026-11-27)
-- **Comunita'** · incontri di quartiere · volontariato · feste delle associazioni · gruppi di conversazione
+- **Comunita'** · incontri di quartiere · volontariato · feste delle associazioni · gruppi di conversazione · pesche di beneficenza e feste solidali nei locali [pesca benefica, AIL] (2026-11-28) · feste del Ringraziamento delle comunita' straniere [Thanksgiving] (2026-11-28)
   · iniziative della rete provinciale Pari Opportunita' verso il 25 novembre [25 novembre, panchina rossa, walk in red] · serate di prevenzione e salute dei comuni [si-cura, prevenzione, serata informativa] · donazioni di sangue AVIS con colazione [donazione, avis] · gruppi di lettura delle biblioteche [gruppo di lettura]
   · conferenze nei musei legate alle mostre in corso [conferenza, museo, Gypsotheca] (2026-11-26)
 
 ## Musica e party (`musica`)
 
-- **Concerti** [concerto, live] · rock e indie · cantautori · jazz [jam session] · blues · classica e cameristica · cori gospel nei quartieri [gospel, coro] · concerti bandistici di Natale [banda in festa] (2026-11-23)
+- **Concerti** [concerto, live] · rock e indie · cantautori · jazz [jam session] · blues · classica e cameristica · cori gospel nei quartieri [gospel, coro] · concerti bandistici di Natale [banda in festa] (2026-11-23) · concerti di musiche da film a Capodanno [colonne sonore, Capodanno in teatro] (2026-11-28)
   · stagioni cameristiche delle orchestre con sale proprie [I Virtuosi Italiani, Teatro delle Voci, Teatro Eden] (2026-11-18) → ivirtuositaliani.eu · concerti narrati con attore e strumento antico [concerto narrato, viola da gamba]
   · lirica e opera · musica corale [coro, rassegna corale] · bande e fanfare · musica sacra e organo · metal
   · hip hop e rap · elettronica live · world e folk · tributi e cover band
@@ -143,7 +143,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Cibo** · street food · cene a tema · corsi di cucina · mercati contadini con degustazioni · pranzi benefici con pasta di tradizione [pranzo solidale, magnar ben] · mostre mercato del radicchio [mostra del radicchio, Fiori d'Inverno] (gennaio)
   · cenoni di Capodanno con spettacolo nei teatri e nei circoli [cenone di Capodanno, cena spettacolo] (2026-11-18) → teatrodelpane.it
   · mostre mercato dell'olio nelle ville [Olio in Villa] (fine novembre) · te' e merende al museo [te' al museo] (2026-11-17)
-- **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed · accensione dell'albero e delle luminarie [accensione albero, luminarie] · sculture di ghiaccio dal vivo [scultori del ghiaccio] (2026-11-23)
+- **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed · accensione dell'albero e delle luminarie [accensione albero, luminarie] · sculture di ghiaccio dal vivo [scultori del ghiaccio] (2026-11-23) · presepi itineranti e diffusi nei comuni [presepi itineranti, presepi diffusi] (2026-11-28)
   Epifania · feste di primavera e d'estate
   · accensione dell'albero e apertura dei villaggi di Natale (fine novembre) [accensione albero, villaggio di Natale]
   · feste del Ringraziamento e dell'agricoltura a San Martino con trattori d'epoca [festa del Ringraziamento, palio della gerla]
@@ -163,7 +163,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · balletti di Natale delle compagnie italiane nei teatri commerciali [Balletto di Siena, Schiaccianoci] (2026-11-18) → scoppiospettacoli · spettacoli natalizi per famiglie nei teatri associativi tra Natale e Capodanno [villaggio incantato]
 - **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada · circo di Natale in tournee [circo acrobatico, Christmas edition] · clown e circo musicale nei palazzetti
   · circhi di Natale in tournee [circo di Natale, Circusfans tournee] · trampolieri e artisti di strada nei mercatini di Natale [trampolieri, mercatino di Natale]
-- **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi
+- **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi · rassegne di film natalizi in biblioteca [Cinenatale] (2026-11-28)
   · cineforum di vallata [Cineforum Quartier del Piave, rassegna d'autunno] · cinema a prezzo ridotto in piu' sale [Martedi' al Cinema 4 euro] · proiezioni gratuite per ricorrenze [25 novembre, ingresso gratuito]
   · documentari · prime visioni con ospiti · documentari con gli autori in sala
 - **Musical e operetta** · musical · operetta · tributi musicali a teatro [Battisti, Michael Jackson] · spettacoli K-pop per famiglie
@@ -171,13 +171,13 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 
 ## Famiglie e bambini (`famiglie-bambini`)
 
-- **Laboratori** [laboratorio per bambini] · creativi · scientifici · di lettura · di cucina
+- **Laboratori** [laboratorio per bambini] · creativi · scientifici · di lettura · di cucina · laboratori di cucina per bambini nelle feste di piazza [laboratorio di tiramisu'] (2026-11-28)
   · laboratori del sabato pomeriggio nei musei civici [laboratori weekend, Museo Bailo, Santa Caterina] · visite guidate per famiglie alle mostre
   · laboratori a pagamento delle fondazioni culturali nelle feste (Natale, Carnevale) [rassegna Non e' una barba, Oderzo Cultura] (2026-11-19) · notti al museo in pigiama per bambini [superpoteri in pigiama]
   · giochi di indagine per famiglie nelle ville venete a Natale [caccia al tesoro, detective, Villa di Maser] (2026-11-20)
 - **Letture e biblioteche** [ora del racconto, letture animate] · nati per leggere · laboratori creativi nei musei civici [mosaico, Piccoli Klimt] · rassegne invernali di incontri con autori [Winter & Writers] (2026-11-25)
   · gruppi di lettura per ragazzi 11-14 anni · gruppi di lettura degli adulti [book club, libro del mese] · letture di San Nicolo' [Sannicolibri] · cicli di incontri con autori in biblioteca [Il Veneto legge, BiblioMarca]
-- **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia
+- **Spettacoli per bambini** · teatro ragazzi · burattini e marionette · magia · spettacoli con videoproiezioni in piazza [spettacolo in piazza, videoproiezioni] (2026-11-28)
   · rassegne domenicali dei teatri comunali [teatro ragazzi, domeniche a teatro, Ragazzi che Teatro]
   · letture animate con musica dal vivo
   · rassegne comunali di prosa per famiglie la domenica pomeriggio [Domenica a teatro, ingresso 8 euro] (2026-11-16) → trevisoeventi stagione Trevignano Cultura · spettacoli natalizi per ragazzi nei teatri commerciali [K-pop, missione Natale] (2026-11-16)
@@ -227,7 +227,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 
 ## Natura e benessere (`natura-outdoor`)
 
-- **Escursioni** [escursione guidata, passeggiata naturalistica] · camminate in collina e sul Montello · lungo i fiumi
+- **Escursioni** [escursione guidata, passeggiata naturalistica] · camminate in collina e sul Montello · lungo i fiumi · ciaspolate guidate sul Grappa [ciaspolata Monte Grappa] (2026-11-28: solo operatori commerciali senza date)
   (Sile, Piave) · notturne e al chiaro di luna · birdwatching · forest bathing · camminate di nordic walking aperte a tutti [nordic walking, camminata d'autunno]
   · passeggiate urbane ai margini della citta' (Legambiente)
   · camminate abbinate alle mostre mercato d'autunno [camminata, colline nascoste] · percorsi tra i presepi nel bosco del Montello [presepi nel bosco] (dicembre)
@@ -271,3 +271,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-26 · +11 voci · dove: Sagre > Feste stagionali (+3), Famiglie (+3), Sport > Corsa (+2), Musica > Musica partecipata (+1), Arte e cultura > Conferenze (+1), Mercatini > Mercatini di Natale (+1); nate dal calendario del Natale di Farra di Soligo, da TrovaSagre e dall'agenda del Museo Canova
 
 - 2026-11-27 · +10 voci · dove: Arte e cultura > Visite guidate (+1), Conferenze e incontri (+2), Tecnologia e scienza (+1), Sagre (+1), Famiglie > Ricorrenze (+2), Natura > Orti e giardini (+1), Sport > Arrampicata (+1), Sport > Sport per tutti (+1, tornei di calcio balilla e burraco solidali negli oratori)
+- 2026-11-28 · +10 voci · dove: Sport invernali (+1), Arte e cultura > Conferenze (+1), Comunita' (+2), Musica > Concerti (+1), Sagre > Feste stagionali (+1), Spettacoli > Cinema (+1), Famiglie > Laboratori (+1), Spettacoli per bambini (+1), Natura > Escursioni (+1)

@@ -74,6 +74,12 @@ def validate_fields(fields: dict, where: str) -> list[str]:
                 float(v)
             except (TypeError, ValueError):
                 errs.append(f"{where}: {k} deve essere un numero")
+    if fields.get("subcategory") and fields.get("category") and cats.canonical(fields["category"]) in cats.category_ids():
+        subs = cats.subcategory_ids(cats.canonical(fields["category"]))
+        if fields["subcategory"] not in subs:
+            # 2026-11-28: una sottocategoria di un'altra categoria passava il controllo e il sito la scartava in silenzio
+            errs.append(f"{where}: sottocategoria '{fields['subcategory']}' non appartiene a '{fields['category']}' "
+                        f"(ammesse: {', '.join(subs) or 'nessuna'})")
     if ("lat" in fields) != ("lon" in fields):
         errs.append(f"{where}: lat e lon vanno indicati insieme")
     return errs

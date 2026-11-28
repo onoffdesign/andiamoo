@@ -220,14 +220,8 @@ fonti:
   comuni: [Pieve di Soligo, Moriago della Battaglia, Valdobbiadene, Vittorio Veneto, Conegliano, Maser, Segusino]
   frequenza: settimanale
   qualita: 4
-  resa:
-    controlli: 3
-    eventi_trovati: 11
-    ultimi:
-    - 8
-    - 0
-    - 3
-  ultimo_controllo: '2026-11-21'
+  resa: { controlli: 4, eventi_trovati: 11, ultimi: [0, 3, 0] }
+  ultimo_controllo: '2026-11-28'
   automatizzabile: 'no'
   stato: attiva
   note: "2026-11-06: le schede si aprono e riportano il programma completo per giorno (Prealpi in Festa 2026). Controllare l'anno: la XXII Sagra di San Martino di Colle Umberto e' del 2022. | 2026-11-14: e' il sito del Consorzio Pro Loco Quartier del Piave; la home ('Eventi in corso') da' 8 eventi del Quartier del Piave e dintorni, le schede si aprono tutte (anche se il link viene da dentro la pagina) con ora, sede, prezzo e coordinate della mappa: 8 eventi nuovi in 7 letture. Le schede con id basso (es. /2521) sono di anni passati."
@@ -1067,8 +1061,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 3, ultimi: [0, 3] }
-  ultimo_controllo: '2026-11-21'
+  resa: { controlli: 3, eventi_trovati: 8, ultimi: [0, 3, 5] }
+  ultimo_controllo: '2026-11-28'
   automatizzabile: da_valutare
   stato: attiva
   note: "l'elenco /eventi/ e' vietato a WebFetch, ma le schede uscite da una ricerca con il titolo si aprono e danno ora, luogo (biblioteca, Via D'Annunzio 9) e ingresso: 3 eventi della coda sistemati il 2026-11-10. Ogni incontro di un ciclo ha una scheda 'copy-N'."
@@ -1307,11 +1301,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 2, eventi_trovati: 4, ultimi: [4, 0] }
-  ultimo_controllo: '2026-11-20'
+  resa: { controlli: 3, eventi_trovati: 8, ultimi: [4, 0, 4] }
+  ultimo_controllo: '2026-11-28'
   automatizzabile: no
   stato: attiva
-  note: "Testata locale apribile con WebFetch: articoli con programma orario completo (Festa dell'Agricoltura di Giavera, programma di 4passiFestival, presentazioni di libri). Vale come official_url quando l'organizzatore (spesso il Comune) non ha una pagina. Gia' fonte del PC (qdpnews in sources.yaml) per le notizie, ma le serate dei comuni piccoli escono solo cercando."
+  note: "Testata locale apribile con WebFetch: articoli con programma orario completo (Festa dell'Agricoltura di Giavera, programma di 4passiFestival, presentazioni di libri). Vale come official_url quando l'organizzatore (spesso il Comune) non ha una pagina. Gia' fonte del PC (qdpnews in sources.yaml) per le notizie, ma le serate dei comuni piccoli escono solo cercando. 2026-11-28: Nervesa (Presepi itineranti, 3 aggiunti) e pista di Conegliano (1); a vuoto 3 articoli senza anno (Cornuda 2024, Natale nella Marca 2025, Presepi di Mura 2023)."
 - nome: Piazza in Festa (Veneto)
   url: https://veneto.piazzainfesta.it/
   query: piazzainfesta <comune> <titolo>
@@ -1321,8 +1315,8 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 2
-  resa: { controlli: 2, eventi_trovati: 3, ultimi: [3, 0] }
-  ultimo_controllo: '2026-11-21'
+  resa: { controlli: 3, eventi_trovati: 3, ultimi: [3, 0, 0] }
+  ultimo_controllo: '2026-11-28'
   automatizzabile: no
   stato: attiva
   note: "Schede compilate con l'AI da documenti dei comuni e locandine (lo dichiara): utili per scoprire e per luogo e organizzatore, mai come conferma. Si apre solo se la scheda esce da una ricerca."
@@ -1952,11 +1946,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 3
-  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
-  ultimo_controllo: '2026-11-21'
+  resa: { controlli: 2, eventi_trovati: 4, ultimi: [2, 2] }
+  ultimo_controllo: '2026-11-28'
   automatizzabile: da_valutare
   stato: attiva
-  note: "Trovata il 2026-11-21. Una lettura: 120 dei 127 spettacoli in programma in provincia (concerti, teatro, lirica, danza) fino ad aprile, con data e sala ma senza ora. Le schede /treviso/<id>-<titolo>.htm hanno ora e link Happy Ticket, ma lette dentro la pagina sono rifiutate: farle uscire cercando il titolo. Ottima per il test di copertura degli spettacoli. Esiste per altre province (/massa-carrara/, /bologna/...)."
+  note: "Trovata il 2026-11-21. Una lettura: 120 dei 127 spettacoli in programma in provincia (concerti, teatro, lirica, danza) fino ad aprile, con data e sala ma senza ora. Le schede /treviso/<id>-<titolo>.htm hanno ora e link Happy Ticket, ma lette dentro la pagina sono rifiutate: farle uscire cercando il titolo. Ottima per il test di copertura degli spettacoli. Esiste per altre province (/massa-carrara/, /bologna/...). 2026-11-28: home e 2 schede su 3 in errore del server; aperte Affinita' elettive e Capodanno da Oscar (2 aggiunti)."
 - nome: Happy Ticket Treviso (biglietteria)
   url: https://www.happyticket.com/it/treviso/
   query: happyticket Treviso <sala o titolo>
@@ -1966,11 +1960,11 @@ fonti:
   province: [TV]
   frequenza: settimanale
   qualita: 4
-  resa: { controlli: 1, eventi_trovati: 4, ultimi: [4] }
-  ultimo_controllo: '2026-11-21'
+  resa: { controlli: 2, eventi_trovati: 4, ultimi: [4, 0] }
+  ultimo_controllo: '2026-11-28'
   automatizzabile: da_valutare
   stato: attiva
-  note: "Trovata il 2026-11-21 (link biglietteria delle schede mentelocale). Vende Treviso Basket, Gocce musicali, Teatro Accademia, Teatro Accademico. Le pagine sala /it/locations/treviso/<comune>/<sala>.htm elencano gli spettacoli in vendita con la data (senza ora); le schede /acquista-biglietti/ hanno data, ora e sala. Una scheda vecchia (Federico Buffa) da' 404 con stato 200. Usare WebSearch con allowed_domains happyticket.com. JSON-LD non verificato: da controllare per sources.yaml."
+  note: "Trovata il 2026-11-21 (link biglietteria delle schede mentelocale). Vende Treviso Basket, Gocce musicali, Teatro Accademia, Teatro Accademico. Le pagine sala /it/locations/treviso/<comune>/<sala>.htm elencano gli spettacoli in vendita con la data (senza ora); le schede /acquista-biglietti/ hanno data, ora e sala. Una scheda vecchia (Federico Buffa) da' 404 con stato 200. Usare WebSearch con allowed_domains happyticket.com. JSON-LD non verificato: da controllare per sources.yaml. 2026-11-28: pagina sala del Teatro Accademia (3 spettacoli, 2 gia' sul sito); la pagina /locations/8577-teatro-accademico rimanda alle altre province."
 - nome: Trevisando (calendario delle marce non competitive della provincia)
   url: https://trevisando.it/wp-content/uploads/2026/01/TREVISANDO-2026-A5-2.pdf
   query: trevisando marce non competitive <anno> (WebSearch con allowed_domains trevisando.it)
@@ -2181,3 +2175,31 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "fine novembre, sedi Museo Santa Caterina, Ca' dei Carraresi, Palazzo dei Trecento; programma trovato su Nordest24 (23/11/2026). Cercare la nuova edizione a meta' novembre."
+- nome: Fondazione Cassamarca, Giovedi' della Cultura
+  url: https://fondazionecassamarca.it/notizie/giovedi-della-cultura-in-ottobre-parte-la-nuova-stagione-con-29-appuntamenti/
+  query: '"Giovedi della Cultura Treviso" calendario con allowed_domains [nordest24.it, fondazionecassamarca.it]'
+  tipo: istituzione
+  categorie: [arte-cultura]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 13, ultimi: [13] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Trovata il 2026-11-28 dall'articolo di Nordest24 del 02/10/2026: 29 conferenze del giovedi' alle 18 a Ca' dei Carraresi (ottobre-maggio), 13 aggiunte fino a marzo. Ingresso non pubblicato; i titoli di gennaio-marzo sono solo temi. La pagina della Fondazione non e' stata aperta: provarla per relatori e incontri di aprile-maggio."
+- nome: Opendream (ex Pagnossin, Treviso)
+  url: https://www.nordest24.it/thanksgiving-treviso-pesca-benefica-ail
+  query: 'Opendream Treviso evento con allowed_domains [nordest24.it, venetotoday.it]'
+  tipo: locale
+  categorie: [mercatini-fiere, musica, famiglie-bambini]
+  comuni: [Treviso]
+  province: [TV]
+  frequenza: mensile
+  qualita: 2
+  resa: { controlli: 1, eventi_trovati: 1, ultimi: [1] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Area eventi in Via Noalese: feste a tema con mercatino (Thanksgiving 29/11/2026). Nessun sito con calendario trovato: le feste escono come articoli di Nordest24 e VenetoToday."

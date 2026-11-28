@@ -2,6 +2,45 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-28
+
+- **Giro del PC**: NON ha girato per la diciassettesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19). Coda, campione e
+  posizioni sono ancora quelli dell'11/11; gli eventi aggiunti dal 13/11 compaiono sul sito solo al prossimo giro. Correzioni
+  applicate con --applica (sito a 423 eventi, 145 correzioni attive).
+- **Fonti in errore**: non riaperte (nessun rapporto nuovo).
+- **Segnalazioni dal sito**: nessuna.
+- **Coda di revisione**: nessuna ricerca spesa (stessi eventi dell'11/11, quasi tutti conclusi).
+- **Controllo a campione**: 6/10 (vedi segnalazioni-e-controllo), nessuna ricerca.
+- **Posizioni**: numeri dell'11/11 invariati (0 punti diversi, 0 lontani, 51 con luogo senza punto, 25 candidati). Controllato senza
+  ricerche: i 25 candidati sono gia' tutti in config/luoghi.yaml e i primi luoghi senza punto (Collalto) sono gia' sistemati;
+  la lista e' vecchia e si rinnova solo quando il PC riparte.
+- **Eventi corretti**: 0. **Rimossi**: 0. **Verificati**: 0.
+- **Eventi aggiunti** (25): arte e cultura 13, famiglie 3, teatro e spettacoli 3, mercatini 2, musica 2, sagre e feste 1, sport 1.
+  Giovedi' della Cultura della Fondazione Cassamarca a Ca' dei Carraresi (13 conferenze dal 3/12 al 18/3, da Nordest24 del 2/10);
+  Thanksgiving con pesca benefica per AIL all'Opendream (29/11); Capodanno da Oscar al Teatro Accademia di Conegliano (1/1) e
+  Affinita' elettive al Teatro Accademico di Castelfranco (6/12, ora non pubblicata) da mentelocale e Happy Ticket; Presepi itineranti,
+  L'Isola del Natale e laboratorio di tiramisu' a Nervesa (Qdpnews 27/11); inaugurazione della pista di ghiaccio in Piazza Cima a
+  Conegliano (28/11); a Quinto mercatini di Natale (29/11), Babbo e Mamma Natale (19/12) e Cinenatale (3 film) dalle schede del Comune.
+  Non aggiunti: articoli di anni passati (Natale di Cornuda 2024, Natale nella Marca 2025, Presepi di Mura 2023, presepi di trevisoeventi
+  2025-26), mostre concluse (F4 2022, Fotografia italiana 1955 a Castelfranco, chiusa il 15/11).
+- **Comuni controllati**: Fonte, Chiarano, San Polo di Piave, Mareno di Piave (0: solo portali e pagine 2025), Cornuda (articolo 2024),
+  Nervesa (3), Quinto di Treviso (5), Conegliano (1, gia' molto coperto).
+- **Categorie cercate**: Natura > Escursioni (0, solo operatori commerciali di ciaspole), Sagre > Feste stagionali (presepi: 3 pagine
+  vecchie, 1 nuovo a Nervesa), Sport > Sport invernali (pista di Conegliano), Arte e cultura > Comunita' (Thanksgiving, parkrun gia'
+  coperto). +10 voci nell'albero.
+- **Fonti note**: Qdpnews (4), mentelocale (2, home in errore), Happy Ticket (0 nuovi), Comune di Quinto (5), Eventi Venetando e
+  Piazza in Festa (0, solo pagine vecchie); Treviso Sotterranea e Cinema Edera non riaperte (domini illeggibili).
+- **Fonti nuove catalogate**: 2 (Fondazione Cassamarca Giovedi' della Cultura, Opendream). Valutate e scartate: finestresullarte.info
+  e arte.it per le mostre di Treviso (solo mostre concluse), trevisoeventi presepi (ferma al 2025). Spostate in sources.yaml: 0.
+- **Pulizia**: non fatta (l'archivio non si aggiorna dall'11/11).
+- **Miglioria**: `--controlla` rifiuta una sottocategoria che non appartiene alla categoria (prima passava e il sito la scartava in
+  silenzio), con test.
+- **Test di copertura**: 8/10 (titoli TV di Nordest24, mentelocale e Il Tacco di Bacco). Criterio di saturazione: non valutato.
+- **Ricerche**: 50 su 70 (26 WebSearch, 24 WebFetch, di cui 11 a vuoto: 5 pagine di anni passati, 4 errori del server o redirect,
+  2 elenchi di mostre concluse). Fermato prima del massimo: le ricerche esplorative rendevano quasi zero.
+- **Problemi aperti**: il giro del PC non parte da diciassette notti; programmi del Natale 2026 di Oderzo, Mogliano e Castelfranco
+  ancora non usciti; comuni piccoli senza pagina eventi (Fonte, Chiarano, San Polo, Mareno); mentelocale in errore del server.
+
 ## 2026-11-27
 
 - **Giro del PC**: NON ha girato per la sedicesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19). Coda, campione e
