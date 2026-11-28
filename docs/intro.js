@@ -10,8 +10,10 @@
   "use strict";
   const root = document.getElementById("intro");
   if (!root) return;
-  let started;
+  let started, ready;
   window.ANDIAMO_INTRO = new Promise((res) => { started = res; });
+  window.ANDIAMO_READY = new Promise((res) => { ready = res; });   // lo risolve il sito quando la mappa e' disegnata
+  window.ANDIAMO_SET_READY = () => ready();
   const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const FALLBACK = ["AL CINEMA", "A TEATRO", "A UN CONCERTO", "ALLA SAGRA", "AL MERCATINO", "A UNA MOSTRA", "AL MUSEO", "A UNA FESTA"];
   const store = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (_) { return null; } return null; };
@@ -81,8 +83,8 @@
   function cleanup() {
     if (cleanup.done) return; cleanup.done = true;
     root.remove(); document.documentElement.classList.remove("intro-on");
-    // solo ora il sito costruisce mappa ed elenco (dopo che lo schermo ha mostrato il foglio sparito)
-    requestAnimationFrame(() => setTimeout(started, 30));
+    window.dispatchEvent(new Event("andiamo-intro-done"));
+    started();                          // (di solito gia' partito: qui solo per i casi saltati con un tocco)
   }
 
   function run() {
@@ -117,14 +119,22 @@
     } else { letterIn("b", 0, 0); place("core", S2.core); place("q", S2.q); }
     // il sito parte con il suo lavoro pesante solo ora: le animazioni sono gia' consegnate alla scheda grafica
     // lo strappo e' agganciato al tempo dell'animazione (non a un timer che il caricamento potrebbe ritardare)
-    const clock = root.animate([{ opacity: 1 }, { opacity: 1 }], { duration: tear });
-    clock.finished.then(() => finish(), () => {});
+    // Quando la frase e' completa e ferma, il sito prepara mappa ed eventi sotto il foglio; il foglio si strappa
+    // solo quando la mappa e' pronta (o al massimo dopo 6 secondi), cosi' sotto c'e' gia' tutto.
+    const textDone = Math.max(900, tear - 650);
+    const clock = root.animate([{ opacity: 1 }, { opacity: 1 }], { duration: textDone });
+    clock.finished.then(() => {
+      started();
+      const minEnd = performance.now() + (tear - textDone);
+      const go = () => setTimeout(() => finish(), Math.max(0, minEnd - performance.now()));
+      Promise.race([window.ANDIAMO_READY, new Promise((r) => setTimeout(r, 6000))]).then(go);
+    }, () => {});
   }
 
   const fontReady = document.fonts && document.fonts.load ? document.fonts.load('400 64px "Andiamo Intro"') : Promise.resolve();
   const wait = (pr, ms, fallback) => Promise.race([pr, new Promise((r) => setTimeout(() => r(fallback), ms))]);
   Promise.all([wait(fontReady, 700), wait(ideas, 500, FALLBACK)]).then(([, list]) => { pickIdea(list); requestAnimationFrame(run); });
   ["pointerdown", "keydown", "wheel"].forEach((ev) => window.addEventListener(ev, () => finish(), { once: true, passive: true }));
-  setTimeout(() => finish("fade"), 9000);
-  setTimeout(() => started(), 7000);                         // in ogni caso, mai bloccati qui
+  setTimeout(() => finish("fade"), 12000);
+  setTimeout(() => started(), 6000);                         // in ogni caso, mai bloccati qui
 })();

@@ -81,8 +81,15 @@
   const parseDay = (s) => { const [y, m, d] = s.slice(0, 10).split("-").map(Number); return new Date(y, m - 1, d); };
   const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
   // "oggi" e' sempre la data in Italia (Europe/Rome), anche per chi guarda da un altro fuso orario
-  const romeToday = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
-  const today = () => parseDay(romeToday());
+  // (un solo formattatore, e il valore si ricalcola al massimo ogni 30 secondi: si usa migliaia di volte per filtro)
+  const ROME_FMT = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit", day: "2-digit" });
+  let romeCache = "", romeAt = 0, todayCache = null;
+  const romeToday = () => {
+    const now = Date.now();
+    if (now - romeAt > 30000) { romeAt = now; const v = ROME_FMT.format(new Date(now)); if (v !== romeCache) { romeCache = v; todayCache = null; } }
+    return romeCache;
+  };
+  const today = () => { const k = romeToday(); if (!todayCache) todayCache = parseDay(k); return new Date(todayCache); };
   const timeOf = (e) => (e.start && e.start.length > 10 ? e.start.slice(11, 16) : "");
   const dayLabel = (d) => {
     const diff = Math.round((d - today()) / 86400000);
@@ -776,14 +783,15 @@
   // Un solo ciclo per tutti gli aloni: ridisegna la mappa 30 volte al secondo solo se ci sono eventi in corso,
   // la mappa e' in vista e la scheda del browser e' aperta (niente lavoro inutile in lista o in sottofondo).
   function pulseLoop() {
-    if (mapReady && !REDUCED() && LIVE.size && state.view !== "list" && !document.hidden) map.triggerRepaint();
+    if (mapReady && !REDUCED() && LIVE.size && state.view !== "list" && !document.hidden && !document.getElementById("intro")) map.triggerRepaint();
     setTimeout(() => requestAnimationFrame(pulseLoop), 33);
   }
 
   // Eventi in corso adesso: orario d'inizio passato e non ancora finito (senza fine: 2 ore); eventi di un giorno
   // (o di pochi giorni) senza orario: in corso tra le 9 e le 23. Le mostre lunghe non contano.
-  const romeNow = () => new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit",
-    day: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date()).replace(" ", "T");
+  const ROME_NOW_FMT = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit",
+    day: "2-digit", hour: "2-digit", minute: "2-digit" });
+  const romeNow = () => ROME_NOW_FMT.format(new Date()).replace(" ", "T");
   const plusHours = (s16, h) => new Date(new Date(s16 + ":00Z").getTime() + h * 3600000).toISOString().slice(0, 16);
   function isLive(e, now = romeNow()) {
     const day = now.slice(0, 10), sd = e.start.slice(0, 10), ed = (e.end || e.start).slice(0, 10);
@@ -829,6 +837,7 @@
     ANIM[layer + "pin"] = requestAnimationFrame(step);
   }
   const CLUSTER_R = (k) => ["*", k, ["step", ["get", "point_count"], 19, 10, 24, 40, 30]];
+  window.addEventListener("andiamo-intro-done", () => { if (mapReady) popIn(); });   // i segnaposti spuntano a foglio aperto
   function popIn() {
     animateProp("points", "layout", "icon-size", 0.35, 1, 460);
     animateProp("clusters", "paint", "circle-radius", 0.35, 1, 460, CLUSTER_R);
@@ -887,6 +896,16 @@
       g.gain.exponentialRampToValueAtTime(gain * 0.35, t + dur * 0.5); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
       o.connect(f).connect(g).connect(this.out); o.start(t); o.stop(t + dur + 0.02);
     },
+    // battito di cuore: colpo grave e morbido (sinusoide che scende) con un piccolo tonfo filtrato, niente click
+    beat(t, { gain = 0.8, freq = 60 } = {}) {
+      const c = this.ctx, o = c.createOscillator(), g = c.createGain(), f = c.createBiquadFilter();
+      o.type = "sine"; o.frequency.setValueAtTime(freq * 1.9, t); o.frequency.exponentialRampToValueAtTime(freq, t + 0.05);
+      f.type = "lowpass"; f.frequency.value = 260; f.Q.value = 0.7;
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.012);
+      g.gain.exponentialRampToValueAtTime(gain * 0.3, t + 0.07); g.gain.exponentialRampToValueAtTime(0.0001, t + 0.2);
+      o.connect(f).connect(g).connect(this.out); o.start(t); o.stop(t + 0.22);
+      this.rustle(t, 0.06, { freq: 180, type: "lowpass", q: 0.7, gain: gain * 0.35, attack: 0.006 });
+    },
     play(name) {
       if (!this.on) return;
       try {
@@ -905,10 +924,11 @@
           this.rustle(t + 0.01, 0.04, { freq: 2600, q: 2.5, gain: 0.12, attack: 0.002 });
         } else if (name === "chip") {                    // scatto secco di carta
           this.rustle(t, 0.022, { freq: 4400, q: 3, gain: 0.38, attack: 0.001 });
-        } else if (name === "save-on") {                 // "pop" tondo, come una bolla che scoppia (verso l'alto)
-          this.pop(t, { from: 340, to: 760, dur: 0.11, gain: 0.5 });
-        } else if (name === "save-off") {                // "pop" piu' basso e morbido (verso il basso)
-          this.pop(t, { from: 520, to: 240, dur: 0.12, gain: 0.4 });
+        } else if (name === "save-on") {                 // battito di cuore doppio: "tun-tun"
+          this.beat(t, { gain: 0.9, freq: 62 });
+          this.beat(t + 0.19, { gain: 0.65, freq: 70 });
+        } else if (name === "save-off") {                // battito singolo: "tun"
+          this.beat(t, { gain: 0.75, freq: 56 });
         }
       } catch (_) { /* audio non disponibile */ }
     },
@@ -1128,6 +1148,8 @@
       }
       mapReady = true;
       pulseLoop();
+      // segnale per l'apertura: la mappa con gli eventi e' disegnata, si puo' strappare il foglio
+      map.once("idle", () => { if (window.ANDIAMO_SET_READY) window.ANDIAMO_SET_READY(); });
       update(true);
       if (state.selected) select(state.selected, { fly: true, fromHistory: true });
     });
@@ -1652,7 +1674,7 @@
     if (mapReady) {
       map.getSource("ev").setData(geojson(onMap));
       const key = onMap.map((e) => e.uid).join();
-      if (key !== lastMapKey) { lastMapKey = key; popIn(); }
+      if (key !== lastMapKey) { lastMapKey = key; if (!document.getElementById("intro")) popIn(); }   // sotto il foglio no
       if (fit && onMap.length && !state.selected) {
         const b = new maplibregl.LngLatBounds();
         onMap.forEach((e) => b.extend([e.lon, e.lat]));
