@@ -3,7 +3,7 @@
 Mappa pubblica degli eventi in provincia di Treviso: concerti, sagre, gare, mostre, mercatini, convegni.
 
 > **Dal 2026-11-28 il PC fisso e' escluso** (`pc.attivo: false` in `config/settings.yaml`). Tutto il lavoro lo fa
-> Claude nel cloud, in due sessioni pianificate ogni notte (01:07 raccolta, 03:37 revisione), seguendo
+> Claude nel cloud, in una sessione pianificata ogni notte alle 01:07 (raccolta, revisione, ricerca e resoconto), seguendo
 > `ops/revisione-notturna.md`: legge le fonti del giro e la ricerca con WebSearch/WebFetch, scrive gli eventi in
 > `config/eventi_redazione.yaml` e pubblica con `python -m pipeline.pubblica` (posizioni da `config/luoghi.yaml` e
 > dai centri dei comuni in `config/comuni.csv`). "Aggiungi evento" e "Segnala" sul sito vanno a un modulo Google

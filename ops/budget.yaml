@@ -1,5 +1,5 @@
-# Quanto lavoro fa Claude in una notte. Dal 2026-11-28 Federico ha il piano Max e il PC e' escluso: due sessioni
-# notturne nel cloud (raccolta alle 01:07, revisione alle 03:37) fanno tutto il lavoro, su tutta Italia.
+# Quanto lavoro fa Claude in una notte. Dal 2026-11-28 Federico ha il piano Max e il PC e' escluso: una sola
+# sessione notturna nel cloud (01:07: raccolta, revisione, ricerca e resoconto) fa tutto il lavoro, su tutta Italia.
 # I limiti di utilizzo del piano sono condivisi con l'uso di Federico durante il giorno: se una sessione si ferma per
 # i limiti, la notte dopo abbassa questi numeri e scrivilo nel registro.
 # Lo leggono `python -m pipeline.piano_notte` (piano della notte) e `python -m pipeline.pubblica` (campione).
@@ -8,7 +8,7 @@
 
 piano: max
 
-ricerche_max: 350            # WebSearch + WebFetch per sessione notturna
+ricerche_max: 500            # WebSearch + WebFetch in tutta la notte (una sessione)
 coda_max: 100                # eventi della coda di revisione da lavorare
 campione: 20                 # eventi del controllo a campione; soglia di qualita': 90%
 test_copertura: 20           # eventi del test di copertura

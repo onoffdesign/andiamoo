@@ -1,19 +1,21 @@
 # Revisione notturna di Claude
 
-Istruzioni per le sessioni Claude pianificate ogni notte. **Dal 2026-11-28 il PC fisso e' escluso** (piano Max,
+Istruzioni per la sessione Claude pianificata ogni notte. **Dal 2026-11-28 il PC fisso e' escluso** (piano Max,
 `pc.attivo: false` in `config/settings.yaml`): Claude fa tutto dal cloud, raccolta, verifica, correzione, ricerca
 e pubblicazione. Ha piena autonomia: corregge, pubblica e aggiunge fonti senza chiedere.
 
-**Due sessioni a notte** (ora italiana), stesse regole, stesso budget ciascuna (`ops/budget.yaml`):
-- **01:07 raccolta**: preparazione, passo 1, poi le "fonti del giro" del piano della notte (le fonti di
-  `config/sources.yaml` che prima leggeva il PC, a rotazione: per ognuna cerca la pagina con WebSearch, aprila con
-  WebFetch, aggiungi in `config/eventi_redazione.yaml` gli eventi futuri che non sono gia' sul sito, scrivi la data
-  in `copertura.yaml` sezione `giro`), le risposte del modulo (passo 2b), poi le province d'Italia della sezione 2b
-  del piano ("Resto d'Italia", sotto "Ricerca degli eventi") e, se resta budget, la fase 0;
-  pubblica (passo 7) e push (passo 9). Messaggio finale breve: "Raccolta: N eventi aggiunti, N fonti del giro lette".
-- **03:37 revisione**: tutti i passi qui sotto (coda, campione, posizioni, ricerca su Treviso fasi 0 e A-E, memoria), poi pubblica,
-  registro e messaggio finale con il riepilogo della notte (passo 8).
-Se una sessione trova lavoro dell'altra a meta' (commit della raccolta), prosegue da li' senza rifarlo.
+**Una sola sessione a notte, alle 01:07** (ora italiana; prima erano due, unificate il 2026-11-28 su richiesta di
+Federico). Budget in `ops/budget.yaml`. Ordine del lavoro, con commit e push alla fine di ogni blocco, cosi' se la
+sessione si interrompe il lavoro fatto resta:
+1. **Raccolta**: preparazione, passo 1, le "fonti del giro" del piano della notte (le fonti di `config/sources.yaml`
+   a rotazione: per ognuna cerca la pagina con WebSearch, aprila con WebFetch, aggiungi in
+   `config/eventi_redazione.yaml` gli eventi futuri che non sono gia' sul sito, scrivi la data in `copertura.yaml`
+   sezione `giro`), le risposte del modulo (passo 2b), la verifica delle fonti indicate dal piano; pubblica e push.
+2. **Revisione**: coda, campione, posizioni, test di copertura (passi 2-3c); pubblica e push.
+3. **Ricerca**: Treviso (fasi 0 e A-E) e le province d'Italia della sezione 2b del piano ("Resto d'Italia", sotto
+   "Ricerca degli eventi"); pubblica e push dopo ogni fase.
+4. **Chiusura**: pulizia, memoria, registro, pubblica, push e messaggio finale con il resoconto (passo 8 e fine file).
+Se il budget sta finendo, salta prima la ricerca esplorativa (fase E) e lascia sempre il tempo per la chiusura.
 
 Come si pubblica senza PC: `python -m pipeline.pubblica` costruisce `docs/data/events.json` con gli eventi gia' sul
 sito + `config/eventi_redazione.yaml` + `config/correzioni.yaml`, applica la regola fonti, mette la posizione
@@ -128,7 +130,7 @@ Regole per spendere meno crediti e migliorare sempre:
   eventi con meno ricerche e meno AI, notte dopo notte.
 
 **Budget della notte.** Il piano Claude ha limiti di utilizzo condivisi con l'uso di Federico durante il giorno:
-ogni sessione deve stare dentro `ops/budget.yaml` (dal 2026-11-28 piano Max: al massimo 250 ricerche, 100 eventi
+la sessione deve stare dentro `ops/budget.yaml` (dal 2026-11-28 piano Max: al massimo 500 ricerche, 100 eventi
 della coda, 20 di campione, 20 di test di copertura, 15 fonti del giro...). All'inizio esegui `python -m pipeline.piano_notte`: stampa il piano
 della notte (fonti in scadenza, comuni e ambiti delle categorie da cercare, numeri del budget). Per risparmiare:
 - **non leggere per intero** i file che crescono (`ops/copertura.yaml`, `ops/fonti.yaml`, `ops/categorie-ricerca.md`,
