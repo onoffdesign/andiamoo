@@ -591,6 +591,28 @@
       dragRotate: false, pitchWithRotate: false, touchPitch: false,
     });
     map.touchZoomRotate.disableRotation();
+    // Allontanandosi si arriva al massimo a tutta l'Italia: zoom minimo = quello che fa stare l'Italia nella parte
+    // visibile della mappa; i confini di spostamento sono l'Italia con un po' di mare, allargati quanto serve perche'
+    // a zoom minimo la finestra ci stia (ricalcolati quando cambia la dimensione della finestra).
+    const ITALY = [[6.6, 35.4], [18.6, 47.1]];
+    const merc = (lat) => Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
+    const unmerc = (y) => ((2 * Math.atan(Math.exp(y)) - Math.PI / 2) * 180) / Math.PI;
+    const fitLimits = () => {
+      let cam = null;
+      try { cam = map.cameraForBounds(ITALY, { padding: mapPadding() }); } catch (_) { cam = null; }
+      if (!cam) cam = map.cameraForBounds(ITALY, { padding: 10 });
+      if (!cam) return;
+      const z = Math.max(0, cam.zoom), el = map.getContainer();
+      const scale = 512 * Math.pow(2, z) / 1.02;                   // 2% di margine sui conti
+      const lonSpan = (el.clientWidth * 360) / scale, ySpan = (el.clientHeight * 2 * Math.PI) / scale;
+      const lonC = 12.6, yC = (merc(35.4) + merc(47.1)) / 2;
+      map.setMaxBounds(null);
+      map.setMinZoom(z);
+      map.setMaxBounds([[Math.min(5, lonC - lonSpan / 2), Math.max(-80, Math.min(34.3, unmerc(yC - ySpan / 2)))],
+        [Math.max(20.2, lonC + lonSpan / 2), Math.min(80, Math.max(48, unmerc(yC + ySpan / 2)))]]);
+    };
+    map.once("load", fitLimits);
+    map.on("resize", fitLimits);
     $("#zoom-in").addEventListener("click", () => map.zoomIn());
     renderSoundBtn();
     $("#sound").addEventListener("click", () => Sound.toggle());
