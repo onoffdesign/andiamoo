@@ -45346,4 +45346,31 @@ eventi:
     official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/cari-genitori/
     summary: Commedia al Teatro Civico di Varallo.
     fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+  - title: Mercatini di Natale di Merano
+    start: '2026-11-27'
+    end: '2027-01-06'
+    venue: Passeggiata Lungo Passirio
+    address: Passeggiata Lungo Passirio, Piazza Terme
+    town: Merano
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.suedtirol.info/it/it/stagioni/inverno/natale-mercatini/mercatini-originali-alto-adige/mercatini-di-natale-di-merano
+    summary: Mercatino di Natale nel centro di Merano, con casette di artigianato e stand gastronomici lungo il Passirio e nelle piazze Terme, della Rena, Duomo e del Grano. Chiuso il 25 dicembre.
+    lat: 46.6702
+    lon: 11.16054
+    fonte: https://www.suedtirol.info/it/it/stagioni/inverno/natale-mercatini/mercatini-originali-alto-adige/mercatini-di-natale-di-merano (letta il 2026-11-28); punto della Passeggiata Lungo Passirio su OpenStreetMap (Nominatim, way 1083551740)
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale di Vipiteno
+    start: 2026-11-27T17:00
+    end: '2027-01-06'
+    venue: Centro storico, Torre delle Dodici
+    address: Piazza Citta'
+    town: Vipiteno
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.vipiteno.com/it/eventi/eventi-principali/mercatino-di-natale-vipiteno.html
+    summary: Mercatino di Natale nel centro storico di Vipiteno attorno alla Torre delle Dodici, con bancarelle aperte ogni giorno dalle 10 alle 19 e stand gastronomici fino a sera. Visite alla torre a pagamento in alcune giornate.
+    lat: 46.89884
+    lon: 11.43133
+    fonte: https://www.vipiteno.com/it/eventi/eventi-principali/mercatino-di-natale-vipiteno.html (letta il 2026-11-28); punto della Torre delle Dodici su OpenStreetMap (Nominatim, way 518028627)
     trovato: '2026-11-28'

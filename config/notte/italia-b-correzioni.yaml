@@ -1,0 +1,86 @@
+# Correzioni dell'agente italia-b, notte del 2026-11-28.
+correggi:
+  423afbec9b339bce:
+    start: "2026-12-05T20:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/ladriano-in-siria/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  182c5d46478e8912:
+    start: "2026-12-07T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/buon-compleanno-mascagni-3/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  befeff5888cdb6b7:
+    start: "2026-12-11T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/symphonic-musicals-tra-danza-e-grande-schermo/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  5bbd70a651401942:
+    start: "2026-12-12T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/symphonic-musicals-tra-danza-e-grande-schermo/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  8d4ba0a6ee90712b:
+    start: "2026-12-15T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/morte-accidentale-di-un-anarchico/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  00d78d2e11cd0ea0:
+    start: "2026-12-18T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/lo-schiaccianoci-6/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  09aa750270de6c8a:
+    start: "2026-12-19T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/vinicio-capossela-2/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  dbb4261d5bf6f3da:
+    start: "2026-12-19T19:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/concerto-di-natale-5/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  bddca08037c5eef7:
+    start: "2026-12-22T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/langelo-del-focolare/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  03ba5931745df4da:
+    start: "2026-12-30T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/valerio-lundini-i-vazzanikki/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  ffedd08103135d9a:
+    start: "2026-12-31T21:30"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/capodanno-sulle-note-di-morricone/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  c8ac6370dd1c6db6:
+    start: "2027-01-01T18:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/concerto-di-capodanno-7/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  aa6e14d678774023:
+    start: "2027-01-04T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/lago-dei-cigni-4/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"
+  723b41497c62dd0a:
+    start: "2027-01-05T21:00"
+    all_day: false
+    official_url: "https://www.goldoniteatro.it/spettacoli/christmas-carol/"
+    nota: "orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28"
+    verificato: "2026-11-28"

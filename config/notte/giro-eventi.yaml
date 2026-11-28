@@ -1,0 +1,742 @@
+eventi:
+- title: Campari e Pantoprazolo con Alessandro Cognini
+  start: 2026-12-05T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  price: 18 euro
+  official_url: https://www.marcheteatro.it/event/campari-e-pantoprazolo-con-alessandro-cognini/
+  ticket_url: https://www.altrascena.com/ticket-cognigni/
+  summary: Monologo comico di Alessandro Cognini sulla crisi dei trent'anni, fuori cartellone di Marche Teatro.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Ma tu sei la pianta: lezione spettacolo sulla mistica di Maria di Nazareth'
+  start: 2026-12-09T21:00
+  venue: Ridotto del Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  price: 16 euro, ridotto 12 euro
+  official_url: https://www.marcheteatro.it/event/ma-tu-sei-la-pianta-lezione-spettacolo-sulla-mistica-di-maria-di-nazareth/
+  summary: Lezione spettacolo tra filosofia, letteratura e teatro dedicata alla figura di Maria di Nazareth.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Genesis: One Night with the Orchestra'
+  start: 2026-12-14T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  price: da 59 a 89 euro
+  official_url: https://www.marcheteatro.it/event/genesis-one-night-with-the-orchestra/
+  summary: Concerto con orchestra e coro dedicato al repertorio dei Genesis, proposto dall'associazione LGRB.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: Gospel Night 2026 con il Keynote Gospel Choir
+  start: 2026-12-23T21:30
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  price: da 10,50 a 25,50 euro
+  official_url: https://www.marcheteatro.it/event/gospel-night-2026-keynote-gospel-choir/
+  summary: Concerto gospel prenatalizio del Keynote Gospel Choir al Teatro delle Muse.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Una notte per Faber: omaggio a Fabrizio De Andre'''
+  start: 2027-01-09T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  price: da 26,45 a 34,50 euro
+  official_url: https://www.marcheteatro.it/event/una-notte-per-faber-il-grande-omaggio-a-fabrizio-de-andre/
+  ticket_url: https://auroraeventi.net/eventi/una-notte-per-faber-una-notte-per-faber-ancona-teatro-delle-muse-09-01-2027-21-00/
+  summary: Spettacolo tra musica e teatro con le canzoni di Fabrizio De Andre'.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Suoni della memoria: Trio NefEsh'
+  start: 2027-01-24T17:30
+  venue: Auditorium Orfeo Tamburi, Mole Vanvitelliana
+  address: Banchina Nazario Sauro 28
+  town: Ancona
+  lat: 43.61437
+  lon: 13.50442
+  category: musica
+  subcategory: jazz-classica
+  access: biglietto
+  price: 20 euro, ridotti 15 e 5 euro
+  official_url: https://www.marcheteatro.it/event/suoni-della-memoria-trio-nefesh/
+  summary: Concerto di musica tradizionale ebraica per violino, chitarra e contrabbasso per la Giornata della Memoria, con
+    la Societa' Amici della Musica di Ancona.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Michela Giraud: Fisicamente mi piacciono tutti!'
+  start: 2027-01-30T21:00
+  venue: Teatro Sperimentale
+  address: Via Redipuglia 59
+  town: Ancona
+  lat: 43.61352
+  lon: 13.51541
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  price: 28,50 e 38,50 euro
+  official_url: https://www.marcheteatro.it/event/fisicamente-mi-piacciono-tutti-con-michela-giraud/
+  ticket_url: https://www.vivoconcerti.com/roster/michela-giraud/fisicamente-mi-piacciono-tutti
+  summary: Spettacolo di stand up comedy di Michela Giraud.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Ruggero de I Timidi: Timidissimo me'
+  start: 2027-02-04T21:00
+  venue: Teatro Sperimentale
+  address: Via Redipuglia 59
+  town: Ancona
+  lat: 43.61352
+  lon: 13.51541
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  price: 29 euro
+  official_url: https://www.marcheteatro.it/event/ruggero-de-i-timidi-timidissimo-me/
+  summary: Nuovo spettacolo di Ruggero de I Timidi tra stand up comedy, canzoni e animazioni.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Daniele Novara: Non mi somiglia per niente'
+  start: 2027-02-05T21:00
+  venue: Teatro Sperimentale
+  address: Via Redipuglia 59
+  town: Ancona
+  lat: 43.61352
+  lon: 13.51541
+  category: arte-cultura
+  subcategory: conferenze
+  access: biglietto
+  price: 34,50 euro
+  official_url: https://www.marcheteatro.it/event/non-mi-somiglia-per-niente-con-daniele-novara/
+  summary: Spettacolo talk del pedagogista Daniele Novara sugli errori educativi dei genitori.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: Shen Yun 2027
+  start: 2027-02-06T20:00
+  end: '2027-02-09'
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: teatro-spettacoli
+  subcategory: danza
+  access: biglietto
+  price: da 75 a 144 euro
+  official_url: https://www.marcheteatro.it/event/shen-yun-2027-la-cina-prima-del-comunismo/
+  ticket_url: https://it.shenyun.com/italia/list/ancona
+  summary: Spettacolo di danza e musica della compagnia Shen Yun, in scena per quattro sere dal 6 al 9 febbraio.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Giovanni Lindo Ferretti: Percuotendo, in cadenza'
+  start: 2027-02-22T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  price: da 40,25 a 69 euro
+  official_url: https://www.marcheteatro.it/event/giovanni-lindo-ferretti-percuotendo-in-cadenza/
+  summary: Spettacolo di parole, canto e suono sui testi poetici e autobiografici di Giovanni Lindo Ferretti.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: Legend The Show in Orchestra
+  start: 2027-02-24T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  price: da 38 a 57,50 euro
+  official_url: https://www.marcheteatro.it/event/legend-the-show-in-orchestra/
+  ticket_url: https://www.legendtheshow.com/tour
+  summary: Spettacolo tributo a Michael Jackson con orchestra dal vivo, Jennifer Batten e Wendel Gama.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: '1886. Anima romantica: Julian Kainrath e Anton Gerzenberg'
+  start: '2027-02-27'
+  venue: Teatro Sperimentale
+  address: Via Redipuglia 59
+  town: Ancona
+  lat: 43.61352
+  lon: 13.51541
+  category: musica
+  subcategory: jazz-classica
+  access: biglietto
+  price: 20 euro, ridotti 15 e 5 euro
+  official_url: https://www.marcheteatro.it/event/1886-anima-romantica/
+  summary: Concerto per violino e pianoforte con sonate di Grieg, Brahms e Franck, per gli Amici della Musica di Ancona.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'La sera dei miracoli: omaggio a Lucio Dalla'
+  start: 2027-03-02T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  price: da 23 a 39,10 euro
+  official_url: https://www.marcheteatro.it/event/la-sera-dei-miracoli-omaggio-a-lucio-dalla-2/
+  summary: Concerto con le canzoni di Lucio Dalla prodotto da Good Vibrations Entertainment.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Tiziano La Bella: In buona fede'
+  start: 2027-03-05T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  price: 18 euro
+  official_url: https://www.marcheteatro.it/event/in-buona-fede-con-tiziano-la-bella/
+  ticket_url: https://www.altrascena.com/ticket-in-buona-fede/
+  summary: Spettacolo comico di Tiziano La Bella con momenti di interazione con il pubblico.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Michele Mezzanotte: Tutto ok!'
+  start: 2027-03-06T21:00
+  venue: Teatro Sperimentale
+  address: Via Redipuglia 59
+  town: Ancona
+  lat: 43.61352
+  lon: 13.51541
+  category: arte-cultura
+  subcategory: conferenze
+  access: biglietto
+  price: 35 euro
+  official_url: https://www.marcheteatro.it/event/tutto-ok-con-michele-mezzanotte/
+  summary: Spettacolo di divulgazione psicologica dello psicoterapeuta Michele Mezzanotte.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Gianrico Carofiglio: Il mistero della stupidita'''
+  start: 2027-03-09T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: arte-cultura
+  subcategory: conferenze
+  access: biglietto
+  price: da 25 a 41 euro
+  official_url: https://www.marcheteatro.it/event/gianrico-carofiglio-il-mistero-della-stupidita/
+  summary: Conversazione teatrale di Gianrico Carofiglio sul tema della stupidita'.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Imperatore: Pietro De Maria e FORM'
+  start: 2027-03-19T20:30
+  venue: Teatro Sperimentale
+  address: Via Redipuglia 59
+  town: Ancona
+  lat: 43.61352
+  lon: 13.51541
+  category: musica
+  subcategory: jazz-classica
+  access: biglietto
+  price: 20 euro, ridotti 15 e 5 euro
+  official_url: https://www.marcheteatro.it/event/imperatore-pietro-de-maria-e-form/
+  summary: Il pianista Pietro De Maria e la FORM Orchestra Filarmonica Marchigiana diretta da Michele Gamba eseguono il Concerto
+    n. 5 di Beethoven e la Sinfonia n. 3 di Schubert.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Paolo Crepet: Riprendersi l''anima'
+  start: 2027-03-20T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: arte-cultura
+  subcategory: conferenze
+  access: biglietto
+  price: da 34 a 49 euro
+  official_url: https://www.marcheteatro.it/event/paolo-crepet-riprendersi-lanima/
+  summary: Incontro a teatro dello psichiatra Paolo Crepet sull'isolamento digitale e l'omologazione sociale.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Gio Evan: Persone luminose'
+  start: 2027-03-21T21:00
+  venue: Teatro delle Muse
+  address: Piazza della Repubblica
+  town: Ancona
+  lat: 43.6195966
+  lon: 13.5101245
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  price: da 41 a 57,50 euro
+  official_url: https://www.marcheteatro.it/event/gio-evan-persone-luminose/
+  summary: Spettacolo di Gio Evan tra parole, musica e racconto.
+  fonte: https://www.marcheteatro.it/wp-json/tribe/events/v1/events (API della fonte del giro marche-teatro)
+  trovato: '2026-11-28'
+- title: 'Mostra 1946-2026: 80 anni di donne al voto'
+  start: '2026-11-13'
+  end: '2026-12-30'
+  venue: Municipio di Silea
+  address: Via Don Minzoni 12
+  town: Silea
+  lat: 45.65425
+  lon: 12.29909
+  category: arte-cultura
+  subcategory: mostre
+  access: libero
+  price: gratuito
+  official_url: https://www.comune.silea.tv.it/eventi/Mostra-fotografica.html
+  summary: Esposizione di disegni del Gruppo Pittura Carbonera sugli ottant'anni del voto alle donne, nell'atrio del Municipio;
+    aperta lunedi' 9-12 e 15-17, mercoledi' 11-13 e venerdi' 9-13.
+  fonte: https://www.comune.silea.tv.it/eventi/Mostra-fotografica.html
+  trovato: '2026-11-28'
+- title: Inaugurazione dell'itinerario ciclopedonale Stradon di Villa Tiepolo Passi
+  start: 2026-11-28T10:30
+  end: 2026-11-28T12:00
+  venue: Viale della Villa Tiepolo Passi, Lanzago
+  address: Viale della Villa Tiepolo Passi
+  town: Silea
+  lat: 45.6615122
+  lon: 12.2921904
+  category: arte-cultura
+  subcategory: incontri-pubblici
+  access: libero
+  price: gratuito
+  official_url: https://www.comune.silea.tv.it/eventi/inaugurazione-itinerario-ciclo-pedonale-stradon-villa-passi.html
+  summary: Cerimonia del Comune di Silea per l'apertura del percorso ciclopedonale lungo il viale di Villa Tiepolo Passi a
+    Lanzago.
+  fonte: https://www.comune.silea.tv.it/eventi/inaugurazione-itinerario-ciclo-pedonale-stradon-villa-passi.html
+  trovato: '2026-11-28'
+- title: 'Biblio-filo'': laboratorio musicale per genitori e bambini 0-3 anni'
+  start: 2026-12-15T16:15
+  end: 2026-12-15T18:15
+  venue: Biblioteca dei Liberi Pensatori
+  address: Via Don Minzoni 14
+  town: Silea
+  lat: 45.65425
+  lon: 12.29909
+  category: famiglie-bambini
+  subcategory: laboratori
+  access: iscrizione
+  price: gratuito
+  official_url: https://www.comune.silea.tv.it/eventi/Bibliofilo-novembre-2026.html
+  summary: 'Incontro di educazione musicale per genitori e bambini: 16.15 da 0 a 18 mesi, 17.15 da 18 a 36 mesi, con iscrizione
+    online.'
+  fonte: https://www.comune.silea.tv.it/eventi/Bibliofilo-novembre-2026.html
+  trovato: '2026-11-28'
+- title: 'Biblio-filo'': laboratorio musicale per genitori e bambini 0-3 anni'
+  start: 2026-12-22T16:15
+  end: 2026-12-22T18:15
+  venue: Biblioteca dei Liberi Pensatori
+  address: Via Don Minzoni 14
+  town: Silea
+  lat: 45.65425
+  lon: 12.29909
+  category: famiglie-bambini
+  subcategory: laboratori
+  access: iscrizione
+  price: gratuito
+  official_url: https://www.comune.silea.tv.it/eventi/Bibliofilo-novembre-2026.html
+  summary: 'Incontro di educazione musicale per genitori e bambini: 16.15 da 0 a 18 mesi, 17.15 da 18 a 36 mesi, con iscrizione
+    online.'
+  fonte: https://www.comune.silea.tv.it/eventi/Bibliofilo-novembre-2026.html
+  trovato: '2026-11-28'
+- title: Laboratorio STEM Coding & storytelling (11-14 anni)
+  start: 2026-12-02T16:00
+  end: 2026-12-02T18:00
+  venue: Polo educativo territoriale
+  address: Piazza Martiri della Liberta' 12
+  town: Sernaglia della Battaglia
+  lat: 45.8725185
+  lon: 12.1315511
+  category: famiglie-bambini
+  subcategory: laboratori
+  access: iscrizione
+  official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  summary: 'Laboratorio pratico per ragazzi di 11-14 anni: storie animate interattive con la programmazione a blocchi, nel
+    ciclo Sernaglia Generazione Giovani.'
+  fonte: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  trovato: '2026-11-28'
+- title: 'Laboratorio STEM Robo-officina: costruiamo un robot (6-8 anni)'
+  start: 2026-12-16T16:00
+  end: 2026-12-16T18:00
+  venue: Polo educativo territoriale
+  address: Piazza Martiri della Liberta' 12
+  town: Sernaglia della Battaglia
+  lat: 45.8725185
+  lon: 12.1315511
+  category: famiglie-bambini
+  subcategory: laboratori
+  access: iscrizione
+  official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  summary: 'Laboratorio pratico per ragazzi di 6-8 anni: costruzione di un piccolo robot con motore e materiali di recupero,
+    nel ciclo Sernaglia Generazione Giovani.'
+  fonte: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  trovato: '2026-11-28'
+- title: 'Laboratorio STEM Easy built: dalle forme alle costruzioni (6-8 anni)'
+  start: 2027-01-20T16:00
+  end: 2027-01-20T18:00
+  venue: Polo educativo territoriale
+  address: Piazza Martiri della Liberta' 12
+  town: Sernaglia della Battaglia
+  lat: 45.8725185
+  lon: 12.1315511
+  category: famiglie-bambini
+  subcategory: laboratori
+  access: iscrizione
+  official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  summary: 'Laboratorio pratico per ragazzi di 6-8 anni: strutture tridimensionali con cannucce e connettori, nel ciclo Sernaglia
+    Generazione Giovani.'
+  fonte: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  trovato: '2026-11-28'
+- title: Laboratorio STEM Buzzer game (8-10 anni)
+  start: 2027-02-17T16:00
+  end: 2027-02-17T18:00
+  venue: Polo educativo territoriale
+  address: Piazza Martiri della Liberta' 12
+  town: Sernaglia della Battaglia
+  lat: 45.8725185
+  lon: 12.1315511
+  category: famiglie-bambini
+  subcategory: laboratori
+  access: iscrizione
+  official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  summary: 'Laboratorio pratico per ragazzi di 8-10 anni: costruzione di un gioco elettronico con circuiti semplici, nel ciclo
+    Sernaglia Generazione Giovani.'
+  fonte: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  trovato: '2026-11-28'
+- title: 'Laboratorio STEM Penna 3D: disegna fuori dal foglio (8-10 anni)'
+  start: 2027-03-24T16:00
+  end: 2027-03-24T18:00
+  venue: Polo educativo territoriale
+  address: Piazza Martiri della Liberta' 12
+  town: Sernaglia della Battaglia
+  lat: 45.8725185
+  lon: 12.1315511
+  category: famiglie-bambini
+  subcategory: laboratori
+  access: iscrizione
+  official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  summary: 'Laboratorio pratico per ragazzi di 8-10 anni: piccoli oggetti tridimensionali con la penna 3D, nel ciclo Sernaglia
+    Generazione Giovani.'
+  fonte: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/laboratori-stem-elettronica-robotica-e-programmazione-digitale/
+  trovato: '2026-11-28'
+- title: Giovanna dei disoccupati. Un apocrifo brechtiano
+  start: 2027-03-16T21:00
+  venue: Teatro Cristallo
+  address: Via Garibaldi 44
+  town: Oderzo
+  lat: 45.78068
+  lon: 12.49161
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: biglietto
+  price: 25 euro
+  official_url: https://www.cinemacristallo.com/movie/giovanna-dei-disoccupati-un-apocrifo-brechtiano/
+  summary: Spettacolo teatrale che riprende i personaggi di Bertolt Brecht in un contesto di finanza ed economia contemporanee;
+    stagione teatrale del Cristallo.
+  fonte: https://www.cinemacristallo.com/teatro-cristallo-oderzo/
+  trovato: '2026-11-28'
+- title: '(S)parliamo di psicologia: e'' (anche) questione di chimica'
+  start: 2026-12-20T20:30
+  venue: Centro culturale di Santa Giustina
+  address: Via Cal de Formiga 31
+  town: Santa Giustina
+  lat: 46.0805572
+  lon: 12.0383704
+  category: natura-outdoor
+  subcategory: salute
+  official_url: https://www.dolomitiprealpi.it/event/sparliamo-di-psicologia/
+  summary: 'Incontro informativo sulla salute mentale: secondo incontro sui disturbi psicologici, l''ansia e il ruolo dei
+    farmaci, con una psicologa e uno psichiatra.'
+  fonte: https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events (API della fonte del giro dolomiti-prealpi)
+  trovato: '2026-11-28'
+- title: '(S)parliamo di psicologia: come stare meglio?'
+  start: 2027-01-24T18:00
+  venue: Centro culturale di Santa Giustina
+  address: Via Cal de Formiga 31
+  town: Santa Giustina
+  lat: 46.0805572
+  lon: 12.0383704
+  category: natura-outdoor
+  subcategory: salute
+  official_url: https://www.dolomitiprealpi.it/event/sparliamo-di-psicologia/
+  summary: 'Incontro informativo sulla salute mentale: terzo incontro sugli strumenti per il benessere psicologico, dalla
+    psicoterapia ai gruppi di auto mutuo aiuto.'
+  fonte: https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events (API della fonte del giro dolomiti-prealpi)
+  trovato: '2026-11-28'
+- title: Visita guidata al Mulino di Santa Libera
+  start: 2026-11-29T15:00
+  venue: Mulino di Santa Libera
+  address: Via del Mulino 4, Salzan
+  town: Santa Giustina
+  lat: 46.0784837
+  lon: 12.0496905
+  category: arte-cultura
+  subcategory: visite
+  access: libero
+  price: gratuito
+  official_url: https://www.dolomitiprealpi.it/event/aperture-2026-e-visita-guidata-al-mulino-di-santa-libera-13/
+  summary: Apertura del mulino storico di Salzan, in funzione dal 1526 al 1981, con visita guidata gratuita.
+  fonte: https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events (API della fonte del giro dolomiti-prealpi)
+  trovato: '2026-11-28'
+- title: Cena Potteriana al Castello di Zumelle
+  start: '2026-12-07'
+  venue: Castello di Zumelle
+  address: Via San Dona' 4, Mel
+  town: Borgo Valbelluna
+  lat: 46.0363063
+  lon: 12.0814015
+  category: sagre-feste
+  subcategory: cene
+  access: iscrizione
+  official_url: https://www.dolomitiprealpi.it/event/cena-potteriana-2/
+  summary: Cena spettacolo a tema Harry Potter nella Sala Grande del castello, con giochi di magia dal vivo; posti limitati
+    su prenotazione.
+  fonte: https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events (API della fonte del giro dolomiti-prealpi)
+  trovato: '2026-11-28'
+- title: Emisferi CineFest 2026
+  start: 2026-11-27T18:00
+  end: '2026-11-29'
+  venue: Cineteatro Il Piccolissimo
+  address: Via Ludovico Ariosto
+  town: Ciampino
+  lat: 41.8038696
+  lon: 12.6041789
+  category: teatro-spettacoli
+  subcategory: proiezioni
+  access: iscrizione
+  price: gratuito con accredito
+  official_url: https://www.visitlazio.com/eventi-lazio/emisferi-a-ciampino-la-5-edizione-del-cinefest/
+  summary: Quinta edizione del festival di cinema indipendente con 24 opere in concorso e incontri con gli autori; premiazione
+    domenica alle 20.20.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Novembre in Festa a Contigliano
+  start: 2026-11-28T15:30
+  end: '2026-11-29'
+  venue: Parco di Villa Franceschini
+  address: Via Ettore Franceschini
+  town: Contigliano
+  lat: 42.4094752
+  lon: 12.7727376
+  category: sagre-feste
+  subcategory: ricorrenze
+  official_url: https://www.visitlazio.com/eventi-lazio/novembre-in-festa-contigliano-celebra-lautunno/
+  summary: Festa d'autunno con mercatino degli artigiani, laboratori per famiglie, degustazioni e musica dal vivo nel centro
+    storico e nel parco.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Premio Camilla Citta' di Priverno, VII edizione
+  start: 2026-11-28T17:00
+  venue: Auditorium dell'Infermeria dei Conversi, Abbazia di Fossanova
+  address: Via San Tommaso d'Aquino, Fossanova
+  town: Priverno
+  lat: 41.4383229
+  lon: 13.195651
+  category: arte-cultura
+  subcategory: incontri-pubblici
+  access: libero
+  price: gratuito
+  official_url: https://www.visitlazio.com/eventi-lazio/vii-edizione-del-premio-camilla-citta-di-priverno/
+  summary: Cerimonia di premiazione di donne attive in cultura, volontariato, sport e professioni, con intermezzi musicali.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Street Food alla Sonninese
+  start: 2026-11-29T12:00
+  venue: Piazza Garibaldi
+  address: Piazza Giuseppe Garibaldi
+  town: Sonnino
+  lat: 41.4141931
+  lon: 13.2419263
+  category: sagre-feste
+  subcategory: sagre
+  official_url: https://www.visitlazio.com/eventi-lazio/street-food-alla-sonninese/
+  summary: Pranzo con piatti della tradizione di Sonnino preparati in cucine temporanee nell'area pedonale tra via Cesare
+    Battisti e piazza Garibaldi.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Sagra della Polenta a Capranica
+  start: '2026-12-04'
+  end: '2026-12-13'
+  venue: Centro storico di Capranica
+  address: Corso Francesco Petrarca 40
+  town: Capranica
+  lat: 42.256669
+  lon: 12.1780278
+  category: sagre-feste
+  subcategory: sagre
+  official_url: https://www.visitlazio.com/eventi-lazio/sagra-della-polenta-a-capranica/
+  summary: Terza edizione della sagra dedicata alla polenta e alla cucina rurale nel borgo.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Sagra del Pangiallo e della Polenta a Riano
+  start: '2026-12-06'
+  end: '2026-12-08'
+  venue: Piazza Piombino
+  address: Piazza Piombino
+  town: Riano
+  lat: 42.0913249
+  lon: 12.5224818
+  category: sagre-feste
+  subcategory: sagre
+  official_url: https://www.visitlazio.com/eventi-lazio/a-riano-sagra-del-pangiallo-e-polenta-e-campionato-del-pangiallo/
+  summary: 'Tre giorni dedicati al pangiallo: convegno il 6, esposizione e gara al Castello Boncompagni Ludovisi il 7, sagra
+    con stand e processione dell''Immacolata l''8 dicembre.'
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Polentando a Manziana
+  start: 2026-12-06T12:00
+  venue: Piazza Tommaso Tittoni
+  address: Piazza Tommaso Tittoni
+  town: Manziana
+  lat: 42.129379
+  lon: 12.1328486
+  category: sagre-feste
+  subcategory: sagre
+  official_url: https://www.visitlazio.com/eventi-lazio/polentando-a-manziana-tra-polenta-e-artigianato/
+  summary: Pranzo in piazza a base di polenta con bancarelle di artigianato, organizzato dalla Pro Loco di Manziana.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: La Via dell'Olio a Nerola
+  start: 2026-12-06T10:00
+  end: 2026-12-06T18:00
+  venue: Centro storico di Nerola
+  address: Corso Umberto I 15
+  town: Nerola
+  lat: 42.161662
+  lon: 12.7869036
+  category: sagre-feste
+  subcategory: degustazioni
+  official_url: https://www.visitlazio.com/eventi-lazio/la-via-dellolio-a-nerola-tra-frantoi-e-tradizione/
+  summary: Giornata sull'olio nuovo con visite ai frantoi in navetta su prenotazione, dimostrazioni di molitura e degustazioni;
+    menu' a 15 euro.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Sagra della Polenta a Rocca Massima, VI edizione
+  start: 2026-11-29T10:00
+  venue: Centro di Rocca Massima
+  address: Via del Municipio 47
+  town: Rocca Massima
+  lat: 41.67837
+  lon: 12.91986
+  category: sagre-feste
+  subcategory: sagre
+  official_url: https://www.visitlazio.com/eventi-lazio/vi-edizione-della-sagra-della-polenta-a-rocca-massima/
+  summary: Mercatino di artigianato e prodotti tipici dal mattino e distribuzione della polenta con salsicce dalle 13, con
+    musica dal vivo.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Sagra della Mosciarella a Capranica Prenestina, 45a edizione
+  start: 2026-12-06T09:00
+  venue: Centro storico di Capranica Prenestina
+  address: Piazza Aristide Frezza 6
+  town: Capranica Prenestina
+  lat: 41.86207
+  lon: 12.95235
+  category: sagre-feste
+  subcategory: sagre
+  official_url: https://www.visitlazio.com/eventi-lazio/45-sagra-della-mosciarella-a-capranica-prenestina/
+  summary: Sagra delle castagne essiccate (mosciarelle) con assaggi, visita alle cantine del centro storico e folklore.
+  fonte: https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)
+  trovato: '2026-11-28'
+- title: Accendiamo il Natale a San Biagio di Callalta
+  start: 2026-11-28T15:00
+  end: 2026-11-28T18:00
+  venue: Piazza Walter Tobagi
+  address: Piazza Walter Tobagi 1
+  town: San Biagio di Callalta
+  lat: 45.68505
+  lon: 12.37724
+  category: sagre-feste
+  subcategory: ricorrenze
+  access: libero
+  price: gratuito
+  official_url: https://www.comune.sanbiagio.tv.it/vivere-il-comune/eventi/accendiamo-il-natale-2/
+  summary: Pomeriggio del Comune con consegna delle borse di studio, premiazione del concorso fotografico, arrivo di Babbo
+    Natale alle 16.30 e accensione dell'albero alle 17.
+  fonte: https://www.comune.sanbiagio.tv.it/eventi/
+  trovato: '2026-11-28'
+- title: 'Sulle note dell''avventura: lettura animata con musiche di Primo Beraldo (Sile Classica)'
+  start: 2026-11-28T17:00
+  venue: Auditorium dell'Istituto Comprensivo
+  address: Via Antonio Vivaldi 30
+  town: Roncade
+  lat: 45.6302199
+  lon: 12.3790565
+  category: famiglie-bambini
+  subcategory: spettacoli-bimbi
+  access: offerta
+  price: contributo responsabile
+  official_url: https://www.sileclassica.it/sile-classica-2026/28-novembre-sulle-note-dellavventura-sc26
+  ticket_url: https://www.eventbrite.com/e/biglietti-sulle-note-dellavventura-sile-classica-2026-2004096124457
+  summary: Lettura animata per bambini e famiglie con i giovani pianisti di irisMusica e gli Amici di Elmer, dedicata ai brani
+    sul Far West del compositore roncadese Primo Beraldo.
+  fonte: https://www.sileclassica.it/
+  trovato: '2026-11-28'
+- title: 'I racconti del Memoriale: Carlo Scarpa, il Memoriale Brion e il rapporto con Venezia'
+  start: 2026-11-28T11:00
+  venue: Memoriale Brion
+  address: Via Brioni
+  town: Altivole
+  lat: 45.75136
+  lon: 11.91341
+  category: arte-cultura
+  subcategory: visite
+  access: biglietto
+  price: 18 euro, ridotto 13, iscritti FAI e residenti 10, gratis fino a 5 anni
+  official_url: https://fondoambiente.it/eventi/i-racconti-del-memoriale
+  summary: Visita guidata speciale di un'ora e mezza nell'anniversario della morte di Carlo Scarpa, con prenotazione obbligatoria.
+  fonte: https://fondoambiente.it/eventi/i-racconti-del-memoriale
+  trovato: '2026-11-28'
+- title: 'Katia Follesa: No vabbe'', mi adoro'
+  start: 2027-03-05T20:30
+  venue: Teatro Comunale Dino Buzzati
+  address: Piazza Vittorio Emanuele II 2
+  town: Belluno
+  lat: 46.13955
+  lon: 12.21764
+  category: teatro-spettacoli
+  subcategory: comicita
+  access: biglietto
+  price: da 38 a 53 euro
+  official_url: https://www.dolomitiprealpi.it/event/katia-follesa-in-no-vabbe-mi-adoro/
+  summary: Spettacolo comico di Katia Follesa su relazioni, vita di coppia e nevrosi quotidiane.
+  fonte: https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events (API della fonte del giro dolomiti-prealpi); data confermata
+    dalla scheda (venerdi' 5 marzo ore 20.30)
+  trovato: '2026-11-28'

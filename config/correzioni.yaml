@@ -1645,6 +1645,181 @@ correggi:
     verificato: '2026-11-28'
     price: 8 euro
     official_url: https://trevignanocultura.it/events/boeing-boeing-lamore-vola-e-va/
+  1c147ba6b88bd1b3:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: ''evento a pagamento'', prezzi non indicati; date 27, 28, 30/11 e 2, 4, 5, 6/12 alle 21'
+    verificato: '2026-11-28'
+  35feed7e333c3082:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: ''evento a pagamento'', prezzi non indicati; date 27, 28, 30/11 e 2, 4, 5, 6/12 alle 21'
+    verificato: '2026-11-28'
+  a6c2697a47caaab1:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: ''evento a pagamento'', prezzi non indicati; date 27, 28, 30/11 e 2, 4, 5, 6/12 alle 21'
+    verificato: '2026-11-28'
+  1253faf51d67008d:
+    access: biglietto
+    price: intero 15 euro
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: a pagamento, settore unico intero 15 euro'
+    verificato: '2026-11-28'
+  793efaad9dbff8d2:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 28/11 ore 20:30, a pagamento'
+    verificato: '2026-11-28'
+  90777c2949b594ed:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 28/11 ore 16, a pagamento, biglietti da Bologna Festival'
+    verificato: '2026-11-28'
+  3f05eb4be0666d0a:
+    access: libero
+    price: gratuito
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 29/11 ore 17 in Piazza Maggiore, evento gratuito'
+    verificato: '2026-11-28'
+  3934629077b37667:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 29/11 ore 16:30, a pagamento'
+    verificato: '2026-11-28'
+  f78c756b061dee9a:
+    access: biglietto
+    price: 15 euro, ridotto 10 con Card Cultura, oltre all'ingresso al museo; prenotazione obbligatoria
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: a pagamento con prenotazione obbligatoria su midaticket.it, 15 euro (10 con Card Cultura) oltre al biglietto del museo'
+    verificato: '2026-11-28'
+  29356b33bbca7ef1:
+    access: biglietto
+    price: intero 28,50 euro, ridotto 25, under 29 22,50
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: a pagamento, intero 28,50, ridotto 25, under 29 22,50'
+    verificato: '2026-11-28'
+  37401a309e36dab9:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 30/11 ore 20:30, a pagamento'
+    verificato: '2026-11-28'
+  375283474f96aa22:
+    access: biglietto
+    price: da 34,50 a 46 euro
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 1/12 ore 21, a pagamento, da 34,50 a 46 euro'
+    verificato: '2026-11-28'
+  af9f1f077e4edf50:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 1/12 ore 21, a pagamento'
+    verificato: '2026-11-28'
+  a5c67d9cf2f6e5bd:
+    access: libero
+    price: gratuito
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 2/12 ore 18 nella Sala Conferenze del MAMbo, evento gratuito'
+    verificato: '2026-11-28'
+  257d0946e8ee811e:
+    access: biglietto
+    nota: 'scheda di culturabologna.it letta il 2026-11-28: 2/12 ore 21, a pagamento'
+    verificato: '2026-11-28'
+  3caaf34c4ea05d6d:
+    access: biglietto
+    price: da 8,18 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 26 e 27/11 ore 20:30, 28/11 ore 19, 29/11 ore 16; biglietti da 8,18 euro'
+    verificato: '2026-11-28'
+  3fbcdd0df7eebf05:
+    access: biglietto
+    price: 7,63 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 27/11 17:30, 28/11 15:30 e 22:15, 29/11 18; biglietto unico 7,63 euro'
+    verificato: '2026-11-28'
+  bf45b770a80ae2fa:
+    access: biglietto
+    price: da 8,18 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 28/11 ore 18 e 29/11 ore 20; biglietti da 8,18 euro'
+    verificato: '2026-11-28'
+  33c3b4f3f41c6450:
+    access: biglietto
+    price: da 8,18 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 28/11 ore 21 e 29/11 ore 18; biglietti da 8,18 euro'
+    verificato: '2026-11-28'
+  d9e158d77e43fd56:
+    start: 2026-11-29T16:30
+    all_day: false
+    access: biglietto
+    price: da 5,45 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: unica recita domenica 29/11 alle 16:30; biglietti da 5,45 euro'
+    verificato: '2026-11-28'
+  3614d889cf460b7e:
+    access: biglietto
+    price: da 8,18 euro
+    nota: 'scheda di emiliaromagnateatro.com letta il 2026-11-28: 1/12 ore 20:30 e 2/12 ore 19; biglietti da 8,18 euro'
+    verificato: '2026-11-28'
+  7cda01a278c356d0:
+    access: biglietto
+    nota: 'teatrodue.org, scheda letta il 2026-11-28: biglietti su Vivaticket, prezzo non indicato'
+    verificato: '2026-11-28'
+  22ab68d78b4ff7c3:
+    access: biglietto
+    price: da 21 euro
+    nota: 'teatrodellatosse.it, scheda letta il 2026-11-28: 28/11 ore 21 in Sala Aldo Trionfo, biglietti da 21 euro'
+    verificato: '2026-11-28'
+  5346fba1a17527e6:
+    access: biglietto
+    price: da 25 a 65 euro, under 25 15 euro
+    nota: 'teatroponchielli.it, scheda letta il 2026-11-28: 27/11 ore 20 e 29/11 ore 16; da 25 euro (loggione) a 65 euro, under 25 15 euro'
+    verificato: '2026-11-28'
+  3a29a2e9c94195ee:
+    start: 2026-11-29T11:00
+    all_day: false
+    access: libero
+    price: ingresso libero fino a esaurimento posti
+    nota: 'iteatri.re.it, scheda letta il 2026-11-28: domenica 29/11 ore 11 al Ridotto del Valli, accesso libero fino a esaurimento posti'
+    verificato: '2026-11-28'
+  d56f0d064ddc9cba:
+    access: libero
+    price: ingresso libero, prenotazione consigliata
+    nota: 'saisonculturellevda.it, scheda letta il 2026-11-28: 30/11 ore 18, ingresso libero nel limite dei posti, prenotazione consigliata'
+    verificato: '2026-11-28'
+  3fae87078133f455:
+    access: libero
+    price: gratuito
+    nota: 'cuneocultura.it, scheda letta il 2026-11-28: 2 e 3/12 ore 20:45, 4/12 ore 16:15, ingresso libero; punto della sala da luoghi.yaml'
+    verificato: '2026-11-28'
+  bbb25b6f830d4e77:
+    access: biglietto
+    price: intero 8 euro, ridotto 6
+    nota: 'turismotorino.org, scheda letta il 2026-11-28: 5/11-31/12, mar-dom 9-13 e 15-18, intero 8 euro, ridotto 6'
+    verificato: '2026-11-28'
+  83541ec862156e56:
+    access: biglietto
+    price: intero 8 euro, ridotto 6
+    nota: 'turismotorino.org, scheda letta il 2026-11-28: 14/11-20/12, intero 8 euro, ridotto 6'
+    verificato: '2026-11-28'
+  baeb61e5f4bf3249:
+    venue: Stand della Pro Loco
+    address: Via Bragadin
+    lat: 45.77854
+    lon: 12.25686
+    nota: 'fioridinverno.tv, scheda letta il 2026-11-28: stand della Pro Loco in Via Bragadin; punto di Via Bragadin su OpenStreetMap (Nominatim, way 135517687)'
+    verificato: '2026-11-28'
+  09780e2cc9d96f7a:
+    lat: 45.67293
+    lon: 11.9268
+    nota: 'avviso del Comune di Castelfranco letto il 2026-11-28: 21/11-10/1 nei giardini a nord-est e nord-ovest sotto le mura; punto del percorso ''Attorno alle Mura'' su OpenStreetMap (Nominatim, way 130555016), punto noto piu'' vicino'
+    verificato: '2026-11-28'
+  14e942aa659b233b:
+    official_url: https://www.mentelocale.it/treviso/137798-reel-rock-tour-italia-2026.htm
+    ticket_url: https://www.happyticket.com/treviso/acquista-biglietti/1-316124-gbizelvjzzj7nbb.htm
+    nota: 'il link ufficiale era la pagina di vendita di Happy Ticket: ora in ticket_url; official_url alla scheda mentelocale (fonte dell''evento); punto del cinema da luoghi.yaml'
+    verificato: '2026-11-28'
+  15e181e7312d5bde:
+    start: '2026-04-30'
+    access: libero
+    price: gratuito
+    nota: 'musei.re.it, scheda letta il 2026-11-28 (campione): mostra dal 30/4/2026 al 28/2/2027, ingresso gratuito senza prenotazione'
+    verificato: '2026-11-28'
+  1327c1b8bc7ba147:
+    official_url: https://www.newageclub.it/events/
+    nota: 'campione: link ufficiale mancante; elenco eventi del New Age Club (newageclub.it/events/, ricerca del 2026-11-28) con Nanowar Of Steel e Induction lunedi'' 7/12; TicketOne solo come ticket_url'
+    verificato: '2026-11-28'
+  bb8e4a271641aeee:
+    price: da 15 a 65 euro
+    nota: 'teatrodonizetti.it, scheda letta il 2026-11-28 (campione): 8/12 ore 17 al Teatro Sociale, biglietti da 15 a 65 euro'
+    verificato: '2026-11-28'
+  236d05175fa0ff06:
+    access: libero
+    price: gratuito
+    nota: 'comune.cuneo.it, scheda letta il 2026-11-28: 19 o 20/11/2026-29/3/2027 al Complesso di San Francesco, mar-ven 15:30-19:30, sab-dom 10-19:30, ingresso gratuito (sul sito era a biglietto)'
+    verificato: '2026-11-28'
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
@@ -1842,7 +2017,6 @@ verificati:
   4b11d3d78b2543b8: 2026-11-28
   a9ddc97b1e577969: 2026-11-28
   f9cd1f8da953b96d: 2026-11-28
-  0176f4033b10a234: 2026-11-28
   6d36f6c1183b82f4: 2026-11-28
   6a377d4c7f155154: 2026-11-28
   92528e90ff7a0112: 2026-11-28
@@ -1863,3 +2037,32 @@ verificati:
   34afafe79428c382: 2026-11-28
   58e3f6b6972b840e: 2026-11-28
   f6249f42024b8652: 2026-11-28
+  4a04af1dcedc3b16: '2026-11-28'
+  15fba1ddc9a08298: '2026-11-28'
+  ec74346483b81fc9: '2026-11-28'
+  ce93cc5239b01a66: '2026-11-28'
+  45b23c7c7c6eeacc: '2026-11-28'
+  c30c4d475865daa8: '2026-11-28'
+  cbaeebd4a802c713: '2026-11-28'
+  8baf2b2bbac65b62: '2026-11-28'
+  36385e3f175afdc8: '2026-11-28'
+  8db85f12daee521f: '2026-11-28'
+  41db8e885ad78b74: '2026-11-28'
+  3e380c2f6aa29387: '2026-11-28'
+  2487a0661f1bc65d: '2026-11-28'
+  50ab4cb3af2b8208: '2026-11-28'
+  9bd100951c2827c1: '2026-11-28'
+  9788bdcacf470516: '2026-11-28'
+  9aabe2d0cf699ef8: '2026-11-28'
+  e5fa344d5ee49f1e: '2026-11-28'
+  9b62f5b5d2005651: '2026-11-28'
+  87adeea4c623c604: '2026-11-28'
+  4d8513625f48420a: '2026-11-28'
+  2e8836ccd59b2071: '2026-11-28'
+  f82d077f058e5f26: '2026-11-28'
+  f70bb325c355efe6: '2026-11-28'
+  0176f4033b10a234: '2026-11-28'
+  0d9ae301171368b3: '2026-11-28'
+  2e96acfb0999122c: '2026-11-28'
+  61f7d73accb4736b: '2026-11-28'
+  680e2f92cb635599: '2026-11-28'

@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:39+01:00",
+ "generato": "2026-11-28T20:49+01:00",
  "riepilogo": {
-  "eventi_controllati": 3209,
-  "allineati_in_automatico": 3,
+  "eventi_controllati": 3210,
+  "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 88,
-  "solo_comune_con_luogo": 136,
-  "solo_comune_senza_luogo": 27,
-  "candidati_luoghi_noti": 74
+  "lontani_dal_comune": 89,
+  "solo_comune_con_luogo": 77,
+  "solo_comune_senza_luogo": 26,
+  "candidati_luoghi_noti": 39
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -220,6 +220,15 @@
     "b665ec02e9b8accd"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Parco tematico didattico dei Carbonai, Strada Faidel, localita' Lamar, Cordignano",
+   "km_dal_centro": 6,
+   "eventi": 1,
+   "uid": [
+    "f53cebee25a751db"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   }
  ],
  "senza_punto": [
@@ -269,25 +278,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Piazza Mazzini, Piazza Mazzini, Lecco",
-   "eventi": 3,
-   "uid": [
-    "ca55fe3a800b90c3",
-    "d7cce61c4420b1d1",
-    "a7a145e013b983e7"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Cinema Teatro Manzoni, Paese",
-   "eventi": 2,
-   "uid": [
-    "14e942aa659b233b",
-    "c31e5381342fff87"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "IAT Treviso, Treviso",
    "eventi": 2,
    "uid": [
@@ -320,60 +310,6 @@
    "uid": [
     "3b9eaf4cd67c7cfc",
     "1f3236ca7466c8f4"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazza Gramsci, Piazza Gramsci, Novara",
-   "eventi": 2,
-   "uid": [
-    "9660ded1893a131b",
-    "0af0395e4a8aaf51"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Chiesa di Santa Lucia, Via Chenna, Alessandria",
-   "eventi": 2,
-   "uid": [
-    "87e3f994eff5374e",
-    "cb9950221765e2fb"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Ludoteca Comunale C'e' Sole e Luna, Via Verona 103, Alessandria",
-   "eventi": 2,
-   "uid": [
-    "756738b35678f763",
-    "ae5d2eeb67830fb0"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Giardini Pubblici, Piazzale della Vittoria, Forlì",
-   "eventi": 2,
-   "uid": [
-    "8db85f12daee521f",
-    "41db8e885ad78b74"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro il Piccolo, Via Antonio de Nobili, Forlì",
-   "eventi": 2,
-   "uid": [
-    "61f7d73accb4736b",
-    "12e691f8e14f7746"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Auditorium Casa dell'Economia, Via Tonale 30, Lecco",
-   "eventi": 2,
-   "uid": [
-    "d10d27691c395b44",
-    "5a32c23acb83eb29"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -426,26 +362,10 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Parco Archeologico Didattico del Livelet, Via Carpene', Lago, Revine Lago",
-   "eventi": 1,
-   "uid": [
-    "4940be76c5355d16"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Agriturismo Le Spezie, Strada delle Spezie 47, Conegliano",
    "eventi": 1,
    "uid": [
     "1190e119d5443d95"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Parco tematico didattico dei Carbonai, Strada Faidel, localita' Lamar, Cordignano",
-   "eventi": 1,
-   "uid": [
-    "f53cebee25a751db"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -546,14 +466,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Impianti sportivi di Fontigo, Via Chiesa 48, Fontigo, Sernaglia della Battaglia",
-   "eventi": 1,
-   "uid": [
-    "a2d04529adb5b2bc"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Chiesa parrocchiale di San Michele Arcangelo, Silea",
    "eventi": 1,
    "uid": [
@@ -568,16 +480,97 @@
     "035a4d9e541da131"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Uberto Bacilieri, Giavera del Montello",
+   "eventi": 1,
+   "uid": [
+    "7ed2660a7a7541db"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Padiglioni della Filanda e piazza di Santa Lucia di Piave, Santa Lucia di Piave",
+   "eventi": 1,
+   "uid": [
+    "425f9af8b1965605"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Cavalier Antonio Zecchin, Ormelle",
+   "eventi": 1,
+   "uid": [
+    "2386301b0f7218e0"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Conservatorio Agostino Steffani, Salone di Villa Barbarella, Castelfranco Veneto",
+   "eventi": 1,
+   "uid": [
+    "6dcb58d736daf7cd"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Area polifunzionale di Revine, Revine Lago",
+   "eventi": 1,
+   "uid": [
+    "72363e6911a929f6"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Centro storico, Belluno",
+   "eventi": 1,
+   "uid": [
+    "58daee3bc207af3a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sports Center Verona, Via Banchette 49, Verona",
+   "eventi": 1,
+   "uid": [
+    "d4759dffb0501a08"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sala espositiva, Pordenone",
+   "eventi": 1,
+   "uid": [
+    "f844ad7c74dcf27b"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Chiesetta di San Gregorio, Pordenone",
+   "eventi": 1,
+   "uid": [
+    "fcf8e71c45419155"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Santuario della Madonna delle Grazie, Pordenone",
+   "eventi": 1,
+   "uid": [
+    "7ffe5828f3b44621"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Auditorium di Villa Panizza, Paese",
+   "eventi": 1,
+   "uid": [
+    "a4496f3c2f4f4e16"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
  "allineati": [
-  {
-   "uid": "e76563ebac7e6092",
-   "titolo": "Buon compleanno Pinocchio",
-   "luogo": "Teatro Faraggiana, Via dei Caccia 1F, Novara",
-   "lat": 45.4506,
-   "lon": 8.62237
-  },
   {
    "uid": "4fff5a491ccbb5f4",
    "titolo": "Musica, auguri e solidarieta'",
@@ -596,114 +589,6 @@
  "candidati_luoghi": [
   {
    "nomi": [
-    "Teatro Comunale Gabriello Chiabrera"
-   ],
-   "comune": "Savona",
-   "lat": 44.31053,
-   "lon": 8.48147,
-   "eventi": 27
-  },
-  {
-   "nomi": [
-    "Teatro Rossini"
-   ],
-   "comune": "Pesaro",
-   "lat": 43.90788,
-   "lon": 12.9087,
-   "eventi": 27
-  },
-  {
-   "nomi": [
-    "Teatro Bellini"
-   ],
-   "comune": "Napoli",
-   "lat": 40.85096,
-   "lon": 14.25089,
-   "eventi": 26
-  },
-  {
-   "nomi": [
-    "Teatro Goldoni"
-   ],
-   "comune": "Livorno",
-   "lat": 43.54592,
-   "lon": 10.31389,
-   "eventi": 25
-  },
-  {
-   "nomi": [
-    "Piccolo Bellini"
-   ],
-   "comune": "Napoli",
-   "lat": 40.85096,
-   "lon": 14.25089,
-   "eventi": 24
-  },
-  {
-   "nomi": [
-    "Teatro Guglielmi"
-   ],
-   "comune": "Massa",
-   "lat": 44.03589,
-   "lon": 10.14103,
-   "eventi": 17
-  },
-  {
-   "nomi": [
-    "Teatro dei Rinnovati"
-   ],
-   "comune": "Siena",
-   "lat": 43.31806,
-   "lon": 11.33247,
-   "eventi": 17
-  },
-  {
-   "nomi": [
-    "Teatro del Giglio"
-   ],
-   "comune": "Lucca",
-   "lat": 43.8404,
-   "lon": 10.50307,
-   "eventi": 15
-  },
-  {
-   "nomi": [
-    "Mercato del Carmine"
-   ],
-   "comune": "Lucca",
-   "lat": 43.84426,
-   "lon": 10.50559,
-   "eventi": 15
-  },
-  {
-   "nomi": [
-    "Teatro Cilea"
-   ],
-   "comune": "Napoli",
-   "lat": 40.83999,
-   "lon": 14.21613,
-   "eventi": 14
-  },
-  {
-   "nomi": [
-    "Teatro Gustavo Modena"
-   ],
-   "comune": "Genova",
-   "lat": 44.41055,
-   "lon": 8.88976,
-   "eventi": 13
-  },
-  {
-   "nomi": [
-    "Teatro Ivo Chiesa"
-   ],
-   "comune": "Genova",
-   "lat": 44.40452,
-   "lon": 8.9481,
-   "eventi": 13
-  },
-  {
-   "nomi": [
     "Teatro degli Animosi"
    ],
    "comune": "Carrara",
@@ -713,48 +598,12 @@
   },
   {
    "nomi": [
-    "Teatro Cavour"
-   ],
-   "comune": "Imperia",
-   "lat": 43.87626,
-   "lon": 8.01449,
-   "eventi": 11
-  },
-  {
-   "nomi": [
-    "Teatro Metastasio"
-   ],
-   "comune": "Prato",
-   "lat": 43.87974,
-   "lon": 11.09948,
-   "eventi": 11
-  },
-  {
-   "nomi": [
     "Chapiteau TRAC, PIN ai Giardini Storici"
    ],
    "comune": "La Spezia",
    "lat": 44.10373,
    "lon": 9.82375,
    "eventi": 11
-  },
-  {
-   "nomi": [
-    "Teatro Carlo Felice"
-   ],
-   "comune": "Genova",
-   "lat": 44.40815,
-   "lon": 8.9349,
-   "eventi": 10
-  },
-  {
-   "nomi": [
-    "Teatro dei Rozzi"
-   ],
-   "comune": "Siena",
-   "lat": 43.31897,
-   "lon": 11.33023,
-   "eventi": 10
   },
   {
    "nomi": [
@@ -773,6 +622,150 @@
    "lat": 45.69649,
    "lon": 8.46823,
    "eventi": 10
+  },
+  {
+   "nomi": [
+    "Parcheggio Chalet del Terminal Bus"
+   ],
+   "comune": "Valtournenche",
+   "lat": 45.9356,
+   "lon": 7.63044,
+   "eventi": 10
+  },
+  {
+   "nomi": [
+    "Cine Teatro Silvio Pellico"
+   ],
+   "comune": "Trecate",
+   "lat": 45.43151,
+   "lon": 8.73952,
+   "eventi": 9
+  },
+  {
+   "nomi": [
+    "Conservatorio Guido Cantelli, Auditorium Olivieri"
+   ],
+   "comune": "Novara",
+   "lat": 45.44446,
+   "lon": 8.61973,
+   "eventi": 9
+  },
+  {
+   "nomi": [
+    "Teatro del Cuscino"
+   ],
+   "comune": "Novara",
+   "lat": 45.44169,
+   "lon": 8.60452,
+   "eventi": 9
+  },
+  {
+   "nomi": [
+    "Teatro Comunale"
+   ],
+   "comune": "Cagli",
+   "lat": 43.54558,
+   "lon": 12.64748,
+   "eventi": 7
+  },
+  {
+   "nomi": [
+    "Mercato coperto Campagna Amica"
+   ],
+   "comune": "Pesaro",
+   "lat": 43.89618,
+   "lon": 12.90842,
+   "eventi": 7
+  },
+  {
+   "nomi": [
+    "Teatro Pernate Sant'Andrea"
+   ],
+   "comune": "Novara",
+   "lat": 45.46059,
+   "lon": 8.6772,
+   "eventi": 7
+  },
+  {
+   "nomi": [
+    "Cinema Teatro Nuovo"
+   ],
+   "comune": "Borgomanero",
+   "lat": 45.69467,
+   "lon": 8.4552,
+   "eventi": 7
+  },
+  {
+   "nomi": [
+    "Teatro MP"
+   ],
+   "comune": "Novara",
+   "lat": 45.43548,
+   "lon": 8.63084,
+   "eventi": 7
+  },
+  {
+   "nomi": [
+    "Teatro Roma"
+   ],
+   "comune": "Castagneto Carducci",
+   "lat": 43.16026,
+   "lon": 10.60749,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Viali a mare"
+   ],
+   "comune": "Viareggio",
+   "lat": 43.87596,
+   "lon": 10.23846,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Pro Loco di Borgosesia"
+   ],
+   "comune": "Borgosesia",
+   "lat": 45.71646,
+   "lon": 8.27826,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Piazza San Giusto"
+   ],
+   "comune": "Lucca",
+   "lat": 43.84188,
+   "lon": 10.50377,
+   "eventi": 5
+  },
+  {
+   "nomi": [
+    "Teatro La Nuova Fenice"
+   ],
+   "comune": "Osimo",
+   "lat": 43.48561,
+   "lon": 13.4844,
+   "eventi": 5
+  },
+  {
+   "nomi": [
+    "Parrocchia del Santissimo Nome di Gesu' ai Bassi"
+   ],
+   "comune": "Firenze",
+   "lat": 43.78194,
+   "lon": 11.20315,
+   "eventi": 5
+  },
+  {
+   "nomi": [
+    "Ex Cavallerizza"
+   ],
+   "comune": "Lucca",
+   "lat": 43.84286,
+   "lon": 10.49664,
+   "eventi": 4
   }
  ]
 }
