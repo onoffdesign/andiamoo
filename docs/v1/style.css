@@ -465,6 +465,12 @@ body.sidebar-hidden .list-toggle { display: flex; }
 /* ---------- card completa (popup e vista lista) ---------- */
 .card.full { width: 330px; display: flex; flex-direction: column; gap: 10px; }
 .card.full.in-popup { max-height: min(68vh, 620px); overflow-y: auto; overscroll-behavior: contain; }
+/* nel popup i pulsanti restano sempre in vista in fondo alla card, anche quando il testo scorre */
+.card.full.in-popup .card-actions {
+  position: sticky; bottom: -12px; z-index: 1; margin: 0 -16px -12px; padding: 8px 16px 12px;
+  background: var(--c); box-shadow: 0 -8px 10px -8px rgba(0, 0, 0, .18);
+}
+.card.full.in-popup .card-actions { order: 1; }   /* "Segnala una modifica" sopra i pulsanti */
 .card.full .card-top { align-items: center; flex-wrap: nowrap; min-width: 0; }
 .card.full .card-top .live-tag { flex: none; }
 .card.full .cat-tag { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
