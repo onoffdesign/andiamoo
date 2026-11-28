@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:09+01:00",
+ "generato": "2026-11-28T20:19+01:00",
  "riepilogo": {
-  "eventi_controllati": 2361,
+  "eventi_controllati": 2532,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 63,
   "solo_comune_con_luogo": 130,
   "solo_comune_senza_luogo": 27,
-  "candidati_luoghi_noti": 6
+  "candidati_luoghi_noti": 17
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -513,6 +513,15 @@
   },
   {
    "nomi": [
+    "Teatro Comunale Gabriello Chiabrera"
+   ],
+   "comune": "Savona",
+   "lat": 44.31053,
+   "lon": 8.48147,
+   "eventi": 26
+  },
+  {
+   "nomi": [
     "Piccolo Bellini"
    ],
    "comune": "Napoli",
@@ -531,11 +540,83 @@
   },
   {
    "nomi": [
+    "Teatro Gustavo Modena"
+   ],
+   "comune": "Genova",
+   "lat": 44.41055,
+   "lon": 8.88976,
+   "eventi": 13
+  },
+  {
+   "nomi": [
+    "Teatro Ivo Chiesa"
+   ],
+   "comune": "Genova",
+   "lat": 44.40452,
+   "lon": 8.9481,
+   "eventi": 13
+  },
+  {
+   "nomi": [
+    "Teatro Cavour"
+   ],
+   "comune": "Imperia",
+   "lat": 43.87626,
+   "lon": 8.01449,
+   "eventi": 11
+  },
+  {
+   "nomi": [
+    "Teatro Carlo Felice"
+   ],
+   "comune": "Genova",
+   "lat": 44.40815,
+   "lon": 8.9349,
+   "eventi": 10
+  },
+  {
+   "nomi": [
+    "Centro Eventi Il Maggiore"
+   ],
+   "comune": "Verbania",
+   "lat": 45.93065,
+   "lon": 8.57187,
+   "eventi": 8
+  },
+  {
+   "nomi": [
+    "Teatro Eleonora Duse"
+   ],
+   "comune": "Genova",
+   "lat": 44.41125,
+   "lon": 8.93824,
+   "eventi": 8
+  },
+  {
+   "nomi": [
+    "Sala Mercato, Teatro Gustavo Modena"
+   ],
+   "comune": "Genova",
+   "lat": 44.41055,
+   "lon": 8.88976,
+   "eventi": 8
+  },
+  {
+   "nomi": [
     "Teatro Metropolitan"
    ],
    "comune": "Catania",
    "lat": 37.5099,
    "lon": 15.08439,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Teatro Splendor"
+   ],
+   "comune": "Aosta",
+   "lat": 45.73498,
+   "lon": 7.31632,
    "eventi": 4
   },
   {
@@ -554,6 +635,24 @@
    "comune": "Formia",
    "lat": 41.25157,
    "lon": 13.5787,
+   "eventi": 3
+  },
+  {
+   "nomi": [
+    "Teatro della Tosse"
+   ],
+   "comune": "Genova",
+   "lat": 44.40495,
+   "lon": 8.93182,
+   "eventi": 3
+  },
+  {
+   "nomi": [
+    "Palazzo Ducale"
+   ],
+   "comune": "Genova",
+   "lat": 44.4075,
+   "lon": 8.93328,
    "eventi": 3
   }
  ]

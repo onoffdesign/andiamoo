@@ -1,6 +1,28 @@
 {
- "generato": "2026-11-28T20:09+01:00",
+ "generato": "2026-11-28T20:19+01:00",
  "eventi": [
+  {
+   "uid": "15fba1ddc9a08298",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "World Press Photo 2026",
+   "inizio": "2026-09-25",
+   "fine": "2026-12-08",
+   "luogo": "Palazzo Ducale",
+   "indirizzo": "Piazza Giacomo Matteotti 9",
+   "comune": "Genova",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "palazzoducale.genova.it",
+   "pagina_fonte": "https://palazzoducale.genova.it/en/events-calendar/",
+   "sito_ufficiale": "https://palazzoducale.genova.it/en/mostra/world-press-photo-2026/",
+   "riassunto": "Mostra delle fotografie premiate al World Press Photo 2026 nella Loggia degli Abati di Palazzo Ducale.",
+   "lat": 44.4075011,
+   "lon": 8.933284,
+   "precisione": "address"
+  },
   {
    "uid": "4d5cf01bcdc28c8e",
    "motivi": [
@@ -23,6 +45,50 @@
    "lat": 45.66577,
    "lon": 12.25044,
    "precisione": "venue"
+  },
+  {
+   "uid": "ce93cc5239b01a66",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Edward Hopper, mostra a Palazzo Blu",
+   "inizio": "2026-10-14",
+   "fine": "2027-03-07",
+   "luogo": "Palazzo Blu",
+   "indirizzo": "Lungarno Gambacorti 9",
+   "comune": "Pisa",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "16 euro intero",
+   "fonte": "turismo.pisa.it",
+   "pagina_fonte": "https://www.turismo.pisa.it/en/eventi/Edward-Hopper-exhibition-at-Palazzo-Blu",
+   "sito_ufficiale": "https://www.turismo.pisa.it/en/eventi/Edward-Hopper-exhibition-at-Palazzo-Blu",
+   "riassunto": "Mostra con oltre 150 opere di Edward Hopper tra dipinti, disegni, incisioni e acquerelli, organizzata con il Whitney Museum di New York.",
+   "lat": 43.7156502,
+   "lon": 10.3997452,
+   "precisione": "address"
+  },
+  {
+   "uid": "ec74346483b81fc9",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Renoir, Monet, Toulouse-Lautrec, Cezanne. La Collezione Scharf",
+   "inizio": "2026-10-16",
+   "fine": "2027-05-02",
+   "luogo": "Palazzo Ducale",
+   "indirizzo": "Piazza Giacomo Matteotti 9",
+   "comune": "Genova",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "palazzoducale.genova.it",
+   "pagina_fonte": "https://palazzoducale.genova.it/en/events-calendar/",
+   "sito_ufficiale": "https://palazzoducale.genova.it/en/mostra/renoir-monet-toulouse-lautrec-cezanne/",
+   "riassunto": "Mostra di opere della Collezione Scharf, da Renoir e Monet a Toulouse-Lautrec e Cezanne, nel Sottoporticato di Palazzo Ducale.",
+   "lat": 44.4075011,
+   "lon": 8.933284,
+   "precisione": "address"
   },
   {
    "uid": "c30c4d475865daa8",
@@ -92,6 +158,29 @@
    "lat": 45.4675,
    "lon": 7.87834,
    "precisione": "venue"
+  },
+  {
+   "uid": "45b23c7c7c6eeacc",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Pisa 1946. Dalle macerie al futuro",
+   "inizio": "2026-11-06",
+   "fine": "2027-01-10",
+   "luogo": "Museo Nazionale di San Matteo",
+   "indirizzo": "Piazza San Matteo in Soarta 1",
+   "comune": "Pisa",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismo.pisa.it",
+   "pagina_fonte": "https://www.turismo.pisa.it/eventi/index.html/?cat=1",
+   "sito_ufficiale": "https://www.turismo.pisa.it/eventi/index.html/?cat=1",
+   "riassunto": "Mostra al Museo Nazionale di San Matteo sulla Pisa del dopoguerra e della ricostruzione.",
+   "lat": 43.7147201,
+   "lon": 10.4078619,
+   "precisione": "address"
   },
   {
    "uid": "83541ec862156e56",
@@ -586,6 +675,28 @@
    "precisione": "address"
   },
   {
+   "uid": "22ab68d78b4ff7c3",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "The Red Wine Bluegrass Party n.18, The Ligurian Session",
+   "inizio": "2026-11-28",
+   "fine": null,
+   "luogo": "Teatro della Tosse",
+   "indirizzo": "Piazza Renato Negri 6",
+   "comune": "Genova",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "teatrodellatosse.it",
+   "pagina_fonte": "https://teatrodellatosse.it/",
+   "sito_ufficiale": "https://teatrodellatosse.it/eventi/the-red-wine-bluegrass-party-n-18.htm",
+   "riassunto": "Serata di musica bluegrass con i Red Wine nella Sala Aldo Trionfo del Teatro della Tosse.",
+   "lat": 44.4049524,
+   "lon": 8.9318247,
+   "precisione": "address"
+  },
+  {
    "uid": "9aabe2d0cf699ef8",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -1005,6 +1116,28 @@
    "precisione": "address"
   },
   {
+   "uid": "d56f0d064ddc9cba",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Giornalismo e letteratura, incontro con Leila Guerriero",
+   "inizio": "2026-11-30T18:00",
+   "fine": null,
+   "luogo": "Teatro Splendor",
+   "indirizzo": "Via Jean-Boniface Festaz 82",
+   "comune": "Aosta",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "saisonculturellevda.it",
+   "pagina_fonte": "https://saisonculturellevda.it/",
+   "sito_ufficiale": "https://saisonculturellevda.it/spettacoli/letteratura/giornalismo-e-letteratura-una-voce-internazionale-leila-guerriero/",
+   "riassunto": "Incontro con la giornalista e scrittrice argentina Leila Guerriero nella Saison Culturelle.",
+   "lat": 45.7349785,
+   "lon": 7.3163232,
+   "precisione": "address"
+  },
+  {
    "uid": "375283474f96aa22",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -1202,140 +1335,6 @@
    "lat": 44.496643,
    "lon": 11.365916,
    "precisione": "address"
-  },
-  {
-   "uid": "38503affcfaddd97",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Con un cuore che ascolta",
-   "inizio": "2026-12-02",
-   "fine": "2026-12-04",
-   "luogo": "Teatro Due",
-   "indirizzo": "Viale Basetti 12/a",
-   "comune": "Parma",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatrodue.org",
-   "pagina_fonte": "https://www.teatrodue.org/",
-   "sito_ufficiale": "https://www.teatrodue.org/con-un-cuore-che-ascolta/",
-   "riassunto": "Spettacolo in scena al Teatro Due dal 2 al 4 dicembre.",
-   "lat": 44.796453,
-   "lon": 10.325244,
-   "precisione": "address"
-  },
-  {
-   "uid": "b738e4d26bf3da3d",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Omaggio a Gyorgy Kurtag: Anna Prohaska e Isabelle Faust",
-   "inizio": "2026-12-02",
-   "fine": null,
-   "luogo": "Teatro Municipale Valli",
-   "indirizzo": "Piazza Martiri del 7 Luglio 7",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "iteatri.re.it",
-   "pagina_fonte": "https://www.iteatri.re.it/",
-   "sito_ufficiale": "https://www.iteatri.re.it/spettacolo/anna-prohaska-soprano-isabelle-faust-violino/",
-   "riassunto": "Concerto del soprano Anna Prohaska e della violinista Isabelle Faust nel centenario della nascita di Gyorgy Kurtag.",
-   "lat": 44.701106,
-   "lon": 10.631383,
-   "precisione": "address"
-  },
-  {
-   "uid": "84c5a9c994c9df48",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Dentro e fuori dai libri... con un buco nel calzino",
-   "inizio": "2026-12-02T17:00",
-   "fine": null,
-   "luogo": "Biblioteca 0-18 di Cuneo",
-   "indirizzo": "Via Santa Maria 11",
-   "comune": "Cuneo",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "cuneocultura.it",
-   "pagina_fonte": "https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)",
-   "sito_ufficiale": "https://www.cuneocultura.it/evento/dentro-e-fuori-dai-libri-con-un-buco-nel-calzino-24-48-mesi/",
-   "riassunto": "Laboratorio di lettura per genitori e bambini dai 24 ai 48 mesi.",
-   "lat": 44.39465,
-   "lon": 7.55021,
-   "precisione": "venue"
-  },
-  {
-   "uid": "ae1e0d4e8db9ece9",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Abisso e Potere (Teatro dei Venti)",
-   "inizio": "2026-12-02",
-   "fine": "2026-12-06",
-   "luogo": "Teatro delle Passioni, Sala Grande",
-   "indirizzo": "Viale Carlo Sigonio 382",
-   "comune": "Modena",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "modena.emiliaromagnateatro.com",
-   "pagina_fonte": "https://modena.emiliaromagnateatro.com/",
-   "sito_ufficiale": "https://modena.emiliaromagnateatro.com/spettacolo/abisso-e-potere/",
-   "riassunto": "Spettacolo della compagnia modenese Teatro dei Venti nella Sala Grande del Teatro delle Passioni.",
-   "lat": 44.63796,
-   "lon": 10.92312,
-   "precisione": "venue"
-  },
-  {
-   "uid": "3b9eaf4cd67c7cfc",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Dalla bussola al LiDAR (I giovedi' del CAI di Feltre)",
-   "inizio": "2026-12-03T20:30",
-   "fine": null,
-   "luogo": "Sala Guarnieri",
-   "indirizzo": "",
-   "comune": "Pedavena",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "dolomitiprealpi.it",
-   "pagina_fonte": "https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events",
-   "sito_ufficiale": "https://www.dolomitiprealpi.it/event/i-giovedi-del-cai-di-feltre-30/",
-   "riassunto": "Serata con il Gruppo Speleo Feltre su vent'anni di ricerca delle epigrafi militari della Grande Guerra sul Massiccio del Grappa e sull'uso del LiDAR.",
-   "lat": 46.03939,
-   "lon": 11.88144,
-   "precisione": "town"
-  },
-  {
-   "uid": "1f6dc007eca07fde",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Basta un libro: incontro con Paola Barbato",
-   "inizio": "2026-12-03T18:00",
-   "fine": "2026-12-03T20:00",
-   "luogo": "BAS, Biblioteca Comunale Aurelio Saffi",
-   "indirizzo": "Via Albicini 12",
-   "comune": "Forlì",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "forlichebrillaofficial.it",
-   "pagina_fonte": "https://forlichebrillaofficial.it/",
-   "sito_ufficiale": "https://forlichebrillaofficial.it/",
-   "riassunto": "Incontro con la scrittrice Paola Barbato alla Biblioteca Saffi.",
-   "lat": 44.22269,
-   "lon": 12.04069,
-   "precisione": "town"
   }
  ]
 }
