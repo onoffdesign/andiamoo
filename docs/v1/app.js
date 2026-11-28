@@ -53,7 +53,6 @@
       b.innerHTML = HEART(on);
       b.classList.remove("pop"); void b.offsetWidth; b.classList.add("pop");
     });
-    toast(on ? "Salvato nei preferiti" : "Tolto dai preferiti");
     if (state.fav || !state.detail) update();
     else renderFavBtn();
   }
@@ -1505,7 +1504,6 @@
       const t = hits[+b.dataset.i];
       Sound.play("chip"); openNear(false);
       setPlace({ lat: t[2], lon: t[3] }, t[0], { save: true });
-      toast(`Eventi ordinati per distanza da ${t[0]}`);
     }));
   }
   function setupNear() {
@@ -2008,7 +2006,6 @@
       state.fav = !state.fav; onlyUids = null; Sound.play("chip");
       closeAll();
       update(true);
-      toast(state.fav ? "Sulla mappa solo i tuoi preferiti" : "Di nuovo tutti gli eventi");
     });
     $("#fav-btn").addEventListener("click", () => {
       state.fav = !state.fav; onlyUids = null; Sound.play("chip");
