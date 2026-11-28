@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T12:19+01:00",
+ "generato": "2026-11-28T12:28+01:00",
  "riepilogo": {
   "eventi_controllati": 786,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 1,
-  "solo_comune_con_luogo": 354,
-  "solo_comune_senza_luogo": 21,
-  "candidati_luoghi_noti": 2
+  "solo_comune_con_luogo": 203,
+  "solo_comune_senza_luogo": 20,
+  "candidati_luoghi_noti": 0
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -22,57 +22,6 @@
   }
  ],
  "senza_punto": [
-  {
-   "luogo": "Teatro Comunale Dino Buzzati, Belluno",
-   "eventi": 28,
-   "uid": [
-    "4f381d56735be446",
-    "0a23d329ca8786e9",
-    "acdcb555dd3dd515",
-    "c1bf199d0e12dba4",
-    "d68e80dfaf9da3fe",
-    "ac1b143166aaf8b3",
-    "6d592d1d83484ae0",
-    "4b11d3d78b2543b8",
-    "7e6fa85e47eab576",
-    "49bf9249cfede02b"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Sala Luttazzi, Trieste",
-   "eventi": 20,
-   "uid": [
-    "21fd911f8f7c8bc5",
-    "48d2f0482cca1153",
-    "5cd28c9dc4e44350",
-    "eef0171d46c8ac5c",
-    "adcedaaa7ea453d4",
-    "1155cbfd9337a82c",
-    "fedcec6eb52ce358",
-    "5919aa2fb44414e7",
-    "8a65a19acdea71f4",
-    "de4250f1f9d2b389"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro La Fenice, Venezia",
-   "eventi": 12,
-   "uid": [
-    "8f723d4d7578192e",
-    "0a29f7bdd20f190c",
-    "bd8ea062d4e026ab",
-    "831fc24ed48799d2",
-    "86bfd529742d7922",
-    "caf316e0586c5290",
-    "147ca44df1ed6966",
-    "c8f88838309fd3d3",
-    "0c4d5aa4c0e7af42",
-    "d13eb37a23fe878b"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
   {
    "luogo": "Piazza XX Settembre, Pordenone",
    "eventi": 12,
@@ -91,23 +40,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Teatro Lirico Giuseppe Verdi, Trieste",
-   "eventi": 11,
-   "uid": [
-    "1bf6557857af19cd",
-    "7b342aa1ad14d8de",
-    "e2d5365098e679af",
-    "5ea6719fbcaa29cd",
-    "ff9f7e598702d35a",
-    "af7a1129398b62ab",
-    "9d603745375f8dc3",
-    "44abca17afec7367",
-    "eb4348523a5da56d",
-    "36b05fb299f3beed"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Teatro Verdi, Via dei Livello 32, Padova",
    "eventi": 10,
    "uid": [
@@ -121,40 +53,6 @@
     "c57670d941f25b68",
     "28c30e95ad50bbb3",
     "3e5288398582184c"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Stimate, Verona",
-   "eventi": 10,
-   "uid": [
-    "d8ed54a4a4e3963d",
-    "073ae02ee72f38be",
-    "ef81ef2899794f8e",
-    "8f283ae607896e31",
-    "241e62927909ba06",
-    "b3bbff27632393c3",
-    "f4d0f0dabf1fc467",
-    "7b22489f148b7636",
-    "eb9c028d4f10538f",
-    "81ed058ed3fb9918"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Comunale Citta' di Vicenza, Viale Mazzini 39, Vicenza",
-   "eventi": 10,
-   "uid": [
-    "5e9372f50e2bb8da",
-    "3d6570ef02b5165e",
-    "cb0014d450e923b9",
-    "3f2c95973f796f93",
-    "327e72440ee01ee8",
-    "c88c1082565b0a26",
-    "1effa42b37bca032",
-    "ce149c01d6694ea5",
-    "315239a59cb1e8e2",
-    "f7a90fd8b3f05a1a"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -196,18 +94,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Teatro Malibran, Venezia",
-   "eventi": 5,
-   "uid": [
-    "44ca4b306341a10d",
-    "0a7e32e6b15b840d",
-    "8d7d975c4a00fc56",
-    "ffcb7e6d185576db",
-    "01f54836b6ae4790"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Biblioteca comunale di Farra di Soligo, Farra di Soligo",
    "eventi": 4,
    "uid": [
@@ -230,74 +116,12 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Teatro La Fenice, Sale Apollinee, Venezia",
-   "eventi": 4,
-   "uid": [
-    "ff51dfb8dad4e31d",
-    "57c0379679f5669d",
-    "6e5bc9bcd5f38168",
-    "bb9d90ab53b4ce55"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Kulturni dom, Via Brass 20, Gorizia",
-   "eventi": 4,
-   "uid": [
-    "50c230add8b6d007",
-    "f27d2b52d1c63d6a",
-    "df16582bdb51842c",
-    "44320f29992e54f4"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Giardini di Sant'Andrea, Treviso",
    "eventi": 3,
    "uid": [
     "501e8056b36f1cb7",
     "7b7e9195c3267d21",
     "d03d05473c95091a"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Sala conferenze dell'Ordine degli Architetti di Treviso, Piazza delle Istituzioni 30, Treviso",
-   "eventi": 3,
-   "uid": [
-    "cc1a346ce06560f7",
-    "2d3a97c3025decbb",
-    "5270fc5920572a4a"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro Astra, Vicenza",
-   "eventi": 3,
-   "uid": [
-    "e6de04661ae691a9",
-    "4d8513625f48420a",
-    "eddc4e0fab3afcff"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Kulturni Center Lojze Bratuz, Gorizia",
-   "eventi": 3,
-   "uid": [
-    "4ab3522a54fb51cd",
-    "3a78bdc73248439a",
-    "dad7b9cc7b7ba593"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazza Transalpina, Gorizia",
-   "eventi": 3,
-   "uid": [
-    "5422c441043f297a",
-    "2110a0fa2a0d2854",
-    "802aafd5a821d5b8"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -347,29 +171,11 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Biblioteca comunale di Susegana, Susegana",
-   "eventi": 2,
-   "uid": [
-    "cb1a99b02375b93c",
-    "35e78bf60fe2c55e"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Biblioteca comunale di Maser, Piazza Municipio 9, Maser",
    "eventi": 2,
    "uid": [
     "7ab48d752e47eca8",
     "96987488013db8af"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Cinema Edera, Piazza Martiri di Belfiore 2, Treviso",
-   "eventi": 2,
-   "uid": [
-    "471330b6691abcc1",
-    "a63b46c868738ec1"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -392,24 +198,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Museo di Storia Naturale e Archeologia di Montebelluna, Via Piave 51, Montebelluna",
-   "eventi": 2,
-   "uid": [
-    "58215062c00cd530",
-    "3ef5e8c634aa3f08"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Cinema Teatro Busan, Mogliano Veneto",
-   "eventi": 2,
-   "uid": [
-    "53ad5ad9adf3f6cf",
-    "1d23ff6abeda879d"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Museo di Storia Naturale, Sala Sandro Ruffo, Verona",
    "eventi": 2,
    "uid": [
@@ -428,24 +216,6 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Centro Diurno (sopra la Biblioteca), Piazza IV Novembre 17/1, Fossalta di Piave",
-   "eventi": 2,
-   "uid": [
-    "df78744cc047d799",
-    "cb4a9f7f76e4a660"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piccolo Teatro G. Pierobon, Paiane, Ponte nelle Alpi",
-   "eventi": 2,
-   "uid": [
-    "9f66ef2660bc81e8",
-    "13761cc6dfa82ef6"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
    "luogo": "Chiesa di Santa Maria in Stelle, Verona",
    "eventi": 2,
    "uid": [
@@ -455,20 +225,170 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Auditorium Concordia, Pordenone",
-   "eventi": 2,
+   "luogo": "Chiesa di Sant'Agnese, Borgo Cavour 35, Treviso",
+   "eventi": 1,
    "uid": [
-    "05ccf303e27cfdd4",
-    "830551fa91c39c8b"
+    "85f873f2267b4e72"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Teatro Verdi, Via Garibaldi 2/A, Gorizia",
-   "eventi": 2,
+   "luogo": "Cattedrale di Treviso, Piazza del Duomo 1, Treviso",
+   "eventi": 1,
    "uid": [
-    "c0c1c336bc316591",
-    "f3eb3863afaa4e38"
+    "c3409eb65d248dcb"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sala Papa Luciani, Via Piave 24, Falze' di Piave, Sernaglia della Battaglia",
+   "eventi": 1,
+   "uid": [
+    "513f7a421f41e94f"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Teatro di San Biagio di Callalta, San Biagio di Callalta",
+   "eventi": 1,
+   "uid": [
+    "428924341c55c32a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Chiesa di Povegliano, Povegliano",
+   "eventi": 1,
+   "uid": [
+    "fcb5524653885ff9"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Parco della Rimembranza, San Fior",
+   "eventi": 1,
+   "uid": [
+    "56faa02ff290abe0"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Castello Roganzuolo, San Fior",
+   "eventi": 1,
+   "uid": [
+    "439db138b47448f1"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Ananda Marga Treviso, Via Cavour 7/a, Ponzano Veneto",
+   "eventi": 1,
+   "uid": [
+    "1fb0bfae2e063d8c"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Centro Culturale Estrada, Strada Comunale delle Corti 73, Treviso",
+   "eventi": 1,
+   "uid": [
+    "3cc6319357334bcf"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Museo Archeologico Eno Bellis, Oderzo",
+   "eventi": 1,
+   "uid": [
+    "8f3b23a7aa95e863"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Quartiere fieristico di Santa Lucia di Piave, Strada Provinciale 45, Santa Lucia di Piave",
+   "eventi": 1,
+   "uid": [
+    "8d07c3ce502b5314"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazzetta Aldo Moro, Treviso",
+   "eventi": 1,
+   "uid": [
+    "f3c7ef25b79374a0"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Teatro La Stanza, Via Pescatori, Treviso",
+   "eventi": 1,
+   "uid": [
+    "d34ff1db3fce7a05"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Casa Robegan, Via Antonio Canova 38, Treviso",
+   "eventi": 1,
+   "uid": [
+    "a06870798e2401b2"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Tempio di San Francesco, Via San Francesco, Treviso",
+   "eventi": 1,
+   "uid": [
+    "f70bb325c355efe6"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Basilica di Santa Maria Maggiore, Treviso",
+   "eventi": 1,
+   "uid": [
+    "656a1b3f97e401a5"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Auditorium di Santa Caterina, Treviso",
+   "eventi": 1,
+   "uid": [
+    "8a80218dc74fdae0"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Quartiere di Sant'Angelo, Via Papa Leone III, Treviso",
+   "eventi": 1,
+   "uid": [
+    "88e8b247c17d461c"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Quartiere di San Paolo, Viale Francia 2, Treviso",
+   "eventi": 1,
+   "uid": [
+    "0cd4cd7027a37c12"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Sagrato della chiesa di San Pelagio, Treviso",
+   "eventi": 1,
+   "uid": [
+    "d28b0837bf5981d1"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Duomo di Treviso (partenza), Piazza Duomo, Treviso",
+   "eventi": 1,
+   "uid": [
+    "5cc7b9938d42cbc4"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
@@ -489,24 +409,5 @@
    "lon": 12.25086
   }
  ],
- "candidati_luoghi": [
-  {
-   "nomi": [
-    "Castello di Udine"
-   ],
-   "comune": "Udine",
-   "lat": 46.06441,
-   "lon": 13.23607,
-   "eventi": 5
-  },
-  {
-   "nomi": [
-    "Museo Etnografico del Friuli"
-   ],
-   "comune": "Udine",
-   "lat": 46.05955,
-   "lon": 13.2329,
-   "eventi": 4
-  }
- ]
+ "candidati_luoghi": []
 }

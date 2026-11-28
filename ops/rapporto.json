@@ -9,12 +9,12 @@
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 1,
-  "solo_comune_con_luogo": 354,
-  "solo_comune_senza_luogo": 21,
-  "candidati_luoghi_noti": 2
+  "solo_comune_con_luogo": 203,
+  "solo_comune_senza_luogo": 20,
+  "candidati_luoghi_noti": 0
  },
  "senza_posizione": 0,
- "correzioni_attive": 156,
+ "correzioni_attive": 177,
  "rimossi_dalla_redazione": 22,
- "finito_alle": "2026-11-28T12:19+01:00"
+ "finito_alle": "2026-11-28T12:28+01:00"
 }

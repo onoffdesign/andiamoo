@@ -4,7 +4,7 @@ import json
 import pytest
 import yaml
 
-from pipeline import editorial, quality
+from pipeline import editorial, fonti_vietate, quality
 from pipeline.collectors import Context
 from pipeline.collectors import redazione
 from pipeline.models import Event
@@ -15,6 +15,9 @@ def files(tmp_path, monkeypatch):
     corr, cur = tmp_path / "correzioni.yaml", tmp_path / "eventi_redazione.yaml"
     monkeypatch.setattr(editorial, "CORRECTIONS", corr)
     monkeypatch.setattr(editorial, "CURATED", cur)
+    # i test non devono riscrivere i file veri di ops/ (prelievi.csv e da-verificare.json)
+    monkeypatch.setattr(fonti_vietate, "TRACE_FILE", tmp_path / "prelievi.csv")
+    monkeypatch.setattr(fonti_vietate, "HOLD_FILE", tmp_path / "da-verificare.json")
     return corr, cur
 
 

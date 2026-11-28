@@ -409,3 +409,193 @@ luoghi:
     lat: 45.75873
     lon: 12.20777
     nota: "Biblioteca di Povegliano, Borgo San Daniele: unica biblioteca del comune in OpenStreetMap (node 13204399983). Aggiunto il 2026-11-28."
+  - nomi: ["Sala Luttazzi", "Sala Lelio Luttazzi"]
+    comune: Trieste
+    lat: 45.66614
+    lon: 13.76198
+    nota: "Sala Lelio Luttazzi, Magazzino 26 del Porto Vecchio. OpenStreetMap node 12461365014. Aggiunto il 2026-11-28 (20 eventi)."
+  - nomi: ["Teatro Lirico Giuseppe Verdi", "Teatro Verdi di Trieste"]
+    comune: Trieste
+    lat: 45.65094
+    lon: 13.76849
+    nota: "Teatro Lirico Giuseppe Verdi, Riva Tre Novembre 1. OpenStreetMap way 36437344. Aggiunto il 2026-11-28 (11 eventi)."
+  - nomi: ["Teatro La Fenice", "Gran Teatro La Fenice"]
+    comune: Venezia
+    lat: 45.43371
+    lon: 12.33386
+    nota: "Teatro La Fenice (anche Sale Apollinee), Campo San Fantin. OpenStreetMap node 251501878. Aggiunto il 2026-11-28 (16 eventi)."
+  - nomi: ["Teatro Malibran"]
+    comune: Venezia
+    lat: 45.43897
+    lon: 12.33812
+    nota: "Teatro Malibran, Corte del Milion. OpenStreetMap way 138800352. Aggiunto il 2026-11-28."
+  - nomi: ["Teatro Stimate", "Teatro alle Stimate"]
+    comune: Verona
+    lat: 45.43591
+    lon: 10.99364
+    nota: "Teatro alle Stimate, Via Montanari 3. OpenStreetMap way 317232542. Aggiunto il 2026-11-28 (10 eventi)."
+  - nomi: ["Auditorium Concordia"]
+    comune: Pordenone
+    lat: 45.96647
+    lon: 12.66026
+    nota: "Auditorium Concordia, Via Interna. OpenStreetMap way 36214968. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Transalpina", "Piazza della Transalpina"]
+    comune: Gorizia
+    lat: 45.95529
+    lon: 13.63474
+    nota: "Piazza della Transalpina (lato italiano). OpenStreetMap way 364633466. Aggiunto il 2026-11-28."
+  - nomi: ["Teatro Verdi, Via Garibaldi", "Teatro Verdi"]
+    comune: Gorizia
+    lat: 45.94232
+    lon: 13.62028
+    nota: "Teatro Verdi di Gorizia, Via Garibaldi. OpenStreetMap node 316495410. Aggiunto il 2026-11-28."
+  - nomi: ["Cinema Edera", "Piazza Martiri di Belfiore 2"]
+    comune: Treviso
+    lat: 45.67952
+    lon: 12.25313
+    nota: "Cinema Edera, all'angolo con Via Radaelli. OpenStreetMap way 62775509. Aggiunto il 2026-11-28."
+  - nomi: ["Ordine degli Architetti", "Piazza delle Istituzioni"]
+    comune: Treviso
+    lat: 45.66818
+    lon: 12.22958
+    nota: "Piazza delle Istituzioni (sede dell'Ordine degli Architetti al civico 30): punto della piazza in OpenStreetMap, way 252951280. Aggiunto il 2026-11-28."
+  - nomi: ["Museo di Storia Naturale e Archeologia di Montebelluna", "Via Piave 51"]
+    comune: Montebelluna
+    lat: 45.77858
+    lon: 12.05743
+    nota: "Museo di Storia Naturale e Archeologia, Via Piave 51. OpenStreetMap node 1421791028. Aggiunto il 2026-11-28."
+  - nomi: ["Biblioteca comunale di Susegana"]
+    comune: Susegana
+    lat: 45.85005
+    lon: 12.24975
+    nota: "Biblioteca comunale di Susegana, Via Nazionale 9. OpenStreetMap node 5814463360. Aggiunto il 2026-11-28."
+  - nomi: ["Teatro Comunale Dino Buzzati", "Teatro Buzzati", "Teatro Comunale di Belluno"]
+    comune: Belluno
+    lat: 46.13955
+    lon: 12.21764
+    nota: "Teatro Comunale (Dino Buzzati), Piazza Vittorio Emanuele II 2. OpenStreetMap way 66114983. Aggiunto il 2026-11-28 (28 eventi)."
+  - nomi: ["Kulturni dom", "Via Brass 20"]
+    comune: Gorizia
+    lat: 45.94806
+    lon: 13.62337
+    nota: "Kulturni dom, Via Italico Brass 20 (sala teatrale). OpenStreetMap way 36370603. Aggiunto il 2026-11-28."
+  - nomi: ["Palazzo Moroni"]
+    comune: Padova
+    lat: 45.40717
+    lon: 11.87673
+    nota: "Palazzo Moroni (municipio). OpenStreetMap way 131987818. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Cavour"]
+    comune: Padova
+    lat: 45.40809
+    lon: 11.87773
+    nota: "Piazza Cavour. OpenStreetMap way 23544262. Aggiunto il 2026-11-28."
+  - nomi: ["Prato della Valle"]
+    comune: Padova
+    lat: 45.39842
+    lon: 11.87640
+    nota: "Prato della Valle. OpenStreetMap way 37719894. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Eremitani"]
+    comune: Padova
+    lat: 45.41033
+    lon: 11.87937
+    nota: "Piazza Eremitani. OpenStreetMap way 61982943. Aggiunto il 2026-11-28."
+  - nomi: ["Via Umberto I"]
+    comune: Padova
+    lat: 45.40182
+    lon: 11.87563
+    nota: "Via Umberto I, tratto pedonale centrale. OpenStreetMap way 30001533. Aggiunto il 2026-11-28."
+  - nomi: ["Arena di Verona"]
+    comune: Verona
+    lat: 45.43902
+    lon: 10.99493
+    nota: "Arena di Verona. OpenStreetMap relation 311873. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Bra"]
+    comune: Verona
+    lat: 45.43879
+    lon: 10.99368
+    nota: "Piazza Bra. OpenStreetMap way 23964274. Aggiunto il 2026-11-28 (mercatini di Natale)."
+  - nomi: ["Scavi Scaligeri"]
+    comune: Verona
+    lat: 45.44310
+    lon: 10.99863
+    nota: "Centro Internazionale di Fotografia Scavi Scaligeri, Cortile del Tribunale. OpenStreetMap node 3236872445. Aggiunto il 2026-11-28."
+  - nomi: ["Basilica Palladiana"]
+    comune: Vicenza
+    lat: 45.54697
+    lon: 11.54696
+    nota: "Basilica Palladiana. OpenStreetMap way 138895047. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Biade", "Piazza delle Biade"]
+    comune: Vicenza
+    lat: 45.54750
+    lon: 11.54744
+    nota: "Piazza delle Biade, accanto alla corte dei Bissari. OpenStreetMap way 23623004. Aggiunto il 2026-11-28."
+  - nomi: ["Campo Marzo"]
+    comune: Vicenza
+    lat: 45.54297
+    lon: 11.54232
+    nota: "Parco di Campo Marzo (centro dell'area in OpenStreetMap, relation 7845827; l'esedra e' dentro il parco). Aggiunto il 2026-11-28."
+  - nomi: ["Duomo Concattedrale di San Marco"]
+    comune: Pordenone
+    lat: 45.95433
+    lon: 12.66092
+    nota: "Duomo Concattedrale di San Marco. OpenStreetMap way 36685878. Aggiunto il 2026-11-28."
+  - nomi: ["Villa Cattaneo"]
+    comune: Pordenone
+    lat: 45.92798
+    lon: 12.66698
+    nota: "Villa Cattaneo, Via Villanova di Sotto (Vallenoncello). OpenStreetMap way 36271307. Aggiunto il 2026-11-28."
+  - nomi: ["Ca' dei Ricchi", "Via Barberia 25"]
+    comune: Treviso
+    lat: 45.66545
+    lon: 12.24471
+    nota: "Ca' dei Ricchi, Via Barberia 25. OpenStreetMap way 1255256981. Aggiunto il 2026-11-28."
+  - nomi: ["Museo Bailo", "Museo Luigi Bailo", "Borgo Cavour 24"]
+    comune: Treviso
+    lat: 45.66757
+    lon: 12.23811
+    nota: "Museo Civico Luigi Bailo, Borgo Cavour 24. OpenStreetMap node 1050982804. Aggiunto il 2026-11-28."
+  - nomi: ["Castello di Udine"]
+    comune: Udine
+    lat: 46.06441
+    lon: 13.23607
+    nota: "Castello di Udine. OpenStreetMap way 36132365, uguale al punto degli eventi gia' posizionati (candidato di ops/posizioni.json). Aggiunto il 2026-11-28."
+  - nomi: ["Museo Etnografico del Friuli"]
+    comune: Udine
+    lat: 46.05959
+    lon: 13.23281
+    nota: "Museo Etnografico del Friuli, Via Grazzano/Via Brenari. OpenStreetMap node 1428261101, uguale al punto degli eventi gia' posizionati (candidato). Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Martiri della Liberta"]
+    comune: Susegana
+    lat: 45.85056
+    lon: 12.24941
+    nota: "Piazza Martiri della Liberta' (municipio). OpenStreetMap way 242157058. Aggiunto il 2026-11-28."
+  - nomi: ["Cinema Teatro Busan", "Cinema Busan"]
+    comune: Mogliano Veneto
+    lat: 45.56151
+    lon: 12.23802
+    nota: "Cinema Busan. OpenStreetMap node 857484461. Aggiunto il 2026-11-28."
+  - nomi: ["Paiane"]
+    comune: Ponte nelle Alpi
+    lat: 46.17515
+    lon: 12.30958
+    nota: "Piazza Cavalieri di Vittorio Veneto a Paiane (fermata 'Paiane' di OpenStreetMap, node 7232737094): il Piccolo Teatro Pierobon non e' in OSM, la piazza della frazione e' il posto certo piu' vicino. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza IV Novembre"]
+    comune: Fossalta di Piave
+    lat: 45.64575
+    lon: 12.51213
+    nota: "Piazza IV Novembre. OpenStreetMap way 38381287. Aggiunto il 2026-11-28."
+  - nomi: ["Teatro Comunale Citta di Vicenza", "Viale Mazzini 39"]
+    comune: Vicenza
+    lat: 45.54802
+    lon: 11.53401
+    nota: "Teatro Comunale Citta' di Vicenza, Viale Mazzini 39. OpenStreetMap way 225923237. Aggiunto il 2026-11-28 (10 eventi)."
+  - nomi: ["Teatro Astra"]
+    comune: Vicenza
+    lat: 45.54633
+    lon: 11.55052
+    nota: "Teatro Astra, Contra' delle Barche. OpenStreetMap way 138895171. Aggiunto il 2026-11-28."
+  - nomi: ["Kulturni Center Lojze Bratuz", "Lojze Bratuz"]
+    comune: Gorizia
+    lat: 45.95143
+    lon: 13.61590
+    nota: "Kulturni center Lojze Bratuz, Viale XX Settembre 85. OpenStreetMap way 36354404. Aggiunto il 2026-11-28."

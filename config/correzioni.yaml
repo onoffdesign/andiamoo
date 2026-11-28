@@ -322,12 +322,6 @@ correggi:
     town: "Treviso"
     nota: "indirizzo Viale G. G. Felissent 56 dalla scheda del luogo su mailticket.it (Parco degli Alberi Parlanti c/o Villa Margherita); tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
     verificato: "2026-11-07"
-  1098ba870aa91689:
-    venue: "Alcuni Teatro Sant'Anna"
-    address: "Viale Brigata Treviso 18"
-    town: "Treviso"
-    nota: "indirizzo dalla pagina Contatti di live.alcuni.it; tolto il punto provvisorio in centro: il PC geolocalizza l'indirizzo. Prima era a Vittorio Veneto per il comune 'Treviso (TV)'"
-    verificato: "2026-11-07"
   b95e3071cbe8148a:
     lat: 45.69036
     lon: 12.25858
@@ -986,6 +980,137 @@ correggi:
     official_url: https://www.museicivicitreviso.it/mostre-ed-eventi/la-materia-dei-sogni-radici-dellarte-africana-contemporanea/
     nota: 'pagina della mostra sul sito dei Musei Civici di Treviso (elenco mostre ed eventi letto il 2026-11-28): date 3/9/2026-15/1/2027 confermate'
     verificato: '2026-11-28'
+  7ebdaa13729c43ba:
+    start: 2026-11-28T22:00
+    all_day: false
+    access: biglietto
+    price: 12 euro con un drink (dopo cena); con la cena 6 euro a persona per il live
+    nota: 'pagina del Mattorosso: sabato 28/11 live dalle 22, ingresso 12 euro con drink, servizio live 6 euro a persona per chi cena (anche campione)'
+    verificato: '2026-11-28'
+  e9c548c643039586:
+    access: biglietto
+    price: 5 euro a persona oltre al biglietto d'ingresso, gratis con la Member Card
+    nota: 'scheda del Museo Canova: 28/11 16:30-17:30, 5 euro in aggiunta al biglietto d''ingresso; non e'' un doppione di ef5eddf44202f50d (visita Tomaso 700 a Treviso)'
+    verificato: '2026-11-28'
+  7466f5190dbe2de8:
+    access: iscrizione
+    price: gratuito
+    nota: 'scheda del Museo Canova: 28/11 16-18, ingresso gratuito, prenotazione obbligatoria fino a esaurimento posti'
+    verificato: '2026-11-28'
+  ae43c7d7fe41c4cc:
+    access: biglietto
+    price: 5 euro a persona oltre al biglietto d'ingresso, gratis per i bambini; prenotazione con 24 ore di anticipo
+    nota: 'scheda del Museo Canova: domenica 29/11 16-17, visita per famiglie'
+    verificato: '2026-11-28'
+  97cd594c0343e92e:
+    access: biglietto
+    price: visita alle collezioni (16:30) 5 euro, visita alla mostra (17:30) 4 euro; prenotazione consigliata
+    nota: 'scheda del Museo Canova: domenica 29/11 16:30-18:30, due visite con costo separato'
+    verificato: '2026-11-28'
+  d3386545893c5d21:
+    start: 2026-11-29T09:00
+    end: 2026-11-29T19:00
+    all_day: false
+    nota: 'Qdpnews del 24/11: mercatini in Corso Mazzini il 28 e 29 novembre e il 5, 6, 12, 13 e 20 dicembre, dalle 9 alle 19'
+    verificato: '2026-11-28'
+  b4c14aeb68c92895:
+    title: 'L''Isola del Tesoro: spettacolo di Gli Alcuni in piazza'
+    nota: 'programma ufficiale del Comune di Nervesa (Effetto Natale 29/11): alle 18 lo spettacolo ''L''Isola del Tesoro'' del Centro di Produzione Teatrale Gli Alcuni; Qdpnews del 27/11 lo chiamava ''L''Isola del Natale'', vale il sito del Comune'
+    verificato: '2026-11-28'
+  cc3dcb242c1f8003:
+    access: iscrizione
+    price: gratuito con prenotazione obbligatoria
+    nota: 'scheda della Biblioteca di Zero Branco: domenica 29/11 alle 16 all''Auditorium Comisso, ingresso gratuito con prenotazione obbligatoria'
+    verificato: '2026-11-28'
+  1bbc1855ebb02458:
+    start: 2026-11-28T17:30
+    all_day: false
+    price: 25 euro, ridotto 20 (over 65) e 10 (under 30)
+    nota: 'scheda de I Virtuosi Italiani: sabato 28/11 alle 17:30 al Teatro delle Voci, intero 25, ridotti 20 e 10 euro'
+    verificato: '2026-11-28'
+  b403f9e97845d59a:
+    title: 'I racconti del Memoriale: Carlo Scarpa, il Memoriale Brion e il rapporto con Venezia'
+    start: 2026-11-29T11:00
+    all_day: false
+    nota: 'pagina FAI della rassegna: visita del 29/11, proposta ''anche sabato 28 novembre, sempre alle ore 11''; prezzi invariati'
+    verificato: '2026-11-28'
+  107d458d03491835:
+    start: 2026-11-29T16:00
+    end: 2026-11-29T21:00
+    all_day: false
+    access: libero
+    price: ingresso gratuito
+    official_url: https://www.newageclub.it/evento/laperitivo-celebration-weekend/
+    nota: 'scheda del New Age Club: domenica 29/11 dalle 16 alle 21, ingresso gratuito, per i 30 anni del locale'
+    verificato: '2026-11-28'
+  b49775d14e84764d:
+    start: 2026-12-02T16:30
+    end: 2026-12-02T18:30
+    all_day: false
+    venue: Biblioteca dei Liberi Pensatori
+    address: Via Don Minzoni 14
+    price: gratuito
+    official_url: https://www.comune.silea.tv.it/eventi/Letture-animate-26.html
+    nota: 'scheda del Comune di Silea: 2/12 16:30-18:30 alla Biblioteca dei Liberi Pensatori, Via Don Minzoni 14, gratuito; letture del 1o e 3o mercoledi'' del mese'
+    verificato: '2026-11-28'
+  1098ba870aa91689:
+    venue: Alcuni Teatro Sant'Anna
+    address: Viale Brigata Treviso 18
+    town: Treviso
+    nota: 'scheda di Gli Alcuni: domenica 29/11 alle 16:30 al Teatro Sant''Anna, biglietto intero 7 euro'
+    verificato: '2026-11-28'
+    price: 7 euro, gratis fino a 2 anni
+  180dfd4d9375b60e:
+    start: 2026-12-12T22:30
+    all_day: false
+    official_url: https://www.newageclub.it/evento/bunny-club-7/
+    ticket_url: https://www.ticketsms.it/event/cXbmws7S
+    nota: 'scheda del New Age Club: sabato 12/12 apertura porte alle 22:30, biglietti su TicketSMS, solo maggiorenni; il link ufficiale era la pagina di vendita'
+    verificato: '2026-11-28'
+  82fc80e687e060da:
+    official_url: https://www.newageclub.it/evento/remember/
+    ticket_url: https://www.ticketsms.it/event/xuPbCzyZ
+    nota: 'scheda del New Age Club: mercoledi'' 23/12 dalle 23, biglietti su TicketSMS; il link ufficiale era la pagina di vendita'
+    verificato: '2026-11-28'
+  1e4267f59fcb7cc2:
+    venue: Piazza Roma
+    address: Piazza Roma
+    lat: 45.64533
+    lon: 12.16577
+    nota: 'scheda del Comune di Quinto (Cinenatale): proiezioni in Piazza Roma, ingresso gratuito; la biblioteca e'' solo il contatto. Coordinate di Piazza Roma da OpenStreetMap (way 506202990)'
+    verificato: '2026-11-28'
+  d31f727fc18b24e7:
+    venue: Piazza Roma
+    address: Piazza Roma
+    lat: 45.64533
+    lon: 12.16577
+    nota: 'scheda del Comune di Quinto (Cinenatale): venerdi'' 11/12 alle 20:30 in Piazza Roma, ingresso gratuito. Coordinate di Piazza Roma da OpenStreetMap (way 506202990)'
+    verificato: '2026-11-28'
+  bb0c9604b1e17edc:
+    venue: Piazza Roma
+    address: Piazza Roma
+    lat: 45.64533
+    lon: 12.16577
+    nota: 'scheda del Comune di Quinto (Cinenatale): venerdi'' 18/12 alle 20:30 in Piazza Roma, ingresso gratuito. Coordinate di Piazza Roma da OpenStreetMap (way 506202990)'
+    verificato: '2026-11-28'
+  682c4380bcbb366b:
+    official_url: https://www.nordest24.it/giovedi-cultura-treviso-2026-2027-calendario-guida
+    nota: la notizia della Fondazione Cassamarca non riporta le date; la guida di Nordest24 al calendario 2026-27 conferma giovedi' 17/12 con Corrado Occhipinti Confalonieri (incontri alle 18 a Ca' dei Carraresi)
+    verificato: '2026-11-28'
+  8fbf86ee4988fc93:
+    official_url: https://www.nordest24.it/giovedi-cultura-treviso-2026-2027-calendario-guida
+    nota: 'guida di Nordest24 al calendario 2026-27: 3/12 La tavola nell''Ottocento con Alessia Cipolla; la notizia della Fondazione non riporta le date'
+    verificato: '2026-11-28'
+  8392cdedb952519b:
+    official_url: https://www.nordest24.it/giovedi-cultura-treviso-2026-2027-calendario-guida
+    nota: 'guida di Nordest24 al calendario 2026-27: 10/12 Operazione Odessa con Federico Bettuzzi; la notizia della Fondazione non riporta le date'
+    verificato: '2026-11-28'
+  91c598d7115ff074:
+    venue: Cartoleria Kikka, quartiere di Santa Bona
+    lat: 45.68642
+    lon: 12.21836
+    nota: 'Qdpnews 20/11: sabato 12/12 alle 15 in via Santa Bona Nuova 110/B, presso la Cartoleria Kikka. Il civico non e'' in OpenStreetMap: punto sulla chiesa di Santa Bona sulla stessa strada (way 140914479), il posto certo piu'' vicino; era sul centro di Treviso, a circa 3 km'
+    verificato: '2026-11-28'
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
@@ -1044,3 +1169,60 @@ verificati:
   80ce5c384824e1b9: 2026-11-28
   cc3dcb242c1f8003: 2026-11-28
   1fb0bfae2e063d8c: 2026-11-28
+  e81620a223ac8112: '2026-11-28'
+  4d08efd6446445ba: '2026-11-28'
+  f71128fcc1532e1e: '2026-11-28'
+  4c8cf3915c14b7fd: '2026-11-28'
+  795a84d0f17aea7a: '2026-11-28'
+  3fd81d9b901a84a4: '2026-11-28'
+  526651bdc0236b50: '2026-11-28'
+  2ec454af46e2a92c: '2026-11-28'
+  7525c32f76b78721: '2026-11-28'
+  229a6c003df3bdcd: '2026-11-28'
+  7bc5c4efee9e275a: '2026-11-28'
+  89d79e7bfe7d2aa7: '2026-11-28'
+  e1d0ee0731d57abc: '2026-11-28'
+  dc376d5904f9b1a2: '2026-11-28'
+  e724972c4dc7bf93: '2026-11-28'
+  7b1ec483c755280a: '2026-11-28'
+  7f96fd2b4e4ac5b3: '2026-11-28'
+  d5d8dfd20f95a90e: '2026-11-28'
+  7dad1d0f5d869a1d: '2026-11-28'
+  faea2d5ad01727e4: '2026-11-28'
+  ef5eddf44202f50d: '2026-11-28'
+  55deb04d5af64d5e: '2026-11-28'
+  394bd66f875e33d1: '2026-11-28'
+  1c46ba8b5c368f40: '2026-11-28'
+  ba7917268aa7a13a: '2026-11-28'
+  9c45cfe703434b59: '2026-11-28'
+  c96b452e86f78832: '2026-11-28'
+  578997e275fc0ada: '2026-11-28'
+  0f2f872c90747011: '2026-11-28'
+  7db078fe0c126d7a: '2026-11-28'
+  e14be83bc3ce4430: '2026-11-28'
+  d1d2ee32cccd0347: '2026-11-28'
+  54cc76fed360279f: '2026-11-28'
+  1be335f603b3d420: '2026-11-28'
+  6e9149b2f9327817: '2026-11-28'
+  f7d751ec100c2425: '2026-11-28'
+  175fe26919add87e: '2026-11-28'
+  ecbddf89a4e9241c: '2026-11-28'
+  2dad8fc99644c56d: '2026-11-28'
+  a4c4673ed1074528: '2026-11-28'
+  8192c9ecc5a5dba5: '2026-11-28'
+  f112e98a46de466b: '2026-11-28'
+  ca5d6203b84f4236: '2026-11-28'
+  2de3f84f6e1807b6: '2026-11-28'
+  e7dc0cd246930a12: '2026-11-28'
+  bc756e2b15f7414d: '2026-11-28'
+  e11ea95789869813: '2026-11-28'
+  237c3ca062cdd22e: '2026-11-28'
+  408980457f58464d: '2026-11-28'
+  e3da8d2b8d4952e4: '2026-11-28'
+  3e27ee50ba0fb9ad: '2026-11-28'
+  01c710d0170a9829: '2026-11-28'
+  6530d6db5e1bc66e: '2026-11-28'
+  3892328308d09268: '2026-11-28'
+  1994edf38b39b2fc: '2026-11-28'
+  7cf6eb8574d70e43: '2026-11-28'
+  5d296097c34940f0: '2026-11-28'
