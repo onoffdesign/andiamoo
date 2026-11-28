@@ -1,15 +1,88 @@
 {
- "generato": "2026-11-28T16:31+01:00",
+ "generato": "2026-11-28T16:38+01:00",
  "riepilogo": {
-  "eventi_controllati": 1181,
-  "allineati_in_automatico": 0,
-  "luoghi_con_punti_diversi": 0,
+  "eventi_controllati": 1216,
+  "allineati_in_automatico": 1,
+  "luoghi_con_punti_diversi": 4,
   "lontani_dal_comune": 5,
-  "solo_comune_con_luogo": 279,
+  "solo_comune_con_luogo": 293,
   "solo_comune_senza_luogo": 29,
-  "candidati_luoghi_noti": 12
+  "candidati_luoghi_noti": 13
  },
- "punti_diversi": [],
+ "punti_diversi": [
+  {
+   "luogo": "Teatro Comunale di Trevignano, Via Puccini 1, Falze', Trevignano",
+   "eventi": 10,
+   "punti": [
+    [
+     45.7414,
+     12.0849
+    ],
+    [
+     45.7418,
+     12.0905
+    ]
+   ],
+   "uid_fuori_posto": [
+    "4d45272078d3abc0"
+   ],
+   "cosa_fare": "scegli il punto giusto e scrivilo in config/luoghi.yaml (vale per tutti gli eventi)"
+  },
+  {
+   "luogo": "Teatro Comunale di Trevignano, Via Puccini 1, Falze', Trevignano",
+   "eventi": 10,
+   "punti": [
+    [
+     45.7414,
+     12.0849
+    ],
+    [
+     45.7418,
+     12.0905
+    ]
+   ],
+   "uid_fuori_posto": [
+    "4d45272078d3abc0"
+   ],
+   "cosa_fare": "scegli il punto giusto e scrivilo in config/luoghi.yaml (vale per tutti gli eventi)"
+  },
+  {
+   "luogo": "Aula Magna della Scuola Secondaria, Via Gazzari 1, Cordignano",
+   "eventi": 3,
+   "punti": [
+    [
+     45.9447,
+     12.4178
+    ],
+    [
+     45.9511,
+     12.4147
+    ]
+   ],
+   "uid_fuori_posto": [
+    "521981068923ec69"
+   ],
+   "cosa_fare": "scegli il punto giusto e scrivilo in config/luoghi.yaml (vale per tutti gli eventi)"
+  },
+  {
+   "luogo": "Aula Magna della Scuola Secondaria, Via Gazzari 1, Cordignano",
+   "eventi": 3,
+   "punti": [
+    [
+     45.9447,
+     12.4178
+    ],
+    [
+     45.9511,
+     12.4147
+    ]
+   ],
+   "uid_fuori_posto": [
+    "521981068923ec69"
+   ],
+   "cosa_fare": "scegli il punto giusto e scrivilo in config/luoghi.yaml (vale per tutti gli eventi)"
+  }
+ ],
  "lontani_dal_comune": [
   {
    "luogo": "Chiesa di Santa Maria in Stelle, Verona",
@@ -202,6 +275,17 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "Biblioteca comunale di Paese, Paese",
+   "eventi": 4,
+   "uid": [
+    "6de95d090fef1aee",
+    "9c91a5a9680d437c",
+    "323806d221208f5a",
+    "4dcf2080fbdf2c7d"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Piazza Marconi e Via Garibaldi, Piazza Marconi, Valdobbiadene",
    "eventi": 3,
    "uid": [
@@ -357,6 +441,24 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "Piazza Rigo, Piazza Luciano Rigo, Spresiano",
+   "eventi": 2,
+   "uid": [
+    "1d54b28440df8e02",
+    "3e47c89cd4e1511d"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Stadio comunale di Villorba, Via Marconi, Villorba",
+   "eventi": 2,
+   "uid": [
+    "efafbbdddbe104f3",
+    "f2a538d6ce208329"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Centro di Roncade, Roncade",
    "eventi": 2,
    "uid": [
@@ -429,33 +531,17 @@
     "1fb0bfae2e063d8c"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Portici del centro di Roncade, Roncade",
-   "eventi": 1,
-   "uid": [
-    "800e2f9adf3db8e7"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Centro Culturale Estrada, Strada Comunale delle Corti 73, Treviso",
-   "eventi": 1,
-   "uid": [
-    "3cc6319357334bcf"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Parco di Villa Olivi, Breda di Piave",
-   "eventi": 1,
-   "uid": [
-    "26dab9938a6bec7c"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
- "allineati": [],
+ "allineati": [
+  {
+   "uid": "34c285b0ee6f53d2",
+   "titolo": "Notre Dame de Paris (musical)",
+   "luogo": "Prealpi SanBiagio Arena, Viale dello Sport 2, Conegliano",
+   "lat": 45.86617,
+   "lon": 12.31532
+  }
+ ],
  "candidati_luoghi": [
   {
    "nomi": [
@@ -474,6 +560,15 @@
    "lat": 46.06969,
    "lon": 11.12253,
    "eventi": 14
+  },
+  {
+   "nomi": [
+    "Prealpi Sanbiagio Arena (Zoppas Arena)"
+   ],
+   "comune": "Conegliano",
+   "lat": 45.86617,
+   "lon": 12.31532,
+   "eventi": 10
   },
   {
    "nomi": [

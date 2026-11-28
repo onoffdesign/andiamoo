@@ -59,6 +59,11 @@ Come cercare:
   (`/wp-json/tribe/events/v1/events`) o un comune MyPortal si passano al PC subito.
 - Fonti ufficiali come conferma e come `official_url`; aggregatori e piattaforme solo per scoprire.
 - Rispettare robots.txt e i termini d'uso dei siti; niente accessi con account.
+- 2026-11-28 (notte, terza prova): **PDF illeggibili a WebFetch = pdftotext sul file salvato, mai una seconda
+  lettura.** Quando WebFetch dice che un PDF e' binario o compresso, il file e' comunque salvato in locale: `pdftotext
+  -layout` lo legge per intero a costo zero (calendario regionale dei mercatini d'antiquariato del Veneto: 48 mercatini in
+  7 province; stagione del Del Monaco: 21 date). Trentino: i comuni Comunweb rispondono all'API OpenCity; Alto Adige:
+  Open Data Hub per tutta la provincia; Lombardia: teatri dei capoluoghi con feed strutturati (Donizetti, Sociale di Como).
 - 2026-11-28 (notte): **programmi in immagine e API dei comuni.** Quando WebFetch dice che il calendario e' in
   un'immagine o in una locandina, scaricare l'immagine dal sito ufficiale e leggerla (Ateneo di Treviso: 6 conferenze
   in una lettura). Sui comuni OpenCity usare l'API opendata (Vicenza 239 eventi a dicembre), sui portali WordPress
@@ -207,6 +212,7 @@ segnate "vietata" non si aprono piu' (i loro eventi si cercano dall'organizzator
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-28 (notte, terza prova) · TV + 10 province di Trentino-Alto Adige e Lombardia + giro (BL, TS) · ricerche circa 373 (giro 90, revisione 71, treviso 97, italia 115; molte letture dirette di API) · eventi nuovi 407 (TV circa 95, altre province circa 312) · eventi per ricerca 1,09 · fonti catalogate +10 (API OpenCity di Trento, OpenAgenda di Bolzano, Open Data Hub Alto Adige, Donizetti, Sociale di Como...) · miglioria: PDF letti con pdftotext sul file salvato da WebFetch
 - 2026-11-28 (notte) · TV + 10 province di Veneto e Friuli · ricerche circa 370 (quattro agenti, piu' letture dirette dalla shell) · eventi nuovi 331 (TV 105, altre province 226) · eventi per ricerca 0,91 · fonti al PC +2 (dolomiti-prealpi e sala-luttazzi-trieste, tribe_api; catalogate 21 fonti) · miglioria: programmi in immagine letti scaricando il file; API OpenCity dei comuni; i test non riscrivono piu' ops/prelievi.csv
 - 2026-11-28 · TV · ricerche 50 · eventi nuovi 25 · eventi per ricerca 0,50 · fonti al PC +0 (catalogate Fondazione Cassamarca Giovedi' della Cultura, Opendream) · miglioria: `--controlla` ora rifiuta una sottocategoria che non appartiene alla categoria indicata (prima il sito la scartava in silenzio), con test; resa bassa: 11 letture su 24 a vuoto (5 pagine di anni passati, 4 errori del server di mentelocale e Happy Ticket); le pagine eventi dei Comuni che escono da una ricerca con allowed_domains (Quinto: 5 in una lettura) restano la via piu' sicura per i comuni senza fonte del PC
 - 2026-11-27 · TV · ricerche 53 · eventi nuovi 77 · eventi per ricerca 1,45 · fonti al PC +0 (catalogate Nordest24 calendari e notizie per localita', StatisticAll) · miglioria: `--doppioni` segnala anche gli eventi futuri della redazione gia' sul sito da un'altra fonte con titolo scritto diverso (LiTLe Run / LitTLe RuN): stanotte 2 doppioni tolti, tenute le schede della redazione con il luogo; i calendari del Natale dei comuni (Nordest24, Qdpnews con data 2026) rendono 25-37 eventi per lettura

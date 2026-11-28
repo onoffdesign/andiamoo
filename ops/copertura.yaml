@@ -9,15 +9,15 @@ comuni_TV:
   Altivole: 2026-11-21
   Arcade: 2026-11-22
   Asolo: 2026-11-28
-  Borso del Grappa: 2026-11-19
+  Borso del Grappa: 2026-11-28
   Breda di Piave: 2026-11-27
   Caerano di San Marco: 2026-11-28
-  Cappella Maggiore: 2026-11-19
+  Cappella Maggiore: 2026-11-28
   Carbonera: 2026-11-23
   Casale sul Sile: 2026-11-28
   Casier: 2026-11-27
   Castelcucco: 2026-11-23
-  Castelfranco Veneto: 2026-11-18
+  Castelfranco Veneto: 2026-11-28
   Castello di Godego: 2026-11-28
   Cavaso del Tomba: 2026-11-25
   Cessalto: 2026-11-24
@@ -37,11 +37,11 @@ comuni_TV:
   Fregona: 2026-11-18
   Gaiarine: 2026-11-24
   Giavera del Montello: 2026-11-28
-  Godega di Sant'Urbano: 2026-11-17
+  Godega di Sant'Urbano: 2026-11-28
   Gorgo al Monticano: 2026-11-21
   Istrana: 2026-11-27
   Loria: 2026-11-28
-  Mansuè: 2026-11-18
+  Mansuè: 2026-11-28
   Mareno di Piave: 2026-11-28
   Maser: 2026-11-20
   Maserada sul Piave: 2026-11-20
@@ -55,42 +55,42 @@ comuni_TV:
   Moriago della Battaglia: 2026-11-22
   Motta di Livenza: 2026-11-22
   Nervesa della Battaglia: 2026-11-28
-  Oderzo: 2026-11-17
+  Oderzo: 2026-11-28
   Ormelle: 2026-11-28
   Orsago: 2026-11-21
-  Paese: 2026-11-19
+  Paese: 2026-11-28
   Pederobba: 2026-11-28
   Pieve del Grappa: 2026-11-28
-  Pieve di Soligo: 2026-11-19
-  Ponte di Piave: 2026-11-18
+  Pieve di Soligo: 2026-11-28
+  Ponte di Piave: 2026-11-28
   Ponzano Veneto: 2026-11-28
   Portobuffolè: 2026-11-28
   Possagno: 2026-11-26
   Povegliano: 2026-11-20
   Preganziol: 2026-11-28
   Quinto di Treviso: 2026-11-28
-  Refrontolo: 2026-11-20
+  Refrontolo: 2026-11-28
   Resana: 2026-11-13
   Revine Lago: 2026-11-18
   Riese Pio X: 2026-11-28
-  Roncade: 2026-11-17
+  Roncade: 2026-11-28
   Salgareda: 2026-11-27
   San Biagio di Callalta: 2026-11-21
   San Fior: 2026-11-26
   San Pietro di Feletto: 2026-11-28
   San Polo di Piave: 2026-11-28
-  San Vendemiano: 2026-11-16
-  San Zenone degli Ezzelini: 2026-11-27
+  San Vendemiano: 2026-11-28
+  San Zenone degli Ezzelini: 2026-11-28
   Santa Lucia di Piave: 2026-11-28
   Sarmede: 2026-11-26
   Segusino: 2026-11-24
   Sernaglia della Battaglia: 2026-11-22
   Silea: 2026-11-21
-  Spresiano: 2026-11-16
+  Spresiano: 2026-11-28
   Susegana: 2026-11-28
   Tarzo: 2026-11-25
-  Trevignano: 2026-11-24
-  Treviso: 2026-11-17
+  Trevignano: 2026-11-28
+  Treviso: 2026-11-28
   Valdobbiadene: 2026-11-23
   Vazzola: 2026-11-24
   Vedelago: 2026-11-23
@@ -99,7 +99,7 @@ comuni_TV:
   Vittorio Veneto: 2026-11-27
   Volpago del Montello: 2026-11-17
   Zenson di Piave: 2026-11-28
-  Zero Branco: 2026-11-25
+  Zero Branco: 2026-11-28
 aggregatori:
   classicalive.it (Treviso): 2026-11-15
   sagratour.it (Treviso): 2026-11-15
@@ -128,7 +128,7 @@ aggregatori:
   insolitotrantran.it: null
   eventiesagre.it: 2026-11-21
   mentelocale.it/treviso: 2026-11-21
-  happyticket.com/it/treviso: 2026-11-21
+  happyticket.com/it/treviso: 2026-11-28
   2night.it (Treviso): null
   zero.eu (Veneto): null
   itinerarinelgusto.it (sagre TV): null
@@ -147,7 +147,7 @@ aggregatori:
   bibliotecazerobranco.it: 2026-11-28
   'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': 2026-11-28
   musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: 2026-11-28
-  'biblioteche: rete BiblioMarca': null
+  'biblioteche: rete BiblioMarca': 2026-11-28
   H-FARM e spazi per eventi business: 2026-11-28
   cinema e cineforum (Edera, Labirinto): 2026-11-28
   ateneoditreviso.it (conferenze del venerdi', brochure dell'anno accademico): 2026-11-28
@@ -173,13 +173,19 @@ aggregatori:
   fleamapket.com (mercatini): 2026-11-01
   sagramap.com (Veneto): null
   microturismodellevenezie.it: 2026-10-30
-  trevisoeventi.com (calendario provincia): 2026-11-19
-  iltaccodibacco.it (pagine per comune, concerti e teatri nel raggio di 20 km): 2026-11-19
+  trevisoeventi.com (calendario provincia): 2026-11-28
+  iltaccodibacco.it (pagine per comune, concerti e teatri nel raggio di 20 km): 2026-11-28
   virgilio.it/italia/<comune>/eventi (errore a WebFetch): 2026-11-19
   hellomoglianoveneto.net (appuntamenti del weekend): 2026-11-05
   nautiluscantiereteatrale.it (compagnia in tournee, al PC): 2026-11-05
   fondoambiente.it (eventi FAI in provincia): 2026-11-05
   teatro.it (danza Treviso): 2026-11-02
+  myarteven.it (rassegne Arteven, Teatro Accademico Castelfranco e Natale con un sorriso): 2026-11-28
+  Regione Veneto, calendario mercatini antiquariato e collezionismo 2026 (PDF): 2026-11-28
+  legapallacanestro.com (Rucker San Vendemiano, Serie B): 2026-11-28
+  federugby.it (Serie A Elite femminile, Villorba): 2026-11-28
+  tb.camcom.gov.it (Eventi e convegni CCIAA, errore 503): 2026-11-28
+  tvb.bibliotechetrevigiane.it (SebinaOpac, 404 a WebFetch): 2026-11-28
 community:
   'canali Telegram pubblici: trekking ed escursioni Treviso': 2026-11-26
   'canali Telegram pubblici: camminate, run club, bici': 2026-11-28
@@ -241,18 +247,18 @@ categorie_TV:
   "Mercatini e fiere > Mercati agricoli": 2026-11-20
   "Business e formazione > Convegni e conferenze": 2026-11-20
   "Sagre e cibo > Vino e bevande": 2026-11-21
-  "Business e formazione > Networking": 2026-11-20
-  "Sport > Eventi per chi guarda": 2026-11-20
-  "Sport > Equitazione": 2026-11-19
-  "Sport > Arti marziali e combattimento": 2026-11-19
-  "Mercatini e fiere > Mercatini": 2026-11-19
-  "Spettacoli > Danza": 2026-11-18
-  "Famiglie e bambini > Laboratori": 2026-11-19
-  "Mercatini e fiere > Fiere": 2026-11-18
-  "Famiglie e bambini > All'aperto": 2026-11-18
-  "Natura e benessere > Ambiente": 2026-11-17
-  "Arte e cultura > Libri e lettura": 2026-11-18
-  "Sagre e cibo > Cibo": 2026-11-17
+  "Business e formazione > Networking": 2026-11-28
+  "Sport > Eventi per chi guarda": 2026-11-28
+  "Sport > Equitazione": 2026-11-28
+  "Sport > Arti marziali e combattimento": 2026-11-28
+  "Mercatini e fiere > Mercatini": 2026-11-28
+  "Spettacoli > Danza": 2026-11-28
+  "Famiglie e bambini > Laboratori": 2026-11-28
+  "Mercatini e fiere > Fiere": 2026-11-28
+  "Famiglie e bambini > All'aperto": 2026-11-28
+  "Natura e benessere > Ambiente": 2026-11-28
+  "Arte e cultura > Libri e lettura": 2026-11-28
+  "Sagre e cibo > Cibo": 2026-11-28
   "Arte e cultura > Conferenze e incontri": 2026-11-28
   "Business e formazione > Lavoro": 2026-11-28
   "Arte e cultura > Tecnologia e scienza": 2026-11-28

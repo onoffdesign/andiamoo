@@ -2658,3 +2658,43 @@ fonti:
   automatizzabile: no
   stato: attiva
   note: "Catalogata il 2026-11-28. Home con tutta la stagione (date senza orari), schede /stagione-teatrale-26-27/<slug>."
+- nome: "Lega Pallacanestro, scheda Rucker San Vendemiano"
+  url: https://www.legapallacanestro.com/serie-b/rucker-san-vendemiano
+  query: "Rucker San Vendemiano calendario"
+  tipo: sport
+  categorie: [sport]
+  comuni: [Conegliano, San Vendemiano]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 10, ultimi: [10] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (treviso). Tabella con data, ora e avversario; partite in casa alla Zoppas Arena di Conegliano."
+- nome: "MyArteven, rassegne del circuito"
+  url: https://www.myarteven.it/rassegne/castelfranco-veneto-teatro-accademico-stagione-20262027
+  query: "Arteven stagione <comune> (allowed_domains myarteven.it)"
+  tipo: teatro
+  categorie: [teatro-spettacoli, famiglie-bambini]
+  province: [TV, PD, VE, RO, VI, VR]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 3, ultimi: [3] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Rassegne per teatro (Teatro Accademico Castelfranco, Natale con un sorriso con 16 spettacoli gratuiti in altre province venete)."
+- nome: "Regione Veneto, calendario dei mercatini dell'antiquariato 2026 (PDF)"
+  url: https://elezioni2020.regione.veneto.it/documents/10713/12114597/Calendario%20mercatini%20usato%202026.pdf/7ca1a502-6de9-4e5e-a247-4ec2f3e6cf3d
+  query: "calendario mercatini antiquariato Regione Veneto 2026"
+  tipo: ente
+  categorie: [mercatini-fiere]
+  province: [Veneto]
+  frequenza: annuale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 3, ultimi: [3] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28. 48 mercatini in 7 province con la regola del giorno, orari e luogo; leggere con pdftotext. Utile anche all'agente italia per le altre province venete."

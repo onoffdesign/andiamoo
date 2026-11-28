@@ -6,6 +6,17 @@ Si legge all'inizio di ogni notte; si aggiorna alla fine (aggiungi, correggi, to
 Tienila breve: al massimo ~80 righe, raggruppate per tema.
 
 ## Ricerche che funzionano
+- 2026-11-28 (terza prova): per le fonti con API (The Events Calendar, MyPortal, OpenCity, feed JSON dei teatri) la
+  lettura diretta del JSON vale piu' di WebFetch; gli orari MyPortal sono in UTC (`pipeline.textutil.to_local_iso`).
+- Comuni piccoli senza dominio proprio: le ricerche dirette rendono zero; le schede comune di trevisoeventi.com
+  (ammessa dal 28/11) e Il Tacco di Bacco danno i programmi di Natale in una lettura (Paese: 8 eventi).
+- Sport da guardare: la pagina della squadra sul sito della lega (Rucker su legapallacanestro.com: 10 partite in 2 letture).
+- Nominatim: cercare con un riquadro sul comune (viewbox e bounded); le piazze con numero romano in OSM sono in lettere
+  ("Piazzale Venti Settembre").
+- Termini delle fonti da verificare: WebSearch con allowed_domains trova l'URL giusto in 1 caso su 3; indovinare
+  /privacy-policy/ fallisce quasi sempre.
+- Anti-bot dopo poche richieste: live.alcuni.it, trevisando.it, teatroaccademia.it. Ufficiali in 503: tb.camcom.gov.it,
+  ascom.tv.it, bibliotechetrevigiane.it.
 (trevisoeventi, teatri, squadre, trovasagre, PDF dei comuni, Eventbrite, ricerca extended, link da far uscire con una
 ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - Per gruppi di eventi Eventbrite nello stesso luogo (es. 6 a Santa Caterina) cercare i titoli insieme: esce il

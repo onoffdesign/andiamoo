@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T16:31+01:00",
+ "generato": "2026-11-28T16:38+01:00",
  "eventi": [
   {
    "uid": "9c0a2332145cce95",
@@ -723,6 +723,52 @@
    "precisione": "town"
   },
   {
+   "uid": "efafbbdddbe104f3",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Arredissima Villorba Rugby - Volvera Rugby (Serie A Elite femminile)",
+   "inizio": "2026-11-29T14:30",
+   "fine": null,
+   "luogo": "Stadio comunale di Villorba",
+   "indirizzo": "Via Marconi",
+   "comune": "Villorba",
+   "categoria": "sport",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "federugby.it",
+   "pagina_fonte": "https://www.federugby.it/serie-a-elite-femminile-il-calendario-2026-27/",
+   "sito_ufficiale": "https://www.federugby.it/serie-a-elite-femminile-il-calendario-2026-27/",
+   "riassunto": "Partita casalinga del Villorba Rugby femminile contro Volvera Rugby nel campionato di Serie A Elite femminile 2026/27.",
+   "lat": 45.71287,
+   "lon": 12.26036,
+   "precisione": "town"
+  },
+  {
+   "uid": "9aabe2d0cf699ef8",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "possibile doppione di 425f9af8b1965605"
+   ],
+   "titolo": "Accensione dell'albero di Natale a Padernello",
+   "inizio": "2026-11-29T17:30",
+   "fine": null,
+   "luogo": "Piazza San Filippo Neri",
+   "indirizzo": "Piazza San Filippo Neri, Padernello",
+   "comune": "Paese",
+   "categoria": "sagre-feste",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "trevisoeventi.com",
+   "pagina_fonte": "https://www.trevisoeventi.com/paese.html",
+   "sito_ufficiale": "https://www.trevisoeventi.com/paese.html",
+   "riassunto": "Accensione dell'albero di Natale nella frazione di Padernello con animazione degli elfi, raccolta delle letterine e ristoro, a cura della Pro Loco di Paese e de I Mangiafiabe. Apre il programma A Natale siamo tutti piu' buoni.",
+   "lat": 45.67164,
+   "lon": 12.15354,
+   "precisione": "town"
+  },
+  {
    "uid": "32a86903a2865807",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -745,26 +791,26 @@
    "precisione": "address"
   },
   {
-   "uid": "34c285b0ee6f53d2",
+   "uid": "39bcc9bb3ce777fa",
    "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+    "durata oltre 45 giorni: sono date singole o un periodo?"
    ],
-   "titolo": "Notre Dame de Paris (musical)",
-   "inizio": "2026-11-29T21:00",
-   "fine": null,
-   "luogo": "Prealpi SanBiagio Arena",
-   "indirizzo": "Viale dello Sport 2",
-   "comune": "Conegliano",
-   "categoria": "teatro-spettacoli",
+   "titolo": "Human Atlas. Due secoli di fotografia dalla collezione Mario Trevisan",
+   "inizio": "2026-11-29",
+   "fine": "2027-02-28",
+   "luogo": "Casa Robegan",
+   "indirizzo": "Via Antonio Canova 38",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
    "accesso": "biglietto",
-   "prezzo": "da 35 a 95 EUR (ridotto bambini 6-12 anni da 28 EUR)",
+   "prezzo": "intero 8 euro, ridotto 5, famiglia 16",
    "fonte": "iltaccodibacco.it",
-   "pagina_fonte": "https://iltaccodibacco.it/villorba/",
-   "sito_ufficiale": "https://www.ticketone.it/event/notre-dame-de-paris-prealpi-sanbiagio-arena-21492229/",
-   "riassunto": "Il musical Notre Dame de Paris di Riccardo Cocciante in tournee, in scena al palazzetto di Conegliano.",
-   "lat": 45.88717,
-   "lon": 12.29773,
-   "precisione": "town"
+   "pagina_fonte": "https://iltaccodibacco.it/oderzo/",
+   "sito_ufficiale": "https://iltaccodibacco.it/veneto/eventi/338165.html",
+   "riassunto": "Mostra di 80 fotografie della collezione di Mario Trevisan, curata da Carlo Sala e promossa da Fondazione Mazzotti e Comune di Treviso per il bicentenario della fotografia. Aperta da venerdi' a domenica dalle 10 alle 18, con aperture straordinarie nelle feste.",
+   "lat": 45.66777,
+   "lon": 12.24148,
+   "precisione": "address"
   },
   {
    "uid": "5e437f1b54fee592",
@@ -789,13 +835,13 @@
    "precisione": "venue"
   },
   {
-   "uid": "4e1cd4376aef8a62",
+   "uid": "865f641248f78a22",
    "motivi": [
-    "possibile doppione di 97cd594c0343e92e"
+    "possibile doppione di 06980f33952afe60"
    ],
-   "titolo": "Domenica in mostra al Museo Canova",
-   "inizio": "2026-11-29T16:30",
-   "fine": "2026-11-29T18:30",
+   "titolo": "Visita guidata per famiglie al Museo Canova",
+   "inizio": "2026-11-29T16:00",
+   "fine": "2026-11-29T17:00",
    "luogo": "Museo Gypsotheca Antonio Canova",
    "indirizzo": "Via Canova 74",
    "comune": "Possagno",
@@ -804,8 +850,8 @@
    "prezzo": "",
    "fonte": "museocanova.it",
    "pagina_fonte": "https://www.museocanova.it/wp-json/tribe/events/v1/events",
-   "sito_ufficiale": "https://www.museocanova.it/calendario/domenica-in-mostra/2026-11-29/",
-   "riassunto": "Visita guidata della domenica pomeriggio dedicata alla mostra in corso al museo.",
+   "sito_ufficiale": "https://www.museocanova.it/calendario/visite-famiglie/2026-11-29/",
+   "riassunto": "Visita guidata pensata per bambini e genitori alle sale della Gypsotheca.",
    "lat": 45.85429,
    "lon": 11.88132,
    "precisione": "venue"
@@ -918,6 +964,28 @@
    "riassunto": "Spettacolo per famiglie della rassegna Sociale famiglie tratto dal romanzo di Collodi.",
    "lat": 45.80999,
    "lon": 9.08516,
+   "precisione": "town"
+  },
+  {
+   "uid": "1d54b28440df8e02",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Mercatino dell'antiquariato e del collezionismo di Spresiano",
+   "inizio": "2026-11-29T09:00",
+   "fine": "2026-11-29T16:00",
+   "luogo": "Piazza Rigo",
+   "indirizzo": "Piazza Luciano Rigo",
+   "comune": "Spresiano",
+   "categoria": "mercatini-fiere",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "Calendario regionale dei mercatini dell'antiquariato e del collezionismo 2026 (Regione Veneto), letto il 2026-11-28",
+   "pagina_fonte": "https://elezioni2020.regione.veneto.it/documents/10713/12114597/Calendario%20mercatini%20usato%202026.pdf/7ca1a502-6de9-4e5e-a247-4ec2f3e6cf3d",
+   "sito_ufficiale": "https://elezioni2020.regione.veneto.it/documents/10713/12114597/Calendario%20mercatini%20usato%202026.pdf/7ca1a502-6de9-4e5e-a247-4ec2f3e6cf3d",
+   "riassunto": "Mercatino mensile di antiquariato e collezionismo con operatori professionali e hobbisti, che si tiene l'ultima domenica del mese; da ottobre a marzo dalle 9 alle 16.",
+   "lat": 45.77943,
+   "lon": 12.2593,
    "precisione": "town"
   },
   {
@@ -1274,72 +1342,6 @@
    "riassunto": "Concerto nel foyer del teatro comunale all'interno della rassegna del venerdi' Generi Misti.",
    "lat": 46.06032,
    "lon": 11.24049,
-   "precisione": "town"
-  },
-  {
-   "uid": "6c7d78e2717ee46d",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Canti scuciti",
-   "inizio": "2026-12-04T20:00",
-   "fine": null,
-   "luogo": "Ridotto del Teatro Grande",
-   "indirizzo": "Corso Zanardelli 9/A",
-   "comune": "Brescia",
-   "categoria": "musica",
-   "accesso": "biglietto",
-   "prezzo": "",
-   "fonte": "teatrogrande.it",
-   "pagina_fonte": "https://teatrogrande.it/it/calendario",
-   "sito_ufficiale": "https://teatrogrande.it/it/stagioni/2026/canti-scuciti",
-   "riassunto": "La voce di Beatrice Sberna e il pianoforte di Emanuele Maniscalco ripropongono canzoni italiane poco note, dal canto di protesta al cantautorato indie.",
-   "lat": 45.53993,
-   "lon": 10.2191,
-   "precisione": "town"
-  },
-  {
-   "uid": "6a9ae99c7b30d9e5",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "PanPers in Terapia di coppia",
-   "inizio": "2026-12-04T20:30",
-   "fine": null,
-   "luogo": "Teatro Donizetti",
-   "indirizzo": "Piazza Cavour 15",
-   "comune": "Bergamo",
-   "categoria": "teatro-spettacoli",
-   "accesso": "biglietto",
-   "prezzo": "",
-   "fonte": "teatrodonizetti.it",
-   "pagina_fonte": "https://www.teatrodonizetti.it/wp-json/teatrodonizetti/v1/calendar-feed (calendario della Fondazione Teatro Donizetti)",
-   "sito_ufficiale": "https://www.teatrodonizetti.it/evento/panpers-in-terapia-di-coppia/2026-12-04/",
-   "riassunto": "Il duo comico PanPers presenta la sua commedia sulla vita di coppia.",
-   "lat": 45.69441,
-   "lon": 9.66842,
-   "precisione": "town"
-  },
-  {
-   "uid": "f07fb70e64a45396",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Cavalleria rusticana e Pagliacci",
-   "inizio": "2026-12-04T20:00",
-   "fine": null,
-   "luogo": "Teatro Sociale di Como",
-   "indirizzo": "Via Bellini 3",
-   "comune": "Como",
-   "categoria": "musica",
-   "accesso": "biglietto",
-   "prezzo": "da 15 euro",
-   "fonte": "teatrosocialecomo.it",
-   "pagina_fonte": "https://teatrosocialecomo.it/wp-json/tribe/events/v1/events",
-   "sito_ufficiale": "https://teatrosocialecomo.it/evento/cavalleria-rusticana-e-pagliacci/2026-12-04/",
-   "riassunto": "Il dittico verista di Mascagni e Leoncavallo nella stagione d'opera del Teatro Sociale.",
-   "lat": 45.80999,
-   "lon": 9.08516,
    "precisione": "town"
   }
  ]

@@ -2,6 +2,32 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-28 (sessione notturna, terza prova, quattro agenti)
+
+- **Sito**: da 786 a 1216 eventi. **Aggiunti 409** (giro 98, treviso 36, italia 275): teatro-spettacoli 123, musica 81,
+  arte-cultura 73, famiglie-bambini 69, sagre-feste 26, mercatini-fiere 19, sport 15, natura-outdoor 3. Resto d'Italia:
+  BZ 80, TN 74, BG 45, CO 30, MB 16, BS 10, MI 6, PV 5, MN 5, VA 4; dal giro BL 37 (Dolomiti Prealpi, La Sena Viva) e
+  Trieste 7 (Sala Luttazzi). Tolti dalla redazione 2 doppioni del Museo Canova (29/11, tenute le voci dall'API).
+- **Fonti del giro lette**: 13 (le 2 mai lette dolomiti-prealpi e sala-luttazzi-trieste, piu' 11 riaperte via API; le
+  altre erano gia' state lette nel giro precedente di oggi). fondazione-benetton con indirizzo nuovo https://fbsr.it/eventi/.
+- **Verifiche delle fonti**: ammesse trevisoeventi.com e iltaccodibacco.it; vietate umbriaecultura.it, fleamapket.com,
+  cosedicasa.com (termini che vietano la raccolta automatizzata); restano da verificare 7 (ticketone.it 503,
+  classicalive.it, insolitotrantran.it, running.life, tviweb.it, eventiesagre.it, trevisando.it anti-bot).
+  Le feste del radicchio passano sulla fonte ufficiale fioridinverno.tv (Castelfranco dal 10/12); Dosson resta trattenuta.
+- **Modulo del sito**: solo le 2 righe di prova TEST, nessuna risposta nuova.
+- **Coda di revisione**: 60 lavorati, 39 corretti, 13 verificati, 0 rimossi, 8 restano (Andar per fiere da controllare,
+  Danzando con il cuore con scheda 404, 6 luoghi assenti da OpenStreetMap). **Campione**: 15/20 (luogo 2, accesso 2,
+  link 2). **Posizioni**: 49 luoghi nuovi in config/luoghi.yaml (ora 165). **Test di copertura**: 16/20.
+- **Fonti nuove catalogate**: 13 in ops/fonti.yaml (Fiori d'Inverno, Teatro Stabile del Veneto notizie, schede del Comune
+  di Pordenone, API OpenCity di Trento e comuni Comunweb, OpenAgenda di Bolzano, Open Data Hub Alto Adige, feed del
+  Donizetti, Teatro Sociale di Como, Teatro Grande di Brescia, Manzoni di Monza, Rucker su legapallacanestro, MyArteven,
+  calendario regionale dei mercatini). umbriaecultura segnata vietata.
+- **Comuni TV cercati**: 17 (Resana, Volpago, Vidor, Fregona, Revine Lago e Maser rimandati). 12 ambiti aggiornati.
+- **Ricerche**: circa 373 su 500 (molte letture dirette di API dalla shell contate una per chiamata).
+- **Problemi aperti**: anti-bot su live.alcuni.it (date di Gli Alcuni dal 7/1 da leggere), trevisando.it,
+  teatroaccademia.it; 16 comuni lombardi senza pagina eventi raggiungibile; luoghi senza punto (Villorba stadio di via
+  Marconi, luoghi di Paese, Piazza Rigo a Spresiano, Piazza Rovero a San Zenone, Sala Guarnieri, Museo Secco, TSM Trento).
+
 ## 2026-11-28 (sessione notturna, quattro agenti)
 
 - **Prima prova della notte**: rete della sessione bloccata (WebFetch ENOTFOUND), nessun dato; seconda prova con WebFetch
