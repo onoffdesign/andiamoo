@@ -11,8 +11,10 @@ site:
   contact_email: ""                    # per richieste di correzione o rimozione
   # Moduli Google al posto dell'API del PC ("Aggiungi evento" e "Segnala"): link del modulo e codici dei campi
   # (entry.NNN) presi dal "link precompilato" del modulo. Vuoti = i bottoni dicono che l'invio non e' attivo.
-  form_url: ""
-  form_entries: {}                     # es. {tipo: entry.111, titolo: entry.222, data: entry.333, ...}
+  # Modulo "ANDIAMO? segnalazioni" (Drive ONOFF > _ONOFF Progetti interni > ANDIAMOO), risposte nel foglio
+  # "ANDIAMO? segnalazioni (Risposte)" nella stessa cartella. Quattro domande: tipo, evento (uid), dettagli, contatto.
+  form_url: "https://docs.google.com/forms/d/e/1FAIpQLScwdnp_yWatdk-kFvznVkrcMR1Z6Oof_aLi7C-ODw1hilLiaw/viewform"
+  form_entries: {tipo: entry.1894705391, evento: entry.534446041, dettagli: entry.866773921, contatto: entry.216587490}
   api_url: ""                          # indirizzo pubblico dell'API sul PC (Cloudflare Tunnel), es. https://api.andiamoo.ai
 
 api:

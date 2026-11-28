@@ -914,9 +914,11 @@
 
   // Modulo Google (senza PC): "Aggiungi evento" e "Segnala" vanno nelle risposte del modulo, che Claude legge di notte.
   // settings.yaml > site.form_url (link del modulo) e site.form_entries (codici entry.NNN dei campi).
-  const FORM_KEYS = { title: "titolo", date: "data", time: "ora", end_date: "fine", town: "comune", venue: "luogo",
-    address: "indirizzo", category: "categoria", access: "accesso", price: "prezzo", official_url: "link",
-    summary: "descrizione", description: "descrizione", contatto: "contatto" };
+  // Il modulo ha quattro domande: tipo, evento (uid), dettagli (una riga "Campo: valore" per dato), contatto.
+  const FORM_LABELS = { title: "Titolo", date: "Data", time: "Ora", end_date: "Fine", town: "Comune", venue: "Luogo",
+    address: "Indirizzo", category: "Categoria", access: "Accesso", price: "Prezzo", official_url: "Link",
+    summary: "Descrizione", description: "Descrizione" };
+  function details(obj) { return Object.entries(obj).filter(([, v]) => v).map(([k, v]) => `${k}: ${v}`).join("\n"); }
   function formOn() { const s = DATA.site || {}; return !!(s.form_url && s.form_entries && Object.keys(s.form_entries).length); }
   async function sendForm(values) {
     const s = DATA.site, body = new URLSearchParams();
@@ -1115,8 +1117,9 @@
       const btn = $("#add-submit");
       btn.disabled = true; btn.textContent = "Invio…";
       if (d.website) return;            // campo esca per i bot
-      const vals = { tipo: "Nuovo evento" };
-      Object.entries(d).forEach(([k, v]) => { const f = FORM_KEYS[k]; if (f && v) vals[f] = vals[f] ? vals[f] + "\n" + v : v; });
+      const rows = {};
+      Object.entries(d).forEach(([k, v]) => { const f = FORM_LABELS[k]; if (f && v) rows[f] = v; });
+      const vals = { tipo: "Nuovo evento", dettagli: details(rows), contatto: d.contatto || "" };
       try {
         await sendForm(vals);
         $("#add-step-source").hidden = true; $("#event-form").hidden = true; $("#add-done").hidden = false;
@@ -1179,8 +1182,8 @@
       $("#report-submit").disabled = true;
       try {
         await sendForm({ tipo: data.tipo === "rimozione" ? "Rimozione" : "Correzione", evento: reportEvent.uid,
-          titolo: reportEvent.title, data: reportEvent.start, comune: reportEvent.town, messaggio: data.messaggio,
-          contatto: data.contatto });
+          dettagli: details({ Titolo: reportEvent.title, Data: reportEvent.start, Comune: reportEvent.town,
+            Messaggio: data.messaggio }), contatto: data.contatto });
         show("ok", "<strong>Grazie, la controlliamo al più presto.</strong>");
         setTimeout(() => $("#report-dlg").close(), 1600);
       } catch (_) { show("err", "Invio non riuscito. Controlla la connessione e riprova."); $("#report-submit").disabled = false; }

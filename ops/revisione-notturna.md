@@ -202,10 +202,13 @@ redazione) e le fonti da cui vengono, cosi' non si spende una ricerca su cio' ch
    pagina vuota, sito fermo): correggi l'indirizzo in `config/sources.yaml` oppure metti `enabled: false` con una
    `note` che spiega il motivo. Non riattivare siti che vietano la raccolta.
 2b. **Modulo del sito (Aggiungi evento e Segnala)** - senza PC i due bottoni del sito mandano le risposte al
-   **modulo Google** di ANDIAMO? (`site.form_url` in `config/settings.yaml`). Leggi le risposte nuove dal foglio delle
-   risposte con il connettore Google Drive / Fogli (cerca il foglio "ANDIAMO? segnalazioni (risposte)" o quello
-   collegato al modulo; le righe gia' lavorate sono quelle con data fino all'ultima registrata in
-   `ops/segnalazioni-e-controllo.md`). Per ogni riga:
+   **modulo Google** "ANDIAMO? segnalazioni" (`site.form_url` in `config/settings.yaml`, cartella Drive ONOFF >
+   _ONOFF Progetti interni > ANDIAMOO). Le risposte sono nel foglio "ANDIAMO? segnalazioni (Risposte)", id
+   `18e1sR9iF1jvGAvZeIXMv4d0BwTxDP7YbZAag6oLQ15U`: leggilo con il connettore Google Drive (read_file_content) o Fogli.
+   Colonne: data e ora, Tipo ("Nuovo evento", "Correzione", "Rimozione"; "TEST" = prova, da ignorare), Evento (uid
+   dell'evento segnalato), Dettagli (una riga "Campo: valore" per ogni dato: Titolo, Data, Ora, Fine, Comune, Luogo,
+   Indirizzo, Categoria, Accesso, Prezzo, Link, Descrizione, Messaggio), Contatto. Le righe gia' lavorate sono
+   quelle con data e ora fino all'ultima registrata in `ops/segnalazioni-e-controllo.md`. Per ogni riga:
    - "Nuovo evento": verifica sul sito ufficiale (regola fonti), poi aggiungilo a `eventi_redazione.yaml` con
      `fonte: "Segnalazione dal sito del AAAA-MM-GG, verificata su <link>"`; se non si trova una fonte ammessa, va in
      `ops/da-verificare.json` (non si pubblica);
