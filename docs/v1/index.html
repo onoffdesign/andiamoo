@@ -11,7 +11,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Caveat:wght@500..700&family=Figtree:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=75" rel="stylesheet">
+<link rel="preload" href="../fonts/patrick-hand-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face { font-family: "Andiamo Intro"; src: url("../fonts/patrick-hand-latin.woff2") format("woff2"); font-display: block; }</style>
+<link href="style.css?v=77" rel="stylesheet">
 </head>
 <body>
 <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0">
@@ -24,7 +26,7 @@
   <div class="intro-half right"><div class="intro-sheet"></div></div>
 </div>
 <script>document.documentElement.classList.add("intro-on");</script>
-<script src="intro.js?v=1"></script>
+<script src="intro.js?v=3"></script>
 <div class="stage">
   <div id="map" class="map" role="region" aria-label="Mappa degli eventi"></div>
 
@@ -272,6 +274,6 @@
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>window.ANDIAMO_DATA = "../data/events.json"; window.ANDIAMO_FONTS = "../fonts/";</script>
-<script src="app.js?v=74"></script>
+<script src="app.js?v=77"></script>
 </body>
 </html>
