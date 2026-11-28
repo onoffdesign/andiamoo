@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:55+01:00",
+ "generato": "2026-11-28T20:56+01:00",
  "riepilogo": {
-  "eventi_controllati": 3669,
+  "eventi_controllati": 3690,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 109,
   "solo_comune_con_luogo": 77,
   "solo_comune_senza_luogo": 26,
-  "candidati_luoghi_noti": 32
+  "candidati_luoghi_noti": 36
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -750,6 +750,15 @@
   },
   {
    "nomi": [
+    "Teatro Umberto Giordano"
+   ],
+   "comune": "Foggia",
+   "lat": 41.46403,
+   "lon": 15.54623,
+   "eventi": 7
+  },
+  {
+   "nomi": [
     "Tenuta dello Scompiglio"
    ],
    "comune": "Capannori",
@@ -764,6 +773,15 @@
    "comune": "Firenze",
    "lat": 43.77128,
    "lon": 11.25199,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Teatro Politeama"
+   ],
+   "comune": "Catanzaro",
+   "lat": 38.90595,
+   "lon": 16.59447,
    "eventi": 6
   },
   {
@@ -845,24 +863,6 @@
    "comune": "Pisa",
    "lat": 43.71776,
    "lon": 10.40242,
-   "eventi": 4
-  },
-  {
-   "nomi": [
-    "Museo Novecento"
-   ],
-   "comune": "Firenze",
-   "lat": 43.77287,
-   "lon": 11.24884,
-   "eventi": 4
-  },
-  {
-   "nomi": [
-    "Pieve di Sant'Andrea"
-   ],
-   "comune": "Sarzana",
-   "lat": 44.11277,
-   "lon": 9.96106,
    "eventi": 4
   }
  ]

@@ -6227,3 +6227,1077 @@ fonti:
   automatizzabile: 'no'
   stato: attiva
   note: 'Catalogata il 2026-11-28 (italia-b). Ufficio turistico del Comune.'
+- nome: Teatro Trianon Viviani
+  url: https://www.teatrotrianon.org/programmazione-stagione-20262027/
+  query: Teatro Trianon Viviani programmazione stagione 2026 2027
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Napoli
+  province:
+  - NA
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt letto (''User-agent: * / Allow: /''). Programmazione per
+    date senza orari (concerti, Cantata dei Pastori, prosa).'
+- nome: Teatro Augusteo
+  url: https://www.teatroaugusteo.it/1/cartellone_2026_27_1365226.html
+  query: Teatro Augusteo cartellone 2026/27
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Napoli
+  province:
+  - NA
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Cartellone prosa e musical piu'' pagina concerti/eventi (/1/concerti_eventi_2026_27_1363682.html).'
+- nome: Teatro Diana
+  url: https://teatrodiana.it/category/eventi/
+  query: Teatro Diana Napoli eventi stagione
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Napoli
+  province:
+  - NA
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Stagione 2026/2027 (WordPress, categoria eventi).'
+- nome: Teatro Pubblico Campano
+  url: https://www.teatropubblicocampano.com/teatri/programma-teatro-verdi-salerno/
+  query: Teatro Pubblico Campano programma teatro
+  tipo: ente
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Salerno
+  - Caserta
+  province:
+  - SA
+  - CE
+  - NA
+  - AV
+  - BN
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Circuito regionale: una pagina programma per ogni teatro della rete (Verdi di Salerno, Caserta e altri).'
+- nome: Viaggiare in Puglia, eventi
+  url: https://www.viaggiareinpuglia.it/it/eventi-attivita
+  query: Viaggiare in Puglia eventi attivita
+  tipo: ente
+  categorie:
+  - sagre-feste
+  - teatro-spettacoli
+  - musica
+  - arte-cultura
+  comuni: []
+  province:
+  - BA
+  - BT
+  - BR
+  - FG
+  - LE
+  - TA
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Catalogata il 2026-11-28 (fonti, sesto giro). Portale turistico regionale (Pugliapromozione). /robots.txt risponde
+    con la home (nessun file, nessun blocco). Schede /dettaglio-evento/<slug>; filtro per tipologia (?idsTipologie=SAGRE).
+- nome: Comune di Monopoli, eventi
+  url: https://www.comune.monopoli.ba.it/Vivere-il-comune/Eventi
+  query: Comune di Monopoli eventi
+  tipo: comune
+  categorie:
+  - musica
+  - sagre-feste
+  comuni:
+  - Monopoli
+  province:
+  - BA
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Eventi con scheda (Apulia Antiqua, Illuminandia); controllare l''anno.'
+- nome: Comune di Andria, notizie
+  url: https://www.comune.andria.bt.it/it/news
+  query: Comune di Andria news Natale
+  tipo: comune
+  categorie:
+  - sagre-feste
+  comuni:
+  - Andria
+  province:
+  - BT
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Solo notizie, spesso di anni passati.'
+- nome: Comune di Altamura
+  url: https://www.comune.altamura.ba.it/it
+  query: Comune di Altamura eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  comuni:
+  - Altamura
+  province:
+  - BA
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Home con eventi (visite alla cava dei dinosauri).'
+- nome: Basilicata Turistica, eventi
+  url: https://www.basilicataturistica.it/eventi/
+  query: Basilicata Turistica eventi in Basilicata
+  tipo: ente
+  categorie:
+  - sagre-feste
+  - teatro-spettacoli
+  - musica
+  - arte-cultura
+  comuni:
+  - Matera
+  - Pisticci
+  province:
+  - PZ
+  - MT
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). APT Basilicata. robots.txt: 503 (sito ufficiale, il PC lo rispetta).
+    Schede /eventi-in-basilicata/<slug> con date (stagioni concertistiche, rievocazioni).'
+- nome: Fondazione Politeama Catanzaro
+  url: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+  query: Fondazione Politeama Catanzaro stagione artistica 2026 2027
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Catanzaro
+  province:
+  - CZ
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt letto (blocca solo /wp-admin/). Stagione con data e ora in
+    una pagina (WordPress).
+- nome: Comune di Lamezia Terme, eventi
+  url: https://www.comune.lamezia-terme.cz.it/it/eventi
+  query: Comune di Lamezia Terme eventi
+  tipo: comune
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Lamezia Terme
+  province:
+  - CZ
+  frequenza: mensile
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Design Comuni: schede con data, ora, luogo e indirizzo (stagione del Teatro Grandinetti con AMA Calabria). Resa: 3 eventi
+    il 2026-11-28.'
+- nome: Teatro Stabile di Catania
+  url: https://www.teatrostabilecatania.it/stagione/stagione-2026-2027/
+  query: Teatro Stabile di Catania stagione 2026/2027 cartellone
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - famiglie-bambini
+  comuni:
+  - Catania
+  province:
+  - CT
+  frequenza: mensile
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt letto (blocca solo /2026/wp-admin/). Cartellone del Teatro
+    Verga, rassegne (C''era due volte, Ricerca dell''invisibile) nel /magazine/. Resa: 3 eventi il 2026-11-28.'
+- nome: Comune di Catania, avvisi
+  url: https://www.comune.catania.it/novita/avvisi/
+  query: Comune di Catania Natale 2026
+  tipo: comune
+  categorie:
+  - mercatini-fiere
+  comuni:
+  - Catania
+  province:
+  - CT
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Solo avvisi (Centriamo il Natale 2026, mercatini 27/11-27/12).'
+- nome: Comune di Cagliari, portale
+  url: https://www.comune.cagliari.it/portale/
+  query: Comune di Cagliari Natale 2026 appuntamenti
+  tipo: comune
+  categorie:
+  - sagre-feste
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Cagliari
+  province:
+  - CA
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Notizie con programmi (Villaggio di Natale in Piazza del Carmine, Dicembre cagliaritano). Gli eventi singoli stanno su
+    cagliariturismo.comune.cagliari.it (gia'' nel catalogo).'
+- nome: Comune di Vasto, notizie
+  url: https://www.comune.vasto.ch.it/index.php/it
+  query: Comune di Vasto news Teatro Rossetti stagione
+  tipo: comune
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Vasto
+  province:
+  - CH
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Notizie (stagione del Teatro Rossetti, Capodanno); controllare l''anno.'
+- nome: Biblioteca di Giulianova
+  url: https://biblioteca.comune.giulianova.te.it/
+  query: Giulianova GiocaCultura Natale calendario
+  tipo: biblioteca
+  categorie:
+  - famiglie-bambini
+  comuni:
+  - Giulianova
+  province:
+  - TE
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Calendari di laboratori di musei e biblioteca (GiocaCultura).'
+- nome: Comune di Chieti, novita
+  url: https://comune.chieti.it/novita/
+  query: Comune di Chieti stagione Teatro Marrucino
+  tipo: comune
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Chieti
+  province:
+  - CH
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Notizie sulla stagione del Teatro Marrucino (gia'' nel catalogo).'
+- nome: Rimini Turismo, calendario eventi
+  url: https://riminiturismo.it/eventi/calendario
+  query: Rimini Turismo calendario eventi
+  tipo: ente
+  categorie:
+  - sagre-feste
+  - teatro-spettacoli
+  - musica
+  - mercatini-fiere
+  - sport
+  comuni:
+  - Rimini
+  province:
+  - RN
+  frequenza: mensile
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). Portale turistico del Comune di Rimini. robots.txt: 503 (sito ufficiale,
+    il PC lo rispetta). Calendario con schede /eventi/<slug> (Fiera di Natale, Teatro Galli, Christmas Run); evitare le pagine
+    con parametri.'
+- nome: Biblioteche e Archivi di Ferrara
+  url: https://archibiblio.comune.ferrara.it/
+  query: Servizio Biblioteche Comune di Ferrara appuntamenti
+  tipo: biblioteca
+  categorie:
+  - arte-cultura
+  - famiglie-bambini
+  comuni:
+  - Ferrara
+  province:
+  - FE
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Incontri, letture e laboratori quasi ogni giorno.'
+- nome: Comune di Imola, comunicati
+  url: https://www.comune.imola.bo.it/novita/comunicati/
+  query: Comune di Imola biblioteche eventi dicembre
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - famiglie-bambini
+  comuni:
+  - Imola
+  province:
+  - BO
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Comunicati mensili con gli appuntamenti delle biblioteche (BIM, Casa Piani).'
+- nome: Comune di Ravenna
+  url: https://comune.ravenna.it/
+  query: Comune di Ravenna eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  comuni:
+  - Ravenna
+  province:
+  - RA
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Eventi generici senza date precise.'
+- nome: Comune di Ivrea, eventi
+  url: https://www.comune.ivrea.to.it/it/argomenti/eventi
+  query: Comune di Ivrea eventi
+  tipo: comune
+  categorie:
+  - musica
+  - arte-cultura
+  comuni:
+  - Ivrea
+  province:
+  - TO
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Eventi con date (Castello, Teatro Giacosa), ma WebFetch riceve 403 sulle notizie: solo dai risultati di ricerca.'
+- nome: Comune di Casale Monferrato, eventi
+  url: https://comune.casale-monferrato.al.it/eventi/
+  query: Comune di Casale Monferrato eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  comuni:
+  - Casale Monferrato
+  province:
+  - AL
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Schede /eventi/<slug> (Natale tra Museo e Biblioteca, incontri sul cinema).'
+- nome: Comune di Pinerolo, eventi
+  url: https://www.comune.pinerolo.to.it/vivere-comune/eventi
+  query: Comune di Pinerolo eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - teatro-spettacoli
+  comuni:
+  - Pinerolo
+  province:
+  - TO
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Design Comuni (/vivere-comune/eventi/<slug>), anche la stagione del Teatro Sociale.'
+- nome: Comune di Biella, eventi
+  url: https://comune.biella.it/eventi/
+  query: Comune di Biella eventi
+  tipo: comune
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Biella
+  province:
+  - BI
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Schede /eventi/<slug> (Teatro Odeon).'
+- nome: Comune di Asti, eventi
+  url: https://www.comune.asti.it/vivere-comune/eventi
+  query: Comune di Asti eventi
+  tipo: comune
+  categorie:
+  - mercatini-fiere
+  - sagre-feste
+  comuni:
+  - Asti
+  province:
+  - AT
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Design Comuni (Magico Paese di Natale).'
+- nome: Comune di Caltagirone, eventi
+  url: https://www.comune.caltagirone.ct.it/it/eventi
+  query: Comune di Caltagirone eventi Natale
+  tipo: comune
+  categorie:
+  - sagre-feste
+  comuni:
+  - Caltagirone
+  province:
+  - CT
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Eventi con scheda (Natale a Caltagirone); in rete per ora l''edizione 2025-26.'
+- nome: Comune di Erice, notizie
+  url: https://www.comune.erice.tp.it/it/news
+  query: Comune di Erice EricèNatale programma
+  tipo: comune
+  categorie:
+  - sagre-feste
+  comuni:
+  - Erice
+  province:
+  - TP
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Programma EricèNatale in notizia (6/12-6/1); in rete per ora l''edizione 2025-26.'
+- nome: Comune di Gela, eventi
+  url: https://www.comune.gela.cl.it/it/eventi
+  query: Comune di Gela eventi
+  tipo: comune
+  categorie:
+  - sagre-feste
+  comuni:
+  - Gela
+  province:
+  - CL
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Eventi natalizi; in rete per ora l''edizione 2025.'
+- nome: Comune di Alcamo, eventi
+  url: https://comune.alcamo.tp.it/it/eventi
+  query: Comune di Alcamo eventi
+  tipo: comune
+  categorie:
+  - sagre-feste
+  comuni:
+  - Alcamo
+  province:
+  - TP
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Elenco eventi con titoli, date poco chiare.'
+- nome: Museo Madre
+  url: https://www.madrenapoli.it/mostre/
+  query: Madre Napoli mostre
+  tipo: museo
+  categorie:
+  - arte-cultura
+  comuni:
+  - Napoli
+  province:
+  - NA
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Mostre con date e calendario (/calendario/). Resa: 1 evento il 2026-11-28 (inaugurazione Isabella Ducrot).'
+- nome: Ente Concerti Marialisa de Carolis
+  url: https://www.marialisadecarolis.it/
+  query: Ente Concerti Marialisa de Carolis stagione lirica Sassari
+  tipo: associazione
+  categorie:
+  - musica
+  comuni:
+  - Sassari
+  province:
+  - SS
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Stagione lirica e sinfonica del Teatro Comunale di Sassari (PDF).'
+- nome: ATER Fondazione, teatri e stagioni
+  url: https://www.ater.emr.it/it/teatri-e-stagioni
+  query: ATER Fondazione stagione 2026-2027
+  tipo: ente
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Cattolica
+  province:
+  - RN
+  - FC
+  - RA
+  - BO
+  - MO
+  - RE
+  - PR
+  - PC
+  - FE
+  frequenza: mensile
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt letto (''Disallow:'' vuoto). Circuito teatrale regionale:
+    una pagina per teatro e stagione, schede spettacolo con data e ora.'
+- nome: ERT Emilia Romagna Teatro
+  url: https://bologna.emiliaromagnateatro.com/la-stagione-2026-2027/
+  query: ERT stagione 2026/27
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Bologna
+  - Modena
+  - Vignola
+  - Castelfranco Emilia
+  province:
+  - BO
+  - MO
+  - FC
+  frequenza: mensile
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt letto (blocca solo /wp-admin/). Sottodomini per citta' (bologna.,
+    modena., vignola., castelfranco.), stagione con date.
+- nome: Teatro Galli
+  url: https://teatrogalli.it/
+  query: Teatro Galli Rimini stagione 2026/27
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Rimini
+  province:
+  - RN
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Stagioni di prosa, danza, lirica (anche PDF).'
+- nome: I Teatri di Reggio Emilia
+  url: https://www.iteatri.re.it/
+  query: I Teatri di Reggio Emilia stagione
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Reggio Emilia
+  province:
+  - RE
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Teatro Municipale Valli, Ariosto, Cavallerizza.'
+- nome: Teatro Stignani
+  url: https://www.teatrostignani.it/spettacoli/
+  query: Teatro Stignani Imola spettacoli
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Imola
+  province:
+  - BO
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Elenco spettacoli con date.'
+- nome: Visit Molise, eventi
+  url: https://www.visitmolise.eu/
+  query: visitmolise evento Molise
+  tipo: ente
+  categorie:
+  - sagre-feste
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Campitello Matese
+  province:
+  - CB
+  - IS
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Catalogata il 2026-11-28 (fonti, sesto giro). Portale turistico regionale. robots.txt letto ('Disallow:' vuoto). Schede
+    /evento/-/d/dms/<id>/<slug>; controllare l'anno.
+- nome: Comune di Agnone
+  url: https://www.comune.agnone.is.it/
+  query: Comune di Agnone Ndocciata 2026
+  tipo: comune
+  categorie:
+  - sagre-feste
+  comuni:
+  - Agnone
+  province:
+  - IS
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Notizie (''Ndocciata e Festa dei Fuochi Rituali dal 5/12); calendario eventi vuoto.'
+- nome: Comune di Quartu Sant'Elena, notizie
+  url: https://www.comune.quartu.ca.it/novita/news
+  query: Comune di Quartu Sant'Elena news mostra evento
+  tipo: comune
+  categorie:
+  - arte-cultura
+  comuni:
+  - Quartu Sant'Elena
+  province:
+  - CA
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Notizie con eventi (Quartu Destination Day 5/12, mostre).'
+- nome: Comune di Sanluri
+  url: https://www.comune.sanluri.su.it/
+  query: Comune di Sanluri eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  comuni:
+  - Sanluri
+  province:
+  - SU
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Home con pochi eventi (libri, sudoku).'
+- nome: Teatro Umberto Giordano
+  url: https://www.teatrogiordano.it/stagione/2026-2027.html
+  query: Teatro Umberto Giordano stagione 2026-2027
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Foggia
+  province:
+  - FG
+  frequenza: mensile
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Stagione e /calendario.html con date e ore (prosa, Giordano in Jazz). Resa: 7 eventi il 2026-11-28.'
+- nome: AMA Calabria
+  url: https://www.amacalabria.org/
+  query: AMA Calabria stagione
+  tipo: ente
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Lamezia Terme
+  province:
+  - CZ
+  - CS
+  - VV
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Circuito calabrese; pagine Joomla vecchie: meglio le schede del Comune di Lamezia Terme.'
+- nome: Comune di Amalfi, notizie
+  url: https://comune.amalfi.sa.it/Novita/Notizie
+  query: Comune di Amalfi notizie Natale
+  tipo: comune
+  categorie:
+  - sagre-feste
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Amalfi
+  province:
+  - SA
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Programma natalizio completo in una notizia (24/11/2026). Resa: 1 evento.'
+- nome: Comune di Ercolano, eventi
+  url: https://www.comune.ercolano.na.it/sito/
+  query: Comune di Ercolano evento Natale
+  tipo: comune
+  categorie:
+  - sagre-feste
+  comuni:
+  - Ercolano
+  province:
+  - NA
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura).
+    Schede /sito/evento/<id> (Ercolano in festa); in rete per ora l''edizione 2025-26.'
+- nome: Napolike (da verificare)
+  url: https://www.napolike.it/
+  query: (non usare finche' non verificata)
+  tipo: aggregatore
+  categorie:
+  - sagre-feste
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Napoli
+  province:
+  - NA
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). Testata e aggregatore di Napoli (Made It srl). robots.txt letto (blocca
+    solo cartelle tecniche e /turismo/search/); pagina dei termini non trovata (/termini-e-condizioni 404, ricerca senza risultati):
+    resta da verificare in config/fonti-vietate.yaml.'
+- nome: Marathons.com
+  url: https://www.marathons.com/it/
+  query: Maratone di novembre e dicembre 2026 in Italia
+  tipo: aggregatore
+  categorie:
+  - sport
+  comuni: []
+  province:
+  - Italia
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). Calendario maratone (editore Finish Line Media, gruppo Finishers).
+    robots.txt (''Allow: /'') e mentions legales (legal.finishers.com/marathons/mentions-legales) letti: nessun divieto di
+    scraping; vietate riproduzione e adattamento senza permesso (niente testi copiati). Solo scoperta: confermare sul sito
+    dell''organizzatore.'
+- nome: Ahotu (da verificare)
+  url: https://www.ahotu.com/it/calendario
+  query: (non usare finche' non verificata)
+  tipo: aggregatore
+  categorie:
+  - sport
+  comuni: []
+  province:
+  - Italia
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, sesto giro). Calendario internazionale di gare. robots.txt: 403 con WebFetch, termini
+    non letti: resta da verificare.'

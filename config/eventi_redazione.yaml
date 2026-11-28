@@ -52148,3 +52148,325 @@ eventi:
     summary: Spettacolo al Teatro Civico di Oleggio.
     fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
     trovato: '2026-11-28'
+  - title: Lo schiaccianoci (Compagnia Almatanz)
+    start: 2026-12-09T21:00
+    end: 2026-12-09T22:30
+    venue: Teatro Grandinetti
+    address: Via Colonnello Cassoli 45
+    town: Lamezia Terme
+    lat: 38.9730251
+    lon: 16.3181544
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.comune.lamezia-terme.cz.it/it/eventi/lo-schiaccianoci-728366
+    summary: La Compagnia Almatanz porta in scena il balletto natalizio di Ciajkovskij con le coreografie di Luigi Martelletta, in una lettura che unisce danza classica e linguaggio contemporaneo.
+    fonte: https://www.comune.lamezia-terme.cz.it/it/eventi/lo-schiaccianoci-728366
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, nodo Teatro Grandinetti, Via Colonnello Cassoli 45)
+  - title: Nemici come prima
+    start: 2026-12-18T21:00
+    end: 2026-12-18T22:00
+    venue: Teatro Grandinetti
+    address: Via Colonnello Cassoli 45
+    town: Lamezia Terme
+    lat: 38.9730251
+    lon: 16.3181544
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.comune.lamezia-terme.cz.it/it/eventi/nemici-come-prima
+    summary: Commedia nell'adattamento di Francesco Burzo e Francesco Procopio, ambientata nella sala d'attesa di un reparto di terapia intensiva dove i familiari di un anziano commerciante si ritrovano tra rancori e attese. Biglietti presso la biglietteria del teatro.
+    fonte: https://www.comune.lamezia-terme.cz.it/it/eventi/nemici-come-prima
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, nodo Teatro Grandinetti)
+  - title: La notte del Gospel (Vincent Bohanan & The Victorious Army)
+    start: 2026-12-27T21:00
+    end: 2026-12-27T22:00
+    venue: Teatro Grandinetti
+    address: Via Colonnello Cassoli 45
+    town: Lamezia Terme
+    lat: 38.9730251
+    lon: 16.3181544
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.comune.lamezia-terme.cz.it/it/eventi/la-notte-del-gospel
+    summary: Concerto gospel del coro statunitense di Atlanta guidato da Vincent Bohanan, con ventitre voci accompagnate da pianoforte, basso e batteria.
+    fonte: https://www.comune.lamezia-terme.cz.it/it/eventi/la-notte-del-gospel
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, nodo Teatro Grandinetti)
+  - title: Inaugurazione della mostra Isabella Ducrot
+    start: 2026-12-03T19:00
+    end: 2026-12-03T21:30
+    venue: Museo Madre
+    address: Via Luigi Settembrini 79
+    town: Napoli
+    lat: 40.8551228
+    lon: 14.2585862
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://www.madrenapoli.it/mostre/isabella-ducrot/
+    summary: Apertura della prima ampia retrospettiva dedicata all'artista, con oltre 125 opere tra dipinti, lavori tessili, disegni e collage; la mostra, a cura di Adam D. Weinberg con Eva Fabbris, resta aperta fino al 22 febbraio 2027. Ultimo ingresso alle 21.
+    fonte: https://www.madrenapoli.it/mostre/isabella-ducrot/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, nodo Museo Madre, Via Luigi Settembrini 79)
+  - title: 'C''era due volte: Hansel e Gretel, la strada di briciole'
+    start: 2026-12-06T10:00
+    venue: Teatro Verga, Ridotto
+    address: Via Giuseppe Fava 35
+    town: Catania
+    lat: 37.5123857
+    lon: 15.0716147
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 5 EUR adulti, 2 EUR bambini
+    official_url: https://www.teatrostabilecatania.it/cera-due-volte-al-teatro-stabile-di-catania-cinque-domeniche-dedicate-alle-fiabe-per-bambini-e-famiglie/
+    summary: Lettura animata della fiaba dei fratelli Grimm per bambini dai 5 anni, nella rassegna domenicale del Teatro Stabile di Catania coordinata da Nicola Alberto Orofino.
+    fonte: https://www.teatrostabilecatania.it/cera-due-volte-al-teatro-stabile-di-catania-cinque-domeniche-dedicate-alle-fiabe-per-bambini-e-famiglie/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, Teatro Giovanni Verga, Via Giuseppe Fava)
+  - title: 'C''era due volte: Colapesce, il ragazzo che reggeva il mare'
+    start: 2026-12-13T10:00
+    venue: Teatro Verga, Ridotto
+    address: Via Giuseppe Fava 35
+    town: Catania
+    lat: 37.5123857
+    lon: 15.0716147
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 5 EUR adulti, 2 EUR bambini
+    official_url: https://www.teatrostabilecatania.it/cera-due-volte-al-teatro-stabile-di-catania-cinque-domeniche-dedicate-alle-fiabe-per-bambini-e-famiglie/
+    summary: Lettura animata della leggenda popolare siciliana di Colapesce, pensata per bambini dai 5 anni e per le loro famiglie.
+    fonte: https://www.teatrostabilecatania.it/cera-due-volte-al-teatro-stabile-di-catania-cinque-domeniche-dedicate-alle-fiabe-per-bambini-e-famiglie/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, Teatro Giovanni Verga)
+  - title: 'C''era due volte: La pioggia di stelle, il dono piu'' grande'
+    start: 2026-12-20T10:00
+    venue: Teatro Verga, Ridotto
+    address: Via Giuseppe Fava 35
+    town: Catania
+    lat: 37.5123857
+    lon: 15.0716147
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 5 EUR adulti, 2 EUR bambini
+    official_url: https://www.teatrostabilecatania.it/cera-due-volte-al-teatro-stabile-di-catania-cinque-domeniche-dedicate-alle-fiabe-per-bambini-e-famiglie/
+    summary: Ultimo appuntamento della rassegna di letture animate per famiglie, con una fiaba dei fratelli Grimm proposta a bambini dai 5 anni.
+    fonte: https://www.teatrostabilecatania.it/cera-due-volte-al-teatro-stabile-di-catania-cinque-domeniche-dedicate-alle-fiabe-per-bambini-e-famiglie/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, Teatro Giovanni Verga)
+  - title: Natale in casa Cupiello
+    start: 2026-12-06T18:00
+    venue: Teatro Politeama
+    address: Via Gioacchino Jannoni
+    town: Catanzaro
+    lat: 38.9059508
+    lon: 16.5944671
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    summary: La commedia di Eduardo De Filippo sulla famiglia Cupiello e il presepe di Luca apre il periodo natalizio della stagione artistica del Politeama.
+    fonte: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    trovato: '2026-11-28'
+    nota: indirizzo dal sito della Fondazione Politeama (Via G. Jannoni snc); coordinate da OpenStreetMap (Teatro Politeama)
+  - title: Pinocchio, che cos'e' una persona?
+    start: 2026-12-08T18:00
+    venue: Teatro Politeama
+    address: Via Gioacchino Jannoni
+    town: Catanzaro
+    lat: 38.9059508
+    lon: 16.5944671
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    summary: Spettacolo tratto dalle avventure di Pinocchio, inserito nella stagione artistica 2026-2027 del Teatro Politeama.
+    fonte: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Politeama)
+  - title: Circus Ronaldo, Swing
+    start: 2026-12-19T21:00
+    venue: Teatro Politeama
+    address: Via Gioacchino Jannoni
+    town: Catanzaro
+    lat: 38.9059508
+    lon: 16.5944671
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    official_url: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    summary: La compagnia di circo Circus Ronaldo presenta lo spettacolo Swing; replica domenica 20 dicembre alle 18.
+    fonte: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Politeama)
+  - title: Circus Ronaldo, Swing
+    start: 2026-12-20T18:00
+    venue: Teatro Politeama
+    address: Via Gioacchino Jannoni
+    town: Catanzaro
+    lat: 38.9059508
+    lon: 16.5944671
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    official_url: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    summary: Seconda replica dello spettacolo Swing della compagnia Circus Ronaldo nella stagione del Politeama.
+    fonte: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Politeama)
+  - title: Sergio Rubini, I fratelli De Filippo
+    start: 2027-01-03T18:00
+    venue: Teatro Politeama
+    address: Via Gioacchino Jannoni
+    town: Catanzaro
+    lat: 38.9059508
+    lon: 16.5944671
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    summary: Sergio Rubini porta sul palco del Politeama uno spettacolo dedicato a Eduardo, Peppino e Titina De Filippo.
+    fonte: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Politeama)
+  - title: Concerto di Capodanno dell'Orchestra Filarmonica della Calabria
+    start: 2027-01-05T21:00
+    venue: Teatro Politeama
+    address: Via Gioacchino Jannoni
+    town: Catanzaro
+    lat: 38.9059508
+    lon: 16.5944671
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    summary: L'Orchestra Filarmonica della Calabria propone il tradizionale concerto per il nuovo anno nella stagione del Politeama.
+    fonte: https://www.politeamacatanzaro.net/stagione-artistica-2026-2027/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Politeama)
+  - title: Macy Gray (Giordano in Jazz)
+    start: 2026-12-09T21:00
+    venue: Teatro Umberto Giordano
+    address: Piazza Cesare Battisti
+    town: Foggia
+    lat: 41.4640308
+    lon: 15.5462317
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.teatrogiordano.it/stagione/2026-2027.html
+    summary: La cantante statunitense si esibisce dal vivo nella rassegna Giordano in Jazz, edizione d'autunno 2026.
+    fonte: https://www.teatrogiordano.it/stagione/2026-2027.html
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Umberto Giordano, Piazza Cesare Battisti)
+  - title: Falstaff, l'arte di farla franca
+    start: 2026-12-11T21:00
+    venue: Teatro Umberto Giordano
+    address: Piazza Cesare Battisti
+    town: Foggia
+    lat: 41.4640308
+    lon: 15.5462317
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrogiordano.it/stagione/2026-2027.html
+    summary: Emilio Solfrizzi e Giorgio Borghetti interpretano il testo di Davide Sacco liberamente ispirato a Shakespeare e Moliere; replica il 12 dicembre.
+    fonte: https://www.teatrogiordano.it/stagione/2026-2027.html
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Umberto Giordano)
+  - title: Falstaff, l'arte di farla franca
+    start: 2026-12-12T21:00
+    venue: Teatro Umberto Giordano
+    address: Piazza Cesare Battisti
+    town: Foggia
+    lat: 41.4640308
+    lon: 15.5462317
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrogiordano.it/stagione/2026-2027.html
+    summary: Seconda replica della commedia con Emilio Solfrizzi, ispirata al personaggio shakespeariano, nella stagione di prosa del Giordano.
+    fonte: https://www.teatrogiordano.it/stagione/2026-2027.html
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Umberto Giordano)
+  - title: Rebecca Ferguson (Giordano in Jazz)
+    start: 2026-12-22T21:00
+    venue: Teatro Umberto Giordano
+    address: Piazza Cesare Battisti
+    town: Foggia
+    lat: 41.4640308
+    lon: 15.5462317
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.teatrogiordano.it/stagione/2026-2027.html
+    summary: Concerto della cantante britannica nella rassegna Giordano in Jazz al Teatro Umberto Giordano.
+    fonte: https://www.teatrogiordano.it/stagione/2026-2027.html
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Umberto Giordano)
+  - title: InfernoItalia, con Pinuccio
+    start: 2026-12-27T21:00
+    venue: Teatro Umberto Giordano
+    address: Piazza Cesare Battisti
+    town: Foggia
+    lat: 41.4640308
+    lon: 15.5462317
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.teatrogiordano.it/stagione/2026-2027.html
+    summary: Spettacolo satirico di Alessio Giannone, noto come Pinuccio, fuori abbonamento nella stagione del Teatro Giordano.
+    fonte: https://www.teatrogiordano.it/stagione/2026-2027.html
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Umberto Giordano)
+  - title: Tombolata musicale con Valerio Lundini e I Vazzanikki
+    start: 2027-01-05T21:00
+    venue: Teatro Umberto Giordano
+    address: Piazza Cesare Battisti
+    town: Foggia
+    lat: 41.4640308
+    lon: 15.5462317
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.teatrogiordano.it/stagione/2026-2027.html
+    summary: Serata tra musica e comicita' con Valerio Lundini e la sua band, proposta fuori abbonamento alla vigilia dell'Epifania.
+    fonte: https://www.teatrogiordano.it/stagione/2026-2027.html
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Umberto Giordano)
+  - title: Lisistrata, con Lella Costa
+    start: 2027-01-16T21:00
+    venue: Teatro Umberto Giordano
+    address: Piazza Cesare Battisti
+    town: Foggia
+    lat: 41.4640308
+    lon: 15.5462317
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrogiordano.it/stagione/2026-2027.html
+    summary: La commedia di Aristofane nella produzione INDA e Teatro Carcano con Lella Costa; replica il 17 gennaio.
+    fonte: https://www.teatrogiordano.it/stagione/2026-2027.html
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Teatro Umberto Giordano)
+  - title: Natale in Gospel con John Lakin & Friends
+    start: 2026-12-23T19:00
+    venue: Piazza Duomo
+    address: Piazza Duomo
+    town: Amalfi
+    lat: 40.634243
+    lon: 14.602579
+    category: musica
+    subcategory: concerti
+    access: sconosciuto
+    official_url: https://comune.amalfi.sa.it/Novita/Notizie/Amalfi-si-accende-di-meraviglia-dal-Villaggio-di-Natale-al-Capodanno-piu-lungo-d-Italia-la-magia-delle-feste-brilla-tra-vicoli-piazze-e-monumenti
+    summary: Concerto gospel all'aperto nella rassegna InCanti d'Autore, parte del programma natalizio della Citta' di Amalfi.
+    fonte: https://comune.amalfi.sa.it/Novita/Notizie/Amalfi-si-accende-di-meraviglia-dal-Villaggio-di-Natale-al-Capodanno-piu-lungo-d-Italia-la-magia-delle-feste-brilla-tra-vicoli-piazze-e-monumenti
+    trovato: '2026-11-28'
+    nota: notizia del Comune del 24/11/2026; accesso non indicato; coordinate da OpenStreetMap (Piazza Duomo, Amalfi)
