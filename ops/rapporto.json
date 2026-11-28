@@ -2,10 +2,10 @@
  "giro_pc": false,
  "giro_cloud": true,
  "motore_ai": "claude",
- "eventi_sul_sito": 2911,
+ "eventi_sul_sito": 2914,
  "in_revisione": 60,
  "posizioni": {
-  "eventi_controllati": 2911,
+  "eventi_controllati": 2914,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 71,
@@ -16,5 +16,5 @@
  "senza_posizione": 0,
  "correzioni_attive": 273,
  "rimossi_dalla_redazione": 22,
- "finito_alle": "2026-11-28T20:27+01:00"
+ "finito_alle": "2026-11-28T20:34+01:00"
 }

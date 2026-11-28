@@ -1627,8 +1627,8 @@ fonti:
   resa: { controlli: 3, eventi_trovati: 0, ultimi: [0, 0, 0] }
   ultimo_controllo: '2026-11-25'
   automatizzabile: 'no'
-  stato: debole
-  note: "2026-11-25: tre controlli a zero (7 concerti entro marzo, tutti sul sito): ora debole, vale solo come test di copertura della musica. Solo scoperta (non ufficiale): 8 concerti TV con ora, ha portato al Teatro Cristallo di Oderzo e ai concerti del Teatro Accademia. Vale per tutte le province (pagina /concerti/italia/<citta>/). 2026-11-18: 13 concerti, i 9 entro marzo gia' tutti sul sito tranne Andrea Cerrato (21/1, scheda TicketOne non apribile)."
+  stato: ferma
+  note: "2026-11-28 (fonti): VIETATA (termini /info/termini_uso.html: contenuti solo per uso personale, vietate distribuzione e pubblicazione): non aprirla piu'. 2026-11-25: tre controlli a zero (7 concerti entro marzo, tutti sul sito): ora debole, vale solo come test di copertura della musica. Solo scoperta (non ufficiale): 8 concerti TV con ora, ha portato al Teatro Cristallo di Oderzo e ai concerti del Teatro Accademia. Vale per tutte le province (pagina /concerti/italia/<citta>/). 2026-11-18: 13 concerti, i 9 entro marzo gia' tutti sul sito tranne Andrea Cerrato (21/1, scheda TicketOne non apribile)."
 - nome: Pro Loco Venete (UNPLI Veneto), esplora gli eventi
   url: https://www.prolocovenete.it/esplora-gli-eventi/?province=6
   query: prolocovenete.it evento treviso
@@ -2090,7 +2090,7 @@ fonti:
   ultimo_controllo: '2026-11-25'
   automatizzabile: 'no'
   stato: attiva
-  note: "Pagine per locale con la tabella delle serate (data e orchestra, niente ora ne' prezzo): Eurobaita al lago 5 serate tra il 25/11 e il 31/12/2026. Il locale non ha un sito trovato: serve una pagina ufficiale prima di pubblicare. Unica fonte trovata per Musica e party > Ballo (liscio). Elenco dei locali: /locali/."
+  note: "2026-11-28 (fonti): AMMESSA (robots.txt Allow / e /privacy/ letti, nessun divieto). Pagine per locale con la tabella delle serate (data e orchestra, niente ora ne' prezzo): Eurobaita al lago 5 serate tra il 25/11 e il 31/12/2026. Il locale non ha un sito trovato: serve una pagina ufficiale prima di pubblicare. Unica fonte trovata per Musica e party > Ballo (liscio). Elenco dei locali: /locali/."
 - nome: Comune di Castelfranco Veneto, rassegne (pagine evento)
   url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/teatro-accademico-la-stagione-di-prosa-2026-2027/
   query: site comune.castelfrancoveneto.tv.it <rassegna> 2026 2027
@@ -4239,3 +4239,1096 @@ fonti:
   stato: attiva
   note: 'Catalogata il 2026-11-28 (fonti, quarto giro). Portale turistico del Comune (schede /en/events/<slug>, es. stagione concertistica del Teatro Lirico); WebFetch riceve 403: leggere da WebSearch o
     dal giro.'
+- nome: Comune di Livorno, eventi
+  url: https://www.comune.livorno.it/it/categorie-eventi/74150
+  query: Comune di Livorno eventi dicembre
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Livorno
+  province:
+  - LI
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Schede /it/eventi/<id>/<slug> con data, ora e luogo (Hortus Harmonicus, mostre
+    al Museo della Citta'', presepi ai Bottini dell''Olio). Elenco anche /index.php/it/events-category/74161?page=2.'
+- nome: Comune di Prato, Cartellone Eventi
+  url: https://tempolibero.comune.prato.it/
+  query: Cartellone Eventi Prato tempolibero comune
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Prato
+  province:
+  - PO
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Cartellone del Comune con schede /event/<uuid>/appointment/<uuid> per ogni
+    data (anche tempolibero2.comune.prato.it): ora, luogo, prezzo (Officina Giovani, Il Garibaldi Milleventi).'
+- nome: Comune di Pesaro, prossimi eventi
+  url: https://www.comune.pesaro.pu.it/novita-in-comune/eventi/prossimi-eventi/
+  query: Comune di Pesaro prossimi eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Pesaro
+  province:
+  - PU
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Elenco paginato (4 pagine) degli eventi del Comune (TYPO3 tx_news); anche
+    /cultura/eventi-cultura/. Natale: Candele a Candelara fino al 20/12, concerti alla Vitrifrigo Arena.'
+- nome: Perugia Comunica, eventi
+  url: https://perugiacomunica.comune.perugia.it/
+  query: Perugia Comunica evento
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Perugia
+  province:
+  - PG
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Portale notizie del Comune con schede /evento/<slug> (La Grande Musica al
+    Borgo 6/12) e il programma ''Perugia, un Natale insieme''.'
+- nome: Turismo Terni, eventi
+  url: https://turismo.comune.terni.it/eventi
+  query: Turismo Terni eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Terni
+  province:
+  - TR
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Pagina eventi del portale turistico del Comune di Terni.'
+- nome: Biblioteca Comunale di Terni (BCT), incontri
+  url: https://bct.comune.terni.it/
+  query: BCT Terni presentazione libro dicembre
+  tipo: biblioteca
+  categorie:
+  - arte-cultura
+  comuni:
+  - Terni
+  province:
+  - TR
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Caffe'' letterario e presentazioni con data e ora (Lagioia 9/12 ore 17, Tesio
+    5/12 ore 17): schede /<slug-libro>.'
+- nome: Comune di Viterbo, eventi e stagione del Teatro dell'Unione
+  url: https://comune.viterbo.it/vivere-il-comune/eventi/
+  query: Comune di Viterbo stagione teatrale Teatro dell'Unione
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Viterbo
+  province:
+  - VT
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). La pagina eventi mostrava ancora il dicembre 2025; la stagione 2026-2027
+    del Teatro dell''Unione e'' in /novita/stagione-teatrale-comune-di-viterbo-2026-2027-teatro-dellunione/ (2/12 Zappala'' Danza, 6/12 Rudolph, 13/12 Giulio Cesare).'
+- nome: Comune di Rieti, turismo e cultura
+  url: https://lnx.comune.rieti.it/
+  query: Comune di Rieti programma eventi festivita' natalizie
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Rieti
+  province:
+  - RI
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Articoli ''turismo-cultura'' con il programma di Natale, ma senza anno chiaro:
+    controllare la data di pubblicazione.'
+- nome: Teatro di San Carlo
+  url: https://www.teatrosancarlo.it/
+  query: Teatro di San Carlo spettacoli stagione 2026 2027
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Napoli
+  province:
+  - NA
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt NON leggibile: WebFetch riceve una pagina ''Security check'' (protezione anti-bot): non usarlo in automatico, solo schede uscite da WebSearch
+    (/spettacoli/<slug>-2627/). Dicembre: Luisa Miller 2-10/12, concerto Inkinen 13/12, Gala Domingo 17/12, Lo schiaccianoci 22/12-5/1.'
+- nome: Teatro Carlo Felice
+  url: https://www.carlofelice.it/
+  query: Teatro Carlo Felice Genova calendario
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Genova
+  province:
+  - GE
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt letto (blocca solo /wp-admin/; c''e'' anche /llms.txt). WordPress: provare /wp-json/tribe/events/v1/events dal giro. Dicembre: Lo schiaccianoci
+    3-6/12, Giselle 11-13/12, concerti di Natale e Capodanno.'
+- nome: Fondazione Pergolesi Spontini (Jesi)
+  url: https://www.fondazionepergolesispontini.com/
+  query: Fondazione Pergolesi Spontini stagione Jesi 2026-2027
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Jesi
+  - Maiolati Spontini
+  province:
+  - AN
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt letto (blocca solo alcuni CV in PDF). Stagione teatrale di Jesi e Maiolati 2026-2027 (/stagione-teatrale-di-jesi-e-maiolati_2026-2027/,
+    /prosa/programma-stagione-jesi-2026-2027/), Klang al Teatro Studio Moriconi (Marta Del Grandi 12/12).
+- nome: Teatro di Napoli (Teatro Nazionale)
+  url: https://www.teatrodinapoli.it/
+  query: Teatro di Napoli stagione Mercadante San Ferdinando
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Napoli
+  province:
+  - NA
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt letto (''Disallow:'' vuoto). Teatri Mercadante e San Ferdinando: Il pozzo dei pazzi 15-20/12, Il sindaco del rione Sanita'' 18/12-3/1.'
+- nome: Comune di Cuneo, eventi
+  url: https://www.comune.cuneo.it/vivere-il-comune/eventi/
+  query: Comune di Cuneo eventi dicembre
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Cuneo
+  province:
+  - CN
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Design Comuni: schede /vivere-il-comune/eventi/<slug>/ con date, ore, luogo
+    e prezzo (Il Secolo del Barocco, Officina Santachiara, Teatro Toselli, Municipio a porte aperte 18/12). Molti eventi al mese.'
+- nome: Comune di Savona, eventi
+  url: https://www.comune.savona.it/index.php/it/eventi
+  query: Comune di Savona eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Savona
+  province:
+  - SV
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Schede /it/eventi/<slug> e categorie (/it/categorie-eventi/88049 concerti):
+    Polo Musicale Savonese, Teatro Chiabrera, mostre al Priamar.'
+- nome: Visit Genoa, eventi
+  url: https://www.visitgenoa.it/it/eventi
+  query: Visit Genoa eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Genova
+  province:
+  - GE
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Catalogata il 2026-11-28 (fonti, quinto giro). Portale turistico del Comune di Genova; robots.txt letto (per * blocca solo /search/, /admin/, /user/ e cartelle tecniche; nessun gruppo per i bot
+    AI). Anche /it/ricerca-eventi?page=N. GOG, Musei di Nervi, Capodanno.
+- nome: Comune di Palermo, eventi
+  url: https://www.comune.palermo.it/vivere-il-comune/eventi/
+  query: Comune di Palermo eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Palermo
+  province:
+  - PA
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Design Comuni: schede /vivere-il-comune/eventi/<slug>/ e tipi (/tipi_evento/evento-culturale/,
+    /spettacolo-di-danza/). Attenzione: schede del Teatro Massimo (teatromassimo.it e'' vietato): usare solo la scheda del Comune.'
+- nome: Turismo Palermo, notizie ed eventi
+  url: https://turismo.comune.palermo.it/
+  query: Portale del Turismo Comune di Palermo eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Palermo
+  province:
+  - PA
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Schede palermo-welcome-new-dettaglio.php?id=<n> (Paladino d''Oro 1-7/12 al
+    Politeama, Opificia 12-13/12 a Palazzo De Gregorio, Domenica al Museo).'
+- nome: Comune di Reggio Calabria, notizie
+  url: https://comune.reggio-calabria.it/Notizie
+  query: Comune di Reggio Calabria notizie evento dicembre 2026
+  tipo: comune
+  categorie:
+  - sport
+  - arte-cultura
+  comuni:
+  - Reggio Calabria
+  province:
+  - RC
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Nessuna pagina eventi: le iniziative sono nelle notizie (Next Gen ATP Finals
+    9-13/12 al PalaCalafiore).'
+- nome: Comune di Napoli, eventi
+  url: https://www.comune.napoli.it/vivere-il-comune/eventi/
+  query: Comune di Napoli eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Napoli
+  province:
+  - NA
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Design Comuni: schede /vivere-il-comune/eventi/<slug>/; ''Natale a Napoli
+    2026'' (53 appuntamenti gratuiti 4/12-10/1, /novita/natale-a-napoli-2026/), Winter Rowing Fest 19/12.'
+- nome: Comune di Olbia, eventi
+  url: https://www.comune.olbia.ot.it/it/eventi
+  query: Comune di Olbia eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Olbia
+  province:
+  - SS
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Pagina eventi del Comune piu'' Informacitta'' (informacitta.comune.olbia.ot.it/eventi/<slug>):
+    presentazioni, premio letterario 4/12, Capodanno.'
+- nome: Visit Tuscany, eventi
+  url: https://www.visittuscany.com/it/eventi/
+  query: Visit Tuscany eventi dicembre 2026
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Barga
+  - Massa
+  - Vinci
+  - San Quirico d'Orcia
+  - Pistoia
+  province:
+  - Toscana
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). Portale ufficiale della Regione Toscana (Toscana Promozione Turistica); robots.txt letto (per * blocca solo i parametri ?filters=, ?query=, ?asset=:
+    usare le schede /it/eventi/<slug>/ senza parametri). Schede con date e luogo (Barga in Cioccolato 7-8/12, Teatro Guglielmi di Massa).'
+- nome: Abruzzo Turismo, eventi
+  url: https://www.abruzzoturismo.it/it/eventi
+  query: Abruzzo Turismo eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Prata d'Ansidonia
+  - Lanciano
+  province:
+  - Abruzzo
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). Portale turistico della Regione Abruzzo, schede /it/eventi/<slug>-<comune>-<sigla> (Natale nel Borgo di Tussio 5-6/12). robots.txt: WebFetch 503 il
+    2026-11-28, da rileggere.'
+- nome: Visit Piemonte, eventi
+  url: https://www.visitpiemonte.com/eventi
+  query: Visit Piemonte eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Torino
+  province:
+  - Piemonte
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). Portale turistico della Regione Piemonte; robots.txt letto (''User-agent: * / Allow: /'').'
+- nome: Comune di Senigallia, eventi
+  url: https://www.comune.senigallia.an.it/vivere-il-comune/eventi/
+  query: Comune di Senigallia eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Senigallia
+  province:
+  - AN
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Design Comuni (/vivere-il-comune/eventi/<slug>/, Senigallia Magica): verificare
+    l''anno, alcune pagine sono del 2025.'
+- nome: Teatro dell'Opera di Roma
+  url: https://www.operaroma.it/
+  query: Teatro dell'Opera di Roma stagione 2026 2027
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Roma
+  province:
+  - RM
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt assente (404, nessun blocco). Stagione 2026-2027: Barbablu'' con Netrebko 4/12, Il lago dei cigni 17-31/12 al Costanzi, Schiaccianoci della
+    Scuola di Danza al Teatro Nazionale fino al 3/12.'
+- nome: Auditorium Parco della Musica (Fondazione Musica per Roma)
+  url: https://www.auditorium.com/it/
+  query: Auditorium Parco della Musica Natale 2026 evento
+  tipo: teatro
+  categorie:
+  - musica
+  - teatro-spettacoli
+  comuni:
+  - Roma
+  province:
+  - RM
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt letto (''Disallow:'' vuoto); WordPress con schede /it/event/<slug>/ (data, ora, sala, prezzo). Rassegna Natale Auditorium 5/12-6/1. Biglietti
+    su TicketOne (da verificare: solo ticket_url).'
+- nome: Teatro Vittorio Emanuele di Messina
+  url: https://www.teatrovittorioemanuele.it/stagione-vittorio-emanuele-2026-2027-sala-grande/
+  query: Stagione Vittorio Emanuele 2026/2027
+  tipo: teatro
+  categorie:
+  - teatro-spettacoli
+  - musica
+  comuni:
+  - Messina
+  province:
+  - ME
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: forse
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt letto (blocca solo /wp-admin/). Stagione 2026-2027 in tre pagine (sala grande, prosa, sala Laudamo); schede /evento/<slug>/ (The Events
+    Calendar: provare /wp-json/tribe/events/v1/events dal giro). Dicembre: Fata Morgana 4-6, La Corona contro Oscar Wilde 11-13, Cirano 18-20.'
+- nome: Comune di Spoleto, notizie ed eventi
+  url: https://www.comune.spoleto.pg.it/it
+  query: Comune di Spoleto Accade a Natale 2026
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Spoleto
+  province:
+  - PG
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Programma ''Accade a Natale a Spoleto 2026-2027'' (/it/news/accade-a-natale-a-spoleto-2026-2027,
+    4/12-17/1), mercatini di piazza Garibaldi dal 5/12, rassegna Racconti del Festival dei Due Mondi 4-8/12.'
+- nome: Comune di Foligno, eventi
+  url: https://comune.foligno.pg.it/vivere-il-comune/eventi/
+  query: Comune di Foligno eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Foligno
+  province:
+  - PG
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Design Comuni (/vivere-il-comune/eventi/<slug>/, tipi /tipi_evento/evento-culturale/):
+    Natale a Foligno 2026, Creativamente 19-20/12 a Palazzo Trinci, Amici della musica.'
+- nome: Comune di Empoli, eventi
+  url: https://www.comune.empoli.fi.it/Vivere-il-comune/Eventi
+  query: Comune di Empoli eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Empoli
+  province:
+  - FI
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Schede /Vivere-il-comune/Eventi/<slug> (mercato straordinario 13/12).'
+- nome: Comune di Termoli, Natale a Termoli 2026
+  url: https://www.comune.termoli.cb.it/novita/natale-a-termoli-2026-tutti-gli-eventi/
+  query: Natale a Termoli 2026 tutti gli eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Termoli
+  province:
+  - CB
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Cartellone di Natale 1/12-11/1 (luminarie 6/12, Premio Gente di Mare 5/12,
+    Capodanno): la pagina mescola date 2025, verificare ogni evento. Molise ha poche fonti.'
+- nome: Comune di Marsala, eventi
+  url: https://www.comune.marsala.tp.it/it/eventi
+  query: Comune di Marsala eventi
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Marsala
+  province:
+  - TP
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Schede /it/eventi/<id>/<slug> con data, ora, luogo e prezzo (stagione concertistica
+    al Teatro Sollima, Conservatorio Scontrino, TEDx); categorie /it/categorie-eventi/66309 (teatro).'
+- nome: Citta' di Noto
+  url: https://comune.noto.sr.it/index.php/it
+  query: Comune di Noto concerto stagione concertistica
+  tipo: comune
+  categorie:
+  - musica
+  - arte-cultura
+  comuni:
+  - Noto
+  province:
+  - SR
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Poche notizie di eventi (Concerto di Natale dell''Associazione Concerti Citta''
+    di Noto 20/12).'
+- nome: Turismo Torino e Provincia, eventi
+  url: https://turismotorino.org/it/visita/eventi
+  query: Turismo Torino eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Torino
+  - Venaria Reale
+  - Moncalieri
+  - Sant'Ambrogio di Torino
+  province:
+  - TO
+  frequenza: settimanale
+  qualita: 5
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: Catalogata il 2026-11-28 (fonti, quinto giro). Ente turistico ufficiale; robots.txt letto (per * Allow /, blocca solo /cerca, /dashboard e traduzioni mancanti). Schede /it/visita/eventi/<slug> con
+    date, luogo e prezzo, anche fuori citta' (Sacra di San Michele 12/12, Teatro della Concordia).
+- nome: Comune di Sanremo
+  url: https://comune.sanremo.im.it/it
+  query: Comune di Sanremo eventi dicembre
+  tipo: comune
+  categorie:
+  - musica
+  - arte-cultura
+  comuni:
+  - Sanremo
+  province:
+  - IM
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Eventi solo nelle notizie della home (Sanremo Giovani 11/12 al Teatro del
+    Casino'').'
+- nome: Teatro Pubblico Pugliese, notizie e rassegne
+  url: https://www.teatropubblicopugliese.it/news/
+  query: Teatro Pubblico Pugliese aperture debutti stagioni
+  tipo: ente
+  categorie:
+  - teatro-spettacoli
+  comuni:
+  - Bari
+  - Barletta
+  - Nardo'
+  province:
+  - Puglia
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). Circuito regionale delle stagioni teatrali dei Comuni pugliesi (news settimanali tipo ''25-30 novembre, aperture e debutti'', pagine /stagione_rassegna/...).
+    Molte pagine d''archivio vecchie: guardare la data. robots.txt: WebFetch 500 il 2026-11-28, da rileggere.'
+- nome: Comune di Avezzano, notizie
+  url: https://comune.avezzano.aq.it/
+  query: Comune di Avezzano notizie concerto Natale
+  tipo: comune
+  categorie:
+  - musica
+  - arte-cultura
+  comuni:
+  - Avezzano
+  province:
+  - AQ
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Notizie con eventi (concerto di Natale di Brunori Sas 17-18/12 in Cattedrale,
+    Teatro dei Marsi).'
+- nome: HDsports, calendario corse Puglia (e Italia)
+  url: https://www.hdsports.org/running/puglia-correre-calendario-corse
+  query: hdsports Puglia calendario corse
+  tipo: aggregatore
+  categorie:
+  - sport
+  comuni: []
+  province:
+  - Puglia
+  - Italia
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). Aggregatore austriaco ammesso il 2026-11-28 (robots.txt, /nutzungsbedingungen e /impressum letti: nessun divieto di scraping; vietata la riproduzione
+    dei testi). Pagine /running/<regione>-correre-calendario-corse e /running/correre-italia-tutte-le-gare-calendario. Solo scoperta: confermare sul sito dell''organizzatore.'
+- nome: Finishers, gare per regione
+  url: https://www.finishers.com/it/d/europa/italia
+  query: (non usare)
+  tipo: aggregatore
+  categorie:
+  - sport
+  comuni: []
+  province:
+  - Italia
+  frequenza: mensile
+  qualita: 1
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: ferma
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). VIETATA il 2026-11-28 (CGU art. 13.4: vietato raccogliere dati con robot o scraper e creare calendari): non aprirla.'
+- nome: Turismo Roma (Roma Capitale), eventi
+  url: https://www.turismoroma.it/it/romalive
+  query: Turismo Roma Romalive eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Roma
+  province:
+  - RM
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Portale turistico di Roma Capitale: Romalive e tipi /it/tipo-evento/manifestazioni,
+    /it/tipo-evento/mostre?page=N (Piu'' libri piu'' liberi 4-8/12, Art is Light).'
+- nome: Musei in Comune Roma, mostre ed eventi
+  url: https://www.museiincomuneroma.it/it/mostre_ed_eventi/mostre
+  query: Musei in Comune Roma mostre
+  tipo: museo
+  categorie:
+  - arte-cultura
+  - famiglie-bambini
+  comuni:
+  - Roma
+  province:
+  - RM
+  frequenza: mensile
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Mostre ed eventi dei musei civici (Capitolini, Villa Caffarelli, Museo di
+    Roma in Trastevere) con date di inizio e fine.'
+- nome: Roma Culture
+  url: https://culture.roma.it/arte/
+  query: Roma Culture arte eventi
+  tipo: ente
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Roma
+  province:
+  - RM
+  frequenza: settimanale
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Portale culturale di Roma Capitale per area (arte, musica, teatro).'
+- nome: Comune di Pisa, eventi
+  url: https://www.comune.pisa.it/Vivere-il-Comune/Eventi
+  query: Comune di Pisa eventi Natale
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Pisa
+  province:
+  - PI
+  frequenza: settimanale
+  qualita: 4
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Schede /Vivere-il-Comune/Eventi/<slug> (Pisa citta'' del Natale 28/11-6/1,
+    mostra mercato alla Leopolda 12-13/12): alcune schede sono del 2025, guardare l''anno.'
+- nome: Comune di Massa, novita'
+  url: https://www.comune.massa.ms.it/novita
+  query: Comune di Massa novita evento dicembre
+  tipo: comune
+  categorie:
+  - arte-cultura
+  - musica
+  - teatro-spettacoli
+  - famiglie-bambini
+  - mercatini-fiere
+  comuni:
+  - Massa
+  province:
+  - MS
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Eventi nelle notizie (AmAbilMente 6/12 nello Spazio polifunzionale di via
+    Bastione); stagione del Teatro Guglielmi su Visit Tuscany.'
+- nome: Comune di Grosseto, notizie
+  url: https://www.comune.grosseto.it/notizia/
+  query: Comune di Grosseto notizia concerto teatro
+  tipo: comune
+  categorie:
+  - musica
+  - teatro-spettacoli
+  comuni:
+  - Grosseto
+  province:
+  - GR
+  frequenza: mensile
+  qualita: 3
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: attiva
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Notizie con eventi (La Voce di ogni Strumento, Concerto di Natale 20/12 al
+    Teatro degli Industri).'
+- nome: Comune di Bitonto, notizie
+  url: https://comune.bitonto.ba.it/it/news
+  query: Comune di Bitonto news mercato Natale
+  tipo: comune
+  categorie:
+  - mercatini-fiere
+  comuni:
+  - Bitonto
+  province:
+  - BA
+  frequenza: mensile
+  qualita: 2
+  resa:
+    controlli: 0
+    eventi_trovati: 0
+    ultimi: []
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: 'no'
+  stato: debole
+  note: 'Catalogata il 2026-11-28 (fonti, quinto giro). robots.txt non letto (sito ufficiale: il PC lo rispetta a ogni lettura). Notizie (mercato natalizio serale 20/12).'

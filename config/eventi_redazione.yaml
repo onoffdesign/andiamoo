@@ -41150,3 +41150,53 @@ eventi:
     summary: Edizione di dicembre della storica fiera dell'antiquariato in piazza Grande e nelle vie del centro storico.
     fonte: https://fieraantiquaria.org/immaginate-piazza-grande-illuminata-a-festa/
     trovato: '2026-11-28'
+  - title: Noemi in concerto (Natale Auditorium)
+    start: 2026-12-22T21:00
+    venue: Auditorium Parco della Musica Ennio Morricone, Sala Santa Cecilia
+    address: Viale Pietro de Coubertin 30
+    town: Roma
+    lat: 41.9291929
+    lon: 12.4751281
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: da 39 EUR
+    official_url: https://www.auditorium.com/it/event/noemi-3/
+    summary: La cantante presenta dal vivo una scelta dei brani piu' noti della sua carriera nella Sala Santa Cecilia, nell'ambito della rassegna natalizia dell'Auditorium.
+    fonte: https://www.auditorium.com/it/event/noemi-3/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, Viale Pietro de Coubertin 30)
+  - title: Mauro Carpi Quartet (Stagione concertistica di Marsala)
+    start: 2026-12-06T18:00
+    end: 2026-12-06T21:00
+    venue: Teatro comunale Eliodoro Sollima
+    address: Via Teatro
+    town: Marsala
+    lat: 37.8028929
+    lon: 12.4335858
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: platea e palchi I-II ordine 10 EUR, palchi III ordine e loggione 6 EUR
+    official_url: https://comune.marsala.tp.it/it/eventi/66308/mauro-carpi-quartet
+    summary: Concerto di un quartetto guidato dal violinista Mauro Carpi, con un repertorio tra swing e ritmi latini, all'interno della ventiseiesima stagione concertistica cittadina.
+    fonte: https://comune.marsala.tp.it/it/eventi/66308/mauro-carpi-quartet
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, Teatro Comunale Maestro Eliodoro Sollima)
+  - title: Municipio a porte aperte, visite guidate di dicembre
+    start: 2026-12-18T15:30
+    end: 2026-12-18T18:30
+    venue: Palazzo Municipale di Cuneo
+    address: Via Roma 28
+    town: Cuneo
+    lat: 44.393211
+    lon: 7.5514531
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    price: gratuito
+    official_url: https://www.comune.cuneo.it/vivere-il-comune/eventi/municipio-a-porte-aperte-dicembre/
+    summary: Visite guidate gratuite al palazzo comunale alle 15:30, 16:30 e 17:30, con ritrovo nel cortile; il percorso tocca il Salone d'Onore, lo Scalone, la Sala Giunta e la Sala del Consiglio. Prenotazione obbligatoria presso il Comune.
+    fonte: https://www.comune.cuneo.it/vivere-il-comune/eventi/municipio-a-porte-aperte-dicembre/
+    trovato: '2026-11-28'
+    nota: coordinate da OpenStreetMap (Nominatim, Via Roma 28)
