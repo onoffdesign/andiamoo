@@ -22,7 +22,7 @@ import json
 import re
 import sys
 import tempfile
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from . import archive, editorial
@@ -162,6 +162,41 @@ def write_site_towns(path: Path | None = None) -> int:
     return len(rows)
 
 
+# Frasi dell'apertura del sito ("ANDIAMO AL CINEMA?") per sottocategoria: si usano solo quelle con eventi veri nei
+# prossimi giorni (docs/data/intro.json, scritto a ogni pubblicazione).
+INTRO_PHRASES = {
+    "teatro": "A TEATRO", "spettacoli-bimbi": "A UNO SPETTACOLO", "concerti": "A UN CONCERTO", "jazz-classica": "A UN CONCERTO",
+    "laboratori": "A UN LABORATORIO", "visite": "AL MUSEO", "mostre": "A UNA MOSTRA", "artigianato": "AL MERCATINO",
+    "antiquariato": "AL MERCATINO", "ricorrenze": "ALLA FESTA", "danza": "A UN BALLETTO", "conferenze": "A UNA CONFERENZA",
+    "comicita": "A RIDERE", "corsa": "A CORRERE", "libri": "IN LIBRERIA", "party": "A UNA FESTA", "dj-set": "A BALLARE",
+    "club": "A BALLARE", "basket": "ALLA PARTITA", "volley": "ALLA PARTITA", "rugby": "ALLA PARTITA", "calcio": "ALLA PARTITA",
+    "proiezioni": "AL CINEMA", "rassegne": "AL CINEMA", "sagre": "ALLA SAGRA", "incontri-pubblici": "A UN INCONTRO",
+    "escursioni": "A CAMMINARE", "outdoor": "IN MONTAGNA", "circo-magia": "AL CIRCO", "degustazioni": "A UNA DEGUSTAZIONE",
+    "ciclismo": "IN BICI", "cene": "A CENA", "fiere": "IN FIERA", "workshop": "A UN WORKSHOP", "aperitivo": "A UN APERITIVO",
+    "yoga": "A FARE YOGA", "mercati-contadini": "AL MERCATO", "festival-musicali": "A UN FESTIVAL", "nuoto": "IN PISCINA",
+}
+
+
+def write_intro(events: list[dict], days: int = 7, path: Path | None = None) -> list[str]:
+    """Frasi per l'apertura, dalle sottocategorie degli eventi dei prossimi giorni (le piu' frequenti prima)."""
+    from collections import Counter
+    path = path or export_dir() / "intro.json"
+    today = datetime.now(ROME).date()
+    last = (today + timedelta(days=days)).isoformat()
+    n = Counter()
+    for e in events:
+        start, end = (e.get("start") or "")[:10], (e.get("end") or e.get("start") or "")[:10]
+        if start and start <= last and end >= today.isoformat():
+            phrase = INTRO_PHRASES.get(e.get("subcategory") or "")
+            if phrase:
+                n[phrase] += 1
+    phrases = [p for p, _ in n.most_common()]
+    text = json.dumps({"frasi": phrases}, ensure_ascii=False)
+    if not path.exists() or path.read_text(encoding="utf-8") != text:
+        path.write_text(text, encoding="utf-8")
+    return phrases
+
+
 def export_dir() -> Path:
     return (ROOT / settings()["publish"]["export_path"]).parent
 
@@ -192,6 +227,7 @@ def build(write: bool = True) -> dict:
     payload = export(events)
     stats["pubblicati"] = payload["count"]
     stats["comuni_sito"] = write_site_towns()
+    stats["frasi_apertura"] = len(write_intro(payload["events"]))
     shown = {d["uid"] for d in payload["events"]}          # solo cio' che e' davvero sul sito (non i trattenuti)
     stats.update(quality_ops([e for e in events if e.uid in shown], towns, {e.uid for e in site}, len(no_place)))
     NO_PLACE.write_text(json.dumps({"generato": datetime.now(ROME).isoformat(timespec="minutes"),
