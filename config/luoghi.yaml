@@ -1371,3 +1371,358 @@ luoghi:
     lat: 45.2158
     lon: 12.27664
     nota: "Punto comune dei 7 eventi gia' pubblicati (candidato di ops/posizioni.json), tenuto uguale per non creare punti diversi; controllato su Cinema Teatro Don Bosco, Calle Don Bosco, Tombola, Saloni, Sottomarina, Chioggia, Venezia, Veneto, 30015 (OpenStreetMap node 11274707896): a 160 m dal punto comune dei 7 eventi. Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Cinema Teatro Politeama"]
+    comune: "Adria"
+    lat: 45.05129
+    lon: 12.05751
+    nota: "Corso Vittorio Emanuele II 211. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale di Adria"]
+    comune: "Adria"
+    lat: 45.05486
+    lon: 12.05732
+    nota: "Vicolo Camillo Benso Cavour 9. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Millepini"]
+    comune: "Asiago"
+    lat: 45.87306
+    lon: 11.50222
+    nota: "Via Millepini 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro E. Balzan"]
+    comune: "Badia Polesine"
+    lat: 45.09402
+    lon: 11.4899
+    nota: "Via Danieli. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Berico"]
+    comune: "Barbarano Mossano"
+    lat: 45.40952
+    lon: 11.54032
+    nota: "Via IV Novembre. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Castello degli Ezzelini"]
+    comune: "Bassano del Grappa"
+    lat: 45.76911
+    lon: 11.73046
+    nota: "Piazza Castello Ezzelini 3. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Remondini"]
+    comune: "Bassano del Grappa"
+    lat: 45.76931
+    lon: 11.7152
+    nota: "Via Santissima Trinita' 8. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Aurora"]
+    comune: "Campodarsego"
+    lat: 45.50228
+    lon: 11.90773
+    nota: "Piazza Europa. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Dario Fo"]
+    comune: "Camponogara"
+    lat: 45.383
+    lon: 12.07193
+    nota: "Piazza Castellaro 36. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro parrocchiale di Canda"]
+    comune: "Canda"
+    lat: 45.03413
+    lon: 11.49751
+    nota: "Piazza Dante Alighieri. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Cotogni"]
+    comune: "Castelmassa"
+    lat: 45.01715
+    lon: 11.3084
+    nota: "Piazza Vittorio Veneto. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Tullio Serafin"]
+    comune: "Cavarzere"
+    lat: 45.13562
+    lon: 12.08172
+    nota: "Via Roma 8. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza della Memoria, Fossona"]
+    comune: "Cervarese Santa Croce"
+    lat: 45.40258
+    lon: 11.68883
+    nota: "Piazza della Memoria. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Auditorium San Nicolo'"]
+    comune: "Chioggia"
+    lat: 45.22043
+    lon: 12.27911
+    nota: "Calle San Nicolo'. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Sociale"]
+    comune: "Cittadella"
+    lat: 45.64859
+    lon: 11.78031
+    nota: "Via Indipendenza 19. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Alexander Girardi Hall"]
+    comune: "Cortina d'Ampezzo"
+    lat: 46.54033
+    lon: 12.13141
+    nota: "Via Marangoni 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Basilica dei Santi Filippo e Giacomo"]
+    comune: "Cortina d'Ampezzo"
+    lat: 46.53744
+    lon: 12.13645
+    nota: "Corso Italia 88. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Sala Civica"]
+    comune: "Costermano sul Garda"
+    lat: 45.58634
+    lon: 10.73723
+    nota: "Via Belvedere. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Cinema Teatro Italia"]
+    comune: "Dolo"
+    lat: 45.42646
+    lon: 12.0738
+    nota: "Via Comunetto 5. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Farinelli"]
+    comune: "Este"
+    lat: 45.2299
+    lon: 11.65054
+    nota: "Via Antonio Zanchi 5. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro dei Filodrammatici"]
+    comune: "Este"
+    lat: 45.22875
+    lon: 11.65146
+    nota: "Via Calle della Musica 13. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza Vendramin"]
+    comune: "Fiesso Umbertiano"
+    lat: 44.96122
+    lon: 11.60545
+    nota: "Piazza Vendramin. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro parrocchiale di Fiesso Umbertiano"]
+    comune: "Fiesso Umbertiano"
+    lat: 44.96227
+    lon: 11.60131
+    nota: "SP20 582. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Biblioteca Civica di Jesolo"]
+    comune: "Jesolo"
+    lat: 45.53687
+    lon: 12.63884
+    nota: "Piazzetta Jesolo 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Auditorium Vivaldi"]
+    comune: "Jesolo"
+    lat: 45.50349
+    lon: 12.62696
+    nota: "Viale del Bersagliere 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza Costituzione"]
+    comune: "Legnaro"
+    lat: 45.34369
+    lon: 11.96042
+    nota: "Piazza Costituzione. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale Ballarin"]
+    comune: "Lendinara"
+    lat: 45.08325
+    lon: 11.59622
+    nota: "Via Gian Battista Conti 4. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza Martiri della Liberta'"]
+    comune: "Meolo"
+    lat: 45.61895
+    lon: 12.4527
+    nota: "Piazza Martiri della Liberta'. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale di Mirano"]
+    comune: "Mirano"
+    lat: 45.49063
+    lon: 12.11347
+    nota: "Via della Vittoria 75. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Sant'Antonio"]
+    comune: "Montecchio Maggiore"
+    lat: 45.50898
+    lon: 11.40023
+    nota: "Via Pieve 6, Alte Ceccato. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Palazzetto dello Sport F. Fontebasso"]
+    comune: "Noventa di Piave"
+    lat: 45.66372
+    lon: 12.53538
+    nota: "Via Guaiane. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piccolo Teatro"]
+    comune: "Padova"
+    lat: 45.38249
+    lon: 11.85213
+    nota: "Via Asolo 2. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro San Carlo"]
+    comune: "Padova"
+    lat: 45.42726
+    lon: 11.88874
+    nota: "Via Pietro Giovanni Guarneri 22. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Piazza Vittorio Emanuele II"]
+    comune: "Piove di Sacco"
+    lat: 45.29704
+    lon: 12.03495
+    nota: "Piazza Vittorio Emanuele II. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Filarmonico"]
+    comune: "Piove di Sacco"
+    lat: 45.29615
+    lon: 12.03374
+    nota: "Piazza Giacomo Matteotti 5. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro parrocchiale di Scardovari"]
+    comune: "Porto Tolle"
+    lat: 44.89875
+    lon: 12.45101
+    nota: "Viale della Repubblica 6. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Sala Eracle"]
+    comune: "Porto Viro"
+    lat: 45.0241
+    lon: 12.21701
+    nota: "Corso Risorgimento 119. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Auditorium Sant'Antonio"]
+    comune: "Rosolina"
+    lat: 45.07677
+    lon: 12.24679
+    nota: "Via Don Giuseppe Sambo. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Sociale"]
+    comune: "Rovigo"
+    lat: 45.0705
+    lon: 11.7894
+    nota: "Piazza Giuseppe Garibaldi 14. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Ruffo"]
+    comune: "Sacile"
+    lat: 45.95308
+    lon: 12.50255
+    nota: "Piazzetta Antonio Pasqual 22. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Auditorium Quirino De Giorgio"]
+    comune: "San Giorgio delle Pertiche"
+    lat: 45.54297
+    lon: 11.8762
+    nota: "Via Roma 364. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Cinema Teatro Giardino"]
+    comune: "San Giorgio delle Pertiche"
+    lat: 45.54163
+    lon: 11.91255
+    nota: "Via Roma 64. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro R. Pascutto"]
+    comune: "San Stino di Livenza"
+    lat: 45.72891
+    lon: 12.67573
+    nota: "Via Papa Giovanni XXIII 7. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Astra"]
+    comune: "Schio"
+    lat: 45.71306
+    lon: 11.35861
+    nota: "Via Battaglione Val Leogra 45. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Civico"]
+    comune: "Schio"
+    lat: 45.7124
+    lon: 11.35383
+    nota: "Via Pietro Maraschin 19. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Jubilaeum 2000"]
+    comune: "Stienta"
+    lat: 44.93759
+    lon: 11.54321
+    nota: "Via Giovanni XXIII 54. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale Martini"]
+    comune: "Trecenta"
+    lat: 45.03148
+    lon: 11.46065
+    nota: "Piazza Giuseppe Garibaldi 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Cinema Super"]
+    comune: "Valdagno"
+    lat: 45.64678
+    lon: 11.29851
+    nota: "Viale Trento 28. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Toniolo, Mestre"]
+    comune: "Venezia"
+    lat: 45.49321
+    lon: 12.23773
+    nota: "Piazzetta Cesare Battisti 1. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro del Parco, Mestre"]
+    comune: "Venezia"
+    lat: 45.49952
+    lon: 12.25798
+    nota: "Via Sergio Gori 11, Parco Albanese. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Camploy"]
+    comune: "Verona"
+    lat: 45.43921
+    lon: 11.01095
+    nota: "Via Cantarane 32. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale di Vicenza, Ridotto"]
+    comune: "Vicenza"
+    lat: 45.54807
+    lon: 11.53191
+    nota: "Viale Giuseppe Mazzini 39. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comunale di Vicenza, Sala Maggiore"]
+    comune: "Vicenza"
+    lat: 45.54807
+    lon: 11.53191
+    nota: "Viale Giuseppe Mazzini 39. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Comisso di Villa Guidini"]
+    comune: "Zero Branco"
+    lat: 45.60837
+    lon: 12.17951
+    nota: "Via G. B. Guidini. Verificato il 2026-11-28 dall'agente giro (scheda Arteven del teatro o OpenStreetMap, vedi ops/notte/giro.md)"
+  - nomi: ["Teatro Alighieri"]
+    comune: "Ravenna"
+    lat: 44.4171588
+    lon: 12.2012762
+    nota: "Via Mariani 2. Verificato il 2026-11-28 dall'agente italia-b: teatroalighieri.org + OSM"
+  - nomi: ["Teatro Filodrammatici"]
+    comune: "Piacenza"
+    lat: 45.0493042
+    lon: 9.6912564
+    nota: "Via Santa Franca 33. Verificato il 2026-11-28 dall'agente italia-b: comune.piacenza.it + OSM"
+  - nomi: ["Teatro Municipale"]
+    comune: "Piacenza"
+    lat: 45.0492446
+    lon: 9.6935274
+    nota: "Via Verdi 41. Verificato il 2026-11-28 dall'agente italia-b: teatripiacenza.it + OSM"
+  - nomi: ["Biblioteca Passerini-Landi"]
+    comune: "Piacenza"
+    lat: 45.0525583
+    lon: 9.6960579
+    nota: "Via Carducci 14. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Teatro Toselli"]
+    comune: "Cuneo"
+    lat: 44.3937032
+    lon: 7.5534639
+    nota: "Via Teatro Toselli 9. Verificato il 2026-11-28 dall'agente italia-b: OSM (Teatro Civico Toselli)"
+  - nomi: ["Complesso Monumentale di San Francesco"]
+    comune: "Cuneo"
+    lat: 44.3947802
+    lon: 7.5508070
+    nota: "Via Santa Maria 10. Verificato il 2026-11-28 dall'agente italia-b: comune.cuneo.it + OSM"
+  - nomi: ["Castello Visconteo Sforzesco"]
+    comune: "Novara"
+    lat: 45.4444134
+    lon: 8.6172913
+    nota: "Piazza Martiri della Liberta' 3. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Basilica di San Gaudenzio"]
+    comune: "Novara"
+    lat: 45.4487452
+    lon: 8.6194275
+    nota: "Via Carlo Bescape'. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Teatro Civico"]
+    comune: "Oleggio"
+    lat: 45.5974311
+    lon: 8.6344550
+    nota: "Via Roma 43. Verificato il 2026-11-28 dall'agente italia-b: turismonovara.it + OSM"
+  - nomi: ["Museo Civico C.G. Fanchini"]
+    comune: "Oleggio"
+    lat: 45.5960658
+    lon: 8.6385655
+    nota: "Vicolo della Chiesa 1. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Teatro Alfieri"]
+    comune: "Asti"
+    lat: 44.8998797
+    lon: 8.2058561
+    nota: "Via al Teatro Alfieri. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Teatro San Francesco"]
+    comune: "Alessandria"
+    lat: 44.9110692
+    lon: 8.6104714
+    nota: "Via San Francesco d'Assisi 15 (OSM: 13). Verificato il 2026-11-28 dall'agente italia-b: programma del Comune + OSM"
+  - nomi: ["Cinema Teatro Astra"]
+    comune: "Misano Adriatico"
+    lat: 43.9782355
+    lon: 12.7001651
+    nota: "Via Gabriele D'Annunzio. Verificato il 2026-11-28 dall'agente italia-b: visitmisano.it + OSM"
+  - nomi: ["Teatro Amintore Galli"]
+    comune: "Rimini"
+    lat: 44.0601662
+    lon: 12.5648638
+    nota: "Piazza Cavour 22. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Santuario di Oropa"]
+    comune: "Biella"
+    lat: 45.6257302
+    lon: 7.9824967
+    nota: "Via Santuario di Oropa. Verificato il 2026-11-28 dall'agente italia-b: OSM"
+  - nomi: ["Citta' Studi"]
+    comune: "Biella"
+    lat: 45.5559091
+    lon: 8.0328237
+    nota: "Via Carlo Antonio Azario. Verificato il 2026-11-28 dall'agente italia-b: OSM, da confermare l'ingresso"
+  - nomi: ["Teatro Odeon"]
+    comune: "Biella"
+    lat: 45.5570472
+    lon: 8.0623801
+    nota: "Via Torino (Chiavazza). Verificato il 2026-11-28 dall'agente italia-b: **solo OSM**: indirizzo da confermare"

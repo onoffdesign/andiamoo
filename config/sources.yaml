@@ -42,7 +42,7 @@ sources:
     type: jsonld
     portal: true          # grande portale: solo "scoperta", con tetto per giro
     max_events: 40
-    enabled: true
+    enabled: false          # 2026-11-28: vietata, i termini su iubenda vietano copia e opere derivate (regola fonti)
     listing_urls:                     # {Mese} = mese corrente, {Mese+1} = successivo
       - https://www.eventiesagre.it/cerca/cat/sez/{Mese}/Veneto/TV/cit/rilib
       - https://www.eventiesagre.it/cerca/cat/sez/{Mese+1}/Veneto/TV/cit/rilib
@@ -619,6 +619,48 @@ sources:
     max_pages: 1
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-28 (giro): The Events Calendar, l'API /wp-json/tribe/events/v1/events risponde da curl (9 eventi in 120 giorni: Autunno Musicale a Treviso e la stagione CortinAteatro a Cortina d'Ampezzo, con venue, indirizzo e orario). Era nella fonte nota di ops/fonti.yaml, letta a mano. Descrizioni con un commento HTML in testa da ignorare; una scheda ha la fine sbagliata (Schiaccianoci 4/1 con fine 6/3)."
+  - id: teatro-cilea
+    name: Teatro Francesco Cilea (Reggio Calabria)
+    type: tribe_api
+    enabled: true
+    base_url: https://teatrocilea.it
+    per_page: 50
+    max_pages: 1
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): The Events Calendar, 11 eventi futuri. Venue vuoto nell'API: e' sempre il Teatro Cilea."
+  - id: marche-teatro
+    name: Marche Teatro (Ancona)
+    type: tribe_api
+    enabled: true
+    base_url: https://www.marcheteatro.it
+    per_page: 50
+    max_pages: 1
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): The Events Calendar, 30 eventi futuri."
+  - id: visit-lazio
+    name: VisitLazio (eventi del Lazio)
+    type: jsonld
+    enabled: true
+    listing_urls:
+      - https://www.visitlazio.com/eventi-lazio/
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): JSON-LD Event, 93 eventi futuri con indirizzo completo."
+  - id: teatro-massimo-bellini
+    name: Teatro Massimo Bellini (Catania)
+    type: jsonld
+    enabled: true
+    listing_urls:
+      - https://www.teatromassimobellini.it/calendario/
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): JSON-LD Event nel calendario."
+  - id: teatro-bellini-napoli
+    name: Teatro Bellini (Napoli)
+    type: jsonld
+    enabled: true
+    listing_urls:
+      - https://www.teatrobellini.it/
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): JSON-LD Event, 17 eventi futuri."
 
 # Profili social da seguire a mano: il bot li mostra con /profili.
 # Non vengono letti in automatico (Instagram e Facebook lo vietano e bloccano gli account):

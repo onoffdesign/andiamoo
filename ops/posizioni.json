@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T17:47+01:00",
+ "generato": "2026-11-28T17:49+01:00",
  "riepilogo": {
   "eventi_controllati": 1862,
   "allineati_in_automatico": 0,
@@ -7,7 +7,7 @@
   "lontani_dal_comune": 61,
   "solo_comune_con_luogo": 167,
   "solo_comune_senza_luogo": 28,
-  "candidati_luoghi_noti": 37
+  "candidati_luoghi_noti": 2
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -488,69 +488,6 @@
  "candidati_luoghi": [
   {
    "nomi": [
-    "Teatro Auditorium Vivaldi"
-   ],
-   "comune": "Jesolo",
-   "lat": 45.50349,
-   "lon": 12.62696,
-   "eventi": 15
-  },
-  {
-   "nomi": [
-    "Teatro Remondini"
-   ],
-   "comune": "Bassano del Grappa",
-   "lat": 45.76931,
-   "lon": 11.7152,
-   "eventi": 11
-  },
-  {
-   "nomi": [
-    "Teatro Millepini"
-   ],
-   "comune": "Asiago",
-   "lat": 45.87306,
-   "lon": 11.50222,
-   "eventi": 11
-  },
-  {
-   "nomi": [
-    "Teatro R. Pascutto"
-   ],
-   "comune": "San Stino di Livenza",
-   "lat": 45.72891,
-   "lon": 12.67573,
-   "eventi": 10
-  },
-  {
-   "nomi": [
-    "Teatro Civico"
-   ],
-   "comune": "Schio",
-   "lat": 45.7124,
-   "lon": 11.35383,
-   "eventi": 10
-  },
-  {
-   "nomi": [
-    "Teatro Alighieri"
-   ],
-   "comune": "Ravenna",
-   "lat": 44.41716,
-   "lon": 12.20128,
-   "eventi": 10
-  },
-  {
-   "nomi": [
-    "Teatro Tullio Serafin"
-   ],
-   "comune": "Cavarzere",
-   "lat": 45.13562,
-   "lon": 12.08172,
-   "eventi": 8
-  },
-  {
-   "nomi": [
     "Piazza della Repubblica"
    ],
    "comune": "Misano Adriatico",
@@ -560,111 +497,12 @@
   },
   {
    "nomi": [
-    "Teatro Filodrammatici"
+    "Piazza Antonio Gramsci"
    ],
-   "comune": "Piacenza",
-   "lat": 45.0493,
-   "lon": 9.69126,
-   "eventi": 7
-  },
-  {
-   "nomi": [
-    "Teatro Cotogni"
-   ],
-   "comune": "Castelmassa",
-   "lat": 45.01715,
-   "lon": 11.3084,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Piccolo Teatro"
-   ],
-   "comune": "Padova",
-   "lat": 45.38249,
-   "lon": 11.85213,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Comunale Ballarin"
-   ],
-   "comune": "Lendinara",
-   "lat": 45.08325,
-   "lon": 11.59622,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Cinema Teatro Italia"
-   ],
-   "comune": "Dolo",
-   "lat": 45.42646,
-   "lon": 12.0738,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Cinema Super"
-   ],
-   "comune": "Valdagno",
-   "lat": 45.64678,
-   "lon": 11.29851,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Camploy"
-   ],
-   "comune": "Verona",
-   "lat": 45.43921,
-   "lon": 11.01095,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Aurora"
-   ],
-   "comune": "Campodarsego",
-   "lat": 45.50228,
-   "lon": 11.90773,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Sant'Antonio"
-   ],
-   "comune": "Montecchio Maggiore",
-   "lat": 45.50898,
-   "lon": 11.40023,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Comunale di Mirano"
-   ],
-   "comune": "Mirano",
-   "lat": 45.49063,
-   "lon": 12.11347,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Dario Fo"
-   ],
-   "comune": "Camponogara",
-   "lat": 45.383,
-   "lon": 12.07193,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Municipale"
-   ],
-   "comune": "Piacenza",
-   "lat": 45.04924,
-   "lon": 9.69353,
-   "eventi": 6
+   "comune": "Alfonsine",
+   "lat": 44.50554,
+   "lon": 12.04101,
+   "eventi": 5
   }
  ]
 }
