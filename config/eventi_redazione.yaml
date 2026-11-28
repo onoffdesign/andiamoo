@@ -34520,21 +34520,6 @@ eventi:
     summary: Monologo comico di Rob Becker interpretato da Maurizio Colombi, nella rassegna Off Verdi al Teatro Puccini.
     fonte: https://www.teatroverdifirenze.it/wp-content/uploads/2026/09/cronologico-1-settembre.pdf
     trovato: '2026-11-28'
-  - title: Il Tartufo di Moliere, con Alessandro Riccio
-    start: '2027-03-09'
-    end: '2027-03-14'
-    venue: Teatro di Fiesole
-    address: Largo Piero Farulli
-    town: Fiesole
-    lat: 43.8078153
-    lon: 11.2960832
-    category: teatro-spettacoli
-    subcategory: teatro
-    access: biglietto
-    official_url: https://www.teatroverdifirenze.it/wp-content/uploads/2026/09/cronologico-1-settembre.pdf
-    summary: La commedia di Moliere con Alessandro Riccio al Teatro di Fiesole, nella rassegna Off Verdi.
-    fonte: https://www.teatroverdifirenze.it/wp-content/uploads/2026/09/cronologico-1-settembre.pdf
-    trovato: '2026-11-28'
   - title: L'occasione fa il ladro
     start: '2026-12-04'
     venue: Teatro Verdi
