@@ -6,14 +6,24 @@
 <meta name="theme-color" content="#f5f3ee">
 <title>ANDIAMO?</title>
 <meta name="description" content="Concerti, sagre, gare, mostre e incontri in Italia, a partire dalla provincia di Treviso, su una mappa aggiornata ogni giorno.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
-<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" media="print" onload="this.media='all'">
 <link rel="preload" href="data/intro.json" as="fetch" crossorigin>
+<link rel="preload" href="data/sito.json" as="fetch" crossorigin>
 <link rel="preload" href="fonts/patrick-hand-latin.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: "Andiamo Intro"; src: url("fonts/patrick-hand-latin.woff2") format("woff2"); font-display: block; }</style>
-<link href="style.css?v=107" rel="stylesheet">
+<link rel="preload" href="fonts/figtree-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin>
+<style>
+@font-face { font-family: "Andiamo Intro"; src: url("fonts/patrick-hand-latin.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Patrick Hand"; src: url("fonts/patrick-hand-latin.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("fonts/figtree-latin-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("fonts/figtree-latin-500.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("fonts/figtree-latin-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("fonts/figtree-latin-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("fonts/figtree-latin-800.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+</style>
+<link href="style.css?v=108" rel="stylesheet">
 </head>
 <body>
 <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0">
@@ -26,7 +36,7 @@
   <div class="intro-half right"><div class="intro-sheet"></div></div>
 </div>
 <script>document.documentElement.classList.add("intro-on");</script>
-<script src="intro.js?v=6"></script>
+<script src="intro.js?v=7"></script>
 <div class="stage">
   <div id="map" class="map" role="region" aria-label="Mappa degli eventi"></div>
 
@@ -280,6 +290,6 @@
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=106"></script>
+<script src="app.js?v=108"></script>
 </body>
 </html>

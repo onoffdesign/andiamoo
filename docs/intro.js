@@ -18,8 +18,8 @@
   let seen = false;                       // gia' vista in questa scheda (ricarica): un po' piu' svelta
   try { seen = !!sessionStorage.getItem("andiamo-intro-vista"); sessionStorage.setItem("andiamo-intro-vista", "1"); } catch (_) { /* */ }
   // proposte vere: le sottocategorie con eventi nei prossimi giorni (data/intro.json, scritto a ogni pubblicazione)
-  const introUrl = new URL("intro.json", new URL(window.ANDIAMO_DATA || "data/events.json", location.href));
-  const ideas = fetch(introUrl, { cache: "no-cache" }).then((r) => r.json()).then((j) => (j.frasi && j.frasi.length ? j.frasi : FALLBACK)).catch(() => FALLBACK);
+  const introUrl = new URL("intro.json", new URL(window.ANDIAMO_DATA || "data/sito.json", location.href));
+  const ideas = fetch(introUrl).then((r) => r.json()).then((j) => (j.frasi && j.frasi.length ? j.frasi : FALLBACK)).catch(() => FALLBACK);
   let idea = "";
   function pickIdea(list) {
     const last = store("andiamo-intro") || "";

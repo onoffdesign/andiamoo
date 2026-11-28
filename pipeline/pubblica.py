@@ -197,6 +197,28 @@ def write_intro(events: list[dict], days: int = 7, path: Path | None = None) -> 
     return phrases
 
 
+# Campi che il sito usa davvero: il file leggero per il sito (docs/data/sito.json) tiene solo questi.
+# events.json resta completo, perche' la pipeline lo rilegge.
+SITE_FIELDS = ("uid", "title", "start", "end", "category", "subcategory", "access", "price", "audience", "summary",
+               "venue", "address", "town", "lat", "lon", "geo_precision", "action_url", "ticket_url")
+
+
+def write_site_events(payload: dict, path: Path | None = None) -> int:
+    """Versione leggera di events.json per il sito: solo i campi mostrati, niente link doppi."""
+    path = path or export_dir() / "sito.json"
+    events = []
+    for e in payload.get("events", []):
+        d = {k: e[k] for k in SITE_FIELDS if e.get(k) not in (None, "", [])}
+        if d.get("ticket_url") and d.get("ticket_url") == d.get("action_url"):
+            d.pop("ticket_url")
+        events.append(d)
+    light = {k: v for k, v in payload.items() if k != "events"}
+    light["events"] = events
+    text = json.dumps(light, ensure_ascii=False, separators=(",", ":"))
+    path.write_text(text, encoding="utf-8")
+    return len(text)
+
+
 def export_dir() -> Path:
     return (ROOT / settings()["publish"]["export_path"]).parent
 
@@ -226,6 +248,7 @@ def build(write: bool = True) -> dict:
         return stats
     payload = export(events)
     stats["pubblicati"] = payload["count"]
+    stats["sito_json_byte"] = write_site_events(payload)
     stats["comuni_sito"] = write_site_towns()
     stats["frasi_apertura"] = len(write_intro(payload["events"]))
     shown = {d["uid"] for d in payload["events"]}          # solo cio' che e' davvero sul sito (non i trattenuti)

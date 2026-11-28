@@ -799,7 +799,7 @@ body { background: var(--bg) var(--paper); }
 .group { font-family: var(--hand); font-size-adjust: none; text-transform: none; letter-spacing: 0; font-size: 1.35rem; font-weight: 700; }
 
 /* icone dell'interfaccia con un tratto leggermente tremolante, come a penna */
-button svg, a svg, .cal-btn svg { filter: url(#hand-line); }
+
 
 /* eventi in corso: puntino color sole che respira piano */
 .item .when.live { color: var(--live-ink); }
@@ -1241,18 +1241,3 @@ body.view-list .inline-card .card-acc { font-size: 1rem; }
   .intro.tear .intro-half { filter: none; }
   .intro-sheet { background-image: var(--paper); }
 }
-
-/* pulsanti su carta: niente rettangolo pieno, si vede la grana del riquadro; bordo leggero a matita */
-.chip, .cal-btn, .presets button, .cal-nav, .seg-btn, .near-actions button, .view-seg, .sort:not([aria-pressed="true"]), .chips-nav, .strip-nav {
-  background: transparent !important; border: 1.5px solid rgba(29, 27, 24, .28) !important;
-}
-.view-seg { padding: 2px; }
-.view-seg button { border: 0 !important; }
-.view-seg button[aria-pressed="true"] { background: rgba(29, 27, 24, .1) !important; box-shadow: none; }
-.chip:hover, .cal-btn:hover, .presets button:hover, .cal-nav:hover, .seg-btn:hover, .near-actions button:hover { border-color: rgba(29, 27, 24, .7) !important; }
-.chip[aria-pressed="true"] { background: var(--c) !important; border-color: #1d1b18 !important; }
-.presets button[aria-pressed="true"], .seg-btn[aria-pressed="true"], .days[data-open="true"] .cal-btn {
-  background: #1d1b18 !important; border-color: #1d1b18 !important;
-}
-.chips { mask-image: none; -webkit-mask-image: none; }
-.chip.more-filters { background: #1d1b18 !important; border-color: #1d1b18 !important; color: #fff; }
