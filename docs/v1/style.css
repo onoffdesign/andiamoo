@@ -1067,3 +1067,14 @@ body.view-list .group { top: 56px; }
 @media (max-width: 760px) {
   .view-box { top: calc(var(--top) + 52px); right: 10px; padding: 6px; }
 }
+
+/* vista lista: testi degli eventi piu' grandi */
+body.view-list .item h3 { font-size: 1.25rem; line-height: 1.25; font-weight: 500; }
+body.view-list .item .meta { font-size: 1rem; }
+body.view-list .item .when { font-size: 1rem; }
+body.view-list .item .when small { font-size: .875rem; }
+body.view-list .item button { padding: 14px 18px; }
+@media (max-width: 760px) {
+  body.view-list .item h3 { font-size: 1.125rem; }
+  body.view-list .item .meta, body.view-list .item .when { font-size: .9375rem; }
+}
