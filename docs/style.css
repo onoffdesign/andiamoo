@@ -498,12 +498,13 @@ body.sidebar-hidden .list-toggle { display: flex; }
 /* ---------- vista lista ---------- */
 .cards-view { display: none; }
 body.view-list .cards-view {
-  display: block; position: absolute; z-index: 2; left: calc(var(--gap) * 2); right: calc(var(--gap) * 2);
-  top: var(--below-days, 190px); bottom: var(--above-filters, 140px); overflow-y: auto; border-radius: var(--r);
-  padding: 4px 2px 24px; scrollbar-width: thin;
+  /* le card occupano tutto il foglio e scorrono dietro a testata, filtri e accesso (che restano sopra) */
+  display: block; position: absolute; z-index: 2; inset: var(--gap); overflow-y: auto; border-radius: 20px;
+  padding: calc(var(--below-days, 190px) - var(--gap)) calc(var(--gap) + 2px) calc(var(--above-filters, 140px) - var(--gap) + 24px);
+  scroll-padding-top: calc(var(--below-days, 190px) - var(--gap)); scrollbar-width: thin;
 }
 .cards-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; align-items: start; }
-.cards-list .card.full { width: auto; box-shadow: 0 2px 10px rgba(0, 0, 0, .08); }
+.cards-list .card.full { width: auto; min-width: 0; box-shadow: 0 2px 10px rgba(0, 0, 0, .08); }
 .cards-day {
   grid-column: 1 / -1; margin: 10px 0 0; font-family: var(--display); font-stretch: 112%; text-transform: uppercase;
   font-size: .875rem; letter-spacing: .04em;
@@ -645,7 +646,7 @@ body.view-list .stage { background: var(--land); }
   .days-panel::-webkit-scrollbar { display: none; }
   .range-hint { display: none; }
   .view-seg button span { display: none; }
-  body.view-list .cards-view { left: 10px; right: 10px; top: var(--below-filters, 200px); bottom: 0; padding-bottom: calc(24px + var(--sab)); }
+  body.view-list .cards-view { inset: 0; border-radius: 0; padding: var(--below-filters, 200px) 10px calc(24px + var(--sab)); }
   .cards-list { grid-template-columns: 1fr; }
   .presets { padding-bottom: 6px; gap: 4px; }
   .presets button { height: 34px; padding: 0 8px; font-size: .6875rem; font-stretch: 100%; letter-spacing: .02em; }
