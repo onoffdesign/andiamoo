@@ -842,25 +842,23 @@
         this.init();
         if (this.ctx.state === "suspended") this.ctx.resume();
         const t = this.ctx.currentTime + 0.01;
-        if (name === "select") {                         // puntina appoggiata sulla carta: tocco leggero e asciutto
-          this.rustle(t, 0.035, { freq: 3000, q: 1.6, gain: 0.28, attack: 0.002 });
-          this.thud(t + 0.004, { freq: 320, to: 170, dur: 0.05, gain: 0.16 });
+        // solo carta e grafite: nessun colpo grave (niente "tamburo")
+        if (name === "select") {                         // puntina appoggiata sulla carta
+          this.rustle(t, 0.035, { freq: 3000, q: 1.6, gain: 0.3, attack: 0.002 });
+          this.rustle(t + 0.01, 0.03, { freq: 5200, q: 2.5, gain: 0.12, attack: 0.002 });
         } else if (name === "expand") {                  // foglio che si apre
-          this.rustle(t, 0.32, { freq: 700, to: 3800, q: 0.7, gain: 0.45, attack: 0.04 });
-          this.rustle(t + 0.2, 0.08, { freq: 3200, q: 2, gain: 0.3 });
-          this.thud(t + 0.24, { freq: 110, to: 60, dur: 0.1, gain: 0.25 });
-        } else if (name === "close") {                   // foglio ripiegato e appoggiato
-          this.rustle(t, 0.2, { freq: 3500, to: 800, q: 0.8, gain: 0.4, attack: 0.02 });
-          this.thud(t + 0.16, { freq: 130, to: 50, dur: 0.12, gain: 0.45 });
-        } else if (name === "chip") {                    // scatto secco di una levetta / matita sul tavolo
-          this.rustle(t, 0.025, { freq: 4200, q: 3, gain: 0.5, attack: 0.001 });
-          this.thud(t, { freq: 420, to: 180, dur: 0.045, gain: 0.3 });
-        } else if (name === "save-on") {                 // due tratti di matita e un colpetto
+          this.rustle(t, 0.3, { freq: 900, to: 3800, q: 0.7, gain: 0.4, attack: 0.04 });
+          this.rustle(t + 0.2, 0.07, { freq: 3400, q: 2, gain: 0.22 });
+        } else if (name === "close") {                   // foglio che si ripiega
+          this.rustle(t, 0.2, { freq: 3600, to: 1200, q: 0.8, gain: 0.36, attack: 0.02 });
+          this.rustle(t + 0.17, 0.05, { freq: 2400, q: 1.4, gain: 0.16 });
+        } else if (name === "chip") {                    // scatto secco di carta
+          this.rustle(t, 0.022, { freq: 4400, q: 3, gain: 0.38, attack: 0.001 });
+        } else if (name === "save-on") {                 // due tratti di matita
           this.rustle(t, 0.09, { freq: 5200, to: 3800, q: 4, gain: 0.35, attack: 0.01 });
           this.rustle(t + 0.11, 0.12, { freq: 4600, to: 5600, q: 4, gain: 0.35, attack: 0.01 });
-          this.thud(t + 0.24, { freq: 200, to: 80, dur: 0.08, gain: 0.35 });
         } else if (name === "save-off") {                // gomma che cancella
-          [0, 0.09, 0.18].forEach((d, i) => this.rustle(t + d, 0.08, { freq: 900 + i * 120, type: "lowpass", q: 0.6, gain: 0.45, attack: 0.015 }));
+          [0, 0.09, 0.18].forEach((d, i) => this.rustle(t + d, 0.08, { freq: 1300 + i * 150, q: 0.8, gain: 0.4, attack: 0.015 }));
         }
       } catch (_) { /* audio non disponibile */ }
     },
