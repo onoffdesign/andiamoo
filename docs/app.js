@@ -15,7 +15,8 @@
 
   const state = {
     from: null, to: null, preset: "all", cats: new Set(), access: new Set(), aud: new Set(), q: "",
-    selected: null, detail: false, sort: "distance", me: null, fav: false, place: null,   // place: nome del luogo di "Vicino a"
+    selected: null, detail: false, sort: "distance", me: null, fav: false, place: null,
+    radius: (() => { try { return +localStorage.getItem("andiamo-raggio") || 30; } catch (_) { return 30; } })(),   // km, vista lista   // place: nome del luogo di "Vicino a"
     view: "map", pick: null,                 // vista mappa/lista; primo giorno scelto nel calendario (in attesa del secondo)
     sidebarHidden: false, hiddenBeforeDetail: false,
   };
@@ -448,6 +449,7 @@
     if (v === "list") {
       closeCard(); state.selected = null;
       ensurePlace();
+      if (EVENTS.length) update();
       // il titolo del giorno resta fermo subito sotto la riga con preferiti e "Piu' vicini"
       requestAnimationFrame(() => document.documentElement.style.setProperty("--list-head", `${Math.round($("#sheet-head").getBoundingClientRect().height)}px`));
     }
@@ -1395,7 +1397,9 @@
     const on = state.sort === "distance" && !!state.me;
     b.setAttribute("aria-pressed", String(on));
     b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span>${
-      on ? `Vicino a ${esc(state.place || "…")}` : state.me ? "Per data" : "Vicino a…"}</span>`;
+      on ? `Entro ${state.radius} km da ${esc(state.place || "…")}` : state.me ? "Per data" : "Vicino a…"}</span>`;
+    const r = $("#near-radius");
+    if (r) { r.textContent = `${state.radius} km`; $("#near-less").disabled = state.radius <= 5; $("#near-more").disabled = state.radius >= 200; }
     b.title = "Cambia il luogo";
   }
   // prima apertura della lista: posizione salvata, altrimenti quella del dispositivo (se l'utente la concede)
@@ -1440,6 +1444,13 @@
     });
     $("#near-gps").addEventListener("click", () => { openNear(false); locate(); });
     $("#near-date").addEventListener("click", () => { openNear(false); state.sort = "date"; update(); });
+    const step = (d) => {                          // raggio a scalini di 5 km, da 5 a 200
+      state.radius = Math.min(200, Math.max(5, state.radius + d)); state.sort = "distance";
+      try { localStorage.setItem("andiamo-raggio", String(state.radius)); } catch (_) { /* privato */ }
+      Sound.play("chip"); update();
+    };
+    $("#near-less").addEventListener("click", () => step(-5));
+    $("#near-more").addEventListener("click", () => step(5));
     document.addEventListener("click", (ev) => { if (!$("#near-pop").hidden && !ev.composedPath().includes($("#near"))) openNear(false); });
   }
   function toggleSort() { openNear($("#near-pop").hidden); }
@@ -1460,6 +1471,9 @@
     LIVE = new Set(onMap.filter((e) => isLive(e, now)).map((e) => e.uid));
     let items = onlyUids ? onMap.filter((e) => onlyUids.has(e.uid)) : onMap.slice();   // l'elenco puo' restringersi a un punto
     const from = state.from || "";
+    // vista lista ordinata per vicinanza: solo gli eventi entro il raggio scelto (i preferiti si vedono tutti)
+    if (state.view === "list" && state.sort === "distance" && state.me && !state.fav && !onlyUids)
+      items = items.filter((e) => km(e) <= state.radius);
     if (state.sort === "distance" && state.me) items.sort((a, b) => km(a) - km(b));
     else {
       const key = (e) => (e.start.slice(0, 10) < from ? from : e.start.slice(0, 10)) + (timeOf(e) || "99");
