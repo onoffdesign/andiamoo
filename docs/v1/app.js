@@ -63,6 +63,16 @@
     b.setAttribute("aria-pressed", String(state.fav));
     b.setAttribute("aria-label", state.fav ? "Mostra tutti gli eventi" : `Preferiti: ${n}`);
     b.innerHTML = `${HEART(state.fav || n > 0)}<span>${n}</span>`;
+    // cuore tra i controlli della mappa: solo se c'e' almeno un preferito; acceso = sulla mappa solo i preferiti
+    const m = $("#fav-map");
+    if (m) {
+      if (!n && state.fav) { state.fav = false; setTimeout(() => update(true), 0); }
+      m.hidden = !n;
+      m.setAttribute("aria-pressed", String(state.fav));
+      m.setAttribute("aria-label", state.fav ? "Mostra tutti gli eventi" : "Mostra solo i preferiti");
+      m.title = state.fav ? "Mostra tutti gli eventi" : "Solo i miei preferiti";
+      m.innerHTML = HEART(true);
+    }
   }
 
   // ---------------------------------------------------------------- date e distanze
@@ -821,8 +831,8 @@
   function mapPadding(extraBottom = 0) {
     if (MOBILE()) {
       const top = $(".filters").getBoundingClientRect().bottom + 40;
-      const panelTop = $("#panel").getBoundingClientRect().top;
-      return { top, bottom: Math.max(60, window.innerHeight - panelTop + 20 + extraBottom), left: 30, right: 30 };
+      // l'elenco non sta piu' sopra la mappa: in basso restano solo i controlli
+      return { top, bottom: 60 + extraBottom, left: 30, right: 70 };
     }
     return { top: Math.round($(".chips-row").getBoundingClientRect().bottom) + 30, bottom: 120, left: 60, right: 90 };
   }
@@ -840,8 +850,7 @@
     if (MOBILE()) {
       v.top = $(".filters").getBoundingClientRect().bottom + 10;
       // con la card aperta l'elenco scende fino a lasciare solo la maniglia (la posizione finale, non quella animata)
-      const panelTop = $("#panel").dataset.sheet === "min" ? window.innerHeight - SHEET_MIN : $("#panel").getBoundingClientRect().top;
-      v.bottom = Math.min(v.bottom, panelTop - 10);
+      v.bottom = Math.min(v.bottom, window.innerHeight - 12);
     } else {
       // colonna libera a destra di elenco e filtri di accesso, fino al fondo della mappa
       v.top = $(".chips-row").getBoundingClientRect().bottom + 12;
@@ -1824,6 +1833,12 @@
       if ($(".days").dataset.open === "true" && !ev.composedPath().some((n) => n.classList && n.classList.contains("days"))) setCalendar(false);
     });
     document.querySelectorAll(".view-seg button").forEach((b) => b.addEventListener("click", () => { Sound.play("chip"); setView(b.dataset.view); }));
+    $("#fav-map").addEventListener("click", () => {
+      state.fav = !state.fav; onlyUids = null; Sound.play("chip");
+      closeAll();
+      update(true);
+      toast(state.fav ? "Sulla mappa solo i tuoi preferiti" : "Di nuovo tutti gli eventi");
+    });
     $("#fav-btn").addEventListener("click", () => {
       state.fav = !state.fav; onlyUids = null; Sound.play("chip");
       closeAll();
