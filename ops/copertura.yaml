@@ -516,7 +516,7 @@ comuni_VB:
   Pieve Vergonte: '2026-11-28'   # solo calendario del Distretto Laghi, nessun evento
 comuni_GE:
   Genova: '2026-11-28'
-  Rapallo: '2026-11-28'   # hellorapallo.it letto: eventi senza luogo, non pubblicati
+  Rapallo: '2026-11-28'   # hellorapallo.it API tribe letta: 15 eventi (Teatro delle Clarisse, Castello, San Francesco)
   Valbrevenna: '2026-11-28'   # non cercato per budget
   Ceranesi: '2026-11-28'   # non cercato per budget
 comuni_SV:
@@ -526,7 +526,7 @@ comuni_SV:
   Calizzano: '2026-11-28'   # non cercato per budget
 comuni_SP:
   La Spezia: '2026-11-28'
-  Sarzana: '2026-11-28'   # solo ricerca, Natale 2026 non pubblicato
+  Sarzana: '2026-11-28'   # Natale 2026 (cittadellaspezia 26/11): 11 eventi; visitsarzana.it anti-bot
   Portovenere: '2026-11-28'   # solo ricerca, Natale 2026 non pubblicato
   Borghetto di Vara: '2026-11-28'   # non cercato per budget
 comuni_IM:
@@ -542,7 +542,7 @@ comuni_AO:
 comuni_FI:
   Firenze: '2026-11-28'
   Vaglia: '2026-11-28'   # solo ricerca, nessun evento
-  Rignano sull'Arno: '2026-11-28'   # solo presepi 2025/26
+  Rignano sull'Arno: '2026-11-28'   # Destination Florence: Natale 5 e 13/12 senza luogo, non pubblicato
   Pelago: '2026-11-28'   # pagina Fiera di Natale del Comune del 2024
 comuni_PI:
   Pisa: '2026-11-28'
@@ -580,7 +580,7 @@ categorie_IM:
 categorie_AO:
   "Natura e benessere > Escursioni": 2026-11-28   # [ciaspolata guidata Valle d'Aosta]: NaturAlp
 categorie_FI:
-  "Spettacoli > Teatro": 2026-11-28   # [stagione Teatro Verdi, Pergola]: Verdi letto, Pergola illeggibile
+  "Spettacoli > Teatro": 2026-11-28   # [Pergola, Maggio, Destination Florence]: Pergola e Maggio letti (italia-a, sera)
 categorie_PI:
   "Sport > Racchetta": 2026-11-28   # [torneo tennis padel Pisa dicembre]: resa 0 (solo Playtomic)
 categorie_BI:

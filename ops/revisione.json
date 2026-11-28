@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T20:51+01:00",
+ "generato": "2026-11-28T20:53+01:00",
  "eventi": [
   {
    "uid": "4d5cf01bcdc28c8e",
@@ -23,6 +23,51 @@
    "lat": 45.66577,
    "lon": 12.25044,
    "precisione": "venue"
+  },
+  {
+   "uid": "5dab492d0564d519",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Visite alle storiche sale d'attesa della stazione",
+   "inizio": "2026-10-02T11:00",
+   "fine": "2026-12-31T17:00",
+   "luogo": "Stazione Montecatini Terme - Monsummano",
+   "indirizzo": "Piazzale Italia 43A",
+   "comune": "Montecatini-Terme",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "montecatinitermetourism.com",
+   "pagina_fonte": "https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario",
+   "sito_ufficiale": "https://montecatinitermetourism.com/events/visite-guidate-alle-storiche-sale-dattesa-della-stazione-fs-montecatini-terme-monsummano/",
+   "riassunto": "Apertura gratuita delle sale d'attesa degli anni Trenta della stazione di Montecatini Terme - Monsummano, grazie all'accordo tra Comune e Fondazione FS.",
+   "lat": 43.879633,
+   "lon": 10.780833,
+   "precisione": "address"
+  },
+  {
+   "uid": "2fbfdf3be8f949ac",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Alessandro Franchi nella Siena tra Otto e Novecento",
+   "inizio": "2026-10-30",
+   "fine": "2027-02-28",
+   "luogo": "Palazzo Pubblico",
+   "indirizzo": "Il Campo 1",
+   "comune": "Siena",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "comune.siena.it",
+   "pagina_fonte": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)",
+   "sito_ufficiale": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
+   "riassunto": "Mostra sul pittore Alessandro Franchi ai Magazzini del Sale e al Museo Civico di Palazzo Pubblico.",
+   "lat": 43.317997,
+   "lon": 11.332013,
+   "precisione": "address"
   },
   {
    "uid": "f54d160db291759b",
@@ -92,6 +137,73 @@
    "precisione": "address"
   },
   {
+   "uid": "18044dee7a1f02d2",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Coltivare la Speranza. Nel segno di Francesco",
+   "inizio": "2026-11-13",
+   "fine": "2027-01-10",
+   "luogo": "Palazzo Ducale",
+   "indirizzo": "Piazza Napoleone",
+   "comune": "Lucca",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "eventi.turismo.lucca.it",
+   "pagina_fonte": "https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)",
+   "sito_ufficiale": "https://eventi.turismo.lucca.it/evento-singolo.php?id=4783",
+   "riassunto": "Mostra di dipinti e sculture contemporanee sulla figura di San Francesco nella Sala dell'Antica Armeria.",
+   "lat": 43.8413787,
+   "lon": 10.5019186,
+   "precisione": "address"
+  },
+  {
+   "uid": "ad534dccada2ea54",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "La Ippovia del Natale",
+   "inizio": "2026-11-14T11:00",
+   "fine": "2026-12-27T18:30",
+   "luogo": "Parco della Pineta",
+   "indirizzo": "Viale dei Salici",
+   "comune": "Montecatini-Terme",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "montecatinitermetourism.com",
+   "pagina_fonte": "https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario",
+   "sito_ufficiale": "https://montecatinitermetourism.com/events/la-ippovia-del-natale/",
+   "riassunto": "I pony del centro ippico di Pieve a Nievole nei viali della Pineta per i bambini.",
+   "lat": 43.887128,
+   "lon": 10.774516,
+   "precisione": "address"
+  },
+  {
+   "uid": "bbe4fc8c8a3e9bb6",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Il libro d'herbe di Gherardo Cibo",
+   "inizio": "2026-11-15",
+   "fine": "2027-02-14",
+   "luogo": "Museo Diocesano di Massa",
+   "indirizzo": "Via Alberica",
+   "comune": "Massa",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visittuscany.com",
+   "pagina_fonte": "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Museo Diocesano di Massa (OpenStreetMap)",
+   "sito_ufficiale": "https://www.visittuscany.com/it/eventi/massa-il-libro-dherbe-di-gherardo-cibo-novembre-febbraio-2027/",
+   "riassunto": "Mostra con l'erbario cinquecentesco di Gherardo Cibo della Biblioteca Marucelliana, insieme a libri, dipinti e tessuti sul rapporto tra botanica e arte.",
+   "lat": 44.0357933,
+   "lon": 10.1422981,
+   "precisione": "address"
+  },
+  {
    "uid": "fdea68050b6b6121",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -137,6 +249,29 @@
    "precisione": "address"
   },
   {
+   "uid": "e819e86cd390db2c",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Il Grande Sogno di Antonio Possenti",
+   "inizio": "2026-11-21",
+   "fine": "2027-01-07",
+   "luogo": "Palazzo Guinigi",
+   "indirizzo": "Via Guinigi 29",
+   "comune": "Lucca",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "eventi.turismo.lucca.it",
+   "pagina_fonte": "https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)",
+   "sito_ufficiale": "https://eventi.turismo.lucca.it/evento-singolo.php?id=4794",
+   "riassunto": "Mostra retrospettiva dedicata al pittore lucchese Antonio Possenti a dieci anni dalla scomparsa.",
+   "lat": 43.8437846,
+   "lon": 10.5072283,
+   "precisione": "address"
+  },
+  {
    "uid": "d679d1415e7d32dc",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -157,6 +292,28 @@
    "lat": 45.66597,
    "lon": 12.24995,
    "precisione": "venue"
+  },
+  {
+   "uid": "252d805211cf0939",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Vivere il San Francesco. Storie di comunita', territori, culture",
+   "inizio": "2026-11-22",
+   "fine": "2027-02-28",
+   "luogo": "Chiesa di San Francesco",
+   "indirizzo": "Piazza San Francesco",
+   "comune": "Lucca",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "eventi.turismo.lucca.it",
+   "pagina_fonte": "https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)",
+   "sito_ufficiale": "https://eventi.turismo.lucca.it/evento-singolo.php?id=4792",
+   "riassunto": "Percorso espositivo sulla storia e gli ambienti del complesso di San Francesco.",
+   "lat": 43.8454916,
+   "lon": 10.511405,
+   "precisione": "address"
   },
   {
    "uid": "e95b8eb2373a9e9e",
@@ -558,6 +715,94 @@
    "precisione": "address"
   },
   {
+   "uid": "27b0ee9d205293fa",
+   "motivi": [
+    "possibile doppione di e0b1dabf1e52f390"
+   ],
+   "titolo": "Mercatino di Natale a Fosdinovo",
+   "inizio": "2026-11-28T10:00",
+   "fine": "2026-11-28T18:00",
+   "luogo": "Centro storico di Fosdinovo",
+   "indirizzo": "Centro storico",
+   "comune": "Fosdinovo",
+   "categoria": "mercatini-fiere",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "visitlunigiana.it",
+   "pagina_fonte": "https://visitlunigiana.it/aspettando-natale-2026-in-lunigiana/ (Associazione Operatori Turistici Lunigianesi; schede con JSON-LD lette il 2026-11-28); punto: centro di Fosdinovo (OpenStreetMap)",
+   "sito_ufficiale": "https://visitlunigiana.it/events/mercatino-di-natale-fosdinovo-2026/",
+   "riassunto": "Mercatino natalizio per le vie del borgo con banchi gastronomici, musica, animazione per bambini e Babbo Natale.",
+   "lat": 44.13382,
+   "lon": 10.018869,
+   "precisione": "address"
+  },
+  {
+   "uid": "37b4fcdab01496d9",
+   "motivi": [
+    "possibile doppione di 27b0ee9d205293fa"
+   ],
+   "titolo": "Mercatino di Natale in piazza dello Spirito Santo",
+   "inizio": "2026-11-28T09:00",
+   "fine": "2026-11-29T19:30",
+   "luogo": "Piazza dello Spirito Santo",
+   "indirizzo": "Piazzetta Spirito Santo",
+   "comune": "Pistoia",
+   "categoria": "mercatini-fiere",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "comune.pistoia.it",
+   "pagina_fonte": "https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28); punto: Chiesa dello Spirito Santo sulla piazza (OpenStreetMap)",
+   "sito_ufficiale": "https://www.comune.pistoia.it/it/eventi/mercatino-di-natale",
+   "riassunto": "Mercatino natalizio con idee regalo, oggetti artigianali e prodotti alimentari, nell'ambito di Pistoia Citta' del Natale.",
+   "lat": 43.9342066,
+   "lon": 10.9158041,
+   "precisione": "address"
+  },
+  {
+   "uid": "95768794f0fefd2b",
+   "motivi": [
+    "possibile doppione di 268e3ce57ae79329"
+   ],
+   "titolo": "Siena Incanta: accensione delle luminarie",
+   "inizio": "2026-11-28T17:00",
+   "fine": null,
+   "luogo": "Piazza del Campo",
+   "indirizzo": "Il Campo",
+   "comune": "Siena",
+   "categoria": "sagre-feste",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "comune.siena.it",
+   "pagina_fonte": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)",
+   "sito_ufficiale": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
+   "riassunto": "Accensione delle luminarie in centro e degli alberi di Natale nei quartieri, apertura del programma natalizio Siena Incanta.",
+   "lat": 43.3184391,
+   "lon": 11.3315583,
+   "precisione": "address"
+  },
+  {
+   "uid": "44255b9588d7df7a",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Sant'Agostino ad Asciano: tra arte, storia e devozione",
+   "inizio": "2026-11-28T16:00",
+   "fine": "2026-11-28T18:00",
+   "luogo": "Chiesa di Sant'Agostino",
+   "indirizzo": "Vicolo Sant'Agostino",
+   "comune": "Asciano",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visittuscany.com",
+   "pagina_fonte": "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: chiesa di Sant'Agostino (OpenStreetMap)",
+   "sito_ufficiale": "https://www.visittuscany.com/it/eventi/asciano-santagostino-tra-arte-storia-e-devozione-28-novembre-2026/",
+   "riassunto": "Convegno sui restauri di tre tele della chiesa di Sant'Agostino, seguito da una visita alla Madonna delle Grazie al Museo Civico di Palazzo Corboli.",
+   "lat": 43.2364118,
+   "lon": 11.558894,
+   "precisione": "address"
+  },
+  {
    "uid": "9e3640b39128d79d",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -710,6 +955,28 @@
    "lat": 45.7000768,
    "lon": 8.4656488,
    "precisione": "address"
+  },
+  {
+   "uid": "6d59e6c29c948eff",
+   "motivi": [
+    "possibile doppione di 57f6697164990781"
+   ],
+   "titolo": "parkrun Treviso",
+   "inizio": "2026-11-28T09:00",
+   "fine": null,
+   "luogo": "Parco dello Storga",
+   "indirizzo": "Via Cal di Breda 130",
+   "comune": "Treviso",
+   "categoria": "sport",
+   "accesso": "iscrizione",
+   "prezzo": "gratuito, registrazione una tantum sul sito parkrun",
+   "fonte": "parkrun.it",
+   "pagina_fonte": "https://www.parkrun.it/treviso/",
+   "sito_ufficiale": "https://www.parkrun.it/treviso/",
+   "riassunto": "Corsa o camminata libera e cronometrata di 5 km al Parco dello Storga, aperta a tutti; serve registrarsi una volta e portare il proprio codice a barre.",
+   "lat": 45.69453,
+   "lon": 12.27042,
+   "precisione": "venue"
   },
   {
    "uid": "582c79c5e0a44d7e",
@@ -1065,271 +1332,6 @@
    "riassunto": "Pranzo con piatti della tradizione di Sonnino preparati in cucine temporanee nell'area pedonale tra via Cesare Battisti e piazza Garibaldi.",
    "lat": 41.4141931,
    "lon": 13.2419263,
-   "precisione": "address"
-  },
-  {
-   "uid": "457c14a1da3a9555",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Sagra della Polenta a Rocca Massima, VI edizione",
-   "inizio": "2026-11-29T10:00",
-   "fine": null,
-   "luogo": "Centro di Rocca Massima",
-   "indirizzo": "Via del Municipio 47",
-   "comune": "Rocca Massima",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "visitlazio.com",
-   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)",
-   "sito_ufficiale": "https://www.visitlazio.com/eventi-lazio/vi-edizione-della-sagra-della-polenta-a-rocca-massima/",
-   "riassunto": "Mercatino di artigianato e prodotti tipici dal mattino e distribuzione della polenta con salsicce dalle 13, con musica dal vivo.",
-   "lat": 41.67837,
-   "lon": 12.91986,
-   "precisione": "address"
-  },
-  {
-   "uid": "39bcc9bb3ce777fa",
-   "motivi": [
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Human Atlas. Due secoli di fotografia dalla collezione Mario Trevisan",
-   "inizio": "2026-11-29",
-   "fine": "2027-02-28",
-   "luogo": "Casa Robegan",
-   "indirizzo": "Via Antonio Canova 38",
-   "comune": "Treviso",
-   "categoria": "arte-cultura",
-   "accesso": "biglietto",
-   "prezzo": "intero 8 euro, ridotto 5, famiglia 16",
-   "fonte": "iltaccodibacco.it",
-   "pagina_fonte": "https://iltaccodibacco.it/oderzo/",
-   "sito_ufficiale": "https://iltaccodibacco.it/veneto/eventi/338165.html",
-   "riassunto": "Mostra di 80 fotografie della collezione di Mario Trevisan, curata da Carlo Sala e promossa da Fondazione Mazzotti e Comune di Treviso per il bicentenario della fotografia. Aperta da venerdi' a domenica dalle 10 alle 18, con aperture straordinarie nelle feste.",
-   "lat": 45.66777,
-   "lon": 12.24148,
-   "precisione": "address"
-  },
-  {
-   "uid": "b8128c8a15573ee8",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Arti e Mestieri in piazza San Giusto",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Piazza San Giusto",
-   "indirizzo": "Piazza San Giusto",
-   "comune": "Lucca",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismo.lucca.it",
-   "pagina_fonte": "https://turismo.lucca.it/lucca-magico-natale-2026/",
-   "sito_ufficiale": "https://turismo.lucca.it/lucca-magico-natale-2026/",
-   "riassunto": "Mostra mercato di artigianato in piazza San Giusto nel programma Lucca Magico Natale.",
-   "lat": 43.8418783,
-   "lon": 10.5037734,
-   "precisione": "address"
-  },
-  {
-   "uid": "32c8658a0996afac",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Natale a Marti, presepi sulla via",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Piazza Fantozzi",
-   "indirizzo": "Piazza Fantozzi, Marti",
-   "comune": "Montopoli in Val d'Arno",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "terredipisa.it",
-   "pagina_fonte": "https://www.terredipisa.it/pisa-eventi/",
-   "sito_ufficiale": "https://www.terredipisa.it/events/presepi-sulla-via-marti-montopoli-in-valdarno/",
-   "riassunto": "Giornata di festa natalizia nel borgo di Marti con i presepi lungo le vie.",
-   "lat": 43.6493657,
-   "lon": 10.7442676,
-   "precisione": "address"
-  },
-  {
-   "uid": "2ca0e82f111844ae",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Visite guidate nella Riserva Naturale Lago di Santa Luce",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Riserva Naturale Lago di Santa Luce",
-   "indirizzo": "Via Rosignanina",
-   "comune": "Santa Luce",
-   "categoria": "natura-outdoor",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "terredipisa.it",
-   "pagina_fonte": "https://www.terredipisa.it/pisa-eventi/",
-   "sito_ufficiale": "https://www.terredipisa.it/events/attivita-nella-riserva-naturale-lipu-di-santa-luce/",
-   "riassunto": "Visite guidate nella riserva naturale LIPU del lago di Santa Luce.",
-   "lat": 43.4462025,
-   "lon": 10.5149178,
-   "precisione": "address"
-  },
-  {
-   "uid": "da94c9dddb59ca99",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Il Sindaco Pescatore",
-   "inizio": "2026-11-30T21:00",
-   "fine": null,
-   "luogo": "Teatro Alighieri",
-   "indirizzo": "Via Mariani 2",
-   "comune": "Ravenna",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatroalighieri.org",
-   "pagina_fonte": "https://www.teatroalighieri.org/spettacoli/",
-   "sito_ufficiale": "https://www.teatroalighieri.org/events/il-sindaco-pescatore/",
-   "riassunto": "Spettacolo con Ettore Bassi dedicato alla figura di Angelo Vassallo, sindaco di Pollica ucciso nel 2010, con la partecipazione di studenti delle scuole superiori.",
-   "lat": 44.4171588,
-   "lon": 12.2012762,
-   "precisione": "address"
-  },
-  {
-   "uid": "ecb62be12b6b2a54",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Fernando Aramburu presenta Maite",
-   "inizio": "2026-11-30T18:00",
-   "fine": null,
-   "luogo": "Broletto di Novara",
-   "indirizzo": "Via Fratelli Rosselli 20",
-   "comune": "Novara",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Fernando Aramburu presenta il suo romanzo Maite nel Salone dell'Arengo, in dialogo con Demetrio Paolin.",
-   "lat": 45.44653,
-   "lon": 8.61954,
-   "precisione": "address"
-  },
-  {
-   "uid": "a73d701f0cbdc52c",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Il presepe in piazza Cavour",
-   "inizio": "2026-11-30",
-   "fine": "2027-01-07",
-   "luogo": "Piazza Cavour",
-   "indirizzo": "Piazza Cavour",
-   "comune": "Vercelli",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "visitvalsesiavercelli.it",
-   "pagina_fonte": "https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/",
-   "sito_ufficiale": "https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/il-presepe-in-piazza-cavour/",
-   "riassunto": "Presepe allestito in piazza Cavour per le feste di Natale.",
-   "lat": 45.3259757,
-   "lon": 8.4233894,
-   "precisione": "address"
-  },
-  {
-   "uid": "9c3e29c62114e4a2",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Generazione DDT, presentazione del libro di Grazia Rosina",
-   "inizio": "2026-12-01T16:00",
-   "fine": null,
-   "luogo": "Biblioteca Civica Negroni",
-   "indirizzo": "Corso Felice Cavallotti 4",
-   "comune": "Novara",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Presentazione del libro di Grazia Rosina nella Sala Genocchio della Biblioteca Negroni.",
-   "lat": 45.4467952,
-   "lon": 8.6227071,
-   "precisione": "address"
-  },
-  {
-   "uid": "ecaa7f8bec04906d",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Territori in diacronia, i paesaggi del Po",
-   "inizio": "2026-12-02",
-   "fine": "2027-02-27",
-   "luogo": "Museo del Tesoro del Duomo",
-   "indirizzo": "Piazza Papa Giovanni XXIII",
-   "comune": "Vercelli",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "visitvalsesiavercelli.it",
-   "pagina_fonte": "https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/",
-   "sito_ufficiale": "https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mostra-i-paesaggi-del-po-tra-storia-e-trasformazioni-territori-in-diacronia-paesaggi-fluviali-e-opere-idrauliche-lungo-il-fiume-po/",
-   "riassunto": "Mostra sui paesaggi fluviali e le opere idrauliche lungo il Po al Museo del Tesoro del Duomo; inaugurazione il 2 dicembre alle 18.",
-   "lat": 45.3298055,
-   "lon": 8.4234474,
-   "precisione": "address"
-  },
-  {
-   "uid": "1fd27dfd3d865cfa",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Quando il NO non puoi dirlo!",
-   "inizio": "2026-12-02T17:00",
-   "fine": null,
-   "luogo": "Broletto di Novara",
-   "indirizzo": "Via Fratelli Rosselli 20",
-   "comune": "Novara",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Incontro pubblico all'Arengo del Broletto su droghe, violenza sessuale e strumenti per difendersi.",
-   "lat": 45.44653,
-   "lon": 8.61954,
-   "precisione": "address"
-  },
-  {
-   "uid": "38503affcfaddd97",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Con un cuore che ascolta",
-   "inizio": "2026-12-02",
-   "fine": "2026-12-04",
-   "luogo": "Teatro Due",
-   "indirizzo": "Viale Basetti 12/a",
-   "comune": "Parma",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatrodue.org",
-   "pagina_fonte": "https://www.teatrodue.org/",
-   "sito_ufficiale": "https://www.teatrodue.org/con-un-cuore-che-ascolta/",
-   "riassunto": "Spettacolo in scena al Teatro Due dal 2 al 4 dicembre.",
-   "lat": 44.796453,
-   "lon": 10.325244,
    "precisione": "address"
   }
  ]

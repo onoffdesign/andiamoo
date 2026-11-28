@@ -2,19 +2,19 @@
  "giro_pc": false,
  "giro_cloud": true,
  "motore_ai": "claude",
- "eventi_sul_sito": 3258,
+ "eventi_sul_sito": 3363,
  "in_revisione": 60,
  "posizioni": {
-  "eventi_controllati": 3258,
+  "eventi_controllati": 3363,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 89,
+  "lontani_dal_comune": 102,
   "solo_comune_con_luogo": 77,
   "solo_comune_senza_luogo": 26,
-  "candidati_luoghi_noti": 40
+  "candidati_luoghi_noti": 47
  },
  "senza_posizione": 0,
- "correzioni_attive": 309,
+ "correzioni_attive": 323,
  "rimossi_dalla_redazione": 22,
- "finito_alle": "2026-11-28T20:51+01:00"
+ "finito_alle": "2026-11-28T20:53+01:00"
 }

@@ -4,10 +4,10 @@ eventi:
 - title: Concerto di Natale, C'e' Musica & Musica 3.0
   start: 2026-12-06T18:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -18,10 +18,10 @@ eventi:
 - title: Mendelssohn, Sinfonie n. 1 e n. 4, direttore Daniele Gatti
   start: 2026-12-09T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -32,10 +32,10 @@ eventi:
 - title: Roberto Bolle and Friends
   start: 2026-12-10T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -46,10 +46,10 @@ eventi:
 - title: Roberto Bolle and Friends
   start: 2026-12-11T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -60,10 +60,10 @@ eventi:
 - title: Roberto Bolle and Friends
   start: 2026-12-12T15:30
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -74,10 +74,10 @@ eventi:
 - title: Roberto Bolle and Friends
   start: 2026-12-12T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -88,10 +88,10 @@ eventi:
 - title: Mendelssohn, Sinfonie n. 3 e n. 5, direttore Daniele Gatti
   start: 2026-12-13T17:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -102,10 +102,10 @@ eventi:
 - title: Mendelssohn, Elias, direttore Daniele Gatti
   start: 2026-12-19T18:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -116,10 +116,10 @@ eventi:
 - title: Concerto Astrolabio
   start: 2026-12-20T11:30
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -130,10 +130,10 @@ eventi:
 - title: Les contes d'Hoffmann, Offenbach
   start: 2026-12-20T17:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -144,10 +144,10 @@ eventi:
 - title: Les contes d'Hoffmann, Offenbach
   start: 2026-12-27T15:30
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -158,10 +158,10 @@ eventi:
 - title: Les contes d'Hoffmann, Offenbach
   start: 2026-12-30T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -172,10 +172,10 @@ eventi:
 - title: Les contes d'Hoffmann, Offenbach
   start: 2027-01-02T17:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -186,10 +186,10 @@ eventi:
 - title: Lo schiaccianoci in forma di concerto, direttore Gianandrea Noseda
   start: 2026-12-23T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -200,10 +200,10 @@ eventi:
 - title: Disney Fantasia, Live in concert
   start: 2026-12-31T17:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -214,10 +214,10 @@ eventi:
 - title: Disney Fantasia, Live in concert
   start: 2027-01-03T17:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -228,10 +228,10 @@ eventi:
 - title: Disney Fantasia, Live in concert
   start: 2027-01-04T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -242,10 +242,10 @@ eventi:
 - title: Beatrice Rana, recital
   start: 2027-01-09T16:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -256,10 +256,10 @@ eventi:
 - title: Pretty Yende e Ludovic Tezier, recital
   start: 2027-01-10T17:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -270,10 +270,10 @@ eventi:
 - title: La traviata, Verdi
   start: 2027-01-15T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -284,10 +284,10 @@ eventi:
 - title: La traviata, Verdi
   start: 2027-01-17T15:30
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -298,10 +298,10 @@ eventi:
 - title: La traviata, Verdi
   start: 2027-01-20T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -312,10 +312,10 @@ eventi:
 - title: La traviata, Verdi
   start: 2027-01-22T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -326,10 +326,10 @@ eventi:
 - title: Il carnevale degli animali, C'e' Musica & Musica 4.0
   start: 2027-01-16T16:30
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
   access: biglietto
@@ -340,10 +340,10 @@ eventi:
 - title: Zubin Mehta dirige Haydn e Schubert
   start: 2027-01-23T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -396,10 +396,10 @@ eventi:
 - title: Daniele Gatti ed Elina Garanca, ciclo Bruckner
   start: 2027-02-07T17:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -410,10 +410,10 @@ eventi:
 - title: Bryan Adams, Bare Bones Live
   start: 2027-02-08T21:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: concerti
   access: biglietto
@@ -424,10 +424,10 @@ eventi:
 - title: Storie di amori e creature fantastiche, C'e' Musica & Musica 4.0
   start: 2027-02-20T16:30
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
   access: biglietto
@@ -438,10 +438,10 @@ eventi:
 - title: Il trovatore, Verdi
   start: 2027-02-23T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -452,10 +452,10 @@ eventi:
 - title: Il trovatore, Verdi
   start: 2027-02-26T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -466,10 +466,10 @@ eventi:
 - title: Il trovatore, Verdi
   start: 2027-02-28T15:30
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -480,10 +480,10 @@ eventi:
 - title: Il trovatore, Verdi
   start: 2027-03-02T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -494,10 +494,10 @@ eventi:
 - title: Daniele Gatti e Francesco Piemontesi, ciclo Bruckner
   start: 2027-02-27T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -508,10 +508,10 @@ eventi:
 - title: Classicismo a Vienna, direttore James Conlon
   start: 2027-03-05T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -522,10 +522,10 @@ eventi:
 - title: Il lago dei cigni
   start: 2027-03-14T17:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -536,10 +536,10 @@ eventi:
 - title: Il lago dei cigni
   start: 2027-03-17T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -550,10 +550,10 @@ eventi:
 - title: Il lago dei cigni
   start: 2027-03-18T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -564,10 +564,10 @@ eventi:
 - title: Il lago dei cigni
   start: 2027-03-19T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -578,10 +578,10 @@ eventi:
 - title: Il lago dei cigni
   start: 2027-03-20T18:00
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -592,10 +592,10 @@ eventi:
 - title: Il lago dei cigni
   start: 2027-03-21T15:30
   venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: teatro-spettacoli
   subcategory: danza
   access: biglietto
@@ -606,10 +606,10 @@ eventi:
 - title: Il magico sogno di una notte d'estate
   start: 2027-03-16T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
   access: biglietto
@@ -620,10 +620,10 @@ eventi:
 - title: Il magico sogno di una notte d'estate
   start: 2027-03-20T15:30
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
   access: biglietto
@@ -634,10 +634,10 @@ eventi:
 - title: Il magico sogno di una notte d'estate
   start: 2027-03-21T11:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
   access: biglietto
@@ -648,10 +648,10 @@ eventi:
 - title: Mozart, Requiem, direttore Giulio Prandi
   start: 2027-03-26T20:00
   venue: Teatro del Maggio Musicale Fiorentino - Auditorium
-  address: Piazza Vittorio Gui 1
+  address: Piazzale Vittorio Gui 1
   town: Firenze
-  lat: 43.778877
-  lon: 11.234874
+  lat: 43.77888
+  lon: 11.23487
   category: musica
   subcategory: jazz-classica
   access: biglietto
@@ -1428,10 +1428,10 @@ eventi:
 - title: Donatella Alamprese Ensemble
   start: 2026-12-07T21:00
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: musica
   subcategory: concerti
   access: biglietto
@@ -1532,10 +1532,10 @@ eventi:
   start: '2027-03-09'
   end: '2027-03-14'
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -1593,10 +1593,10 @@ eventi:
 - title: La meccanica della fedelta'
   start: 2026-12-26T16:45
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: comicita
   access: biglietto
@@ -1607,10 +1607,10 @@ eventi:
 - title: La meccanica della gelosia
   start: 2026-11-28T16:45
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: comicita
   access: biglietto
@@ -1622,10 +1622,10 @@ eventi:
 - title: La meccanica della gelosia
   start: 2026-11-28T20:45
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: comicita
   access: biglietto
@@ -1637,10 +1637,10 @@ eventi:
 - title: La meccanica della gelosia
   start: 2026-11-29T16:45
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: comicita
   access: biglietto
@@ -1838,10 +1838,10 @@ eventi:
 - title: Maria Cassi e Leonardo Brizzi
   start: 2026-12-03T20:45
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: comicita
   access: biglietto
@@ -1853,10 +1853,10 @@ eventi:
 - title: Maria Cassi e Leonardo Brizzi
   start: 2026-12-04T20:45
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: comicita
   access: biglietto
@@ -1868,10 +1868,10 @@ eventi:
 - title: Maria Cassi e Leonardo Brizzi
   start: 2026-12-05T20:45
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: comicita
   access: biglietto
@@ -1883,10 +1883,10 @@ eventi:
 - title: Massimo D'Alema al Teatro di Fiesole
   start: 2026-12-02T17:00
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: arte-cultura
   subcategory: incontri-pubblici
   access: iscrizione
@@ -2158,10 +2158,10 @@ eventi:
   start: '2027-01-09'
   end: '2027-01-31'
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: teatro-spettacoli
   subcategory: comicita
   access: biglietto
@@ -2275,10 +2275,10 @@ eventi:
 - title: I tre porcellini
   start: 2026-12-08T16:00
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
   access: biglietto
@@ -2290,10 +2290,10 @@ eventi:
 - title: Il cigno magico
   start: 2027-03-07T16:00
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
   access: biglietto
@@ -2305,10 +2305,10 @@ eventi:
 - title: Franco Simone in concerto
   start: 2027-03-05T21:00
   venue: Teatro di Fiesole
-  address: Largo Piero Farulli 1
+  address: Largo Piero Farulli
   town: Fiesole
-  lat: 43.807804
-  lon: 11.29611
+  lat: 43.80782
+  lon: 11.29608
   category: musica
   subcategory: concerti
   access: biglietto
@@ -4244,10 +4244,10 @@ eventi:
 - title: Visite
   start: 2026-12-11T21:00
   venue: Teatro Faraggiana
-  address: Via dei Caccia, 1F
+  address: Via dei Caccia 1F
   town: Novara
-  lat: 45.449516
-  lon: 8.623644
+  lat: 45.4506
+  lon: 8.62237
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -4364,10 +4364,10 @@ eventi:
 - title: Volevo essere un mago
   start: 2027-01-24T16:00
   venue: Cine Teatro Silvio Pellico
-  address: Piazza Riccardo Cattaneo
+  address: Piazza Cattaneo 24
   town: Trecate
-  lat: 45.430353
-  lon: 8.739986
+  lat: 45.43151
+  lon: 8.73952
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -4378,10 +4378,10 @@ eventi:
 - title: Due come noi
   start: 2027-01-30T21:00
   venue: Cine Teatro Silvio Pellico
-  address: Piazza Riccardo Cattaneo
+  address: Piazza Cattaneo 24
   town: Trecate
-  lat: 45.430353
-  lon: 8.739986
+  lat: 45.43151
+  lon: 8.73952
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -4394,8 +4394,8 @@ eventi:
   venue: Teatro Rosmini
   address: Via Professor Pasquale Fornari
   town: Borgomanero
-  lat: 45.696494
-  lon: 8.468232
+  lat: 45.69649
+  lon: 8.46823
   category: musica
   subcategory: concerti
   official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
@@ -4405,10 +4405,10 @@ eventi:
 - title: L'ospite
   start: 2027-02-06T21:15
   venue: Teatro Pernate Sant'Andrea
-  address: Via Turbigo, 8
+  address: Via Turbigo 8
   town: Novara
-  lat: 45.464129
-  lon: 8.680777
+  lat: 45.46059
+  lon: 8.6772
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -4419,10 +4419,10 @@ eventi:
 - title: Gin Game
   start: 2027-02-11T21:00
   venue: Teatro Faraggiana
-  address: Via dei Caccia, 1F
+  address: Via dei Caccia 1F
   town: Novara
-  lat: 45.449516
-  lon: 8.623644
+  lat: 45.4506
+  lon: 8.62237
   category: teatro-spettacoli
   subcategory: teatro
   access: biglietto
@@ -4435,8 +4435,8 @@ eventi:
   venue: Teatro Civico
   address: Via Roma 43
   town: Oleggio
-  lat: 45.597431
-  lon: 8.634455
+  lat: 45.59743
+  lon: 8.63446
   category: teatro-spettacoli
   subcategory: teatro
   official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
@@ -4446,10 +4446,10 @@ eventi:
 - title: Indovina chi viene a cena
   start: 2027-03-02T20:45
   venue: Cinema Teatro Nuovo
-  address: via IV Novembre
+  address: Via IV Novembre
   town: Borgomanero
-  lat: 45.694545
-  lon: 8.454565
+  lat: 45.69467
+  lon: 8.4552
   category: teatro-spettacoli
   subcategory: teatro
   official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
@@ -4459,10 +4459,10 @@ eventi:
 - title: Capitol'ho
   start: 2027-03-17T21:00
   venue: Teatro Coccia
-  address: Piazza Giacomo Puccini
+  address: Via Fratelli Rosselli 47
   town: Novara
-  lat: 45.445529
-  lon: 8.618166
+  lat: 45.44553
+  lon: 8.61817
   category: teatro-spettacoli
   subcategory: teatro
   official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
@@ -4472,10 +4472,10 @@ eventi:
 - title: Impressioni – Omaggio alla Grande Musica Italiana
   start: 2027-03-21T11:30
   venue: Teatro Coccia
-  address: Piazza Giacomo Puccini
+  address: Via Fratelli Rosselli 47
   town: Novara
-  lat: 45.445529
-  lon: 8.618166
+  lat: 45.44553
+  lon: 8.61817
   category: musica
   subcategory: concerti
   official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
@@ -4487,8 +4487,8 @@ eventi:
   venue: Teatro Civico
   address: Via Roma 43
   town: Oleggio
-  lat: 45.597431
-  lon: 8.634455
+  lat: 45.59743
+  lon: 8.63446
   category: teatro-spettacoli
   subcategory: teatro
   official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni

@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:51+01:00",
+ "generato": "2026-11-28T20:53+01:00",
  "riepilogo": {
-  "eventi_controllati": 3258,
+  "eventi_controllati": 3363,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 89,
+  "lontani_dal_comune": 102,
   "solo_comune_con_luogo": 77,
   "solo_comune_senza_luogo": 26,
-  "candidati_luoghi_noti": 40
+  "candidati_luoghi_noti": 47
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -66,6 +66,20 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
+   "luogo": "Tenuta dello Scompiglio, Via di Vorno 67, Capannori",
+   "km_dal_centro": 8,
+   "eventi": 6,
+   "uid": [
+    "5d4f0b6b10e3841f",
+    "78f1bd9be2126445",
+    "6558eb1f063ba8b0",
+    "71156a39ee9ca54c",
+    "f4f740994df7bc4d",
+    "d828f2e2896c37a9"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
    "luogo": "Borgo di Candelara, Pesaro",
    "km_dal_centro": 6,
    "eventi": 4,
@@ -117,6 +131,16 @@
    "uid": [
     "f6b8e0efeefff9b9",
     "1c2f56ed63b1ed78"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Ex Ospedale Psichiatrico di Maggiano, Via di Fregionaia 692, Lucca",
+   "km_dal_centro": 6,
+   "eventi": 2,
+   "uid": [
+    "87eb71e04a2e80a9",
+    "4ab2dddc0e184865"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -182,6 +206,51 @@
    "eventi": 1,
    "uid": [
     "9a9f0fddfa2795d2"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Piazza Idelfonso Nieri, Piazza Idelfonso Nieri, Ponte a Moriano, Lucca",
+   "km_dal_centro": 8,
+   "eventi": 1,
+   "uid": [
+    "1817f3de5b6694ee"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Borgo di Villecchia, Villecchia, Tresana",
+   "km_dal_centro": 6,
+   "eventi": 1,
+   "uid": [
+    "481b6974b5eff82a"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Villa di Baggio, Via Villa di Baggio Montanina 65, Pistoia",
+   "km_dal_centro": 7,
+   "eventi": 1,
+   "uid": [
+    "8121ee5cd1208e9c"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Piazza Garibaldi, Piazza Giuseppe Garibaldi, Vada, Rosignano Marittimo",
+   "km_dal_centro": 6,
+   "eventi": 1,
+   "uid": [
+    "0fcfddb7f5b13214"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Borgo di Moggiona, Moggiona, Poppi",
+   "km_dal_centro": 7,
+   "eventi": 1,
+   "uid": [
+    "27313c3ac62ea89f"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -742,6 +811,15 @@
   },
   {
    "nomi": [
+    "Tenuta dello Scompiglio"
+   ],
+   "comune": "Capannori",
+   "lat": 43.79713,
+   "lon": 10.51241,
+   "eventi": 6
+  },
+  {
+   "nomi": [
     "Piazza San Giusto"
    ],
    "comune": "Lucca",
@@ -756,15 +834,6 @@
    "comune": "Osimo",
    "lat": 43.48561,
    "lon": 13.4844,
-   "eventi": 5
-  },
-  {
-   "nomi": [
-    "Parrocchia del Santissimo Nome di Gesu' ai Bassi"
-   ],
-   "comune": "Firenze",
-   "lat": 43.78194,
-   "lon": 11.20315,
    "eventi": 5
   }
  ]

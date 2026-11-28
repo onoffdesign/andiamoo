@@ -46091,3 +46091,1588 @@ eventi:
     summary: Spettacolo comico di Katia Follesa su relazioni, vita di coppia e nevrosi quotidiane.
     fonte: https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events (API della fonte del giro dolomiti-prealpi); data confermata dalla scheda (venerdi' 5 marzo ore 20.30)
     trovato: '2026-11-28'
+  - title: Non posso c'ho da fa, Memorial Ulivieri
+    start: 2026-12-09T21:00
+    venue: Teatro Goldoni
+    address: Via Carlo Goldoni 83
+    town: Livorno
+    lat: 43.5459241
+    lon: 10.313889
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.goldoniteatro.it/spettacoli/non-posso-cho-da-fa-memorial-ulivieri/
+    summary: Spettacolo di beneficenza dei Mayor Von Frinzius a favore della ricerca sulle neoplasie cerebrali.
+    fonte: https://www.goldoniteatro.it/spettacoli/?ts=eventi (elenco e schede della Fondazione Teatro Goldoni, lette il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'ConcertiAmo: Recital CantAngo'
+    start: 2026-11-28T18:00
+    end: 2026-11-28T19:30
+    venue: Chiesa di San Salvatore
+    address: Piazza del Salvatore
+    town: Lucca
+    lat: 43.8440921
+    lon: 10.5029219
+    category: musica
+    subcategory: jazz-classica
+    access: offerta
+    price: donativo da 10 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4745
+    summary: Primo dei quattro appuntamenti del festival ConcertiAmo, con musica da camera tra tango e canzone. Ingresso a donativo senza prenotazione.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Genius Loci: Orchestra della Toscana'
+    start: 2026-11-28T21:00
+    end: 2026-11-28T22:30
+    venue: Teatro del Giglio Giacomo Puccini
+    address: Piazza del Giglio 13
+    town: Lucca
+    lat: 43.8403991
+    lon: 10.5030674
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: 26,40 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4654
+    summary: Concerto dell'Orchestra della Toscana nella stagione del Teatro del Giglio dedicata al patrimonio musicale della citta'.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Conversazioni in San Francesco: Chiara Mercuri'
+    start: 2026-11-28T21:00
+    end: 2026-11-28T22:30
+    venue: Chiesa di San Francesco
+    address: Piazza San Francesco
+    town: Lucca
+    lat: 43.8454916
+    lon: 10.511405
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4776
+    summary: Incontro con la storica Chiara Mercuri su Francesco d'Assisi, ultimo appuntamento delle Conversazioni in San Francesco.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Oltre il ricordo: Ragusa e Lucca, due antiche Repubbliche a confronto'
+    start: 2026-11-28T16:00
+    end: 2026-11-28T18:00
+    venue: Casa del Boia
+    address: Via dei Bacchettoni
+    town: Lucca
+    lat: 43.845812
+    lon: 10.514139
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4806
+    summary: Conferenza della rassegna Oltre il ricordo sulla storia delle terre dell'Adriatico orientale, organizzata dal Comune con la biblioteca Agora'.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Lu Santo Jullare Francesco, con Ugo Dighero
+    start: 2026-11-29T18:00
+    end: 2026-11-29T19:30
+    venue: Chiesa di San Francesco
+    address: Piazza San Francesco
+    town: Lucca
+    lat: 43.8454916
+    lon: 10.511405
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4521
+    summary: Spettacolo di Dario Fo e Franca Rame su Francesco d'Assisi interpretato da Ugo Dighero, per il festival I Musei del Sorriso.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Aspettando Sant'Ansano a Ponte a Moriano
+    start: 2026-11-29T10:00
+    end: 2026-11-29T18:00
+    venue: Piazza Idelfonso Nieri
+    address: Piazza Idelfonso Nieri, Ponte a Moriano
+    town: Lucca
+    lat: 43.909968
+    lon: 10.5292866
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4831
+    summary: Mercatino con prodotti tipici, artigianato e animazione per bambini, in anticipo sulla fiera di Sant'Ansano.
+    fonte: 'https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28); punto: centro di Ponte a Moriano (OpenStreetMap), la piazza non e'' su OSM'
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Ludwig van Beethoven'
+    start: 2026-11-30T17:00
+    end: 2026-11-30T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4687
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Ludwig van Beethoven.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Pierre-Auguste Renoir e Jean Renoir'
+    start: 2027-01-11T17:00
+    end: 2027-01-11T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4690
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Pierre-Auguste Renoir e Jean Renoir.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Ugo Foscolo, Ultime lettere di Jacopo Ortis'
+    start: 2027-01-18T17:00
+    end: 2027-01-18T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4691
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Ugo Foscolo, Ultime lettere di Jacopo Ortis.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Ugo Foscolo, Sonetti'
+    start: 2027-01-25T17:00
+    end: 2027-01-25T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4692
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Ugo Foscolo, Sonetti.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Ugo Foscolo, Dei Sepolcri'
+    start: 2027-02-01T17:00
+    end: 2027-02-01T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4693
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Ugo Foscolo, Dei Sepolcri.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Niccolo'' Machiavelli, Il Principe'
+    start: 2027-02-08T17:00
+    end: 2027-02-08T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4694
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Niccolo' Machiavelli, Il Principe.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Niccolo'' Machiavelli, Discorsi sopra la prima deca di Tito Livio'
+    start: 2027-02-15T17:00
+    end: 2027-02-15T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4695
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Niccolo' Machiavelli, Discorsi sopra la prima deca di Tito Livio.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Niccolo'' Machiavelli, Mandragola'
+    start: 2027-02-22T17:00
+    end: 2027-02-22T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4696
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Niccolo' Machiavelli, Mandragola.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: Michel Foucault'
+    start: 2027-03-01T17:00
+    end: 2027-03-01T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4700
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a Michel Foucault.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: L''emofilia'
+    start: 2027-03-08T17:00
+    end: 2027-03-08T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4701
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a L'emofilia.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I lunedi'' della Cultura: I social media'
+    start: 2027-03-15T17:00
+    end: 2027-03-15T18:30
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4705
+    summary: Incontro del ciclo I lunedi' della Cultura dell'associazione Amici di Enrico Pea, dedicato a I social media.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Due grafie, una grande invenzione: Barsanti e Matteucci'
+    start: 2026-12-04T17:00
+    end: 2026-12-04T19:00
+    venue: Museo Barsanti e Matteucci
+    address: Via Sant'Andrea 56
+    town: Lucca
+    lat: 43.8435487
+    lon: 10.5074507
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4519
+    summary: Conferenza di grafologia sulla collaborazione scientifica tra Barsanti e Matteucci, inventori del motore a scoppio, per I Musei del Sorriso.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'ConcertiAmo: Queen in Opera'
+    start: 2026-12-04T21:00
+    end: 2026-12-04T22:30
+    venue: Chiesa di San Salvatore
+    address: Piazza del Salvatore
+    town: Lucca
+    lat: 43.8440921
+    lon: 10.5029219
+    category: musica
+    subcategory: concerti
+    access: offerta
+    price: donativo da 10 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4744
+    summary: Concerto del festival ConcertiAmo che rilegge brani dei Queen in chiave lirica e cameristica.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino dell'usato e del baratto
+    start: 2026-12-05T10:00
+    end: 2026-12-06T19:00
+    venue: Foro Boario
+    address: Via per Camaiore
+    town: Lucca
+    lat: 43.8563229
+    lon: 10.508217
+    category: mercatini-fiere
+    subcategory: antiquariato
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=3947
+    summary: Mercatino del riuso in cui i cittadini propongono oggetti usati da scambiare o vendere, ultimo appuntamento del 2026.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Concerto per i 300 anni dell'Arcidiocesi di Lucca
+    start: 2026-12-05T17:30
+    end: 2026-12-05T19:00
+    venue: Cattedrale di San Martino
+    address: Piazza San Martino
+    town: Lucca
+    lat: 43.84063
+    lon: 10.5060534
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4523
+    summary: Concerto conclusivo dell'anno di celebrazioni dell'Arcidiocesi, con il Conservatorio Luigi Boccherini.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Ai confini del tempo: Trio Concept e Olivier Vivares'
+    start: 2026-12-05T19:30
+    venue: Tenuta dello Scompiglio
+    address: Via di Vorno 67
+    town: Capannori
+    lat: 43.7971312
+    lon: 10.5124058
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: 15-18 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4721
+    summary: Concerto con musiche di Thomas Ades e Olivier Messiaen nello spazio SPE della Tenuta dello Scompiglio.
+    fonte: 'https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28); punto: Tenuta dello Scompiglio, Via di Vorno 67b (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Magico Natale a Villa Reale
+    start: 2026-12-05T14:00
+    end: 2026-12-08T20:00
+    venue: Villa Reale di Marlia
+    address: Via della Fraga Alta 2
+    town: Capannori
+    lat: 43.9001873
+    lon: 10.5561112
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: biglietto
+    price: fino a 18 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4669
+    summary: Apertura natalizia del parco, degli interni della villa e della Palazzina dell'Orologio, con bracieri, cioccolata calda e Babbo Natale.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Magico Natale a Villa Reale
+    start: 2026-12-12T14:00
+    end: 2026-12-13T20:00
+    venue: Villa Reale di Marlia
+    address: Via della Fraga Alta 2
+    town: Capannori
+    lat: 43.9001873
+    lon: 10.5561112
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: biglietto
+    price: fino a 18 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4688
+    summary: Apertura natalizia del parco, degli interni della villa e della Palazzina dell'Orologio, con bracieri, cioccolata calda e Babbo Natale.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Magico Natale a Villa Reale
+    start: 2026-12-19T14:00
+    end: 2026-12-20T20:00
+    venue: Villa Reale di Marlia
+    address: Via della Fraga Alta 2
+    town: Capannori
+    lat: 43.9001873
+    lon: 10.5561112
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: biglietto
+    price: fino a 18 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4689
+    summary: Apertura natalizia del parco, degli interni della villa e della Palazzina dell'Orologio, con bracieri, cioccolata calda e Babbo Natale.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Festa regionale ANVA d'Autunno
+    start: 2026-12-06T09:00
+    end: 2026-12-06T19:00
+    venue: Via dello Stadio (lato tribune)
+    address: Via dello Stadio
+    town: Lucca
+    lat: 43.847064
+    lon: 10.5173896
+    category: mercatini-fiere
+    subcategory: fiere
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4340
+    summary: Mercato ambulante straordinario promosso da ANVA Confesercenti con operatori da tutta la Toscana.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Arte e ingegno
+    start: 2026-12-06T10:00
+    end: 2026-12-08T19:00
+    venue: Piazza Cittadella
+    address: Piazza Cittadella
+    town: Lucca
+    lat: 43.8430119
+    lon: 10.5013209
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4339
+    summary: Mercatino di quartiere con artigiani e hobbisti in piazza Cittadella.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Maggiano da vivere
+    start: 2026-12-06T10:00
+    end: 2026-12-06T17:00
+    venue: Ex Ospedale Psichiatrico di Maggiano
+    address: Via di Fregionaia 692
+    town: Lucca
+    lat: 43.8504538
+    lon: 10.4246548
+    category: arte-cultura
+    subcategory: visite
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4802
+    summary: Giornata per l'inaugurazione della mappa tattile dell'ex ospedale psichiatrico, promossa dalla Fondazione Mario Tobino.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La bottega di Civitali, visita teatralizzata
+    start: 2026-12-06T15:30
+    end: 2026-12-06T17:00
+    venue: Museo Nazionale di Villa Guinigi
+    address: Via della Quarquonia 4
+    town: Lucca
+    lat: 43.8449826
+    lon: 10.5123434
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    price: fino a 5 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4115
+    summary: Visita guidata teatralizzata nel museo, con un personaggio che racconta la vita in una bottega del Quattrocento. Prenotazione richiesta.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Cantiere di Natale: Zampognata'
+    start: 2026-12-08T18:30
+    end: 2026-12-08T19:30
+    venue: Ex Cavallerizza ducale (Cavallerizza San Donato)
+    address: Piazzale Verdi
+    town: Lucca
+    lat: 43.8436907
+    lon: 10.4963583
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4816
+    summary: Musica di zampogne per l'Immacolata nella rassegna Cantiere di Natale della Federazione Lucchese delle Associazioni Musicali.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Cantiere di Natale: La musica degli Angeli e dei Pastori'
+    start: 2026-12-12T17:00
+    end: 2026-12-12T18:00
+    venue: Museo Nazionale di Villa Guinigi
+    address: Via della Quarquonia 4
+    town: Lucca
+    lat: 43.8449826
+    lon: 10.5123434
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4817
+    summary: Percorso tra immagini e musiche natalizie della tradizione con ciaramelle, cornamuse e organetti.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Concerto di Natale della Banda di Lucca
+    start: 2026-12-12T21:00
+    end: 2026-12-12T22:00
+    venue: Chiesa di San Francesco
+    address: Piazza San Francesco
+    town: Lucca
+    lat: 43.8454916
+    lon: 10.511405
+    category: musica
+    subcategory: concerti
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4823
+    summary: Concerto natalizio solidale della Banda ufficiale del Comune di Lucca; il ricavato va a progetti per l'ospedale pediatrico Meyer.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Tobino e le nuove fragilita'
+    start: 2026-12-12T09:00
+    end: 2026-12-12T19:30
+    venue: Ex Ospedale Psichiatrico di Maggiano
+    address: Via di Fregionaia 692
+    town: Lucca
+    lat: 43.8504538
+    lon: 10.4246548
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4784
+    summary: Giornata di studio su Mario Tobino nell'ex ospedale di Maggiano, con un percorso nella struttura e letture sceniche.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Sant'Anna in festa
+    start: 2026-12-13T09:00
+    end: 2026-12-13T19:00
+    venue: Viale Giacomo Puccini (Sant'Anna)
+    address: Viale Giacomo Puccini
+    town: Lucca
+    lat: 43.8451461
+    lon: 10.4819504
+    category: mercatini-fiere
+    subcategory: fiere
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4829
+    summary: Mercato ambulante straordinario lungo viale Puccini nel quartiere di Sant'Anna.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Teatro Ragazzi: La Burla'
+    start: 2026-12-13T16:30
+    end: 2026-12-13T18:00
+    venue: Tenuta dello Scompiglio
+    address: Via di Vorno 67
+    town: Capannori
+    lat: 43.7971312
+    lon: 10.5124058
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 6-8 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4739
+    summary: Spettacolo di teatro d'attore e circo contemporaneo della compagnia Madame Rebine', consigliato dai 5 anni.
+    fonte: 'https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28); punto: Tenuta dello Scompiglio, Via di Vorno 67b (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: 'ConcertiAmo: Sonus In Verso'
+    start: 2026-12-13T18:00
+    end: 2026-12-13T19:30
+    venue: Chiesa di San Salvatore
+    address: Piazza del Salvatore
+    town: Lucca
+    lat: 43.8440921
+    lon: 10.5029219
+    category: musica
+    subcategory: jazz-classica
+    access: offerta
+    price: donativo
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4743
+    summary: Concerto con musiche di Boccherini, Catalani, Puccini e altri compositori lucchesi accostate a testi poetici.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino dei Borghi
+    start: 2026-12-20T09:00
+    end: 2026-12-20T19:00
+    venue: Porta dei Borghi
+    address: Via Michele Rosi
+    town: Lucca
+    lat: 43.8468421
+    lon: 10.507811
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4130
+    summary: Bancarelle di artigianato sotto Porta dei Borghi e in via Michele Rosi, la terza domenica del mese.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'ConcertiAmo: Cantar di Luna'
+    start: 2026-12-20T18:00
+    end: 2026-12-20T19:30
+    venue: Chiesa di San Salvatore
+    address: Piazza del Salvatore
+    town: Lucca
+    lat: 43.8440921
+    lon: 10.5029219
+    category: musica
+    subcategory: jazz-classica
+    access: offerta
+    price: donativo da 10 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4742
+    summary: Omaggio a Manuel de Falla con soprano e chitarra, ultimo concerto del festival ConcertiAmo.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Teatro Ragazzi: Charlie'
+    start: 2027-02-14T16:30
+    end: 2027-02-14T18:00
+    venue: Tenuta dello Scompiglio
+    address: Via di Vorno 67
+    town: Capannori
+    lat: 43.7971312
+    lon: 10.5124058
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 6-8 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4740
+    summary: Spettacolo per bambini e famiglie della rassegna Teatro Ragazzi alla Tenuta dello Scompiglio.
+    fonte: 'https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28); punto: Tenuta dello Scompiglio, Via di Vorno 67b (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: 'Teatro Ragazzi: Sulla vita sfortunata dei vermi'
+    start: 2027-02-28T16:30
+    end: 2027-02-28T18:00
+    venue: Tenuta dello Scompiglio
+    address: Via di Vorno 67
+    town: Capannori
+    lat: 43.7971312
+    lon: 10.5124058
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 6-8 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4749
+    summary: Spettacolo per bambini e famiglie della rassegna Teatro Ragazzi alla Tenuta dello Scompiglio.
+    fonte: 'https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28); punto: Tenuta dello Scompiglio, Via di Vorno 67b (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: 'Teatro Ragazzi: Viola e il bosco'
+    start: 2027-03-07T16:30
+    end: 2027-03-07T18:00
+    venue: Tenuta dello Scompiglio
+    address: Via di Vorno 67
+    town: Capannori
+    lat: 43.7971312
+    lon: 10.5124058
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 6-8 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4752
+    summary: Spettacolo per bambini e famiglie della rassegna Teatro Ragazzi alla Tenuta dello Scompiglio.
+    fonte: 'https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28); punto: Tenuta dello Scompiglio, Via di Vorno 67b (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: 'Teatro Ragazzi: Tutto cambia'
+    start: 2027-03-14T16:30
+    end: 2027-03-14T18:00
+    venue: Tenuta dello Scompiglio
+    address: Via di Vorno 67
+    town: Capannori
+    lat: 43.7971312
+    lon: 10.5124058
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 6-8 euro
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4756
+    summary: Spettacolo per bambini e famiglie della rassegna Teatro Ragazzi alla Tenuta dello Scompiglio.
+    fonte: 'https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28); punto: Tenuta dello Scompiglio, Via di Vorno 67b (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Il Grande Sogno di Antonio Possenti
+    start: '2026-11-21'
+    end: '2027-01-07'
+    venue: Palazzo Guinigi
+    address: Via Guinigi 29
+    town: Lucca
+    lat: 43.8437846
+    lon: 10.5072283
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4794
+    summary: Mostra retrospettiva dedicata al pittore lucchese Antonio Possenti a dieci anni dalla scomparsa.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: WeLovePh Circuito Off Lucca 2026
+    start: '2026-11-14'
+    end: '2026-12-06'
+    venue: Palazzo Guinigi
+    address: Via Guinigi 29
+    town: Lucca
+    lat: 43.8437846
+    lon: 10.5072283
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4795
+    summary: Mostre di fotografia contemporanea del circuito off del Lucca Photo Fest al piano terra e nella limonaia di Palazzo Guinigi.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Coltivare la Speranza. Nel segno di Francesco
+    start: '2026-11-13'
+    end: '2027-01-10'
+    venue: Palazzo Ducale
+    address: Piazza Napoleone
+    town: Lucca
+    lat: 43.8413787
+    lon: 10.5019186
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4783
+    summary: Mostra di dipinti e sculture contemporanee sulla figura di San Francesco nella Sala dell'Antica Armeria.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Vivere il San Francesco. Storie di comunita', territori, culture
+    start: '2026-11-22'
+    end: '2027-02-28'
+    venue: Chiesa di San Francesco
+    address: Piazza San Francesco
+    town: Lucca
+    lat: 43.8454916
+    lon: 10.511405
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4792
+    summary: Percorso espositivo sulla storia e gli ambienti del complesso di San Francesco.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Io non disegno, copio. Da Piero della Francesca a Marshall McLuhan
+    start: '2027-02-02'
+    end: '2027-02-21'
+    venue: Villa Bottini
+    address: Via Elisa 9
+    town: Lucca
+    lat: 43.8436516
+    lon: 10.5102639
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4807
+    summary: Mostra dell'artista Giuseppe Stampone a Villa Bottini.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Giappone. Manga, Geisha e Samurai
+    start: '2027-03-02'
+    end: '2027-04-04'
+    venue: Palazzo Guinigi
+    address: Via Guinigi 29
+    town: Lucca
+    lat: 43.8437846
+    lon: 10.5072283
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4805
+    summary: Mostra sulla cultura giapponese tra fumetto, geishe e samurai a Palazzo Guinigi.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Back To The Style 2027
+    start: 2027-03-11T10:00
+    end: 2027-03-14T23:00
+    venue: Real Collegio
+    address: Piazza del Collegio 13
+    town: Lucca
+    lat: 43.8465401
+    lon: 10.505038
+    category: mercatini-fiere
+    subcategory: fiere
+    access: biglietto
+    official_url: https://eventi.turismo.lucca.it/evento-singolo.php?id=4780
+    summary: Festival dello stile vintage con mercato, musica e incontri al Real Collegio.
+    fonte: https://eventi.turismo.lucca.it/back/function/calendar.php (calendario del portale turistico del Comune di Lucca, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Villaggio di Natale a Mulazzo
+    start: 2026-12-05T14:00
+    end: '2027-01-06'
+    venue: Parco del Centro Giovanile di Arpiola
+    address: Arpiola
+    town: Mulazzo
+    lat: 44.3216949
+    lon: 9.9067584
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://visitlunigiana.it/events/villaggio-di-natale-a-mulazzo-2026/
+    summary: Villaggio natalizio con mercatini di artigiani locali, casa di Babbo Natale, giochi per bambini e un bar con specialita' delle feste.
+    fonte: 'https://visitlunigiana.it/aspettando-natale-2026-in-lunigiana/ (Associazione Operatori Turistici Lunigianesi; schede con JSON-LD lette il 2026-11-28); punto: frazione di Arpiola (OpenStreetMap), il parco del centro giovanile non e'' su OSM'
+    trovato: '2026-11-28'
+  - title: Regnano, il Paese dei 300 Presepi
+    start: 2026-12-13T10:00
+    end: 2026-12-13T20:00
+    venue: Borgo di Regnano
+    address: Regnano
+    town: Casola in Lunigiana
+    lat: 44.2297594
+    lon: 10.2093588
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://visitlunigiana.it/events/il-paese-dei-300-presepi-2026/
+    summary: Esposizione di oltre trecento presepi lungo le strade del borgo, con mercatino dei produttori, laboratorio di biscotti e incontro con Babbo Natale.
+    fonte: 'https://visitlunigiana.it/aspettando-natale-2026-in-lunigiana/ (Associazione Operatori Turistici Lunigianesi; schede con JSON-LD lette il 2026-11-28); punto: Regnano-Castello (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Presepe vivente di Villecchia
+    start: 2026-12-19T14:30
+    venue: Borgo di Villecchia
+    address: Villecchia
+    town: Tresana
+    lat: 44.2630706
+    lon: 9.8822488
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://visitlunigiana.it/events/presepe-vivente-di-villecchia-2026/
+    summary: Gli abitanti e i volontari del comune di Tresana rappresentano la vita quotidiana al tempo della Nativita' nelle vie del borgo.
+    fonte: 'https://visitlunigiana.it/aspettando-natale-2026-in-lunigiana/ (Associazione Operatori Turistici Lunigianesi; schede con JSON-LD lette il 2026-11-28); punto: Villecchia (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale a Fosdinovo
+    start: 2026-11-28T10:00
+    end: 2026-11-28T18:00
+    venue: Centro storico di Fosdinovo
+    address: Centro storico
+    town: Fosdinovo
+    lat: 44.13382
+    lon: 10.018869
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://visitlunigiana.it/events/mercatino-di-natale-fosdinovo-2026/
+    summary: Mercatino natalizio per le vie del borgo con banchi gastronomici, musica, animazione per bambini e Babbo Natale.
+    fonte: 'https://visitlunigiana.it/aspettando-natale-2026-in-lunigiana/ (Associazione Operatori Turistici Lunigianesi; schede con JSON-LD lette il 2026-11-28); punto: centro di Fosdinovo (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Accendiamo il Natale ad Aulla
+    start: 2026-11-29T09:00
+    end: 2026-11-29T19:00
+    venue: Piazza Alcide De Gasperi
+    address: Piazza Alcide De Gasperi
+    town: Aulla
+    lat: 44.2106455
+    lon: 9.9677944
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://visitlunigiana.it/events/accendiamo-il-natale-2026/
+    summary: Mercatini di Natale in piazza De Gasperi con animazione per bambini, cioccolata calda e la sfilata dei Babbi Natale in vespa.
+    fonte: 'https://visitlunigiana.it/aspettando-natale-2026-in-lunigiana/ (Associazione Operatori Turistici Lunigianesi; schede con JSON-LD lette il 2026-11-28); punto: Piazza Alcide de Gasperi (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale in piazza dello Spirito Santo
+    start: 2026-11-28T09:00
+    end: 2026-11-29T19:30
+    venue: Piazza dello Spirito Santo
+    address: Piazzetta Spirito Santo
+    town: Pistoia
+    lat: 43.9342066
+    lon: 10.9158041
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/mercatino-di-natale
+    summary: Mercatino natalizio con idee regalo, oggetti artigianali e prodotti alimentari, nell'ambito di Pistoia Citta' del Natale.
+    fonte: 'https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28); punto: Chiesa dello Spirito Santo sulla piazza (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale in piazza dello Spirito Santo
+    start: 2026-12-05T09:00
+    end: 2026-12-08T19:30
+    venue: Piazza dello Spirito Santo
+    address: Piazzetta Spirito Santo
+    town: Pistoia
+    lat: 43.9342066
+    lon: 10.9158041
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/mercatino-di-natale-2521104
+    summary: Mercatino natalizio con idee regalo, oggetti artigianali e prodotti alimentari, nell'ambito di Pistoia Citta' del Natale.
+    fonte: 'https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28); punto: Chiesa dello Spirito Santo sulla piazza (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale in piazza dello Spirito Santo
+    start: 2026-12-11T09:00
+    end: 2026-12-13T19:30
+    venue: Piazza dello Spirito Santo
+    address: Piazzetta Spirito Santo
+    town: Pistoia
+    lat: 43.9342066
+    lon: 10.9158041
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/mercatino-di-natale-2521104-2521105
+    summary: Mercatino natalizio con idee regalo, oggetti artigianali e prodotti alimentari, nell'ambito di Pistoia Citta' del Natale.
+    fonte: 'https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28); punto: Chiesa dello Spirito Santo sulla piazza (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale in piazza dello Spirito Santo
+    start: 2026-12-18T09:00
+    end: 2026-12-20T19:30
+    venue: Piazza dello Spirito Santo
+    address: Piazzetta Spirito Santo
+    town: Pistoia
+    lat: 43.9342066
+    lon: 10.9158041
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/mercatino-di-natale-2521104-2521105-2521106
+    summary: Mercatino natalizio con idee regalo, oggetti artigianali e prodotti alimentari, nell'ambito di Pistoia Citta' del Natale.
+    fonte: 'https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28); punto: Chiesa dello Spirito Santo sulla piazza (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Festa della castagna a Villa di Baggio
+    start: 2026-11-29T15:00
+    end: 2026-11-29T18:00
+    venue: Villa di Baggio
+    address: Via Villa di Baggio Montanina 65
+    town: Pistoia
+    lat: 43.988429
+    lon: 10.9565236
+    category: sagre-feste
+    subcategory: sagre
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/festa-della-castagna
+    summary: Banchetti nelle strade del paese con necci, castagnaccio, frittelle e altre ricette di castagne, a cura della Pro Loco.
+    fonte: 'https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28); punto: centro di Villa di Baggio (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Calvino e l'avventura, con Marcello Fois
+    start: 2026-12-02T18:30
+    end: 2026-12-02T19:30
+    venue: Biblioteca San Giorgio
+    address: Via Sandro Pertini 340
+    town: Pistoia
+    lat: 43.9281323
+    lon: 10.9100823
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/calvino-e-l-avventura
+    summary: Lezione-spettacolo dello scrittore Marcello Fois dedicata a Italo Calvino e al tema dell'avventura.
+    fonte: https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Incontro con Nicola Lagioia
+    start: 2026-12-05T17:00
+    end: 2026-12-05T18:30
+    venue: Teatro Il Funaro
+    address: Via del Funaro
+    town: Pistoia
+    lat: 43.9376993
+    lon: 10.9201532
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/incontro-con-nicola-lagioia
+    summary: Nicola Lagioia presenta il libro Santa Barbara in dialogo con Nicola Ruganti, con un reading di Massimiliano Barbini.
+    fonte: https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Concerto di Natale: i giovani suonano per Socialmente'
+    start: 2026-12-11T17:00
+    end: 2026-12-11T19:00
+    venue: Chiesa di San Giovanni Fuorcivitas
+    address: Via Cavour
+    town: Pistoia
+    lat: 43.9320073
+    lon: 10.9164034
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/concerto-di-natale
+    summary: Concerto degli allievi del Liceo musicale Forteguerri per il progetto di inclusione sociale Socialmente.
+    fonte: https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Incontro su Grazia Deledda
+    start: 2026-12-16T17:00
+    end: 2026-12-16T18:30
+    venue: Biblioteca San Giorgio
+    address: Via Sandro Pertini 340
+    town: Pistoia
+    lat: 43.9281323
+    lon: 10.9100823
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.comune.pistoia.it/it/eventi/incontro-su-grazia-deledda
+    summary: Il docente Mauro Novelli parla della scrittrice Grazia Deledda nell'Auditorium Terzani, nel centenario del Nobel.
+    fonte: https://www.comune.pistoia.it/it/events (agenda del Comune di Pistoia, Municipium; schede lette il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Giotto era il nonno di Banksy
+    start: 2026-06-28T10:00
+    end: 2027-05-02T19:00
+    venue: Mo.C.A.
+    address: Viale Giuseppe Verdi 46
+    town: Montecatini-Terme
+    lat: 43.884126
+    lon: 10.772765
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://montecatinitermetourism.com/events/giotto-era-il-nonno-banksy/
+    summary: Mostra sulla storia dei segni lasciati nello spazio pubblico, dalle scritture antiche alla street art, alla galleria civica Mo.C.A.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Visite alle storiche sale d'attesa della stazione
+    start: 2026-10-02T11:00
+    end: 2026-12-31T17:00
+    venue: Stazione Montecatini Terme - Monsummano
+    address: Piazzale Italia 43A
+    town: Montecatini-Terme
+    lat: 43.879633
+    lon: 10.780833
+    category: arte-cultura
+    subcategory: visite
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/visite-guidate-alle-storiche-sale-dattesa-della-stazione-fs-montecatini-terme-monsummano/
+    summary: Apertura gratuita delle sale d'attesa degli anni Trenta della stazione di Montecatini Terme - Monsummano, grazie all'accordo tra Comune e Fondazione FS.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Il Tempio di Babbo Natale
+    start: 2026-11-14T09:00
+    end: 2026-12-27T17:00
+    venue: Stabilimento Terme del Tettuccio
+    address: Piazza Domenico Giusti
+    town: Montecatini-Terme
+    lat: 43.887838
+    lon: 10.776449
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: biglietto
+    official_url: https://montecatinitermetourism.com/events/il-tempio-di-babbo-natale/
+    summary: Percorso a pagamento per bambini con Fontana Magica, Elfi Academy, letterine e incontro con Babbo Natale alle Terme Tettuccio, nei fine settimana.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale di viale Verdi
+    start: 2026-11-14T09:00
+    end: 2026-12-27T20:00
+    venue: Viale Giuseppe Verdi
+    address: Viale Giuseppe Verdi
+    town: Montecatini-Terme
+    lat: 43.884954
+    lon: 10.773583
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/mercatino-di-natale/
+    summary: Casette in legno con specialita' gastronomiche, artigianato e prodotti natalizi lungo viale Verdi.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: La Baita di Babbo Natale
+    start: 2026-11-14T10:00
+    end: 2026-12-27T18:00
+    venue: Via della Salute 8/10/12
+    address: Via della Salute 8/10/12
+    town: Montecatini-Terme
+    lat: 43.885539
+    lon: 10.778347
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://montecatinitermetourism.com/events/la-baita-di-babbo-natale/
+    summary: Villaggio a tema per bambini con letture, posta degli elfi, fabbrica dei giocattoli e incontro con Babbo Natale.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: La Ippovia del Natale
+    start: 2026-11-14T11:00
+    end: 2026-12-27T18:30
+    venue: Parco della Pineta
+    address: Viale dei Salici
+    town: Montecatini-Terme
+    lat: 43.887128
+    lon: 10.774516
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://montecatinitermetourism.com/events/la-ippovia-del-natale/
+    summary: I pony del centro ippico di Pieve a Nievole nei viali della Pineta per i bambini.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Il Bosco Incantato
+    start: 2026-11-14T14:30
+    end: 2026-12-26T18:30
+    venue: Giardini del Monumento ai Caduti
+    address: Viale Verdi
+    town: Montecatini-Terme
+    lat: 43.884954
+    lon: 10.773583
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/il-bosco-incantato/
+    summary: Percorso natalizio con le storie degli elfi nei giardini del Monumento ai Caduti e laboratorio per scrivere la letterina a Babbo Natale.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Il Piccolo Teatro del Natale
+    start: 2026-11-14T15:00
+    end: 2026-12-27T18:00
+    venue: Viale Giuseppe Verdi
+    address: Viale Giuseppe Verdi
+    town: Montecatini-Terme
+    lat: 43.884954
+    lon: 10.773583
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/il-piccolo-teatro-del-natale/
+    summary: Teatro di strada, burattini e bolle giganti sulle scalinate del palazzo comunale.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Chiusura della Biennale di Architettura e Benessere
+    start: 2026-11-29T18:00
+    end: 2026-11-29T23:00
+    venue: Terme Tettuccio
+    address: Piazza Domenico Giusti
+    town: Montecatini-Terme
+    lat: 43.887838
+    lon: 10.776449
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://montecatinitermetourism.com/events/biennale-di-montecatini-terme-di-architettura-e-benessere-chiusura-ufficiale/
+    summary: Serata conclusiva della Biennale di Architettura e Benessere nel Salone Portoghesi delle Terme Tettuccio.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Aida al Teatro Verdi
+    start: 2026-12-01T20:30
+    end: 2026-12-01T23:00
+    venue: Teatro Verdi
+    address: Viale Giuseppe Verdi 45
+    town: Montecatini-Terme
+    lat: 43.885104
+    lon: 10.772458
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://montecatinitermetourism.com/events/aida-montecatini-terme-citta-della-musica-2026/
+    summary: Nuova produzione dell'Aida di Verdi con la regia di Manu Lalli, l'Orchestra Cupiditas e il Coro Arche', per Montecatini Terme Citta' della Musica.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Montecatini Liberty Tour
+    start: 2026-12-05T15:30
+    end: 2026-12-05T17:00
+    venue: Viale Giuseppe Verdi
+    address: Viale Giuseppe Verdi
+    town: Montecatini-Terme
+    lat: 43.884954
+    lon: 10.773583
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://montecatinitermetourism.com/events/montecatini-liberty-tour/
+    summary: Visita guidata da viale Verdi alle Terme Tettuccio tra architettura liberty e storie della Belle Epoque.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: 'Potresti essere tu: il caso Garlasco, con Giuseppe Brindisi'
+    start: 2026-12-05T21:00
+    end: 2026-12-05T23:00
+    venue: Teatro Verdi
+    address: Viale Giuseppe Verdi 45
+    town: Montecatini-Terme
+    lat: 43.885104
+    lon: 10.772458
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://montecatinitermetourism.com/events/giuseppe-brindisi-potresti-essere-tu-il-caso-garlasco/
+    summary: Format teatrale sul caso Garlasco ideato e condotto da Giuseppe Brindisi con giornalisti e criminologi.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Concerto Otello e Falstaff
+    start: '2026-12-08'
+    venue: Terme Tettuccio
+    address: Piazza Domenico Giusti
+    town: Montecatini-Terme
+    lat: 43.887838
+    lon: 10.776449
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://montecatinitermetourism.com/events/concerto-otello-e-falstaff-montecatini-terme-citta-della-musica-2026/
+    summary: Concerto conclusivo del festival Montecatini Terme Citta' della Musica con pagine di Otello e Falstaff di Verdi.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Piano Sky in piazza del Popolo
+    start: 2026-12-08T16:30
+    end: 2026-12-08T17:30
+    venue: Piazza del Popolo
+    address: Piazza del Popolo
+    town: Montecatini-Terme
+    lat: 43.882793
+    lon: 10.770956
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/piano-sky/
+    summary: Spettacolo con un pianista e il suo pianoforte sollevati a circa quattro metri d'altezza in piazza del Popolo.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Harlem Gospel Choir
+    start: 2026-12-10T21:00
+    end: 2026-12-10T23:00
+    venue: Teatro Verdi
+    address: Viale Giuseppe Verdi 45
+    town: Montecatini-Terme
+    lat: 43.885104
+    lon: 10.772458
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://montecatinitermetourism.com/events/harlem-gospel-choir/
+    summary: Concerto dell'Harlem Gospel Choir al Teatro Verdi.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: A Christmas Carol, il musical
+    start: 2026-12-11T21:00
+    end: 2026-12-11T23:00
+    venue: Teatro Verdi
+    address: Viale Giuseppe Verdi 45
+    town: Montecatini-Terme
+    lat: 43.885104
+    lon: 10.772458
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://montecatinitermetourism.com/events/a-christmas-carol-musical/
+    summary: Musical tratto dal racconto di Charles Dickens al Teatro Verdi.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Mamma ho perso l'aereo al Teatro Verdi
+    start: 2026-12-13T17:00
+    end: 2026-12-13T19:00
+    venue: Teatro Verdi
+    address: Viale Giuseppe Verdi 45
+    town: Montecatini-Terme
+    lat: 43.885104
+    lon: 10.772458
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    official_url: https://montecatinitermetourism.com/events/mamma-ho-perso-laereo/
+    summary: Proiezione sul grande schermo del film natalizio con il piccolo Kevin dimenticato a casa.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Babbo Natale corre per Avis
+    start: 2026-12-20T07:30
+    end: 2026-12-20T09:30
+    venue: Parrocchia del Corpus Domini
+    address: Via Marruota 105
+    town: Montecatini-Terme
+    lat: 43.877573
+    lon: 10.76871
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://montecatinitermetourism.com/events/babbo-natale-corre-per-avis/
+    summary: Gara podistica competitiva di 10 km, camminata di 5 km e attivita' per famiglie e cani a sostegno dell'Avis.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Parata dei Babbi Natale in moto
+    start: 2026-12-20T10:00
+    end: 2026-12-20T12:00
+    venue: Piazza del Popolo
+    address: Piazza del Popolo
+    town: Montecatini-Terme
+    lat: 43.882793
+    lon: 10.770956
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/parata-dei-babbi-natale/
+    summary: Arrivo in piazza del Popolo dei motociclisti vestiti da Babbo Natale, con raccolta di offerte per beneficenza.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Concerto di Natale della Corale Murialdina
+    start: 2026-12-20T15:30
+    end: 2026-12-20T17:30
+    venue: Basilica di Santa Maria Assunta
+    address: Piazza del Popolo
+    town: Montecatini-Terme
+    lat: 43.882793
+    lon: 10.770956
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/concerto-di-natale-del-corone-corale-murialdina/
+    summary: Concerto di canti natalizi del coro CORONE negli spazi esterni della basilica di Santa Maria Assunta.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Concerto di Santo Stefano della Banda Montecatini
+    start: 2026-12-26T11:30
+    end: 2026-12-26T13:30
+    venue: Basilica di Santa Maria Assunta
+    address: Piazza del Popolo
+    town: Montecatini-Terme
+    lat: 43.882793
+    lon: 10.770956
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/tradizionale-concerto-di-s-stefano/
+    summary: Tradizionale concerto della Banda Montecatini nella basilica di Santa Maria Assunta.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: 'Mattia Boschi: Sogni, spettacolo di magia'
+    start: 2026-12-26T13:30
+    end: 2026-12-26T15:30
+    venue: Teatro Verdi
+    address: Viale Giuseppe Verdi 45
+    town: Montecatini-Terme
+    lat: 43.885104
+    lon: 10.772458
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://montecatinitermetourism.com/events/mattia-boschi-sogni-spettacolo-di-magia-e-illusionismo/
+    summary: Spettacolo di magia e illusionismo di Mattia Boschi al Teatro Verdi.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Terme Parkrun
+    start: 2026-11-28T09:00
+    venue: Pineta di Montecatini Terme
+    address: Viale dei Salici
+    town: Montecatini-Terme
+    lat: 43.887128
+    lon: 10.774516
+    category: sport
+    subcategory: corsa
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/terme-parkrun/
+    summary: Corsa o camminata gratuita e non competitiva di 5 km nella Pineta, ogni sabato mattina.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Terme Parkrun
+    start: 2026-12-05T09:00
+    venue: Pineta di Montecatini Terme
+    address: Viale dei Salici
+    town: Montecatini-Terme
+    lat: 43.887128
+    lon: 10.774516
+    category: sport
+    subcategory: corsa
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/terme-parkrun/
+    summary: Corsa o camminata gratuita e non competitiva di 5 km nella Pineta, ogni sabato mattina.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Terme Parkrun
+    start: 2026-12-12T09:00
+    venue: Pineta di Montecatini Terme
+    address: Viale dei Salici
+    town: Montecatini-Terme
+    lat: 43.887128
+    lon: 10.774516
+    category: sport
+    subcategory: corsa
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/terme-parkrun/
+    summary: Corsa o camminata gratuita e non competitiva di 5 km nella Pineta, ogni sabato mattina.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: Terme Parkrun
+    start: 2026-12-19T09:00
+    venue: Pineta di Montecatini Terme
+    address: Viale dei Salici
+    town: Montecatini-Terme
+    lat: 43.887128
+    lon: 10.774516
+    category: sport
+    subcategory: corsa
+    access: libero
+    official_url: https://montecatinitermetourism.com/events/terme-parkrun/
+    summary: Corsa o camminata gratuita e non competitiva di 5 km nella Pineta, ogni sabato mattina.
+    fonte: https://montecatinitermetourism.com/events.ics (calendario iCal della Fondazione Turismo WE di Montecatini Terme, letto il 2026-11-28); coordinate dal campo GEO del calendario
+    trovato: '2026-11-28'
+  - title: 'Siena Incanta: accensione delle luminarie'
+    start: 2026-11-28T17:00
+    venue: Piazza del Campo
+    address: Il Campo
+    town: Siena
+    lat: 43.3184391
+    lon: 11.3315583
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le
+    summary: Accensione delle luminarie in centro e degli alberi di Natale nei quartieri, apertura del programma natalizio Siena Incanta.
+    fonte: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercato straordinario delle merci
+    start: 2026-11-29T07:00
+    end: 2026-11-29T19:00
+    venue: Viale XXV Aprile
+    address: Viale XXV Aprile
+    town: Siena
+    lat: 43.3208086
+    lon: 11.3241595
+    category: mercatini-fiere
+    subcategory: fiere
+    access: libero
+    official_url: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le
+    summary: Mercato ambulante straordinario lungo viale XXV Aprile.
+    fonte: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino degli Hobbisti Crea e Dimostra
+    start: '2026-12-04'
+    end: '2026-12-23'
+    venue: Logge di Piazza Indipendenza
+    address: Piazza Indipendenza
+    town: Siena
+    lat: 43.3191474
+    lon: 11.3304222
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le
+    summary: Mercatino di hobbisti sotto le logge di piazza Indipendenza.
+    fonte: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Tutti in scena, c'era una volta uno spettacolo favoloso
+    start: 2026-12-09T18:00
+    venue: Teatro dei Rinnovati
+    address: Il Campo 1 (Palazzo Pubblico)
+    town: Siena
+    lat: 43.3180619
+    lon: 11.3324676
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le
+    summary: Spettacolo al Teatro dei Rinnovati nel cartellone di Siena Incanta.
+    fonte: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino degli Hobbisti Alternativa Creativa
+    start: 2026-12-13T10:00
+    end: 2026-12-13T20:00
+    venue: Viale Maccari
+    address: Viale Cesare Maccari
+    town: Siena
+    lat: 43.3229968
+    lon: 11.3238819
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le
+    summary: Mercatino di hobbisti in viale Maccari.
+    fonte: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Melodie senesi: tradizione e coralita'''
+    start: 2026-12-14T16:30
+    venue: Palazzo Pubblico, Sala delle Lupe
+    address: Il Campo 1
+    town: Siena
+    lat: 43.317997
+    lon: 11.332013
+    category: musica
+    subcategory: concerti
+    official_url: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le
+    summary: Concerto corale nella Sala delle Lupe di Palazzo Pubblico.
+    fonte: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Canti d''Incanti: Siena e Sardegna tra cori e cuore'
+    start: 2026-12-14T18:15
+    venue: Palazzo Pubblico, Sala del Mappamondo
+    address: Il Campo 1
+    town: Siena
+    lat: 43.317997
+    lon: 11.332013
+    category: musica
+    subcategory: concerti
+    official_url: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le
+    summary: Concerto di cori senesi e sardi nella Sala del Mappamondo di Palazzo Pubblico.
+    fonte: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Alessandro Franchi nella Siena tra Otto e Novecento
+    start: '2026-10-30'
+    end: '2027-02-28'
+    venue: Palazzo Pubblico
+    address: Il Campo 1
+    town: Siena
+    lat: 43.317997
+    lon: 11.332013
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le
+    summary: Mostra sul pittore Alessandro Franchi ai Magazzini del Sale e al Museo Civico di Palazzo Pubblico.
+    fonte: https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Anghiari Vinicoli
+    start: 2026-12-05T17:00
+    end: '2026-12-08'
+    venue: Centro storico di Anghiari
+    address: Piazza Baldaccio
+    town: Anghiari
+    lat: 43.5408991
+    lon: 12.0545334
+    category: sagre-feste
+    subcategory: degustazioni
+    access: biglietto
+    price: da 1,50 a 35 euro
+    official_url: https://www.visittuscany.com/it/eventi/anghiari-vinicoli-dicembre-2026/
+    summary: Percorso enogastronomico nel centro storico con degustazioni di vini e distillati e piatti tipici; l'8 dicembre il borgo si illumina di candele con Anghiari si Accende.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Baldaccio Bruni (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: The Joyful Gospel Ensemble a Vada
+    start: 2026-12-19T17:30
+    end: 2026-12-19T19:00
+    venue: Piazza Garibaldi
+    address: Piazza Giuseppe Garibaldi, Vada
+    town: Rosignano Marittimo
+    lat: 43.3522749
+    lon: 10.4562965
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://www.visittuscany.com/it/eventi/vada-the-joyful-gospel-ensemble-19-dicembre-2026/
+    summary: Concerto gospel in piazza diretto da Riccardo Pagni, organizzato dalla Pro Loco Costa di Vada per il Natale.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Giuseppe Garibaldi a Vada (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale a Moggiona
+    start: 2026-12-13T08:00
+    venue: Borgo di Moggiona
+    address: Moggiona
+    town: Poppi
+    lat: 43.782191
+    lon: 11.7925573
+    category: sagre-feste
+    subcategory: sagre
+    official_url: https://www.visittuscany.com/it/eventi/mercatini-a-moggiona-13-dicembre-2026/
+    summary: Giornata con piatti della cucina casentinese, tra cui l'acquacotta, visite guidate al Percorso del Lupo e agli ecomusei e ricerca di Babbo Natale a lume di lanterna.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: centro di Moggiona (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: La gloria e l'oblio, vita di Pietro Alessandro Guglielmi
+    start: 2026-12-08T21:00
+    end: 2026-12-08T23:00
+    venue: Teatro dei Servi
+    address: Via Palestro
+    town: Massa
+    lat: 44.0396936
+    lon: 10.1425896
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: libero
+    official_url: https://www.visittuscany.com/it/eventi/massa-la-gloria-e-loblio-8-dicembre-2026/
+    summary: Spettacolo di teatro e musica sul compositore massese del Settecento Pietro Alessandro Guglielmi, con Fabio Cristiani e l'Ensemble Massa Cybea.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Teatro dei Servi (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Il libro d'herbe di Gherardo Cibo
+    start: '2026-11-15'
+    end: '2027-02-14'
+    venue: Museo Diocesano di Massa
+    address: Via Alberica
+    town: Massa
+    lat: 44.0357933
+    lon: 10.1422981
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.visittuscany.com/it/eventi/massa-il-libro-dherbe-di-gherardo-cibo-novembre-febbraio-2027/
+    summary: Mostra con l'erbario cinquecentesco di Gherardo Cibo della Biblioteca Marucelliana, insieme a libri, dipinti e tessuti sul rapporto tra botanica e arte.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Museo Diocesano di Massa (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: 'Sant''Agostino ad Asciano: tra arte, storia e devozione'
+    start: 2026-11-28T16:00
+    end: 2026-11-28T18:00
+    venue: Chiesa di Sant'Agostino
+    address: Vicolo Sant'Agostino
+    town: Asciano
+    lat: 43.2364118
+    lon: 11.558894
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://www.visittuscany.com/it/eventi/asciano-santagostino-tra-arte-storia-e-devozione-28-novembre-2026/
+    summary: Convegno sui restauri di tre tele della chiesa di Sant'Agostino, seguito da una visita alla Madonna delle Grazie al Museo Civico di Palazzo Corboli.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: chiesa di Sant''Agostino (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: Stelle tra le Mura
+    start: 2026-12-05T11:00
+    end: 2026-12-06T19:00
+    venue: Castello di Monteriggioni
+    address: Piazza Dante Alighieri
+    town: Monteriggioni
+    lat: 43.3899124
+    lon: 11.2236519
+    category: sagre-feste
+    subcategory: degustazioni
+    official_url: https://www.visittuscany.com/it/eventi/monteriggioni-stelle-tra-le-mura-5-6-dicembre-2026/
+    summary: Due giornate di gastronomia con chef, ristoratori e produttori nelle piazze del castello, con la Banda dei Babbo Natale.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Dante Alighieri nel castello (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: La Magia di Natale a Civitella
+    start: 2026-12-08T10:00
+    end: 2026-12-08T23:00
+    venue: Centro storico di Civitella
+    address: Via Provinciale di Civitella 24
+    town: Civitella in Val di Chiana
+    lat: 43.417645
+    lon: 11.723338
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.visittuscany.com/it/eventi/civitella-in-val-di-chiana-la-magia-del-natale-8-dicembre-2026/
+    summary: Giornata natalizia nel borgo con mercatini, Babbo Natale, caccia al tesoro per bambini, banda e coro, e accensione delle luminarie al tramonto.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: borgo di Civitella (OpenStreetMap)'
+    trovato: '2026-11-28'
+  - title: L'Incanto del Natale a Sinalunga
+    start: 2026-12-05T15:00
+    end: '2026-12-06'
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Sinalunga
+    lat: 43.2122167
+    lon: 11.7363007
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.visittuscany.com/it/eventi/sinalunga-lincanto-del-natale-5-6dicembre-2026/
+    summary: Due pomeriggi di spettacoli, canti di Natale, concerto gospel, tombola e mercatini artigianali in piazza Garibaldi.
+    fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Garibaldi (OpenStreetMap)'
+    trovato: '2026-11-28'
