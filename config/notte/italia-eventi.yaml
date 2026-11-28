@@ -1,0 +1,1165 @@
+# Eventi trovati dall'agente italia nella notte del 2026-11-28 (fase 2b, Resto d'Italia).
+# Formato di config/eventi_redazione.yaml.
+
+eventi:
+  # ---------------- PADOVA (PD) ----------------
+  - title: Alcesti
+    start: '2026-11-24'
+    end: '2026-11-29'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrostabileveneto.it/spettacolo/1514_878_alcesti
+    summary: Tragedia di Euripide in scena per sei giorni nella stagione di prosa del Teatro Verdi.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: Predatori di pianura
+    start: '2026-12-15'
+    end: '2026-12-20'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrostabileveneto.it/spettacolo/1524_878_predatori_di_pianura
+    summary: Spettacolo di Andrea Pennacchi ispirato a Ruzante, nella stagione di prosa del Teatro Stabile del Veneto.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: Una delle ultime sere di Carnovale
+    start: '2027-01-19'
+    end: '2027-01-24'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrostabileveneto.it/spettacolo/1525_878_una_delle_ultime_sere_di_carnovale
+    summary: Commedia di Carlo Goldoni con Valerio Binasco, in replica per sei giorni al Teatro Verdi.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: La cosmicomica vita di Q
+    start: '2027-01-27'
+    end: '2027-01-31'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrostabileveneto.it/spettacolo/1520_878_la_cosmicomica_vita_di_q
+    summary: Spettacolo tratto da Italo Calvino con Luca Marinelli, nella stagione di prosa del Teatro Verdi.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: Erano tutti miei figli
+    start: '2027-02-03'
+    end: '2027-02-07'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: http://teatrostabileveneto.it/spettacolo/1516_878_erano_tutti_miei_figli_
+    summary: Dramma di Arthur Miller in replica per cinque giorni al Teatro Verdi.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: Bestiario idrico
+    start: '2027-02-16'
+    end: '2027-02-21'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrostabileveneto.it/spettacolo/1515_878_bestiario_idrico_
+    summary: Spettacolo di Marco Paolini e Giulio Boccaletti dedicato all'acqua, nella stagione di prosa del Teatro Verdi.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: A casa tutti bene
+    start: '2027-02-24'
+    end: '2027-02-28'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrostabileveneto.it/spettacolo/1513_878_a_casa_tutti_bene
+    summary: Versione teatrale del film di Gabriele Muccino e Paolo Costella, in replica per cinque giorni al Teatro Verdi.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: "Moliere. L'arte della beffa"
+    start: '2027-03-02'
+    end: '2027-03-07'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrostabileveneto.it/spettacolo/1522_878_moliere___l_arte_della_beffa
+    summary: Spettacolo con Alessio Boni dedicato a Moliere, nella stagione di prosa del Teatro Verdi.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: Finale di partita
+    start: '2027-03-10'
+    end: '2027-03-14'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrostabileveneto.it/spettacolo/1517_878_finale_di_partita_
+    summary: Testo di Samuel Beckett in replica per cinque giorni nella stagione di prosa del Teatro Verdi.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/stagione-di-prosa-20262027-teatro-verdi
+    trovato: '2026-11-28'
+  - title: La Traviata (Stagione Lirica di Padova)
+    start: 2026-12-28T20:45
+    end: '2026-12-31'
+    venue: Teatro Verdi
+    address: Via dei Livello 32
+    town: Padova
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismopadova.it/evento/opv-stagione-lirica-2026-la-traviata/
+    summary: "Opera di Giuseppe Verdi con l'Orchestra di Padova e del Veneto diretta da Giancarlo Andretta e regia di Gianni Cei. Recite il 28 e il 29 dicembre alle 20:45 e il 31 dicembre alle 21."
+    fonte: https://www.turismopadova.it/evento/opv-stagione-lirica-2026-la-traviata/
+    trovato: '2026-11-28'
+  - title: Accensione dell'albero e videomapping (Natale a Padova)
+    start: 2026-11-28T17:00
+    venue: Palazzo Moroni
+    town: Padova
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: "Accensione dell'albero di dodici metri davanti a Palazzo Moroni e proiezioni di videomapping nelle piazze delle Erbe, della Frutta, dei Signori e del Duomo."
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Villaggio di Natale agli Eremitani
+    start: '2026-11-27'
+    end: '2027-01-06'
+    venue: Piazza Eremitani
+    town: Padova
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: "Villaggio natalizio con casa di Babbo Natale, due giostre e mercatino. Babbo Natale incontra i bambini il 5, 6, 7, 8, 12, 13, 19, 20 e 24 dicembre, 10-13 e 15-19."
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Fiera di Natale nel centro storico
+    start: '2026-12-05'
+    end: '2027-01-06'
+    venue: Piazze del centro storico
+    town: Padova
+    category: mercatini-fiere
+    subcategory: fiere
+    access: libero
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: Bancarelle natalizie nelle piazze Duomo, della Frutta, delle Erbe e dei Signori e nelle vie Risorgimento, Oberdan, Battisti e Santa Lucia.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Natale Artigiano in piazza Capitaniato
+    start: '2026-12-05'
+    end: '2027-01-06'
+    venue: Piazza Capitaniato
+    town: Padova
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: Mercatino con una quarantina di artigiani e una piccola area dedicata al cibo.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Il Buon Natale in via Umberto I
+    start: '2026-11-27'
+    end: '2026-12-08'
+    venue: Via Umberto I
+    town: Padova
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: Undici bancarelle natalizie con prodotti alimentari regionali, artigianato e cosmetica naturale, a cura di Confesercenti del Veneto Centrale.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Natale sul ghiaccio in Prato della Valle
+    start: '2026-11-27'
+    end: '2027-01-24'
+    venue: Prato della Valle
+    town: Padova
+    category: sport
+    subcategory: altri-sport
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: Pista di pattinaggio aperta ogni giorno dalle 9:30 alle 21, fino alle 23 nei fine settimana e nei giorni di festa indicati dal programma.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Trenino del Natale
+    start: '2026-11-28'
+    end: '2027-01-06'
+    venue: Piazza Cavour
+    town: Padova
+    category: famiglie-bambini
+    access: biglietto
+    price: 5 EUR
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: Trenino che parte da piazza Cavour e gira per il centro storico, con percorso lungo nei feriali (16:30-18:30) e breve nei festivi; non circola il 25 dicembre.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Momart in via Cavour
+    start: '2026-12-13'
+    venue: Via Cavour e Santa Lucia
+    town: Padova
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: Esposizione e vendita di dipinti, quadri e fotografie lungo via Cavour e Santa Lucia.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Flash mob gospel di Natale
+    start: '2026-12-05'
+    venue: Villaggio Eremitani e Palazzo Moroni
+    town: Padova
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://www.comune.padova.it/vivere-il-comune/eventi/flash-mob-natale-padova-2026
+    summary: Due esibizioni a sorpresa del gruppo gospel Summertime, al Villaggio Eremitani e sotto l'albero davanti a Palazzo Moroni.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Cantanatale 2026
+    start: '2026-12-20'
+    venue: Piazzetta Pedrocchi
+    town: Padova
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.comune.padova.it/vivere-il-comune/eventi/manifestazione-cantanatale-2026
+    summary: Ritrovo in piazzetta Pedrocchi e corteo canoro per il centro fino al reparto di Pediatria.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: La Befana in Prato
+    start: '2027-01-06'
+    venue: Prato della Valle
+    town: Padova
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    summary: Spettacolo con il Gruffalo' e la Befana dei Vigili del Fuoco, con distribuzione delle calze ai bambini.
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/natale-padova-2026
+    trovato: '2026-11-28'
+  - title: Disney in concerto
+    start: '2026-12-12'
+    venue: Auditorium Pollini
+    address: Via Carlo Cassan 17
+    town: Padova
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismopadova.it/evento/natale-a-padova-disney-in-concerto/
+    summary: L'Orchestra di Padova e del Veneto diretta da Marco Battigelli esegue arrangiamenti di musiche dei film Disney, con il cantante Matteo Fresch, per la rassegna OPV Families & Kids.
+    fonte: https://www.turismopadova.it/evento/natale-a-padova-disney-in-concerto/
+    trovato: '2026-11-28'
+  - title: Concerto di Natale alla Basilica del Santo
+    start: 2026-12-17T20:45
+    venue: Basilica di Sant'Antonio
+    address: Piazza del Santo 11
+    town: Padova
+    category: musica
+    subcategory: jazz-classica
+    access: invito
+    price: gratuito con invito (distribuzione dal 10 dicembre all'ex IAT di piazzetta Pedrocchi 9)
+    official_url: https://www.turismopadova.it/evento/natale-a-padova-concerto-di-natale/
+    summary: L'Orchestra di Padova e del Veneto diretta da Luca Guglielmi esegue musiche di Mozart con il soprano Francesca Palitti.
+    fonte: https://www.turismopadova.it/evento/natale-a-padova-concerto-di-natale/
+    trovato: '2026-11-28'
+  - title: Tony Gallo. Melancholy
+    start: '2026-11-29'
+    end: '2027-01-10'
+    venue: Galleria Cavour
+    address: Piazza Cavour
+    town: Padova
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    price: ingresso libero
+    official_url: https://www.turismopadova.it/evento/tony-gallo-melancholy/
+    summary: "Mostra personale con sessanta tele e dodici sculture. Aperta il giovedi' 15:30-19:30 e venerdi'-domenica 10-13 e 15:30-19:30, chiusa 25 e 26 dicembre e 1 gennaio."
+    fonte: https://www.turismopadova.it/evento/tony-gallo-melancholy/
+    trovato: '2026-11-28'
+  - title: 800 Padova Festival. Anime Inquiete
+    start: '2026-12-03'
+    end: '2026-12-08'
+    venue: Caffe' Pedrocchi
+    town: Padova
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.800padovafestival.it
+    summary: "Ottava edizione del festival dedicato all'Ottocento, con incontri, letture, visite guidate in citta', balli storici e appuntamenti per famiglie. Alcune attivita' richiedono prenotazione."
+    fonte: https://padovacultura.padovanet.it/it/attivita-culturali/800-padova-festival-1
+    trovato: '2026-11-28'
+  - title: Pensieri Preziosi XXI. La collezione Pilar Garrigosa
+    start: '2026-11-21'
+    end: '2027-03-07'
+    venue: Oratorio di San Rocco
+    town: Padova
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://padovacultura.padovanet.it/it/attivita-culturali/pensieri-preziosi-xxi
+    summary: Ventunesima edizione della mostra Pensieri Preziosi, dedicata alla collezione di Pilar Garrigosa.
+    fonte: https://padovacultura.padovanet.it/it/manifestazioni
+    trovato: '2026-11-28'
+  # ---------------- VERONA (VR) ----------------
+  - title: "Il Mago di Oz (Famiglie a Teatro)"
+    start: 2026-12-13T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 4 anni della compagnia Fondazione Aida, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "La Regina delle Nevi (Famiglie a Teatro)"
+    start: 2026-12-20T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 4 anni della compagnia La Contrada, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "Pimpa. Il musical a pois (Famiglie a Teatro)"
+    start: 2026-12-21T16:00
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 3 anni della compagnia Fondazione Aida, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "La Freccia Azzurra (Famiglie a Teatro)"
+    start: 2027-01-03T16:30
+    venue: Teatro Nuovo
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 4 anni della compagnia Fondazione Aida, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "Sulla Luna in Bicicletta (Famiglie a Teatro)"
+    start: 2027-01-17T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 4 anni della compagnia Guardiani dell'Oca, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "Persi tra le Stelle (Famiglie a Teatro)"
+    start: 2027-01-31T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 8 anni della compagnia TerramMare Teatro, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "Pierino e il Lupo (Famiglie a Teatro)"
+    start: 2027-02-14T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 4 anni della compagnia Fondazione Aida, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "La Principessa sul Pisello (Famiglie a Teatro)"
+    start: 2027-02-21T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 4 anni della compagnia Stivalaccio Teatro e Febo teatro, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "L'occhio del Lupo (Famiglie a Teatro)"
+    start: 2027-02-28T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 8 anni della compagnia Fondazione Aida, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "Riccioli d'Oro e i Tre Orsi (Famiglie a Teatro)"
+    start: 2027-03-14T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 3 anni della compagnia La Botte e il Cilindro, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "Le Avventure della Famiglia Caccapuzza (Famiglie a Teatro)"
+    start: 2027-03-21T16:30
+    venue: Teatro Stimate
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 6 EUR
+    official_url: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    summary: "Spettacolo per bambini dai 3 anni della compagnia Fondazione Aida, nella rassegna Famiglie a Teatro della Fondazione Aida."
+    fonte: https://www.visitverona.it/it/eventi/famiglie-a-teatro-3
+    trovato: '2026-11-28'
+  - title: "Il Lago dei Cigni (Musica in Famiglia)"
+    start: 2026-12-12T15:30
+    venue: Teatro Filarmonico
+    town: Verona
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.visitverona.it/it/eventi/musica-in-famiglia-3
+    summary: Versione del balletto pensata per i bambini, con l'orchestra della Fondazione Arena che suona dal vivo.
+    fonte: https://www.visitverona.it/it/eventi/musica-in-famiglia-3
+    trovato: '2026-11-28'
+  - title: "Oratorio di Natale di Bach"
+    start: 2026-12-19T20:30
+    venue: Duomo di Verona
+    address: Piazza Vescovado
+    town: Verona
+    category: musica
+    subcategory: jazz-classica
+    access: iscrizione
+    price: gratuito con prenotazione obbligatoria
+    official_url: https://fraumusika.eu/
+    summary: L'Orchestra Frau Musika e il Coro del Friuli-Venezia Giulia eseguono il Weihnachtsoratorium BWV 248 con quattro solisti; e' una delle tre date del progetto, con Feltre e Vicenza.
+    fonte: https://www.visitverona.it/it/eventi/johann-sebastian-bach-oratorio-di-natale
+    trovato: '2026-11-28'
+  - title: Verona Christmas Run
+    start: 2026-12-20T09:30
+    venue: Piazza Bra
+    town: Verona
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://www.veronachristmasrun.it/regolamento
+    summary: Corsa e camminata non competitiva nel centro storico con percorsi di 5 e 10 km, partenza e arrivo in piazza Bra; ai partecipanti e' proposto il costume da Babbo Natale.
+    fonte: https://www.visitverona.it/en/events/adigeo-christmas-run
+    trovato: '2026-11-28'
+  - title: "150 anni dall'Esposizione Preistorica Veronese (convegno)"
+    start: '2026-12-10'
+    end: '2026-12-11'
+    venue: Museo di Storia Naturale, Sala Sandro Ruffo
+    town: Verona
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    price: ingresso libero fino a esaurimento posti
+    official_url: https://www.visitverona.it/it/eventi/conferenze-dei-musei-civici-di-verona-3
+    summary: Due giornate in tre sessioni sulla storia della paletnologia e sull'esposizione preistorica veronese del 1876, nel ciclo di conferenze dei Musei Civici.
+    fonte: https://www.visitverona.it/it/eventi/conferenze-dei-musei-civici-di-verona-3
+    trovato: '2026-11-28'
+  - title: "Quinzano 1: analisi e interpretazione di un antico resto umano"
+    start: 2026-12-22T17:00
+    venue: Museo di Storia Naturale, Sala Sandro Ruffo
+    town: Verona
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    price: ingresso libero fino a esaurimento posti
+    official_url: https://www.visitverona.it/it/eventi/conferenze-dei-musei-civici-di-verona-3
+    summary: Conferenza di due ricercatori dell'Universita' di Firenze sul resto umano antico noto come Quinzano 1, nel ciclo dei Musei Civici.
+    fonte: https://www.visitverona.it/it/eventi/conferenze-dei-musei-civici-di-verona-3
+    trovato: '2026-11-28'
+  # ---------------- VICENZA (VI) ----------------
+  - title: "Giselle"
+    start: 2026-11-28T20:45
+    end: '2026-11-29'
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://eventi.comune.vicenza.it/content/view/full/10858
+    summary: "Il Balletto del Teatro Nazionale Serbo porta in prima nazionale la sua versione del balletto romantico di Adolphe Adam, coreografia di Aleksandar Antonijevic. Repliche il 28 e 29 novembre alle 20:45."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/10858
+    trovato: '2026-11-28'
+  - title: "Sancta Nox: aspettando il Natale"
+    start: 2026-11-29T17:00
+    venue: "Basilica dei Santi Felice e Fortunato"
+    town: Vicenza
+    category: musica
+    subcategory: jazz-classica
+    access: offerta
+    price: "ingresso libero con offerta responsabile"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/12426
+    summary: "Concerto per la prima domenica di Avvento con quattro solisti, il coro di voci bianche Armonie Palladiane e la Sonika Orchestra diretta da Sergio Lasaponara."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/12426
+    trovato: '2026-11-28'
+  - title: "L'incanto del Natale (Incontro sulla Tastiera)"
+    start: 2026-11-30T20:30
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://eventi.comune.vicenza.it/content/view/full/11398
+    summary: "Tre cantanti lirici e un pianista propongono brani natalizi e arie d'opera, nella stagione concertistica Incontro sulla Tastiera."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/11398
+    trovato: '2026-11-28'
+  - title: "Italia-Germania 4-3. Incontro con Walter Veltroni"
+    start: 2026-12-02T20:45
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: arte-cultura
+    subcategory: conferenze
+    access: biglietto
+    price: "25 EUR, over 65 20 EUR, under 30 15 EUR"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/12662
+    summary: "Walter Veltroni racconta la semifinale dei Mondiali 1970 tra Italia e Germania Ovest come chiave per leggere la storia dei due paesi; apre il programma pubblico legato alla mostra Italia Germania."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/12662
+    trovato: '2026-11-28'
+  - title: "Totalmente Incompatibili"
+    start: 2026-12-05T20:45
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://eventi.comune.vicenza.it/content/view/full/11070
+    summary: "Spettacolo comico di e con Corrado Nuzzo e Maria Di Biase sulle differenze e i paradossi della vita di coppia."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/11070
+    trovato: '2026-11-28'
+  - title: "Unico. Il mercato del fatto a mano"
+    start: 2026-12-05T09:00
+    end: '2026-12-07'
+    venue: "Piazza dei Signori"
+    town: Vicenza
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://eventi.comune.vicenza.it/content/view/full/12626
+    summary: "Mercato natalizio con oltre settanta artigiani e creativi in piazza dei Signori e contra' Garibaldi, dalle 9 alle 19:30 nei tre giorni."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/12626
+    trovato: '2026-11-28'
+  - title: "Orchestra del Teatro Olimpico e Pierangelo Valtinoni"
+    start: 2026-12-07T20:45
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: "23 EUR, over 65 18 EUR, under 30 10 EUR"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/10989
+    summary: "Concerto della stagione sinfonica diretto dal compositore Pierangelo Valtinoni, con la Schola San Rocco e il fisarmonicista Davide Vendramin, su musiche dello stesso Valtinoni."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/10989
+    trovato: '2026-11-28'
+  - title: "Asteroide"
+    start: 2026-12-11T21:00
+    venue: "Teatro Astra"
+    town: Vicenza
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    price: "18 EUR, ridotto 15 EUR"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/11221
+    summary: "Spettacolo di danza che rende omaggio al musical e racconta la fine di un amore, Premio Ubu 2025 come miglior spettacolo di danza."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/11221
+    trovato: '2026-11-28'
+  - title: "L'addio alla corona"
+    start: 2026-12-11T20:45
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://eventi.comune.vicenza.it/content/view/full/11068
+    summary: "Ezio Mauro racconta con immagini e musica i mesi del referendum del 2 giugno 1946 e il passaggio dalla monarchia alla Repubblica."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/11068
+    trovato: '2026-11-28'
+  - title: "A meta' strada. Storia di giraffa e pinguino"
+    start: 2026-12-13T17:00
+    venue: "Teatro Astra"
+    town: Vicenza
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: "adulti 7 EUR, bambini sotto i 14 anni 5 EUR"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/11265
+    summary: "Spettacolo per bambini dai 3 anni sull'amicizia tra una giraffa solitaria e un pinguino inventore."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/11265
+    trovato: '2026-11-28'
+  - title: "Non ho l'eta'. Mercato dell'antiquariato e vintage"
+    start: 2026-12-13T08:00
+    end: 2026-12-13T18:00
+    venue: "Centro storico"
+    town: Vicenza
+    category: mercatini-fiere
+    subcategory: antiquariato
+    access: libero
+    official_url: https://eventi.comune.vicenza.it/content/view/full/13113
+    summary: "Mercato di antiquariato, collezionismo e vintage nelle vie del centro storico, dalle 8 alle 18."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/13113
+    trovato: '2026-11-28'
+  - title: "Gabriele Strata in concerto"
+    start: 2026-12-13T20:45
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: "23 EUR, over 65 18 EUR, under 30 10 EUR"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/10962
+    summary: "Recital pianistico con musiche di Liszt e Schubert, nella stagione della Societa' del Quartetto di Vicenza."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/10962
+    trovato: '2026-11-28'
+  - title: "Il berretto a sonagli"
+    start: 2026-12-14T20:45
+    end: '2026-12-15'
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://eventi.comune.vicenza.it/content/view/full/10887
+    summary: "Silvio Orlando interpreta Ciampa nella commedia di Luigi Pirandello, regia di Andrea Baracco. Repliche il 14 e 15 dicembre alle 20:45."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/10887
+    trovato: '2026-11-28'
+  - title: "Corri Babbo Natale Corri"
+    start: 2026-12-18T10:00
+    venue: "Piazza dei Signori"
+    town: Vicenza
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    price: "3 EUR con cappellino, 8 EUR con abito"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/12652
+    summary: "Diciannovesima edizione della corsa a passo libero non competitiva in abito natalizio, con ritrovo alle 10 e raccolta fondi per il Villaggio SOS Vicenza e l'Associazione Bambini Cardiopatici nel mondo."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/12652
+    trovato: '2026-11-28'
+  - title: "Re Lear e' morto a Mosca"
+    start: 2026-12-18T20:45
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://eventi.comune.vicenza.it/content/view/full/10927
+    summary: "Spettacolo di Cesar Brie sulla chiusura del Teatro Ebraico di Mosca nel 1948 e sui suoi attori, con un gruppo di nove interpreti."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/10927
+    trovato: '2026-11-28'
+  - title: "Parata di Natale in corso"
+    start: 2026-12-19T15:00
+    end: 2026-12-19T17:30
+    venue: "Corso Palladio"
+    town: Vicenza
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://eventi.comune.vicenza.it/content/view/full/13051
+    summary: "Sfilata del Corpo Bandistico G. Verdi e delle majorettes Le Stelline di Creazzo lungo corso Palladio, piazza Biade, piazza dei Signori e piazza Duomo."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/13051
+    trovato: '2026-11-28'
+  - title: "Nuova barberia Carloni"
+    start: 2026-12-19T17:00
+    venue: "Teatro Comunale Citta' di Vicenza"
+    address: "Viale Mazzini 39"
+    town: Vicenza
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://eventi.comune.vicenza.it/content/view/full/10935
+    summary: "Spettacolo di Teatro Necessario per grandi e bambini con clownerie, musica dal vivo e acrobazie ambientate in una vecchia barberia."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/10935
+    trovato: '2026-11-28'
+  - title: "E scolte' scolte' il mio canto"
+    start: 2026-12-19T17:30
+    venue: "Odeo del Teatro Olimpico"
+    town: Vicenza
+    category: musica
+    subcategory: concerti
+    official_url: https://eventi.comune.vicenza.it/content/view/full/12964
+    summary: "Il Canzoniere Vicentino presenta i canti della Stella, canti di questua natalizi della provincia di Vicenza, con gruppi provenienti da vari paesi."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/12964
+    trovato: '2026-11-28'
+  - title: "Il cane dean"
+    start: 2026-12-19T21:00
+    venue: "Teatro Astra"
+    town: Vicenza
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: "15 EUR"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/11269
+    summary: "Racconto teatrale dedicato allo scrittore Vitaliano Trevisan, tra lavoro, scrittura e solitudine."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/11269
+    trovato: '2026-11-28'
+  - title: "Il Cantico di Natale"
+    start: 2026-12-20T16:30
+    venue: "Tempio di San Lorenzo"
+    town: Vicenza
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://eventi.comune.vicenza.it/content/view/full/13085
+    summary: "Concerto del Coro Pueri Cantores del Veneto con canti natalizi e brani legati a San Francesco d'Assisi, a ottocento anni dalla morte."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/13085
+    trovato: '2026-11-28'
+  - title: "O magnum mysterium. Concerto di Santo Stefano"
+    start: 2026-12-26T21:00
+    venue: "Chiesa di San Vincenzo"
+    town: Vicenza
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    price: "ingresso gratuito senza prenotazione fino a esaurimento posti"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/12129
+    summary: "Concerto corale natalizio della Libera Cantoria Pisani con brani da Perosi a compositori contemporanei e due prime esecuzioni."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/12129
+    trovato: '2026-11-28'
+  - title: "Italia Germania. Pittura e scultura tra Ottocento e Novecento"
+    start: 2026-11-14
+    end: '2027-05-02'
+    venue: "Basilica Palladiana"
+    town: Vicenza
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://eventi.comune.vicenza.it/content/view/full/10570
+    summary: "Mostra che mette a confronto artisti italiani e tedeschi da Canova a Kiefer, prima tappa del progetto Ispirazione Europa. Aperta da martedi' a domenica."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/10570
+    trovato: '2026-11-28'
+  - title: "Nella vita e nell'arte. Il segno di Carla Accardi e Antonio Sanfilippo"
+    start: 2026-11-14
+    end: '2027-05-02'
+    venue: "Gallerie d'Italia"
+    town: Vicenza
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: "5 EUR, ridotto 3 EUR"
+    official_url: https://eventi.comune.vicenza.it/content/view/full/12960
+    summary: "Esposizione di due opere delle collezioni di Intesa Sanpaolo di Carla Accardi e Antonio Sanfilippo, collegata alla mostra Italia Germania."
+    fonte: https://eventi.comune.vicenza.it/content/view/full/12960
+    trovato: '2026-11-28'
+  - title: Elite Christmas Vicenza
+    start: '2026-11-27'
+    end: '2027-01-03'
+    venue: Piazza Biade e corte dei Bissari
+    town: Vicenza
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.comune.vicenza.it/Novita/Comunicati/Natale-a-Vicenza-con-Le-luci-Babbo-Natale-i-sassi-e-centinaia-di-eventi
+    summary: Mercatino di Natale con casette di legno in piazza Biade e corte dei Bissari, con la casa di Babbo Natale per le letterine dei bambini.
+    fonte: https://www.comune.vicenza.it/Novita/Comunicati/Natale-a-Vicenza-con-Le-luci-Babbo-Natale-i-sassi-e-centinaia-di-eventi
+    trovato: '2026-11-28'
+  - title: Polar Park, pista di ghiaccio in Campo Marzo
+    start: '2026-11-28'
+    end: '2027-01-17'
+    venue: Esedra di Campo Marzo
+    town: Vicenza
+    category: sport
+    subcategory: altri-sport
+    official_url: https://www.comune.vicenza.it/Novita/Comunicati/Natale-a-Vicenza-con-Le-luci-Babbo-Natale-i-sassi-e-centinaia-di-eventi
+    summary: Pista di pattinaggio coperta allestita nell'esedra di Campo Marzo per le feste.
+    fonte: https://www.comune.vicenza.it/Novita/Comunicati/Natale-a-Vicenza-con-Le-luci-Babbo-Natale-i-sassi-e-centinaia-di-eventi
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale e accensione dell'albero in piazza Marconi
+    start: 2026-12-05T10:00
+    end: 2026-12-05T19:00
+    venue: Piazza Marconi
+    town: Montecchio Maggiore
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.comune.montecchio-maggiore.vi.it/it/eventi/mercatini-di-natale-e-accensione-dell-albero
+    summary: Giornata con mercatino, laboratori e spettacoli di giocoleria per bambini, arrivo di Babbo Natale e, dalle 17:20, parata e accensione dell'albero con cori natalizi.
+    fonte: https://www.comune.montecchio-maggiore.vi.it/it/eventi/mercatini-di-natale-e-accensione-dell-albero
+    trovato: '2026-11-28'
+  - title: Aspettando il Natale ad Alte Ceccato
+    start: 2026-12-06T08:00
+    end: 2026-12-06T18:00
+    venue: Piazza San Paolo, Alte Ceccato
+    address: Piazza San Paolo 1
+    town: Montecchio Maggiore
+    category: mercatini-fiere
+    subcategory: antiquariato
+    access: libero
+    price: gratuito
+    official_url: https://www.comune.montecchio-maggiore.vi.it/it/eventi/accensione-albero-di-natale-ad-alte-696331-734773
+    summary: Mercatino dell'usato, artigianato e vintage dalle 8, concerto della Junior Band alle 10:30, lavoretti per ragazzi e accensione dell'albero alle 17.
+    fonte: https://www.comune.montecchio-maggiore.vi.it/it/eventi/accensione-albero-di-natale-ad-alte-696331-734773
+    trovato: '2026-11-28'
+  - title: La magia del presepe a Montecchio Maggiore
+    start: 2026-12-06T14:00
+    end: 2026-12-06T17:30
+    venue: Rustici di Villa Cordellina
+    address: ingresso da via Lovara
+    town: Montecchio Maggiore
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    price: gratuito
+    official_url: https://www.comune.montecchio-maggiore.vi.it/it/eventi/la-magia-del-presepe-a-montecchio-maggiore-694843-734683
+    summary: Esposizione dei presepi del concorso e di presepi da varie parti del mondo, con lo spettacolo teatrale L'ultima Stella alle 15 e alle 16:30.
+    fonte: https://www.comune.montecchio-maggiore.vi.it/it/eventi/la-magia-del-presepe-a-montecchio-maggiore-694843-734683
+    trovato: '2026-11-28'
+  - title: Filo' tra i libri
+    start: 2026-12-03T17:30
+    end: 2026-12-03T19:00
+    venue: Biblioteca comunale Paola Bianchetti Drigo
+    address: Via Firenze 11
+    town: Mussolente
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    price: gratuito
+    official_url: https://www.comune.mussolente.vi.it/it/eventi/filo-tra-i-libri-724848-724850-724851
+    summary: Incontro in biblioteca per giovani e adulti che vogliono condividere letture e passioni per i libri.
+    fonte: https://www.comune.mussolente.vi.it/it/eventi/filo-tra-i-libri-724848-724850-724851
+    trovato: '2026-11-28'
+  # ---------------- VENEZIA (VE) ----------------
+  - title: "Concerto diretto da Riccardo Frizza"
+    start: 2026-11-29T17:00
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/concertoriccardofrizzasinopoliperosi/
+    summary: "Concerto inaugurale della stagione sinfonica con Orchestra e Coro della Fenice e musiche di Sinopoli e Perosi. La replica del 28 novembre e' stata cancellata, resta quella del 29 alle 17."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Saverio Tasca Vibes Trio"
+    start: 2026-12-02T19:00
+    venue: "Teatro La Fenice, Sale Apollinee"
+    town: Venezia
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/saverio-tasca-vibes-trio/
+    summary: "Concerto jazz del trio del vibrafonista Saverio Tasca nelle Sale Apollinee."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Gyorgy Kurtag compie 100 anni"
+    start: 2026-12-03T20:00
+    venue: "Teatro La Fenice, Sale Apollinee"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/gyorgy-kurtag-compie-100-anni/
+    summary: "L'Ex Novo Ensemble dedica un concerto al compositore Gyorgy Kurtag per i suoi cento anni."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Concerto diretto da Alevtina Ioffe"
+    start: 2026-12-04T20:00
+    end: '2026-12-06'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/alevtinaiofferachmaninovtchaikovsky/
+    summary: "Concerto sinfonico con musiche di Rachmaninov e Cajkovskij, il 4 dicembre alle 20 e il 6 alle 17 (il 5 alle 17 replica riservata agli under 35)."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Il ritorno degli aiutanti di Babbo Natale"
+    start: 2026-12-12T10:00
+    end: '2026-12-13'
+    venue: "Teatro La Fenice, Sale Apollinee"
+    town: Venezia
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/il-ritorno-degli-aiutanti-di-babbo-natale-per-le-famiglie/
+    summary: "Spettacolo per famiglie il 12 e 13 dicembre, alle 10 e alle 12."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Les Etoiles"
+    start: 2026-12-12T19:00
+    end: '2026-12-13'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/les-etoiles/
+    summary: "Serata di balletto, il 12 dicembre alle 19 e il 13 alle 15:30."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Marco Gemmani e la Cappella Marciana"
+    start: 2026-12-15T20:00
+    end: '2026-12-16'
+    venue: "Basilica di San Marco"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/marco-gemmani-e-la-cappella-marciana/
+    summary: "Concerto della Cappella Marciana diretta da Marco Gemmani nella Basilica di San Marco, il 15 e 16 dicembre alle 20."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Gaia Banfi. L'ultima Maccaia"
+    start: 2026-12-16T20:30
+    venue: "Teatro La Fenice, Sale Apollinee"
+    town: Venezia
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/gaia-banfi-lultima-maccaia/
+    summary: "Concerto di Gaia Banfi nelle Sale Apollinee."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Concerto diretto da Stanislav Kochanovsky"
+    start: 2026-12-17T20:00
+    end: '2026-12-18'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/stanislavkochanovskyglinkakorsakovtchaikovsky/
+    summary: "Concerto con musiche di Glinka, Rimskij-Korsakov e Cajkovskij, il 17 e 18 dicembre alle 20."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Concerto di Capodanno 2027"
+    start: 2026-12-29T20:00
+    end: '2027-01-01'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/concerto-di-capodanno-2027/
+    summary: "Concerto di Capodanno della Fenice in quattro esecuzioni: 29 dicembre alle 20, 30 alle 17, 31 alle 16 e 1 gennaio alle 11:15."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Danzando per la vita. Gala Internazionale di Danza"
+    start: 2027-01-08T20:00
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/gala-internazionale-di-danza/
+    summary: "Gala di danza con interpreti internazionali al Teatro La Fenice."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Concerto del Coro del Teatro La Fenice"
+    start: 2027-01-09T20:00
+    end: '2027-01-10'
+    venue: "Teatro Malibran"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/coroalmalibranpetitemessesolennelle/
+    summary: "Il Coro della Fenice esegue la Petite messe solennelle al Malibran, il 9 gennaio alle 20 e il 10 alle 17."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Bejart Ballet Lausanne"
+    start: 2027-01-13T19:00
+    end: '2027-01-17'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/bejart-ballet-lausanne/
+    summary: "La compagnia fondata da Maurice Bejart in cinque recite dal 13 al 17 gennaio."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Piccolo Orso e la Montagna di ghiaccio"
+    start: 2027-01-20T10:00
+    end: '2027-01-23'
+    venue: "Teatro Malibran"
+    town: Venezia
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/piccolo-orso-e-la-montagna-di-ghiaccio/
+    summary: "Spettacolo al Malibran: 20, 21 e 22 gennaio alle 10 e alle 12, 23 gennaio alle 15:30."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Madama Butterfly"
+    start: 2027-01-30T19:00
+    end: '2027-02-09'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/madamabutterflycallegari/
+    summary: "Opera di Giacomo Puccini in nove recite tra il 30 gennaio e il 9 febbraio."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Concerto diretto da Philippe Herreweghe"
+    start: 2027-02-14T19:00
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/philippeherrewegheorchestrechampselysee/
+    summary: "Philippe Herreweghe dirige l'Orchestre des Champs-Elysees."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Hansel und Gretel"
+    start: 2027-02-19T19:00
+    end: '2027-02-27'
+    venue: "Teatro Malibran"
+    town: Venezia
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/hansel-und-gretel/
+    summary: "Opera di Engelbert Humperdinck in cinque recite al Teatro Malibran tra il 19 e il 27 febbraio."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Parsons Dance"
+    start: 2027-03-04T19:00
+    end: '2027-03-06'
+    venue: "Teatro Malibran"
+    town: Venezia
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/parsons-dance/
+    summary: "La compagnia statunitense Parsons Dance al Malibran: 4 e 5 marzo alle 19, 6 marzo alle 17."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Jenufa"
+    start: 2027-03-12T19:00
+    end: '2027-03-20'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/jenufa/
+    summary: "Opera di Leos Janacek in cinque recite tra il 12 e il 20 marzo."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "L'arca di Noe'"
+    start: 2027-03-17T11:00
+    end: '2027-03-20'
+    venue: "Teatro Malibran"
+    town: Venezia
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/larca-di-noe/
+    summary: "Spettacolo al Malibran: 17, 18 e 19 marzo alle 11, 20 marzo alle 15:30."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Concerto diretto da Andriy Yurkevych"
+    start: 2027-03-19T20:00
+    end: '2027-03-21'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/andriyyurkevychbeethovendvorak/
+    summary: "Concerto con musiche di Beethoven e Dvorak, il 19 marzo alle 20 e il 21 alle 17."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Concerto diretto da Dennis Russell Davies"
+    start: 2027-03-26T20:00
+    end: '2027-03-27'
+    venue: "Teatro La Fenice"
+    town: Venezia
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.teatrolafenice.it/event/dennisrusselldaviesbeethoven/
+    summary: "Concerto beethoveniano, il 26 marzo alle 20 e il 27 alle 17."
+    fonte: https://www.teatrolafenice.it/calendario/
+    trovato: '2026-11-28'
+  - title: "Mondi su carta: laboratorio di gioco di ruolo"
+    start: 2026-11-28T10:00
+    end: 2026-11-28T13:00
+    venue: Centro Diurno (sopra la Biblioteca)
+    address: Piazza IV Novembre 17/1
+    town: Fossalta di Piave
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito
+    official_url: https://www.comune.fossaltadipiave.ve.it/vivere-il-comune/eventi/mondi-su-carta-laboratori-gratuiti-di-scrittura-creativa-24-ottobre-e-07-novembre-2026-copy-copy-copy-copy/
+    summary: Laboratorio gratuito per ragazzi e giovani adulti della biblioteca comunale, in cui si definiscono le regole e si prova un gioco di ruolo ambientato sul Piave.
+    fonte: https://www.comune.fossaltadipiave.ve.it/eventi/
+    trovato: '2026-11-28'
+  - title: "Mondi su carta: laboratorio di gioco di ruolo"
+    start: 2026-12-05T10:00
+    end: 2026-12-05T13:00
+    venue: Centro Diurno (sopra la Biblioteca)
+    address: Piazza IV Novembre 17/1
+    town: Fossalta di Piave
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito
+    official_url: https://www.comune.fossaltadipiave.ve.it/vivere-il-comune/eventi/mondi-su-carta-laboratori-gratuiti-di-scrittura-creativa-24-ottobre-e-07-novembre-2026-copy-copy-copy-copy/
+    summary: Laboratorio gratuito per ragazzi e giovani adulti della biblioteca comunale, in cui si definiscono le regole e si prova un gioco di ruolo ambientato sul Piave.
+    fonte: https://www.comune.fossaltadipiave.ve.it/eventi/
+    trovato: '2026-11-28'
+  # ---------------- ROVIGO (RO) ----------------
+  - title: "Aiutami a ricordare: presentazione del libro di Marco Trabucchi"
+    start: 2026-12-02T16:00
+    venue: Sala Federighi, sede municipale
+    town: Adria
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    price: ingresso libero
+    official_url: https://opacnow.provincia.rovigo.it/it/now/adria/evento/Presentazione_2_dicembre_2026
+    summary: Presentazione di un libro sulla demenza e sull'assistenza a chi ne soffre, promossa dalla biblioteca comunale Luigi Groto con varie associazioni.
+    fonte: https://opacnow.provincia.rovigo.it/it/now/collettivo/eventi
+    trovato: '2026-11-28'

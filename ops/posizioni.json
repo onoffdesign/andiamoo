@@ -1,12 +1,12 @@
 {
- "generato": "2026-11-28T11:37+01:00",
+ "generato": "2026-11-28T12:07+01:00",
  "riepilogo": {
-  "eventi_controllati": 448,
-  "allineati_in_automatico": 1,
+  "eventi_controllati": 515,
+  "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 1,
-  "solo_comune_con_luogo": 252,
-  "solo_comune_senza_luogo": 6,
+  "solo_comune_con_luogo": 285,
+  "solo_comune_senza_luogo": 8,
   "candidati_luoghi_noti": 0
  },
  "punti_diversi": [],
@@ -238,6 +238,17 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "Scuola di Musica Andrea Luchesi, Via Cendon 23, Silea",
+   "eventi": 4,
+   "uid": [
+    "1efe4bc842a385e6",
+    "00842b717b18d617",
+    "a677b4cef996abb3",
+    "81c2d344577a7852"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Teatro La Loggia, Piazza Roma 8, Cison di Valmarino",
    "eventi": 3,
    "uid": [
@@ -314,6 +325,16 @@
     "dc376d5904f9b1a2",
     "e724972c4dc7bf93",
     "e14be83bc3ce4430"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Biblioteca comunale, Piazza La Piave 24, Nervesa della Battaglia",
+   "eventi": 3,
+   "uid": [
+    "454a3604b8c1649a",
+    "8e13f8fb9b1d449c",
+    "c5c0f33f18ef55b5"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -443,30 +464,19 @@
     "b8494c9613c71c89"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Biblioteca comunale, Via della Liberta' 2, Carita', Villorba",
-   "eventi": 2,
-   "uid": [
-    "508a5a71ce4480e6",
-    "cfd55beefba71bf6"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Chiesa di San Teonisto, Via San Nicolo' 31, Treviso",
-   "eventi": 2,
-   "uid": [
-    "7c7940edf1e25b9b",
-    "23145a813c86b843"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
  "allineati": [
   {
    "uid": "acf2c7e5885f3c54",
    "titolo": "Il canto di Orsola (secondo turno)",
+   "luogo": "Auditorium Santa Caterina, Piazzetta Mario Botter 1, Treviso",
+   "lat": 45.66674,
+   "lon": 12.25086
+  },
+  {
+   "uid": "e291d9acc5c348b0",
+   "titolo": "Parole... Spazi di cura: premiazione del contest letterario",
    "luogo": "Auditorium Santa Caterina, Piazzetta Mario Botter 1, Treviso",
    "lat": 45.66674,
    "lon": 12.25086

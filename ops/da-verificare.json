@@ -2,61 +2,6 @@
  "nota": "Eventi non pubblicati: i dati vengono da piattaforme vietate o da verificare (config/fonti-vietate.yaml) e non c'e' una fonte ammessa. Valutazione manuale: contatto con l'organizzatore o API ufficiale.",
  "eventi": [
   {
-   "uid": "0b909c95765b91f4",
-   "titolo": "Renato Casaro. Horror",
-   "inizio": "2026-05-16",
-   "fine": "2027-02-07",
-   "comune": "Treviso",
-   "fonte": "Redazione ANDIAMO?",
-   "motivo": "dati presi da da verificare: itinerarinellarte.it",
-   "link": "https://www.itinerarinellarte.it/it/mostre/treviso",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "e66d93592c95d7a7",
-   "titolo": "L'Ultima Rinascita. Dei ed eroi agli albori dell'eta' della tecnica 1890-1935",
-   "inizio": "2026-05-30",
-   "fine": "2027-02-07",
-   "comune": "Treviso",
-   "fonte": "Redazione ANDIAMO?",
-   "motivo": "dati presi da da verificare: itinerarinellarte.it",
-   "link": "https://www.itinerarinellarte.it/it/mostre/treviso",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "4d5cf01bcdc28c8e",
-   "titolo": "Andar per fiere. Dalla Fiera di San Luca alla scoperta delle antiche tradizioni",
-   "inizio": "2026-09-26",
-   "fine": "2027-02-07",
-   "comune": "Treviso",
-   "fonte": "itinerarinellarte.it",
-   "motivo": "dati presi da da verificare: itinerarinellarte.it",
-   "link": "https://www.itinerarinellarte.it/it/mostre/treviso/mostre-tematiche",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "8c3f0c521116f9de",
-   "titolo": "Klimt a Villa Freya. Bellezza e natura nelle grafiche d'arte",
-   "inizio": "2026-09-26",
-   "fine": "2027-01-24",
-   "comune": "Asolo",
-   "fonte": "Redazione ANDIAMO?",
-   "motivo": "dati presi da da verificare: itinerarinellarte.it",
-   "link": "https://www.itinerarinellarte.it/it/mostre/treviso",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "80ce5c384824e1b9",
-   "titolo": "Ritratti di donna tra Hayez, Boldini e Carra'",
-   "inizio": "2026-10-21",
-   "fine": "2027-04-04",
-   "comune": "Conegliano",
-   "fonte": "Redazione ANDIAMO?",
-   "motivo": "dati presi da da verificare: itinerarinellarte.it",
-   "link": "https://www.itinerarinellarte.it/it/mostre/treviso",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
    "uid": "744c00f2e1a1fbf4",
    "titolo": "Ludovico Lipparini e la pittura filoellenica: il giuramento di Lord Byron a Missolungi",
    "inizio": "2026-11-06",
@@ -497,17 +442,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": null,
-   "titolo": "Affinita' elettive (Harmonia Ruris Festival)",
-   "inizio": "2026-12-06",
-   "fine": "",
-   "comune": "Castelfranco Veneto",
-   "fonte": "mentelocale Treviso (scheda 148370), orario non pubblicato",
-   "motivo": "official_url su fonte da verificare: happyticket.com",
-   "link": "https://www.happyticket.com/it/treviso/acquista-biglietti/1-325417-affinita-elettive.htm",
-   "registrato": "2026-11-28"
-  },
-  {
    "uid": "133dc447f9bdb56c",
    "titolo": "Festa del Radicchio Variegato di Castelfranco IGP",
    "inizio": "2026-12-06",
@@ -649,17 +583,6 @@
    "motivo": "dati presi da vietata: ticketone.it",
    "link": "https://www.ticketone.it/venue/teatro-accademia-16706/",
    "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "5ef653c0c4c368b3",
-   "titolo": "Angelo Branduardi - Il Cantico",
-   "inizio": "2026-12-11",
-   "fine": null,
-   "comune": "Conegliano",
-   "fonte": "happyticket.com",
-   "motivo": "dati presi da da verificare: happyticket.com",
-   "link": "https://www.happyticket.com/it/locations/treviso/conegliano/teatro-accademia.htm",
-   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "800e2f9adf3db8e7",
@@ -924,17 +847,6 @@
    "motivo": "dati presi da da verificare: trevisoeventi.com",
    "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
    "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": null,
-   "titolo": "Capodanno da Oscar: le grandi colonne sonore",
-   "inizio": "2027-01-01T18:30",
-   "fine": "",
-   "comune": "Conegliano",
-   "fonte": "mentelocale Treviso e pagina sala Happy Ticket del Teatro Accademia (28/11/2026)",
-   "motivo": "official_url su fonte da verificare: happyticket.com",
-   "link": "https://www.happyticket.com/it/treviso/acquista-biglietti/1-324778-capodanno-da-oscar.htm",
-   "registrato": "2026-11-28"
   },
   {
    "uid": "46ff1d6349dba6bb",
@@ -1407,17 +1319,6 @@
    "fonte": "trevisoeventi.com",
    "motivo": "dati presi da da verificare: trevisoeventi.com",
    "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "6492e534bda58964",
-   "titolo": "Il mago di Oz",
-   "inizio": "2027-03-21T16:30",
-   "fine": null,
-   "comune": "Castelfranco Veneto",
-   "fonte": "happyticket.com",
-   "motivo": "dati presi da da verificare: happyticket.com",
-   "link": "https://www.happyticket.com/it/treviso/acquista-biglietti/1-324042-il-mago-di-oz.htm",
    "registrato": "2026-11-28T10:29+01:00"
   }
  ]

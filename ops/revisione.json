@@ -1,6 +1,29 @@
 {
- "generato": "2026-11-28T11:37+01:00",
+ "generato": "2026-11-28T12:07+01:00",
  "eventi": [
+  {
+   "uid": "4d5cf01bcdc28c8e",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Andar per fiere. Dalla Fiera di San Luca alla scoperta delle antiche tradizioni",
+   "inizio": "2026-09-26",
+   "fine": "2027-02-07",
+   "luogo": "Museo nazionale Collezione Salce, sede di San Gaetano",
+   "indirizzo": "Via Carlo Alberto 31",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "itinerarinellarte.it",
+   "pagina_fonte": "https://www.itinerarinellarte.it/it/mostre/treviso/mostre-tematiche",
+   "sito_ufficiale": "https://www.itinerarinellarte.it/it/mostre/andar-per-fiere-dalla-fiera-di-san-luca-alla-scoperta-delle-antiche-tradizioni-17483",
+   "riassunto": "Mostra di 39 manifesti e locandine della Collezione Salce dedicati a fiere e feste venete tra Ottocento e Novecento, con al centro la Fiera di San Luca; aperta dal venerdi' alla domenica dalle 10 alle 18.",
+   "lat": 45.66577,
+   "lon": 12.25044,
+   "precisione": "venue"
+  },
   {
    "uid": "237c3ca062cdd22e",
    "motivi": [
@@ -487,6 +510,29 @@
    "precisione": "town"
   },
   {
+   "uid": "e8eed57ff889f2d2",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Oderzo Christmas Days",
+   "inizio": "2026-11-28",
+   "fine": "2027-01-06",
+   "luogo": "Centro di Oderzo",
+   "indirizzo": "",
+   "comune": "Oderzo",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "scoprioderzo.it",
+   "pagina_fonte": "https://www.scoprioderzo.it/mc-events/oderzo-christmas-days/",
+   "sito_ufficiale": "https://www.scoprioderzo.it/mc-events/oderzo-christmas-days/",
+   "riassunto": "Programma natalizio della citta' con villaggio in Piazza Castello, Babbo Natale e laboratori in Piazza Grande, Via dei Presepi, parco divertimenti in Piazzale Europa e Pan e Vin finale sul Monticano.",
+   "lat": 45.78089,
+   "lon": 12.49313,
+   "precisione": "town"
+  },
+  {
    "uid": "7dad1d0f5d869a1d",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -750,6 +796,30 @@
    "riassunto": "Mercatino natalizio in piazza con uno spettacolo alle 11, l'arrivo di Babbo Natale alle 14.30 e l'accensione dell'albero alle 17; con maltempo si sposta nella Sala Polivalente Secco.",
    "lat": 45.60142,
    "lon": 12.23509,
+   "precisione": "town"
+  },
+  {
+   "uid": "3286286e0c7123b9",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di ecbddf89a4e9241c"
+   ],
+   "titolo": "Accensione dell'albero di Natale a Susegana",
+   "inizio": "2026-11-29T18:00",
+   "fine": null,
+   "luogo": "Piazza di Susegana",
+   "indirizzo": "",
+   "comune": "Susegana",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "Qdpnews",
+   "pagina_fonte": "https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/",
+   "sito_ufficiale": "https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/",
+   "riassunto": "Accensione dell'albero in piazza con gli alunni dell'Istituto comprensivo e l'arrivo di Babbo Natale con gli elfi del Comitato genitori, dentro il Magico Natale della Pro Loco; nel pomeriggio ludobus in piazza e stand della Pro Loco.",
+   "lat": 45.8509,
+   "lon": 12.25004,
    "precisione": "town"
   },
   {
@@ -1181,6 +1251,28 @@
    "precisione": "town"
   },
   {
+   "uid": "cb1a99b02375b93c",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Laboratorio di incisione in biblioteca a Susegana",
+   "inizio": "2026-11-29T14:30",
+   "fine": null,
+   "luogo": "Biblioteca comunale di Susegana",
+   "indirizzo": "",
+   "comune": "Susegana",
+   "categoria": "famiglie-bambini",
+   "accesso": "iscrizione",
+   "prezzo": "",
+   "fonte": "Qdpnews",
+   "pagina_fonte": "https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/",
+   "sito_ufficiale": "https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/",
+   "riassunto": "Laboratorio in cui i partecipanti incidono un'immagine con punteruoli e materiali comuni per stampare una cartolina natalizia; iscrizione obbligatoria, massimo 30 persone.",
+   "lat": 45.8509,
+   "lon": 12.25004,
+   "precisione": "town"
+  },
+  {
    "uid": "b403f9e97845d59a",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
@@ -1266,97 +1358,6 @@
    "riassunto": "Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.",
    "lat": 45.77613,
    "lon": 12.04511,
-   "precisione": "town"
-  },
-  {
-   "uid": "2de3f84f6e1807b6",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Gruppo di lettura: Il castello di ghiaccio di Tarjei Vesaas",
-   "inizio": "2026-11-30T20:00",
-   "fine": null,
-   "luogo": "Biblioteca comunale di Crespano",
-   "indirizzo": "",
-   "comune": "Pieve del Grappa",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "qdpnews.it",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/pedemontana/pieve-del-grappa/novembre-pievese-il-calendario-degli-appuntamenti/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/pedemontana/pieve-del-grappa/novembre-pievese-il-calendario-degli-appuntamenti/",
-   "riassunto": "Incontro del gruppo di lettura della biblioteca dedicato al romanzo Il castello di ghiaccio di Tarjei Vesaas.",
-   "lat": 45.82729,
-   "lon": 11.83878,
-   "precisione": "town"
-  },
-  {
-   "uid": "bc756e2b15f7414d",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Torneo solidale di Natale di burraco",
-   "inizio": "2026-12-01T19:00",
-   "fine": null,
-   "luogo": "NOI Fontane",
-   "indirizzo": "",
-   "comune": "Villorba",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "Nordest24, calendario del Natale di Villorba",
-   "pagina_fonte": "https://www.nordest24.it/villorba-eventi-natale-2026",
-   "sito_ufficiale": "https://www.nordest24.it/villorba-eventi-natale-2026",
-   "riassunto": "Torneo di burraco a scopo benefico organizzato dal circolo NOI di Fontane.",
-   "lat": 45.71287,
-   "lon": 12.26036,
-   "precisione": "town"
-  },
-  {
-   "uid": "b49775d14e84764d",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "manca il sito ufficiale: cercalo"
-   ],
-   "titolo": "Letture animate in Biblioteca",
-   "inizio": "2026-12-02",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Silea",
-   "categoria": "famiglie-bambini",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "Comune di Silea",
-   "pagina_fonte": "https://www.comune.silea.tv.it/home/vivere/eventi.html",
-   "sito_ufficiale": "",
-   "riassunto": "Letture per bambini.",
-   "lat": 45.65505,
-   "lon": 12.29875,
-   "precisione": "town"
-  },
-  {
-   "uid": "e11ea95789869813",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Mostra di Nadia Soligo su San Francesco",
-   "inizio": "2026-12-02",
-   "fine": "2026-12-15",
-   "luogo": "Palazzo dei Trecento",
-   "indirizzo": "Piazza Indipendenza",
-   "comune": "Treviso",
-   "categoria": "arte-cultura",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "qdpnews.it",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
-   "riassunto": "Mostra di opere di Nadia Soligo dedicate a San Francesco nel salone del Palazzo dei Trecento, aperta 9:30-12:30 e 14-18:30.",
-   "lat": 45.66755,
-   "lon": 12.24507,
    "precisione": "town"
   }
  ]

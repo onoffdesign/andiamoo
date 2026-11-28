@@ -370,7 +370,7 @@ sources:
     listing_urls: [https://www.fbsr.it/agenda-home/]
     hint: "Agenda della Fondazione Benetton Studi Ricerche, Treviso: incontri, proiezioni e concerti a Palazzo Bomben (Via Cornarotta 7) e nella chiesa di San Teonisto (Via San Nicolo' 31). Anno 2026 se non indicato, 2027 da gennaio. Escludere eventi online (Zoom) e quelli per le scuole."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-17: 5 eventi da meta' novembre in una pagina, nessuno era sul sito; orari solo nelle schede /evento/ (rifiutate a WebFetch se non escono da una ricerca). Biglietti su liveticket.it."
+    note: "Aggiunta da Claude il 2026-11-17: 5 eventi da meta' novembre in una pagina, nessuno era sul sito; orari solo nelle schede /evento/ (rifiutate a WebFetch se non escono da una ricerca). Biglietti su liveticket.it. Giro del 2026-11-28: /agenda-home/ e /agenda/ vuote a WebFetch (contenuto caricato da script); WebSearch mostra ancora schede /evento/ del 2026 (presentazione del 1/12 a Palazzo Bomben): non disattivata, da controllare nel rapporto del PC."
 
   - id: comune-quinto
     name: Comune di Quinto di Treviso
@@ -406,7 +406,7 @@ sources:
     listing_urls: [https://www.libreriasanleonardo.it/notes]
     hint: "Presentazioni di libri e incontri della Libreria Universitaria San Leonardo, Piazza Santa Maria dei Battuti 16, Treviso. Anno 2026 per novembre-dicembre, 2027 da gennaio se non indicato. Venue Libreria San Leonardo, town Treviso, category arte-cultura, subcategory libri."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-16: la pagina /notes elenca 4-5 incontri con data e ora (dall'8 al 13/11 nella lettura di oggi), riaperta a mano da tre notti dalla fonte nota: ora la legge il PC."
+    note: "Aggiunta da Claude il 2026-11-16: la pagina /notes elenca 4-5 incontri con data e ora (dall'8 al 13/11 nella lettura di oggi), riaperta a mano da tre notti dalla fonte nota: ora la legge il PC. Giro del 2026-11-28: WebFetch di /notes restituisce solo il catalogo del negozio (pagina caricata da script), nessun evento leggibile; l'indirizzo e' giusto (WebSearch lo indica come 'Attivita' ed eventi in libreria', ultimi incontri al 13/11): non disattivata."
 
   - id: comune-resana
     name: Comune di Resana

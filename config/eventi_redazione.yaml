@@ -7869,3 +7869,740 @@ eventi:
     summary: Apertura della pista di pattinaggio sul ghiaccio allestita in piazza per le feste, legata alla Magia del Natale di Conegliano.
     fonte: Qdpnews (24/11/2026)
     trovato: '2026-11-28'
+  - title: F.O.C.U.S. Sound of Victory (Rassegna Gospel 2026)
+    start: 2026-12-17T21:00
+    venue: Alcuni Teatro Sant'Anna
+    address: Viale Brigata Treviso 18
+    town: Treviso
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: 18 EUR, ridotto 15 EUR; abbonamento ai tre concerti 45 EUR
+    official_url: https://live.alcuni.it/rassegna-gospel-gli-alcuni-treviso/
+    ticket_url: https://www.liveticket.it/evento.aspx?Id=714011&InstantBuy=1&CallingPageUrl=http%3a%2f%2fwww.liveticket.it%2fglialcuni
+    summary: Secondo concerto della rassegna gospel organizzata da Gli Alcuni al Teatro Sant'Anna, con il gruppo F.O.C.U.S. Sound of Victory.
+    fonte: https://live.alcuni.it/rassegna-gospel-gli-alcuni-treviso/
+    trovato: '2026-11-28'
+  - title: Bianco Natale al Museo Casa Giorgione
+    start: 2026-12-05T16:00
+    end: 2026-12-05T19:00
+    venue: Museo Casa Giorgione
+    address: Piazza San Liberale
+    town: Castelfranco Veneto
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito con prenotazione delle attivita'
+    official_url: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/bianco-natale/
+    summary: Pomeriggio natalizio al museo con laboratorio di decorazioni per bambini, visita alla mostra fotografica di Liceo Giorgione e Circolo El Paveion e accensione dell'albero con musica degli studenti.
+    fonte: https://www.comune.castelfrancoveneto.tv.it/vivere-il-comune/eventi/bianco-natale/
+    trovato: '2026-11-28'
+  - title: Affinita' elettive (Harmonia Ruris Festival)
+    start: 2026-12-06T19:00
+    venue: Teatro Accademico
+    town: Castelfranco Veneto
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.happyticket.com/it/treviso/acquista-biglietti/1-325417-affinita-elettive.htm
+    summary: Concerto dell'Harmonia Ruris Festival 2026 con la direzione artistica del violinista Giovanni Andrea Zanon.
+    fonte: https://www.happyticket.com/it/treviso/acquista-biglietti/1-325417-affinita-elettive.htm
+    trovato: '2026-11-28'
+  - title: 'Capodanno da Oscar: le grandi colonne sonore'
+    start: 2027-01-01T18:30
+    venue: Teatro Accademia
+    address: Piazza G.B. Cima 5
+    town: Conegliano
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.happyticket.com/it/treviso/acquista-biglietti/1-324778-capodanno-da-oscar.htm
+    summary: L'Orchestra Ritmico Sinfonica Italiana diretta da Diego Basso esegue colonne sonore del cinema, da John Williams e Hans Zimmer a Ennio Morricone.
+    fonte: https://www.happyticket.com/it/treviso/acquista-biglietti/1-324778-capodanno-da-oscar.htm
+    trovato: '2026-11-28'
+  - title: Trail delle Terre Rosse
+    start: 2027-01-31T09:00
+    town: Volpago del Montello
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://sportdolomiti.it/ds_event/ttr_27
+    summary: Gara di trail sulle colline del Montello organizzata dal Gruppo Podistico Povegliano, con iscrizioni online fino al 22 gennaio 2027 e un limite di 1000 partecipanti.
+    fonte: https://sportdolomiti.it/ds_event/ttr_27
+    trovato: '2026-11-28'
+  - title: Concerto d'arpa a Biancade
+    start: 2026-12-12T20:45
+    end: 2026-12-12T22:00
+    venue: Chiesa di San Giovanni Battista
+    address: Via Paris Bordone 3, Biancade
+    town: Roncade
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    price: gratuito
+    official_url: https://www.comune.roncade.tv.it/it/eventi/concerto-d-arpa
+    summary: Concerto d'arpa nella parrocchia di Biancade; il ricavato va all'Associazione Federico Ozanam ODV.
+    fonte: https://www.comune.roncade.tv.it/it/eventi/concerto-d-arpa
+    trovato: '2026-11-28'
+  - title: 12o Torneo di Natale di Dama italiana under 15
+    start: 2026-12-12T14:30
+    end: 2026-12-12T18:00
+    venue: Sala Giorgione (Centro Sociale)
+    address: Via Tiziano Vecellio
+    town: Roncade
+    category: sport
+    subcategory: altri-sport
+    access: iscrizione
+    price: gratuito con iscrizione obbligatoria
+    official_url: https://www.comune.roncade.tv.it/it/eventi/torneo-734785
+    summary: Torneo di dama italiana per ragazzi fino a 15 anni, con un girone promozionale e uno per i tesserati FID, organizzato da A.S.D. Damasport Roncade.
+    fonte: https://www.comune.roncade.tv.it/it/eventi/torneo-734785
+    trovato: '2026-11-28'
+  - title: Povegliano di luci a Natale
+    start: 2026-12-13T10:00
+    end: 2026-12-13T18:00
+    venue: Piazza Municipio
+    town: Povegliano
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    price: partecipazione gratuita
+    official_url: https://www.comune.povegliano.tv.it/eventi/13-dicembre-mercatini.html
+    summary: Giornata natalizia con mercatino, letture e laboratori per bambini, spettacolo di magia e arrivo di Babbo Natale alle 15:30; in caso di pioggia si sposta alla Pro Loco di Santandra'.
+    fonte: https://www.comune.povegliano.tv.it/eventi/13-dicembre-mercatini.html
+    trovato: '2026-11-28'
+  - title: 'Pinocchio e la fatica di diventare grandi: serata in auditorium'
+    start: 2026-12-03T20:20
+    end: 2026-12-03T23:00
+    venue: Auditorium della Scuola Media
+    address: Via Roma 65/a
+    town: Chiarano
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    price: ingresso libero
+    official_url: https://www.comune.chiarano.tv.it/eventi/Serata-in-auditorium--Pinocchio--e-la-fatica-di-diventare-grandi-1.html
+    summary: Serata di formazione promossa dal Comune di Chiarano che rilegge il Pinocchio di Collodi come racconto della crescita, rivolta anche agli adulti.
+    fonte: https://www.comune.chiarano.tv.it/eventi/Serata-in-auditorium--Pinocchio--e-la-fatica-di-diventare-grandi-1.html
+    trovato: '2026-11-28'
+  - title: Festa di San Nicolo' a Fontigo
+    start: 2026-12-06T14:00
+    end: 2026-12-06T17:00
+    venue: Impianti sportivi di Fontigo
+    address: Via Chiesa 48, Fontigo
+    town: Sernaglia della Battaglia
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/festa-di-san-nicolo-2/
+    summary: Pomeriggio con lo spettacolo natalizio Lo Schiaccianoci di CarroNavalis alle 14:30 e il passaggio di San Nicolo' alle 15:30, con Pro Loco di Fontigo, ASD Fontigo e Gruppo Al.
+    fonte: https://www.comune.sernaglia.tv.it/vivere-il-comune/eventi/festa-di-san-nicolo-2/
+    trovato: '2026-11-28'
+  - title: Accensione dell'albero di Natale a Susegana
+    start: 2026-11-29T18:00
+    venue: Piazza di Susegana
+    town: Susegana
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/
+    summary: Accensione dell'albero in piazza con gli alunni dell'Istituto comprensivo e l'arrivo di Babbo Natale con gli elfi del Comitato genitori, dentro il Magico Natale della Pro Loco; nel pomeriggio ludobus in piazza e stand della Pro Loco.
+    fonte: Qdpnews (28/11/2026)
+    trovato: '2026-11-28'
+  - title: Laboratorio di incisione in biblioteca a Susegana
+    start: 2026-11-29T14:30
+    venue: Biblioteca comunale di Susegana
+    town: Susegana
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/
+    summary: Laboratorio in cui i partecipanti incidono un'immagine con punteruoli e materiali comuni per stampare una cartolina natalizia; iscrizione obbligatoria, massimo 30 persone.
+    fonte: Qdpnews (28/11/2026)
+    trovato: '2026-11-28'
+  - title: 'Show Your Nasty Tattoo: contest dei tatuaggi al Mattorosso'
+    start: '2026-11-29'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: party
+    official_url: https://mattorosso.it/show-your-nasty-tattoo-il-contest-dei-tatuaggi-al-mattorosso
+    summary: Serata del Mattorosso dedicata a un concorso tra tatuaggi.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: 'Lasciateci cantare: serata karaoke al Mattorosso'
+    start: 2026-12-07T22:00
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: party
+    official_url: https://mattorosso.it/lasciateci-cantare-levento-karaoke-11
+    summary: Serata karaoke con dj set e testi su maxischermo; cena su prenotazione dalle 20:30, dopocena a ingresso libero dalle 22.
+    fonte: https://mattorosso.it/lasciateci-cantare-levento-karaoke-11
+    trovato: '2026-11-28'
+    access: libero
+    price: ingresso gratuito
+  - title: 'Rosso: La Noche Reggaeton al Mattorosso'
+    start: '2026-12-11'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: dj-set
+    official_url: https://mattorosso.it/rosso-la-noche-reggaeton-9
+    summary: Serata della rassegna Rosso dedicata al reggaeton.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: Le grandi hit degli anni '70 e '80 al Mattorosso
+    start: '2026-12-12'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: concerti
+    official_url: https://mattorosso.it/le-grandi-hit-degli-anni-70-e-80
+    summary: Serata musicale con i successi degli anni Settanta e Ottanta.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: 'Baila: la noche latina al Mattorosso'
+    start: '2026-12-15'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: party
+    official_url: https://mattorosso.it/baila-la-noche-latina-7
+    summary: Serata di musica latina al Mattorosso.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: 'Bieber Code: 2000s & 2010s Party al Mattorosso'
+    start: '2026-12-18'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: party
+    official_url: https://mattorosso.it/bieber-code-2000s-2010s-party
+    summary: Festa con la musica pop degli anni Duemila e Duemiladieci.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: Iron Maiden Tribute Show al Mattorosso
+    start: '2026-12-19'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: concerti
+    official_url: https://mattorosso.it/iron-maiden-tribute-show
+    summary: Concerto di una band tributo agli Iron Maiden.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: Social Run del Mattorosso
+    start: '2026-12-20'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: sport
+    subcategory: corsa
+    official_url: https://mattorosso.it/social-run-3
+    summary: Appuntamento Social Run proposto dal Mattorosso.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: Mattorosso Morning Club
+    start: '2026-12-20'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: aperitivo
+    official_url: https://mattorosso.it/mattorosso-morning-club-5
+    summary: Appuntamento del Mattorosso Morning Club nel calendario del locale.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: 'Lasciateci cantare: edizione di Natale al Mattorosso'
+    start: '2026-12-23'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: party
+    official_url: https://mattorosso.it/lasciateci-cantare-edizione-natale
+    summary: Edizione natalizia della serata karaoke del Mattorosso.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: The Traditional Hip Hop Christmas Party al Mattorosso
+    start: '2026-12-24'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: dj-set
+    official_url: https://mattorosso.it/the-traditional-hip-hop-christmas-party-5
+    summary: Festa hip hop della vigilia di Natale.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: 'Rosso: Ugly Christmas Sweater Party al Mattorosso'
+    start: '2026-12-25'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: party
+    official_url: https://mattorosso.it/rosso-maglioni-brutti-di-natale
+    summary: Festa di Natale della rassegna Rosso a tema maglioni natalizi.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: A Soul Christmas Experience al Mattorosso
+    start: '2026-12-26'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: concerti
+    official_url: https://mattorosso.it/a-soul-christmas-experience
+    summary: Serata natalizia dedicata alla musica soul.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: Evergreen American Song al Mattorosso
+    start: '2026-12-27'
+    venue: Mattorosso
+    address: Via Piave 108
+    town: Montebelluna
+    category: musica
+    subcategory: concerti
+    official_url: https://mattorosso.it/evergreen-american-song
+    summary: Serata dedicata ai classici della canzone americana.
+    fonte: https://mattorosso.it/eventi
+    trovato: '2026-11-28'
+  - title: 'Voice: tributo alle grandi voci femminili'
+    start: 2026-11-29T17:00
+    venue: Teatro Lorenzo Da Ponte, Sala grande
+    town: Vittorio Veneto
+    category: musica
+    subcategory: concerti
+    access: iscrizione
+    official_url: https://teatrolorenzodaponte.it/cartellone/voice-29-11-2026
+    summary: Concerto del Movie Trio (voce, chitarre e tromba) dedicato alle grandi voci femminili internazionali; ingresso gratuito con prenotazione online.
+    fonte: https://teatrolorenzodaponte.it/cartellone/voice-29-11-2026/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+    price: gratuito con prenotazione obbligatoria online
+  - title: 'A Christmas Story: Ensemble Palladio a lume di candela'
+    start: 2026-12-04T20:45
+    venue: Teatro Lorenzo Da Ponte, Sala grande
+    town: Vittorio Veneto
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/a-christmas-story-04-12-2026
+    summary: Concerto dell'Ensemble Palladio, quartetto d'archi con arpa, con colonne sonore e canzoni natalizie e la voce narrante di Francesca Piazza; organizza l'Associazione Vittorio Veneto Citta' del benessere.
+    fonte: https://teatrolorenzodaponte.it/cartellone/a-christmas-story-04-12-2026/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+    ticket_url: https://ticket.cinebot.it/daponte/evento/78119/acquista
+  - title: The Michael Jackson Tribute Experience
+    start: 2027-01-23T20:30
+    venue: Teatro Lorenzo Da Ponte, Sala grande
+    town: Vittorio Veneto
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/the-michael-jackson-tribute-experience-23-01-2027
+    summary: Spettacolo musicale tributo a Michael Jackson nella sala grande del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: Il comico che sfido' Hitler
+    start: 2027-01-24T16:00
+    venue: Teatro La Loggia
+    town: Cison di Valmarino
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/il-comico-che-sfido-hitler-24-01-2027
+    summary: Replica a Cison di Valmarino dello spettacolo di Mirko Bottega, nel calendario del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+  - title: Queen Mania
+    start: 2027-02-28T18:00
+    venue: Teatro Lorenzo Da Ponte, Sala grande
+    town: Vittorio Veneto
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/queen-mania-28-02-2027
+    summary: Spettacolo musicale tributo ai Queen nella sala grande del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: Ulisse tessitore d'inganni
+    start: 2027-03-03T20:30
+    venue: Ridotto del Teatro Da Ponte
+    town: Vittorio Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/l-eterno-ulisse
+    summary: Spettacolo al Ridotto del Teatro Da Ponte dedicato alla figura di Ulisse.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: Metamorfosi
+    start: 2027-03-10T20:30
+    venue: Teatro Lorenzo Da Ponte, Sala grande
+    town: Vittorio Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/metamorfosi
+    summary: Spettacolo nella sala grande del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: The Golden Years
+    start: 2027-03-13T21:00
+    venue: Teatro Lorenzo Da Ponte, Sala grande
+    town: Vittorio Veneto
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/the-golden-years-13-03-2027
+    summary: Spettacolo nella sala grande del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: Shakespeare proibito
+    start: 2027-03-14T16:00
+    venue: Teatro La Loggia
+    town: Cison di Valmarino
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/shakespeare-proibito-14-03-2027
+    summary: Replica a Cison di Valmarino dello spettacolo del Centro Teatrale Da Ponte gia' in scena a Vittorio Veneto a Capodanno.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+  - title: Pollicino e Hermes
+    start: 2027-03-17T20:30
+    venue: Ridotto del Teatro Da Ponte
+    town: Vittorio Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/pollicino-e-hermes
+    summary: Spettacolo al Ridotto del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: Inetto
+    start: 2027-03-18T20:30
+    venue: Ridotto del Teatro Da Ponte
+    town: Vittorio Veneto
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/inetto
+    summary: Spettacolo al Ridotto del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: 'Funny Friday: terza puntata'
+    start: 2027-03-19T20:30
+    venue: Ridotto del Teatro Da Ponte
+    town: Vittorio Veneto
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/funny-friday-3
+    summary: Serata di comicita' della rassegna Funny Friday al Ridotto del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: Alice nel paese delle meraviglie
+    start: 2027-03-21T17:00
+    venue: Teatro Lorenzo Da Ponte, Sala grande
+    town: Vittorio Veneto
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://teatrolorenzodaponte.it/cartellone/alice-nel-paese-delle-meraviglie
+    summary: Spettacolo per famiglie tratto dal racconto di Lewis Carroll nella sala grande del Teatro Da Ponte.
+    fonte: https://teatrolorenzodaponte.it/calendario/
+    trovato: '2026-11-28'
+    address: Via Martiri della Liberta' 36
+  - title: Le Ville di Quinto dopo i Ciardi con Igino Marangon
+    start: 2026-12-14T20:30
+    venue: Sede comunale
+    address: Piazza Roma 2
+    town: Quinto di Treviso
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    price: gratuito
+    official_url: https://www.comune.quintoditreviso.tv.it/vivere-il-comune/eventi/le-ville-di-quinto-dopo-i-ciardi-con-igino-marangon/
+    summary: Serata con racconti di storia, architettura e vita rurale sulle ville di Quinto lungo il Sile, a partire da Villa Memo Giordani Valeri.
+    fonte: https://www.comune.quintoditreviso.tv.it/vivere-il-comune/eventi/le-ville-di-quinto-dopo-i-ciardi-con-igino-marangon/
+    trovato: '2026-11-28'
+  - title: Vedute di Quinto dopo i Ciardi con Eugenio Manzato
+    start: 2026-12-16T20:30
+    venue: Sede comunale
+    address: Piazza Roma 2
+    town: Quinto di Treviso
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    price: gratuito
+    official_url: https://www.comune.quintoditreviso.tv.it/vivere-il-comune/eventi/vedute-di-quinto-dopo-i-ciardi-con-eugenio-manzato/
+    summary: Incontro con immagini su come pittori, incisori, fotografi e cartoline hanno raffigurato il paesaggio di Quinto dopo i Ciardi.
+    fonte: https://www.comune.quintoditreviso.tv.it/vivere-il-comune/eventi/vedute-di-quinto-dopo-i-ciardi-con-eugenio-manzato/
+    trovato: '2026-11-28'
+  - title: 'Cantiamo il Natale: concerto del Coro Stella Alpina'
+    start: 2026-12-05T20:45
+    venue: Chiesa parrocchiale di San Michele Arcangelo
+    town: Silea
+    category: musica
+    subcategory: concerti
+    access: libero
+    price: ingresso libero
+    official_url: https://www.comune.silea.tv.it/eventi/Concerto-Cantiamo-il-Natale.html
+    summary: Concerto natalizio del Coro Stella Alpina promosso dal Comune di Silea con il gruppo Alpini Silea-Lanzago.
+    fonte: https://www.comune.silea.tv.it/eventi/Concerto-Cantiamo-il-Natale.html
+    trovato: '2026-11-28'
+  - title: 'Parole... Spazi di cura: premiazione del contest letterario'
+    start: 2026-12-03T16:00
+    end: 2026-12-03T20:00
+    venue: Auditorium Santa Caterina
+    address: Piazzetta Mario Botter 1
+    town: Treviso
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    price: gratuito
+    official_url: https://www.comune.silea.tv.it/eventi/Parole-spazi-di-cura.html
+    summary: Premiazione della quarta edizione del concorso di scrittura per studenti delle professioni sanitarie sulle esperienze di tirocinio, promosso dal Comune di Silea nell'ambito della medicina narrativa.
+    fonte: https://www.comune.silea.tv.it/eventi/Parole-spazi-di-cura.html
+    trovato: '2026-11-28'
+  - title: Salotto musicale alla Scuola Luchesi
+    start: 2026-12-13T10:00
+    end: 2026-12-13T12:30
+    venue: Scuola di Musica Andrea Luchesi
+    address: Via Cendon 23
+    town: Silea
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.comune.silea.tv.it/eventi/Salotto-musicale-novembre.html
+    summary: Concerto mattutino della rassegna tra jazz e improvvisazione della Scuola di Musica Luchesi, con Sara Longo (voce) e Alvise Seggi (violoncello); colazione prima del concerto.
+    fonte: https://www.comune.silea.tv.it/eventi/Salotto-musicale-novembre.html
+    trovato: '2026-11-28'
+  - title: Salotto musicale alla Scuola Luchesi
+    start: 2027-01-24T10:00
+    end: 2027-01-24T12:30
+    venue: Scuola di Musica Andrea Luchesi
+    address: Via Cendon 23
+    town: Silea
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.comune.silea.tv.it/eventi/Salotto-musicale-novembre.html
+    summary: Concerto mattutino della rassegna tra jazz e improvvisazione della Scuola di Musica Luchesi, con Anais Drago (violino) con il progetto Releve', con Federico Calcagno e Max Trabucco; colazione prima del concerto.
+    fonte: https://www.comune.silea.tv.it/eventi/Salotto-musicale-novembre.html
+    trovato: '2026-11-28'
+  - title: Salotto musicale alla Scuola Luchesi
+    start: 2027-02-21T10:00
+    end: 2027-02-21T12:30
+    venue: Scuola di Musica Andrea Luchesi
+    address: Via Cendon 23
+    town: Silea
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.comune.silea.tv.it/eventi/Salotto-musicale-novembre.html
+    summary: Concerto mattutino della rassegna tra jazz e improvvisazione della Scuola di Musica Luchesi, con Trio Anatemah (basso elettrico, tromba e batteria); colazione prima del concerto.
+    fonte: https://www.comune.silea.tv.it/eventi/Salotto-musicale-novembre.html
+    trovato: '2026-11-28'
+  - title: Salotto musicale alla Scuola Luchesi
+    start: 2027-03-21T10:00
+    end: 2027-03-21T12:30
+    venue: Scuola di Musica Andrea Luchesi
+    address: Via Cendon 23
+    town: Silea
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.comune.silea.tv.it/eventi/Salotto-musicale-novembre.html
+    summary: Concerto mattutino della rassegna tra jazz e improvvisazione della Scuola di Musica Luchesi, con duo di Emanuele Maniscalco (pianoforte) e Marco Trabucco (contrabbasso); colazione prima del concerto.
+    fonte: https://www.comune.silea.tv.it/eventi/Salotto-musicale-novembre.html
+    trovato: '2026-11-28'
+  - title: 'La scelta della legalita'': incontro con Fiammetta Borsellino'
+    start: 2026-12-09T20:20
+    end: 2026-12-09T22:30
+    venue: Palestra Polivalente
+    address: Via A. De Gasperi 44
+    town: San Vendemiano
+    category: arte-cultura
+    subcategory: incontri-pubblici
+    access: libero
+    price: ingresso libero
+    official_url: https://www.comune.sanvendemiano.tv.it/eventi/Incontro-Fiammetta-Borsellino.html
+    summary: Serata su giustizia, legalita' e responsabilita' civile con Fiammetta Borsellino, organizzata dal Comune con l'associazione La Cruna e la Scuola Novalis.
+    fonte: https://www.comune.sanvendemiano.tv.it/eventi/Incontro-Fiammetta-Borsellino.html
+    trovato: '2026-11-28'
+  - title: Festa di accensione dell'albero di Natale a Giavera
+    start: 2026-12-05T15:00
+    end: 2026-12-05T18:00
+    venue: Piazza Uberto Bacilieri
+    town: Giavera del Montello
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.comune.giavera.tv.it/vivere-il-comune/eventi/festa-di-accensione-dellalbero-di-natale-2026/
+    summary: Pomeriggio con canti degli alunni, laboratori, truccabimbi, castagne e panettone dei Gruppi Alpini e accensione dell'albero alle 17; in caso di pioggia si rinvia al 12 dicembre.
+    fonte: https://www.comune.giavera.tv.it/vivere-il-comune/eventi/festa-di-accensione-dellalbero-di-natale-2026/
+    trovato: '2026-11-28'
+  - title: 'Crea il tuo albero di Natale: laboratorio in biblioteca'
+    start: 2026-12-10T16:30
+    end: 2026-12-10T17:30
+    venue: Biblioteca comunale
+    address: Piazza La Piave 24
+    town: Nervesa della Battaglia
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito con iscrizione
+    official_url: https://www.comune.nervesa.tv.it/vivere-il-comune/eventi/crea-la-ghirlanda-natalizia-laboratorio-in-biblioteca-copy-copy/
+    summary: Laboratorio natalizio per bambini dai 7 agli 11 anni, a posti limitati con precedenza ai residenti.
+    fonte: https://www.comune.nervesa.tv.it/vivere-il-comune/eventi/crea-la-ghirlanda-natalizia-laboratorio-in-biblioteca-copy-copy/
+    trovato: '2026-11-28'
+  - title: Escape game I fantasmi del Natale in biblioteca
+    start: 2026-12-05T10:30
+    end: 2026-12-05T11:30
+    venue: Biblioteca comunale di Maser
+    address: Piazza Municipio 9
+    town: Maser
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito con prenotazione
+    official_url: https://www.comune.maser.tv.it/eventi/Sabato-5-dicembre---Escape-Game-I-fantasmi-del-Natale.html
+    summary: Gioco di fuga a tema natalizio per ragazzi delle medie, curato da Polvere negli occhi, a posti limitati.
+    fonte: https://www.comune.maser.tv.it/eventi/Sabato-5-dicembre---Escape-Game-I-fantasmi-del-Natale.html
+    trovato: '2026-11-28'
+  - title: Cori degli Alpini e arrivo di San Nicolo' a Oderzo
+    start: 2026-12-05T15:30
+    end: 2026-12-05T18:30
+    venue: Centro storico di Oderzo
+    town: Oderzo
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.scoprioderzo.it/mc-events/cori-degli-alpini-e-arriva-san-nicolo/
+    summary: Canti natalizi itineranti dei cori degli Alpini in centro storico; alle 16 San Nicolo' porta i regali ai bambini e accende l'albero.
+    fonte: https://www.scoprioderzo.it/mc-events/cori-degli-alpini-e-arriva-san-nicolo/
+    trovato: '2026-11-28'
+  - title: Concerto di Natale Premio per la vita
+    start: 2026-12-05T20:30
+    venue: Sala Polivalente degli impianti sportivi di Piavon
+    town: Oderzo
+    category: musica
+    subcategory: concerti
+    access: libero
+    price: ingresso libero, prenotazione consigliata
+    official_url: https://www.scoprioderzo.it/mc-events/concerto-di-natale-premio-per-la-vita/
+    summary: Quinta edizione del concerto in memoria di Luciano Bernardi, dal titolo Oltre i confini della musica, organizzato dall'Associazione Amiche per la Pelle.
+    fonte: https://www.scoprioderzo.it/mc-events/concerto-di-natale-premio-per-la-vita/
+    trovato: '2026-11-28'
+  - title: Oderzo Christmas Days
+    start: '2026-11-28'
+    end: '2027-01-06'
+    venue: Centro di Oderzo
+    town: Oderzo
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.scoprioderzo.it/mc-events/oderzo-christmas-days/
+    summary: Programma natalizio della citta' con villaggio in Piazza Castello, Babbo Natale e laboratori in Piazza Grande, Via dei Presepi, parco divertimenti in Piazzale Europa e Pan e Vin finale sul Monticano.
+    fonte: https://www.scoprioderzo.it/mc-events/oderzo-christmas-days/
+    trovato: '2026-11-28'
+  - title: 'Ogni persona e'' un bene infinito: concerto di Natale in Duomo'
+    start: 2026-12-04T20:30
+    venue: Duomo di Oderzo
+    town: Oderzo
+    category: musica
+    subcategory: concerti
+    access: offerta
+    price: ingresso libero con offerte per i progetti AVSI
+    official_url: https://www.scoprioderzo.it/mc-events/concerto-di-natale-ogni-persona-e-un-bene-infinito/
+    summary: Concerto del Coro Vocinvolo del Centro Salute Mentale di San Dona' e del Coro InCanti DiVersi diretti da Francesco Rossi, con raccolta per la Campagna Tende di AVSI.
+    fonte: https://www.scoprioderzo.it/mc-events/concerto-di-natale-ogni-persona-e-un-bene-infinito/
+    trovato: '2026-11-28'
+  - title: 'Essere Donna dell''antica Opitergium: presentazione del volume'
+    start: 2026-12-05T16:30
+    town: Oderzo
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    price: ingresso libero fino a esaurimento posti
+    official_url: https://www.scoprioderzo.it/mc-events/essere-donna-dellantica-opitergium/
+    summary: Presentazione della pubblicazione sul ruolo delle donne nell'antica Opitergium, realizzata con la Regione del Veneto e promossa da AiutoDonna.Oderzo ODV.
+    fonte: https://www.scoprioderzo.it/mc-events/essere-donna-dellantica-opitergium/
+    trovato: '2026-11-28'
+  - title: Letture e animazione per bambini su San Nicolo'
+    start: 2026-12-06T10:30
+    end: 2026-12-06T12:30
+    venue: Piazza Grande
+    town: Oderzo
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.scoprioderzo.it/mc-events/letture-e-animazione-per-bambini-su-san-nicolo/
+    summary: Mattinata di letture e animazione per bambini dedicata a San Nicolo', dentro gli Oderzo Christmas Days.
+    fonte: https://www.scoprioderzo.it/mc-events/letture-e-animazione-per-bambini-su-san-nicolo/
+    trovato: '2026-11-28'
+  - title: Caccia all'elfo in biblioteca
+    start: 2026-12-19T10:30
+    end: 2026-12-19T11:30
+    venue: Biblioteca comunale di Maser
+    address: Piazza Municipio 9
+    town: Maser
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    price: gratuito
+    official_url: https://www.comune.maser.tv.it/eventi/Sabato-19-dicembre---Caccia-all-elfo.html
+    summary: Gioco di ricerca tra gli scaffali della biblioteca per bambini dai 3 ai 9 anni.
+    fonte: https://www.comune.maser.tv.it/eventi/Sabato-19-dicembre---Caccia-all-elfo.html
+    trovato: '2026-11-28'
+  - title: 'Dipingi un paesaggio luminoso: laboratorio in biblioteca'
+    start: 2026-12-03T16:30
+    end: 2026-12-03T18:30
+    venue: Biblioteca comunale
+    address: Piazza La Piave 24
+    town: Nervesa della Battaglia
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito con iscrizione
+    official_url: https://www.comune.nervesa.tv.it/vivere-il-comune/eventi/crea-la-ghirlanda-natalizia-laboratorio-in-biblioteca-copy/
+    summary: Laboratorio di pittura su tela per ragazzi dai 12 ai 14 anni, a posti limitati con precedenza ai residenti.
+    fonte: https://www.comune.nervesa.tv.it/vivere-il-comune/eventi/crea-la-ghirlanda-natalizia-laboratorio-in-biblioteca-copy/
+    trovato: '2026-11-28'
+  - title: 'Crea la tua pallina di lana: laboratorio in biblioteca'
+    start: 2026-12-17T16:30
+    venue: Biblioteca comunale
+    address: Piazza La Piave 24
+    town: Nervesa della Battaglia
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: gratuito con iscrizione
+    official_url: https://www.comune.nervesa.tv.it/vivere-il-comune/eventi/crea-la-ghirlanda-natalizia-laboratorio-in-biblioteca-copy-copy-copy/
+    summary: Laboratorio natalizio per bambini dai 3 ai 6 anni, a posti limitati con precedenza ai residenti.
+    fonte: https://www.comune.nervesa.tv.it/vivere-il-comune/eventi/crea-la-ghirlanda-natalizia-laboratorio-in-biblioteca-copy-copy-copy/
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale alla chiesa di Piavon
+    start: 2026-12-13T10:30
+    venue: Chiesa di Piavon
+    town: Oderzo
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.scoprioderzo.it/mc-events/concerto-di-natale-ogni-persona-e-un-bene-infinito/
+    summary: Mercatino natalizio a sostegno dei progetti di AVSI per la Campagna Tende, legato al concerto in Duomo del 4 dicembre.
+    fonte: https://www.scoprioderzo.it/mc-events/concerto-di-natale-ogni-persona-e-un-bene-infinito/
+    trovato: '2026-11-28'

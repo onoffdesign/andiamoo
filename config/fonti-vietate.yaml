@@ -37,9 +37,11 @@ vietate:
   - {dominio: deliziedautunno.tv, motivo: "robots.txt vieta i robot", verificato: 2026-10-30}
   - {dominio: vivaticket.com, motivo: "protezione anti-bot: l'accesso automatico non e' consentito", verificato: 2026-10-30}
   - {dominio: meetup.com, motivo: "termini Meetup: vietato lo scraping", verificato: 2026-11-28}
+  - {dominio: calendariopodismo.it, motivo: "robots.txt letto il 2026-11-28: gruppi ClaudeBot e anthropic-ai con 'Disallow: /' (e Content-Signal ai-train=no)", verificato: 2026-11-28}
+  - {dominio: trovasagre.com, motivo: "robots.txt letto il 2026-11-28: 'User-agent: ClaudeBot / Disallow: /' (anche anthropic-ai, GPTBot, CCBot)", verificato: 2026-11-28}
 
 da_verificare:
-  - {dominio: ticketone.it, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
+  - {dominio: ticketone.it, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio); 2026-11-28 robots.txt e /help/terms/ rispondono 503, da riprovare"}
   - {dominio: dice.fm, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: xceed.me, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: feverup.com, nota: "piattaforma eventi: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
@@ -47,13 +49,11 @@ da_verificare:
   - {dominio: ra.co, nota: "piattaforma eventi: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: allevents.in, nota: "aggregatore: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: t.me, nota: "Telegram: termini non verificati, termini da leggere (anche le anteprime t.me/s); tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
-  - {dominio: eventiesagre.it, nota: "aggregatore; termini d'uso da leggere"}
+  - {dominio: eventiesagre.it, nota: "aggregatore; termini d'uso da leggere; robots.txt letto il 2026-11-28: User-agent * Allow /, nessun gruppo per Claude; pagina Condizioni di Utilizzo non trovata"}
   - {dominio: 2night.it, nota: "aggregatore; robots.txt con segnali di contenuto (use=reference); termini da leggere"}
-  - {dominio: calendariopodismo.it, nota: "aggregatore gare; robots.txt use=reference; termini da leggere"}
-  - {dominio: running.life, nota: "aggregatore gare; termini da leggere"}
+  - {dominio: running.life, nota: "aggregatore gare; termini da leggere; robots.txt letto il 2026-11-28: blocca solo /map/; pagina dei termini non trovata"}
   - {dominio: gotrail.run, nota: "aggregatore trail (stessa societa' di running.life); termini da leggere"}
   - {dominio: insolitotrantran.it, nota: "aggregatore; API pubblica e robots.txt libero (2026-10); termini da leggere"}
-  - {dominio: trovasagre.com, nota: "aggregatore sagre; termini da leggere"}
   - {dominio: cosedicasa.com, nota: "aggregatore mercatini; termini da leggere"}
   - {dominio: sagramap.com, nota: "aggregatore sagre; termini da leggere"}
   - {dominio: fleamapket.com, nota: "aggregatore mercatini; termini da leggere"}
@@ -69,5 +69,8 @@ ammesse:
   - {dominio: prolocovenete.it, verificato: 2026-11-28, nota: "rete delle Pro Loco (UNPLI Veneto): categoria ammessa dalla regola (punto 3a); robots.txt rispettato a ogni lettura"}
   - {dominio: unpliveneto.it, verificato: 2026-11-28, nota: "come prolocovenete.it"}
   - {dominio: calendariopodismoveneto.blogspot.com, verificato: 2026-11-28, nota: "blog Blogger: robots.txt consente la lettura; i termini Google vietano solo l'accesso automatico contro robots.txt"}
+
+  - {dominio: happyticket.com, verificato: 2026-11-28, nota: "robots.txt (blocca solo /backend/) e /assistenza.htm (Condizioni Generali, agg. 10/06/2026) letti: nessun divieto di scraping o estrazione automatica; nel footer solo 'vietata la riproduzione' (niente testi copiati)"}
+  - {dominio: itinerarinellarte.it, verificato: 2026-11-28, nota: "robots.txt (blocca solo /script/ e le ricerche) e /it/privacy letti: nessun divieto; termini d'uso non presenti; riproduzione dei testi del magazine riservata (niente testi copiati)"}
 
 api: []

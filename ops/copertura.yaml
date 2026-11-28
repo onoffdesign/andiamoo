@@ -271,7 +271,46 @@ categorie_TV:
   comunita: null
 
 # Fonti del giro (config/sources.yaml) lette da Claude al posto del PC: id -> data dell'ultima lettura.
-giro: {}
+giro:
+  comune-mogliano: '2026-11-28'
+  libreria-san-leonardo: '2026-11-28'
+  gli-alcuni: '2026-11-28'
+  nautilus-teatro: '2026-11-28'
+  virtuosi-italiani-treviso: '2026-11-28'
+  comune-castelfranco: '2026-11-28'
+  museo-canova: '2026-11-28'
+  comune-loria: '2026-11-28'
+  teatro-del-pane: '2026-11-28'
+  comune-spresiano: '2026-11-28'
+  podismoveneto: '2026-11-28'
+  comune-roncade: '2026-11-28'
+  comune-treviso: '2026-11-28'
+  comune-povegliano: '2026-11-28'
+  comune-resana: '2026-11-28'
+  comune-chiarano: '2026-11-28'
+  comune-monastier: '2026-11-28'
+  comune-trevignano: '2026-11-28'
+  comune-sernaglia: '2026-11-28'
+  comune-paese: '2026-11-28'
+  visit-fregona: '2026-11-28'
+  ubik-treviso: '2026-11-28'
+  comune-cornuda: '2026-11-28'
+  fondazione-benetton: '2026-11-28'
+  qdpnews: '2026-11-28'
+  mattorosso: '2026-11-28'
+  scopri-oderzo: '2026-11-28'
+  comune-gaiarine: '2026-11-28'
+  comune-maser: '2026-11-28'
+  comune-giavera: '2026-11-28'
+  teatro-cristallo-oderzo: '2026-11-28'
+  comune-nervesa: '2026-11-28'
+  comune-san-polo: '2026-11-28'
+  comune-fonte: '2026-11-28'
+  comune-quinto: '2026-11-28'
+  comune-silea: '2026-11-28'
+  comune-san-vendemiano: '2026-11-28'
+  comune-san-biagio: '2026-11-28'
+  teatro-da-ponte: '2026-11-28'
 
 # Province d'Italia cercate (area tutta Italia dal 2026-11-28): SIGLA -> data dell'ultima ricerca.
 province: {}
