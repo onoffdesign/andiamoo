@@ -1270,7 +1270,7 @@
     const currentOffset = () => new DOMMatrixReadOnly(getComputedStyle(p).transform).m42;
 
     function down(ev) {
-      if (!MOBILE() || (ev.target.closest && ev.target.closest(".sort"))) return;
+      if (!MOBILE() || state.view === "list" || (ev.target.closest && ev.target.closest(".sort, .near"))) return;   // in lista si scorre e basta
       fromBody = !head.contains(ev.target);
       if (fromBody && p.dataset.sheet !== "peek") return;      // a pannello aperto il contenuto scorre normalmente
       dragging = true; moved = false;
@@ -1309,7 +1309,7 @@
     const body = $("#panel-body");
     let tY = 0, tStart = 0, tLastY = 0, tLastT = 0, tVel = 0, tDrag = false, tActive = false;
     body.addEventListener("touchstart", (ev) => {
-      tActive = MOBILE() && p.dataset.sheet === "full" && ev.touches.length === 1;
+      tActive = MOBILE() && state.view !== "list" && p.dataset.sheet === "full" && ev.touches.length === 1;
       tDrag = false;
       if (!tActive) return;
       tY = tLastY = ev.touches[0].clientY; tLastT = performance.now(); tVel = 0;
@@ -1871,6 +1871,7 @@
       $("#list").innerHTML = `<li class="empty-state"><strong>Non riesco a caricare gli eventi.</strong>Ricarica la pagina tra qualche minuto.</li>`;
       return;
     }
+    if (window.ANDIAMO_INTRO) await window.ANDIAMO_INTRO;   // prima parte l'apertura, poi il lavoro pesante
     EVENTS = DATA.events.filter((e) => e.start && e.lat != null);
     DATA.categories.forEach((c) => (CAT[c.id] = c));
     if (DATA.site.title) { document.title = DATA.site.title; renderWordmark(DATA.site.title); }
