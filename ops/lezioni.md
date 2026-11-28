@@ -203,6 +203,9 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - Piste di ghiaccio di Natale: a meta' novembre escono solo articoli degli anni passati; cercarle da fine novembre.
 
 ## Errori da non ripetere
+- 2026-11-28 (notte con quattro agenti): la rete della sessione bloccava tutti i siti (WebFetch: ENOTFOUND). Prima di
+  lanciare gli agenti il coordinatore prova una sola WebFetch su una pagina nota; se fallisce, gli agenti non partono e la
+  notte fa solo cio' che non usa la rete (modulo, unione, pubblicazione, memoria).
 - eventiesagre a volte sbaglia il nome del comune (Badoere di Morgano scritto "Mordano", poi geocodificato a caso):
   leggere la scheda prima di rimuovere come "fuori provincia".
 - Nel modificare correzioni.yaml con script, l'intestazione commentata contiene "# rimuovi:": inserire le voci

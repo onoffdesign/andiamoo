@@ -2,6 +2,24 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-28 (sessione notturna, quattro agenti)
+
+- **Rete bloccata**: la rete della sessione cloud non raggiungeva nessun sito (WebFetch: ENOTFOUND su comunemoglianoveneto.it,
+  libreriasanleonardo.it, comune.treviso.it, mapcarta.com, padovacultura.padovanet.it, comune.verona.it, cinemaedera.it,
+  qdpnews.it). Gli agenti sono stati fermati dopo le prime prove; nessun dato preso dai soli riassunti di WebSearch.
+- **Fonti del giro lette**: 0 su 40. **Verifiche delle fonti**: 0 su 12 (restano da verificare).
+- **Modulo del sito**: 2 righe, entrambe di prova (TEST), ignorate.
+- **Coda di revisione**: 0 su 60. **Campione**: non controllato. **Posizioni**: invariate (0 punti diversi, 1 lontano, falso
+  allarme H-FARM gia' verificato l'8/11; 252 con luogo senza punto). **Test di copertura**: non fatto.
+- **Eventi aggiunti / corretti / rimossi / verificati**: 0 / 0 / 0 / 0. Sito a 448 eventi.
+- **Province d'Italia**: nessuna cercata davvero (date in copertura.yaml non scritte).
+- **Ricerche usate**: 32 su 500 (giro 5, revisione 13, treviso 7, italia 6, coordinatore 1).
+- **Da riprendere quando la rete funziona** (dai resoconti in ops/notte/): programma di Magico Natale nelle Antiche Terre
+  (Susegana e Santa Lucia, Qdpnews e Nordest24 del 28/11), Natale a Treviso in piazza Rinaldi (Qdpnews), Cinema Edera della
+  settimana, fonti candidate Padova Cultura, Comune di Verona eventi, Visit Verona; luoghi senza punto Ca' dei Carraresi,
+  Corso Mazzini a Montebelluna, Gypsotheca di Possagno, Teatro del Pane.
+- **Problemi aperti**: aprire la rete della sessione ai siti esterni nelle impostazioni dell'ambiente cloud.
+
 ## 2026-11-28
 
 - **Giro del PC**: NON ha girato per la diciassettesima notte (ultimo rapporto finito il 2026-11-11 alle 09:19). Coda, campione e
