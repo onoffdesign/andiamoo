@@ -357,11 +357,15 @@
     const next = li.nextElementSibling, open = next && next.classList.contains("inline-card") && next.dataset.uid === e.uid;
     document.querySelectorAll("#list .inline-card").forEach((x) => x.remove());
     document.querySelectorAll("#list .item button[aria-expanded]").forEach((b) => b.setAttribute("aria-expanded", "false"));
+    document.querySelectorAll("#list .item.open").forEach((x) => x.classList.remove("open"));
     if (open) return;
     const box = document.createElement("li");
     box.className = "inline-card"; box.dataset.uid = e.uid;
-    box.appendChild(buildCard(e, { onPlace: (x) => { setView("map", { keep: true }); select(x.uid, { fly: true }); } }));
+    // il riquadro dell'evento si allunga verso il basso: sotto solo cio' che non c'e' gia' (niente titolo e luogo)
+    box.appendChild(buildCard(e, { inline: true }));
+    box.style.setProperty("--c", (CAT[e.category] || {}).color || "#ddd");
     li.after(box);
+    li.classList.add("open");
     li.querySelector("button").setAttribute("aria-expanded", "true");
     if (!opts.quiet) requestAnimationFrame(() => box.scrollIntoView({ block: "nearest", behavior: "smooth" }));
     else box.querySelector(".card").style.animation = "none";
@@ -1142,8 +1146,8 @@
       <div class="card-when">
         <strong class="w-day">${esc(plainDay(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}
       </div>
-      <h3>${esc(e.title)}</h3>
-      <p class="card-place"><b>${esc(e.venue || e.town)}</b>${place2 ? `<br>${esc(place2)}` : ""}${dist ? `<br><span class="muted">${dist} da te</span>` : ""}</p>
+      ${opts.inline ? "" : `<h3>${esc(e.title)}</h3>`}
+      ${opts.inline ? "" : `<p class="card-place"><b>${esc(e.venue || e.town)}</b>${place2 ? `<br>${esc(place2)}` : ""}${dist ? `<br><span class="muted">${dist} da te</span>` : ""}</p>`}
       <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}</div>
       ${e.summary ? `<p class="card-desc">${esc(e.summary)}</p>` : ""}
       ${e.ticket_url && e.ticket_url !== e.action_url ? `<p class="card-src">Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a></p>` : ""}
@@ -1158,7 +1162,7 @@
     el.querySelector("[data-ics]").addEventListener("click", () => downloadIcs(e));
     el.querySelector("[data-share]").addEventListener("click", () => share(e));
     el.querySelector("[data-report]").addEventListener("click", () => openReport(e));
-    if (opts.onPlace) {
+    if (opts.onPlace && el.querySelector(".card-place")) {
       const pl = el.querySelector(".card-place");
       pl.classList.add("link"); pl.title = "Mostra sulla mappa";
       pl.addEventListener("click", () => opts.onPlace(e));
