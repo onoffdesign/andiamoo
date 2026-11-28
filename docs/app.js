@@ -840,6 +840,15 @@
       g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
       o.connect(g).connect(this.out); o.start(t); o.stop(t + dur + 0.02);
     },
+    // "pop" tondo: sinusoide breve che scivola di tono, con un attacco morbido (bocca che schiocca, bolla)
+    pop(t, { from = 400, to = 800, dur = 0.11, gain = 0.45 } = {}) {
+      const c = this.ctx, o = c.createOscillator(), g = c.createGain(), f = c.createBiquadFilter();
+      o.type = "sine"; o.frequency.setValueAtTime(from, t); o.frequency.exponentialRampToValueAtTime(to, t + dur * 0.55);
+      f.type = "lowpass"; f.frequency.value = 2200;
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.006);
+      g.gain.exponentialRampToValueAtTime(gain * 0.35, t + dur * 0.5); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(f).connect(g).connect(this.out); o.start(t); o.stop(t + dur + 0.02);
+    },
     play(name) {
       if (!this.on) return;
       try {
@@ -858,11 +867,10 @@
           this.rustle(t + 0.17, 0.05, { freq: 2400, q: 1.4, gain: 0.16 });
         } else if (name === "chip") {                    // scatto secco di carta
           this.rustle(t, 0.022, { freq: 4400, q: 3, gain: 0.38, attack: 0.001 });
-        } else if (name === "save-on") {                 // due tratti di matita
-          this.rustle(t, 0.09, { freq: 5200, to: 3800, q: 4, gain: 0.35, attack: 0.01 });
-          this.rustle(t + 0.11, 0.12, { freq: 4600, to: 5600, q: 4, gain: 0.35, attack: 0.01 });
-        } else if (name === "save-off") {                // gomma che cancella
-          [0, 0.09, 0.18].forEach((d, i) => this.rustle(t + d, 0.08, { freq: 1300 + i * 150, q: 0.8, gain: 0.4, attack: 0.015 }));
+        } else if (name === "save-on") {                 // "pop" tondo, come una bolla che scoppia (verso l'alto)
+          this.pop(t, { from: 340, to: 760, dur: 0.11, gain: 0.5 });
+        } else if (name === "save-off") {                // "pop" piu' basso e morbido (verso il basso)
+          this.pop(t, { from: 520, to: 240, dur: 0.12, gain: 0.4 });
         }
       } catch (_) { /* audio non disponibile */ }
     },
