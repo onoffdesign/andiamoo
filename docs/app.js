@@ -1916,6 +1916,7 @@
       root.setProperty("--cats-top", `${Math.round(bar.top)}px`);
       root.setProperty("--cats-left", `${Math.round(bar.right + 10)}px`);
       root.setProperty("--cats-h", `${Math.round(bar.height)}px`);
+      root.setProperty("--view-w", `${Math.round($(".view-box").getBoundingClientRect().width)}px`);   // riquadro Mappa/Lista a destra
       const above = MOBILE() ? daysBottom : Math.max(daysBottom, $(".chips-row").getBoundingClientRect().bottom);
       root.setProperty("--below-days", `${Math.round(above + gap)}px`);
       if (!MOBILE()) root.setProperty("--above-filters", `${Math.round(window.innerHeight - $(".filters").getBoundingClientRect().top + gap)}px`);
@@ -1923,7 +1924,7 @@
     };
     placePanels();
     window.addEventListener("resize", placePanels);
-    if (window.ResizeObserver) { const ro = new ResizeObserver(placePanels); ro.observe($(".days")); ro.observe($(".filters")); ro.observe($(".chips-row")); }
+    if (window.ResizeObserver) { const ro = new ResizeObserver(placePanels); ro.observe($(".days")); ro.observe($(".filters")); ro.observe($(".chips-row")); ro.observe($(".view-box")); }
     if (document.fonts) document.fonts.ready.then(placePanels);
     $("#panel-hide").addEventListener("click", () => setSidebar(false));
     $("#list-toggle").addEventListener("click", () => setSidebar(true));
