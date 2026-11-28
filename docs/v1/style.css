@@ -841,7 +841,7 @@ body.view-list .panel { display: flex !important; }
 .inline-card { list-style: none; padding: 4px 20px 16px; }
 .inline-card .card.full { width: auto; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18); animation: card-in .28s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 50% 0; }
 .item button[aria-expanded="true"] { background: var(--chip); }
-body.view-list .panel { touch-action: pan-y !important; }
+body.view-list .panel { touch-action: pan-y pinch-zoom !important; }
 
 /* ---- vista lista a tutta pagina: l'elenco intero scorre sotto testata, calendario, categorie e accesso */
 @media (min-width: 761px) {
@@ -981,8 +981,29 @@ body.view-list .item .when small { color: rgba(0, 0, 0, .7); font-weight: 600; }
 
 /* telefono, vista lista: scorrimento nativo, nessun gesto del vecchio pannello a scomparsa */
 @media (max-width: 760px) {
-  body.view-list .panel, body.view-list .panel .panel-body, body.view-list .panel-head { touch-action: pan-y !important; }
+  body.view-list .panel, body.view-list .panel .panel-body, body.view-list .panel-head { touch-action: pan-y pinch-zoom !important; }
   body.view-list .panel { overscroll-behavior: contain; -webkit-overflow-scrolling: touch; --sheet-y: 0px; }
   body.view-list .panel-head { cursor: default; }
 }
 .count { white-space: nowrap; }
+
+/* card: cuore nell'angolo in alto a destra, nessuna riga vuota in cima; OGGI / DOMANI come etichetta */
+.card.full { position: relative; padding-top: 12px; }
+.card.full > .fav { position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; margin: 0; border: 0; background: transparent;
+  display: grid; place-items: center; border-radius: 50%; cursor: pointer; z-index: 1; }
+.card.full > .fav:hover { background: rgba(0, 0, 0, .08); }
+.card.full > .fav svg { width: 30px; height: 30px; stroke: #111; stroke-width: 1.8; }
+.card.full .card-top { gap: 6px; padding-right: 44px; }
+.card.full .card-when { padding-right: 40px; }
+.day-tag {
+  display: inline-flex; align-items: center; height: 24px; padding: 0 9px; border-radius: 6px; background: #1d1b18; color: #fff;
+  font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .75rem; font-weight: 700; letter-spacing: .05em;
+}
+
+/* telefono: niente ingrandimenti involontari della pagina (doppio tocco, campi di testo sotto i 16 px su iPhone);
+   se la pagina e' gia' ingrandita, il pizzico per tornare indietro funziona sempre */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+button, a, .item button, .chip, .cday { touch-action: manipulation; }
+@media (max-width: 760px) {
+  input, select, textarea, .near-pop input { font-size: 16px !important; }
+}
