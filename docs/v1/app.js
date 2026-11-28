@@ -154,6 +154,16 @@
     iscrizione: '<rect x="5.5" y="4" width="13" height="17" rx="2"/><path d="M9 3.5h6v3H9zM9 12h6M9 16h4"/>',
     invito: '<rect x="3" y="6" width="18" height="13" rx="2"/><path d="m3.5 7.5 8.5 6 8.5-6"/>',
   };
+  // prezzo da mostrare accanto al badge: niente se sconosciuto, e niente se dice solo che e' gratis (lo dice gia' il badge)
+  function priceText(e) {
+    const p = (e.price || "").trim();
+    if (/^(sconosciut|non (indicat|specificat|disponibil)|n\/?d|nd|-|\?)/i.test(p)) return "";
+    if (accessGroup(e) === "libero") {         // "ingresso gratuito, prenotazione consigliata" -> "prenotazione consigliata"
+      const rest = p.replace(/^(ingresso |entrata |partecipazione |corsa |degustazione )?(gratuit[oa]|gratis|liber[oa]|free)( e (gratuit[oa]|liber[oa]))?\s*[,.;:]?\s*/i, "");
+      return rest === p ? p : rest;
+    }
+    return p;
+  }
   function accessGroup(e) {
     for (const [g, v] of Object.entries(DATA.access_groups || {})) if ((v.includes || []).includes(e.access)) return g;
     return "";
@@ -470,7 +480,7 @@
     const where = DATA.settings[e.setting] || "";
     const g = accessGroup(e);
     const private_ = (DATA.access[e.access] || "").match(/\((.*)\)$/);       // es. "Su invito (evento privato)"
-    const price = /^(sconosciut|non (indicat|specificat|disponibil)|n\/?d|nd|-|\?)/i.test((e.price || "").trim()) ? "" : e.price;
+    const price = priceText(e);
     const accessText = g ? [private_ ? private_[1][0].toUpperCase() + private_[1].slice(1) : "", price].filter(Boolean).join(" · ")
       : ["Da verificare sul sito ufficiale", price].filter(Boolean).join(" · ");
     const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
@@ -1140,7 +1150,7 @@
     const timeLine = t0 ? (sameDayEnd ? `dalle ${t0} alle ${sameDayEnd}` : `ore ${t0}`) : (multiDay ? "" : "orario da verificare");
     const untilLine = multiDay ? `fino a ${dayLabel(parseDay(e.end)).toLowerCase()}` : "";
     const g = accessGroup(e);
-    const price = /^(sconosciut|non (indicat|specificat|disponibil)|n\/?d|nd|-|\?)/i.test((e.price || "").trim()) ? "" : e.price;
+    const price = priceText(e);
     const dist = kmText(km(e));
     const place2 = [e.address, e.venue ? e.town : ""].filter(Boolean).join(", ");
     const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
