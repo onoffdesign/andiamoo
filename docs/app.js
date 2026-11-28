@@ -1085,13 +1085,13 @@
     const dirs = `https://www.google.com/maps/dir/?api=1&destination=${e.geo_precision === "town"
       ? encodeURIComponent([e.venue, e.address, e.town].filter(Boolean).join(", ")) : `${e.lat},${e.lon}`}`;
     el.innerHTML = `
-      <div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${opts.popup ? "" : `<span class="cat-tag">${esc(c.label)}${sub ? ` · ${esc(sub)}` : ""}</span>`}${favButton(e, "fav")}</div>
+      <div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${favButton(e, "fav")}</div>
       <div class="card-when">
         <strong class="w-day">${esc(dayLabel(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}
       </div>
       <h3>${esc(e.title)}</h3>
       <p class="card-place"><b>${esc(e.venue || e.town)}</b>${place2 ? `<br>${esc(place2)}` : ""}${dist ? `<br><span class="muted">${dist} da te</span>` : ""}</p>
-      <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}${(e.audience || []).map((a) => `<span class="who-pill">${esc(DATA.audiences[a] || a)}</span>`).join("")}</div>
+      <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}</div>
       ${e.summary ? `<p class="card-desc">${esc(e.summary)}</p>` : ""}
       ${e.ticket_url && e.ticket_url !== e.action_url ? `<p class="card-src">Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a></p>` : ""}
       <div class="card-actions">
