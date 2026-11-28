@@ -1115,3 +1115,12 @@ body.view-list .panel .panel-body > ol > .group:first-child { padding-top: 6px; 
 
 body.view-list .inline-card .card-when .u { font-size: 1.0625rem; font-weight: 600; }
 body.view-list .inline-card .card.full > .fav { top: 6px; }
+
+/* crediti della mappa: tondino in basso a destra, accanto ai controlli, mai in mezzo alla mappa */
+.maplibregl-ctrl-bottom-right { right: calc(var(--gap) + 44px + 12px) !important; bottom: 4px !important; left: auto !important; }
+.maplibregl-ctrl-attrib.maplibregl-compact { margin: 0 !important; background: rgba(251, 248, 240, .85) !important; font-size: 10px; }
+.maplibregl-ctrl-attrib.maplibregl-compact:not(.maplibregl-compact-show) { opacity: .7; }
+@media (max-width: 760px) {
+  .maplibregl-ctrl-bottom-right { right: auto !important; left: 2px !important; bottom: calc(2px + var(--sab)) !important; }
+  .maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib.maplibregl-compact-show { max-width: calc(100vw - 90px); }
+}

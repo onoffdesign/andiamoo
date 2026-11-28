@@ -950,6 +950,9 @@
       dragRotate: false, pitchWithRotate: false, touchPitch: false, renderWorldCopies: false,
     });
     map.touchZoomRotate.disableRotation();
+    // crediti della mappa (obbligatori): sempre chiusi nel tondino "i" in un angolo, si aprono solo se li tocchi
+    const shutAttrib = () => document.querySelectorAll(".maplibregl-ctrl-attrib.maplibregl-compact-show").forEach((el) => el.classList.remove("maplibregl-compact-show"));
+    map.once("load", shutAttrib); map.once("idle", shutAttrib);
     // Allontanandosi si arriva al massimo a tutta l'Italia: zoom minimo = quello che fa stare l'Italia nella parte
     // visibile della mappa; i confini di spostamento sono l'Italia con un po' di mare, allargati quanto serve perche'
     // a zoom minimo la finestra ci stia (ricalcolati quando cambia la dimensione della finestra).
