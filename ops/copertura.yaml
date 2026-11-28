@@ -322,6 +322,7 @@ giro:
   teatro-da-ponte: '2026-11-28'
   dolomiti-prealpi: '2026-11-28'
   sala-luttazzi-trieste: '2026-11-28'
+  musincantus: '2026-11-28'
 
 # Province d'Italia cercate (area tutta Italia dal 2026-11-28): SIGLA -> data dell'ultima ricerca.
 province:
@@ -345,6 +346,16 @@ province:
   CO: '2026-11-28'
   PV: '2026-11-28'
   MN: '2026-11-28'
+  RA: '2026-11-28'
+  FE: '2026-11-28'
+  RN: '2026-11-28'
+  PC: '2026-11-28'
+  TO: '2026-11-28'
+  CN: '2026-11-28'
+  NO: '2026-11-28'
+  AL: '2026-11-28'
+  AT: '2026-11-28'
+  BI: '2026-11-28'
 
 # Comuni delle province della fase 2b controllati (pagina ufficiale letta o ricerca mirata).
 comuni_PD:
@@ -425,3 +436,44 @@ comuni_PV:
 comuni_MN:
   Mantova: '2026-11-28'
   Ostiglia: '2026-11-28'
+comuni_RA:
+  Ravenna: '2026-11-28'
+  Alfonsine: '2026-11-28'
+  Massa Lombarda: '2026-11-28'
+  Casola Valsenio: '2026-11-28'   # solo ricerca: nessun evento trovato, sito non OpenCity
+comuni_FE:
+  Ferrara: '2026-11-28'
+  Argenta: '2026-11-28'
+  Portomaggiore: '2026-11-28'   # solo ricerca: nessun evento trovato
+  Goro: '2026-11-28'   # solo ricerca: nessun evento trovato
+comuni_RN:
+  Rimini: '2026-11-28'
+  Misano Adriatico: '2026-11-28'
+comuni_PC:
+  Piacenza: '2026-11-28'
+comuni_TO:
+  Torino: '2026-11-28'
+comuni_CN:
+  Cuneo: '2026-11-28'
+comuni_NO:
+  Novara: '2026-11-28'
+  Sozzago: '2026-11-28'
+  Oleggio: '2026-11-28'
+  Carpignano Sesia: '2026-11-28'
+comuni_AL:
+  Alessandria: '2026-11-28'
+comuni_AT:
+  Asti: '2026-11-28'
+  Moncalvo: '2026-11-28'   # solo ricerca: Fiera del Bue Grasso 2026 senza date ufficiali
+comuni_BI:
+  Biella: '2026-11-28'
+categorie_RA:
+  "Musica e party > Festival musicali": 2026-11-28
+categorie_FE:
+  "Spettacoli > Musical e operetta": 2026-11-28
+categorie_PC:
+  "Famiglie e bambini > Letture e biblioteche": 2026-11-28
+categorie_NO:
+  "Arte e cultura > Tecnologia e scienza": 2026-11-28
+categorie_BI:
+  "Arte e cultura > Comunita'": 2026-11-28

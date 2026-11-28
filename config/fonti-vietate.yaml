@@ -42,9 +42,15 @@ vietate:
   - {dominio: fleamapket.com, motivo: "Terms of Service letti il 2026-11-28 (/terms-of-service/): 'You may not use any deep-link, page-scrape, spider, robot, crawl, index, Internet agent, or other automatic devices ... to use, access, copy, acquire information ... any portion of this website'", verificato: 2026-11-28}
   - {dominio: cosedicasa.com, motivo: "Condizioni d'uso lette il 2026-11-28 (/condizioni-uso): 'Sono vietate sia l'estrazione che il reimpiego della totalita' o di una parte del contenuto del presente sito', vietato l'accesso 'con mezzi diversi dalla normale connessione' e l'uso dei dati per creare banche dati", verificato: 2026-11-28}
   - {dominio: trovasagre.com, motivo: "robots.txt letto il 2026-11-28: 'User-agent: ClaudeBot / Disallow: /' (anche anthropic-ai, GPTBot, CCBot)", verificato: 2026-11-28}
+  - {dominio: eventiesagre.it, motivo: "Termini e Condizioni di www.eventiesagre.it letti il 2026-11-28 (iubenda.com/termini-e-condizioni/316839, Web Up Italia Srl), sez. Diritti sui contenuti: 'e' fatto divieto agli Utenti di copiare, scaricare, condividere ... trasformare ... o creare opere derivate a partire dal contenuto disponibile su questa Applicazione'; robots.txt (Allow /) non blocca", verificato: 2026-11-28}
+  - {dominio: teatromassimo.it, motivo: "robots.txt letto il 2026-11-28: 'User-agent: ClaudeBot / Disallow: /' (anche anthropic-ai e Claude-Web; Content-Signal ai-train=no)", verificato: 2026-11-28}
+  - {dominio: sardegnaturismo.it, motivo: "robots.txt letto il 2026-11-28: 'User-agent: ClaudeBot / Disallow: /' (anche Claude-Web e anthropic-ai)", verificato: 2026-11-28}
+  - {dominio: lovevda.it, motivo: "robots.txt letto il 2026-11-28: claudebot, claude-user, claude-searchbot, claude-web e claude-code con 'Disallow: /'", verificato: 2026-11-28}
+  - {dominio: lamialiguria.it, motivo: "robots.txt letto il 2026-11-28: '# Blocco bot AI noti (OpenAI, Anthropic, Meta)', ClaudeBot e anthropic-ai con 'Disallow: /'", verificato: 2026-11-28}
+  - {dominio: tcbo.it, motivo: "robots.txt letto il 2026-11-28 (Teatro Comunale di Bologna): 'User-agent: ClaudeBot / Disallow: /' (anche anthropic-ai e Claude-Web; Content-Signal ai-train=no)", verificato: 2026-11-28}
 
 da_verificare:
-  - {dominio: ticketone.it, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio); 2026-11-28 robots.txt e /help/terms/ rispondono 503, da riprovare; 2026-11-28 (secondo giro) robots.txt non raggiungibile e /campaign/termini-e-condizioni-aprile-2026 risponde 503; secondo il riassunto di WebSearch i termini di aprile 2026 vietano gli strumenti automatizzati: da confermare leggendo la pagina"}
+  - {dominio: ticketone.it, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio); 2026-11-28 robots.txt e /help/terms/ rispondono 503, da riprovare; 2026-11-28 (secondo giro) robots.txt non raggiungibile e /campaign/termini-e-condizioni-aprile-2026 risponde 503; secondo il riassunto di WebSearch i termini di aprile 2026 vietano gli strumenti automatizzati: da confermare leggendo la pagina; 2026-11-28 (terzo giro) robots.txt: WebFetch 503 e curl errore di connessione; /help/terms/ e /campaign/termini-e-condizioni-aprile-2026 irraggiungibili con curl: da riprovare"}
   - {dominio: dice.fm, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: xceed.me, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: feverup.com, nota: "piattaforma eventi: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
@@ -52,20 +58,16 @@ da_verificare:
   - {dominio: ra.co, nota: "piattaforma eventi: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: allevents.in, nota: "aggregatore: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: t.me, nota: "Telegram: termini non verificati, termini da leggere (anche le anteprime t.me/s); tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
-  - {dominio: eventiesagre.it, nota: "aggregatore; termini d'uso da leggere; robots.txt letto il 2026-11-28: User-agent * Allow /, nessun gruppo per Claude; pagina Condizioni di Utilizzo non trovata; 2026-11-28 (secondo giro) WebSearch con allowed_domains non trova l'indirizzo della pagina (solo il link nel footer e 'vietata la riproduzione anche parziale')"}
-  - {dominio: 2night.it, nota: "aggregatore; robots.txt con segnali di contenuto (use=reference); termini da leggere"}
-  - {dominio: running.life, nota: "aggregatore gare; termini da leggere; robots.txt letto il 2026-11-28: blocca solo /map/; pagina dei termini non trovata; 2026-11-28 (secondo giro) WebSearch con allowed_domains trova solo schede gara"}
-  - {dominio: gotrail.run, nota: "aggregatore trail (stessa societa' di running.life); termini da leggere"}
-  - {dominio: insolitotrantran.it, nota: "aggregatore; API pubblica e robots.txt libero (2026-10 e 2026-11-28, ClaudeBot compreso); termini da leggere: 2026-11-28 WebSearch con allowed_domains non trova pagine legali"}
+  - {dominio: 2night.it, nota: "aggregatore; robots.txt con segnali di contenuto (use=reference); termini da leggere; 2026-11-28 robots.txt letto: blocca per tutti '/o/disclaimer.html' e '/o/privacy.html' (le pagine legali) e /api/, non le pagine eventi; termini non leggibili senza violare robots.txt: resta da verificare (serve contatto o lettura manuale)"}
   - {dominio: sagramap.com, nota: "aggregatore sagre; termini da leggere"}
-  - {dominio: eventivenetando.it, nota: "aggregatore; termini da leggere"}
   - {dominio: trevisoinfo.it, nota: "aggregatore; termini da leggere"}
   - {dominio: microturismodellevenezie.it, nota: "aggregatore; termini da leggere"}
   - {dominio: trevisotoday.it, nota: "testata; termini da leggere"}
-  - {dominio: classicalive.it, nota: "aggregatore musica classica; robots.txt 'Allow: /' (2026-11-28); /privacy-policy/ e /it/informativa-privacy/ 404, WebSearch non da' l'indirizzo dell'informativa (solo link nel footer): da riprovare"}
-  - {dominio: tviweb.it, nota: "testata; robots.txt libero (2026-11-28); nessuna pagina legale trovata con WebSearch (solo 'Chi siamo' con i dati della societa'): da riprovare"}
-  - {dominio: trevisando.it, nota: "comitato provinciale delle marce; 2026-11-28 robots.txt e /privacy-policy/ rispondono con una pagina di controllo anti-bot ('Please wait while your request is being verified'): illeggibili, da riprovare"}
+  - {dominio: classicalive.it, nota: "aggregatore musica classica; robots.txt 'Allow: /' (2026-11-28); /privacy-policy/ e /it/informativa-privacy/ 404, WebSearch non da' l'indirizzo dell'informativa (solo link nel footer): da riprovare; 2026-11-28 (terzo giro) provati /it/privacy-policy/, /it/cookie-policy/, /it/note-legali/, /it/termini/ (404) e ricerche anche su iubenda: indirizzo dell'informativa ancora sconosciuto, da riprovare"}
   - {dominio: oggitreviso.it, nota: "testata; termini da leggere"}
+  - {dominio: sardegnaeventi24.it, nota: "testata-aggregatore sarda; robots.txt letto il 2026-11-28 (solo Crawl-delay per MSNBot e bingbot, nessun Disallow); la pagina 'Termini e Condizioni' del footer non e' stata trovata (/privacy-policy/ e /disclaimer/ danno 404, WebSearch non la trova): da riprovare"}
+  - {dominio: solosagre.it, nota: "aggregatore sagre nazionale; robots.txt letto il 2026-11-28 ('Disallow:' vuoto); /info/termini-e-condizioni/ e /info/note-legali/ mostrano solo la ricerca eventi, WebSearch non trova pagine legali: da riprovare"}
+  - {dominio: sagritaly.com, nota: "aggregatore sagre; robots.txt letto il 2026-11-28 (blocca solo /wp-admin/); privacy e cookie policy nel footer ma /privacy-policy/, /cookie-policy/, /privacy/ danno 404: da riprovare"}
 
 ammesse:
   - {dominio: qdpnews.it, verificato: 2026-11-28, nota: "testata locale: ammessa per decisione di Federico del 2026-11-28 (termini non letti da Claude); robots.txt rispettato a ogni lettura"}
@@ -79,5 +81,15 @@ ammesse:
 
   - {dominio: iltaccodibacco.it, verificato: 2026-11-28, nota: "robots.txt ('User-Agent: *' senza Disallow) e /condizioni/ letti: nessun divieto di scraping o estrazione automatica; il sito offre una OpenAPI pubblica; le condizioni dicono che il sito si usa 'per scopi personali e non commerciali' (niente testi copiati, link alla fonte ufficiale)"}
   - {dominio: trevisoeventi.com, verificato: 2026-11-28, nota: "robots.txt assente (404, nessun blocco) e /newsletter-informativa-privacy.htm letti: nessun divieto di scraping o estrazione automatica; termini d'uso non presenti; nel footer 'riproduzione vietata senza autorizzazione' (niente testi copiati)"}
+
+  - {dominio: tviweb.it, verificato: 2026-11-28, nota: "robots.txt (blocca solo wp-admin e un'immagine) e /privacy-note-legali-cookies/ letti: nessun divieto di scraping o estrazione automatica; vietata la riproduzione senza autorizzazione (niente testi copiati)"}
+  - {dominio: mentelocale.it, verificato: 2026-11-28, nota: "robots.txt (Allow /) e /informativa-privacy.htm letti: nessun divieto; termini d'uso e note legali non presenti (404 e ricerca)"}
+  - {dominio: running.life, verificato: 2026-11-28, nota: "robots.txt (blocca solo /<lingua>/map/ e /demo-) e /privacy-policy letti: nessun divieto; termini d'uso non presenti (la privacy policy non li cita); copre anche gotrail.run"}
+  - {dominio: gotrail.run, verificato: 2026-11-28, nota: "robots.txt (blocca solo /<lingua>/map/ e /demo-) e la privacy policy comune con running.life letti: nessun divieto; termini d'uso non presenti"}
+  - {dominio: insolitotrantran.it, verificato: 2026-11-28, nota: "robots.txt (Allow / per tutti, ClaudeBot e Claude-User compresi: 'gli assistenti AI sono i benvenuti') e /privacy/ letti: nessun divieto; termini d'uso non presenti (nel footer solo Privacy e cookie)"}
+  - {dominio: siviaggia.it, verificato: 2026-11-28, nota: "robots.txt (blocca solo /cerca/, /search/, /ai/, wp-admin) e Note legali di Italiaonline (privacy.italiaonline.it/note_legali.html) letti: nessun divieto di raccolta automatica; riproduzione dei materiali vietata senza autorizzazione (niente testi copiati)"}
+  - {dominio: trevisando.it, verificato: 2026-11-28, nota: "robots.txt (Yoast, Disallow vuoto) e /privacy-policy/ letti con WebFetch: nessun divieto; termini d'uso non presenti; comitato provinciale delle marce (Godega di Sant'Urbano)"}
+  - {dominio: eventivenetando.it, verificato: 2026-11-28, nota: "sito del Consorzio Pro Loco del Quartier del Piave (rete pro loco, categoria ammessa); robots.txt letto con WebFetch: blocca solo /system, /cgi-bin, /anteprima, /Facebook; privacy non letta (curl riceve una pagina anti-bot: leggere solo con WebFetch e senza insistere)"}
+  - {dominio: zero.eu, verificato: 2026-11-28, nota: "robots.txt (blocca solo wp-admin e le pagine con parametri ?, anche /eventi?...) e /it/corporate/termini-e-condizioni-duso/ e /en/corporate/content-licensing/ letti: nessun divieto di raccolta automatica; contenuti in licenza CC BY-NC-ND: citare zero.eu con link, niente testi modificati ne' uso commerciale (riassunti originali); usare solo le schede eventi senza parametri"}
 
 api: []

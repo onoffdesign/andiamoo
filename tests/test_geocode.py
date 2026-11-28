@@ -39,6 +39,7 @@ def test_indirizzo_senza_iniziali_e_parentesi(tmp_path):
 def test_frazione_al_posto_del_centro_del_comune(tmp_path):
     dosson = {"lat": 45.6236, "lon": 12.2633, "province": "IT-TV", "town": "Casier", "type": "village"}
     g = _geo(tmp_path, {"c|casier": CASIER, "s|dosson, casier": dosson})
+    g.known = [p for p in g.known if "dosson" not in p["names"]]   # qui conta la frazione, non luoghi.yaml
     ev = _ev(venue="Dosson", town="Casier")
     assert g.locate(ev)
     assert (ev.lat, ev.lon, ev.geo_precision) == (45.6236, 12.2633, "frazione")

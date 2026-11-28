@@ -2,17 +2,6 @@
  "nota": "Eventi non pubblicati: i dati vengono da piattaforme vietate o da verificare (config/fonti-vietate.yaml) e non c'e' una fonte ammessa. Valutazione manuale: contatto con l'organizzatore o API ufficiale.",
  "eventi": [
   {
-   "uid": "744c00f2e1a1fbf4",
-   "titolo": "Ludovico Lipparini e la pittura filoellenica: il giuramento di Lord Byron a Missolungi",
-   "inizio": "2026-11-06",
-   "fine": "2027-02-07",
-   "comune": "Treviso",
-   "fonte": "Redazione ANDIAMO?",
-   "motivo": "dati presi da da verificare: tviweb.it",
-   "link": "https://www.tviweb.it/www-tviweb-it-sagre-mostre-eventi-veneto-weekend/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
    "uid": "1bd6d80749a50cdb",
    "titolo": "50a Mostra dei vini del Montello e dei Colli Asolani",
    "inizio": "2026-11-13",
@@ -33,39 +22,6 @@
    "motivo": "dati presi da da verificare: umbriaecultura.it",
    "link": "https://www.umbriaecultura.it/fiori-dinverno-radicchio/",
    "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "c7445071eb7ffd46",
-   "titolo": "L'ephemere necessaire. Il temporaneo necessario",
-   "inizio": "2026-11-20",
-   "fine": "2026-11-28",
-   "comune": "Treviso",
-   "fonte": "tviweb.it",
-   "motivo": "dati presi da da verificare: tviweb.it",
-   "link": "https://www.tviweb.it/mostre-in-veneto-nel-weekend-dal-20-al-22-novembre-2026-42-esposizioni-da-visitare-da-vicenza-a-venezia/",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "09780e2cc9d96f7a",
-   "titolo": "Natale sotto le mura: mercatini di Natale a Castelfranco Veneto",
-   "inizio": "2026-11-21",
-   "fine": "2027-01-10",
-   "comune": "Castelfranco Veneto",
-   "fonte": "siviaggia.it",
-   "motivo": "dati presi da da verificare: siviaggia.it",
-   "link": "https://siviaggia.it/notizie/sagre-feste-veneto-dicembre-2026/609673/",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "d679d1415e7d32dc",
-   "titolo": "Toni Benetton. Conquista dello spazio: dalla scultura all'architettura",
-   "inizio": "2026-11-21",
-   "fine": "2026-12-08",
-   "comune": "Treviso",
-   "fonte": "tviweb.it",
-   "motivo": "dati presi da da verificare: tviweb.it",
-   "link": "https://www.tviweb.it/mostre-in-veneto-nel-weekend-dal-20-al-22-novembre-2026-42-esposizioni-da-visitare-da-vicenza-a-venezia/",
-   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "c75304d11cd3db00",
@@ -178,17 +134,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "ace345da4e8bd62d",
-   "titolo": "Macedonia Sintetica live a Isola B – Falzè di Piave (Treviso)",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "comune": "Falzè di Piave",
-   "fonte": "Insolito Tran Tran",
-   "motivo": "dati presi da da verificare: insolitotrantran.it",
-   "link": "https://www.insolitotrantran.it/event/macedonia-sintetica-live-a-isola-b-falze-di-piave-treviso/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
    "uid": "b1fbf0d3cdce8e97",
    "titolo": "Pelund Orsaghese, mercatino di Natale con i Krampus",
    "inizio": "2026-11-29T09:00",
@@ -208,28 +153,6 @@
    "fonte": "Calendario Podismo",
    "motivo": "dati presi da da verificare: calendariopodismo.it",
    "link": "https://www.calendariopodismo.it/gara/81561/10-corsa-dei-babbi-natale-a-ponzano/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "d695e1b327f46ccb",
-   "titolo": "Olio in Villa a Villa di Maser",
-   "inizio": "2026-11-29T10:00",
-   "fine": "2026-11-29T16:00",
-   "comune": "Maser",
-   "fonte": "eventivenetando.it",
-   "motivo": "dati presi da da verificare: eventivenetando.it",
-   "link": "https://www.eventivenetando.it/",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "5c5dfa45a00e09fe",
-   "titolo": "Treviso Sotterranea – Percorso 1: Torrione e Porta San Tomaso – Treviso",
-   "inizio": "2026-11-29T11:00",
-   "fine": "2026-11-29T13:00",
-   "comune": "Treviso",
-   "fonte": "Insolito Tran Tran",
-   "motivo": "dati presi da da verificare: insolitotrantran.it",
-   "link": "https://www.insolitotrantran.it/event/treviso-sotterranea-percorso-1-torrione-e-porta-san-tomaso-treviso-5/",
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
@@ -264,28 +187,6 @@
    "motivo": "dati presi da da verificare: trovasagre.com",
    "link": "https://trovasagre.com/sagre/veneto/treviso",
    "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "dce166f5c85d15a0",
-   "titolo": "Bim Boom Jam – Jam session al Mulino di Falzè",
-   "inizio": "2026-12-01T19:00",
-   "fine": null,
-   "comune": "Sernaglia della Battaglia",
-   "fonte": "Insolito Tran Tran",
-   "motivo": "dati presi da da verificare: insolitotrantran.it",
-   "link": "https://www.insolitotrantran.it/event/bim-boom-jam-jam-session-al-mulino-di-falze-3/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "14e942aa659b233b",
-   "titolo": "Reel Rock Tour Italia 2026",
-   "inizio": "2026-12-01T20:00",
-   "fine": null,
-   "comune": "Paese",
-   "fonte": "mentelocale.it",
-   "motivo": "dati presi da da verificare: mentelocale.it",
-   "link": "https://www.mentelocale.it/treviso/137798-reel-rock-tour-italia-2026.htm",
-   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "89cbd8271e8be202",
@@ -431,17 +332,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "e29e7ac57f3a29e4",
-   "titolo": "Marcia San Nicolo' a Pianzano",
-   "inizio": "2026-12-06T09:00",
-   "fine": null,
-   "comune": "Godega di Sant'Urbano",
-   "fonte": "trevisando.it",
-   "motivo": "dati presi da da verificare: trevisando.it",
-   "link": "https://trevisando.it/wp-content/uploads/2026/01/TREVISANDO-2026-A5-2.pdf",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "10b4efe62379105d",
    "titolo": "Pagliacci di Leoncavallo al Teatro Del Monaco",
    "inizio": "2026-12-06T16:00",
@@ -451,17 +341,6 @@
    "motivo": "dati presi da da verificare: classicalive.it",
    "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
    "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "5c70a42b45f25491",
-   "titolo": "Macedonia Sintetica live a CW Gate – Susegana (Treviso)",
-   "inizio": "2026-12-07",
-   "fine": null,
-   "comune": "Susegana",
-   "fonte": "Insolito Tran Tran",
-   "motivo": "dati presi da da verificare: insolitotrantran.it",
-   "link": "https://www.insolitotrantran.it/event/macedonia-sintetica-live-a-cw-gate-susegana-treviso/",
-   "registrato": "2026-11-28T10:19+01:00"
   },
   {
    "uid": "cf7fdce12386d38e",
@@ -585,17 +464,6 @@
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
-   "uid": "fe24b388c8cb12b7",
-   "titolo": "Cose Ritrovate: mercato del vintage e collezionismo – Montebelluna",
-   "inizio": "2026-12-19T08:30",
-   "fine": "2026-12-19T19:00",
-   "comune": "Montebelluna",
-   "fonte": "Insolito Tran Tran",
-   "motivo": "dati presi da da verificare: insolitotrantran.it",
-   "link": "https://www.insolitotrantran.it/event/cose-ritrovate-mercato-del-vintage-e-collezionismo-montebelluna-3/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
    "uid": "560a294b1014e8b1",
    "titolo": "Il lago dei cigni - Russian Classical Ballet",
    "inizio": "2026-12-19T21:00",
@@ -651,17 +519,6 @@
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
-   "uid": "4a718e36ed711a93",
-   "titolo": "LiTLe Run per il Piccolo Rifugio",
-   "inizio": "2026-12-26T09:30",
-   "fine": null,
-   "comune": "Vittorio Veneto",
-   "fonte": "trevisando.it",
-   "motivo": "dati presi da da verificare: trevisando.it",
-   "link": "https://trevisando.it/wp-content/uploads/2026/01/TREVISANDO-2026-A5-2.pdf",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "c9c75668704bf0ef",
    "titolo": "Cose d'Altri Tempi: mercatino dell'antiquariato",
    "inizio": "2026-12-27T08:00",
@@ -681,28 +538,6 @@
    "fonte": "Calendario Podismo",
    "motivo": "dati presi da da verificare: calendariopodismo.it",
    "link": "https://www.calendariopodismo.it/gara/81827/48-maratonina-di-san-silvestro/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "46ff1d6349dba6bb",
-   "titolo": "Bim Boom Jam – Jam session al Mulino di Falzè",
-   "inizio": "2027-01-05T19:00",
-   "fine": null,
-   "comune": "Falzè di Piave",
-   "fonte": "Insolito Tran Tran",
-   "motivo": "dati presi da da verificare: insolitotrantran.it",
-   "link": "https://www.insolitotrantran.it/event/bim-boom-jam-jam-session-al-mulino-di-falze-4/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "85f0bdaa2817c50b",
-   "titolo": "Corsa dea Befana",
-   "inizio": "2027-01-06",
-   "fine": null,
-   "comune": "Spresiano",
-   "fonte": "running.life (podismo)",
-   "motivo": "dati presi da da verificare: running.life",
-   "link": "https://running.life/it/evento/corsa-dea-befana",
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
@@ -849,28 +684,6 @@
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
-   "uid": "52bf1768aef1ae95",
-   "titolo": "Trail delle Terre Rosse",
-   "inizio": "2027-01-31",
-   "fine": null,
-   "comune": "Volpago del Montello",
-   "fonte": "running.life (podismo)",
-   "motivo": "dati presi da da verificare: running.life",
-   "link": "https://running.life/it/evento/trail-delle-terre-rosse",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "9a1b4cf74837c4e3",
-   "titolo": "Bim Boom Jam – Jam session al Mulino di Falzè",
-   "inizio": "2027-02-02T19:00",
-   "fine": null,
-   "comune": "Falzè di Piave",
-   "fonte": "Insolito Tran Tran",
-   "motivo": "dati presi da da verificare: insolitotrantran.it",
-   "link": "https://www.insolitotrantran.it/event/bim-boom-jam-jam-session-al-mulino-di-falze-5/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
    "uid": "47c79ea5d2b5c6ac",
    "titolo": "Altri rami, musica nuova di Filippo Perocco",
    "inizio": "2027-02-02T20:00",
@@ -912,17 +725,6 @@
    "fonte": "Redazione ANDIAMO?",
    "motivo": "dati presi da da verificare: umbriaecultura.it",
    "link": "https://www.umbriaecultura.it/fiori-dinverno-radicchio/",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "d39ca7495792cdaa",
-   "titolo": "Ridges Trail Experience",
-   "inizio": "2027-02-14",
-   "fine": null,
-   "comune": "Vittorio Veneto",
-   "fonte": "gotrail.run (trail)",
-   "motivo": "dati presi da da verificare: gotrail.run",
-   "link": "https://gotrail.run/it/evento/ridges-trail-experience",
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
@@ -968,28 +770,6 @@
    "motivo": "dati presi da vietata: ticketone.it",
    "link": "https://www.ticketone.it/cityd/conegliano-1116/concerti-55/",
    "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "40bfe0678e02899f",
-   "titolo": "Run 4 Hope - Vazzola",
-   "inizio": "2027-02-28",
-   "fine": null,
-   "comune": "Mareno di Piave",
-   "fonte": "running.life (podismo)",
-   "motivo": "dati presi da da verificare: running.life",
-   "link": "https://running.life/it/evento/run-4-hope-vazzola",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "98998aa7c3966044",
-   "titolo": "Bim Boom Jam – Jam session al Mulino di Falzè",
-   "inizio": "2027-03-02T19:00",
-   "fine": null,
-   "comune": "Falzè di Piave",
-   "fonte": "Insolito Tran Tran",
-   "motivo": "dati presi da da verificare: insolitotrantran.it",
-   "link": "https://www.insolitotrantran.it/event/bim-boom-jam-jam-session-al-mulino-di-falze-6/",
-   "registrato": "2026-11-28T10:19+01:00"
   },
   {
    "uid": "2ea89e232b1c31d6",
