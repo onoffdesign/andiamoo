@@ -1,161 +1,99 @@
-# Agente giro, notte del 2026-11-28 (terzo giro)
+# Agente giro, notte del 2026-11-28 (quarto giro)
 
-(Riscritto da capo. I due giri precedenti di oggi avevano letto tutte le 41 fonti del giro e aggiunto 61 + 98 eventi, gia'
-uniti dal coordinatore. Questo giro ha cercato le date non ancora prese, soprattutto oltre i primi 30 giorni, e ha
-riaperto 10 fonti note di ops/fonti.yaml con il controllo piu' vecchio.)
+(Riscritto da capo. Questo giro ha letto per la prima volta le 7 fonti del giro "mai" lette, tutte fuori dal Veneto
+tranne running.life e gotrail, poi ha riaperto alcune fonti note di ops/fonti.yaml.)
 
 ## Numeri
-- Eventi aggiunti in config/notte/giro-eventi.yaml: 458 (101 nei prossimi 30 giorni). `python -m pipeline.notte --controlla giro`: parti valide.
-  - MyArteven (circuito teatrale regionale del Veneto, fonte nota): 377 repliche di 56 teatri e piazze del Veneto fino al 28/3
-    (stagioni di Mestre Toniolo e Teatro del Parco, Thiene, Vicenza, Legnago, Jesolo, San Dona', Bassano, Schio, Portogruaro,
-    Rovigo, Cittadella, Castelfranco e altre; rassegne per famiglie di Natale in piazza). Sul sito ce n'erano solo 31.
-  - Museo Canova (Possagno): 33 visite guidate dal 19/12 a fine marzo (famiglie, Domenica in mostra, Napoleone, Canova
-    neoclassico, Canova che mito, Natale al Museo 29-30/12 e 4-5/1 con prezzo 5 euro). Come il giro precedente, niente
-    visite spontanee e in inglese.
-  - Gli Alcuni: 15 (date di gennaio-marzo a Padova Teatro Verdi, Teatro San Carlo e Esperia, Sacile Teatro Ruffo, e 3 date
-    di marzo a Treviso che il PC non prende perche' oltre le sue 3 pagine). Escluse le repliche "| scuole".
-  - Mattorosso (Montebelluna): 14 serate dal 29/12 al 27/2 (solo data, l'elenco non ha orari).
-  - Teatro Accademia (Conegliano, fonte nota): 8. Due spettacoli nuovi della prosa (Contrazioni pericolose 10/3, Franciscus
-    di Cristicchi 25/3) e 6 eventi che in eventi_redazione hanno fonte TicketOne e sono trattenuti in ops/da-verificare.json,
-    ora presi dalla scheda ufficiale del teatro (vedi sotto).
-  - Musincantus (fonte nota): 7 spettacoli della stagione CortinAteatro a Cortina d'Ampezzo (comune senza eventi sul sito).
-  - Scopri Oderzo: 4 (Portici in Musica 12/12, Grossi guai al Polo Nord 19/12, Concerto di fine anno della Filarmonia
-    Veneta 31/12 al Teatro Cristallo, Pan e Vin 6/1).
-- Correzioni in config/notte/giro-correzioni.yaml: 5 (Teatro Accademia: Rosencrantz e Guildenstern 6/12, L'amante 16/12,
-  Venerdi' 13 10/1, Lungs 21/1, Uno nessuno centomila 9/2 erano senza orario e con official_url sulla pagina generica
-  /prosa/: ora ore 21 e scheda dello spettacolo).
-- Fonti del giro lette di nuovo: gli-alcuni, museo-canova, teatro-da-ponte (calendario completo: tutte le 39 date fino a
-  marzo gia' sul sito), mattorosso, scopri-oderzo (dicembre-marzo), libreria-san-leonardo, comune-paese. Le altre erano
-  state lette oggi dai giri precedenti; tutte hanno gia' la data 2026-11-28 in ops/copertura.yaml (aggiunta musincantus).
-- Fonti note riaperte (ops/fonti.yaml, controllo piu' vecchio): Musincantus, Teatro Accademia Conegliano, MyArteven, Musei
-  Civici Treviso, Sile Classica, Auditorium Maserada, Visit Museum Treviso, Pro Loco Vittorio Veneto, Pro Loco Mogliano,
-  FAI Memoriale Brion. Da aggiornare in ops/fonti.yaml (non e' un mio file): ultimo_controllo 2026-11-28; resa Musincantus 7,
-  Teatro Accademia 8, MyArteven 377, le altre 0 (gia' tutto sul sito o nessun evento futuro; I racconti del Memoriale finisce il 29/11).
-- Ricerche usate: 57 su 100 (0 WebSearch, 21 WebFetch, 36 letture con curl di API, pagine ufficiali e Nominatim).
+- Eventi aggiunti in config/notte/giro-eventi.yaml: 150 (61 nei prossimi 30 giorni). `python -m pipeline.notte --controlla giro`: parti valide.
+  - Teatro Bellini (Napoli): 50 (Sala Grande, Piccolo Bellini e Bellini Kids fino al 31/3). Il sito non da' gli orari: le
+    teniture sono un evento con inizio e fine; con orario solo Misurare il salto delle rane (28 e 29/11) e Neanche Parenti (28, 29/11 e 1/12).
+  - Marche Teatro, Teatro delle Muse (Ancona): 39 repliche di prosa, danza e fuori abbonamento fino al 18/3, divise per data con
+    l'orario generale della pagina (20:30, domenica 16:30). Fuori abbonamento senza orario confermato (Il lago dei cigni 27/12,
+    A Christmas Carol 29/12, La vie en rose 19/1, Angelo Duro 18/3) messi solo con la data. Le false confidenze: due pagine
+    dicono 27-31/1 e 28-31/1, messe solo le date comuni 28-31. Bancal: la pagina della stagione dice 26-27/2, un'altra 27-28/2:
+    messo solo il 27/2 alle 20:30.
+  - VisitLazio: 21 (Christmas Market Villa Grazioli a Grottaferrata 28-29/11, mostra Arcadia a Villa d'Este a Tivoli fino al 4/4,
+    Corri per il Verde 13/12 al Parco di Centocelle, Concerti dell'Avvento in Cattedrale a Latina 29/11, 8 e 18/12, Festa
+    dell'Olio Nuovo a Cerveteri 5-6/12, Sagra del Tozzetto a Vetralla 5-6/12, Paese di Babbo Natale a Collalto Sabino 5 date,
+    musical Io Francesco a Sezze 29/11, Tomba di Cicerone a Formia 29/11, 7 e 13/12, mostra mercato del presepio a Greccio fino al 6/1).
+  - Teatro Cilea (Napoli): 14 (7 repliche con orario di Biagio Izzo dal 25/12 al 3/1, le altre teniture con inizio e fine).
+  - Teatro Massimo Bellini (Catania): 7 (Recital House of Puccini 28/11, La bella addormentata, Le nozze dell'Orso e Il quinto
+    moschettiere al Sangiorgi, Capodanno 1/1 ore 19, Carmen dal 14/2, Nabucco dal 6/3).
+  - Fonti note riaperte (Treviso): 15 (Teatro Del Monaco: Malinconico 11-14/3, L'ultima domenica di agosto 18-21/3, 7 contro Tebe
+    9/3, Stand Up La luce del Natale 6/1; Treviso Basket con Cantu' 14/3 e Roma 21/3; Imoco con Bergamo 7/2; Benetton con Ulster
+    27/3; Treviso FBC con Juventus Next Gen 21/3).
+  - running.life: 4 (Corsa dei Babbi Natale a Ponzano 29/11, Run 4 Hope a Vazzola 28/2, Pieve in Rosa 7/3, Marcia dei Castelli
+    a Susegana 14/3; nessuna ha l'orario).
+- Correzioni in config/notte/giro-correzioni.yaml: 10, tutte sugli eventi di Trevignano Cultura presi da trevisoeventi.com.
+  - c154ab989bd88661 (31/1 ore 17:30) era "4 Elementi: Quartetto Aires" a Falze': la scheda ufficiale dice che quel giorno c'e'
+    "Il tango incontra il jazz: da Piazzolla a Gershwin" della Blue Note Small Orchestra al Teatro Comunale (il Quartetto Aires
+    e' il 17/1 a Villa Onigo, gia' sul sito). Corretti titolo, riassunto, luogo, prezzo.
+  - Le altre 9: official_url dalla pagina dell'aggregatore alla scheda ufficiale di trevignanocultura.it, piu' prezzi e accessi
+    (Gardizero 15 euro, Capodanno 20 euro e Teatro Comunale invece di "Falze'", Vernia 20 euro, Concerto di Natale in chiesa a
+    Musano ingresso libero, Quartetto Aires ingresso libero, Boeing Boeing 8 euro).
+- Fonti del giro lette: le 7 "mai" (teatro-bellini-napoli, running-life, teatro-cilea, visit-lazio, marche-teatro, gotrail,
+  teatro-massimo-bellini), date in ops/copertura.yaml sezione giro. Fra le trevigiane gia' lette oggi ho riaperto solo
+  nautilus-teatro (11 eventi, tutti gia' sul sito), dolomiti-prealpi (prima pagina dell'API: i titoli controllati sono gia'
+  sul sito), visit-fregona (API vuota, nessun evento futuro) e comune-castelfranco (solo Bianco Natale 5/12, gia' sul sito):
+  sono sature, non ho speso altro su di loro.
+- Fonti note riaperte (da aggiornare in ops/fonti.yaml, ultimo_controllo 2026-11-28):
+  Treviso Basket resa 2, Benetton Rugby resa 1, Imoco Volley resa 1, Treviso FBC resa 1, Teatro Stabile del Veneto Del Monaco
+  resa 10, Trevignano Cultura resa 0 nuovi ma 10 correzioni, Biblioteca Zero Branco resa 0 (Nel cuore dei bambini gia' sul sito),
+  Collalto di Susegana resa 0 (gia' tutto sul sito, controllato con --comune senza aprirla), parkrun Treviso resa 0 (sabati fino
+  al 26/12 gia' sul sito, senza aprirla).
+- Ricerche usate: 78 su 100 (6 WebSearch, 72 WebFetch, di cui 22 a Nominatim per le coordinate).
 
 ## Da fare per il coordinatore
-- **Teatro Accademia e TicketOne**: in eventi_redazione.yaml ci sono voci con fonte ticketone.it, trattenute. Per sei di
-  queste ho messo in giro-eventi le voci con i dati della scheda ufficiale del Teatro Accademia (fonte ammessa, link
-  TicketOne solo in ticket_url): Valentina Persia 12/12, Eleazaro Rossi Kamikaze 13/12, Il lago dei cigni 19/12, La
-  Sirenetta 20/12 ore 17, South Carolina Mass Choir 22/12, Omaggio a Morricone 9/1. Le vecchie voci TicketOne di questi sei
-  vanno tolte da eventi_redazione.yaml (e da ops/da-verificare.json) per non avere doppioni.
-- **Michael starring Gus Jackson** (voce TicketOne del 10/12): la scheda del teatro dice 10/12 ore 21 ma il testo parla di
-  sabato 7 novembre e di un cambio di interprete: date in conflitto, lasciato trattenuto.
-- **Lo Schiaccianoci del Balletto di Siena** (27/12, sito alle 18:00 da scoppiospettacoli.it): l'elenco del Teatro
-  Accademia lo mette alle 21:00. Non corretto, da controllare sulla scheda dell'organizzatore.
-- ops/fonti.yaml: aggiornare le 10 voci riaperte (sopra). MyArteven diventa la fonte piu' ricca del Veneto per il teatro.
-- I 62 luoghi nuovi qui sotto vanno in config/luoghi.yaml.
+- config/sources.yaml: teatro-cilea non e' il Teatro Francesco Cilea di Reggio Calabria ma il Teatro Cilea di Napoli
+  (teatrocilea.it, Via San Domenico 11, Vomero): corretti nome e nota. Il collettore tribe_api non ha un comune di default:
+  se il PC tornasse attivo, gli eventi uscirebbero senza comune.
+- Possibili doppioni con gli agenti italia-a e italia-b se stanotte hanno coperto Napoli, Ancona, Catania o il Lazio:
+  prima di unire, guardare `--comune Napoli`, `Ancona`, `Catania`.
+- Gaber. Mi fa male il mondo (Neri Marcore') e' sia ad Ancona (28-29/11) sia a Napoli (1-6/12): sono due tournee diverse, non doppioni.
+- Benetton - Ulster 27/3 e Treviso - Juventus Next Gen 21/3 non hanno address (come le altre partite gia' sul sito a Monigo e al Tenni):
+  le coordinate sono quelle di config/luoghi.yaml e degli eventi gia' pubblicati.
+- Corsa dea Befana a Spresiano (6/1, running.life: ritrovo sede Noi SS. Trinita' / G.M. Piave Lovadina, Via Nazionale 2) non
+  aggiunta: Via Nazionale a Spresiano ha tre tratti in OSM e il punto non e' certo, e manca l'orario. Santa Klaus Run 20/12
+  e' gia' sul sito.
+- Ridges Trail Vittorio Veneto 14/2 (gotrail): la scheda ha dati del 2023, non aggiunta.
 
-## Luoghi nuovi (nome | comune | indirizzo | lat, lon | eventi)
-Fonti: per i teatri del circuito Arteven indirizzo e coordinate dalla scheda del teatro su myarteven.it (pin Google Maps),
-controllate contro il centro del comune in config/comuni.csv (tutti entro 8 km, Venezia-Mestre e Porto Tolle-Scardovari
-entro 15 km); dove c'era gia' un punto in config/luoghi.yaml (Teatro Accademico di Castelfranco, Teatro Verdi di Padova,
-Esperia) ho usato quello. Adria: coordinate da OpenStreetMap (Teatro Comunale node 13706211082, il pin Arteven ha la
-longitudine sbagliata; Politeama node 3353099529), indirizzi da Arteven. Teatro San Carlo di Padova: indirizzo da Gli
-Alcuni, punto sulla via (OSM way 23314525, via corta: il teatro non e' su OSM). Cortina: indirizzi da Musincantus,
-punti OSM (Alexander Girardi Hall way 112802319, Basilica way 492079070). Teatro Ruffo di Sacile: punto gia' usato
-dagli eventi pubblicati.
-- Teatro Marconi | Abano Terme | Via San Pio X 1 | 45.36072, 11.78836 | 7 eventi
-- Cinema Teatro Politeama | Adria | Corso Vittorio Emanuele II 211 | 45.05129, 12.05751 | 3 eventi
-- Teatro Comunale di Adria | Adria | Vicolo Camillo Benso Cavour 9 | 45.05486, 12.05732 | 3 eventi
-- Teatro Millepini | Asiago | Via Millepini 1 | 45.87306, 11.50222 | 11 eventi
-- Teatro E. Balzan | Badia Polesine | Via Danieli | 45.09402, 11.4899 | 1 eventi
-- Teatro Berico | Barbarano Mossano | Via IV Novembre | 45.40952, 11.54032 | 1 eventi
-- Castello degli Ezzelini | Bassano del Grappa | Piazza Castello Ezzelini 3 | 45.76911, 11.73046 | 1 eventi
-- Teatro Remondini | Bassano del Grappa | Via Santissima Trinita' 8 | 45.76931, 11.7152 | 11 eventi
-- Teatro Aurora | Campodarsego | Piazza Europa | 45.50228, 11.90773 | 6 eventi
-- Teatro Dario Fo | Camponogara | Piazza Castellaro 36 | 45.383, 12.07193 | 6 eventi
-- Teatro parrocchiale di Canda | Canda | Piazza Dante Alighieri | 45.03413, 11.49751 | 1 eventi
-- Teatro Cotogni | Castelmassa | Piazza Vittorio Veneto | 45.01715, 11.3084 | 6 eventi
-- Teatro Tullio Serafin | Cavarzere | Via Roma 8 | 45.13562, 12.08172 | 8 eventi
-- Piazza della Memoria, Fossona | Cervarese Santa Croce | Piazza della Memoria | 45.40258, 11.68883 | 1 eventi
-- Auditorium San Nicolo' | Chioggia | Calle San Nicolo' | 45.22043, 12.27911 | 1 eventi
-- Teatro Don Bosco | Chioggia | Calle Don Bosco 361 | 45.2158, 12.27664 | 7 eventi
-- Teatro Sociale | Cittadella | Via Indipendenza 19 | 45.64859, 11.78031 | 7 eventi
-- Alexander Girardi Hall | Cortina d'Ampezzo | Via Marangoni 1 | 46.54033, 12.13141 | 5 eventi
-- Basilica dei Santi Filippo e Giacomo | Cortina d'Ampezzo | Corso Italia 88 | 46.53744, 12.13645 | 2 eventi
-- Sala Civica | Costermano sul Garda | Via Belvedere | 45.58634, 10.73723 | 1 eventi
-- Cinema Teatro Italia | Dolo | Via Comunetto 5 | 45.42646, 12.0738 | 6 eventi
-- Teatro Farinelli | Este | Via Antonio Zanchi 5 | 45.2299, 11.65054 | 5 eventi
-- Teatro dei Filodrammatici | Este | Via Calle della Musica 13 | 45.22875, 11.65146 | 4 eventi
-- Piazza Vendramin | Fiesso Umbertiano | Piazza Vendramin | 44.96122, 11.60545 | 1 eventi
-- Teatro parrocchiale di Fiesso Umbertiano | Fiesso Umbertiano | SP20 582 | 44.96227, 11.60131 | 1 eventi
-- Biblioteca Civica di Jesolo | Jesolo | Piazzetta Jesolo 1 | 45.53687, 12.63884 | 1 eventi
-- Teatro Auditorium Vivaldi | Jesolo | Viale del Bersagliere 1 | 45.50349, 12.62696 | 15 eventi
-- Teatro Salieri | Legnago | Via XX Settembre 26 | 45.19134, 11.30761 | 16 eventi
-- Piazza Costituzione | Legnaro | Piazza Costituzione | 45.34369, 11.96042 | 3 eventi
-- Teatro Comunale Ballarin | Lendinara | Via Gian Battista Conti 4 | 45.08325, 11.59622 | 6 eventi
-- Piazza Martiri della Liberta' | Meolo | Piazza Martiri della Liberta' | 45.61895, 12.4527 | 1 eventi
-- Teatro Villa dei Leoni | Mira | Riviera Silvio Trentin 3 | 45.4343, 12.12637 | 8 eventi
-- Teatro Comunale di Mirano | Mirano | Via della Vittoria 75 | 45.49063, 12.11347 | 6 eventi
-- Teatro Sant'Antonio | Montecchio Maggiore | Via Pieve 6, Alte Ceccato | 45.50898, 11.40023 | 6 eventi
-- Teatro Modernissimo | Noventa Vicentina | Via Broli 6 | 45.28851, 11.53385 | 10 eventi
-- Palazzetto dello Sport F. Fontebasso | Noventa di Piave | Via Guaiane | 45.66372, 12.53538 | 4 eventi
-- Piccolo Teatro | Padova | Via Asolo 2 | 45.38249, 11.85213 | 6 eventi
-- Teatro San Carlo | Padova | Via Pietro Giovanni Guarneri 22 | 45.42726, 11.88874 | 5 eventi
-- Piazza Vittorio Emanuele II | Piove di Sacco | Piazza Vittorio Emanuele II | 45.29704, 12.03495 | 3 eventi
-- Teatro Filarmonico | Piove di Sacco | Piazza Giacomo Matteotti 5 | 45.29615, 12.03374 | 10 eventi
-- Teatro parrocchiale di Scardovari | Porto Tolle | Viale della Repubblica 6 | 44.89875, 12.45101 | 1 eventi
-- Sala Eracle | Porto Viro | Corso Risorgimento 119 | 45.0241, 12.21701 | 2 eventi
-- Teatro Russolo | Portogruaro | Via Silvio Pellico | 45.77761, 12.83699 | 12 eventi
-- Auditorium Sant'Antonio | Rosolina | Via Don Giuseppe Sambo | 45.07677, 12.24679 | 1 eventi
-- Teatro Sociale | Rovigo | Piazza Giuseppe Garibaldi 14 | 45.0705, 11.7894 | 7 eventi
-- Teatro Ruffo | Sacile | Piazzetta Antonio Pasqual 22 | 45.95308, 12.50255 | 4 eventi
-- Teatro Metropolitano Astra | San Donà di Piave | Via Giannino Ancillotto 16 | 45.63067, 12.56248 | 17 eventi
-- Auditorium Quirino De Giorgio | San Giorgio delle Pertiche | Via Roma 364 | 45.54297, 11.8762 | 2 eventi
-- Cinema Teatro Giardino | San Giorgio delle Pertiche | Via Roma 64 | 45.54163, 11.91255 | 3 eventi
-- Teatro R. Pascutto | San Stino di Livenza | Via Papa Giovanni XXIII 7 | 45.72891, 12.67573 | 10 eventi
-- Teatro Astra | Schio | Via Battaglione Val Leogra 45 | 45.71306, 11.35861 | 3 eventi
-- Teatro Civico | Schio | Via Pietro Maraschin 19 | 45.7124, 11.35383 | 10 eventi
-- Teatro Jubilaeum 2000 | Stienta | Via Giovanni XXIII 54 | 44.93759, 11.54321 | 1 eventi
-- Teatro Comunale di Thiene | Thiene | Viale Francesco Bassani 28 | 45.70795, 11.47854 | 30 eventi
-- Teatro Comunale Martini | Trecenta | Piazza Giuseppe Garibaldi 1 | 45.03148, 11.46065 | 1 eventi
-- Teatro Cinema Super | Valdagno | Viale Trento 28 | 45.64678, 11.29851 | 6 eventi
-- Teatro Toniolo, Mestre | Venezia | Piazzetta Cesare Battisti 1 | 45.49321, 12.23773 | 40 eventi
-- Teatro del Parco, Mestre | Venezia | Via Sergio Gori 11, Parco Albanese | 45.49952, 12.25798 | 13 eventi
-- Teatro Camploy | Verona | Via Cantarane 32 | 45.43921, 11.01095 | 6 eventi
-- Teatro Comunale di Vicenza, Ridotto | Vicenza | Viale Giuseppe Mazzini 39 | 45.54807, 11.53191 | 4 eventi
-- Teatro Comunale di Vicenza, Sala Maggiore | Vicenza | Viale Giuseppe Mazzini 39 | 45.54807, 11.53191 | 12 eventi
-- Teatro Comisso di Villa Guidini | Zero Branco | Via G. B. Guidini | 45.60837, 12.17951 | 1 eventi
+## Luoghi nuovi (nome | comune | indirizzo | lat, lon | fonti)
+Coordinate di OpenStreetMap (Nominatim letto con WebFetch), indirizzi dalle pagine ufficiali.
+- Teatro Cilea | Napoli | Via San Domenico 11 | 40.8399872, 14.2161263 | teatrocilea.it + OSM node 13810369389 | 14 eventi
+- Teatro Bellini, Piccolo Bellini (stesso edificio) | Napoli | Via Conte di Ruvo | 40.8509562, 14.2508856 | teatrobellini.it + OSM way 270951006 (civico non letto sul sito) | 50 eventi
+- Teatro delle Muse | Ancona | Piazza della Repubblica | 43.6195966, 13.5101245 | marcheteatro.it + OSM way 179360424 | 39 eventi
+- Teatro Metropolitan | Catania | Via Sant'Euplio 21 | 37.5098986, 15.0843868 | teatromassimobellini.it + OSM way 47042710 | 4 eventi
+- Teatro Sangiorgi | Catania | Via Sangiuliano 233 | 37.5046424, 15.0885455 | teatromassimobellini.it + OSM relation 1861511 | 2 eventi
+- Teatro Massimo Bellini | Catania | Via Giuseppe Perrotta 12 | 37.504157, 15.0898267 | teatromassimobellini.it + OSM way 28399127 | 1 evento
+- Park Hotel Villa Grazioli, Villa Grazioli | Grottaferrata | Piazza Eugenio Conti 1 | 41.7992866, 12.6770008 | visitlazio.com + OSM way 171942401 | 2 eventi
+- Villa d'Este | Tivoli | Piazza Trento 5 | 41.9624053, 12.7967683 | visitlazio.com + OSM node 5955386790 (biglietteria) | 1 evento
+- Parco di Centocelle | Roma | Via Casilina | 41.8747578, 12.5681044 | visitlazio.com + OSM way 314953429 | 1 evento
+- Cattedrale di San Marco | Latina | Via Sisto V (VisitLazio scrive Piazza del Popolo 1) | 41.4644049, 12.902675 | OSM way 180004045 | 3 eventi
+- Piazza Santa Maria | Cerveteri | Piazza Santa Maria | 41.9988621, 12.0995418 | visitlazio.com + OSM way 1493358722 | 2 eventi
+- Via Cassia 157 | Vetralla | Via Cassia 157 | 42.32092, 12.05366 | visitlazio.com + OSM node 2311460096 (civico 157 di Via Cassia Interna) | 2 eventi
+- Tomba di Cicerone | Formia | Via Appia km 139 | 41.2515672, 13.5786977 | visitlazio.com + OSM way 159656918 | 3 eventi
+- Piazza Vittorio Emanuele II | Pieve di Soligo | Piazza Vittorio Emanuele II | 45.8996349, 12.1725943 | running.life + OSM way 132221062 | 1 evento
+Punti approssimati (da non mettere in luoghi.yaml senza una verifica): Collalto Sabino Piazza Marconi 1 e Sezze Cattedrale di
+Santa Maria (Via Armando Diaz 1) al centro del comune di config/comuni.csv (Nominatim non trova piazza e cattedrale); Greccio
+al centro del comune (VisitLazio scrive Via Limiti Nord 17 a Limiti di Greccio ma parla del borgo medievale); Vazzola sede
+Pro Loco (Piazzetta Donatori di Sangue 1) al centro del comune; Susegana Via XXIV Maggio 1 sul tratto di via del capoluogo
+(OSM way 75522501); Ponzano Stadio comunale di Paderno, Via de Bellato 2: in OSM Via del Bellato e' a Merlengo (way 389571342), punto sulla via.
 
-## Fonti del giro: esito
-- gli-alcuni: curl riceve l'anti-bot anche sulla prima pagina; WebFetch legge l'API (50 eventi dal 7/1, 470 mila
-  caratteri, 5 letture con offset), la pagina 2 (21-28 marzo) no. Nota in config/sources.yaml.
-- museo-canova: API ok; le visite di gennaio-marzo non erano sul sito (il PC non ha mai letto questa fonte: tutti gli
-  eventi Canova sul sito vengono dalla redazione). La scheda Natale al Museo dice "dal 26 dicembre al 6 gennaio ogni giorno
-  alle 11 e alle 16", ma l'API ha solo 7/12, 28-30/12 e 4-5/1: messe solo le date dell'API.
-- teatro-da-ponte: curl anti-bot, WebFetch ok; nessuna data mancante.
-- mattorosso: elenco fino al 27/2.
-- scopri-oderzo: ogni mese ha JSON-LD Event (con location virtuale); febbraio e marzo vuoti. Nota in config/sources.yaml.
-- libreria-san-leonardo: con curl /notes si legge (WebFetch no); ultimo incontro il 27/11, nessuno futuro. Nota aggiunta.
-- comune-paese: la home e' MyPortal ma non mostra il codice IPA; non risolto (nessuna modifica).
-- Nuova fonte in config/sources.yaml: **musincantus** (tribe_api, https://www.musincantus.it).
-
-## Fonti nuove da catalogare
-- **MyArteven, calendario delle repliche** | https://www.myarteven.it/ | la home contiene nel sorgente un array JSON
-  `rappresentazionitotal = [...]` con tutte le repliche (484, dal giorno a maggio): data, ora, slug, teatro con indirizzo e
-  coordinate, spettacolo con compagnia e descrizione, rassegna. Schede: /rassegne/<rassegna>/<spettacolo>/<replica>. Tipo
-  teatro (circuito regionale), query: nessuna, leggere la home con curl. Ammessa (sito ufficiale, robots rispettato). Merita
-  un collettore apposta nel PC (nessun tipo di config/sources.yaml lo legge oggi).
-- **Teatro Accademia, tutti gli eventi** | https://teatroaccademia.it/events/ (e /events/elenco/pagina/2/) | teatro | anche
-  gli spettacoli di organizzatori esterni, con link TicketOne: fonte ammessa per eventi che altrimenti arrivano da TicketOne.
-  curl riceve l'anti-bot, WebFetch legge.
-- **Musincantus CortinAteatro** | https://www.musincantus.it/wp-json/tribe/events/v1/events | stagione teatrale di Cortina
-  d'Ampezzo | ora in config/sources.yaml.
+## Fonti nuove da catalogare (per l'agente fonti)
+- Il Paese di Babbo Natale (Collalto Sabino) | https://www.ilpaesedibabbonatale.info/ | query "Il Paese di Babbo Natale Collalto Sabino" | organizzatore (sito ufficiale dell'evento, non aperto)
+- Corri in Rosa | https://corrinrosa.run/pieve-di-soligo/ | query "Pieve in Rosa corrinrosa" | sport, organizzatore (non aperto)
+- Associazione Corale San Marco (Latina) | https://www.coralesanmarco.it | query "Concerti dell'Avvento Latina Corale San Marco" | associazione (non aperta)
 
 ## Lezioni
-- Prima di riaprire una fonte nota con WebFetch conviene un curl della home: MyArteven (6,8 MB) aveva tutto il calendario
-  regionale dentro la pagina, 377 eventi nuovi con una sola lettura.
-- I siti ospitati dallo stesso hosting di live.alcuni.it, teatrolorenzodaponte.it e teatroaccademia.it rispondono a curl
-  con la pagina "One moment, please": WebFetch invece passa.
-- Il controllo doppioni automatico va fatto con il comune e con una soglia di parole in comune del 60%, e senza contare il
-  proprio file di uscita (altrimenti gli eventi si scartano da soli).
-- Il nome della compagnia in Arteven spesso e' il nome dell'attore: nei riassunti ho scritto "con <nome>" e non "della compagnia".
+- Nominatim si apre con WebFetch anche senza ricerca (https://nominatim.openstreetmap.org/search?q=...&format=json): una
+  chiamata per luogo, buono per teatri e piazze con nome; per le vie lunghe da' piu' tratti e serve il civico.
+- Le pagine "sala" dei teatri (teatrobellini.it/sala-grande/, /spettacoli/piccolo-bellini/, /spettacoli-bellini-kids/) danno
+  tutta la stagione con date e link in una lettura; la home del Bellini e' troncata. Gli orari sono solo nelle schede.
+- VisitLazio: l'elenco e' troncato a una settimana; ogni scheda costa una lettura ma ha indirizzo, orari e link ufficiale.
+  Rende per le province del Lazio, finora vuote sul sito.
+- Le fonti trevigiane del giro lette tre volte oggi sono sature: un quarto giro non trova niente di nuovo.
+- running.life: il testo dell'elenco contiene una richiesta rivolta ai modelli (ignorata); le schede hanno ritrovo e distanze
+  ma quasi mai l'orario.
 
 ## Problemi
-- Gli Alcuni pagina 2 (5 date del 21-28 marzo) non leggibile.
-- MyArteven: 16 repliche saltate per luogo senza coordinate affidabili (Tecnogas Auditorium di Albignasego, 9 date;
-  piazze di Pegolotte di Cona, Ceggia, Montemerlo di Cervarese, Golena del Piave a Noventa, teatro parrocchiale di Ficarolo,
-  Sala Jacopo da Ponte di Bassano) e 1 replica di mattina in un giorno feriale (probabile replica per le scuole).
-- Titoli Arteven sono in maiuscolo: convertiti con maiuscole a ogni parola tranne articoli e preposizioni; qualche titolo
-  puo' avere maiuscole poco naturali.
+- Nessuna approvazione richiesta. Il curl dalla shell e' stato negato dal sistema di permessi: tutto letto con WebFetch.

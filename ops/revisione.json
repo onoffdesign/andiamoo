@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T20:07+01:00",
+ "generato": "2026-11-28T20:09+01:00",
  "eventi": [
   {
    "uid": "4d5cf01bcdc28c8e",
@@ -564,6 +564,28 @@
    "precisione": "address"
   },
   {
+   "uid": "4a04af1dcedc3b16",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Arcadia. Frammenti di paesaggio",
+   "inizio": "2026-11-28",
+   "fine": "2027-04-04",
+   "luogo": "Villa d'Este",
+   "indirizzo": "Piazza Trento 5",
+   "comune": "Tivoli",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "visitlazio.com",
+   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/arcadia-frammenti-di-paesaggio-a-tivoli/",
+   "sito_ufficiale": "https://www.visitlazio.com/eventi-lazio/arcadia-frammenti-di-paesaggio-a-tivoli/",
+   "riassunto": "Mostra fotografica di Paola De Pietri, Francesco Galli ed Erola Arcalís sul rapporto tra uomo e natura; inaugurazione libera il 28 novembre alle 11:30, poi inclusa nel biglietto di Villa d'Este.",
+   "lat": 41.9624053,
+   "lon": 12.7967683,
+   "precisione": "address"
+  },
+  {
    "uid": "9aabe2d0cf699ef8",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -782,6 +804,28 @@
    "riassunto": "Spettacolo di musica e narrazione dedicato alla fiaba di Cenerentola, nel programma del Sondrio Festival.",
    "lat": 46.17055,
    "lon": 9.86937,
+   "precisione": "address"
+  },
+  {
+   "uid": "50ab4cb3af2b8208",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Io Francesco, musical sul Santo",
+   "inizio": "2026-11-29T17:30",
+   "fine": "2026-11-29T19:30",
+   "luogo": "Cattedrale di Santa Maria",
+   "indirizzo": "Via Armando Diaz 1",
+   "comune": "Sezze",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visitlazio.com",
+   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/io-francesco-a-sezze-il-musical-sul-santo/",
+   "sito_ufficiale": "https://www.visitlazio.com/eventi-lazio/io-francesco-a-sezze-il-musical-sul-santo/",
+   "riassunto": "Musical su San Francesco dell'Associazione Passione di Cristo, con la regia di Piero Formicuccia.",
+   "lat": 41.49794,
+   "lon": 13.05877,
    "precisione": "address"
   },
   {
@@ -1292,51 +1336,6 @@
    "lat": 44.22269,
    "lon": 12.04069,
    "precisione": "town"
-  },
-  {
-   "uid": "f942f63c344c092d",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "20a Mostra del Radicchio Rosso di Treviso IGP",
-   "inizio": "2026-12-03",
-   "fine": "2026-12-08",
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Quinto di Treviso",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "fioridinverno.tv",
-   "pagina_fonte": "https://www.fioridinverno.tv/ (letta il 2026-11-28)",
-   "sito_ufficiale": "https://www.fioridinverno.tv/eventi/colori-sapori-di-primavera-quinto/",
-   "riassunto": "Festa dedicata al radicchio trevigiano nell'ambito della rassegna Fiori d'Inverno 2026-2027 promossa da UNPLI Treviso con le Pro Loco e il Consorzio di Tutela.",
-   "lat": 45.646,
-   "lon": 12.16602,
-   "precisione": "town"
-  },
-  {
-   "uid": "87b47d2d94716cbc",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Back to Hawkins, Stranger Things Tribute",
-   "inizio": "2026-12-03T21:00",
-   "fine": null,
-   "luogo": "Teatro Celebrazioni",
-   "indirizzo": "Via Saragozza 234",
-   "comune": "Bologna",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/back-to-hawkins-stranger-things-tribute",
-   "riassunto": "Spettacolo musicale ispirato alla serie Stranger Things.",
-   "lat": 44.48954,
-   "lon": 11.312546,
-   "precisione": "address"
   }
  ]
 }

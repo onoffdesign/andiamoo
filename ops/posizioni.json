@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:07+01:00",
+ "generato": "2026-11-28T20:09+01:00",
  "riepilogo": {
-  "eventi_controllati": 2212,
+  "eventi_controllati": 2361,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 62,
+  "lontani_dal_comune": 63,
   "solo_comune_con_luogo": 130,
   "solo_comune_senza_luogo": 27,
-  "candidati_luoghi_noti": 0
+  "candidati_luoghi_noti": 6
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -101,6 +101,15 @@
    "eventi": 1,
    "uid": [
     "e95a1b3e74962be2"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Parco di Centocelle, Via Casilina, Roma",
+   "km_dal_centro": 7,
+   "eventi": 1,
+   "uid": [
+    "a1a6ba6327b81017"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -492,5 +501,60 @@
    "lon": 12.03594
   }
  ],
- "candidati_luoghi": []
+ "candidati_luoghi": [
+  {
+   "nomi": [
+    "Teatro Bellini"
+   ],
+   "comune": "Napoli",
+   "lat": 40.85096,
+   "lon": 14.25089,
+   "eventi": 26
+  },
+  {
+   "nomi": [
+    "Piccolo Bellini"
+   ],
+   "comune": "Napoli",
+   "lat": 40.85096,
+   "lon": 14.25089,
+   "eventi": 24
+  },
+  {
+   "nomi": [
+    "Teatro Cilea"
+   ],
+   "comune": "Napoli",
+   "lat": 40.83999,
+   "lon": 14.21613,
+   "eventi": 14
+  },
+  {
+   "nomi": [
+    "Teatro Metropolitan"
+   ],
+   "comune": "Catania",
+   "lat": 37.5099,
+   "lon": 15.08439,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Cattedrale di San Marco"
+   ],
+   "comune": "Latina",
+   "lat": 41.4644,
+   "lon": 12.90268,
+   "eventi": 3
+  },
+  {
+   "nomi": [
+    "Tomba di Cicerone"
+   ],
+   "comune": "Formia",
+   "lat": 41.25157,
+   "lon": 13.5787,
+   "eventi": 3
+  }
+ ]
 }

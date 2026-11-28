@@ -1350,11 +1350,6 @@ correggi:
     official_url: https://teatroaccademia.it/event/uno-nessuno-centomila/
     nota: 'calendario del Teatro Accademia: martedi'' 9/2 ore 21; scheda dello spettacolo'
     verificato: '2026-11-28'
-  4d45272078d3abc0:
-    lat: 45.74185
-    lon: 12.09054
-    nota: 'stesso punto degli altri 9 eventi del Teatro comunale di Trevignano (Via Puccini 1, Falze'') in config/luoghi.yaml: l''evento aveva un punto suo a 450 m'
-    verificato: '2026-11-28'
   521981068923ec69:
     lat: 45.95006
     lon: 12.41434
@@ -1583,6 +1578,73 @@ correggi:
     price: 15 euro, ridotto 5 euro, prenotazione dell'orario obbligatoria
     nota: Prezzi dalla scheda di turismotorino.org letta il 2026-11-28; punto delle OGR ora in config/luoghi.yaml
     verificato: 2026-11-28
+  c154ab989bd88661:
+    title: 'Il tango incontra il jazz: da Piazzolla a Gershwin'
+    summary: Concerto della Blue Note Small Orchestra con musiche da Astor Piazzolla a George Gershwin.
+    access: biglietto
+    price: 8 euro, con prenotazione
+    venue: Teatro Comunale di Trevignano
+    address: Via Puccini 1, Falze'
+    lat: 45.74185
+    lon: 12.09054
+    official_url: https://trevignanocultura.it/events/il-tango-incontra-il-jazz-da-piazzolla-a-gershwin/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: il 31/1 alle 17:30 c''e'' Il tango incontra il jazz della Blue Note Small Orchestra al Teatro Comunale, non il Quartetto Aires (che suona il 17/1 a Villa Onigo, gia'' sul sito)'
+    verificato: '2026-11-28'
+  d323fe72456e5078:
+    access: biglietto
+    price: 15 euro, con prenotazione
+    official_url: https://trevignanocultura.it/events/gardizero/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: 15 euro con prenotazione'
+    verificato: '2026-11-28'
+  387db65f01f3a06f:
+    venue: Chiesa parrocchiale di Musano
+    address: Via Chiesa 1, Musano
+    access: libero
+    official_url: https://trevignanocultura.it/events/concerto-di-natale-2/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: Chiesa parrocchiale di Musano, Via Chiesa 1, ingresso libero'
+    verificato: '2026-11-28'
+  16550e702abd4e3c:
+    title: 'Concerto di Capodanno: La grande musica italiana'
+    access: biglietto
+    price: 20 euro, con prenotazione
+    venue: Teatro Comunale di Trevignano
+    address: Via Puccini 1, Falze'
+    lat: 45.74185
+    lon: 12.09054
+    official_url: https://trevignanocultura.it/events/concerto-di-capodanno-la-grande-musica-italiana/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: Teatro Comunale, Via Puccini 1, 20 euro con prenotazione'
+    verificato: '2026-11-28'
+  0e28e0b9006e5f17:
+    official_url: https://trevignanocultura.it/events/pene-damor-perdute/
+    nota: scheda ufficiale di Trevignano Cultura letta il 2026-11-28
+    verificato: '2026-11-28'
+  034728c469386bf3:
+    access: libero
+    official_url: https://trevignanocultura.it/events/4-elementi/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: ingresso libero'
+    verificato: '2026-11-28'
+  4dae7a8bdc650e22:
+    official_url: https://trevignanocultura.it/events/di-male-in-meglio/
+    nota: scheda ufficiale di Trevignano Cultura letta il 2026-11-28
+    verificato: '2026-11-28'
+  46d461f32628e360:
+    access: biglietto
+    price: 20 euro, con prenotazione
+    official_url: https://trevignanocultura.it/events/giovanni-vernia-show/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: 20 euro con prenotazione'
+    verificato: '2026-11-28'
+  3576e13e856c9ed5:
+    address: Via Mazzarolo 5
+    official_url: https://trevignanocultura.it/events/de-andre-piccole-storie-per-grandi-canzoni/
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: Villa Onigo, Via Monsignor Floriano Mazzarolo 5'
+    verificato: '2026-11-28'
+  4d45272078d3abc0:
+    lat: 45.74185
+    lon: 12.09054
+    nota: 'scheda ufficiale di Trevignano Cultura letta il 2026-11-28: 8 euro'
+    verificato: '2026-11-28'
+    price: 8 euro
+    official_url: https://trevignanocultura.it/events/boeing-boeing-lamore-vola-e-va/
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
