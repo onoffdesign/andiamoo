@@ -1050,6 +1050,113 @@ eventi:
   summary: Spettacolo della compagnia giovane del coreografo Hofesh Shechter.
   fonte: https://www.teatroponchielli.it/
   trovato: '2026-11-28'
+- title: Mercatino di Natale in piazza del Comune
+  start: 2026-11-28T10:00
+  end: '2027-01-06'
+  venue: Piazza del Comune
+  address: Piazza del Comune
+  town: Cremona
+  lat: 45.1334
+  lon: 10.0246
+  category: mercatini-fiere
+  subcategory: artigianato
+  official_url: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  summary: Primo mercatino natalizio in piazza del Comune, aperto dal giovedi' alla domenica dalle 10 alle 20 e tutti i giorni dal 7 al 13 dicembre e dal
+    26 dicembre al 6 gennaio.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
+- title: Villaggio di Babbo Natale nel Cortile Federico II
+  start: 2026-11-28T15:30
+  end: '2027-01-06'
+  venue: Cortile Federico II
+  address: Piazza del Comune
+  town: Cremona
+  category: famiglie-bambini
+  subcategory: laboratori
+  official_url: libero
+  summary: Animazioni e laboratori gratuiti per bambini dal giovedi' alla domenica dalle 15:30 alle 19, nel programma Cremona che incanta.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
+- title: Winter Park ai Giardini di piazza Roma
+  start: 2026-11-28T15:00
+  end: '2027-01-06'
+  venue: Giardini di Piazza Roma
+  address: Piazza Roma
+  town: Cremona
+  category: famiglie-bambini
+  subcategory: laboratori
+  official_url: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  summary: Area giochi invernale per bambini nei giardini di piazza Roma, aperta tutti i giorni durante le feste.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
+- title: Tutto il fascino dell'Arpa
+  start: '2026-12-05'
+  venue: Auditorium Giovanni Arvedi, Museo del Violino
+  address: Piazza Marconi 5
+  town: Cremona
+  category: musica
+  subcategory: jazz-classica
+  official_url: https://www.turismocremona.it/it/evento/tutto-il-fascino-dellarpa
+  summary: Concerto dedicato all'arpa all'Auditorium Arvedi del Museo del Violino.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
+- title: Il canto degli archi
+  start: '2026-12-11'
+  venue: Auditorium Giovanni Arvedi, Museo del Violino
+  address: Piazza Marconi 5
+  town: Cremona
+  category: musica
+  subcategory: jazz-classica
+  official_url: https://www.turismocremona.it/it/evento/il-canto-degli-archi
+  summary: Concerto per archi all'Auditorium Arvedi del Museo del Violino.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
+- title: 'Cremona Violin Week: Un''altra classica'
+  start: '2026-12-12'
+  venue: Auditorium Giovanni Arvedi, Museo del Violino
+  address: Piazza Marconi 5
+  town: Cremona
+  category: musica
+  subcategory: jazz-classica
+  official_url: https://www.turismocremona.it/it/evento/cremona-violin-week-unaltra-classica
+  summary: Concerto della Cremona Violin Week all'Auditorium Arvedi.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
+- title: Stradivari Memorialday
+  start: '2026-12-18'
+  venue: Auditorium Giovanni Arvedi, Museo del Violino
+  address: Piazza Marconi 5
+  town: Cremona
+  category: musica
+  subcategory: jazz-classica
+  official_url: https://www.turismocremona.it/it/evento/stradivari-memorialday-2
+  summary: Giornata in ricordo di Antonio Stradivari, morto il 18 dicembre 1737, al Museo del Violino.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
+- title: La Notte ancora piu' lunga, Capodanno in piazza Stradivari
+  start: 2026-12-31T21:30
+  end: 2027-01-01T01:00
+  venue: Piazza Stradivari
+  address: Piazza Stradivari
+  town: Cremona
+  category: musica
+  subcategory: dj-set
+  official_url: libero
+  summary: Festa di fine anno gratuita con dj set e brindisi di mezzanotte.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
+- title: Apres Ski in citta' per il primo dell'anno
+  start: 2027-01-01T18:30
+  end: 2027-01-01T23:00
+  venue: Piazza Stradivari
+  address: Piazza Stradivari
+  town: Cremona
+  category: musica
+  subcategory: aperitivo
+  official_url: libero
+  summary: Serata del primo gennaio con dj set, karaoke e aperitivo in piazza Stradivari.
+  fonte: https://www.turismocremona.it/it/evento/natale-cremona-2026
+  trovato: '2026-11-28'
 - title: Bancàl, Virginia Raffaele
   start: 2026-11-28T21:00
   venue: Teatro Diego Fabbri
@@ -1086,8 +1193,9 @@ eventi:
   lon: 12.0447
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
+  access: libero
   official_url: https://accademiaperduta.it/teatro-diego-fabbri-forli/pinocchio-un-bambino-come-tutti-gli-altri/
-  summary: Spettacolo per famiglie della Factory Compagnia Transadriatica ispirato a Pinocchio.
+  summary: Spettacolo per famiglie della Factory Compagnia Transadriatica di Tonio De Nitto ispirato a Pinocchio, a ingresso gratuito.
   fonte: https://accademiaperduta.it/teatro-diego-fabbri-forli/
   trovato: '2026-11-28'
 - title: Il Presidente, con Filippo Nigro
@@ -1164,8 +1272,9 @@ eventi:
   lon: 12.0447
   category: famiglie-bambini
   subcategory: spettacoli-bimbi
+  access: libero
   official_url: https://accademiaperduta.it/teatro-diego-fabbri-forli/enrichetta-dal-ciuffo/
-  summary: Fiaba teatrale per bambini e famiglie della compagnia Teatro Perdavvero.
+  summary: Fiaba teatrale per bambini e famiglie della compagnia Teatro Perdavvero, a ingresso gratuito.
   fonte: https://accademiaperduta.it/teatro-diego-fabbri-forli/
   trovato: '2026-11-28'
 - title: Le volpi
@@ -1341,6 +1450,365 @@ eventi:
   official_url: https://accademiaperduta.it/teatro-diego-fabbri-forli/botanica-season-2/
   summary: Spettacolo di danza e illusione della compagnia statunitense Momix.
   fonte: https://accademiaperduta.it/teatro-diego-fabbri-forli/
+  trovato: '2026-11-28'
+- title: Inaugurazione dei Giardini di Luce con il gospel Surprise Christmas
+  start: 2026-11-28T17:00
+  venue: Giardini Pubblici
+  address: Piazzale della Vittoria
+  town: Forlì
+  category: sagre-feste
+  subcategory: ricorrenze
+  official_url: https://forlichebrillaofficial.it/
+  summary: Apertura di Forli' che Brilla con l'accensione delle installazioni luminose ai Giardini Pubblici e il concerto del coro gospel Surprise Christmas.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Giardini di Luce, L'Arca delle Meraviglie
+  start: 2026-11-28T17:30
+  end: '2027-01-06'
+  venue: Giardini Pubblici
+  address: Piazzale della Vittoria
+  town: Forlì
+  category: arte-cultura
+  subcategory: mostre
+  official_url: https://forlichebrillaofficial.it/
+  summary: Percorso di installazioni luminose ai Giardini Pubblici, aperto ogni sera dalle 17:30 alle 22:30.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Mercatino di Natale in piazza Saffi
+  start: 2026-11-28T09:00
+  end: '2027-01-10'
+  venue: Piazza Aurelio Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: mercatini-fiere
+  subcategory: artigianato
+  official_url: https://forlichebrillaofficial.it/
+  summary: Casette del mercatino natalizio in piazza Saffi, aperte dalle 9 alle 20.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Pista di pattinaggio di piazza Saffi
+  start: '2026-11-28'
+  end: '2027-01-10'
+  venue: Piazza Aurelio Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: sport
+  subcategory: altri-sport
+  official_url: https://forlichebrillaofficial.it/
+  summary: Pista di pattinaggio sul ghiaccio in piazza Saffi, aperta il pomeriggio nei feriali e tutto il giorno nei festivi.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Forli' Rocca Experience 2026
+  start: 2026-11-29T15:00
+  end: 2026-11-29T19:00
+  venue: Rocca di Ravaldino
+  address: Via Giovanni dalle Bande Nere 1
+  town: Forlì
+  category: arte-cultura
+  subcategory: visite
+  access: iscrizione
+  official_url: https://forlichebrillaofficial.it/
+  summary: Apertura della Rocca di Ravaldino con visite, gratuita con prenotazione obbligatoria.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Forli' Rocca Experience 2026
+  start: 2026-12-05T15:00
+  end: 2026-12-05T19:00
+  venue: Rocca di Ravaldino
+  address: Via Giovanni dalle Bande Nere 1
+  town: Forlì
+  category: arte-cultura
+  subcategory: visite
+  access: iscrizione
+  official_url: https://forlichebrillaofficial.it/
+  summary: Apertura della Rocca di Ravaldino con visite, gratuita con prenotazione obbligatoria.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Forli' Rocca Experience 2026
+  start: 2026-12-12T15:00
+  end: 2026-12-12T19:00
+  venue: Rocca di Ravaldino
+  address: Via Giovanni dalle Bande Nere 1
+  town: Forlì
+  category: arte-cultura
+  subcategory: visite
+  access: iscrizione
+  official_url: https://forlichebrillaofficial.it/
+  summary: Apertura della Rocca di Ravaldino con visite, gratuita con prenotazione obbligatoria.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: 'Basta un libro: incontro con Paola Barbato'
+  start: 2026-12-03T18:00
+  end: 2026-12-03T20:00
+  venue: BAS, Biblioteca Comunale Aurelio Saffi
+  address: Via Albicini 12
+  town: Forlì
+  category: arte-cultura
+  subcategory: libri
+  official_url: https://forlichebrillaofficial.it/
+  summary: Incontro con la scrittrice Paola Barbato alla Biblioteca Saffi.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Boosta presenta Pianorama
+  start: 2026-12-03T21:00
+  venue: Auditorium Conad Citta' di Forli'
+  address: Viale della Liberta' 2
+  town: Forlì
+  category: musica
+  subcategory: concerti
+  official_url: https://forlichebrillaofficial.it/
+  summary: Concerto di pianoforte e musica contemporanea di Boosta.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Fiera delle domeniche di Natale
+  start: '2026-12-06'
+  venue: Piazza Aurelio Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: mercatini-fiere
+  subcategory: fiere
+  official_url: https://forlichebrillaofficial.it/
+  summary: Bancarelle per tutta la giornata nelle vie del centro storico di Forli'.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Accensione dell'albero di Natale in piazza Saffi
+  start: 2026-12-08T15:00
+  venue: Piazza Aurelio Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: sagre-feste
+  subcategory: ricorrenze
+  official_url: https://forlichebrillaofficial.it/
+  summary: Accensione dell'albero di Natale con lo spettacolo della Big Violinist, una violinista alta sei metri, e le majorettes in centro.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Rassegna Presepi Citta' di Forli'
+  start: 2026-12-11T15:00
+  end: '2027-01-06'
+  venue: Chiostro di San Mercuriale
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  category: arte-cultura
+  subcategory: mostre
+  official_url: https://forlichebrillaofficial.it/
+  summary: Trentasettesima rassegna di presepi dell'Associazione Italiana Amici del Presepio nella sala mostre del chiostro di San Mercuriale.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Fiera di Santa Lucia
+  start: '2026-12-13'
+  venue: Corso della Repubblica e piazza Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: mercatini-fiere
+  subcategory: fiere
+  official_url: https://forlichebrillaofficial.it/
+  summary: Fiera tradizionale di Santa Lucia con bancarelle lungo corso della Repubblica e in piazza Saffi.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Concerto di Natale del Coro Citta' di Forli'
+  start: 2026-12-13T16:00
+  venue: Salone comunale
+  address: Piazza Aurelio Saffi 8
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: musica
+  subcategory: concerti
+  access: libero
+  official_url: https://forlichebrillaofficial.it/
+  summary: Concerto natalizio del Coro Citta' di Forli' diretto da Omar Brui, a ingresso gratuito.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Coro ANA di Trento
+  start: 2026-12-13T16:00
+  end: 2026-12-13T18:00
+  venue: Giardini Orselli
+  address: Via delle Torri
+  town: Forlì
+  category: musica
+  subcategory: concerti
+  official_url: https://forlichebrillaofficial.it/
+  summary: Esibizione del coro alpino ANA di Trento ai Giardini Orselli.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Pollicino Dore' (Proscenio Teatro)
+  start: 2026-12-13T16:00
+  venue: Teatro il Piccolo
+  address: Via Antonio de Nobili
+  town: Forlì
+  category: famiglie-bambini
+  subcategory: spettacoli-bimbi
+  official_url: https://forlichebrillaofficial.it/
+  summary: Spettacolo per bambini della compagnia Proscenio Teatro.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Musica, auguri e solidarieta'
+  start: 2026-12-13T21:00
+  venue: Ex Chiesa di San Giacomo
+  address: Piazzale Guido da Montefeltro 12
+  town: Forlì
+  category: musica
+  subcategory: jazz-classica
+  official_url: https://forlichebrillaofficial.it/
+  summary: Concerto natalizio dell'Associazione Amici dei Musei di Forli' e della Fondazione Angelo Masini.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Harlem Gospel Choir (Forli' Grande Musica)
+  start: 2026-12-15T21:00
+  venue: Auditorium Conad Citta' di Forli'
+  address: Viale della Liberta' 2
+  town: Forlì
+  category: musica
+  subcategory: concerti
+  access: biglietto
+  official_url: https://forlichebrillaofficial.it/
+  summary: Concerto dell'Harlem Gospel Choir nella rassegna Forli' Grande Musica 2026.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Un'opera al mese
+  start: 2026-12-18T18:30
+  venue: Ex Chiesa di San Giacomo
+  address: Piazzale Guido da Montefeltro 12
+  town: Forlì
+  category: arte-cultura
+  subcategory: conferenze
+  access: libero
+  official_url: https://forlichebrillaofficial.it/
+  summary: Incontro dedicato a un'opera d'arte a cura dell'Associazione Amici dei Musei di Forli', a ingresso gratuito.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Il Presepe vivente dei bambini
+  start: 2026-12-19T15:00
+  end: 2026-12-19T16:30
+  venue: Piazza Aurelio Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: famiglie-bambini
+  subcategory: spettacoli-bimbi
+  official_url: https://forlichebrillaofficial.it/
+  summary: Venticinquesima edizione del presepe vivente animato dai bambini dei centri educativi Domus Coop e della scuola La Nave.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Fiera delle domeniche di Natale
+  start: '2026-12-20'
+  venue: Piazza Aurelio Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: mercatini-fiere
+  subcategory: fiere
+  official_url: https://forlichebrillaofficial.it/
+  summary: Bancarelle per tutta la giornata nelle vie del centro storico di Forli'.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Canta con noi, Coro di via Giorgio Regnoli
+  start: 2026-12-20T17:00
+  venue: Abbazia di San Mercuriale
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  category: musica
+  subcategory: concerti
+  official_url: https://forlichebrillaofficial.it/
+  summary: Concerto di canti natalizi a San Mercuriale, alle 17 e alle 20:30.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Grande concerto di Natale
+  start: 2026-12-20T21:00
+  venue: Auditorium Conad Citta' di Forli'
+  address: Viale della Liberta' 2
+  town: Forlì
+  category: musica
+  subcategory: concerti
+  official_url: https://forlichebrillaofficial.it/
+  summary: Concerto della Forli' Musica Orchestra Giovani con i cori Insieme Cappuccini e San Paolo.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Presepi d'autore, visite per famiglie
+  start: 2026-12-27T16:00
+  venue: Museo Civico San Domenico
+  address: Piazzale Guido da Montefeltro 12
+  town: Forlì
+  category: famiglie-bambini
+  subcategory: laboratori
+  official_url: https://forlichebrillaofficial.it/
+  summary: Visite per famiglie dedicate ai presepi nelle collezioni del Museo Civico San Domenico, alle 16 e alle 17:30.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Capodanno a Forli' in piazza Saffi
+  start: 2026-12-31T21:00
+  venue: Piazza Aurelio Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: musica
+  subcategory: dj-set
+  official_url: https://forlichebrillaofficial.it/
+  summary: Festa di fine anno con musica degli anni Ottanta, Novanta e Duemila a cura del Comune e di Radio Studio Piu'.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Concerto di Capodanno della Banda Citta' di Forli'
+  start: 2027-01-01T16:00
+  venue: Teatro Diego Fabbri
+  address: Corso Armando Diaz 47
+  town: Forlì
+  lat: 44.2209
+  lon: 12.0447
+  category: musica
+  subcategory: concerti
+  access: libero
+  official_url: https://forlichebrillaofficial.it/
+  summary: Concerto del primo dell'anno della Banda Citta' di Forli' al Teatro Diego Fabbri, a ingresso gratuito.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Presepe vivente nel chiostro di San Mercuriale
+  start: 2027-01-03T15:30
+  end: 2027-01-03T18:00
+  venue: Chiostro di San Mercuriale
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  category: sagre-feste
+  subcategory: ricorrenze
+  official_url: https://forlichebrillaofficial.it/
+  summary: Presepe vivente a cura dell'Associazione Italiana Amici del Presepio e della parrocchia di San Paolo.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Calata della Befana in piazza Saffi
+  start: 2027-01-06T15:30
+  venue: Piazza Aurelio Saffi
+  address: Piazza Aurelio Saffi
+  town: Forlì
+  lat: 44.2224
+  lon: 12.0407
+  category: sagre-feste
+  subcategory: ricorrenze
+  official_url: https://forlichebrillaofficial.it/
+  summary: La Befana scende in piazza Saffi nel pomeriggio dell'Epifania, a chiusura di Forli' che Brilla.
+  fonte: https://forlichebrillaofficial.it/
+  trovato: '2026-11-28'
+- title: Naso d'argento
+  start: 2027-01-10T16:00
+  venue: Teatro il Piccolo
+  address: Via Antonio de Nobili
+  town: Forlì
+  category: famiglie-bambini
+  subcategory: spettacoli-bimbi
+  official_url: https://forlichebrillaofficial.it/
+  summary: Spettacolo per bambini al Teatro il Piccolo.
+  fonte: https://forlichebrillaofficial.it/
   trovato: '2026-11-28'
 - title: Mercatino di Natale di Lecco
   start: '2026-11-25'
@@ -2030,6 +2498,217 @@ eventi:
   official_url: https://www.teatrocomunalemodena.it/spettacolo/filarmonica-del-teatro-comunale-di-modena-6/
   summary: Concerto della Filarmonica del Teatro Comunale di Modena.
   fonte: https://www.teatrocomunalemodena.it/spettacoli/
+  trovato: '2026-11-28'
+- title: Mercatino di Natale tirolese di Modena
+  start: '2026-11-20'
+  end: '2027-01-06'
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: mercatini-fiere
+  subcategory: artigianato
+  official_url: https://www.mercatinodinataletirolesemodena.it/
+  summary: Mercatino natalizio di ispirazione tirolese nel centro storico di Modena, con casette di artigianato e prodotti tipici e spettacoli nei fine
+    settimana.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Serial Singers Gospel Choir al Mercatino di Natale di Modena
+  start: 2026-11-28T16:00
+  end: 2026-11-28T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Coro Catinaccio al Mercatino di Natale di Modena
+  start: 2026-11-29T16:00
+  end: 2026-11-29T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: A-Tipic Ensamble al Mercatino di Natale di Modena
+  start: 2026-12-05T16:00
+  end: 2026-12-05T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Zampognari di Monte San Pietro al Mercatino di Natale di Modena
+  start: 2026-12-06T16:00
+  end: 2026-12-06T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Luca Baz al Mercatino di Natale di Modena
+  start: 2026-12-08T16:00
+  end: 2026-12-08T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Coro La Fonte di Cognento al Mercatino di Natale di Modena
+  start: 2026-12-12T16:00
+  end: 2026-12-12T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: The White Carols al Mercatino di Natale di Modena
+  start: 2026-12-13T16:00
+  end: 2026-12-13T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Coro La Valle al Mercatino di Natale di Modena
+  start: 2026-12-19T16:00
+  end: 2026-12-19T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Coro ANA di Trento al Mercatino di Natale di Modena
+  start: 2026-12-20T16:00
+  end: 2026-12-20T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Coro La Ghirlandeina al Mercatino di Natale di Modena
+  start: 2026-12-26T16:00
+  end: 2026-12-26T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Burattini della commedia al Mercatino di Natale di Modena
+  start: 2026-12-27T16:00
+  end: 2026-12-27T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: famiglie-bambini
+  subcategory: spettacoli-bimbi
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Fantasia a 3000 al Mercatino di Natale di Modena
+  start: 2027-01-02T16:00
+  end: 2027-01-02T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Gruppo Folk I Gioppini di Bergamo al Mercatino di Natale di Modena
+  start: 2027-01-03T16:00
+  end: 2027-01-03T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  trovato: '2026-11-28'
+- title: Gnuco Alpen Sgnapa Band al Mercatino di Natale di Modena
+  start: 2027-01-06T16:00
+  end: 2027-01-06T18:00
+  venue: Piazza Grande
+  address: Piazza Grande
+  town: Modena
+  lat: 44.6466
+  lon: 10.9254
+  category: musica
+  subcategory: concerti
+  official_url: https://www.mercatinodinataletirolesemodena.it/spettacoli
+  summary: Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.
+  fonte: https://www.mercatinodinataletirolesemodena.it/spettacoli
   trovato: '2026-11-28'
 - title: Piccolo Orso e la montagna di ghiaccio (Regio Young)
   start: '2026-12-05'
@@ -3089,13 +3768,56 @@ eventi:
   trovato: '2026-11-28'
 - title: Reggiolo accende il Natale
   start: '2026-12-08'
-  venue: Centro storico di Reggiolo
+  venue: Piazza Martiri
+  address: Piazza Martiri
   town: Reggiolo
   category: sagre-feste
   subcategory: ricorrenze
-  official_url: https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026
-  summary: Giornata di festa natalizia nel centro storico di Reggiolo.
-  fonte: https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026
+  official_url: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  summary: Festa in piazza con bancarelle, stand gastronomici, negozi aperti e accensione dell'albero di Natale, a cura della Pro Loco. In caso di maltempo
+    si sposta al 13 dicembre.
+  fonte: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  trovato: '2026-11-28'
+- title: Mostra dei Presepi di Reggiolo
+  start: '2026-12-08'
+  end: '2027-01-06'
+  venue: Palazzo Sartoretti
+  town: Reggiolo
+  category: arte-cultura
+  subcategory: mostre
+  official_url: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  summary: Mostra annuale dei presepi allestita dalla Pro Loco nel Palazzo Sartoretti.
+  fonte: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  trovato: '2026-11-28'
+- title: Aspettando il Natale, letture e laboratorio in biblioteca
+  start: 2026-12-12T10:00
+  venue: Biblioteca Giorgio Ambrosoli
+  town: Reggiolo
+  category: famiglie-bambini
+  subcategory: laboratori
+  official_url: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  summary: Letture ad alta voce per bambini e laboratorio creativo, in due turni alle 10 e alle 15.
+  fonte: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  trovato: '2026-11-28'
+- title: Concerto d'organo a Santa Maria Assunta
+  start: '2026-12-13'
+  venue: Chiesa di Santa Maria Assunta
+  town: Reggiolo
+  category: musica
+  subcategory: jazz-classica
+  official_url: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  summary: Concerto d'organo nella chiesa parrocchiale di Santa Maria Assunta, a cura di Reggiolo Attiva.
+  fonte: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  trovato: '2026-11-28'
+- title: Concerto di Natale del Circolo Musicale Giovanni Rinaldi
+  start: 2026-12-22T18:00
+  venue: Chiesa di Santa Maria Assunta
+  town: Reggiolo
+  category: musica
+  subcategory: concerti
+  official_url: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
+  summary: Concerto natalizio del Circolo Musicale Giovanni Rinaldi nella chiesa parrocchiale.
+  fonte: https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
   trovato: '2026-11-28'
 - title: Mercatino di Natale di Cavriago
   start: '2026-12-08'

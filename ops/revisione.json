@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T17:38+01:00",
+ "generato": "2026-11-28T17:42+01:00",
  "eventi": [
   {
    "uid": "9c0a2332145cce95",
@@ -47,6 +47,30 @@
    "precisione": "venue"
   },
   {
+   "uid": "b12b3bf624935d31",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Saetta McQueen al Museo",
+   "inizio": "2026-09-10",
+   "fine": "2027-01-31",
+   "luogo": "MAUTO Museo Nazionale dell'Automobile",
+   "indirizzo": "Corso Unita' d'Italia 40",
+   "comune": "Torino",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismotorino.org",
+   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
+   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/saetta-mc-queen-al-museo",
+   "riassunto": "Allestimento in Sala Formula dedicato a Saetta McQueen a vent'anni dal film Cars, tra cinema e storia dell'automobile.",
+   "lat": 45.07327,
+   "lon": 7.68069,
+   "precisione": "town"
+  },
+  {
    "uid": "4d5cf01bcdc28c8e",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
@@ -68,6 +92,124 @@
    "lat": 45.66577,
    "lon": 12.25044,
    "precisione": "venue"
+  },
+  {
+   "uid": "9ed709bf49b2e733",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Di padre in figlio. L'universo grafico di Giambattista e Giandomenico Tiepolo",
+   "inizio": "2026-10-15",
+   "fine": "2027-01-17",
+   "luogo": "Galleria Sabauda, Spazio Scoperte",
+   "indirizzo": "Piazzetta Reale 1",
+   "comune": "Torino",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismotorino.org",
+   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
+   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/di-padre-in-figlio-l-universo-grafico-di-giambattista-e-giandomenico-tiepolo",
+   "riassunto": "Mostra sull'attivita' grafica di Giandomenico Tiepolo messa a confronto con quella del padre Giambattista.",
+   "lat": 45.07327,
+   "lon": 7.68069,
+   "precisione": "town"
+  },
+  {
+   "uid": "79c50621d9acec51",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Banksy. Street is the Museum",
+   "inizio": "2026-10-22",
+   "fine": "2027-01-31",
+   "luogo": "Palazzo Falletti di Barolo",
+   "indirizzo": "Via delle Orfane 7",
+   "comune": "Torino",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismotorino.org",
+   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
+   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/banksy-street-is-the-museum",
+   "riassunto": "Oltre 150 opere dedicate a Banksy nelle cantine storiche di Palazzo Falletti di Barolo.",
+   "lat": 45.07327,
+   "lon": 7.68069,
+   "precisione": "town"
+  },
+  {
+   "uid": "efb5597a1e500967",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Yayoi Kusama. Infinity Mirrored Room",
+   "inizio": "2026-10-31",
+   "fine": "2027-02-25",
+   "luogo": "OGR Torino",
+   "indirizzo": "Corso Castelfidardo 22",
+   "comune": "Torino",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismotorino.org",
+   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
+   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/yayoi-kusama-infinity-mirrored-room",
+   "riassunto": "Le OGR espongono una delle stanze a specchi infinite di Yayoi Kusama.",
+   "lat": 45.07327,
+   "lon": 7.68069,
+   "precisione": "town"
+  },
+  {
+   "uid": "f54d160db291759b",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Hayez Boldini Casorati. Moda e costume nella societa' moderna",
+   "inizio": "2026-10-31",
+   "fine": "2027-04-04",
+   "luogo": "Castello Visconteo Sforzesco",
+   "indirizzo": "Piazza Martiri della Liberta' 3",
+   "comune": "Novara",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Mostra in otto sezioni che accosta dipinti dall'Ottocento agli anni Venti del Novecento ad abiti e accessori delle Collezioni Civiche milanesi; aperta da martedi' a domenica.",
+   "lat": 45.4444134,
+   "lon": 8.6172913,
+   "precisione": "address"
+  },
+  {
+   "uid": "bbb25b6f830d4e77",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Gabriele Basilico: paesaggio industriale Olivetti",
+   "inizio": "2026-11-05",
+   "fine": "2026-12-31",
+   "luogo": "Museo Civico Pier Alessandro Garda",
+   "indirizzo": "Piazza Ottinetti 18",
+   "comune": "Ivrea",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismotorino.org",
+   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
+   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/gabriele-basilico-paesaggio-industriale-olivetti",
+   "riassunto": "Mostra di fotografie di Gabriele Basilico dedicate ai luoghi industriali Olivetti, con l'Archivio Storico Olivetti.",
+   "lat": 45.46619,
+   "lon": 7.87597,
+   "precisione": "town"
   },
   {
    "uid": "b477c0df75b077f9",
@@ -93,6 +235,51 @@
    "precisione": "venue"
   },
   {
+   "uid": "910a05b2ea20f0b3",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Il Magico Paese di Natale in piazza Alfieri",
+   "inizio": "2026-11-13",
+   "fine": "2026-12-20",
+   "luogo": "Piazza Alfieri",
+   "indirizzo": "Piazza Vittorio Alfieri",
+   "comune": "Asti",
+   "categoria": "mercatini-fiere",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "comune.asti.it",
+   "pagina_fonte": "https://www.comune.asti.it/vivere-comune/eventi?f%5B0%5D=quando%3Anext_thirty_days",
+   "sito_ufficiale": "https://www.comune.asti.it/vivere-comune/eventi/magico-paese-natale-0",
+   "riassunto": "Ventesima edizione del mercatino natalizio con casette in legno di artigianato, gastronomia e cibo di strada in piazza Alfieri.",
+   "lat": 44.89913,
+   "lon": 8.20414,
+   "precisione": "town"
+  },
+  {
+   "uid": "83541ec862156e56",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Giorgio De Chirico al Museo Garda",
+   "inizio": "2026-11-14",
+   "fine": "2026-12-20",
+   "luogo": "Museo Civico Pier Alessandro Garda",
+   "indirizzo": "Piazza Ottinetti 18",
+   "comune": "Ivrea",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismotorino.org",
+   "pagina_fonte": "https://turismotorino.org/it/visita/eventi/agenda",
+   "sito_ufficiale": "https://turismotorino.org/it/visita/eventi/giorgio-de-chirico",
+   "riassunto": "Esposizione di due opere di Giorgio de Chirico della Collezione Guelpa-Croff.",
+   "lat": 45.46619,
+   "lon": 7.87597,
+   "precisione": "town"
+  },
+  {
    "uid": "06f7567ca9112de2",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
@@ -113,6 +300,28 @@
    "lat": 46.06032,
    "lon": 11.24049,
    "precisione": "town"
+  },
+  {
+   "uid": "236d05175fa0ff06",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Il secolo del Barocco. Bernini, Gentileschi, Rubens",
+   "inizio": "2026-11-20",
+   "fine": "2027-03-29",
+   "luogo": "Complesso Monumentale di San Francesco",
+   "indirizzo": "Via Santa Maria 10",
+   "comune": "Cuneo",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "cuneocultura.it",
+   "pagina_fonte": "https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)",
+   "sito_ufficiale": "https://www.comune.cuneo.it/vivere-il-comune/eventi/mostra-il-secolo-del-barocco/",
+   "riassunto": "Mostra promossa da Fondazione CRC e Intesa Sanpaolo sull'arte della Roma del Seicento, con opere di Bernini, Gentileschi e Rubens.",
+   "lat": 44.3947802,
+   "lon": 7.550807,
+   "precisione": "address"
   },
   {
    "uid": "68b1de4691ee1489",
@@ -246,6 +455,53 @@
    "riassunto": "Mostra del libro organizzata dal Comune, aperta dal lunedi' al sabato dalle 15 alle 18, con laboratori di lettura per le scuole.",
    "lat": 45.77874,
    "lon": 12.42014,
+   "precisione": "town"
+  },
+  {
+   "uid": "35bacc5c85a496db",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Il sogno dell'Accademia. Una storia lunga cinque secoli",
+   "inizio": "2026-11-26",
+   "fine": "2027-01-29",
+   "luogo": "Biblioteca Civica Francesca Calvo",
+   "indirizzo": "Piazza Vittorio Veneto 1",
+   "comune": "Alessandria",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "comune.alessandria.it",
+   "pagina_fonte": "https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)",
+   "sito_ufficiale": "https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero",
+   "riassunto": "Le opere di Mario Fallini dialogano con i libri dei poeti dell'Accademia degli Immobili; aperta nei giorni feriali.",
+   "lat": 44.91297,
+   "lon": 8.6154,
+   "precisione": "town"
+  },
+  {
+   "uid": "8baf2b2bbac65b62",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "durata oltre 45 giorni: sono date singole o un periodo?",
+    "possibile doppione di c76fcb844c398726"
+   ],
+   "titolo": "Pista di pattinaggio di Natale nel cuore di Biella",
+   "inizio": "2026-11-27T15:00",
+   "fine": "2027-01-24T20:00",
+   "luogo": "Piazza Monsignor Carlo Rossi",
+   "indirizzo": "Piazza Monsignor Carlo Rossi",
+   "comune": "Biella",
+   "categoria": "sport",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "comune.biella.it",
+   "pagina_fonte": "https://comune.biella.it/wp-content/uploads/sites/150/2026/11/Natale-nel-Cuore-di-Biella-2026.doc (programma del Comune)",
+   "sito_ufficiale": "https://comune.biella.it/novita/il-programma-completo-di-natale-nel-cuore-di-biella-2026/",
+   "riassunto": "Pista di pattinaggio sul ghiaccio accanto al Battistero, aperta tutti i giorni con orari serali nel fine settimana.",
+   "lat": 45.56651,
+   "lon": 8.05408,
    "precisione": "town"
   },
   {
@@ -583,6 +839,29 @@
    "precisione": "town"
   },
   {
+   "uid": "cee2ada47f582ec8",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Macbeth",
+   "inizio": "2026-11-29T16:00",
+   "fine": null,
+   "luogo": "Teatro Comunale Claudio Abbado",
+   "indirizzo": "Corso Martiri della Liberta' 5",
+   "comune": "Ferrara",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "teatrocomunaleferrara.it",
+   "pagina_fonte": "https://www.teatrocomunaleferrara.it/",
+   "sito_ufficiale": "https://www.teatrocomunaleferrara.it/spettacolo/macbeth/",
+   "riassunto": "Recita dell'opera di Verdi nella stagione Opera&Danza del Teatro Comunale.",
+   "lat": 44.83599,
+   "lon": 11.61869,
+   "precisione": "town"
+  },
+  {
    "uid": "32a86903a2865807",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -624,6 +903,50 @@
    "riassunto": "Spettacolo teatrale nella rassegna Teatro del Parco 26/27 (Teatro del Parco, Mestre), con Compagnia Simona Bucci.",
    "lat": 45.49952,
    "lon": 12.25798,
+   "precisione": "address"
+  },
+  {
+   "uid": "277d7790ec39c90c",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Broadway Time, la grande musica americana",
+   "inizio": "2026-11-29T11:30",
+   "fine": null,
+   "luogo": "Teatro Coccia",
+   "indirizzo": "Via Fratelli Rosselli 47",
+   "comune": "Novara",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Concerto jazz di un quartetto dedicato al Great American Songbook, introdotto da un racconto sulla storia del jazz.",
+   "lat": 45.4455285,
+   "lon": 8.6181663,
+   "precisione": "address"
+  },
+  {
+   "uid": "ef371a0658f771a9",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Concerto per Santa Cecilia della Banda Filarmonica di Oleggio",
+   "inizio": "2026-11-29T16:30",
+   "fine": null,
+   "luogo": "Teatro Civico di Oleggio",
+   "indirizzo": "Via Roma 43",
+   "comune": "Oleggio",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Concerto annuale della Banda Filarmonica di Oleggio per Santa Cecilia.",
+   "lat": 45.5974311,
+   "lon": 8.634455,
    "precisione": "address"
   },
   {
@@ -737,6 +1060,28 @@
    "precisione": "venue"
   },
   {
+   "uid": "da94c9dddb59ca99",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Il Sindaco Pescatore",
+   "inizio": "2026-11-30T21:00",
+   "fine": null,
+   "luogo": "Teatro Alighieri",
+   "indirizzo": "Via Mariani 2",
+   "comune": "Ravenna",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "teatroalighieri.org",
+   "pagina_fonte": "https://www.teatroalighieri.org/spettacoli/",
+   "sito_ufficiale": "https://www.teatroalighieri.org/events/il-sindaco-pescatore/",
+   "riassunto": "Spettacolo con Ettore Bassi dedicato alla figura di Angelo Vassallo, sindaco di Pollica ucciso nel 2010, con la partecipazione di studenti delle scuole superiori.",
+   "lat": 44.4171588,
+   "lon": 12.2012762,
+   "precisione": "address"
+  },
+  {
    "uid": "d82d672090fe97c2",
    "motivi": [
     "posizione a 7 km dal centro di Valle Aurina: verifica dove si trova e correggi lat/lon"
@@ -778,6 +1123,52 @@
    "riassunto": "Serata di proiezione della rassegna Reel Rock 20 con quattro mediometraggi sull'arrampicata all'aperto, per circa due ore e mezza.",
    "lat": 45.67164,
    "lon": 12.15354,
+   "precisione": "town"
+  },
+  {
+   "uid": "84c5a9c994c9df48",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Dentro e fuori dai libri... con un buco nel calzino",
+   "inizio": "2026-12-02T17:00",
+   "fine": null,
+   "luogo": "Biblioteca 0-18 di Cuneo",
+   "indirizzo": "Via Santa Maria 11",
+   "comune": "Cuneo",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "cuneocultura.it",
+   "pagina_fonte": "https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)",
+   "sito_ufficiale": "https://www.cuneocultura.it/evento/dentro-e-fuori-dai-libri-con-un-buco-nel-calzino-24-48-mesi/",
+   "riassunto": "Laboratorio di lettura per genitori e bambini dai 24 ai 48 mesi.",
+   "lat": 44.3933,
+   "lon": 7.55117,
+   "precisione": "town"
+  },
+  {
+   "uid": "3fae87078133f455",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "La rivincita degli imperi",
+   "inizio": "2026-12-02",
+   "fine": "2026-12-04",
+   "luogo": "Sala Polivalente CDT",
+   "indirizzo": "Largo Barale 1",
+   "comune": "Cuneo",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "cuneocultura.it",
+   "pagina_fonte": "https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)",
+   "sito_ufficiale": "https://www.cuneocultura.it/evento/la-rivincita-degli-imperi/",
+   "riassunto": "Tre incontri con storici, politologi, teologi e giornalisti sul ritorno delle dinamiche imperiali nello scenario internazionale.",
+   "lat": 44.3933,
+   "lon": 7.55117,
    "precisione": "town"
   },
   {
@@ -871,6 +1262,30 @@
    "precisione": "town"
   },
   {
+   "uid": "223d0aa868dacda0",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Alessandria 13+1, mostra di Paolo Ventura",
+   "inizio": "2026-12-04T17:30",
+   "fine": "2027-01-31",
+   "luogo": "Sale d'Arte",
+   "indirizzo": "Via Machiavelli 13",
+   "comune": "Alessandria",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "comune.alessandria.it",
+   "pagina_fonte": "https://www.comune.alessandria.it/media/1835 (programma Natale 2026 del Comune, agg. 27/11/2026)",
+   "sito_ufficiale": "https://www.comune.alessandria.it/vivere-comune/eventi/natale-2026-alessandria-si-prepara-viverne-magia-parlava-unaltra-lingua-pero",
+   "riassunto": "Mostra di Paolo Ventura con uno spazio dedicato alla fotografia di Chiara Fossati, aperta dal venerdi' alla domenica.",
+   "lat": 44.91297,
+   "lon": 8.6154,
+   "precisione": "town"
+  },
+  {
    "uid": "3e7c2417e1fd948d",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -893,6 +1308,28 @@
    "precisione": "address"
   },
   {
+   "uid": "55934907a9b6a529",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Mondina, presentazione del libro di Roberto Bottacchi",
+   "inizio": "2026-12-04T18:00",
+   "fine": null,
+   "luogo": "Museo Civico C.G. Fanchini",
+   "indirizzo": "Vicolo della Chiesa 1",
+   "comune": "Oleggio",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Presentazione del diario immaginario di una mondariso tra Novarese e Vercellese, con letture di un'attrice.",
+   "lat": 45.5960658,
+   "lon": 8.6385655,
+   "precisione": "address"
+  },
+  {
    "uid": "737a28d42d3727e1",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -912,431 +1349,6 @@
    "riassunto": "Serata dedicata alle pari opportunita' e ai tabu' da superare, nel ciclo Con tutto il rispetto.",
    "lat": 46.32099,
    "lon": 11.06581,
-   "precisione": "venue"
-  },
-  {
-   "uid": "c31e5381342fff87",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Rudolph Operazione Natale al Cinema Teatro Manzoni",
-   "inizio": "2026-12-04T21:00",
-   "fine": null,
-   "luogo": "Cinema Teatro Manzoni",
-   "indirizzo": "",
-   "comune": "Paese",
-   "categoria": "famiglie-bambini",
-   "accesso": "libero",
-   "prezzo": "gratuito",
-   "fonte": "trevisoeventi.com",
-   "pagina_fonte": "https://www.trevisoeventi.com/paese.html",
-   "sito_ufficiale": "https://www.fondazioneaida.it/produzione/rudolph-operazione-natale/",
-   "riassunto": "Spettacolo natalizio della Fondazione AIDA per bambini dai 3 anni, della durata di un'ora, nel programma A Natale siamo tutti piu' buoni del Comune di Paese. Ingresso libero senza prenotazione.",
-   "lat": 45.67164,
-   "lon": 12.15354,
-   "precisione": "town"
-  },
-  {
-   "uid": "7ed2660a7a7541db",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 68120fa018662856"
-   ],
-   "titolo": "Festa di accensione dell'albero di Natale a Giavera",
-   "inizio": "2026-12-05T15:00",
-   "fine": "2026-12-05T18:00",
-   "luogo": "Piazza Uberto Bacilieri",
-   "indirizzo": "",
-   "comune": "Giavera del Montello",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "comune.giavera.tv.it",
-   "pagina_fonte": "https://www.comune.giavera.tv.it/vivere-il-comune/eventi/festa-di-accensione-dellalbero-di-natale-2026/",
-   "sito_ufficiale": "https://www.comune.giavera.tv.it/vivere-il-comune/eventi/festa-di-accensione-dellalbero-di-natale-2026/",
-   "riassunto": "Pomeriggio con canti degli alunni, laboratori, truccabimbi, castagne e panettone dei Gruppi Alpini e accensione dell'albero alle 17; in caso di pioggia si rinvia al 12 dicembre.",
-   "lat": 45.79379,
-   "lon": 12.16929,
-   "precisione": "town"
-  },
-  {
-   "uid": "0d11f93f96b4b2a2",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 501e8056b36f1cb7"
-   ],
-   "titolo": "Kinder Haus: laboratori, giochi e letture di Natale",
-   "inizio": "2026-12-05",
-   "fine": "2027-01-03",
-   "luogo": "Galleria Concordia",
-   "indirizzo": "",
-   "comune": "Vittorio Veneto",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
-   "riassunto": "Spazio natalizio per bambini e ragazzi con laboratori, giochi e letture, in gran parte gratuiti.",
-   "lat": 45.98992,
-   "lon": 12.29614,
-   "precisione": "town"
-  },
-  {
-   "uid": "e41aa64c21ef52c9",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di a97dc8f41067c603"
-   ],
-   "titolo": "Natale a Ramon, mercatini al Parco del Donatore",
-   "inizio": "2026-12-05T15:00",
-   "fine": "2026-12-05T19:00",
-   "luogo": "Parco del Donatore",
-   "indirizzo": "Via San Pancrazio",
-   "comune": "Loria",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "nordest24.it",
-   "pagina_fonte": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
-   "sito_ufficiale": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
-   "riassunto": "Mercatini natalizi organizzati dai Donatori di Sangue di Ramon con il Comune, con la casetta di Babbo Natale; il ricavato sostiene progetti di solidarieta' del territorio.",
-   "lat": 45.71318,
-   "lon": 11.8647,
-   "precisione": "venue"
-  },
-  {
-   "uid": "dc43203ae5a8f3d7",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 7ed2660a7a7541db"
-   ],
-   "titolo": "Accensione dell'albero di Natale a Ramon",
-   "inizio": "2026-12-05T19:15",
-   "fine": null,
-   "luogo": "Parco del Donatore",
-   "indirizzo": "Via San Pancrazio",
-   "comune": "Loria",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "nordest24.it",
-   "pagina_fonte": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
-   "sito_ufficiale": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
-   "riassunto": "Accensione dell'albero nella prima giornata di Natale a Ramon, seguita da un momento conviviale; alle 20:30 serata di musica e poesia con Claudia Zonta e Davide Baratto.",
-   "lat": 45.71318,
-   "lon": 11.8647,
-   "precisione": "venue"
-  },
-  {
-   "uid": "dda7f4b34907f1c4",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Guerra sulle tre cime (Autunno al museo)",
-   "inizio": "2026-12-05T20:45",
-   "fine": null,
-   "luogo": "Museo Eugenio Secco",
-   "indirizzo": "",
-   "comune": "Seren del Grappa",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "dolomitiprealpi.it",
-   "pagina_fonte": "https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events",
-   "sito_ufficiale": "https://www.dolomitiprealpi.it/event/autunno-al-museo-2026-4/",
-   "riassunto": "Conferenza di Vittorio Bernardi sulla guerra nelle Tre Cime, con letture di Gian Pietro Bonaldo.",
-   "lat": 45.98879,
-   "lon": 11.84358,
-   "precisione": "town"
-  },
-  {
-   "uid": "196f6c43c29eefd1",
-   "motivi": [
-    "possibile doppione di 51ee3164e11726e4"
-   ],
-   "titolo": "Visita guidata alla mostra Una storia quotidiana",
-   "inizio": "2026-12-05T10:30",
-   "fine": "2026-12-05T12:30",
-   "luogo": "Le Gallerie di Piedicastello",
-   "indirizzo": "Piazza di Piedicastello",
-   "comune": "Trento",
-   "categoria": "arte-cultura",
-   "accesso": "libero",
-   "prezzo": "gratuita",
-   "fonte": "comune.trento.it",
-   "pagina_fonte": "https://www.comune.trento.it/Vivere-il-Comune/Eventi (API OpenCity del Comune di Trento)",
-   "sito_ufficiale": "https://www.comune.trento.it/content/view/full/51386",
-   "riassunto": "Visita guidata gratuita della Fondazione Museo storico del Trentino alla mostra sugli ottant'anni del giornale l'Adige.",
-   "lat": 46.071659,
-   "lon": 11.113509,
-   "precisione": "address"
-  },
-  {
-   "uid": "e34b0445b2e28d7f",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Liechtr'zeit: mostra di presepi e festa di San Nicolo'",
-   "inizio": "2026-12-05T14:00",
-   "fine": "2026-12-05T18:00",
-   "luogo": "Piazza Raiffeisen",
-   "indirizzo": "",
-   "comune": "San Leonardo in Passiria",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "tourism.api.opendatahub.com",
-   "pagina_fonte": "https://tourism.api.opendatahub.com/v1/Event/D4E1AC99ABE649869C82FA6F51668F5D",
-   "sito_ufficiale": "https://www.merano-suedtirol.it/it/pianificare-le-vacanze/eventi/rid-D4E1AC99ABE649869C82FA6F51668F5D-liechtr-zeit-e-natale-a-s-leonardo-mostra-di-presepi-e-festa-di-san-nicolo.html",
-   "riassunto": "Pomeriggio con la mostra di presepi e l'arrivo di San Nicolo' in piazza Raiffeisen.",
-   "lat": 46.8124,
-   "lon": 11.2454,
-   "precisione": "address"
-  },
-  {
-   "uid": "3b1854e3e8f21e37",
-   "motivi": [
-    "posizione a 10 km dal centro di Venezia: verifica dove si trova e correggi lat/lon"
-   ],
-   "titolo": "Paola Turci",
-   "inizio": "2026-12-05T21:00",
-   "fine": null,
-   "luogo": "Teatro del Parco, Mestre",
-   "indirizzo": "Via Sergio Gori 11, Parco Albanese",
-   "comune": "Venezia",
-   "categoria": "musica",
-   "accesso": "biglietto",
-   "prezzo": "",
-   "fonte": "myarteven.it",
-   "pagina_fonte": "https://www.myarteven.it/ (calendario delle repliche nella home, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.myarteven.it/rassegne/bissuola-live-fall-2026/paola-turci/venezia-paola-turci-05122026-2100",
-   "riassunto": "Concerto nella rassegna Bissuola Live Fall 2026 (Teatro del Parco, Mestre).",
-   "lat": 45.49952,
-   "lon": 12.25798,
-   "precisione": "address"
-  },
-  {
-   "uid": "1190e119d5443d95",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Boschi a Natale: Le Bare, Manzana, Formeniga",
-   "inizio": "2026-12-05T10:00",
-   "fine": null,
-   "luogo": "Agriturismo Le Spezie",
-   "indirizzo": "Strada delle Spezie 47",
-   "comune": "Conegliano",
-   "categoria": "natura-outdoor",
-   "accesso": "iscrizione",
-   "prezzo": "7 euro",
-   "fonte": "unpliveneto.it",
-   "pagina_fonte": "https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/",
-   "sito_ufficiale": "https://boschianatale.prolocobellunesi.it/escursioni-boschi/le-bare-manzana-formeniga-pro-loco-ogliano/",
-   "riassunto": "Escursione di due ore della Pro Loco di Ogliano sulle colline tra Le Bare, Manzana e Formeniga, nella rassegna Boschi a Natale.",
-   "lat": 45.88717,
-   "lon": 12.29773,
-   "precisione": "town"
-  },
-  {
-   "uid": "e94627cb26b15508",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Boschi a Natale: Via dell'Acqua e dei Mulini",
-   "inizio": "2026-12-05T14:00",
-   "fine": null,
-   "luogo": "Info Point di Cison di Valmarino",
-   "indirizzo": "Piazza Brandolini 6",
-   "comune": "Cison di Valmarino",
-   "categoria": "natura-outdoor",
-   "accesso": "iscrizione",
-   "prezzo": "7 euro, gratis fino a 12 anni",
-   "fonte": "unpliveneto.it",
-   "pagina_fonte": "https://www.unpliveneto.it/2026/11/16/programma-boschi-a-natale-2026/",
-   "sito_ufficiale": "https://boschianatale.prolocobellunesi.it/escursioni-boschi/via-dellacqua-e-dei-mulini-pro-loco-di-cison-di-valmarino-aps/",
-   "riassunto": "Escursione di due ore lungo la Via dell'Acqua e dei Mulini con la Pro Loco di Cison, nella rassegna Boschi a Natale.",
-   "lat": 45.97001,
-   "lon": 12.14322,
-   "precisione": "town"
-  },
-  {
-   "uid": "68120fa018662856",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Accensione dell'albero di Natale e passaggio di San Nicolo' a Farra",
-   "inizio": "2026-12-05T17:00",
-   "fine": null,
-   "luogo": "Piazza di Farra di Soligo",
-   "indirizzo": "",
-   "comune": "Farra di Soligo",
-   "categoria": "sagre-feste",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "qdpnews.it",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
-   "riassunto": "Accensione e benedizione dell'albero di Natale e dell'albero dei desideri, inaugurazione del presepe e passaggio di San Nicolo'.",
-   "lat": 45.90543,
-   "lon": 12.12658,
-   "precisione": "town"
-  },
-  {
-   "uid": "01d407e6aca8b012",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "John Flaxman e il monumento all'Ammiraglio Nelson",
-   "inizio": "2026-12-05T16:00",
-   "fine": "2026-12-05T17:00",
-   "luogo": "Museo Gypsotheca Antonio Canova",
-   "indirizzo": "",
-   "comune": "Possagno",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "museocanova.it",
-   "pagina_fonte": "https://www.museocanova.it/agenda/",
-   "sito_ufficiale": "https://www.museocanova.it/calendario/john-flaxman-e-il-monumento-allammiraglio-nelson/",
-   "riassunto": "Conferenza sullo scultore John Flaxman e sul monumento a Nelson, legata alla mostra in corso al museo.",
-   "lat": 45.85429,
-   "lon": 11.88132,
-   "precisione": "venue"
-  },
-  {
-   "uid": "02dc3e77dbb05064",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Cantiamo il Natale: concerto del Coro Stella Alpina",
-   "inizio": "2026-12-05T20:45",
-   "fine": null,
-   "luogo": "Chiesa parrocchiale di San Michele Arcangelo",
-   "indirizzo": "",
-   "comune": "Silea",
-   "categoria": "musica",
-   "accesso": "libero",
-   "prezzo": "ingresso libero",
-   "fonte": "comune.silea.tv.it",
-   "pagina_fonte": "https://www.comune.silea.tv.it/eventi/Concerto-Cantiamo-il-Natale.html",
-   "sito_ufficiale": "https://www.comune.silea.tv.it/eventi/Concerto-Cantiamo-il-Natale.html",
-   "riassunto": "Concerto natalizio del Coro Stella Alpina promosso dal Comune di Silea con il gruppo Alpini Silea-Lanzago.",
-   "lat": 45.65505,
-   "lon": 12.29875,
-   "precisione": "town"
-  },
-  {
-   "uid": "7ab48d752e47eca8",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Escape game I fantasmi del Natale in biblioteca",
-   "inizio": "2026-12-05T10:30",
-   "fine": "2026-12-05T11:30",
-   "luogo": "Biblioteca comunale di Maser",
-   "indirizzo": "Piazza Municipio 9",
-   "comune": "Maser",
-   "categoria": "famiglie-bambini",
-   "accesso": "iscrizione",
-   "prezzo": "gratuito con prenotazione",
-   "fonte": "comune.maser.tv.it",
-   "pagina_fonte": "https://www.comune.maser.tv.it/eventi/Sabato-5-dicembre---Escape-Game-I-fantasmi-del-Natale.html",
-   "sito_ufficiale": "https://www.comune.maser.tv.it/eventi/Sabato-5-dicembre---Escape-Game-I-fantasmi-del-Natale.html",
-   "riassunto": "Gioco di fuga a tema natalizio per ragazzi delle medie, curato da Polvere negli occhi, a posti limitati.",
-   "lat": 45.80745,
-   "lon": 11.972,
-   "precisione": "town"
-  },
-  {
-   "uid": "9abb39b95eb523d4",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Essere Donna dell'antica Opitergium: presentazione del volume",
-   "inizio": "2026-12-05T16:30",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Oderzo",
-   "categoria": "arte-cultura",
-   "accesso": "libero",
-   "prezzo": "ingresso libero fino a esaurimento posti",
-   "fonte": "scoprioderzo.it",
-   "pagina_fonte": "https://www.scoprioderzo.it/mc-events/essere-donna-dellantica-opitergium/",
-   "sito_ufficiale": "https://www.scoprioderzo.it/mc-events/essere-donna-dellantica-opitergium/",
-   "riassunto": "Presentazione della pubblicazione sul ruolo delle donne nell'antica Opitergium, realizzata con la Regione del Veneto e promossa da AiutoDonna.Oderzo ODV.",
-   "lat": 45.78089,
-   "lon": 12.49313,
-   "precisione": "town"
-  },
-  {
-   "uid": "da97c8b059e18caf",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Conegliano Valdobbiadene Prosecco Ultra Trail",
-   "inizio": "2026-12-05T07:30",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Vittorio Veneto",
-   "categoria": "sport",
-   "accesso": "iscrizione",
-   "prezzo": "da 80 a 95 euro (iscrizioni chiuse il 22 novembre)",
-   "fonte": "calendariopodismoveneto.blogspot.com",
-   "pagina_fonte": "https://calendariopodismoveneto.blogspot.com/2025/04/dicembre-2026.html",
-   "sito_ufficiale": "https://www.prosecco.run/ultra-trail/conegliano-valdobbiadene-prosecco-ultra-trail/",
-   "riassunto": "Trail di 51 km con partenza alle 7:30 da Vittorio Veneto e arrivo al Centro Polifunzionale di Vidor in piazzale Capitello, organizzato da GT Sport, nel weekend della Prosecco Run.",
-   "lat": 45.98992,
-   "lon": 12.29614,
-   "precisione": "town"
-  },
-  {
-   "uid": "e5fb5868b7d9fc1d",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Coja ritrova Ceschia",
-   "inizio": "2026-12-05T20:30",
-   "fine": "2026-12-05T22:00",
-   "luogo": "Centro Sociale di Coia",
-   "indirizzo": "",
-   "comune": "Tarcento",
-   "categoria": "arte-cultura",
-   "accesso": "libero",
-   "prezzo": "gratuito",
-   "fonte": "comune.tarcento.ud.it",
-   "pagina_fonte": "https://www.comune.tarcento.ud.it/it/eventi/coja-ritrova-ceschia",
-   "sito_ufficiale": "https://www.comune.tarcento.ud.it/it/eventi/coja-ritrova-ceschia",
-   "riassunto": "Serata per i cento anni dalla nascita dell'artista Luciano Ceschia, con interventi, letture sceniche e musica del Gruppo Fisarmonicisti di Tarcento.",
-   "lat": 46.21556,
-   "lon": 13.222,
-   "precisione": "town"
-  },
-  {
-   "uid": "6f5757374dcc12cd",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Dinosauri e DinoCuccioli",
-   "inizio": "2026-12-05T10:30",
-   "fine": "2026-12-05T13:00",
-   "luogo": "Parco degli Alberi Parlanti",
-   "indirizzo": "Viale G. G. Felissent 56",
-   "comune": "Treviso",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "live.alcuni.it",
-   "pagina_fonte": "https://live.alcuni.it/wp-json/tribe/events/v1/events",
-   "sito_ufficiale": "https://live.alcuni.it/evento/dinosauri-e-dinocuccioli-23/2026-12-05/",
-   "riassunto": "Percorso a squadre con cinque minigiochi nell'area dinosauri del parco, ispirato ai personaggi della serie animata DinoCuccioli.",
-   "lat": 45.69036,
-   "lon": 12.25858,
    "precisione": "venue"
   }
  ]

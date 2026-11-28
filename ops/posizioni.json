@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T17:38+01:00",
+ "generato": "2026-11-28T17:42+01:00",
  "riepilogo": {
-  "eventi_controllati": 1677,
+  "eventi_controllati": 1856,
   "allineati_in_automatico": 0,
   "luoghi_con_punti_diversi": 4,
-  "lontani_dal_comune": 58,
-  "solo_comune_con_luogo": 103,
+  "lontani_dal_comune": 61,
+  "solo_comune_con_luogo": 169,
   "solo_comune_senza_luogo": 29,
-  "candidati_luoghi_noti": 38
+  "candidati_luoghi_noti": 51
  },
  "punti_diversi": [
   {
@@ -121,6 +121,16 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
+   "luogo": "Santuario di Oropa, Via Santuario di Oropa, Biella",
+   "km_dal_centro": 9,
+   "eventi": 2,
+   "uid": [
+    "dbd55dae77d4cfd3",
+    "3367526a29db517b"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
    "luogo": "H-FARM Campus, Welcome Center, Via Olivetti 1, Roncade",
    "km_dal_centro": 8,
    "eventi": 2,
@@ -159,6 +169,15 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
+   "luogo": "Centro polivalente di Longastrino, Via Bassa 59, Longastrino, Alfonsine",
+   "km_dal_centro": 9,
+   "eventi": 1,
+   "uid": [
+    "e95a1b3e74962be2"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
    "luogo": "Lutago, Valle Aurina",
    "km_dal_centro": 7,
    "eventi": 1,
@@ -178,6 +197,48 @@
   }
  ],
  "senza_punto": [
+  {
+   "luogo": "Teatro Comunale Claudio Abbado, Corso Martiri della Liberta' 5, Ferrara",
+   "eventi": 15,
+   "uid": [
+    "cee2ada47f582ec8",
+    "0ed0f3897bef830a",
+    "5a7a595f6d014ff8",
+    "4d3cc56ce92ebbbf",
+    "6cf932bc9f2ac3b2",
+    "1750dc67bf5253c1",
+    "8d28d7f252c21bc3",
+    "347bb7bf430d88a8",
+    "3b5c5978701c25b5",
+    "715be672a02be0ec"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Biblioteca 0-18 di Cuneo, Via Santa Maria 11, Cuneo",
+   "eventi": 6,
+   "uid": [
+    "84c5a9c994c9df48",
+    "45455f66db6cf5f9",
+    "63901919ce763f9c",
+    "b565590ef005a166",
+    "798ec6e326de088d",
+    "6a0d768a812c7fa9"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Ex Complesso Conventuale San Francesco, Via XXIV Maggio 5, Alessandria",
+   "eventi": 5,
+   "uid": [
+    "bf95b9219047249a",
+    "984627cfb2f6a67e",
+    "9694c6b84cfde25d",
+    "a218ba2ae03f2f63",
+    "3233b486b10bafc4"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
   {
    "luogo": "Biblioteca comunale di Farra di Soligo, Farra di Soligo",
    "eventi": 4,
@@ -257,11 +318,47 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Museo Eugenio Secco, Seren del Grappa",
+   "luogo": "Cortile del Broletto, Via Fratelli Rosselli 20, Novara",
    "eventi": 2,
    "uid": [
-    "dda7f4b34907f1c4",
-    "f82d077f058e5f26"
+    "a3ed5c6f66114455",
+    "2398911482c75914"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Gramsci, Piazza Gramsci, Novara",
+   "eventi": 2,
+   "uid": [
+    "9660ded1893a131b",
+    "0af0395e4a8aaf51"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Chiesa di Santa Lucia, Via Chenna, Alessandria",
+   "eventi": 2,
+   "uid": [
+    "87e3f994eff5374e",
+    "cb9950221765e2fb"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Biblioteca Civica Francesca Calvo, Piazza Vittorio Veneto 1, Alessandria",
+   "eventi": 2,
+   "uid": [
+    "46c2a79dd3e0c3e9",
+    "35bacc5c85a496db"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Ludoteca Comunale C'e' Sole e Luna, Via Verona 103, Alessandria",
+   "eventi": 2,
+   "uid": [
+    "756738b35678f763",
+    "ae5d2eeb67830fb0"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -271,6 +368,15 @@
    "uid": [
     "c1f4f6b62e310f6d",
     "4eeb59dcc8c7ed58"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Museo Civico Pier Alessandro Garda, Piazza Ottinetti 18, Ivrea",
+   "eventi": 2,
+   "uid": [
+    "bbb25b6f830d4e77",
+    "83541ec862156e56"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -449,70 +555,6 @@
     "3fd81d9b901a84a4"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Area parrocchiale di Catena, Villorba",
-   "eventi": 1,
-   "uid": [
-    "44058cc5e46852a5"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Chiesa parrocchiale di Catena, Villorba",
-   "eventi": 1,
-   "uid": [
-    "2e96acfb0999122c"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Sala parrocchiale Pio X, Villorba",
-   "eventi": 1,
-   "uid": [
-    "223a47c24964c8b1"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Centro di Villorba, Villorba",
-   "eventi": 1,
-   "uid": [
-    "9af16ddcacb5a0b0"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Oratorio parrocchiale di Villorba, Villorba",
-   "eventi": 1,
-   "uid": [
-    "0b900fd6940510ac"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Sala Giorgione (Centro Sociale), Via Tiziano Vecellio, Roncade",
-   "eventi": 1,
-   "uid": [
-    "de777ff526ddec79"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Auditorium della Scuola Media, Via Roma 65/a, Chiarano",
-   "eventi": 1,
-   "uid": [
-    "707fb147d1c8ee92"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Impianti sportivi di Fontigo, Via Chiesa 48, Fontigo, Sernaglia della Battaglia",
-   "eventi": 1,
-   "uid": [
-    "a2d04529adb5b2bc"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
  "allineati": [],
@@ -561,6 +603,15 @@
    "lat": 45.50349,
    "lon": 12.62696,
    "eventi": 15
+  },
+  {
+   "nomi": [
+    "Teatro Regio"
+   ],
+   "comune": "Torino",
+   "lat": 45.07059,
+   "lon": 7.68796,
+   "eventi": 13
   },
   {
    "nomi": [
@@ -636,6 +687,15 @@
   },
   {
    "nomi": [
+    "Teatro Alighieri"
+   ],
+   "comune": "Ravenna",
+   "lat": 44.41716,
+   "lon": 12.20128,
+   "eventi": 10
+  },
+  {
+   "nomi": [
     "Teatro Tullio Serafin"
    ],
    "comune": "Cavarzere",
@@ -650,6 +710,15 @@
    "comune": "Mira",
    "lat": 45.4343,
    "lon": 12.12637,
+   "eventi": 8
+  },
+  {
+   "nomi": [
+    "Teatro Coccia"
+   ],
+   "comune": "Novara",
+   "lat": 45.44553,
+   "lon": 8.61817,
    "eventi": 8
   },
   {
@@ -669,33 +738,6 @@
    "lat": 45.2158,
    "lon": 12.27664,
    "eventi": 7
-  },
-  {
-   "nomi": [
-    "Teatro Cotogni"
-   ],
-   "comune": "Castelmassa",
-   "lat": 45.01715,
-   "lon": 11.3084,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Piccolo Teatro"
-   ],
-   "comune": "Padova",
-   "lat": 45.38249,
-   "lon": 11.85213,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Teatro Comunale Ballarin"
-   ],
-   "comune": "Lendinara",
-   "lat": 45.08325,
-   "lon": 11.59622,
-   "eventi": 6
   }
  ]
 }

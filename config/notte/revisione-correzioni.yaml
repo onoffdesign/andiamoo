@@ -91,6 +91,36 @@ correggi:
     price: "ingresso gratuito"
     nota: "scheda del Comune di Predaia: auditorium al piano terra della sede comunale di Taio, Via Barbacovi; costi GRATUITO; punto da luoghi.yaml"
     verificato: '2026-11-28'
+  1098ba870aa91689:
+    official_url: "https://live.alcuni.it/evento/nardo-il-ghepardo-alle-zoolimpiadi-29-11-26/"
+    nota: "controllo a campione: il link portava alla pagina della rassegna Una fetta di teatro, ora la scheda dello spettacolo (29/11 16:30, Teatro Sant'Anna, biglietto 7 euro, gratis fino a 2 anni)"
+    verificato: '2026-11-28'
+  0eb39ab088509475:
+    official_url: "https://live.alcuni.it/evento/black-gold-14-12-26/"
+    nota: "controllo a campione: il link portava alla pagina della rassegna gospel, ora la scheda del concerto (14/12 21:00, Teatro Sant'Anna; prezzi solo sulla biglietteria online)"
+    verificato: '2026-11-28'
+  5665f9914dda1bb5:
+    access: "iscrizione"
+    price: "gratuito, prenotazione obbligatoria entro le 12 del giorno prima"
+    nota: "controllo a campione: scheda del Museo Canova, visita guidata in LIS di un'ora, tariffa gratuita con prenotazione obbligatoria (era biglietto)"
+    verificato: '2026-11-28'
+  9ed9def96f98898a:
+    price: "da 12 a 45 euro"
+    nota: "controllo a campione: scheda del Teatro Donizetti, 6/12 15:30, prezzo da 12 a 45 euro; punto da luoghi.yaml (era sul centro di Bergamo)"
+    verificato: '2026-11-28'
+  428450fd8799b9da:
+    price: "da 20 a 110 euro"
+    nota: "controllo a campione: scheda del Teatro Donizetti, Teatro Sociale, 12/12 alle 17 (c'e' anche una replica alle 20:30, non in elenco), prezzo da 20 a 110 euro; punto da luoghi.yaml (era sul centro di Bergamo)"
+    verificato: '2026-11-28'
+  822a2f6499652134:
+    lat: 45.57869
+    lon: 9.37854
+    nota: "controllo a campione: scheda del Comune di Ornago, 11/12 21:00 al Cinema Nuovo di Omate, Via Fabio Filzi 35, ingresso libero con prenotazione; punto noto piu' vicino il centro di Omate (era sul centro di Agrate)"
+    verificato: '2026-11-28'
+  f82d077f058e5f26:
+    address: "Via Guglielmo Marconi 19"
+    nota: "controllo a campione: scheda di Dolomiti Prealpi, sabato 19/12 alle 20:30 inaugurazione della mostra La zona rossa; museo in Via Marconi 19 (museionline.info, visitdolomitibellunesi.com), punto da luoghi.yaml; costo non pubblicato"
+    verificato: '2026-11-28'
 rimuovi: {}
 verificati:
   d82d672090fe97c2: '2026-11-28'   # Lutago e' frazione di Valle Aurina (OpenStreetMap node 2635773433): a 7 km dal centro ma nel comune giusto
@@ -133,3 +163,14 @@ verificati:
   45a2b7de47506e4d: '2026-11-28'   # Auditorium Santo Stefano di Farra: punto noto piu' vicino (chiesa parrocchiale) da luoghi.yaml
   ecc3e6e9299e4fe1: '2026-11-28'   # Teatro comunale di Pergine: punto da luoghi.yaml
   57ec79055b058beb: '2026-11-28'   # Foyer Bepi Roner del teatro di Pergine: punto da luoghi.yaml
+  ecbddf89a4e9241c: '2026-11-28'   # campione: Qdpnews, accensione dell'albero in Piazza dei Signori domenica 29/11 alle 17:30
+  dae1f19c220ebb86: '2026-11-28'   # campione: parkrun.it, ogni sabato alle 9, gratuito con registrazione
+  cb4a9f7f76e4a660: '2026-11-28'   # campione: scheda del Comune di Fossalta, laboratori 10-13 al Centro Diurno sopra la biblioteca, gratuiti su iscrizione, serie con il 5/12
+  51ee3164e11726e4: '2026-11-28'   # campione: scheda del Comune di Trento, 5/12 10:30-11:30, 3 euro piu' biglietto
+  8d8f1f63ec5c736b: '2026-11-28'   # campione: Qdpnews, mercatini in Corso Mazzini il 12/12 dalle 9 alle 19
+  2a4a2bc66b4a34e4: '2026-11-28'   # campione: Oderzo Cultura, 12/12 16:00-17:30 in Biblioteca civica, 6 euro a bambino su prenotazione
+  180dfd4d9375b60e: '2026-11-28'   # campione: scheda del New Age Club, 12/12 22:30, biglietti TicketSMS, solo maggiorenni
+  d8ed54a4a4e3963d: '2026-11-28'   # campione: VisitVerona, Il Mago di Oz 13/12 16:30 al Teatro Stimate
+  00d40e205342f983: '2026-11-28'   # campione: Turismo Padova, 17/12 20:45 Basilica del Santo, inviti gratuiti dal 10/12; punto da luoghi.yaml (era sul centro di Padova)
+  2483a2989896a122: '2026-11-28'   # campione: Qdpnews, mercatini in Corso Mazzini il 20/12 dalle 9 alle 19
+  0905d8617fcd4d1d: '2026-11-28'   # campione: PDF Autunno Sanfiorese del Comune, 22/12 16:30 Sala polifunzionale del Municipio; costo non indicato

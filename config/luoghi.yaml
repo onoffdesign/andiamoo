@@ -1296,3 +1296,13 @@ luoghi:
     lat: 46.32099
     lon: 11.06581
     nota: "Auditorium al piano terra della sede degli uffici comunali di Taio, Via S. Barbacovi (scheda del Comune di Predaia): punto della via in OpenStreetMap (way 98524826). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Museo Eugenio Secco", "Museo Secco", "Museo fotografico della Grande Guerra"]
+    comune: Seren del Grappa
+    lat: 45.98922
+    lon: 11.84206
+    nota: "Museo fotografico della Grande Guerra Eugenio Secco, Via Guglielmo Marconi 19, nella biblioteca comunale (indirizzo da museionline.info e visitdolomitibellunesi.com): civico non in OpenStreetMap, punto della via (way 276132824). Aggiunto il 2026-11-28 (revisione, quarta prova)."
+  - nomi: ["Cinema Nuovo di Omate", "Cinema Nuovo Omate"]
+    comune: Agrate Brianza
+    lat: 45.57869
+    lon: 9.37854
+    nota: "Cinema Nuovo di Omate, Via Fabio Filzi 35 (scheda del Comune di Ornago): cinema e civico non in OpenStreetMap, Via Filzi ha due tratti; punto noto piu' vicino il centro della frazione di Omate (node 2171747012). Aggiunto il 2026-11-28 (revisione, quarta prova)."
