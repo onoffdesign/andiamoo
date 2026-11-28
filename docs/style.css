@@ -726,3 +726,6 @@ body.view-list .stage { background: var(--land); }
 /* nota comune sui riassunti con l'AI */
 .ai-note { font-size: .75rem; color: rgba(0, 0, 0, .6); }
 .cards-note { max-width: 720px; margin: 22px auto 0; text-align: center; }
+
+/* la card aperta sta sopra i crediti della mappa */
+.maplibregl-popup.ev-card { z-index: 3; }
