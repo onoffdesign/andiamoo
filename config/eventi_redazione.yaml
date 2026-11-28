@@ -7816,3 +7816,56 @@ eventi:
     summary: 'Proiezione gratuita del film Clifford nella rassegna natalizia del Comune con la Pro Loco.'
     fonte: Comune di Quinto di Treviso, schede eventi (28/11/2026)
     trovato: '2026-11-28'
+  - title: Thanksgiving all'Opendream con pesca benefica per AIL
+    start: 2026-11-29T10:30
+    venue: Opendream (ex Pagnossin)
+    address: Via Noalese
+    town: Treviso
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.nordest24.it/thanksgiving-treviso-pesca-benefica-ail
+    summary: Giornata del Ringraziamento con mercatino creativo, pesca benefica a favore di AIL Treviso, concerto, area bimbi, gara di torte americane e dj set; il pranzo e' su prenotazione.
+    fonte: Nordest24 (27/11/2026)
+    trovato: '2026-11-28'
+  - title: Presepi itineranti a Nervesa della Battaglia
+    start: 2026-11-29
+    end: 2027-01-06
+    venue: Territorio comunale
+    town: Nervesa della Battaglia
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.qdpnews.it/comuni/montebellunese/nervesa-della-battaglia/un-natale-goloso-domenica-tanti-eventi-nasce-il-progetto-di-comunita-presepi-itineranti/
+    summary: Prima edizione di un percorso di presepi allestiti dalla comunita' in vari punti del comune, presentato durante Effetto Natale.
+    fonte: Qdpnews (27/11/2026)
+    trovato: '2026-11-28'
+  - title: "L'Isola del Natale: spettacolo di Gli Alcuni in piazza"
+    start: 2026-11-29T18:00
+    venue: Piazza La Piave
+    town: Nervesa della Battaglia
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.qdpnews.it/comuni/montebellunese/nervesa-della-battaglia/un-natale-goloso-domenica-tanti-eventi-nasce-il-progetto-di-comunita-presepi-itineranti/
+    summary: Spettacolo teatrale con videoproiezioni del centro di produzione Gli Alcuni, dentro la giornata di Effetto Natale.
+    fonte: Qdpnews (27/11/2026)
+    trovato: '2026-11-28'
+  - title: Laboratorio di tiramisu' per bambini a Effetto Natale
+    start: 2026-11-29T14:00
+    venue: Piazza La Piave
+    town: Nervesa della Battaglia
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://www.qdpnews.it/comuni/montebellunese/nervesa-della-battaglia/un-natale-goloso-domenica-tanti-eventi-nasce-il-progetto-di-comunita-presepi-itineranti/
+    summary: Laboratorio di cucina per bambini sulla preparazione del tiramisu' con l'Associazione Tiramisu' di Treviso, su iscrizione.
+    fonte: Qdpnews (27/11/2026)
+    trovato: '2026-11-28'
+  - title: Inaugurazione della pista di ghiaccio in Piazza Cima
+    start: 2026-11-28T18:00
+    venue: Piazza Cima
+    town: Conegliano
+    category: sport
+    official_url: https://www.qdpnews.it/comuni/coneglianese/conegliano/verso-linaugurazione-della-pista-di-ghiaccio-lavori-in-piazza-cima/
+    summary: Apertura della pista di pattinaggio sul ghiaccio allestita in piazza per le feste, legata alla Magia del Natale di Conegliano.
+    fonte: Qdpnews (24/11/2026)
+    trovato: '2026-11-28'

@@ -83,8 +83,12 @@ class Geocoder:
         b = cfg["area"]["bbox"]
         self.bbox = b
         self.viewbox = f"{b['west']},{b['north']},{b['east']},{b['south']}"
-        self.allowed = {PROVINCE_CODES.get(p.lower(), p if p.startswith("IT-") else f"IT-{p.upper()}")
-                        for p in cfg["area"]["provinces"]}
+        from .italia import PROVINCE, all_italy
+        if all_italy(cfg["area"]["provinces"]):
+            self.allowed = {f"IT-{s}" for s in PROVINCE}
+        else:
+            self.allowed = {PROVINCE_CODES.get(p.lower(), p if p.startswith("IT-") else f"IT-{p.upper()}")
+                            for p in cfg["area"]["provinces"]}
         self.client = httpx.Client(headers={"User-Agent": user_agent()}, timeout=20)
         self._last = 0.0
         self.requests = 0

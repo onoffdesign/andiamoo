@@ -166,7 +166,11 @@ def _seeded_geocoder(tmp_path):
     }
     for k, v in seed.items():
         store.geo_put(k, v)
-    return store, Geocoder(store, offline=True)
+    geo = Geocoder(store, offline=True)
+    # questi test misurano il filtro di area con la sola provincia di Treviso (l'area reale e' tutta Italia)
+    geo.allowed = {"IT-TV"}
+    geo.bbox = {"south": 45.55, "west": 11.76, "north": 46.08, "east": 12.75}
+    return store, geo
 
 
 def test_geocode_province_filter(tmp_path):

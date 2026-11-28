@@ -806,8 +806,6 @@
       }
       update();
       if (MOBILE() && !state.detail) setSheet("half");
-      const b = DATA.site.center, far = Math.abs(state.me.lat - b[0]) > 0.6 || Math.abs(state.me.lon - b[1]) > 0.8;
-      if (far) toast("Sei fuori dalla provincia di Treviso: ordino comunque per distanza");
     }, (err) => {
       btn.classList.remove("busy");
       toast(err.code === 1 ? "Per vedere gli eventi vicini consenti l'accesso alla posizione" : "Posizione non trovata, riprova");

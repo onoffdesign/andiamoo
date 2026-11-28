@@ -272,3 +272,6 @@ categorie_TV:
 
 # Fonti del giro (config/sources.yaml) lette da Claude al posto del PC: id -> data dell'ultima lettura.
 giro: {}
+
+# Province d'Italia cercate (area tutta Italia dal 2026-11-28): SIGLA -> data dell'ultima ricerca.
+province: {}

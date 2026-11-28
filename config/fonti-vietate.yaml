@@ -49,7 +49,6 @@ da_verificare:
   - {dominio: running.life, nota: "aggregatore gare; termini da leggere"}
   - {dominio: gotrail.run, nota: "aggregatore trail (stessa societa' di running.life); termini da leggere"}
   - {dominio: insolitotrantran.it, nota: "aggregatore; API pubblica e robots.txt libero (2026-10); termini da leggere"}
-  - {dominio: qdpnews.it, nota: "testata giornalistica; termini da leggere"}
   - {dominio: trovasagre.com, nota: "aggregatore sagre; termini da leggere"}
   - {dominio: cosedicasa.com, nota: "aggregatore mercatini; termini da leggere"}
   - {dominio: sagramap.com, nota: "aggregatore sagre; termini da leggere"}
@@ -61,6 +60,8 @@ da_verificare:
   - {dominio: oggitreviso.it, nota: "testata; termini da leggere"}
 
 ammesse:
+  - {dominio: qdpnews.it, verificato: 2026-11-28, nota: "testata locale: ammessa per decisione di Federico del 2026-11-28 (termini non letti da Claude); robots.txt rispettato a ogni lettura"}
+  - {dominio: nordest24.it, verificato: 2026-11-28, nota: "testata locale: ammessa per decisione di Federico del 2026-11-28 (termini non letti da Claude); robots.txt rispettato a ogni lettura"}
   - {dominio: prolocovenete.it, verificato: 2026-11-28, nota: "rete delle Pro Loco (UNPLI Veneto): categoria ammessa dalla regola (punto 3a); robots.txt rispettato a ogni lettura"}
   - {dominio: unpliveneto.it, verificato: 2026-11-28, nota: "come prolocovenete.it"}
   - {dominio: calendariopodismoveneto.blogspot.com, verificato: 2026-11-28, nota: "blog Blogger: robots.txt consente la lettura; i termini Google vietano solo l'accesso automatico contro robots.txt"}

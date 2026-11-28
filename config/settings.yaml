@@ -23,10 +23,11 @@ api:
     - "http://127.0.0.1:8765"
 
 area:
-  # Province ammesse (nome come lo restituisce OpenStreetMap nel campo "county").
-  provinces: ["Treviso"]
-  # Riquadro della provincia di Treviso, usato per filtrare e per guidare la geolocalizzazione.
-  bbox: { south: 45.55, west: 11.76, north: 46.08, east: 12.75 }
+  # Dal 2026-11-28 tutta Italia ("tutte"): le 107 province di pipeline/italia.py, comuni in config/comuni.csv.
+  # Per tornare a poche province: elenco di nomi o sigle, es. ["Treviso", "PD"].
+  provinces: ["tutte"]
+  # Riquadro dell'Italia, usato per scartare punti fuori area.
+  bbox: { south: 35.4, west: 6.6, north: 47.1, east: 18.6 }
 
 pipeline:
   days_ahead: 120          # non tiene eventi oltre questo orizzonte

@@ -1,20 +1,23 @@
 # Quanto lavoro fa Claude in una notte. Dal 2026-11-28 Federico ha il piano Max e il PC e' escluso: due sessioni
-# notturne nel cloud (raccolta alle 01:07, revisione alle 03:37) fanno tutto il lavoro. I limiti di utilizzo sono
-# comunque condivisi con l'uso di Federico durante il giorno: la notte resta dentro questi numeri.
+# notturne nel cloud (raccolta alle 01:07, revisione alle 03:37) fanno tutto il lavoro, su tutta Italia.
+# I limiti di utilizzo del piano sono condivisi con l'uso di Federico durante il giorno: se una sessione si ferma per
+# i limiti, la notte dopo abbassa questi numeri e scrivilo nel registro.
 # Lo leggono `python -m pipeline.piano_notte` (piano della notte) e `python -m pipeline.pubblica` (campione).
 # Piano Pro (riferimento): ricerche_max 70, coda_max 30, campione 10, test_copertura 10, fonti_note 8, comuni 6,
-# ambiti_categorie 4, categorie_nuove 10, fonti_nuove 5, posizioni 10, giro 0 (c'era il PC).
+# ambiti_categorie 4, categorie_nuove 10, fonti_nuove 5, posizioni 10, giro 0, province_italia 0.
 
 piano: max
 
-ricerche_max: 250            # WebSearch + WebFetch per sessione notturna
+ricerche_max: 350            # WebSearch + WebFetch per sessione notturna
 coda_max: 100                # eventi della coda di revisione da lavorare
 campione: 20                 # eventi del controllo a campione; soglia di qualita': 90%
 test_copertura: 20           # eventi del test di copertura
-fonti_note: 25               # fonti note in scadenza da riaprire (ops/fonti.yaml)
-comuni: 20                   # comuni della provincia attiva da controllare
-ambiti_categorie: 12         # ambiti di ops/categorie-ricerca.md da cercare nella provincia attiva
+fonti_note: 40               # fonti note in scadenza da riaprire (ops/fonti.yaml)
+giro: 40                     # fonti del giro (config/sources.yaml) da leggere a rotazione
+fonti_nuove: 30              # fonti nuove da cercare e valutare (prima: robots.txt e termini, regola fonti)
+comuni: 20                   # comuni della provincia di Treviso da controllare
+ambiti_categorie: 12         # ambiti di ops/categorie-ricerca.md da cercare a Treviso
+province_italia: 10          # altre province d'Italia a rotazione (pipeline/italia.py)
+comuni_per_provincia: 3      # comuni da controllare in ognuna di quelle province, oltre al capoluogo
 categorie_nuove: 25          # voci nuove da aggiungere all'albero delle categorie
-fonti_nuove: 15              # fonti nuove da cercare e valutare (prima: robots.txt e termini, regola fonti)
 posizioni: 30                # luoghi di ops/posizioni.json da sistemare
-giro: 15                     # fonti del giro (config/sources.yaml) da leggere al posto del PC, a rotazione

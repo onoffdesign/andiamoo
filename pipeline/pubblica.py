@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 import sys
 import tempfile
 from datetime import datetime
@@ -35,18 +36,40 @@ COMUNI = ROOT / "config" / "comuni.csv"
 NO_PLACE = ROOT / "ops" / "senza-posizione.json"
 
 
+PREFER = ("TV", "PD", "VE", "VI", "VR", "BL", "RO")    # nomi doppi (Calliano, Samone...): prima il Veneto
+
+
 def load_towns() -> dict[str, dict]:
-    """Comune normalizzato -> {nome, sigla, lat, lon}."""
+    """Comune normalizzato -> {nome, sigla, lat, lon}; anche "comune|SIGLA" per i nomi che esistono in due province."""
     out = {}
     if not COMUNI.exists():
         return out
     lines = [l for l in COMUNI.read_text(encoding="utf-8").splitlines() if l and not l.startswith("#")]
     for r in csv.DictReader(lines):
-        out[_norm(r["comune"])] = {"nome": r["comune"], "sigla": r["sigla"], "lat": float(r["lat"]), "lon": float(r["lon"])}
+        info = {"nome": r["comune"], "sigla": r["sigla"], "lat": float(r["lat"]), "lon": float(r["lon"])}
+        key = _norm(r["comune"])
+        out[f"{key}|{r['sigla']}"] = info
+        old = out.get(key)
+        if old is None or (r["sigla"] in PREFER and old["sigla"] not in PREFER):
+            out[key] = info
     return out
 
 
+SIGLA_RE = re.compile(r"[\s(,-]+([A-Z]{2})\)?\s*$")
+
+
+def town_info(town: str, towns: dict, sigla: str = "") -> dict | None:
+    """Il comune dal nome; "Calliano (TN)" o la sigla dell'evento scelgono tra i nomi doppi."""
+    m = SIGLA_RE.search(town or "")
+    sigla = (sigla or (m.group(1) if m else "")).upper()
+    key = _norm(clean_town(town or ""))
+    return towns.get(f"{key}|{sigla}") or towns.get(key)
+
+
 def allowed_sigle() -> set[str]:
+    from .italia import PROVINCE, all_italy
+    if all_italy(settings()["area"]["provinces"]):
+        return set(PROVINCE)
     out = set()
     for p in settings()["area"]["provinces"]:
         code = PROVINCE_CODES.get(str(p).lower(), str(p))
@@ -57,7 +80,7 @@ def allowed_sigle() -> set[str]:
 def place(ev: Event, towns: dict, known: list, sigle: set) -> str:
     """Mette lat e lon all'evento. Ritorna '' se fatto, altrimenti il motivo."""
     town = clean_town(ev.town)
-    info = towns.get(_norm(town))
+    info = town_info(ev.town, towns, ev.__dict__.get("provincia", ""))
     if info and info["sigla"] not in sigle:
         return f"comune fuori area ({info['nome']}, {info['sigla']})"
     if ev.lat is not None and ev.lon is not None:
@@ -84,7 +107,7 @@ def site_events(path: Path, towns: dict) -> list[Event]:
         ev = Event.from_dict(d)
         ev.uid_override = d.get("uid")              # l'uid pubblicato resta quello (le correzioni lo usano)
         if ev.geo_precision == "town":
-            info = towns.get(_norm(clean_town(ev.town)))
+            info = town_info(ev.town, towns)
             if info:
                 ev.lat, ev.lon = info["lat"], info["lon"]
         out.append(ev)
@@ -98,7 +121,7 @@ def quality_ops(events: list[Event], towns: dict, old_uids: set, no_place: int) 
     from .piano_notte import budget
     centers, town_province = {}, {}
     for e in events:
-        info = towns.get(_norm(clean_town(e.town or "")))
+        info = town_info(e.town or "", towns)
         if info:
             centers[(e.town or "").strip().lower()] = (info["lat"], info["lon"])
             town_province[(e.town or "").strip().lower()] = info["sigla"]

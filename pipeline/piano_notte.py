@@ -30,7 +30,7 @@ def budget() -> dict:
     data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
     defaults = {"piano": "pro", "ricerche_max": 70, "coda_max": 30, "campione": 10, "test_copertura": 10,
                 "fonti_note": 8, "comuni": 6, "ambiti_categorie": 4, "categorie_nuove": 10, "fonti_nuove": 5,
-                "posizioni": 10, "giro": 12}
+                "posizioni": 10, "giro": 12, "province_italia": 0, "comuni_per_provincia": 3}
     return {**defaults, **(data or {})}
 
 
@@ -116,6 +116,34 @@ def giro_sources(cov: dict, n: int) -> list[tuple[dict, str, str]]:
     done = cov.get("giro") or {}
     order = oldest({k: done.get(k) for k in pool}, n)
     return [(pool[k][0], pool[k][1], when) for k, when in order]
+
+
+def italy_provinces(cov: dict, n: int, skip: str) -> list[tuple[dict, str]]:
+    """Province d'Italia a rotazione (area tutta Italia): prima le mai cercate, nell'ordine di pipeline/italia.py
+    (Veneto, regioni vicine, Nord, Centro, Sud e isole), poi quelle cercate da piu' tempo. Data in copertura.yaml,
+    sezione province: {SIGLA: AAAA-MM-GG}."""
+    from .italia import PROVINCE
+    done = cov.get("province") or {}
+    rows = []
+    for i, (sigla, info) in enumerate(PROVINCE.items()):
+        if sigla == skip:
+            continue
+        d = _day(done.get(sigla))
+        rows.append((d or date.min, i, info, d.isoformat() if d else "mai"))
+    rows.sort(key=lambda r: (r[0], r[1]))
+    return [(info, when) for _, _, info, when in rows[:n]]
+
+
+def province_towns(sigla: str, cov: dict, n: int) -> list[tuple[str, str]]:
+    """I comuni della provincia (config/comuni.csv) controllati da piu' tempo o mai, per la ricerca per comune."""
+    import csv
+    path = ROOT / "config" / "comuni.csv"
+    lines = [l for l in path.read_text(encoding="utf-8").splitlines() if l and not l.startswith("#")]
+    from .italia import PROVINCE
+    capo = PROVINCE.get(sigla, {}).get("capoluogo", "")
+    names = [r["comune"] for r in csv.DictReader(lines) if r["sigla"] == sigla and r["comune"] != capo]
+    done = cov.get(f"comuni_{sigla}") or {}
+    return oldest({t: done.get(t) for t in names}, n)
 
 
 def pc_status(today: date | None = None) -> tuple[str, int | None]:
@@ -242,6 +270,16 @@ def main(argv=None) -> int:
     for scope, when in oldest(scopes, b["ambiti_categorie"]):
         print(f"       · {scope} (ultima ricerca: {when})")
     print(f"   - fonti nuove da cercare e valutare: {b['fonti_nuove']}")
+
+    from .italia import all_italy
+    if all_italy(settings()["area"]["provinces"]) and b["province_italia"]:
+        print(f"\n2b. Resto d'Italia (area: tutta Italia): {b['province_italia']} province a rotazione; per ognuna "
+              f"capoluogo (Comune, ufficio turistico, teatri, musei), un ambito delle categorie e i comuni indicati. "
+              f"Date in copertura.yaml: province.<SIGLA> e comuni_<SIGLA>.<Comune>")
+        for info, when in italy_provinces(cov, b["province_italia"], sigla):
+            towns = ", ".join(t for t, _ in province_towns(info["sigla"], cov, b["comuni_per_provincia"]))
+            print(f"       · {info['provincia']} ({info['sigla']}, {info['regione']}) | capoluogo {info['capoluogo']} | "
+                  f"comuni: {towns} | ultima ricerca {when}")
 
     print("\n3. Misura e memoria")
     print(f"   - test di copertura: {b['test_copertura']} eventi (ops/espansione.md)")

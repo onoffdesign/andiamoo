@@ -175,6 +175,9 @@ def write_held(items: list[dict], path=None) -> int:
         except ValueError:
             old = []
     today = today_rome()
+    # le voci vecchie restano solo se il loro link e' ancora vietato o da verificare: le altre (fonte ammessa nel
+    # frattempo) le ricalcola ogni pubblicazione, e se tornano pubblicabili escono da qui
+    old = [i for i in old if blocked(i.get("link"))]
     by_uid = {i.get("uid") or f"{i.get('titolo')}|{i.get('inizio')}": i for i in old}
     for i in items:
         key = i.get("uid") or f"{i.get('titolo')}|{i.get('inizio')}"

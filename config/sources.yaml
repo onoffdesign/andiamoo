@@ -155,7 +155,7 @@ sources:
     type: podismoveneto
     enabled: true
     base_url: https://calendariopodismoveneto.blogspot.com
-    provinces: ["TV"]
+    provinces: ["TV", "PD", "VE", "VI", "VR", "BL", "RO"]   # tutto il Veneto (area tutta Italia dal 2026-11-28)
     ai_rewrite: false
     note: "Blog con pagine mensili, una riga per gara. Si tengono solo le gare (TV), non annullate."
 

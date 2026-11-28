@@ -67,8 +67,11 @@ frazione, fuori area) finiscono in `ops/senza-posizione.json`: sistemali subito 
   se contengono eventi della provincia, estrai i singoli eventi e aggiungili uno per uno. Gli eventi ricorrenti
   (mercatino ogni terza domenica, visite ogni sabato) vanno divisi in date singole; mostre e rassegne con date
   continue restano un evento unico con inizio e fine.
-- **Area**: solo le province elencate in `area.provinces` di `config/settings.yaml` (oggi solo Treviso; si allarga
-  come spiegato in `ops/espansione.md`). Eventi fuori area, conclusi, annullati o che non sono eventi: rimuovi.
+- **Area**: dal 2026-11-28 **tutta Italia** (`area.provinces: ["tutte"]` in `config/settings.yaml`). Treviso resta la
+  provincia coperta in profondita' (tutti i comuni, tutte le categorie); le altre 106 province si cercano a rotazione
+  (sezione "2b" del piano della notte, ordine in `pipeline/italia.py`). Eventi fuori dall'Italia, conclusi, annullati o
+  che non sono eventi: rimuovi. Per i pochi nomi di comune che esistono in due province (Calliano, Castro, Livo,
+  Peglio, Samone, San Teodoro) scrivi la sigla nel campo town: "Calliano (TN)".
 - **Posizione giusta sulla mappa**: ogni punto deve stare dove si svolge davvero l'evento. Se hai dubbi (solo il
   comune, punto lontano dal centro del comune, luogo con nome generico o omonimo), fai una ricerca: sito
   dell'organizzatore, pagina del luogo, mappe e schede di luoghi (OpenStreetMap, Wikipedia, komoot, siti turistici)
@@ -234,6 +237,14 @@ redazione) e le fonti da cui vengono, cosi' non si spende una ricerca su cio' ch
    Se il push fallisce per un conflitto, ripeti pull e push; non forzare mai.
 
 ## Ricerca degli eventi
+
+**Resto d'Italia (fase 2b del piano).** Per ogni provincia indicata dal piano: pagina eventi del Comune capoluogo e
+dell'ufficio turistico o portale turistico ufficiale (regione, provincia, APT), teatri e musei principali, un ambito
+delle categorie ("concerti <provincia> <mese> <anno>"...), e i comuni indicati. Stesse regole (regola fonti, solo
+fatti verificati, riassunti originali). Le pagine ufficiali che elencano molti eventi vanno nel catalogo
+`ops/fonti.yaml` e, se hanno dati strutturati, in `config/sources.yaml`: cosi' entrano nelle fonti del giro e la
+provincia cresce notte dopo notte senza ricercare da capo. Scrivi la data in `copertura.yaml` (`province.<SIGLA>` e
+`comuni_<SIGLA>.<Comune>`).
 
 Obiettivo: trovare **tutti** gli eventi e le iniziative pubbliche della **provincia attiva** (`ops/espansione.md`)
 che non sono ancora sul sito; nelle province gia' sature basta la manutenzione delle fonti note. Orizzonte:

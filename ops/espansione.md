@@ -1,5 +1,10 @@
 # Espansione per province
 
+> **Dal 2026-11-28 l'area e' tutta Italia** (decisione di Federico): `area.provinces: ["tutte"]`. Treviso resta la
+> provincia "attiva", coperta in profondita'; tutte le altre si cercano a rotazione ogni notte (piano della notte,
+> sezione 2b, ordine in `pipeline/italia.py`, che segue l'ordine qui sotto). Il criterio di saturazione serve ora a
+> decidere quale provincia passa da "a rotazione" a "attiva" (coperta in profondita'), non piu' a aprire l'area.
+
 ANDIAMO? cresce **una provincia alla volta**. Si lavora su una provincia finche' e' "satura" (gli eventi trovati non
 aumentano piu' di tanto), poi si aggiunge la successiva. Le province gia' sature non si abbandonano: restano nel
 giro del PC e nella manutenzione notturna, ma la ricerca nuova si concentra sulla provincia attiva.

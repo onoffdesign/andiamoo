@@ -48,3 +48,14 @@ def test_pc_escluso_non_raccoglie(monkeypatch, capsys):
     monkeypatch.setattr(report, "settings", lambda: {"pc": {"attivo": False}})
     assert run.main([]) == 0 and report.main([]) == 0
     assert "PC escluso" in capsys.readouterr().out
+
+
+def test_tutta_italia_e_nomi_doppi(monkeypatch):
+    monkeypatch.setattr(pubblica, "settings", lambda: {"area": {"provinces": ["tutte"]}})
+    sigle = pubblica.allowed_sigle()
+    assert len(sigle) == 107 and {"TV", "PA", "SU"} <= sigle
+    towns = pubblica.load_towns()
+    assert pubblica.town_info("Calliano (TN)", towns)["sigla"] == "TN"
+    assert pubblica.town_info("Calliano (AT)", towns)["sigla"] == "AT"
+    ev = _ev(town="Padova")
+    assert pubblica.place(ev, towns, [], sigle) == "" and 45.3 < ev.lat < 45.5
