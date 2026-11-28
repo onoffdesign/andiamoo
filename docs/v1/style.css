@@ -761,12 +761,11 @@ body.view-list .stage { background: var(--bg) var(--paper); }
    ===================================================================================================== */
 :root {
   --display: "Patrick Hand", "Figtree", system-ui, sans-serif;   /* etichette, pulsanti: stampatello a mano */
-  --text: "Patrick Hand", "Figtree", system-ui, sans-serif;      /* testi */
-  --hand: "Caveat", "Patrick Hand", cursive;                     /* titoli dell'elenco: corsivo a pennarello */
+  --text: "Figtree", system-ui, sans-serif;                      /* testi da leggere: titoli eventi, luoghi, descrizioni */
+  --hand: "Patrick Hand", "Figtree", system-ui, sans-serif;      /* titoli dei giorni e date: lo stesso stampatello a mano */
   --bg: #f4efe3; --land: #5db48b; --panel: #fbf8f0; --chip: #efe8d8; --line: #e2d9c4;
   --live: #f4b942; --live-ink: #a8730a;
   --paper: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .36 0 0 0 0 .3 0 0 0 0 .2 .7 0 0 0 -.3'/%3E%3C/filter%3E%3Cfilter id='b'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.012 .03' numOctaves='2' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .37 0 0 0 0 .24 .35 0 0 0 -.16'/%3E%3C/filter%3E%3Crect width='280' height='280' filter='url%28%23a%29'/%3E%3Crect width='280' height='280' filter='url%28%23b%29'/%3E%3C/svg%3E");
-  font-size-adjust: ex-height .5;
 }
 body { background: var(--bg) var(--paper); }
 .wordmark, .kicker, .presets button, .chip, .pill-btn, .cta, .detail h2, .card h3, .group, .text-btn, .sort,
@@ -1124,3 +1123,55 @@ body.view-list .inline-card .card.full > .fav { top: 6px; }
   .maplibregl-ctrl-bottom-right { right: auto !important; left: 2px !important; bottom: calc(2px + var(--sab)) !important; }
   .maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib.maplibregl-compact-show { max-width: calc(100vw - 90px); }
 }
+
+
+/* =====================================================================================================
+   Sistema unico di caratteri e pulsanti.
+   - Testo da leggere (titoli degli eventi, luoghi, descrizioni): Figtree.
+   - Etichette, pulsanti, date e titoli dei giorni: Patrick Hand (stampatello a mano), maiuscolo per i pulsanti.
+   - Pulsanti: stessa altezza, stesso bordo d'inchiostro, stessi angoli irregolari; attivo = inchiostro pieno.
+   ===================================================================================================== */
+:root { --btn-h: 36px; --btn-r: 10px 7px 11px 6px / 7px 11px 6px 10px; }
+body, .card, .panel, .dlg, .toast { font-family: var(--text); }
+.card { --display: "Patrick Hand", "Figtree", system-ui, sans-serif; --text: "Figtree", system-ui, sans-serif; }
+
+/* pulsanti ed etichette */
+.chip, .pill-btn, .cal-btn, .view-seg button, .presets button, .sort, .fav-btn, .seg-btn, .near-actions button, .text-btn,
+.btn-dark, .btn-light, .card .more, .day-tag, .live-tag, .acc, .cal-nav, .chip.more-filters, .seg-label, .cal-month,
+.mlabel, .wordmark, .field-badge, .cta {
+  font-family: var(--display) !important; font-stretch: normal !important; font-weight: 400 !important;
+  text-transform: uppercase; letter-spacing: .05em;
+}
+.chip, .cal-btn, .view-seg button, .presets button, .sort, .fav-btn, .seg-btn, .near-actions button, .pill-btn, .cal-nav {
+  height: var(--btn-h); border-radius: var(--btn-r) !important; font-size: .9375rem !important;
+}
+.chip, .presets button, .seg-btn, .near-actions button, .sort, .cal-btn, .cal-nav { background: var(--chip); border: 1.5px solid transparent; }
+.chip:hover, .presets button:hover, .seg-btn:hover, .near-actions button:hover, .sort:hover, .cal-btn:hover, .cal-nav:hover { border-color: rgba(29, 27, 24, .35); }
+.presets button[aria-pressed="true"], .seg-btn[aria-pressed="true"], .sort[aria-pressed="true"], .days[data-open="true"] .cal-btn {
+  background: #1d1b18 !important; color: #fff !important; border-color: #1d1b18;
+}
+.chip .n { font-family: var(--text); font-size: .75rem; letter-spacing: 0; }
+.view-seg { border-radius: var(--btn-r); }
+.view-seg button { height: calc(var(--btn-h) - 6px); }
+.card .more { height: 44px; font-size: 1.0625rem !important; border-radius: var(--btn-r); }
+.card-actions .mini { border-radius: var(--btn-r); }
+.day-tag, .live-tag, .acc { font-size: .875rem !important; height: 26px; border-radius: var(--btn-r); }
+.acc { letter-spacing: .04em; }
+.pill-btn.add-btn { font-size: 1rem !important; }
+.wordmark { font-size: 1.25rem; letter-spacing: .06em; }
+
+/* titoli degli eventi: Figtree, pieno e grande, a capo tra parole intere */
+.card h3, .card.full h3, body.view-list .item h3, .item h3 {
+  font-family: var(--text) !important; font-stretch: normal !important; text-transform: none !important;
+  font-weight: 700 !important; letter-spacing: -.005em !important; color: #14120f;
+}
+.card.full h3 { font-size: 1.375rem !important; line-height: 1.2 !important; }
+.card-place b { font-weight: 700; }
+.card-desc { font-family: var(--text); }
+
+/* date e giorni: stampatello a mano */
+.group, .cards-day { font-family: var(--hand) !important; font-weight: 400 !important; letter-spacing: .02em !important; }
+.card-when .w-day { font-family: var(--hand) !important; font-weight: 400; font-size: 1.75rem; letter-spacing: .02em; }
+.card-when .t { font-family: var(--hand); font-weight: 400; font-size: 1.375rem; letter-spacing: .02em; }
+.card-when .u, body.view-list .inline-card .card-when .u { font-family: var(--hand); font-weight: 400; font-size: 1.1875rem; letter-spacing: .02em; }
+.item .when { font-family: var(--hand); font-weight: 400 !important; letter-spacing: .02em; }
