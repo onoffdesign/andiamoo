@@ -1067,7 +1067,10 @@
       if (fit && onMap.length && !state.selected) {
         const b = new maplibregl.LngLatBounds();
         onMap.forEach((e) => b.extend([e.lon, e.lat]));
-        map.fitBounds(b, { padding: mapPadding(), maxZoom: 12, duration: 0 });
+        const sw = b.getSouthWest(), ne = b.getNorthEast();
+        if (Math.abs(ne.lng - sw.lng) < 1e-4 && Math.abs(ne.lat - sw.lat) < 1e-4)    // un solo punto: niente adattamento
+          map.easeTo({ center: b.getCenter(), zoom: 12, padding: mapPadding(), duration: 0 });
+        else map.fitBounds(b, { padding: mapPadding(), maxZoom: 12, duration: 0 });
       }
     }
   }
