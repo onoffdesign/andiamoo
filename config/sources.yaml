@@ -248,7 +248,7 @@ sources:
     town: Spresiano
     page_size: 40
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-16: la pagina del Comune descrive i servizi MyPortal; codice IPA dal codice catastale I927. Da controllare nel rapporto: se 404, passare a html_llm su /home/vivere/eventi.html come Maser e Loria."
+    note: "Aggiunta da Claude il 2026-11-16: la pagina del Comune descrive i servizi MyPortal; codice IPA dal codice catastale I927. Da controllare nel rapporto: se 404, passare a html_llm su /home/vivere/eventi.html come Maser e Loria. Quinto giro del 2026-11-28: l'API risponde ma da' solo 5 progetti annuali per giovani (Altavventura, Passaporto per il futuro...), nessun evento datato."
 
   - id: comune-maser
     name: Comune di Maser
@@ -600,7 +600,7 @@ sources:
     per_page: 50
     max_pages: 4
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-28: The Events Calendar (/wp-json/tribe/events/v1/events, 148 eventi in 120 giorni), robots.txt senza divieti. Eventi importati senza venue ne' orario: luogo e ora sono nel testo della descrizione, da controllare."
+    note: "Aggiunta da Claude il 2026-11-28: The Events Calendar (/wp-json/tribe/events/v1/events, 148 eventi in 120 giorni), robots.txt senza divieti. Eventi importati senza venue ne' orario: luogo e ora sono nel testo della descrizione, da controllare. Quinto giro del 2026-11-28: 148 eventi, una cinquantina non sul sito, ma quasi tutti importati da Feratel con ora 0:00 e senza luogo (servono le schede degli organizzatori); aggiunti solo i 5 con luogo e data certi."
   - id: sala-luttazzi-trieste
     name: Sala Luttazzi (Comune di Trieste)
     type: tribe_api
@@ -660,7 +660,7 @@ sources:
     listing_urls:
       - https://www.teatrobellini.it/
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): JSON-LD Event, 17 eventi futuri."
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): JSON-LD Event, 17 eventi futuri. Quinto giro del 2026-11-28: il fetcher del progetto riceve 403 sulla home (anti-bot); gli eventi fino a fine marzo sono gia' sul sito."
 
 # Profili social da seguire a mano: il bot li mostra con /profili.
 # Non vengono letti in automatico (Instagram e Facebook lo vietano e bloccano gli account):

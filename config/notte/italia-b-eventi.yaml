@@ -1456,3 +1456,136 @@ eventi:
   summary: Mostra sul pittore Alessandro Franchi ai Magazzini del Sale e al Museo Civico di Palazzo Pubblico.
   fonte: "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)"
   trovato: "2026-11-28"
+- title: Anghiari Vinicoli
+  start: "2026-12-05T17:00"
+  end: "2026-12-08"
+  venue: Centro storico di Anghiari
+  address: Piazza Baldaccio
+  town: Anghiari
+  lat: 43.5408991
+  lon: 12.0545334
+  category: sagre-feste
+  subcategory: degustazioni
+  access: biglietto
+  price: da 1,50 a 35 euro
+  official_url: "https://www.visittuscany.com/it/eventi/anghiari-vinicoli-dicembre-2026/"
+  summary: "Percorso enogastronomico nel centro storico con degustazioni di vini e distillati e piatti tipici; l'8 dicembre il borgo si illumina di candele con Anghiari si Accende."
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Baldaccio Bruni (OpenStreetMap)"
+  trovato: "2026-11-28"
+- title: The Joyful Gospel Ensemble a Vada
+  start: "2026-12-19T17:30"
+  end: "2026-12-19T19:00"
+  venue: Piazza Garibaldi
+  address: Piazza Giuseppe Garibaldi, Vada
+  town: Rosignano Marittimo
+  lat: 43.3522749
+  lon: 10.4562965
+  category: musica
+  subcategory: concerti
+  access: libero
+  official_url: "https://www.visittuscany.com/it/eventi/vada-the-joyful-gospel-ensemble-19-dicembre-2026/"
+  summary: Concerto gospel in piazza diretto da Riccardo Pagni, organizzato dalla Pro Loco Costa di Vada per il Natale.
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Giuseppe Garibaldi a Vada\
+    \ (OpenStreetMap)"
+  trovato: "2026-11-28"
+- title: Mercatino di Natale a Moggiona
+  start: "2026-12-13T08:00"
+  venue: Borgo di Moggiona
+  address: Moggiona
+  town: Poppi
+  lat: 43.782191
+  lon: 11.7925573
+  category: sagre-feste
+  subcategory: sagre
+  official_url: "https://www.visittuscany.com/it/eventi/mercatini-a-moggiona-13-dicembre-2026/"
+  summary: "Giornata con piatti della cucina casentinese, tra cui l'acquacotta, visite guidate al Percorso del Lupo e agli ecomusei e ricerca di Babbo Natale a lume di lanterna."
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: centro di Moggiona (OpenStreetMap)"
+  trovato: "2026-11-28"
+- title: "La gloria e l'oblio, vita di Pietro Alessandro Guglielmi"
+  start: "2026-12-08T21:00"
+  end: "2026-12-08T23:00"
+  venue: Teatro dei Servi
+  address: Via Palestro
+  town: Massa
+  lat: 44.0396936
+  lon: 10.1425896
+  category: teatro-spettacoli
+  subcategory: teatro
+  access: libero
+  official_url: "https://www.visittuscany.com/it/eventi/massa-la-gloria-e-loblio-8-dicembre-2026/"
+  summary: "Spettacolo di teatro e musica sul compositore massese del Settecento Pietro Alessandro Guglielmi, con Fabio Cristiani e l'Ensemble Massa Cybea."
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Teatro dei Servi (OpenStreetMap)"
+  trovato: "2026-11-28"
+- title: "Il libro d'herbe di Gherardo Cibo"
+  start: "2026-11-15"
+  end: "2027-02-14"
+  venue: Museo Diocesano di Massa
+  address: Via Alberica
+  town: Massa
+  lat: 44.0357933
+  lon: 10.1422981
+  category: arte-cultura
+  subcategory: mostre
+  official_url: "https://www.visittuscany.com/it/eventi/massa-il-libro-dherbe-di-gherardo-cibo-novembre-febbraio-2027/"
+  summary: "Mostra con l'erbario cinquecentesco di Gherardo Cibo della Biblioteca Marucelliana, insieme a libri, dipinti e tessuti sul rapporto tra botanica e arte."
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Museo Diocesano di Massa (OpenStreetMap)"
+  trovato: "2026-11-28"
+- title: "Sant'Agostino ad Asciano: tra arte, storia e devozione"
+  start: "2026-11-28T16:00"
+  end: "2026-11-28T18:00"
+  venue: "Chiesa di Sant'Agostino"
+  address: "Vicolo Sant'Agostino"
+  town: Asciano
+  lat: 43.2364118
+  lon: 11.558894
+  category: arte-cultura
+  subcategory: conferenze
+  official_url: "https://www.visittuscany.com/it/eventi/asciano-santagostino-tra-arte-storia-e-devozione-28-novembre-2026/"
+  summary: "Convegno sui restauri di tre tele della chiesa di Sant'Agostino, seguito da una visita alla Madonna delle Grazie al Museo Civico di Palazzo Corboli."
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: chiesa di Sant'Agostino (OpenStreetMap)"
+  trovato: "2026-11-28"
+- title: Stelle tra le Mura
+  start: "2026-12-05T11:00"
+  end: "2026-12-06T19:00"
+  venue: Castello di Monteriggioni
+  address: Piazza Dante Alighieri
+  town: Monteriggioni
+  lat: 43.3899124
+  lon: 11.2236519
+  category: sagre-feste
+  subcategory: degustazioni
+  official_url: "https://www.visittuscany.com/it/eventi/monteriggioni-stelle-tra-le-mura-5-6-dicembre-2026/"
+  summary: Due giornate di gastronomia con chef, ristoratori e produttori nelle piazze del castello, con la Banda dei Babbo Natale.
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Dante Alighieri nel castello\
+    \ (OpenStreetMap)"
+  trovato: "2026-11-28"
+- title: La Magia di Natale a Civitella
+  start: "2026-12-08T10:00"
+  end: "2026-12-08T23:00"
+  venue: Centro storico di Civitella
+  address: Via Provinciale di Civitella 24
+  town: Civitella in Val di Chiana
+  lat: 43.417645
+  lon: 11.723338
+  category: sagre-feste
+  subcategory: ricorrenze
+  access: libero
+  official_url: "https://www.visittuscany.com/it/eventi/civitella-in-val-di-chiana-la-magia-del-natale-8-dicembre-2026/"
+  summary: Giornata natalizia nel borgo con mercatini, Babbo Natale, caccia al tesoro per bambini, banda e coro, e accensione delle luminarie al tramonto.
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: borgo di Civitella (OpenStreetMap)"
+  trovato: "2026-11-28"
+- title: "L'Incanto del Natale a Sinalunga"
+  start: "2026-12-05T15:00"
+  end: "2026-12-06"
+  venue: Piazza Garibaldi
+  address: Piazza Garibaldi
+  town: Sinalunga
+  lat: 43.2122167
+  lon: 11.7363007
+  category: sagre-feste
+  subcategory: ricorrenze
+  access: libero
+  official_url: "https://www.visittuscany.com/it/eventi/sinalunga-lincanto-del-natale-5-6dicembre-2026/"
+  summary: Due pomeriggi di spettacoli, canti di Natale, concerto gospel, tombola e mercatini artigianali in piazza Garibaldi.
+  fonte: "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Garibaldi (OpenStreetMap)"
+  trovato: "2026-11-28"

@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:49+01:00",
+ "generato": "2026-11-28T20:51+01:00",
  "riepilogo": {
-  "eventi_controllati": 3210,
+  "eventi_controllati": 3258,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 89,
   "solo_comune_con_luogo": 77,
   "solo_comune_senza_luogo": 26,
-  "candidati_luoghi_noti": 39
+  "candidati_luoghi_noti": 40
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -661,6 +661,15 @@
   },
   {
    "nomi": [
+    "Teatro Sperimentale"
+   ],
+   "comune": "Ancona",
+   "lat": 43.61352,
+   "lon": 13.51541,
+   "eventi": 8
+  },
+  {
+   "nomi": [
     "Teatro Comunale"
    ],
    "comune": "Cagli",
@@ -757,15 +766,6 @@
    "lat": 43.78194,
    "lon": 11.20315,
    "eventi": 5
-  },
-  {
-   "nomi": [
-    "Ex Cavallerizza"
-   ],
-   "comune": "Lucca",
-   "lat": 43.84286,
-   "lon": 10.49664,
-   "eventi": 4
   }
  ]
 }

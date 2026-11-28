@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T20:49+01:00",
+ "generato": "2026-11-28T20:51+01:00",
  "eventi": [
   {
    "uid": "4d5cf01bcdc28c8e",
@@ -67,6 +67,28 @@
    "riassunto": "Mostra d'arte di Giorgio Piccaia allestita nel Battistero di Agrate Conturbia.",
    "lat": 45.6770743,
    "lon": 8.5521356,
+   "precisione": "address"
+  },
+  {
+   "uid": "8000a1f6f716d63e",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Mostra 1946-2026: 80 anni di donne al voto",
+   "inizio": "2026-11-13",
+   "fine": "2026-12-30",
+   "luogo": "Municipio di Silea",
+   "indirizzo": "Via Don Minzoni 12",
+   "comune": "Silea",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "gratuito",
+   "fonte": "comune.silea.tv.it",
+   "pagina_fonte": "https://www.comune.silea.tv.it/eventi/Mostra-fotografica.html",
+   "sito_ufficiale": "https://www.comune.silea.tv.it/eventi/Mostra-fotografica.html",
+   "riassunto": "Esposizione di disegni del Gruppo Pittura Carbonera sugli ottant'anni del voto alle donne, nell'atrio del Municipio; aperta lunedi' 9-12 e 15-17, mercoledi' 11-13 e venerdi' 9-13.",
+   "lat": 45.65425,
+   "lon": 12.29909,
    "precisione": "address"
   },
   {
@@ -467,6 +489,72 @@
    "riassunto": "Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.",
    "lat": 45.4787468,
    "lon": 8.6956298,
+   "precisione": "address"
+  },
+  {
+   "uid": "a460555e965e65d9",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Novembre in Festa a Contigliano",
+   "inizio": "2026-11-28T15:30",
+   "fine": "2026-11-29",
+   "luogo": "Parco di Villa Franceschini",
+   "indirizzo": "Via Ettore Franceschini",
+   "comune": "Contigliano",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visitlazio.com",
+   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)",
+   "sito_ufficiale": "https://www.visitlazio.com/eventi-lazio/novembre-in-festa-contigliano-celebra-lautunno/",
+   "riassunto": "Festa d'autunno con mercatino degli artigiani, laboratori per famiglie, degustazioni e musica dal vivo nel centro storico e nel parco.",
+   "lat": 42.4094752,
+   "lon": 12.7727376,
+   "precisione": "address"
+  },
+  {
+   "uid": "442d9c7bdf1302a8",
+   "motivi": [
+    "titolo da ripulire"
+   ],
+   "titolo": "Sulle note dell'avventura: lettura animata con musiche di Primo Beraldo (Sile Classica)",
+   "inizio": "2026-11-28T17:00",
+   "fine": null,
+   "luogo": "Auditorium dell'Istituto Comprensivo",
+   "indirizzo": "Via Antonio Vivaldi 30",
+   "comune": "Roncade",
+   "categoria": "famiglie-bambini",
+   "accesso": "offerta",
+   "prezzo": "contributo responsabile",
+   "fonte": "sileclassica.it",
+   "pagina_fonte": "https://www.sileclassica.it/",
+   "sito_ufficiale": "https://www.sileclassica.it/sile-classica-2026/28-novembre-sulle-note-dellavventura-sc26",
+   "riassunto": "Lettura animata per bambini e famiglie con i giovani pianisti di irisMusica e gli Amici di Elmer, dedicata ai brani sul Far West del compositore roncadese Primo Beraldo.",
+   "lat": 45.6302199,
+   "lon": 12.3790565,
+   "precisione": "address"
+  },
+  {
+   "uid": "d733bb9b1ed1489c",
+   "motivi": [
+    "titolo da ripulire"
+   ],
+   "titolo": "I racconti del Memoriale: Carlo Scarpa, il Memoriale Brion e il rapporto con Venezia",
+   "inizio": "2026-11-28T11:00",
+   "fine": null,
+   "luogo": "Memoriale Brion",
+   "indirizzo": "Via Brioni",
+   "comune": "Altivole",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "18 euro, ridotto 13, iscritti FAI e residenti 10, gratis fino a 5 anni",
+   "fonte": "fondoambiente.it",
+   "pagina_fonte": "https://fondoambiente.it/eventi/i-racconti-del-memoriale",
+   "sito_ufficiale": "https://fondoambiente.it/eventi/i-racconti-del-memoriale",
+   "riassunto": "Visita guidata speciale di un'ora e mezza nell'anniversario della morte di Carlo Scarpa, con prenotazione obbligatoria.",
+   "lat": 45.75136,
+   "lon": 11.91341,
    "precisione": "address"
   },
   {
@@ -958,6 +1046,50 @@
    "precisione": "address"
   },
   {
+   "uid": "57f80adabd9671ff",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Street Food alla Sonninese",
+   "inizio": "2026-11-29T12:00",
+   "fine": null,
+   "luogo": "Piazza Garibaldi",
+   "indirizzo": "Piazza Giuseppe Garibaldi",
+   "comune": "Sonnino",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visitlazio.com",
+   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)",
+   "sito_ufficiale": "https://www.visitlazio.com/eventi-lazio/street-food-alla-sonninese/",
+   "riassunto": "Pranzo con piatti della tradizione di Sonnino preparati in cucine temporanee nell'area pedonale tra via Cesare Battisti e piazza Garibaldi.",
+   "lat": 41.4141931,
+   "lon": 13.2419263,
+   "precisione": "address"
+  },
+  {
+   "uid": "457c14a1da3a9555",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Sagra della Polenta a Rocca Massima, VI edizione",
+   "inizio": "2026-11-29T10:00",
+   "fine": null,
+   "luogo": "Centro di Rocca Massima",
+   "indirizzo": "Via del Municipio 47",
+   "comune": "Rocca Massima",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visitlazio.com",
+   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)",
+   "sito_ufficiale": "https://www.visitlazio.com/eventi-lazio/vi-edizione-della-sagra-della-polenta-a-rocca-massima/",
+   "riassunto": "Mercatino di artigianato e prodotti tipici dal mattino e distribuzione della polenta con salsicce dalle 13, con musica dal vivo.",
+   "lat": 41.67837,
+   "lon": 12.91986,
+   "precisione": "address"
+  },
+  {
    "uid": "39bcc9bb3ce777fa",
    "motivi": [
     "durata oltre 45 giorni: sono date singole o un periodo?"
@@ -1199,141 +1331,6 @@
    "lat": 44.796453,
    "lon": 10.325244,
    "precisione": "address"
-  },
-  {
-   "uid": "b738e4d26bf3da3d",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Omaggio a Gyorgy Kurtag: Anna Prohaska e Isabelle Faust",
-   "inizio": "2026-12-02",
-   "fine": null,
-   "luogo": "Teatro Municipale Valli",
-   "indirizzo": "Piazza Martiri del 7 Luglio 7",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "iteatri.re.it",
-   "pagina_fonte": "https://www.iteatri.re.it/",
-   "sito_ufficiale": "https://www.iteatri.re.it/spettacolo/anna-prohaska-soprano-isabelle-faust-violino/",
-   "riassunto": "Concerto del soprano Anna Prohaska e della violinista Isabelle Faust nel centenario della nascita di Gyorgy Kurtag.",
-   "lat": 44.701106,
-   "lon": 10.631383,
-   "precisione": "address"
-  },
-  {
-   "uid": "84c5a9c994c9df48",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Dentro e fuori dai libri... con un buco nel calzino",
-   "inizio": "2026-12-02T17:00",
-   "fine": null,
-   "luogo": "Biblioteca 0-18 di Cuneo",
-   "indirizzo": "Via Santa Maria 11",
-   "comune": "Cuneo",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "cuneocultura.it",
-   "pagina_fonte": "https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)",
-   "sito_ufficiale": "https://www.cuneocultura.it/evento/dentro-e-fuori-dai-libri-con-un-buco-nel-calzino-24-48-mesi/",
-   "riassunto": "Laboratorio di lettura per genitori e bambini dai 24 ai 48 mesi.",
-   "lat": 44.39465,
-   "lon": 7.55021,
-   "precisione": "venue"
-  },
-  {
-   "uid": "ae1e0d4e8db9ece9",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Abisso e Potere (Teatro dei Venti)",
-   "inizio": "2026-12-02",
-   "fine": "2026-12-06",
-   "luogo": "Teatro delle Passioni, Sala Grande",
-   "indirizzo": "Viale Carlo Sigonio 382",
-   "comune": "Modena",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "modena.emiliaromagnateatro.com",
-   "pagina_fonte": "https://modena.emiliaromagnateatro.com/",
-   "sito_ufficiale": "https://modena.emiliaromagnateatro.com/spettacolo/abisso-e-potere/",
-   "riassunto": "Spettacolo della compagnia modenese Teatro dei Venti nella Sala Grande del Teatro delle Passioni.",
-   "lat": 44.63796,
-   "lon": 10.92312,
-   "precisione": "venue"
-  },
-  {
-   "uid": "707fb147d1c8ee92",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "possibile doppione di e5be0d6036728828"
-   ],
-   "titolo": "Pinocchio e la fatica di diventare grandi: serata in auditorium",
-   "inizio": "2026-12-03T20:20",
-   "fine": "2026-12-03T23:00",
-   "luogo": "Auditorium della Scuola Media",
-   "indirizzo": "Via Roma 65/a",
-   "comune": "Chiarano",
-   "categoria": "arte-cultura",
-   "accesso": "libero",
-   "prezzo": "ingresso libero",
-   "fonte": "comune.chiarano.tv.it",
-   "pagina_fonte": "https://www.comune.chiarano.tv.it/eventi/Serata-in-auditorium--Pinocchio--e-la-fatica-di-diventare-grandi-1.html",
-   "sito_ufficiale": "https://www.comune.chiarano.tv.it/eventi/Serata-in-auditorium--Pinocchio--e-la-fatica-di-diventare-grandi-1.html",
-   "riassunto": "Serata di formazione promossa dal Comune di Chiarano che rilegge il Pinocchio di Collodi come racconto della crescita, rivolta anche agli adulti.",
-   "lat": 45.72841,
-   "lon": 12.58214,
-   "precisione": "town"
-  },
-  {
-   "uid": "3b9eaf4cd67c7cfc",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Dalla bussola al LiDAR (I giovedi' del CAI di Feltre)",
-   "inizio": "2026-12-03T20:30",
-   "fine": null,
-   "luogo": "Sala Guarnieri",
-   "indirizzo": "",
-   "comune": "Pedavena",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "dolomitiprealpi.it",
-   "pagina_fonte": "https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events",
-   "sito_ufficiale": "https://www.dolomitiprealpi.it/event/i-giovedi-del-cai-di-feltre-30/",
-   "riassunto": "Serata con il Gruppo Speleo Feltre su vent'anni di ricerca delle epigrafi militari della Grande Guerra sul Massiccio del Grappa e sull'uso del LiDAR.",
-   "lat": 46.03939,
-   "lon": 11.88144,
-   "precisione": "town"
-  },
-  {
-   "uid": "f942f63c344c092d",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "20a Mostra del Radicchio Rosso di Treviso IGP",
-   "inizio": "2026-12-03",
-   "fine": "2026-12-08",
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Quinto di Treviso",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "fioridinverno.tv",
-   "pagina_fonte": "https://www.fioridinverno.tv/ (letta il 2026-11-28)",
-   "sito_ufficiale": "https://www.fioridinverno.tv/eventi/colori-sapori-di-primavera-quinto/",
-   "riassunto": "Festa dedicata al radicchio trevigiano nell'ambito della rassegna Fiori d'Inverno 2026-2027 promossa da UNPLI Treviso con le Pro Loco e il Consorzio di Tutela.",
-   "lat": 45.646,
-   "lon": 12.16602,
-   "precisione": "town"
   }
  ]
 }

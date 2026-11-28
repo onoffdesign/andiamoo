@@ -641,17 +641,25 @@ comuni_LU:
   Viareggio: '2026-11-28'
   Seravezza: '2026-11-28'
   Pietrasanta: '2026-11-28'
+  Capannori: '2026-11-28'
 comuni_AR:
   Arezzo: '2026-11-28'
   Sansepolcro: '2026-11-28'
+  Anghiari: '2026-11-28'
+  Poppi: '2026-11-28'
+  Civitella in Val di Chiana: '2026-11-28'
 comuni_LI:
   Livorno: '2026-11-28'
   San Vincenzo: '2026-11-28'
   Portoferraio: '2026-11-28'
   Castagneto Carducci: '2026-11-28'
+  Rosignano Marittimo: '2026-11-28'
 comuni_SI:
   Siena: '2026-11-28'
   Chiusi: '2026-11-28'
+  Asciano: '2026-11-28'
+  Monteriggioni: '2026-11-28'
+  Sinalunga: '2026-11-28'
 comuni_PT:
   Pistoia: '2026-11-28'
   Montecatini-Terme: '2026-11-28'
@@ -660,12 +668,19 @@ comuni_PO:
   Montemurlo: '2026-11-28'
 comuni_GR:
   Grosseto: '2026-11-28'
+categorie_PT:
+  "Sport > Montagna ed escursionismo": 2026-11-28
 comuni_MS:
   Massa: '2026-11-28'
   Carrara: '2026-11-28'
   Mulazzo: '2026-11-28'
   Villafranca in Lunigiana: '2026-11-28'
   Comano: '2026-11-28'
+  Fivizzano: '2026-11-28'
+  Casola in Lunigiana: '2026-11-28'
+  Tresana: '2026-11-28'
+  Fosdinovo: '2026-11-28'
+  Aulla: '2026-11-28'
 comuni_AN:
   Ancona: '2026-11-28'
   Fabriano: '2026-11-28'
