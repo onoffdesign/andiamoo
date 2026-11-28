@@ -41200,3 +41200,4150 @@ eventi:
     fonte: https://www.comune.cuneo.it/vivere-il-comune/eventi/municipio-a-porte-aperte-dicembre/
     trovato: '2026-11-28'
     nota: coordinate da OpenStreetMap (Nominatim, Via Roma 28)
+  - title: Presepe galleggiante al Porto Antico
+    start: '2026-12-05'
+    end: '2027-01-10'
+    venue: Calata Mandraccio, Porto Antico
+    address: Calata Mandraccio
+    town: Genova
+    lat: 44.4075316
+    lon: 8.9268062
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Presepe allestito su un pontile in Calata Mandraccio per il Natale al Porto Antico.
+    fonte: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    trovato: '2026-11-28'
+  - title: Accensione delle luminarie e parata sui trampoli, Aspettando Circumnavigando
+    start: 2026-12-05T17:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Accensione delle luci di Natale al Porto Antico e parata sui trampoli che anticipa il Circumnavigando Festival.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Presepe vivente del Gruppo Storico Voltri
+    start: 2026-12-06T16:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: arte-cultura
+    subcategory: spiritualita
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Corteo in costume del presepe vivente del Gruppo Storico Voltri al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Ice & Chocolate sulla pista del Porto Antico
+    start: 2026-12-08T16:00
+    end: 2026-12-08T19:30
+    venue: Pista di pattinaggio, Piazza delle Feste
+    address: Piazza delle Feste, Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Pomeriggio sulla pista di pattinaggio di piazza delle Feste con cioccolata calda offerta fino a esaurimento.
+    fonte: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    trovato: '2026-11-28'
+  - title: 'Sea Stories: A Christmas Carol'
+    start: 2026-12-19T17:00
+    end: 2026-12-19T19:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo itinerante ispirato al Canto di Natale tra il Porto Antico e Porta Siberia.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Aspettando Babbo Natale sulla pista di pattinaggio
+    start: 2026-12-24T10:00
+    end: 2026-12-24T15:30
+    venue: Pista di pattinaggio, Piazza delle Feste
+    address: Piazza delle Feste, Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Babbo Natale accoglie i bambini sulla pista di piazza delle Feste con un dono e una foto.
+    fonte: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    trovato: '2026-11-28'
+  - title: Bot Project, Circumnavigando Festival
+    start: 2026-12-26T15:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo di circo contemporaneo del Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Bot Project, Circumnavigando Festival
+    start: 2026-12-27T15:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo di circo contemporaneo del Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Duo Padella, About, Circumnavigando Festival
+    start: 2026-12-28T15:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo di arti di strada del Duo Padella per il Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Duo Padella, About, Circumnavigando Festival
+    start: 2026-12-29T15:30
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo di arti di strada del Duo Padella per il Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Planeta Trampoli, Back 2 Classics, Circumnavigando Festival
+    start: 2026-12-30T15:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo di trampolieri per il Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Ludilo', Resta, Circumnavigando Festival
+    start: 2027-01-03T11:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo con la corda per il Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Matteo Galbusera, The Loser, Circumnavigando Festival
+    start: 2027-01-03T15:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo di circo di Matteo Galbusera per il Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Mr Bang in the street, Circumnavigando Festival
+    start: 2027-01-06T15:00
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo di strada per il Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Artemakia, On the road, Circumnavigando Festival
+    start: 2027-01-06T16:30
+    venue: Porto Antico di Genova
+    address: Porto Antico
+    town: Genova
+    lat: 44.4090664
+    lon: 8.9271757
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/
+    summary: Spettacolo di strada di Artemakia per il Circumnavigando Festival al Porto Antico.
+    fonte: 'https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ (punto esatto non indicato: coordinate di piazza delle Feste)'
+    trovato: '2026-11-28'
+  - title: Rarita' mozartiane, Christophe Rousset
+    start: 2026-11-28T20:00
+    venue: Teatro del Maggio Musicale Fiorentino
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.7788769
+    lon: 11.2348742
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/rarita-mozartiane
+    summary: Concerto di pagine rare di Mozart diretto da Christophe Rousset all'Auditorium del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario
+    trovato: '2026-11-28'
+  - title: Professori dell'Orchestra del Maggio, concerto da camera a Grassina
+    start: 2026-11-29T17:00
+    venue: Chiesa di San Michele Arcangelo, Grassina
+    address: Via San Michele a Tegolaia
+    town: Bagno a Ripoli
+    lat: 43.7255006
+    lon: 11.294498
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.maggiofiorentino.com/events/professori-dellorchestra-del-maggio-grassina-2026
+    summary: Concerto da camera dei professori dell'Orchestra del Maggio nella chiesa di San Michele Arcangelo a Grassina.
+    fonte: https://www.maggiofiorentino.com/calendario
+    trovato: '2026-11-28'
+  - title: Natale in musica e luce, accensione della Stella all'Isolotto
+    start: 2026-12-08T15:30
+    venue: Piazza dell'Isolotto
+    address: Piazza dell'Isolotto
+    town: Firenze
+    lat: 43.77826
+    lon: 11.2173567
+    category: musica
+    subcategory: concerti
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Festa in piazza dell'Isolotto con coro gospel e accensione della Stella di Natale.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Festa di Natale in piazza Pier Vettori
+    start: 2026-12-16T15:30
+    venue: Piazza Pier Vettori
+    address: Piazza Pier Vettori
+    town: Firenze
+    lat: 43.7716063
+    lon: 11.2329378
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Festa di Natale con la scuola Petrarca e il Centro Commerciale Naturale.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Accensione dell'albero in piazza dei Tigli
+    start: 2026-12-16T17:00
+    venue: Piazza dei Tigli
+    address: Piazza dei Tigli
+    town: Firenze
+    lat: 43.7755073
+    lon: 11.2217688
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Accensione dell'albero di Natale in piazza dei Tigli.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino di raccolta fondi alle Baracche Verdi
+    start: 2026-12-05T09:30
+    venue: Circolo Le Baracche Verdi
+    address: Via delle Mimose 8
+    town: Firenze
+    lat: 43.776901
+    lon: 11.2177103
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino natalizio di raccolta fondi per progetti e associazioni del quartiere, dalle 9.30 alle 12.30.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale ai Bassi
+    start: 2026-12-08T10:00
+    venue: Parrocchia del Santissimo Nome di Gesu' ai Bassi
+    address: Via dell'Argingrosso
+    town: Firenze
+    lat: 43.7819404
+    lon: 11.2031466
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino di Natale della parrocchia del Santissimo Nome di Gesu' ai Bassi, dalle 10 alle 12.30.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale ai Bassi
+    start: 2026-12-13T10:00
+    venue: Parrocchia del Santissimo Nome di Gesu' ai Bassi
+    address: Via dell'Argingrosso
+    town: Firenze
+    lat: 43.7819404
+    lon: 11.2031466
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino di Natale della parrocchia del Santissimo Nome di Gesu' ai Bassi, dalle 10 alle 12.30.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale ai Bassi
+    start: 2026-12-20T10:00
+    venue: Parrocchia del Santissimo Nome di Gesu' ai Bassi
+    address: Via dell'Argingrosso
+    town: Firenze
+    lat: 43.7819404
+    lon: 11.2031466
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino di Natale della parrocchia del Santissimo Nome di Gesu' ai Bassi, dalle 10 alle 12.30.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale ai Bassi
+    start: 2026-12-27T10:00
+    venue: Parrocchia del Santissimo Nome di Gesu' ai Bassi
+    address: Via dell'Argingrosso
+    town: Firenze
+    lat: 43.7819404
+    lon: 11.2031466
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino di Natale della parrocchia del Santissimo Nome di Gesu' ai Bassi, dalle 10 alle 12.30.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino natalizio di Mantignano
+    start: 2026-12-12T16:00
+    venue: Parrocchia di Santa Maria a Mantignano
+    address: Via di Mantignano
+    town: Firenze
+    lat: 43.7830371
+    lon: 11.1767684
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino natalizio della parrocchia di Santa Maria a Mantignano.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino natalizio di Mantignano
+    start: 2026-12-13T09:30
+    venue: Parrocchia di Santa Maria a Mantignano
+    address: Via di Mantignano
+    town: Firenze
+    lat: 43.7830371
+    lon: 11.1767684
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino natalizio della parrocchia di Santa Maria a Mantignano.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino natalizio di Mantignano
+    start: 2026-12-19T16:00
+    venue: Parrocchia di Santa Maria a Mantignano
+    address: Via di Mantignano
+    town: Firenze
+    lat: 43.7830371
+    lon: 11.1767684
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino natalizio della parrocchia di Santa Maria a Mantignano.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercatino natalizio di Mantignano
+    start: 2026-12-20T09:30
+    venue: Parrocchia di Santa Maria a Mantignano
+    address: Via di Mantignano
+    town: Firenze
+    lat: 43.7830371
+    lon: 11.1767684
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Mercatino natalizio della parrocchia di Santa Maria a Mantignano.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Fiera e mercatino di beneficenza di Ugnano
+    start: '2026-11-29'
+    end: '2027-01-10'
+    venue: Parrocchia di Santo Stefano a Ugnano
+    address: Via di Ugnano
+    town: Firenze
+    lat: 43.7851887
+    lon: 11.164189
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Fiera e mercatino di beneficenza della parrocchia di Santo Stefano a Ugnano, aperti secondo il calendario esposto.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Presepe artistico e mostra di presepi ai Bassi
+    start: 2026-12-20T16:00
+    end: 2027-01-06T19:00
+    venue: Parrocchia del Santissimo Nome di Gesu' ai Bassi
+    address: Via dell'Argingrosso
+    town: Firenze
+    lat: 43.7819404
+    lon: 11.2031466
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Presepe artistico e mostra di presepi degli Amici del Presepio, aperti tutti i giorni dalle 16 alle 19.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Presepe vivente di Ugnano
+    start: 2026-12-24T21:30
+    venue: Parrocchia di Santo Stefano a Ugnano
+    address: Via di Ugnano
+    town: Firenze
+    lat: 43.7851887
+    lon: 11.164189
+    category: arte-cultura
+    subcategory: spiritualita
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Presepe vivente nella frazione di Ugnano la sera della vigilia di Natale.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Concerto di canti natalizi del Coro Primavere
+    start: 2026-12-16T21:00
+    venue: Circolo Arci P. Pampaloni
+    address: Via Cesare Maccari 104
+    town: Firenze
+    lat: 43.777223
+    lon: 11.2093107
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Canti natalizi del Coro Primavere a cura della Scuola di Musica Landini.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Teachers' show, Athenaeum Musicale
+    start: 2026-12-19T21:00
+    venue: Scuola di musica New Staz, sala Infoland
+    address: Via Attavante 5
+    town: Firenze
+    lat: 43.7679667
+    lon: 11.1941283
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Concerto degli insegnanti dell'Athenaeum Musicale, gratuito fino a esaurimento posti.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: La Befana vien di notte
+    start: 2027-01-05T16:30
+    venue: Piazza dell'Isolotto
+    address: Piazza dell'Isolotto
+    town: Firenze
+    lat: 43.77826
+    lon: 11.2173567
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    summary: Arrivo della Befana in piazza dell'Isolotto con distribuzione di dolci e rogo del fantoccio.
+    fonte: https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026
+    trovato: '2026-11-28'
+  - title: Mercato di Natale in piazza Santa Croce
+    start: 2026-11-14T10:00
+    end: 2026-12-20T23:00
+    venue: Piazza Santa Croce
+    address: Piazza di Santa Croce
+    town: Firenze
+    lat: 43.768869
+    lon: 11.2614982
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.feelflorence.it/en/events/christmas-market-piazza-santa-croce
+    summary: Mercato di Natale con oltre cinquanta casette di legno in piazza Santa Croce, aperto dalle 10 alle 22 dal lunedi' al giovedi' e fino alle 23 nel fine settimana; ingresso libero.
+    fonte: https://www.feelflorence.it/en/events/christmas-market-piazza-santa-croce (risultato di WebSearch su feelflorence.it, portale del Comune di Firenze)
+    trovato: '2026-11-28'
+  - title: La Fabbrica di Babbo Natale
+    start: 2026-11-28T10:00
+    end: 2026-12-13T19:00
+    venue: Arsenali Repubblicani
+    address: Lungarno Ranieri Simonelli
+    town: Pisa
+    lat: 43.7146873
+    lon: 10.3930979
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.terredipisa.it/events/la-fabbrica-di-babbo-natale-agli-arsenali-repubblicani-di-pisa/
+    summary: Allestimento natalizio per bambini agli Arsenali Repubblicani, aperto dalle 10 alle 19.
+    fonte: https://www.terredipisa.it/pisa-eventi/
+    trovato: '2026-11-28'
+  - title: Fashion in Flair, regali di Natale alla Leopolda
+    start: '2026-12-12'
+    end: '2026-12-13'
+    venue: Stazione Leopolda
+    address: Piazza Guerrazzi
+    town: Pisa
+    lat: 43.708589
+    lon: 10.4056663
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.terredipisa.it/pisa-eventi/
+    summary: Mostra mercato di alto artigianato e idee regalo alla Stazione Leopolda di Pisa.
+    fonte: https://www.terredipisa.it/pisa-eventi/ e https://www.turismo.pisa.it/eventi/index.html/?cat=1
+    trovato: '2026-11-28'
+  - title: Natale a Marti, presepi sulla via
+    start: '2026-11-29'
+    venue: Piazza Fantozzi
+    address: Piazza Fantozzi, Marti
+    town: Montopoli in Val d'Arno
+    lat: 43.6493657
+    lon: 10.7442676
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.terredipisa.it/events/presepi-sulla-via-marti-montopoli-in-valdarno/
+    summary: Giornata di festa natalizia nel borgo di Marti con i presepi lungo le vie.
+    fonte: https://www.terredipisa.it/pisa-eventi/
+    trovato: '2026-11-28'
+  - title: Visite guidate nella Riserva Naturale Lago di Santa Luce
+    start: '2026-11-29'
+    venue: Riserva Naturale Lago di Santa Luce
+    address: Via Rosignanina
+    town: Santa Luce
+    lat: 43.4462025
+    lon: 10.5149178
+    category: natura-outdoor
+    subcategory: escursioni
+    official_url: https://www.terredipisa.it/events/attivita-nella-riserva-naturale-lipu-di-santa-luce/
+    summary: Visite guidate nella riserva naturale LIPU del lago di Santa Luce.
+    fonte: https://www.terredipisa.it/pisa-eventi/
+    trovato: '2026-11-28'
+  - title: Festa dell'olio a Montecastelli Pisano
+    start: '2026-11-28'
+    venue: Montecastelli Pisano
+    address: Montecastelli Pisano
+    town: Castelnuovo di Val di Cecina
+    lat: 43.2657137
+    lon: 10.9575816
+    category: sagre-feste
+    subcategory: sagre
+    official_url: https://www.terredipisa.it/events/sagra-dellolio-nuovo-2025-montecastelli-pisano/
+    summary: Festa dedicata all'olio nuovo nel borgo di Montecastelli Pisano.
+    fonte: https://www.terredipisa.it/pisa-eventi/
+    trovato: '2026-11-28'
+  - title: Concerto di Natale, Te Deum di Charpentier
+    start: 2026-12-13T21:00
+    venue: Teatro Comunale Gabriello Chiabrera
+    address: Piazza Armando Diaz 2
+    town: Savona
+    lat: 44.3105267
+    lon: 8.4814745
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://www.comune.savona.it/index.php/it/eventi
+    summary: Concerto di Natale con il Te Deum di Marc-Antoine Charpentier e diversi cori cittadini al Teatro Chiabrera.
+    fonte: https://www.comune.savona.it/index.php/it/eventi (pagina eventi del Comune nei risultati di WebSearch del 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Circo Paniko, Gran Cabaret, TRAC Festival
+    start: 2026-12-25T18:30
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Cabaret di circo con porte', acrobatica, pole dance e giocoleria comica con musica dal vivo, dai 3 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Circo Paniko, Gran Cabaret, TRAC Festival
+    start: 2026-12-26T18:30
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Cabaret di circo con porte', acrobatica, pole dance e giocoleria comica con musica dal vivo, dai 3 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Circo Paniko, Gran Cabaret, TRAC Festival
+    start: 2026-12-27T17:30
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Cabaret di circo con porte', acrobatica, pole dance e giocoleria comica con musica dal vivo, dai 3 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Circo Paniko, Gran Cabaret, TRAC Festival
+    start: 2026-12-28T21:00
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Cabaret di circo con porte', acrobatica, pole dance e giocoleria comica con musica dal vivo, dai 3 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Stivalaccio Teatro, Full Metal Ginger, TRAC Festival
+    start: 2026-12-30T17:30
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Spettacolo di clownerie per tutte le eta' seguito dal pubblico in cuffia, della durata di 25 minuti.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Stivalaccio Teatro, Super Ginger, TRAC Festival
+    start: 2026-12-30T21:00
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Spettacolo comico sulla vita di una performer di varieta', consigliato dai 16 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: La Fauve, Robert n'a pas de paillettes, TRAC Festival
+    start: 2027-01-01T18:30
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Spettacolo di filo teso di Arthur Sidoroff con musica dal vivo, in prima nazionale, dai 7 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: La Fauve, Robert n'a pas de paillettes, TRAC Festival
+    start: 2027-01-02T21:00
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Spettacolo di filo teso di Arthur Sidoroff con musica dal vivo, in prima nazionale, dai 7 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Pasticceri, io e mio fratello Roberto, TRAC Festival
+    start: 2027-01-06T18:30
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Commedia di Roberto Abbiati e Leonardo Capuano con dolci preparati in scena, dai 6 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Compagnia Circolabile, Brusco, TRAC Festival
+    start: 2027-01-08T21:00
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Spettacolo di clown della Compagnia Circolabile, dai 5 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Compagnia Circolabile, Brusco, TRAC Festival
+    start: 2027-01-09T21:00
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Spettacolo di clown della Compagnia Circolabile, dai 5 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: Anna Marcato, Anita. Giocolerie da bagno, TRAC Festival
+    start: 2027-01-11T21:00
+    venue: Chapiteau TRAC, PIN ai Giardini Storici
+    address: Viale Mazzini
+    town: La Spezia
+    lat: 44.1037273
+    lon: 9.8237474
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    price: 10 euro, ridotto 7 euro
+    official_url: https://teatrocivico.it/trac-festival-2026-2027/
+    summary: Spettacolo comico di Anna Marcato tra monologhi, giocoleria e canzoni, dai 10 anni.
+    fonte: https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf (pieghevole ufficiale, letto con pdftotext)
+    trovato: '2026-11-28'
+  - title: La croce e il rosario di Fibonacci, mostra di Giorgio Piccaia
+    start: '2026-11-04'
+    end: '2027-01-31'
+    venue: Battistero di Agrate Conturbia
+    address: Piazzale Don Giuseppe Julita
+    town: Agrate Conturbia
+    lat: 45.6770743
+    lon: 8.5521356
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mostra d'arte di Giorgio Piccaia allestita nel Battistero di Agrate Conturbia.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Arte a Palazzo 2026
+    start: '2026-11-20'
+    end: '2026-12-24'
+    venue: Palazzo Tornielli, Sala Espositiva
+    address: Corso Cavour
+    town: Borgomanero
+    lat: 45.6986906
+    lon: 8.4631636
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Diciannovesima edizione della rassegna di mostre di artisti, in gran parte del territorio, nella sala espositiva di Palazzo Tornielli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Il linguaggio di un corpo muto, mostra di Fabio Tosi
+    start: '2026-11-28'
+    end: '2026-12-05'
+    venue: Castello Visconteo Sforzesco
+    address: Piazza Martiri della Liberta' 3
+    town: Novara
+    lat: 45.4444134
+    lon: 8.6172913
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mostra d'arte di Fabio Tosi nella Sala delle Colonne del Castello, aperta dal martedi' alla domenica dalle 10 alle 19.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Antonelli e i giovani
+    start: '2026-11-28'
+    end: '2026-12-10'
+    venue: Palazzo Gallarati, Sala Antonelli
+    address: Via Interno Castello
+    town: Ghemme
+    lat: 45.5990797
+    lon: 8.4184008
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mostra su Alessandro Antonelli curata dagli studenti del Liceo Casorati di Romagnano Sesia nella Sala Antonelli di Palazzo Gallarati.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Arte e Solidarieta' al Castello
+    start: '2026-11-28'
+    end: '2026-11-30'
+    venue: Castello Visconteo Sforzesco
+    address: Piazza Martiri della Liberta' 3
+    town: Novara
+    lat: 45.4444134
+    lon: 8.6172913
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Esposizione di 32 opere di artisti novaresi a sostegno di un ambulatorio di pronta accoglienza.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Le metamorfosi di Pinocchio
+    start: '2026-11-28'
+    end: '2026-12-23'
+    venue: Villa Marazza
+    address: Viale Marazza 5
+    town: Borgomanero
+    lat: 45.7000768
+    lon: 8.4656488
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Esposizione di edizioni di Pinocchio a Villa Marazza per il bicentenario della nascita di Carlo Collodi.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Presenze silenziose, mostra di Emanuela Silvestri
+    start: '2026-12-03'
+    end: '2026-12-15'
+    venue: Broletto di Novara
+    address: Via Fratelli Rosselli 20
+    town: Novara
+    lat: 45.44653
+    lon: 8.61954
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mostra di pittura figurativa di Emanuela Silvestri nella Sala dell'Accademia del Broletto.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La luce nell'abisso. William Congdon, la Nativita' del 1960
+    start: '2026-12-03'
+    end: '2026-12-20'
+    venue: Castello Visconteo Sforzesco
+    address: Piazza Martiri della Liberta' 3
+    town: Novara
+    lat: 45.4444134
+    lon: 8.6172913
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mostra dedicata alla Nativita' di William Congdon, esposta con i suoi bozzetti nel Piano Archeologico del Castello.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Under the dome 121
+    start: '2027-01-09'
+    end: '2027-01-31'
+    venue: Castello Visconteo Sforzesco
+    address: Piazza Martiri della Liberta' 3
+    town: Novara
+    lat: 45.4444134
+    lon: 8.6172913
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mostra collettiva di 121 artisti, ognuno con un'opera dedicata alla cupola, al Castello di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Natale a Galliate, pista di pattinaggio su ghiaccio
+    start: '2026-11-21'
+    end: '2027-01-06'
+    venue: Piazza Vittorio Veneto
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: sport
+    subcategory: altri-sport
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Pista di pattinaggio su ghiaccio allestita in piazza Vittorio Veneto per il Natale a Galliate.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Il presepe valsesiano
+    start: '2026-12-13'
+    end: '2027-01-06'
+    venue: Presepe valsesiano
+    address: Via Matteotti 10
+    town: Prato Sesia
+    lat: 45.6666461
+    lon: 8.3525198
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Apertura del presepe valsesiano di Prato Sesia nelle domeniche e nei giorni di festa fino all'Epifania, di solito dalle 14.30 alle 17.30.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Rent
+    start: 2026-11-28T21:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Il musical sulle vite di giovani artisti nell'East Village di New York alla fine degli anni Ottanta.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Paolo Cevoli, Figli di Troia
+    start: 2026-11-28T21:00
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Monologo di Paolo Cevoli che racconta in chiave ironica il viaggio di Enea.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Vite in levare, presentazione del libro di Antonella Rosa Godio
+    start: 2026-11-28T18:00
+    venue: Biblioteca Civica Carlo Dionisotti
+    address: Via XXV Aprile
+    town: Romagnano Sesia
+    lat: 45.6336563
+    lon: 8.3860583
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Presentazione del libro di Antonella Rosa Godio nella Biblioteca Civica.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: One step closer, Cineforum a Galliate
+    start: 2026-11-28T16:00
+    venue: Castello Visconteo Sforzesco di Galliate
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: offerta
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Proiezione del cineforum nel Salone Neogotico del Castello di Galliate.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Crescere con Luna, presentazione e laboratorio
+    start: 2026-11-28T10:30
+    venue: Biblioteca Comunale Cesare Pavese
+    address: Via Guglielmo Marconi
+    town: Bogogno
+    lat: 45.66401
+    lon: 8.5376224
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Presentazione del libro con l'autrice e l'illustratrice, seguita da un laboratorio per bambini nella biblioteca di Bogogno.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La marcia dei diritti
+    start: 2026-11-28T15:00
+    venue: Municipio di Briona
+    address: Via Generale Paolo Solaroli 11
+    town: Briona
+    lat: 45.5422094
+    lon: 8.4798338
+    category: arte-cultura
+    subcategory: incontri-pubblici
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Camminata per le vie del paese con letture lungo il percorso, per la Giornata contro la violenza sulle donne; ritrovo al municipio.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Sanremo. Un festival a tutti gli effetti
+    start: 2026-11-28T21:00
+    venue: Teatro Pernate Sant'Andrea
+    address: Via Turbigo 8
+    town: Novara
+    lat: 45.4605906
+    lon: 8.6771983
+    category: musica
+    subcategory: concerti
+    access: iscrizione
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Serata di musica e spettacolo sulle canzoni che hanno fatto la storia del Festival di Sanremo.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Proiezione di un film a sorpresa a Villa Marazza
+    start: 2026-11-28T15:00
+    venue: Villa Marazza
+    address: Viale Marazza 5
+    town: Borgomanero
+    lat: 45.7000768
+    lon: 8.4656488
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: iscrizione
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Proiezione gratuita di un film a sorpresa a Villa Marazza, su prenotazione.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Citta'... o paese?, commedia
+    start: 2026-11-28T21:00
+    venue: Teatro Civico
+    address: Via Roma 43
+    town: Oleggio
+    lat: 45.5974311
+    lon: 8.634455
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: offerta
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Commedia teatrale al Teatro Civico di Oleggio con ingresso a offerta.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Nevada express
+    start: 2026-11-28T21:00
+    venue: Sala Don Manfredda, Oratorio Beato Quagliotti
+    address: Via Varallino
+    town: Galliate
+    lat: 45.4761094
+    lon: 8.7005898
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo teatrale gratuito dell'Associazione Andata & Ritorno nella Sala Don Manfredda.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'La pittura della sopravvivenza: Bragonzi e i quadri della campagna di Russia'
+    start: 2026-11-29T15:00
+    venue: Palazzo Natta
+    address: Via Amico Canobio
+    town: Novara
+    lat: 45.4463102
+    lon: 8.6226236
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Visita guidata ai quadri della campagna di Russia dipinti da Bragonzi.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Celtic Knot, pipes and drums
+    start: 2026-11-29T16:00
+    venue: Chiesa parrocchiale di San Giovanni Battista
+    address: Corso Giuseppe Mazzini
+    town: Vespolate
+    lat: 45.3492497
+    lon: 8.6695074
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto di Natale con cornamuse e percussioni scozzesi, seguito da una festa in piazza Martiri della Liberta'.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: San Francesco 1226-2026. Frate frate
+    start: 2026-11-29T16:00
+    venue: Collegiata di San Bartolomeo
+    address: Via Prevosto Felice Piana 6
+    town: Borgomanero
+    lat: 45.6990064
+    lon: 8.4627371
+    category: arte-cultura
+    subcategory: spiritualita
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Pomeriggio di lettura teatrale e musica sul Cantico delle creature con i Frati Cappuccini.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Bellissima di Luchino Visconti, Cineteca Araldo
+    start: 2026-11-30T21:00
+    venue: Cinema Araldo
+    address: Via Maestra 12
+    town: Novara
+    lat: 45.4543702
+    lon: 8.6204178
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: biglietto
+    price: 10 euro, ridotto 8 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Proiezione del film Bellissima di Luchino Visconti (1951) nella rassegna Cineteca Araldo.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Fernando Aramburu presenta Maite
+    start: 2026-11-30T18:00
+    venue: Broletto di Novara
+    address: Via Fratelli Rosselli 20
+    town: Novara
+    lat: 45.44653
+    lon: 8.61954
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Fernando Aramburu presenta il suo romanzo Maite nel Salone dell'Arengo, in dialogo con Demetrio Paolin.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Generazione DDT, presentazione del libro di Grazia Rosina
+    start: 2026-12-01T16:00
+    venue: Biblioteca Civica Negroni
+    address: Corso Felice Cavallotti 4
+    town: Novara
+    lat: 45.4467952
+    lon: 8.6227071
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Presentazione del libro di Grazia Rosina nella Sala Genocchio della Biblioteca Negroni.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Parliamo di opera tra amici: L''azzardo per un figlio / Il Signor Bruschino'
+    start: 2026-12-01T18:30
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: arte-cultura
+    subcategory: conferenze
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Incontro di introduzione alle opere della stagione del Teatro Coccia, nel foyer.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Quando il NO non puoi dirlo!
+    start: 2026-12-02T17:00
+    venue: Broletto di Novara
+    address: Via Fratelli Rosselli 20
+    town: Novara
+    lat: 45.44653
+    lon: 8.61954
+    category: arte-cultura
+    subcategory: incontri-pubblici
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Incontro pubblico all'Arengo del Broletto su droghe, violenza sessuale e strumenti per difendersi.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ignoto 1, presentazione del libro di Gianluca Neri
+    start: 2026-12-03T18:00
+    venue: Castello Visconteo Sforzesco
+    address: Piazza Martiri della Liberta' 3
+    town: Novara
+    lat: 45.4444134
+    lon: 8.6172913
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Gianluca Neri presenta il suo libro sul caso Yara Gambirasio nella Sala Sibilla Aleramo del Castello.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ai Ai Ai Pinocchio!, Mov*at
+    start: 2026-12-03T18:30
+    venue: Teatro Faraggiana
+    address: Via dei Caccia 1F
+    town: Novara
+    lat: 45.4505976
+    lon: 8.6223707
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo immersivo su Pinocchio che usa tecnologie e intelligenza artificiale, nella rassegna Mov*at.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Tim Burton Show, The Spleen Orchestra
+    start: 2026-12-04T20:45
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo musicale e teatrale dedicato all'immaginario dei film di Tim Burton.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Un giorno in citta', presentazione del libro di Fabio Besuzzi
+    start: 2026-12-04T18:00
+    venue: Villa Marazza
+    address: Viale Marazza 5
+    town: Borgomanero
+    lat: 45.7000768
+    lon: 8.4656488
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Presentazione del libro di Fabio Besuzzi a Villa Marazza.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'italica madre
+    start: 2026-12-05T21:15
+    venue: Teatro Pernate Sant'Andrea
+    address: Via Turbigo 8
+    town: Novara
+    lat: 45.4605906
+    lon: 8.6771983
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 10 euro, ridotto 8 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo dei Baroni rampanti su testo di Valeria Cavalli al Teatro Pernate Sant'Andrea.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La danza del grande fiume, presentazione del libro di Michele Marziani
+    start: 2026-12-05T16:00
+    venue: Villa Marazza
+    address: Viale Marazza 5
+    town: Borgomanero
+    lat: 45.7000768
+    lon: 8.4656488
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Presentazione del libro di Michele Marziani con letture, a Villa Marazza.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 39a Festa Alpina di Prato Sesia
+    start: 2026-12-06T09:00
+    venue: Sede Alpini di Prato Sesia
+    address: Via Molino 1
+    town: Prato Sesia
+    lat: 45.643805
+    lon: 8.3757363
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Festa del gruppo alpini con ritrovo alla sede, alzabandiera e cerimonia con autorita' e associazioni.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: AgriXmas, l'albero di trattori
+    start: 2026-12-07T18:30
+    venue: Prato della Palestra Comunale
+    address: Via Cavour
+    town: Grignasco
+    lat: 45.6804235
+    lon: 8.3407178
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Accensione di un albero di Natale fatto di trattori, con punto ristoro, mercatino dei produttori locali e dj set.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'e' bela Natal, mercatini di Natale
+    start: 2026-12-08T10:00
+    venue: Piazza Rigotti
+    address: Piazza Giuseppe Rigotti
+    town: Bogogno
+    lat: 45.6641706
+    lon: 8.5379329
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatino di Natale in piazza Rigotti con hobbisti, artigiani e cucina della Pro Loco, dalle 10 alle 18.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Natale a Trecate: Mamma Natale e inaugurazione del presepe'
+    start: 2026-12-08T14:30
+    venue: Piazza Cavour
+    address: Piazza Cavour
+    town: Trecate
+    lat: 45.4319619
+    lon: 8.7353037
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Pomeriggio per bambini in piazza Cavour con letterine per Babbo Natale e, alle 16, inaugurazione del presepe e della casetta postale.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Antigone, stagione teatrale di Cerano
+    start: 2026-12-11T21:00
+    venue: Sala Crespi
+    address: Piazzale Lavoratori ex CVT
+    town: Cerano
+    lat: 45.4105316
+    lon: 8.7834326
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Primo spettacolo della stagione teatrale 2026/27 nella Sala Crespi di Cerano.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Prog Night
+    start: 2026-12-12T21:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: platea 17 euro, galleria 15 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto dedicato al rock progressivo al Cine Teatro Silvio Pellico.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Divas Legacy
+    start: 2026-12-12T20:45
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo musicale dedicato alle grandi voci femminili della musica.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Elfi e mercatini a Romagnano Sesia
+    start: 2026-12-12T10:00
+    venue: Piazza Liberta'
+    address: Piazza della Liberta'
+    town: Romagnano Sesia
+    lat: 45.6334917
+    lon: 8.3829286
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatini di Natale in piazza Liberta' dalle 10, con punto ristoro su prenotazione dalle 12.30.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: New Sunrise, concerto gospel al Broletto
+    start: 2026-12-12T16:30
+    venue: Broletto di Novara
+    address: Via Fratelli Rosselli 20
+    town: Novara
+    lat: 45.44653
+    lon: 8.61954
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto del coro gospel New Sunrise nel cortile del Broletto con classici del genere.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Concerto del Coro Gospel Voiceland
+    start: 2026-12-12T21:00
+    venue: Castello Visconteo Sforzesco di Galliate
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto gospel del coro Voiceland di Novara nella Sala Neogotica del Castello di Galliate, per il Natale a Galliate.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Voci di Momo, presentazione del vocabolario del dialetto
+    start: 2026-12-12T17:00
+    venue: Sala Consiliare, Municipio di Momo
+    address: Via Davide Squarini 2
+    town: Momo
+    lat: 45.573921
+    lon: 8.5553738
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Presentazione del vocabolario del dialetto di Momo realizzato dal gruppo Salviamo il dialetto di Momo.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: I rinoceronti non sanno nuotare
+    start: 2026-12-13T16:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo per ragazzi ambientato nel 1516 a Porto Venere, sul sogno di viaggiare di un giovane.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 22a Stracanina Novarese
+    start: 2026-12-13T11:00
+    venue: Piazza Martiri della Liberta'
+    address: Piazza Martiri della Liberta'
+    town: Novara
+    lat: 45.4451773
+    lon: 8.6170346
+    category: sport
+    subcategory: corsa
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Passeggiata non competitiva di circa 3,5 km con i cani, con partenza da piazza Martiri della Liberta'.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Paul Robino, I sensi del mare
+    start: 2026-12-18T20:45
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto di pianoforte di Paul Robino accompagnato da letture.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Serata dialettale, Natale a Galliate
+    start: 2026-12-18T21:00
+    venue: Sala Don Manfredda, Oratorio Beato Quagliotti
+    address: Via Varallino
+    town: Galliate
+    lat: 45.4761094
+    lon: 8.7005898
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Serata in dialetto nella Sala Don Manfredda per il Natale a Galliate.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Concerto della Banda Verde Azzurra
+    start: 2026-12-19T21:00
+    venue: Sala Don Manfredda, Oratorio Beato Quagliotti
+    address: Via Varallino
+    town: Galliate
+    lat: 45.4761094
+    lon: 8.7005898
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto di Natale della Banda Verde Azzurra nella Sala Don Manfredda di Galliate.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'illusione coniugale
+    start: 2026-12-19T20:45
+    venue: Cinema Teatro Nuovo
+    address: Via IV Novembre
+    town: Borgomanero
+    lat: 45.6946701
+    lon: 8.455199
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Commedia sulle relazioni di coppia al Cinema Teatro Nuovo di Borgomanero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Un carillon di emozioni, viaggio musicale nello Schiaccianoci
+    start: 2026-12-19T16:00
+    venue: Biblioteca di Vicolungo
+    address: Piazza Mazzini
+    town: Vicolungo
+    lat: 45.4786934
+    lon: 8.4617415
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Laboratorio di ascolto, movimento e gioco sulle musiche dello Schiaccianoci con Fiammetta Tacca, nella biblioteca di Vicolungo.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Natale a Trecate: ruota della fortuna e foto con Babbo Natale'
+    start: 2026-12-20T14:30
+    venue: Piazza Cavour
+    address: Piazza Cavour
+    town: Trecate
+    lat: 45.4319619
+    lon: 8.7353037
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Pomeriggio di animazione per bambini in piazza Cavour con giochi, palline di Natale da decorare e foto con Babbo Natale.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Andrea Scanzi e i Borderlobo, Canzoni per la pace
+    start: 2026-12-23T20:45
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Racconto di Andrea Scanzi con le canzoni dei Borderlobo sul tema della guerra e della pace.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Sawa Sawa, dall'asfalto alla giungla
+    start: 2027-01-08T21:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo acrobatico sull'incontro tra culture al Cine Teatro Silvio Pellico.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Dialoghi con mia madre, con Laura Curino
+    start: 2027-01-14T21:00
+    venue: Teatro Faraggiana
+    address: Via dei Caccia 1F
+    town: Novara
+    lat: 45.4505976
+    lon: 8.6223707
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea 23-28 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo con Laura Curino e Francesco Gargiulo al Teatro Faraggiana.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Rockstar Experience
+    start: 2027-01-15T20:45
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo che ripercorre la storia del rock da Elvis Presley ai Nirvana.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Faber Experience, Faber is Back
+    start: 2027-01-16T21:00
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto dedicato alle canzoni di Fabrizio De Andre'.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Miseria e nobilta', Teatro L'Aratro
+    start: 2027-01-16T21:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: La commedia di Eduardo Scarpetta interpretata dal gruppo Teatro L'Aratro.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Canto libero, omaggio a Battisti e Mogol
+    start: 2027-01-22T20:45
+    venue: Cinema Teatro Nuovo
+    address: Via IV Novembre
+    town: Borgomanero
+    lat: 45.6946701
+    lon: 8.455199
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo musicale dedicato alle canzoni di Lucio Battisti e Mogol.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Alf-ieri oggi Vittorio
+    start: 2027-01-23T21:15
+    venue: Teatro Pernate Sant'Andrea
+    address: Via Turbigo 8
+    town: Novara
+    lat: 45.4605906
+    lon: 8.6771983
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 10 euro, ridotto 8 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo di Agar APS Teatro con testo e regia di Pellegrino Delfino.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Gente di facili costumi, Compagnia C'era l'Acca
+    start: 2027-01-23T21:00
+    venue: Teatro Oratorio Vandoni
+    address: Bellinzago Novarese
+    town: Bellinzago Novarese
+    lat: 45.573852
+    lon: 8.6449347
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: La commedia di Nino Manfredi e Nino Marino nella rassegna Spettacoli... Meravigliosi! del Teatro Oratorio Vandoni.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Rigoletto
+    start: 2027-01-29T20:00
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: L'opera di Giuseppe Verdi in scena al Teatro Coccia di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Rigoletto
+    start: 2027-01-30T20:00
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: L'opera di Giuseppe Verdi in scena al Teatro Coccia di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Rigoletto
+    start: 2027-01-31T16:00
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: L'opera di Giuseppe Verdi in scena al Teatro Coccia di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Rigoletto
+    start: 2027-02-02T20:00
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: L'opera di Giuseppe Verdi in scena al Teatro Coccia di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Terapia D'Urso
+    start: 2027-02-01T20:45
+    venue: Cinema Teatro Nuovo
+    address: Via IV Novembre
+    town: Borgomanero
+    lat: 45.6946701
+    lon: 8.455199
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo comico al Cinema Teatro Nuovo di Borgomanero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Malinconico. Moderatamente felice
+    start: 2027-02-06T21:00
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo con Massimiliano Gallo sull'avvocato Vincenzo Malinconico al Teatro Coccia.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Malinconico. Moderatamente felice
+    start: 2027-02-07T16:00
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo con Massimiliano Gallo sull'avvocato Vincenzo Malinconico al Teatro Coccia.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Luigi Tenco tra jazz e canzone
+    start: 2027-02-07T11:30
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto del mattino al Piccolo Coccia dedicato a Luigi Tenco e alla scuola genovese.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Festival Cantelli: Gabriele Buccheri'
+    start: 2027-02-07T19:00
+    venue: Broletto di Novara
+    address: Via Fratelli Rosselli 20
+    town: Novara
+    lat: 45.44653
+    lon: 8.61954
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: 25 euro, ridotto 20 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Recital del pianista Gabriele Buccheri, vincitore del Premio Martucci 2025, nel Salone dell'Arengo.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Luca Ward, Oggi voglio essere me stesso
+    start: 2027-02-12T21:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo di Luca Ward al Cine Teatro Silvio Pellico.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Queen Vocal Symphony, Killer Queen
+    start: 2027-02-13T20:45
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della tribute band Killer Queen dedicato ai Queen.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Rimetti a posto la stanza
+    start: 2027-02-15T20:45
+    venue: Cinema Teatro Nuovo
+    address: Via IV Novembre
+    town: Borgomanero
+    lat: 45.6946701
+    lon: 8.455199
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo sul rapporto tra una madre e una figlia al Cinema Teatro Nuovo.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Manifestus, Mov*at
+    start: 2027-02-19T21:00
+    venue: Spazio Nova, ex Caserma Passalacqua
+    address: Viale Ferrucci
+    town: Novara
+    lat: 45.4408145
+    lon: 8.6244812
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Coreografia per tre danzatori ispirata ai codici della street dance, nella rassegna Mov*at.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ciak si gira! Una disgrazia sul set
+    start: 2027-02-20T21:15
+    venue: Teatro Pernate Sant'Andrea
+    address: Via Turbigo 8
+    town: Novara
+    lat: 45.4605906
+    lon: 8.6771983
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 10 euro, ridotto 8 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo del Teatro Instabile Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ciak si gira! Una disgrazia sul set
+    start: 2027-02-27T16:00
+    venue: Teatro Pernate Sant'Andrea
+    address: Via Turbigo 8
+    town: Novara
+    lat: 45.4605906
+    lon: 8.6771983
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 10 euro, ridotto 8 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo del Teatro Instabile Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Festival Cantelli: Eleonora e Beatrice Dallagnese, piano duo'
+    start: 2027-02-21T18:00
+    venue: Broletto di Novara
+    address: Via Fratelli Rosselli 20
+    town: Novara
+    lat: 45.44653
+    lon: 8.61954
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: 25 euro, ridotto 20 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto del duo pianistico Dallagnese nel Salone dell'Arengo del Broletto.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Faccio la mia cosa
+    start: 2027-02-21T17:30
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Monologo teatrale sul rap e l'hip hop italiano raccontati da uno dei loro pionieri.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: The Matt Project, Rosmini Guitar Festival
+    start: 2027-02-27T20:45
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto di brani originali dei The Matt Project nel Rosmini Guitar Festival.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ladies in Strings, un quintetto Made in Italy
+    start: 2027-02-28T11:30
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto del mattino al Piccolo Coccia dedicato alle grandi interpreti femminili.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ma che razza di Otello?, con Marina Massironi
+    start: 2027-03-03T21:00
+    venue: Teatro Civico
+    address: Via Roma 43
+    town: Oleggio
+    lat: 45.5974311
+    lon: 8.634455
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Rapsodia per arpa e attrice sull'Otello verdiano con Marina Massironi.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Gli innamorati
+    start: 2027-03-04T21:00
+    venue: Teatro Faraggiana
+    address: Via dei Caccia 1F
+    town: Novara
+    lat: 45.4505976
+    lon: 8.6223707
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: platea 23-28 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: La commedia di Carlo Goldoni al Teatro Faraggiana.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Meravigliose follie!, Skizzo
+    start: 2027-03-06T21:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo di magia di Davide Nicolosi, in arte Skizzo.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Venere in pelliccia
+    start: 2027-03-06T21:15
+    venue: Teatro Pernate Sant'Andrea
+    address: Via Turbigo 8
+    town: Novara
+    lat: 45.4605906
+    lon: 8.6771983
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 10 euro, ridotto 8 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo tratto dal romanzo di Leopold von Sacher-Masoch.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Sogno andaluso, omaggio a Federico Garcia Lorca
+    start: 2027-03-07T11:30
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo musicale del mattino al Piccolo Coccia dedicato a Federico Garcia Lorca.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Symphonic italian pop
+    start: 2027-03-09T20:00
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto sinfonico sulle canzoni italiane da Battisti a Vasco Rossi.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Reginella
+    start: 2027-03-10T20:45
+    venue: Cinema Teatro Nuovo
+    address: Via IV Novembre
+    town: Borgomanero
+    lat: 45.6946701
+    lon: 8.455199
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo sulla tradizione della canzone classica napoletana.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Voglio vederti Battiato
+    start: 2027-03-12T20:30
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.6964938
+    lon: 8.4682316
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo dedicato alla musica e alla poesia di Franco Battiato.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Naked Noise, da Duke Ellington a Dave Brubeck
+    start: 2027-03-14T11:30
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto jazz del mattino al Piccolo Coccia.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Antonio Cornacchione, Basta poco
+    start: 2027-03-18T21:00
+    venue: Teatro Faraggiana
+    address: Via dei Caccia 1F
+    town: Novara
+    lat: 45.4505976
+    lon: 8.6223707
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: platea 23-28 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo di e con Antonio Cornacchione al Teatro Faraggiana.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La stanza di Agnese
+    start: 2027-03-19T21:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.4315108
+    lon: 8.7395227
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Monologo di una donna in dialogo con il compagno scomparso.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Notte fonda, Tanto di Cappello Teatro
+    start: 2027-03-20T21:15
+    venue: Teatro Pernate Sant'Andrea
+    address: Via Turbigo 8
+    town: Novara
+    lat: 45.4605906
+    lon: 8.6771983
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 10 euro, ridotto 8 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Commedia della compagnia Tanto di Cappello Teatro.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Uno, nessuno e centomila, stagione teatrale di Cerano
+    start: 2027-03-25T20:30
+    venue: Sala Crespi
+    address: Piazzale Lavoratori ex CVT
+    town: Cerano
+    lat: 45.4105316
+    lon: 8.7834326
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo dal romanzo di Luigi Pirandello nella Sala Crespi di Cerano.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Sogno d''amore, introduzione al Lied romantico'
+    start: 2026-11-28T17:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Davide Grasso e Noemi Argiro'', chitarre'
+    start: 2026-12-05T17:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Christmas Carols'
+    start: 2026-12-11T21:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Verdi e Rossini: sinfonie e ballabili'
+    start: 2026-12-19T17:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Luca Dondo e Edoardo Deambrogio, chitarra e organo'
+    start: 2027-01-09T17:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Concerto di canto e pianoforte'
+    start: 2027-01-16T17:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Svetlana Kapustina, Edoardo Sacconi e Trio Karai'
+    start: 2027-01-23T17:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Duo Tomas'
+    start: 2027-01-30T17:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'I concerti del sabato: Gaia Ferrero, Gianmaria Bianchini e Giulia Prandoni'
+    start: 2027-02-06T17:00
+    venue: Conservatorio Guido Cantelli, Auditorium Olivieri
+    address: Via Collegio Gallarini
+    town: Novara
+    lat: 45.4444578
+    lon: 8.6197266
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della rassegna I concerti del sabato all'Auditorium Olivieri del Conservatorio Cantelli.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Calle Malaga, Effetto notte Vipforum
+    start: 2026-12-01T21:15
+    venue: Cinema Vip
+    address: Via Maestra 12
+    town: Novara
+    lat: 45.4543702
+    lon: 8.6204178
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Proiezione di Calle Malaga nel cineforum Effetto notte del Cinema Vip.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Calle Malaga, Effetto notte Vipforum
+    start: 2026-12-02T21:15
+    venue: Cinema Vip
+    address: Via Maestra 12
+    town: Novara
+    lat: 45.4543702
+    lon: 8.6204178
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Proiezione di Calle Malaga nel cineforum Effetto notte del Cinema Vip.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Calle Malaga, Effetto notte Vipforum
+    start: 2026-12-04T17:00
+    venue: Cinema Vip
+    address: Via Maestra 12
+    town: Novara
+    lat: 45.4543702
+    lon: 8.6204178
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Proiezione di Calle Malaga nel cineforum Effetto notte del Cinema Vip.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: E' l'ultima battuta?, Cineforum di Borgomanero
+    start: '2026-12-01'
+    venue: Cinema Teatro Nuovo
+    address: Via IV Novembre
+    town: Borgomanero
+    lat: 45.6946701
+    lon: 8.455199
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: biglietto
+    price: 5 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Proiezione del cineforum 2026/27 al Cinema Nuovo di Borgomanero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Il cileno, Cineforum di Borgomanero
+    start: '2026-12-15'
+    venue: Cinema Teatro Nuovo
+    address: Via IV Novembre
+    town: Borgomanero
+    lat: 45.6946701
+    lon: 8.455199
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    access: biglietto
+    price: 5 euro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Proiezione del cineforum 2026/27 al Cinema Nuovo di Borgomanero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 16 AniMe, Compagnia LaRibalta
+    start: 2026-12-03T21:00
+    venue: Teatro MP
+    address: Viale Giulio Cesare 378
+    town: Novara
+    lat: 45.4354819
+    lon: 8.630838
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro MP di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 16 AniMe, Compagnia LaRibalta
+    start: 2026-12-04T21:00
+    venue: Teatro MP
+    address: Viale Giulio Cesare 378
+    town: Novara
+    lat: 45.4354819
+    lon: 8.630838
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro MP di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Where the funk is my red nose!?, Theatre Circulaire
+    start: 2026-12-26T21:00
+    venue: Teatro MP
+    address: Viale Giulio Cesare 378
+    town: Novara
+    lat: 45.4354819
+    lon: 8.630838
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro MP di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Gran Varieta' della Befana
+    start: 2027-01-05T21:00
+    venue: Teatro MP
+    address: Viale Giulio Cesare 378
+    town: Novara
+    lat: 45.4354819
+    lon: 8.630838
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro MP di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Gran Varieta' della Befana
+    start: 2027-01-06T21:00
+    venue: Teatro MP
+    address: Viale Giulio Cesare 378
+    town: Novara
+    lat: 45.4354819
+    lon: 8.630838
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro MP di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La Mandragola, Compagnia Teatro4
+    start: 2027-01-15T21:00
+    venue: Teatro MP
+    address: Viale Giulio Cesare 378
+    town: Novara
+    lat: 45.4354819
+    lon: 8.630838
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro MP di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Eroicamente scivolato, Free Nipples
+    start: 2027-03-14T21:00
+    venue: Teatro MP
+    address: Viale Giulio Cesare 378
+    town: Novara
+    lat: 45.4354819
+    lon: 8.630838
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro MP di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Canto di Natale, con Alessandro Barbaglia
+    start: 2026-12-11T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: VaciapalDRAG, serata drag queen
+    start: 2026-12-19T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La diva geniale, con Alessandro Barbaglia
+    start: 2027-01-29T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: E tu chi sei?, con Isabella Giampaolo
+    start: 2027-02-07T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: April Io show, serata drag queen
+    start: 2027-02-27T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Sommerliebi, con Gabriele Spataro
+    start: 2027-03-05T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Sommerliebi, con Gabriele Spataro
+    start: 2027-03-06T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La X non e' mai il punto in cui scavare
+    start: 2027-03-12T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Giobbe, Free Nipples
+    start: 2027-03-20T21:00
+    venue: Teatro del Cuscino
+    address: Via Lorenzo Magalotti 11
+    town: Novara
+    lat: 45.4416904
+    lon: 8.6045223
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo della rassegna di LaRibalta al Teatro del Cuscino di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Bancarelle in corte 2026
+    start: 2026-11-28T15:00
+    venue: Castello Visconteo Sforzesco di Galliate
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Bancarelle in corte 2026
+    start: 2026-11-29T10:00
+    venue: Castello Visconteo Sforzesco di Galliate
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Bancarelle in corte 2026
+    start: 2026-12-05T15:00
+    venue: Castello Visconteo Sforzesco di Galliate
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Bancarelle in corte 2026
+    start: 2026-12-06T10:00
+    venue: Castello Visconteo Sforzesco di Galliate
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Bancarelle in corte 2026
+    start: 2026-12-12T15:00
+    venue: Castello Visconteo Sforzesco di Galliate
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Bancarelle in corte 2026
+    start: 2026-12-13T10:00
+    venue: Castello Visconteo Sforzesco di Galliate
+    address: Piazza Vittorio Veneto
+    town: Galliate
+    lat: 45.4787468
+    lon: 8.6956298
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale a Staffa
+    start: '2026-11-28'
+    end: '2026-11-29'
+    venue: Staffa, centro del paese
+    address: Frazione Staffa
+    town: Macugnaga
+    lat: 45.9678886
+    lon: 7.9681478
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/macugnaga-fraz-staffa-mercatini-di-natale
+    summary: Mercatini di Natale nella frazione Staffa di Macugnaga.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale di Oleggio Castello
+    start: '2026-11-29'
+    venue: Centro di Oleggio Castello
+    address: Oleggio Castello
+    town: Oleggio Castello
+    lat: 45.7470497
+    lon: 8.5317202
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/oleggio-castello-mercatini-di-natale-2026
+    summary: Mercatini di Natale a Oleggio Castello.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale in Valstrona, 16a edizione
+    start: '2026-11-29'
+    venue: Luzzogno, centro della frazione
+    address: Frazione Luzzogno
+    town: Valstrona
+    lat: 45.9141585
+    lon: 8.3441325
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/valstrona-fraz-luzzogno-mercatini-di-natale-in-valstrona-16deg-edizione
+    summary: Sedicesima edizione dei mercatini di Natale della Valstrona nella frazione Luzzogno.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale Magie di Luci a Intra
+    start: '2026-12-05'
+    venue: Piazza Ranzoni
+    address: Piazza Ranzoni, Intra
+    town: Verbania
+    lat: 45.9357406
+    lon: 8.5742176
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/verbania-mercatini-di-natale-magie-di-luci-2026
+    summary: Mercatino natalizio Magie di Luci in piazza Ranzoni a Intra, per il Natale di Luce di Verbania.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale Magie di Luci a Intra
+    start: '2026-12-19'
+    venue: Piazza Ranzoni
+    address: Piazza Ranzoni, Intra
+    town: Verbania
+    lat: 45.9357406
+    lon: 8.5742176
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/verbania-mercatini-di-natale-magie-di-luci-2026
+    summary: Mercatino natalizio Magie di Luci in piazza Ranzoni a Intra, per il Natale di Luce di Verbania.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale Magie di Luci a Pallanza
+    start: '2026-12-06'
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi, Pallanza
+    town: Verbania
+    lat: 45.9214292
+    lon: 8.552505
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/verbania-mercatini-di-natale-magie-di-luci-2026
+    summary: Mercatino natalizio Magie di Luci in piazza Garibaldi a Pallanza, per il Natale di Luce di Verbania.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale Magie di Luci a Pallanza
+    start: '2026-12-20'
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi, Pallanza
+    town: Verbania
+    lat: 45.9214292
+    lon: 8.552505
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/verbania-mercatini-di-natale-magie-di-luci-2026
+    summary: Mercatino natalizio Magie di Luci in piazza Garibaldi a Pallanza, per il Natale di Luce di Verbania.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale di Formazza
+    start: '2026-12-05'
+    end: '2026-12-08'
+    venue: Ponte, centro della frazione
+    address: Frazione Ponte
+    town: Formazza
+    lat: 46.3768507
+    lon: 8.4257219
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/formazza-fraz-ponte-mercatini-di-natale-2026
+    summary: Mercatini di Natale nella frazione Ponte di Formazza.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: I presepi di Mergozzo e frazioni
+    start: '2026-12-05'
+    end: '2027-01-17'
+    venue: Centro storico di Mergozzo
+    address: Mergozzo
+    town: Mergozzo
+    lat: 45.96128
+    lon: 8.4495252
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.distrettolaghi.it/it/eventi/mergozzo-i-presepi-di-mergozzoe-frazioni
+    summary: Presepi allestiti nel borgo di Mergozzo e nelle sue frazioni durante le feste.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Presepi sull'acqua, 12a edizione
+    start: '2026-12-05'
+    end: '2027-01-10'
+    venue: Centro di Crodo
+    address: Crodo
+    town: Crodo
+    lat: 46.2233007
+    lon: 8.3239356
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.distrettolaghi.it/it/eventi/crodo-presepi-sullacqua-12edizione
+    summary: Dodicesima edizione dei presepi allestiti sull'acqua a Crodo.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Presepe in piazza Adua
+    start: '2026-12-06'
+    end: '2027-01-06'
+    venue: Piazza Adua
+    address: Piazza Adua, Fondotoce
+    town: Verbania
+    lat: 45.9449152
+    lon: 8.4967403
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.distrettolaghi.it/it/eventi/verbania-presepe-in-piazza-adua
+    summary: Presepe allestito in piazza Adua a Fondotoce per le feste.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale di Santa Maria Maggiore
+    start: '2026-12-06'
+    end: '2026-12-08'
+    venue: Centro di Santa Maria Maggiore
+    address: Santa Maria Maggiore
+    town: Santa Maria Maggiore
+    lat: 46.1349546
+    lon: 8.4672779
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/santa-maria-maggiore-mercatino-di-natale
+    summary: Mercatini di Natale nel centro di Santa Maria Maggiore in Valle Vigezzo.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Natale a Dagnente
+    start: '2026-12-06'
+    venue: Dagnente, centro della frazione
+    address: Frazione Dagnente
+    town: Arona
+    lat: 45.7812064
+    lon: 8.5350173
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.distrettolaghi.it/it/eventi/arona-fraz-dagnente-natale-a-dagnente-2026
+    summary: Festa di Natale nella frazione Dagnente di Arona.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Fiera di Natale di Mercurago
+    start: '2026-12-06'
+    venue: Mercurago, centro della frazione
+    address: Frazione Mercurago
+    town: Arona
+    lat: 45.7481888
+    lon: 8.5477479
+    category: mercatini-fiere
+    subcategory: fiere
+    official_url: https://www.distrettolaghi.it/it/eventi/arona-fraz-mercurago-fiera-di-natale
+    summary: Fiera di Natale nella frazione Mercurago di Arona.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Corri come Babbo Natale, 11a edizione
+    start: '2026-12-08'
+    venue: Centro di Stresa
+    address: Stresa
+    town: Stresa
+    lat: 45.8837277
+    lon: 8.5390268
+    category: sport
+    subcategory: corsa
+    official_url: https://www.distrettolaghi.it/it/eventi/stresa-corri-come-babbo-natale-11deg-edizione
+    summary: Undicesima edizione della corsa in costume da Babbo Natale a Stresa.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Il Borgo dei Presepi
+    start: '2026-12-08'
+    end: '2027-01-06'
+    venue: Borgo di Massino Visconti
+    address: Massino Visconti
+    town: Massino Visconti
+    lat: 45.824206
+    lon: 8.5409419
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.distrettolaghi.it/it/eventi/massino-visconti-il-borgo-dei-presepi
+    summary: Presepi allestiti nelle vie del borgo di Massino Visconti.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Passeggiando tra i presepi, 13a edizione
+    start: '2026-12-08'
+    end: '2027-01-06'
+    venue: Romanico, centro della frazione
+    address: Frazione Romanico
+    town: Baveno
+    lat: 45.9048844
+    lon: 8.5011238
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://www.distrettolaghi.it/it/eventi/baveno-fraz-romanico-passeggiando-tra-i-presepi-13deg-edizione
+    summary: Percorso tra i presepi della frazione Romanico di Baveno.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale di Omegna
+    start: '2026-12-12'
+    venue: Centro di Omegna
+    address: Omegna
+    town: Omegna
+    lat: 45.879774
+    lon: 8.408022
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/omegna-mercatini-di-natale-2026
+    summary: Mercatini di Natale nel centro di Omegna.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale di Omegna
+    start: '2026-12-19'
+    venue: Centro di Omegna
+    address: Omegna
+    town: Omegna
+    lat: 45.879774
+    lon: 8.408022
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.distrettolaghi.it/it/eventi/omegna-mercatini-di-natale-2026
+    summary: Mercatini di Natale nel centro di Omegna.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Babbo Run and Walk
+    start: '2026-12-18'
+    venue: Intra
+    address: Intra
+    town: Verbania
+    lat: 45.9366367
+    lon: 8.5725755
+    category: sport
+    subcategory: corsa
+    official_url: https://www.distrettolaghi.it/it/eventi/verbania-fraz-intra-babbo-run-and-walk-2026
+    summary: Corsa e camminata in costume da Babbo Natale a Intra.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: 20a edizione di Cantare insieme per il Natale
+    start: '2026-12-23'
+    venue: Mercurago, centro della frazione
+    address: Frazione Mercurago
+    town: Arona
+    lat: 45.7481888
+    lon: 8.5477479
+    category: musica
+    subcategory: concerti
+    official_url: https://www.distrettolaghi.it/it/eventi/arona-fraz-mercurago-20deg-ed-cantare-insieme-per-il-natale
+    summary: Ventesima edizione della serata di canti natalizi a Mercurago.
+    fonte: 'https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)'
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-05T10:00
+    end: 2026-12-05T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-06T10:00
+    end: 2026-12-06T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-07T10:00
+    end: 2026-12-07T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-08T10:00
+    end: 2026-12-08T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-12T10:00
+    end: 2026-12-12T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-13T10:00
+    end: 2026-12-13T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-19T10:00
+    end: 2026-12-19T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-20T10:00
+    end: 2026-12-20T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-24T10:00
+    end: 2026-12-24T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Cervino in ciaspole, ciaspolata guidata
+    start: 2026-12-27T10:00
+    end: 2026-12-27T13:00
+    venue: Parcheggio Chalet del Terminal Bus
+    address: Breuil-Cervinia
+    town: Valtournenche
+    lat: 45.9356034
+    lon: 7.6304397
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: 30 euro adulti, 25 euro bambini 8-10 anni
+    official_url: https://www.naturalp.it/outdoor/events/cervino-in-ciaspole/
+    summary: Ciaspolata guidata facile di circa 5 km ad anello ai piedi del Cervino, adatta anche a bambini dagli 8 anni; ciaspole e bastoncini inclusi.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Tour delle cascate di Lillaz in ciaspole
+    start: 2026-12-05T10:00
+    end: 2026-12-05T13:00
+    venue: Lillaz
+    address: Frazione Lillaz
+    town: Cogne
+    lat: 45.594076
+    lon: 7.3900994
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: da 25 euro
+    official_url: https://www.naturalp.it/outdoor/trek/ciaspolata-tour-delle-cascate-di-lillaz/
+    summary: Ciaspolata guidata alle cascate di Lillaz in Val di Cogne, con turni al mattino e al pomeriggio.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Ciaspolando nel Parco, Rhemes-Notre-Dame
+    start: 2026-12-05T10:00
+    end: 2026-12-05T13:00
+    venue: Rhêmes-Notre-Dame
+    address: Rhêmes-Notre-Dame
+    town: Rhêmes-Notre-Dame
+    lat: 45.5688827
+    lon: 7.1181711
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: da 20 euro
+    official_url: https://www.naturalp.it/outdoor/trek/ciaspolando-nel-parco/
+    summary: Ciaspolata guidata facile nel Parco Nazionale del Gran Paradiso con partenza da Rhemes-Notre-Dame, con turni al mattino e al pomeriggio.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Tour delle cascate di Lillaz in ciaspole
+    start: 2026-12-06T10:00
+    end: 2026-12-06T13:00
+    venue: Lillaz
+    address: Frazione Lillaz
+    town: Cogne
+    lat: 45.594076
+    lon: 7.3900994
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: da 25 euro
+    official_url: https://www.naturalp.it/outdoor/trek/ciaspolata-tour-delle-cascate-di-lillaz/
+    summary: Ciaspolata guidata alle cascate di Lillaz in Val di Cogne, con turni al mattino e al pomeriggio.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Ciaspolando nel Parco, Rhemes-Notre-Dame
+    start: 2026-12-06T10:00
+    end: 2026-12-06T13:00
+    venue: Rhêmes-Notre-Dame
+    address: Rhêmes-Notre-Dame
+    town: Rhêmes-Notre-Dame
+    lat: 45.5688827
+    lon: 7.1181711
+    category: natura-outdoor
+    subcategory: escursioni
+    access: iscrizione
+    price: da 20 euro
+    official_url: https://www.naturalp.it/outdoor/trek/ciaspolando-nel-parco/
+    summary: Ciaspolata guidata facile nel Parco Nazionale del Gran Paradiso con partenza da Rhemes-Notre-Dame, con turni al mattino e al pomeriggio.
+    fonte: https://www.naturalp.it/outdoor/naturalp-calendario/
+    trovato: '2026-11-28'
+  - title: Sanremo Marathon e Sanremo Half Marathon 2026
+    start: 2026-12-06T09:00
+    venue: Campo di atletica di Pian di Poma
+    address: Pian di Poma
+    town: Sanremo
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://sanremomarathon.it/maratona/programma-gare/
+    summary: Maratona e mezza maratona della Riviera dei Fiori con partenza e arrivo al campo di atletica di Pian di Poma; premiazioni alle 12.
+    fonte: https://sanremomarathon.it/maratona/programma-gare/
+    trovato: '2026-11-28'
+  - title: Sanremo 10K 2026
+    start: 2026-12-06T08:50
+    venue: Campo di atletica di Pian di Poma
+    address: Pian di Poma
+    town: Sanremo
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://sanremomarathon.it/10k/
+    summary: Corsa di 10 chilometri della Sanremo Marathon con partenza dal campo di atletica di Pian di Poma.
+    fonte: https://sanremomarathon.it/maratona/programma-gare/
+    trovato: '2026-11-28'
+  - title: Regalo di compleanno
+    start: 2026-11-29T16:00
+    venue: Auditorium Famiglia Tricerri
+    address: Via Vittime di Bologna 4
+    town: Trino
+    lat: 45.19457
+    lon: 8.3018707
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 10 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/spettacolo-regalo-di-compleanno/
+    summary: Spettacolo teatrale all'Auditorium Famiglia Tricerri di Trino.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Vercelli Organ Festival, 6o concerto
+    start: 2026-11-29T16:00
+    venue: Chiesa dei Santi Pietro e Paolo
+    address: Via Giacomo Lignana
+    town: Tronzano Vercellese
+    lat: 45.3427088
+    lon: 8.1751988
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/vercelli-organ-festival-6-concerto/
+    summary: Concerto d'organo del Vercelli Organ Festival nella parrocchiale dei Santi Pietro e Paolo di Tronzano.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Silent Book Club al Museo Leone
+    start: 2026-11-29T15:00
+    venue: Museo Camillo Leone
+    address: Via Verdi 30
+    town: Vercelli
+    lat: 45.3267582
+    lon: 8.4232615
+    category: arte-cultura
+    subcategory: libri
+    access: iscrizione
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/silent-book-club-leggere-in-silenzio-con-la-torre-di-fronte/
+    summary: Incontro di lettura silenziosa condivisa al Museo Leone, gratuito su prenotazione.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Gran pranzo del bollito
+    start: 2026-11-29T12:30
+    venue: Sede Pro Loco di Rovasenda
+    address: Via Cavour 4
+    town: Rovasenda
+    lat: 45.5365096
+    lon: 8.3130106
+    category: sagre-feste
+    subcategory: cene
+    access: biglietto
+    price: 28 euro, soci 25 euro, bambini 15 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/gran-pranzo-del-bollito/
+    summary: Pranzo a base di bollito alla sede della Pro Loco di Rovasenda.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Il presepe in piazza Cavour
+    start: '2026-11-30'
+    end: '2027-01-07'
+    venue: Piazza Cavour
+    address: Piazza Cavour
+    town: Vercelli
+    lat: 45.3259757
+    lon: 8.4233894
+    category: arte-cultura
+    subcategory: visite
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/il-presepe-in-piazza-cavour/
+    summary: Presepe allestito in piazza Cavour per le feste di Natale.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Territori in diacronia, i paesaggi del Po
+    start: '2026-12-02'
+    end: '2027-02-27'
+    venue: Museo del Tesoro del Duomo
+    address: Piazza Papa Giovanni XXIII
+    town: Vercelli
+    lat: 45.3298055
+    lon: 8.4234474
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mostra-i-paesaggi-del-po-tra-storia-e-trasformazioni-territori-in-diacronia-paesaggi-fluviali-e-opere-idrauliche-lungo-il-fiume-po/
+    summary: Mostra sui paesaggi fluviali e le opere idrauliche lungo il Po al Museo del Tesoro del Duomo; inaugurazione il 2 dicembre alle 18.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: La lingua locale nelle canzoni del Carnevale
+    start: 2026-12-03T21:00
+    venue: Sede Pro Loco di Santhia'
+    address: Via De Rege Como 7
+    town: Santhià
+    lat: 45.3657448
+    lon: 8.1744398
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/la-lingua-locale-nelle-canzoni-del-carnevale/
+    summary: Serata sul dialetto nelle canzoni del Carnevale di Santhia' alla sede della Pro Loco.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Eleazaro Rossi, Kamikaze
+    start: 2026-12-03T20:30
+    venue: Teatro Civico
+    address: Via Monte di Pieta' 15
+    town: Vercelli
+    lat: 45.3279312
+    lon: 8.4216795
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/eleazaro-rossi-kamikaze/
+    summary: Spettacolo di stand-up comedy di Eleazaro Rossi al Teatro Civico.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Thomas Masciaga, Viotti Tea
+    start: 2026-12-03T17:00
+    venue: Viotti Club
+    address: Via Galileo Ferraris 14
+    town: Vercelli
+    lat: 45.3255631
+    lon: 8.4219635
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: 5 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/thomas-masciaga-viotti-tea/
+    summary: Concerto pomeridiano della rassegna Viotti Tea al Viotti Club.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Michele Taraborrelli, Viotti Tea
+    start: 2026-12-10T17:00
+    venue: Viotti Club
+    address: Via Galileo Ferraris 14
+    town: Vercelli
+    lat: 45.3255631
+    lon: 8.4219635
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: 5 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/michele-taraborrelli-viotti-tea/
+    summary: Concerto pomeridiano della rassegna Viotti Tea al Viotti Club.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Marco Remelli e Francesca Antonucci, Viotti Tea
+    start: 2026-12-17T17:00
+    venue: Viotti Club
+    address: Via Galileo Ferraris 14
+    town: Vercelli
+    lat: 45.3255631
+    lon: 8.4219635
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: 5 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/marco-remelli-francesca-antonucci-viotti-tea/
+    summary: Concerto pomeridiano della rassegna Viotti Tea al Viotti Club.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Il presepe nel mondo, mostra concorso
+    start: '2026-12-04'
+    end: '2027-01-06'
+    venue: Chiesa di San Paolo
+    address: Via San Paolo
+    town: Vercelli
+    lat: 45.3243991
+    lon: 8.4237435
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mostra-concorso-il-presepe-nel-mondo/
+    summary: Mostra concorso di presepi nella chiesa di San Paolo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Stavamo meglio quando stavamo peggio?
+    start: 2026-12-03T21:00
+    venue: Teatro Civico
+    address: Via Chiara
+    town: Varallo
+    lat: 45.8143112
+    lon: 8.2537339
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/stavamo-meglio-quando-stavamo-peggio-2/
+    summary: Spettacolo al Teatro Civico di Varallo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Presepi in mostra e opere pittoriche
+    start: '2026-12-04'
+    end: '2027-01-06'
+    venue: Palazzo Racchetti, Portico d'Onore
+    address: Corso Umberto I
+    town: Varallo
+    lat: 45.8156474
+    lon: 8.2521205
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/presepi-in-mostra-e-opere-pittoriche/
+    summary: Esposizione di presepi e dipinti nel Portico d'Onore di Palazzo Racchetti.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Spezie e dolci indiani, laboratorio
+    start: 2026-12-04T17:30
+    venue: Centro Territoriale per il Volontariato
+    address: Corso Liberta' 72
+    town: Vercelli
+    lat: 45.3239889
+    lon: 8.4205654
+    category: sagre-feste
+    subcategory: degustazioni
+    access: iscrizione
+    price: 20 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/spezie-e-dolci-indiani-2/
+    summary: Laboratorio di cucina dedicato alle spezie e ai dolci indiani.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Concorso internazionale Valsesia Musica, canto lirico
+    start: '2026-12-04'
+    end: '2026-12-06'
+    venue: Teatro Civico
+    address: Via Chiara
+    town: Varallo
+    lat: 45.8143112
+    lon: 8.2537339
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/concorso-internazionale-valsesia-musica/
+    summary: Concorso internazionale di canto lirico al Teatro Civico di Varallo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Dalle parole ai fatti, mostra
+    start: '2026-12-04'
+    end: '2027-01-05'
+    venue: Biblioteca Civica Farinone Centa
+    address: Corso Umberto I 69
+    town: Varallo
+    lat: 45.8156144
+    lon: 8.2521379
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mostra-dalle-parole-ai-fatti/
+    summary: Mostra alla Biblioteca Civica di Varallo, inaugurata il 4 dicembre alle 10.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Let's twist again
+    start: 2026-12-05T21:00
+    venue: Teatro Viotti
+    address: Corso Massimo Montano
+    town: Fontanetto Po
+    lat: 45.1943261
+    lon: 8.1922872
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 15 euro, ridotto 13 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/lets-twist-again-teatro-lieve-nuova-stagione/
+    summary: Spettacolo della stagione del Teatro Viotti di Fontanetto Po.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Aspettando il Natale con Santa Claus
+    start: 2026-12-05T15:00
+    venue: Piazza Mazzini
+    address: Piazza Mazzini
+    town: Borgosesia
+    lat: 45.7153131
+    lon: 8.2765337
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/aspettando-il-natale-con-santa-claus/
+    summary: Pomeriggio con Babbo Natale in piazza Mazzini a Borgosesia.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Can man forget this story?
+    start: 2026-12-05T21:00
+    venue: Piccolo Teatro Mimmo Candito
+    address: Piazza Caretto 5
+    town: Crescentino
+    lat: 45.1923208
+    lon: 8.1027492
+    category: musica
+    subcategory: concerti
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/can-man-forget-this-story/
+    summary: Spettacolo musicale al Piccolo Teatro Mimmo Candito di Crescentino.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Wintergarden, Hortus
+    start: 2026-12-05T21:00
+    venue: Chiesa di San Pietro Martire
+    address: Via Dante Alighieri
+    town: Vercelli
+    lat: 45.3269789
+    lon: 8.4197336
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: 12 euro, ridotti 10 e 8 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/wintergarden-coro-della-fraternita-della-trasfigurazione-corgiat/
+    summary: Concerto del Coro della Fraternita' della Trasfigurazione con Corgiat nella rassegna Wintergarden.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Schneiblose, la bolla di neve
+    start: '2026-12-05'
+    end: '2027-01-06'
+    venue: Piazza Regina Margherita
+    address: Piazza Regina Margherita
+    town: Alagna Valsesia
+    lat: 45.8530301
+    lon: 7.9377628
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/schneiblose-la-bolla-di-neve/
+    summary: Bolla di neve allestita in piazza Regina Margherita ad Alagna con un programma giornaliero per le feste.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Leggende valsesiane, presentazione del libro
+    start: 2026-12-05T10:30
+    venue: Biblioteca Civica Farinone Centa
+    address: Corso Umberto I 69
+    town: Varallo
+    lat: 45.8156144
+    lon: 8.2521379
+    category: arte-cultura
+    subcategory: libri
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/leggende-valsesiane-presentazione-del-libro/
+    summary: Presentazione di un libro di leggende della Valsesia alla Biblioteca Civica di Varallo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: I sabati in biblioteca
+    start: 2026-12-05T10:30
+    venue: Biblioteca Civica di Vercelli
+    address: Via Galileo Ferraris 95
+    town: Vercelli
+    lat: 45.3275989
+    lon: 8.4202617
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/i-sabati-in-biblioteca-3/
+    summary: Appuntamento del sabato mattina per bambini alla Biblioteca Civica di Vercelli.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: I sabati in biblioteca
+    start: 2026-12-12T10:00
+    venue: Biblioteca Civica di Vercelli
+    address: Via Galileo Ferraris 95
+    town: Vercelli
+    lat: 45.3275989
+    lon: 8.4202617
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/i-sabati-in-biblioteca-4/
+    summary: Appuntamento del sabato mattina per bambini alla Biblioteca Civica di Vercelli.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: I sabati in biblioteca
+    start: 2026-12-19T10:00
+    venue: Biblioteca Civica di Vercelli
+    address: Via Galileo Ferraris 95
+    town: Vercelli
+    lat: 45.3275989
+    lon: 8.4202617
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/i-sabati-in-biblioteca-5/
+    summary: Appuntamento del sabato mattina per bambini alla Biblioteca Civica di Vercelli.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Latte e caffe', le scatole di caffe' di Luigi Rossa
+    start: '2026-12-05'
+    end: '2027-02-28'
+    venue: Museo Camillo Leone
+    address: Via Verdi 30
+    town: Vercelli
+    lat: 45.3267582
+    lon: 8.4232615
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/latte-e-caffe-la-storia-della-luigi-rossa-arte-e-design-tra-otto-e-novecento-nelle-scatole-di-caffe-di-luigi-rossa/
+    summary: Mostra su arte e design tra Otto e Novecento nelle scatole di caffe' della ditta Luigi Rossa.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Riapertura del Museo Civico Vincenzo Lancia
+    start: '2026-12-05'
+    venue: Museo Civico Vincenzo Lancia
+    address: Via Giuseppe Lancia
+    town: Fobello
+    lat: 45.8901629
+    lon: 8.158932
+    category: arte-cultura
+    subcategory: visite
+    access: libero
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/museo-civico-vincenzo-lancia-riapertura/
+    summary: Giornata di riapertura del museo dedicato a Vincenzo Lancia a Fobello, con ingresso libero.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Festival Gaudete!, Bach Messa in si minore
+    start: 2026-12-06T20:30
+    venue: Chiesa parrocchiale dei Santi Pietro e Paolo
+    address: Via Prevosto Bocciolone
+    town: Borgosesia
+    lat: 45.7165138
+    lon: 8.2761934
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/festival-gaudete-xvii-johann-sebastian-bach-messa-in-si-minore-bwv232/
+    summary: Esecuzione della Messa in si minore BWV 232 di Bach nel Festival Gaudete.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Concerto di Natale, La musica nel tempo
+    start: 2026-12-07T21:00
+    venue: Chiesa parrocchiale di San Bartolomeo
+    address: Via della Chiesa
+    town: Scopa
+    lat: 45.7922896
+    lon: 8.1151786
+    category: musica
+    subcategory: concerti
+    access: offerta
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/concerto-di-natale-la-musica-nel-tempo/
+    summary: Concerto di Natale nella chiesa parrocchiale di San Bartolomeo a Scopa, a offerta libera.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Natale a Borgo d'Ale
+    start: 2026-12-08T15:30
+    venue: Piazza Verdi
+    address: Piazza Giuseppe Verdi
+    town: Borgo d'Ale
+    lat: 45.3510613
+    lon: 8.0515969
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/natale-a-borgo-dale/
+    summary: Pomeriggio di festa in piazza Verdi con accensione dell'albero alle 17.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: La rana esploratrice, Merry Vercelli
+    start: '2026-12-08'
+    end: '2026-12-20'
+    venue: Officina delle Emozioni
+    address: Piazza Municipio 13
+    town: Vercelli
+    lat: 45.3237418
+    lon: 8.4229479
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/merry-vercelli-la-rana-esploratrice/
+    summary: Attivita' per bambini all'Officina delle Emozioni per Merry Vercelli.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale a Varallo
+    start: '2026-12-08'
+    venue: Piazza Vittorio Emanuele II
+    address: Piazza Vittorio Emanuele II
+    town: Varallo
+    lat: 45.814427
+    lon: 8.2542126
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/copia-mercatini-di-natale-a-varallo-2026/
+    summary: Mercatini di Natale nelle vie del centro e in piazza Vittorio Emanuele II.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Polenta concia alla valsesiana
+    start: 2026-12-08T12:00
+    venue: Piazza Vittorio Emanuele II
+    address: Piazza Vittorio Emanuele II
+    town: Varallo
+    lat: 45.814427
+    lon: 8.2542126
+    category: sagre-feste
+    subcategory: sagre
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/polenta-concia-alla-valsesian/
+    summary: Distribuzione di polenta concia in piazza Vittorio Emanuele II a Varallo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Can man forget this story?
+    start: 2026-12-08T17:00
+    venue: Chiesa di San Barnaba
+    address: Corso Vittorio Veneto 66
+    town: Villata
+    lat: 45.3855464
+    lon: 8.4324633
+    category: musica
+    subcategory: concerti
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/can-man-forget-this-story-3/
+    summary: Spettacolo musicale nella chiesa di San Barnaba a Villata.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Museo Borgogna, l'arte si fa sentire
+    start: '2026-12-10'
+    end: '2027-01-06'
+    venue: Museo Borgogna
+    address: Via Antonio Borgogna 4
+    town: Vercelli
+    lat: 45.3255807
+    lon: 8.4270413
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/museo-borgogna-larte-si-fa-sentire-dicembre-2/
+    summary: Visite e laboratori al Museo Borgogna in diverse date di dicembre, su prenotazione.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Immagini dal Mappamondo
+    start: 2026-12-10T21:15
+    venue: Sala Carlo Petri, sede CAI Vercelli
+    address: Via Eugenio Stara 1
+    town: Vercelli
+    lat: 45.3223337
+    lon: 8.4269735
+    category: natura-outdoor
+    subcategory: escursioni
+    access: libero
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/immagini-dal-mappamondo-2/
+    summary: Serata di immagini di viaggio e montagna nella sede del CAI di Vercelli, con ingresso libero.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Extra 2026, Geometrie in bilico tra arte e design
+    start: '2026-12-11'
+    end: '2027-03-11'
+    venue: Edificio Avogadro della Motta
+    address: Piazza Alciati
+    town: Vercelli
+    lat: 45.3245202
+    lon: 8.4244695
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/extra-2026-geometrie-in-bilico-tra-arte-e-design/
+    summary: Mostra tra arte e design nell'Edificio Avogadro della Motta, inaugurata l'11 dicembre alle 18.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Laboratorio di ricamo
+    start: 2026-12-12T10:30
+    venue: Centro Territoriale per il Volontariato
+    address: Corso Liberta' 72
+    town: Vercelli
+    lat: 45.3239889
+    lon: 8.4205654
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    price: 20 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/laboratorio-di-ricamo-2/
+    summary: Laboratorio di ricamo per un massimo di 12 partecipanti.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Natale in Castello
+    start: 2026-12-12T18:45
+    venue: Castello-Monastero Benedettino
+    address: Via Santa Marta 5
+    town: Lenta
+    lat: 45.5548224
+    lon: 8.3858599
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: offerta
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/natale-in-castello/
+    summary: Serata di Natale al Castello-Monastero benedettino di Lenta, a offerta libera.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: 4x4 Xmas meeting
+    start: 2026-12-12T15:30
+    venue: Piazza Mazzini
+    address: Piazza Mazzini
+    town: Borgosesia
+    lat: 45.7153131
+    lon: 8.2765337
+    category: sport
+    subcategory: altri-sport
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/4x4-xmas-meeting-con-dj-set-e-merenda/
+    summary: Raduno di fuoristrada in piazza Mazzini con dj set e merenda.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: MaChe Ghirlande, aspettando il Natale
+    start: 2026-12-12T15:00
+    venue: Museo Archeologico Civico Luigi Bruzza
+    address: Via Antonio Olivero
+    town: Vercelli
+    lat: 45.3240516
+    lon: 8.4287433
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mac-he-ghirlande-aspettando-il-natale/
+    summary: Laboratorio natalizio al Museo Archeologico Luigi Bruzza, su prenotazione.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Can man forget this story?
+    start: 2026-12-13T18:00
+    venue: Chiesa di Ognissanti
+    address: Via Giovanni Lanza 18
+    town: Trino
+    lat: 45.1938727
+    lon: 8.2948651
+    category: musica
+    subcategory: concerti
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/can-man-forget-this-story-2/
+    summary: Spettacolo musicale nella chiesa di Ognissanti a Trino.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Merry Vercelli, concerto in Sant'Andrea
+    start: 2026-12-14T21:00
+    venue: Basilica di Sant'Andrea
+    address: Piazza Guala Bicheri
+    town: Vercelli
+    lat: 45.3287875
+    lon: 8.4191922
+    category: musica
+    subcategory: concerti
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/merry-vercelli-concerto/
+    summary: Concerto natalizio nella Basilica di Sant'Andrea per Merry Vercelli.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Borgosesia in scena, Assassinio sull'Orient Express
+    start: 2026-12-15T20:45
+    venue: Teatro Pro Loco di Borgosesia
+    address: Via Stazione I
+    town: Borgosesia
+    lat: 45.7164578
+    lon: 8.2782617
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/copia-borgosesia-in-scena-orient-express/
+    summary: Spettacolo della rassegna Borgosesia in scena al Teatro Pro Loco.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Alla ricerca del Regno Natale
+    start: 2026-12-18T18:00
+    venue: Cinema Lux
+    address: Via Alberto Giordano
+    town: Borgosesia
+    lat: 45.7166338
+    lon: 8.2740989
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/alla-ricerca-del-regno-natale/
+    summary: Spettacolo natalizio al Cinema Lux di Borgosesia.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: A Silent Night, Carlotta Sillano
+    start: 2026-12-18T21:00
+    venue: Chiesa di San Pietro Martire
+    address: Via Dante Alighieri
+    town: Vercelli
+    lat: 45.3269789
+    lon: 8.4197336
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: 12 euro, ridotti 10 e 8 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/a-silent-night-carlotta-sillano/
+    summary: Concerto di Carlotta Sillano nella chiesa di San Pietro Martire.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Gran concerto di Natale a Borgosesia
+    start: 2026-12-19T21:00
+    venue: Teatro Pro Loco di Borgosesia
+    address: Via Stazione I
+    town: Borgosesia
+    lat: 45.7164578
+    lon: 8.2782617
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/gran-concerto-di-natale-a-borgosesia-2/
+    summary: Concerto di Natale al Teatro Pro Loco di Borgosesia con ingresso libero.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Merry Vercelli, Christmas & Gospel
+    start: 2026-12-19T21:00
+    venue: Chiesa di San Paolo
+    address: Via San Paolo
+    town: Vercelli
+    lat: 45.3243991
+    lon: 8.4237435
+    category: musica
+    subcategory: concerti
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/merry-vercelli-concerto-2/
+    summary: Concerto gospel di Natale nella chiesa di San Paolo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale di Formigliana
+    start: 2026-12-19T10:00
+    venue: Piazza Europa
+    address: Piazza Europa
+    town: Formigliana
+    lat: 45.4302725
+    lon: 8.2873147
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mercatino-di-natale-formigliana/
+    summary: Mercatino di Natale in piazza Europa dalle 10 alle 17.30.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale a Borgosesia
+    start: 2026-12-20T10:00
+    venue: Piazza Mazzini
+    address: Piazza Mazzini
+    town: Borgosesia
+    lat: 45.7153131
+    lon: 8.2765337
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mercatini-di-natale-a-borgosesia/
+    summary: Mercatini di Natale in piazza Mazzini.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Can man forget this story?
+    start: 2026-12-20T17:30
+    venue: Chiesa di San Bernardino
+    address: Via Duomo 29
+    town: Vercelli
+    lat: 45.3283353
+    lon: 8.4240013
+    category: musica
+    subcategory: concerti
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/man-forget-this-story/
+    summary: Spettacolo musicale nella chiesa di San Bernardino a Vercelli.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Borgosesia in scena, Gospel Show
+    start: 2026-12-22T20:45
+    venue: Teatro Pro Loco di Borgosesia
+    address: Via Stazione I
+    town: Borgosesia
+    lat: 45.7164578
+    lon: 8.2782617
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/borgosesia-in-scena-gospel-show/
+    summary: Concerto gospel della rassegna Borgosesia in scena.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Merry Vercelli, 47o Concerto di Natale
+    start: 2026-12-23T21:00
+    venue: Teatro Civico
+    address: Via Monte di Pieta' 15
+    town: Vercelli
+    lat: 45.3279312
+    lon: 8.4216795
+    category: musica
+    subcategory: concerti
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/merry-vercelli-47-concerto-di-natale/
+    summary: Quarantasettesimo Concerto di Natale al Teatro Civico di Vercelli.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Mercatino dell'antiquariato e dell'artigianato di Varallo
+    start: '2026-12-26'
+    venue: Corso Roma
+    address: Corso Roma
+    town: Varallo
+    lat: 45.813911
+    lon: 8.2550098
+    category: mercatini-fiere
+    subcategory: antiquariato
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mercatino-dellantiquariato-e-dellartigianato-27/
+    summary: Mercatino di antiquariato e artigianato in corso Roma per tutta la giornata.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Festa di Capodanno a Carisio
+    start: 2026-12-31T19:30
+    venue: Palestra comunale di Carisio
+    address: Piazza Falcone
+    town: Carisio
+    lat: 45.4086399
+    lon: 8.198673
+    category: sagre-feste
+    subcategory: cene
+    access: biglietto
+    price: 55 euro, bambini 20 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/festa-di-capodanno-a-carisio/
+    summary: Cena e festa di Capodanno nella palestra comunale di Carisio.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Merry Vercelli, discesa della Befana
+    start: 2027-01-06T18:00
+    venue: Torre dell'Angelo
+    address: Piazza Cavour
+    town: Vercelli
+    lat: 45.3259757
+    lon: 8.4233894
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/merry-vercelli-discesa-della-befana/
+    summary: Discesa della Befana dalla Torre dell'Angelo in piazza Cavour.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Mercatino dell'antiquariato valsesiano
+    start: '2027-01-10'
+    venue: Piazza Vittorio Emanuele II
+    address: Piazza Vittorio Emanuele II
+    town: Varallo
+    lat: 45.814427
+    lon: 8.2542126
+    category: mercatini-fiere
+    subcategory: antiquariato
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mercatino-dellantiquariato-valsesiano-12/
+    summary: Mercatino dell'antiquariato nel centro storico di Varallo per tutta la giornata.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Solidi, proiezione del film
+    start: 2027-01-14T21:00
+    venue: Palazzo d'Adda, sala conferenze
+    address: Via Scarognini
+    town: Varallo
+    lat: 45.8163046
+    lon: 8.2497826
+    category: teatro-spettacoli
+    subcategory: proiezioni
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/solidi-proiezione-del-film/
+    summary: Proiezione del film Solidi nella sala conferenze di Palazzo d'Adda.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Non c'e' 2 senza 3
+    start: 2027-01-16T21:00
+    venue: Auditorium Lux
+    address: Via Bernardino Lanino
+    town: Gattinara
+    lat: 45.6163672
+    lon: 8.3724446
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/spettacolo-non-ce-2-senza-3-auditorium-lux/
+    summary: Spettacolo teatrale all'Auditorium Lux di Gattinara.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Wintergarden, Eliotropio
+    start: 2027-01-17T21:00
+    venue: Chiesa di San Pietro Martire
+    address: Via Dante Alighieri
+    town: Vercelli
+    lat: 45.3269789
+    lon: 8.4197336
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: 12 euro, ridotti 10 e 8 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/wintergarden-eliotropio/
+    summary: Concerto della rassegna Wintergarden nella chiesa di San Pietro Martire.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Ditegli sempre di si'
+    start: 2027-01-22T21:00
+    venue: Teatro Civico
+    address: Via Chiara
+    town: Varallo
+    lat: 45.8143112
+    lon: 8.2537339
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/ditegli-sempre-si/
+    summary: La commedia di Eduardo De Filippo al Teatro Civico di Varallo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Visita guidata, la Vercelli medievale
+    start: 2027-01-23T15:00
+    venue: Piazza Cavour
+    address: Piazza Cavour
+    town: Vercelli
+    lat: 45.3259757
+    lon: 8.4233894
+    category: arte-cultura
+    subcategory: visite
+    access: biglietto
+    price: 12 euro, ridotto 10 euro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/visita-guidata-la-vercelli-medievale-11/
+    summary: Passeggiata guidata nella Vercelli medievale con partenza da piazza Cavour.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Mercatino dell'antiquariato e dell'artigianato di Varallo
+    start: '2027-01-30'
+    venue: Corso Roma
+    address: Corso Roma
+    town: Varallo
+    lat: 45.813911
+    lon: 8.2550098
+    category: mercatini-fiere
+    subcategory: antiquariato
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/mercatino-dellantiquariato-e-dellartigianato-28/
+    summary: Mercatino di antiquariato e artigianato in corso Roma per tutta la giornata.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Funny Residence
+    start: 2027-02-13T21:00
+    venue: Cinema Lux
+    address: Via Alberto Giordano
+    town: Borgosesia
+    lat: 45.7166338
+    lon: 8.2740989
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: offerta
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/spettacolo-teatrale-funny-residence/
+    summary: Spettacolo teatrale al Cinema Lux di Borgosesia, a offerta libera.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Il sollevamento della catena e la formazione delle valli
+    start: 2027-02-18T21:00
+    venue: Palazzo d'Adda, sala conferenze
+    address: Via Scarognini
+    town: Varallo
+    lat: 45.8163046
+    lon: 8.2497826
+    category: arte-cultura
+    subcategory: scienza
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/il-sollevamento-della-catena-e-la-formazione-delle-valli-nel-setore-centro-occidentale-delle-alpi/
+    summary: Conferenza sulla geologia delle Alpi centro-occidentali a Palazzo d'Adda.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Terzo tempo
+    start: 2027-02-20T21:00
+    venue: Teatro Civico
+    address: Via Chiara
+    town: Varallo
+    lat: 45.8143112
+    lon: 8.2537339
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/terzo-tempo/
+    summary: Spettacolo teatrale al Teatro Civico di Varallo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Minchia signor tenente
+    start: 2027-02-27T21:00
+    venue: Auditorium Lux
+    address: Via Bernardino Lanino
+    town: Gattinara
+    lat: 45.6163672
+    lon: 8.3724446
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/spettacolo-minchia-signor-tenente-auditorium-lux/
+    summary: Spettacolo teatrale all'Auditorium Lux di Gattinara.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Borgosesia in scena, Totalmente incompatibili
+    start: 2027-03-05T20:45
+    venue: Teatro Pro Loco di Borgosesia
+    address: Via Stazione I
+    town: Borgosesia
+    lat: 45.7164578
+    lon: 8.2782617
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/borgosesia-in-scena-totalmente-incompatibili/
+    summary: Spettacolo della rassegna Borgosesia in scena al Teatro Pro Loco.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Si vede che era destino
+    start: 2027-03-05T21:00
+    venue: Auditorium Lux
+    address: Via Bernardino Lanino
+    town: Gattinara
+    lat: 45.6163672
+    lon: 8.3724446
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/spettacolo-si-vede-che-era-destino-auditorium-lux/
+    summary: Spettacolo teatrale all'Auditorium Lux di Gattinara.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Fiori d'acciaio
+    start: 2027-03-06T21:00
+    venue: Cinema Lux
+    address: Via Alberto Giordano
+    town: Borgosesia
+    lat: 45.7166338
+    lon: 8.2740989
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: offerta
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/spettacolo-teatrale-fiori-dacciaio/
+    summary: Spettacolo teatrale al Cinema Lux di Borgosesia, a offerta libera.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Il pipistrello
+    start: 2027-03-07T17:00
+    venue: Teatro Civico
+    address: Via Chiara
+    town: Varallo
+    lat: 45.8143112
+    lon: 8.2537339
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/il-pipistrello/
+    summary: L'operetta di Johann Strauss al Teatro Civico di Varallo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Borgosesia in scena, Terapia D'Urso
+    start: 2027-03-13T20:45
+    venue: Teatro Pro Loco di Borgosesia
+    address: Via Stazione I
+    town: Borgosesia
+    lat: 45.7164578
+    lon: 8.2782617
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/borgosesia-in-scena-terapia-durso/
+    summary: Spettacolo comico della rassegna Borgosesia in scena.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Col d'Olen 2010, racconti dalle nuvole
+    start: 2027-03-18T21:00
+    venue: Palazzo d'Adda, sala conferenze
+    address: Via Scarognini
+    town: Varallo
+    lat: 45.8163046
+    lon: 8.2497826
+    category: arte-cultura
+    subcategory: conferenze
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/col-d-olen-2010-racconti-dalle-nuvole-dietro-le-quinte-del-film-la-misura-del-confine/
+    summary: Incontro sul dietro le quinte del film La misura del confine a Palazzo d'Adda.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Desiderio di adunata
+    start: 2027-03-20T21:00
+    venue: Cinema Lux
+    address: Via Alberto Giordano
+    town: Borgosesia
+    lat: 45.7166338
+    lon: 8.2740989
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: offerta
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/spettacolo-teatrale-desiderio-di-adunata/
+    summary: Spettacolo teatrale al Cinema Lux di Borgosesia, a offerta libera.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Benvenuti in casa Morandi. A letto senza cena
+    start: 2027-03-21T20:45
+    venue: Teatro Pro Loco di Borgosesia
+    address: Via Stazione I
+    town: Borgosesia
+    lat: 45.7164578
+    lon: 8.2782617
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/borgosesia-in-scena-benvenuti-in-casa-morandi-aletto-senza-cena/
+    summary: Spettacolo della rassegna Borgosesia in scena al Teatro Pro Loco.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'
+  - title: Cari genitori
+    start: 2027-03-26T21:00
+    venue: Teatro Civico
+    address: Via Chiara
+    town: Varallo
+    lat: 45.8143112
+    lon: 8.2537339
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/cari-genitori/
+    summary: Commedia al Teatro Civico di Varallo.
+    fonte: https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+    trovato: '2026-11-28'

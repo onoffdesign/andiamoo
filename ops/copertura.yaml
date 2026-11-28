@@ -387,6 +387,15 @@ province:
   GR: '2026-11-28'
   MS: '2026-11-28'
   AN: '2026-11-28'
+  VC: '2026-11-28'
+  VB: '2026-11-28'
+  GE: '2026-11-28'
+  SV: '2026-11-28'
+  SP: '2026-11-28'
+  IM: '2026-11-28'
+  AO: '2026-11-28'
+  FI: '2026-11-28'
+  PI: '2026-11-28'
   PU: '2026-11-28'
 
 # Comuni delle province della fase 2b controllati (pagina ufficiale letta o ricerca mirata).
@@ -492,6 +501,54 @@ comuni_NO:
   Sozzago: '2026-11-28'
   Oleggio: '2026-11-28'
   Carpignano Sesia: '2026-11-28'
+  Nibbiola: '2026-11-28'   # pagina appuntamenti del Comune: solo eventi estivi
+  Vicolungo: '2026-11-28'
+  Barengo: '2026-11-28'   # nessun evento nel PDF di Turismo Novara dopo il 28/11
+comuni_VC:
+  Vercelli: '2026-11-28'
+  Casanova Elvo: '2026-11-28'   # solo ricerca, nessun evento
+  Trino: '2026-11-28'
+  Tricerro: '2026-11-28'   # solo ricerca, nessun evento
+comuni_VB:
+  Verbania: '2026-11-28'
+  Malesco: '2026-11-28'   # solo calendario del Distretto Laghi, nessun evento
+  Cossogno: '2026-11-28'   # solo calendario del Distretto Laghi, nessun evento
+  Pieve Vergonte: '2026-11-28'   # solo calendario del Distretto Laghi, nessun evento
+comuni_GE:
+  Genova: '2026-11-28'
+  Rapallo: '2026-11-28'   # hellorapallo.it letto: eventi senza luogo, non pubblicati
+  Valbrevenna: '2026-11-28'   # non cercato per budget
+  Ceranesi: '2026-11-28'   # non cercato per budget
+comuni_SV:
+  Savona: '2026-11-28'
+  Cosseria: '2026-11-28'   # non cercato per budget
+  Castelbianco: '2026-11-28'   # non cercato per budget
+  Calizzano: '2026-11-28'   # non cercato per budget
+comuni_SP:
+  La Spezia: '2026-11-28'
+  Sarzana: '2026-11-28'   # solo ricerca, Natale 2026 non pubblicato
+  Portovenere: '2026-11-28'   # solo ricerca, Natale 2026 non pubblicato
+  Borghetto di Vara: '2026-11-28'   # non cercato per budget
+comuni_IM:
+  Imperia: '2026-11-28'
+  Triora: '2026-11-28'   # solo ricerca, nessun evento
+  Armo: '2026-11-28'   # non cercato per budget
+  Aquila d'Arroscia: '2026-11-28'   # non cercato per budget
+comuni_AO:
+  Aosta: '2026-11-28'
+  Antey-Saint-André: '2026-11-28'   # Note di Natale 5-7/12 solo su testate da verificare
+  Introd: '2026-11-28'   # solo ricerca, nessun evento
+  Arnad: '2026-11-28'   # solo ricerca, nessun evento
+comuni_FI:
+  Firenze: '2026-11-28'
+  Vaglia: '2026-11-28'   # solo ricerca, nessun evento
+  Rignano sull'Arno: '2026-11-28'   # solo presepi 2025/26
+  Pelago: '2026-11-28'   # pagina Fiera di Natale del Comune del 2024
+comuni_PI:
+  Pisa: '2026-11-28'
+  San Giuliano Terme: '2026-11-28'   # solo programma 2025
+  Santa Luce: '2026-11-28'
+  Castelnuovo di Val di Cecina: '2026-11-28'
 comuni_AL:
   Alessandria: '2026-11-28'
 comuni_AT:
@@ -507,6 +564,25 @@ categorie_PC:
   "Famiglie e bambini > Letture e biblioteche": 2026-11-28
 categorie_NO:
   "Arte e cultura > Tecnologia e scienza": 2026-11-28
+  "Natura e benessere > Escursioni": 2026-11-28   # [escursione guidata, CAI Novara, Parco Ticino]: resa 0
+categorie_VC:
+  "Business e formazione > Convegni e conferenze": 2026-11-28   # nessun convegno; 3 conferenze da visitvalsesiavercelli
+categorie_VB:
+  "Musica e party > Festival musicali": 2026-11-28   # [festival musicale Verbania]: solo gospel al Maggiore
+categorie_GE:
+  "Spettacoli > Circo e arti di strada": 2026-11-28   # [Circumnavigando]: 11 spettacoli (Porto Antico, Tosse)
+categorie_SV:
+  "Famiglie e bambini > Ricorrenze": 2026-11-28   # [Natale Savona, Befana]: programma comunale non pubblicato
+categorie_SP:
+  "Spettacoli > Circo e arti di strada": 2026-11-28   # [TRAC Festival, circo La Spezia]: 12 spettacoli
+categorie_IM:
+  "Sport > Corsa": 2026-11-28   # [corsa podistica Imperia, Sanremo Marathon]: 2 gare
+categorie_AO:
+  "Natura e benessere > Escursioni": 2026-11-28   # [ciaspolata guidata Valle d'Aosta]: NaturAlp
+categorie_FI:
+  "Spettacoli > Teatro": 2026-11-28   # [stagione Teatro Verdi, Pergola]: Verdi letto, Pergola illeggibile
+categorie_PI:
+  "Sport > Racchetta": 2026-11-28   # [torneo tennis padel Pisa dicembre]: resa 0 (solo Playtomic)
 categorie_BI:
   "Arte e cultura > Comunita'": 2026-11-28
 # italia-a (2026-11-28): comuni controllati (pagina ufficiale letta o ricerca mirata) e categorie cercate

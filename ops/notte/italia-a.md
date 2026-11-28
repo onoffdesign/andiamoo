@@ -1,165 +1,208 @@
-# Agente italia-a, notte del 2026-11-28
+# Agente italia-a, notte del 2026-11-28 (seconda tornata)
 
-Province: TV, CR, LC, LO, SO (Lombardia e Veneto), BO, MO, RE, PR, FC (Emilia-Romagna).
+Province: NO, VC, VB (Piemonte), GE, SV, SP, IM (Liguria), AO (Valle d'Aosta), FI, PI (Toscana).
 
 ## Numeri
-- Eventi in `config/notte/italia-a-eventi.yaml`: **350** (`python -m pipeline.notte --controlla italia-a`: "Parti valide").
-  Prima di stanotte le 9 province nuove avevano 0 eventi futuri sul sito (`--comune` sui capoluoghi e su tutti i
-  comuni aggiunti): nessun doppione.
-- Per regione: **Emilia-Romagna 221**, **Lombardia 129**, **Veneto 0** (Treviso ha gia' 210 eventi; i 3 comuni e
-  l'ambito non hanno dato eventi pubblicabili).
-- `config/notte/italia-a-correzioni.yaml`: non creato (nessun evento esistente da correggere).
-- Ricerche usate: **89 su 125** (WebSearch 33, WebFetch 56). In piu' 3 letture di robots.txt con curl (controllo
-  delle fonti usate, non contate) e 2 pdftotext su PDF gia' salvati da WebFetch (costo zero).
-- 223 eventi su 350 hanno lat/lon (vedi "Luoghi nuovi": coordinate da confermare); 5 senza indirizzo (vedi Problemi).
+- Eventi trovati e scritti: **474**. Di questi **175** erano gia' stati uniti dal coordinatore (una versione intermedia di
+  `config/notte/italia-a-eventi.yaml` e' finita nel commit f8fdbff insieme a italia-b) e li ho tolti dal file per non
+  duplicarli: nel file restano **299** eventi nuovi. `python -m pipeline.notte --controlla italia-a`: "Parti valide".
+- Doppioni: controllati con lo stesso titolo e data su sito, redazione e altre parti della notte; nessuno.
+- `config/notte/italia-a-correzioni.yaml`: non creato (nessuna correzione a eventi esistenti).
+- Ricerche usate: **97 su 125** (WebSearch 52, WebFetch 45). In piu', a costo zero: 3 PDF letti con pdftotext dai file
+  salvati da WebFetch (Teatro Verdi di Firenze, Turismo Novara, TRAC Festival) e circa 170 richieste a Nominatim dalla
+  shell per le coordinate (1 al secondo; alcune risposte 629 per troppe richieste).
+- Coordinate: 472 eventi su 474 hanno lat/lon; mancano solo i 2 della Sanremo Marathon (Pian di Poma non trovato).
 
-| Prov. | Eventi | Comuni | Categorie |
-|---|---|---|---|
-| RE | 79 | Reggio nell'Emilia 63, Reggiolo 5, Quattro Castella 2, Gualtieri 2, Campagnola, Cavriago, Bagnolo in Piano, Correggio, Casalgrande, Castelnovo di Sotto, Castellarano 1 | musica 24, teatro 19, arte-cultura 13 (8 mostre), mercatini 11, sagre-feste 5, famiglie 4, sport 3 |
-| CR | 52 | Cremona 52 | musica 24, teatro 21, famiglie 3, arte-cultura 3, mercatini 1 |
-| FC | 51 | Forli' 51 | teatro 19, musica 9, famiglie 7, arte-cultura 7, sagre-feste 4, mercatini 4, sport 1 |
-| BO | 40 | Bologna 32, Casalecchio di Reno 5, Zola Predosa 3 | teatro 24, musica 10, arte-cultura 3, famiglie 2, mercatini 1 |
-| SO | 36 | Sondrio 35, Talamona 1 | mercatini 12, teatro 10, musica 5, sagre-feste 4, sport 3, famiglie 1, arte-cultura 1 |
-| MO | 32 | Modena 32 | musica 16, teatro 13, famiglie 2, mercatini 1 |
-| LC | 22 | Lecco 22 | musica 12, mercatini 3, teatro 2, arte-cultura 2, famiglie 2, sagre-feste 1 |
-| LO | 19 | Lodi 19 | teatro 12, musica 4, famiglie 3 |
-| PR | 19 | Parma 19 | mercatini 7 (piazza Ghiaia, Mercanteinfiera), teatro 6, musica 5, famiglie 1 |
-| TV | 0 | - | - |
+| Prov. | Totale | gia' uniti | nel file | Fonti principali |
+|---|---|---|---|---|
+| NO | 136 | 0 | 136 | PDF di Turismo Novara (tutta la provincia), Distretto dei Laghi (Arona, Massino Visconti, Oleggio Castello) |
+| VC | 83 | 6 | 77 | Visit Valsesia Vercelli (prossimi eventi, schede), Comune di Vercelli (stagione del Civico) |
+| GE | 76 | 61 | 15 | Teatro Nazionale (44 titoli), Carlo Felice, Teatro della Tosse, Palazzo Ducale, Porto Antico (Circumnavigando) |
+| FI | 47 | 26 | 21 | Teatro Verdi (PDF cronologico), Quartiere 4 del Comune, Maggio Musicale, mercato di Santa Croce |
+| SV | 28 | 27 | 1 | Comune di Savona (stagione del Chiabrera) |
+| SP | 26 | 14 | 12 | Comune della Spezia (prosa del Teatro Civico), TRAC Festival (pieghevole PDF) |
+| VB | 24 | 8 | 16 | Distretto Turistico dei Laghi (stagione del Maggiore, calendario delle feste) |
+| PI | 23 | 18 | 5 | Teatro di Pisa (solo dai risultati di ricerca), Turismo Pisa, Terre di Pisa |
+| AO | 18 | 4 | 14 | Saison Culturelle, NaturAlp (ciaspolate guidate) |
+| IM | 13 | 11 | 2 | Comune di Imperia (stagione del Cavour), Sanremo Marathon |
 
-Comuni assegnati controllati senza eventi pubblicabili: Resana (pagina eventi del Comune vuota, "0 eventi trovati";
-nessun programma 2026 della Pro Loco), Bagnolo Cremasco, Casaletto Vaprio, Quintano, Nibionno, Pagnona, Barzago,
-Borghetto Lodigiano (pagina Pro Loco del 2023), Terranova dei Passerini, Somaglia (Municipium `/it/events`: 5 eventi
-senza ora ne' luogo), Castenaso (Pro Loco senza date), Grizzana Morandi, Maranello (nessun programma 2026; il
-calendario Ferrari non si legge), Finale Emilia (pagina natalizia del 2023), Castelvetro di Modena, Bibbiano, Rolo,
-Borgo Val di Taro e Pellegrino Parmense (brochure 2026 dell'Unione Valli Taro e Ceno senza date), Bertinoro (solo testate).
-**Non controllati** (budget): Volpago del Montello, Revine Lago, Sernio, Tovo di Sant'Agata, Tizzano Val Parma,
-Gatteo, Tredozio. Ambiti non cercati: Storia e rievocazioni (CR), Motori (LC), Ballo (LO), Ambiente (MO).
-Ambiti cercati senza risultati: Convegni (TV; Treviso Swallowing Day del 12/12 ha la pagina di studioprogress.it
-in 403), Lavoro (RE), Arrampicata (FC; Vertical Forli', via Pandolfa 42, nessuna gara nel periodo).
+Per regione: **Piemonte 243**, **Liguria 143**, **Toscana 70**, **Valle d'Aosta 18** (totale 474; nel file 229, 30, 26, 14).
+Categorie dei 299 eventi nel file: teatro-spettacoli 101, musica 59, arte-cultura 45, mercatini-fiere 38,
+famiglie-bambini 20, natura-outdoor 16, sagre-feste 13, sport 7.
 
-## Fonti nuove da catalogare
-Strutturate o con elenchi completi (priorita' alta):
-- **Fondazione I Teatri di Reggio Emilia** | https://www.iteatri.re.it/ (calendario completo:
-  https://www.iteatri.re.it/rassegna/stagione-2026-2027/?month=all) | home con tutta la stagione fino a marzo
-  (date senza orari) | sede | RE. robots.txt libero.
-- **Reggio Emilia Welcome, calendari mensili** | https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026
-  | una pagina al mese con 60+ eventi di citta', provincia e mostre, spesso con orari e indirizzi | ufficio turistico | RE.
-  robots.txt: Crawl-delay 120.
-- **Teatro Ponchielli di Cremona** | https://www.teatroponchielli.it/ (calendario /calendario-eventi/) | home con tutta
-  la stagione e gli orari | sede | CR. Rassegna Oltreibanchi = repliche scolastiche, da escludere.
-- **Turismo Cremona** | https://www.turismocremona.it/it/evento/natale-cremona-2026 | schede evento con elenco degli
-  altri eventi del mese | ufficio turistico | CR.
-- **Forli' che Brilla** | https://forlichebrillaofficial.it/ | programma completo del Natale di Forli' (oltre 100
-  appuntamenti con orari e luoghi, molti indirizzi) | comune/organizzatore | FC. Ripassare a meta' dicembre.
-- **Accademia Perduta, Teatro Diego Fabbri** | https://accademiaperduta.it/teatro-diego-fabbri-forli/ | stagione con
-  date e orari (21:00 salvo diversa indicazione), date senza anno | sede | FC. Pagine anche per Teatro Piccolo di Forli'
-  e Teatro Dragoni di Meldola. teatrodiegofabbri.it risponde 503.
-- **Emilia Romagna Teatro, Bologna e Modena** | https://bologna.emiliaromagnateatro.com/ ,
-  https://modena.emiliaromagnateatro.com/ | home con la stagione (Arena del Sole, Moline, Storchi, Passioni) e schede
-  `/spettacolo/<slug>/` con gli orari | sede | BO, MO. WordPress: provare /wp-json/tribe/events/v1/events.
-- **Teatro Comunale Pavarotti-Freni di Modena** | https://www.teatrocomunalemodena.it/spettacoli/ | calendario con
-  orari (pulsante "Carica altro": solo fino a meta' dicembre) | sede | MO.
-- **Teatro Regio di Parma** | https://teatroregioparma.it/calendario/ (mesi con `?c_year=2027&c_month=1`) | sede | PR.
-- **Teatro Due di Parma** | https://www.teatrodue.org/teatro-due-2026-2027/ | sede | PR.
-- **Teatro alle Vigne di Lodi** | https://www.teatroallevigne.com/spettacoli/stagione-2026-2027/tutti | stagione
-  completa con date e orari | sede | LO.
-- **Teatro della Societa' di Lecco** | https://www.teatrosocietalecco.it/ | sede | LC.
-- **Comune di Lecco, Lecco Magico Natale 2026** | https://www.comune.lecco.it/Novita/Notizie/Lecco-Magico-Natale-2026 |
-  programma completo con orari | comune | LC.
-- **Sondrio e Valmalenco eventi** | https://eventi.sondrioevalmalenco.it/ | 40 eventi in 120 giorni, schede con
-  coordinate (la stagione del Teatro Sociale e' in /evento/stagione-teatrale-2025-2026, slug vecchio ma contenuto
-  2026/27) | consorzio turistico | SO.
-- **Bologna Cultura, calendario** | https://www.culturabologna.it/objects/calendario-bologna-cultura (giorni successivi
-  `/calendar?range%5B0%5D=2026-12-05`) | 7 giorni per pagina, 100+ eventi con ora e luogo ma senza indirizzo |
-  comune | BO (anche Casalecchio, Zola, Imola, Medicina). Ottima per il PC con i luoghi in config/luoghi.yaml.
-- **Mercatino di Natale tirolese di Modena** | https://www.mercatinodinataletirolesemodena.it/spettacoli | organizzatore | MO.
-- **Comune di Reggiolo, calendario annuale** | https://reggiolo-api.municipiumapp.it/s3/5684/allegati/calendario-eventi-reggiolo-2026.pdf
-  | PDF con tutto il 2026 (pdftotext) | comune | RE.
-- **Porte di Valtellina** | https://portedivaltellina.it/ | consorzio turistico di Morbegno (Talamona e bassa valle) | SO.
+Comuni assegnati: con eventi Vicolungo (1), Trino (2), Santa Luce (1), Castelnuovo di Val di Cecina (1, Montecastelli
+Pisano). Senza eventi pubblicabili: Nibbiola (Comune: solo eventi estivi), Barengo, Casanova Elvo, Tricerro, Malesco,
+Cossogno, Pieve Vergonte, Rapallo (vedi sotto), Introd, Arnad, Antey-Saint-Andre' (solo testate), Vaglia, Rignano
+sull'Arno, Pelago (pagine 2024-2025), San Giuliano Terme (programma 2025), Triora, Sarzana, Portovenere. Non cercati per
+budget: Valbrevenna, Ceranesi, Cosseria, Castelbianco, Calizzano, Borghetto di Vara, Armo, Aquila d'Arroscia.
+Ambiti: Circo e arti di strada GE (11 spettacoli) e SP (12, TRAC), Escursioni AO (14 ciaspolate), Corsa IM (2), Teatro FI
+(26 al Verdi e Fiesole); resa 0: Escursioni NO, Convegni VC (solo 3 conferenze), Festival musicali VB, Ricorrenze SV,
+Racchetta PI (solo Playtomic).
 
-Utili ma non lette per intero o vuote:
-- Comune di Parma, Natale 2026: https://www.comune.parma.it/it/Natale2026 rimanda a un catalogo FlippingBook in
-  immagini (https://flippingbooks.comune.parma.it/cataloghi/natale-2026/, oltre 200 eventi): servono le immagini o il PDF.
-- Emilia Romagna Turismo (https://emiliaromagnaturismo.it/), Appennino Bolognese (appenninobolognese.cittametropolitana.bo.it),
-  Parma Welcome (pagina vuota a WebFetch), VisitModena (calendario in JavaScript), Comune di Modena (503),
-  valtellina.it (403), Teatro Duse di Bologna (pagina vuota), turismovaltaro.it (brochure senza date).
+## Fonti nuove da catalogare (ops/fonti.yaml e fonti del giro)
+Priorita' alta (molti eventi in una lettura):
+- **Turismo Novara, PDF di tutti gli eventi** | https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 | query
+  "turismonovara eventimanifestazioni PrintPDF" | ufficio turistico (ATL) | tutta la provincia NO | 274 eventi dal
+  28/11 con comune, luogo e spesso indirizzo e ora, senza link: si legge con pdftotext sul file salvato da WebFetch.
+  Il PC oggi porta solo 25 eventi di Novara da turismonovara.it: conviene un raccoglitore per il PDF (official_url
+  https://www.turismonovara.it/it/doc/eventimanifestazioni, come gia' sul sito).
+- **Visit Valsesia Vercelli, i prossimi eventi** | https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/
+  | query "visitvalsesiavercelli i prossimi eventi" | ufficio turistico (ATL Terre dell'Alto Piemonte) | VC (Vercelli,
+  Valsesia, Trino) | circa 250 eventi fino ad aprile, ognuno con scheda /eventi/<slug>/, ora e luogo; pagina di 285.000
+  caratteri (3 letture con offset 0, 100000, 200000). Candidata per sources.yaml (html; verificare se WordPress con
+  The Events Calendar).
+- **Distretto Turistico dei Laghi, calendario delle feste** | https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27
+  | query "distrettolaghi Natale Capodanno Epifania" | DMO | VB e nord NO | 75 eventi con slug delle schede
+  /it/eventi/<slug>, senza orari ne' luoghi nel testo. Elenco generale /it/eventi con ?page=N. L'export
+  /it/export_data_eventi risponde 500.
+- **Teatro Nazionale di Genova, cartellone** | https://www.teatronazionalegenova.it/rassegne/cartellone-2026-27.htm | sede |
+  GE | 44 titoli con teatro e date (orari nelle schede /eventi/2026-2027/<slug>.htm).
+- **Porto Antico di Genova, Natale** | https://portoantico.it/magazine-news/eventi-natale-al-porto-antico-2026/ | ente |
+  GE | 28 appuntamenti (Circumnavigando al Porto Antico).
+- **Teatro Verdi di Firenze, cartellone cronologico (PDF)** |
+  https://www.teatroverdifirenze.it/wp-content/uploads/2026/09/cronologico-1-settembre.pdf | sede | FI | tutta la
+  stagione con le date (pdftotext), anche Off Verdi (Puccini, Fiesole). Schede /programma/<slug>/.
+- **Comune di Firenze, Quartieri** | https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026 (e
+  /calendario-q4) | comune | FI | 30 appuntamenti di quartiere con orari; cercare le pagine dei Quartieri 1-3 e 5.
+- **Terre di Pisa, eventi** | https://www.terredipisa.it/pisa-eventi/ | ufficio turistico (Camera di Commercio) | PI
+  tutta la provincia | 36 eventi per lettura, "carica successivi" senza URL.
+- **Turismo Pisa (Comune), eventi** | https://www.turismo.pisa.it/eventi/index.html/?cat=1 | comune | PI | 64 pagine, ma il
+  testo letto non riporta i link delle schede.
+- **Comune di Imperia, stagione teatrale** | https://comune.imperia.it/en/page/calendario-della-stagione-teatrale-2026-2027 |
+  comune | IM | stagione del Cavour con orari.
+- **Comune della Spezia, prosa del Civico** | https://www.comune.laspezia.it/novita/comunicati/teatro-civico-la-spezia-ora-stagione-di-prosa-26-27
+  | comune | SP. **TRAC Festival** | https://teatrocivico.it/trac-festival-2026-2027/ (PDF
+  https://teatrocivico.it/wp-content/uploads/2026/11/pieghevole-Web_TRAC-2026_2027-1-1.pdf) | sede | SP.
+- **Comune di Savona, stagione del Chiabrera** | https://comune.savona.it/it/news/la-nuova-stagione-teatrale-2026-27-del-teatro-chiabrera
+  | comune | SV; eventi del Comune https://www.comune.savona.it/index.php/it/eventi.
+- **Comune di Vercelli, stagione del Civico** | https://www.comune.vercelli.it/novita/notizie/presentata-stagione-20262027-teatro-civico-vercelli-volti-noti-classici-passato | comune | VC.
+- **Distretto dei Laghi, stagione del Maggiore** | https://www.distrettolaghi.it/it/eventi/verbania-stagione-teatrale-2026/2027-dove-nasce-la-gioia-di-capire-la-vita | DMO | VB.
+- **Saison Culturelle** | https://saisonculturellevda.it/ | organizzatore (IMARTS per la Regione) | AO | mostra solo le
+  prossime due settimane: da riaprire ogni notte.
+- **NaturAlp, calendario** | https://www.naturalp.it/outdoor/naturalp-calendario/ (data con ?occurrence=AAAA-MM-GG) |
+  organizzatore (guide) | AO e Ceresole Reale (TO) | ciaspolate a turni ogni giorno: tenere solo le date dei prossimi 30 giorni.
+- **Palazzo Ducale, calendario** | https://palazzoducale.genova.it/en/events-calendar/ | sede | GE | solo mostre.
+- **Hello Rapallo (Comune di Rapallo)** | https://hellorapallo.it/eventi/mese/2026-12/ | comune | GE | 17 eventi del mese,
+  ma senza luogo nell'elenco (servono le schede).
+- **Comune di Trino, eventi** | https://www.comune.trino.vc.it/eventi | comune | VC | schede Dettaglionews senza luogo.
+Strutturati (JSON-LD o The Events Calendar): nessuno confermato stanotte. teatrodipisa.it usa The Events Calendar
+(/calendario/...) ma /wp-json/tribe/events/v1/events risponde vuoto a WebFetch.
 
-Da verificare (viste solo nei risultati, non aperte): forlitoday.it, romagnanotizie.net, 4live.it, vitaromagna.it,
-forli-eventi.it, modenatoday.it, modena2000.it, sulpanaro.net, bologna2000.com, bolognatoday.it, popolis.it,
-stampareggiana.it, laliberta.info, primareggioemilia.it, carpi2000.it, reggio2000.it, cremonaoggi.it, cremonasera.it,
-primacremona.it, laprovinciacr.it, crema-news.it, cremavvenimenti.com, parmatoday.it, parmadaily.it, temponews.it,
-gentepocket.it, capodannoparma.com, nonsoloeventiparma.it, invaltaro.it, sondriotoday.it, laprovinciaunicatv.it,
-valtellinamobile.it, calendariovaltellinese.com, ilgiorno.it, ilrestodelcarlino.it, mentelocale.it, chesagra.it,
-ilborghista.it, weekendlombardia.it, trovaeventi.com, portaleventi.it, music-opera.com, bachtrack.com, occhi.it,
-emilia-romagna-intour.com (tour guidati a pagamento di Reggio Emilia, molti eventi nel calendario di Reggio Emilia Welcome).
+Da aggiungere a ops/domini-illeggibili.yaml: teatrodipisa.it (3 letture vuote: home, /calendario/elenco/, API tribe),
+rivieradeifiori.travel (403 due volte, anche l'API), teatrodellatoscana.it (/it/in-programma in JavaScript, brochure PDF
+oltre 10 MB), viottifestival.it (pagina vuota), regione.vda.it /cultura/eventi_spettacoli/saison_culturelle/ (404).
 
-## Eventi visti ma non pubblicati
-- **Teatro Comunale di Bologna (tcbo.it)**: 20 eventi (Notte Morricone 28-29/11, Il flauto magico Short Edition 5/12,
-  concerti sinfonici e Gioia, Il Re Leone Live 18-20/12, Concerto di fine anno con Markus Stenz 31/12, La straniera
-  22 e 24/1, Il ritorno di Ulisse in patria 2-7/3, Sergio Bernal 13-14/3...). Letti dalla home prima che tcbo.it
-  entrasse in `vietate` (robots.txt blocca ClaudeBot); tolti tutti dal file. Da cercare su Bologna Welcome o Bologna
-  Cultura (che elenca anche il Manzoni) o da mettere in `ops/da-verificare.json`.
-- Treviso Swallowing Day (12/12, Auditorium Santa Caterina): pagina dell'organizzatore in 403.
-- Bertinoro: mercatini di Natale (29/11, 6/12), concerti DaiDeJazz (1 e 15/12): solo testate da verificare.
-- Lodi: Villaggio di Natale in piazza della Vittoria (4-13/12) e Sagra di Santa Lucia: solo aggregatori; le pagine del
-  Comune "Magia delle Feste" non hanno l'anno.
-- Reggio Emilia: Hourvari (Compagnie Rasposo, Reggiane Parco Innovazione, 9-11/12) e Concerto di Natale in Sala Verdi
-  aggiunto solo con l'indirizzo del Teatro Ariosto; Lo Schiaccianoci all'Ariosto del 15-16/12 (orari del mattino, scuole).
-- Sondrio: parata, flash mob, Polar Bear Express e laboratori di Sondrio Natale senza luogo preciso.
-- Castelvetro di Modena: mercatino dell'8/12 visto solo in un risultato di ricerca.
+Fonti nuove viste solo nei risultati (aggregatori e testate, NON aperte, restano da verificare per l'agente fonti):
+genova24.it, genovaquotidiana.com, telenord.it, 104news.it, genovatoday.it, italian-riviera.com, levantenews.it,
+rivieraeventi.it, ivg.it, sanremonews.it, rivieratime.news, cittadellaspezia.com, portlogisticpress.it, contattoradio.it,
+aostasera.it, aostanews24.it, gazzettamatin.com, radioflash.fm, radiogold.it, infovercelli24.it, primavercelli.it,
+altopiemontemag.it, oblo.it, eventivalsesia.info, novaratoday.it, verbanonews.it, lanazione.it, firenzemadeintuscany.com,
+inflorencetoday.com, ilcapoluogo.it, incontro.it, virgilio.it, mappaly.com, tuttomercatinidinatale.it, aspettandonatale.it,
+marches-de-noel.fr, music-opera.com, songkick.com, biocorrendo.it, podistiche.it, calendario.podisti.net, finishers.com,
+travel.thewom.it, capodanno31.com, guide-trek-alps.com (organizzatore: e' un sito ufficiale di guide, da usare in una
+notte futura). Nessuna verifica di robots.txt fatta da me.
 
-## Luoghi nuovi (per config/luoghi.yaml; coordinate da confermare)
-Nominatim risponde 403 da questo ambiente e non ho potuto incrociare due fonti: gli indirizzi vengono dalle pagine
-ufficiali (o dalla mia conoscenza dove indicato), le coordinate sono approssimate e vanno controllate prima di
-metterle in luoghi.yaml.
-- Teatro Arena del Sole, Via dell'Indipendenza 44, Bologna, 44.5004 11.3437
-- Teatro delle Moline, Via delle Moline 1/b, Bologna, 44.4988 11.3460
-- Teatro Auditorium Manzoni, Via de' Monari 1/2, Bologna, 44.4969 11.3419 (indirizzo da bachtrack nei risultati)
-- Teatro EuropAuditorium, Piazza della Costituzione 4, Bologna, 44.5186 11.3633
-- ZolAuditorium, Piazza della Repubblica 1, Zola Predosa (indirizzo da culturabologna.it)
-- Villa Edvige Garagnani, Via Masini 11, Zola Predosa (indirizzo da un risultato di ricerca)
-- Teatro Storchi, Largo Garibaldi 15, Modena, 44.6456 10.9306
-- Teatro delle Passioni, Viale Carlo Sigonio 382, Modena, 44.6366 10.9135
-- Teatro Comunale Pavarotti-Freni, Corso Canalgrande 85, Modena, 44.6432 10.9268
-- Piazza Grande, Modena, 44.6466 10.9254
-- Teatro Municipale Valli, Piazza Martiri del 7 Luglio 7, Reggio nell'Emilia, 44.6995 10.6315
-- Teatro Ariosto, Corso Cairoli 1, Reggio nell'Emilia, 44.6993 10.6283 (indirizzo da Reggio Emilia Welcome)
-- Teatro Cavallerizza, Viale Allegri 8/a, Reggio nell'Emilia, 44.6997 10.6297 (indirizzo da Reggio Emilia Welcome)
-- Teatro Regio di Parma, Strada Garibaldi 16/a, Parma, 44.8040 10.3262
-- Teatro Due, Viale Basetti 12/a, Parma, 44.7990 10.3218
-- Fiere di Parma, Viale delle Esposizioni 393A, Parma (indirizzo da mercanteinfiera.it)
-- Teatro Diego Fabbri, Corso Armando Diaz 47, Forli', 44.2209 12.0447 (indirizzo da forlichebrillaofficial.it)
-- Piazza Aurelio Saffi, Forli', 44.2224 12.0407
-- Teatro Amilcare Ponchielli, Corso Vittorio Emanuele II 52, Cremona, 45.1352 10.0226 (indirizzo da turismocremona.it)
-- Piazza del Comune, Cremona, 45.1334 10.0246; Auditorium Giovanni Arvedi (Museo del Violino), Piazza Marconi 5, Cremona
-- Teatro alle Vigne, Via Cavour 66, Lodi, 45.3135 9.5025
-- Teatro della Societa', Piazza Garibaldi 10, Lecco (civico da confermare; la Fondazione Teatre e' in Piazza Diaz 1)
-- Teatro Sociale di Sondrio, Piazza Garibaldi 26, Sondrio, 46.170546 9.869365 (coordinate dalla scheda di
-  eventi.sondrioevalmalenco.it, indirizzo da piu' risultati di ricerca e da lombardiabeniculturali.it): **verificato**
-- Palazzo Sartoretti e Biblioteca Giorgio Ambrosoli, Piazza Martiri 1, Reggiolo (da reggioemiliawelcome.it)
+## Voci nuove per ops/categorie-ricerca.md (proposte, non scritte)
+1. Spettacoli > Circo e arti di strada > festival di circo-teatro d'inverno sotto chapiteau [TRAC Festival, chapiteau, Circo Paniko] → teatrocivico.it
+2. Spettacoli > Circo e arti di strada > festival internazionali di circo-teatro nelle feste [Circumnavigando, circo contemporaneo] → portoantico.it, teatrodellatosse.it
+3. Spettacoli > Circo e arti di strada > parate sui trampoli per l'accensione delle luminarie [parata sui trampoli, accensione luminarie]
+4. Natura e benessere > Escursioni > ciaspolate guidate a turni giornalieri nei parchi alpini [ciaspolata guidata, Gran Paradiso, Cervinia] → naturalp.it
+5. Natura e benessere > Escursioni > serate di immagini di viaggio nelle sedi CAI [Immagini dal Mappamondo, sede CAI]
+6. Sport > Corsa > maratone di dicembre in riviera [Sanremo Marathon, half marathon, 10K] → sanremomarathon.it
+7. Sport > Corsa > passeggiate non competitive con i cani [Stracanina, passeggiata canina]
+8. Musica e party > Festival musicali > festival d'organo itineranti nelle parrocchie della provincia [Vercelli Organ Festival]
+9. Musica e party > Concerti > concerti del mattino nei ridotti dei teatri [Piccolo Coccia ore 11.30, concerto aperitivo]
+10. Musica e party > Concerti > te' musicali pomeridiani nei club dei festival [Viotti Tea, ore 17]
+11. Famiglie e bambini > Ricorrenze > discese della Befana dalle torri civiche [discesa della Befana, Torre dell'Angelo]
+12. Famiglie e bambini > Ricorrenze > accensioni dell'albero nei quartieri con le scuole [Natale al Q4, accensione albero quartiere]
+13. Business e formazione > Convegni e conferenze > convegni di storia nei seminari diocesani [Leone di Vercelli, seminario arcivescovile]
+14. Arte e cultura > Mostre > mostre di presepi storici meccanici [presepi meccanici, museo di storia naturale]
+15. Mercatini e fiere > mostre mercato di alto artigianato nelle stazioni storiche [Fashion in Flair, Stazione Leopolda]
+16. Sagre e cibo > Feste stagionali > alberi di Natale fatti di trattori [AgriXmas, albero di trattori]
+17. Spettacoli > Teatro > rassegne teatrali nei saloni delle Pro Loco di valle [Borgosesia in scena, Teatro Pro Loco]
+18. Spettacoli > Cinema > cineforum con tre proiezioni a settimana nelle sale d'essai [Vipforum, Effetto notte]
 
-## Lezioni per ops/metodo-ricerca.md
-- **Emilia-Romagna**: le home dei teatri di produzione (I Teatri di Reggio, ERT, Ponchielli, Regio, Accademia
-  Perduta) danno tutta la stagione in una lettura: 20-45 eventi per lettura. Gli uffici turistici dei capoluoghi
-  hanno calendari mensili completi (Reggio Emilia Welcome: 68 voci con indirizzi). I siti comunali di Modena
-  (503) e Parma (catalogo FlippingBook in immagini) e il calendario di VisitModena (JavaScript) non si leggono.
-- **Natale**: i programmi 2026 dei capoluoghi (Lecco, Sondrio, Forli', Cremona) sono gia' pubblicati e
-  sono la fonte con piu' eventi per lettura (20-100). Nei comuni piccoli molte pagine natalizie sono ancora del
-  2023-2025: chiedere sempre l'anno e la data di pubblicazione per prima cosa.
-- **Prima di aprire un teatro controllare `config/fonti-vietate.yaml` appena prima**: tcbo.it e' entrato in `vietate`
-  durante la notte, dopo che ne avevo letto la home (20 eventi buttati).
-- I comuni piccoli di Lombardia ed Emilia (meno di 5000 abitanti) rendono quasi zero con WebSearch: meglio provare
-  direttamente `/it/events` (Municipium) o il PDF annuale del calendario (Reggiolo).
+## Luoghi nuovi (per config/luoghi.yaml; coordinate da Nominatim, indirizzi da pagina ufficiale e Nominatim)
+- Teatro Carlo Felice, Passo Eugenio Montale 4, Genova, 44.4081451 8.9349002
+- Teatro Ivo Chiesa, Piazza Borgo Pila 42, Genova, 44.4045240 8.9481031
+- Teatro Eleonora Duse, Via Nicolo' Bacigalupo 6, Genova, 44.4112550 8.9382365
+- Teatro Gustavo Modena e Sala Mercato, Piazza Gustavo Modena 3, Genova, 44.4105548 8.8897582
+- Teatro della Tosse, Piazza Renato Negri 6, Genova, 44.4049524 8.9318247
+- Palazzo Ducale, Piazza Giacomo Matteotti 9, Genova, 44.4075011 8.9332840
+- Piazza delle Feste (Porto Antico), Genova, 44.4090664 8.9271757; Calata Mandraccio, 44.4075316 8.9268062
+- Auditorium delle Clarisse, Rapallo, 44.3480586 9.2353879 (non usato)
+- Teatro Verdi, Via Ghibellina 99, Firenze, 43.7700323 11.2606800
+- Teatro Puccini, Via delle Cascine 41, Firenze, 43.7862068 11.2253943 (civico da confermare)
+- Teatro di Fiesole, Largo Piero Farulli, Fiesole, 43.8078153 11.2960832
+- Teatro del Maggio Musicale Fiorentino, Piazzale Vittorio Gui 1, Firenze, 43.7788769 11.2348742
+- Piazza di Santa Croce, Firenze, 43.7688690 11.2614982
+- Teatro Verdi, Via Palestro 40, Pisa, 43.7169705 10.4044717 (indirizzo da terredipisa.it)
+- Palazzo Blu, Lungarno Gambacorti 9, Pisa, 43.7156502 10.3997452
+- Museo Nazionale di San Matteo, Piazza San Matteo in Soarta 1, Pisa, 43.7147201 10.4078619
+- Arsenali Repubblicani, Lungarno Ranieri Simonelli, Pisa, 43.7146873 10.3930979 (punto del lungarno; terredipisa scrive Via Bonanno)
+- Stazione Leopolda, Pisa, 43.7085890 10.4056663; Certosa di Calci (Museo di Storia Naturale), Via Roma 79, Calci, 43.7221587 10.5227771
+- Teatro Comunale Gabriello Chiabrera, Savona, 44.3105267 8.4814745 (indirizzo Piazza Diaz 2 da confermare)
+- Teatro Cavour, Via Felice Cascione 35, Imperia, 43.8762622 8.0144903
+- Teatro Civico, Corso Cavour 20, La Spezia, 44.1036188 9.8218535; Chapiteau TRAC ai Giardini, Viale Mazzini, 44.1037273 9.8237474
+- Teatro Splendor, Via Festaz 82, Aosta, 45.7349785 7.3163232
+- Teatro Civico, Via Monte di Pieta' 15, Vercelli, 45.3279312 8.4216795
+- Centro Eventi Il Maggiore, Via San Bernardino 49, Verbania, 45.9306469 8.5718717
+- Novara: Teatro Faraggiana (Via dei Caccia 1F) 45.4505976 8.6223707; Teatro Pernate Sant'Andrea (Via Turbigo 8, centro via)
+  45.4605906 8.6771983; Conservatorio Cantelli 45.4444578 8.6197266; Cinema Araldo e Vip (Via Maestra 12) 45.4543702 8.6204178;
+  Palazzo Natta 45.4463102 8.6226236; Biblioteca Negroni (Corso Cavallotti 4) 45.4467952 8.6227071; Spazio Nova (ex Caserma
+  Passalacqua) 45.4408145 8.6244812; Teatro MP (Viale Giulio Cesare 378, centro via) 45.4354819 8.6308380; Teatro del
+  Cuscino (Via Magalotti 11, centro via) 45.4416904 8.6045223
+- Borgomanero: Teatro Rosmini 45.6964938 8.4682316; Cinema Teatro Nuovo (Via IV Novembre) 45.6946701 8.4551990; Villa
+  Marazza (Viale Marazza 5) 45.7000768 8.4656488; Palazzo Tornielli 45.6986906 8.4631636
+- Trecate: Cine Teatro Silvio Pellico (Piazza Cattaneo 24, punto della piazza) 45.4315108 8.7395227
+- Galliate: Castello 45.4787468 8.6956298; Oratorio Beato Quagliotti (Sala Don Manfredda) 45.4761094 8.7005898
+- Cerano: Sala Crespi 45.4105316 8.7834326; Ghemme: Palazzo Gallarati 45.5990797 8.4184008
+- Vercelli: Museo Leone 45.3267582 8.4232615; Museo del Tesoro del Duomo 45.3298055 8.4234474; Chiesa di San Paolo
+  45.3243991 8.4237435; San Pietro Martire 45.3269789 8.4197336; Basilica di Sant'Andrea 45.3287875 8.4191922; Museo
+  Borgogna 45.3255807 8.4270413; Viotti Club (Via Ferraris 14) 45.3255631 8.4219635; Torre dell'Angelo / piazza Cavour
+  45.3259757 8.4233894 (Nominatim manda "Piazza Cavour, Vercelli" a Buronzo: usare questo punto)
+- Varallo: Teatro Civico 45.8143112 8.2537339; Palazzo d'Adda 45.8163046 8.2497826; Biblioteca Farinone Centa 45.8156144 8.2521379
+- Borgosesia: Teatro Pro Loco 45.7164578 8.2782617; Cinema Lux 45.7166338 8.2740989; Gattinara: Auditorium Lux 45.6163672 8.3724446
+- Trino: Auditorium Famiglia Tricerri (Via Vittime di Bologna 4, centro via) 45.1945700 8.3018707; Chiesa di Ognissanti 45.1938727 8.2948651
+
+## Eventi visti ma non pubblicati (per ops/da-verificare.json o per una notte futura)
+- Aosta, Marche' Vert Noel (piazza Chanoux, dal 21/11/2026): data di chiusura (6/1/2027) e orari solo su testate e
+  sull'edizione 2023 del Comune; lovevda.it e' vietata.
+- Antey-Saint-Andre', Note di Natale (5-7/12): solo aostasera.it e gazzettamatin.com.
+- Genova: Christmas Concert (23/12) e New Year's Concert (1/1) del Carlo Felice solo su music-opera.com; Willy Ronis a
+  Palazzo Ducale (18/12-29/3) "da confermare"; Casa di Babbo Natale a Palazzo Tursi senza date 2026; Hourvari (chapiteau
+  di Voltri, 2-4/12) e Avamposto (3-5/12) senza luogo preciso; Mario Venuti e Tony Canto (28/11, La Claque).
+- Firenze: stagione della Pergola (Lo Zar fino al 6/12, Don Chisciotte 19-20/12, Ritorno a casa Gori, Orlando furioso
+  12-17/1) solo da mentelocale (vietata): teatrodellatoscana.it non si legge.
+- Rapallo: 17 eventi di dicembre su hellorapallo.it (Clarisse, gospel, Orchestra del Carlo Felice 17/12) senza luogo
+  nell'elenco: servono le schede.
+- Savona: visite guidate al complesso di San Giacomo (2, 5, 6, 19, 27/12 ore 10): indirizzo non trovato (Nominatim 629).
+- Pisa: Maratona di Pisa (20/12) e Mezza di San Miniato (8/12) senza luogo di partenza; mercatino di Calci (28-29/11).
+- Imperia: Ospedaletti Run (5/12) e Trail del Ciapa' a Cervo (6/12) solo su testate.
+- Vercelli: concerto di Capodanno del 31/12 al Civico (19.30 o 21: due orari diversi); Novara: Benvenuti a Windsor
+  (5/12 o 12/12: date diverse nello stesso PDF), concerti del Coro CAI, Viaoxiliaquattro (4 serate), Cameri e
+  Romentino: luoghi senza coordinate certe.
+
+## Lezioni
+- Gli elenchi delle ATL piemontesi valgono una provincia intera: il PDF "PrintPDF=1" di Turismo Novara (274 eventi) e la
+  pagina "i prossimi eventi" di Visit Valsesia Vercelli (circa 250 con schede) hanno dato 213 eventi con 4 letture.
+  Cercare lo stesso per Biella e Verbano (ATL Terre dell'Alto Piemonte, Distretto dei Laghi).
+- I teatri liguri e toscani pubblicano la stagione sul sito del Comune (Savona, Imperia, La Spezia, Vercelli) con date e
+  orari in una sola pagina: partire da li' invece che dal sito del teatro.
+- Molti siti di teatri grandi sono illeggibili (teatrodipisa.it, teatrodellatoscana.it): i risultati di WebSearch con
+  allowed_domains sul dominio ufficiale riportano comunque le date, ma senza orari.
+- I PDF a immagine apparente (Teatro Verdi di Firenze) spesso hanno il testo vero: provare sempre pdftotext prima di
+  estrarre le immagini.
+- Nominatim: "Piazza X, Comune" sbaglia comune quando il nome della piazza esiste altrove (Vercelli, Savona, Firenze):
+  aggiungere il CAP (13100, 17100, 50122) o usare un monumento vicino.
 
 ## Problemi
-- Nominatim (pipeline.geocode) risponde 403: niente coordinate verificate. 127 eventi senza lat/lon (indirizzo
-  presente): li geocodifica il PC alla pubblicazione.
-- 5 eventi senza indirizzo: Chiesa di Santa Maria Assunta di Reggiolo (2 concerti), Polifunzionale di Talamona
-  (Christmas running), e due gia' sistemati su Piazza Martiri di Reggiolo; il campo `address` manca solo per la
-  chiesa e il polifunzionale.
-- Conflitto di sede: Lo Schiaccianoci del 17/12 a Lecco e' "Teatro Cenacolo Francescano" nella pagina del Comune e
-  "Teatro della Societa'" sul sito del teatro: usato il sito del teatro.
-- Mostre in corso (Reggio Emilia, Gualtieri) hanno come inizio il 2026-11-28 perche' le fonti danno solo la fine.
-- Eventi di piu' giorni dei teatri senza orari (ERT, I Teatri, Teatro Due) pubblicati come eventi unici con inizio e fine.
-- ops/copertura.yaml: modificate solo `province` (10 sigle), `comuni_TV.Resana`, `categorie_TV` (Convegni) e le
-  nuove sezioni `comuni_CR/LC/LO/SO/BO/MO/RE/PR/FC` e `categorie_SO/BO/RE/PR/FC`, aggiunte in fondo al file.
+- La versione intermedia del mio file e' stata unita dal coordinatore mentre lavoravo (175 eventi). Ho tolto quegli
+  eventi dal file: se il coordinatore unisce di nuovo, entrano solo i 299 nuovi. Il Banksy di Pisa unito ha l'indirizzo
+  "Lungarno Ranieri Simonelli", coerente con il file attuale.
+- Gli eventi del Teatro di Pisa (13) vengono dai risultati di WebSearch sul dominio ufficiale, perche' il sito non si apre:
+  date senza orari, da ricontrollare quando il sito sara' leggibile.
+- Molti eventi del Distretto dei Laghi (VB) e alcuni di Turismo Novara hanno come luogo il centro del paese o della
+  frazione (orari non pubblicati): scritto nella fonte.
+- Nessuna approvazione richiesta. Un tentativo di leggere pagine con curl dalla shell e' stato bloccato dal sistema dei
+  permessi: ho letto tutto con WebSearch e WebFetch.

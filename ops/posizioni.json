@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:34+01:00",
+ "generato": "2026-11-28T20:39+01:00",
  "riepilogo": {
-  "eventi_controllati": 2914,
-  "allineati_in_automatico": 2,
+  "eventi_controllati": 3209,
+  "allineati_in_automatico": 3,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 71,
+  "lontani_dal_comune": 88,
   "solo_comune_con_luogo": 136,
   "solo_comune_senza_luogo": 27,
-  "candidati_luoghi_noti": 50
+  "candidati_luoghi_noti": 74
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -48,6 +48,24 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
+   "luogo": "Parcheggio Chalet del Terminal Bus, Breuil-Cervinia, Valtournenche",
+   "km_dal_centro": 7,
+   "eventi": 10,
+   "uid": [
+    "b7663f862b9041b3",
+    "d8433f5949eb9293",
+    "af467314c2617c90",
+    "525c16ea8504d83c",
+    "0d6b1f89736722be",
+    "ac8ff7c624666c2b",
+    "69fb8d7471b1c60d",
+    "5dee75c72d0e9af4",
+    "84ae9fb7a97e1b66",
+    "b38c860dfd71c8bf"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
    "luogo": "Borgo di Candelara, Pesaro",
    "km_dal_centro": 6,
    "eventi": 4,
@@ -56,6 +74,18 @@
     "6789fd86b32ae525",
     "34a4b550febf8f5a",
     "79114a031647fa75"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Parrocchia di Santa Maria a Mantignano, Via di Mantignano, Firenze",
+   "km_dal_centro": 7,
+   "eventi": 4,
+   "uid": [
+    "74e3da5d6e6ef5ca",
+    "3a2f26261b6c1f2e",
+    "44d4d77f8bac41fa",
+    "fe9f183b40055e92"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -77,6 +107,16 @@
    "uid": [
     "dbd55dae77d4cfd3",
     "3367526a29db517b"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Parrocchia di Santo Stefano a Ugnano, Via di Ugnano, Firenze",
+   "km_dal_centro": 8,
+   "eventi": 2,
+   "uid": [
+    "f6b8e0efeefff9b9",
+    "1c2f56ed63b1ed78"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -160,6 +200,15 @@
    "eventi": 1,
    "uid": [
     "b68facf040c9c7bd"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Montecastelli Pisano, Montecastelli Pisano, Castelnuovo di Val di Cecina",
+   "km_dal_centro": 8,
+   "eventi": 1,
+   "uid": [
+    "ef60e6aab95b7ae1"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -523,6 +572,13 @@
  ],
  "allineati": [
   {
+   "uid": "e76563ebac7e6092",
+   "titolo": "Buon compleanno Pinocchio",
+   "luogo": "Teatro Faraggiana, Via dei Caccia 1F, Novara",
+   "lat": 45.4506,
+   "lon": 8.62237
+  },
+  {
    "uid": "4fff5a491ccbb5f4",
    "titolo": "Musica, auguri e solidarieta'",
    "luogo": "Ex Chiesa di San Giacomo, Piazzale Guido da Montefeltro 12, Forlì",
@@ -540,6 +596,15 @@
  "candidati_luoghi": [
   {
    "nomi": [
+    "Teatro Comunale Gabriello Chiabrera"
+   ],
+   "comune": "Savona",
+   "lat": 44.31053,
+   "lon": 8.48147,
+   "eventi": 27
+  },
+  {
+   "nomi": [
     "Teatro Rossini"
    ],
    "comune": "Pesaro",
@@ -554,15 +619,6 @@
    "comune": "Napoli",
    "lat": 40.85096,
    "lon": 14.25089,
-   "eventi": 26
-  },
-  {
-   "nomi": [
-    "Teatro Comunale Gabriello Chiabrera"
-   ],
-   "comune": "Savona",
-   "lat": 44.31053,
-   "lon": 8.48147,
    "eventi": 26
   },
   {
@@ -675,6 +731,15 @@
   },
   {
    "nomi": [
+    "Chapiteau TRAC, PIN ai Giardini Storici"
+   ],
+   "comune": "La Spezia",
+   "lat": 44.10373,
+   "lon": 9.82375,
+   "eventi": 11
+  },
+  {
+   "nomi": [
     "Teatro Carlo Felice"
    ],
    "comune": "Genova",
@@ -693,30 +758,21 @@
   },
   {
    "nomi": [
-    "Centro Eventi Il Maggiore"
+    "Porto Antico di Genova"
    ],
-   "comune": "Verbania",
-   "lat": 45.93065,
-   "lon": 8.57187,
-   "eventi": 8
+   "comune": "Genova",
+   "lat": 44.40907,
+   "lon": 8.92718,
+   "eventi": 10
   },
   {
    "nomi": [
-    "Teatro Fabbricone"
+    "Teatro Rosmini"
    ],
-   "comune": "Prato",
-   "lat": 43.89086,
-   "lon": 11.09985,
-   "eventi": 8
-  },
-  {
-   "nomi": [
-    "Teatro Sanzio"
-   ],
-   "comune": "Urbino",
-   "lat": 43.72426,
-   "lon": 12.63546,
-   "eventi": 8
+   "comune": "Borgomanero",
+   "lat": 45.69649,
+   "lon": 8.46823,
+   "eventi": 10
   }
  ]
 }

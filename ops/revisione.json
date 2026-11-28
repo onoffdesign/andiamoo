@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T20:34+01:00",
+ "generato": "2026-11-28T20:39+01:00",
  "eventi": [
   {
    "uid": "15fba1ddc9a08298",
@@ -137,6 +137,29 @@
    "precisione": "address"
   },
   {
+   "uid": "2a97f44fc39f10c1",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "La croce e il rosario di Fibonacci, mostra di Giorgio Piccaia",
+   "inizio": "2026-11-04",
+   "fine": "2027-01-31",
+   "luogo": "Battistero di Agrate Conturbia",
+   "indirizzo": "Piazzale Don Giuseppe Julita",
+   "comune": "Agrate Conturbia",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Mostra d'arte di Giorgio Piccaia allestita nel Battistero di Agrate Conturbia.",
+   "lat": 45.6770743,
+   "lon": 8.5521356,
+   "precisione": "address"
+  },
+  {
    "uid": "bbb25b6f830d4e77",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
@@ -250,6 +273,28 @@
    "precisione": "address"
   },
   {
+   "uid": "fdea68050b6b6121",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Arte a Palazzo 2026",
+   "inizio": "2026-11-20",
+   "fine": "2026-12-24",
+   "luogo": "Palazzo Tornielli, Sala Espositiva",
+   "indirizzo": "Corso Cavour",
+   "comune": "Borgomanero",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Diciannovesima edizione della rassegna di mostre di artisti, in gran parte del territorio, nella sala espositiva di Palazzo Tornielli.",
+   "lat": 45.6986906,
+   "lon": 8.4631636,
+   "precisione": "address"
+  },
+  {
    "uid": "09780e2cc9d96f7a",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -272,6 +317,29 @@
    "lat": 45.67136,
    "lon": 11.9264,
    "precisione": "town"
+  },
+  {
+   "uid": "dc97d36093ad4df4",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Natale a Galliate, pista di pattinaggio su ghiaccio",
+   "inizio": "2026-11-21",
+   "fine": "2027-01-06",
+   "luogo": "Piazza Vittorio Veneto",
+   "indirizzo": "Piazza Vittorio Veneto",
+   "comune": "Galliate",
+   "categoria": "sport",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Pista di pattinaggio su ghiaccio allestita in piazza Vittorio Veneto per il Natale a Galliate.",
+   "lat": 45.4787468,
+   "lon": 8.6956298,
+   "precisione": "address"
   },
   {
    "uid": "7cda01a278c356d0",
@@ -499,6 +567,52 @@
    "precisione": "address"
   },
   {
+   "uid": "ef60e6aab95b7ae1",
+   "motivi": [
+    "posizione a 8 km dal centro di Castelnuovo di Val di Cecina: verifica dove si trova e correggi lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Festa dell'olio a Montecastelli Pisano",
+   "inizio": "2026-11-28",
+   "fine": null,
+   "luogo": "Montecastelli Pisano",
+   "indirizzo": "Montecastelli Pisano",
+   "comune": "Castelnuovo di Val di Cecina",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "terredipisa.it",
+   "pagina_fonte": "https://www.terredipisa.it/pisa-eventi/",
+   "sito_ufficiale": "https://www.terredipisa.it/events/sagra-dellolio-nuovo-2025-montecastelli-pisano/",
+   "riassunto": "Festa dedicata all'olio nuovo nel borgo di Montecastelli Pisano.",
+   "lat": 43.2657137,
+   "lon": 10.9575816,
+   "precisione": "address"
+  },
+  {
+   "uid": "3258a232b7b2c571",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di d68e654a941daf48"
+   ],
+   "titolo": "Mercatini di Natale a Staffa",
+   "inizio": "2026-11-28",
+   "fine": "2026-11-29",
+   "luogo": "Staffa, centro del paese",
+   "indirizzo": "Frazione Staffa",
+   "comune": "Macugnaga",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "distrettolaghi.it",
+   "pagina_fonte": "https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)",
+   "sito_ufficiale": "https://www.distrettolaghi.it/it/eventi/macugnaga-fraz-staffa-mercatini-di-natale",
+   "riassunto": "Mercatini di Natale nella frazione Staffa di Macugnaga.",
+   "lat": 45.9678886,
+   "lon": 7.9681478,
+   "precisione": "address"
+  },
+  {
    "uid": "36385e3f175afdc8",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -721,6 +835,94 @@
    "precisione": "address"
   },
   {
+   "uid": "cc1f2ed1909ece53",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "La Fabbrica di Babbo Natale",
+   "inizio": "2026-11-28T10:00",
+   "fine": "2026-12-13T19:00",
+   "luogo": "Arsenali Repubblicani",
+   "indirizzo": "Lungarno Ranieri Simonelli",
+   "comune": "Pisa",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "terredipisa.it",
+   "pagina_fonte": "https://www.terredipisa.it/pisa-eventi/",
+   "sito_ufficiale": "https://www.terredipisa.it/events/la-fabbrica-di-babbo-natale-agli-arsenali-repubblicani-di-pisa/",
+   "riassunto": "Allestimento natalizio per bambini agli Arsenali Repubblicani, aperto dalle 10 alle 19.",
+   "lat": 43.7146873,
+   "lon": 10.3930979,
+   "precisione": "address"
+  },
+  {
+   "uid": "654a7642388b9005",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Crescere con Luna, presentazione e laboratorio",
+   "inizio": "2026-11-28T10:30",
+   "fine": null,
+   "luogo": "Biblioteca Comunale Cesare Pavese",
+   "indirizzo": "Via Guglielmo Marconi",
+   "comune": "Bogogno",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Presentazione del libro con l'autrice e l'illustratrice, seguita da un laboratorio per bambini nella biblioteca di Bogogno.",
+   "lat": 45.66401,
+   "lon": 8.5376224,
+   "precisione": "address"
+  },
+  {
+   "uid": "b13c1fee4fdd1ed4",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "La marcia dei diritti",
+   "inizio": "2026-11-28T15:00",
+   "fine": null,
+   "luogo": "Municipio di Briona",
+   "indirizzo": "Via Generale Paolo Solaroli 11",
+   "comune": "Briona",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Camminata per le vie del paese con letture lungo il percorso, per la Giornata contro la violenza sulle donne; ritrovo al municipio.",
+   "lat": 45.5422094,
+   "lon": 8.4798338,
+   "precisione": "address"
+  },
+  {
+   "uid": "29bd74e894a11c9a",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Bancarelle in corte 2026",
+   "inizio": "2026-11-28T15:00",
+   "fine": null,
+   "luogo": "Castello Visconteo Sforzesco di Galliate",
+   "indirizzo": "Piazza Vittorio Veneto",
+   "comune": "Galliate",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.",
+   "lat": 45.4787468,
+   "lon": 8.6956298,
+   "precisione": "address"
+  },
+  {
    "uid": "bf45b770a80ae2fa",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -875,6 +1077,94 @@
    "precisione": "address"
   },
   {
+   "uid": "390a118a8d2c8b26",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Il linguaggio di un corpo muto, mostra di Fabio Tosi",
+   "inizio": "2026-11-28",
+   "fine": "2026-12-05",
+   "luogo": "Castello Visconteo Sforzesco",
+   "indirizzo": "Piazza Martiri della Liberta' 3",
+   "comune": "Novara",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Mostra d'arte di Fabio Tosi nella Sala delle Colonne del Castello, aperta dal martedi' alla domenica dalle 10 alle 19.",
+   "lat": 45.4444134,
+   "lon": 8.6172913,
+   "precisione": "address"
+  },
+  {
+   "uid": "3a6af30b33cef9ce",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Antonelli e i giovani",
+   "inizio": "2026-11-28",
+   "fine": "2026-12-10",
+   "luogo": "Palazzo Gallarati, Sala Antonelli",
+   "indirizzo": "Via Interno Castello",
+   "comune": "Ghemme",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Mostra su Alessandro Antonelli curata dagli studenti del Liceo Casorati di Romagnano Sesia nella Sala Antonelli di Palazzo Gallarati.",
+   "lat": 45.5990797,
+   "lon": 8.4184008,
+   "precisione": "address"
+  },
+  {
+   "uid": "f3824f540bde53e7",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Arte e Solidarieta' al Castello",
+   "inizio": "2026-11-28",
+   "fine": "2026-11-30",
+   "luogo": "Castello Visconteo Sforzesco",
+   "indirizzo": "Piazza Martiri della Liberta' 3",
+   "comune": "Novara",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Esposizione di 32 opere di artisti novaresi a sostegno di un ambulatorio di pronta accoglienza.",
+   "lat": 45.4444134,
+   "lon": 8.6172913,
+   "precisione": "address"
+  },
+  {
+   "uid": "da1e608bcc723b4d",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Le metamorfosi di Pinocchio",
+   "inizio": "2026-11-28",
+   "fine": "2026-12-23",
+   "luogo": "Villa Marazza",
+   "indirizzo": "Viale Marazza 5",
+   "comune": "Borgomanero",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Esposizione di edizioni di Pinocchio a Villa Marazza per il bicentenario della nascita di Carlo Collodi.",
+   "lat": 45.7000768,
+   "lon": 8.4656488,
+   "precisione": "address"
+  },
+  {
    "uid": "582c79c5e0a44d7e",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
@@ -895,6 +1185,75 @@
    "riassunto": "Balletto Lo Schiaccianoci in scena al Teatro Guglielmi nel circuito della Fondazione Toscana Spettacolo.",
    "lat": 44.0358879,
    "lon": 10.1410327,
+   "precisione": "address"
+  },
+  {
+   "uid": "1c2f56ed63b1ed78",
+   "motivi": [
+    "posizione a 8 km dal centro di Firenze: verifica dove si trova e correggi lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Fiera e mercatino di beneficenza di Ugnano",
+   "inizio": "2026-11-29",
+   "fine": "2027-01-10",
+   "luogo": "Parrocchia di Santo Stefano a Ugnano",
+   "indirizzo": "Via di Ugnano",
+   "comune": "Firenze",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "quartieri.comune.fi.it",
+   "pagina_fonte": "https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026",
+   "sito_ufficiale": "https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026",
+   "riassunto": "Fiera e mercatino di beneficenza della parrocchia di Santo Stefano a Ugnano, aperti secondo il calendario esposto.",
+   "lat": 43.7851887,
+   "lon": 11.164189,
+   "precisione": "address"
+  },
+  {
+   "uid": "93326bf57798c307",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 2b602a3406ef9a66"
+   ],
+   "titolo": "Mercatini di Natale di Oleggio Castello",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "luogo": "Centro di Oleggio Castello",
+   "indirizzo": "Oleggio Castello",
+   "comune": "Oleggio Castello",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "distrettolaghi.it",
+   "pagina_fonte": "https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)",
+   "sito_ufficiale": "https://www.distrettolaghi.it/it/eventi/oleggio-castello-mercatini-di-natale-2026",
+   "riassunto": "Mercatini di Natale a Oleggio Castello.",
+   "lat": 45.7470497,
+   "lon": 8.5317202,
+   "precisione": "address"
+  },
+  {
+   "uid": "e4194152f94f3c3d",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 2b602a3406ef9a66"
+   ],
+   "titolo": "Mercatini di Natale in Valstrona, 16a edizione",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "luogo": "Luzzogno, centro della frazione",
+   "indirizzo": "Frazione Luzzogno",
+   "comune": "Valstrona",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "distrettolaghi.it",
+   "pagina_fonte": "https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)",
+   "sito_ufficiale": "https://www.distrettolaghi.it/it/eventi/valstrona-fraz-luzzogno-mercatini-di-natale-in-valstrona-16deg-edizione",
+   "riassunto": "Sedicesima edizione dei mercatini di Natale della Valstrona nella frazione Luzzogno.",
+   "lat": 45.9141585,
+   "lon": 8.3441325,
    "precisione": "address"
   },
   {
@@ -984,358 +1343,6 @@
    "riassunto": "Incontro con lo scrittore Marcello Fois in piazza Maggiore.",
    "lat": 44.493656,
    "lon": 11.343049,
-   "precisione": "address"
-  },
-  {
-   "uid": "3934629077b37667",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Caro Lupo",
-   "inizio": "2026-11-29T16:30",
-   "fine": null,
-   "luogo": "Teatro Testoni Ragazzi",
-   "indirizzo": "Via Giacomo Matteotti 16",
-   "comune": "Bologna",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/caro-lupo-29nov2026",
-   "riassunto": "Spettacolo per bambini al Teatro Testoni Ragazzi.",
-   "lat": 44.50803,
-   "lon": 11.346005,
-   "precisione": "address"
-  },
-  {
-   "uid": "f78c756b061dee9a",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Memorie di Adriano",
-   "inizio": "2026-11-29T17:00",
-   "fine": null,
-   "luogo": "Museo Civico Archeologico",
-   "indirizzo": "Via dell'Archiginnasio 2",
-   "comune": "Bologna",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/memorie-di-adriano-f2ad17",
-   "riassunto": "Appuntamento dedicato alle Memorie di Adriano di Marguerite Yourcenar al Museo Civico Archeologico.",
-   "lat": 44.492715,
-   "lon": 11.34386,
-   "precisione": "address"
-  },
-  {
-   "uid": "29356b33bbca7ef1",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Occhi aperti! Serata tra amici con Maurizio Nichetti",
-   "inizio": "2026-11-29T17:30",
-   "fine": null,
-   "luogo": "Teatro Celebrazioni",
-   "indirizzo": "Via Saragozza 234",
-   "comune": "Bologna",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/occhi-aperti-serata-tra-amici-maurizio-nichetti",
-   "riassunto": "Serata con il regista e attore Maurizio Nichetti al Teatro Celebrazioni.",
-   "lat": 44.48954,
-   "lon": 11.312546,
-   "precisione": "address"
-  },
-  {
-   "uid": "5346fba1a17527e6",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Un ballo in maschera di Verdi",
-   "inizio": "2026-11-29T16:00",
-   "fine": null,
-   "luogo": "Teatro Amilcare Ponchielli",
-   "indirizzo": "Corso Vittorio Emanuele II 52",
-   "comune": "Cremona",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatroponchielli.it",
-   "pagina_fonte": "https://www.teatroponchielli.it/",
-   "sito_ufficiale": "https://www.teatroponchielli.it/spettacolo/un-ballo-in-maschera-2026/",
-   "riassunto": "Opera di Giuseppe Verdi con la regia di Roberto Catalano e la direzione di Andrea Solinas.",
-   "lat": 45.132171,
-   "lon": 10.019045,
-   "precisione": "address"
-  },
-  {
-   "uid": "c6235f8bd6422966",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Coro Catinaccio al Mercatino di Natale di Modena",
-   "inizio": "2026-11-29T16:00",
-   "fine": "2026-11-29T18:00",
-   "luogo": "Piazza Grande",
-   "indirizzo": "Piazza Grande",
-   "comune": "Modena",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "mercatinodinataletirolesemodena.it",
-   "pagina_fonte": "https://www.mercatinodinataletirolesemodena.it/spettacoli",
-   "sito_ufficiale": "https://www.mercatinodinataletirolesemodena.it/spettacoli",
-   "riassunto": "Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.",
-   "lat": 44.645943,
-   "lon": 10.925617,
-   "precisione": "address"
-  },
-  {
-   "uid": "3e380c2f6aa29387",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Cenerentola (Sondrio Festival)",
-   "inizio": "2026-11-29T14:30",
-   "fine": null,
-   "luogo": "Teatro Sociale di Sondrio",
-   "indirizzo": "Piazza Garibaldi 26",
-   "comune": "Sondrio",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "eventi.sondrioevalmalenco.it",
-   "pagina_fonte": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
-   "sito_ufficiale": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
-   "riassunto": "Spettacolo di musica e narrazione dedicato alla fiaba di Cenerentola, nel programma del Sondrio Festival.",
-   "lat": 46.17055,
-   "lon": 9.86937,
-   "precisione": "address"
-  },
-  {
-   "uid": "50ab4cb3af2b8208",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Io Francesco, musical sul Santo",
-   "inizio": "2026-11-29T17:30",
-   "fine": "2026-11-29T19:30",
-   "luogo": "Cattedrale di Santa Maria",
-   "indirizzo": "Via Armando Diaz 1",
-   "comune": "Sezze",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "visitlazio.com",
-   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/io-francesco-a-sezze-il-musical-sul-santo/",
-   "sito_ufficiale": "https://www.visitlazio.com/eventi-lazio/io-francesco-a-sezze-il-musical-sul-santo/",
-   "riassunto": "Musical su San Francesco dell'Associazione Passione di Cristo, con la regia di Piero Formicuccia.",
-   "lat": 41.49794,
-   "lon": 13.05877,
-   "precisione": "address"
-  },
-  {
-   "uid": "a6561755f693e9aa",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "La Magica Casa di Babbo Natale",
-   "inizio": "2026-11-29T14:30",
-   "fine": "2026-11-29T18:30",
-   "luogo": "Palazzo Comunale, Vetrina della Citta'",
-   "indirizzo": "Piazza della Repubblica",
-   "comune": "Pontremoli",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "lunigiana.land",
-   "pagina_fonte": "https://www.lunigiana.land/categoria-evento/eventi-locali/",
-   "sito_ufficiale": "https://www.lunigiana.land/eventi/la-magica-casa-di-babbo-natale-2/",
-   "riassunto": "Casa di Babbo Natale allestita nella vetrina sotto il Palazzo Comunale, con animazione per bambini.",
-   "lat": 44.377117,
-   "lon": 9.882894,
-   "precisione": "address"
-  },
-  {
-   "uid": "2b602a3406ef9a66",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Mercatini di Natale di Siena",
-   "inizio": "2026-11-29T10:00",
-   "fine": "2027-01-06T20:00",
-   "luogo": "Piazza Matteotti",
-   "indirizzo": "Piazza Giacomo Matteotti",
-   "comune": "Siena",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "comune.siena.it",
-   "pagina_fonte": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
-   "sito_ufficiale": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
-   "riassunto": "Mercatini natalizi in piazza Matteotti, piazza Gramsci e viale XXV Aprile, aperti dalle 10 alle 20.",
-   "lat": 43.3215554,
-   "lon": 11.3286618,
-   "precisione": "address"
-  },
-  {
-   "uid": "39bcc9bb3ce777fa",
-   "motivi": [
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Human Atlas. Due secoli di fotografia dalla collezione Mario Trevisan",
-   "inizio": "2026-11-29",
-   "fine": "2027-02-28",
-   "luogo": "Casa Robegan",
-   "indirizzo": "Via Antonio Canova 38",
-   "comune": "Treviso",
-   "categoria": "arte-cultura",
-   "accesso": "biglietto",
-   "prezzo": "intero 8 euro, ridotto 5, famiglia 16",
-   "fonte": "iltaccodibacco.it",
-   "pagina_fonte": "https://iltaccodibacco.it/oderzo/",
-   "sito_ufficiale": "https://iltaccodibacco.it/veneto/eventi/338165.html",
-   "riassunto": "Mostra di 80 fotografie della collezione di Mario Trevisan, curata da Carlo Sala e promossa da Fondazione Mazzotti e Comune di Treviso per il bicentenario della fotografia. Aperta da venerdi' a domenica dalle 10 alle 18, con aperture straordinarie nelle feste.",
-   "lat": 45.66777,
-   "lon": 12.24148,
-   "precisione": "address"
-  },
-  {
-   "uid": "d9e158d77e43fd56",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "AiAiAi Pinocchio!",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Teatro Storchi",
-   "indirizzo": "Largo Garibaldi 15",
-   "comune": "Modena",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "modena.emiliaromagnateatro.com",
-   "pagina_fonte": "https://modena.emiliaromagnateatro.com/",
-   "sito_ufficiale": "https://modena.emiliaromagnateatro.com/spettacolo/aiaiai-pinocchio/",
-   "riassunto": "Spettacolo di danza per ragazzi e famiglie di Gruppo Ibrido e Artemis Danza ispirato a Pinocchio.",
-   "lat": 44.643521,
-   "lon": 10.931095,
-   "precisione": "address"
-  },
-  {
-   "uid": "9bd100951c2827c1",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Mercatino di Natale in piazza Ghiaia",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Piazza Ghiaia",
-   "indirizzo": "Piazza Ghiaia",
-   "comune": "Parma",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "emiliaromagnaturismo.it",
-   "pagina_fonte": "https://emiliaromagnaturismo.it/en/events/christmas-in-parma",
-   "sito_ufficiale": "https://emiliaromagnaturismo.it/en/events/christmas-in-parma",
-   "riassunto": "Mercatino natalizio in piazza Ghiaia nel programma Natale a Parma 2026.",
-   "lat": 44.802742,
-   "lon": 10.324652,
-   "precisione": "address"
-  },
-  {
-   "uid": "3a29a2e9c94195ee",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Gli anni in bianco e nero, Francesca Giannone (Finalmente Domenica)",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Teatro Municipale Valli, Ridotto",
-   "indirizzo": "Piazza Martiri del 7 Luglio 7",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "iteatri.re.it",
-   "pagina_fonte": "https://www.iteatri.re.it/",
-   "sito_ufficiale": "https://www.iteatri.re.it/spettacolo/francesca-giannone/",
-   "riassunto": "Incontro con la scrittrice Francesca Giannone nella rassegna Finalmente Domenica.",
-   "lat": 44.701106,
-   "lon": 10.631383,
-   "precisione": "address"
-  },
-  {
-   "uid": "2487a0661f1bc65d",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Apertura della pista di pattinaggio di Sondrio Natale",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Piazza Garibaldi",
-   "indirizzo": "Piazza Garibaldi",
-   "comune": "Sondrio",
-   "categoria": "sport",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "eventi.sondrioevalmalenco.it",
-   "pagina_fonte": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
-   "sito_ufficiale": "https://eventi.sondrioevalmalenco.it/evento/sondrio-natale",
-   "riassunto": "Apertura della pista di pattinaggio sul ghiaccio all'aperto in piazza Garibaldi per le feste.",
-   "lat": 46.170894,
-   "lon": 9.869946,
-   "precisione": "address"
-  },
-  {
-   "uid": "b8128c8a15573ee8",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Arti e Mestieri in piazza San Giusto",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Piazza San Giusto",
-   "indirizzo": "Piazza San Giusto",
-   "comune": "Lucca",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismo.lucca.it",
-   "pagina_fonte": "https://turismo.lucca.it/lucca-magico-natale-2026/",
-   "sito_ufficiale": "https://turismo.lucca.it/lucca-magico-natale-2026/",
-   "riassunto": "Mostra mercato di artigianato in piazza San Giusto nel programma Lucca Magico Natale.",
-   "lat": 43.8418783,
-   "lon": 10.5037734,
-   "precisione": "address"
-  },
-  {
-   "uid": "da94c9dddb59ca99",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Il Sindaco Pescatore",
-   "inizio": "2026-11-30T21:00",
-   "fine": null,
-   "luogo": "Teatro Alighieri",
-   "indirizzo": "Via Mariani 2",
-   "comune": "Ravenna",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "teatroalighieri.org",
-   "pagina_fonte": "https://www.teatroalighieri.org/spettacoli/",
-   "sito_ufficiale": "https://www.teatroalighieri.org/events/il-sindaco-pescatore/",
-   "riassunto": "Spettacolo con Ettore Bassi dedicato alla figura di Angelo Vassallo, sindaco di Pollica ucciso nel 2010, con la partecipazione di studenti delle scuole superiori.",
-   "lat": 44.4171588,
-   "lon": 12.2012762,
    "precisione": "address"
   }
  ]
