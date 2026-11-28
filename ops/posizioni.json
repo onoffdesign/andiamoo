@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T17:49+01:00",
+ "generato": "2026-11-28T17:58+01:00",
  "riepilogo": {
-  "eventi_controllati": 1862,
-  "allineati_in_automatico": 0,
+  "eventi_controllati": 2211,
+  "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 61,
-  "solo_comune_con_luogo": 167,
+  "lontani_dal_comune": 62,
+  "solo_comune_con_luogo": 205,
   "solo_comune_senza_luogo": 28,
-  "candidati_luoghi_noti": 2
+  "candidati_luoghi_noti": 8
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -114,6 +114,15 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
+   "luogo": "Fiere di Parma, Viale delle Esposizioni 393A, Parma",
+   "km_dal_centro": 6,
+   "eventi": 1,
+   "uid": [
+    "b68facf040c9c7bd"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
    "luogo": "Auditorium H-Farm College, Via Adriano Olivetti 1, Roncade",
    "km_dal_centro": 9,
    "eventi": 1,
@@ -196,6 +205,37 @@
     "9c91a5a9680d437c",
     "323806d221208f5a",
     "4dcf2080fbdf2c7d"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Teatro delle Passioni, Sala Grande, Viale Carlo Sigonio 382, Modena",
+   "eventi": 4,
+   "uid": [
+    "ae1e0d4e8db9ece9",
+    "460af380df683727",
+    "d3ab5a86c32d6791",
+    "e610ec46ddc8002a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Mazzini, Piazza Mazzini, Lecco",
+   "eventi": 3,
+   "uid": [
+    "ca55fe3a800b90c3",
+    "d7cce61c4420b1d1",
+    "a7a145e013b983e7"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Reggio Emilia Welcome IAT-R, Via Farini 1/A, Reggio nell'Emilia",
+   "eventi": 3,
+   "uid": [
+    "27e7e85f926ed13e",
+    "c1f2f19fefda739a",
+    "44033c9c80b130c6"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -290,6 +330,51 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "ZolAuditorium, Piazza della Repubblica 1, Zola Predosa",
+   "eventi": 2,
+   "uid": [
+    "0ffb2cb6ec5bbcd0",
+    "3079480a79b50826"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Giardini Pubblici, Piazzale della Vittoria, Forlì",
+   "eventi": 2,
+   "uid": [
+    "8db85f12daee521f",
+    "41db8e885ad78b74"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Chiostro di San Mercuriale, Piazza Aurelio Saffi, Forlì",
+   "eventi": 2,
+   "uid": [
+    "3a5800b4e1495617",
+    "20fc4feeca9e284c"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Teatro il Piccolo, Via Antonio de Nobili, Forlì",
+   "eventi": 2,
+   "uid": [
+    "61f7d73accb4736b",
+    "12e691f8e14f7746"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Auditorium Casa dell'Economia, Via Tonale 30, Lecco",
+   "eventi": 2,
+   "uid": [
+    "d10d27691c395b44",
+    "5a32c23acb83eb29"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Centro di Roncade, Roncade",
    "eventi": 2,
    "uid": [
@@ -304,6 +389,15 @@
    "uid": [
     "bbb25b6f830d4e77",
     "83541ec862156e56"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Teatro delle Passioni, Sala Piccola, Viale Carlo Sigonio 382, Modena",
+   "eventi": 2,
+   "uid": [
+    "bfe1e1619ec87934",
+    "cf61a8144439ce09"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -410,82 +504,43 @@
     "68120fa018662856"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Colle di San Gallo, Soligo, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "dfbc90bd332aade7"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Farra di Soligo, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "ba7bdaab1cdeccde"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Sede del Gruppo Alpini di Farra di Soligo, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "0c2c25396160a526"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazza Caduti nei Lager, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "b5806380fecf7257"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Sede della Pro Loco di Soligo, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "270a9c0e2d56fb43"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Locali della Mostra del Vino, Col San Martino, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "c55e010776be95c9"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Soligo, Farra di Soligo",
-   "eventi": 1,
-   "uid": [
-    "6bb2a5dcda7e0178"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazza Sedese, Montebelluna",
-   "eventi": 1,
-   "uid": [
-    "3fd81d9b901a84a4"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Area parrocchiale di Catena, Villorba",
-   "eventi": 1,
-   "uid": [
-    "44058cc5e46852a5"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
- "allineati": [],
+ "allineati": [
+  {
+   "uid": "4fff5a491ccbb5f4",
+   "titolo": "Musica, auguri e solidarieta'",
+   "luogo": "Ex Chiesa di San Giacomo, Piazzale Guido da Montefeltro 12, Forlì",
+   "lat": 44.22136,
+   "lon": 12.03594
+  },
+  {
+   "uid": "481bdfea35c506ca",
+   "titolo": "Un'opera al mese",
+   "luogo": "Ex Chiesa di San Giacomo, Piazzale Guido da Montefeltro 12, Forlì",
+   "lat": 44.22136,
+   "lon": 12.03594
+  }
+ ],
  "candidati_luoghi": [
+  {
+   "nomi": [
+    "Centro di Sondrio (piazza Garibaldi)"
+   ],
+   "comune": "Sondrio",
+   "lat": 46.17089,
+   "lon": 9.86995,
+   "eventi": 12
+  },
+  {
+   "nomi": [
+    "Piazza Aurelio Saffi"
+   ],
+   "comune": "Forlì",
+   "lat": 44.22238,
+   "lon": 12.04133,
+   "eventi": 8
+  },
   {
    "nomi": [
     "Piazza della Repubblica"
@@ -497,12 +552,48 @@
   },
   {
    "nomi": [
+    "Piazza Prampolini"
+   ],
+   "comune": "Reggio nell'Emilia",
+   "lat": 44.69775,
+   "lon": 10.63047,
+   "eventi": 7
+  },
+  {
+   "nomi": [
+    "Piazza Ghiaia"
+   ],
+   "comune": "Parma",
+   "lat": 44.80274,
+   "lon": 10.32465,
+   "eventi": 6
+  },
+  {
+   "nomi": [
     "Piazza Antonio Gramsci"
    ],
    "comune": "Alfonsine",
    "lat": 44.50554,
    "lon": 12.04101,
    "eventi": 5
+  },
+  {
+   "nomi": [
+    "Piazza Garibaldi"
+   ],
+   "comune": "Sondrio",
+   "lat": 46.17089,
+   "lon": 9.86995,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Piazza San Prospero"
+   ],
+   "comune": "Reggio nell'Emilia",
+   "lat": 44.69722,
+   "lon": 10.63198,
+   "eventi": 3
   }
  ]
 }

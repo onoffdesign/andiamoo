@@ -70,7 +70,7 @@ comuni_TV:
   Preganziol: 2026-11-28
   Quinto di Treviso: 2026-11-28
   Refrontolo: 2026-11-28
-  Resana: 2026-11-13
+  Resana: 2026-11-28
   Revine Lago: 2026-11-18
   Riese Pio X: 2026-11-28
   Roncade: 2026-11-28
@@ -208,6 +208,7 @@ categorie_TV:
   "Sport > Ciclismo": 2026-11-28
   "Musica e party > Concerti": 2026-11-28
   "Business e formazione > Startup e innovazione": 2026-11-28
+  "Business e formazione > Convegni e conferenze": 2026-11-28
   "Musica e party > Festival musicali": 2026-11-28
   "Business e formazione > Formazione": 2026-11-28
   "Natura e benessere > Benessere": 2026-11-28
@@ -353,6 +354,16 @@ province:
   TO: '2026-11-28'
   CN: '2026-11-28'
   NO: '2026-11-28'
+  TV: '2026-11-28'
+  CR: '2026-11-28'
+  LC: '2026-11-28'
+  LO: '2026-11-28'
+  SO: '2026-11-28'
+  BO: '2026-11-28'
+  MO: '2026-11-28'
+  RE: '2026-11-28'
+  PR: '2026-11-28'
+  FC: '2026-11-28'
   AL: '2026-11-28'
   AT: '2026-11-28'
   BI: '2026-11-28'
@@ -477,3 +488,54 @@ categorie_NO:
   "Arte e cultura > Tecnologia e scienza": 2026-11-28
 categorie_BI:
   "Arte e cultura > Comunita'": 2026-11-28
+# italia-a (2026-11-28): comuni controllati (pagina ufficiale letta o ricerca mirata) e categorie cercate
+comuni_CR:
+  Cremona: '2026-11-28'
+  Quintano: '2026-11-28'
+  Casaletto Vaprio: '2026-11-28'
+  Bagnolo Cremasco: '2026-11-28'
+comuni_LC:
+  Lecco: '2026-11-28'
+  Nibionno: '2026-11-28'
+  Pagnona: '2026-11-28'
+  Barzago: '2026-11-28'
+comuni_LO:
+  Lodi: '2026-11-28'
+  Somaglia: '2026-11-28'
+  Borghetto Lodigiano: '2026-11-28'
+  Terranova dei Passerini: '2026-11-28'
+comuni_SO:
+  Sondrio: '2026-11-28'
+  Talamona: '2026-11-28'
+comuni_BO:
+  Bologna: '2026-11-28'
+  Zola Predosa: '2026-11-28'
+  Castenaso: '2026-11-28'
+  Grizzana Morandi: '2026-11-28'
+comuni_MO:
+  Modena: '2026-11-28'
+  Maranello: '2026-11-28'
+  Finale Emilia: '2026-11-28'
+  Castelvetro di Modena: '2026-11-28'
+comuni_RE:
+  Reggio nell'Emilia: '2026-11-28'
+  Reggiolo: '2026-11-28'
+  Bibbiano: '2026-11-28'
+  Rolo: '2026-11-28'
+comuni_PR:
+  Parma: '2026-11-28'
+  Borgo Val di Taro: '2026-11-28'
+  Pellegrino Parmense: '2026-11-28'
+comuni_FC:
+  Forlì: '2026-11-28'
+  Bertinoro: '2026-11-28'
+categorie_SO:
+  "Spettacoli > Teatro": 2026-11-28
+categorie_BO:
+  "Spettacoli > Teatro": 2026-11-28
+categorie_RE:
+  "Business e formazione > Lavoro": 2026-11-28
+categorie_PR:
+  "Mercatini e fiere > Collezionismo": 2026-11-28
+categorie_FC:
+  "Sport > Arrampicata": 2026-11-28

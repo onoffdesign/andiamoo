@@ -124,6 +124,10 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - 2026-11-28 (notte): la shell raggiunge i siti e Nominatim: posizioni dei luoghi senza spendere ricerche
   ("town hall in <comune>", "library in <comune>", teatri, musei e piazze per nome), con una pausa tra le richieste.
 
+- 2026-11-28 (01:07): nelle province mai coperte le stagioni dei teatri comunali e di tradizione e i programmi di
+  Natale dei capoluoghi (spesso PDF) danno quasi tutti gli eventi; i comuni piccoli rendono zero (pagine 2023-2025).
+  Le API OpenCity dei comuni romagnoli (Alfonsine, Massa Lombarda) e cuneocultura.it si leggono in JSON.
+
 ## Fonti da evitare o poco utili
 - Elenco dei domini che WebFetch non legge: ora in `ops/domini-illeggibili.yaml` (lo stampa il piano della notte).
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,
@@ -235,6 +239,10 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - 2026-11-28 (notte con quattro agenti): la rete della sessione bloccava tutti i siti (WebFetch: ENOTFOUND). Prima di
   lanciare gli agenti il coordinatore prova una sola WebFetch su una pagina nota; se fallisce, gli agenti non partono e la
   notte fa solo cio' che non usa la rete (modulo, unione, pubblicazione, memoria).
+- 2026-11-28 (01:07): un agente ha scritto coordinate a memoria perche' Nominatim gli rispondeva 403; poco dopo
+  rispondeva di nuovo. Se Nominatim fallisce si riprova piu' tardi o si lascia l'evento senza lat/lon, mai stime.
+  Gli agenti non aprono la home di un candidato prima di aver letto robots.txt e termini, nemmeno per una sonda tecnica.
+  Gli agenti condividono lo scratchpad: ognuno lavora in una sua sottocartella.
 - eventiesagre a volte sbaglia il nome del comune (Badoere di Morgano scritto "Mordano", poi geocodificato a caso):
   leggere la scheda prima di rimuovere come "fuori provincia".
 - Nel modificare correzioni.yaml con script, l'intestazione commentata contiene "# rimuovi:": inserire le voci

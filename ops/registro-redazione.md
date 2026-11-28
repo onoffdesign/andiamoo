@@ -2,6 +2,37 @@
 
 Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/revisione-notturna.md`).
 
+## 2026-11-28 (sessione notturna delle 01:07, cinque agenti)
+
+- **Sito**: da 1216 a 2211 eventi. **Aggiunti 995** sul sito (giro 458, italia-a 350, italia-b 183, revisione 6;
+  qualcuno gia' passato): teatro-spettacoli 505, musica 177, famiglie-bambini 121, arte-cultura 100, mercatini-fiere 47,
+  sagre-feste 27, sport 17, natura-outdoor 1. Per regione: Veneto e giro circa 464 (MyArteven 377 repliche in 56 teatri,
+  Museo Canova 33, Gli Alcuni 15, Mattorosso 14, Teatro Accademia 8, CortinAteatro 7), Emilia-Romagna 294 (RE 79, FC 51,
+  BO 40, MO 32, PR 19, RA 27, PC 19, FE 15, RN 12), Lombardia 129 (CR 52, SO 36, LC 22, LO 19), Piemonte 110 (NO 31,
+  TO 25, AL 19, BI 18, CN 13, AT 4).
+- **Corretti 29** (giro 5 orari e link del Teatro Accademia, revisione 24), **verificati 51**, **rimossi 5** dalla
+  redazione (vecchie voci TicketOne del Teatro Accademia, ora prese dalla scheda ufficiale).
+- **Fonti del giro lette**: 7 riaperte (gli-alcuni, museo-canova, teatro-da-ponte, mattorosso, scopri-oderzo,
+  libreria-san-leonardo, comune-paese; le altre gia' lette oggi) piu' 10 fonti note (MyArteven, Musincantus, Teatro
+  Accademia...). Nuova nel giro: musincantus (tribe_api). Aggiunte dal coordinatore: teatro-cilea, marche-teatro
+  (tribe_api), visit-lazio, teatro-massimo-bellini, teatro-bellini-napoli (jsonld). eventiesagre spenta (vietata).
+- **Verifica fonti (12)**: ammesse tviweb, insolitotrantran, running.life, gotrail.run, mentelocale, siviaggia,
+  trevisando, eventivenetando; vietata eventiesagre (termini iubenda); restano ticketone (503), classicalive
+  (informativa introvabile), 2night (robots.txt blocca le pagine legali). **Fonti nuove**: 46 catalogate in
+  ops/fonti.yaml (39 utili, 5 vietate per robots.txt: teatromassimo.it, sardegnaturismo.it, lovevda.it,
+  lamialiguria.it, tcbo.it; 3 da verificare: sardegnaeventi24, solosagre, sagritaly).
+- **Posizioni**: 105 luoghi dalla revisione, 71 da giro e italia-b, 22 da italia-a (coordinate OSM controllate dal
+  coordinatore: quelle di italia-a erano scritte a memoria). luoghi.yaml da 165 a 363. Dopo la pubblicazione: punti
+  diversi 0, solo comune con luogo 205, lontani dal comune 62 (molti falsi allarmi di frazioni e teatri di Mestre).
+- **Campione 10/20** (luogo 7, accesso 2, link 3), sotto l'80%: regola nella parte 1. **Test di copertura PD 4/20.**
+- **Modulo**: nessuna risposta nuova (solo le due righe TEST).
+- **Ricerche**: 352 su 500 (giro 57, revisione 63, italia-a 89, italia-b 124, fonti 19), piu' molte letture dirette
+  con curl e circa 330 interrogazioni a Nominatim non contate.
+- **Problemi aperti**: l'agente fonti ha aperto la home e l'API di zero.eu, sardegnaeventi24, solosagre e sagritaly
+  prima della verifica (nessun dato usato); italia-a ha tolto 20 eventi letti su tcbo.it, da cercare su fonte ammessa;
+  MyArteven non ha un raccoglitore nel codice (l'array JSON della home va letto a mano); Lo Schiaccianoci del 27/12 a
+  Conegliano: 18 sul sito, 21 nell'elenco del teatro; Michael starring Gus Jackson trattenuto (date incoerenti).
+
 ## 2026-11-28 (sessione notturna, terza prova, quattro agenti)
 
 - **Sito**: da 786 a 1216 eventi. **Aggiunti 409** (giro 98, treviso 36, italia 275): teatro-spettacoli 123, musica 81,

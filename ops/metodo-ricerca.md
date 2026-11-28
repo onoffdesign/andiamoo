@@ -69,6 +69,11 @@ Come cercare:
   in una lettura). Sui comuni OpenCity usare l'API opendata (Vicenza 239 eventi a dicembre), sui portali WordPress
   /wp-json/tribe/events/v1/events (Dolomiti Prealpi e Sala Luttazzi spostate in config/sources.yaml).
 
+- 2026-11-28 (notte, 01:07): **i circuiti teatrali regionali valgono una provincia intera.** La home di MyArteven ha
+  nel sorgente tutte le repliche del Veneto con teatro, indirizzo e coordinate (377 eventi in una lettura). Cercare lo
+  stesso per gli altri circuiti (ATER Emilia-Romagna, Piemonte dal Vivo, Circuito Lombardo, ATCL Lazio, CeDAC Sardegna).
+  Le coordinate dei luoghi si prendono da Nominatim dalla shell, mai a memoria.
+
 ## 2. Regole per regione
 
 ### Veneto
@@ -212,6 +217,7 @@ segnate "vietata" non si aprono piu' (i loro eventi si cercano dall'organizzator
 
 `- AAAA-MM-GG · provincia attiva · ricerche N · eventi nuovi N · eventi per ricerca N,N · fonti al PC +N · miglioria: ...`
 
+- 2026-11-28 (notte, sessione delle 01:07, cinque agenti) · 20 province di Lombardia, Emilia-Romagna, Piemonte e TV + giro · ricerche 352 (giro 57, revisione 63, italia-a 89, italia-b 124, fonti 19) · eventi nuovi 995 · eventi per ricerca 2,83 · fonti al giro +6 (musincantus, teatro-cilea, marche-teatro, visit-lazio, teatro-massimo-bellini, teatro-bellini-napoli) · miglioria: coordinate dei luoghi nuovi sempre da Nominatim interrogato dalla shell (1 richiesta al secondo, user agent del progetto), mai a memoria; il coordinatore le controlla prima di unire
 - 2026-11-28 (notte, terza prova) · TV + 10 province di Trentino-Alto Adige e Lombardia + giro (BL, TS) · ricerche circa 373 (giro 90, revisione 71, treviso 97, italia 115; molte letture dirette di API) · eventi nuovi 407 (TV circa 95, altre province circa 312) · eventi per ricerca 1,09 · fonti catalogate +10 (API OpenCity di Trento, OpenAgenda di Bolzano, Open Data Hub Alto Adige, Donizetti, Sociale di Como...) · miglioria: PDF letti con pdftotext sul file salvato da WebFetch
 - 2026-11-28 (notte) · TV + 10 province di Veneto e Friuli · ricerche circa 370 (quattro agenti, piu' letture dirette dalla shell) · eventi nuovi 331 (TV 105, altre province 226) · eventi per ricerca 0,91 · fonti al PC +2 (dolomiti-prealpi e sala-luttazzi-trieste, tribe_api; catalogate 21 fonti) · miglioria: programmi in immagine letti scaricando il file; API OpenCity dei comuni; i test non riscrivono piu' ops/prelievi.csv
 - 2026-11-28 · TV · ricerche 50 · eventi nuovi 25 · eventi per ricerca 0,50 · fonti al PC +0 (catalogate Fondazione Cassamarca Giovedi' della Cultura, Opendream) · miglioria: `--controlla` ora rifiuta una sottocategoria che non appartiene alla categoria indicata (prima il sito la scartava in silenzio), con test; resa bassa: 11 letture su 24 a vuoto (5 pagine di anni passati, 4 errori del server di mentelocale e Happy Ticket); le pagine eventi dei Comuni che escono da una ricerca con allowed_domains (Quinto: 5 in una lettura) restano la via piu' sicura per i comuni senza fonte del PC

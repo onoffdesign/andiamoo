@@ -1726,3 +1726,113 @@ luoghi:
     lat: 45.5570472
     lon: 8.0623801
     nota: "Via Torino (Chiavazza). Verificato il 2026-11-28 dall'agente italia-b: **solo OSM**: indirizzo da confermare"
+  - nomi: ["Teatro Arena del Sole"]
+    comune: "Bologna"
+    lat: 44.49969
+    lon: 11.34354
+    nota: "Via dell'Indipendenza 44. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 10 eventi."
+  - nomi: ["Teatro delle Moline"]
+    comune: "Bologna"
+    lat: 44.497699
+    lon: 11.348376
+    nota: "Via delle Moline 1/b. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 5 eventi."
+  - nomi: ["Unipol Arena"]
+    comune: "Casalecchio di Reno"
+    lat: 44.485953
+    lon: 11.248152
+    nota: "Via Gino Cervi 2. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 4 eventi."
+  - nomi: ["Teatro Celebrazioni"]
+    comune: "Bologna"
+    lat: 44.48954
+    lon: 11.312546
+    nota: "Via Saragozza 234. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 4 eventi."
+  - nomi: ["Teatro Dehon"]
+    comune: "Bologna"
+    lat: 44.496643
+    lon: 11.365916
+    nota: "Via Libia 59. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  - nomi: ["Teatro Amilcare Ponchielli"]
+    comune: "Cremona"
+    lat: 45.132171
+    lon: 10.019045
+    nota: "Corso Vittorio Emanuele II 52. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 43 eventi."
+  - nomi: ["Auditorium Giovanni Arvedi"]
+    comune: "Cremona"
+    lat: 45.131263
+    lon: 10.023025
+    nota: "Piazza Marconi 5. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 4 eventi."
+  - nomi: ["Teatro Diego Fabbri"]
+    comune: "Forlì"
+    lat: 44.221041
+    lon: 12.039194
+    nota: "Corso Armando Diaz 47. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 23 eventi."
+  - nomi: ["Rocca di Ravaldino"]
+    comune: "Forlì"
+    lat: 44.216268
+    lon: 12.03703
+    nota: "Via Giovanni dalle Bande Nere 1. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  - nomi: ["Auditorium Conad Citta' di Forli'"]
+    comune: "Forlì"
+    lat: 44.219342
+    lon: 12.051508
+    nota: "Viale della Liberta' 2. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  - nomi: ["Teatro della Societa'"]
+    comune: "Lecco"
+    lat: 45.852714
+    lon: 9.389287
+    nota: "Piazza Garibaldi 10. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 5 eventi."
+  - nomi: ["Teatro alle Vigne"]
+    comune: "Lodi"
+    lat: 45.314831
+    lon: 9.506172
+    nota: "Via Cavour 66. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 19 eventi."
+  - nomi: ["Teatro Storchi"]
+    comune: "Modena"
+    lat: 44.643521
+    lon: 10.931095
+    nota: "Largo Garibaldi 15. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 6 eventi."
+  - nomi: ["Teatro Comunale Pavarotti-Freni"]
+    comune: "Modena"
+    lat: 44.646885
+    lon: 10.930043
+    nota: "Corso Canalgrande 85. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 5 eventi."
+  - nomi: ["Teatro Regio di Parma"]
+    comune: "Parma"
+    lat: 44.803234
+    lon: 10.326808
+    nota: "Strada Garibaldi 16/a. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 7 eventi."
+  - nomi: ["Teatro Due"]
+    comune: "Parma"
+    lat: 44.796453
+    lon: 10.325244
+    nota: "Viale Basetti 12/a. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 5 eventi."
+  - nomi: ["Teatro Municipale Valli"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.701106
+    lon: 10.631383
+    nota: "Piazza Martiri del 7 Luglio 7. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 20 eventi."
+  - nomi: ["Teatro Ariosto"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.700882
+    lon: 10.628659
+    nota: "Corso Cairoli 1. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 8 eventi."
+  - nomi: ["Teatro Cavallerizza"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.701637
+    lon: 10.628625
+    nota: "Viale Allegri 8/a. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 7 eventi."
+  - nomi: ["Palazzo dei Musei"]
+    comune: "Reggio nell'Emilia"
+    lat: 44.700221
+    lon: 10.632631
+    nota: "Via Spallanzani 1. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
+  - nomi: ["Teatro Sociale di Sondrio"]
+    comune: "Sondrio"
+    lat: 46.17055
+    lon: 9.86937
+    nota: "Piazza Garibaldi 26. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 14 eventi."
+  - nomi: ["Torre Ligariana"]
+    comune: "Sondrio"
+    lat: 46.171098
+    lon: 9.872358
+    nota: "Piazza Campello. Coordinate di OpenStreetMap (Nominatim), indirizzo dalla fonte ufficiale; aggiunto il 2026-11-28 (coordinatore, eventi di italia-a). 3 eventi."
