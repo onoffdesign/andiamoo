@@ -205,7 +205,7 @@ redazione) e le fonti da cui vengono, cosi' non si spende una ricerca su cio' ch
    **modulo Google** "ANDIAMO? segnalazioni" (`site.form_url` in `config/settings.yaml`, cartella Drive ONOFF >
    _ONOFF Progetti interni > ANDIAMOO). Le risposte sono nel foglio "ANDIAMO? segnalazioni (Risposte)", id
    `18e1sR9iF1jvGAvZeIXMv4d0BwTxDP7YbZAag6oLQ15U`: leggilo con il connettore Google Drive (read_file_content) o Fogli.
-   Colonne: data e ora, Tipo ("Nuovo evento", "Correzione", "Rimozione"; "TEST" = prova, da ignorare), Evento (uid
+   Colonne: data e ora, Tipo ("Nuovo evento", "Correzione", "Rimozione"; "TEST", o titolo che inizia con "TEST", = prova, da ignorare), Evento (uid
    dell'evento segnalato), Dettagli (una riga "Campo: valore" per ogni dato: Titolo, Data, Ora, Fine, Comune, Luogo,
    Indirizzo, Categoria, Accesso, Prezzo, Link, Descrizione, Messaggio), Contatto. Le righe gia' lavorate sono
    quelle con data e ora fino all'ultima registrata in `ops/segnalazioni-e-controllo.md`. Per ogni riga:
