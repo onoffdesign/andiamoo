@@ -1175,3 +1175,7 @@ body, .card, .panel, .dlg, .toast { font-family: var(--text); }
 .card-when .t { font-family: var(--hand); font-weight: 400; font-size: 1.375rem; letter-spacing: .02em; }
 .card-when .u, body.view-list .inline-card .card-when .u { font-family: var(--hand); font-weight: 400; font-size: 1.1875rem; letter-spacing: .02em; }
 .item .when { font-family: var(--hand); font-weight: 400 !important; letter-spacing: .02em; }
+/* vista lista: descrizione piu' grande */
+body.view-list .inline-card .card-desc { font-size: 1.125rem !important; line-height: 1.5 !important; }
+body.view-list .inline-card .card-acc { font-size: 1rem; }
+@media (max-width: 760px) { body.view-list .inline-card .card-desc { font-size: 1.0625rem !important; } }
