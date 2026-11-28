@@ -8,86 +8,86 @@
 comuni_TV:
   Altivole: 2026-11-21
   Arcade: 2026-11-22
-  Asolo: 2026-11-15
+  Asolo: 2026-11-28
   Borso del Grappa: 2026-11-19
   Breda di Piave: 2026-11-27
-  Caerano di San Marco: 2026-11-13
+  Caerano di San Marco: 2026-11-28
   Cappella Maggiore: 2026-11-19
   Carbonera: 2026-11-23
-  Casale sul Sile: 2026-11-14
+  Casale sul Sile: 2026-11-28
   Casier: 2026-11-27
   Castelcucco: 2026-11-23
   Castelfranco Veneto: 2026-11-18
-  Castello di Godego: 2026-11-14
+  Castello di Godego: 2026-11-28
   Cavaso del Tomba: 2026-11-25
   Cessalto: 2026-11-24
   Chiarano: 2026-11-28
   Cimadolmo: 2026-11-25
-  Cison di Valmarino: 2026-11-17
+  Cison di Valmarino: 2026-11-28
   Codognè: 2026-11-23
   Colle Umberto: 2026-11-23
   Conegliano: 2026-11-28
-  Cordignano: 2026-11-16
+  Cordignano: 2026-11-28
   Cornuda: 2026-11-28
-  Crocetta del Montello: 2026-11-14
+  Crocetta del Montello: 2026-11-28
   Farra di Soligo: 2026-11-25
   Follina: 2026-11-24
   Fontanelle: 2026-11-26
   Fonte: 2026-11-28
   Fregona: 2026-11-18
   Gaiarine: 2026-11-24
-  Giavera del Montello: 2026-11-13
+  Giavera del Montello: 2026-11-28
   Godega di Sant'Urbano: 2026-11-17
   Gorgo al Monticano: 2026-11-21
   Istrana: 2026-11-27
-  Loria: 2026-11-20
+  Loria: 2026-11-28
   Mansuè: 2026-11-18
   Mareno di Piave: 2026-11-28
   Maser: 2026-11-20
   Maserada sul Piave: 2026-11-20
   Meduna di Livenza: 2026-11-27
   Miane: 2026-11-22
-  Mogliano Veneto: 2026-11-15   # gia' fonte del PC (comune-mogliano myportal): non serve cercarlo a mano
+  Mogliano Veneto: 2026-11-28   # gia' fonte del PC (comune-mogliano myportal): non serve cercarlo a mano
   Monastier di Treviso: 2026-11-22
   Monfumo: 2026-11-26
   Montebelluna: 2026-11-27
-  Morgano: 2026-11-16
+  Morgano: 2026-11-28
   Moriago della Battaglia: 2026-11-22
   Motta di Livenza: 2026-11-22
   Nervesa della Battaglia: 2026-11-28
   Oderzo: 2026-11-17
-  Ormelle: 2026-11-15
+  Ormelle: 2026-11-28
   Orsago: 2026-11-21
   Paese: 2026-11-19
-  Pederobba: 2026-11-16
-  Pieve del Grappa: 2026-11-14
+  Pederobba: 2026-11-28
+  Pieve del Grappa: 2026-11-28
   Pieve di Soligo: 2026-11-19
   Ponte di Piave: 2026-11-18
-  Ponzano Veneto: 2026-11-17
-  Portobuffolè: 2026-11-13
+  Ponzano Veneto: 2026-11-28
+  Portobuffolè: 2026-11-28
   Possagno: 2026-11-26
   Povegliano: 2026-11-20
-  Preganziol: 2026-11-15
+  Preganziol: 2026-11-28
   Quinto di Treviso: 2026-11-28
   Refrontolo: 2026-11-20
   Resana: 2026-11-13
   Revine Lago: 2026-11-18
-  Riese Pio X: 2026-11-15
+  Riese Pio X: 2026-11-28
   Roncade: 2026-11-17
   Salgareda: 2026-11-27
   San Biagio di Callalta: 2026-11-21
   San Fior: 2026-11-26
-  San Pietro di Feletto: 2026-11-15
+  San Pietro di Feletto: 2026-11-28
   San Polo di Piave: 2026-11-28
   San Vendemiano: 2026-11-16
   San Zenone degli Ezzelini: 2026-11-27
-  Santa Lucia di Piave: 2026-11-22
+  Santa Lucia di Piave: 2026-11-28
   Sarmede: 2026-11-26
   Segusino: 2026-11-24
   Sernaglia della Battaglia: 2026-11-22
   Silea: 2026-11-21
   Spresiano: 2026-11-16
-  Susegana: 2026-11-26
+  Susegana: 2026-11-28
   Tarzo: 2026-11-25
   Trevignano: 2026-11-24
   Treviso: 2026-11-17
@@ -98,7 +98,7 @@ comuni_TV:
   Villorba: 2026-11-27
   Vittorio Veneto: 2026-11-27
   Volpago del Montello: 2026-11-17
-  Zenson di Piave: 2026-11-14
+  Zenson di Piave: 2026-11-28
   Zero Branco: 2026-11-25
 aggregatori:
   classicalive.it (Treviso): 2026-11-15
@@ -111,11 +111,11 @@ aggregatori:
   ivirtuositaliani.eu (stagione Teatro Eden e Teatro delle Voci, al PC): 2026-11-18
   teatrodelpane.it (Teatro del Pane, al PC): 2026-11-18
   visitfregona.it (Pro Loco Fregona, al PC): 2026-11-18
-  ordinearchitettitreviso.it (eventi dell'Ordine): 2026-11-18
+  ordinearchitettitreviso.it (eventi dell'Ordine): 2026-11-28
   vivaticket.com (venue Palaverde, robots vietato): 2026-11-18
-  federciclismo.it (Trofeo Triveneto ciclocross): 2026-11-16
-  trevisomtb.it (calendario MTB e ciclocross): 2026-11-16
-  prolocovenete.it (eventi Pro Loco per provincia, elenco caricato via JS): 2026-11-16
+  federciclismo.it (Trofeo Triveneto ciclocross): 2026-11-28
+  trevisomtb.it (calendario MTB e ciclocross): 2026-11-28
+  prolocovenete.it (eventi Pro Loco per provincia, elenco caricato via JS): 2026-11-28
   vivertempo.it (fermo al 2018): 2026-11-16
   loveitalia.fun (3 eventi, senza fonte): 2026-11-16
   trevisoperte.it (Urbecom, elenco in errore): 2026-11-16
@@ -138,18 +138,21 @@ aggregatori:
   eventbrite.it (Treviso): 2026-11-06
   allevents.in (Treviso): null
   calendariopodismo.it: null
-  calendariopodismoveneto.blogspot.com: 2026-11-02
+  calendariopodismoveneto.blogspot.com: 2026-11-28
   running.life: 2026-11-22
   trevisando.it: 2026-11-22
   fieresantalucia.it: 2026-11-22
-  Pro Loco e UNPLI Treviso: 2026-11-16
+  Pro Loco e UNPLI Treviso: 2026-11-28
   itinerarinellarte.it (mostre Treviso): 2026-11-16
-  bibliotecazerobranco.it: 2026-11-09
-  'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': 2026-11-09
-  musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: 2026-10-30
+  bibliotecazerobranco.it: 2026-11-28
+  'teatri: Teatro Mario Del Monaco / Teatro Stabile del Veneto, Teatro Accademia Conegliano, teatri comunali': 2026-11-28
+  musei civici di Treviso, Fondazione Benetton, Museo Salce, Gipsoteca Canova: 2026-11-28
   'biblioteche: rete BiblioMarca': null
-  H-FARM e spazi per eventi business: null
-  cinema e cineforum (Edera, Labirinto): 2026-11-05
+  H-FARM e spazi per eventi business: 2026-11-28
+  cinema e cineforum (Edera, Labirinto): 2026-11-28
+  ateneoditreviso.it (conferenze del venerdi', brochure dell'anno accademico): 2026-11-28
+  museomontebelluna.it (Museo di Storia Naturale e Archeologia): 2026-11-28
+  anandamargatreviso.it (centro yoga, serate e concerti): 2026-11-28
   meetup.com (Treviso): null
   comehome: null
   Pablo meeter: null
@@ -196,16 +199,16 @@ news:
 # categorie cercate in provincia di Treviso: voce di ops/categorie-ricerca.md -> data dell'ultima ricerca (o "rara");
 # le macro categorie qui sotto restano finche' non ci sono voci di dettaglio
 categorie_TV:
-  "Sport > Ciclismo": 2026-11-16
-  "Musica e party > Concerti": 2026-11-16
-  "Business e formazione > Startup e innovazione": 2026-11-15
-  "Musica e party > Festival musicali": 2026-11-15
-  "Business e formazione > Formazione": 2026-11-15
-  "Natura e benessere > Benessere": 2026-11-15
+  "Sport > Ciclismo": 2026-11-28
+  "Musica e party > Concerti": 2026-11-28
+  "Business e formazione > Startup e innovazione": 2026-11-28
+  "Musica e party > Festival musicali": 2026-11-28
+  "Business e formazione > Formazione": 2026-11-28
+  "Natura e benessere > Benessere": 2026-11-28
   "Arte e cultura > Comunita'": 2026-11-28
-  "Musica e party > Serate e club": 2026-11-14
+  "Musica e party > Serate e club": 2026-11-28
   "Sport > Sport invernali": 2026-11-28
-  "Sport > Ginnastica e danza sportiva": 2026-11-14
+  "Sport > Ginnastica e danza sportiva": 2026-11-28
   "Arte e cultura > Visite guidate": 2026-11-27
   "Natura e benessere > Escursioni": 2026-11-28
   "Sagre e cibo > Feste stagionali": 2026-11-28
@@ -250,10 +253,10 @@ categorie_TV:
   "Natura e benessere > Ambiente": 2026-11-17
   "Arte e cultura > Libri e lettura": 2026-11-18
   "Sagre e cibo > Cibo": 2026-11-17
-  "Arte e cultura > Conferenze e incontri": 2026-11-16
-  "Business e formazione > Lavoro": 2026-11-17
-  "Arte e cultura > Tecnologia e scienza": 2026-11-17
-  "Famiglie e bambini > Spettacoli per bambini": 2026-11-16
+  "Arte e cultura > Conferenze e incontri": 2026-11-28
+  "Business e formazione > Lavoro": 2026-11-28
+  "Arte e cultura > Tecnologia e scienza": 2026-11-28
+  "Famiglie e bambini > Spettacoli per bambini": 2026-11-28
   musica: 2026-10-30
   nightlife: null
   sagre-feste: 2026-10-30

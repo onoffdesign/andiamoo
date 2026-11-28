@@ -982,6 +982,10 @@ correggi:
     lon: 12.3629
     nota: "Sala polifunzionale del Municipio di San Fior, Piazza G. Marconi 2: coordinate della Casa Comunale da Tuttitalia (anche in config/luoghi.yaml)"
     verificato: "2026-11-19"
+  d20b8daa82d71b50:
+    official_url: https://www.museicivicitreviso.it/mostre-ed-eventi/la-materia-dei-sogni-radici-dellarte-africana-contemporanea/
+    nota: 'pagina della mostra sul sito dei Musei Civici di Treviso (elenco mostre ed eventi letto il 2026-11-28): date 3/9/2026-15/1/2027 confermate'
+    verificato: '2026-11-28'
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
@@ -1021,7 +1025,6 @@ verificati:
   0b909c95765b91f4: "2026-11-12"
   e66d93592c95d7a7: "2026-11-12"
   50fe2d6109ba542d: "2026-11-12"
-  80ce5c384824e1b9: "2026-11-12"
   763db6826f3f3a69: "2026-11-12"
   2d67cd5277bef8ac: "2026-11-12"
   c53aebeafeaf95ee: "2026-11-12"
@@ -1033,3 +1036,11 @@ verificati:
   8e665f1ea095f535: "2026-11-12"
   35498b6affb8e7dd: "2026-11-12"
   a9bdd63386b01fbb: "2026-11-12"
+  b665ec02e9b8accd: 2026-11-28
+  b403f9e97845d59a: 2026-11-28
+  16386aafbb6b0aea: 2026-11-28
+  765fbc3f4401c523: 2026-11-28
+  439db138b47448f1: 2026-11-28
+  80ce5c384824e1b9: 2026-11-28
+  cc3dcb242c1f8003: 2026-11-28
+  1fb0bfae2e063d8c: 2026-11-28

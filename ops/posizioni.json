@@ -1,12 +1,12 @@
 {
- "generato": "2026-11-28T12:07+01:00",
+ "generato": "2026-11-28T12:15+01:00",
  "riepilogo": {
-  "eventi_controllati": 515,
+  "eventi_controllati": 561,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 1,
-  "solo_comune_con_luogo": 285,
-  "solo_comune_senza_luogo": 8,
+  "solo_comune_con_luogo": 320,
+  "solo_comune_senza_luogo": 17,
   "candidati_luoghi_noti": 0
  },
  "punti_diversi": [],
@@ -141,6 +141,32 @@
     "99da2ffd6be57c54",
     "7bafd473c129c602",
     "f22efea87d1ec80f"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Parco del Donatore, Via San Pancrazio, Loria",
+   "eventi": 6,
+   "uid": [
+    "e41aa64c21ef52c9",
+    "ba328bc3a8c9ba80",
+    "de8c69d89e94ab73",
+    "2ba4ceb7ca395e50",
+    "0b6dbc1975038383",
+    "dc43203ae5a8f3d7"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Seminario Vescovile, Sala Pavan, Piazzetta Benedetto XI 2, Treviso",
+   "eventi": 6,
+   "uid": [
+    "d0c531693d4cceb8",
+    "a695ebe880c910f5",
+    "74502466ffec29ee",
+    "7f5c2335c356e2a5",
+    "6ec41e16429c893f",
+    "1603b1ecedadc345"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -339,6 +365,16 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "Sala conferenze dell'Ordine degli Architetti di Treviso, Piazza delle Istituzioni 30, Treviso",
+   "eventi": 3,
+   "uid": [
+    "cc1a346ce06560f7",
+    "2d3a97c3025decbb",
+    "5270fc5920572a4a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Loggia dei Grani, Piazza Minucci, Vittorio Veneto",
    "eventi": 3,
    "uid": [
@@ -435,33 +471,6 @@
    "uid": [
     "7105f347384bf59c",
     "dc6e91199f93079e"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Loggia dei Grani, zona sud, Montebelluna",
-   "eventi": 2,
-   "uid": [
-    "9b857831be628167",
-    "38f5a75d1c328756"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Auditorium Mario Del Monaco, Piazza Carlo e Giovanni Pinarello, Catena, Villorba",
-   "eventi": 2,
-   "uid": [
-    "c6033ef735f8d8f6",
-    "6678858e154d07b1"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Oratorio NOI di Catena, Villorba",
-   "eventi": 2,
-   "uid": [
-    "3fb1776a9cfc582e",
-    "b8494c9613c71c89"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }

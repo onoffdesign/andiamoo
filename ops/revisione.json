@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T12:07+01:00",
+ "generato": "2026-11-28T12:15+01:00",
  "eventi": [
   {
    "uid": "4d5cf01bcdc28c8e",
@@ -48,6 +48,29 @@
    "precisione": "town"
   },
   {
+   "uid": "3ef5e8c634aa3f08",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Soundiversity. La voce della biodiversita'",
+   "inizio": "2026-11-08",
+   "fine": "2027-06-27",
+   "luogo": "Museo di Storia Naturale e Archeologia di Montebelluna",
+   "indirizzo": "Via Piave 51",
+   "comune": "Montebelluna",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "biglietto del museo, intero 6 euro, ridotto 4 euro",
+   "fonte": "museomontebelluna.it",
+   "pagina_fonte": "https://www.museomontebelluna.it/",
+   "sito_ufficiale": "https://www.museomontebelluna.it/esplora-museo/soundiversity-la-voce-della-biodiversita/",
+   "riassunto": "Mostra interattiva sui paesaggi sonori e sulla biodiversita', visitabile negli orari del museo (nei weekend invernali la mostra temporanea apre dalle 14:30 alle 18).",
+   "lat": 45.77613,
+   "lon": 12.04511,
+   "precisione": "town"
+  },
+  {
    "uid": "e81620a223ac8112",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -69,6 +92,30 @@
    "lat": 45.66755,
    "lon": 12.24507,
    "precisione": "town"
+  },
+  {
+   "uid": "8e434337d51eb422",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?",
+    "titolo da ripulire"
+   ],
+   "titolo": "Lodovico Lipparini. Il Giuramento di Lord Byron a Missolungi e la pittura filellenica",
+   "inizio": "2026-11-14",
+   "fine": "2027-02-07",
+   "luogo": "Museo Bailo",
+   "indirizzo": "Borgo Cavour 24",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "museicivicitreviso.it",
+   "pagina_fonte": "https://www.museicivicitreviso.it/mostre-ed-eventi/lodovico-lipparini-il-giuramento-di-lord-byron-a-missolungi-e-la-pittura-filellenica-ideali-dindipendenza-nellarte-dellottocento/",
+   "sito_ufficiale": "https://www.museicivicitreviso.it/mostre-ed-eventi/lodovico-lipparini-il-giuramento-di-lord-byron-a-missolungi-e-la-pittura-filellenica-ideali-dindipendenza-nellarte-dellottocento/",
+   "riassunto": "Mostra dedicata al pittore Ludovico Lipparini e alla pittura ispirata alla guerra d'indipendenza greca, attorno al dipinto del giuramento di Lord Byron.",
+   "lat": 45.66757,
+   "lon": 12.23811,
+   "precisione": "venue"
   },
   {
    "uid": "4d08efd6446445ba",
@@ -709,6 +756,28 @@
    "precisione": "town"
   },
   {
+   "uid": "c8686cf758856f8a",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Noi e l'universo: mostra di quilt di Patchwork Idea",
+   "inizio": "2026-11-28T11:00",
+   "fine": "2026-12-06",
+   "luogo": "Ca' dei Ricchi, Sala AV",
+   "indirizzo": "Via Barberia 25",
+   "comune": "Treviso",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "ingresso libero",
+   "fonte": "nordest24.it",
+   "pagina_fonte": "https://www.nordest24.it/treviso-patchwork-idea-mostra-noi-e-l-universo-quilt-stellari",
+   "sito_ufficiale": "https://www.nordest24.it/treviso-patchwork-idea-mostra-noi-e-l-universo-quilt-stellari",
+   "riassunto": "Ventottesima mostra dell'associazione Patchwork Idea con 25 quilt dedicati al cosmo, realizzati da circa 60 socie. Aperta da martedi' a domenica, 10-12:30 e 15-18.",
+   "lat": 45.66755,
+   "lon": 12.24507,
+   "precisione": "town"
+  },
+  {
    "uid": "7ebdaa13729c43ba",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -808,18 +877,42 @@
    "titolo": "Accensione dell'albero di Natale a Susegana",
    "inizio": "2026-11-29T18:00",
    "fine": null,
-   "luogo": "Piazza di Susegana",
+   "luogo": "Piazza Martiri della Liberta'",
    "indirizzo": "",
    "comune": "Susegana",
    "categoria": "sagre-feste",
    "accesso": "sconosciuto",
    "prezzo": "",
-   "fonte": "Qdpnews",
+   "fonte": "qdpnews.it",
    "pagina_fonte": "https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/",
    "sito_ufficiale": "https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/",
-   "riassunto": "Accensione dell'albero in piazza con gli alunni dell'Istituto comprensivo e l'arrivo di Babbo Natale con gli elfi del Comitato genitori, dentro il Magico Natale della Pro Loco; nel pomeriggio ludobus in piazza e stand della Pro Loco.",
+   "riassunto": "Accensione dell'albero in piazza con le scuole dell'Istituto comprensivo e Babbo Natale con gli elfi. Nel pomeriggio in piazza ci sono il Ludobus con giochi gratuiti e lo stand della Pro Loco; alle 16:30 concerto degli alunni delle primarie.",
    "lat": 45.8509,
    "lon": 12.25004,
+   "precisione": "town"
+  },
+  {
+   "uid": "425f9af8b1965605",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 3286286e0c7123b9"
+   ],
+   "titolo": "Festa e accensione dell'albero di Natale a Santa Lucia di Piave",
+   "inizio": "2026-11-29T15:00",
+   "fine": null,
+   "luogo": "Padiglioni della Filanda e piazza di Santa Lucia di Piave",
+   "indirizzo": "",
+   "comune": "Santa Lucia di Piave",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "qdpnews.it",
+   "pagina_fonte": "https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/",
+   "sito_ufficiale": "https://www.qdpnews.it/comuni/coneglianese/susegana/il-magico-natale-nelle-antiche-terre-tanti-eventi-e-due-alberi-accesi-in-contemporanea/",
+   "riassunto": "Festa legata alla settimana della disabilita' con il coro ANA Giulio Bedeschi e la Fanfara alpina di Conegliano, poi in piazza canti delle scuole, doni di Babbo Natale e accensione dell'albero alle 18.",
+   "lat": 45.84918,
+   "lon": 12.28427,
    "precisione": "town"
   },
   {
@@ -984,6 +1077,29 @@
    "precisione": "town"
   },
   {
+   "uid": "335bafcdc80b89f9",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "26a Rassegna degli Artisti Locali a Ramon",
+   "inizio": "2026-11-29T11:00",
+   "fine": "2026-12-13",
+   "luogo": "Sala espositiva della Biblioteca di Ramon",
+   "indirizzo": "",
+   "comune": "Loria",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "nordest24.it",
+   "pagina_fonte": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
+   "sito_ufficiale": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
+   "riassunto": "Mostra collettiva degli artisti del territorio curata dal gruppo gLoriArt, inaugurata domenica 29 novembre alle 11 e aperta fino al 13 dicembre.",
+   "lat": 45.72836,
+   "lon": 11.86653,
+   "precisione": "town"
+  },
+  {
    "uid": "54cc76fed360279f",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -1051,28 +1167,6 @@
    "lat": 45.82449,
    "lon": 12.20742,
    "precisione": "town"
-  },
-  {
-   "uid": "cc3dcb242c1f8003",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Nel cuore dei bambini: presentazione del libro di Gianni Mazzonetto",
-   "inizio": "2026-11-29T16:00",
-   "fine": null,
-   "luogo": "Auditorium Giovanni Comisso",
-   "indirizzo": "",
-   "comune": "Zero Branco",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "bibliotecazerobranco.it",
-   "pagina_fonte": "https://www.bibliotecazerobranco.it/eventi",
-   "sito_ufficiale": "https://www.bibliotecazerobranco.it/eventi/296/nel-cuore-dei-bambini",
-   "riassunto": "Presentazione del libro Nel cuore dei bambini con l'autore e il cardiochirurgo Giovanni Stellin.",
-   "lat": 45.60798,
-   "lon": 12.1817,
-   "precisione": "venue"
   },
   {
    "uid": "f7d751ec100c2425",
@@ -1270,94 +1364,6 @@
    "riassunto": "Laboratorio in cui i partecipanti incidono un'immagine con punteruoli e materiali comuni per stampare una cartolina natalizia; iscrizione obbligatoria, massimo 30 persone.",
    "lat": 45.8509,
    "lon": 12.25004,
-   "precisione": "town"
-  },
-  {
-   "uid": "b403f9e97845d59a",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "I racconti del Memoriale: Carlo Scarpa e Venezia",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Memoriale Brion",
-   "indirizzo": "Via Brioni",
-   "comune": "Altivole",
-   "categoria": "arte-cultura",
-   "accesso": "biglietto",
-   "prezzo": "18 euro, ridotto 13, iscritti FAI e residenti 10, gratis fino a 5 anni",
-   "fonte": "fondoambiente.it",
-   "pagina_fonte": "https://fondoambiente.it/eventi/i-racconti-del-memoriale",
-   "sito_ufficiale": "https://fondoambiente.it/eventi/i-racconti-del-memoriale",
-   "riassunto": "Visita guidata all'aperto di circa un'ora e mezza al Memoriale Brion di Carlo Scarpa, percorso 'Carlo Scarpa e Venezia'. Prenotazione obbligatoria sul sito del FAI.",
-   "lat": 45.75399,
-   "lon": 11.95579,
-   "precisione": "town"
-  },
-  {
-   "uid": "107d458d03491835",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "L'Aperitivo del New Age 96-26 Celebration Weekend",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "New Age Club",
-   "indirizzo": "Via Tintoretto 14",
-   "comune": "Roncade",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "newageclub.it",
-   "pagina_fonte": "https://www.newageclub.it/events/",
-   "sito_ufficiale": "https://www.newageclub.it/events/",
-   "riassunto": "Aperitivo di chiusura del weekend dedicato ai trent'anni del New Age Club.",
-   "lat": 45.63932,
-   "lon": 12.38358,
-   "precisione": "venue"
-  },
-  {
-   "uid": "ca5d6203b84f4236",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Dalle tessere all'opera: workshop di mosaico al Museo Civico di Asolo",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Museo Civico di Asolo",
-   "indirizzo": "Via Regina Cornaro 74",
-   "comune": "Asolo",
-   "categoria": "arte-cultura",
-   "accesso": "iscrizione",
-   "prezzo": "",
-   "fonte": "nordest24.it",
-   "pagina_fonte": "https://www.nordest24.it/veneto-primo-weekend-avvento-asolo-padova-longarone-28-29-novembre-2026",
-   "sito_ufficiale": "https://www.nordest24.it/veneto-primo-weekend-avvento-asolo-padova-longarone-28-29-novembre-2026",
-   "riassunto": "Laboratorio di mosaico per adulti e bambini al Museo Civico, su prenotazione.",
-   "lat": 45.80217,
-   "lon": 11.91237,
-   "precisione": "town"
-  },
-  {
-   "uid": "d3386545893c5d21",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Mercatini di Natale in Corso Mazzini",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Corso Mazzini",
-   "indirizzo": "",
-   "comune": "Montebelluna",
-   "categoria": "mercatini-fiere",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "Qdpnews, programma del Natale di Montebelluna",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
-   "riassunto": "Bancarelle natalizie lungo il corso del centro, nel programma del Natale del Comune.",
-   "lat": 45.77613,
-   "lon": 12.04511,
    "precisione": "town"
   }
  ]
