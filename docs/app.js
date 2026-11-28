@@ -15,7 +15,7 @@
 
   const state = {
     from: null, to: null, preset: "all", cats: new Set(), access: new Set(), aud: new Set(), q: "",
-    selected: null, detail: false, sort: "date", me: null,
+    selected: null, detail: false, sort: "date", me: null, fav: false,
     sidebarHidden: false, hiddenBeforeDetail: false,
   };
   let API = "", apiOk = false, aiOk = false;
@@ -23,6 +23,37 @@
   let pushedDetail = false;                // la scheda aperta ha una voce nostra nella cronologia?
   const COORDS = {};                       // uid -> [lon, lat] mostrati (con il piccolo scarto anti-sovrapposizione)
   let LIVE = new Set();                    // uid degli eventi in corso adesso (ricalcolati ogni minuto)
+  // Preferiti: gli eventi salvati col cuore restano in questo browser (nessun account, nessun dato inviato).
+  const FAV = new Set((() => { try { return JSON.parse(localStorage.getItem("andiamo-preferiti") || "[]"); } catch (_) { return []; } })());
+  const HEART = (on) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z"${on ? ' class="on"' : ""}/></svg>`;
+  function favButton(e, cls) {
+    const on = FAV.has(e.uid);
+    return `<button type="button" class="${cls}" data-fav="${e.uid}" aria-pressed="${on}" aria-label="${on ? "Togli dai preferiti" : "Salva nei preferiti"}" title="${on ? "Togli dai preferiti" : "Salva nei preferiti"}">${HEART(on)}</button>`;
+  }
+  function toggleFav(uid) {
+    const on = !FAV.has(uid);
+    on ? FAV.add(uid) : FAV.delete(uid);
+    try { localStorage.setItem("andiamo-preferiti", JSON.stringify([...FAV])); } catch (_) { /* privato */ }
+    Sound.play(on ? "save-on" : "save-off");
+    document.querySelectorAll(`[data-fav="${uid}"]`).forEach((b) => {
+      b.setAttribute("aria-pressed", String(on));
+      b.setAttribute("aria-label", on ? "Togli dai preferiti" : "Salva nei preferiti");
+      b.title = b.getAttribute("aria-label");
+      b.innerHTML = HEART(on);
+      b.classList.remove("pop"); void b.offsetWidth; b.classList.add("pop");
+    });
+    toast(on ? "Salvato nei preferiti" : "Tolto dai preferiti");
+    if (state.fav || !state.detail) update();
+    else renderFavBtn();
+  }
+  function renderFavBtn() {
+    const b = $("#fav-btn");
+    if (!b) return;
+    const n = [...FAV].filter((u) => EVENTS.some((e) => e.uid === u && !isOver(e))).length;
+    b.setAttribute("aria-pressed", String(state.fav));
+    b.setAttribute("aria-label", state.fav ? "Mostra tutti gli eventi" : `Preferiti: ${n}`);
+    b.innerHTML = `${HEART(state.fav || n > 0)}<span>${n}</span>`;
+  }
 
   // ---------------------------------------------------------------- date e distanze
   const pad = (n) => String(n).padStart(2, "0");
@@ -128,6 +159,7 @@
 
   function matches(e, skip = {}) {
     if (isOver(e)) return false;
+    if (state.fav) return FAV.has(e.uid);        // elenco preferiti: tutti i salvati, senza gli altri filtri
     if (!skip.date && !spans(e, state.from, state.to)) return false;
     if (!skip.cat && state.cats.size && !state.cats.has(e.category)) return false;
     if (state.access.size && !state.access.has(accessGroup(e))) return false;   // piu' scelte = uno qualsiasi
@@ -259,7 +291,9 @@
     const list = $("#list");
     list.innerHTML = "";
     if (!items.length) {
-      list.innerHTML = `<li class="empty-state"><strong>Nessun evento con questi filtri.</strong>Prova un altro giorno o togli qualche categoria.</li>`;
+      list.innerHTML = state.fav
+        ? `<li class="empty-state"><strong>Nessun evento nei preferiti.</strong>Tocca il cuore su un evento per salvarlo qui.</li>`
+        : `<li class="empty-state"><strong>Nessun evento con questi filtri.</strong>Prova un altro giorno o togli qualche categoria.</li>`;
       return;
     }
     let lastGroup = "";
@@ -285,7 +319,7 @@
       li.className = "item";
       li.innerHTML = `<button type="button" data-uid="${e.uid}" style="--c:${c.color}">
           <span class="dot" aria-hidden="true"></span>
-          <span><h3>${esc(e.title)}</h3><span class="meta">${esc([e.venue, e.town].filter(Boolean).join(", "))}</span></span>
+          <span><h3>${FAV.has(e.uid) ? '<i class="saved" aria-label="Salvato">♥</i> ' : ""}${esc(e.title)}</h3><span class="meta">${esc([e.venue, e.town].filter(Boolean).join(", "))}</span></span>
           <span class="when${LIVE.has(e.uid) ? " live" : ""}">${esc(when)}${dist ? `<small>${dist}</small>` : ""}</span></button>`;
       const btn = li.querySelector("button");
       btn.addEventListener("click", () => { Sound.play("select"); select(e.uid, { fly: true, detail: true }); });
@@ -343,6 +377,7 @@
       </div>
       <div class="detail-actions">
         <a class="cta" href="${attr(e.action_url)}" target="_blank" rel="noopener"><span>Scopri di più</span><i aria-hidden="true">↗</i></a>
+        ${favButton(e, "round fav-round")}
         <button class="round" type="button" data-ics aria-label="Aggiungi al calendario" title="Aggiungi al calendario">
           <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
         <a class="round" target="_blank" rel="noopener" aria-label="Indicazioni stradali" title="Indicazioni"
@@ -353,6 +388,7 @@
       </div>`;
     el.querySelector(".back").addEventListener("click", closeDetail);
     el.querySelector("[data-ics]").addEventListener("click", () => downloadIcs(e));
+    el.querySelector("[data-fav]").addEventListener("click", () => toggleFav(e.uid));
     el.querySelector("[data-share]").addEventListener("click", () => share(e));
     el.querySelector("[data-report]").addEventListener("click", () => openReport(e));
   }
@@ -519,6 +555,8 @@
         else if (name === "expand") [523, 659, 784].forEach((f, i) => this.tone(f, t + i * 0.055, 0.14, { type: "triangle", gain: 0.09 }));
         else if (name === "close") this.tone(700, t, 0.12, { to: 420, gain: 0.1 });
         else if (name === "chip") this.tone(1150, t, 0.05, { gain: 0.05 });
+        else if (name === "save-on") { this.tone(660, t, 0.1, { type: "triangle", gain: 0.1 }); this.tone(990, t + 0.07, 0.16, { type: "triangle", gain: 0.1 }); }
+        else if (name === "save-off") this.tone(560, t, 0.14, { to: 380, type: "triangle", gain: 0.08 });
       } catch (_) { /* audio non disponibile */ }
     },
     toggle() {
@@ -738,10 +776,11 @@
     el.className = "card" + (e.title.length > 60 ? " long" : "");
     el.style.setProperty("--c", c.color);
     const dist = kmText(km(e));
-    el.innerHTML = `${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${accessBadge(e)}<h3>${esc(e.title)}</h3>
+    el.innerHTML = `<div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${accessBadge(e)}${favButton(e, "fav")}</div><h3>${esc(e.title)}</h3>
       <p>${esc(whenText(e))}</p><p>${esc([e.venue, e.town].filter(Boolean).join(", "))}${dist ? ` · ${dist}` : ""}</p>
       <button class="more" type="button">Dettagli evento</button>`;
     el.querySelector(".more").addEventListener("click", () => select(e.uid, { fly: false, detail: true }));
+    el.querySelector("[data-fav]").addEventListener("click", (ev) => { ev.stopPropagation(); toggleFav(e.uid); });
     if (popup) popup.remove();
     popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: 22, maxWidth: "none" })
       .setLngLat(COORDS[e.uid] || [e.lon, e.lat]).setDOMContent(el).addTo(map);
@@ -1011,13 +1050,16 @@
     renderChips();
     if (!state.detail) renderList(items);
     const n = items.length;
-    $("#count-label").textContent = onlyUids ? `${n} in questo punto` : `${n} ${n === 1 ? "evento" : "eventi"}`;
+    $("#count-label").textContent = onlyUids ? `${n} in questo punto` : state.fav ? `${n} salvati`
+      : `${n} ${n === 1 ? "evento" : "eventi"}`;
+    $("#panel .kicker").textContent = state.fav ? "Preferiti" : "Eventi";
+    renderFavBtn();
     $("#list-toggle-count").textContent = n;
     $("#list-toggle").setAttribute("aria-label", `Mostra l'elenco: ${n} ${n === 1 ? "evento" : "eventi"}`);
     const sortBtn = $("#sort-btn");
     sortBtn.setAttribute("aria-pressed", String(state.sort === "distance" && !!state.me));
     sortBtn.textContent = state.sort === "distance" && state.me ? "Più vicini" : state.me ? "Per data" : "Più vicini";
-    $("#reset").hidden = !(state.cats.size || state.access.size || state.aud.size || state.q || onlyUids);
+    $("#reset").hidden = !(state.cats.size || state.access.size || state.aud.size || state.q || onlyUids || state.fav);
     if (mapReady) {
       map.getSource("ev").setData(geojson(onMap));
       const key = onMap.map((e) => e.uid).join();
@@ -1430,7 +1472,14 @@
     setPreset("all");
     document.querySelectorAll(".presets button").forEach((b) =>
       b.addEventListener("click", () => { setPreset(b.dataset.preset); onlyUids = null; update(); }));
+    $("#fav-btn").addEventListener("click", () => {
+      state.fav = !state.fav; onlyUids = null; Sound.play("chip");
+      closeAll();
+      update(true);
+      if (MOBILE()) setSheet("half");
+    });
     $("#reset").addEventListener("click", () => {
+      state.fav = false;
       state.cats.clear(); state.aud.clear(); state.access.clear(); state.q = ""; onlyUids = null;
       $("#q").value = "";
       setPreset("all"); closeDetail(); update(true);

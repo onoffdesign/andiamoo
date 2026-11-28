@@ -181,6 +181,27 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   font-size: .6875rem; font-weight: 600; letter-spacing: .03em; cursor: pointer;
 }
 .sort[aria-pressed="true"] { background: var(--me); color: #fff; }
+.sort { margin-left: 0; }
+/* preferiti: pulsante nell'intestazione dell'elenco, cuore nella card e nella scheda */
+.fav-btn {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 4px; height: 28px; padding: 0 9px; border: 0;
+  border-radius: 6px; background: var(--chip); font-size: .75rem; font-weight: 600; cursor: pointer; font-variant-numeric: tabular-nums;
+}
+.fav-btn svg { width: 15px; height: 15px; }
+.fav-btn[aria-pressed="true"] { background: #111; color: #fff; }
+[data-fav] svg path { fill: transparent; transition: fill .15s ease; }
+[data-fav] svg path.on, .fav-btn svg path.on { fill: #ff4d6d; stroke: #111; }
+.fav-btn[aria-pressed="true"] svg path.on { stroke: #fff; }
+.card-top { display: flex; align-items: flex-start; gap: 6px; flex-wrap: wrap; }
+.card-top .fav { margin-left: auto; width: 32px; height: 32px; margin-top: -6px; margin-right: -8px; border: 0; background: transparent;
+  display: grid; place-items: center; cursor: pointer; border-radius: 50%; }
+.card-top .fav:hover { background: rgba(0, 0, 0, .08); }
+.card-top .fav svg { width: 22px; height: 22px; stroke: #111; }
+.card-top .acc, .card-top .live-tag { margin-bottom: 10px; }
+.fav-round svg path.on { fill: #ff4d6d; }
+[data-fav].pop svg { animation: heart-pop .42s cubic-bezier(.34, 1.56, .64, 1); }
+@keyframes heart-pop { 0% { transform: scale(.6); } 60% { transform: scale(1.25); } 100% { transform: scale(1); } }
+.item h3 .saved { font-style: normal; color: #ff4d6d; font-size: .85em; }
 .panel-hide {
   width: 28px; height: 28px; border: 0; border-radius: 6px; background: none; cursor: pointer;
   display: grid; place-items: center; color: var(--ink-2);
