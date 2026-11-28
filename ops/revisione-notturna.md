@@ -4,18 +4,47 @@ Istruzioni per la sessione Claude pianificata ogni notte. **Dal 2026-11-28 il PC
 `pc.attivo: false` in `config/settings.yaml`): Claude fa tutto dal cloud, raccolta, verifica, correzione, ricerca
 e pubblicazione. Ha piena autonomia: corregge, pubblica e aggiunge fonti senza chiedere.
 
-**Una sola sessione a notte, alle 01:07** (ora italiana; prima erano due, unificate il 2026-11-28 su richiesta di
-Federico). Budget in `ops/budget.yaml`. Ordine del lavoro, con commit e push alla fine di ogni blocco, cosi' se la
-sessione si interrompe il lavoro fatto resta:
-1. **Raccolta**: preparazione, passo 1, le "fonti del giro" del piano della notte (le fonti di `config/sources.yaml`
-   a rotazione: per ognuna cerca la pagina con WebSearch, aprila con WebFetch, aggiungi in
-   `config/eventi_redazione.yaml` gli eventi futuri che non sono gia' sul sito, scrivi la data in `copertura.yaml`
-   sezione `giro`), le risposte del modulo (passo 2b), la verifica delle fonti indicate dal piano; pubblica e push.
-2. **Revisione**: coda, campione, posizioni, test di copertura (passi 2-3c); pubblica e push.
-3. **Ricerca**: Treviso (fasi 0 e A-E) e le province d'Italia della sezione 2b del piano ("Resto d'Italia", sotto
-   "Ricerca degli eventi"); pubblica e push dopo ogni fase.
-4. **Chiusura**: pulizia, memoria, registro, pubblica, push e messaggio finale con il resoconto (passo 8 e fine file).
-Se il budget sta finendo, salta prima la ricerca esplorativa (fase E) e lascia sempre il tempo per la chiusura.
+**Una sola sessione a notte, alle 01:07, con quattro agenti che lavorano in contemporanea** (decisione di Federico
+del 2026-11-28). La sessione pianificata fa da **coordinatore**: prepara, lancia gli agenti in parallelo (strumento
+Agent, in background), legge le risposte del modulo mentre loro lavorano, poi unisce, pubblica e manda il resoconto.
+
+Il coordinatore:
+1. Preparazione, `python -m pipeline.piano_notte`, lettura di `ops/segnalazioni-e-controllo.md` e di questo file.
+2. Lancia **insieme**, nello stesso messaggio, i quattro agenti qui sotto (tipo general-purpose, in background). A
+   ognuno passa: il suo compito, la sua quota di ricerche (il budget `ricerche_max` diviso come indicato), la parte
+   del piano della notte che gli tocca (copiata nel testo), e le "Regole per gli agenti" qui sotto.
+3. Mentre lavorano: risposte del modulo Google (passo 2b), scritte in `config/notte/coordinatore-*.yaml`.
+4. Quando un agente finisce: `python -m pipeline.notte --unisci <agente>` (controlla e unisce le sue parti; se dice
+   che non sono valide, correggile tu), poi `python -m pipeline.pubblica` e commit e push: il sito si aggiorna gia'
+   mentre gli altri lavorano. Un agente che non risponde piu' entro la fine della notte: unisci quello che ha scritto.
+5. Alla fine: memoria (dai resoconti `ops/notte/<agente>.md` riporta nei file di memoria cio' che va riportato:
+   `ops/fonti.yaml`, `ops/lezioni.md`, `ops/metodo-ricerca.md`, `ops/categorie-ricerca.md`, `ops/espansione.md`),
+   registro (passo 8), `--controlla`, test, pubblica, commit, push, messaggio finale con il resoconto.
+
+Gli agenti (quota di ricerche sul totale):
+- **giro** (25%): le "fonti del giro" del piano (per ognuna WebSearch per trovare la pagina, WebFetch, eventi futuri
+  non ancora sul sito; data in `copertura.yaml` sezione `giro`) e la verifica delle fonti da verificare (robots.txt e
+  termini). Solo lui modifica `config/fonti-vietate.yaml` e `config/sources.yaml`.
+- **revisione** (25%): coda di revisione, controllo a campione, posizioni, test di copertura (passi 2-3c). Scrive le
+  correzioni nella sua parte; solo lui modifica `config/luoghi.yaml`.
+- **treviso** (25%): ricerca su Treviso, fasi 0 e A-E (comuni e categorie del piano). Date in `copertura.yaml`
+  sezioni `comuni_TV`, `categorie_TV` e nelle sezioni di aggregatori, community e news.
+- **italia** (25%): le province d'Italia della sezione 2b del piano. Date in `copertura.yaml` sezioni `province` e
+  `comuni_<SIGLA>` delle altre province.
+
+**Regole per gli agenti** (da copiare nel loro compito):
+- tutte le regole di questo file valgono anche per loro, prima di tutto la REGOLA FONTI;
+- scrivono **solo** i loro file: `config/notte/<agente>-eventi.yaml` (chiave `eventi`, stesso formato di
+  `config/eventi_redazione.yaml`), `config/notte/<agente>-correzioni.yaml` (`correggi`, `rimuovi`, `verificati`,
+  stesso formato di `config/correzioni.yaml`), `ops/notte/<agente>.md` (resoconto: numeri, fonti nuove da catalogare
+  con nome, url, query e tipo, lezioni, problemi), piu' i file che sono solo loro (vedi sopra);
+- in `ops/copertura.yaml` toccano solo le loro sezioni, sempre con modifiche puntuali (Edit) e mai riscrivendo il
+  file intero; se una modifica fallisce perche' il file e' cambiato, lo rileggono e riprovano;
+- non modificano `config/eventi_redazione.yaml`, `config/correzioni.yaml`, i file di memoria condivisi, `docs/`;
+  non eseguono `pipeline.pubblica`, non fanno commit ne' push;
+- prima di aggiungere un evento controllano che non ci sia gia' (`python -m pipeline.editorial --cerca`), e ogni tanto
+  controllano la loro parte con `python -m pipeline.notte --controlla <agente>`;
+- rispettano la loro quota di ricerche e finiscono con un messaggio breve: eventi aggiunti, correzioni, ricerche usate.
 
 Come si pubblica senza PC: `python -m pipeline.pubblica` costruisce `docs/data/events.json` con gli eventi gia' sul
 sito + `config/eventi_redazione.yaml` + `config/correzioni.yaml`, applica la regola fonti, mette la posizione
