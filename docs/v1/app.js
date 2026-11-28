@@ -1993,13 +1993,15 @@
   // ---------------------------------------------------------------- avvio
   async function start() {
     try {
-      DATA = await (await fetch(window.ANDIAMO_DATA || "data/events.json", { cache: "no-cache" })).json();
+      // il download parte subito; la lettura (pesante) del file solo dopo l'apertura animata
+      const res = await fetch(window.ANDIAMO_DATA || "data/events.json", { cache: "no-cache" });
+      if (window.ANDIAMO_INTRO) await window.ANDIAMO_INTRO;
+      DATA = await res.json();
     } catch (err) {
       $("#count-label").textContent = "non disponibili";
       $("#list").innerHTML = `<li class="empty-state"><strong>Non riesco a caricare gli eventi.</strong>Ricarica la pagina tra qualche minuto.</li>`;
       return;
     }
-    if (window.ANDIAMO_INTRO) await window.ANDIAMO_INTRO;   // prima parte l'apertura, poi il lavoro pesante
     EVENTS = DATA.events.filter((e) => e.start && e.lat != null);
     DATA.categories.forEach((c) => (CAT[c.id] = c));
     if (DATA.site.title) { document.title = DATA.site.title; renderWordmark(DATA.site.title); }
@@ -2086,6 +2088,17 @@
     setCalendar(false);
     initMap();
   }
+
+  // Telefono: la pagina non si ingrandisce mai (iOS ignora user-scalable=no); il pizzico funziona solo sulla mappa.
+  const onMap = (t) => !!(t && t.closest && t.closest(".maplibregl-canvas-container, .maplibregl-canvas")) && state.view !== "list";
+  ["gesturestart", "gesturechange"].forEach((n) => document.addEventListener(n, (ev) => { if (!onMap(ev.target)) ev.preventDefault(); }, { passive: false }));
+  document.addEventListener("touchmove", (ev) => { if (ev.touches.length > 1 && !onMap(ev.target)) ev.preventDefault(); }, { passive: false });
+  let lastTap = 0;                                   // doppio tocco: niente ingrandimento della pagina
+  document.addEventListener("touchend", (ev) => {
+    const now = Date.now();
+    if (now - lastTap < 320 && !onMap(ev.target) && !(ev.target.closest && ev.target.closest("input, textarea, select"))) ev.preventDefault();
+    lastTap = now;
+  }, { passive: false });
 
   // accesso di sola lettura per test e debug dalla console
   window.andiamo = { map: () => map, coords: (uid) => COORDS[uid], events: () => EVENTS };

@@ -840,7 +840,7 @@ body.view-list .panel { display: flex !important; }
 .inline-card { list-style: none; padding: 4px 20px 16px; }
 .inline-card .card.full { width: auto; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18); animation: card-in .28s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 50% 0; }
 .item button[aria-expanded="true"] { background: var(--chip); }
-body.view-list .panel { touch-action: pan-y pinch-zoom !important; }
+body.view-list .panel { touch-action: pan-y !important; }
 
 /* ---- vista lista a tutta pagina: l'elenco intero scorre sotto testata, calendario, categorie e accesso */
 @media (min-width: 761px) {
@@ -980,7 +980,7 @@ body.view-list .item .when small { color: rgba(0, 0, 0, .7); font-weight: 600; }
 
 /* telefono, vista lista: scorrimento nativo, nessun gesto del vecchio pannello a scomparsa */
 @media (max-width: 760px) {
-  body.view-list .panel, body.view-list .panel .panel-body, body.view-list .panel-head { touch-action: pan-y pinch-zoom !important; }
+  body.view-list .panel, body.view-list .panel .panel-body, body.view-list .panel-head { touch-action: pan-y !important; }
   body.view-list .panel { overscroll-behavior: contain; -webkit-overflow-scrolling: touch; --sheet-y: 0px; }
   body.view-list .panel-head { cursor: default; }
 }
@@ -1234,3 +1234,25 @@ body.view-list .inline-card .card-acc { font-size: 1rem; }
 .add-btn:hover { filter: none; transform: translate(-1px, -1px); box-shadow: 3px 4px 0 rgba(29, 27, 24, .28); }
 .add-btn b { font-family: var(--text); font-weight: 700; font-size: 1.2rem; }
 @media (max-width: 760px) { .search::before { left: 12px; } }
+
+/* telefono: nessuno zoom della pagina (solo la mappa si ingrandisce); apertura leggera per la scheda grafica */
+@media (max-width: 760px) {
+  html, body { touch-action: pan-x pan-y; }
+  .intro.tear .intro-half { filter: none; }
+  .intro-sheet { background-image: var(--paper); }
+}
+
+/* pulsanti su carta: niente rettangolo pieno, si vede la grana del riquadro; bordo leggero a matita */
+.chip, .cal-btn, .presets button, .cal-nav, .seg-btn, .near-actions button, .view-seg, .sort:not([aria-pressed="true"]), .chips-nav, .strip-nav {
+  background: transparent !important; border: 1.5px solid rgba(29, 27, 24, .28) !important;
+}
+.view-seg { padding: 2px; }
+.view-seg button { border: 0 !important; }
+.view-seg button[aria-pressed="true"] { background: rgba(29, 27, 24, .1) !important; box-shadow: none; }
+.chip:hover, .cal-btn:hover, .presets button:hover, .cal-nav:hover, .seg-btn:hover, .near-actions button:hover { border-color: rgba(29, 27, 24, .7) !important; }
+.chip[aria-pressed="true"] { background: var(--c) !important; border-color: #1d1b18 !important; }
+.presets button[aria-pressed="true"], .seg-btn[aria-pressed="true"], .days[data-open="true"] .cal-btn {
+  background: #1d1b18 !important; border-color: #1d1b18 !important;
+}
+.chips { mask-image: none; -webkit-mask-image: none; }
+.chip.more-filters { background: #1d1b18 !important; border-color: #1d1b18 !important; color: #fff; }

@@ -61,7 +61,6 @@
     if (done) return;
     if (window.__introLog) window.__introLog.push(["finish", how, Math.round(performance.now())]);
     done = true;
-    started();
     const halves = root.querySelectorAll(".intro-half");
     if (REDUCED || how === "fade") {
       root.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 350, fill: "forwards" }).finished.then(cleanup, cleanup);
@@ -79,7 +78,12 @@
     root.style.pointerEvents = "none";
     a.finished.then(cleanup, cleanup);
   }
-  function cleanup() { root.remove(); document.documentElement.classList.remove("intro-on"); }
+  function cleanup() {
+    if (cleanup.done) return; cleanup.done = true;
+    root.remove(); document.documentElement.classList.remove("intro-on");
+    // solo ora il sito costruisce mappa ed elenco (dopo che lo schermo ha mostrato il foglio sparito)
+    requestAnimationFrame(() => setTimeout(started, 30));
+  }
 
   function run() {
     build();
@@ -103,8 +107,8 @@
     const k = seen ? 0.8 : 1;
     letterIn("core", 0, 55);
     letterIn("q", 430, 0);
-    ws("q").forEach((el) => play(el.firstChild, [{ transform: "rotate(0)" }, { transform: "rotate(14deg)" }, { transform: "rotate(-8deg)" }, { transform: "rotate(0)" }],
-      { duration: 900, delay: 900, easing: "ease-in-out", fill: "none", composite: "add" }));
+    if (CSS.supports && CSS.supports("rotate", "1deg")) ws("q").forEach((el) => play(el.firstChild, [{ rotate: "0deg" }, { rotate: "14deg" }, { rotate: "-8deg" }, { rotate: "0deg" }],
+      { duration: 900, delay: 900, easing: "ease-in-out", fill: "none" }));
     let tear = 1300;
     if (!REDUCED) {
       move("core", S1.core, S2.core, 1050 * k); move("q", S1.q, S2.q, 1050 * k);
@@ -112,7 +116,6 @@
       tear = 1130 * k + idea.length * 38 + 1350;
     } else { letterIn("b", 0, 0); place("core", S2.core); place("q", S2.q); }
     // il sito parte con il suo lavoro pesante solo ora: le animazioni sono gia' consegnate alla scheda grafica
-    requestAnimationFrame(() => requestAnimationFrame(started));
     // lo strappo e' agganciato al tempo dell'animazione (non a un timer che il caricamento potrebbe ritardare)
     const clock = root.animate([{ opacity: 1 }, { opacity: 1 }], { duration: tear });
     clock.finished.then(() => finish(), () => {});
@@ -120,7 +123,8 @@
 
   const fontReady = document.fonts && document.fonts.load ? document.fonts.load('400 64px "Andiamo Intro"') : Promise.resolve();
   const wait = (pr, ms, fallback) => Promise.race([pr, new Promise((r) => setTimeout(() => r(fallback), ms))]);
-  Promise.all([wait(fontReady, 1200), wait(ideas, 900, FALLBACK)]).then(([, list]) => { pickIdea(list); requestAnimationFrame(run); });
+  Promise.all([wait(fontReady, 700), wait(ideas, 500, FALLBACK)]).then(([, list]) => { pickIdea(list); requestAnimationFrame(run); });
   ["pointerdown", "keydown", "wheel"].forEach((ev) => window.addEventListener(ev, () => finish(), { once: true, passive: true }));
-  setTimeout(() => finish("fade"), 9000);                         // in ogni caso, mai bloccati qui
+  setTimeout(() => finish("fade"), 9000);
+  setTimeout(() => started(), 7000);                         // in ogni caso, mai bloccati qui
 })();
