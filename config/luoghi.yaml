@@ -163,3 +163,249 @@ luoghi:
     nota: "Rovine del Castello di Collalto, coordinate di Mapcarta (GeoNames/OSM) lette il 2026-11-25. Il borgo e la
       chiesa di San Giorgio sono accanto al castello: e' il punto certo piu' vicino per gli eventi del borgo (5 eventi
       con solo il comune in ops/posizioni.json)."
+  # --- aggiunti dalla revisione del 2026-11-28 (coordinate di OpenStreetMap lette con Nominatim, oggetto OSM in nota) ---
+  - nomi: ["Ca' dei Carraresi", "Casa dei Carraresi", "Via Palestro 33"]
+    comune: Treviso
+    lat: 45.66648
+    lon: 12.24759
+    nota: "Ca' dei Carraresi, Via Palestro 33. OpenStreetMap node 1237704175. Aggiunto il 2026-11-28 (16 eventi con solo il comune: StatisticAll, Giovedi' della Cultura)."
+  - nomi: ["Palazzo dei Trecento"]
+    comune: Treviso
+    lat: 45.66589
+    lon: 12.24609
+    nota: "Palazzo dei Trecento, Piazza Indipendenza. OpenStreetMap way 45874045. Aggiunto il 2026-11-28."
+  - nomi: ["Loggia dei Cavalieri"]
+    comune: Treviso
+    lat: 45.66543
+    lon: 12.24697
+    nota: "Loggia dei Cavalieri, Piazza Carducci. OpenStreetMap way 138816072. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza dei Signori"]
+    comune: Treviso
+    lat: 45.66586
+    lon: 12.24558
+    nota: "Piazza dei Signori. OpenStreetMap relation 13667769. Aggiunto il 2026-11-28 (Natale a Treviso)."
+  - nomi: ["Piazza Indipendenza"]
+    comune: Treviso
+    lat: 45.66569
+    lon: 12.24631
+    nota: "Piazza Indipendenza (anche per gli eventi in Piazza Indipendenza e Piazza Aldo Moro, adiacenti). OpenStreetMap way 317069348. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Rinaldi"]
+    comune: Treviso
+    lat: 45.66781
+    lon: 12.24641
+    nota: "Piazza Rinaldi. OpenStreetMap way 90534478. Aggiunto il 2026-11-28 (Villaggio di Natale)."
+  - nomi: ["Piazza Borsa"]
+    comune: Treviso
+    lat: 45.66432
+    lon: 12.24555
+    nota: "Piazza Borsa su Corso del Popolo: punto della fermata 'Piazza Borsa' di OpenStreetMap (node 2349968319), il posto certo piu' vicino. Aggiunto il 2026-11-28 (Treviso on Ice)."
+  - nomi: ["Stadio Omobono Tenni", "Stadio Tenni"]
+    comune: Treviso
+    lat: 45.66991
+    lon: 12.25619
+    nota: "Stadio Omobono Tenni, Via Ugo Foscolo 3. OpenStreetMap way 106944727. Aggiunto il 2026-11-28 (8 eventi del Treviso calcio)."
+  - nomi: ["Teatro delle Voci", "Via Tre Venezie 17"]
+    comune: Treviso
+    lat: 45.67886
+    lon: 12.21826
+    nota: "Teatro delle Voci, Via Tre Venezie 17: teatro di OpenStreetMap a quell'indirizzo (node 4531877242). Aggiunto il 2026-11-28 (7 eventi)."
+  - nomi: ["Teatro Eden"]
+    comune: Treviso
+    lat: 45.66534
+    lon: 12.22704
+    nota: "Teatro Eden. OpenStreetMap way 138834385. Aggiunto il 2026-11-28 (5 eventi)."
+  - nomi: ["San Teonisto"]
+    comune: Treviso
+    lat: 45.66344
+    lon: 12.23868
+    nota: "Chiesa di San Teonisto, Via San Nicolo'. OpenStreetMap node 11665240844 (events venue). Aggiunto il 2026-11-28."
+  - nomi: ["Opendream"]
+    comune: Treviso
+    lat: 45.65220
+    lon: 12.18770
+    nota: "Opendream (ex Pagnossin), Via Noalese 94. OpenStreetMap way 924470095. Aggiunto il 2026-11-28."
+  - nomi: ["Teatro del Pane", "Via Fontane 91"]
+    comune: Villorba
+    lat: 45.69611
+    lon: 12.25231
+    nota: "Teatro del Pane, Via Fontane 91. OpenStreetMap node 11183515516. Aggiunto il 2026-11-28 (9 eventi)."
+  - nomi: ["Auditorium Mario Del Monaco"]
+    comune: Villorba
+    lat: 45.73665
+    lon: 12.26662
+    nota: "Auditorium Mario del Monaco di Catena, Via Marconi. OpenStreetMap node 2345941708. Aggiunto il 2026-11-28."
+  - nomi: ["Via della Liberta 2"]
+    comune: Villorba
+    lat: 45.71217
+    lon: 12.26094
+    nota: "Biblioteca comunale di Villorba, Via della Liberta' 2 a Carita'. OpenStreetMap node 6216035733. Aggiunto il 2026-11-28."
+  - nomi: ["Corso Mazzini"]
+    comune: Montebelluna
+    lat: 45.77620
+    lon: 12.04585
+    nota: "Corso Mazzini, tratto pedonale del centro. OpenStreetMap way 242097347. Aggiunto il 2026-11-28 (11 eventi dei mercatini)."
+  - nomi: ["davanti al Municipio", "Municipio di Montebelluna"]
+    comune: Montebelluna
+    lat: 45.77629
+    lon: 12.04529
+    nota: "Municipio di Montebelluna. OpenStreetMap way 134243661 (townhall). Aggiunto il 2026-11-28 (Villaggio di Natale davanti al municipio)."
+  - nomi: ["Piazza Negrelli"]
+    comune: Montebelluna
+    lat: 45.77472
+    lon: 12.04645
+    nota: "Piazza Negrelli. OpenStreetMap way 446869077. Aggiunto il 2026-11-28."
+  - nomi: ["Biblioteca comunale di Montebelluna", "Auditorium della Biblioteca", "Largo Dieci Martiri"]
+    comune: Montebelluna
+    lat: 45.77367
+    lon: 12.04614
+    nota: "Biblioteca comunale, Largo Dieci Martiri 1. OpenStreetMap node 612055140. Aggiunto il 2026-11-28."
+  - nomi: ["Palamazzalovo"]
+    comune: Montebelluna
+    lat: 45.76918
+    lon: 12.04667
+    nota: "Palamazzalovo, Via Malipiero. OpenStreetMap way 152881162. Aggiunto il 2026-11-28."
+  - nomi: ["Gypsotheca", "Gipsoteca", "Museo Canova", "Via Canova 74"]
+    comune: Possagno
+    lat: 45.85429
+    lon: 11.88132
+    nota: "Museo Gypsotheca Antonio Canova, Via Canova 74. OpenStreetMap way 158961097. Aggiunto il 2026-11-28 (9 eventi)."
+  - nomi: ["Teatro Cristallo"]
+    comune: Oderzo
+    lat: 45.78068
+    lon: 12.49161
+    nota: "Cinema Teatro Cristallo, Via Garibaldi 44. OpenStreetMap way 178788571. Aggiunto il 2026-11-28 (7 eventi)."
+  - nomi: ["Biblioteca Civica di Oderzo", "Via Garibaldi 80"]
+    comune: Oderzo
+    lat: 45.77910
+    lon: 12.49104
+    nota: "Biblioteca civica di Oderzo, Via Garibaldi 80. OpenStreetMap node 12959058428. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza del Popolo"]
+    comune: Vittorio Veneto
+    lat: 45.98978
+    lon: 12.29560
+    nota: "Piazza del Popolo a Ceneda-centro (municipio). OpenStreetMap way 157467118. Aggiunto il 2026-11-28 (6 eventi del Magico Natale)."
+  - nomi: ["Loggia dei Grani, Piazza Minucci", "Piazza Minucci", "Piazza Minuccio Minucci"]
+    comune: Vittorio Veneto
+    lat: 45.99815
+    lon: 12.28944
+    nota: "Loggia dei Grani in Piazza Minucci a Serravalle. OpenStreetMap way 146601051. Aggiunto il 2026-11-28."
+  - nomi: ["Teatro La Loggia", "Piazza Roma 8"]
+    comune: Cison di Valmarino
+    lat: 45.97001
+    lon: 12.14339
+    nota: "Teatro La Loggia, Piazza Roma. OpenStreetMap way 178672292. Aggiunto il 2026-11-28."
+  - nomi: ["Centro storico di Cison", "Piazza Roma"]
+    comune: Cison di Valmarino
+    lat: 45.97020
+    lon: 12.14317
+    nota: "Piazza Roma, centro storico di Cison. OpenStreetMap way 229270129. Aggiunto il 2026-11-28 (mercatino Stelle a Natale e altri 5 eventi)."
+  - nomi: ["Teatro Careni"]
+    comune: Pieve di Soligo
+    lat: 45.90083
+    lon: 12.17697
+    nota: "Cinema Teatro Careni. OpenStreetMap way 688115150. Aggiunto il 2026-11-28."
+  - nomi: ["Canonica di Soligo"]
+    comune: Farra di Soligo
+    lat: 45.91492
+    lon: 12.15557
+    nota: "Chiesa parrocchiale dei Santi Pietro e Paolo di Soligo (OpenStreetMap way 228400866): la canonica e' accanto, e' il posto certo piu' vicino. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Cima"]
+    comune: Conegliano
+    lat: 45.88698
+    lon: 12.29726
+    nota: "Piazza Giovanni Battista Cima. OpenStreetMap node 9788955517 (stesso punto del Teatro Accademia). Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Gabbin"]
+    comune: Preganziol
+    lat: 45.60220
+    lon: 12.23551
+    nota: "Piazza Gabbin, municipio di Preganziol. OpenStreetMap node 339398977. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Roma"]
+    comune: Quinto di Treviso
+    lat: 45.64533
+    lon: 12.16577
+    nota: "Piazza Roma, sede comunale. OpenStreetMap way 506202990. Aggiunto il 2026-11-28 (mercatini e Cinenatale)."
+  - nomi: ["Museo Civico di Asolo", "Via Regina Cornaro 74"]
+    comune: Asolo
+    lat: 45.80199
+    lon: 11.91331
+    nota: "Museo Civico di Asolo. OpenStreetMap node 1546251996. Aggiunto il 2026-11-28."
+  - nomi: ["Memoriale Brion", "Tomba Brion"]
+    comune: Altivole
+    lat: 45.75136
+    lon: 11.91341
+    nota: "Memoriale (Tomba) Brion, Via Brioni a San Vito. OpenStreetMap node 2962562096. Aggiunto il 2026-11-28."
+  - nomi: ["Biblioteca comunale di Crespano"]
+    comune: Pieve del Grappa
+    lat: 45.82918
+    lon: 11.84073
+    nota: "Biblioteca comunale di Crespano, Piazza San Marco. OpenStreetMap node 1420931321. Aggiunto il 2026-11-28."
+  - nomi: ["Auditorium Comunale Comisso", "Auditorium Giovanni Comisso", "Auditorium Comisso"]
+    comune: Zero Branco
+    lat: 45.60798
+    lon: 12.18170
+    nota: "Auditorium Giovanni Comisso, Via Guidini 52 (accanto alla biblioteca). OpenStreetMap node 4765230822. Aggiunto il 2026-11-28."
+  - nomi: ["Villa di Maser", "Villa Barbaro", "Via Barbaro 1"]
+    comune: Maser
+    lat: 45.81224
+    lon: 11.97652
+    nota: "Villa di Maser (Villa Barbaro), Via Barbaro 1. OpenStreetMap way 145740467. Aggiunto il 2026-11-28 (era sul centro del comune, 500 m a sud)."
+  - nomi: ["Chiesa di Col San Martino"]
+    comune: Farra di Soligo
+    lat: 45.89420
+    lon: 12.08763
+    nota: "Chiesa di Col San Martino, Via Brigata Mazzini. OpenStreetMap way 228400867. Aggiunto il 2026-11-28: l'accensione delle luci dell'8/12 era a 3 km, sul centro del comune."
+  - nomi: ["chiesa di San Nicolo", "Seminario Vescovile"]
+    comune: Treviso
+    lat: 45.66325
+    lon: 12.23974
+    nota: "Chiesa di San Nicolo' (accanto al Seminario Vescovile, partenza degli itinerari Tomaso 700). OpenStreetMap way 242711511. Aggiunto il 2026-11-28."
+  - nomi: ["Biblioteca dei Ragazzi", "BRaT"]
+    comune: Treviso
+    lat: 45.66833
+    lon: 12.24628
+    nota: "BRaT Biblioteca dei Ragazzi, Piazza Rinaldi. OpenStreetMap node 6774481946. Aggiunto il 2026-11-28."
+  - nomi: ["Villa Giovannina"]
+    comune: Villorba
+    lat: 45.71211
+    lon: 12.26007
+    nota: "Villa Giovannina a Carita' (parco e sede del Progetto Giovani, Via della Liberta' 4). OpenStreetMap node 2347868257. Aggiunto il 2026-11-28."
+  - nomi: ["Oratorio NOI di Catena", "Oratorio di Catena"]
+    comune: Villorba
+    lat: 45.73661
+    lon: 12.26530
+    nota: "Parrocchia e oratorio di Catena, Via Postioma. OpenStreetMap way 154186877. Aggiunto il 2026-11-28."
+  - nomi: ["Oratorio di Lancenigo"]
+    comune: Villorba
+    lat: 45.71004
+    lon: 12.27365
+    nota: "Chiesa di Lancenigo (OpenStreetMap way 154946893): l'oratorio parrocchiale non e' in OpenStreetMap, la chiesa e' il posto certo piu' vicino. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza Cavalieri del Tempio"]
+    comune: Follina
+    lat: 45.95446
+    lon: 12.11943
+    nota: "Piazza Cavalieri del Tempio (ritrovo delle escursioni della Pro Loco). OpenStreetMap way 307035256. Aggiunto il 2026-11-28."
+  - nomi: ["Piazza La Piave"]
+    comune: Nervesa della Battaglia
+    lat: 45.82525
+    lon: 12.20902
+    nota: "Municipio di Nervesa (indirizzo ufficiale Piazza La Piave 1, la piazza di Effetto Natale). OpenStreetMap node 1456068747 (townhall). Aggiunto il 2026-11-28."
+  - nomi: ["Sala riunioni del Municipio", "Municipio di Farra"]
+    comune: Farra di Soligo
+    lat: 45.90561
+    lon: 12.12639
+    nota: "Municipio di Farra di Soligo, Via dei Patrioti. OpenStreetMap node 1435517153 (townhall). Aggiunto il 2026-11-28."
+  - nomi: ["Sale espositive del Municipio", "Via Alcide De Gasperi 55"]
+    comune: San Vendemiano
+    lat: 45.89137
+    lon: 12.33900
+    nota: "Municipio di San Vendemiano (sale espositive). OpenStreetMap way 97385493 (townhall), a 120 m da Via De Gasperi. Aggiunto il 2026-11-28 (4 eventi della mostra)."
+  - nomi: ["Biblioteca dei Liberi Pensatori", "Via Don Minzoni 14"]
+    comune: Silea
+    lat: 45.65425
+    lon: 12.29909
+    nota: "Biblioteca comunale di Silea (dei Liberi Pensatori, Via Don Minzoni 14 secondo la scheda del Comune): edificio della biblioteca in OpenStreetMap, way 178819481. Aggiunto il 2026-11-28."
+  - nomi: ["Biblioteca Comunale di Povegliano", "Biblioteca comunale"]
+    comune: Povegliano
+    lat: 45.75873
+    lon: 12.20777
+    nota: "Biblioteca di Povegliano, Borgo San Daniele: unica biblioteca del comune in OpenStreetMap (node 13204399983). Aggiunto il 2026-11-28."

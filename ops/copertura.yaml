@@ -316,4 +316,60 @@ giro:
   teatro-da-ponte: '2026-11-28'
 
 # Province d'Italia cercate (area tutta Italia dal 2026-11-28): SIGLA -> data dell'ultima ricerca.
-province: {}
+province:
+  PD: '2026-11-28'
+  VR: '2026-11-28'
+  VI: '2026-11-28'
+  VE: '2026-11-28'
+  RO: '2026-11-28'
+  BL: '2026-11-28'
+  UD: '2026-11-28'
+  PN: '2026-11-28'
+  TS: '2026-11-28'
+  GO: '2026-11-28'
+
+# Comuni delle province della fase 2b controllati (pagina ufficiale letta o ricerca mirata).
+comuni_PD:
+  Padova: '2026-11-28'
+  Conselve: '2026-11-28'
+comuni_VR:
+  Verona: '2026-11-28'
+  Bovolone: '2026-11-28'
+  Bosco Chiesanuova: '2026-11-28'
+  Velo Veronese: '2026-11-28'
+comuni_VI:
+  Vicenza: '2026-11-28'
+  Montecchio Maggiore: '2026-11-28'
+  Mussolente: '2026-11-28'
+  Altavilla Vicentina: '2026-11-28'
+comuni_VE:
+  Venezia: '2026-11-28'
+  Fossalta di Piave: '2026-11-28'
+  Eraclea: '2026-11-28'
+  Concordia Sagittaria: '2026-11-28'
+comuni_RO:
+  Rovigo: '2026-11-28'
+  Adria: '2026-11-28'
+comuni_BL:
+  Belluno: '2026-11-28'
+  Ponte nelle Alpi: '2026-11-28'
+  Alano di Piave: '2026-11-28'
+comuni_UD:
+  Udine: '2026-11-28'
+  Tarcento: '2026-11-28'
+  Bertiolo: '2026-11-28'
+  Palmanova: '2026-11-28'
+comuni_PN:
+  Pordenone: '2026-11-28'
+  Casarsa della Delizia: '2026-11-28'
+  Polcenigo: '2026-11-28'
+comuni_TS:
+  Trieste: '2026-11-28'
+  Sgonico: '2026-11-28'
+  Monrupino: '2026-11-28'
+  San Dorligo della Valle: '2026-11-28'
+comuni_GO:
+  Gorizia: '2026-11-28'
+  Monfalcone: '2026-11-28'
+  San Canzian d'Isonzo: '2026-11-28'
+  Villesse: '2026-11-28'
