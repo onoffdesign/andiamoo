@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=29" rel="stylesheet">
+<link href="style.css?v=41" rel="stylesheet">
 </head>
 <body>
 <div class="stage">
@@ -38,12 +38,26 @@
   </div>
 
   <!-- giorni: periodi | giorni singoli scorrevoli -->
-  <nav class="float days" aria-label="Scegli i giorni">
+  <nav class="float days" aria-label="Scegli i giorni" data-open="false">
+    <div class="days-bar">
+      <button type="button" class="cal-btn" id="cal-btn" aria-expanded="false" aria-controls="days-panel">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+        <span id="cal-label">Prossimi 7 giorni</span>
+        <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="view-seg" role="group" aria-label="Vista">
+        <button type="button" data-view="map" aria-pressed="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6zM9 4v14M15 6v14"/></svg><span>Mappa</span></button>
+        <button type="button" data-view="list" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6"/><circle cx="4" cy="12" r=".6"/><circle cx="4" cy="18" r=".6"/></svg><span>Lista</span></button>
+      </div>
+    </div>
+    <div class="days-panel" id="days-panel">
     <div class="presets" role="group" aria-label="Periodo">
-      <button type="button" data-preset="all" aria-pressed="true">Tutti</button>
       <button type="button" data-preset="today">Oggi</button>
       <button type="button" data-preset="weekend">Weekend</button>
-      <button type="button" data-preset="week">Settimana</button>
+      <button type="button" data-preset="week" aria-pressed="true">7 giorni</button>
+      <button type="button" data-preset="all">Tutte</button>
     </div>
     <span class="days-sep" aria-hidden="true"></span>
     <div class="strip-wrap">
@@ -53,7 +67,14 @@
       <button class="strip-nav desktop-only" id="strip-next" type="button" aria-label="Giorni successivi">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
     </div>
+    <p class="range-hint" id="range-hint">Tocca il primo e l'ultimo giorno</p>
+    </div>
   </nav>
+
+  <!-- vista lista: card complete -->
+  <section class="cards-view" id="cards" aria-label="Elenco completo degli eventi">
+    <div class="cards-list" id="cards-list"></div>
+  </section>
 
   <!-- elenco e scheda: su telefono e' un pannello che si trascina dal basso -->
   <aside class="float panel" id="panel" data-sheet="peek">
@@ -217,6 +238,6 @@
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=36"></script>
+<script src="app.js?v=41"></script>
 </body>
 </html>

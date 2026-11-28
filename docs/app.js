@@ -16,6 +16,7 @@
   const state = {
     from: null, to: null, preset: "all", cats: new Set(), access: new Set(), aud: new Set(), q: "",
     selected: null, detail: false, sort: "date", me: null, fav: false,
+    view: "map", pick: null,                 // vista mappa/lista; primo giorno scelto nel calendario (in attesa del secondo)
     sidebarHidden: false, hiddenBeforeDetail: false,
   };
   let API = "", apiOk = false, aiOk = false;
@@ -193,6 +194,44 @@
     } else { state.from = iso(t); state.to = null; }
   }
 
+  // ---------------------------------------------------------------- calendario (icona che si apre)
+  const shortD = (key) => { const d = parseDay(key); return `${DOW[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()].slice(0, 3)}`; };
+  function rangeLabel() {
+    if (state.preset === "all") return "Tutte le date";
+    if (state.preset === "today") return "Oggi";
+    if (state.preset === "weekend") return "Weekend";
+    if (state.preset === "week") return "Prossimi 7 giorni";
+    if (state.from && state.to && state.from === state.to) return shortD(state.from);
+    if (state.from && state.to) return `Dal ${shortD(state.from)} al ${shortD(state.to)}`;
+    return "Tutte le date";
+  }
+  function setCalendar(open) {
+    $(".days").dataset.open = String(open);
+    $("#cal-btn").setAttribute("aria-expanded", String(open));
+    if (!open) state.pick = null;
+    renderRangeHint();
+    if (open) requestAnimationFrame(() => {        // il primo giorno scelto in vista
+      const on = $("#strip .day[aria-pressed=\"true\"]");
+      if (on) on.scrollIntoView({ block: "nearest", inline: "center" });
+      updateStripNav();
+    });
+  }
+  function renderRangeHint() {
+    $("#cal-label").textContent = rangeLabel();
+    const h = $("#range-hint");
+    if (h) h.textContent = state.pick ? `Dal ${shortD(state.pick)}: tocca l'ultimo giorno` : "Tocca il primo e l'ultimo giorno";
+  }
+  function pickDay(key) {
+    if (!state.pick) {                              // primo tocco: inizio (e per ora anche fine)
+      state.pick = key; state.preset = "range"; state.from = state.to = key;
+    } else {                                        // secondo tocco: fine dell'intervallo
+      const a = state.pick;
+      state.from = key < a ? key : a; state.to = key < a ? a : key; state.preset = "range"; state.pick = null;
+      setTimeout(() => setCalendar(false), 450);
+    }
+    onlyUids = null; update();
+  }
+
   // ---------------------------------------------------------------- striscia giorni
   function renderStrip() {
     const strip = $("#strip");
@@ -218,18 +257,17 @@
       b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty");
       const on = state.preset !== "all" && state.from && key >= state.from && (!state.to || key <= state.to);
       b.setAttribute("aria-pressed", String(!!on));
+      if (on && key === state.from) b.classList.add("r-start");
+      if (on && key === state.to) b.classList.add("r-end");
       b.setAttribute("aria-label", `${dayLabel(d)}: ${n} eventi`);
       b.innerHTML = `<span class="bar-wrap"><span class="bar" style="height:${Math.round((n / max) * 28) + 2}px"></span></span>
         <span class="dow">${i === 0 ? "oggi" : DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span>`;
-      b.addEventListener("click", () => {
-        if (state.preset === "day" && state.from === key) setPreset("all");
-        else { state.preset = "day"; state.from = state.to = key; }
-        onlyUids = null; update();
-      });
+      b.addEventListener("click", () => { Sound.play("chip"); pickDay(key); });
       days.appendChild(b);
     });
     strip.scrollLeft = keep;
     document.querySelectorAll(".presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.preset === state.preset)));
+    renderRangeHint();
     updateStripNav();
   }
 
@@ -331,11 +369,54 @@
           <span><h3>${FAV.has(e.uid) ? '<i class="saved" aria-label="Salvato">♥</i> ' : ""}${esc(e.title)}</h3><span class="meta">${esc([e.venue, e.town].filter(Boolean).join(", "))}</span></span>
           <span class="when${LIVE.has(e.uid) ? " live" : ""}">${esc(when)}${dist ? `<small>${dist}</small>` : ""}</span></button>`;
       const btn = li.querySelector("button");
-      btn.addEventListener("click", () => { Sound.play("select"); select(e.uid, { fly: true, detail: true }); });
+      btn.addEventListener("click", () => { Sound.play("select"); select(e.uid, { fly: true }); });
       btn.addEventListener("mouseenter", () => hover(e.uid));
       btn.addEventListener("mouseleave", () => hover(null));
       list.appendChild(li);
     });
+  }
+
+  // ---------------------------------------------------------------- vista lista: card complete per giorno
+  let cardsShown = 0;
+  function renderCards(items, more = false) {
+    const box = $("#cards-list");
+    if (!more) { box.innerHTML = ""; cardsShown = 0; $("#cards").scrollTop = 0; }
+    $("#cards-more")?.remove();
+    if (!items.length) {
+      box.innerHTML = `<p class="empty-state"><strong>${state.fav ? "Nessun evento nei preferiti." : "Nessun evento con questi filtri."}</strong>${
+        state.fav ? "Tocca il cuore su un evento per salvarlo qui." : "Prova altre date o togli qualche categoria."}</p>`;
+      return;
+    }
+    const from = state.from || iso(today());
+    const byDistance = state.sort === "distance" && state.me;
+    let last = box.dataset.last || "";
+    const end = Math.min(items.length, cardsShown + 60);
+    for (let i = cardsShown; i < end; i++) {
+      const e = items[i];
+      if (!byDistance) {
+        const day = e.start.slice(0, 10) < from ? from : e.start.slice(0, 10);
+        if (day !== last) { last = day; const h = document.createElement("h2"); h.className = "cards-day"; h.textContent = dayLabel(parseDay(day)); box.appendChild(h); }
+      }
+      box.appendChild(buildCard(e, { onPlace: (x) => { setView("map", { keep: true }); select(x.uid, { fly: true }); } }));
+    }
+    box.dataset.last = last;
+    cardsShown = end;
+    if (end < items.length) {
+      const b = document.createElement("button");
+      b.id = "cards-more"; b.type = "button"; b.className = "pill-btn cards-more";
+      b.textContent = `Mostra altri ${Math.min(60, items.length - end)} di ${items.length - end}`;
+      b.addEventListener("click", () => renderCards(items, true));
+      box.after(b);
+    }
+  }
+  let lastItems = [];
+  function setView(v, opts = {}) {
+    state.view = v;
+    document.body.classList.toggle("view-list", v === "list");
+    document.querySelectorAll(".view-seg button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === v)));
+    try { localStorage.setItem("andiamo-vista", v); } catch (_) { /* privato */ }
+    if (v === "list") { closeCard(); state.selected = null; $("#cards-list").dataset.last = ""; renderCards(lastItems); }
+    else if (mapReady) setTimeout(() => map.resize(), 30);
   }
 
   // ---------------------------------------------------------------- scheda
@@ -609,6 +690,10 @@
       left: state.sidebarHidden ? 100 : 470, right: 90 };
   }
 
+  // Margini trasformati in spostamento del centro. Non si passa mai "padding" a easeTo/flyTo: MapLibre lo terrebbe
+  // anche per i movimenti successivi, e zoom e confini si sfaserebbero.
+  function padOffset(p) { return [Math.round((p.left - p.right) / 2), Math.round((p.top - p.bottom) / 2)]; }
+
   // Zona della mappa davvero visibile (fuori da testata, giorni, filtri, elenco).
   function visibleArea() {
     const r = $("#map").getBoundingClientRect();
@@ -648,7 +733,7 @@
       center: [s.center[1], s.center[0]],
       zoom: s.zoom - (MOBILE() ? 1 : 0),
       attributionControl: { compact: true },
-      dragRotate: false, pitchWithRotate: false, touchPitch: false,
+      dragRotate: false, pitchWithRotate: false, touchPitch: false, renderWorldCopies: false,
     });
     map.touchZoomRotate.disableRotation();
     // Allontanandosi si arriva al massimo a tutta l'Italia: zoom minimo = quello che fa stare l'Italia nella parte
@@ -665,7 +750,9 @@
       const z = Math.max(0, cam.zoom), el = map.getContainer();
       const scale = 512 * Math.pow(2, z) / 1.02;                   // 2% di margine sui conti
       const lonSpan = (el.clientWidth * 360) / scale, ySpan = (el.clientHeight * 2 * Math.PI) / scale;
-      const lonC = 12.6, yC = (merc(35.4) + merc(47.1)) / 2;
+      // centro della finestra quando l'Italia sta tutta nella parte visibile (a destra dell'elenco, sotto i filtri)
+      const c = cam.center ? maplibregl.LngLat.convert(cam.center) : null;
+      const lonC = c ? c.lng : 12.6, yC = c ? merc(c.lat) : (merc(35.4) + merc(47.1)) / 2;
       map.setMaxBounds(null);
       map.setMinZoom(z);
       map.setMaxBounds([[Math.min(5, lonC - lonSpan / 2), Math.max(-80, Math.min(34.3, unmerc(yC - ySpan / 2)))],
@@ -673,14 +760,20 @@
     };
     map.once("load", fitLimits);
     map.on("resize", fitLimits);
-    $("#zoom-in").addEventListener("click", () => map.zoomIn());
+    // + e -: si avvicina e si allontana attorno al centro della parte di mappa davvero visibile (non sotto i pannelli)
+    const zoomBy = (d) => {
+      const v = visibleArea(), r = $("#map").getBoundingClientRect();
+      const around = map.unproject([(v.left + v.right) / 2 - r.left, (v.top + v.bottom) / 2 - r.top]);
+      map.easeTo({ zoom: Math.max(map.getMinZoom(), Math.min(map.getMaxZoom(), map.getZoom() + d)), around, duration: 300 });
+    };
+    $("#zoom-in").addEventListener("click", () => zoomBy(1));
     renderSoundBtn();
     $("#sound").addEventListener("click", () => Sound.toggle());
     setInterval(() => {                      // ogni minuto: gli eventi iniziano e finiscono
       const now = romeNow(), next = new Set(EVENTS.filter((e) => matches(e) && isLive(e, now)).map((e) => e.uid));
       if (next.size !== LIVE.size || [...next].some((u) => !LIVE.has(u))) update();
     }, 60000);
-    $("#zoom-out").addEventListener("click", () => map.zoomOut());
+    $("#zoom-out").addEventListener("click", () => zoomBy(-1));
     map.once("style.load", () => {        // subito, senza aspettare tutte le tessere
       warmStyle();
       DATA.categories.forEach((c) => {
@@ -720,7 +813,7 @@
         const f = ev.features[0];
         Sound.play("expand");
         map.getSource("ev").getClusterExpansionZoom(f.properties.cluster_id).then((z) =>
-          map.easeTo({ center: f.geometry.coordinates, zoom: z + 0.3, padding: mapPadding() }));
+          map.easeTo({ center: f.geometry.coordinates, zoom: z + 0.3, offset: padOffset(mapPadding()) }));
       });
       map.on("click", "points", (ev) => {
         // segnaposti vicini: si apre quello piu' vicino al clic; l'elenco "in questo punto" solo se sono
@@ -761,7 +854,7 @@
       }
       mapReady = true;
       update(true);
-      if (state.selected) select(state.selected, { fly: true, detail: true, fromHistory: true });
+      if (state.selected) select(state.selected, { fly: true, fromHistory: true });
     });
   }
 
@@ -798,25 +891,86 @@
     if (uid) animatePin("points-hover", uid, 1, 1.3, 260);
   }
 
-  // ---------------------------------------------------------------- card sulla mappa
-  function showCard(e, opts = {}) {
-    const c = CAT[e.category] || { color: "#ddd" };
-    const el = document.createElement("div");
-    el.className = "card" + (e.title.length > 60 ? " long" : "");
+  // ---------------------------------------------------------------- card completa: popup sulla mappa e vista lista
+  // Tutte le informazioni dell'evento, con data e orario in evidenza; "Scopri di piu'" porta alla fonte ufficiale.
+  function buildCard(e, opts = {}) {
+    const c = CAT[e.category] || { label: "Evento", color: "#ddd" };
+    const sub = (c.sub || {})[e.subcategory];
+    const el = document.createElement(opts.tag || "div");
+    el.className = "card full" + (opts.popup ? " in-popup" : "");
     el.style.setProperty("--c", c.color);
+    const d0 = parseDay(e.start), t0 = timeOf(e);
+    const sameDayEnd = e.end && e.end.slice(0, 10) === e.start.slice(0, 10) && e.end.length > 10 ? e.end.slice(11, 16) : "";
+    const multiDay = e.end && e.end.slice(0, 10) !== e.start.slice(0, 10);
+    const timeLine = t0 ? (sameDayEnd ? `dalle ${t0} alle ${sameDayEnd}` : `ore ${t0}`) : (multiDay ? "" : "orario da verificare");
+    const untilLine = multiDay ? `fino a ${dayLabel(parseDay(e.end)).toLowerCase()}` : "";
+    const g = accessGroup(e);
+    const price = /^(sconosciut|non (indicat|specificat|disponibil)|n\/?d|nd|-|\?)/i.test((e.price || "").trim()) ? "" : e.price;
     const dist = kmText(km(e));
-    el.innerHTML = `<div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${accessBadge(e)}${favButton(e, "fav")}</div><h3>${esc(e.title)}</h3>
-      <p>${esc(whenText(e))}</p><p>${esc([e.venue, e.town].filter(Boolean).join(", "))}${dist ? ` · ${dist}` : ""}</p>
-      <button class="more" type="button">Dettagli evento</button>`;
-    el.querySelector(".more").addEventListener("click", () => select(e.uid, { fly: false, detail: true }));
+    const place2 = [e.address, e.venue ? e.town : ""].filter(Boolean).join(", ");
+    const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
+    const dirs = `https://www.google.com/maps/dir/?api=1&destination=${e.geo_precision === "town"
+      ? encodeURIComponent([e.venue, e.address, e.town].filter(Boolean).join(", ")) : `${e.lat},${e.lon}`}`;
+    el.innerHTML = `
+      <div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}<span class="cat-tag">${esc(c.label)}${sub ? ` · ${esc(sub)}` : ""}</span>${favButton(e, "fav")}</div>
+      <div class="card-when">
+        <div class="date-tile" aria-hidden="true"><span class="dow">${DOW[d0.getDay()]}</span><span class="d">${d0.getDate()}</span><span class="m">${MONTHS[d0.getMonth()].slice(0, 3)}</span></div>
+        <div><strong>${esc(dayLabel(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}</div>
+      </div>
+      <h3>${esc(e.title)}</h3>
+      <p class="card-place"><b>${esc(e.venue || e.town)}</b>${place2 ? `<br>${esc(place2)}` : ""}${dist ? `<br><span class="muted">${dist} da te</span>` : ""}</p>
+      <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}${(e.audience || []).map((a) => `<span class="who-pill">${esc(DATA.audiences[a] || a)}</span>`).join("")}</div>
+      ${e.summary ? `<p class="card-desc">${esc(e.summary)}</p>` : ""}
+      <p class="card-src">Fonte: <a href="${attr(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_name)}</a>${
+        e.ticket_url && e.ticket_url !== e.action_url ? ` · Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a>` : ""}${
+        e.ai_summary ? " · Riassunto con l'AI" : ""}</p>
+      <div class="card-actions">
+        <a class="more" href="${attr(e.action_url)}" target="_blank" rel="noopener" title="${esc(host)}">Scopri di più <i aria-hidden="true">↗</i></a>
+        <button class="mini" type="button" data-ics aria-label="Aggiungi al calendario" title="Aggiungi al calendario"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
+        <a class="mini" href="${attr(dirs)}" target="_blank" rel="noopener" aria-label="Indicazioni" title="Indicazioni"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></a>
+        <button class="mini" type="button" data-share aria-label="Condividi" title="Condividi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7.5 7.5 12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></button>
+      </div>
+      <button class="report-link" type="button" data-report>Segnala una modifica</button>`;
     el.querySelector("[data-fav]").addEventListener("click", (ev) => { ev.stopPropagation(); toggleFav(e.uid); });
+    el.querySelector("[data-ics]").addEventListener("click", () => downloadIcs(e));
+    el.querySelector("[data-share]").addEventListener("click", () => share(e));
+    el.querySelector("[data-report]").addEventListener("click", () => openReport(e));
+    if (opts.onPlace) {
+      const pl = el.querySelector(".card-place");
+      pl.classList.add("link"); pl.title = "Mostra sulla mappa";
+      pl.addEventListener("click", () => opts.onPlace(e));
+    }
+    return el;
+  }
+
+  function showCard(e, opts = {}) {
+    const el = buildCard(e, { popup: true });
     if (popup) popup.remove();
     const [ox, oy] = slotOff(e.uid);
     popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: [ox, oy - 22], maxWidth: "none" })
       .setLngLat(COORDS[e.uid] || [e.lon, e.lat]).setDOMContent(el).addTo(map);
+    fitCardHeight(el);
     fitTitle(el.querySelector("h3"));
     markSelected(e.uid);
     if (!opts.noReveal) requestAnimationFrame(() => ensureCardVisible());
+  }
+
+  // La card non supera mai l'altezza della mappa visibile (tolto lo spazio del segnaposto): il resto scorre dentro.
+  function fitCardHeight(el) {
+    if (!el || !mapReady) return;
+    const v = visibleArea();
+    el.style.maxHeight = `${Math.max(200, Math.round(v.bottom - v.top - 46))}px`;
+  }
+
+  // Margini per centrare un punto con la card aperta: il punto finisce nella parte bassa della zona visibile,
+  // la card sopra di lui resta tutta sotto testata e filtri.
+  function cardPadding() {
+    const pad = mapPadding(), el = popup && popup.getElement();
+    if (!el) return pad;
+    const v = visibleArea(), r = $("#map").getBoundingClientRect(), h = el.getBoundingClientRect().height;
+    const top = Math.round(v.top - r.top + h + 24), bottom = Math.round(r.bottom - v.bottom + 18);
+    if (top + bottom > r.height - 2) return pad;
+    return { ...pad, top, bottom };
   }
 
   // Titoli: si va a capo tra parole intere. Solo una parola piu' larga della card viene spezzata,
@@ -858,6 +1012,9 @@
   function select(uid, opts = {}) {
     const e = uid && EVENTS.find((x) => x.uid === uid);
     if (!e) { closeDetail(); return; }
+    opts = { ...opts, detail: false };       // V1: tutte le informazioni stanno nella card sulla mappa
+    if (state.view === "list") setView("map", { keep: true });
+    if (MOBILE()) setSheet("peek");
     state.selected = uid;
     if (opts.detail) {
       if (state.sidebarHidden && !MOBILE()) { state.hiddenBeforeDetail = true; setSidebar(true, { remember: false }); }
@@ -879,7 +1036,7 @@
       if (MOBILE() && opts.detail) { if (popup) { popup.remove(); popup = null; } markSelected(uid); }
       else showCard(e, { noReveal: !!opts.fly || !!opts.detail });
       if (opts.fly) {
-        map.flyTo({ center, zoom: Math.max(map.getZoom(), 14.2), speed: 1.4, padding: mapPadding() });
+        map.flyTo({ center, zoom: Math.max(map.getZoom(), 14.2), speed: 2, maxDuration: 2200, offset: padOffset(cardPadding()) });
         map.once("moveend", () => ensureCardVisible());
       } else if (opts.detail && !MOBILE()) {
         requestAnimationFrame(() => ensureCardVisible());   // la sidebar puo' essere ricomparsa
@@ -916,12 +1073,12 @@
     state.sidebarHidden = !visible;
     document.body.classList.toggle("sidebar-hidden", !visible);
     if (opts.remember) { try { localStorage.setItem("andiamo-sidebar", visible ? "1" : "0"); } catch (_) { /* privato */ } }
-    if (mapReady) setTimeout(() => { map.resize(); ensureCardVisible(); }, 30);
+    if (mapReady) setTimeout(() => { map.resize(); if (popup) fitCardHeight(popup.getElement().querySelector(".card")); ensureCardVisible(); }, 30);
   }
 
   window.addEventListener("popstate", (ev) => {
     const uid = ev.state?.uid;
-    if (uid) select(uid, { detail: true, fly: true, fromHistory: true });
+    if (uid) select(uid, { fly: true, fromHistory: true });
     else closeDetail({ fromHistory: true });
   });
 
@@ -1039,7 +1196,7 @@
       if (mapReady) {
         if (!meMarker) { const d = document.createElement("div"); d.className = "me-dot"; meMarker = new maplibregl.Marker({ element: d }); }
         meMarker.setLngLat([state.me.lon, state.me.lat]).addTo(map);
-        map.flyTo({ center: [state.me.lon, state.me.lat], zoom: 11, padding: mapPadding(), speed: 1.4 });
+        map.flyTo({ center: [state.me.lon, state.me.lat], zoom: 11, offset: padOffset(mapPadding()), speed: 1.4 });
       }
       update();
       if (MOBILE() && !state.detail) setSheet("half");
@@ -1079,6 +1236,8 @@
     renderStrip();
     renderChips();
     if (!state.detail) renderList(items);
+    lastItems = items;
+    if (state.view === "list") { $("#cards-list").dataset.last = ""; renderCards(items); }
     const n = items.length;
     $("#count-label").textContent = onlyUids ? `${n} in questo punto` : state.fav ? `${n} salvati`
       : `${n} ${n === 1 ? "evento" : "eventi"}`;
@@ -1099,7 +1258,7 @@
         onMap.forEach((e) => b.extend([e.lon, e.lat]));
         const sw = b.getSouthWest(), ne = b.getNorthEast();
         if (Math.abs(ne.lng - sw.lng) < 1e-4 && Math.abs(ne.lat - sw.lat) < 1e-4)    // un solo punto: niente adattamento
-          map.easeTo({ center: b.getCenter(), zoom: 12, padding: mapPadding(), duration: 0 });
+          map.easeTo({ center: b.getCenter(), zoom: 12, offset: padOffset(mapPadding()), duration: 0 });
         else map.fitBounds(b, { padding: mapPadding(), maxZoom: 12, duration: 0 });
       }
     }
@@ -1463,7 +1622,7 @@
   // ---------------------------------------------------------------- avvio
   async function start() {
     try {
-      DATA = await (await fetch("data/events.json", { cache: "no-cache" })).json();
+      DATA = await (await fetch(window.ANDIAMO_DATA || "data/events.json", { cache: "no-cache" })).json();
     } catch (err) {
       $("#count-label").textContent = "non disponibili";
       $("#list").innerHTML = `<li class="empty-state"><strong>Non riesco a caricare gli eventi.</strong>Ricarica la pagina tra qualche minuto.</li>`;
@@ -1491,6 +1650,7 @@
       const above = MOBILE() ? daysBottom : $(".chips-row").getBoundingClientRect().bottom;
       root.setProperty("--below-days", `${Math.round(above + gap)}px`);
       if (!MOBILE()) root.setProperty("--above-filters", `${Math.round(window.innerHeight - $(".filters").getBoundingClientRect().top + gap)}px`);
+      root.setProperty("--below-filters", `${Math.round($(".filters").getBoundingClientRect().bottom + gap)}px`);
     };
     placePanels();
     window.addEventListener("resize", placePanels);
@@ -1502,9 +1662,15 @@
     setupSheet();
     setSheet(MOBILE() ? "peek" : "half");
 
-    setPreset("all");
+    setPreset("week");                        // preselezione: i prossimi 7 giorni
     document.querySelectorAll(".presets button").forEach((b) =>
-      b.addEventListener("click", () => { setPreset(b.dataset.preset); onlyUids = null; update(); }));
+      b.addEventListener("click", () => { Sound.play("chip"); state.pick = null; setPreset(b.dataset.preset); onlyUids = null; update(); setTimeout(() => setCalendar(false), 250); }));
+    $("#cal-btn").addEventListener("click", () => { Sound.play("chip"); setCalendar($(".days").dataset.open !== "true"); });
+    document.addEventListener("click", (ev) => {            // clic fuori dal calendario: si chiude
+      // il percorso del clic si guarda com'era al momento del clic: i giorni vengono ridisegnati subito dopo
+      if ($(".days").dataset.open === "true" && !ev.composedPath().some((n) => n.classList && n.classList.contains("days"))) setCalendar(false);
+    });
+    document.querySelectorAll(".view-seg button").forEach((b) => b.addEventListener("click", () => { Sound.play("chip"); setView(b.dataset.view); }));
     $("#fav-btn").addEventListener("click", () => {
       state.fav = !state.fav; onlyUids = null; Sound.play("chip");
       closeAll();
@@ -1515,7 +1681,7 @@
       state.fav = false;
       state.cats.clear(); state.aud.clear(); state.access.clear(); state.q = ""; onlyUids = null;
       $("#q").value = "";
-      setPreset("all"); closeDetail(); update(true);
+      state.pick = null; setPreset("week"); closeDetail(); update(true);
     });
     $("#more-filters").addEventListener("click", (ev) => {
       const open = $(".filters").classList.toggle("expanded");
@@ -1532,7 +1698,10 @@
       history.replaceState({ uid: m[1] }, "", `#e=${m[1]}`);
     }
     update();
-    if (state.selected) select(state.selected, { detail: true, fromHistory: true });   // scheda subito, mappa dopo
+    let v0 = "map";
+    try { v0 = localStorage.getItem("andiamo-vista") === "list" ? "list" : "map"; } catch (_) { /* privato */ }
+    if (v0 === "list" && !state.selected) setView("list");
+    setCalendar(false);
     initMap();
   }
 

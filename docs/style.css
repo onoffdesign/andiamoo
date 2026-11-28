@@ -119,9 +119,33 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 
 /* ---------- giorni: periodi | divisore | giorni scorrevoli con frecce ---------- */
 .days {
-  top: calc(var(--gap) * 2 + 56px); left: calc(var(--gap) * 2);   /* a tutta larghezza, anche con l'elenco aperto */
-  right: calc(var(--gap) * 2); display: flex; align-items: flex-end; gap: 12px; padding: 10px 12px 8px;
+  top: calc(var(--gap) * 2 + 56px); left: calc(var(--gap) * 2);
+  display: flex; flex-direction: column; gap: 10px; padding: 8px;
 }
+/* calendario chiuso: solo il pulsante con l'intervallo scelto e il cambio vista; aperto: periodi e giorni */
+.days[data-open="true"] { right: calc(var(--gap) * 2); padding: 8px 12px 8px 8px; }
+.days-bar { display: flex; align-items: center; gap: 8px; }
+.cal-btn {
+  display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 10px 0 10px; border: 0; border-radius: 8px;
+  background: var(--chip); cursor: pointer; font-family: var(--display); font-stretch: 112%; text-transform: uppercase;
+  font-size: .75rem; font-weight: 700; letter-spacing: .03em; white-space: nowrap;
+}
+.cal-btn .chev { width: 16px; height: 16px; transition: transform .2s ease; }
+.days[data-open="true"] .cal-btn { background: var(--ink); color: #fff; }
+.days[data-open="true"] .cal-btn .chev { transform: rotate(180deg); }
+.view-seg { display: inline-flex; padding: 3px; border-radius: 9px; background: var(--chip); gap: 2px; }
+.view-seg button {
+  display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 10px; border: 0; border-radius: 6px; background: transparent;
+  cursor: pointer; font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .6875rem; font-weight: 700; letter-spacing: .03em;
+}
+.view-seg button svg { width: 16px; height: 16px; }
+.view-seg button[aria-pressed="true"] { background: var(--panel); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); }
+.days-panel { display: none; align-items: flex-end; gap: 12px; flex-wrap: wrap; }
+.days[data-open="true"] .days-panel { display: flex; animation: card-in .25s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 0 0; }
+.range-hint { flex-basis: 100%; margin: 0; color: var(--ink-2); font-size: .75rem; }
+.day.r-start { background: rgba(17, 17, 17, .08); border-radius: 6px 0 0 6px; }
+.day.r-end { background: rgba(17, 17, 17, .08); border-radius: 0 6px 6px 0; }
+.day.r-start.r-end { border-radius: 6px; }
 .presets { display: flex; gap: 6px; flex-shrink: 0; padding-bottom: 4px; }
 .presets button {
   height: 30px; padding: 0 10px; border: 0; border-radius: 6px; background: var(--chip);
@@ -437,6 +461,62 @@ body.sidebar-hidden .list-toggle { display: flex; }
   font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .875rem; font-weight: 700; letter-spacing: .04em;
 }
 .card .more:hover { background: #333; }
+
+/* ---------- card completa (popup e vista lista) ---------- */
+.card.full { width: 330px; display: flex; flex-direction: column; gap: 10px; }
+.card.full.in-popup { max-height: min(68vh, 620px); overflow-y: auto; overscroll-behavior: contain; }
+.card.full .card-top { align-items: center; flex-wrap: nowrap; min-width: 0; }
+.card.full .card-top .live-tag { flex: none; }
+.card.full .cat-tag { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card.full .card-top .live-tag { margin: 0; }
+.cat-tag { font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .6875rem; font-weight: 700; letter-spacing: .04em; }
+.card.full .card-top .fav { margin-top: -4px; }
+.card-when { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 8px; background: rgba(255, 255, 255, .55); }
+.card-when .date-tile { width: 56px; background: #fff; }
+.card-when .date-tile .d { font-size: 1.625rem; }
+.card-when strong { display: block; font-size: 1.0625rem; line-height: 1.2; }
+.card-when .t { display: block; margin-top: 2px; font-size: 1.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.card-when .u { display: block; margin-top: 2px; font-size: .9375rem; }
+.card.full h3 { margin: 0; padding: 0 0 8px; font-size: 1.125rem; }
+.card.full p { margin: 0; }
+.card-place { font-size: .9375rem; line-height: 1.35; }
+.card-place.link { cursor: pointer; text-decoration: underline; text-decoration-color: rgba(0, 0, 0, .3); text-underline-offset: 3px; }
+.card-acc { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .875rem; }
+.card-acc .acc { margin: 0; }
+.card-acc .who-pill { background: rgba(255, 255, 255, .55); }
+.card-desc { font-size: .9375rem !important; line-height: 1.5 !important; }
+.card-src { font-size: .75rem !important; color: rgba(0, 0, 0, .62); }
+.card-src a { color: inherit; text-underline-offset: 2px; }
+.card-actions { display: flex; gap: 6px; align-items: stretch; margin-top: 2px; }
+.card-actions .more { flex: 1; min-width: 0; width: auto; margin: 0; gap: 6px; padding: 0 10px; text-decoration: none; white-space: nowrap; }
+.card-actions .more i { font-style: normal; font-size: 1rem; }
+.card-actions .mini {
+  flex: 0 0 40px; height: 40px; display: grid; place-items: center; border: 1.5px solid rgba(0, 0, 0, .7); border-radius: 6px;
+  background: rgba(255, 255, 255, .45); color: var(--ink); cursor: pointer;
+}
+.card-actions .mini:hover { background: #fff; }
+.card-actions .mini svg { width: 19px; height: 19px; }
+.card.full .report-link { align-self: flex-start; margin: 0; padding: 0; color: rgba(0, 0, 0, .55); }
+
+/* ---------- vista lista ---------- */
+.cards-view { display: none; }
+body.view-list .cards-view {
+  display: block; position: absolute; z-index: 2; left: calc(var(--gap) * 2); right: calc(var(--gap) * 2);
+  top: var(--below-days, 190px); bottom: var(--above-filters, 140px); overflow-y: auto; border-radius: var(--r);
+  padding: 4px 2px 24px; scrollbar-width: thin;
+}
+.cards-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; align-items: start; }
+.cards-list .card.full { width: auto; box-shadow: 0 2px 10px rgba(0, 0, 0, .08); }
+.cards-day {
+  grid-column: 1 / -1; margin: 10px 0 0; font-family: var(--display); font-stretch: 112%; text-transform: uppercase;
+  font-size: .875rem; letter-spacing: .04em;
+}
+.cards-day:first-child { margin-top: 0; }
+.cards-more { display: block; margin: 18px auto 0; }
+.cards-view .empty-state { grid-column: 1 / -1; background: var(--panel); border-radius: var(--r); padding: 20px; }
+body.view-list #map, body.view-list .map-ctrl, body.view-list .panel, body.view-list .list-toggle,
+body.view-list .maplibregl-ctrl-bottom-right { visibility: hidden; pointer-events: none; }
+body.view-list .stage { background: var(--land); }
 .me-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--me); border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(47, 107, 255, .2); }
 .maplibregl-ctrl-attrib { font-size: 10px; background: rgba(255, 255, 255, .6) !important; }
 /* attribuzione OpenStreetMap/OpenFreeMap sempre visibile, sopra il pannello filtri */
@@ -559,12 +639,18 @@ body.sidebar-hidden .list-toggle { display: flex; }
   .add-btn .wide-only { display: none; }
 
   /* giorni: periodi, divisore e barre in un'unica riga che scorre */
-  .days {
-    top: calc(var(--top) + 52px); left: 10px !important; right: 10px; padding: 6px 8px 4px; gap: 8px;
-    overflow-x: auto; scrollbar-width: none; align-items: flex-end;
+  .days { top: calc(var(--top) + 52px); left: 10px !important; right: auto; padding: 6px; gap: 8px; }
+  .days[data-open="true"] { right: 10px; padding: 6px; }
+  .days-panel {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 8px;
     mask-image: linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);
   }
-  .days::-webkit-scrollbar { display: none; }
+  .days-panel::-webkit-scrollbar { display: none; }
+  .range-hint { display: none; }
+  .view-seg button span { display: none; }
+  body.view-list .cards-view { left: 10px; right: 10px; top: var(--below-filters, 200px); bottom: 0; padding-bottom: calc(24px + var(--sab)); }
+  .cards-list { grid-template-columns: 1fr; }
+  .card.full.in-popup { max-height: min(58vh, 520px); }
   .presets { padding-bottom: 6px; gap: 4px; }
   .presets button { height: 34px; padding: 0 8px; font-size: .6875rem; font-stretch: 100%; letter-spacing: .02em; }
   .strip-wrap { flex: none; }
