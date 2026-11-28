@@ -353,7 +353,7 @@
 
   // ---------------------------------------------------------------- elenco
   // Vista lista: toccando un evento si apre la sua card subito sotto (un solo evento aperto per volta).
-  function toggleInline(li, e) {
+  function toggleInline(li, e, opts = {}) {
     const next = li.nextElementSibling, open = next && next.classList.contains("inline-card") && next.dataset.uid === e.uid;
     document.querySelectorAll("#list .inline-card").forEach((x) => x.remove());
     document.querySelectorAll("#list .item button[aria-expanded]").forEach((b) => b.setAttribute("aria-expanded", "false"));
@@ -363,7 +363,8 @@
     box.appendChild(buildCard(e, { onPlace: (x) => { setView("map", { keep: true }); select(x.uid, { fly: true }); } }));
     li.after(box);
     li.querySelector("button").setAttribute("aria-expanded", "true");
-    requestAnimationFrame(() => box.scrollIntoView({ block: "nearest", behavior: "smooth" }));
+    if (!opts.quiet) requestAnimationFrame(() => box.scrollIntoView({ block: "nearest", behavior: "smooth" }));
+    else box.querySelector(".card").style.animation = "none";
   }
 
   function renderList(items) {
@@ -792,30 +793,76 @@
     animateProp("clusters-ink", "layout", "icon-size", 0.35, 1, 460);
   }
 
-  // Suoni brevi, sintetizzati (nessun file): si possono spegnere dal pulsante con l'altoparlante.
+  // Suoni di carta e di cose vere, sintetizzati (nessun file): timbro sul foglio, foglio che si apre e si ripiega,
+  // matita che segna, gomma che cancella, scatto di una levetta. Rumore filtrato e colpi sordi, niente bip.
+  // Si possono spegnere dal pulsante con l'altoparlante.
   const Sound = {
-    ctx: null,
+    ctx: null, out: null, noise: null,
     on: (() => { try { return localStorage.getItem("andiamo-suoni") !== "0"; } catch (_) { return true; } })(),
-    tone(freq, t, dur, { type = "sine", gain = 0.14, to = null } = {}) {
-      const c = this.ctx, o = c.createOscillator(), g = c.createGain();
-      o.type = type; o.frequency.setValueAtTime(freq, t);
-      if (to) o.frequency.exponentialRampToValueAtTime(to, t + dur * 0.8);
-      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.008);
+    init() {
+      if (this.ctx) return;
+      const c = this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+      // compressore: suoni pieni e decisi, mai fastidiosi
+      const comp = c.createDynamicsCompressor();
+      comp.threshold.value = -18; comp.knee.value = 12; comp.ratio.value = 4; comp.attack.value = 0.002; comp.release.value = 0.12;
+      this.out = c.createGain(); this.out.gain.value = 0.9;
+      this.out.connect(comp).connect(c.destination);
+      // 2 secondi di rumore "rosa" (piu' morbido del bianco): la materia prima di carta, matita e gomma
+      const len = c.sampleRate * 2, buf = c.createBuffer(1, len, c.sampleRate), d = buf.getChannelData(0);
+      let b0 = 0, b1 = 0, b2 = 0;
+      for (let i = 0; i < len; i++) {
+        const w = Math.random() * 2 - 1;
+        b0 = 0.99765 * b0 + w * 0.099; b1 = 0.963 * b1 + w * 0.2965; b2 = 0.57 * b2 + w * 1.0527;
+        d[i] = (b0 + b1 + b2 + w * 0.1848) * 0.22;
+      }
+      this.noise = buf;
+    },
+    // rumore filtrato con inviluppo: type/freq del filtro, sweep opzionale della frequenza
+    rustle(t, dur, { freq = 2000, to = null, q = 0.9, type = "bandpass", gain = 0.5, attack = 0.004 } = {}) {
+      const c = this.ctx, src = c.createBufferSource(), f = c.createBiquadFilter(), g = c.createGain();
+      src.buffer = this.noise; src.playbackRate.value = 0.9 + Math.random() * 0.2;
+      f.type = type; f.Q.value = q; f.frequency.setValueAtTime(freq, t);
+      if (to) f.frequency.exponentialRampToValueAtTime(to, t + dur);
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + attack);
       g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
-      o.connect(g).connect(c.destination); o.start(t); o.stop(t + dur + 0.02);
+      src.connect(f).connect(g).connect(this.out);
+      src.start(t, Math.random() * 1.5); src.stop(t + dur + 0.05);
+    },
+    // colpo sordo (legno, timbro sul tavolo): sinusoide che scende veloce
+    thud(t, { freq = 150, to = 55, dur = 0.12, gain = 0.6 } = {}) {
+      const c = this.ctx, o = c.createOscillator(), g = c.createGain();
+      o.type = "sine"; o.frequency.setValueAtTime(freq, t); o.frequency.exponentialRampToValueAtTime(to, t + dur);
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.003);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(g).connect(this.out); o.start(t); o.stop(t + dur + 0.02);
     },
     play(name) {
       if (!this.on) return;
       try {
-        this.ctx = this.ctx || new (window.AudioContext || window.webkitAudioContext)();
+        this.init();
         if (this.ctx.state === "suspended") this.ctx.resume();
         const t = this.ctx.currentTime + 0.01;
-        if (name === "select") { this.tone(520, t, 0.16, { to: 880 }); this.tone(1320, t + 0.05, 0.12, { type: "triangle", gain: 0.05 }); }
-        else if (name === "expand") [523, 659, 784].forEach((f, i) => this.tone(f, t + i * 0.055, 0.14, { type: "triangle", gain: 0.09 }));
-        else if (name === "close") this.tone(700, t, 0.12, { to: 420, gain: 0.1 });
-        else if (name === "chip") this.tone(1150, t, 0.05, { gain: 0.05 });
-        else if (name === "save-on") { this.tone(660, t, 0.1, { type: "triangle", gain: 0.1 }); this.tone(990, t + 0.07, 0.16, { type: "triangle", gain: 0.1 }); }
-        else if (name === "save-off") this.tone(560, t, 0.14, { to: 380, type: "triangle", gain: 0.08 });
+        if (name === "select") {                         // timbro deciso sulla mappa
+          this.thud(t, { freq: 170, to: 60, dur: 0.14, gain: 0.75 });
+          this.rustle(t, 0.05, { freq: 2600, q: 1.2, gain: 0.55 });
+          this.rustle(t + 0.012, 0.09, { freq: 900, type: "lowpass", gain: 0.25 });
+        } else if (name === "expand") {                  // foglio che si apre
+          this.rustle(t, 0.32, { freq: 700, to: 3800, q: 0.7, gain: 0.45, attack: 0.04 });
+          this.rustle(t + 0.2, 0.08, { freq: 3200, q: 2, gain: 0.3 });
+          this.thud(t + 0.24, { freq: 110, to: 60, dur: 0.1, gain: 0.25 });
+        } else if (name === "close") {                   // foglio ripiegato e appoggiato
+          this.rustle(t, 0.2, { freq: 3500, to: 800, q: 0.8, gain: 0.4, attack: 0.02 });
+          this.thud(t + 0.16, { freq: 130, to: 50, dur: 0.12, gain: 0.45 });
+        } else if (name === "chip") {                    // scatto secco di una levetta / matita sul tavolo
+          this.rustle(t, 0.025, { freq: 4200, q: 3, gain: 0.5, attack: 0.001 });
+          this.thud(t, { freq: 420, to: 180, dur: 0.045, gain: 0.3 });
+        } else if (name === "save-on") {                 // due tratti di matita e un colpetto
+          this.rustle(t, 0.09, { freq: 5200, to: 3800, q: 4, gain: 0.35, attack: 0.01 });
+          this.rustle(t + 0.11, 0.12, { freq: 4600, to: 5600, q: 4, gain: 0.35, attack: 0.01 });
+          this.thud(t + 0.24, { freq: 200, to: 80, dur: 0.08, gain: 0.35 });
+        } else if (name === "save-off") {                // gomma che cancella
+          [0, 0.09, 0.18].forEach((d, i) => this.rustle(t + d, 0.08, { freq: 900 + i * 120, type: "lowpass", q: 0.6, gain: 0.45, attack: 0.015 }));
+        }
       } catch (_) { /* audio non disponibile */ }
     },
     toggle() {
@@ -1502,7 +1549,11 @@
     }
     renderStrip();
     renderChips();
-    if (!state.detail) renderList(items);
+    if (!state.detail) {
+      const open = $("#list .inline-card")?.dataset.uid;          // la card aperta nella lista resta aperta
+      renderList(items);
+      if (open) { const b = $(`#list .item button[data-uid="${open}"]`); const e = EVENTS.find((x) => x.uid === open); if (b && e) toggleInline(b.closest(".item"), e, { quiet: true }); }
+    }
     lastItems = items;
     const n = items.length;
     $("#count-label").textContent = onlyUids ? `${n} in questo punto` : state.fav ? `${n} salvati`
