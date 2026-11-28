@@ -47676,3 +47676,4490 @@ eventi:
     summary: Due pomeriggi di spettacoli, canti di Natale, concerto gospel, tombola e mercatini artigianali in piazza Garibaldi.
     fonte: 'https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: Piazza Garibaldi (OpenStreetMap)'
     trovato: '2026-11-28'
+  - title: Concerto di Natale, C'e' Musica & Musica 3.0
+    start: 2026-12-06T18:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/concerto-di-natale-2026
+    summary: Concerto natalizio della rassegna per famiglie del Maggio, con il Coro di voci bianche dell'Accademia del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Mendelssohn, Sinfonie n. 1 e n. 4, direttore Daniele Gatti
+    start: 2026-12-09T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/mendelssohn-sinfonie-n-1-e-n-4
+    summary: L'Orchestra del Maggio diretta da Daniele Gatti esegue la Prima e la Quarta sinfonia di Mendelssohn, primo appuntamento del ciclo dedicato al compositore.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Roberto Bolle and Friends
+    start: 2026-12-10T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/roberto-bolle-and-friends-2026
+    summary: Gala di danza con Roberto Bolle e altri primi ballerini di compagnie internazionali.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Roberto Bolle and Friends
+    start: 2026-12-11T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/roberto-bolle-and-friends-2026
+    summary: Gala di danza con Roberto Bolle e altri primi ballerini di compagnie internazionali.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Roberto Bolle and Friends
+    start: 2026-12-12T15:30
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/roberto-bolle-and-friends-2026
+    summary: Gala di danza con Roberto Bolle e altri primi ballerini di compagnie internazionali.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Roberto Bolle and Friends
+    start: 2026-12-12T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/roberto-bolle-and-friends-2026
+    summary: Gala di danza con Roberto Bolle e altri primi ballerini di compagnie internazionali.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Mendelssohn, Sinfonie n. 3 e n. 5, direttore Daniele Gatti
+    start: 2026-12-13T17:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/mendelssohn-sinfonie-n-3-e-n-5
+    summary: 'Secondo concerto del ciclo Mendelssohn: l''Orchestra del Maggio diretta da Daniele Gatti esegue la Terza e la Quinta sinfonia.'
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Mendelssohn, Elias, direttore Daniele Gatti
+    start: 2026-12-19T18:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/mendelssohn-elias
+    summary: Esecuzione dell'oratorio Elias di Mendelssohn con orchestra e coro del Maggio diretti da Daniele Gatti.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Concerto Astrolabio
+    start: 2026-12-20T11:30
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/concerto-astrolabio-2026
+    summary: Concerto della domenica mattina all'Auditorium del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Les contes d'Hoffmann, Offenbach
+    start: 2026-12-20T17:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/les-contes-dhoffmann
+    summary: Opera di Jacques Offenbach diretta da Kent Nagano, con regia e costumi di Laurent Pelly.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Les contes d'Hoffmann, Offenbach
+    start: 2026-12-27T15:30
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/les-contes-dhoffmann
+    summary: Opera di Jacques Offenbach diretta da Kent Nagano, con regia e costumi di Laurent Pelly.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Les contes d'Hoffmann, Offenbach
+    start: 2026-12-30T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/les-contes-dhoffmann
+    summary: Opera di Jacques Offenbach diretta da Kent Nagano, con regia e costumi di Laurent Pelly.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Les contes d'Hoffmann, Offenbach
+    start: 2027-01-02T17:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/les-contes-dhoffmann
+    summary: Opera di Jacques Offenbach diretta da Kent Nagano, con regia e costumi di Laurent Pelly.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Lo schiaccianoci in forma di concerto, direttore Gianandrea Noseda
+    start: 2026-12-23T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/cajkovskij-lo-schiaccianoci-in-forma-di-concerto
+    summary: Esecuzione integrale in forma di concerto del balletto Lo schiaccianoci di Ciajkovskij, con l'Orchestra del Maggio diretta da Gianandrea Noseda.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Disney Fantasia, Live in concert
+    start: 2026-12-31T17:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/disney-fantasia-live-in-concert-2027
+    summary: Proiezione del film Fantasia di Walt Disney con la colonna sonora eseguita dal vivo dall'Orchestra del Maggio diretta da Timothy Brock.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Disney Fantasia, Live in concert
+    start: 2027-01-03T17:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/disney-fantasia-live-in-concert-2027
+    summary: Proiezione del film Fantasia di Walt Disney con la colonna sonora eseguita dal vivo dall'Orchestra del Maggio diretta da Timothy Brock.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Disney Fantasia, Live in concert
+    start: 2027-01-04T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/disney-fantasia-live-in-concert-2027
+    summary: Proiezione del film Fantasia di Walt Disney con la colonna sonora eseguita dal vivo dall'Orchestra del Maggio diretta da Timothy Brock.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Beatrice Rana, recital
+    start: 2027-01-09T16:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/beatrice-rana
+    summary: Concerto della pianista Beatrice Rana all'Auditorium del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: Pretty Yende e Ludovic Tezier, recital
+    start: 2027-01-10T17:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/pretty-yende-ludovic-tezier
+    summary: Recital del soprano Pretty Yende e del baritono Ludovic Tezier.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: La traviata, Verdi
+    start: 2027-01-15T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/la-traviata-2027
+    summary: Opera di Giuseppe Verdi in scena nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: La traviata, Verdi
+    start: 2027-01-17T15:30
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/la-traviata-2027
+    summary: Opera di Giuseppe Verdi in scena nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: La traviata, Verdi
+    start: 2027-01-20T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/la-traviata-2027
+    summary: Opera di Giuseppe Verdi in scena nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: La traviata, Verdi
+    start: 2027-01-22T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/la-traviata-2027
+    summary: Opera di Giuseppe Verdi in scena nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: Il carnevale degli animali, C'e' Musica & Musica 4.0
+    start: 2027-01-16T16:30
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-carnevale-degli-animali-2027
+    summary: Concerto per famiglie sulla suite di Camille Saint-Saens, nella rassegna del Maggio dedicata ai ragazzi.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: Zubin Mehta dirige Haydn e Schubert
+    start: 2027-01-23T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/zubin-mehta-haydn-schubert-2027
+    summary: Concerto dell'Orchestra del Maggio diretta da Zubin Mehta con musiche di Haydn e Schubert.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: Il mondo alla roversa, Galuppi
+    start: 2027-01-30T17:00
+    venue: Teatro Goldoni
+    address: Via Santa Maria 15
+    town: Firenze
+    lat: 43.764852
+    lon: 11.244541
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-mondo-alla-roversa-o-sia-le-donne-che-comandano
+    summary: Opera buffa di Baldassarre Galuppi, Il mondo alla roversa o sia le donne che comandano, proposta dal Maggio al Teatro Goldoni.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: Il mondo alla roversa, Galuppi
+    start: 2027-01-31T15:30
+    venue: Teatro Goldoni
+    address: Via Santa Maria 15
+    town: Firenze
+    lat: 43.764852
+    lon: 11.244541
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-mondo-alla-roversa-o-sia-le-donne-che-comandano
+    summary: Opera buffa di Baldassarre Galuppi, Il mondo alla roversa o sia le donne che comandano, proposta dal Maggio al Teatro Goldoni.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: Il mondo alla roversa, Galuppi
+    start: 2027-02-02T20:00
+    venue: Teatro Goldoni
+    address: Via Santa Maria 15
+    town: Firenze
+    lat: 43.764852
+    lon: 11.244541
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-mondo-alla-roversa-o-sia-le-donne-che-comandano
+    summary: Opera buffa di Baldassarre Galuppi, Il mondo alla roversa o sia le donne che comandano, proposta dal Maggio al Teatro Goldoni.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/01
+    trovato: '2026-11-28'
+  - title: Daniele Gatti ed Elina Garanca, ciclo Bruckner
+    start: 2027-02-07T17:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/daniele-gatti-elina-garanca
+    summary: Concerto del ciclo Bruckner con l'Orchestra del Maggio diretta da Daniele Gatti e il mezzosoprano Elina Garanca.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/02
+    trovato: '2026-11-28'
+  - title: Bryan Adams, Bare Bones Live
+    start: 2027-02-08T21:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/bryan-adams-bare-bones-live-firenze
+    summary: Concerto acustico di Bryan Adams nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/02
+    trovato: '2026-11-28'
+  - title: Storie di amori e creature fantastiche, C'e' Musica & Musica 4.0
+    start: 2027-02-20T16:30
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/storie-di-amori-e-creature-fantastiche
+    summary: Concerto per famiglie della rassegna del Maggio dedicata ai ragazzi.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/02
+    trovato: '2026-11-28'
+  - title: Il trovatore, Verdi
+    start: 2027-02-23T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-trovatore-2027
+    summary: Opera di Giuseppe Verdi in scena nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/02
+    trovato: '2026-11-28'
+  - title: Il trovatore, Verdi
+    start: 2027-02-26T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-trovatore-2027
+    summary: Opera di Giuseppe Verdi in scena nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/02
+    trovato: '2026-11-28'
+  - title: Il trovatore, Verdi
+    start: 2027-02-28T15:30
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-trovatore-2027
+    summary: Opera di Giuseppe Verdi in scena nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/02
+    trovato: '2026-11-28'
+  - title: Il trovatore, Verdi
+    start: 2027-03-02T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-trovatore-2027
+    summary: Opera di Giuseppe Verdi in scena nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/02
+    trovato: '2026-11-28'
+  - title: Daniele Gatti e Francesco Piemontesi, ciclo Bruckner
+    start: 2027-02-27T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/daniele-gatti-francesco-piemontesi
+    summary: Concerto del ciclo Bruckner con l'Orchestra del Maggio diretta da Daniele Gatti e il pianista Francesco Piemontesi.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/02
+    trovato: '2026-11-28'
+  - title: Classicismo a Vienna, direttore James Conlon
+    start: 2027-03-05T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/classicismo-a-vienna-james-conlon
+    summary: Concerto dell'Orchestra del Maggio diretta da James Conlon con musiche del classicismo viennese.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni
+    start: 2027-03-14T17:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-lago-dei-cigni-2027
+    summary: Balletto sulle musiche di Ciajkovskij nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni
+    start: 2027-03-17T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-lago-dei-cigni-2027
+    summary: Balletto sulle musiche di Ciajkovskij nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni
+    start: 2027-03-18T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-lago-dei-cigni-2027
+    summary: Balletto sulle musiche di Ciajkovskij nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni
+    start: 2027-03-19T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-lago-dei-cigni-2027
+    summary: Balletto sulle musiche di Ciajkovskij nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni
+    start: 2027-03-20T18:00
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-lago-dei-cigni-2027
+    summary: Balletto sulle musiche di Ciajkovskij nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il lago dei cigni
+    start: 2027-03-21T15:30
+    venue: Teatro del Maggio Musicale Fiorentino - Sala Grande
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-lago-dei-cigni-2027
+    summary: Balletto sulle musiche di Ciajkovskij nella Sala Grande del Teatro del Maggio.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il magico sogno di una notte d'estate
+    start: 2027-03-16T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-magico-sogno-di-una-notte-destate
+    summary: Spettacolo musicale ispirato a Sogno di una notte di mezza estate, proposto dal Maggio anche alle famiglie.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il magico sogno di una notte d'estate
+    start: 2027-03-20T15:30
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-magico-sogno-di-una-notte-destate
+    summary: Spettacolo musicale ispirato a Sogno di una notte di mezza estate, proposto dal Maggio anche alle famiglie.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Il magico sogno di una notte d'estate
+    start: 2027-03-21T11:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/il-magico-sogno-di-una-notte-destate
+    summary: Spettacolo musicale ispirato a Sogno di una notte di mezza estate, proposto dal Maggio anche alle famiglie.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Mozart, Requiem, direttore Giulio Prandi
+    start: 2027-03-26T20:00
+    venue: Teatro del Maggio Musicale Fiorentino - Auditorium
+    address: Piazzale Vittorio Gui 1
+    town: Firenze
+    lat: 43.77888
+    lon: 11.23487
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/mozart-requiem-giulio-prandi
+    summary: Esecuzione del Requiem di Mozart diretta da Giulio Prandi, nel giorno del bicentenario della morte di Beethoven.
+    fonte: https://www.maggiofiorentino.com/calendario/2027/03
+    trovato: '2026-11-28'
+  - title: Artisti del Maggio Musicale Fiorentino a Montefioralle
+    start: 2026-12-06T17:00
+    venue: Chiesa di Santo Stefano a Montefioralle
+    address: Via Montefioralle
+    town: Greve in Chianti
+    lat: 43.580875
+    lon: 11.303515
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/artisti-del-maggio-musicale-fiorentino-montefioralle
+    summary: Concerto di musicisti del Maggio Musicale Fiorentino nella chiesa di Santo Stefano del borgo di Montefioralle.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Artisti del Coro del Maggio a Certaldo
+    start: 2026-12-06T21:00
+    venue: Chiesa dei Santi Tommaso e Prospero
+    address: Via del Rivellino
+    town: Certaldo
+    lat: 43.549146
+    lon: 11.045768
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/artisti-del-coro-del-maggio-certaldo-dicembre
+    summary: Concerto di artisti del Coro del Maggio Musicale Fiorentino nella chiesa dei Santi Tommaso e Prospero di Certaldo Alto.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Professori dell'Orchestra del Maggio a Signa
+    start: 2026-12-07T21:00
+    venue: Biblioteca Boncompagno da Signa
+    address: Via degli Alberti 11
+    town: Signa
+    lat: 43.781548
+    lon: 11.095037
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/professori-dellorchestra-del-maggio-signa-dicembre
+    summary: Concerto da camera dei professori dell'Orchestra del Maggio nella biblioteca comunale di Signa.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Artisti del Coro del Maggio, Stabat Mater a Montelupo
+    start: 2026-12-12T21:00
+    venue: Pieve di San Giovanni Evangelista
+    address: Via Baccio da Montelupo
+    town: Montelupo Fiorentino
+    lat: 43.733679
+    lon: 11.02227
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/artisti-del-coro-del-maggio-stabat-mater-montelupo
+    summary: Concerto di artisti del Coro del Maggio nella pieve di San Giovanni Evangelista di Montelupo Fiorentino.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Solisti dell'Accademia del Maggio a Remole
+    start: 2026-12-13T21:00
+    venue: Pieve di San Giovanni Battista a Remole
+    address: Via Aretina
+    town: Pontassieve
+    lat: 43.789677
+    lon: 11.393168
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/solisti-dellaccademia-del-maggio-pontassieve-remole
+    summary: Concerto dei solisti dell'Accademia del Maggio nella pieve di Remole, a Sieci.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Professori dell'Orchestra del Maggio al Teatro Niccolini
+    start: 2026-12-27T21:15
+    venue: Teatro Niccolini
+    address: Piazza della Repubblica
+    town: San Casciano in Val di Pesa
+    lat: 43.657722
+    lon: 11.184215
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    official_url: https://www.maggiofiorentino.com/events/professori-dellorchestra-del-maggio-niccolini-dicembre
+    summary: Concerto dei professori dell'Orchestra del Maggio al Teatro Niccolini di San Casciano.
+    fonte: https://www.maggiofiorentino.com/calendario/2026/12
+    trovato: '2026-11-28'
+  - title: Lo Zar, di Stefano Massini
+    start: '2026-11-24'
+    end: '2026-12-06'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/lo-zar
+    summary: Nuova produzione su testo di Stefano Massini, in scena alla Pergola per due settimane.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Le ultime lune, con Alessandro Haber
+    start: '2026-12-08'
+    end: '2026-12-13'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/le-ultime-lune
+    summary: Testo di Furio Bordon con Alessandro Haber, per la regia di Paolo Valerio.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Profumo d'inferno, Piero Pelu'
+    start: '2026-12-15'
+    end: '2026-12-16'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/profumo-dinferno
+    summary: Spettacolo di e con Piero Pelu' tra racconto e musica.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Don Chisciotte, Compagnia Marionettistica Carlo Colla e Figli
+    start: '2026-12-19'
+    end: '2026-12-20'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/donchisciotte
+    summary: Spettacolo di marionette dal romanzo di Cervantes della compagnia milanese Carlo Colla e Figli.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Ritorno a casa Gori, con Alessandro Benvenuti
+    start: '2026-12-29'
+    end: '2027-01-08'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/ritorno-a-casa-gori
+    summary: Alessandro Benvenuti torna alla famiglia Gori in uno spettacolo comico per le feste.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Orlando Furioso, regia di Davide Livermore
+    start: '2027-01-12'
+    end: '2027-01-17'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/orlando-furioso
+    summary: Nuovo allestimento del poema di Ariosto diretto da Davide Livermore.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Di madre in figlia, Concita De Gregorio
+    start: '2027-01-19'
+    end: '2027-01-21'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/di-madre-in-figlia
+    summary: Spettacolo con Concita De Gregorio sul rapporto tra madri e figlie.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Incendi, di Wajdi Mouawad
+    start: '2027-01-22'
+    end: '2027-01-24'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/incendi
+    summary: Messa in scena del testo Incendi del drammaturgo Wajdi Mouawad.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Una delle ultime sere di Carnovale, regia di Valerio Binasco
+    start: '2027-01-26'
+    end: '2027-01-31'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/una-delle-ultime-sere-di-carnovale
+    summary: Commedia di Goldoni diretta da Valerio Binasco, con Natalino Balasso.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Franciscus, Simone Cristicchi
+    start: '2027-02-02'
+    end: '2027-02-07'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/franciscus
+    summary: Spettacolo di Simone Cristicchi dedicato a Francesco d'Assisi.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Scheda bianca, con Rocco Papaleo
+    start: '2027-02-09'
+    end: '2027-02-14'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/scheda-bianca
+    summary: Spettacolo con Rocco Papaleo per la regia di Serena Sinigaglia.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Autodifesa di Caino, Luca Zingaretti
+    start: '2027-02-16'
+    end: '2027-02-21'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/autodifesa-di-caino
+    summary: Monologo interpretato da Luca Zingaretti.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Preghiera, Virgilio Sieni
+    start: '2027-02-23'
+    end: '2027-02-24'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: danza
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/preghiera
+    summary: Spettacolo di danza del coreografo Virgilio Sieni.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Fotofinish, Rezza e Mastrella
+    start: '2027-02-27'
+    end: '2027-02-28'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/fotofinish
+    summary: Spettacolo di Antonio Rezza e Flavia Mastrella.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Stato contro Nolan, regia di Alessandro Gassmann
+    start: '2027-03-02'
+    end: '2027-03-07'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/stato-contro-nolan
+    summary: Testo di Stefano Massini diretto e interpretato da Alessandro Gassmann.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: 'Quinto: non uccidere, Massimiliano Civica'
+    start: '2027-03-09'
+    end: '2027-03-10'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/quinto-non-uccidere
+    summary: Spettacolo del regista Massimiliano Civica.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: La pazzia di Re Giorgio, regia di Massimo Popolizio
+    start: '2027-03-12'
+    end: '2027-03-21'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/la-pazzia-di-re-giorgio
+    summary: Testo di Alan Bennett diretto e interpretato da Massimo Popolizio.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Uomo e' poesia, Gabriele Lavia
+    start: '2027-03-22'
+    end: '2027-03-22'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/uomo-e-poesia
+    summary: Serata di Gabriele Lavia dedicata alla poesia.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: A place of safety, Kepler-452
+    start: '2027-03-24'
+    end: '2027-03-25'
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.teatrodellatoscana.it/it/evento/spettacolo/a-place-of-safety
+    summary: Spettacolo della compagnia Kepler-452 con Nicola Borghesi.
+    fonte: https://www.teatrodellatoscana.it/teatri/teatro-della-pergola
+    trovato: '2026-11-28'
+  - title: Alla scoperta del Palagio di Parte Guelfa
+    start: 2026-12-05T15:00
+    end: 2026-12-05T18:00
+    venue: Palagio di Parte Guelfa
+    address: Piazza di Parte Guelfa
+    town: Firenze
+    lat: 43.769748
+    lon: 11.253777
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/alla-scoperta-del-palagio-di-parte-guelfa
+    summary: Visite accompagnate gratuite al Palagio di Parte Guelfa, ogni ora dalle 15 alle 17, con prenotazione obbligatoria.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Alle origini di una leggenda: Giovanni delle Bande Nere e il Mugello'
+    start: '2026-11-30'
+    end: '2027-03-07'
+    venue: Palazzo dei Vicari
+    address: Piazza dei Vicari 1
+    town: Scarperia e San Piero
+    lat: 43.996166
+    lon: 11.354539
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: da 5 a 7 euro
+    official_url: https://www.destinationflorence.com/it/eventi/alle-origini-di-una-leggenda-giovanni-delle-bande-nere-e-il-mugello-mostra-scarperia-e-san
+    summary: Mostra per i cinquecento anni dalla morte del condottiero Giovanni de' Medici e sul suo legame con il Mugello.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Analisi illogica
+    start: 2026-12-11T20:45
+    venue: Teatro di Cestello
+    address: Piazza di Cestello 4
+    town: Firenze
+    lat: 43.770173
+    lon: 11.243725
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 14 a 18 euro
+    official_url: https://www.destinationflorence.com/it/eventi/analisi-illogica-al-teatro-di-cestello
+    summary: Atto unico scritto e diretto da Marco Predieri, con Parco Predieri e Patrizia Ficini, presentato da Altrove Teatro.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Analisi illogica
+    start: 2026-12-12T20:45
+    venue: Teatro di Cestello
+    address: Piazza di Cestello 4
+    town: Firenze
+    lat: 43.770173
+    lon: 11.243725
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 14 a 18 euro
+    official_url: https://www.destinationflorence.com/it/eventi/analisi-illogica-al-teatro-di-cestello
+    summary: Atto unico scritto e diretto da Marco Predieri, con Parco Predieri e Patrizia Ficini, presentato da Altrove Teatro.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Analisi illogica
+    start: 2026-12-13T16:45
+    venue: Teatro di Cestello
+    address: Piazza di Cestello 4
+    town: Firenze
+    lat: 43.770173
+    lon: 11.243725
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 14 a 18 euro
+    official_url: https://www.destinationflorence.com/it/eventi/analisi-illogica-al-teatro-di-cestello
+    summary: Atto unico scritto e diretto da Marco Predieri, con Parco Predieri e Patrizia Ficini, presentato da Altrove Teatro.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Anna Prohaska e Isabelle Faust, Amici della Musica
+    start: 2026-12-01T20:00
+    venue: Teatro Niccolini
+    address: Via Ricasoli 3
+    town: Firenze
+    lat: 43.773801
+    lon: 11.256101
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: da 5 a 28 euro
+    official_url: https://www.destinationflorence.com/it/eventi/anna-prohaska-isabelle-faust-amici-della-musica
+    summary: Il soprano Anna Prohaska e la violinista Isabelle Faust eseguono i Kafka-Fragmente di Kurtag nella stagione degli Amici della Musica di Firenze.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Antiquari in centro
+    start: 2026-12-12T08:30
+    end: 2026-12-12T19:30
+    venue: Piazza Farinata degli Uberti
+    address: Piazza Farinata degli Uberti
+    town: Empoli
+    lat: 43.71961
+    lon: 10.945981
+    category: mercatini-fiere
+    subcategory: antiquariato
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/antiquari-centro-empoli
+    summary: Mercato di antiquariato con espositori del settore nel centro storico di Empoli.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Apotheca Market
+    start: 2026-12-11T14:00
+    end: 2026-12-13T19:00
+    venue: Monastero di Santa Caterina
+    address: Via San Francesco
+    town: Borgo San Lorenzo
+    lat: 43.953472
+    lon: 11.387033
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.destinationflorence.com/it/eventi/apotheca-market-borgo-san-lorenzo
+    summary: Mostra mercato natalizia di opere artistiche, artigianato e prodotti locali nei loggiati del Monastero di Santa Caterina.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Arisa, Live Tour
+    start: 2026-11-30T20:45
+    venue: Teatro Verdi
+    address: Via Ghibellina 99
+    town: Firenze
+    lat: 43.77003
+    lon: 11.26068
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: da 39 a 69 euro
+    official_url: https://www.destinationflorence.com/it/eventi/arisa-live-tour
+    summary: Concerto di Arisa al Teatro Verdi con i brani della sua carriera.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Arno, storie di riconciliazione tra Firenze e il suo fiume
+    start: '2026-11-04'
+    end: '2027-01-04'
+    venue: MAD Murate Art District
+    address: Piazza delle Murate
+    town: Firenze
+    lat: 43.769221
+    lon: 11.267879
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.destinationflorence.com/it/eventi/arno-storie-di-riconciliazione-tra-firenze-e-il-suo-fiume
+    summary: Mostra diffusa di Roberto Ghezzi per i sessant'anni dall'alluvione del 1966, con il nucleo principale al MAD Murate Art District.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Artemisia Gentileschi a Firenze
+    start: '2026-10-20'
+    end: '2027-04-04'
+    venue: Museo degli Innocenti
+    address: Piazza della Santissima Annunziata 13
+    town: Firenze
+    lat: 43.776088
+    lon: 11.260713
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/artemisia-gentileschi-firenze
+    summary: Mostra sulla vita e la carriera di Artemisia Gentileschi negli anni del suo soggiorno fiorentino.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Atmosfere d'Inverno in Palazzo
+    start: 2026-12-05T15:00
+    end: 2026-12-06T19:00
+    venue: Palazzo dei Vicari
+    address: Piazza dei Vicari 1
+    town: Scarperia e San Piero
+    lat: 43.996166
+    lon: 11.354539
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.destinationflorence.com/it/eventi/atmosfere-dinverno-palazzo-scarperia
+    summary: Fine settimana con produttori locali, idee regalo, attivita' per bambini e Babbo Natale al Palazzo dei Vicari.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Biancaneve, con Maurizio Lombardi
+    start: 2027-03-07T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/biancaneve-teatrodante-carlo-monni-campi-bisenzio
+    summary: Riscrittura della fiaba con Maurizio Lombardi, tra comicita', musica e trasformismo.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Borgo DiVino Wine Festival
+    start: 2026-12-05T10:30
+    end: 2026-12-06T19:30
+    venue: Autodromo Internazionale del Mugello
+    address: Via Bruno Buozzi 15
+    town: Scarperia e San Piero
+    lat: 43.999382
+    lon: 11.372365
+    category: sagre-feste
+    subcategory: degustazioni
+    access: biglietto
+    price: 22 euro
+    official_url: https://www.destinationflorence.com/it/eventi/borgo-divino-scarperia-e-san-piero
+    summary: Festival del vino con banchi d'assaggio di cantine allestito all'Autodromo del Mugello.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Broken. Il potere del frammento
+    start: '2026-09-25'
+    end: '2027-01-24'
+    venue: Palazzo Strozzi
+    address: Piazza degli Strozzi
+    town: Firenze
+    lat: 43.771277
+    lon: 11.251992
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/broken-il-potere-del-frammento
+    summary: Mostra internazionale con oltre ottanta opere sul frammento nella scultura, dall'antichita' all'arte contemporanea.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: California Dreaming
+    start: '2027-03-20'
+    end: '2027-07-25'
+    venue: Palazzo Strozzi
+    address: Piazza degli Strozzi
+    town: Firenze
+    lat: 43.771277
+    lon: 11.251992
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/california-dreaming
+    summary: Mostra sulla California raccontata dall'arte dagli anni Sessanta a oggi, realizzata con il Manetti Shrem Museum di Davis.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Cristus natus est nobis, canto gregoriano del Coro Viri Galilaei
+    start: 2026-12-16T20:30
+    venue: Basilica di Santa Croce
+    address: Piazza di Santa Croce 16
+    town: Firenze
+    lat: 43.768365
+    lon: 11.26302
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/canto-gregoriano-nella-basilica-di-santa-croce-coro-viri-galilaei
+    summary: Concerto di Natale di canto gregoriano del Coro Viri Galilaei diretto da Enzo Ventroni nella Basilica di Santa Croce.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: The Last Aperitivo, Capodanno a Vicchio
+    start: 2026-12-31T18:00
+    venue: Piazza Giotto
+    address: Piazza Giotto
+    town: Vicchio
+    lat: 43.933263
+    lon: 11.465288
+    category: musica
+    subcategory: dj-set
+    official_url: https://www.destinationflorence.com/it/eventi/capodanno-vicchio
+    summary: Festa di fine anno in piazza Giotto con aperitivo e dj set dalle 18.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Castanea Expo 2026
+    start: 2026-12-11T09:30
+    end: 2026-12-13T18:00
+    venue: Fortezza da Basso
+    address: Viale Filippo Strozzi 1
+    town: Firenze
+    lat: 43.781645
+    lon: 11.24886
+    category: business
+    subcategory: fiere-settore
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/castanea-expo-2026
+    summary: Fiera nazionale dedicata alla filiera del castagno e della castanicoltura, organizzata da Firenze Fiera.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: C'era una volta un pezzo di legno... anzi due
+    start: '2026-11-22'
+    end: '2027-01-10'
+    venue: Museo Masaccio d'Arte Sacra
+    address: Piazza San Pietro, Cascia
+    town: Reggello
+    lat: 43.675013
+    lon: 11.529961
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.destinationflorence.com/it/eventi/cera-una-volta-un-pezzo-di-legnoanzi-due-mostra-reggello
+    summary: Mostra per il bicentenario della nascita di Carlo Collodi al Museo Masaccio d'Arte Sacra di Cascia.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: A Christmas Carol, il musical
+    start: 2026-12-07T20:45
+    venue: Teatro Verdi
+    address: Via Ghibellina 99
+    town: Firenze
+    lat: 43.77003
+    lon: 11.26068
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 23 a 46 euro
+    official_url: https://www.destinationflorence.com/it/eventi/christmas-carol-canto-di-natale
+    summary: Musical tratto dal racconto di Dickens con musiche di Alan Menken, regia e coreografie di Fabrizio Angelini.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: A Christmas Carol, il musical
+    start: 2026-12-08T16:45
+    venue: Teatro Verdi
+    address: Via Ghibellina 99
+    town: Firenze
+    lat: 43.77003
+    lon: 11.26068
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 23 a 46 euro
+    official_url: https://www.destinationflorence.com/it/eventi/christmas-carol-canto-di-natale
+    summary: Musical tratto dal racconto di Dickens con musiche di Alan Menken, regia e coreografie di Fabrizio Angelini.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Corpo libero, laboratorio della mostra Broken
+    start: 2026-12-03T15:00
+    venue: Palazzo Strozzi
+    address: Piazza degli Strozzi
+    town: Firenze
+    lat: 43.771277
+    lon: 11.251992
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/corpo-libero-broken
+    summary: Laboratorio gratuito legato alla mostra Broken a Palazzo Strozzi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Corpo libero, laboratorio della mostra Broken
+    start: 2026-12-10T15:00
+    venue: Palazzo Strozzi
+    address: Piazza degli Strozzi
+    town: Firenze
+    lat: 43.771277
+    lon: 11.251992
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/corpo-libero-broken
+    summary: Laboratorio gratuito legato alla mostra Broken a Palazzo Strozzi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Corpo libero, laboratorio della mostra Broken
+    start: 2026-12-17T15:00
+    venue: Palazzo Strozzi
+    address: Piazza degli Strozzi
+    town: Firenze
+    lat: 43.771277
+    lon: 11.251992
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/corpo-libero-broken
+    summary: Laboratorio gratuito legato alla mostra Broken a Palazzo Strozzi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Creative Mani Factory
+    start: 2026-12-06T10:00
+    end: 2026-12-08T19:00
+    venue: Manifattura Tabacchi
+    address: Via delle Cascine 37
+    town: Firenze
+    lat: 43.785478
+    lon: 11.222794
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/creative-mani-factory-alla-manifattura-tabacchi
+    summary: Mercato natalizio di artigianato creativo alla Manifattura Tabacchi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Danielle Mckinney. Tra Noi
+    start: '2026-10-17'
+    end: '2027-02-28'
+    venue: Museo Novecento
+    address: Piazza di Santa Maria Novella 10
+    town: Firenze
+    lat: 43.772866
+    lon: 11.248841
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: da 9 a 13 euro
+    official_url: https://www.destinationflorence.com/it/eventi/danielle-mckinney-tra-noi
+    summary: Mostra dedicata alla pittrice statunitense Danielle Mckinney al Museo Novecento.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Donatella Alamprese Ensemble
+    start: 2026-12-07T21:00
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: da 17,20 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/donatella-alamprese-ensemble-teatro-di-fiesole
+    summary: Concerto dell'ensemble della cantante Donatella Alamprese al Teatro di Fiesole.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Donna non rieducabile
+    start: 2026-12-10T20:30
+    venue: Teatro di Rifredi (Nuovo Rifredi Scena Aperta)
+    address: Via Vittorio Emanuele II 303
+    town: Firenze
+    lat: 43.79554
+    lon: 11.241391
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/donna-non-rieducabile-al-nuovo-rifredi-scena-aperta
+    summary: Spettacolo in scena al Nuovo Rifredi Scena Aperta.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Echi d'Africa, strumenti musicali in dialogo tra le sponde del Mediterraneo
+    start: '2026-11-24'
+    end: '2027-02-10'
+    venue: Galleria dell'Accademia
+    address: Via Ricasoli 58/60
+    town: Firenze
+    lat: 43.776917
+    lon: 11.258758
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/echi-dafrica-strumenti-musicali-dialogo-tra-le-sponde-del-mediterraneo
+    summary: Mostra di strumenti musicali africani e mediterranei alla Galleria dell'Accademia, aperta da martedi' a domenica.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'angelo del focolare, Emma Dante
+    start: 2026-12-13T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/emma-dante-teatrodante-carlo-monni-campi-bisenzio
+    summary: Spettacolo di Emma Dante nella stagione del Teatrodante Carlo Monni.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Firenze Forma Continua 2026, In-naturale
+    start: '2026-11-06'
+    end: '2027-01-06'
+    venue: Museo e Chiostri Monumentali di Santa Maria Novella
+    address: Piazza di Santa Maria Novella 18
+    town: Firenze
+    lat: 43.774651
+    lon: 11.249373
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/firenze-forma-continua-2026-naturale
+    summary: Esposizione d'arte contemporanea negli spazi del Museo di Santa Maria Novella.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Gran Ballo Lorenese a Villa Petraia, Festa della Toscana
+    start: 2026-11-28T19:00
+    venue: Villa Medicea della Petraia
+    address: Via della Petraia 40
+    town: Firenze
+    lat: 43.819422
+    lon: 11.23676
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    price: ingresso alla villa 8 euro
+    official_url: https://www.destinationflorence.com/it/eventi/gran-ballo-lorenese-villa-petraia-festa-della-toscana
+    summary: Ballo in costume in occasione della Festa della Toscana nella villa medicea, con prenotazione obbligatoria.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Il salotto del Carmine
+    start: 2026-11-29T08:00
+    end: 2026-11-29T19:00
+    venue: Piazza del Carmine
+    address: Piazza del Carmine
+    town: Firenze
+    lat: 43.768912
+    lon: 11.244205
+    category: mercatini-fiere
+    subcategory: antiquariato
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/il-salotto-del-carmine
+    summary: Mercatino di antiquariato e oggetti da collezione in piazza del Carmine.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Il Tartufo, Teatro di Fiesole
+    start: '2027-03-09'
+    end: '2027-03-14'
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: da 17,25 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/il-tartufo-teatro-di-fiesole
+    summary: Commedia in replica per sei sere al Teatro di Fiesole.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Intrecci del tempo, dal Tardogotico al Rinascimento
+    start: '2026-11-30'
+    end: '2027-03-01'
+    venue: Museo di Palazzo Davanzati
+    address: Via Porta Rossa 13
+    town: Firenze
+    lat: 43.770131
+    lon: 11.252843
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: 8 euro
+    official_url: https://www.destinationflorence.com/it/eventi/intrecci-del-tempo-dal-tardogotico-al-rinascimento-nello-scrigno-di-palazzo-davanzati
+    summary: Mostra di tessuti e manufatti tra Tardogotico e Rinascimento al Museo di Palazzo Davanzati.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Joulutori, mercato di Natale nordico
+    start: 2026-11-28T10:00
+    end: 2026-11-29T19:00
+    venue: The Social Hub Firenze Lavagnini
+    address: Viale Spartaco Lavagnini 70
+    town: Firenze
+    lat: 43.78248
+    lon: 11.252831
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/joulutori-mercato-di-natale-nordico
+    summary: Mercato di Natale con prodotti e tradizioni dei paesi nordici.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La fabbrica del libro d'artista
+    start: '2026-09-24'
+    end: '2027-01-09'
+    venue: Biblioteca Nazionale Centrale di Firenze
+    address: Piazza dei Cavalleggeri 1
+    town: Firenze
+    lat: 43.767161
+    lon: 11.262229
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/la-fabbrica-del-libro-dartista
+    summary: Mostra sul libro d'artista alla Biblioteca Nazionale Centrale, ingresso da via Magliabechi 2.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La meccanica della fedelta'
+    start: 2026-12-26T16:45
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/la-meccanica-della-fedelta-teatro-di-fiesole
+    summary: Commedia in replica nelle feste di fine anno al Teatro di Fiesole, con serata speciale il 31 dicembre.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La meccanica della gelosia
+    start: 2026-11-28T16:45
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: da 17,25 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/la-meccanica-della-gelosia-teatro-di-fiesole
+    summary: Commedia in scena al Teatro di Fiesole.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La meccanica della gelosia
+    start: 2026-11-28T20:45
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: da 17,25 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/la-meccanica-della-gelosia-teatro-di-fiesole
+    summary: Commedia in scena al Teatro di Fiesole.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La meccanica della gelosia
+    start: 2026-11-29T16:45
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: da 17,25 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/la-meccanica-della-gelosia-teatro-di-fiesole
+    summary: Commedia in scena al Teatro di Fiesole.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'Acqua Cheta, Capodanno con le Seggiole
+    start: 2026-12-31T19:00
+    venue: Teatro Niccolini
+    address: Via Ricasoli 3
+    town: Firenze
+    lat: 43.773801
+    lon: 11.256101
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/lacqua-cheta-capodanno-con-le-seggiole-al-teatro-niccolini
+    summary: La compagnia delle Seggiole porta in scena la commedia L'Acqua Cheta per le feste di fine anno.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'Acqua Cheta, Capodanno con le Seggiole
+    start: 2026-12-31T22:00
+    venue: Teatro Niccolini
+    address: Via Ricasoli 3
+    town: Firenze
+    lat: 43.773801
+    lon: 11.256101
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/lacqua-cheta-capodanno-con-le-seggiole-al-teatro-niccolini
+    summary: La compagnia delle Seggiole porta in scena la commedia L'Acqua Cheta per le feste di fine anno.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'Acqua Cheta, Capodanno con le Seggiole
+    start: 2027-01-03T17:00
+    venue: Teatro Niccolini
+    address: Via Ricasoli 3
+    town: Firenze
+    lat: 43.773801
+    lon: 11.256101
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/lacqua-cheta-capodanno-con-le-seggiole-al-teatro-niccolini
+    summary: La compagnia delle Seggiole porta in scena la commedia L'Acqua Cheta per le feste di fine anno.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'Acqua Cheta, Capodanno con le Seggiole
+    start: 2027-01-06T17:00
+    venue: Teatro Niccolini
+    address: Via Ricasoli 3
+    town: Firenze
+    lat: 43.773801
+    lon: 11.256101
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/lacqua-cheta-capodanno-con-le-seggiole-al-teatro-niccolini
+    summary: La compagnia delle Seggiole porta in scena la commedia L'Acqua Cheta per le feste di fine anno.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'Analfabeta
+    start: 2026-11-28T20:30
+    venue: Teatro di Rifredi (Nuovo Rifredi Scena Aperta)
+    address: Via Vittorio Emanuele II 303
+    town: Firenze
+    lat: 43.79554
+    lon: 11.241391
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 19 euro
+    official_url: https://www.destinationflorence.com/it/eventi/lanalfabeta
+    summary: Spettacolo in scena al Nuovo Rifredi Scena Aperta.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'Analfabeta
+    start: 2026-11-29T16:30
+    venue: Teatro di Rifredi (Nuovo Rifredi Scena Aperta)
+    address: Via Vittorio Emanuele II 303
+    town: Firenze
+    lat: 43.79554
+    lon: 11.241391
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 19 euro
+    official_url: https://www.destinationflorence.com/it/eventi/lanalfabeta
+    summary: Spettacolo in scena al Nuovo Rifredi Scena Aperta.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'angelo della storia
+    start: 2027-01-15T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/langelo-della-storia-teatrodante-carlo-monni-campi-bisenzio
+    summary: Spettacolo nella stagione del Teatrodante Carlo Monni.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'Angolo del Tempo, mercato di antiquariato
+    start: 2026-12-06T09:00
+    venue: Piazza Gramsci
+    address: Piazza Gramsci
+    town: Castelfiorentino
+    lat: 43.605769
+    lon: 10.969174
+    category: mercatini-fiere
+    subcategory: antiquariato
+    official_url: https://www.destinationflorence.com/it/eventi/langolo-del-tempo-mercato-di-antiquariato-castelfiorentino
+    summary: Mercato di antiquariato e collezionismo della prima domenica del mese in piazza Gramsci.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Le pietre dormono all'aperto
+    start: '2026-09-19'
+    end: '2027-01-03'
+    venue: Museo La Specola
+    address: Via Romana 17
+    town: Firenze
+    lat: 43.764578
+    lon: 11.247116
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: 10 euro
+    official_url: https://www.destinationflorence.com/it/eventi/le-pietre-dormono-allaperto
+    summary: Percorso espositivo al Museo La Specola, aperto da martedi' a domenica.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Lezioni di magia per principianti
+    start: 2027-02-06T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/lezioni-di-magia-principianti-teatrodante-carlo-monni-campi-bisenzio
+    summary: Spettacolo nella stagione del Teatrodante Carlo Monni.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'Oro di Londa, festival dell'olio di qualita'
+    start: '2026-12-08'
+    venue: Piazza Umberto I
+    address: Piazza Umberto I
+    town: Londa
+    lat: 43.860311
+    lon: 11.566285
+    category: sagre-feste
+    subcategory: degustazioni
+    official_url: https://www.destinationflorence.com/it/eventi/loro-di-londa-festival-dellolio-di-qualita
+    summary: Festa dell'olio nuovo con assaggi e mercato in piazza a Londa.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Madame in concerto
+    start: 2026-11-30T20:45
+    venue: Teatro Cartiere Carrara
+    address: Via Fabrizio De Andre'
+    town: Firenze
+    lat: 43.76657
+    lon: 11.29602
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: da 49 a 69 euro
+    official_url: https://www.destinationflorence.com/it/eventi/madame
+    summary: Concerto della cantautrice Madame al Teatro Cartiere Carrara.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Magnifico 1492. Collezionismo mediceo a Palazzo Pitti
+    start: '2026-12-03'
+    end: '2027-03-01'
+    venue: Palazzo Pitti
+    address: Piazza de' Pitti 1
+    town: Firenze
+    lat: 43.765281
+    lon: 11.250257
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/magnifico-1492-collezionismo-mediceo-palazzo-pitti
+    summary: Oltre cento opere al Tesoro dei Granduchi ricostruiscono il collezionismo di Lorenzo il Magnifico.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Maria Cassi e Leonardo Brizzi
+    start: 2026-12-03T20:45
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: da 17,25 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/maria-cassi-e-leonardo-brizzi-teatro-di-fiesole
+    summary: Spettacolo comico di Maria Cassi con le musiche di Leonardo Brizzi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Maria Cassi e Leonardo Brizzi
+    start: 2026-12-04T20:45
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: da 17,25 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/maria-cassi-e-leonardo-brizzi-teatro-di-fiesole
+    summary: Spettacolo comico di Maria Cassi con le musiche di Leonardo Brizzi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Maria Cassi e Leonardo Brizzi
+    start: 2026-12-05T20:45
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: da 17,25 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/maria-cassi-e-leonardo-brizzi-teatro-di-fiesole
+    summary: Spettacolo comico di Maria Cassi con le musiche di Leonardo Brizzi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Massimo D'Alema al Teatro di Fiesole
+    start: 2026-12-02T17:00
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: arte-cultura
+    subcategory: incontri-pubblici
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/massimo-dalema-teatro-di-fiesole
+    summary: Incontro pubblico con Massimo D'Alema, a ingresso gratuito con prenotazione.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Matteotti, anatomia di un fascismo
+    start: 2026-12-09T20:30
+    venue: Teatro di Rifredi (Nuovo Rifredi Scena Aperta)
+    address: Via Vittorio Emanuele II 303
+    town: Firenze
+    lat: 43.79554
+    lon: 11.241391
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/matteotti-anatomia-di-un-fascismo
+    summary: Spettacolo sulla figura di Giacomo Matteotti al Nuovo Rifredi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercato di Natale dell'ATT
+    start: 2026-11-28T09:30
+    end: 2026-11-29T19:00
+    venue: Palazzo degli Affari
+    address: Piazza Adua 1
+    town: Firenze
+    lat: 43.778246
+    lon: 11.249993
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.destinationflorence.com/it/eventi/mercatino-di-natale-dellatt-firenze
+    summary: Mercatino natalizio dell'ATT al Palazzo degli Affari.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale di Busajo NGO
+    start: 2026-12-12T10:00
+    end: 2026-12-13T19:00
+    venue: Ex Leopoldine
+    address: Piazza Tasso 7
+    town: Firenze
+    lat: 43.767106
+    lon: 11.240359
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.destinationflorence.com/it/eventi/mercatino-di-natale-di-busajo-ngo
+    summary: Mercatino natalizio solidale alle Ex Leopoldine in piazza Tasso.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale a Saltino Vallombrosa
+    start: 2026-12-05T10:00
+    end: 2026-12-06T18:00
+    venue: Centro Polivalente di Saltino
+    address: Via Giosuè Carducci
+    town: Reggello
+    lat: 43.729121
+    lon: 11.537784
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/mercatino-di-natale-saltino-vallombrosa
+    summary: Mercatino di Natale al centro polivalente di Saltino.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino Vintage in piazza dei Ciompi
+    start: 2026-11-28T09:00
+    end: 2026-11-29T20:00
+    venue: Piazza dei Ciompi
+    address: Piazza dei Ciompi
+    town: Firenze
+    lat: 43.771148
+    lon: 11.264825
+    category: mercatini-fiere
+    subcategory: antiquariato
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/mercatino-vintage-piazza-dei-ciompi
+    summary: Mercatino di abiti e oggetti vintage in piazza dei Ciompi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Moliere. L'arte della beffa
+    start: 2027-02-26T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/moliere-larte-della-beffa-teatrodante-carlo-monni-campi-bisenzio
+    summary: Spettacolo su Moliere nella stagione del Teatrodante Carlo Monni.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Il tempo presente, Figline e Incisa Valdarno ritratto di un territorio
+    start: '2026-11-06'
+    end: '2027-01-06'
+    venue: Palazzo Pretorio
+    address: Piazza Marsilio Ficino
+    town: Figline e Incisa Valdarno
+    lat: 43.618262
+    lon: 11.472676
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/mostra-il-tempo-presente-figline-e-incisa-valdarno-ritratto-di-un-territorio
+    summary: Mostra fotografica sul territorio comunale al Palazzo Pretorio, aperta nei fine settimana e nei festivi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Natale a Castelfalfi
+    start: 2026-12-05T11:00
+    end: 2026-12-08T19:00
+    venue: Borgo di Castelfalfi
+    address: Localita' Castelfalfi
+    town: Montaione
+    lat: 43.54744
+    lon: 10.857272
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/natale-castelfalfi
+    summary: Mercatino e iniziative natalizie nel borgo di Castelfalfi, con prenotazione obbligatoria.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Nataleperfile 2026, il mercato di Natale
+    start: 2026-12-11T10:00
+    end: 2026-12-13T19:00
+    venue: Palazzo Corsini sull'Arno
+    address: Lungarno Corsini 10
+    town: Firenze
+    lat: 43.770479
+    lon: 11.249368
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/nataleperfile-2026-il-mercato-di-natale
+    summary: Mercato di Natale a Palazzo Corsini sull'Arno, ingresso gratuito da Lungarno Corsini 8.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Orlando dopo Orlando, Daniela Comani
+    start: '2026-11-27'
+    end: '2027-02-28'
+    venue: Museo Novecento
+    address: Piazza di Santa Maria Novella 10
+    town: Firenze
+    lat: 43.772866
+    lon: 11.248841
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    price: da 4 a 8 euro
+    official_url: https://www.destinationflorence.com/it/eventi/orlando-dopo-orlando-daniela-comani
+    summary: Mostra dell'artista Daniela Comani al Museo Novecento, chiuso il giovedi'.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Presepe vivente a Santa Brigida
+    start: 2026-12-24T21:30
+    venue: Chiesa di Santa Brigida
+    address: Via Piana
+    town: Pontassieve
+    lat: 43.852379
+    lon: 11.394862
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.destinationflorence.com/it/eventi/presepe-vivente-santa-brigida
+    summary: Rappresentazione del presepe vivente nel borgo di Santa Brigida.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Presepe vivente a Santa Brigida
+    start: 2026-12-26T18:00
+    venue: Chiesa di Santa Brigida
+    address: Via Piana
+    town: Pontassieve
+    lat: 43.852379
+    lon: 11.394862
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.destinationflorence.com/it/eventi/presepe-vivente-santa-brigida
+    summary: Rappresentazione del presepe vivente nel borgo di Santa Brigida.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Presepe vivente a Santa Brigida
+    start: 2027-01-06T18:00
+    venue: Chiesa di Santa Brigida
+    address: Via Piana
+    town: Pontassieve
+    lat: 43.852379
+    lon: 11.394862
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.destinationflorence.com/it/eventi/presepe-vivente-santa-brigida
+    summary: Rappresentazione del presepe vivente nel borgo di Santa Brigida.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Prima della cena, c'e' l'olio n(u)ovo
+    start: 2026-12-06T15:00
+    end: 2026-12-06T20:00
+    venue: Cenacolo di Fuligno
+    address: Via Faenza 42
+    town: Firenze
+    lat: 43.777284
+    lon: 11.251371
+    category: sagre-feste
+    subcategory: degustazioni
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/prima-della-cena-ce-lolio-nuovo
+    summary: Pomeriggio dedicato all'olio nuovo con assaggi e dj set al Cenacolo di Fuligno.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Quadri di Donne 3.0
+    start: 2026-12-03T20:45
+    venue: Teatro dell'Affratellamento
+    address: Via Giampaolo Orsini 73
+    town: Firenze
+    lat: 43.763178
+    lon: 11.275658
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    price: 15 euro
+    official_url: https://www.destinationflorence.com/it/eventi/quadri-di-donne-30
+    summary: Spettacolo al Teatro dell'Affratellamento.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Quarta, Dindo e De Maria, Amici della Musica
+    start: 2026-11-28T16:00
+    venue: Teatro della Pergola
+    address: Via della Pergola 12/32
+    town: Firenze
+    lat: 43.773094
+    lon: 11.261495
+    category: musica
+    subcategory: jazz-classica
+    access: biglietto
+    price: da 5 a 28 euro
+    official_url: https://www.destinationflorence.com/it/eventi/quarta-dindo-e-de-maria-amici-della-musica
+    summary: Trio con Massimo Quarta, Enrico Dindo e Pietro De Maria in musiche di Brahms.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Resto qui
+    start: 2027-02-15T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/resto-qui-teatrodante-carlo-monni-campi-bisenzio
+    summary: Spettacolo nella stagione del Teatrodante Carlo Monni.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ri-emergere. 1966-2026, l'alluvione di Firenze in archivio
+    start: '2026-11-04'
+    end: '2027-02-06'
+    venue: Archivio di Stato di Firenze
+    address: Viale della Giovine Italia 6
+    town: Firenze
+    lat: 43.76902
+    lon: 11.270565
+    category: arte-cultura
+    subcategory: mostre
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/ri-emergere-1966-2026-lalluvione-di-firenze-archivio
+    summary: Mostra documentaria sull'alluvione del 1966 all'Archivio di Stato, a ingresso gratuito su prenotazione.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Rumors, Teatro di Fiesole
+    start: '2027-01-09'
+    end: '2027-01-31'
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    price: da 12 a 28 euro
+    official_url: https://www.destinationflorence.com/it/eventi/rumors-teatro-di-fiesole
+    summary: Commedia in replica per tre settimane al Teatro di Fiesole.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Schiaccianoci, una favola di fiori, neve, confetti e sogni
+    start: 2026-12-12T16:30
+    venue: Teatro Verdi
+    address: Via Ghibellina 99
+    town: Firenze
+    lat: 43.77003
+    lon: 11.26068
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: da 5 a 8 euro
+    official_url: https://www.destinationflorence.com/it/eventi/schiaccianoci-una-favola-di-fiori-neve-confetti-e-sogni
+    summary: Spettacolo per famiglie ispirato allo Schiaccianoci al Teatro Verdi.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Stimmung al Museo Novecento
+    start: '2026-11-07'
+    end: '2027-03-07'
+    venue: Museo Novecento
+    address: Piazza di Santa Maria Novella 10
+    town: Firenze
+    lat: 43.772866
+    lon: 11.248841
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/stimmung-al-museo-novecento-di-firenze-mostra-dal-7-novembre-2026
+    summary: Mostra collettiva al Museo Novecento, chiuso il giovedi'.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Victor Man al Museo Novecento
+    start: '2026-09-26'
+    end: '2027-03-07'
+    venue: Museo Novecento
+    address: Piazza di Santa Maria Novella 10
+    town: Firenze
+    lat: 43.772866
+    lon: 11.248841
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/victor-man-al-museo-novecento
+    summary: Mostra del pittore romeno Victor Man al Museo Novecento.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Visita in LIS alla mostra Broken
+    start: 2026-12-08T17:30
+    end: 2026-12-08T19:00
+    venue: Palazzo Strozzi
+    address: Piazza degli Strozzi
+    town: Firenze
+    lat: 43.771277
+    lon: 11.251992
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/visite-lis-broken
+    summary: Visita gratuita alla mostra Broken in lingua dei segni italiana.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Una storia italiana
+    start: 2026-12-02T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/una-storia-italiana-teatrodante-carlo-monni-campi-bisenzio
+    summary: Spettacolo nella stagione del Teatrodante Carlo Monni.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Gli innamorati
+    start: 2027-01-28T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/gli-innamorati-teatrodante-carlo-monni-campi-bisenzio
+    summary: Spettacolo nella stagione del Teatrodante Carlo Monni.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: La vita e' bella? No, e' un tipo!
+    start: 2027-03-14T21:00
+    venue: Teatrodante Carlo Monni
+    address: Piazza Dante 23
+    town: Campi Bisenzio
+    lat: 43.82095
+    lon: 11.138124
+    category: teatro-spettacoli
+    subcategory: comicita
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/la-vita-e-bella-no-e-un-tipo-teatrodante-carlo-monni-campi-bisenzio
+    summary: Spettacolo nella stagione del Teatrodante Carlo Monni.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: I tre porcellini
+    start: 2026-12-08T16:00
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 9,20 euro
+    official_url: https://www.destinationflorence.com/it/eventi/i-tre-porcellini-teatro-di-fiesole-0
+    summary: Spettacolo per bambini tratto dalla fiaba dei tre porcellini.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Il cigno magico
+    start: 2027-03-07T16:00
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    price: 9,20 euro
+    official_url: https://www.destinationflorence.com/it/eventi/il-cigno-magico-teatro-di-fiesole
+    summary: Spettacolo per bambini al Teatro di Fiesole.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Franco Simone in concerto
+    start: 2027-03-05T21:00
+    venue: Teatro di Fiesole
+    address: Largo Piero Farulli
+    town: Fiesole
+    lat: 43.80782
+    lon: 11.29608
+    category: musica
+    subcategory: concerti
+    access: biglietto
+    price: da 17,25 a 23 euro
+    official_url: https://www.destinationflorence.com/it/eventi/franco-simone-teatro-di-fiesole
+    summary: Concerto del cantautore Franco Simone al Teatro di Fiesole.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: I leoni di Firenze
+    start: '2026-10-27'
+    end: '2027-01-18'
+    venue: Palazzo Vecchio
+    address: Piazza della Signoria
+    town: Firenze
+    lat: 43.769144
+    lon: 11.256139
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/i-leoni-di-firenze
+    summary: Mostra nella Sala dei Gigli sul leone come simbolo della citta', dal Marzocco alla Repubblica fiorentina.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Oltre il Rinascimento. Tra Durer e Parmigianino
+    start: '2026-09-10'
+    end: '2027-01-10'
+    venue: Palazzo Medici Riccardi
+    address: Via Cavour 3
+    town: Firenze
+    lat: 43.775267
+    lon: 11.255661
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/oltre-il-rinascimento-tra-durer-e-parmigianino
+    summary: Mostra promossa dalla Citta' Metropolitana a Palazzo Medici Riccardi con opere da Durer a Parmigianino.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'anima dei marmi e le visioni del Simbolismo
+    start: '2026-12-15'
+    end: '2027-05-02'
+    venue: Galleria dell'Accademia
+    address: Via Ricasoli 58/60
+    town: Firenze
+    lat: 43.776917
+    lon: 11.258758
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/lanima-dei-marmi-e-le-visioni-del-simbolismo
+    summary: Mostra sulle influenze di Michelangelo sugli artisti del Simbolismo tra Otto e Novecento.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Geografia dei piccoli mondi
+    start: '2026-10-03'
+    end: '2027-01-08'
+    venue: Museo La Specola
+    address: Via Romana 17
+    town: Firenze
+    lat: 43.764578
+    lon: 11.247116
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/geografia-dei-piccoli-mondi
+    summary: Mostra al Museo La Specola, aperta da martedi' a domenica.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Georgofili 4 novembre 1966, mostra fotografica
+    start: '2026-09-25'
+    end: '2026-12-17'
+    venue: Accademia dei Georgofili
+    address: Logge degli Uffizi Corti
+    town: Firenze
+    lat: 43.76868
+    lon: 11.254981
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.destinationflorence.com/it/eventi/georgofili-4-novembre-1966-mostra-fotografica
+    summary: Mostra fotografica sull'alluvione del 1966 all'Accademia dei Georgofili, aperta nei giorni feriali.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ferdinando Sarmi New York, un viaggio nella moda da Firenze alla Fifth Avenue
+    start: '2026-06-18'
+    end: '2026-12-31'
+    venue: Palazzo Pitti
+    address: Piazza de' Pitti 1
+    town: Firenze
+    lat: 43.765281
+    lon: 11.250257
+    category: arte-cultura
+    subcategory: mostre
+    access: biglietto
+    official_url: https://www.destinationflorence.com/it/eventi/ferdinando-sarmi-new-york-un-viaggio-nella-moda-da-firenze-alla-fifth-avenue
+    summary: Mostra sullo stilista Ferdinando Sarmi al Museo della Moda e del Costume di Palazzo Pitti.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Laboratori del Museo Ginori
+    start: 2026-12-20T10:30
+    end: 2026-12-20T12:15
+    venue: Biblioteca Ernesto Ragionieri
+    address: Via Antonio Gramsci
+    town: Sesto Fiorentino
+    lat: 43.834145
+    lon: 11.200071
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/laboratori-del-museo-ginori-sesto-fiorentino
+    summary: Laboratorio gratuito del Museo Ginori alla Biblioteca Ragionieri, con prenotazione.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Tutti al Museo! Le domeniche in famiglia
+    start: 2026-11-29T16:00
+    end: 2026-11-29T18:00
+    venue: Museo della Ceramica
+    address: Piazza Vittorio Veneto 10
+    town: Montelupo Fiorentino
+    lat: 43.734805
+    lon: 11.022896
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: biglietto
+    price: 10 euro adulti, 5 euro bambini
+    official_url: https://www.destinationflorence.com/it/eventi/tutti-al-museo-le-domeniche-famiglia-montelupo-fiorentino
+    summary: Visita guidata e attivita' per famiglie al Museo della Ceramica.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Natale in 3D, una domenica con Leonardo
+    start: 2026-12-13T15:30
+    venue: Museo Leonardiano
+    address: Piazza dei Guidi
+    town: Vinci
+    lat: 43.786755
+    lon: 10.927115
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: biglietto
+    price: 5 euro
+    official_url: https://www.destinationflorence.com/it/eventi/una-domenica-con-leonardo-natale-3d-vinci
+    summary: Attivita' natalizia per famiglie al Museo Leonardiano.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Natale in Corso a Barberino di Mugello
+    start: '2026-12-08'
+    venue: Piazza Cavour
+    address: Piazza Cavour
+    town: Barberino di Mugello
+    lat: 43.99957
+    lon: 11.239038
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.destinationflorence.com/it/eventi/natale-corso-barberino-del-mugello
+    summary: Giornata di festa natalizia in centro a Barberino di Mugello.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Natale in Corso a Barberino di Mugello
+    start: '2026-12-13'
+    venue: Piazza Cavour
+    address: Piazza Cavour
+    town: Barberino di Mugello
+    lat: 43.99957
+    lon: 11.239038
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.destinationflorence.com/it/eventi/natale-corso-barberino-del-mugello
+    summary: Giornata di festa natalizia in centro a Barberino di Mugello.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Natale in Corso a Barberino di Mugello
+    start: '2026-12-20'
+    venue: Piazza Cavour
+    address: Piazza Cavour
+    town: Barberino di Mugello
+    lat: 43.99957
+    lon: 11.239038
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.destinationflorence.com/it/eventi/natale-corso-barberino-del-mugello
+    summary: Giornata di festa natalizia in centro a Barberino di Mugello.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Firenze Marathon 2026
+    start: 2026-11-29T08:30
+    venue: Piazza del Duomo
+    address: Piazza del Duomo
+    town: Firenze
+    lat: 43.773101
+    lon: 11.255477
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/firenze-marathon-2026
+    summary: Maratona internazionale con partenza e arrivo in piazza del Duomo.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Casa dolce casa
+    start: 2026-11-28T21:00
+    venue: Limonaia di Villa Vogel
+    address: Via delle Torri 23
+    town: Firenze
+    lat: 43.775731
+    lon: 11.205745
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/casa-dolce-casa-alla-limonaia-di-villa-vogel
+    summary: Monologo di Silvia Nanni con Laura Calamassi, regia di Claudio Benvenuti, sulla violenza assistita; ingresso gratuito.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Casa dolce casa
+    start: 2026-11-29T21:00
+    venue: Limonaia di Villa Vogel
+    address: Via delle Torri 23
+    town: Firenze
+    lat: 43.775731
+    lon: 11.205745
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: libero
+    official_url: https://www.destinationflorence.com/it/eventi/casa-dolce-casa-alla-limonaia-di-villa-vogel
+    summary: Monologo di Silvia Nanni con Laura Calamassi, regia di Claudio Benvenuti, sulla violenza assistita; ingresso gratuito.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Visita in LIS alla Specola
+    start: 2026-12-05T11:00
+    venue: Museo La Specola
+    address: Via Romana 17
+    town: Firenze
+    lat: 43.764578
+    lon: 11.247116
+    category: arte-cultura
+    subcategory: visite
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/giornata-internazionale-i-diritti-delle-persone-con-disabilita-la-specola
+    summary: Visita con interprete LIS per la Giornata internazionale dei diritti delle persone con disabilita'.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Visita gioco per famiglie alla Specola
+    start: 2026-12-05T15:00
+    venue: Museo La Specola
+    address: Via Romana 17
+    town: Firenze
+    lat: 43.764578
+    lon: 11.247116
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://www.destinationflorence.com/it/eventi/giornata-internazionale-i-diritti-delle-persone-con-disabilita-la-specola
+    summary: Visita gioco per famiglie con bambini dai 6 agli 11 anni per la Giornata dei diritti delle persone con disabilita'.
+    fonte: https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Le Casine di Natale
+    start: '2026-11-28'
+    end: '2027-01-06'
+    venue: Piazza Vittorio Emanuele II
+    address: Piazza Vittorio Emanuele II
+    town: Pisa
+    lat: 43.710665
+    lon: 10.398979
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Casette in legno con decorazioni, idee regalo e specialita' delle feste tra piazza Vittorio Emanuele, Logge di Banchi e largo Ciro Menotti.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Gran Festival del Cioccolato e del Gusto
+    start: '2026-11-28'
+    end: '2026-12-29'
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Pisa
+    lat: 43.716443
+    lon: 10.402228
+    category: sagre-feste
+    subcategory: degustazioni
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Fabbrica del cioccolato in piazza Garibaldi con maestri cioccolatieri, corsi per adulti nei fine settimana, laboratori per bambini e show cooking alle 12 e alle 19.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: La Casa di Babbo Natale
+    start: 2026-11-28T10:00
+    end: 2026-12-29T20:00
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Pisa
+    lat: 43.716443
+    lon: 10.402228
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Casetta di Babbo Natale in piazza Garibaldi per consegnare le letterine e scattare una foto, aperta ogni giorno dalle 10 alle 20.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Mercatino dell'Arte e dell'Ingegno
+    start: '2026-12-18'
+    end: '2026-12-24'
+    venue: Via San Francesco
+    address: Via San Francesco
+    town: Pisa
+    lat: 43.718722
+    lon: 10.409633
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Mercatino dell'artigianato creativo e dei manufatti fatti a mano da artigiani del territorio in via San Francesco.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Pista di pattinaggio sul ghiaccio
+    start: '2026-11-28'
+    end: '2027-01-06'
+    venue: Largo Uliano Martini
+    address: Largo Uliano Martini
+    town: Pisa
+    lat: 43.710909
+    lon: 10.396719
+    category: sport
+    subcategory: altri-sport
+    access: biglietto
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Pista di pattinaggio aperta ogni giorno in largo Uliano Martini, vicino a via Bixio.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Foto ricordo nella Snow Globe
+    start: 2026-11-28T15:00
+    venue: Borgo Stretto
+    address: Borgo Stretto
+    town: Pisa
+    lat: 43.717426
+    lon: 10.402247
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Set fotografico natalizio con una grande Snow Globe in Borgo Stretto.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: I giochi di una volta
+    start: 2026-11-28T15:00
+    venue: Piazza XX Settembre
+    address: Piazza XX Settembre
+    town: Pisa
+    lat: 43.715398
+    lon: 10.401601
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Pomeriggio di giochi tradizionali in piazza XX Settembre.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: La Famiglia Danzante
+    start: 2026-11-28T17:00
+    venue: Largo Ciro Menotti
+    address: Largo Ciro Menotti
+    town: Pisa
+    lat: 43.717765
+    lon: 10.402419
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Spettacolo itinerante della Famiglia Danzante in largo Ciro Menotti.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Inaugurazione di Pisa Citta' del Natale
+    start: 2026-11-29T10:00
+    venue: Logge di Banchi
+    address: Piazza XX Settembre
+    town: Pisa
+    lat: 43.71522
+    lon: 10.401414
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Apertura ufficiale del programma natalizio alle Logge di Banchi con Cecilia Capriotti.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Un tuffo nel passato con i Mastri nel Tempo
+    start: 2026-11-29T10:00
+    end: 2026-11-29T17:00
+    venue: Parco della Cittadella
+    address: Lungarno Ranieri Simonelli
+    town: Pisa
+    lat: 43.715076
+    lon: 10.389491
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Rievocazione degli antichi mestieri con artigiani in abiti d'epoca al Parco della Cittadella.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: La Casa Albero di Babbo Natale
+    start: 2026-11-29T15:00
+    venue: Borgo Stretto
+    address: Borgo Stretto
+    town: Pisa
+    lat: 43.717426
+    lon: 10.402247
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Appuntamento per bambini alla Casa Albero con il trono di Babbo Natale in Borgo Stretto.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: I Musici, sfilata storica
+    start: 2026-11-29T16:30
+    venue: Piazza Vittorio Emanuele II
+    address: Piazza Vittorio Emanuele II
+    town: Pisa
+    lat: 43.710665
+    lon: 10.398979
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Sfilata storica da piazza Vittorio Emanuele lungo Corso Italia, Borgo Stretto e Borgo Largo.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: The Christmas Crackers, street band
+    start: 2026-12-05T17:00
+    venue: Piazza Cairoli
+    address: Piazza Cairoli
+    town: Pisa
+    lat: 43.716011
+    lon: 10.403674
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Street band natalizia itinerante tra piazza Cairoli, piazza delle Vettovaglie, Borgo e piazza Dante.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Il mago delle Bolle Giganti
+    start: 2026-12-06T11:00
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Pisa
+    lat: 43.716443
+    lon: 10.402228
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Spettacolo di bolle di sapone giganti in piazza Garibaldi.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: 'Piazza in scena: Vivi la piazza'
+    start: 2026-12-06T11:00
+    end: 2026-12-06T19:00
+    venue: Piazza Dante Alighieri
+    address: Piazza Dante Alighieri
+    town: Pisa
+    lat: 43.717745
+    lon: 10.399052
+    category: musica
+    subcategory: dj-set
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Dj set in piazza Dante dalle 11 alle 13.30 e dalle 16 alle 19.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Il mago delle Bolle Giganti a Riglione
+    start: 2026-12-06T16:00
+    venue: Riglione
+    address: Riglione
+    town: Pisa
+    lat: 43.696506
+    lon: 10.448149
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Spettacolo di bolle di sapone giganti nel quartiere di Riglione.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: I Karacongioli
+    start: 2026-12-06T16:00
+    venue: Piazza delle Vettovaglie
+    address: Piazza delle Vettovaglie
+    town: Pisa
+    lat: 43.716972
+    lon: 10.401783
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Animazione itinerante dei Karacongioli tra Borgo e piazza delle Vettovaglie.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Babbo Natale, gli elfi e il dj set natalizio
+    start: 2026-12-06T17:00
+    venue: Piazza delle Vettovaglie
+    address: Piazza delle Vettovaglie
+    town: Pisa
+    lat: 43.716972
+    lon: 10.401783
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Arrivo di Babbo Natale con gli elfi accompagnato da un dj set in piazza delle Vettovaglie.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Barbadicapra e il suo Fisarmoniciclo
+    start: 2026-12-06T17:00
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Pisa
+    lat: 43.716443
+    lon: 10.402228
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Musica itinerante con il Fisarmoniciclo da piazza Garibaldi a Borgo Stretto, Borgo Largo e largo Ciro Menotti.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Giochi in legno per tutte le eta'
+    start: 2026-12-08T11:00
+    venue: Piazza Dante Alighieri
+    address: Piazza Dante Alighieri
+    town: Pisa
+    lat: 43.717745
+    lon: 10.399052
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Giochi in legno per grandi e piccoli in piazza Dante.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Gli Archimossi
+    start: '2026-12-08'
+    venue: Piazza Vittorio Emanuele II
+    address: Piazza Vittorio Emanuele II
+    town: Pisa
+    lat: 43.710665
+    lon: 10.398979
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Orchestra d'archi amplificata itinerante tra piazza Vittorio Emanuele, Corso Italia, piazza XX Settembre e piazza Garibaldi.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Gospel Groove
+    start: 2026-12-12T16:00
+    end: 2026-12-12T18:00
+    venue: Chiesa di San Michele in Borgo
+    address: Borgo Stretto
+    town: Pisa
+    lat: 43.716949
+    lon: 10.402771
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Concerto gospel nella chiesa di San Michele in Borgo.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Karacongioli tra Corso Italia e via San Martino
+    start: 2026-12-12T16:30
+    venue: Corso Italia
+    address: Corso Italia
+    town: Pisa
+    lat: 43.713057
+    lon: 10.400165
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Animazione itinerante dei Karacongioli tra Corso Italia e via San Martino.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: La Famiglia Danzante in piazza Chiara Gambacorti
+    start: 2026-12-12T17:00
+    venue: Piazza Chiara Gambacorti
+    address: Piazza Chiara Gambacorti
+    town: Pisa
+    lat: 43.714238
+    lon: 10.401476
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Spettacolo della Famiglia Danzante in piazza Chiara Gambacorti.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Tavoletta di Cioccolato da Guinness
+    start: 2026-12-12T17:00
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Pisa
+    lat: 43.716443
+    lon: 10.402228
+    category: sagre-feste
+    subcategory: degustazioni
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Realizzazione di una tavoletta di cioccolato da record tra piazza Garibaldi e il Ponte di Mezzo.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: La slitta di Babbo Natale
+    start: 2026-12-13T16:30
+    venue: Piazza Vittorio Emanuele II
+    address: Piazza Vittorio Emanuele II
+    town: Pisa
+    lat: 43.710665
+    lon: 10.398979
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: La slitta di Babbo Natale percorre piazza Vittorio Emanuele, Corso Italia e piazza XX Settembre.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Street Band di Natale
+    start: 2026-12-13T16:30
+    venue: Borgo Stretto
+    address: Borgo Stretto
+    town: Pisa
+    lat: 43.717426
+    lon: 10.402247
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Street band natalizia tra Borgo Largo e Borgo Stretto.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: L'Albero di Natale in Cioccolato
+    start: 2026-12-19T15:00
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Pisa
+    lat: 43.716443
+    lon: 10.402228
+    category: sagre-feste
+    subcategory: degustazioni
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Creazione di un albero di Natale di cioccolato in piazza Garibaldi.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Laboratorio di Natale
+    start: 2026-12-19T16:00
+    venue: Piazza Chiara Gambacorti
+    address: Piazza Chiara Gambacorti
+    town: Pisa
+    lat: 43.714238
+    lon: 10.401476
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Laboratorio del riciclo in cui i bambini realizzano addobbi natalizi con materiali di recupero.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Gli acrobati del Natale
+    start: 2026-12-19T17:00
+    venue: Palazzo Pretorio, Torre dell'Orologio
+    address: Lungarno Galileo Galilei
+    town: Pisa
+    lat: 43.715192
+    lon: 10.402188
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Esibizione acrobatica di Babbi Natale ed elfi calati dalla Torre dell'Orologio di Palazzo Pretorio.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: 'Piazza in scena: Vivi la piazza'
+    start: 2026-12-20T11:00
+    end: 2026-12-20T19:00
+    venue: Piazza Dante Alighieri
+    address: Piazza Dante Alighieri
+    town: Pisa
+    lat: 43.717745
+    lon: 10.399052
+    category: musica
+    subcategory: dj-set
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Dj set in piazza Dante dalle 11 alle 13.30 e dalle 16 alle 19.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Magia del Natale sul litorale a Marina di Pisa
+    start: 2026-12-20T15:00
+    venue: Piazza Sardegna, Marina di Pisa
+    address: Piazza Sardegna
+    town: Pisa
+    lat: 43.663305
+    lon: 10.278469
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Pomeriggio natalizio in piazza Sardegna con Babbo Natale che arriva a nuoto dal mare e giri sui pony.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Dj set e arrivo di Babbo Natale con gli elfi
+    start: 2026-12-20T16:30
+    venue: Piazza delle Vettovaglie
+    address: Piazza delle Vettovaglie
+    town: Pisa
+    lat: 43.716972
+    lon: 10.401783
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Pomeriggio di musica con Babbo Natale e gli elfi in piazza delle Vettovaglie.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: The Christmas Crackers tra via San Martino e Corso Italia
+    start: 2026-12-20T17:00
+    venue: Corso Italia
+    address: Corso Italia
+    town: Pisa
+    lat: 43.713057
+    lon: 10.400165
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Street band natalizia itinerante tra via San Martino e Corso Italia.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Spettacolo di mimo e fantasia
+    start: 2026-12-20T17:00
+    venue: Piazza XX Settembre
+    address: Piazza XX Settembre
+    town: Pisa
+    lat: 43.715398
+    lon: 10.401601
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Spettacolo di mimo in piazza XX Settembre.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Magia del Natale sul litorale a Tirrenia
+    start: 2026-12-23T15:00
+    venue: Piazza Belvedere, Tirrenia
+    address: Piazza Belvedere
+    town: Pisa
+    lat: 43.627394
+    lon: 10.291575
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Pomeriggio natalizio per bambini in piazza Belvedere a Tirrenia.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Trampolieri di Babbo Natale
+    start: 2026-12-24T15:00
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Pisa
+    lat: 43.716443
+    lon: 10.402228
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Trampolieri natalizi itineranti da piazza Garibaldi a Borgo Stretto e Borgo Largo.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Il Carillon Vivente
+    start: 2026-12-24T15:30
+    venue: Piazza Vittorio Emanuele II
+    address: Piazza Vittorio Emanuele II
+    town: Pisa
+    lat: 43.710665
+    lon: 10.398979
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Carillon itinerante con una ballerina su un pianoforte a coda illuminato tra piazza Vittorio Emanuele, Corso Italia e piazza XX Settembre.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Aspettando la Befana
+    start: '2026-12-26'
+    venue: Largo Ciro Menotti
+    address: Largo Ciro Menotti
+    town: Pisa
+    lat: 43.717765
+    lon: 10.402419
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Appuntamento dedicato all'attesa della Befana in largo Ciro Menotti.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Spettacolo di magia e illusionismo
+    start: 2026-12-27T17:00
+    venue: Largo Ciro Menotti
+    address: Largo Ciro Menotti
+    town: Pisa
+    lat: 43.717765
+    lon: 10.402419
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Spettacolo di magia e illusionismo in largo Ciro Menotti.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: La Mega Calza della Befana in Cioccolato
+    start: 2027-01-02T17:00
+    venue: Largo Ciro Menotti
+    address: Largo Ciro Menotti
+    town: Pisa
+    lat: 43.717765
+    lon: 10.402419
+    category: sagre-feste
+    subcategory: degustazioni
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Realizzazione di una grande calza della Befana di cioccolato in largo Ciro Menotti.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: 'Aspettando la Befana: laboratorio calze'
+    start: '2027-01-03'
+    venue: Piazza XX Settembre
+    address: Piazza XX Settembre
+    town: Pisa
+    lat: 43.715398
+    lon: 10.401601
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Laboratorio per preparare le calze della Befana in piazza XX Settembre.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Piccolo mercatino degli artigiani
+    start: '2027-01-03'
+    venue: Parco della Cittadella
+    address: Lungarno Ranieri Simonelli
+    town: Pisa
+    lat: 43.715076
+    lon: 10.389491
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Mercatino degli artigiani al Parco della Cittadella.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: La Befana del Vigile Urbano
+    start: '2027-01-06'
+    venue: Piazza Garibaldi
+    address: Piazza Garibaldi
+    town: Pisa
+    lat: 43.716443
+    lon: 10.402228
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://eventi.pisamo.it/pisa-citta-del-natale/
+    summary: Raduno e sfilata di befane in Vespa tra piazza Garibaldi e il Ponte di Mezzo, a cura del Vespa Club.
+    fonte: https://eventi.pisamo.it/pisa-citta-del-natale/ (programma ufficiale Comune di Pisa e Pisamo, letto il 2026-11-28); https://www.turismo.pisa.it/eventi/Pisa-citt%C3%A0-del-Natale-2026
+    trovato: '2026-11-28'
+  - title: Fiera di Natale 2026
+    start: 2026-11-28T08:00
+    end: 2026-12-24T20:00
+    venue: Piazza della Vittoria
+    address: Piazza della Vittoria
+    town: Genova
+    lat: 44.403074
+    lon: 8.944988
+    category: mercatini-fiere
+    subcategory: fiere
+    official_url: https://www.visitgenoa.it/it/fiera-di-natale-2026
+    summary: Fiera natalizia in piazza della Vittoria con artigianato, abbigliamento, idee regalo e prodotti gastronomici, aperta dalle 8 alle 20.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale in piazza Matteotti
+    start: '2026-11-28'
+    end: '2026-12-24'
+    venue: Piazza Matteotti
+    address: Piazza Giacomo Matteotti
+    town: Genova
+    lat: 44.407103
+    lon: 8.93256
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.visitgenoa.it/it/mercatino-di-natale-piazza-matteotti-2026
+    summary: Casette in legno con abbigliamento, pelletteria, artigianato e prodotti enogastronomici in piazza Matteotti.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Fiera del Libro, edizione invernale 2026
+    start: 2026-11-28T08:00
+    end: 2027-01-06T20:00
+    venue: Galleria Mazzini
+    address: Galleria Giuseppe Mazzini
+    town: Genova
+    lat: 44.408458
+    lon: 8.935257
+    category: mercatini-fiere
+    subcategory: fiere
+    official_url: https://www.visitgenoa.it/it/fiera-del-libro-edizione-invernale-2026
+    summary: Bancarelle di libri nuovi, usati e antichi, dischi e stampe in Galleria Mazzini, con incontri e visite guidate gratuite; la fiera compie cento anni.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino di San Nicola 2026
+    start: '2026-11-28'
+    end: '2026-12-23'
+    venue: Piazza Piccapietra
+    address: Piazza Piccapietra
+    town: Genova
+    lat: 44.408207
+    lon: 8.936321
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.visitgenoa.it/it/mercatino-di-san-nicola-2026
+    summary: Trentasettesima edizione del mercatino solidale con oltre cento associazioni del Terzo Settore in piazza Piccapietra.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Cactus Market Christmas Edition
+    start: 2026-12-05T10:30
+    end: 2026-12-22T19:00
+    venue: Giardini Luzzati
+    address: Giardini Emanuele Luzzati
+    town: Genova
+    lat: 44.405418
+    lon: 8.932275
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.visitgenoa.it/it/cactus-market-christmas-edition-2026
+    summary: Mercato di artigianato indipendente e autoproduzioni sotto il tendone dei Giardini Luzzati, aperto ogni giorno dalle 10.30 alle 19.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatale 2026
+    start: 2026-12-05T09:00
+    end: 2026-12-23T20:00
+    venue: Piazza De Ferrari
+    address: Piazza Raffaele De Ferrari
+    town: Genova
+    lat: 44.407369
+    lon: 8.933935
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.visitgenoa.it/it/mercatale-2026
+    summary: Mercatino natalizio della CNA con casette in legno di produttori locali in piazza De Ferrari, aperto dalle 9 alle 20.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Winter Park Genova 2026
+    start: 2026-12-05T15:00
+    end: '2027-01-17'
+    venue: Ponte Parodi
+    address: Ponte Parodi
+    town: Genova
+    lat: 44.412308
+    lon: 8.921616
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    official_url: https://www.visitgenoa.it/it/winter-park-genova-2026
+    summary: Luna park invernale con oltre cento attrazioni a Ponte Parodi, aperto dalle 15 alle 24 nei feriali e dalle 10.30 nei festivi; accesso dalla Darsena.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Natale al Porto Antico 2026
+    start: '2026-12-05'
+    end: '2027-01-10'
+    venue: Porto Antico
+    address: Calata Falcone e Borsellino
+    town: Genova
+    lat: 44.40937
+    lon: 8.927403
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.visitgenoa.it/it/natale-al-porto-antico-2026
+    summary: Calendario natalizio al Porto Antico con albero, luminarie, pista di pattinaggio in piazza delle Feste e spettacoli.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Circumnavigando Festival al Porto Antico
+    start: '2026-12-26'
+    end: '2027-01-06'
+    venue: Porto Antico
+    address: Calata Falcone e Borsellino
+    town: Genova
+    lat: 44.40937
+    lon: 8.927403
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    official_url: https://www.visitgenoa.it/it/natale-al-porto-antico-2026
+    summary: Spettacoli di circo contemporaneo e arti di strada del Circumnavigando Festival al Porto Antico durante le feste.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Chico Natale
+    start: 2026-12-05T11:00
+    venue: Villa Pallavicino delle Peschiere
+    address: Via San Bartolomeo degli Armeni
+    town: Genova
+    lat: 44.410871
+    lon: 8.942087
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: iscrizione
+    official_url: https://www.visitgenoa.it/it/chico-natale
+    summary: Spettacolo di Francesco Taverna sulla Genova di Charles Dickens e il Canto di Natale, nella villa dove lo scrittore soggiorno' nel 1844; su prenotazione.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Accensione dell'albero di Natale in piazza De Ferrari
+    start: 2026-12-08T17:00
+    venue: Piazza De Ferrari
+    address: Piazza Raffaele De Ferrari
+    town: Genova
+    lat: 44.407369
+    lon: 8.933935
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.visitgenoa.it/it/accensione-albero-di-natale-2026
+    summary: Spettacolo musicale con il Coro di voci bianche del Teatro Carlo Felice e accensione dell'albero di sedici metri.
+    fonte: https://www.lavocedigenova.it/2026/11/28/leggi-notizia/argomenti/eventi-8/articolo/anche-chico-il-cane-influencer-tra-i-protagonisti-del-natale-genovese-carillon-umani-presepe-ga.html (presentazione del Comune del 28/11/2026)
+    trovato: '2026-11-28'
+  - title: La Casa di Babbo Natale a Palazzo Tursi
+    start: 2026-12-17T15:00
+    end: 2026-12-24T18:00
+    venue: Palazzo Tursi
+    address: Via Garibaldi 9
+    town: Genova
+    lat: 44.411524
+    lon: 8.93253
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://www.visitgenoa.it/it/la-casa-di-babbo-natale-2026
+    summary: Nell'atrio di Palazzo Tursi Babbo Natale, gli elfi, l'ufficio postale per le letterine e laboratori; ingresso con prenotazione su VisitGenoa dal 9 dicembre.
+    fonte: https://www.lavocedigenova.it/2026/11/28/leggi-notizia/argomenti/eventi-8/articolo/anche-chico-il-cane-influencer-tra-i-protagonisti-del-natale-genovese-carillon-umani-presepe-ga.html (presentazione del Comune del 28/11/2026)
+    trovato: '2026-11-28'
+  - title: Carillon umano in via Garibaldi
+    start: '2026-12-16'
+    venue: Via Garibaldi
+    address: Via Garibaldi
+    town: Genova
+    lat: 44.411524
+    lon: 8.93253
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://www.visitgenoa.it/it/la-casa-di-babbo-natale-2026
+    summary: Spettacolo itinerante con un pianoforte in movimento e una ballerina lungo via Garibaldi.
+    fonte: https://www.lavocedigenova.it/2026/11/28/leggi-notizia/argomenti/eventi-8/articolo/anche-chico-il-cane-influencer-tra-i-protagonisti-del-natale-genovese-carillon-umani-presepe-ga.html (presentazione del Comune del 28/11/2026)
+    trovato: '2026-11-28'
+  - title: Carillon umano in via Garibaldi
+    start: '2026-12-17'
+    venue: Via Garibaldi
+    address: Via Garibaldi
+    town: Genova
+    lat: 44.411524
+    lon: 8.93253
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://www.visitgenoa.it/it/la-casa-di-babbo-natale-2026
+    summary: Spettacolo itinerante con un pianoforte in movimento e una ballerina lungo via Garibaldi.
+    fonte: https://www.lavocedigenova.it/2026/11/28/leggi-notizia/argomenti/eventi-8/articolo/anche-chico-il-cane-influencer-tra-i-protagonisti-del-natale-genovese-carillon-umani-presepe-ga.html (presentazione del Comune del 28/11/2026)
+    trovato: '2026-11-28'
+  - title: Trampolieri luminosi in via Garibaldi
+    start: '2026-12-19'
+    venue: Via Garibaldi
+    address: Via Garibaldi
+    town: Genova
+    lat: 44.411524
+    lon: 8.93253
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://www.visitgenoa.it/it/la-casa-di-babbo-natale-2026
+    summary: Spettacolo itinerante di trampolieri luminosi lungo via Garibaldi.
+    fonte: https://www.lavocedigenova.it/2026/11/28/leggi-notizia/argomenti/eventi-8/articolo/anche-chico-il-cane-influencer-tra-i-protagonisti-del-natale-genovese-carillon-umani-presepe-ga.html (presentazione del Comune del 28/11/2026)
+    trovato: '2026-11-28'
+  - title: Trampolieri luminosi in via Garibaldi
+    start: '2026-12-20'
+    venue: Via Garibaldi
+    address: Via Garibaldi
+    town: Genova
+    lat: 44.411524
+    lon: 8.93253
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://www.visitgenoa.it/it/la-casa-di-babbo-natale-2026
+    summary: Spettacolo itinerante di trampolieri luminosi lungo via Garibaldi.
+    fonte: https://www.lavocedigenova.it/2026/11/28/leggi-notizia/argomenti/eventi-8/articolo/anche-chico-il-cane-influencer-tra-i-protagonisti-del-natale-genovese-carillon-umani-presepe-ga.html (presentazione del Comune del 28/11/2026)
+    trovato: '2026-11-28'
+  - title: Trampolieri luminosi in via Garibaldi
+    start: '2026-12-23'
+    venue: Via Garibaldi
+    address: Via Garibaldi
+    town: Genova
+    lat: 44.411524
+    lon: 8.93253
+    category: teatro-spettacoli
+    subcategory: circo-magia
+    access: libero
+    official_url: https://www.visitgenoa.it/it/la-casa-di-babbo-natale-2026
+    summary: Spettacolo itinerante di trampolieri luminosi lungo via Garibaldi.
+    fonte: https://www.lavocedigenova.it/2026/11/28/leggi-notizia/argomenti/eventi-8/articolo/anche-chico-il-cane-influencer-tra-i-protagonisti-del-natale-genovese-carillon-umani-presepe-ga.html (presentazione del Comune del 28/11/2026)
+    trovato: '2026-11-28'
+  - title: Cerimonia del Confeugo 2026
+    start: 2026-12-19T16:00
+    venue: Piazza De Ferrari
+    address: Piazza Raffaele De Ferrari
+    town: Genova
+    lat: 44.407369
+    lon: 8.933935
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.visitgenoa.it/it/cerimonia-del-confeugo-2026
+    summary: Corteo storico da piazza Caricamento a piazza De Ferrari con l'accensione del ceppo d'alloro, poi rievocazioni nel Salone del Maggior Consiglio di Palazzo Ducale, con A Compagna.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Capodanno 2027 con Max Pezzali
+    start: '2026-12-31'
+    venue: Piazza della Vittoria
+    address: Piazza della Vittoria
+    town: Genova
+    lat: 44.403074
+    lon: 8.944988
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://www.visitgenoa.it/it/capodanno-2027-genova-con-max-pezzali
+    summary: Concerto gratuito di Max Pezzali in piazza della Vittoria per la notte di Capodanno.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Arriva la Befana 2027
+    start: 2027-01-06T15:00
+    venue: Piazza Matteotti
+    address: Piazza Giacomo Matteotti
+    town: Genova
+    lat: 44.407103
+    lon: 8.93256
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.visitgenoa.it/it/arriva-la-befana-2027
+    summary: La Befana scende in piazza Matteotti e distribuisce caramelle e dolci ai bambini.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Come fa Babbo Natale a passare dal camino?
+    start: 2026-12-15T16:30
+    end: 2026-12-15T17:30
+    venue: Biblioteca Civica Cervetto
+    address: Via Germano Jori 60
+    town: Genova
+    lat: 44.434424
+    lon: 8.892512
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: iscrizione
+    official_url: https://www.visitgenoa.it/it/come-fa-babbo-natale-passare-dal-camino
+    summary: Lettura e laboratorio creativo per bambini dai 4 ai 6 anni alla Biblioteca Cervetto, gratuito con prenotazione.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Festa di Natale alla Biblioteca Gallino
+    start: 2026-12-11T16:45
+    venue: Biblioteca Civica Gallino
+    address: Via Prete Nicolo' Daste 8a
+    town: Genova
+    lat: 44.412276
+    lon: 8.890533
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.visitgenoa.it/it/festa-di-natale-0
+    summary: Incontro natalizio per bambini, famiglie e adulti con le Chiese e Opere Evangeliche di Genova.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Giornata di Natale alla Biblioteca Gallino
+    start: 2026-12-05T15:00
+    end: 2026-12-05T18:00
+    venue: Biblioteca Civica Gallino
+    address: Via Prete Nicolo' Daste 8a
+    town: Genova
+    lat: 44.412276
+    lon: 8.890533
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    official_url: https://www.visitgenoa.it/it/giornata-di-natale-alla-biblioteca-gallino
+    summary: Apertura straordinaria con caccia al tesoro, laboratorio e concerti di Natale per bambini e famiglie.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: I Babbi di Mauro 2026
+    start: 2026-12-13T10:00
+    end: 2026-12-13T16:30
+    venue: Villa Bombrini
+    address: Via Pro Loco d'Italia
+    town: Genova
+    lat: 44.415155
+    lon: 8.874941
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.visitgenoa.it/it/i-babbi-di-mauro-2026
+    summary: Sfilata benefica di Babbi Natale in moto da Villa Bombrini a Cornigliano fino a piazza Matteotti, con raccolta per i pranzi di Natale di Sant'Egidio.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Storie di ocra e carbone: il tuo Natale preistorico'
+    start: '2026-12-13'
+    venue: Museo di Archeologia Ligure
+    address: Viale Durazzo Pallavicini 11
+    town: Genova
+    lat: 44.429461
+    lon: 8.817302
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.visitgenoa.it/it/dicembre-al-museo-di-archeologia-ligure
+    summary: Laboratorio per famiglie al Museo di Archeologia Ligure per realizzare un biglietto di auguri con ocra e carbone.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercalibro di Natale della Pro Loco Voltri
+    start: '2026-12-09'
+    end: '2026-12-24'
+    venue: Biblioteca Civica Rosanna Benzi
+    address: Vico Limisso
+    town: Genova
+    lat: 44.428055
+    lon: 8.748737
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: offerta
+    official_url: https://www.visitgenoa.it/it/biblionatale-26
+    summary: Mercatino di libri donati alla biblioteca, a offerta simbolica, a favore delle attivita' didattiche.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: A zig zag nel quartiere
+    start: 2026-12-03T16:45
+    venue: Biblioteca Internazionale per Ragazzi De Amicis
+    address: Piazzale Luigi Durand de la Penne
+    town: Genova
+    lat: 44.408744
+    lon: 8.923631
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.visitgenoa.it/it/favoloso-natale-alla-biblioteca-de-amicis
+    summary: Esplorazione dei vicoli del centro storico dai nomi di antichi mestieri e laboratorio creativo in biblioteca.
+    fonte: https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Marche' Vert Noel 2026
+    start: '2026-11-21'
+    end: '2027-01-06'
+    venue: Piazza Emile Chanoux
+    address: Piazza Emile Chanoux
+    town: Aosta
+    lat: 45.737285
+    lon: 7.320362
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.mercatinodinataleaosta.it/
+    summary: Diciottesima edizione del mercatino di Natale con 48 chalet in piazza Chanoux, aperto ogni giorno dalle 10 alle 20 (25 dicembre dalle 15, 1 gennaio dalle 11).
+    fonte: https://www.mercatinodinataleaosta.it/en/homepage-2-2-2/ e valledaostaglocal.it del 10/11/2026
+    trovato: '2026-11-28'
+  - title: La letterina di Babbo Natale a Excenex
+    start: 2026-12-09T15:00
+    end: 2026-12-09T17:30
+    venue: Piazza di Excenex
+    address: Excenex
+    town: Aosta
+    lat: 45.761323
+    lon: 7.30011
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://www.gazzettamatin.com/2026/11/27/aosta-il-natale-si-allarga-quartiere-frazioni-con-quattro-eventi/
+    summary: Pomeriggio per bambini nella frazione di Excenex con laboratori e una cassetta per imbucare le letterine; in caso di pioggia si sposta al 10 dicembre.
+    fonte: https://www.gazzettamatin.com/2026/11/27/aosta-il-natale-si-allarga-quartiere-frazioni-con-quattro-eventi/
+    trovato: '2026-11-28'
+  - title: 1027a Fiera di Sant'Orso
+    start: '2027-01-30'
+    end: '2027-01-31'
+    venue: Piazza Emile Chanoux
+    address: Piazza Emile Chanoux
+    town: Aosta
+    lat: 45.737285
+    lon: 7.320362
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: libero
+    official_url: https://www.fieradisantorso.it/index.php?option=com_content&view=article&id=30%3Ail-programma&catid=46%3Aprogramma
+    summary: Fiera millenaria dell'artigianato valdostano con oltre mille espositori sui banchi lungo le vie pedonali del centro storico di Aosta.
+    fonte: https://www.fieradisantorso.it/index.php?option=com_content&view=article&id=30%3Ail-programma&catid=46%3Aprogramma e gazzettamatin.com del 25/09/2026 (regolamento della Giunta regionale)
+    trovato: '2026-11-28'
+  - title: Atelier des Metiers, Fiera di Sant'Orso
+    start: '2027-01-28'
+    end: '2027-01-31'
+    venue: Piazza Emile Chanoux
+    address: Piazza Emile Chanoux
+    town: Aosta
+    lat: 45.737285
+    lon: 7.320362
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.fieradisantorso.it/index.php?option=com_content&view=article&id=30%3Ail-programma&catid=46%3Aprogramma
+    summary: Spazio dei maestri artigiani iscritti al registro dell'artigianato valdostano, con mobili, sculture e oggetti in legno, pietra e metallo in piazza Chanoux.
+    fonte: https://www.fieradisantorso.it/index.php?option=com_content&view=article&id=30%3Ail-programma&catid=46%3Aprogramma
+    trovato: '2026-11-28'
+  - title: Padiglione enogastronomico, Fiera di Sant'Orso
+    start: '2027-01-28'
+    end: '2027-01-31'
+    venue: Piazza Plouves
+    address: Piazza Plouves
+    town: Aosta
+    lat: 45.737296
+    lon: 7.322716
+    category: sagre-feste
+    subcategory: degustazioni
+    official_url: https://www.fieradisantorso.it/index.php?option=com_content&view=article&id=30%3Ail-programma&catid=46%3Aprogramma
+    summary: Padiglione delle aziende agroalimentari valdostane con formaggi, salumi, dolci, mieli e vini in piazza Plouves.
+    fonte: https://www.fieradisantorso.it/index.php?option=com_content&view=article&id=30%3Ail-programma&catid=46%3Aprogramma
+    trovato: '2026-11-28'
+  - title: La Veilla' della Fiera di Sant'Orso
+    start: 2027-01-30T19:00
+    venue: Piazza Emile Chanoux
+    address: Piazza Emile Chanoux
+    town: Aosta
+    lat: 45.737285
+    lon: 7.320362
+    category: sagre-feste
+    subcategory: feste-patronali
+    access: libero
+    official_url: https://www.fieradisantorso.it/index.php?option=com_content&view=article&id=30%3Ail-programma&catid=46%3Aprogramma
+    summary: Notte di festa nel centro di Aosta tra il 30 e il 31 gennaio con cori, gruppi folkloristici e cantine aperte dai residenti.
+    fonte: https://www.fieradisantorso.it/index.php?option=com_content&view=article&id=30%3Ail-programma&catid=46%3Aprogramma
+    trovato: '2026-11-28'
+  - title: Piano Solo
+    start: 2026-11-29T12:00
+    end: 2026-11-29T14:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://hellorapallo.it/eventi/piano-solo/
+    summary: Concerto aperitivo del pianista Dario Bonuccelli con musiche di Schubert.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: America Latina e Liguria tra premi Nobel e teatri
+    start: '2026-12-03'
+    end: '2027-01-10'
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://hellorapallo.it/eventi/esposizione-america-latina-e-liguria-tra-premi-nobel-e-teatri-a-cura-della-fondazione-casamerica/
+    summary: Mostra della Fondazione Casamerica sui legami tra Liguria e America Latina, visitabile negli orari di apertura del teatro fino al 10 gennaio.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Colori del Tigullio – Luce e Riflessi nelle Opere
+    start: '2026-12-04'
+    end: '2027-01-10'
+    venue: Castello di Rapallo
+    address: Piazzetta Luciano Bottaro
+    town: Rapallo
+    lat: 44.347838
+    lon: 9.234125
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://hellorapallo.it/eventi/colori-del-tigullio-luce-e-riflessi-nelle-opere/
+    summary: Mostra di opere dedicate ai paesaggi del Tigullio al Castello di Rapallo.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Dirò la verità, vi prego, sull’amore
+    start: 2026-12-04T21:00
+    end: 2026-12-04T23:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://hellorapallo.it/eventi/diro-la-verita-vi-prego-sullamore/
+    summary: Amanda Sandrelli legge brani di Platone su Eros, introdotti da Mauro Bonazzi.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ciclo Brahms II – L’incanto del Romanticismo
+    start: 2026-12-06T12:00
+    end: 2026-12-06T14:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://hellorapallo.it/eventi/ciclo-brahms-ii-lincanto-del-romanticismo/
+    summary: Concerto aperitivo dell'Evolution Classical Duo con musiche di Brahms.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Concerto Corto Polifonico Santo Stefano Aveto
+    start: 2026-12-08T21:00
+    end: 2026-12-08T23:00
+    venue: Chiesa di San Francesco
+    address: Piazza San Francesco d'Assisi
+    town: Rapallo
+    lat: 44.34906
+    lon: 9.235025
+    category: musica
+    subcategory: concerti
+    official_url: https://hellorapallo.it/eventi/concerto-corto-polifonico-santo-stefano-aveto/
+    summary: Concerto del coro polifonico di Santo Stefano d'Aveto nella chiesa di San Francesco.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Stellina scintillina
+    start: 2026-12-10T21:00
+    end: 2026-12-10T23:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://hellorapallo.it/eventi/stellina-scintillina/
+    summary: Spettacolo di prosa su testo di Yoko Yamada.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ensemble 16032 – Sonate a quattro di Rossini
+    start: 2026-12-13T12:00
+    end: 2026-12-13T14:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://hellorapallo.it/eventi/ensemble-16032-sonate-a-quattro-di-rossini/
+    summary: Concerto aperitivo per quartetto di fiati con le Sonate a quattro di Rossini.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: The Joyful Gospel Ensemble
+    start: 2026-12-13T17:00
+    end: 2026-12-13T19:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: musica
+    subcategory: concerti
+    official_url: https://hellorapallo.it/eventi/the-joyful-gospel-ensemble/
+    summary: Concerto gospel con oltre cinquanta coristi e solisti diretti da Riccardo Pagni.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Una storia normale
+    start: 2026-12-14T20:30
+    end: 2026-12-14T22:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://hellorapallo.it/eventi/una-storia-normale/
+    summary: Spettacolo in scena al Teatro delle Clarisse.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Orchestra del Teatro Carlo Felice di Genova
+    start: 2026-12-17T21:00
+    end: 2026-12-17T23:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://hellorapallo.it/eventi/orchestra-del-teatro-carlo-felice-di-genova/
+    summary: Concerto dell'Orchestra del Teatro Carlo Felice al Teatro delle Clarisse.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ensemble 16032 – Four London Trios di Haydn
+    start: 2026-12-20T12:00
+    end: 2026-12-20T14:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://hellorapallo.it/eventi/ensemble-16032-four-london-trios-di-haydn/
+    summary: Concerto aperitivo per flauto, oboe e fagotto con i London Trios di Haydn.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: A nanna dopo Carosello
+    start: 2026-12-26T17:00
+    end: 2026-12-26T19:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://hellorapallo.it/eventi/a-nanna-dopo-carosello/
+    summary: Spettacolo di parole, canzoni e musica dal vivo di Clara Costanzo per i settant'anni della televisione italiana.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Controvento Project
+    start: 2026-12-27T12:00
+    end: 2026-12-27T14:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: teatro-spettacoli
+    subcategory: danza
+    official_url: https://hellorapallo.it/eventi/controvento-project/
+    summary: Concerto aperitivo di chitarra, violoncello e sax con il Deos Danse Ensemble.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Tutto quello che c’è
+    start: 2026-12-30T21:00
+    end: 2026-12-30T23:00
+    venue: Teatro delle Clarisse
+    address: Passo Santa Chiara
+    town: Rapallo
+    lat: 44.34826
+    lon: 9.235515
+    category: teatro-spettacoli
+    subcategory: comicita
+    official_url: https://hellorapallo.it/eventi/tutto-quello-che-ce/
+    summary: Cabaret e monologhi di Enzo Paci con Romina Uguzzoni.
+    fonte: https://hellorapallo.it/wp-json/tribe/events/v1/events (calendario del Comune di Rapallo, letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Sarzana on Ice
+    start: 2026-11-28T14:30
+    end: '2027-01-25'
+    venue: Piazza Martiri della Liberta'
+    address: Piazza Martiri della Liberta'
+    town: Sarzana
+    lat: 44.111566
+    lon: 9.95802
+    category: sport
+    subcategory: altri-sport
+    official_url: https://visitsarzana.it/
+    summary: Pista di pattinaggio sul ghiaccio in piazza Martiri della Liberta', aperta fino al 25 gennaio.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Sarzana Christmas Market
+    start: 2026-11-28T16:00
+    venue: Piazza Calandrini
+    address: Piazza Calandrini
+    town: Sarzana
+    lat: 44.112381
+    lon: 9.962244
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://visitsarzana.it/
+    summary: Mercatino di Natale tra via Mazzini e piazza Calandrini, aperto nei fine settimana e nei festivi.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Giardino di Santa Claus
+    start: 2026-11-28T17:00
+    end: '2027-01-06'
+    venue: Piazza Matteotti
+    address: Piazza Matteotti
+    town: Sarzana
+    lat: 44.113258
+    lon: 9.960052
+    category: famiglie-bambini
+    subcategory: laboratori
+    official_url: https://visitsarzana.it/
+    summary: Spazio per bambini in piazza Matteotti con laboratori, letture e incontri con Babbo Natale, aperto nei fine settimana e ogni giorno dal 23 dicembre al 6 gennaio tranne Natale.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Videomapping sulla Cattedrale ispirato a Domenico Fiasella
+    start: '2026-11-30'
+    end: '2027-01-06'
+    venue: Cattedrale di Santa Maria Assunta
+    address: Piazza Calandrini
+    town: Sarzana
+    lat: 44.112135
+    lon: 9.962381
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitsarzana.it/
+    summary: Proiezione sulla facciata laterale della Cattedrale ispirata alle opere di Domenico Fiasella, con il Museo Diocesano.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Il colore e l'opera. Scene, costumi, arredi scenici
+    start: '2026-11-30'
+    end: '2026-12-20'
+    venue: Teatro degli Impavidi
+    address: Via Mazzini
+    town: Sarzana
+    lat: 44.111616
+    lon: 9.962905
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitsarzana.it/
+    summary: Mostra di Maurizio Marchini su scene, costumi e arredi teatrali al Teatro degli Impavidi.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Il Presepe secondo Francesco, mostra sulla Nativita' medievale
+    start: '2026-12-06'
+    end: '2027-01-06'
+    venue: Pieve di Sant'Andrea
+    address: Via Rossi
+    town: Sarzana
+    lat: 44.112768
+    lon: 9.961061
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://visitsarzana.it/
+    summary: Mostra sul presepe medievale nella cripta della Pieve di Sant'Andrea per gli ottocento anni dalla morte di san Francesco, a cura di Gilda Historiae.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Il Presepe secondo Francesco, presepe vivente
+    start: '2026-12-08'
+    venue: Pieve di Sant'Andrea
+    address: Via Rossi
+    town: Sarzana
+    lat: 44.112768
+    lon: 9.961061
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://visitsarzana.it/
+    summary: Incontri storici e rappresentazione del presepe vivente alla Pieve di Sant'Andrea; il 6 gennaio con l'arrivo dei Magi.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Il Presepe secondo Francesco, presepe vivente
+    start: '2026-12-20'
+    venue: Pieve di Sant'Andrea
+    address: Via Rossi
+    town: Sarzana
+    lat: 44.112768
+    lon: 9.961061
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://visitsarzana.it/
+    summary: Incontri storici e rappresentazione del presepe vivente alla Pieve di Sant'Andrea; il 6 gennaio con l'arrivo dei Magi.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Il Presepe secondo Francesco, presepe vivente
+    start: '2027-01-06'
+    venue: Pieve di Sant'Andrea
+    address: Via Rossi
+    town: Sarzana
+    lat: 44.112768
+    lon: 9.961061
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://visitsarzana.it/
+    summary: Incontri storici e rappresentazione del presepe vivente alla Pieve di Sant'Andrea; il 6 gennaio con l'arrivo dei Magi.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Magnificat. La grande musica sacra
+    start: '2026-12-19'
+    venue: Cattedrale di Santa Maria Assunta
+    address: Piazza Calandrini
+    town: Sarzana
+    lat: 44.112135
+    lon: 9.962381
+    category: musica
+    subcategory: jazz-classica
+    official_url: https://visitsarzana.it/
+    summary: Concerto con musiche di Vivaldi e Buxtehude per il Festival InCanto Armonico e i cinquant'anni della Cappella Musicale Maberini.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Gran Gala' di Natale
+    start: '2026-12-23'
+    venue: Teatro degli Impavidi
+    address: Via Mazzini
+    town: Sarzana
+    lat: 44.111616
+    lon: 9.962905
+    category: musica
+    subcategory: concerti
+    official_url: https://visitsarzana.it/
+    summary: Serata di gala natalizia al Teatro degli Impavidi.
+    fonte: https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233
+    trovato: '2026-11-28'
+  - title: Il Gusto dell'Arte Project - Pittura Scultura Fotografia
+    start: '2026-11-09'
+    end: '2026-12-07'
+    venue: Azimut Capital Management
+    address: Via Canobio, 7/A
+    town: Novara
+    lat: 45.446143
+    lon: 8.624639
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mostra presso Azimut Capital Management di Novara, aperta fino al 7/12, a ingresso libero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Karaoke Party
+    start: 2026-11-28T21:00
+    venue: Via San Marcello, 32/A
+    address: Via San Marcello 32
+    town: Paruzzaro
+    lat: 45.750567
+    lon: 8.508601
+    category: musica
+    subcategory: party
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Serata musicale presso Via San Marcello, 32/A di Paruzzaro, a ingresso libero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Aperitivo con l'autore
+    start: 2026-11-28T10:30
+    venue: Biblioteca Comunale
+    address: Piazza Unità d'Italia
+    town: Briga Novarese
+    lat: 45.733541
+    lon: 8.453457
+    category: arte-cultura
+    subcategory: libri
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Presentazione di un libro nella Biblioteca Comunale di Briga Novarese, a ingresso libero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: 'Natale a Sant''Agabio: accendiamo la festa'
+    start: 2026-11-28T15:00
+    venue: Piazza Monsignor Brustia
+    address: Piazza Monsignor Brustia
+    town: Novara
+    lat: 45.44597
+    lon: 8.637522
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Festa natalizia di quartiere in piazza Monsignor Brustia con addobbi realizzati dalle scuole, a ingresso libero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Letture Amene - Raccogliere le ombre
+    start: 2026-11-28T15:00
+    venue: Biblioteca Comunale
+    address: Piazza Unità d'Italia
+    town: Briga Novarese
+    lat: 45.733541
+    lon: 8.453457
+    category: famiglie-bambini
+    subcategory: laboratori
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Lettura animata con una cantastorie nella Biblioteca Comunale di Briga Novarese, a ingresso libero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale alla Casa della Carità
+    start: '2026-11-28'
+    end: '2026-12-20'
+    venue: Piazza XXV Aprile, 18
+    address: Via Prevosto Felice Piana
+    town: Borgomanero
+    lat: 45.701636
+    lon: 8.460568
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatino in Piazza XXV Aprile, 18 di Borgomanero, dal 28/11 al 20/12.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Giocattoli senza tempo
+    start: '2026-11-28'
+    end: '2026-12-20'
+    venue: Castello Visconteo Sforzesco
+    address: Via della Repubblica
+    town: Galliate
+    lat: 45.478747
+    lon: 8.69563
+    category: arte-cultura
+    subcategory: mostre
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mostra fotografica collettiva sui giocattoli al Castello Visconteo Sforzesco di Galliate, aperta fino al 20/12.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Villaggio della Solidarietà - 29^ Edizione
+    start: '2026-11-28'
+    end: '2026-12-24'
+    venue: Piazza Duomo
+    address: Piazza della Repubblica
+    town: Novara
+    lat: 45.445976
+    lon: 8.619163
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatino in Piazza Duomo di Novara, dal 28/11 al 24/12.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Alle porte dell'Inverno
+    start: 2026-11-29T14:30
+    venue: Castello di Proh
+    address: Via per Oleggio
+    town: Briona
+    lat: 45.536023
+    lon: 8.511208
+    category: arte-cultura
+    subcategory: visite
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Visita guidata al Castello di Proh di Briona, a pagamento.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Christmas Village - Babbo Natale e i suoi mercatini
+    start: 2026-11-29T14:30
+    venue: Rione Castello
+    address: Rione Castello
+    town: Cerano
+    lat: 45.412103
+    lon: 8.817106
+    category: mercatini-fiere
+    subcategory: artigianato
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatino presso Rione Castello di Cerano, a pagamento.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale
+    start: '2026-12-05'
+    end: '2026-12-08'
+    venue: Largo Melvin Jones
+    address: Via Zanetti
+    town: Borgomanero
+    lat: 45.698109
+    lon: 8.458231
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatino presso Largo Melvin Jones di Borgomanero, dal 5/12 al 8/12.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatino di Natale Oratorio Santa Rita
+    start: '2026-12-05'
+    end: '2026-12-08'
+    venue: Oratorio Santa Rita
+    address: Via Stangalino Biagio, 8
+    town: Novara
+    lat: 45.453206
+    lon: 8.605951
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatino all'Oratorio Santa Rita di Novara, dal 5/12 al 8/12.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Aspettando il Natale
+    start: 2026-12-08T10:00
+    venue: Piazza del Municipio
+    address: Piazza Municipio 1
+    town: Paruzzaro
+    lat: 45.748674
+    lon: 8.513445
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Festa natalizia in Piazza del Municipio di Paruzzaro, a ingresso libero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Aspettando Babbo Natale al Chioso
+    start: 2026-12-08T15:00
+    venue: Via Galli
+    address: Via Galli
+    town: Varallo Pombia
+    lat: 45.665968
+    lon: 8.629576
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Festa natalizia in via Galli a Varallo Pombia, a ingresso libero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Accendiamo il Natale
+    start: '2026-12-08'
+    venue: Piazza Libertà
+    address: Piazza Libertà
+    town: Cerano
+    lat: 45.410054
+    lon: 8.779674
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Festa natalizia in Piazza Libertà di Cerano.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Tombolata di Natale
+    start: '2026-12-09'
+    venue: Biblioteca Civica "Carlo Dionisotti"
+    address: Via XXV Aprile, 3
+    town: Romagnano Sesia
+    lat: 45.633637
+    lon: 8.385803
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Tombolata natalizia nella Biblioteca Civica di Romagnano Sesia.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Visite
+    start: 2026-12-11T21:00
+    venue: Teatro Faraggiana
+    address: Via dei Caccia 1F
+    town: Novara
+    lat: 45.4506
+    lon: 8.62237
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Teatro Faraggiana di Novara, a pagamento.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Concerto d'autunno
+    start: 2026-12-12T21:00
+    venue: Abbazia dei Santi Nazario e Celso
+    address: Via Antonio Barbavara
+    town: San Nazzaro Sesia
+    lat: 45.437842
+    lon: 8.422748
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto presso Abbazia dei Santi Nazario e Celso di San Nazzaro Sesia.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Gospel & Christmas songs
+    start: 2026-12-12T21:00
+    venue: Chiesa Parrocchiale di San Bernardo
+    address: Via Fra Dolcino
+    town: Prato Sesia
+    lat: 45.646632
+    lon: 8.373463
+    category: musica
+    subcategory: concerti
+    access: libero
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto nella Chiesa Parrocchiale di San Bernardo di Prato Sesia, a ingresso libero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale
+    start: 2026-12-13T10:00
+    venue: Piazza Dante
+    address: Piazza Dante
+    town: Cameri
+    lat: 45.501327
+    lon: 8.661284
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatino in Piazza Dante di Cameri.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Mercatini di Natale
+    start: 2026-12-13T10:00
+    venue: Piazza Travaglini
+    address: Piazza Travaglini
+    town: Barengo
+    lat: 45.575268
+    lon: 8.512721
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Mercatino in Piazza Travaglini di Barengo.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Serata letteraria natalizia
+    start: 2026-12-14T20:30
+    venue: Biblioteca Civica "Carlo Dionisotti"
+    address: Via XXV Aprile, 5
+    town: Romagnano Sesia
+    lat: 45.633637
+    lon: 8.385803
+    category: sagre-feste
+    subcategory: ricorrenze
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Festa natalizia nella Biblioteca Civica "Carlo Dionisotti" di Romagnano Sesia, a pagamento.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Concerto di Natale - Cressa, melodie tra architetture e spiritualità
+    start: 2026-12-18T21:00
+    venue: Chiesa Parrocchiale
+    address: Piazza Antonio Gramsci
+    town: Cressa
+    lat: 45.646714
+    lon: 8.508039
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto nella Chiesa Parrocchiale di Cressa.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Concerto di Natale
+    start: 2026-12-19T21:15
+    venue: Chiesa Parrocchiale
+    address: Via Asilo
+    town: Cavaglio d'Agogna
+    lat: 45.6091
+    lon: 8.484003
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto nella Chiesa Parrocchiale di Cavaglio d'Agogna.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Presepe vivente
+    start: 2026-12-24T19:30
+    venue: Santa Cristina
+    address: Santa Cristina
+    town: Borgomanero
+    lat: 45.688375
+    lon: 8.495434
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Festa natalizia presso Santa Cristina di Borgomanero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Volevo essere un mago
+    start: 2027-01-24T16:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.43151
+    lon: 8.73952
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Cine Teatro Silvio Pellico di Trecate, a pagamento.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Due come noi
+    start: 2027-01-30T21:00
+    venue: Cine Teatro Silvio Pellico
+    address: Piazza Cattaneo 24
+    town: Trecate
+    lat: 45.43151
+    lon: 8.73952
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Cine Teatro Silvio Pellico di Trecate, a pagamento.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Ligabue Tribute Show. Da zero a Liga in orchestra
+    start: 2027-01-30T21:00
+    venue: Teatro Rosmini
+    address: Via Professor Pasquale Fornari
+    town: Borgomanero
+    lat: 45.69649
+    lon: 8.46823
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto al Teatro Rosmini di Borgomanero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: L'ospite
+    start: 2027-02-06T21:15
+    venue: Teatro Pernate Sant'Andrea
+    address: Via Turbigo 8
+    town: Novara
+    lat: 45.46059
+    lon: 8.6772
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Teatro Pernate Sant'Andrea di Novara, a pagamento.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Gin Game
+    start: 2027-02-11T21:00
+    venue: Teatro Faraggiana
+    address: Via dei Caccia 1F
+    town: Novara
+    lat: 45.4506
+    lon: 8.62237
+    category: teatro-spettacoli
+    subcategory: teatro
+    access: biglietto
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Teatro Faraggiana di Novara, a pagamento.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Terzo tempo
+    start: 2027-02-19T21:00
+    venue: Teatro Civico
+    address: Via Roma 43
+    town: Oleggio
+    lat: 45.59743
+    lon: 8.63446
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Teatro Civico di Oleggio.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Indovina chi viene a cena
+    start: 2027-03-02T20:45
+    venue: Cinema Teatro Nuovo
+    address: Via IV Novembre
+    town: Borgomanero
+    lat: 45.69467
+    lon: 8.4552
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Cinema Teatro Nuovo di Borgomanero.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Capitol'ho
+    start: 2027-03-17T21:00
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Teatro Coccia di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Impressioni – Omaggio alla Grande Musica Italiana
+    start: 2027-03-21T11:30
+    venue: Teatro Coccia
+    address: Via Fratelli Rosselli 47
+    town: Novara
+    lat: 45.44553
+    lon: 8.61817
+    category: musica
+    subcategory: concerti
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Concerto della domenica mattina al Teatro Coccia di Novara.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'
+  - title: Casa di bambola
+    start: 2027-03-21T21:00
+    venue: Teatro Civico
+    address: Via Roma 43
+    town: Oleggio
+    lat: 45.59743
+    lon: 8.63446
+    category: teatro-spettacoli
+    subcategory: teatro
+    official_url: https://www.turismonovara.it/it/doc/eventimanifestazioni
+    summary: Spettacolo al Teatro Civico di Oleggio.
+    fonte: https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)
+    trovato: '2026-11-28'

@@ -1,6 +1,139 @@
 {
- "generato": "2026-11-28T20:53+01:00",
+ "generato": "2026-11-28T20:54+01:00",
  "eventi": [
+  {
+   "uid": "8136561133759847",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Ferdinando Sarmi New York, un viaggio nella moda da Firenze alla Fifth Avenue",
+   "inizio": "2026-06-18",
+   "fine": "2026-12-31",
+   "luogo": "Palazzo Pitti",
+   "indirizzo": "Piazza de' Pitti 1",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/ferdinando-sarmi-new-york-un-viaggio-nella-moda-da-firenze-alla-fifth-avenue",
+   "riassunto": "Mostra sullo stilista Ferdinando Sarmi al Museo della Moda e del Costume di Palazzo Pitti.",
+   "lat": 43.765281,
+   "lon": 11.250257,
+   "precisione": "address"
+  },
+  {
+   "uid": "3d7d2f343c40ac3c",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Oltre il Rinascimento. Tra Durer e Parmigianino",
+   "inizio": "2026-09-10",
+   "fine": "2027-01-10",
+   "luogo": "Palazzo Medici Riccardi",
+   "indirizzo": "Via Cavour 3",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/oltre-il-rinascimento-tra-durer-e-parmigianino",
+   "riassunto": "Mostra promossa dalla Citta' Metropolitana a Palazzo Medici Riccardi con opere da Durer a Parmigianino.",
+   "lat": 43.775267,
+   "lon": 11.255661,
+   "precisione": "address"
+  },
+  {
+   "uid": "3291ce460531d992",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Le pietre dormono all'aperto",
+   "inizio": "2026-09-19",
+   "fine": "2027-01-03",
+   "luogo": "Museo La Specola",
+   "indirizzo": "Via Romana 17",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "10 euro",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/le-pietre-dormono-allaperto",
+   "riassunto": "Percorso espositivo al Museo La Specola, aperto da martedi' a domenica.",
+   "lat": 43.764578,
+   "lon": 11.247116,
+   "precisione": "address"
+  },
+  {
+   "uid": "a811537ecb579fcf",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "La fabbrica del libro d'artista",
+   "inizio": "2026-09-24",
+   "fine": "2027-01-09",
+   "luogo": "Biblioteca Nazionale Centrale di Firenze",
+   "indirizzo": "Piazza dei Cavalleggeri 1",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/la-fabbrica-del-libro-dartista",
+   "riassunto": "Mostra sul libro d'artista alla Biblioteca Nazionale Centrale, ingresso da via Magliabechi 2.",
+   "lat": 43.767161,
+   "lon": 11.262229,
+   "precisione": "address"
+  },
+  {
+   "uid": "2d1530db3f3d43fb",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Georgofili 4 novembre 1966, mostra fotografica",
+   "inizio": "2026-09-25",
+   "fine": "2026-12-17",
+   "luogo": "Accademia dei Georgofili",
+   "indirizzo": "Logge degli Uffizi Corti",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/georgofili-4-novembre-1966-mostra-fotografica",
+   "riassunto": "Mostra fotografica sull'alluvione del 1966 all'Accademia dei Georgofili, aperta nei giorni feriali.",
+   "lat": 43.76868,
+   "lon": 11.254981,
+   "precisione": "address"
+  },
+  {
+   "uid": "1eec3096d4d0ace1",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Broken. Il potere del frammento",
+   "inizio": "2026-09-25",
+   "fine": "2027-01-24",
+   "luogo": "Palazzo Strozzi",
+   "indirizzo": "Piazza degli Strozzi",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/broken-il-potere-del-frammento",
+   "riassunto": "Mostra internazionale con oltre ottanta opere sul frammento nella scultura, dall'antichita' all'arte contemporanea.",
+   "lat": 43.771277,
+   "lon": 11.251992,
+   "precisione": "address"
+  },
   {
    "uid": "4d5cf01bcdc28c8e",
    "motivi": [
@@ -25,6 +158,28 @@
    "precisione": "venue"
   },
   {
+   "uid": "53fc6eba4a6a9958",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Victor Man al Museo Novecento",
+   "inizio": "2026-09-26",
+   "fine": "2027-03-07",
+   "luogo": "Museo Novecento",
+   "indirizzo": "Piazza di Santa Maria Novella 10",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/victor-man-al-museo-novecento",
+   "riassunto": "Mostra del pittore romeno Victor Man al Museo Novecento.",
+   "lat": 43.772866,
+   "lon": 11.248841,
+   "precisione": "address"
+  },
+  {
    "uid": "5dab492d0564d519",
    "motivi": [
     "durata oltre 45 giorni: sono date singole o un periodo?"
@@ -44,6 +199,94 @@
    "riassunto": "Apertura gratuita delle sale d'attesa degli anni Trenta della stazione di Montecatini Terme - Monsummano, grazie all'accordo tra Comune e Fondazione FS.",
    "lat": 43.879633,
    "lon": 10.780833,
+   "precisione": "address"
+  },
+  {
+   "uid": "49a2f8320dfa6670",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Geografia dei piccoli mondi",
+   "inizio": "2026-10-03",
+   "fine": "2027-01-08",
+   "luogo": "Museo La Specola",
+   "indirizzo": "Via Romana 17",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/geografia-dei-piccoli-mondi",
+   "riassunto": "Mostra al Museo La Specola, aperta da martedi' a domenica.",
+   "lat": 43.764578,
+   "lon": 11.247116,
+   "precisione": "address"
+  },
+  {
+   "uid": "37e35b02c2bbcd46",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Danielle Mckinney. Tra Noi",
+   "inizio": "2026-10-17",
+   "fine": "2027-02-28",
+   "luogo": "Museo Novecento",
+   "indirizzo": "Piazza di Santa Maria Novella 10",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "da 9 a 13 euro",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/danielle-mckinney-tra-noi",
+   "riassunto": "Mostra dedicata alla pittrice statunitense Danielle Mckinney al Museo Novecento.",
+   "lat": 43.772866,
+   "lon": 11.248841,
+   "precisione": "address"
+  },
+  {
+   "uid": "2a630248ec3b26b9",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Artemisia Gentileschi a Firenze",
+   "inizio": "2026-10-20",
+   "fine": "2027-04-04",
+   "luogo": "Museo degli Innocenti",
+   "indirizzo": "Piazza della Santissima Annunziata 13",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/artemisia-gentileschi-firenze",
+   "riassunto": "Mostra sulla vita e la carriera di Artemisia Gentileschi negli anni del suo soggiorno fiorentino.",
+   "lat": 43.776088,
+   "lon": 11.260713,
+   "precisione": "address"
+  },
+  {
+   "uid": "cf07997185f92846",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "I leoni di Firenze",
+   "inizio": "2026-10-27",
+   "fine": "2027-01-18",
+   "luogo": "Palazzo Vecchio",
+   "indirizzo": "Piazza della Signoria",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/i-leoni-di-firenze",
+   "riassunto": "Mostra nella Sala dei Gigli sul leone come simbolo della citta', dal Marzocco alla Repubblica fiorentina.",
+   "lat": 43.769144,
+   "lon": 11.256139,
    "precisione": "address"
   },
   {
@@ -112,6 +355,117 @@
    "riassunto": "Mostra d'arte di Giorgio Piccaia allestita nel Battistero di Agrate Conturbia.",
    "lat": 45.6770743,
    "lon": 8.5521356,
+   "precisione": "address"
+  },
+  {
+   "uid": "8e45843af042c065",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Arno, storie di riconciliazione tra Firenze e il suo fiume",
+   "inizio": "2026-11-04",
+   "fine": "2027-01-04",
+   "luogo": "MAD Murate Art District",
+   "indirizzo": "Piazza delle Murate",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/arno-storie-di-riconciliazione-tra-firenze-e-il-suo-fiume",
+   "riassunto": "Mostra diffusa di Roberto Ghezzi per i sessant'anni dall'alluvione del 1966, con il nucleo principale al MAD Murate Art District.",
+   "lat": 43.769221,
+   "lon": 11.267879,
+   "precisione": "address"
+  },
+  {
+   "uid": "e52d2ee5475c8dcc",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Ri-emergere. 1966-2026, l'alluvione di Firenze in archivio",
+   "inizio": "2026-11-04",
+   "fine": "2027-02-06",
+   "luogo": "Archivio di Stato di Firenze",
+   "indirizzo": "Viale della Giovine Italia 6",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "iscrizione",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/ri-emergere-1966-2026-lalluvione-di-firenze-archivio",
+   "riassunto": "Mostra documentaria sull'alluvione del 1966 all'Archivio di Stato, a ingresso gratuito su prenotazione.",
+   "lat": 43.76902,
+   "lon": 11.270565,
+   "precisione": "address"
+  },
+  {
+   "uid": "8232441618b57694",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Firenze Forma Continua 2026, In-naturale",
+   "inizio": "2026-11-06",
+   "fine": "2027-01-06",
+   "luogo": "Museo e Chiostri Monumentali di Santa Maria Novella",
+   "indirizzo": "Piazza di Santa Maria Novella 18",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/firenze-forma-continua-2026-naturale",
+   "riassunto": "Esposizione d'arte contemporanea negli spazi del Museo di Santa Maria Novella.",
+   "lat": 43.774651,
+   "lon": 11.249373,
+   "precisione": "address"
+  },
+  {
+   "uid": "b6bdb0773ac768f5",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Il tempo presente, Figline e Incisa Valdarno ritratto di un territorio",
+   "inizio": "2026-11-06",
+   "fine": "2027-01-06",
+   "luogo": "Palazzo Pretorio",
+   "indirizzo": "Piazza Marsilio Ficino",
+   "comune": "Figline e Incisa Valdarno",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/mostra-il-tempo-presente-figline-e-incisa-valdarno-ritratto-di-un-territorio",
+   "riassunto": "Mostra fotografica sul territorio comunale al Palazzo Pretorio, aperta nei fine settimana e nei festivi.",
+   "lat": 43.618262,
+   "lon": 11.472676,
+   "precisione": "address"
+  },
+  {
+   "uid": "8b76bf4436a74d9e",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Stimmung al Museo Novecento",
+   "inizio": "2026-11-07",
+   "fine": "2027-03-07",
+   "luogo": "Museo Novecento",
+   "indirizzo": "Piazza di Santa Maria Novella 10",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/stimmung-al-museo-novecento-di-firenze-mostra-dal-7-novembre-2026",
+   "riassunto": "Mostra collettiva al Museo Novecento, chiuso il giovedi'.",
+   "lat": 43.772866,
+   "lon": 11.248841,
    "precisione": "address"
   },
   {
@@ -272,6 +626,28 @@
    "precisione": "address"
   },
   {
+   "uid": "5e98ae532db27840",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Marche' Vert Noel 2026",
+   "inizio": "2026-11-21",
+   "fine": "2027-01-06",
+   "luogo": "Piazza Emile Chanoux",
+   "indirizzo": "Piazza Emile Chanoux",
+   "comune": "Aosta",
+   "categoria": "mercatini-fiere",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "mercatinodinataleaosta.it",
+   "pagina_fonte": "https://www.mercatinodinataleaosta.it/en/homepage-2-2-2/ e valledaostaglocal.it del 10/11/2026",
+   "sito_ufficiale": "https://www.mercatinodinataleaosta.it/",
+   "riassunto": "Diciottesima edizione del mercatino di Natale con 48 chalet in piazza Chanoux, aperto ogni giorno dalle 10 alle 20 (25 dicembre dalle 15, 1 gennaio dalle 11).",
+   "lat": 45.737285,
+   "lon": 7.320362,
+   "precisione": "address"
+  },
+  {
    "uid": "d679d1415e7d32dc",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -292,6 +668,29 @@
    "lat": 45.66597,
    "lon": 12.24995,
    "precisione": "venue"
+  },
+  {
+   "uid": "835aca30c7a30039",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "C'era una volta un pezzo di legno... anzi due",
+   "inizio": "2026-11-22",
+   "fine": "2027-01-10",
+   "luogo": "Museo Masaccio d'Arte Sacra",
+   "indirizzo": "Piazza San Pietro, Cascia",
+   "comune": "Reggello",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/cera-una-volta-un-pezzo-di-legnoanzi-due-mostra-reggello",
+   "riassunto": "Mostra per il bicentenario della nascita di Carlo Collodi al Museo Masaccio d'Arte Sacra di Cascia.",
+   "lat": 43.675013,
+   "lon": 11.529961,
+   "precisione": "address"
   },
   {
    "uid": "252d805211cf0939",
@@ -336,6 +735,28 @@
    "lat": 45.77874,
    "lon": 12.42014,
    "precisione": "town"
+  },
+  {
+   "uid": "8189649421aa2dae",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Echi d'Africa, strumenti musicali in dialogo tra le sponde del Mediterraneo",
+   "inizio": "2026-11-24",
+   "fine": "2027-02-10",
+   "luogo": "Galleria dell'Accademia",
+   "indirizzo": "Via Ricasoli 58/60",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/echi-dafrica-strumenti-musicali-dialogo-tra-le-sponde-del-mediterraneo",
+   "riassunto": "Mostra di strumenti musicali africani e mediterranei alla Galleria dell'Accademia, aperta da martedi' a domenica.",
+   "lat": 43.776917,
+   "lon": 11.258758,
+   "precisione": "address"
   },
   {
    "uid": "35bacc5c85a496db",
@@ -404,6 +825,28 @@
    "precisione": "address"
   },
   {
+   "uid": "d2741629396306d7",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Orlando dopo Orlando, Daniela Comani",
+   "inizio": "2026-11-27",
+   "fine": "2027-02-28",
+   "luogo": "Museo Novecento",
+   "indirizzo": "Piazza di Santa Maria Novella 10",
+   "comune": "Firenze",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "da 4 a 8 euro",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/orlando-dopo-orlando-daniela-comani",
+   "riassunto": "Mostra dell'artista Daniela Comani al Museo Novecento, chiuso il giovedi'.",
+   "lat": 43.772866,
+   "lon": 11.248841,
+   "precisione": "address"
+  },
+  {
    "uid": "e0b1dabf1e52f390",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
@@ -424,6 +867,98 @@
    "riassunto": "Mercatino natalizio con casette di legno in piazza Napoleone, aperto dalle 11 alle 20.",
    "lat": 43.8413101,
    "lon": 10.5024855,
+   "precisione": "address"
+  },
+  {
+   "uid": "ddf54c94de8b500e",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 33a2fb7032649659"
+   ],
+   "titolo": "Mercato di Natale dell'ATT",
+   "inizio": "2026-11-28T09:30",
+   "fine": "2026-11-29T19:00",
+   "luogo": "Palazzo degli Affari",
+   "indirizzo": "Piazza Adua 1",
+   "comune": "Firenze",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "destinationflorence.com",
+   "pagina_fonte": "https://www.destinationflorence.com/it/eventi (Destination Florence, Comune di Firenze, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.destinationflorence.com/it/eventi/mercatino-di-natale-dellatt-firenze",
+   "riassunto": "Mercatino natalizio dell'ATT al Palazzo degli Affari.",
+   "lat": 43.778246,
+   "lon": 11.249993,
+   "precisione": "address"
+  },
+  {
+   "uid": "936cf0c39d735375",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 19482e462b8c6500"
+   ],
+   "titolo": "Fiera del Libro, edizione invernale 2026",
+   "inizio": "2026-11-28T08:00",
+   "fine": "2027-01-06T20:00",
+   "luogo": "Galleria Mazzini",
+   "indirizzo": "Galleria Giuseppe Mazzini",
+   "comune": "Genova",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visitgenoa.it",
+   "pagina_fonte": "https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.visitgenoa.it/it/fiera-del-libro-edizione-invernale-2026",
+   "riassunto": "Bancarelle di libri nuovi, usati e antichi, dischi e stampe in Galleria Mazzini, con incontri e visite guidate gratuite; la fiera compie cento anni.",
+   "lat": 44.408458,
+   "lon": 8.935257,
+   "precisione": "address"
+  },
+  {
+   "uid": "c22103aef7cda219",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Sarzana on Ice",
+   "inizio": "2026-11-28T14:30",
+   "fine": "2027-01-25",
+   "luogo": "Piazza Martiri della Liberta'",
+   "indirizzo": "Piazza Martiri della Liberta'",
+   "comune": "Sarzana",
+   "categoria": "sport",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "cittadellaspezia.com",
+   "pagina_fonte": "https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233",
+   "sito_ufficiale": "https://visitsarzana.it/",
+   "riassunto": "Pista di pattinaggio sul ghiaccio in piazza Martiri della Liberta', aperta fino al 25 gennaio.",
+   "lat": 44.111566,
+   "lon": 9.95802,
+   "precisione": "address"
+  },
+  {
+   "uid": "3789d6aff9ba1a97",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 203ec776d4d6a51b"
+   ],
+   "titolo": "Sarzana Christmas Market",
+   "inizio": "2026-11-28T16:00",
+   "fine": null,
+   "luogo": "Piazza Calandrini",
+   "indirizzo": "Piazza Calandrini",
+   "comune": "Sarzana",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "cittadellaspezia.com",
+   "pagina_fonte": "https://www.cittadellaspezia.com/2026/11/26/natale-a-sarzana-il-28-novembre-laccensione-delle-luminarie-quaranta-giorni-di-eventi-tra-centro-e-quartieri-683233",
+   "sito_ufficiale": "https://visitsarzana.it/",
+   "riassunto": "Mercatino di Natale tra via Mazzini e piazza Calandrini, aperto nei fine settimana e nei festivi.",
+   "lat": 44.112381,
+   "lon": 9.962244,
    "precisione": "address"
   },
   {
@@ -470,6 +1005,52 @@
    "riassunto": "Mercatini di Natale nella frazione Staffa di Macugnaga.",
    "lat": 45.9678886,
    "lon": 7.9681478,
+   "precisione": "address"
+  },
+  {
+   "uid": "635e9f2c23a65bc0",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 98d95cc53743773e"
+   ],
+   "titolo": "Mercatino di Natale in piazza Matteotti",
+   "inizio": "2026-11-28",
+   "fine": "2026-12-24",
+   "luogo": "Piazza Matteotti",
+   "indirizzo": "Piazza Giacomo Matteotti",
+   "comune": "Genova",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visitgenoa.it",
+   "pagina_fonte": "https://www.visitgenoa.it/it/natale-2026-genova (calendario ufficiale Comune di Genova, letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.visitgenoa.it/it/mercatino-di-natale-piazza-matteotti-2026",
+   "riassunto": "Casette in legno con abbigliamento, pelletteria, artigianato e prodotti enogastronomici in piazza Matteotti.",
+   "lat": 44.407103,
+   "lon": 8.93256,
+   "precisione": "address"
+  },
+  {
+   "uid": "3cb753788c35c6a6",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 635e9f2c23a65bc0"
+   ],
+   "titolo": "Mercatino di Natale alla Casa della Carità",
+   "inizio": "2026-11-28",
+   "fine": "2026-12-20",
+   "luogo": "Piazza XXV Aprile, 18",
+   "indirizzo": "Via Prevosto Felice Piana",
+   "comune": "Borgomanero",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismonovara.it",
+   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)",
+   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
+   "riassunto": "Mercatino in Piazza XXV Aprile, 18 di Borgomanero, dal 28/11 al 20/12.",
+   "lat": 45.701636,
+   "lon": 8.460568,
    "precisione": "address"
   },
   {
@@ -558,28 +1139,6 @@
    "riassunto": "Festa delle candele nel borgo di Candelara con mercatini e brevi spegnimenti dell'illuminazione elettrica; ingresso gratuito sotto i 10 anni.",
    "lat": 43.858604,
    "lon": 12.8897537,
-   "precisione": "address"
-  },
-  {
-   "uid": "cc1f2ed1909ece53",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "La Fabbrica di Babbo Natale",
-   "inizio": "2026-11-28T10:00",
-   "fine": "2026-12-13T19:00",
-   "luogo": "Arsenali Repubblicani",
-   "indirizzo": "Lungarno Ranieri Simonelli",
-   "comune": "Pisa",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "terredipisa.it",
-   "pagina_fonte": "https://www.terredipisa.it/pisa-eventi/",
-   "sito_ufficiale": "https://www.terredipisa.it/events/la-fabbrica-di-babbo-natale-agli-arsenali-repubblicani-di-pisa/",
-   "riassunto": "Allestimento natalizio per bambini agli Arsenali Repubblicani, aperto dalle 10 alle 19.",
-   "lat": 43.7146873,
-   "lon": 10.3930979,
    "precisione": "address"
   },
   {
@@ -778,560 +1337,6 @@
    "riassunto": "Accensione delle luminarie in centro e degli alberi di Natale nei quartieri, apertura del programma natalizio Siena Incanta.",
    "lat": 43.3184391,
    "lon": 11.3315583,
-   "precisione": "address"
-  },
-  {
-   "uid": "44255b9588d7df7a",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Sant'Agostino ad Asciano: tra arte, storia e devozione",
-   "inizio": "2026-11-28T16:00",
-   "fine": "2026-11-28T18:00",
-   "luogo": "Chiesa di Sant'Agostino",
-   "indirizzo": "Vicolo Sant'Agostino",
-   "comune": "Asciano",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "visittuscany.com",
-   "pagina_fonte": "https://www.visittuscany.com/sitemap/sitemap-eventi.xml (schede eventi di Visit Tuscany, portale ufficiale della Regione Toscana, lette il 2026-11-28); punto: chiesa di Sant'Agostino (OpenStreetMap)",
-   "sito_ufficiale": "https://www.visittuscany.com/it/eventi/asciano-santagostino-tra-arte-storia-e-devozione-28-novembre-2026/",
-   "riassunto": "Convegno sui restauri di tre tele della chiesa di Sant'Agostino, seguito da una visita alla Madonna delle Grazie al Museo Civico di Palazzo Corboli.",
-   "lat": 43.2364118,
-   "lon": 11.558894,
-   "precisione": "address"
-  },
-  {
-   "uid": "9e3640b39128d79d",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Arti e Mestieri in piazza San Giusto",
-   "inizio": "2026-11-28",
-   "fine": null,
-   "luogo": "Piazza San Giusto",
-   "indirizzo": "Piazza San Giusto",
-   "comune": "Lucca",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismo.lucca.it",
-   "pagina_fonte": "https://turismo.lucca.it/lucca-magico-natale-2026/",
-   "sito_ufficiale": "https://turismo.lucca.it/lucca-magico-natale-2026/",
-   "riassunto": "Mostra mercato di artigianato in piazza San Giusto nel programma Lucca Magico Natale.",
-   "lat": 43.8418783,
-   "lon": 10.5037734,
-   "precisione": "address"
-  },
-  {
-   "uid": "9817a4122f95f6a4",
-   "motivi": [
-    "durata oltre 45 giorni: sono date singole o un periodo?"
-   ],
-   "titolo": "Santa Caterina. Estasi e Ardore",
-   "inizio": "2026-11-28",
-   "fine": "2027-03-30",
-   "luogo": "Santa Maria della Scala",
-   "indirizzo": "Piazza del Duomo 1",
-   "comune": "Siena",
-   "categoria": "arte-cultura",
-   "accesso": "biglietto",
-   "prezzo": "",
-   "fonte": "comune.siena.it",
-   "pagina_fonte": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
-   "sito_ufficiale": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
-   "riassunto": "Mostra dedicata a Santa Caterina da Siena al complesso di Santa Maria della Scala.",
-   "lat": 43.3171886,
-   "lon": 11.3279706,
-   "precisione": "address"
-  },
-  {
-   "uid": "299e427bc5509a9c",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Destinazione Natale a Montecatini Terme",
-   "inizio": "2026-11-28",
-   "fine": "2027-01-06",
-   "luogo": "Piazza del Popolo",
-   "indirizzo": "Piazza del Popolo",
-   "comune": "Montecatini-Terme",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "montecatinitermetourism.com",
-   "pagina_fonte": "https://montecatinitermetourism.com/events/destinazione-natale-montecatini-e-citta-del-natale-2026/",
-   "sito_ufficiale": "https://montecatinitermetourism.com/events/destinazione-natale-montecatini-e-citta-del-natale-2026/",
-   "riassunto": "Programma natalizio del Comune con albero e proiezioni in piazza del Popolo, mercatino nei fine settimana in viale Verdi e attrazioni per bambini.",
-   "lat": 43.8829828,
-   "lon": 10.771231,
-   "precisione": "address"
-  },
-  {
-   "uid": "390a118a8d2c8b26",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Il linguaggio di un corpo muto, mostra di Fabio Tosi",
-   "inizio": "2026-11-28",
-   "fine": "2026-12-05",
-   "luogo": "Castello Visconteo Sforzesco",
-   "indirizzo": "Piazza Martiri della Liberta' 3",
-   "comune": "Novara",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Mostra d'arte di Fabio Tosi nella Sala delle Colonne del Castello, aperta dal martedi' alla domenica dalle 10 alle 19.",
-   "lat": 45.4444134,
-   "lon": 8.6172913,
-   "precisione": "address"
-  },
-  {
-   "uid": "3a6af30b33cef9ce",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Antonelli e i giovani",
-   "inizio": "2026-11-28",
-   "fine": "2026-12-10",
-   "luogo": "Palazzo Gallarati, Sala Antonelli",
-   "indirizzo": "Via Interno Castello",
-   "comune": "Ghemme",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Mostra su Alessandro Antonelli curata dagli studenti del Liceo Casorati di Romagnano Sesia nella Sala Antonelli di Palazzo Gallarati.",
-   "lat": 45.5990797,
-   "lon": 8.4184008,
-   "precisione": "address"
-  },
-  {
-   "uid": "f3824f540bde53e7",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Arte e Solidarieta' al Castello",
-   "inizio": "2026-11-28",
-   "fine": "2026-11-30",
-   "luogo": "Castello Visconteo Sforzesco",
-   "indirizzo": "Piazza Martiri della Liberta' 3",
-   "comune": "Novara",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Esposizione di 32 opere di artisti novaresi a sostegno di un ambulatorio di pronta accoglienza.",
-   "lat": 45.4444134,
-   "lon": 8.6172913,
-   "precisione": "address"
-  },
-  {
-   "uid": "da1e608bcc723b4d",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Le metamorfosi di Pinocchio",
-   "inizio": "2026-11-28",
-   "fine": "2026-12-23",
-   "luogo": "Villa Marazza",
-   "indirizzo": "Viale Marazza 5",
-   "comune": "Borgomanero",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Esposizione di edizioni di Pinocchio a Villa Marazza per il bicentenario della nascita di Carlo Collodi.",
-   "lat": 45.7000768,
-   "lon": 8.4656488,
-   "precisione": "address"
-  },
-  {
-   "uid": "6d59e6c29c948eff",
-   "motivi": [
-    "possibile doppione di 57f6697164990781"
-   ],
-   "titolo": "parkrun Treviso",
-   "inizio": "2026-11-28T09:00",
-   "fine": null,
-   "luogo": "Parco dello Storga",
-   "indirizzo": "Via Cal di Breda 130",
-   "comune": "Treviso",
-   "categoria": "sport",
-   "accesso": "iscrizione",
-   "prezzo": "gratuito, registrazione una tantum sul sito parkrun",
-   "fonte": "parkrun.it",
-   "pagina_fonte": "https://www.parkrun.it/treviso/",
-   "sito_ufficiale": "https://www.parkrun.it/treviso/",
-   "riassunto": "Corsa o camminata libera e cronometrata di 5 km al Parco dello Storga, aperta a tutti; serve registrarsi una volta e portare il proprio codice a barre.",
-   "lat": 45.69453,
-   "lon": 12.27042,
-   "precisione": "venue"
-  },
-  {
-   "uid": "582c79c5e0a44d7e",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di aab17c548c2a37d7"
-   ],
-   "titolo": "Lo Schiaccianoci",
-   "inizio": "2026-11-29T21:00",
-   "fine": null,
-   "luogo": "Teatro Guglielmi",
-   "indirizzo": "Via Bastione",
-   "comune": "Massa",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "toscanaspettacolo.it",
-   "pagina_fonte": "https://www.toscanaspettacolo.it/",
-   "sito_ufficiale": "https://www.toscanaspettacolo.it/",
-   "riassunto": "Balletto Lo Schiaccianoci in scena al Teatro Guglielmi nel circuito della Fondazione Toscana Spettacolo.",
-   "lat": 44.0358879,
-   "lon": 10.1410327,
-   "precisione": "address"
-  },
-  {
-   "uid": "1c2f56ed63b1ed78",
-   "motivi": [
-    "posizione a 8 km dal centro di Firenze: verifica dove si trova e correggi lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Fiera e mercatino di beneficenza di Ugnano",
-   "inizio": "2026-11-29",
-   "fine": "2027-01-10",
-   "luogo": "Parrocchia di Santo Stefano a Ugnano",
-   "indirizzo": "Via di Ugnano",
-   "comune": "Firenze",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "quartieri.comune.fi.it",
-   "pagina_fonte": "https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026",
-   "sito_ufficiale": "https://quartieri.comune.fi.it/dalle-redazioni/natale-al-q4-2026",
-   "riassunto": "Fiera e mercatino di beneficenza della parrocchia di Santo Stefano a Ugnano, aperti secondo il calendario esposto.",
-   "lat": 43.7851887,
-   "lon": 11.164189,
-   "precisione": "address"
-  },
-  {
-   "uid": "93326bf57798c307",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 2b602a3406ef9a66"
-   ],
-   "titolo": "Mercatini di Natale di Oleggio Castello",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Centro di Oleggio Castello",
-   "indirizzo": "Oleggio Castello",
-   "comune": "Oleggio Castello",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "distrettolaghi.it",
-   "pagina_fonte": "https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)",
-   "sito_ufficiale": "https://www.distrettolaghi.it/it/eventi/oleggio-castello-mercatini-di-natale-2026",
-   "riassunto": "Mercatini di Natale a Oleggio Castello.",
-   "lat": 45.7470497,
-   "lon": 8.5317202,
-   "precisione": "address"
-  },
-  {
-   "uid": "e4194152f94f3c3d",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 2b602a3406ef9a66"
-   ],
-   "titolo": "Mercatini di Natale in Valstrona, 16a edizione",
-   "inizio": "2026-11-29",
-   "fine": null,
-   "luogo": "Luzzogno, centro della frazione",
-   "indirizzo": "Frazione Luzzogno",
-   "comune": "Valstrona",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "distrettolaghi.it",
-   "pagina_fonte": "https://www.distrettolaghi.it/it/Natale_Capodanno_Epifania_26_27 (calendario delle feste del Distretto Turistico dei Laghi; luogo: centro del paese o della frazione indicato dal titolo, orari non pubblicati)",
-   "sito_ufficiale": "https://www.distrettolaghi.it/it/eventi/valstrona-fraz-luzzogno-mercatini-di-natale-in-valstrona-16deg-edizione",
-   "riassunto": "Sedicesima edizione dei mercatini di Natale della Valstrona nella frazione Luzzogno.",
-   "lat": 45.9141585,
-   "lon": 8.3441325,
-   "precisione": "address"
-  },
-  {
-   "uid": "277d7790ec39c90c",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Broadway Time, la grande musica americana",
-   "inizio": "2026-11-29T11:30",
-   "fine": null,
-   "luogo": "Teatro Coccia",
-   "indirizzo": "Via Fratelli Rosselli 47",
-   "comune": "Novara",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Concerto jazz di un quartetto dedicato al Great American Songbook, introdotto da un racconto sulla storia del jazz.",
-   "lat": 45.4455285,
-   "lon": 8.6181663,
-   "precisione": "address"
-  },
-  {
-   "uid": "ef371a0658f771a9",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Concerto per Santa Cecilia della Banda Filarmonica di Oleggio",
-   "inizio": "2026-11-29T16:30",
-   "fine": null,
-   "luogo": "Teatro Civico di Oleggio",
-   "indirizzo": "Via Roma 43",
-   "comune": "Oleggio",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/doc/eventimanifestazioni?PrintPDF=1 (calendario ATL Novara letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Concerto annuale della Banda Filarmonica di Oleggio per Santa Cecilia.",
-   "lat": 45.5974311,
-   "lon": 8.634455,
-   "precisione": "address"
-  },
-  {
-   "uid": "c6235f8bd6422966",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Coro Catinaccio al Mercatino di Natale di Modena",
-   "inizio": "2026-11-29T16:00",
-   "fine": "2026-11-29T18:00",
-   "luogo": "Piazza Grande",
-   "indirizzo": "Piazza Grande",
-   "comune": "Modena",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "mercatinodinataletirolesemodena.it",
-   "pagina_fonte": "https://www.mercatinodinataletirolesemodena.it/spettacoli",
-   "sito_ufficiale": "https://www.mercatinodinataletirolesemodena.it/spettacoli",
-   "riassunto": "Esibizione dalle 16 alle 18 in piazza Grande e per le vie del centro, nel programma di spettacoli del Mercatino di Natale tirolese.",
-   "lat": 44.645943,
-   "lon": 10.925617,
-   "precisione": "address"
-  },
-  {
-   "uid": "a6561755f693e9aa",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "La Magica Casa di Babbo Natale",
-   "inizio": "2026-11-29T14:30",
-   "fine": "2026-11-29T18:30",
-   "luogo": "Palazzo Comunale, Vetrina della Citta'",
-   "indirizzo": "Piazza della Repubblica",
-   "comune": "Pontremoli",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "lunigiana.land",
-   "pagina_fonte": "https://www.lunigiana.land/categoria-evento/eventi-locali/",
-   "sito_ufficiale": "https://www.lunigiana.land/eventi/la-magica-casa-di-babbo-natale-2/",
-   "riassunto": "Casa di Babbo Natale allestita nella vetrina sotto il Palazzo Comunale, con animazione per bambini.",
-   "lat": 44.377117,
-   "lon": 9.882894,
-   "precisione": "address"
-  },
-  {
-   "uid": "2b602a3406ef9a66",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Mercatini di Natale di Siena",
-   "inizio": "2026-11-29T10:00",
-   "fine": "2027-01-06T20:00",
-   "luogo": "Piazza Matteotti",
-   "indirizzo": "Piazza Giacomo Matteotti",
-   "comune": "Siena",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "comune.siena.it",
-   "pagina_fonte": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
-   "sito_ufficiale": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
-   "riassunto": "Mercatini natalizi in piazza Matteotti, piazza Gramsci e viale XXV Aprile, aperti dalle 10 alle 20.",
-   "lat": 43.3215554,
-   "lon": 11.3286618,
-   "precisione": "address"
-  },
-  {
-   "uid": "05edfbe529da374d",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Professori dell'Orchestra del Maggio, concerto da camera a Grassina",
-   "inizio": "2026-11-29T17:00",
-   "fine": null,
-   "luogo": "Chiesa di San Michele Arcangelo, Grassina",
-   "indirizzo": "Via San Michele a Tegolaia",
-   "comune": "Bagno a Ripoli",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "maggiofiorentino.com",
-   "pagina_fonte": "https://www.maggiofiorentino.com/calendario",
-   "sito_ufficiale": "https://www.maggiofiorentino.com/events/professori-dellorchestra-del-maggio-grassina-2026",
-   "riassunto": "Concerto da camera dei professori dell'Orchestra del Maggio nella chiesa di San Michele Arcangelo a Grassina.",
-   "lat": 43.7255006,
-   "lon": 11.294498,
-   "precisione": "address"
-  },
-  {
-   "uid": "cf17e7d4f006349c",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "La pittura della sopravvivenza: Bragonzi e i quadri della campagna di Russia",
-   "inizio": "2026-11-29T15:00",
-   "fine": null,
-   "luogo": "Palazzo Natta",
-   "indirizzo": "Via Amico Canobio",
-   "comune": "Novara",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Visita guidata ai quadri della campagna di Russia dipinti da Bragonzi.",
-   "lat": 45.4463102,
-   "lon": 8.6226236,
-   "precisione": "address"
-  },
-  {
-   "uid": "c525b4cd0bd6225c",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Celtic Knot, pipes and drums",
-   "inizio": "2026-11-29T16:00",
-   "fine": null,
-   "luogo": "Chiesa parrocchiale di San Giovanni Battista",
-   "indirizzo": "Corso Giuseppe Mazzini",
-   "comune": "Vespolate",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Concerto di Natale con cornamuse e percussioni scozzesi, seguito da una festa in piazza Martiri della Liberta'.",
-   "lat": 45.3492497,
-   "lon": 8.6695074,
-   "precisione": "address"
-  },
-  {
-   "uid": "5ffd30dfd21450c9",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "San Francesco 1226-2026. Frate frate",
-   "inizio": "2026-11-29T16:00",
-   "fine": null,
-   "luogo": "Collegiata di San Bartolomeo",
-   "indirizzo": "Via Prevosto Felice Piana 6",
-   "comune": "Borgomanero",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Pomeriggio di lettura teatrale e musica sul Cantico delle creature con i Frati Cappuccini.",
-   "lat": 45.6990064,
-   "lon": 8.4627371,
-   "precisione": "address"
-  },
-  {
-   "uid": "9ef61514a23dae1c",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Bancarelle in corte 2026",
-   "inizio": "2026-11-29T10:00",
-   "fine": null,
-   "luogo": "Castello Visconteo Sforzesco di Galliate",
-   "indirizzo": "Piazza Vittorio Veneto",
-   "comune": "Galliate",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "turismonovara.it",
-   "pagina_fonte": "https://www.turismonovara.it/it/eventimanifestazioni?PrintPDF=1 (PDF degli eventi dal 28/11/2026, letto il 2026-11-28)",
-   "sito_ufficiale": "https://www.turismonovara.it/it/doc/eventimanifestazioni",
-   "riassunto": "Mercatini di Natale nel quadriportico del Castello di Galliate con casa di Babbo Natale e animazioni per bambini; aperto fino alle 18.30.",
-   "lat": 45.4787468,
-   "lon": 8.6956298,
-   "precisione": "address"
-  },
-  {
-   "uid": "6624a8dae9f43f87",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Vercelli Organ Festival, 6o concerto",
-   "inizio": "2026-11-29T16:00",
-   "fine": null,
-   "luogo": "Chiesa dei Santi Pietro e Paolo",
-   "indirizzo": "Via Giacomo Lignana",
-   "comune": "Tronzano Vercellese",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "visitvalsesiavercelli.it",
-   "pagina_fonte": "https://visitvalsesiavercelli.it/partecipa/eventi-e-news/i-prossimi-eventi/",
-   "sito_ufficiale": "https://visitvalsesiavercelli.it/partecipa/eventi-e-news/eventi/vercelli-organ-festival-6-concerto/",
-   "riassunto": "Concerto d'organo del Vercelli Organ Festival nella parrocchiale dei Santi Pietro e Paolo di Tronzano.",
-   "lat": 45.3427088,
-   "lon": 8.1751988,
-   "precisione": "address"
-  },
-  {
-   "uid": "57f80adabd9671ff",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Street Food alla Sonninese",
-   "inizio": "2026-11-29T12:00",
-   "fine": null,
-   "luogo": "Piazza Garibaldi",
-   "indirizzo": "Piazza Giuseppe Garibaldi",
-   "comune": "Sonnino",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "visitlazio.com",
-   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/ (JSON-LD della fonte del giro visit-lazio)",
-   "sito_ufficiale": "https://www.visitlazio.com/eventi-lazio/street-food-alla-sonninese/",
-   "riassunto": "Pranzo con piatti della tradizione di Sonnino preparati in cucine temporanee nell'area pedonale tra via Cesare Battisti e piazza Garibaldi.",
-   "lat": 41.4141931,
-   "lon": 13.2419263,
    "precisione": "address"
   }
  ]
