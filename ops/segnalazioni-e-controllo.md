@@ -52,6 +52,12 @@ Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella
   `ops/prelievi.csv`, richieste di rimozione in `ops/richieste-rimozione.md`. (ora nel codice: il PC non legge le
   fonti vietate o da verificare, nemmeno dalla cache; export e `--applica` tolgono dal sito gli eventi presi da li')
 
+- 2026-11-28 (notte) · **Luoghi delle province nuove.** Campione 10/20, 7 errori di luogo: gli eventi aggiunti da
+  fonti nuove di province mai coperte (teatri di Bergamo, Pavia, Omate, Predaia, Padova) avevano il nome del posto ma
+  il punto sul centro del comune. Chi apre una provincia nuova scrive address, lat e lon per ogni evento (scheda del
+  luogo o OpenStreetMap) e mette subito in `config/luoghi.yaml` i luoghi che tornano: un evento con il solo comune
+  non si aggiunge se il luogo ha un nome.
+
 - 2026-11-05 · **Sigla della provincia nel comune.** "Treviso (TV)" faceva cercare il comune sbagliato: 45 eventi di
   Gli Alcuni a Treviso erano a Vittorio Veneto (37 km). Si toglie la sigla prima di geolocalizzare e si controlla
   sempre la distanza dal centro del comune. Le repliche riservate alle scuole non sono eventi pubblici: si
@@ -86,7 +92,7 @@ alla parte 1.
 
 Formato: `- AAAA-MM-GG · segnalazione #id · uid · cosa diceva (in breve) · cosa e' stato fatto`
 
-(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02, 2026-11-05, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-09, 2026-11-10, 2026-11-11 2026-11-12, 2026-11-13, 2026-11-14, 2026-11-15, 2026-11-16, 2026-11-17, 2026-11-18, 2026-11-19, 2026-11-20, 2026-11-21, 2026-11-22, 2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26, 2026-11-27 e 2026-11-28: nessuna arrivata (il 28/11, letto tre volte anche nella notte, il modulo Google aveva solo due righe di prova TEST, l'ultima del 28/11/2026 11.09.13); il PC ha riesportato il file l'11/11 mattina con 0 segnalazioni)
+(nessuna segnalazione registrata finora; 2026-11-01, 2026-11-02, 2026-11-05, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-09, 2026-11-10, 2026-11-11 2026-11-12, 2026-11-13, 2026-11-14, 2026-11-15, 2026-11-16, 2026-11-17, 2026-11-18, 2026-11-19, 2026-11-20, 2026-11-21, 2026-11-22, 2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26, 2026-11-27 e 2026-11-28: nessuna arrivata (il 28/11, letto quattro volte, l'ultima nella sessione delle 01:07 anche nella notte, il modulo Google aveva solo due righe di prova TEST, l'ultima del 28/11/2026 11.09.13); il PC ha riesportato il file l'11/11 mattina con 0 segnalazioni)
 
 ## 3. Controllo a campione
 
@@ -101,6 +107,7 @@ Formato (una riga per notte, la piu' recente in alto):
 Obiettivo: almeno il 90% stabile. Se una notte scende sotto l'80%, la causa principale va scritta nella parte 1 e
 segnalata nei `problemi` del riepilogo.
 
+- 2026-11-28 (notte, quarta prova) · corretti 10/20 · errori: data 0, orario 0, luogo 7, accesso 2, categoria 0, link 3 · lezione: sotto l'80% per il punto sul solo comune negli eventi delle fonti nuove di Lombardia e Trentino (teatri di Bergamo, Pavia, Omate, Predaia) e di Padova: sistemati con 105 luoghi nuovi; resta il link alla pagina della rassegna di Gli Alcuni invece della scheda dello spettacolo (seconda notte). Sotto l'80%: regola aggiunta nella parte 1 (fonti nuove di una provincia nuova)
 - 2026-11-28 (notte, terza prova) · corretti 15/20 · errori: data 0, orario 0, luogo 2, accesso 2, categoria 0, link 2 · lezione: dopo i luoghi nuovi della seconda prova il punto sul comune scende da 6 a 2 errori; restano l'accesso pubblicato dal locale ma non trascritto (Mattorosso, Gli Alcuni) e il link alla pagina della rassegna invece che alla scheda dell'evento; una scheda di Dolomiti Prealpi e' sparita (404), evento da ricontrollare. Sotto il 90% ma sopra l'80%: nessuna regola nuova
 - 2026-11-28 (notte, seconda prova) · corretti 9/20 · errori: data 0, orario 4, luogo 6, accesso 1, categoria 0, link 3 · lezione: primo campione da 20 letto davvero; l'errore principale e' il punto sul solo comune per gli eventi presi da Qdpnews e Nordest24 con un luogo nominato (6/20, ora 88 luoghi nuovi in luoghi.yaml); i link a pagine di vendita (TicketSMS) non sono link ufficiali; due orari di Boschi a Natale non si trovano sulle fonti. Sotto l'80%: regola aggiunta nella parte 1 (punto subito per i luoghi nuovi)
 - 2026-11-28 (notte, prima prova) · campione nuovo di 20 non controllato · errori: non misurati · lezione: WebFetch bloccato dalla rete della sessione (ENOTFOUND), nessuna fonte ufficiale leggibile; i 20 eventi restano da controllare la notte dopo

@@ -120,6 +120,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · Libri e lettura > letture animate di associazioni di lettori [Letture sPaesate, letture animate biblioteca Natale] (2026-11-28)
   · Libri e lettura > gruppi di lettura delle biblioteche [gruppo di lettura biblioteca <comune>] (2026-11-28)
   · Conferenze e incontri > guide all'ascolto musicale [Un viaggio tra i grandi della musica, guida all'ascolto Cordignano] (2026-11-28)
+- Voci della notte 2026-11-28 (sessione delle 01:07): Visite guidate > visite in LIS nei musei [visita guidata LIS museo] (2026-11-28) · Visite guidate > visite a tema napoleonico nelle gipsoteche [Napoleone Canova visita] (2026-11-28) · Storia e rievocazioni > rievocazioni malatestiane e medievali in Romagna [Sagra Malatestiana, palio medievale] (2026-11-28) · Tecnologia e scienza > planetari e osservazioni del cielo dei musei civici [planetario Novara, serata osservativa] (2026-11-28) · Comunita' > feste di quartiere natalizie delle circoscrizioni comunali [Natale in circoscrizione, festa di quartiere] (2026-11-28) · Mostre > mostre nei complessi monumentali dei capoluoghi [complesso San Francesco Cuneo, mostra] (2026-11-28)
 
 ## Musica e party (`musica`)
 
@@ -143,6 +144,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · camminate cantate e cori itineranti di Natale [Cantar Nadal, canti di Natale] (2026-11-26)
 - Voci del 2026-11-28: Concerti > ensemble di musica d'atmosfera [concerto d'inverno ensemble, Viaggiatori Armonici] · Concerti > conferenze-concerto su strumenti antichi [liuteria storica concerto, strumenti rinascimentali] · Concerti > rap e cantautori in talk [showcase rapper incontro, dialogo e live] · Festival musicali > festival di giovani interpreti [Harmonia Ruris, festival giovani talenti Castelfranco]
   · Concerti > tango da camera [concerto di tango Piazzolla, Chamberjam Europe] (2026-11-28)
+- Voci della notte 2026-11-28 (sessione delle 01:07): Concerti > concerti gospel di Natale nei teatri [gospel concert, mass choir] (2026-11-28) · Concerti > stagioni concertistiche delle fondazioni teatrali di tradizione [stagione concertistica teatro municipale] (2026-11-28) · Festival musicali > festival d'inverno nei teatri di tradizione [Ravenna Festival trilogia d'autunno] (2026-11-28) · Ballo > serate di liscio e ballo da sala nelle balere di pianura [liscio, balera, orchestra spettacolo] (2026-11-28)
 
 ## Sagre e cibo (`sagre-feste`)
 
@@ -166,6 +168,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · passaggio di San Nicolo' per le vie e nelle frazioni (4-6 dicembre) [San Nicolo', passaggio] (2026-11-26)
   · Krampus nei mercatini di fine novembre [Krampus, Pelund] (2026-11-26) · Panevin nelle frazioni (5 gennaio) [Panevin]
 - Voci del 2026-11-28: Feste stagionali > accensioni dell'albero nei comuni [accensione albero di Natale <comune>, alberi accesi in contemporanea]
+- Voci della notte 2026-11-28 (sessione delle 01:07): Vino e bevande > fiere del vino novello e dell'olio nuovo [olio nuovo, vino novello festa] (2026-11-28) · Feste stagionali > programmi di Natale comunali in PDF [Natale a Alessandria programma, Natale in citta'] (2026-11-28)
 
 ## Spettacoli (`teatro-spettacoli`)
 
@@ -189,6 +192,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · Teatro > filodrammatiche ospiti nelle rassegne domenicali [Domenica a teatro Trevignano, filodrammatica] (2026-11-28)
   · Comicita' > divulgazione scientifica a teatro [Vincenzo Schettini teatro, show di fisica] (2026-11-28)
   · Musical e operetta > tributi a Raffaella Carra' [Raffaella Carra' tribute show, Sognando la Carra'] (2026-11-28)
+- Voci della notte 2026-11-28 (sessione delle 01:07): Teatro > repliche del circuito regionale nei teatri di paese [MyArteven, circuito teatrale regionale] (2026-11-28) · Teatro > stagioni teatrali di montagna nelle localita' turistiche [CortinAteatro, stagione invernale] (2026-11-28) · Musical e operetta > stagioni di operetta nei teatri comunali [operetta, Compagnia Corrado Abbati] (2026-11-28) · Teatro > teatro in dialetto piemontese ed emiliano [teatro dialettale, compagnia dialettale] (2026-11-28)
 
 ## Famiglie e bambini (`famiglie-bambini`)
 
@@ -215,6 +219,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · Spettacoli per bambini > rassegne natalizie del circuito Arteven [Natale con un sorriso Arteven] (2026-11-28)
   · Spettacoli per bambini > produzioni di Fondazione AIDA [Fondazione AIDA Rudolph, teatro ragazzi AIDA tournee] (2026-11-28)
   · All'aperto > accensioni dell'albero nelle frazioni [accensione albero Padernello, elfi e letterine Babbo Natale] (2026-11-28)
+- Voci della notte 2026-11-28 (sessione delle 01:07): Letture e biblioteche > letture animate delle biblioteche ragazzi [biblioteca ragazzi, ora del racconto] (2026-11-28) · Ricorrenze > arrivo di Santa Lucia e San Nicolo' nei centri storici [Santa Lucia, San Nicolo' bambini] (2026-11-28) · Spettacoli per bambini > percorsi natalizi nei parchi a tema per famiglie [percorso di Natale parco, Alberi Parlanti] (2026-11-28)
 
 ## Mercatini e fiere (`mercatini-fiere`)
 
@@ -240,6 +245,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · Mercatini > mercatini dell'ultima domenica del mese [mercatino ultima domenica Spresiano] (2026-11-28)
   · Mercatini > mercatini della terza domenica [mercatino terza domenica San Zenone] (2026-11-28)
   · Fiere > fiere di Sant'Antonio Abate [fiera di Sant'Antonio Abate gennaio, sagra de Sant'Antoni Miane] (2026-11-28)
+- Voci della notte 2026-11-28 (sessione delle 01:07): Collezionismo > mercatini dell'antiquariato mensili nei capoluoghi [mercato antiquario, terza domenica] (2026-11-28) · Fiere > fiere agricole d'inverno della pianura [fiera di Santa Lucia, fiera agricola] (2026-11-28)
 
 ## Business e formazione (`business`)
 
@@ -257,6 +263,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · business night delle associazioni di commercianti [Confcommercio business night] · incontri Confapi
   · assemblee di categoria aperte su registrazione [assemblea panificatori, Federmoda] · giornate di networking nei concessionari [networking d'impresa, Centro Porsche] (2026-11-20)
 - Voci del 2026-11-28: Formazione > open day universitari [open day H-FARM College, orientamento universita' Treviso] · Formazione > corsi per professionisti aperti [corso prevenzione incendi aperto, seminario ordine professionale]
+- Voci della notte 2026-11-28 (sessione delle 01:07): Lavoro > saloni dell'orientamento e del lavoro [salone orientamento, job day] (2026-11-28) · Formazione > corsi gratuiti delle biblioteche civiche [corso biblioteca civica, alfabetizzazione digitale] (2026-11-28)
 
 ## Natura e benessere (`natura-outdoor`)
 
@@ -273,6 +280,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Orti e giardini** · giardini aperti · corsi di orticoltura · mostre di piante e fiori · laboratori con gli apicoltori [apicoltore, cera d'api] · corsi di potatura invernale dei comuni e delle associazioni [corso di potatura, innesti] (2026-11-27: solo PDF fuori provincia)
 - **Animali** · eventi cinofili [raduno cani, sfilata cani, mostra canina] · fattorie aperte · serate su fauna e migrazioni [rapaci, birdwatching] · mostre ornitologiche · benedizione degli animali [Sant'Antonio Abate, gennaio]
 - Voci del 2026-11-28: Benessere > counseling creativo [SoulCollage, collage benessere] · Benessere > formazione insegnanti yoga [formazione yoga bambini, Balyayoga]
+- Voci della notte 2026-11-28 (sessione delle 01:07): Ambiente > giornate di pulizia di fiumi e spiagge [clean up, plastic free] (2026-11-28) · Ambiente > visite guidate nelle oasi e riserve del delta [oasi, Delta del Po, birdwatching] (2026-11-28)
 
 ## Voci aggiunte (registro)
 
@@ -308,3 +316,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-28 · +10 voci · dove: Sport invernali (+1), Arte e cultura > Conferenze (+1), Comunita' (+2), Musica > Concerti (+1), Sagre > Feste stagionali (+1), Spettacoli > Cinema (+1), Famiglie > Laboratori (+1), Spettacoli per bambini (+1), Natura > Escursioni (+1)
 - 2026-11-28 (notte) · +28 voci · dove: Arte e cultura (+8), Spettacoli (+3), Musica e party (+4), Sport (+5), Natura e benessere (+2), Business e formazione (+2), Mercatini e fiere (+1), Sagre e cibo (+1), Famiglie e bambini (+2)
 - 2026-11-28 (notte, terza prova) · +25 voci · dove: Sport (+5), Mercatini e fiere (+4), Arte e cultura (+6), Famiglie e bambini (+5), Spettacoli (+4), Musica e party (+1)
+- 2026-11-28 (notte, sessione delle 01:07) · +25 voci · dove: Arte e cultura (+6), Musica e party (+4), Sagre e cibo (+2), Spettacoli (+4), Famiglie e bambini (+3), Mercatini e fiere (+2), Business e formazione (+2), Natura e benessere (+2); nate dalle province di Emilia-Romagna e Piemonte, da MyArteven e dal Museo Canova
