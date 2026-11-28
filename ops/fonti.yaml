@@ -2521,3 +2521,140 @@ fonti:
   ultimo_controllo: '2026-11-28'
   stato: attiva
   note: "Catalogata il 2026-11-28. Unica fonte leggibile per Rovigo: il sito del Comune e' una pagina vuota."
+- nome: "Fiori d'Inverno (sito ufficiale UNPLI Treviso)"
+  url: https://www.fioridinverno.tv/
+  query: "Fiori d'Inverno feste del radicchio"
+  tipo: pro loco
+  categorie: [sagre-feste]
+  province: [TV]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 2, ultimi: [2] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (agente giro). Home con tutte le feste e le date, schede /eventi/<slug>/; robots.txt libero. Sostituisce umbriaecultura.it (vietata)."
+- nome: "Teatro Stabile del Veneto, notizie"
+  url: https://www.teatrostabileveneto.it/news-tsv/
+  query: "Teatro Stabile del Veneto <teatro> <mese> 2026"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  province: [BL, PD, VE, TV]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 6, ultimi: [6] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Programmi delle stagioni del circuito (La Sena Viva di Feltre), spesso senza orari."
+- nome: "Comune di Pordenone, schede evento"
+  url: https://www.comune.pordenone.it/it/vivere-pordenone/eventi/
+  query: "elenco su https://natale.comune.pordenone.it/"
+  tipo: comune
+  categorie: [arte-cultura, musica, mercatini-fiere]
+  comuni: [Pordenone]
+  province: [PN]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 0, ultimi: [0] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (revisione). Le schede hanno luogo, orari e costi che il portale natalizio non ha: usarle come official_url."
+- nome: "Comune di Trento, agenda (API OpenCity)"
+  url: https://www.comune.trento.it/Vivere-il-Comune/Eventi
+  query: "api/opendata/v2/content/search/classes [event] and calendar[time_interval] = [da,a] limit 200"
+  tipo: comune
+  categorie: [arte-cultura, musica, famiglie-bambini, mercatini-fiere]
+  comuni: [Trento]
+  province: [TN]
+  frequenza: settimanale
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 61, ultimi: [61] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si
+  stato: attiva
+  note: "Catalogata il 2026-11-28 (italia). 258 eventi fino al 10/1, scheda /content/view/full/<mainNodeId>, coordinate in virtual_takes_place_in. Stessa API sui comuni trentini Comunweb (Pergine 31, Predaia 6): candidata per config/sources.yaml."
+- nome: "Comune di Bolzano, OpenAgenda"
+  url: https://eventi.comune.bolzano.it/
+  query: "api/opendata/v2/content/search/classes [event] and calendar[] = [da,a] limit 200"
+  tipo: comune
+  categorie: [arte-cultura, musica, teatro-spettacoli]
+  comuni: [Bolzano]
+  province: [BZ]
+  frequenza: settimanale
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 55, ultimi: [55] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Scheda /agenda/event/<id> con JSON-LD; orario vero in orario_svolgimento (from_time del Teatro Stabile spesso fisso a 20:00)."
+- nome: "Open Data Hub Alto Adige, eventi LTS"
+  url: https://tourism.api.opendatahub.com/v1/Event
+  query: "?pagesize=3000&begindate=AAAA-MM-GG&enddate=AAAA-MM-GG&language=it"
+  tipo: ente
+  categorie: [sagre-feste, mercatini-fiere, musica, natura-outdoor]
+  province: [BZ]
+  frequenza: settimanale
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 25, ultimi: [25] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si
+  stato: attiva
+  note: "Catalogata il 2026-11-28. 2269 eventi in 120 giorni in tutta la provincia; link pubblico costruito con l'Id su ahrntal.com, merano-suedtirol.it, venosta.net. Scartare i Guest Pass per soli ospiti degli hotel."
+- nome: "Fondazione Teatro Donizetti (feed JSON)"
+  url: https://www.teatrodonizetti.it/spettacoli-teatro-donizetti/
+  query: "wp-json/teatrodonizetti/v1/calendar-feed?lang=it&start=AAAA-MM-GG&end=AAAA-MM-GG"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: [Bergamo]
+  province: [BG]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 45, ultimi: [45] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Senza start/end il feed risponde 502."
+- nome: "Teatro Sociale di Como (The Events Calendar)"
+  url: https://teatrosocialecomo.it/
+  query: "wp-json/tribe/events/v1/events?per_page=50"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: [Como]
+  province: [CO]
+  frequenza: mensile
+  qualita: 5
+  resa: { controlli: 1, eventi_trovati: 30, ultimi: [30] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: si
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Costo, sala e coordinate nell'API: candidata tribe_api in config/sources.yaml."
+- nome: "Teatro Grande di Brescia, calendario"
+  url: https://teatrogrande.it/it/calendario
+  query: "Teatro Grande Brescia calendario"
+  tipo: teatro
+  categorie: [teatro-spettacoli, musica]
+  comuni: [Brescia]
+  province: [BS]
+  frequenza: mensile
+  qualita: 4
+  resa: { controlli: 1, eventi_trovati: 10, ultimi: [10] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Mese corrente e successivo con orari e sale."
+- nome: "Teatro Manzoni di Monza"
+  url: https://www.teatromanzonimonza.it/
+  query: "Teatro Manzoni Monza stagione 2026/27"
+  tipo: teatro
+  categorie: [teatro-spettacoli]
+  comuni: [Monza]
+  province: [MB]
+  frequenza: mensile
+  qualita: 3
+  resa: { controlli: 1, eventi_trovati: 14, ultimi: [14] }
+  ultimo_controllo: '2026-11-28'
+  automatizzabile: no
+  stato: attiva
+  note: "Catalogata il 2026-11-28. Home con tutta la stagione (date senza orari), schede /stagione-teatrale-26-27/<slug>."
