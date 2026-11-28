@@ -162,6 +162,7 @@
       const rest = p.replace(/^(ingresso |entrata |partecipazione |corsa |degustazione )?(gratuit[oa]|gratis|liber[oa]|free)( e (gratuit[oa]|liber[oa]))?\s*[,.;:]?\s*/i, "");
       return rest === p ? p : rest;
     }
+    if (accessGroup(e) === "pagamento") return p.replace(/^(a )?pagamento\s*[,.;:]?\s*/i, "");   // il badge lo dice gia'
     return p;
   }
   function accessGroup(e) {
@@ -1160,7 +1161,39 @@
     const diff = Math.round((d0 - today()) / 86400000);
     const tags = opts.inline ? "" : (LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : "")
       + (diff <= 0 && !LIVE.has(e.uid) ? '<span class="day-tag">Oggi</span>' : diff === 1 ? '<span class="day-tag">Domani</span>' : "");
-    el.innerHTML = `
+    if (opts.popup) {
+      // Popup sulla mappa (proposta A2): titolo; data grande in un riquadro a matita con l'orario; luogo su una riga;
+      // accesso; descrizione di 3 righe ("altro" per leggerla tutta); azioni.
+      const live = LIVE.has(e.uid), started = multiDay && iso(today()) > e.start.slice(0, 10);
+      const dShow = started ? today() : d0;                   // eventi lunghi gia' iniziati: si parla di oggi
+      const dd = Math.round((dShow - today()) / 86400000);
+      const lead = live ? "In corso" : dd <= 0 ? "Oggi" : dd === 1 ? "Domani" : DOW[dShow.getDay()];
+      const endD = multiDay ? parseDay(e.end) : null;
+      const right = multiDay ? `fino al ${endD.getDate()} ${MONTHS[endD.getMonth()].slice(0, 3)}`
+        : t0 ? (sameDayEnd ? `${t0}–${sameDayEnd}` : t0) : "";
+      const label = "Scopri di più";                         // uguale per tutti gli eventi
+      el.innerHTML = `
+      ${favButton(e, "fav")}
+      <h3>${esc(e.title)}</h3>
+      <div class="p-date${live ? " live" : ""}"><span class="p-lead">${esc(lead)}</span><span class="p-day">${dShow.getDate()}</span><span class="p-mon">${MONTHS[dShow.getMonth()].slice(0, 3)}</span>${right ? `<span class="p-time">${esc(right)}</span>` : ""}</div>
+      <p class="p-place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span><b>${esc(e.venue || e.town)}</b>${e.venue && e.town ? `, ${esc(e.town)}` : ""}${dist ? ` · ${dist}` : ""}</span></p>
+      <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}</div>
+      ${e.summary ? `<p class="card-desc p-desc">${esc(e.summary)}</p><button type="button" class="p-more" hidden>altro</button>` : ""}
+      ${e.ticket_url && e.ticket_url !== e.action_url ? `<p class="card-src">Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a></p>` : ""}
+      <div class="card-actions">
+        <a class="more" href="${attr(e.action_url)}" target="_blank" rel="noopener" title="Fonte: ${esc(host)}" aria-label="${label} su ${esc(host)}">${label} <i aria-hidden="true">↗</i></a>
+        <button class="mini" type="button" data-ics aria-label="Aggiungi al calendario" title="Aggiungi al calendario"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
+        <a class="mini" href="${attr(dirs)}" target="_blank" rel="noopener" aria-label="Indicazioni" title="Indicazioni"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></a>
+        <button class="mini" type="button" data-share aria-label="Condividi" title="Condividi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7.5 7.5 12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></button>
+      </div>
+      <button class="report-link" type="button" data-report>Segnala una modifica</button>`;
+      el.classList.add("a2");
+      const more = el.querySelector(".p-more"), desc = el.querySelector(".p-desc");
+      if (more) {
+        requestAnimationFrame(() => { if (desc.scrollHeight > desc.clientHeight + 2) more.hidden = false; });
+        more.addEventListener("click", (ev) => { ev.stopPropagation(); desc.classList.add("open"); more.hidden = true; requestAnimationFrame(() => ensureCardVisible()); });
+      }
+    } else el.innerHTML = `
       ${favButton(e, "fav")}
       ${tags ? `<div class="card-top">${tags}</div>` : ""}
       ${opts.inline
