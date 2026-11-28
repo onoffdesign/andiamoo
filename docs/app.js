@@ -602,7 +602,7 @@
         if (/label_city/.test(id)) lay(id, "text-size", ["interpolate", ["linear"], ["zoom"], 4, 12, 8, 16, 12, 20]);
         const sea = /water/.test(id);
         set(id, "text-color", sea ? "#3d8a69" : MAP_INK.text);
-        set(id, "text-halo-color", sea ? MAP_INK.paper : "rgba(214, 240, 224, .55)"); set(id, "text-halo-width", sea ? 1.2 : 1.6);
+        set(id, "text-halo-color", sea ? MAP_INK.paper : "rgba(244, 239, 227, .8)"); set(id, "text-halo-width", sea ? 1.2 : 2);
         set(id, "text-halo-blur", 0.8); lay(id, "text-transform", /country|state/.test(id) ? "uppercase" : "none");
         if (/country|state/.test(id)) lay(id, "text-letter-spacing", 0.12);
       }
@@ -944,6 +944,16 @@
         layout: { "icon-image": icon("pin-"), "icon-size": 1.25, "icon-allow-overlap": true, "icon-ignore-placement": true } });
       map.addLayer({ id: "points-selected", type: "symbol", source: "sel",
         layout: { "icon-image": icon("pin-sel-"), "icon-size": 1.15, "icon-allow-overlap": true, "icon-ignore-placement": true } });
+      // nomi delle citta' sopra i segnaposti, spostati di lato (sotto o accanto al punto) per non finire sotto i tondi
+      for (const id of ["label_town", "label_city", "label_city_capital"]) {
+        if (!map.getLayer(id)) continue;
+        try {
+          map.setLayoutProperty(id, "text-variable-anchor", ["top", "bottom", "right", "left"]);
+          map.setLayoutProperty(id, "text-radial-offset", 1.35);
+          map.setLayoutProperty(id, "text-justify", "auto");
+          map.moveLayer(id);
+        } catch (_) { /* stile senza questo strato */ }
+      }
 
       map.on("click", "clusters", (ev) => {
         const f = ev.features[0];
