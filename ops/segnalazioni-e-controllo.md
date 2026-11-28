@@ -32,6 +32,11 @@ Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella
   o un campo vuoto non sono un link ufficiale. Per gli eventi con link social si cerca il sito o la pagina
   dell'evento; se non c'e', resta in coda. (Superata il 2026-11-28 per Eventbrite: vedi la regola fonti qui sotto.)
 
+- 2026-11-28 · **Posizione dei punti** (Federico): punti dello stesso posto sparsi sulla mappa. Regola: eventi nello
+  stesso luogo con le stesse coordinate (il sito li dispone vicini senza sovrapporli); se manca l'indirizzo completo,
+  cercarlo incrociando almeno due fonti (sito del luogo, Comune, pro loco, OpenStreetMap, Wikipedia, altri eventi
+  nello stesso posto), scrivere venue, address, lat e lon, e salvare il luogo in `config/luoghi.yaml`.
+
 - 2026-11-28 · **Verifica delle fonti** (decisa da Federico): se in robots.txt e nei termini e condizioni non c'e'
   nessun divieto di scraping dei dati degli eventi o simili (crawling, estrazione automatica, data mining, riuso
   automatizzato), la fonte e' valida e va in `ammesse` con data e pagine lette. Divieto trovato: `vietate` con la

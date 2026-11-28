@@ -27,7 +27,12 @@ priorita'**: Treviso non ha piu' una ricerca dedicata, entra nella rotazione com
   non ancora sul sito; data in `copertura.yaml` sezione `giro`) e le "fonti note da riaprire" di `ops/fonti.yaml`.
   Solo lui modifica `config/sources.yaml` (indirizzi cambiati, fonti da spegnere).
 - **revisione** (15%): coda di revisione, controllo a campione, posizioni, test di copertura (passi 2-3c). Scrive le
-  correzioni nella sua parte; solo lui modifica `config/luoghi.yaml`.
+  correzioni nella sua parte; solo lui modifica `config/luoghi.yaml`. Le posizioni vengono prima di tutto il resto:
+  ogni luogo senza indirizzo completo o con punti diversi va cercato e sistemato (regole "Indirizzo completo sempre"
+  e "Stesso luogo, stesso punto").
+- Anche gli altri agenti, per ogni evento che aggiungono, cercano l'indirizzo completo del posto e scrivono `address`,
+  `lat` e `lon`; i luoghi nuovi verificati li elencano nel resoconto (nomi, comune, indirizzo, lat, lon, fonti) e il
+  coordinatore li aggiunge a `config/luoghi.yaml` alla fine.
 - **italia-a** e **italia-b** (25% ciascuno): le province della sezione 2 del piano marcate [italia-a] o [italia-b]:
   Comune capoluogo, portale turistico ufficiale, teatri, musei, pro loco, i comuni e l'ambito indicati. Date in
   `copertura.yaml` sezioni `province`, `comuni_<SIGLA>`, `categorie_<SIGLA>` delle loro province.
@@ -130,6 +135,21 @@ frazione, fuori area) finiscono in `ops/senza-posizione.json`: sistemali subito 
   Mai lasciare un evento in un altro comune o in aperta campagna per mancanza di dati.
   Se lo stesso luogo torna in piu' eventi (teatri, parchi, sale civiche), scrivi le sue coordinate verificate in
   `config/luoghi.yaml` (nomi, comune, lat, lon, nota): la pubblicazione le usa per tutti gli eventi presenti e futuri.
+- **Indirizzo completo sempre (regola di Federico, 2026-11-28)**: ogni evento che aggiungi o correggi deve avere il
+  luogo preciso. Se la fonte da' solo il nome del posto (es. "Teatro Comunale", "Sala Polifunzionale", "Parco
+  della Pace") o solo il comune, **cerca tu l'indirizzo di quel posto specifico incrociando i dati**: almeno due
+  fonti tra sito del luogo, sito del Comune o della pro loco, pagina dell'organizzatore, scheda del luogo su
+  OpenStreetMap o Wikipedia, altri eventi gia' pubblicati nello stesso posto. Attenzione agli omonimi (ogni comune
+  ha il suo "Teatro Comunale"): conta il comune dell'evento. Scrivi `venue` (nome del posto), `address` (via e
+  numero civico) e `lat`/`lon`, e nella `nota` (o in `fonte`) da dove vengono. Il luogo verificato va subito in
+  `config/luoghi.yaml` con tutti i nomi con cui compare (es. "Auditorium Santa Caterina", "Santa Caterina"), cosi'
+  vale anche per gli eventi futuri. Solo se dopo la ricerca il posto resta introvabile si usa il punto noto piu'
+  vicino (piazza, chiesa, centro della frazione) e lo si scrive nella nota.
+- **Stesso luogo, stesso punto**: eventi nello stesso posto devono avere **esattamente le stesse coordinate** (quelle
+  di `config/luoghi.yaml` o le stesse `lat`/`lon` in tutte le schede), mai punti diversi per lo stesso indirizzo.
+  Il sito li dispone da solo vicini tra loro, a nido d'ape attorno a quel punto e senza toccarsi; gli eventi con
+  solo il comune e lo stesso nome del posto hanno gia' un punto comune. Se trovi lo stesso posto con punti diversi
+  (`punti_diversi` di `ops/posizioni.json`), scegli quello giusto e mettilo in `config/luoghi.yaml`.
 
 ## Memoria: impara e migliora ogni notte
 

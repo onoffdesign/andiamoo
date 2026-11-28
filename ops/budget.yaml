@@ -22,4 +22,4 @@ province_italia: 20          # province d'Italia a rotazione per notte (pipeline
 comuni_per_provincia: 3      # comuni da controllare in ognuna, oltre al capoluogo
 ambiti_per_provincia: 1      # ambiti di ops/categorie-ricerca.md da cercare in ognuna
 categorie_nuove: 25          # voci nuove da aggiungere all'albero delle categorie
-posizioni: 30                # luoghi di ops/posizioni.json da sistemare
+posizioni: 60                # luoghi di ops/posizioni.json da sistemare (indirizzo completo, stesso punto)
