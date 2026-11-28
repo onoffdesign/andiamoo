@@ -2,13 +2,13 @@
    Riferimento visivo: rapport2023-2024.upadi.ca (mappa con card colorate e filtri in pannello). */
 :root {
   --bg: #f5f3ee;          /* carta calda */
-  --land: #d9d5cb;        /* terra della mappa */
+  --land: #f5f3ee;        /* fondo della mappa: carta (la terra e' fatta solo di puntini) */
   --panel: #ffffff;
   --ink: #111111;
   --ink-2: #66625b;
   --line: #e4e0d7;
   --chip: #efece6;
-  --cta: #621fff;         /* viola: colore del brand e delle azioni */
+  --cta: #ee5d12;         /* arancione: colore del brand (punto interrogativo) e delle azioni */
   --on-cta: #ffffff;      /* testo sopra il colore del brand */
   --me: #2f6bff;          /* posizione dell'utente */
   --warn: #c2410c;        /* campi mancanti */
@@ -62,7 +62,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .wordmark { font-size: 1.05rem; font-weight: 700; letter-spacing: .02em; white-space: nowrap; display: inline-flex; }
 /* logo animato: un'onda passa sulle lettere, poi il "?" salta e si inclina; ogni 4,5 secondi */
 .wordmark .l { display: inline-block; }
-.wordmark .q { display: inline-block; transform-origin: 50% 85%; color: var(--ink); }
+.wordmark .q { display: inline-block; transform-origin: 50% 85%; color: var(--cta); }
 .wordmark.play .l { animation: wm-wave 4.5s cubic-bezier(.3, .7, .4, 1) 1 both; animation-delay: calc(var(--i) * 70ms); }
 .wordmark.play .q { animation: wm-q 4.5s cubic-bezier(.3, .7, .4, 1) 1 both; animation-delay: 560ms; }
 /* alternanza logo / "Trova il tuo evento" */
@@ -85,7 +85,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   11% { transform: translateY(1px); }
 }
 @keyframes wm-q {
-  0%, 30%, 100% { transform: translateY(0) rotate(0); color: var(--ink); }
+  0%, 30%, 100% { transform: translateY(0) rotate(0); color: var(--cta); }
   7% { transform: translateY(-9px) rotate(-14deg); color: var(--cta); }
   13% { transform: translateY(0) rotate(10deg); }
   18% { transform: translateY(-3px) rotate(-6deg); }
@@ -119,9 +119,68 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 
 /* ---------- giorni: periodi | divisore | giorni scorrevoli con frecce ---------- */
 .days {
-  top: calc(var(--gap) * 2 + 56px); left: calc(var(--gap) * 2);   /* a tutta larghezza, anche con l'elenco aperto */
-  right: calc(var(--gap) * 2); display: flex; align-items: flex-end; gap: 12px; padding: 10px 12px 8px;
+  top: calc(var(--gap) * 2 + 56px); left: calc(var(--gap) * 2);
+  display: flex; flex-direction: column; gap: 10px; padding: 8px;
 }
+/* calendario chiuso: solo il pulsante con l'intervallo scelto e il cambio vista; aperto: periodi e giorni */
+.days-bar { display: flex; align-items: center; gap: 8px; }
+.cal-btn {
+  display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 10px 0 10px; border: 0; border-radius: 8px;
+  background: var(--chip); cursor: pointer; font-family: var(--display); font-stretch: 112%; text-transform: uppercase;
+  font-size: .75rem; font-weight: 700; letter-spacing: .03em; white-space: nowrap;
+}
+.cal-btn .chev { width: 16px; height: 16px; transition: transform .2s ease; }
+.days[data-open="true"] .cal-btn { background: var(--ink); color: #fff; }
+.days[data-open="true"] .cal-btn .chev { transform: rotate(180deg); }
+.view-seg { display: inline-flex; padding: 3px; border-radius: 9px; background: var(--chip); gap: 2px; }
+.view-seg button {
+  display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 10px; border: 0; border-radius: 6px; background: transparent;
+  cursor: pointer; font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .6875rem; font-weight: 700; letter-spacing: .03em;
+}
+.view-seg button svg { width: 16px; height: 16px; }
+.view-seg button[aria-pressed="true"] { background: var(--panel); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); }
+/* riquadro del calendario: si apre sotto il pulsante, sopra la mappa, senza spostare le altre barre */
+.days-panel {
+  display: none; position: absolute; z-index: 5; top: calc(100% + 8px); left: -1.5px; width: 316px; padding: 12px;
+  flex-direction: column; gap: 10px; background-color: var(--panel); background-image: var(--paper);
+  border: 1.5px solid #1d1b18; border-radius: 16px 11px 18px 10px / 11px 17px 10px 16px; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18);
+}
+.days[data-open="true"] .days-panel { display: flex; animation: card-in .25s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 0 0; }
+.range-hint { margin: 0; color: var(--ink-2); font-size: .8125rem; text-align: center; }
+.cal-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.cal-month { font-family: var(--display); text-transform: uppercase; font-size: .9375rem; font-weight: 700; letter-spacing: .05em; }
+.cal-nav { width: 32px; height: 32px; display: grid; place-items: center; border: 0; border-radius: 8px; background: var(--chip); cursor: pointer; }
+.cal-nav svg { width: 16px; height: 16px; }
+.cal-nav:disabled { opacity: .3; cursor: default; }
+.cal-dow, .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); }
+.cal-dow span { text-align: center; font-size: .75rem; color: var(--ink-2); font-weight: 600; }
+.cal-dow span:nth-child(n + 6) { color: var(--ink); }
+.cal-grid { row-gap: 2px; }
+.cday {
+  position: relative; height: 40px; display: grid; place-items: center; padding: 0; border: 0; background: none; cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+.cday .blob {
+  position: absolute; left: 50%; top: 50%; width: var(--blob); height: var(--blob); transform: translate(-50%, -50%);
+  border-radius: 50%; background: var(--land); opacity: .55; transition: transform .2s ease;
+}
+.cday .num { position: relative; font-size: .9375rem; font-weight: 600; line-height: 1; }
+.cday.weekend .num { font-weight: 700; }
+.cday.today .num { text-decoration: underline; text-underline-offset: 3px; }
+.cday:disabled { cursor: default; }
+.cday:disabled .num { color: #c4bcab; }
+.cday:not(:disabled):hover .blob { transform: translate(-50%, -50%) scale(1.12); }
+.cday:not(:disabled):hover .num { color: #000; }
+/* intervallo scelto: fascia chiara tra i due giorni, primo e ultimo cerchiati d'inchiostro */
+.cday[aria-pressed="true"]::before { content: ""; position: absolute; inset: 4px 0; background: rgba(29, 27, 24, .1); }
+.cday.r-start::before { left: 4px; border-radius: 16px 0 0 16px; }
+.cday.r-end::before { right: 4px; border-radius: 0 16px 16px 0; }
+.cday.r-start.r-end::before { border-radius: 16px; }
+.cday.r-start::after, .cday.r-end::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 32px; height: 32px; transform: translate(-50%, -50%);
+  border-radius: 50%; border: 2px solid #1d1b18;
+}
+.cday.r-start .num, .cday.r-end .num { font-weight: 800; }
 .presets { display: flex; gap: 6px; flex-shrink: 0; padding-bottom: 4px; }
 .presets button {
   height: 30px; padding: 0 10px; border: 0; border-radius: 6px; background: var(--chip);
@@ -360,11 +419,11 @@ body.sidebar-hidden .list-toggle { display: flex; }
 .reset-x svg { width: 18px; height: 18px; stroke-width: 2.4; }
 .reset-x:hover { background: var(--chip); }
 
-/* desktop: categorie in una barra in cima, sotto il calendario; in basso restano Accesso e azzera */
+/* desktop: categorie in una barra in cima, accanto al calendario; in basso restano Accesso e azzera */
 @media (min-width: 761px) {
   .chips-row {
-    position: fixed; z-index: 3; top: var(--cats-top, 196px); left: calc(var(--gap) * 2); right: calc(var(--gap) * 2);
-    padding: 8px 10px; background: var(--panel); border-radius: var(--r);
+    position: fixed; z-index: 3; top: var(--cats-top, 88px); left: var(--cats-left, 380px); right: calc(var(--gap) * 2);
+    height: var(--cats-h, 54px); padding: 0 10px; background: var(--panel); border-radius: var(--r);
   }
   .filters { right: auto; padding: 8px 12px; }
   .selects { margin-top: 0; padding-top: 0; border-top: 0; flex-wrap: nowrap; }
@@ -437,6 +496,60 @@ body.sidebar-hidden .list-toggle { display: flex; }
   font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .875rem; font-weight: 700; letter-spacing: .04em;
 }
 .card .more:hover { background: #333; }
+
+/* ---------- card completa (popup e vista lista) ---------- */
+.card.full { width: 360px; display: flex; flex-direction: column; gap: 10px; }
+.card.full .card-top { align-items: center; flex-wrap: nowrap; min-width: 0; }
+.card.full .card-top .live-tag { flex: none; }
+.card.full .cat-tag { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card.full .card-top .live-tag { margin: 0; }
+.cat-tag { font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .6875rem; font-weight: 700; letter-spacing: .04em; }
+.card.full .card-top .fav { margin-top: -4px; }
+.card-when { display: flex; flex-direction: column; gap: 2px; }
+.card-when .w-day { display: block; font-family: var(--display); font-stretch: 112%; font-size: 1.5rem; line-height: 1.1; font-weight: 700; }
+.card-when .t { display: block; font-size: 1.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.card-when .u { display: block; font-size: 1rem; }
+.card.full h3 { margin: 0; padding: 0 0 8px; font-size: 1.125rem; }
+.card.full p { margin: 0; }
+.card-place { font-size: .9375rem; line-height: 1.35; }
+.card-place.link { cursor: pointer; text-decoration: underline; text-decoration-color: rgba(0, 0, 0, .3); text-underline-offset: 3px; }
+.card-acc { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .875rem; }
+.card-acc .acc { margin: 0; }
+.card-acc .who-pill { background: rgba(255, 255, 255, .55); }
+.card-desc { font-size: .9375rem !important; line-height: 1.5 !important; }
+.card-src { font-size: .75rem !important; color: rgba(0, 0, 0, .62); }
+.card-src a { color: inherit; text-underline-offset: 2px; }
+.card-actions { display: flex; gap: 6px; align-items: stretch; margin-top: 2px; }
+.card-actions .more { flex: 1; min-width: 0; width: auto; margin: 0; gap: 6px; padding: 0 10px; text-decoration: none; white-space: nowrap; }
+.card-actions .more i { font-style: normal; font-size: 1rem; }
+.card-actions .mini {
+  flex: 0 0 40px; height: 40px; display: grid; place-items: center; border: 1.5px solid rgba(0, 0, 0, .7); border-radius: 6px;
+  background: rgba(255, 255, 255, .45); color: var(--ink); cursor: pointer;
+}
+.card-actions .mini:hover { background: #fff; }
+.card-actions .mini svg { width: 19px; height: 19px; }
+.card.full .report-link { align-self: flex-start; margin: 0; padding: 0; color: rgba(0, 0, 0, .55); }
+
+/* ---------- vista lista ---------- */
+.cards-view { display: none; }
+body.view-list .cards-view {
+  /* le card occupano tutto il foglio e scorrono dietro a testata, filtri e accesso (che restano sopra) */
+  display: block; position: absolute; z-index: 2; inset: var(--gap); overflow-y: auto; border-radius: 20px;
+  padding: calc(var(--below-days, 190px) - var(--gap)) calc(var(--gap) + 2px) calc(var(--above-filters, 140px) - var(--gap) + 24px);
+  scroll-padding-top: calc(var(--below-days, 190px) - var(--gap)); scrollbar-width: thin;
+}
+.cards-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; align-items: start; }
+.cards-list .card.full { width: auto; min-width: 0; box-shadow: 0 2px 10px rgba(0, 0, 0, .08); }
+.cards-day {
+  grid-column: 1 / -1; margin: 10px 0 0; font-family: var(--display); font-stretch: 112%; text-transform: uppercase;
+  font-size: .875rem; letter-spacing: .04em;
+}
+.cards-day:first-child { margin-top: 0; }
+.cards-more { display: block; margin: 18px auto 0; }
+.cards-view .empty-state { grid-column: 1 / -1; background: var(--panel); border-radius: var(--r); padding: 20px; }
+body.view-list #map, body.view-list .map-ctrl, body.view-list .list-toggle,
+body.view-list .maplibregl-ctrl-bottom-right { visibility: hidden; pointer-events: none; }
+body.view-list .stage { background: var(--bg) var(--paper); }
 .me-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--me); border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(47, 107, 255, .2); }
 .maplibregl-ctrl-attrib { font-size: 10px; background: rgba(255, 255, 255, .6) !important; }
 /* attribuzione OpenStreetMap/OpenFreeMap sempre visibile, sopra il pannello filtri */
@@ -559,19 +672,13 @@ body.sidebar-hidden .list-toggle { display: flex; }
   .add-btn .wide-only { display: none; }
 
   /* giorni: periodi, divisore e barre in un'unica riga che scorre */
-  .days {
-    top: calc(var(--top) + 52px); left: 10px !important; right: 10px; padding: 6px 8px 4px; gap: 8px;
-    overflow-x: auto; scrollbar-width: none; align-items: flex-end;
-    mask-image: linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);
-  }
-  .days::-webkit-scrollbar { display: none; }
+  .days { top: calc(var(--top) + 52px); left: 10px !important; right: auto; padding: 6px; gap: 8px; }
+  .days-panel { width: calc(100vw - 20px); max-width: 360px; }
+  .view-seg button span { display: none; }
+  body.view-list .cards-view { inset: 0; border-radius: 0; padding: var(--below-filters, 200px) 10px calc(24px + var(--sab)); }
+  .cards-list { grid-template-columns: 1fr; }
   .presets { padding-bottom: 6px; gap: 4px; }
   .presets button { height: 34px; padding: 0 8px; font-size: .6875rem; font-stretch: 100%; letter-spacing: .02em; }
-  .strip-wrap { flex: none; }
-  .strip-nav { display: none; }
-  .strip { overflow: visible; flex: none; }
-  .day { --day-w: 36px; grid-template-rows: 22px auto auto; min-height: 50px; }
-  .day .bar-wrap { height: 22px; }
 
   /* categorie: una riga; "Filtri" apre accesso/pubblico/luogo */
   .filters { top: var(--below-days, calc(var(--top) + 126px)); left: 10px !important; right: 10px; bottom: auto; padding: 6px; }
@@ -587,7 +694,7 @@ body.sidebar-hidden .list-toggle { display: flex; }
   /* controlli: solo "vicino a me", sopra il pannello */
   .map-ctrl { right: 10px; bottom: calc(var(--peek) + 12px); border-radius: 12px; transition: bottom .3s ease; }
   .map-ctrl button { width: 48px; height: 48px; }
-  .panel[data-sheet="half"] ~ .map-ctrl, .panel[data-sheet="full"] ~ .map-ctrl { opacity: 0; pointer-events: none; }
+  .panel[data-sheet="half"] ~ .map-ctrl, .panel[data-sheet="full"] ~ .map-ctrl, .panel[data-sheet="min"] ~ .map-ctrl { opacity: 0; pointer-events: none; }
   .toast { bottom: calc(var(--peek) + 74px); }
   .maplibregl-ctrl-bottom-right { right: auto; left: 0; bottom: var(--peek); }
   .pill-btn { padding: 0 14px; font-stretch: 105%; }
@@ -603,6 +710,7 @@ body.sidebar-hidden .list-toggle { display: flex; }
   .panel[data-sheet="peek"] { --sheet-y: calc(100% - var(--peek)); }
   .panel[data-sheet="half"] { --sheet-y: 45%; }
   .panel[data-sheet="full"] { --sheet-y: 0px; }
+  .panel[data-sheet="min"] { --sheet-y: calc(100% - 34px); }
   .panel-head { margin: 0 16px; padding: 22px 0 12px; touch-action: none; cursor: grab; }
   .panel-hide { display: none; }
   .grab {
@@ -619,6 +727,8 @@ body.sidebar-hidden .list-toggle { display: flex; }
   .detail-actions .cta { font-stretch: 100%; }
   .note { padding: 14px 16px calc(22px + var(--sab)); }
   .card { width: min(270px, calc(100vw - 40px)); }
+  .card.full.in-popup { width: calc(100vw - 24px); max-width: 420px; }
+  .card-when .w-day { font-size: 1.375rem; }
 
   /* finestre a tutto schermo */
   .dlg, .dlg.small { width: 100%; max-width: 100%; height: 100%; max-height: 100%; border-radius: 0; margin: 0; }
@@ -637,3 +747,497 @@ body.sidebar-hidden .list-toggle { display: flex; }
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
 
+
+/* nota comune sui riassunti con l'AI */
+.ai-note { font-size: .75rem; color: rgba(0, 0, 0, .6); }
+.cards-note { max-width: 720px; margin: 22px auto 0; text-align: center; }
+
+/* la card aperta sta sopra i crediti della mappa */
+.maplibregl-popup.ev-card { z-index: 3; }
+
+
+/* =====================================================================================================
+   V1 "fatto a mano": carta, scritte a mano, mappa illustrata (ispirazione: mappe editoriali con grana riso)
+   ===================================================================================================== */
+:root {
+  --display: "Patrick Hand", "Figtree", system-ui, sans-serif;   /* etichette, pulsanti: stampatello a mano */
+  --text: "Figtree", system-ui, sans-serif;                      /* testi da leggere: titoli eventi, luoghi, descrizioni */
+  --hand: "Patrick Hand", "Figtree", system-ui, sans-serif;      /* titoli dei giorni e date: lo stesso stampatello a mano */
+  --bg: #f4efe3; --land: #5db48b; --panel: #fbf8f0; --chip: #efe8d8; --line: #e2d9c4;
+  --live: #f4b942; --live-ink: #a8730a;
+  --paper: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .36 0 0 0 0 .3 0 0 0 0 .2 .7 0 0 0 -.3'/%3E%3C/filter%3E%3Cfilter id='b'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.012 .03' numOctaves='2' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .37 0 0 0 0 .24 .35 0 0 0 -.16'/%3E%3C/filter%3E%3Crect width='280' height='280' filter='url%28%23a%29'/%3E%3Crect width='280' height='280' filter='url%28%23b%29'/%3E%3C/svg%3E");
+}
+body { background: var(--bg) var(--paper); }
+.wordmark, .kicker, .presets button, .chip, .pill-btn, .cta, .detail h2, .card h3, .group, .text-btn, .sort,
+.dlg h2, .btn-dark, .btn-light, .field-badge { font-stretch: normal; letter-spacing: .04em; }
+
+/* bordi del foglio: leggera ombra fissa (la grana della carta e' nella mappa) */
+@media (min-width: 761px) { .map { border: 1.5px solid #1d1b18; } }
+.map .maplibregl-canvas-container { position: absolute; inset: 0; }
+.map .maplibregl-canvas-container::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply;
+  /* la grana e' disegnata nella mappa (si sposta con lei): qui resta solo l'ombra morbida ai bordi del foglio */
+  background-image: radial-gradient(ellipse at 50% 45%, transparent 60%, rgba(90, 70, 30, .14) 100%);
+}
+
+/* pannelli e card: carta con bordo d'inchiostro e angoli un po' irregolari */
+.float { background-color: var(--panel); background-image: var(--paper); border: 1.5px solid #1d1b18; }
+.card { background-image: var(--paper); background-blend-mode: multiply; border: 1.5px solid #1d1b18;
+  border-radius: 14px 9px 16px 8px / 9px 15px 8px 14px; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18); }
+.chip, .pill-btn, .cal-btn, .view-seg, .view-seg button, .presets button, .card-actions .mini, .card .more, .acc {
+  border-radius: 10px 7px 11px 6px / 7px 11px 6px 10px;
+}
+.map-ctrl { border: 1.5px solid #1d1b18; }
+
+/* titoli e date scritti a pennarello */
+/* card: tornano i caratteri originali (Archivo per data e titolo, Figtree per i testi), dentro la cornice di carta */
+.card { --display: "Archivo", "Figtree", system-ui, sans-serif; --text: "Figtree", system-ui, sans-serif;
+  font-family: var(--text); font-size-adjust: none; }
+.card h3 { font-stretch: 118%; letter-spacing: normal; }
+.cards-day { font-family: var(--hand); font-size-adjust: none; text-transform: none; letter-spacing: 0; font-size: 1.7rem; font-weight: 700; }
+.item h3 { font-weight: 400; font-size: 1.05rem; }
+.group { font-family: var(--hand); font-size-adjust: none; text-transform: none; letter-spacing: 0; font-size: 1.35rem; font-weight: 700; }
+
+/* icone dell'interfaccia con un tratto leggermente tremolante, come a penna */
+
+
+/* eventi in corso: puntino color sole che respira piano */
+.item .when.live { color: var(--live-ink); }
+.item .when.live::before, .live-tag::before { background: var(--live); animation: live-dot 4s ease-in-out infinite; }
+@keyframes live-dot { 0%, 100% { box-shadow: 0 0 0 0 rgba(244, 185, 66, .45); } 50% { box-shadow: 0 0 0 6px rgba(244, 185, 66, 0); } }
+.live-tag { background: #1d1b18; }
+.maplibregl-ctrl-attrib { font-family: var(--text); }
+
+/* calendario sopra elenco e mappa quando e' aperto; categorie con la stessa carta dei pannelli */
+.days { z-index: 6; }
+@media (min-width: 761px) {
+  .chips-row { background-color: var(--panel); background-image: var(--paper); border: 1.5px solid #1d1b18; }
+}
+/* descrizione dell'evento piu' piccola */
+.card-desc { font-size: .8125rem !important; line-height: 1.45 !important; }
+
+/* =====================================================================================================
+   Vista mappa: solo la mappa (niente elenco laterale). Vista lista: l'elenco degli eventi in una colonna
+   centrale, con preferiti e "Piu' vicini"; toccando un evento si apre la sua card sotto.
+   ===================================================================================================== */
+.panel, .list-toggle, .panel-hide, .grab, .cards-view { display: none !important; }
+body.view-list .panel { display: flex !important; }
+.filters { z-index: 4; }
+@media (min-width: 761px) {
+  body.view-list .panel {
+    left: 50%; transform: translateX(-50%); width: min(820px, calc(100vw - var(--gap) * 4));
+    top: var(--below-days, 190px); bottom: calc(var(--gap) * 2 - 1px);
+  }
+  /* l'ultimo evento si puo' portare sopra la barra Accesso */
+  body.view-list .panel-body { padding-bottom: calc(var(--above-filters, 140px) - var(--gap) * 2); }
+}
+@media (max-width: 760px) {
+  body.view-list .panel {
+    top: var(--below-filters, 200px); height: auto; transform: none !important; transition: none;
+    border-radius: 18px 18px 0 0; touch-action: auto;
+  }
+}
+.inline-card { list-style: none; padding: 4px 20px 16px; }
+.inline-card .card.full { width: auto; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18); animation: card-in .28s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 50% 0; }
+.item button[aria-expanded="true"] { background: var(--chip); }
+body.view-list .panel { touch-action: pan-y !important; }
+
+/* ---- vista lista a tutta pagina: l'elenco intero scorre sotto testata, calendario, categorie e accesso */
+@media (min-width: 761px) {
+  body.view-list .panel {
+    display: block !important; left: var(--gap); right: var(--gap); top: var(--gap); bottom: var(--gap); width: auto; transform: none;
+    overflow-y: auto; border: 0; border-radius: 20px; background-color: var(--panel); background-image: var(--paper);
+    padding: calc(var(--below-days, 190px) - var(--gap)) calc(var(--gap) * 2 - 20px) calc(var(--above-filters, 140px) - var(--gap) + 16px);
+    scrollbar-width: thin;
+    scroll-padding-top: calc(var(--below-days, 190px) - var(--gap) + 52px); scroll-padding-bottom: calc(var(--above-filters, 140px) - var(--gap));
+  }
+  body.view-list .panel .panel-body { overflow: visible !important; padding-bottom: 0; }
+  /* il giorno resta in vista appena sotto le barre in alto */
+  body.view-list .group { top: -1px; }   /* il riferimento e' gia' sotto le barre (padding del pannello) */
+}
+@media (max-width: 760px) {
+  body.view-list .panel {
+    display: block !important; top: 0; bottom: 0; border-radius: 0; overflow-y: auto; box-shadow: none; border: 0;
+    padding: var(--below-filters, 200px) 0 calc(24px + var(--sab)); background-color: var(--panel); background-image: var(--paper);
+    scroll-padding-top: calc(var(--below-filters, 200px) + 48px);
+  }
+  body.view-list .panel .panel-body { overflow: visible !important; }
+  body.view-list .group { top: -1px; }
+  /* vista mappa senza elenco: i controlli restano sempre in basso a destra */
+  .map-ctrl { bottom: calc(14px + var(--sab)) !important; opacity: 1 !important; pointer-events: auto !important; }
+}
+body.view-list .panel-head { background: transparent; }
+
+/* cuore piu' grande nelle card */
+.card-top .fav, .card.full .card-top .fav { width: 44px; height: 44px; margin-top: -8px; margin-right: -10px; }
+.card-top .fav svg { width: 30px; height: 30px; stroke-width: 1.8; }
+
+/* cuore tra i controlli della mappa: pieno, acceso quando mostra solo i preferiti */
+#fav-map svg { width: 22px; height: 22px; }
+#fav-map svg path { fill: transparent; stroke: #e0344f; stroke-width: 2; }
+#fav-map[aria-pressed="true"] { background: #fde4e8; }
+#fav-map[aria-pressed="true"] svg path { fill: #e0344f; }
+
+/* l'elenco scorre sotto testata, calendario, categorie e accesso */
+body.view-list .panel { z-index: 2 !important; }
+
+/* ---- vista lista nello stile dei popup: ogni evento e' un foglietto del colore della sua categoria ---- */
+body.view-list .panel-head {
+  position: sticky; top: 0; z-index: 3; margin: 0; padding: 10px 20px; border-bottom: 0;
+  background-color: var(--panel); background-image: var(--paper); box-shadow: 0 1px 0 rgba(29, 27, 24, .55);
+}
+body.view-list .group { top: var(--list-head, 52px); z-index: 2; background-color: var(--panel); background-image: var(--paper); }
+body.view-list .item { padding: 5px 20px; }
+body.view-list .item button {
+  background-color: var(--c); background-image: var(--paper); background-blend-mode: multiply;
+  border: 1.5px solid #1d1b18; border-radius: 12px 8px 13px 7px / 8px 12px 7px 13px; padding: 12px 16px;
+  grid-template-columns: 1fr auto; box-shadow: 2px 3px 0 rgba(29, 27, 24, .16); transition: transform .15s ease, box-shadow .15s ease;
+}
+body.view-list .item .dot { display: none; }
+body.view-list .item .meta { color: rgba(0, 0, 0, .68); }
+body.view-list .item h3 { color: var(--ink); }
+body.view-list .item .when.live { color: #1d1b18; }
+body.view-list .item button:hover, body.view-list .item button.hl { background-color: var(--c); transform: translate(-1px, -1px); box-shadow: 3px 4px 0 rgba(29, 27, 24, .22); }
+body.view-list .item button[aria-expanded="true"] { background-color: var(--c); box-shadow: none; transform: none;
+  border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+/* la card aperta si attacca sotto al suo evento */
+body.view-list .inline-card { padding: 0 20px 10px; }
+body.view-list .inline-card .card.full { border-top: 0; border-top-left-radius: 0; border-top-right-radius: 0; }
+@media (max-width: 760px) {
+  body.view-list .panel-head { padding: 10px 16px; cursor: default; }
+  body.view-list .item, body.view-list .inline-card { padding-left: 12px; padding-right: 12px; }
+}
+/* la fascia sottile tra i menu e la riga dei preferiti resta coperta: gli eventi passano sotto i menu */
+body.view-list .panel-head::before {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 100%; height: 14px;
+  background-color: var(--panel); background-image: var(--paper);
+}
+
+/* ---- "Vicino a ...": luogo da cui si misurano le distanze nella lista, si cambia scrivendo un comune ---- */
+.near { position: relative; }
+.near .sort { display: inline-flex; align-items: center; gap: 6px; max-width: 260px; }
+.near .sort svg { width: 15px; height: 15px; flex: none; }
+.near .sort span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.near .sort[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.near-pop {
+  position: absolute; right: 0; top: calc(100% + 8px); z-index: 10; width: 300px; padding: 10px;
+  background-color: var(--panel); background-image: var(--paper); border: 1.5px solid #1d1b18;
+  border-radius: 14px 9px 16px 8px / 9px 15px 8px 14px; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18);
+  animation: card-in .22s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 100% 0;
+}
+.near-pop input {
+  width: 100%; height: 40px; padding: 0 12px; border: 1.5px solid #1d1b18; border-radius: 10px; background: #fff; font-size: .9375rem;
+}
+.near-list { list-style: none; margin: 8px 0 0; padding: 0; max-height: 260px; overflow-y: auto; }
+.near-list button {
+  width: 100%; display: flex; align-items: baseline; gap: 6px; padding: 8px 10px; border: 0; border-radius: 8px;
+  background: none; text-align: left; font-size: .9375rem; cursor: pointer;
+}
+.near-list button:hover, .near-list button:focus-visible { background: var(--chip); }
+.near-list small { color: var(--ink-2); font-size: .75rem; }
+.near-hint { padding: 8px 10px; color: var(--ink-2); font-size: .8125rem; }
+.near-actions { display: flex; gap: 6px; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+.near-actions button {
+  flex: 1; height: 34px; border: 0; border-radius: 8px; background: var(--chip); cursor: pointer;
+  font-family: var(--display); text-transform: uppercase; font-size: .6875rem; font-weight: 700; letter-spacing: .04em;
+}
+.near-actions button:hover { background: var(--line); }
+@media (max-width: 760px) {
+  .near .sort { max-width: 190px; }
+  .near-pop { position: fixed; left: 10px; right: 10px; top: auto; width: auto; margin-top: 8px; }
+}
+body.view-list .item .when small { color: rgba(0, 0, 0, .7); font-weight: 600; }
+
+.near-radius { display: flex; align-items: center; gap: 8px; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); font-size: .875rem; }
+.near-radius span { margin-right: auto; color: var(--ink-2); }
+.near-radius b { min-width: 58px; text-align: center; font-variant-numeric: tabular-nums; }
+.near-radius button { width: 36px; height: 34px; border: 1.5px solid #1d1b18; border-radius: 8px; background: var(--chip); font-size: 1.2rem; line-height: 1; cursor: pointer; }
+.near-radius button:disabled { opacity: .35; cursor: default; }
+.near .sort { max-width: 300px; }
+
+/* =====================================================================================================
+   Apertura: carta beige a tutto schermo, scritta animata (docs/intro.js), poi lo strappo in 3D che apre la mappa.
+   Si muovono solo transform e opacity: tutto gira sulla scheda grafica.
+   ===================================================================================================== */
+.intro { position: fixed; inset: 0; z-index: 100; perspective: 1400px; overflow: hidden; contain: strict; }
+.intro-half { position: absolute; inset: 0; will-change: transform, opacity; backface-visibility: hidden; }
+.intro-half.left { z-index: 1; }
+.intro-sheet {
+  position: absolute; inset: 0; display: grid; place-items: center;
+  background-color: #f4efe3; background-image: var(--paper), radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(120, 95, 50, .14) 100%);
+}
+/* il bordo strappato si vede solo quando il foglio si apre */
+.intro.tear .intro-half { filter: drop-shadow(0 0 1.5px rgba(80, 60, 30, .5)) drop-shadow(5px 8px 14px rgba(40, 30, 10, .22)); }
+.intro-line {
+  position: relative; width: 0; height: 1.1em; color: #1d1b18; white-space: nowrap;
+  font-family: "Andiamo Intro", "Patrick Hand", system-ui, sans-serif; font-weight: 400; letter-spacing: .03em; line-height: 1.1;
+  font-size: calc(clamp(2rem, 9vw, 7rem) * var(--intro-scale, 1));
+}
+.intro:not(.go) .intro-line { visibility: hidden; }
+.iw { position: absolute; left: 0; top: 0; display: flex; will-change: transform; }
+.il { display: inline-block; opacity: 0; will-change: transform, opacity; }
+.iw[data-w="q"] .il { color: var(--cta, #ee5d12); transform-origin: 50% 85%; }
+
+/* telefono, vista lista: scorrimento nativo, nessun gesto del vecchio pannello a scomparsa */
+@media (max-width: 760px) {
+  body.view-list .panel, body.view-list .panel .panel-body, body.view-list .panel-head { touch-action: pan-y !important; }
+  body.view-list .panel { overscroll-behavior: contain; -webkit-overflow-scrolling: touch; --sheet-y: 0px; }
+  body.view-list .panel-head { cursor: default; }
+}
+.count { white-space: nowrap; }
+
+/* card: cuore nell'angolo in alto a destra, nessuna riga vuota in cima; OGGI / DOMANI come etichetta */
+.card.full { position: relative; padding-top: 12px; }
+.card.full > .fav { position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; margin: 0; border: 0; background: transparent;
+  display: grid; place-items: center; border-radius: 50%; cursor: pointer; z-index: 1; }
+.card.full > .fav:hover { background: rgba(0, 0, 0, .08); }
+.card.full > .fav svg { width: 30px; height: 30px; stroke: #111; stroke-width: 1.8; }
+.card.full .card-top { gap: 6px; padding-right: 44px; }
+.card.full .card-when { padding-right: 40px; }
+.day-tag {
+  display: inline-flex; align-items: center; height: 24px; padding: 0 9px; border-radius: 6px; background: #1d1b18; color: #fff;
+  font-family: var(--display); font-stretch: 112%; text-transform: uppercase; font-size: .75rem; font-weight: 700; letter-spacing: .05em;
+}
+
+/* telefono: niente ingrandimenti involontari della pagina (doppio tocco, campi di testo sotto i 16 px su iPhone);
+   se la pagina e' gia' ingrandita, il pizzico per tornare indietro funziona sempre */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+button, a, .item button, .chip, .cday { touch-action: manipulation; }
+@media (max-width: 760px) {
+  input, select, textarea, .near-pop input { font-size: 16px !important; }
+}
+
+/* ---- vista lista: cuore e "Entro ... km" come pulsanti fissi che galleggiano sopra gli eventi, senza barra ---- */
+body.view-list .panel-head {
+  position: sticky; top: 0; z-index: 4; height: 0; margin: 0; padding: 0; border: 0;
+  background: none !important; box-shadow: none !important; display: flex; justify-content: flex-end; align-items: flex-start; gap: 8px;
+  pointer-events: none;
+}
+body.view-list .panel-head::before { display: none; }
+body.view-list .panel-head .kicker, body.view-list .panel-head .count { display: none; }
+body.view-list .panel-head > * { pointer-events: auto; }
+body.view-list .panel-head .fav-btn, body.view-list .panel-head .near { margin-top: 10px; }
+body.view-list .panel-head .fav-btn, body.view-list .panel-head .near .sort {
+  height: 40px; padding: 0 14px; border: 1.5px solid #1d1b18; border-radius: 12px 8px 13px 7px / 8px 12px 7px 13px;
+  box-shadow: 2px 3px 0 rgba(29, 27, 24, .22); font-size: .8125rem;
+}
+body.view-list .panel-head .fav-btn { background: var(--panel); }
+body.view-list .panel-head .fav-btn svg { width: 20px; height: 20px; }
+body.view-list .panel-head { padding-right: 20px; }
+/* spazio per i due pulsanti sopra il primo evento; il giorno resta fermo subito sotto di loro */
+body.view-list .panel .panel-body { padding-top: 58px; }
+body.view-list .group { top: 56px; }
+@media (max-width: 760px) {
+  body.view-list .panel-head { padding-right: 12px; }
+}
+
+/* raggio: cursore orizzontale tra "−" (5 km) e "+" (tutta Italia) */
+.near-radius { display: block; }
+.near-radius .nr-top { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 6px; }
+.near-radius .nr-top span { color: var(--ink-2); }
+.near-radius .nr-top b { min-width: 0; font-size: .9375rem; }
+.nr-row { display: flex; align-items: center; gap: 10px; }
+.nr-row button { flex: none; }
+.nr-ends { display: flex; justify-content: space-between; margin: 4px 46px 0; color: var(--ink-2); font-size: .6875rem; }
+#near-range {
+  flex: 1; min-width: 0; height: 28px; margin: 0; background: transparent; -webkit-appearance: none; appearance: none; cursor: pointer; touch-action: pan-x;
+}
+#near-range::-webkit-slider-runnable-track {
+  height: 6px; border-radius: 3px; border: 1.5px solid #1d1b18;
+  background: linear-gradient(90deg, #1d1b18 var(--p, 12%), var(--chip) var(--p, 12%));
+}
+#near-range::-moz-range-track { height: 6px; border-radius: 3px; border: 1.5px solid #1d1b18; background: var(--chip); }
+#near-range::-moz-range-progress { height: 6px; border-radius: 3px; background: #1d1b18; }
+#near-range::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 24px; height: 24px; margin-top: -10px; border-radius: 50%; background: var(--panel);
+  border: 2px solid #1d1b18; box-shadow: 1px 2px 0 rgba(29, 27, 24, .25);
+}
+#near-range::-moz-range-thumb { width: 22px; height: 22px; border-radius: 50%; background: var(--panel); border: 2px solid #1d1b18; }
+.near-pop #near-range { height: 28px; padding: 0; border: 0; border-radius: 0; background: transparent; font-size: inherit !important; }
+.nr-ends span { margin: 0 !important; color: var(--ink-2); }
+.nr-ends { margin: 2px 50px 0; }
+
+/* ---- tre riquadri in alto: calendario | categorie | Mappa/Lista ---- */
+.view-box { z-index: 5; display: flex; align-items: center; padding: 8px; background-color: var(--panel); background-image: var(--paper); border: 1.5px solid #1d1b18; }
+@media (min-width: 761px) {
+  .view-box { top: var(--cats-top, 88px); right: calc(var(--gap) * 2); height: var(--cats-h, 54px); }
+  .chips-row { right: calc(var(--gap) * 2 + var(--view-w, 190px) + 10px) !important; }
+}
+@media (max-width: 760px) {
+  .view-box { top: calc(var(--top) + 52px); right: 10px; padding: 6px; }
+}
+
+/* vista lista: testi degli eventi piu' grandi */
+body.view-list .item h3 { font-size: 1.25rem; line-height: 1.25; font-weight: 500; }
+body.view-list .item .meta { font-size: 1rem; }
+body.view-list .item .when { font-size: 1rem; }
+body.view-list .item .when small { font-size: .875rem; }
+body.view-list .item button { padding: 14px 18px; }
+@media (max-width: 760px) {
+  body.view-list .item h3 { font-size: 1.125rem; }
+  body.view-list .item .meta, body.view-list .item .when { font-size: .9375rem; }
+}
+/* vista lista: testi ancora piu' grandi */
+body.view-list .item h3 { font-size: 1.625rem; line-height: 1.2; }
+body.view-list .item .meta { font-size: 1.1875rem; margin-top: 4px; display: block; }
+body.view-list .item .when { font-size: 1.1875rem; }
+body.view-list .item .when small { font-size: 1rem; }
+body.view-list .item button { padding: 18px 22px; }
+@media (max-width: 760px) {
+  body.view-list .item h3 { font-size: 1.375rem; }
+  body.view-list .item .meta, body.view-list .item .when { font-size: 1.0625rem; }
+  body.view-list .item button { padding: 14px 16px; }
+}
+
+/* vista lista: l'evento aperto e' un solo riquadro che si allunga verso il basso */
+body.view-list .item.open { padding-bottom: 0; }
+body.view-list .item.open button {
+  border-bottom: 0; border-bottom-left-radius: 0; border-bottom-right-radius: 0; box-shadow: none; transform: none;
+}
+body.view-list .inline-card { padding: 0 20px 6px; }
+body.view-list .inline-card .card.full {
+  margin-top: -1px; border-top: 0; border-top-left-radius: 0; border-top-right-radius: 0; padding-top: 4px;
+  background-color: var(--c); box-shadow: 2px 3px 0 rgba(29, 27, 24, .16); animation: none;
+}
+body.view-list .inline-card .card.full > .fav { top: -2px; }
+@media (max-width: 760px) { body.view-list .inline-card { padding: 0 12px 6px; } }
+body.view-list .inline-card .card.full { padding-left: 22px; padding-right: 22px; padding-bottom: 16px; }
+@media (max-width: 760px) { body.view-list .inline-card .card.full { padding-left: 16px; padding-right: 16px; } }
+
+/* vista lista: la data e' un titolo all'inizio del suo gruppo di eventi e scorre con loro (niente fascia fissa) */
+body.view-list .group {
+  position: static !important; background: none !important; padding: 22px 20px 8px; box-shadow: none;
+  font-size: 1.75rem;
+}
+body.view-list .panel .panel-body > ol > .group:first-child { padding-top: 6px; }
+@media (max-width: 760px) { body.view-list .group { padding: 18px 12px 6px; font-size: 1.5rem; } }
+
+body.view-list .inline-card .card-when .u { font-size: 1.0625rem; font-weight: 600; }
+body.view-list .inline-card .card.full > .fav { top: 6px; }
+
+/* crediti della mappa: tondino in basso a destra, accanto ai controlli, mai in mezzo alla mappa */
+.maplibregl-ctrl-bottom-right { right: calc(var(--gap) + 44px + 12px) !important; bottom: 4px !important; left: auto !important; }
+.maplibregl-ctrl-attrib.maplibregl-compact { margin: 0 !important; background: rgba(251, 248, 240, .85) !important; font-size: 10px; }
+.maplibregl-ctrl-attrib.maplibregl-compact:not(.maplibregl-compact-show) { opacity: .7; }
+@media (max-width: 760px) {
+  .maplibregl-ctrl-bottom-right { right: auto !important; left: 2px !important; bottom: calc(2px + var(--sab)) !important; }
+  .maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib.maplibregl-compact-show { max-width: calc(100vw - 90px); }
+}
+
+
+/* =====================================================================================================
+   Sistema unico di caratteri e pulsanti.
+   - Testo da leggere (titoli degli eventi, luoghi, descrizioni): Figtree.
+   - Etichette, pulsanti, date e titoli dei giorni: Patrick Hand (stampatello a mano), maiuscolo per i pulsanti.
+   - Pulsanti: stessa altezza, stesso bordo d'inchiostro, stessi angoli irregolari; attivo = inchiostro pieno.
+   ===================================================================================================== */
+:root { --btn-h: 36px; --btn-r: 10px 7px 11px 6px / 7px 11px 6px 10px; }
+body, .card, .panel, .dlg, .toast { font-family: var(--text); }
+.card { --display: "Patrick Hand", "Figtree", system-ui, sans-serif; --text: "Figtree", system-ui, sans-serif; }
+
+/* pulsanti ed etichette */
+.chip, .pill-btn, .cal-btn, .view-seg button, .presets button, .sort, .fav-btn, .seg-btn, .near-actions button, .text-btn,
+.btn-dark, .btn-light, .card .more, .day-tag, .live-tag, .acc, .cal-nav, .chip.more-filters, .seg-label, .cal-month,
+.mlabel, .wordmark, .field-badge, .cta {
+  font-family: var(--display) !important; font-stretch: normal !important; font-weight: 400 !important;
+  text-transform: uppercase; letter-spacing: .05em;
+}
+.chip, .cal-btn, .view-seg button, .presets button, .sort, .fav-btn, .seg-btn, .near-actions button, .pill-btn, .cal-nav {
+  height: var(--btn-h); border-radius: var(--btn-r) !important; font-size: .9375rem !important;
+}
+.chip, .presets button, .seg-btn, .near-actions button, .sort, .cal-btn, .cal-nav { background: var(--chip); border: 1.5px solid transparent; }
+.chip:hover, .presets button:hover, .seg-btn:hover, .near-actions button:hover, .sort:hover, .cal-btn:hover, .cal-nav:hover { border-color: rgba(29, 27, 24, .35); }
+.presets button[aria-pressed="true"], .seg-btn[aria-pressed="true"], .sort[aria-pressed="true"], .days[data-open="true"] .cal-btn {
+  background: #1d1b18 !important; color: #fff !important; border-color: #1d1b18;
+}
+.chip .n { font-family: var(--text); font-size: .75rem; letter-spacing: 0; }
+.view-seg { border-radius: var(--btn-r); }
+.view-seg button { height: calc(var(--btn-h) - 6px); }
+.card .more { height: 44px; font-size: 1.0625rem !important; border-radius: var(--btn-r); }
+.card-actions .mini { border-radius: var(--btn-r); }
+.day-tag, .live-tag, .acc { font-size: .875rem !important; height: 26px; border-radius: var(--btn-r); }
+.acc { letter-spacing: .04em; }
+.pill-btn.add-btn { font-size: 1rem !important; }
+.wordmark { font-size: 1.25rem; letter-spacing: .06em; }
+
+/* titoli degli eventi: Figtree, pieno e grande, a capo tra parole intere */
+.card h3, .card.full h3, body.view-list .item h3, .item h3 {
+  font-family: var(--text) !important; font-stretch: normal !important; text-transform: none !important;
+  font-weight: 700 !important; letter-spacing: -.005em !important; color: #14120f;
+}
+.card.full h3 { font-size: 1.375rem !important; line-height: 1.2 !important; }
+.card-place b { font-weight: 700; }
+.card-desc { font-family: var(--text); }
+
+/* date e giorni: stampatello a mano */
+.group, .cards-day { font-family: var(--hand) !important; font-weight: 400 !important; letter-spacing: .02em !important; }
+.card-when .w-day { font-family: var(--hand) !important; font-weight: 400; font-size: 1.75rem; letter-spacing: .02em; }
+.card-when .t { font-family: var(--hand); font-weight: 400; font-size: 1.375rem; letter-spacing: .02em; }
+.card-when .u, body.view-list .inline-card .card-when .u { font-family: var(--hand); font-weight: 400; font-size: 1.1875rem; letter-spacing: .02em; }
+.item .when { font-family: var(--hand); font-weight: 400 !important; letter-spacing: .02em; }
+/* vista lista: descrizione piu' grande */
+body.view-list .inline-card .card-desc { font-size: 1.125rem !important; line-height: 1.5 !important; }
+body.view-list .inline-card .card-acc { font-size: 1rem; }
+@media (max-width: 760px) { body.view-list .inline-card .card-desc { font-size: 1.0625rem !important; } }
+
+/* ---- popup sulla mappa, proposta A2: titolo, data grande in riquadro, luogo, accesso, descrizione breve ---- */
+.card.full.a2 { gap: 0; padding: 16px 18px 12px; }
+.card.full.a2 h3 { font-size: 1.5rem !important; line-height: 1.15 !important; font-weight: 800 !important; margin: 0; padding: 0 40px 0 0; border: 0; }
+.p-date {
+  display: flex; align-items: baseline; gap: 10px; margin-top: 12px; padding: 7px 12px; border: 1.5px solid #1d1b18;
+  border-radius: var(--btn-r); background: rgba(255, 255, 255, .28);
+}
+.p-lead, .p-mon { font-family: var(--display); text-transform: uppercase; letter-spacing: .08em; font-size: 1.1875rem; }
+.p-day { font: 800 2.125rem/1 var(--text); letter-spacing: -.02em; }
+.p-time { margin-left: auto; font: 700 1.1875rem/1 var(--text); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.p-date.live .p-lead { display: inline-flex; align-items: center; gap: 6px; }
+.p-date.live .p-lead::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--live); box-shadow: 0 0 0 0 rgba(244,185,66,.45); animation: live-dot 4s ease-in-out infinite; }
+.p-place { display: flex; align-items: flex-start; gap: 8px; margin: 12px 0 0; font-size: 1rem; line-height: 1.35; }
+.p-place svg { width: 18px; height: 18px; flex: none; margin-top: 1px; }
+.card.full.a2 .card-acc { margin-top: 12px; font-size: .9375rem; }
+.card.full.a2 .p-desc { margin-top: 12px; font-size: .9375rem !important; line-height: 1.5 !important;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card.full.a2 .p-desc.open { display: block; -webkit-line-clamp: unset; }
+.p-more { align-self: flex-start; margin: 2px 0 0; padding: 0; border: 0; background: none; font: 700 .875rem var(--text); text-decoration: underline; cursor: pointer; }
+.card.full.a2 .card-src { margin-top: 8px; }
+.card.full.a2 .card-actions { margin-top: 14px; }
+.card.full.a2 .report-link { margin-top: 10px; }
+.card.full.a2 > .fav { top: 10px; right: 8px; }
+/* popup A2: ritmo regolare tra i blocchi */
+.card.full.a2 .p-date { margin-top: 14px; }
+.card.full.a2 .p-place { margin-top: 12px !important; margin-bottom: 0; }
+.card.full.a2 .card-acc { margin-top: 12px; }
+.card.full.a2 .card-acc:empty { display: none; }
+.card.full.a2 .p-desc { margin-top: 12px !important; margin-bottom: 0; }
+.card.full.a2 .card-actions { margin-top: 16px; }
+.card.full.a2 .report-link { margin-top: 12px; }
+.card.full.a2 > * { flex: none; }
+
+/* ---- testata: ricerca e "Aggiungi evento" nello stile del sito (carta, bordo d'inchiostro, angoli a mano) ---- */
+.brand-pill, .search input, .top-right .pill-btn, .top-right .icon-btn { height: 44px !important; }
+.search { position: relative; }
+@media (min-width: 761px) { .search { display: block; } }
+.search::before {
+  content: ""; position: absolute; left: 13px; top: 50%; width: 18px; height: 18px; transform: translateY(-50%); pointer-events: none;
+  background: no-repeat center / contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231d1b18' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 5 5'/%3E%3C/svg%3E");
+}
+.search input {
+  padding: 0 14px 0 40px; border: 1.5px solid #1d1b18 !important; border-radius: var(--btn-r);
+  background-color: var(--panel); background-image: var(--paper); color: var(--ink);
+  font-family: var(--display); font-size: 1.0625rem; letter-spacing: .03em;
+}
+.search input::placeholder { color: rgba(29, 27, 24, .55); font-family: var(--display); letter-spacing: .03em; }
+.search input:focus { outline: none; box-shadow: 2px 3px 0 rgba(29, 27, 24, .25); }
+.top-right .pill-btn, .top-right .icon-btn { border: 1.5px solid #1d1b18 !important; border-radius: var(--btn-r) !important; }
+.top-right .icon-btn { background-color: var(--panel); background-image: var(--paper); }
+.add-btn { box-shadow: 2px 3px 0 rgba(29, 27, 24, .25); font-size: 1.0625rem !important; letter-spacing: .06em; }
+.add-btn:hover { filter: none; transform: translate(-1px, -1px); box-shadow: 3px 4px 0 rgba(29, 27, 24, .28); }
+.add-btn b { font-family: var(--text); font-weight: 700; font-size: 1.2rem; }
+@media (max-width: 760px) { .search::before { left: 12px; } }
+
+/* telefono: nessuno zoom della pagina (solo la mappa si ingrandisce); apertura leggera per la scheda grafica */
+@media (max-width: 760px) {
+  html, body { touch-action: pan-x pan-y; }
+  .intro.tear .intro-half { filter: none; }
+  .intro-sheet { background-image: var(--paper); }
+}

@@ -15,7 +15,9 @@
 
   const state = {
     from: null, to: null, preset: "all", cats: new Set(), access: new Set(), aud: new Set(), q: "",
-    selected: null, detail: false, sort: "date", me: null, fav: false,
+    selected: null, detail: false, sort: "distance", me: null, fav: false, place: null,
+    radius: (() => { try { return +localStorage.getItem("andiamo-raggio") || 30; } catch (_) { return 30; } })(),   // km, vista lista   // place: nome del luogo di "Vicino a"
+    view: "map", pick: null,                 // vista mappa/lista; primo giorno scelto nel calendario (in attesa del secondo)
     sidebarHidden: false, hiddenBeforeDetail: false,
   };
   let API = "", apiOk = false, aiOk = false;
@@ -27,7 +29,7 @@
   const SLOTS = [[0, 0]];
   for (let r = 1; r <= 5; r++) for (let k = 0; k < 6 * r; k++) {
     const a = -Math.PI / 2 + (k * 2 * Math.PI) / (6 * r);
-    SLOTS.push([Math.round(31 * r * Math.cos(a)), Math.round(31 * r * Math.sin(a))]);
+    SLOTS.push([Math.round(40 * r * Math.cos(a)), Math.round(40 * r * Math.sin(a))]);
   }
   const SLOT = {};                         // uid -> indice in SLOTS
   const slotOff = (uid) => SLOTS[SLOT[uid] || 0];
@@ -51,7 +53,6 @@
       b.innerHTML = HEART(on);
       b.classList.remove("pop"); void b.offsetWidth; b.classList.add("pop");
     });
-    toast(on ? "Salvato nei preferiti" : "Tolto dai preferiti");
     if (state.fav || !state.detail) update();
     else renderFavBtn();
   }
@@ -62,6 +63,16 @@
     b.setAttribute("aria-pressed", String(state.fav));
     b.setAttribute("aria-label", state.fav ? "Mostra tutti gli eventi" : `Preferiti: ${n}`);
     b.innerHTML = `${HEART(state.fav || n > 0)}<span>${n}</span>`;
+    // cuore tra i controlli della mappa: solo se c'e' almeno un preferito; acceso = sulla mappa solo i preferiti
+    const m = $("#fav-map");
+    if (m) {
+      if (!n && state.fav) { state.fav = false; setTimeout(() => update(true), 0); }
+      m.hidden = !n;
+      m.setAttribute("aria-pressed", String(state.fav));
+      m.setAttribute("aria-label", state.fav ? "Mostra tutti gli eventi" : "Mostra solo i preferiti");
+      m.title = state.fav ? "Mostra tutti gli eventi" : "Solo i miei preferiti";
+      m.innerHTML = HEART(true);
+    }
   }
 
   // ---------------------------------------------------------------- date e distanze
@@ -78,6 +89,7 @@
     const base = `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`;
     return diff === 0 ? `Oggi, ${base}` : diff === 1 ? `Domani, ${base}` : base[0].toUpperCase() + base.slice(1);
   };
+  const plainDay = (d) => { const b = `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`; return b[0].toUpperCase() + b.slice(1); };
   const shortDay = (s) => { const d = parseDay(s); const diff = Math.round((d - today()) / 86400000);
     return diff <= 0 ? "oggi" : diff === 1 ? "domani" : `${DOW[d.getDay()]} ${d.getDate()}`; };
   const shortDate = (s) => { const d = parseDay(s); return `${d.getDate()} ${MONTHS[d.getMonth()].slice(0, 3)}`; };
@@ -142,6 +154,17 @@
     iscrizione: '<rect x="5.5" y="4" width="13" height="17" rx="2"/><path d="M9 3.5h6v3H9zM9 12h6M9 16h4"/>',
     invito: '<rect x="3" y="6" width="18" height="13" rx="2"/><path d="m3.5 7.5 8.5 6 8.5-6"/>',
   };
+  // prezzo da mostrare accanto al badge: niente se sconosciuto, e niente se dice solo che e' gratis (lo dice gia' il badge)
+  function priceText(e) {
+    const p = (e.price || "").trim();
+    if (/^(sconosciut|non (indicat|specificat|disponibil)|n\/?d|nd|-|\?)/i.test(p)) return "";
+    if (accessGroup(e) === "libero") {         // "ingresso gratuito, prenotazione consigliata" -> "prenotazione consigliata"
+      const rest = p.replace(/^(ingresso |entrata |partecipazione |corsa |degustazione )?(gratuit[oa]|gratis|liber[oa]|free)( e (gratuit[oa]|liber[oa]))?\s*[,.;:]?\s*/i, "");
+      return rest === p ? p : rest;
+    }
+    if (accessGroup(e) === "pagamento") return p.replace(/^(a )?pagamento\s*[,.;:]?\s*/i, "");   // il badge lo dice gia'
+    return p;
+  }
   function accessGroup(e) {
     for (const [g, v] of Object.entries(DATA.access_groups || {})) if ((v.includes || []).includes(e.access)) return g;
     return "";
@@ -193,45 +216,89 @@
     } else { state.from = iso(t); state.to = null; }
   }
 
-  // ---------------------------------------------------------------- striscia giorni
+  // ---------------------------------------------------------------- calendario (icona che si apre)
+  const shortD = (key) => { const d = parseDay(key); return `${DOW[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()].slice(0, 3)}`; };
+  function rangeLabel() {
+    if (state.preset === "all") return "Tutte le date";
+    if (state.preset === "today") return "Oggi";
+    if (state.preset === "weekend") return "Weekend";
+    if (state.preset === "week") return "Settimana";      // i prossimi 7 giorni
+    if (state.from && state.to && state.from === state.to) return shortD(state.from);
+    if (state.from && state.to) return `Dal ${shortD(state.from)} al ${shortD(state.to)}`;
+    return "Tutte le date";
+  }
+  function setCalendar(open) {
+    $(".days").dataset.open = String(open);
+    $("#cal-btn").setAttribute("aria-expanded", String(open));
+    if (!open) state.pick = null;
+    renderRangeHint();
+    if (open) {                                     // si apre sul mese del primo giorno scelto
+      const t = today(), f = state.preset !== "all" && state.from ? parseDay(state.from) : t;
+      state.calMonth = Math.max(0, (f.getFullYear() - t.getFullYear()) * 12 + f.getMonth() - t.getMonth());
+      renderStrip();
+    }
+  }
+  function renderRangeHint() {
+    $("#cal-label").textContent = rangeLabel();
+    const h = $("#range-hint");
+    if (h) h.textContent = state.pick ? `Dal ${shortD(state.pick)}: tocca l'ultimo giorno` : "Tocca il primo e l'ultimo giorno";
+  }
+  function pickDay(key) {
+    if (!state.pick) {                              // primo tocco: inizio (e per ora anche fine)
+      state.pick = key; state.preset = "range"; state.from = state.to = key;
+    } else {                                        // secondo tocco: fine dell'intervallo
+      const a = state.pick;
+      state.from = key < a ? key : a; state.to = key < a ? a : key; state.preset = "range"; state.pick = null;
+      setTimeout(() => setCalendar(false), 450);
+    }
+    onlyUids = null; update();
+  }
+
+  // ---------------------------------------------------------------- calendario del mese
+  // Un riquadro con il mese: ogni giorno e' un numero dentro un cerchio tanto piu' grande quanti piu' eventi ha
+  // (nessun cerchio se non ce ne sono). Si scorre mese per mese entro l'orizzonte degli eventi.
   function renderStrip() {
-    const strip = $("#strip");
-    const t = today();
+    const grid = $("#strip");
+    const t = today(), last = addDays(t, STRIP_DAYS - 1);
+    const maxMonth = (last.getFullYear() - t.getFullYear()) * 12 + last.getMonth() - t.getMonth();
+    state.calMonth = Math.min(Math.max(0, state.calMonth || 0), maxMonth);
+    const first = new Date(t.getFullYear(), t.getMonth() + state.calMonth, 1);
+    const ndays = new Date(first.getFullYear(), first.getMonth() + 1, 0).getDate();
     const base = EVENTS.filter((e) => matches(e, { date: true }));
-    const counts = [];
-    for (let i = 0; i < STRIP_DAYS; i++) { const d = iso(addDays(t, i)); counts.push(base.filter((e) => spans(e, d, d)).length); }
-    const max = Math.max(1, ...counts);
-    const keep = strip.scrollLeft;
-    strip.innerHTML = "";
-    let days = null;                       // giorni raggruppati per mese: l'etichetta del mese resta ferma mentre si scorre
-    counts.forEach((n, i) => {
-      const d = addDays(t, i), key = iso(d);
-      if (i === 0 || d.getDate() === 1) {
-        const m = document.createElement("div");
-        m.className = "month";
-        m.innerHTML = `<span class="mlabel">${MONTHS[d.getMonth()].slice(0, 3)}${d.getMonth() === 0 && i > 0 ? ` ${d.getFullYear()}` : ""}</span><div class="mdays"></div>`;
-        strip.appendChild(m);
-        days = m.querySelector(".mdays");
-      }
+    const tKey = iso(t), lastKey = iso(last);
+    const days = [];
+    for (let i = 1; i <= ndays; i++) {
+      const d = new Date(first.getFullYear(), first.getMonth(), i), key = iso(d);
+      const open = key >= tKey && key <= lastKey;
+      days.push({ d, key, open, n: open ? base.filter((e) => spans(e, key, key)).length : 0 });
+    }
+    const max = Math.max(1, ...days.map((x) => x.n));
+    grid.innerHTML = "";
+    for (let i = 0; i < (first.getDay() + 6) % 7; i++) grid.appendChild(document.createElement("span"));   // da lunedi'
+    for (const { d, key, open, n } of days) {
       const b = document.createElement("button");
       b.type = "button";
-      b.className = "day" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (n ? "" : " empty");
-      const on = state.preset !== "all" && state.from && key >= state.from && (!state.to || key <= state.to);
+      b.className = "cday" + (d.getDay() === 0 || d.getDay() === 6 ? " weekend" : "") + (key === tKey ? " today" : "");
+      b.disabled = !open;
+      const on = open && state.preset !== "all" && state.from && key >= state.from && key <= (state.to || state.from);
       b.setAttribute("aria-pressed", String(!!on));
+      if (on && key === state.from) b.classList.add("r-start");
+      if (on && key === (state.to || state.from)) b.classList.add("r-end");
+      const size = n ? Math.round(12 + Math.sqrt(n / max) * 22) : 0;       // da 12 a 34 px
+      b.style.setProperty("--blob", `${size}px`);
       b.setAttribute("aria-label", `${dayLabel(d)}: ${n} eventi`);
-      b.innerHTML = `<span class="bar-wrap"><span class="bar" style="height:${Math.round((n / max) * 28) + 2}px"></span></span>
-        <span class="dow">${i === 0 ? "oggi" : DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span>`;
-      b.addEventListener("click", () => {
-        if (state.preset === "day" && state.from === key) setPreset("all");
-        else { state.preset = "day"; state.from = state.to = key; }
-        onlyUids = null; update();
-      });
-      days.appendChild(b);
-    });
-    strip.scrollLeft = keep;
-    document.querySelectorAll(".presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.preset === state.preset)));
-    updateStripNav();
+      b.title = open ? `${n} ${n === 1 ? "evento" : "eventi"}` : "";
+      b.innerHTML = `${n ? '<span class="blob" aria-hidden="true"></span>' : ""}<span class="num">${d.getDate()}</span>`;
+      if (open) b.addEventListener("click", () => { Sound.play("chip"); pickDay(key); });
+      grid.appendChild(b);
+    }
+    $("#cal-month").textContent = `${MONTHS[first.getMonth()]} ${first.getFullYear()}`;
+    $("#cal-prev").disabled = state.calMonth <= 0;
+    $("#cal-next").disabled = state.calMonth >= maxMonth;
+    document.querySelectorAll(".presets button").forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.preset === state.preset)));
+    renderRangeHint();
   }
+  const updateStripNav = () => {};
 
   // frecce avanti/indietro (desktop) per le righe che scorrono: giorni e categorie
   function updateScrollNav(sel) {
@@ -241,7 +308,6 @@
     $(`#${id}-next`).disabled = atEnd;
     s.classList.toggle("at-end", atEnd);
   }
-  const updateStripNav = () => updateScrollNav("#strip");
 
   function setupScrollNav(sel) {
     const s = $(sel), id = sel.slice(1);
@@ -296,6 +362,25 @@
   }
 
   // ---------------------------------------------------------------- elenco
+  // Vista lista: toccando un evento si apre la sua card subito sotto (un solo evento aperto per volta).
+  function toggleInline(li, e, opts = {}) {
+    const next = li.nextElementSibling, open = next && next.classList.contains("inline-card") && next.dataset.uid === e.uid;
+    document.querySelectorAll("#list .inline-card").forEach((x) => x.remove());
+    document.querySelectorAll("#list .item button[aria-expanded]").forEach((b) => b.setAttribute("aria-expanded", "false"));
+    document.querySelectorAll("#list .item.open").forEach((x) => x.classList.remove("open"));
+    if (open) return;
+    const box = document.createElement("li");
+    box.className = "inline-card"; box.dataset.uid = e.uid;
+    // il riquadro dell'evento si allunga verso il basso: sotto solo cio' che non c'e' gia' (niente titolo e luogo)
+    box.appendChild(buildCard(e, { inline: true }));
+    box.style.setProperty("--c", (CAT[e.category] || {}).color || "#ddd");
+    li.after(box);
+    li.classList.add("open");
+    li.querySelector("button").setAttribute("aria-expanded", "true");
+    if (!opts.quiet) requestAnimationFrame(() => box.scrollIntoView({ block: "nearest", behavior: "smooth" }));
+    else box.querySelector(".card").style.animation = "none";
+  }
+
   function renderList(items) {
     const list = $("#list");
     list.innerHTML = "";
@@ -308,7 +393,24 @@
     let lastGroup = "";
     const from = state.from || iso(today());
     const byDistance = state.sort === "distance" && state.me;
-    items.forEach((e) => {
+    // a blocchi di 80: i successivi arrivano scorrendo (lista leggera anche con tutta Italia)
+    const CHUNK = 80;
+    let shown = 0;
+    if (listObserver) listObserver.disconnect();
+    const sentinel = document.createElement("li");
+    sentinel.className = "list-more"; sentinel.setAttribute("aria-hidden", "true");
+    const renderChunk = () => {
+      const end = Math.min(items.length, shown + CHUNK);
+      const frag = document.createDocumentFragment();
+      items.slice(shown, end).forEach((e) => addItem(e, frag));
+      shown = end;
+      sentinel.remove();
+      list.appendChild(frag);
+      if (shown < items.length) { list.appendChild(sentinel); listObserver.observe(sentinel); }
+    };
+    listObserver = new IntersectionObserver((en) => { if (en.some((x) => x.isIntersecting)) { listObserver.unobserve(sentinel); renderChunk(); } },
+      { root: $("#panel"), rootMargin: "900px 0px" });
+    const addItem = (e, list) => {
       if (!byDistance) {
         const groupDay = e.start.slice(0, 10) < from ? from : e.start.slice(0, 10);
         if (groupDay !== lastGroup) {
@@ -331,11 +433,62 @@
           <span><h3>${FAV.has(e.uid) ? '<i class="saved" aria-label="Salvato">♥</i> ' : ""}${esc(e.title)}</h3><span class="meta">${esc([e.venue, e.town].filter(Boolean).join(", "))}</span></span>
           <span class="when${LIVE.has(e.uid) ? " live" : ""}">${esc(when)}${dist ? `<small>${dist}</small>` : ""}</span></button>`;
       const btn = li.querySelector("button");
-      btn.addEventListener("click", () => { Sound.play("select"); select(e.uid, { fly: true, detail: true }); });
+      btn.addEventListener("click", () => { Sound.play("select"); toggleInline(li, e); });
       btn.addEventListener("mouseenter", () => hover(e.uid));
       btn.addEventListener("mouseleave", () => hover(null));
       list.appendChild(li);
-    });
+    };
+    renderChunk();
+  }
+  let listObserver = null;
+
+  // ---------------------------------------------------------------- vista lista: card complete per giorno
+  let cardsShown = 0;
+  function renderCards(items, more = false) {
+    const box = $("#cards-list");
+    if (!more) { box.innerHTML = ""; cardsShown = 0; $("#cards").scrollTop = 0; }
+    $("#cards-more")?.remove();
+    if (!items.length) {
+      box.innerHTML = `<p class="empty-state"><strong>${state.fav ? "Nessun evento nei preferiti." : "Nessun evento con questi filtri."}</strong>${
+        state.fav ? "Tocca il cuore su un evento per salvarlo qui." : "Prova altre date o togli qualche categoria."}</p>`;
+      return;
+    }
+    const from = state.from || iso(today());
+    const byDistance = state.sort === "distance" && state.me;
+    let last = box.dataset.last || "";
+    const end = Math.min(items.length, cardsShown + 60);
+    for (let i = cardsShown; i < end; i++) {
+      const e = items[i];
+      if (!byDistance) {
+        const day = e.start.slice(0, 10) < from ? from : e.start.slice(0, 10);
+        if (day !== last) { last = day; const h = document.createElement("h2"); h.className = "cards-day"; h.textContent = dayLabel(parseDay(day)); box.appendChild(h); }
+      }
+      box.appendChild(buildCard(e, { onPlace: (x) => { setView("map", { keep: true }); select(x.uid, { fly: true }); } }));
+    }
+    box.dataset.last = last;
+    cardsShown = end;
+    if (end < items.length) {
+      const b = document.createElement("button");
+      b.id = "cards-more"; b.type = "button"; b.className = "pill-btn cards-more";
+      b.textContent = `Mostra altri ${Math.min(60, items.length - end)} di ${items.length - end}`;
+      b.addEventListener("click", () => renderCards(items, true));
+      box.after(b);
+    }
+  }
+  let lastItems = [];
+  function setView(v, opts = {}) {
+    state.view = v;
+    document.body.classList.toggle("view-list", v === "list");
+    document.querySelectorAll(".view-seg button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === v)));
+    try { localStorage.setItem("andiamo-vista", v); } catch (_) { /* privato */ }
+    if (v === "list") {
+      closeCard(); state.selected = null;
+      ensurePlace();
+      if (EVENTS.length) update();
+      // il titolo del giorno resta fermo subito sotto la riga con preferiti e "Piu' vicini"
+      requestAnimationFrame(() => document.documentElement.style.setProperty("--list-head", `${Math.round($("#sheet-head").getBoundingClientRect().height)}px`));
+    }
+    else if (mapReady) setTimeout(() => map.resize(), 30);
   }
 
   // ---------------------------------------------------------------- scheda
@@ -347,7 +500,7 @@
     const where = DATA.settings[e.setting] || "";
     const g = accessGroup(e);
     const private_ = (DATA.access[e.access] || "").match(/\((.*)\)$/);       // es. "Su invito (evento privato)"
-    const price = /^(sconosciut|non (indicat|specificat|disponibil)|n\/?d|nd|-|\?)/i.test((e.price || "").trim()) ? "" : e.price;
+    const price = priceText(e);
     const accessText = g ? [private_ ? private_[1][0].toUpperCase() + private_[1].slice(1) : "", price].filter(Boolean).join(" · ")
       : ["Da verificare sul sito ufficiale", price].filter(Boolean).join(" · ");
     const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
@@ -432,18 +585,103 @@
   }
 
   // ---------------------------------------------------------------- mappa
+  // Mappa illustrata, come una stampa su carta: mare color carta, terra verde con grana a puntini (piu' scura lungo
+  // le coste), strade principali come file di perline d'inchiostro, solo i nomi di citta' e paesi scritti a mano.
+  // Tutto il resto della base (edifici, parchi, binari, stradine, numeri delle strade, aeroporti) e' nascosto.
+  const HAND_FONT = ["andiamo-hand"];        // Patrick Hand, convertito in glifi per MapLibre (docs/fonts)
+  const LIVE_COLOR = "#f4b942";              // eventi in corso: un alone caldo color sole, niente rosso d'allarme
+  const MAP_INK = { paper: "#f4efe3", land: "#5db48b", grain: "#2f8a63", light: "#a6dcbd", coast: "#237652",
+    road: "#1d2a24", minor: "#2c7a57", border: "#f4efe3", text: "#16301f" };
+
+  // numeri casuali ripetibili: la grana e i segnaposti sono uguali a ogni caricamento
+  const rng = (seed) => () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
+
+  // Grana della terra: tanti puntini casuali piu' scuri e qualcuno piu' chiaro sul verde (effetto stampa riso).
+  function grainPattern() {
+    const s = 2, size = 96, cv = document.createElement("canvas");
+    cv.width = cv.height = size * s;
+    const g = cv.getContext("2d"), r = rng(42);
+    g.fillStyle = MAP_INK.land; g.fillRect(0, 0, cv.width, cv.height);
+    const dots = (n, color, alpha, rad) => {
+      g.fillStyle = color;
+      for (let i = 0; i < n; i++) {
+        g.globalAlpha = alpha * (0.45 + r() * 0.55);
+        g.beginPath(); g.arc(r() * cv.width, r() * cv.height, (rad * (0.6 + r() * 0.6)) * s, 0, Math.PI * 2); g.fill();
+      }
+    };
+    dots(2600, MAP_INK.grain, 0.55, 0.55);
+    dots(900, MAP_INK.light, 0.5, 0.5);
+    g.globalAlpha = 1;
+    return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
+  }
+  // Carta del mare: crema con grana fine e qualche fibra, disegnata nella mappa stessa (si sposta con lei).
+  function paperPattern() {
+    const s = 2, size = 128, cv = document.createElement("canvas");
+    cv.width = cv.height = size * s;
+    const g = cv.getContext("2d"), r = rng(7);
+    g.fillStyle = MAP_INK.paper; g.fillRect(0, 0, cv.width, cv.height);
+    for (let i = 0; i < 5200; i++) {
+      g.fillStyle = r() < 0.75 ? "#8a7a5a" : "#ffffff";
+      g.globalAlpha = 0.05 + r() * 0.1;
+      g.fillRect(r() * cv.width, r() * cv.height, 1 + r() * 1.2, 1 + r() * 1.2);
+    }
+    g.strokeStyle = "#9a8865"; g.lineWidth = 0.8;
+    for (let i = 0; i < 40; i++) {                       // fibre corte
+      const x = r() * cv.width, y = r() * cv.height, a = r() * Math.PI, l = 6 + r() * 14;
+      g.globalAlpha = 0.06 + r() * 0.06;
+      g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(x + Math.cos(a) * l / 2 + r() * 4, y + Math.sin(a) * l / 2 + r() * 4,
+        x + Math.cos(a) * l, y + Math.sin(a) * l); g.stroke();
+    }
+    g.globalAlpha = 1;
+    return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
+  }
   function warmStyle() {
     const set = (id, prop, val) => { try { map.setPaintProperty(id, prop, val); } catch (_) { /* proprieta' assente */ } };
+    const lay = (id, prop, val) => { try { map.setLayoutProperty(id, prop, val); } catch (_) { /* proprieta' assente */ } };
+    const hide = (id) => lay(id, "visibility", "none");
+    const dotted = (id, color, width, gap = 2.2) => {
+      lay(id, "line-cap", "round"); lay(id, "line-join", "round");
+      set(id, "line-color", color); set(id, "line-width", width); set(id, "line-dasharray", [0, gap]); set(id, "line-opacity", 1);
+    };
+    if (!map.hasImage("land-grain")) map.addImage("land-grain", grainPattern(), { pixelRatio: 2 });
+    if (!map.hasImage("sea-paper")) map.addImage("sea-paper", paperPattern(), { pixelRatio: 2 });
+    // scritte della mappa nel carattere a mano del sito (glifi serviti dal sito stesso, cartella fonts/)
+    try { map.setGlyphs(`${new URL(window.ANDIAMO_FONTS || "fonts/", location.href).href}{fontstack}/{range}.pbf`); } catch (_) { /* */ }
+    const HIDE = /park|landcover|landuse|building|aeroway|pier|path|rail|tunnel|casing|shield|highway-name|airport|label_other|label_village|label_state|waterway_line_label|boundary_disputed|subtle/;
     for (const l of map.getStyle().layers) {
       const id = l.id;
-      if (l.type === "background") set(id, "background-color", "#d9d5cb");
-      else if (l.type === "fill" && /water/.test(id)) set(id, "fill-color", "#f5f3ee");
-      else if (l.type === "fill" && /landcover|landuse|park|wood|grass/.test(id)) { set(id, "fill-color", "#d2cec3"); set(id, "fill-opacity", 0.6); }
-      else if (l.type === "fill" && /building/.test(id)) set(id, "fill-color", "#cdc8bd");
-      else if (l.type === "line" && /water|river|waterway/.test(id)) set(id, "line-color", "#f5f3ee");
-      else if (l.type === "line" && /boundary|admin/.test(id)) set(id, "line-color", "#ffffff");
-      else if (l.type === "line" && /road|highway|street|path|bridge|tunnel|rail/.test(id)) set(id, "line-color", "#e7e3da");
-      else if (l.type === "symbol") { set(id, "text-color", "#5f5b54"); set(id, "text-halo-color", "#e3dfd6"); }
+      if (["clusters", "clusters-ink", "clusters-live", "cluster-count", "points", "points-live", "sel-live", "points-hover", "points-selected"].includes(id)) continue;
+      if (l.type === "background") { set(id, "background-color", MAP_INK.land); set(id, "background-pattern", "land-grain"); }
+      else if (HIDE.test(id)) hide(id);
+      else if (l.type === "fill" && /water/.test(id)) { set(id, "fill-color", MAP_INK.paper); set(id, "fill-pattern", "sea-paper"); }
+      else if (l.type === "line" && /waterway/.test(id)) { set(id, "line-color", MAP_INK.paper); }
+      else if (/motorway/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 5, 1.6, 10, 2.4, 14, 3.4], 1.7);
+      else if (/highway_major/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 9, 1.3, 12, 2, 16, 2.8], 1.9);
+      else if (id === "highway_minor") { dotted(id, MAP_INK.minor, ["interpolate", ["linear"], ["zoom"], 13, 1.1, 16, 2], 2.2); try { map.setLayerZoomRange(id, 13, 24); } catch (_) { /* */ } }
+      else if (id === "boundary_2") { dotted(id, MAP_INK.border, ["interpolate", ["linear"], ["zoom"], 3, 1.6, 8, 2.6], 2); set(id, "line-opacity", 0.85); }
+      else if (id === "boundary_3") { dotted(id, MAP_INK.border, 1.3, 3); set(id, "line-opacity", 0.45); }
+      else if (l.type === "line") hide(id);
+      else if (l.type === "symbol") {
+        lay(id, "text-font", HAND_FONT);
+        if (/^label_/.test(id)) lay(id, "text-field", ["coalesce", ["get", "name:it"], ["get", "name:latin"], ["get", "name"]]);
+        if (id === "label_town") { try { map.setLayerZoomRange(id, 7, 24); } catch (_) { /* */ } }   // cittadine da zoom medio
+        if (/label_city/.test(id)) lay(id, "text-size", ["interpolate", ["linear"], ["zoom"], 4, 12, 8, 16, 12, 20]);
+        const sea = /water/.test(id);
+        set(id, "text-color", sea ? "#3d8a69" : MAP_INK.text);
+        set(id, "text-halo-color", sea ? MAP_INK.paper : "rgba(244, 239, 227, .8)"); set(id, "text-halo-width", sea ? 1.2 : 2);
+        set(id, "text-halo-blur", 0.8); lay(id, "text-transform", /country|state/.test(id) ? "uppercase" : "none");
+        if (/country|state/.test(id)) lay(id, "text-letter-spacing", 0.12);
+      }
+    }
+    // coste piu' scure: una riga sfumata lungo il bordo dell'acqua, sotto il mare (si vede solo dal lato della terra)
+    const water = map.getLayer("water");
+    if (water && !map.getLayer("coast-shade")) {
+      try {
+        map.addLayer({ id: "coast-shade", type: "line", source: water.source, "source-layer": water.sourceLayer || "water",
+          paint: { "line-color": MAP_INK.coast, "line-opacity": 0.55,
+            "line-width": ["interpolate", ["linear"], ["zoom"], 4, 5, 8, 10, 13, 16], "line-blur": ["interpolate", ["linear"], ["zoom"], 4, 5, 8, 10, 13, 16] } },
+        "water");
+      } catch (_) { /* stile senza acqua */ }
     }
   }
 
@@ -461,44 +699,85 @@
     "natura-outdoor": "M5 20c0-9.5 6.5-15 15-15 0 9-5.5 15-14.5 15M5 20l8-8",
     "": "M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6-4.5-4.2 6.1-.7z",
   };
+  // Segnaposti illustrati: tondo pieno con bordo d'inchiostro, ombra a puntini in basso a destra e qualche luce
+  // in alto a sinistra (come la grana della terra), icona a tratto pulito. Ogni categoria ha la sua grana fissa.
+  const INK = "#1d1b18";
+  const seedOf = (t) => [...t].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) % 2147483646, 7) + 1;
+  function grainDisc(g, cx, cy, r, color, shade, light, seed, n = 260) {
+    g.save();
+    g.beginPath(); g.arc(cx, cy, r, 0, Math.PI * 2); g.fillStyle = color; g.fill(); g.clip();
+    const rnd = rng(seed);
+    for (let i = 0; i < n; i++) {
+      const a = rnd() * Math.PI * 2, d = Math.sqrt(rnd()) * r, x = Math.cos(a) * d, y = Math.sin(a) * d;
+      const k = (x + y) / (r * 1.25);                       // -1 in alto a sinistra, +1 in basso a destra
+      if (k > 0 && rnd() < Math.pow(k, 1.1) * 0.95) { g.fillStyle = shade; g.globalAlpha = 0.5 + rnd() * 0.35; }
+      else if (k < -0.35 && rnd() < -k * 0.35) { g.fillStyle = light; g.globalAlpha = 0.45 + rnd() * 0.35; }
+      else continue;
+      g.beginPath(); g.arc(cx + x, cy + y, 0.35 + rnd() * 0.35, 0, Math.PI * 2); g.fill();
+    }
+    g.restore(); g.globalAlpha = 1;
+  }
   function pinImage(color, icon, selected) {
-    const s = 2, r = selected ? 15 : 13, size = (r + 3) * 2;
+    const s = 2, r = selected ? 20 : 17, size = (r + 3) * 2;      // tondi piu' grandi
     const cv = document.createElement("canvas");
     cv.width = cv.height = size * s;
     const g = cv.getContext("2d");
     g.scale(s, s);
+    const fill = selected ? INK : color, line = selected ? color : INK, d = ICONS[icon] !== undefined ? ICONS[icon] : ICONS[""];
+    grainDisc(g, size / 2, size / 2, r, fill, selected ? "#000" : "rgba(20, 16, 10, .9)", "#fff", seedOf(icon + (selected ? "s" : "")));
     g.beginPath(); g.arc(size / 2, size / 2, r, 0, Math.PI * 2);
-    g.fillStyle = selected ? "#111" : color; g.fill();
-    g.lineWidth = selected ? 2.5 : 1.5; g.strokeStyle = selected ? color : "#111"; g.stroke();
-    const k = (selected ? 15 : 13.5) / 24;
+    g.lineWidth = selected ? 2.5 : 1.6; g.strokeStyle = line; g.stroke();
+    const k = (selected ? 20 : 18) / 24;
     g.translate(size / 2 - 12 * k, size / 2 - 12 * k); g.scale(k, k);
-    g.lineWidth = 2.2; g.lineCap = "round"; g.lineJoin = "round"; g.strokeStyle = selected ? color : "#111";
-    g.stroke(new Path2D(ICONS[icon] !== undefined ? ICONS[icon] : ICONS[""]));
+    g.lineWidth = 2.2; g.lineCap = "round"; g.lineJoin = "round"; g.strokeStyle = line;
+    g.stroke(new Path2D(d));
+    g.setTransform(1, 0, 0, 1, 0, 0);
     return { width: cv.width, height: cv.height, data: g.getImageData(0, 0, cv.width, cv.height).data };
   }
 
-  // Anello che pulsa attorno agli eventi in corso (immagine animata di MapLibre: si ridisegna a ogni fotogramma).
+  // Gruppi di eventi: tondo d'inchiostro con la stessa grana, in tre grandezze (come i raggi di CLUSTER_R).
+  function clusterImage(r, live) {
+    const s = 2, size = (r + 4) * 2, cv = document.createElement("canvas");
+    cv.width = cv.height = size * s;
+    const g = cv.getContext("2d");
+    g.scale(s, s);
+    grainDisc(g, size / 2, size / 2, r, INK, "#000", "#8a8478", seedOf("c" + r), 420);
+    g.beginPath(); g.arc(size / 2, size / 2, r, 0, Math.PI * 2);
+    g.lineWidth = live ? 2.6 : 2; g.strokeStyle = live ? LIVE_COLOR : MAP_INK.paper; g.stroke();
+    g.setTransform(1, 0, 0, 1, 0, 0);
+    return { width: cv.width, height: cv.height, data: g.getImageData(0, 0, cv.width, cv.height).data };
+  }
+
+  // Eventi in corso: un alone morbido che "respira" piano attorno al segnaposto (un giro ogni 4 secondi),
+  // con un sottile cerchio a matita che si allarga e svanisce. Niente lampeggi ne' colori d'allarme.
   const REDUCED = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function pulseImage(color, base) {
-    const s = 2, size = 92;
+    const s = 2, size = 108, PERIOD = 4000;
     return { width: size * s, height: size * s, data: new Uint8ClampedArray(size * s * size * s * 4),
-      onAdd() { const c = document.createElement("canvas"); c.width = c.height = size * s; this.g = c.getContext("2d"); },
+      onAdd() { const c = document.createElement("canvas"); c.width = c.height = size * s; this.g = c.getContext("2d", { willReadFrequently: true }); },
       render() {
-        const g = this.g, t = REDUCED() ? 0.35 : (performance.now() % 1800) / 1800;
+        const now = performance.now();                  // 30 fotogrammi al secondo bastano per un respiro lento
+        if (this.last && now - this.last < 32) return false;
+        this.last = now;
+        const g = this.g, t = REDUCED() ? 0.3 : (performance.now() % PERIOD) / PERIOD;
+        const breathe = 0.5 - 0.5 * Math.cos(t * Math.PI * 2);           // 0 -> 1 -> 0, dolce
         g.setTransform(s, 0, 0, s, 0, 0); g.clearRect(0, 0, size, size);
-        for (const ph of REDUCED() ? [t] : [t, (t + 0.5) % 1]) {
-          const rad = base + 3 + ph * 26, a = (1 - ph) * 0.85;
-          g.beginPath(); g.arc(size / 2, size / 2, rad, 0, Math.PI * 2);
-          g.fillStyle = color; g.globalAlpha = a * 0.3; g.fill();
-          g.globalAlpha = a; g.lineWidth = 2.5; g.strokeStyle = color; g.stroke();
-          g.globalAlpha = a * 0.8; g.lineWidth = 1.2; g.strokeStyle = "#111";
-          g.beginPath(); g.arc(size / 2, size / 2, rad + 1.5, 0, Math.PI * 2); g.stroke();
-        }
+        g.beginPath(); g.arc(size / 2, size / 2, base + 5 + breathe * 5, 0, Math.PI * 2);
+        g.fillStyle = color; g.globalAlpha = 0.16 + breathe * 0.1; g.fill();
+        const ease = 1 - Math.pow(1 - t, 2), rad = base + 6 + ease * 20;
+        g.beginPath(); g.arc(size / 2, size / 2, rad, 0, Math.PI * 2);
+        g.globalAlpha = (1 - t) * 0.55; g.lineWidth = 1.6; g.strokeStyle = color; g.stroke();
         g.globalAlpha = 1;
         this.data = g.getImageData(0, 0, size * s, size * s).data;
-        if (!REDUCED()) map.triggerRepaint();
         return true;
       } };
+  }
+
+  // Un solo ciclo per tutti gli aloni: ridisegna la mappa 30 volte al secondo solo se ci sono eventi in corso,
+  // la mappa e' in vista e la scheda del browser e' aperta (niente lavoro inutile in lista o in sottofondo).
+  function pulseLoop() {
+    if (mapReady && !REDUCED() && LIVE.size && state.view !== "list" && !document.hidden) map.triggerRepaint();
+    setTimeout(() => requestAnimationFrame(pulseLoop), 33);
   }
 
   // Eventi in corso adesso: orario d'inizio passato e non ancora finito (senza fine: 2 ore); eventi di un giorno
@@ -530,8 +809,8 @@
     if (REDUCED()) { set(to); return; }
     const t0 = performance.now();
     const step = (t) => {
-      const x = Math.min(1, (t - t0) / ms);
-      set(from + (to - from) * easeBack(x));
+      const x = Math.max(0, Math.min(1, (t - t0) / ms));
+      set(Math.max(0, from + (to - from) * easeBack(x)));
       if (x < 1) ANIM[layer + prop] = requestAnimationFrame(step);
     };
     ANIM[layer + prop] = requestAnimationFrame(step);
@@ -543,42 +822,94 @@
     if (REDUCED()) { set(to); return; }
     const t0 = performance.now();
     const step = (t) => {
-      const x = Math.min(1, (t - t0) / ms);
-      set(from + (to - from) * easeBack(x));
+      const x = Math.max(0, Math.min(1, (t - t0) / ms));
+      set(Math.max(0, from + (to - from) * easeBack(x)));
       if (x < 1) ANIM[layer + "pin"] = requestAnimationFrame(step);
     };
     ANIM[layer + "pin"] = requestAnimationFrame(step);
   }
-  const CLUSTER_R = (k) => ["*", k, ["step", ["get", "point_count"], 15, 10, 19, 40, 24]];
+  const CLUSTER_R = (k) => ["*", k, ["step", ["get", "point_count"], 19, 10, 24, 40, 30]];
   function popIn() {
     animateProp("points", "layout", "icon-size", 0.35, 1, 460);
     animateProp("clusters", "paint", "circle-radius", 0.35, 1, 460, CLUSTER_R);
+    animateProp("clusters-ink", "layout", "icon-size", 0.35, 1, 460);
   }
 
-  // Suoni brevi, sintetizzati (nessun file): si possono spegnere dal pulsante con l'altoparlante.
+  // Suoni di carta e di cose vere, sintetizzati (nessun file): timbro sul foglio, foglio che si apre e si ripiega,
+  // matita che segna, gomma che cancella, scatto di una levetta. Rumore filtrato e colpi sordi, niente bip.
+  // Si possono spegnere dal pulsante con l'altoparlante.
   const Sound = {
-    ctx: null,
+    ctx: null, out: null, noise: null,
     on: (() => { try { return localStorage.getItem("andiamo-suoni") !== "0"; } catch (_) { return true; } })(),
-    tone(freq, t, dur, { type = "sine", gain = 0.14, to = null } = {}) {
-      const c = this.ctx, o = c.createOscillator(), g = c.createGain();
-      o.type = type; o.frequency.setValueAtTime(freq, t);
-      if (to) o.frequency.exponentialRampToValueAtTime(to, t + dur * 0.8);
-      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.008);
+    init() {
+      if (this.ctx) return;
+      const c = this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+      // compressore: suoni pieni e decisi, mai fastidiosi
+      const comp = c.createDynamicsCompressor();
+      comp.threshold.value = -18; comp.knee.value = 12; comp.ratio.value = 4; comp.attack.value = 0.002; comp.release.value = 0.12;
+      this.out = c.createGain(); this.out.gain.value = 0.9;
+      this.out.connect(comp).connect(c.destination);
+      // 2 secondi di rumore "rosa" (piu' morbido del bianco): la materia prima di carta, matita e gomma
+      const len = c.sampleRate * 2, buf = c.createBuffer(1, len, c.sampleRate), d = buf.getChannelData(0);
+      let b0 = 0, b1 = 0, b2 = 0;
+      for (let i = 0; i < len; i++) {
+        const w = Math.random() * 2 - 1;
+        b0 = 0.99765 * b0 + w * 0.099; b1 = 0.963 * b1 + w * 0.2965; b2 = 0.57 * b2 + w * 1.0527;
+        d[i] = (b0 + b1 + b2 + w * 0.1848) * 0.22;
+      }
+      this.noise = buf;
+    },
+    // rumore filtrato con inviluppo: type/freq del filtro, sweep opzionale della frequenza
+    rustle(t, dur, { freq = 2000, to = null, q = 0.9, type = "bandpass", gain = 0.5, attack = 0.004 } = {}) {
+      const c = this.ctx, src = c.createBufferSource(), f = c.createBiquadFilter(), g = c.createGain();
+      src.buffer = this.noise; src.playbackRate.value = 0.9 + Math.random() * 0.2;
+      f.type = type; f.Q.value = q; f.frequency.setValueAtTime(freq, t);
+      if (to) f.frequency.exponentialRampToValueAtTime(to, t + dur);
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + attack);
       g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
-      o.connect(g).connect(c.destination); o.start(t); o.stop(t + dur + 0.02);
+      src.connect(f).connect(g).connect(this.out);
+      src.start(t, Math.random() * 1.5); src.stop(t + dur + 0.05);
+    },
+    // colpo sordo (legno, timbro sul tavolo): sinusoide che scende veloce
+    thud(t, { freq = 150, to = 55, dur = 0.12, gain = 0.6 } = {}) {
+      const c = this.ctx, o = c.createOscillator(), g = c.createGain();
+      o.type = "sine"; o.frequency.setValueAtTime(freq, t); o.frequency.exponentialRampToValueAtTime(to, t + dur);
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.003);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(g).connect(this.out); o.start(t); o.stop(t + dur + 0.02);
+    },
+    // "pop" tondo: sinusoide breve che scivola di tono, con un attacco morbido (bocca che schiocca, bolla)
+    pop(t, { from = 400, to = 800, dur = 0.11, gain = 0.45 } = {}) {
+      const c = this.ctx, o = c.createOscillator(), g = c.createGain(), f = c.createBiquadFilter();
+      o.type = "sine"; o.frequency.setValueAtTime(from, t); o.frequency.exponentialRampToValueAtTime(to, t + dur * 0.55);
+      f.type = "lowpass"; f.frequency.value = 2200;
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.006);
+      g.gain.exponentialRampToValueAtTime(gain * 0.35, t + dur * 0.5); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(f).connect(g).connect(this.out); o.start(t); o.stop(t + dur + 0.02);
     },
     play(name) {
       if (!this.on) return;
       try {
-        this.ctx = this.ctx || new (window.AudioContext || window.webkitAudioContext)();
+        this.init();
         if (this.ctx.state === "suspended") this.ctx.resume();
         const t = this.ctx.currentTime + 0.01;
-        if (name === "select") { this.tone(520, t, 0.16, { to: 880 }); this.tone(1320, t + 0.05, 0.12, { type: "triangle", gain: 0.05 }); }
-        else if (name === "expand") [523, 659, 784].forEach((f, i) => this.tone(f, t + i * 0.055, 0.14, { type: "triangle", gain: 0.09 }));
-        else if (name === "close") this.tone(700, t, 0.12, { to: 420, gain: 0.1 });
-        else if (name === "chip") this.tone(1150, t, 0.05, { gain: 0.05 });
-        else if (name === "save-on") { this.tone(660, t, 0.1, { type: "triangle", gain: 0.1 }); this.tone(990, t + 0.07, 0.16, { type: "triangle", gain: 0.1 }); }
-        else if (name === "save-off") this.tone(560, t, 0.14, { to: 380, type: "triangle", gain: 0.08 });
+        // solo carta e grafite: nessun colpo grave (niente "tamburo")
+        if (name === "select") {                         // puntina appoggiata sulla carta
+          this.rustle(t, 0.035, { freq: 3000, q: 1.6, gain: 0.3, attack: 0.002 });
+          this.rustle(t + 0.01, 0.03, { freq: 5200, q: 2.5, gain: 0.12, attack: 0.002 });
+        } else if (name === "expand") {                  // foglio che si apre
+          this.rustle(t, 0.3, { freq: 900, to: 3800, q: 0.7, gain: 0.4, attack: 0.04 });
+          this.rustle(t + 0.2, 0.07, { freq: 3400, q: 2, gain: 0.22 });
+        } else if (name === "close") {                   // foglio che si ripiega
+          this.rustle(t, 0.2, { freq: 3600, to: 1200, q: 0.8, gain: 0.36, attack: 0.02 });
+          this.rustle(t + 0.17, 0.05, { freq: 2400, q: 1.4, gain: 0.16 });
+        } else if (name === "chip") {                    // scatto secco di carta
+          this.rustle(t, 0.022, { freq: 4400, q: 3, gain: 0.38, attack: 0.001 });
+        } else if (name === "save-on") {                 // "pop" tondo, come una bolla che scoppia (verso l'alto)
+          this.pop(t, { from: 340, to: 760, dur: 0.11, gain: 0.5 });
+        } else if (name === "save-off") {                // "pop" piu' basso e morbido (verso il basso)
+          this.pop(t, { from: 520, to: 240, dur: 0.12, gain: 0.4 });
+        }
       } catch (_) { /* audio non disponibile */ }
     },
     toggle() {
@@ -602,12 +933,17 @@
   function mapPadding(extraBottom = 0) {
     if (MOBILE()) {
       const top = $(".filters").getBoundingClientRect().bottom + 40;
-      const panelTop = $("#panel").getBoundingClientRect().top;
-      return { top, bottom: Math.max(60, window.innerHeight - panelTop + 20 + extraBottom), left: 30, right: 30 };
+      // l'elenco non sta piu' sopra la mappa: in basso restano solo i controlli
+      return { top, bottom: 60 + extraBottom, left: 30, right: 70 };
     }
-    return { top: Math.round($(".chips-row").getBoundingClientRect().bottom) + 30, bottom: 120,
-      left: state.sidebarHidden ? 100 : 470, right: 90 };
+    return { top: Math.round($(".chips-row").getBoundingClientRect().bottom) + 30, bottom: 120, left: 60, right: 90 };
   }
+
+  // Margini trasformati in spostamento del centro. Non si passa mai "padding" a easeTo/flyTo: MapLibre lo terrebbe
+  // anche per i movimenti successivi, e zoom e confini si sfaserebbero.
+  function padOffset(p) { return [Math.round((p.left - p.right) / 2), Math.round((p.top - p.bottom) / 2)]; }
+
+  const SHEET_MIN = 34;                      // telefono: altezza dell'elenco ridotto alla sola maniglia
 
   // Zona della mappa davvero visibile (fuori da testata, giorni, filtri, elenco).
   function visibleArea() {
@@ -615,11 +951,13 @@
     const v = { left: r.left + 12, right: r.right - 12, top: r.top + 12, bottom: r.bottom - 12 };
     if (MOBILE()) {
       v.top = $(".filters").getBoundingClientRect().bottom + 10;
-      v.bottom = Math.min(v.bottom, $("#panel").getBoundingClientRect().top - 10);
+      // con la card aperta l'elenco scende fino a lasciare solo la maniglia (la posizione finale, non quella animata)
+      v.bottom = Math.min(v.bottom, window.innerHeight - 12);
     } else {
+      // colonna libera a destra di elenco e filtri di accesso, fino al fondo della mappa
       v.top = $(".chips-row").getBoundingClientRect().bottom + 12;
-      v.bottom = $(".filters").getBoundingClientRect().top - 12;
-      v.left = (state.sidebarHidden ? $("#list-toggle") : $("#panel")).getBoundingClientRect().right + 12;
+      v.left = Math.max((state.sidebarHidden ? $("#list-toggle") : $("#panel")).getBoundingClientRect().right,
+        $(".filters").getBoundingClientRect().right) + 12;
       v.right = $(".map-ctrl").getBoundingClientRect().left - 12;
     }
     return v;
@@ -631,7 +969,7 @@
     const el = popup.getElement();
     if (!el) return;
     const c = el.getBoundingClientRect(), v = visibleArea();
-    const box = { left: c.left, right: c.right, top: c.top, bottom: c.bottom + 38 };   // + segnaposto sotto la card
+    const box = { left: c.left, right: c.right, top: c.top, bottom: c.bottom + 46 };   // + segnaposto sotto la card
     let dx = 0, dy = 0;
     if (box.right - box.left > v.right - v.left || box.left < v.left) dx = v.left - box.left;
     else if (box.right > v.right) dx = v.right - box.right;
@@ -648,9 +986,12 @@
       center: [s.center[1], s.center[0]],
       zoom: s.zoom - (MOBILE() ? 1 : 0),
       attributionControl: { compact: true },
-      dragRotate: false, pitchWithRotate: false, touchPitch: false,
+      dragRotate: false, pitchWithRotate: false, touchPitch: false, renderWorldCopies: false,
     });
     map.touchZoomRotate.disableRotation();
+    // crediti della mappa (obbligatori): sempre chiusi nel tondino "i" in un angolo, si aprono solo se li tocchi
+    const shutAttrib = () => document.querySelectorAll(".maplibregl-ctrl-attrib.maplibregl-compact-show").forEach((el) => el.classList.remove("maplibregl-compact-show"));
+    map.once("load", shutAttrib); map.once("idle", shutAttrib);
     // Allontanandosi si arriva al massimo a tutta l'Italia: zoom minimo = quello che fa stare l'Italia nella parte
     // visibile della mappa; i confini di spostamento sono l'Italia con un po' di mare, allargati quanto serve perche'
     // a zoom minimo la finestra ci stia (ricalcolati quando cambia la dimensione della finestra).
@@ -665,7 +1006,9 @@
       const z = Math.max(0, cam.zoom), el = map.getContainer();
       const scale = 512 * Math.pow(2, z) / 1.02;                   // 2% di margine sui conti
       const lonSpan = (el.clientWidth * 360) / scale, ySpan = (el.clientHeight * 2 * Math.PI) / scale;
-      const lonC = 12.6, yC = (merc(35.4) + merc(47.1)) / 2;
+      // centro della finestra quando l'Italia sta tutta nella parte visibile (a destra dell'elenco, sotto i filtri)
+      const c = cam.center ? maplibregl.LngLat.convert(cam.center) : null;
+      const lonC = c ? c.lng : 12.6, yC = c ? merc(c.lat) : (merc(35.4) + merc(47.1)) / 2;
       map.setMaxBounds(null);
       map.setMinZoom(z);
       map.setMaxBounds([[Math.min(5, lonC - lonSpan / 2), Math.max(-80, Math.min(34.3, unmerc(yC - ySpan / 2)))],
@@ -673,22 +1016,32 @@
     };
     map.once("load", fitLimits);
     map.on("resize", fitLimits);
-    $("#zoom-in").addEventListener("click", () => map.zoomIn());
+    // + e -: si avvicina e si allontana attorno al centro della parte di mappa davvero visibile (non sotto i pannelli)
+    const zoomBy = (d) => {
+      const v = visibleArea(), r = $("#map").getBoundingClientRect();
+      const around = map.unproject([(v.left + v.right) / 2 - r.left, (v.top + v.bottom) / 2 - r.top]);
+      map.easeTo({ zoom: Math.max(map.getMinZoom(), Math.min(map.getMaxZoom(), map.getZoom() + d)), around, duration: 300 });
+    };
+    $("#zoom-in").addEventListener("click", () => zoomBy(1));
     renderSoundBtn();
     $("#sound").addEventListener("click", () => Sound.toggle());
     setInterval(() => {                      // ogni minuto: gli eventi iniziano e finiscono
       const now = romeNow(), next = new Set(EVENTS.filter((e) => matches(e) && isLive(e, now)).map((e) => e.uid));
       if (next.size !== LIVE.size || [...next].some((u) => !LIVE.has(u))) update();
     }, 60000);
-    $("#zoom-out").addEventListener("click", () => map.zoomOut());
+    $("#zoom-out").addEventListener("click", () => zoomBy(-1));
     map.once("style.load", () => {        // subito, senza aspettare tutte le tessere
       warmStyle();
       DATA.categories.forEach((c) => {
         map.addImage(`pin-${c.id}`, pinImage(c.color, c.id, false), { pixelRatio: 2 });
         map.addImage(`pin-sel-${c.id}`, pinImage(c.color, c.id, true), { pixelRatio: 2 });
-        map.addImage(`pulse-${c.id}`, pulseImage(c.color, 13), { pixelRatio: 2 });
+        map.addImage(`pulse-${c.id}`, pulseImage(c.color, 17), { pixelRatio: 2 });
       });
-      map.addImage("pulse-cluster", pulseImage("#ff4d2e", 17), { pixelRatio: 2 });
+      map.addImage("pulse-cluster", pulseImage(LIVE_COLOR, 22), { pixelRatio: 2 });
+      for (const r of [19, 24, 30]) {
+        map.addImage(`cl-${r}`, clusterImage(r, false), { pixelRatio: 2 });
+        map.addImage(`cl-${r}-live`, clusterImage(r, true), { pixelRatio: 2 });
+      }
       map.addSource("ev", { type: "geojson", data: geojson([]), cluster: true, clusterRadius: 40, clusterMaxZoom: 13,
         clusterProperties: { live: ["max", ["case", ["==", ["get", "live"], true], 1, 0]] } });
       const ring = (prefix) => ({ "icon-image": ["concat", prefix, ["get", "category"]], "icon-allow-overlap": true,
@@ -698,11 +1051,14 @@
       map.addLayer({ id: "points-live", type: "symbol", source: "ev",
         filter: ["all", ["!", ["has", "point_count"]], ["==", ["get", "live"], true]], layout: ring("pulse-") });
       map.addLayer({ id: "clusters", type: "circle", source: "ev", filter: ["has", "point_count"],
-        paint: { "circle-color": "#111", "circle-radius": CLUSTER_R(1),
-          "circle-stroke-width": ["case", [">", ["get", "live"], 0], 2.5, 2],
-          "circle-stroke-color": ["case", [">", ["get", "live"], 0], "#ff4d2e", "#f5f3ee"] } });
+        // il cerchio resta solo come area da toccare: si vede il tondo a mano dello strato sopra
+        paint: { "circle-color": INK, "circle-radius": CLUSTER_R(1), "circle-opacity": 0, "circle-stroke-width": 0 } });
+      map.addLayer({ id: "clusters-ink", type: "symbol", source: "ev", filter: ["has", "point_count"],
+        layout: { "icon-image": ["concat", "cl-", ["step", ["get", "point_count"], "19", 10, "24", 40, "30"],
+          ["case", [">", ["get", "live"], 0], "-live", ""]], "icon-allow-overlap": true, "icon-ignore-placement": true } });
       map.addLayer({ id: "cluster-count", type: "symbol", source: "ev", filter: ["has", "point_count"],
-        layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 12, "text-font": ["Noto Sans Bold"] },
+        layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 18, "text-font": HAND_FONT,
+          "text-allow-overlap": true, "text-ignore-placement": true },
         paint: { "text-color": "#fff" } });
       const icon = (prefix) => ["concat", prefix, ["get", "category"]];
       map.addLayer({ id: "points", type: "symbol", source: "ev", filter: pointsFilter(""),
@@ -715,12 +1071,23 @@
         layout: { "icon-image": icon("pin-"), "icon-size": 1.25, "icon-allow-overlap": true, "icon-ignore-placement": true } });
       map.addLayer({ id: "points-selected", type: "symbol", source: "sel",
         layout: { "icon-image": icon("pin-sel-"), "icon-size": 1.15, "icon-allow-overlap": true, "icon-ignore-placement": true } });
+      // nomi delle citta' sotto i segnaposti (i tondi restano sempre in vista), spostati di lato rispetto al punto
+      // della citta', cosi' finiscono accanto ai tondi e non sotto
+      for (const id of ["label_town", "label_city", "label_city_capital"]) {
+        if (!map.getLayer(id)) continue;
+        try {
+          map.setLayoutProperty(id, "text-variable-anchor", ["top", "bottom", "right", "left"]);
+          map.setLayoutProperty(id, "text-radial-offset", 1.75);
+          map.setLayoutProperty(id, "text-justify", "auto");
+          map.moveLayer(id, "clusters-live");
+        } catch (_) { /* stile senza questo strato */ }
+      }
 
       map.on("click", "clusters", (ev) => {
         const f = ev.features[0];
         Sound.play("expand");
         map.getSource("ev").getClusterExpansionZoom(f.properties.cluster_id).then((z) =>
-          map.easeTo({ center: f.geometry.coordinates, zoom: z + 0.3, padding: mapPadding() }));
+          map.easeTo({ center: f.geometry.coordinates, zoom: z + 0.3, offset: padOffset(mapPadding()) }));
       });
       map.on("click", "points", (ev) => {
         // segnaposti vicini: si apre quello piu' vicino al clic; l'elenco "in questo punto" solo se sono
@@ -760,8 +1127,9 @@
         map.on("mouseleave", l, () => (map.getCanvas().style.cursor = ""));
       }
       mapReady = true;
+      pulseLoop();
       update(true);
-      if (state.selected) select(state.selected, { fly: true, detail: true, fromHistory: true });
+      if (state.selected) select(state.selected, { fly: true, fromHistory: true });
     });
   }
 
@@ -798,25 +1166,115 @@
     if (uid) animatePin("points-hover", uid, 1, 1.3, 260);
   }
 
-  // ---------------------------------------------------------------- card sulla mappa
-  function showCard(e, opts = {}) {
-    const c = CAT[e.category] || { color: "#ddd" };
-    const el = document.createElement("div");
-    el.className = "card" + (e.title.length > 60 ? " long" : "");
+  // ---------------------------------------------------------------- card completa: popup sulla mappa e vista lista
+  // Tutte le informazioni dell'evento, con data e orario in evidenza; "Scopri di piu'" porta alla fonte ufficiale.
+  function buildCard(e, opts = {}) {
+    const c = CAT[e.category] || { label: "Evento", color: "#ddd" };
+    const sub = (c.sub || {})[e.subcategory];
+    const el = document.createElement(opts.tag || "div");
+    el.className = "card full" + (opts.popup ? " in-popup" : "");
     el.style.setProperty("--c", c.color);
+    const d0 = parseDay(e.start), t0 = timeOf(e);
+    const sameDayEnd = e.end && e.end.slice(0, 10) === e.start.slice(0, 10) && e.end.length > 10 ? e.end.slice(11, 16) : "";
+    const multiDay = e.end && e.end.slice(0, 10) !== e.start.slice(0, 10);
+    const timeLine = t0 ? (sameDayEnd ? `dalle ${t0} alle ${sameDayEnd}` : `ore ${t0}`) : (multiDay ? "" : "orario da verificare");
+    const untilLine = multiDay ? `fino a ${dayLabel(parseDay(e.end)).toLowerCase()}` : "";
+    const g = accessGroup(e);
+    const price = priceText(e);
     const dist = kmText(km(e));
-    el.innerHTML = `<div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${accessBadge(e)}${favButton(e, "fav")}</div><h3>${esc(e.title)}</h3>
-      <p>${esc(whenText(e))}</p><p>${esc([e.venue, e.town].filter(Boolean).join(", "))}${dist ? ` · ${dist}` : ""}</p>
-      <button class="more" type="button">Dettagli evento</button>`;
-    el.querySelector(".more").addEventListener("click", () => select(e.uid, { fly: false, detail: true }));
+    const place2 = [e.address, e.venue ? e.town : ""].filter(Boolean).join(", ");
+    const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
+    const dirs = `https://www.google.com/maps/dir/?api=1&destination=${e.geo_precision === "town"
+      ? encodeURIComponent([e.venue, e.address, e.town].filter(Boolean).join(", ")) : `${e.lat},${e.lon}`}`;
+    // in cima a sinistra solo OGGI / DOMANI (e "In corso"); per gli altri giorni niente, la data e' sotto
+    const diff = Math.round((d0 - today()) / 86400000);
+    const tags = opts.inline ? "" : (LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : "")
+      + (diff <= 0 && !LIVE.has(e.uid) ? '<span class="day-tag">Oggi</span>' : diff === 1 ? '<span class="day-tag">Domani</span>' : "");
+    if (opts.popup) {
+      // Popup sulla mappa (proposta A2): titolo; data grande in un riquadro a matita con l'orario; luogo su una riga;
+      // accesso; descrizione di 3 righe ("altro" per leggerla tutta); azioni.
+      const live = LIVE.has(e.uid), started = multiDay && iso(today()) > e.start.slice(0, 10);
+      const dShow = started ? today() : d0;                   // eventi lunghi gia' iniziati: si parla di oggi
+      const dd = Math.round((dShow - today()) / 86400000);
+      const lead = live ? "In corso" : dd <= 0 ? "Oggi" : dd === 1 ? "Domani" : DOW[dShow.getDay()];
+      const endD = multiDay ? parseDay(e.end) : null;
+      const right = multiDay ? `fino al ${endD.getDate()} ${MONTHS[endD.getMonth()].slice(0, 3)}`
+        : t0 ? (sameDayEnd ? `${t0}–${sameDayEnd}` : t0) : "";
+      const label = "Scopri di più";                         // uguale per tutti gli eventi
+      el.innerHTML = `
+      ${favButton(e, "fav")}
+      <h3>${esc(e.title)}</h3>
+      <div class="p-date${live ? " live" : ""}"><span class="p-lead">${esc(lead)}</span><span class="p-day">${dShow.getDate()}</span><span class="p-mon">${MONTHS[dShow.getMonth()].slice(0, 3)}</span>${right ? `<span class="p-time">${esc(right)}</span>` : ""}</div>
+      <p class="p-place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span><b>${esc(e.venue || e.town)}</b>${e.venue && e.town ? `, ${esc(e.town)}` : ""}${dist ? ` · ${dist}` : ""}</span></p>
+      <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}</div>
+      ${e.summary ? `<p class="card-desc p-desc">${esc(e.summary)}</p><button type="button" class="p-more" hidden>altro</button>` : ""}
+      ${e.ticket_url && e.ticket_url !== e.action_url ? `<p class="card-src">Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a></p>` : ""}
+      <div class="card-actions">
+        <a class="more" href="${attr(e.action_url)}" target="_blank" rel="noopener" title="Fonte: ${esc(host)}" aria-label="${label} su ${esc(host)}">${label} <i aria-hidden="true">↗</i></a>
+        <button class="mini" type="button" data-ics aria-label="Aggiungi al calendario" title="Aggiungi al calendario"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
+        <a class="mini" href="${attr(dirs)}" target="_blank" rel="noopener" aria-label="Indicazioni" title="Indicazioni"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></a>
+        <button class="mini" type="button" data-share aria-label="Condividi" title="Condividi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7.5 7.5 12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></button>
+      </div>
+      <button class="report-link" type="button" data-report>Segnala una modifica</button>`;
+      el.classList.add("a2");
+      const more = el.querySelector(".p-more"), desc = el.querySelector(".p-desc");
+      if (more) {
+        requestAnimationFrame(() => { if (desc.scrollHeight > desc.clientHeight + 2) more.hidden = false; });
+        more.addEventListener("click", (ev) => { ev.stopPropagation(); desc.classList.add("open"); more.hidden = true; requestAnimationFrame(() => ensureCardVisible()); });
+      }
+    } else el.innerHTML = `
+      ${favButton(e, "fav")}
+      ${tags ? `<div class="card-top">${tags}</div>` : ""}
+      ${opts.inline
+        // lista: giorno e ora sono gia' a destra nel riquadro; qui solo la fine per gli eventi di piu' giorni
+        ? (untilLine ? `<div class="card-when"><span class="u">${esc(untilLine[0].toUpperCase() + untilLine.slice(1))}</span></div>` : "")
+        : `<div class="card-when">
+        <strong class="w-day">${esc(plainDay(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}
+      </div>`}
+      ${opts.inline ? "" : `<h3>${esc(e.title)}</h3>`}
+      ${opts.inline ? "" : `<p class="card-place"><b>${esc(e.venue || e.town)}</b>${place2 ? `<br>${esc(place2)}` : ""}${dist ? `<br><span class="muted">${dist} da te</span>` : ""}</p>`}
+      <div class="card-acc">${accessBadge(e)}${price ? `<span>${esc(price)}</span>` : ""}</div>
+      ${e.summary ? `<p class="card-desc">${esc(e.summary)}</p>` : ""}
+      ${e.ticket_url && e.ticket_url !== e.action_url ? `<p class="card-src">Iscrizioni su <a href="${attr(e.ticket_url)}" target="_blank" rel="noopener">${esc(new URL(e.ticket_url).hostname.replace(/^www\./, ""))}</a></p>` : ""}
+      <div class="card-actions">
+        <a class="more" href="${attr(e.action_url)}" target="_blank" rel="noopener" title="Fonte: ${esc(host)}" aria-label="Scopri di più su ${esc(host)}">Scopri di più <i aria-hidden="true">↗</i></a>
+        <button class="mini" type="button" data-ics aria-label="Aggiungi al calendario" title="Aggiungi al calendario"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
+        <a class="mini" href="${attr(dirs)}" target="_blank" rel="noopener" aria-label="Indicazioni" title="Indicazioni"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></a>
+        <button class="mini" type="button" data-share aria-label="Condividi" title="Condividi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7.5 7.5 12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></button>
+      </div>
+      <button class="report-link" type="button" data-report>Segnala una modifica</button>`;
     el.querySelector("[data-fav]").addEventListener("click", (ev) => { ev.stopPropagation(); toggleFav(e.uid); });
+    el.querySelector("[data-ics]").addEventListener("click", () => downloadIcs(e));
+    el.querySelector("[data-share]").addEventListener("click", () => share(e));
+    el.querySelector("[data-report]").addEventListener("click", () => openReport(e));
+    if (opts.onPlace && el.querySelector(".card-place")) {
+      const pl = el.querySelector(".card-place");
+      pl.classList.add("link"); pl.title = "Mostra sulla mappa";
+      pl.addEventListener("click", () => opts.onPlace(e));
+    }
+    return el;
+  }
+
+  function showCard(e, opts = {}) {
+    const el = buildCard(e, { popup: true });
     if (popup) popup.remove();
     const [ox, oy] = slotOff(e.uid);
-    popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: [ox, oy - 22], maxWidth: "none" })
+    popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, focusAfterOpen: false, anchor: "bottom", offset: [ox, oy - 26], maxWidth: "none" })
       .setLngLat(COORDS[e.uid] || [e.lon, e.lat]).setDOMContent(el).addTo(map);
     fitTitle(el.querySelector("h3"));
     markSelected(e.uid);
     if (!opts.noReveal) requestAnimationFrame(() => ensureCardVisible());
+  }
+
+  // Margini per centrare un punto con la card aperta: il punto finisce nella parte bassa della zona visibile,
+  // la card sopra di lui resta tutta sotto testata e filtri.
+  function cardPadding() {
+    const pad = mapPadding(), el = popup && popup.getElement();
+    if (!el) return pad;
+    const v = visibleArea(), r = $("#map").getBoundingClientRect(), h = el.getBoundingClientRect().height;
+    const top = Math.round(v.top - r.top + h + 28), bottom = Math.round(r.bottom - v.bottom + 22);
+    // card piu' alta dello spazio: conta che si veda dall'inizio, il segnaposto puo' finire sotto l'elenco
+    return { ...pad, top, bottom: top + bottom > r.height - 2 ? Math.max(0, r.height - top) : bottom };
   }
 
   // Titoli: si va a capo tra parole intere. Solo una parola piu' larga della card viene spezzata,
@@ -849,6 +1307,7 @@
 
   function closeCard() {
     if (popup) { popup.remove(); popup = null; }
+    if (MOBILE() && $("#panel").dataset.sheet === "min") setSheet("peek");
     markSelected("");
   }
 
@@ -858,6 +1317,9 @@
   function select(uid, opts = {}) {
     const e = uid && EVENTS.find((x) => x.uid === uid);
     if (!e) { closeDetail(); return; }
+    opts = { ...opts, detail: false };       // V1: tutte le informazioni stanno nella card sulla mappa
+    if (state.view === "list") setView("map", { keep: true });
+    if (MOBILE()) setSheet("min");          // la card ha bisogno di tutto lo schermo: l'elenco scende
     state.selected = uid;
     if (opts.detail) {
       if (state.sidebarHidden && !MOBILE()) { state.hiddenBeforeDetail = true; setSidebar(true, { remember: false }); }
@@ -879,8 +1341,8 @@
       if (MOBILE() && opts.detail) { if (popup) { popup.remove(); popup = null; } markSelected(uid); }
       else showCard(e, { noReveal: !!opts.fly || !!opts.detail });
       if (opts.fly) {
-        map.flyTo({ center, zoom: Math.max(map.getZoom(), 14.2), speed: 1.4, padding: mapPadding() });
-        map.once("moveend", () => ensureCardVisible());
+        map.once("moveend", () => ensureCardVisible());     // prima del volo: se il salto e' immediato, moveend arriva subito
+        map.flyTo({ center, zoom: Math.max(map.getZoom(), 14.2), speed: 2, maxDuration: 2200, offset: padOffset(cardPadding()) });
       } else if (opts.detail && !MOBILE()) {
         requestAnimationFrame(() => ensureCardVisible());   // la sidebar puo' essere ricomparsa
       }
@@ -921,7 +1383,7 @@
 
   window.addEventListener("popstate", (ev) => {
     const uid = ev.state?.uid;
-    if (uid) select(uid, { detail: true, fly: true, fromHistory: true });
+    if (uid) select(uid, { fly: true, fromHistory: true });
     else closeDetail({ fromHistory: true });
   });
 
@@ -932,8 +1394,8 @@
     if (name === "half") name = "full";      // su telefono solo due posizioni: chiuso in basso o aperto del tutto
     p.dataset.sheet = name;
     p.style.removeProperty("--sheet-y");
-    $("#sheet-toggle").setAttribute("aria-expanded", String(name !== "peek"));
-    $("#sheet-toggle").setAttribute("aria-label", name === "peek" ? "Apri l'elenco" : "Riduci l'elenco");
+    $("#sheet-toggle").setAttribute("aria-expanded", String(name === "full"));
+    $("#sheet-toggle").setAttribute("aria-label", name === "full" ? "Riduci l'elenco" : "Apri l'elenco");
   }
 
   function setupSheet() {
@@ -947,7 +1409,7 @@
     const currentOffset = () => new DOMMatrixReadOnly(getComputedStyle(p).transform).m42;
 
     function down(ev) {
-      if (!MOBILE() || (ev.target.closest && ev.target.closest(".sort"))) return;
+      if (!MOBILE() || state.view === "list" || (ev.target.closest && ev.target.closest(".sort, .near"))) return;   // in lista si scorre e basta
       fromBody = !head.contains(ev.target);
       if (fromBody && p.dataset.sheet !== "peek") return;      // a pannello aperto il contenuto scorre normalmente
       dragging = true; moved = false;
@@ -978,7 +1440,7 @@
       let target;
       if (velocity > 0.25 || dy > 50) target = "peek";
       else if (velocity < -0.25 || dy < -50) target = "full";
-      else target = p.dataset.sheet === "peek" ? "peek" : "full";
+      else target = ["peek", "min"].includes(p.dataset.sheet) ? "peek" : "full";
       setSheet(target);
     }
     // Pannello aperto: trascinando verso il basso da un punto qualsiasi del contenuto (quando e' gia'
@@ -986,7 +1448,7 @@
     const body = $("#panel-body");
     let tY = 0, tStart = 0, tLastY = 0, tLastT = 0, tVel = 0, tDrag = false, tActive = false;
     body.addEventListener("touchstart", (ev) => {
-      tActive = MOBILE() && p.dataset.sheet === "full" && ev.touches.length === 1;
+      tActive = MOBILE() && state.view !== "list" && p.dataset.sheet === "full" && ev.touches.length === 1;
       tDrag = false;
       if (!tActive) return;
       tY = tLastY = ev.touches[0].clientY; tLastT = performance.now(); tVel = 0;
@@ -1034,12 +1496,11 @@
     navigator.geolocation.getCurrentPosition((pos) => {
       btn.classList.remove("busy");
       btn.setAttribute("aria-pressed", "true");
-      state.me = { lat: pos.coords.latitude, lon: pos.coords.longitude };
-      state.sort = "distance";
+      setPlace({ lat: pos.coords.latitude, lon: pos.coords.longitude }, null, { gps: true });
       if (mapReady) {
         if (!meMarker) { const d = document.createElement("div"); d.className = "me-dot"; meMarker = new maplibregl.Marker({ element: d }); }
         meMarker.setLngLat([state.me.lon, state.me.lat]).addTo(map);
-        map.flyTo({ center: [state.me.lon, state.me.lat], zoom: 11, padding: mapPadding(), speed: 1.4 });
+        map.flyTo({ center: [state.me.lon, state.me.lat], zoom: 11, offset: padOffset(mapPadding()), speed: 1.4 });
       }
       update();
       if (MOBILE() && !state.detail) setSheet("half");
@@ -1049,11 +1510,103 @@
     }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
   }
 
-  function toggleSort() {
-    if (!state.me) { locate(); return; }
-    state.sort = state.sort === "distance" ? "date" : "distance";
+  // ---------------------------------------------------------------- "Vicino a ..." (vista lista)
+  // Di default la lista e' ordinata per vicinanza: alla posizione del telefono/computer, oppure al comune scritto a mano
+  // (ricordato su questo dispositivo). Il nome viene dal comune piu' vicino (docs/data/comuni.json).
+  let TOWNS = null;
+  const loadTowns = () => TOWNS || (TOWNS = fetch(new URL("comuni.json", new URL(window.ANDIAMO_DATA || "data/sito.json", location.href)))
+    .then((r) => r.json()).catch(() => []));
+  const fold = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/['’`]/g, " ").replace(/\s+/g, " ").trim();
+  async function nearestTown(lat, lon) {
+    const rows = await loadTowns();
+    let best = null, bd = Infinity;
+    const k = Math.cos(lat * Math.PI / 180);
+    for (const t of rows) { const d = (t[2] - lat) ** 2 + ((t[3] - lon) * k) ** 2; if (d < bd) { bd = d; best = t; } }
+    return best && bd < 0.5 ? best[0] : null;                       // oltre ~70 km: fuori dall'Italia
+  }
+  function setPlace(me, name, opts = {}) {
+    state.me = me; state.place = name; state.sort = "distance";
+    if (opts.save) { try { localStorage.setItem("andiamo-luogo", JSON.stringify({ ...me, name })); } catch (_) { /* privato */ } }
+    if (opts.gps) { try { localStorage.removeItem("andiamo-luogo"); } catch (_) { /* privato */ } }
+    if (!name) nearestTown(me.lat, me.lon).then((n) => { if (state.me === me) { state.place = n || "la tua posizione"; renderSortBtn(); } });
     update();
   }
+  const RMAX = 205;                               // ultima posizione del cursore = tutta Italia
+  const ALL_IT = () => state.radius >= RMAX;
+  function renderSortBtn() {
+    const b = $("#sort-btn");
+    const on = state.sort === "distance" && !!state.me;
+    b.setAttribute("aria-pressed", String(on));
+    b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span>${
+      on ? (ALL_IT() ? `Tutta Italia da ${esc(state.place || "…")}` : `Entro ${state.radius} km da ${esc(state.place || "…")}`) : state.me ? "Per data" : "Vicino a…"}</span>`;
+    const r = $("#near-radius");
+    if (r) {
+      r.textContent = ALL_IT() ? "Tutta Italia" : `${state.radius} km`;
+      const rg = $("#near-range");
+      rg.value = String(Math.min(RMAX, state.radius));
+      rg.style.setProperty("--p", `${((Math.min(RMAX, state.radius) - 5) / (RMAX - 5)) * 100}%`);
+      $("#near-less").disabled = state.radius <= 5; $("#near-more").disabled = ALL_IT();
+    }
+    b.title = "Cambia il luogo";
+  }
+  // prima apertura della lista: posizione salvata, altrimenti quella del dispositivo (se l'utente la concede)
+  let askedPlace = false;
+  function ensurePlace() {
+    if (state.me || askedPlace) return;
+    askedPlace = true;
+    try { const saved = JSON.parse(localStorage.getItem("andiamo-luogo") || "null"); if (saved && saved.lat) { setPlace({ lat: saved.lat, lon: saved.lon }, saved.name); return; } } catch (_) { /* */ }
+    if (!navigator.geolocation) { openNear(); return; }
+    navigator.geolocation.getCurrentPosition((pos) => setPlace({ lat: pos.coords.latitude, lon: pos.coords.longitude }, null),
+      () => openNear(), { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 });
+  }
+  function openNear(open = true) {
+    const pop = $("#near-pop");
+    pop.hidden = !open;
+    $("#sort-btn").setAttribute("aria-expanded", String(open));
+    if (open) { $("#near-q").value = ""; renderNearList(""); setTimeout(() => $("#near-q").focus(), 30); loadTowns(); }
+  }
+  async function renderNearList(q) {
+    const ul = $("#near-list"), f = fold(q);
+    if (f.length < 2) { ul.innerHTML = `<li class="near-hint">Scrivi almeno due lettere del comune</li>`; return; }
+    const rows = await loadTowns();
+    if (fold($("#near-q").value) !== f) return;                     // nel frattempo l'utente ha scritto altro
+    const starts = [], has = [];
+    for (const t of rows) { const n = fold(t[0]); if (n.startsWith(f)) starts.push(t); else if (n.includes(f)) has.push(t); if (starts.length >= 8) break; }
+    const hits = [...starts, ...has].slice(0, 8);
+    ul.innerHTML = hits.length ? hits.map((t, i) => `<li><button type="button" role="option" data-i="${i}">${esc(t[0])} <small>${esc(t[1])}</small></button></li>`).join("")
+      : `<li class="near-hint">Nessun comune trovato</li>`;
+    ul.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+      const t = hits[+b.dataset.i];
+      Sound.play("chip"); openNear(false);
+      setPlace({ lat: t[2], lon: t[3] }, t[0], { save: true });
+    }));
+  }
+  function setupNear() {
+    $("#sort-btn").addEventListener("click", (ev) => { ev.stopPropagation(); Sound.play("chip"); openNear($("#near-pop").hidden); });
+    $("#near-q").addEventListener("input", (ev) => renderNearList(ev.target.value));
+    $("#near-q").addEventListener("keydown", (ev) => {
+      if (ev.key === "Enter") { const b = $("#near-list button"); if (b) b.click(); }
+      if (ev.key === "Escape") openNear(false);
+    });
+    $("#near-gps").addEventListener("click", () => { openNear(false); locate(); });
+    $("#near-date").addEventListener("click", () => { openNear(false); state.sort = "date"; update(); });
+    const setR = (v) => {                          // raggio a scalini di 5 km, da 5 a 200; in fondo "tutta Italia"
+      state.radius = Math.min(RMAX, Math.max(5, Math.round(v / 5) * 5)); state.sort = "distance";
+      try { localStorage.setItem("andiamo-raggio", String(state.radius)); } catch (_) { /* privato */ }
+      Sound.play("chip"); update();
+    };
+    const step = (d) => setR(state.radius + d);
+    $("#near-less").addEventListener("click", () => step(-5));
+    $("#near-more").addEventListener("click", () => step(5));
+    let rTimer;
+    $("#near-range").addEventListener("input", (ev) => {      // trascinando: numero subito, lista appena ci si ferma
+      const v = +ev.target.value;
+      state.radius = v; renderSortBtn();
+      clearTimeout(rTimer); rTimer = setTimeout(() => setR(v), 120);
+    });
+    document.addEventListener("click", (ev) => { if (!$("#near-pop").hidden && !ev.composedPath().includes($("#near"))) openNear(false); });
+  }
+  function toggleSort() { openNear($("#near-pop").hidden); }
 
   let toastTimer;
   function toast(msg) {
@@ -1071,6 +1624,9 @@
     LIVE = new Set(onMap.filter((e) => isLive(e, now)).map((e) => e.uid));
     let items = onlyUids ? onMap.filter((e) => onlyUids.has(e.uid)) : onMap.slice();   // l'elenco puo' restringersi a un punto
     const from = state.from || "";
+    // vista lista ordinata per vicinanza: solo gli eventi entro il raggio scelto (i preferiti si vedono tutti)
+    if (state.view === "list" && state.sort === "distance" && state.me && !state.fav && !onlyUids)
+      { if (!ALL_IT()) items = items.filter((e) => km(e) <= state.radius); }
     if (state.sort === "distance" && state.me) items.sort((a, b) => km(a) - km(b));
     else {
       const key = (e) => (e.start.slice(0, 10) < from ? from : e.start.slice(0, 10)) + (timeOf(e) || "99");
@@ -1078,7 +1634,12 @@
     }
     renderStrip();
     renderChips();
-    if (!state.detail) renderList(items);
+    if (!state.detail && state.view === "list") {
+      const open = $("#list .inline-card")?.dataset.uid;          // la card aperta nella lista resta aperta
+      renderList(items);
+      if (open) { const b = $(`#list .item button[data-uid="${open}"]`); const e = EVENTS.find((x) => x.uid === open); if (b && e) toggleInline(b.closest(".item"), e, { quiet: true }); }
+    }
+    lastItems = items;
     const n = items.length;
     $("#count-label").textContent = onlyUids ? `${n} in questo punto` : state.fav ? `${n} salvati`
       : `${n} ${n === 1 ? "evento" : "eventi"}`;
@@ -1086,9 +1647,7 @@
     renderFavBtn();
     $("#list-toggle-count").textContent = n;
     $("#list-toggle").setAttribute("aria-label", `Mostra l'elenco: ${n} ${n === 1 ? "evento" : "eventi"}`);
-    const sortBtn = $("#sort-btn");
-    sortBtn.setAttribute("aria-pressed", String(state.sort === "distance" && !!state.me));
-    sortBtn.textContent = state.sort === "distance" && state.me ? "Più vicini" : state.me ? "Per data" : "Più vicini";
+    renderSortBtn();
     $("#reset").hidden = !(state.cats.size || state.access.size || state.aud.size || state.q || onlyUids || state.fav);
     if (mapReady) {
       map.getSource("ev").setData(geojson(onMap));
@@ -1099,7 +1658,7 @@
         onMap.forEach((e) => b.extend([e.lon, e.lat]));
         const sw = b.getSouthWest(), ne = b.getNorthEast();
         if (Math.abs(ne.lng - sw.lng) < 1e-4 && Math.abs(ne.lat - sw.lat) < 1e-4)    // un solo punto: niente adattamento
-          map.easeTo({ center: b.getCenter(), zoom: 12, padding: mapPadding(), duration: 0 });
+          map.easeTo({ center: b.getCenter(), zoom: 12, offset: padOffset(mapPadding()), duration: 0 });
         else map.fitBounds(b, { padding: mapPadding(), maxZoom: 12, duration: 0 });
       }
     }
@@ -1463,7 +2022,12 @@
   // ---------------------------------------------------------------- avvio
   async function start() {
     try {
-      DATA = await (await fetch("data/events.json", { cache: "no-cache" })).json();
+      // il download parte subito; la lettura (pesante) del file solo dopo l'apertura animata
+      // file leggero per il sito (sito.json); se manca, quello completo
+      let res = await fetch(window.ANDIAMO_DATA || "data/sito.json");
+      if (!res.ok) res = await fetch(new URL("events.json", res.url || location.href), { cache: "no-cache" });
+      if (window.ANDIAMO_INTRO) await window.ANDIAMO_INTRO;
+      DATA = await res.json();
     } catch (err) {
       $("#count-label").textContent = "non disponibili";
       $("#list").innerHTML = `<li class="empty-state"><strong>Non riesco a caricare gli eventi.</strong>Ricarica la pagina tra qualche minuto.</li>`;
@@ -1479,22 +2043,28 @@
     setupAdd();
     setupReport();
     setupSearch();
-    setupScrollNav("#strip");
+    $("#cal-prev").addEventListener("click", () => { state.calMonth = (state.calMonth || 0) - 1; renderStrip(); });
+    $("#cal-next").addEventListener("click", () => { state.calMonth = (state.calMonth || 0) + 1; renderStrip(); });
     setupScrollNav("#chips");
     setupFilters();
     // barre dei giorni e dei filtri a tutta larghezza: l'elenco (desktop) sta nello spazio tra le due;
     // su telefono i filtri partono sotto la barra dei giorni
     const placePanels = () => {
       const root = document.documentElement.style, gap = MOBILE() ? 8 : 12;
-      const daysBottom = $(".days").getBoundingClientRect().bottom;
-      root.setProperty("--cats-top", `${Math.round(daysBottom + 10)}px`);   // desktop: categorie sotto il calendario
-      const above = MOBILE() ? daysBottom : $(".chips-row").getBoundingClientRect().bottom;
+      const bar = $(".days").getBoundingClientRect(), daysBottom = bar.bottom;
+      // desktop: le categorie stanno sulla stessa riga del calendario, alla sua destra e alte uguali
+      root.setProperty("--cats-top", `${Math.round(bar.top)}px`);
+      root.setProperty("--cats-left", `${Math.round(bar.right + 10)}px`);
+      root.setProperty("--cats-h", `${Math.round(bar.height)}px`);
+      root.setProperty("--view-w", `${Math.round($(".view-box").getBoundingClientRect().width)}px`);   // riquadro Mappa/Lista a destra
+      const above = MOBILE() ? daysBottom : Math.max(daysBottom, $(".chips-row").getBoundingClientRect().bottom);
       root.setProperty("--below-days", `${Math.round(above + gap)}px`);
       if (!MOBILE()) root.setProperty("--above-filters", `${Math.round(window.innerHeight - $(".filters").getBoundingClientRect().top + gap)}px`);
+      root.setProperty("--below-filters", `${Math.round($(".filters").getBoundingClientRect().bottom + gap)}px`);
     };
     placePanels();
     window.addEventListener("resize", placePanels);
-    if (window.ResizeObserver) { const ro = new ResizeObserver(placePanels); ro.observe($(".days")); ro.observe($(".filters")); ro.observe($(".chips-row")); }
+    if (window.ResizeObserver) { const ro = new ResizeObserver(placePanels); ro.observe($(".days")); ro.observe($(".filters")); ro.observe($(".chips-row")); ro.observe($(".view-box")); }
     if (document.fonts) document.fonts.ready.then(placePanels);
     $("#panel-hide").addEventListener("click", () => setSidebar(false));
     $("#list-toggle").addEventListener("click", () => setSidebar(true));
@@ -1502,9 +2072,20 @@
     setupSheet();
     setSheet(MOBILE() ? "peek" : "half");
 
-    setPreset("all");
+    setPreset("week");                        // preselezione: i prossimi 7 giorni
     document.querySelectorAll(".presets button").forEach((b) =>
-      b.addEventListener("click", () => { setPreset(b.dataset.preset); onlyUids = null; update(); }));
+      b.addEventListener("click", () => { Sound.play("chip"); state.pick = null; setPreset(b.dataset.preset); onlyUids = null; update(); setTimeout(() => setCalendar(false), 250); }));
+    $("#cal-btn").addEventListener("click", () => { Sound.play("chip"); setCalendar($(".days").dataset.open !== "true"); });
+    document.addEventListener("click", (ev) => {            // clic fuori dal calendario: si chiude
+      // il percorso del clic si guarda com'era al momento del clic: i giorni vengono ridisegnati subito dopo
+      if ($(".days").dataset.open === "true" && !ev.composedPath().some((n) => n.classList && n.classList.contains("days"))) setCalendar(false);
+    });
+    document.querySelectorAll(".view-seg button").forEach((b) => b.addEventListener("click", () => { Sound.play("chip"); setView(b.dataset.view); }));
+    $("#fav-map").addEventListener("click", () => {
+      state.fav = !state.fav; onlyUids = null; Sound.play("chip");
+      closeAll();
+      update(true);
+    });
     $("#fav-btn").addEventListener("click", () => {
       state.fav = !state.fav; onlyUids = null; Sound.play("chip");
       closeAll();
@@ -1515,7 +2096,7 @@
       state.fav = false;
       state.cats.clear(); state.aud.clear(); state.access.clear(); state.q = ""; onlyUids = null;
       $("#q").value = "";
-      setPreset("all"); closeDetail(); update(true);
+      state.pick = null; setPreset("week"); closeDetail(); update(true);
     });
     $("#more-filters").addEventListener("click", (ev) => {
       const open = $(".filters").classList.toggle("expanded");
@@ -1523,7 +2104,7 @@
       ev.currentTarget.setAttribute("aria-expanded", String(open));
     });
     $("#locate").addEventListener("click", locate);
-    $("#sort-btn").addEventListener("click", toggleSort);
+    setupNear();
     document.addEventListener("keydown", (ev) => { if (ev.key === "Escape" && state.detail) closeDetail(); });
 
     const m = location.hash.match(/e=([0-9a-f]+)/);
@@ -1532,9 +2113,23 @@
       history.replaceState({ uid: m[1] }, "", `#e=${m[1]}`);
     }
     update();
-    if (state.selected) select(state.selected, { detail: true, fromHistory: true });   // scheda subito, mappa dopo
+    let v0 = "map";
+    try { v0 = localStorage.getItem("andiamo-vista") === "list" ? "list" : "map"; } catch (_) { /* privato */ }
+    if (v0 === "list" && !state.selected) setView("list");
+    setCalendar(false);
     initMap();
   }
+
+  // Telefono: la pagina non si ingrandisce mai (iOS ignora user-scalable=no); il pizzico funziona solo sulla mappa.
+  const onMap = (t) => !!(t && t.closest && t.closest(".maplibregl-canvas-container, .maplibregl-canvas")) && state.view !== "list";
+  ["gesturestart", "gesturechange"].forEach((n) => document.addEventListener(n, (ev) => { if (!onMap(ev.target)) ev.preventDefault(); }, { passive: false }));
+  document.addEventListener("touchmove", (ev) => { if (ev.touches.length > 1 && !onMap(ev.target)) ev.preventDefault(); }, { passive: false });
+  let lastTap = 0;                                   // doppio tocco: niente ingrandimento della pagina
+  document.addEventListener("touchend", (ev) => {
+    const now = Date.now();
+    if (now - lastTap < 320 && !onMap(ev.target) && !(ev.target.closest && ev.target.closest("input, textarea, select"))) ev.preventDefault();
+    lastTap = now;
+  }, { passive: false });
 
   // accesso di sola lettura per test e debug dalla console
   window.andiamo = { map: () => map, coords: (uid) => COORDS[uid], events: () => EVENTS };
