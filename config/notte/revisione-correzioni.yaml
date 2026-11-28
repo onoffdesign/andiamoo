@@ -129,6 +129,12 @@ correggi:
     official_url: "https://www.nordest24.it/giovedi-cultura-treviso-2026-2027-calendario-guida"
     nota: "guida di Nordest24 al calendario 2026-27: 10/12 Operazione Odessa con Federico Bettuzzi; la notizia della Fondazione non riporta le date"
     verificato: "2026-11-28"
+  91c598d7115ff074:
+    venue: "Cartoleria Kikka, quartiere di Santa Bona"
+    lat: 45.68642
+    lon: 12.21836
+    nota: "Qdpnews 20/11: sabato 12/12 alle 15 in via Santa Bona Nuova 110/B, presso la Cartoleria Kikka. Il civico non e' in OpenStreetMap: punto sulla chiesa di Santa Bona sulla stessa strada (way 140914479), il posto certo piu' vicino; era sul centro di Treviso, a circa 3 km"
+    verificato: "2026-11-28"
 
 rimuovi: {}
 
