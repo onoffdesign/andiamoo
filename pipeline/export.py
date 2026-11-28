@@ -44,10 +44,14 @@ def api_url() -> str:
 
 
 def scatter(ev: Event) -> tuple[float, float]:
-    """Eventi con solo il comune: un punto attorno al centro, diverso per ogni evento ma stabile nel tempo
-    (calcolato dall'id), cosi' non finiscono tutti uno sopra l'altro."""
+    """Eventi con solo il comune: un punto attorno al centro, stabile nel tempo. Gli eventi dello stesso luogo
+    (stesso nome del posto nello stesso comune) hanno lo stesso punto: sulla mappa stanno vicini, disposti attorno
+    a quel punto senza toccarsi. Senza nome del posto il punto dipende dall'evento."""
     lo, hi = settings()["geocoding"].get("town_scatter_meters", [150, 650])
-    h = hashlib.sha1(ev.uid.encode()).digest()
+    from .geocode import _norm
+    venue = _norm(ev.venue or "")
+    seed = f"{venue}|{_norm(ev.town or '')}" if venue else ev.uid
+    h = hashlib.sha1(seed.encode()).digest()
     angle = int.from_bytes(h[:4], "big") / 2 ** 32 * 2 * math.pi
     dist = lo + (hi - lo) * math.sqrt(int.from_bytes(h[4:8], "big") / 2 ** 32)   # radice: densita' uniforme
     dlat = dist * math.cos(angle) / 111_320

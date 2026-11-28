@@ -21,7 +21,16 @@
   let API = "", apiOk = false, aiOk = false;
   let DATA = null, EVENTS = [], CAT = {}, map = null, mapReady = false, popup = null, meMarker = null, onlyUids = null;
   let pushedDetail = false;                // la scheda aperta ha una voce nostra nella cronologia?
-  const COORDS = {};                       // uid -> [lon, lat] mostrati (con il piccolo scarto anti-sovrapposizione)
+  const COORDS = {};                       // uid -> [lon, lat] del punto (gli eventi dello stesso posto hanno lo stesso)
+  // Eventi nello stesso posto: stesso punto sulla mappa, segnaposti disposti a nido d'ape attorno al centro, vicini
+  // ma senza toccarsi a qualsiasi zoom (lo scarto e' in pixel). SLOTS[i] = scarto in pixel del posto i.
+  const SLOTS = [[0, 0]];
+  for (let r = 1; r <= 5; r++) for (let k = 0; k < 6 * r; k++) {
+    const a = -Math.PI / 2 + (k * 2 * Math.PI) / (6 * r);
+    SLOTS.push([Math.round(31 * r * Math.cos(a)), Math.round(31 * r * Math.sin(a))]);
+  }
+  const SLOT = {};                         // uid -> indice in SLOTS
+  const slotOff = (uid) => SLOTS[SLOT[uid] || 0];
   let LIVE = new Set();                    // uid degli eventi in corso adesso (ricalcolati ogni minuto)
   // Preferiti: gli eventi salvati col cuore restano in questo browser (nessun account, nessun dato inviato).
   const FAV = new Set((() => { try { return JSON.parse(localStorage.getItem("andiamo-preferiti") || "[]"); } catch (_) { return []; } })());
@@ -527,6 +536,19 @@
     };
     ANIM[layer + prop] = requestAnimationFrame(step);
   }
+  function animatePin(layer, uid, from, to, ms) {
+    if (!mapReady || !map.getLayer(layer)) return;
+    const set = (v) => { map.setLayoutProperty(layer, "icon-size", v); setSingleOffset(layer, uid, v); };
+    cancelAnimationFrame(ANIM[layer + "pin"]);
+    if (REDUCED()) { set(to); return; }
+    const t0 = performance.now();
+    const step = (t) => {
+      const x = Math.min(1, (t - t0) / ms);
+      set(from + (to - from) * easeBack(x));
+      if (x < 1) ANIM[layer + "pin"] = requestAnimationFrame(step);
+    };
+    ANIM[layer + "pin"] = requestAnimationFrame(step);
+  }
   const CLUSTER_R = (k) => ["*", k, ["step", ["get", "point_count"], 15, 10, 19, 40, 24]];
   function popIn() {
     animateProp("points", "layout", "icon-size", 0.35, 1, 460);
@@ -670,7 +692,7 @@
       map.addSource("ev", { type: "geojson", data: geojson([]), cluster: true, clusterRadius: 40, clusterMaxZoom: 13,
         clusterProperties: { live: ["max", ["case", ["==", ["get", "live"], true], 1, 0]] } });
       const ring = (prefix) => ({ "icon-image": ["concat", prefix, ["get", "category"]], "icon-allow-overlap": true,
-        "icon-ignore-placement": true });
+        "icon-ignore-placement": true, "icon-offset": SLOT_EXPR });
       map.addLayer({ id: "clusters-live", type: "symbol", source: "ev", filter: ["all", ["has", "point_count"], [">", ["get", "live"], 0]],
         layout: { "icon-image": "pulse-cluster", "icon-allow-overlap": true, "icon-ignore-placement": true } });
       map.addLayer({ id: "points-live", type: "symbol", source: "ev",
@@ -684,7 +706,7 @@
         paint: { "text-color": "#fff" } });
       const icon = (prefix) => ["concat", prefix, ["get", "category"]];
       map.addLayer({ id: "points", type: "symbol", source: "ev", filter: pointsFilter(""),
-        layout: { "icon-image": icon("pin-"), "icon-allow-overlap": true, "icon-ignore-placement": true } });
+        layout: { "icon-image": icon("pin-"), "icon-allow-overlap": true, "icon-ignore-placement": true, "icon-offset": SLOT_EXPR } });
       // evidenziato e selezionato vivono in sorgenti separate, non raggruppate: restano visibili sopra i gruppi
       map.addSource("hov", { type: "geojson", data: geojson([], true) });
       map.addSource("sel", { type: "geojson", data: geojson([], true) });
@@ -708,7 +730,8 @@
           const uid = f.properties.uid;
           if (seen.has(uid)) continue;
           seen.add(uid);
-          const p = map.project(f.geometry.coordinates);
+          const p = map.project(f.geometry.coordinates), o = SLOTS[f.properties.slot || 0] || [0, 0];
+          p.x += o[0]; p.y += o[1];
           hits.push({ uid, p, d: Math.hypot(p.x - ev.point.x, p.y - ev.point.y) });
         }
         hits.sort((a, b) => a.d - b.d);
@@ -747,26 +770,32 @@
   }
 
   function geojson(items, keepCoords) {
-    if (keepCoords) {      // usa le coordinate gia' mostrate (con lo scarto anti-sovrapposizione)
-      return { type: "FeatureCollection", features: items.map((e) => ({ type: "Feature",
-        properties: { uid: e.uid, category: e.category, live: LIVE.has(e.uid) }, geometry: { type: "Point", coordinates: COORDS[e.uid] || [e.lon, e.lat] } })) };
-    }
-    const seen = {};
-    return { type: "FeatureCollection", features: items.map((e) => {
-      const k = `${e.lat.toFixed(4)},${e.lon.toFixed(4)}`;
-      const i = (seen[k] = (seen[k] || 0) + 1) - 1;
-      const ang = i * 2.4, r = i ? 0.0007 * Math.sqrt(i) : 0;
-      const coords = [e.lon + r * Math.cos(ang), e.lat + r * Math.sin(ang)];
-      COORDS[e.uid] = coords;
-      return { type: "Feature", properties: { uid: e.uid, category: e.category, live: LIVE.has(e.uid) }, geometry: { type: "Point", coordinates: coords } };
-    }) };
+    const feat = (e) => ({ type: "Feature", properties: { uid: e.uid, category: e.category, live: LIVE.has(e.uid),
+      slot: SLOT[e.uid] || 0 }, geometry: { type: "Point", coordinates: COORDS[e.uid] || [e.lon, e.lat] } });
+    if (keepCoords) return { type: "FeatureCollection", features: items.map(feat) };
+    // stesso posto = stesso punto entro ~10 m; i posti si assegnano in ordine di data (i primi al centro)
+    const groups = {};
+    items.forEach((e) => { (groups[`${e.lat.toFixed(4)},${e.lon.toFixed(4)}`] ||= []).push(e); });
+    Object.values(groups).forEach((g) => {
+      g.sort((a, b) => (a.start + a.uid).localeCompare(b.start + b.uid));
+      g.forEach((e, i) => { COORDS[e.uid] = [g[0].lon, g[0].lat]; SLOT[e.uid] = i < SLOTS.length ? i : SLOTS.length - 1; });
+    });
+    return { type: "FeatureCollection", features: items.map(feat) };
+  }
+  // scarto in pixel per lo strato dei punti (dal posto della feature); negli strati con un solo punto si usa
+  // il valore fisso diviso per la dimensione dell'icona (icon-offset si moltiplica per icon-size)
+  const SLOT_EXPR = ["match", ["get", "slot"], ...SLOTS.slice(1).flatMap((o, i) => [i + 1, ["literal", o]]), ["literal", [0, 0]]];
+  function setSingleOffset(layer, uid, size) {
+    if (!mapReady || !map.getLayer(layer)) return;
+    const [x, y] = slotOff(uid);
+    map.setLayoutProperty(layer, "icon-offset", [x / size, y / size]);
   }
 
   const byUid = (uid) => (uid ? EVENTS.filter((e) => e.uid === uid) : []);
   function hover(uid) {
     if (!mapReady) return;
     map.getSource("hov").setData(geojson(byUid(uid), true));
-    if (uid) animateProp("points-hover", "layout", "icon-size", 1, 1.3, 260);
+    if (uid) animatePin("points-hover", uid, 1, 1.3, 260);
   }
 
   // ---------------------------------------------------------------- card sulla mappa
@@ -782,7 +811,8 @@
     el.querySelector(".more").addEventListener("click", () => select(e.uid, { fly: false, detail: true }));
     el.querySelector("[data-fav]").addEventListener("click", (ev) => { ev.stopPropagation(); toggleFav(e.uid); });
     if (popup) popup.remove();
-    popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: 22, maxWidth: "none" })
+    const [ox, oy] = slotOff(e.uid);
+    popup = new maplibregl.Popup({ className: "ev-card", closeButton: false, closeOnClick: false, anchor: "bottom", offset: [ox, oy - 22], maxWidth: "none" })
       .setLngLat(COORDS[e.uid] || [e.lon, e.lat]).setDOMContent(el).addTo(map);
     fitTitle(el.querySelector("h3"));
     markSelected(e.uid);
@@ -814,7 +844,7 @@
     map.getSource("sel").setData(geojson(byUid(uid), true));
     map.setFilter("points", pointsFilter(uid || ""));
     map.setFilter("points-live", ["all", ["!", ["has", "point_count"]], ["==", ["get", "live"], true], ["!=", ["get", "uid"], uid || ""]]);
-    if (uid) animateProp("points-selected", "layout", "icon-size", 0.55, 1.1, 420);
+    if (uid) { setSingleOffset("sel-live", uid, 1); animatePin("points-selected", uid, 0.55, 1.1, 420); }
   }
 
   function closeCard() {
