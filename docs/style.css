@@ -1089,3 +1089,18 @@ body.view-list .item button { padding: 18px 22px; }
   body.view-list .item .meta, body.view-list .item .when { font-size: 1.0625rem; }
   body.view-list .item button { padding: 14px 16px; }
 }
+
+/* vista lista: l'evento aperto e' un solo riquadro che si allunga verso il basso */
+body.view-list .item.open { padding-bottom: 0; }
+body.view-list .item.open button {
+  border-bottom: 0; border-bottom-left-radius: 0; border-bottom-right-radius: 0; box-shadow: none; transform: none;
+}
+body.view-list .inline-card { padding: 0 20px 6px; }
+body.view-list .inline-card .card.full {
+  margin-top: -1px; border-top: 0; border-top-left-radius: 0; border-top-right-radius: 0; padding-top: 4px;
+  background-color: var(--c); box-shadow: 2px 3px 0 rgba(29, 27, 24, .16); animation: none;
+}
+body.view-list .inline-card .card.full > .fav { top: -2px; }
+@media (max-width: 760px) { body.view-list .inline-card { padding: 0 12px 6px; } }
+body.view-list .inline-card .card.full { padding-left: 22px; padding-right: 22px; padding-bottom: 16px; }
+@media (max-width: 760px) { body.view-list .inline-card .card.full { padding-left: 16px; padding-right: 16px; } }
