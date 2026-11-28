@@ -1,5 +1,5 @@
-/* Apertura di ANDIAMO?: a schermo intero, su carta beige, "ANDIAMO?" lettera per lettera, poi si allarga in
-   "DOVE ANDIAMO OGGI?", poi diventa una proposta diversa a ogni visita ("ANDIAMO AL CINEMA?"); alla fine il foglio
+/* Apertura di ANDIAMO?: a schermo intero, su carta beige, "ANDIAMO?" lettera per lettera, poi si apre e accoglie
+   una proposta presa dagli eventi veri dei prossimi giorni ("ANDIAMO AL CINEMA?"), diversa a ogni visita; alla fine il foglio
    si strappa in due e si apre in 3D sulla mappa.
 
    Fluidita': il carattere e' sul sito (fonts/patrick-hand-latin.woff2, precaricato) e l'animazione parte solo quando
@@ -13,20 +13,28 @@
   let started;
   window.ANDIAMO_INTRO = new Promise((res) => { started = res; });
   const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const IDEAS = ["AL CINEMA", "A TEATRO", "AL CONCERTO", "ALLA SAGRA", "AL MERCATINO", "A BALLARE", "ALLA MOSTRA",
-    "AL MUSEO", "A CORRERE", "IN PIAZZA", "AL MERCATO", "A UNA FESTA", "A CAMMINARE", "IN MONTAGNA"];
+  const FALLBACK = ["AL CINEMA", "A TEATRO", "A UN CONCERTO", "ALLA SAGRA", "AL MERCATINO", "A UNA MOSTRA", "AL MUSEO", "A UNA FESTA"];
   const store = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (_) { return null; } return null; };
-  const last = store("andiamo-intro") || "";
-  const pool = IDEAS.filter((x) => x !== last);
-  const idea = pool[Math.floor(Math.random() * pool.length)];
-  store("andiamo-intro", idea);
-  let seen = false;                       // gia' vista in questa scheda (ricarica): versione breve
+  let seen = false;                       // gia' vista in questa scheda (ricarica): un po' piu' svelta
   try { seen = !!sessionStorage.getItem("andiamo-intro-vista"); sessionStorage.setItem("andiamo-intro-vista", "1"); } catch (_) { /* */ }
+  // proposte vere: le sottocategorie con eventi nei prossimi giorni (data/intro.json, scritto a ogni pubblicazione)
+  const introUrl = new URL("intro.json", new URL(window.ANDIAMO_DATA || "data/events.json", location.href));
+  const ideas = fetch(introUrl, { cache: "no-cache" }).then((r) => r.json()).then((j) => (j.frasi && j.frasi.length ? j.frasi : FALLBACK)).catch(() => FALLBACK);
+  let idea = "";
+  function pickIdea(list) {
+    const last = store("andiamo-intro") || "";
+    const pool = list.filter((x) => x !== last);
+    idea = (pool.length ? pool : list)[Math.floor(Math.random() * (pool.length || list.length))];
+    store("andiamo-intro", idea);
+  }
 
-  const WORDS = { pre: "DOVE ", core: "ANDIAMO", a: " OGGI", b: " " + idea, q: "?" };
-  const word = (k) => `<span class="iw" data-w="${k}">${[...WORDS[k]].map((ch) => `<span class="il">${ch === " " ? "\u00a0" : ch}</span>`).join("")}</span>`;
-  const line = `<div class="intro-line">${Object.keys(WORDS).map(word).join("")}</div>`;
-  root.querySelectorAll(".intro-sheet").forEach((s) => { s.innerHTML = line; });
+  const WORDS = () => ({ core: "ANDIAMO", b: "\u00a0" + idea, q: "?" });
+  const word = (k, w) => `<span class="iw" data-w="${k}">${[...w[k]].map((ch) => `<span class="il">${ch === " " ? "\u00a0" : ch}</span>`).join("")}</span>`;
+  function build() {
+    const w = WORDS();
+    const line = `<div class="intro-line">${Object.keys(w).map((k) => word(k, w)).join("")}</div>`;
+    root.querySelectorAll(".intro-sheet").forEach((s) => { s.innerHTML = line; });
+  }
 
   // strappo: linea a zig-zag dall'alto in basso, vicino al centro, con piccoli denti irregolari
   const pts = [];
@@ -74,42 +82,35 @@
   function cleanup() { root.remove(); document.documentElement.classList.remove("intro-on"); }
 
   function run() {
+    build();
     // misure (una volta sola, a carattere pronto): larghezza di ogni parola e dimensione che fa stare la frase piu'
     // lunga nel 88% dello schermo; poi le parole si spostano solo con translate
     const sheet = root.querySelector(".intro-sheet");
     const w = {};
-    Object.keys(WORDS).forEach((k) => { w[k] = sheet.querySelector(`.iw[data-w="${k}"]`).getBoundingClientRect().width; });
-    const widest = Math.max(w.pre + w.core + w.a + w.q, w.core + w.b + w.q);
-    const scale = Math.min(1, (window.innerWidth * 0.88) / widest);
+    ["core", "b", "q"].forEach((k) => { w[k] = sheet.querySelector(`.iw[data-w="${k}"]`).getBoundingClientRect().width; });
+    const scale = Math.min(1, (window.innerWidth * 0.88) / (w.core + w.b + w.q));
     root.style.setProperty("--intro-scale", String(scale));
     Object.keys(w).forEach((k) => { w[k] *= scale; });
-    const layout = (keys) => { const tot = keys.reduce((s, k) => s + w[k], 0); let x = -tot / 2; const o = {}; keys.forEach((k) => { o[k] = x; x += w[k]; }); return o; };
-    const S1 = layout(["core", "q"]), S2 = layout(["pre", "core", "a", "q"]), S3 = layout(["core", "b", "q"]);
+    const layout = (keys) => { const tot = keys.reduce((s, k) => s + w[k], 0); let x0 = -tot / 2; const o = {}; keys.forEach((k) => { o[k] = x0; x0 += w[k]; }); return o; };
+    const S1 = layout(["core", "q"]), S2 = layout(["core", "b", "q"]);
     const place = (k, x0) => ws(k).forEach((el) => { el.style.transform = `translateX(${x0}px)`; });
-    place("pre", S2.pre); place("a", S2.a); place("b", S3.b); place("core", S1.core); place("q", S1.q);
+    place("b", S2.b); place("core", S1.core); place("q", S1.q);
     const move = (k, from, to, t0) => ws(k).forEach((el) => play(el,
       [{ transform: `translateX(${from}px)` }, { transform: `translateX(${to}px)` }], { duration: 560, delay: t0, easing: MOVE }));
     root.classList.add("go");
 
+    // "ANDIAMO?" lettera per lettera, il "?" oscilla; poi ANDIAMO e "?" si aprono e in mezzo entra la proposta
+    const k = seen ? 0.8 : 1;
     letterIn("core", 0, 55);
     letterIn("q", 430, 0);
     ws("q").forEach((el) => play(el.firstChild, [{ transform: "rotate(0)" }, { transform: "rotate(14deg)" }, { transform: "rotate(-8deg)" }, { transform: "rotate(0)" }],
-      { duration: 900, delay: 950, easing: "ease-in-out", fill: "none", composite: "add" }));
-    let tear;
-    if (REDUCED) {
-      tear = 1300;
-    } else if (seen) {                                    // breve: subito la proposta
-      move("core", S1.core, S3.core, 650); move("q", S1.q, S3.q, 650);
-      letterIn("b", 760, 35);
-      tear = 2150;
-    } else {
-      move("core", S1.core, S2.core, 950); move("q", S1.q, S2.q, 950);      // DOVE ANDIAMO OGGI?
-      letterIn("pre", 1000, 45); letterIn("a", 1080, 45);
-      letterOut("pre", 2150); letterOut("a", 2150);
-      move("core", S2.core, S3.core, 2250); move("q", S2.q, S3.q, 2250);    // ANDIAMO AL CINEMA?
-      letterIn("b", 2330, 38);
-      tear = 3550;
-    }
+      { duration: 900, delay: 900, easing: "ease-in-out", fill: "none", composite: "add" }));
+    let tear = 1300;
+    if (!REDUCED) {
+      move("core", S1.core, S2.core, 1050 * k); move("q", S1.q, S2.q, 1050 * k);
+      letterIn("b", 1130 * k, 38);
+      tear = 1130 * k + idea.length * 38 + 1350;
+    } else { letterIn("b", 0, 0); place("core", S2.core); place("q", S2.q); }
     // il sito parte con il suo lavoro pesante solo ora: le animazioni sono gia' consegnate alla scheda grafica
     requestAnimationFrame(() => requestAnimationFrame(started));
     // lo strappo e' agganciato al tempo dell'animazione (non a un timer che il caricamento potrebbe ritardare)
@@ -118,7 +119,8 @@
   }
 
   const fontReady = document.fonts && document.fonts.load ? document.fonts.load('400 64px "Andiamo Intro"') : Promise.resolve();
-  Promise.race([fontReady, new Promise((r) => setTimeout(r, 1200))]).then(() => requestAnimationFrame(run));
+  const wait = (pr, ms, fallback) => Promise.race([pr, new Promise((r) => setTimeout(() => r(fallback), ms))]);
+  Promise.all([wait(fontReady, 1200), wait(ideas, 900, FALLBACK)]).then(([, list]) => { pickIdea(list); requestAnimationFrame(run); });
   ["pointerdown", "keydown", "wheel"].forEach((ev) => window.addEventListener(ev, () => finish(), { once: true, passive: true }));
   setTimeout(() => finish("fade"), 9000);                         // in ogni caso, mai bloccati qui
 })();
