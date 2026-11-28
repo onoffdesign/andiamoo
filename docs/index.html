@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Caveat:wght@500..700&family=Figtree:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=57" rel="stylesheet">
+<link href="style.css?v=60" rel="stylesheet">
 </head>
 <body>
 <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0">
@@ -41,7 +41,7 @@
     <button id="add-btn" class="pill-btn add-btn" type="button" aria-haspopup="dialog"><b aria-hidden="true">+</b> Aggiungi<span class="wide-only"> evento</span></button>
   </div>
 
-  <!-- giorni: periodi | giorni singoli scorrevoli -->
+  <!-- giorni: pulsante con il periodo scelto; aperto, un riquadro con periodi e calendario del mese -->
   <nav class="float days" aria-label="Scegli i giorni" data-open="false">
     <div class="days-bar">
       <button type="button" class="cal-btn" id="cal-btn" aria-expanded="false" aria-controls="days-panel">
@@ -63,14 +63,15 @@
       <button type="button" data-preset="week" aria-pressed="true" title="I prossimi 7 giorni">Settimana</button>
       <button type="button" data-preset="all">Tutte</button>
     </div>
-    <span class="days-sep" aria-hidden="true"></span>
-    <div class="strip-wrap">
-      <button class="strip-nav desktop-only" id="strip-prev" type="button" aria-label="Giorni precedenti">
+    <div class="cal-head">
+      <button class="cal-nav" id="cal-prev" type="button" aria-label="Mese precedente">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
-      <div id="strip" class="strip" role="group" aria-label="Eventi per giorno"></div>
-      <button class="strip-nav desktop-only" id="strip-next" type="button" aria-label="Giorni successivi">
+      <span class="cal-month" id="cal-month" aria-live="polite"></span>
+      <button class="cal-nav" id="cal-next" type="button" aria-label="Mese successivo">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
     </div>
+    <div class="cal-dow" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>G</span><span>V</span><span>S</span><span>D</span></div>
+    <div id="strip" class="cal-grid" role="group" aria-label="Eventi per giorno"></div>
     <p class="range-hint" id="range-hint">Tocca il primo e l'ultimo giorno</p>
     </div>
   </nav>
@@ -244,6 +245,6 @@
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=56"></script>
+<script src="app.js?v=59"></script>
 </body>
 </html>
