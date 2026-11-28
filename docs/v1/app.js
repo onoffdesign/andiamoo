@@ -200,7 +200,7 @@
     if (state.preset === "all") return "Tutte le date";
     if (state.preset === "today") return "Oggi";
     if (state.preset === "weekend") return "Weekend";
-    if (state.preset === "week") return "Prossimi 7 giorni";
+    if (state.preset === "week") return "Settimana";      // i prossimi 7 giorni
     if (state.from && state.to && state.from === state.to) return shortD(state.from);
     if (state.from && state.to) return `Dal ${shortD(state.from)} al ${shortD(state.to)}`;
     return "Tutte le date";

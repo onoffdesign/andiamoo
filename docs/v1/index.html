@@ -9,9 +9,9 @@
 <meta name="description" content="Concerti, sagre, gare, mostre e incontri in Italia, a partire dalla provincia di Treviso, su una mappa aggiornata ogni giorno.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500..700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,400..700,0..100,0..1&family=Figtree:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&family=Caveat:wght@500..700&family=Figtree:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
-<link href="style.css?v=55" rel="stylesheet">
+<link href="style.css?v=56" rel="stylesheet">
 </head>
 <body>
 <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0">
@@ -47,7 +47,7 @@
     <div class="days-bar">
       <button type="button" class="cal-btn" id="cal-btn" aria-expanded="false" aria-controls="days-panel">
         <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
-        <span id="cal-label">Prossimi 7 giorni</span>
+        <span id="cal-label">Settimana</span>
         <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
       </button>
       <div class="view-seg" role="group" aria-label="Vista">
@@ -61,7 +61,7 @@
     <div class="presets" role="group" aria-label="Periodo">
       <button type="button" data-preset="today">Oggi</button>
       <button type="button" data-preset="weekend">Weekend</button>
-      <button type="button" data-preset="week" aria-pressed="true">7 giorni</button>
+      <button type="button" data-preset="week" aria-pressed="true" title="I prossimi 7 giorni">Settimana</button>
       <button type="button" data-preset="all">Tutte</button>
     </div>
     <span class="days-sep" aria-hidden="true"></span>
@@ -246,6 +246,6 @@
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>window.ANDIAMO_DATA = "../data/events.json"; window.ANDIAMO_FONTS = "../fonts/";</script>
-<script src="app.js?v=54"></script>
+<script src="app.js?v=56"></script>
 </body>
 </html>
