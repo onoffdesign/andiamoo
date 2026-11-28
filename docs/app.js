@@ -90,6 +90,7 @@
     const base = `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`;
     return diff === 0 ? `Oggi, ${base}` : diff === 1 ? `Domani, ${base}` : base[0].toUpperCase() + base.slice(1);
   };
+  const plainDay = (d) => { const b = `${DAYS[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`; return b[0].toUpperCase() + b.slice(1); };
   const shortDay = (s) => { const d = parseDay(s); const diff = Math.round((d - today()) / 86400000);
     return diff <= 0 ? "oggi" : diff === 1 ? "domani" : `${DOW[d.getDay()]} ${d.getDate()}`; };
   const shortDate = (s) => { const d = parseDay(s); return `${d.getDate()} ${MONTHS[d.getMonth()].slice(0, 3)}`; };
@@ -1087,10 +1088,15 @@
     const host = e.action_url ? new URL(e.action_url).hostname.replace(/^www\./, "") : "";
     const dirs = `https://www.google.com/maps/dir/?api=1&destination=${e.geo_precision === "town"
       ? encodeURIComponent([e.venue, e.address, e.town].filter(Boolean).join(", ")) : `${e.lat},${e.lon}`}`;
+    // in cima a sinistra solo OGGI / DOMANI (e "In corso"); per gli altri giorni niente, la data e' sotto
+    const diff = Math.round((d0 - today()) / 86400000);
+    const tags = (LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : "")
+      + (diff <= 0 && !LIVE.has(e.uid) ? '<span class="day-tag">Oggi</span>' : diff === 1 ? '<span class="day-tag">Domani</span>' : "");
     el.innerHTML = `
-      <div class="card-top">${LIVE.has(e.uid) ? '<span class="live-tag">In corso</span>' : ""}${favButton(e, "fav")}</div>
+      ${favButton(e, "fav")}
+      ${tags ? `<div class="card-top">${tags}</div>` : ""}
       <div class="card-when">
-        <strong class="w-day">${esc(dayLabel(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}
+        <strong class="w-day">${esc(plainDay(d0))}</strong>${timeLine ? `<span class="t">${esc(timeLine)}</span>` : ""}${untilLine ? `<span class="u">${esc(untilLine)}</span>` : ""}
       </div>
       <h3>${esc(e.title)}</h3>
       <p class="card-place"><b>${esc(e.venue || e.town)}</b>${place2 ? `<br>${esc(place2)}` : ""}${dist ? `<br><span class="muted">${dist} da te</span>` : ""}</p>
