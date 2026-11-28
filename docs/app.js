@@ -900,9 +900,9 @@
         } else if (name === "expand") {                  // foglio che si apre
           this.rustle(t, 0.3, { freq: 900, to: 3800, q: 0.7, gain: 0.4, attack: 0.04 });
           this.rustle(t + 0.2, 0.07, { freq: 3400, q: 2, gain: 0.22 });
-        } else if (name === "close") {                   // foglio che si ripiega
-          this.rustle(t, 0.2, { freq: 3600, to: 1200, q: 0.8, gain: 0.36, attack: 0.02 });
-          this.rustle(t + 0.17, 0.05, { freq: 2400, q: 1.4, gain: 0.16 });
+        } else if (name === "close") {                   // lo stesso tocco dell'apertura, piu' grave
+          this.rustle(t, 0.045, { freq: 1500, q: 1.6, gain: 0.32, attack: 0.002 });
+          this.rustle(t + 0.01, 0.04, { freq: 2600, q: 2.5, gain: 0.12, attack: 0.002 });
         } else if (name === "chip") {                    // scatto secco di carta
           this.rustle(t, 0.022, { freq: 4400, q: 3, gain: 0.38, attack: 0.001 });
         } else if (name === "save-on") {                 // "pop" tondo, come una bolla che scoppia (verso l'alto)
