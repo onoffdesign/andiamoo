@@ -1398,14 +1398,22 @@
     if (!name) nearestTown(me.lat, me.lon).then((n) => { if (state.me === me) { state.place = n || "la tua posizione"; renderSortBtn(); } });
     update();
   }
+  const RMAX = 205;                               // ultima posizione del cursore = tutta Italia
+  const ALL_IT = () => state.radius >= RMAX;
   function renderSortBtn() {
     const b = $("#sort-btn");
     const on = state.sort === "distance" && !!state.me;
     b.setAttribute("aria-pressed", String(on));
     b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span>${
-      on ? `Entro ${state.radius} km da ${esc(state.place || "…")}` : state.me ? "Per data" : "Vicino a…"}</span>`;
+      on ? (ALL_IT() ? `Tutta Italia da ${esc(state.place || "…")}` : `Entro ${state.radius} km da ${esc(state.place || "…")}`) : state.me ? "Per data" : "Vicino a…"}</span>`;
     const r = $("#near-radius");
-    if (r) { r.textContent = `${state.radius} km`; $("#near-less").disabled = state.radius <= 5; $("#near-more").disabled = state.radius >= 200; }
+    if (r) {
+      r.textContent = ALL_IT() ? "Tutta Italia" : `${state.radius} km`;
+      const rg = $("#near-range");
+      rg.value = String(Math.min(RMAX, state.radius));
+      rg.style.setProperty("--p", `${((Math.min(RMAX, state.radius) - 5) / (RMAX - 5)) * 100}%`);
+      $("#near-less").disabled = state.radius <= 5; $("#near-more").disabled = ALL_IT();
+    }
     b.title = "Cambia il luogo";
   }
   // prima apertura della lista: posizione salvata, altrimenti quella del dispositivo (se l'utente la concede)
@@ -1450,13 +1458,20 @@
     });
     $("#near-gps").addEventListener("click", () => { openNear(false); locate(); });
     $("#near-date").addEventListener("click", () => { openNear(false); state.sort = "date"; update(); });
-    const step = (d) => {                          // raggio a scalini di 5 km, da 5 a 200
-      state.radius = Math.min(200, Math.max(5, state.radius + d)); state.sort = "distance";
+    const setR = (v) => {                          // raggio a scalini di 5 km, da 5 a 200; in fondo "tutta Italia"
+      state.radius = Math.min(RMAX, Math.max(5, Math.round(v / 5) * 5)); state.sort = "distance";
       try { localStorage.setItem("andiamo-raggio", String(state.radius)); } catch (_) { /* privato */ }
       Sound.play("chip"); update();
     };
+    const step = (d) => setR(state.radius + d);
     $("#near-less").addEventListener("click", () => step(-5));
     $("#near-more").addEventListener("click", () => step(5));
+    let rTimer;
+    $("#near-range").addEventListener("input", (ev) => {      // trascinando: numero subito, lista appena ci si ferma
+      const v = +ev.target.value;
+      state.radius = v; renderSortBtn();
+      clearTimeout(rTimer); rTimer = setTimeout(() => setR(v), 120);
+    });
     document.addEventListener("click", (ev) => { if (!$("#near-pop").hidden && !ev.composedPath().includes($("#near"))) openNear(false); });
   }
   function toggleSort() { openNear($("#near-pop").hidden); }
@@ -1479,7 +1494,7 @@
     const from = state.from || "";
     // vista lista ordinata per vicinanza: solo gli eventi entro il raggio scelto (i preferiti si vedono tutti)
     if (state.view === "list" && state.sort === "distance" && state.me && !state.fav && !onlyUids)
-      items = items.filter((e) => km(e) <= state.radius);
+      { if (!ALL_IT()) items = items.filter((e) => km(e) <= state.radius); }
     if (state.sort === "distance" && state.me) items.sort((a, b) => km(a) - km(b));
     else {
       const key = (e) => (e.start.slice(0, 10) < from ? from : e.start.slice(0, 10)) + (timeOf(e) || "99");

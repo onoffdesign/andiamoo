@@ -1031,3 +1031,29 @@ body.view-list .group { top: 56px; }
 @media (max-width: 760px) {
   body.view-list .panel-head { padding-right: 12px; }
 }
+
+/* raggio: cursore orizzontale tra "−" (5 km) e "+" (tutta Italia) */
+.near-radius { display: block; }
+.near-radius .nr-top { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 6px; }
+.near-radius .nr-top span { color: var(--ink-2); }
+.near-radius .nr-top b { min-width: 0; font-size: .9375rem; }
+.nr-row { display: flex; align-items: center; gap: 10px; }
+.nr-row button { flex: none; }
+.nr-ends { display: flex; justify-content: space-between; margin: 4px 46px 0; color: var(--ink-2); font-size: .6875rem; }
+#near-range {
+  flex: 1; min-width: 0; height: 28px; margin: 0; background: transparent; -webkit-appearance: none; appearance: none; cursor: pointer; touch-action: pan-x;
+}
+#near-range::-webkit-slider-runnable-track {
+  height: 6px; border-radius: 3px; border: 1.5px solid #1d1b18;
+  background: linear-gradient(90deg, #1d1b18 var(--p, 12%), var(--chip) var(--p, 12%));
+}
+#near-range::-moz-range-track { height: 6px; border-radius: 3px; border: 1.5px solid #1d1b18; background: var(--chip); }
+#near-range::-moz-range-progress { height: 6px; border-radius: 3px; background: #1d1b18; }
+#near-range::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 24px; height: 24px; margin-top: -10px; border-radius: 50%; background: var(--panel);
+  border: 2px solid #1d1b18; box-shadow: 1px 2px 0 rgba(29, 27, 24, .25);
+}
+#near-range::-moz-range-thumb { width: 22px; height: 22px; border-radius: 50%; background: var(--panel); border: 2px solid #1d1b18; }
+.near-pop #near-range { height: 28px; padding: 0; border: 0; border-radius: 0; background: transparent; font-size: inherit !important; }
+.nr-ends span { margin: 0 !important; color: var(--ink-2); }
+.nr-ends { margin: 2px 50px 0; }
