@@ -547,9 +547,9 @@ body.view-list .cards-view {
 .cards-day:first-child { margin-top: 0; }
 .cards-more { display: block; margin: 18px auto 0; }
 .cards-view .empty-state { grid-column: 1 / -1; background: var(--panel); border-radius: var(--r); padding: 20px; }
-body.view-list #map, body.view-list .map-ctrl, body.view-list .panel, body.view-list .list-toggle,
+body.view-list #map, body.view-list .map-ctrl, body.view-list .list-toggle,
 body.view-list .maplibregl-ctrl-bottom-right { visibility: hidden; pointer-events: none; }
-body.view-list .stage { background: var(--land); }
+body.view-list .stage { background: var(--bg) var(--paper); }
 .me-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--me); border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(47, 107, 255, .2); }
 .maplibregl-ctrl-attrib { font-size: 10px; background: rgba(255, 255, 255, .6) !important; }
 /* attribuzione OpenStreetMap/OpenFreeMap sempre visibile, sopra il pannello filtri */
@@ -816,3 +816,29 @@ button svg, a svg, .cal-btn svg { filter: url(#hand-line); }
 }
 /* descrizione dell'evento piu' piccola */
 .card-desc { font-size: .8125rem !important; line-height: 1.45 !important; }
+
+/* =====================================================================================================
+   Vista mappa: solo la mappa (niente elenco laterale). Vista lista: l'elenco degli eventi in una colonna
+   centrale, con preferiti e "Piu' vicini"; toccando un evento si apre la sua card sotto.
+   ===================================================================================================== */
+.panel, .list-toggle, .panel-hide, .grab, .cards-view { display: none !important; }
+body.view-list .panel { display: flex !important; }
+.filters { z-index: 4; }
+@media (min-width: 761px) {
+  body.view-list .panel {
+    left: 50%; transform: translateX(-50%); width: min(820px, calc(100vw - var(--gap) * 4));
+    top: var(--below-days, 190px); bottom: calc(var(--gap) * 2 - 1px);
+  }
+  /* l'ultimo evento si puo' portare sopra la barra Accesso */
+  body.view-list .panel-body { padding-bottom: calc(var(--above-filters, 140px) - var(--gap) * 2); }
+}
+@media (max-width: 760px) {
+  body.view-list .panel {
+    top: var(--below-filters, 200px); height: auto; transform: none !important; transition: none;
+    border-radius: 18px 18px 0 0; touch-action: auto;
+  }
+}
+.inline-card { list-style: none; padding: 4px 20px 16px; }
+.inline-card .card.full { width: auto; box-shadow: 3px 4px 0 rgba(29, 27, 24, .18); animation: card-in .28s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 50% 0; }
+.item button[aria-expanded="true"] { background: var(--chip); }
+body.view-list .panel .panel-body { overflow-y: auto !important; touch-action: pan-y !important; }
