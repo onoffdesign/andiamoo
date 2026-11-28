@@ -141,6 +141,13 @@ ricerca e mercatini ricorrenti con cosedicasa: ora nel metodo)
 - 2026-11-28 (cinque agenti): dalle schede dei teatri trascrivere sempre accesso e prezzo: 4 errori su 20 del campione
   erano "sconosciuto" con il prezzo scritto nella scheda.
 
+- 2026-11-28 (sera): fonti ufficiali che rendono molto in una lettura: calendario mensile del Maggio Musicale
+  (/calendario/AAAA/MM), Destination Florence (?page=N, 284 eventi), hellorapallo.it (tribe), feed ics di Montecatini
+  Terme Tourism, sitemap-eventi.xml di Visit Tuscany, POST JSON del calendario di Turismo Lucca, PDF di Turismo Novara.
+- 2026-11-28 (sera): da evitare visitsarzana.it, teatrodellatoscana.it (anti-bot), visitsavona.com, pagina eventi del
+  Comune di Aosta (JavaScript), tempolibero.comune.prato.it (503); i dati strutturati di VisitLazio hanno l'ora sfasata
+  di un'ora: vale il testo della scheda.
+
 ## Fonti da evitare o poco utili
 - Elenco dei domini che WebFetch non legge: ora in `ops/domini-illeggibili.yaml` (lo stampa il piano della notte).
 - Vietano i robot o danno errore a WebFetch (usarli solo come titolo nei risultati): bibliotecatreviso.it /myportal/,

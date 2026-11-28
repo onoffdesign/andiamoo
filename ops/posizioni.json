@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:56+01:00",
+ "generato": "2026-11-28T20:58+01:00",
  "riepilogo": {
   "eventi_controllati": 3690,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
   "lontani_dal_comune": 109,
-  "solo_comune_con_luogo": 77,
+  "solo_comune_con_luogo": 76,
   "solo_comune_senza_luogo": 26,
-  "candidati_luoghi_noti": 36
+  "candidati_luoghi_noti": 15
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -687,33 +687,6 @@
  "candidati_luoghi": [
   {
    "nomi": [
-    "Teatro della Pergola"
-   ],
-   "comune": "Firenze",
-   "lat": 43.77309,
-   "lon": 11.2615,
-   "eventi": 20
-  },
-  {
-   "nomi": [
-    "Teatro delle Clarisse"
-   ],
-   "comune": "Rapallo",
-   "lat": 44.34826,
-   "lon": 9.23551,
-   "eventi": 13
-  },
-  {
-   "nomi": [
-    "Porto Antico di Genova"
-   ],
-   "comune": "Genova",
-   "lat": 44.40907,
-   "lon": 8.92718,
-   "eventi": 10
-  },
-  {
-   "nomi": [
     "Parcheggio Chalet del Terminal Bus"
    ],
    "comune": "Valtournenche",
@@ -759,24 +732,6 @@
   },
   {
    "nomi": [
-    "Tenuta dello Scompiglio"
-   ],
-   "comune": "Capannori",
-   "lat": 43.79713,
-   "lon": 10.51241,
-   "eventi": 6
-  },
-  {
-   "nomi": [
-    "Palazzo Strozzi"
-   ],
-   "comune": "Firenze",
-   "lat": 43.77128,
-   "lon": 11.25199,
-   "eventi": 6
-  },
-  {
-   "nomi": [
     "Teatro Politeama"
    ],
    "comune": "Catanzaro",
@@ -795,29 +750,11 @@
   },
   {
    "nomi": [
-    "Via Garibaldi"
-   ],
-   "comune": "Genova",
-   "lat": 44.41152,
-   "lon": 8.93253,
-   "eventi": 5
-  },
-  {
-   "nomi": [
     "Parrocchia di Santa Maria a Mantignano"
    ],
    "comune": "Firenze",
    "lat": 43.78304,
    "lon": 11.17677,
-   "eventi": 4
-  },
-  {
-   "nomi": [
-    "Chiesa di San Salvatore"
-   ],
-   "comune": "Lucca",
-   "lat": 43.84409,
-   "lon": 10.50292,
    "eventi": 4
   },
   {
@@ -840,30 +777,48 @@
   },
   {
    "nomi": [
-    "Teatro Niccolini"
+    "Biblioteca Civica Carlo Dionisotti"
    ],
-   "comune": "Firenze",
-   "lat": 43.7738,
-   "lon": 11.2561,
-   "eventi": 4
+   "comune": "Romagnano Sesia",
+   "lat": 45.63364,
+   "lon": 8.3858,
+   "eventi": 3
   },
   {
    "nomi": [
-    "Teatro di Rifredi (Nuovo Rifredi Scena Aperta)"
+    "Biblioteca Civica di Vercelli"
    ],
-   "comune": "Firenze",
-   "lat": 43.79554,
-   "lon": 11.24139,
-   "eventi": 4
+   "comune": "Vercelli",
+   "lat": 45.3276,
+   "lon": 8.42026,
+   "eventi": 3
   },
   {
    "nomi": [
-    "Largo Ciro Menotti"
+    "Viale Giuseppe Verdi"
    ],
-   "comune": "Pisa",
-   "lat": 43.71776,
-   "lon": 10.40242,
-   "eventi": 4
+   "comune": "Montecatini-Terme",
+   "lat": 43.88495,
+   "lon": 10.77358,
+   "eventi": 3
+  },
+  {
+   "nomi": [
+    "Teatro Grandinetti"
+   ],
+   "comune": "Lamezia Terme",
+   "lat": 38.97303,
+   "lon": 16.31815,
+   "eventi": 3
+  },
+  {
+   "nomi": [
+    "Teatro Verga, Ridotto"
+   ],
+   "comune": "Catania",
+   "lat": 37.51239,
+   "lon": 15.07161,
+   "eventi": 3
   }
  ]
 }

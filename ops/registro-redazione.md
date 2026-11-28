@@ -52,6 +52,29 @@ Ogni notte la revisione di Claude aggiunge qui in cima cosa ha fatto (vedi `ops/
   - comune.prato.it in 503 (Natale di Prato non letto); Teatro di Pisa senza orari (13 eventi dai risultati di ricerca);
   - un commit intermedio ha portato un file parziale di italia-a (175 eventi) che un'altra sessione ha unito mentre
     l'agente lavorava: d'ora in poi non includere nel commit i file config/notte/ degli agenti ancora al lavoro.
+## 2026-11-28 (sessione della sera, cinque agenti)
+
+- **Sito**: da 2361 a 3669 eventi (anche i 679 pubblicati in parallelo da un'altra sessione della notte). **Aggiunti 649**
+  da questa sessione: Toscana 371 (FI 202, PI 62, LU 49, PT 35, SI 11, MS 7, AR 3, LI 2), Liguria 166 (GE 103, SV 27,
+  SP 25, IM 11), Piemonte 50 (NO 35, VB 8, VC 6, CN 1), Marche 20 (AN, Marche Teatro), Veneto 18 (TV 13, BL 5),
+  Lazio 11, Valle d'Aosta 10, Trentino-Alto Adige 2, Sicilia 1. Di questi 175 venivano da una parte di italia-a rimasta
+  non unita dalla sessione precedente.
+- **Corretti 50** (revisione 36: soprattutto accesso e prezzo di Cultura Bologna, ERT, Cremonini; italia-b 14: orari e
+  link degli spettacoli del Goldoni di Livorno), **verificati 29**, **rimossi 0** (1 doppione tolto dalla redazione:
+  Il Tartufo a Fiesole). Coda: 50 su 60 chiusi. Campione 15/20. Test di copertura TN/BZ 3/20.
+- **Posizioni**: luoghi con solo il comune da 136 a 76; 81 luoghi nuovi dalla revisione e 83 dai resoconti di giro,
+  italia-a e italia-b in `config/luoghi.yaml`; punti diversi 0; 42 candidati nuovi (teatri delle province nuove).
+- **Fonti del giro lette**: 40 su 40 (dalla shell con i raccoglitori del progetto). Rese: Marche Teatro 20, VisitLazio
+  10, Dolomiti Prealpi 5, Silea 4, Sernaglia 5; le trevigiane quasi sature. teatro-bellini-napoli e gli-alcuni 403.
+- **Fonti nuove**: 46 catalogate in `ops/fonti.yaml` (agente fonti); verificate balliamoliscio.it e hdsports.org
+  (ammesse), allevents.in, canzoni.it e finishers.com (vietate); ancora da verificare ticketone.it, classicalive.it,
+  2night.it, cheventi.it. **Fonti spostate al giro: 15** (hellorapallo, comuni di Cuneo, Marsala, Napoli, Palermo,
+  Livorno, Foligno e Pistoia, Turismo Torino, Visit Genoa, Carlo Felice, Destination Florence, Maggio Musicale,
+  Turismo Lucca, Montecatini Terme Tourism).
+- **Modulo**: nessuna risposta nuova (solo le due righe di prova).
+- **Problemi aperti**: due sessioni notturne hanno lavorato in parallelo sulle stesse province (doppioni tolti a mano
+  dagli agenti, 149 in tutto); Prato a zero (cartellone del Comune 503); Trentino-Alto Adige fuori dai capoluoghi
+  quasi vuoto; province non lavorate per tempo: VC, VB, SV, IM e AN, PU, PO, GR senza eventi nuovi.
 
 ## 2026-11-28 (sessione notturna delle 01:07, cinque agenti)
 

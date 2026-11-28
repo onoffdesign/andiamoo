@@ -23,6 +23,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 ## Sport (`sport`)
 
 - **Corsa** [podistica, non competitiva, camminata ludico-motoria, corsa su strada, fun run]
+  · corse podistiche toscane di dicembre [podistica Lucca, Christmas run] · trail invernali dell entroterra ligure [trail, Triora] (2026-11-28, sera)
   - non competitive e marce [marcia, camminata, Fiasp] → calendariopodismo, podismoveneto
   - mezza maratona e maratona · 10 km · staffette · corse a tema (color run, notturne, in maschera)
   - trail running [trail, skyrace, ultratrail, vertical] → gotrail
@@ -43,6 +44,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · palestre della provincia [Gioco Verticale - Le Bloc a Treviso, Orizzonti Verticali a Montebelluna, Arena Boulder]:
     i siti non pubblicano eventi datati, contest solo sui social (2026-11-12: resa 0) · calendario gare FASI [federclimb calendario gare] · prove della Veneto Boulder Cup FASI [boulder cup, programma di gara] (2026-11-27: nessuna prova in provincia nei prossimi 120 giorni)
 - **Montagna ed escursionismo** (vedi anche Natura) [escursione CAI, uscita sociale]
+  · escursioni CAI in Casentino e Valtiberina [CAI Arezzo, foreste casentinesi] (2026-11-28, sera)
   - escursioni guidate · via ferrata · scialpinismo · ciaspolate [racchette da neve] · alpinismo
   · uscite delle sezioni CAI [CAI Treviso uscite, gruppi Seniores, Kalipe', Neveganti]: mete in provincia (Cartizze,
     Monfenera, Monte Baldo di Vittorio Veneto), schede complete solo pochi giorni prima · uscite di fine anno con pranzo
@@ -107,6 +109,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · guide all'ascolto con letture [guida all'ascolto, viaggio tra i grandi della musica] (2026-11-16) → trevisoeventi pagine comune · conferenze di centri culturali e spirituali [conferenza pubblica, simbolismo] (2026-11-16)
   · teatro forum e incontri partecipati · cicli comunali su salute e territorio [salute e territorio, agricoltura biologica] · sfilate di moda equosolidale nelle botteghe [sfilata, Altromercato, 4passi] · festival della statistica e dei dati [StatisticAll, Istat] (2026-11-27) · incontri collaterali alle mostre nei municipi [incontro in Municipio, storia dell'arte] (2026-11-27)
 - **Storia e rievocazioni** [rievocazione storica] · Grande Guerra · medioevo e rinascimento · commemorazioni · presepi viventi [presepio vivente, figuranti] · presepi inclusivi · passeggiate sulle tracce dei pittori dell'Ottocento [Ciardi] · cortei natalizi della tradizione [ciarastea, Giuseppe e Maria cercano alloggio] (2026-11-23)
+  · fiere millenarie dell artigianato [Fiera di Sant Orso, Atelier des Metiers] · veillà e veglie tradizionali [Veilla, notte della fiera] · fochi e falò rituali di Natale [Confeugo, Genova] (2026-11-28, sera)
   · feste di San Martino con il santo a cavallo e il taglio del mantello [San Martin, San Martino a cavallo] · feste contadine con mostra di animali e benedizione delle macchine agricole [festa contadina, benedizione dei trattori]
   · rievocazioni del presepe di Greccio [Anno Domini 1223, San Francesco presepe] (2026-11-28)
 - **Patrimonio e tradizioni** · dialetto e cultura veneta · artigianato tradizionale · musei etnografici
@@ -140,6 +143,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · te' musicali pomeridiani nei club dei festival [Viotti Tea, ore 17] (2026-11-28)
   · stagioni concertistiche delle accademie musicali [Micat in Vertice, Accademia Chigiana] (2026-11-28)
 - **Festival musicali** · estivi all'aperto · rassegne d'autunno · festival di musica antica
+  · calendari mensili delle fondazioni liriche con concerti in provincia [Maggio Musicale, calendario] · concerti gospel di Natale nei teatri [Gospel Night] (2026-11-28, sera)
   · festival di musica a cappella [a cappella, VivaVoce] (2026-11-15) · festival organistici dei comuni [festival organistico, organi storici] (2026-11-15)
   · stagioni sinfoniche delle orchestre regionali [Filarmonia Veneta, Gocce musicali] (2026-11-15) → classicalive
 - **Serate e club** [DJ set, serata, party] · techno e house · reggaeton e latino · anni 80-90-2000 · aperitivo con DJ · Capodanno in piazza con dj e spettacolo piromusicale [Capodanno in piazza, piromusicale] (2026-11-23) · feste diurne per over 30 [daytime party] (2026-11-25)
@@ -169,6 +173,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · cenoni di Capodanno con spettacolo nei teatri e nei circoli [cenone di Capodanno, cena spettacolo] (2026-11-18) → teatrodelpane.it
   · mostre mercato dell'olio nelle ville [Olio in Villa] (fine novembre) · te' e merende al museo [te' al museo] (2026-11-17)
 - **Feste stagionali** · Halloween · San Martino · Natale (feste in piazza) · Carnevale (sfilate) · Panevin ed · accensione dell'albero e delle luminarie [accensione albero, luminarie] · sculture di ghiaccio dal vivo [scultori del ghiaccio] (2026-11-23) · presepi itineranti e diffusi nei comuni [presepi itineranti, presepi diffusi] (2026-11-28)
+  · feste della castagna e del testarolo in Lunigiana [castagnata, testaroli] · pista di pattinaggio nelle piazze [pista di pattinaggio, Natale] (2026-11-28, sera)
   Epifania · feste di primavera e d'estate
   · accensione dell'albero e apertura dei villaggi di Natale (fine novembre) [accensione albero, villaggio di Natale]
   · feste del Ringraziamento e dell'agricoltura a San Martino con trattori d'epoca [festa del Ringraziamento, palio della gerla]
@@ -184,6 +189,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 ## Spettacoli (`teatro-spettacoli`)
 
 - **Teatro** [spettacolo, stagione teatrale] · prosa · teatro dialettale · commedia · teatro ragazzi (vedi Famiglie)
+  · stagioni dei teatri di tradizione toscani [Teatro del Giglio, Goldoni Livorno, stagione di prosa] · teatri di fiesole e collina [Teatro di Fiesole] · prosa nei teatri delle terme [Montecatini, Teatro Verdi] (2026-11-28, sera)
   · monologhi di teatro civile nei cinema di paese [Tina Merlin, Vajont, cinema Manzoni] (2026-11-19) · spettacoli di parole e musica con giornalisti e cantautori [Concita De Gregorio] (2026-11-19)
   · teatro di strada · improvvisazione
   · stagioni di prosa dei teatri stabili con turni di abbonamento [stagione di prosa, biglietti e abbonamenti, repliche] · stagioni dei teatri comunali di paese nel circuito Arteven [stagione teatrale, auditorium, Vivaticket]
@@ -195,11 +201,13 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **Danza** · balletto · danza contemporanea · saggi delle scuole di danza · balletti di Natale in tournee [Schiaccianoci] · compagnie di balletto russo in tournee [Il lago dei cigni]
   · balletti di Natale delle compagnie italiane nei teatri commerciali [Balletto di Siena, Schiaccianoci] (2026-11-18) → scoppiospettacoli · spettacoli natalizi per famiglie nei teatri associativi tra Natale e Capodanno [villaggio incantato]
 - **Circo e arti di strada** · circo contemporaneo · giocoleria · festival di artisti di strada · circo di Natale in tournee [circo acrobatico, Christmas edition] · clown e circo musicale nei palazzetti
+  · carillon e artisti in strada nei centri storici [carillon, via Garibaldi] · circo contemporaneo di Natale nei teatri comunali [nouveau cirque, Natale] (2026-11-28, sera)
   · circhi di Natale in tournee [circo di Natale, Circusfans tournee] · trampolieri e artisti di strada nei mercatini di Natale [trampolieri, mercatino di Natale]
   · festival di circo-teatro d'inverno sotto chapiteau [TRAC Festival, chapiteau, Circo Paniko] → teatrocivico.it (2026-11-28)
   · festival internazionali di circo contemporaneo nelle feste [Circumnavigando, circo contemporaneo] → portoantico.it, teatrodellatosse.it (2026-11-28)
   · circo natalizio nelle piazze dei centri storici [Xmas Circus, circo in piazza] (2026-11-28)
 - **Cinema** [proiezione, rassegna, cineforum] · cineforum · cinema all'aperto · festival di cortometraggi · rassegne di film natalizi in biblioteca [Cinenatale] (2026-11-28)
+  · cinema per le scuole aperto al pubblico nei giorni festivi [matinee, festivi] · rassegne di cinema muto con musica dal vivo [cinema muto, pianoforte] · proiezioni nelle mediateche regionali [mediateca, Toscana] (2026-11-28, sera)
   · cineforum di vallata [Cineforum Quartier del Piave, rassegna d'autunno] · cinema a prezzo ridotto in piu' sale [Martedi' al Cinema 4 euro] · proiezioni gratuite per ricorrenze [25 novembre, ingresso gratuito]
   · documentari · prime visioni con ospiti · documentari con gli autori in sala
   · cineforum con tre proiezioni a settimana nelle sale d'essai [Vipforum, Effetto notte] (2026-11-28)
@@ -228,6 +236,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 - **All'aperto** · fattorie didattiche · cacce al tesoro · feste di quartiere per famiglie · parchi avventura · laboratori nei garden center [laboratorio bambini garden] · piantumazione di bulbi per bambini · villaggi delle zucche [villaggio delle zucche] (ottobre)
   · ruote panoramiche e piste di ghiaccio dei Natali in centro [ruota panoramica, pista di pattinaggio] (2026-11-18) · case di Babbo Natale nei cortili dei centri storici [casa di Babbo Natale]
 - **Ricorrenze** · Halloween per bambini · Santa Lucia · Babbo Natale e villaggi di Natale · Carnevale dei bambini · arrivo della Befana in piazza [Befana, carboncini] · pomeriggi a tema in biblioteca [Natale a Hogwarts] (2026-11-23) · mercatini natalizi di autoproduzioni nei club [DIY Xmas Market] · feste a tema nella sera di Natale (2026-11-25)
+  · case di Babbo Natale nei palazzi storici [Casa di Babbo Natale, Palazzo Tursi] · presepi galleggianti e subacquei [presepe galleggiante, porto] · Natale nei quartieri delle citta [pomeriggi di Natale, biblioteca di quartiere] (2026-11-28, sera)
   · cassette delle lettere di Babbo Natale e slitte virtuali nelle piazze [slitta virtuale] (2026-11-18)
   · accensione del presepe e dell'albero (8 dicembre) · mostre di presepi (date dell'anno escono a fine novembre) · San Nicolo' (6 dicembre)
   · slitta e giro di Babbo Natale per il paese (24 dicembre) [slitta di Babbo Natale] (2026-11-26)
@@ -251,6 +260,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
   · mercatini di Natale nei giorni festivi (8, 13 e 20 dicembre) con accensione dell'albero e cori [mercatini di Natale Valdobbiadene] (2026-11-19) · antiquariato in piazza nei giorni di dicembre [Fiera del Trovarobe, mercatino dell'Antico]
   · mercati medievali rievocati in piazza [Mercato nel Campo, mercato medievale] (2026-11-28)
 - **Mercati agricoli** · mercato contadino · Campagna Amica · mercati straordinari di Natale e di stagione
+  · mercati contadini di Campagna Amica nelle Marche [Campagna Amica Pesaro] · mercati del biologico in piazza [mercato bio, prima domenica] (2026-11-28, sera)
   · mostre mercato di prodotti d'autunno [profumi e sapori] (i mercati settimanali fissi sono un servizio, non un evento)
   · giornate dell'olio nuovo nelle ville con i produttori [olio in villa, olio nuovo] (2026-11-20)
 - **Fiere** [fiera, expo] · fiere storiche di paese · fiere di settore · fiere dell'auto e moto d'epoca · fiere del
@@ -292,6 +302,7 @@ queste voci servono a non dimenticare nessun tipo di evento e diventano `subcate
 ## Natura e benessere (`natura-outdoor`)
 
 - **Escursioni** [escursione guidata, passeggiata naturalistica] · camminate in collina e sul Montello · lungo i fiumi · ciaspolate guidate sul Grappa [ciaspolata Monte Grappa] (2026-11-28: solo operatori commerciali senza date)
+  · ciaspolate guidate in Valle d Aosta [ciaspole, guide naturalistiche] · camminate sul Lago Maggiore e nel Cusio [passeggiata guidata, Verbania] (2026-11-28, sera)
   (Sile, Piave) · notturne e al chiaro di luna · birdwatching · forest bathing · camminate di nordic walking aperte a tutti [nordic walking, camminata d'autunno]
   · passeggiate urbane ai margini della citta' (Legambiente)
   · camminate abbinate alle mostre mercato d'autunno [camminata, colline nascoste] · percorsi tra i presepi nel bosco del Montello [presepi nel bosco] (dicembre)
@@ -344,3 +355,4 @@ Una riga per notte: `- AAAA-MM-GG · +N voci · dove: Sport > Arrampicata (+3), 
 - 2026-11-28 (notte, terza prova) · +25 voci · dove: Sport (+5), Mercatini e fiere (+4), Arte e cultura (+6), Famiglie e bambini (+5), Spettacoli (+4), Musica e party (+1)
 - 2026-11-28 (notte, sessione delle 01:07) · +25 voci · dove: Arte e cultura (+6), Musica e party (+4), Sagre e cibo (+2), Spettacoli (+4), Famiglie e bambini (+3), Mercatini e fiere (+2), Business e formazione (+2), Natura e benessere (+2); nate dalle province di Emilia-Romagna e Piemonte, da MyArteven e dal Museo Canova
 - 2026-11-28 (notte, cinque agenti) · +26 voci · dove: Spettacoli > Circo e arti di strada (+3), Natura > Escursioni (+2), Sport > Corsa (+2), Musica > Concerti (+3), Famiglie > Ricorrenze (+2), Famiglie > Spettacoli per bambini (+1), Business > Convegni e conferenze (+1), Arte e cultura > Mostre (+1), Arte e cultura > Storia e rievocazioni (+1), Mercatini > Fiere (+1), Mercatini > Mercatini (+1), Sagre > Feste stagionali (+3), Spettacoli > Teatro (+3), Spettacoli > Cinema (+1), Sport > Montagna ed escursionismo (+1); nate dalle province di Piemonte, Liguria, Valle d'Aosta, Toscana e Marche (italia-a e italia-b)
+- 2026-11-28 (sera) · +25 voci · dove: Spettacoli > Circo e arti di strada (+2), Teatro (+3), Cinema (+3), Arte e cultura > Storia e rievocazioni (+3), Famiglie > Ricorrenze (+3), Sport > Corsa (+2), Montagna (+1), Mercati agricoli (+2), Feste stagionali (+2), Escursioni (+2), Festival musicali (+2)

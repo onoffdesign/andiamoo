@@ -816,6 +816,142 @@ sources:
     ai_rewrite: true
     note: "Aggiunta da Claude il 2026-11-28 (agente italia-a). L'export /it/export_data_eventi risponde 500. Dopo il 6/1/2027 la prima pagina e' da cambiare."
 
+  - id: hellorapallo
+    name: Hello Rapallo (eventi di Rapallo)
+    type: tribe_api
+    enabled: true
+    base_url: https://www.hellorapallo.it
+    per_page: 50
+    max_pages: 2
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta di italia-a): The Events Calendar, 15 eventi di Rapallo (GE) letti dall'API."
+
+  - id: comune-cuneo
+    name: Comune di Cuneo
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.cuneo.it/vivere-il-comune/eventi/]
+    hint: "Eventi del Comune di Cuneo (CN); town Cuneo se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta dell agente fonti, Design Comuni)."
+
+  - id: comune-marsala
+    name: Comune di Marsala
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.marsala.tp.it/it/eventi]
+    hint: "Eventi del Comune di Marsala (TP); town Marsala se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta dell agente fonti)."
+
+  - id: comune-napoli
+    name: Comune di Napoli
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.napoli.it/vivere-il-comune/eventi/]
+    hint: "Eventi del Comune di Napoli; town Napoli se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta dell agente fonti, Design Comuni)."
+
+  - id: comune-palermo
+    name: Comune di Palermo
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.palermo.it/vivere-il-comune/eventi/]
+    hint: "Eventi del Comune di Palermo; town Palermo se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta dell agente fonti, Design Comuni)."
+
+  - id: comune-livorno
+    name: Comune di Livorno
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.livorno.it/it/categorie-eventi/74150]
+    hint: "Eventi del Comune di Livorno; town Livorno se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta dell agente fonti)."
+
+  - id: comune-foligno
+    name: Comune di Foligno
+    type: html_llm
+    enabled: true
+    listing_urls: [https://comune.foligno.pg.it/vivere-il-comune/eventi/]
+    hint: "Eventi del Comune di Foligno (PG); town Foligno se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta dell agente fonti, Design Comuni)."
+
+  - id: comune-pistoia
+    name: Comune di Pistoia
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.comune.pistoia.it/it/events]
+    hint: "Eventi del Comune di Pistoia; town Pistoia se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta di italia-b, Municipium)."
+
+  - id: turismo-torino
+    name: Turismo Torino e Provincia
+    type: html_llm
+    enabled: true
+    listing_urls: [https://turismotorino.org/it/visita/eventi]
+    hint: "Eventi di Torino e provincia; usare il comune indicato nella scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta dell agente fonti, robots.txt letto senza blocchi)."
+
+  - id: visit-genoa
+    name: Visit Genoa (eventi di Genova)
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.visitgenoa.it/it/eventi]
+    hint: "Eventi di Genova e dintorni; town Genova se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta di fonti e italia-a, robots.txt letto senza blocchi)."
+
+  - id: teatro-carlo-felice
+    name: Teatro Carlo Felice (Genova)
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.carlofelice.it/]
+    hint: "Spettacoli del Teatro Carlo Felice, Passo Eugenio Montale 4, Genova."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta dell agente fonti; da provare anche come tribe_api)."
+
+  - id: destination-florence
+    name: Destination Florence (eventi di Firenze e provincia)
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.destinationflorence.com/it/eventi]
+    hint: "Eventi di Firenze e della citta metropolitana; usare il comune della scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta di italia-a, 284 eventi in 37 comuni, elenco a pagine ?page=N)."
+
+  - id: maggio-musicale
+    name: Maggio Musicale Fiorentino
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.maggiofiorentino.com/calendario/]
+    hint: "Calendario mensile del Teatro del Maggio, Piazza Vittorio Gui 1, Firenze (anche concerti in provincia)."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta di italia-a, calendario /calendario/AAAA/MM)."
+
+  - id: turismo-lucca
+    name: Turismo Lucca (calendario eventi)
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.turismo.lucca.it/]
+    hint: "Eventi di Lucca e provincia; usare il comune della scheda."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta di italia-b; il calendario e una POST JSON a eventi.turismo.lucca.it/back/function/calendar.php, robots.txt Allow)."
+
+  - id: montecatini-tourism
+    name: Montecatini Terme Tourism
+    type: html_llm
+    enabled: true
+    listing_urls: [https://www.montecatinitermetourism.com/events.ics]
+    hint: "Feed iCal di Montecatini Terme (PT), 50 eventi con coordinate; town Montecatini-Terme se non indicato."
+    ai_rewrite: true
+    note: "Aggiunta da Claude il 2026-11-28 (sessione della sera, proposta di italia-b; manca un raccoglitore ical, per ora lo legge il giro)."
+
 # Profili social da seguire a mano: il bot li mostra con /profili.
 # Non vengono letti in automatico (Instagram e Facebook lo vietano e bloccano gli account):
 # chi vede un post nuovo lo inoltra al bot, o manda lo screenshot della locandina.
