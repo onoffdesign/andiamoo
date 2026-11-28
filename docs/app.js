@@ -897,9 +897,9 @@
         if (name === "select") {                         // puntina appoggiata sulla carta
           this.rustle(t, 0.035, { freq: 3000, q: 1.6, gain: 0.3, attack: 0.002 });
           this.rustle(t + 0.01, 0.03, { freq: 5200, q: 2.5, gain: 0.12, attack: 0.002 });
-        } else if (name === "expand") {                  // foglio che si apre
-          this.rustle(t, 0.3, { freq: 900, to: 3800, q: 0.7, gain: 0.4, attack: 0.04 });
-          this.rustle(t + 0.2, 0.07, { freq: 3400, q: 2, gain: 0.22 });
+        } else if (name === "expand") {                  // swoosh d'aria leggero e morbido, sui toni bassi
+          this.rustle(t, 0.42, { freq: 380, to: 1500, q: 0.55, gain: 0.26, attack: 0.16 });
+          this.rustle(t + 0.05, 0.34, { freq: 700, to: 2000, q: 0.5, gain: 0.08, attack: 0.14 });
         } else if (name === "close") {                   // lo stesso tocco dell'apertura, piu' grave
           this.rustle(t, 0.045, { freq: 1500, q: 1.6, gain: 0.32, attack: 0.002 });
           this.rustle(t + 0.01, 0.04, { freq: 2600, q: 2.5, gain: 0.12, attack: 0.002 });
