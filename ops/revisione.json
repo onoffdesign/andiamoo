@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T20:19+01:00",
+ "generato": "2026-11-28T20:27+01:00",
  "eventi": [
   {
    "uid": "15fba1ddc9a08298",
@@ -452,6 +452,53 @@
    "precisione": "address"
   },
   {
+   "uid": "8db85f12daee521f",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di fb022c95003d64db"
+   ],
+   "titolo": "Inaugurazione dei Giardini di Luce con il gospel Surprise Christmas",
+   "inizio": "2026-11-28T17:00",
+   "fine": null,
+   "luogo": "Giardini Pubblici",
+   "indirizzo": "Piazzale della Vittoria",
+   "comune": "Forlì",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "forlichebrillaofficial.it",
+   "pagina_fonte": "https://forlichebrillaofficial.it/",
+   "sito_ufficiale": "https://forlichebrillaofficial.it/",
+   "riassunto": "Apertura di Forli' che Brilla con l'accensione delle installazioni luminose ai Giardini Pubblici e il concerto del coro gospel Surprise Christmas.",
+   "lat": 44.22269,
+   "lon": 12.04069,
+   "precisione": "town"
+  },
+  {
+   "uid": "e0b1dabf1e52f390",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di 144846997ddd0672"
+   ],
+   "titolo": "Mercatino di Lucca Magico Natale",
+   "inizio": "2026-11-28T11:00",
+   "fine": "2027-01-06T20:00",
+   "luogo": "Piazza Napoleone",
+   "indirizzo": "Piazza Napoleone",
+   "comune": "Lucca",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismo.lucca.it",
+   "pagina_fonte": "https://turismo.lucca.it/lucca-magico-natale-2026/",
+   "sito_ufficiale": "https://turismo.lucca.it/lucca-magico-natale-2026/",
+   "riassunto": "Mercatino natalizio con casette di legno in piazza Napoleone, aperto dalle 11 alle 20.",
+   "lat": 43.8413101,
+   "lon": 10.5024855,
+   "precisione": "address"
+  },
+  {
    "uid": "36385e3f175afdc8",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -472,29 +519,6 @@
    "riassunto": "Area giochi invernale per bambini nei giardini di piazza Roma, aperta tutti i giorni durante le feste.",
    "lat": 45.13337,
    "lon": 10.02421,
-   "precisione": "town"
-  },
-  {
-   "uid": "8db85f12daee521f",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Inaugurazione dei Giardini di Luce con il gospel Surprise Christmas",
-   "inizio": "2026-11-28T17:00",
-   "fine": null,
-   "luogo": "Giardini Pubblici",
-   "indirizzo": "Piazzale della Vittoria",
-   "comune": "Forlì",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "forlichebrillaofficial.it",
-   "pagina_fonte": "https://forlichebrillaofficial.it/",
-   "sito_ufficiale": "https://forlichebrillaofficial.it/",
-   "riassunto": "Apertura di Forli' che Brilla con l'accensione delle installazioni luminose ai Giardini Pubblici e il concerto del coro gospel Surprise Christmas.",
-   "lat": 44.22269,
-   "lon": 12.04069,
    "precisione": "town"
   },
   {
@@ -609,6 +633,94 @@
    "precisione": "address"
   },
   {
+   "uid": "fb022c95003d64db",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Soul Sound Christmas Gospel",
+   "inizio": "2026-11-28T18:30",
+   "fine": null,
+   "luogo": "Ex Cavallerizza",
+   "indirizzo": "Piazzale Verdi",
+   "comune": "Lucca",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismo.lucca.it",
+   "pagina_fonte": "https://turismo.lucca.it/lucca-magico-natale-2026/",
+   "sito_ufficiale": "https://turismo.lucca.it/lucca-magico-natale-2026/",
+   "riassunto": "Concerto gospel per l'inaugurazione della Fabbrica del Natale nell'ex Cavallerizza, nel programma Lucca Magico Natale.",
+   "lat": 43.8428632,
+   "lon": 10.4966412,
+   "precisione": "address"
+  },
+  {
+   "uid": "268e3ce57ae79329",
+   "motivi": [
+    "possibile doppione di db6cbab384ee2798"
+   ],
+   "titolo": "Accensione dell'albero di Natale e delle luminarie",
+   "inizio": "2026-11-28T17:00",
+   "fine": null,
+   "luogo": "Piazza del Duomo",
+   "indirizzo": "Piazza del Duomo",
+   "comune": "Pistoia",
+   "categoria": "sagre-feste",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "comune.pistoia.it",
+   "pagina_fonte": "https://www.comune.pistoia.it/it/news/il-natale-e-di-tutt-pistoia-citta-del-natale-2026-oltre-un-mese-di-festa-cultura-e-divertimento-allinsegna-della-solidarieta",
+   "sito_ufficiale": "https://www.comune.pistoia.it/it/eventi/cerimonia-di-accensione-dellalbero-di-natale",
+   "riassunto": "Accensione dell'abete di 11 metri in piazza del Duomo con i bambini dei servizi educativi comunali, apertura di Pistoia Citta' del Natale.",
+   "lat": 43.9336412,
+   "lon": 10.917409,
+   "precisione": "address"
+  },
+  {
+   "uid": "febc4e391809b96e",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Mostra Presepi nel Mondo",
+   "inizio": "2026-11-28T15:00",
+   "fine": "2027-01-06T19:00",
+   "luogo": "Chiesa del Gesu'",
+   "indirizzo": "Piazza Benvenuto Stracca",
+   "comune": "Ancona",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "anconatourism.it",
+   "pagina_fonte": "https://anconatourism.it/news/ancona-che-brilla-2026-dalla-nuova-piazza-della-repubblica-si-accende-il-natale-ad-ancona/",
+   "sito_ufficiale": "https://anconatourism.it/news/ancona-che-brilla-2026-dalla-nuova-piazza-della-repubblica-si-accende-il-natale-ad-ancona/",
+   "riassunto": "Esposizione di oltre 800 presepi nella chiesa del Gesu', aperta tutti i giorni dalle 15 alle 19.",
+   "lat": 43.6226743,
+   "lon": 13.5115039,
+   "precisione": "address"
+  },
+  {
+   "uid": "787ed62b272f93cc",
+   "motivi": [
+    "posizione a 6 km dal centro di Pesaro: verifica dove si trova e correggi lat/lon"
+   ],
+   "titolo": "Candele a Candelara",
+   "inizio": "2026-11-28T10:00",
+   "fine": "2026-11-29T20:00",
+   "luogo": "Borgo di Candelara",
+   "indirizzo": "",
+   "comune": "Pesaro",
+   "categoria": "sagre-feste",
+   "accesso": "biglietto",
+   "prezzo": "4 euro prima delle 13, 6 euro dopo le 13",
+   "fonte": "candelara.it",
+   "pagina_fonte": "https://www.candelara.it/programma/",
+   "sito_ufficiale": "https://www.candelara.it/programma/",
+   "riassunto": "Festa delle candele nel borgo di Candelara con mercatini e brevi spegnimenti dell'illuminazione elettrica; ingresso gratuito sotto i 10 anni.",
+   "lat": 43.858604,
+   "lon": 12.8897537,
+   "precisione": "address"
+  },
+  {
    "uid": "bf45b770a80ae2fa",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -694,6 +806,95 @@
    "riassunto": "Serata di musica bluegrass con i Red Wine nella Sala Aldo Trionfo del Teatro della Tosse.",
    "lat": 44.4049524,
    "lon": 8.9318247,
+   "precisione": "address"
+  },
+  {
+   "uid": "9e3640b39128d79d",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Arti e Mestieri in piazza San Giusto",
+   "inizio": "2026-11-28",
+   "fine": null,
+   "luogo": "Piazza San Giusto",
+   "indirizzo": "Piazza San Giusto",
+   "comune": "Lucca",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismo.lucca.it",
+   "pagina_fonte": "https://turismo.lucca.it/lucca-magico-natale-2026/",
+   "sito_ufficiale": "https://turismo.lucca.it/lucca-magico-natale-2026/",
+   "riassunto": "Mostra mercato di artigianato in piazza San Giusto nel programma Lucca Magico Natale.",
+   "lat": 43.8418783,
+   "lon": 10.5037734,
+   "precisione": "address"
+  },
+  {
+   "uid": "9817a4122f95f6a4",
+   "motivi": [
+    "durata oltre 45 giorni: sono date singole o un periodo?"
+   ],
+   "titolo": "Santa Caterina. Estasi e Ardore",
+   "inizio": "2026-11-28",
+   "fine": "2027-03-30",
+   "luogo": "Santa Maria della Scala",
+   "indirizzo": "Piazza del Duomo 1",
+   "comune": "Siena",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "comune.siena.it",
+   "pagina_fonte": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
+   "sito_ufficiale": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
+   "riassunto": "Mostra dedicata a Santa Caterina da Siena al complesso di Santa Maria della Scala.",
+   "lat": 43.3171886,
+   "lon": 11.3279706,
+   "precisione": "address"
+  },
+  {
+   "uid": "299e427bc5509a9c",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Destinazione Natale a Montecatini Terme",
+   "inizio": "2026-11-28",
+   "fine": "2027-01-06",
+   "luogo": "Piazza del Popolo",
+   "indirizzo": "Piazza del Popolo",
+   "comune": "Montecatini-Terme",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "montecatinitermetourism.com",
+   "pagina_fonte": "https://montecatinitermetourism.com/events/destinazione-natale-montecatini-e-citta-del-natale-2026/",
+   "sito_ufficiale": "https://montecatinitermetourism.com/events/destinazione-natale-montecatini-e-citta-del-natale-2026/",
+   "riassunto": "Programma natalizio del Comune con albero e proiezioni in piazza del Popolo, mercatino nei fine settimana in viale Verdi e attrazioni per bambini.",
+   "lat": 43.8829828,
+   "lon": 10.771231,
+   "precisione": "address"
+  },
+  {
+   "uid": "582c79c5e0a44d7e",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
+    "possibile doppione di aab17c548c2a37d7"
+   ],
+   "titolo": "Lo Schiaccianoci",
+   "inizio": "2026-11-29T21:00",
+   "fine": null,
+   "luogo": "Teatro Guglielmi",
+   "indirizzo": "Via Bastione",
+   "comune": "Massa",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "toscanaspettacolo.it",
+   "pagina_fonte": "https://www.toscanaspettacolo.it/",
+   "sito_ufficiale": "https://www.toscanaspettacolo.it/",
+   "riassunto": "Balletto Lo Schiaccianoci in scena al Teatro Guglielmi nel circuito della Fondazione Toscana Spettacolo.",
+   "lat": 44.0358879,
+   "lon": 10.1410327,
    "precisione": "address"
   },
   {
@@ -940,6 +1141,50 @@
    "precisione": "address"
   },
   {
+   "uid": "a6561755f693e9aa",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "La Magica Casa di Babbo Natale",
+   "inizio": "2026-11-29T14:30",
+   "fine": "2026-11-29T18:30",
+   "luogo": "Palazzo Comunale, Vetrina della Citta'",
+   "indirizzo": "Piazza della Repubblica",
+   "comune": "Pontremoli",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "lunigiana.land",
+   "pagina_fonte": "https://www.lunigiana.land/categoria-evento/eventi-locali/",
+   "sito_ufficiale": "https://www.lunigiana.land/eventi/la-magica-casa-di-babbo-natale-2/",
+   "riassunto": "Casa di Babbo Natale allestita nella vetrina sotto il Palazzo Comunale, con animazione per bambini.",
+   "lat": 44.377117,
+   "lon": 9.882894,
+   "precisione": "address"
+  },
+  {
+   "uid": "2b602a3406ef9a66",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Mercatini di Natale di Siena",
+   "inizio": "2026-11-29T10:00",
+   "fine": "2027-01-06T20:00",
+   "luogo": "Piazza Matteotti",
+   "indirizzo": "Piazza Giacomo Matteotti",
+   "comune": "Siena",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "comune.siena.it",
+   "pagina_fonte": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
+   "sito_ufficiale": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
+   "riassunto": "Mercatini natalizi in piazza Matteotti, piazza Gramsci e viale XXV Aprile, aperti dalle 10 alle 20.",
+   "lat": 43.3215554,
+   "lon": 11.3286618,
+   "precisione": "address"
+  },
+  {
    "uid": "39bcc9bb3ce777fa",
    "motivi": [
     "durata oltre 45 giorni: sono date singole o un periodo?"
@@ -1050,6 +1295,28 @@
    "precisione": "address"
   },
   {
+   "uid": "b8128c8a15573ee8",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Arti e Mestieri in piazza San Giusto",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "luogo": "Piazza San Giusto",
+   "indirizzo": "Piazza San Giusto",
+   "comune": "Lucca",
+   "categoria": "mercatini-fiere",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "turismo.lucca.it",
+   "pagina_fonte": "https://turismo.lucca.it/lucca-magico-natale-2026/",
+   "sito_ufficiale": "https://turismo.lucca.it/lucca-magico-natale-2026/",
+   "riassunto": "Mostra mercato di artigianato in piazza San Giusto nel programma Lucca Magico Natale.",
+   "lat": 43.8418783,
+   "lon": 10.5037734,
+   "precisione": "address"
+  },
+  {
    "uid": "da94c9dddb59ca99",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -1069,271 +1336,6 @@
    "riassunto": "Spettacolo con Ettore Bassi dedicato alla figura di Angelo Vassallo, sindaco di Pollica ucciso nel 2010, con la partecipazione di studenti delle scuole superiori.",
    "lat": 44.4171588,
    "lon": 12.2012762,
-   "precisione": "address"
-  },
-  {
-   "uid": "35feed7e333c3082",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Cesare Cremonini, Amatour Live Indoor 2026",
-   "inizio": "2026-11-30T21:00",
-   "fine": null,
-   "luogo": "Unipol Arena",
-   "indirizzo": "Via Gino Cervi 2",
-   "comune": "Casalecchio di Reno",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/cesare-cremonini-amatour-live-indoor-2026",
-   "riassunto": "Concerto di Cesare Cremonini nel tour nei palazzetti.",
-   "lat": 44.485953,
-   "lon": 11.248152,
-   "precisione": "address"
-  },
-  {
-   "uid": "37401a309e36dab9",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Da quei ragazzi",
-   "inizio": "2026-11-30T20:30",
-   "fine": null,
-   "luogo": "Teatro Duse",
-   "indirizzo": "Via Cartoleria 42",
-   "comune": "Bologna",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/da-quei-ragazzi",
-   "riassunto": "Spettacolo al Teatro Duse.",
-   "lat": 44.488635,
-   "lon": 11.348369,
-   "precisione": "address"
-  },
-  {
-   "uid": "d56f0d064ddc9cba",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Giornalismo e letteratura, incontro con Leila Guerriero",
-   "inizio": "2026-11-30T18:00",
-   "fine": null,
-   "luogo": "Teatro Splendor",
-   "indirizzo": "Via Jean-Boniface Festaz 82",
-   "comune": "Aosta",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "saisonculturellevda.it",
-   "pagina_fonte": "https://saisonculturellevda.it/",
-   "sito_ufficiale": "https://saisonculturellevda.it/spettacoli/letteratura/giornalismo-e-letteratura-una-voce-internazionale-leila-guerriero/",
-   "riassunto": "Incontro con la giornalista e scrittrice argentina Leila Guerriero nella Saison Culturelle.",
-   "lat": 45.7349785,
-   "lon": 7.3163232,
-   "precisione": "address"
-  },
-  {
-   "uid": "375283474f96aa22",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Nata con la Guepiere, Valentina Persia",
-   "inizio": "2026-12-01T21:00",
-   "fine": null,
-   "luogo": "Teatro Celebrazioni",
-   "indirizzo": "Via Saragozza 234",
-   "comune": "Bologna",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/nata-con-la-guepiere-valentina-persia",
-   "riassunto": "Spettacolo comico di Valentina Persia.",
-   "lat": 44.48954,
-   "lon": 11.312546,
-   "precisione": "address"
-  },
-  {
-   "uid": "af9f1f077e4edf50",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Soweto Gospel Choir, Joy",
-   "inizio": "2026-12-01T21:00",
-   "fine": null,
-   "luogo": "Teatro Duse",
-   "indirizzo": "Via Cartoleria 42",
-   "comune": "Bologna",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/soweto-gospel-choir-joy",
-   "riassunto": "Concerto del coro sudafricano Soweto Gospel Choir.",
-   "lat": 44.488635,
-   "lon": 11.348369,
-   "precisione": "address"
-  },
-  {
-   "uid": "3614d889cf460b7e",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "La stanza (Teatrino Giullare)",
-   "inizio": "2026-12-01",
-   "fine": "2026-12-02",
-   "luogo": "Teatro delle Moline",
-   "indirizzo": "Via delle Moline 1/b",
-   "comune": "Bologna",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "bologna.emiliaromagnateatro.com",
-   "pagina_fonte": "https://bologna.emiliaromagnateatro.com/",
-   "sito_ufficiale": "https://bologna.emiliaromagnateatro.com/spettacolo/la-stanza/",
-   "riassunto": "Spettacolo della compagnia Teatrino Giullare in scena al Teatro delle Moline.",
-   "lat": 44.497699,
-   "lon": 11.348376,
-   "precisione": "address"
-  },
-  {
-   "uid": "9788bdcacf470516",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Mercatino delle Cose Buone",
-   "inizio": "2026-12-01",
-   "fine": "2027-01-06",
-   "luogo": "Piazza San Prospero",
-   "indirizzo": "Piazza San Prospero",
-   "comune": "Reggio nell'Emilia",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "reggioemiliawelcome.it",
-   "pagina_fonte": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "sito_ufficiale": "https://www.reggioemiliawelcome.it/it/eventi/calendari-mensili/dicembre-2026",
-   "riassunto": "Mercatino natalizio di prodotti e idee regalo in piazza San Prospero per tutto il periodo delle feste.",
-   "lat": 44.697216,
-   "lon": 10.631976,
-   "precisione": "address"
-  },
-  {
-   "uid": "14e942aa659b233b",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
-   ],
-   "titolo": "Reel Rock Tour Italia 2026",
-   "inizio": "2026-12-01T20:00",
-   "fine": null,
-   "luogo": "Cinema Teatro Manzoni",
-   "indirizzo": "",
-   "comune": "Paese",
-   "categoria": "sport",
-   "accesso": "biglietto",
-   "prezzo": "",
-   "fonte": "mentelocale.it",
-   "pagina_fonte": "https://www.mentelocale.it/treviso/137798-reel-rock-tour-italia-2026.htm",
-   "sito_ufficiale": "https://www.happyticket.com/treviso/acquista-biglietti/1-316124-gbizelvjzzj7nbb.htm",
-   "riassunto": "Serata di proiezione della rassegna Reel Rock 20 con quattro mediometraggi sull'arrampicata all'aperto, per circa due ore e mezza.",
-   "lat": 45.67164,
-   "lon": 12.15354,
-   "precisione": "town"
-  },
-  {
-   "uid": "3fae87078133f455",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "La rivincita degli imperi",
-   "inizio": "2026-12-02",
-   "fine": "2026-12-04",
-   "luogo": "Sala Polivalente CDT",
-   "indirizzo": "Largo Barale 1",
-   "comune": "Cuneo",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "cuneocultura.it",
-   "pagina_fonte": "https://cuneocultura.it/wp-json/wp/v2/evento (portale cultura del Comune di Cuneo)",
-   "sito_ufficiale": "https://www.cuneocultura.it/evento/la-rivincita-degli-imperi/",
-   "riassunto": "Tre incontri con storici, politologi, teologi e giornalisti sul ritorno delle dinamiche imperiali nello scenario internazionale.",
-   "lat": 44.3933,
-   "lon": 7.55117,
-   "precisione": "town"
-  },
-  {
-   "uid": "a6c2697a47caaab1",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Cesare Cremonini, Amatour Live Indoor 2026",
-   "inizio": "2026-12-02T21:00",
-   "fine": null,
-   "luogo": "Unipol Arena",
-   "indirizzo": "Via Gino Cervi 2",
-   "comune": "Casalecchio di Reno",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/cesare-cremonini-amatour-live-indoor-2026",
-   "riassunto": "Concerto di Cesare Cremonini nel tour nei palazzetti.",
-   "lat": 44.485953,
-   "lon": 11.248152,
-   "precisione": "address"
-  },
-  {
-   "uid": "a5c67d9cf2f6e5bd",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Arte contemporanea e intelligenze. Quali citta' d'arte?",
-   "inizio": "2026-12-02T18:00",
-   "fine": null,
-   "luogo": "MAMbo, Museo d'Arte Moderna di Bologna",
-   "indirizzo": "Via Don Giovanni Minzoni 14",
-   "comune": "Bologna",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/arte-contemporanea-e-intelligenze-quali-citta-d-arte-64f6a1",
-   "riassunto": "Incontro sull'arte contemporanea e le citta' d'arte al MAMbo.",
-   "lat": 44.502552,
-   "lon": 11.336965,
-   "precisione": "address"
-  },
-  {
-   "uid": "257d0946e8ee811e",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Io marte tu mercole, R-Evolution",
-   "inizio": "2026-12-02T21:00",
-   "fine": null,
-   "luogo": "Teatro Dehon",
-   "indirizzo": "Via Libia 59",
-   "comune": "Bologna",
-   "categoria": "teatro-spettacoli",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "culturabologna.it",
-   "pagina_fonte": "https://www.culturabologna.it/objects/calendario-bologna-cultura",
-   "sito_ufficiale": "https://www.culturabologna.it/objects/gianluca-scintilla-fubelli-federica-camba-io-marte-tu-mercole-2dic2026",
-   "riassunto": "Spettacolo comico con Gianluca Scintilla Fubelli e Federica Camba.",
-   "lat": 44.496643,
-   "lon": 11.365916,
    "precisione": "address"
   }
  ]

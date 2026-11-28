@@ -1,13 +1,13 @@
 {
- "generato": "2026-11-28T20:19+01:00",
+ "generato": "2026-11-28T20:27+01:00",
  "riepilogo": {
-  "eventi_controllati": 2532,
+  "eventi_controllati": 2911,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 63,
-  "solo_comune_con_luogo": 130,
+  "lontani_dal_comune": 71,
+  "solo_comune_con_luogo": 136,
   "solo_comune_senza_luogo": 27,
-  "candidati_luoghi_noti": 17
+  "candidati_luoghi_noti": 50
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
@@ -44,6 +44,29 @@
     "04ef180ba6d90e71",
     "e16f9af5a2dfe00b",
     "4d76423621c2573d"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Borgo di Candelara, Pesaro",
+   "km_dal_centro": 6,
+   "eventi": 4,
+   "uid": [
+    "787ed62b272f93cc",
+    "6789fd86b32ae525",
+    "34a4b550febf8f5a",
+    "79114a031647fa75"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
+   "luogo": "Borgo di Equi Terme, Equi Terme, Fivizzano",
+   "km_dal_centro": 8,
+   "eventi": 3,
+   "uid": [
+    "9e6c7213bb9c765e",
+    "84d5b59f1d711c9f",
+    "b79640a908396d8c"
    ],
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
@@ -114,6 +137,15 @@
    "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
   },
   {
+   "luogo": "Montesicuro, Ancona",
+   "km_dal_centro": 8,
+   "eventi": 1,
+   "uid": [
+    "9a9f0fddfa2795d2"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
+  {
    "luogo": "Lutago, Valle Aurina",
    "km_dal_centro": 7,
    "eventi": 1,
@@ -142,6 +174,18 @@
   }
  ],
  "senza_punto": [
+  {
+   "luogo": "Centro di San Vincenzo, San Vincenzo",
+   "eventi": 5,
+   "uid": [
+    "948edd267e1c11f0",
+    "cb9d2cf614c6a15e",
+    "644901aae4d46277",
+    "065f23749802279c",
+    "fb28a4f0cec32667"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
   {
    "luogo": "Biblioteca comunale di Farra di Soligo, Farra di Soligo",
    "eventi": 4,
@@ -475,14 +519,6 @@
     "035a4d9e541da131"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazza Uberto Bacilieri, Giavera del Montello",
-   "eventi": 1,
-   "uid": [
-    "7ed2660a7a7541db"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
  ],
  "allineati": [
@@ -504,6 +540,15 @@
  "candidati_luoghi": [
   {
    "nomi": [
+    "Teatro Rossini"
+   ],
+   "comune": "Pesaro",
+   "lat": 43.90788,
+   "lon": 12.9087,
+   "eventi": 27
+  },
+  {
+   "nomi": [
     "Teatro Bellini"
    ],
    "comune": "Napoli",
@@ -522,12 +567,57 @@
   },
   {
    "nomi": [
+    "Teatro Goldoni"
+   ],
+   "comune": "Livorno",
+   "lat": 43.54592,
+   "lon": 10.31389,
+   "eventi": 25
+  },
+  {
+   "nomi": [
     "Piccolo Bellini"
    ],
    "comune": "Napoli",
    "lat": 40.85096,
    "lon": 14.25089,
    "eventi": 24
+  },
+  {
+   "nomi": [
+    "Teatro Guglielmi"
+   ],
+   "comune": "Massa",
+   "lat": 44.03589,
+   "lon": 10.14103,
+   "eventi": 17
+  },
+  {
+   "nomi": [
+    "Teatro dei Rinnovati"
+   ],
+   "comune": "Siena",
+   "lat": 43.31806,
+   "lon": 11.33247,
+   "eventi": 17
+  },
+  {
+   "nomi": [
+    "Teatro del Giglio"
+   ],
+   "comune": "Lucca",
+   "lat": 43.8404,
+   "lon": 10.50307,
+   "eventi": 15
+  },
+  {
+   "nomi": [
+    "Mercato del Carmine"
+   ],
+   "comune": "Lucca",
+   "lat": 43.84426,
+   "lon": 10.50559,
+   "eventi": 15
   },
   {
    "nomi": [
@@ -558,11 +648,29 @@
   },
   {
    "nomi": [
+    "Teatro degli Animosi"
+   ],
+   "comune": "Carrara",
+   "lat": 44.07879,
+   "lon": 10.09672,
+   "eventi": 12
+  },
+  {
+   "nomi": [
     "Teatro Cavour"
    ],
    "comune": "Imperia",
    "lat": 43.87626,
    "lon": 8.01449,
+   "eventi": 11
+  },
+  {
+   "nomi": [
+    "Teatro Metastasio"
+   ],
+   "comune": "Prato",
+   "lat": 43.87974,
+   "lon": 11.09948,
    "eventi": 11
   },
   {
@@ -576,6 +684,15 @@
   },
   {
    "nomi": [
+    "Teatro dei Rozzi"
+   ],
+   "comune": "Siena",
+   "lat": 43.31897,
+   "lon": 11.33023,
+   "eventi": 10
+  },
+  {
+   "nomi": [
     "Centro Eventi Il Maggiore"
    ],
    "comune": "Verbania",
@@ -585,75 +702,21 @@
   },
   {
    "nomi": [
-    "Teatro Eleonora Duse"
+    "Teatro Fabbricone"
    ],
-   "comune": "Genova",
-   "lat": 44.41125,
-   "lon": 8.93824,
+   "comune": "Prato",
+   "lat": 43.89086,
+   "lon": 11.09985,
    "eventi": 8
   },
   {
    "nomi": [
-    "Sala Mercato, Teatro Gustavo Modena"
+    "Teatro Sanzio"
    ],
-   "comune": "Genova",
-   "lat": 44.41055,
-   "lon": 8.88976,
+   "comune": "Urbino",
+   "lat": 43.72426,
+   "lon": 12.63546,
    "eventi": 8
-  },
-  {
-   "nomi": [
-    "Teatro Metropolitan"
-   ],
-   "comune": "Catania",
-   "lat": 37.5099,
-   "lon": 15.08439,
-   "eventi": 4
-  },
-  {
-   "nomi": [
-    "Teatro Splendor"
-   ],
-   "comune": "Aosta",
-   "lat": 45.73498,
-   "lon": 7.31632,
-   "eventi": 4
-  },
-  {
-   "nomi": [
-    "Cattedrale di San Marco"
-   ],
-   "comune": "Latina",
-   "lat": 41.4644,
-   "lon": 12.90268,
-   "eventi": 3
-  },
-  {
-   "nomi": [
-    "Tomba di Cicerone"
-   ],
-   "comune": "Formia",
-   "lat": 41.25157,
-   "lon": 13.5787,
-   "eventi": 3
-  },
-  {
-   "nomi": [
-    "Teatro della Tosse"
-   ],
-   "comune": "Genova",
-   "lat": 44.40495,
-   "lon": 8.93182,
-   "eventi": 3
-  },
-  {
-   "nomi": [
-    "Palazzo Ducale"
-   ],
-   "comune": "Genova",
-   "lat": 44.4075,
-   "lon": 8.93328,
-   "eventi": 3
   }
  ]
 }
