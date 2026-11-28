@@ -1057,3 +1057,13 @@ body.view-list .group { top: 56px; }
 .near-pop #near-range { height: 28px; padding: 0; border: 0; border-radius: 0; background: transparent; font-size: inherit !important; }
 .nr-ends span { margin: 0 !important; color: var(--ink-2); }
 .nr-ends { margin: 2px 50px 0; }
+
+/* ---- tre riquadri in alto: calendario | categorie | Mappa/Lista ---- */
+.view-box { z-index: 5; display: flex; align-items: center; padding: 8px; background-color: var(--panel); background-image: var(--paper); border: 1.5px solid #1d1b18; }
+@media (min-width: 761px) {
+  .view-box { top: var(--cats-top, 88px); right: calc(var(--gap) * 2); height: var(--cats-h, 54px); }
+  .chips-row { right: calc(var(--gap) * 2 + var(--view-w, 190px) + 10px) !important; }
+}
+@media (max-width: 760px) {
+  .view-box { top: calc(var(--top) + 52px); right: 10px; padding: 6px; }
+}

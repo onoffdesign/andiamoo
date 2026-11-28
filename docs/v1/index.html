@@ -14,7 +14,7 @@
 <link rel="preload" href="../data/intro.json" as="fetch" crossorigin>
 <link rel="preload" href="../fonts/patrick-hand-latin.woff2" as="font" type="font/woff2" crossorigin>
 <style>@font-face { font-family: "Andiamo Intro"; src: url("../fonts/patrick-hand-latin.woff2") format("woff2"); font-display: block; }</style>
-<link href="style.css?v=83" rel="stylesheet">
+<link href="style.css?v=84" rel="stylesheet">
 </head>
 <body>
 <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0">
@@ -61,12 +61,7 @@
         <span id="cal-label">Settimana</span>
         <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
       </button>
-      <div class="view-seg" role="group" aria-label="Vista">
-        <button type="button" data-view="map" aria-pressed="true">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6zM9 4v14M15 6v14"/></svg><span>Mappa</span></button>
-        <button type="button" data-view="list" aria-pressed="false">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6"/><circle cx="4" cy="12" r=".6"/><circle cx="4" cy="18" r=".6"/></svg><span>Lista</span></button>
-      </div>
+
     </div>
     <div class="days-panel" id="days-panel">
     <div class="presets" role="group" aria-label="Periodo">
@@ -87,6 +82,15 @@
     <p class="range-hint" id="range-hint">Tocca il primo e l'ultimo giorno</p>
     </div>
   </nav>
+  <!-- vista: mappa o lista, nel suo riquadro -->
+  <div class="float view-box">
+    <div class="view-seg" role="group" aria-label="Vista">
+        <button type="button" data-view="map" aria-pressed="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6zM9 4v14M15 6v14"/></svg><span>Mappa</span></button>
+        <button type="button" data-view="list" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6"/><circle cx="4" cy="12" r=".6"/><circle cx="4" cy="18" r=".6"/></svg><span>Lista</span></button>
+      </div>
+  </div>
 
   <!-- vista lista: card complete -->
   <section class="cards-view" id="cards" aria-label="Elenco completo degli eventi">
@@ -278,6 +282,6 @@
 </dialog>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="app.js?v=82"></script>
+<script src="app.js?v=84"></script>
 </body>
 </html>
