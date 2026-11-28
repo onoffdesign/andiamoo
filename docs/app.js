@@ -549,6 +549,7 @@
       else if (id === "boundary_3") dotted(id, MAP_INK.dot, 1.2, 2.6);
       else if (l.type === "line") hide(id);
       else if (l.type === "symbol") {
+        if (id === "label_town") { try { map.setLayerZoomRange(id, 9, 24); } catch (_) { /* */ } }   // paesi solo da vicino
         set(id, "text-color", MAP_INK.text); set(id, "text-halo-color", MAP_INK.paper); set(id, "text-halo-width", 1.4);
         set(id, "text-halo-blur", 0.5); lay(id, "text-transform", /country|state/.test(id) ? "uppercase" : "none");
       }
