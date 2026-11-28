@@ -1,16 +1,25 @@
 {
- "generato": "2026-11-28T12:31+01:00",
+ "generato": "2026-11-28T16:24+01:00",
  "riepilogo": {
-  "eventi_controllati": 786,
+  "eventi_controllati": 917,
   "allineati_in_automatico": 2,
   "luoghi_con_punti_diversi": 0,
-  "lontani_dal_comune": 1,
-  "solo_comune_con_luogo": 203,
-  "solo_comune_senza_luogo": 20,
-  "candidati_luoghi_noti": 0
+  "lontani_dal_comune": 2,
+  "solo_comune_con_luogo": 242,
+  "solo_comune_senza_luogo": 30,
+  "candidati_luoghi_noti": 4
  },
  "punti_diversi": [],
  "lontani_dal_comune": [
+  {
+   "luogo": "Ristoro Campo Scuola, Nevegal, Belluno",
+   "km_dal_centro": 7,
+   "eventi": 1,
+   "uid": [
+    "b33cc7b9cff4550c"
+   ],
+   "cosa_fare": "verifica il luogo: probabilmente e' in un altro comune o il comune e' sbagliato"
+  },
   {
    "luogo": "Auditorium H-Farm College, Via Adriano Olivetti 1, Roncade",
    "km_dal_centro": 9,
@@ -53,6 +62,22 @@
     "c57670d941f25b68",
     "28c30e95ad50bbb3",
     "3e5288398582184c"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Teatro Comunale di Trevignano, Via Puccini 1, Falze', Trevignano",
+   "eventi": 9,
+   "uid": [
+    "d323fe72456e5078",
+    "0e28e0b9006e5f17",
+    "4dae7a8bdc650e22",
+    "46d461f32628e360",
+    "a2d01460107f2936",
+    "f9287d72ec296f53",
+    "1cf1473d8920d491",
+    "3ec57eebb611369e",
+    "90fdfdf5110eb707"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -116,12 +141,51 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "Centro Sociale di Tambre, Saletta Scacchi, Tambre",
+   "eventi": 4,
+   "uid": [
+    "c31eda2a69e08852",
+    "e2c14115e52f9ce1",
+    "f1c103732b08b5fa",
+    "c621d11f8b6fa633"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Piazza Marconi e Via Garibaldi, Piazza Marconi, Valdobbiadene",
+   "eventi": 3,
+   "uid": [
+    "9d6730b5ba1d5be4",
+    "a9ddc97b1e577969",
+    "715397d249674ee4"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Giardini di Sant'Andrea, Treviso",
    "eventi": 3,
    "uid": [
     "501e8056b36f1cb7",
     "7b7e9195c3267d21",
     "d03d05473c95091a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Falze', Trevignano",
+   "eventi": 2,
+   "uid": [
+    "16550e702abd4e3c",
+    "c154ab989bd88661"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Aula Magna della Scuola Secondaria, Via Gazzari 1, Cordignano",
+   "eventi": 2,
+   "uid": [
+    "65b9ecd0bac88cd6",
+    "60f75597680c5040"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
@@ -225,6 +289,33 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "Sala Guarnieri, Pedavena",
+   "eventi": 2,
+   "uid": [
+    "3b9eaf4cd67c7cfc",
+    "1f3236ca7466c8f4"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Museo Eugenio Secco, Seren del Grappa",
+   "eventi": 2,
+   "uid": [
+    "dda7f4b34907f1c4",
+    "f82d077f058e5f26"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Centro di Roncade, Roncade",
+   "eventi": 2,
+   "uid": [
+    "c1f4f6b62e310f6d",
+    "4eeb59dcc8c7ed58"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Biblioteca dei Liberi Pensatori, Via Don Minzoni 14, Silea",
    "eventi": 1,
    "uid": [
@@ -265,6 +356,22 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
+   "luogo": "Centro Polivalente, Piazza Marconi 1, Monastier di Treviso",
+   "eventi": 1,
+   "uid": [
+    "190ad15530b1f6a1"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
+   "luogo": "Centro storico, Portobuffolè",
+   "eventi": 1,
+   "uid": [
+    "38e6dd4cdee6e95a"
+   ],
+   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
+  },
+  {
    "luogo": "Chiesa di Povegliano, Povegliano",
    "eventi": 1,
    "uid": [
@@ -297,98 +404,18 @@
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Centro Culturale Estrada, Strada Comunale delle Corti 73, Treviso",
+   "luogo": "Musano, Trevignano",
    "eventi": 1,
    "uid": [
-    "3cc6319357334bcf"
+    "387db65f01f3a06f"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   },
   {
-   "luogo": "Museo Archeologico Eno Bellis, Oderzo",
+   "luogo": "Villa Onigo, Via Mazzarolo 5, Trevignano",
    "eventi": 1,
    "uid": [
-    "8f3b23a7aa95e863"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Quartiere fieristico di Santa Lucia di Piave, Strada Provinciale 45, Santa Lucia di Piave",
-   "eventi": 1,
-   "uid": [
-    "8d07c3ce502b5314"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Piazzetta Aldo Moro, Treviso",
-   "eventi": 1,
-   "uid": [
-    "f3c7ef25b79374a0"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Teatro La Stanza, Via Pescatori, Treviso",
-   "eventi": 1,
-   "uid": [
-    "d34ff1db3fce7a05"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Casa Robegan, Via Antonio Canova 38, Treviso",
-   "eventi": 1,
-   "uid": [
-    "a06870798e2401b2"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Tempio di San Francesco, Via San Francesco, Treviso",
-   "eventi": 1,
-   "uid": [
-    "f70bb325c355efe6"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Basilica di Santa Maria Maggiore, Treviso",
-   "eventi": 1,
-   "uid": [
-    "656a1b3f97e401a5"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Auditorium di Santa Caterina, Treviso",
-   "eventi": 1,
-   "uid": [
-    "8a80218dc74fdae0"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Quartiere di Sant'Angelo, Via Papa Leone III, Treviso",
-   "eventi": 1,
-   "uid": [
-    "88e8b247c17d461c"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Quartiere di San Paolo, Viale Francia 2, Treviso",
-   "eventi": 1,
-   "uid": [
-    "0cd4cd7027a37c12"
-   ],
-   "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
-  },
-  {
-   "luogo": "Sagrato della chiesa di San Pelagio, Treviso",
-   "eventi": 1,
-   "uid": [
-    "d28b0837bf5981d1"
+    "034728c469386bf3"
    ],
    "cosa_fare": "cerca il punto (sito del luogo, OpenStreetMap) e scrivilo in config/luoghi.yaml"
   }
@@ -409,5 +436,42 @@
    "lon": 12.25086
   }
  ],
- "candidati_luoghi": []
+ "candidati_luoghi": [
+  {
+   "nomi": [
+    "Teatro de la Sena, Palazzo della Ragione"
+   ],
+   "comune": "Feltre",
+   "lat": 46.01834,
+   "lon": 11.91025,
+   "eventi": 6
+  },
+  {
+   "nomi": [
+    "Museo Civico Archeologico di Mel"
+   ],
+   "comune": "Borgo Valbelluna",
+   "lat": 46.06225,
+   "lon": 12.07934,
+   "eventi": 4
+  },
+  {
+   "nomi": [
+    "Cinema Teatro Esperia"
+   ],
+   "comune": "Padova",
+   "lat": 45.41466,
+   "lon": 11.83627,
+   "eventi": 3
+  },
+  {
+   "nomi": [
+    "Sala Consiliare del Comune"
+   ],
+   "comune": "San Lorenzo Isontino",
+   "lat": 45.93289,
+   "lon": 13.5265,
+   "eventi": 3
+  }
+ ]
 }

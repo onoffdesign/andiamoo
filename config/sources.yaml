@@ -237,7 +237,7 @@ sources:
     town: Paese
     page_size: 40
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-01: il sito del Comune e' MyPortal della Regione Veneto. Codice IPA dal codice catastale (G229): da controllare nel rapporto la prima notte."
+    note: "Aggiunta da Claude il 2026-11-01: il sito del Comune e' MyPortal della Regione Veneto. Codice IPA dal codice catastale (G229): da controllare nel rapporto la prima notte. 2026-11-28 (giro di Claude): l'API risponde 'status ok' ma con 0 contenuti pnrr_event, anche senza il filtro della cartella /Eventi: il Comune non pubblica eventi su MyPortal oppure il codice IPA e' sbagliato; WebFetch del sito mostra solo il testo del framework. Da rivedere (cercare la pagina eventi vera del Comune)."
 
   - id: comune-spresiano
     name: Comune di Spresiano
@@ -367,10 +367,10 @@ sources:
     name: Fondazione Benetton Studi Ricerche
     type: html_llm
     enabled: true
-    listing_urls: [https://www.fbsr.it/agenda-home/]
+    listing_urls: [https://fbsr.it/eventi/]
     hint: "Agenda della Fondazione Benetton Studi Ricerche, Treviso: incontri, proiezioni e concerti a Palazzo Bomben (Via Cornarotta 7) e nella chiesa di San Teonisto (Via San Nicolo' 31). Anno 2026 se non indicato, 2027 da gennaio. Escludere eventi online (Zoom) e quelli per le scuole."
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-17: 5 eventi da meta' novembre in una pagina, nessuno era sul sito; orari solo nelle schede /evento/ (rifiutate a WebFetch se non escono da una ricerca). Biglietti su liveticket.it. Giro del 2026-11-28: /agenda-home/ e /agenda/ vuote a WebFetch (contenuto caricato da script); WebSearch mostra ancora schede /evento/ del 2026 (presentazione del 1/12 a Palazzo Bomben): non disattivata, da controllare nel rapporto del PC."
+    note: "Aggiunta da Claude il 2026-11-17: 5 eventi da meta' novembre in una pagina, nessuno era sul sito; orari solo nelle schede /evento/ (rifiutate a WebFetch se non escono da una ricerca). Biglietti su liveticket.it. Giro del 2026-11-28: /agenda-home/ e /agenda/ vuote a WebFetch (contenuto caricato da script); WebSearch mostra ancora schede /evento/ del 2026 (presentazione del 1/12 a Palazzo Bomben): non disattivata, da controllare nel rapporto del PC. Secondo giro del 2026-11-28: /agenda-home/ reindirizza a https://fbsr.it/eventi/, che con curl ha l'elenco in HTML (4 eventi in programma) e le schede /evento/<slug>/ con data, ora e luogo: indirizzo corretto."
 
   - id: comune-quinto
     name: Comune di Quinto di Treviso
@@ -499,7 +499,7 @@ sources:
     max_pages: 3
     ai_rewrite: true
     escludi_titoli: "\\|\\s*scuole\\b"
-    note: "Aggiunta da Claude il 2026-10-31: WordPress con The Events Calendar (meta tec-api). Dal 2026-11-05 esclude le repliche '| scuole' (riservate alle classi). Eventi a Treviso (Parco degli Alberi Parlanti, Teatro Sant'Anna) ma anche a Padova e fuori regione: li filtra l'area. robots.txt lo rispetta il PC."
+    note: "Aggiunta da Claude il 2026-10-31: WordPress con The Events Calendar (meta tec-api). Dal 2026-11-05 esclude le repliche '| scuole' (riservate alle classi). Eventi a Treviso (Parco degli Alberi Parlanti, Teatro Sant'Anna) ma anche a Padova e fuori regione: li filtra l'area. robots.txt lo rispetta il PC. 2026-11-28 (giro di Claude): l'API risponde da curl (106 eventi in 120 giorni); dopo la prima pagina il sito mostra una pagina di controllo anti-bot ('One moment, please'): leggere una pagina sola con per_page=50 e date dal giorno, le altre in un altro giro. Area tutta Italia: le date fuori provincia ora si pubblicano."
 
   - id: museo-canova
     name: Museo Gypsotheca Antonio Canova (Possagno)
@@ -509,7 +509,7 @@ sources:
     per_page: 50
     max_pages: 3
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-26: l'agenda usa i percorsi /calendario/<evento>/<data>/ e tribe-bar-date di The Events Calendar (visite guidate ogni sabato e domenica, laboratori, conferenze, mostre). API non provata dal cloud: se il prossimo giro da' errore, passare a jsonld sulla pagina /agenda/ o disattivare. Eventi a Possagno; robots.txt lo rispetta il PC. Le date singole gia' in eventi_redazione.yaml (laboratori, conferenze) vanno tolte se il PC le trova."
+    note: "Aggiunta da Claude il 2026-11-26: l'agenda usa i percorsi /calendario/<evento>/<data>/ e tribe-bar-date di The Events Calendar (visite guidate ogni sabato e domenica, laboratori, conferenze, mostre). API non provata dal cloud: se il prossimo giro da' errore, passare a jsonld sulla pagina /agenda/ o disattivare. Eventi a Possagno; robots.txt lo rispetta il PC. Le date singole gia' in eventi_redazione.yaml (laboratori, conferenze) vanno tolte se il PC le trova. 2026-11-28 (giro di Claude): l'API /wp-json/tribe/events/v1/events risponde dal cloud (85 eventi in 120 giorni), ma le descrizioni delle visite sono vuote: titolo, data e ora soltanto."
 
   - id: nautilus-teatro
     name: Nautilus Cantiere Teatrale (date in tournee)

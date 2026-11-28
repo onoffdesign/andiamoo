@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T12:31+01:00",
+ "generato": "2026-11-28T16:24+01:00",
  "eventi": [
   {
    "uid": "4d5cf01bcdc28c8e",
@@ -207,6 +207,29 @@
    "precisione": "venue"
   },
   {
+   "uid": "68b1de4691ee1489",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "4o Festival del Radicchio IGP a Paderno",
+   "inizio": "2026-11-20",
+   "fine": "2026-11-29",
+   "luogo": "Paderno",
+   "indirizzo": "",
+   "comune": "Ponzano Veneto",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "fioridinverno.tv",
+   "pagina_fonte": "https://www.fioridinverno.tv/ (letta il 2026-11-28)",
+   "sito_ufficiale": "https://www.fioridinverno.tv/eventi/1-mostra-del-radicchio-tardivo-di-treviso-igp/",
+   "riassunto": "Festa dedicata al radicchio trevigiano nell'ambito della rassegna Fiori d'Inverno 2026-2027 promossa da UNPLI Treviso con le Pro Loco e il Consorzio di Tutela.",
+   "lat": 45.71909,
+   "lon": 12.20711,
+   "precisione": "town"
+  },
+  {
    "uid": "afda5f9466e012fa",
    "motivi": [
     "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
@@ -252,6 +275,28 @@
    "lat": 45.4431,
    "lon": 10.99863,
    "precisione": "venue"
+  },
+  {
+   "uid": "e95b8eb2373a9e9e",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Mostra del Libro di Ormelle",
+   "inizio": "2026-11-23",
+   "fine": "2026-11-28",
+   "luogo": "Centro civico Monsignor Simioni",
+   "indirizzo": "",
+   "comune": "Ormelle",
+   "categoria": "arte-cultura",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "trevisoeventi.com",
+   "pagina_fonte": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "sito_ufficiale": "https://www.trevisoeventi.com/ormelle.html",
+   "riassunto": "Mostra del libro organizzata dal Comune, aperta dal lunedi' al sabato dalle 15 alle 18, con laboratori di lettura per le scuole.",
+   "lat": 45.77874,
+   "lon": 12.42014,
+   "precisione": "town"
   },
   {
    "uid": "b5f2e2615c9430c0",
@@ -319,6 +364,29 @@
    "riassunto": "Esposizione di cartoline natalizie di una collezione privata, con il Centro filatelico numismatico pordenonese.",
    "lat": 45.95444,
    "lon": 12.66003,
+   "precisione": "town"
+  },
+  {
+   "uid": "baeb61e5f4bf3249",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "10a Festa del Radicchio Rosso di Treviso IGP e dell'agricoltura",
+   "inizio": "2026-11-27",
+   "fine": "2026-11-29",
+   "luogo": "",
+   "indirizzo": "",
+   "comune": "Spresiano",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "fioridinverno.tv",
+   "pagina_fonte": "https://www.fioridinverno.tv/ (letta il 2026-11-28)",
+   "sito_ufficiale": "https://www.fioridinverno.tv/eventi/festa-del-radicchio-rosso-di-treviso-igp-spresiano/",
+   "riassunto": "Festa dedicata al radicchio trevigiano nell'ambito della rassegna Fiori d'Inverno 2026-2027 promossa da UNPLI Treviso con le Pro Loco e il Consorzio di Tutela.",
+   "lat": 45.77943,
+   "lon": 12.2593,
    "precisione": "town"
   },
   {
@@ -503,6 +571,116 @@
    "precisione": "venue"
   },
   {
+   "uid": "2c8d1fdc9a0fc0c5",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Blues e dintorni (Limana Folk Village)",
+   "inizio": "2026-11-28T20:30",
+   "fine": "2026-11-28T22:30",
+   "luogo": "Municipio di Limana",
+   "indirizzo": "Via Roma",
+   "comune": "Limana",
+   "categoria": "musica",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "dolomitiprealpi.it",
+   "pagina_fonte": "https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://www.dolomitiprealpi.it/event/blues-e-dintorni/",
+   "riassunto": "Concerto acustico del duo Max Prandi (chitarra e voce) e Marco Napolitano (armonica) con classici del blues e della black music.",
+   "lat": 46.0992,
+   "lon": 12.18076,
+   "precisione": "address"
+  },
+  {
+   "uid": "02384bec73446a4b",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Passeggiata al Ponte Romano di Bardies",
+   "inizio": "2026-11-28T14:00",
+   "fine": null,
+   "luogo": "Impianti sportivi di Lentiai",
+   "indirizzo": "",
+   "comune": "Borgo Valbelluna",
+   "categoria": "natura-outdoor",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "dolomitiprealpi.it",
+   "pagina_fonte": "https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://www.dolomitiprealpi.it/event/passeggiata-alla-scoperta-del-ponte-romano-di-bardies/",
+   "riassunto": "Camminata facile di circa 8 km fino all'antico ponte sul torrente Forada a Bardies, aperta a tutti e rinviata in caso di maltempo. Punto sulla piazza di Lentiai.",
+   "lat": 46.04464,
+   "lon": 12.0217,
+   "precisione": "address"
+  },
+  {
+   "uid": "31964fac10dc032c",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Artemisia Gentileschi. Il processo",
+   "inizio": "2026-11-28T21:00",
+   "fine": null,
+   "luogo": "Auditorium Manzoni",
+   "indirizzo": "Via Alessandro Manzoni 7",
+   "comune": "Creazzo",
+   "categoria": "teatro-spettacoli",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "nautiluscantiereteatrale.it",
+   "pagina_fonte": "https://nautiluscantiereteatrale.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://nautiluscantiereteatrale.it/evento/artemisia-gentileschi-il-processo-2/",
+   "riassunto": "Spettacolo di Nautilus Cantiere Teatrale che ricostruisce il processo del 1612 per lo stupro subito dalla pittrice Artemisia Gentileschi.",
+   "lat": 45.53455,
+   "lon": 11.47873,
+   "precisione": "address"
+  },
+  {
+   "uid": "190ad15530b1f6a1",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Zanracconti (Anima Teatro)",
+   "inizio": "2026-11-28T20:45",
+   "fine": null,
+   "luogo": "Centro Polivalente",
+   "indirizzo": "Piazza Marconi 1",
+   "comune": "Monastier di Treviso",
+   "categoria": "teatro-spettacoli",
+   "accesso": "libero",
+   "prezzo": "ingresso gratuito senza prenotazione",
+   "fonte": "trevisoeventi.com",
+   "pagina_fonte": "https://www.trevisoeventi.com/monastier-di-treviso.html",
+   "sito_ufficiale": "https://www.trevisoeventi.com/monastier-di-treviso.html",
+   "riassunto": "Commedia della compagnia teatrale La Caneva di Motta di Livenza nella rassegna Anima Teatro promossa dal Comune di Monastier.",
+   "lat": 45.64952,
+   "lon": 12.43574,
+   "precisione": "town"
+  },
+  {
+   "uid": "d323fe72456e5078",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Gardizero",
+   "inizio": "2026-11-28T21:00",
+   "fine": null,
+   "luogo": "Teatro Comunale di Trevignano",
+   "indirizzo": "Via Puccini 1, Falze'",
+   "comune": "Trevignano",
+   "categoria": "teatro-spettacoli",
+   "accesso": "iscrizione",
+   "prezzo": "",
+   "fonte": "trevisoeventi.com",
+   "pagina_fonte": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "sito_ufficiale": "https://www.trevisoeventi.com/trevignano-cultura-teatro-concerti-musica-spettacoli.html",
+   "riassunto": "Spettacolo teatrale nella rassegna Il teatro racconta della stagione Trevignano Cultura; prenotazione obbligatoria.",
+   "lat": 45.74266,
+   "lon": 12.08907,
+   "precisione": "town"
+  },
+  {
    "uid": "cfaa29a247bbbc91",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -544,6 +722,50 @@
    "riassunto": "Spettacolo di magia del Mago Sirius.",
    "lat": 45.96647,
    "lon": 12.66026,
+   "precisione": "venue"
+  },
+  {
+   "uid": "c31eda2a69e08852",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Scacchi: scopri e sfida (Circolo Scacchi Alpago)",
+   "inizio": "2026-11-28T16:00",
+   "fine": "2026-11-28T18:00",
+   "luogo": "Centro Sociale di Tambre, Saletta Scacchi",
+   "indirizzo": "",
+   "comune": "Tambre",
+   "categoria": "famiglie-bambini",
+   "accesso": "libero",
+   "prezzo": "",
+   "fonte": "dolomitiprealpi.it",
+   "pagina_fonte": "https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://www.dolomitiprealpi.it/event/scacchi-scopri-e-sfida-circolo-scacchi-alpago-7/",
+   "riassunto": "Apertura del circolo scacchi di Tambre per chi vuole scoprire il gioco o sfidare altri giocatori, aperta a tutti.",
+   "lat": 46.12934,
+   "lon": 12.42312,
+   "precisione": "town"
+  },
+  {
+   "uid": "4eabc8a448899745",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Dinosauri e DinoCuccioli",
+   "inizio": "2026-11-28T10:30",
+   "fine": "2026-11-28T13:00",
+   "luogo": "Parco degli Alberi Parlanti",
+   "indirizzo": "Viale G. G. Felissent 56",
+   "comune": "Treviso",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "live.alcuni.it",
+   "pagina_fonte": "https://live.alcuni.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://live.alcuni.it/evento/dinosauri-e-dinocuccioli-22/2026-11-28/1/",
+   "riassunto": "Percorso a squadre con cinque minigiochi nell'area dinosauri del parco, ispirato ai personaggi della serie animata DinoCuccioli.",
+   "lat": 45.69036,
+   "lon": 12.25858,
    "precisione": "venue"
   },
   {
@@ -595,6 +817,29 @@
    "precisione": "town"
   },
   {
+   "uid": "26dab9938a6bec7c",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "La Breda di Natale",
+   "inizio": "2026-11-29T14:00",
+   "fine": null,
+   "luogo": "Parco di Villa Olivi",
+   "indirizzo": "",
+   "comune": "Breda di Piave",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "trevisoeventi.com",
+   "pagina_fonte": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "sito_ufficiale": "https://www.trevisoeventi.com/breda-di-piave.html",
+   "riassunto": "Pomeriggio natalizio nel parco con presepe vivente medievale, villaggio di Natale con laboratori per bambini, bancarelle delle scuole e alle 17 un concerto gospel.",
+   "lat": 45.7241,
+   "lon": 12.331,
+   "precisione": "town"
+  },
+  {
    "uid": "3286286e0c7123b9",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
@@ -638,6 +883,28 @@
    "riassunto": "Mostra collettiva degli artisti del territorio curata dal gruppo gLoriArt, inaugurata domenica 29 novembre alle 11 e aperta fino al 13 dicembre.",
    "lat": 45.72836,
    "lon": 11.86653,
+   "precisione": "town"
+  },
+  {
+   "uid": "34c285b0ee6f53d2",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Notre Dame de Paris (musical)",
+   "inizio": "2026-11-29T21:00",
+   "fine": null,
+   "luogo": "Prealpi SanBiagio Arena",
+   "indirizzo": "Viale dello Sport 2",
+   "comune": "Conegliano",
+   "categoria": "teatro-spettacoli",
+   "accesso": "biglietto",
+   "prezzo": "da 35 a 95 EUR (ridotto bambini 6-12 anni da 28 EUR)",
+   "fonte": "iltaccodibacco.it",
+   "pagina_fonte": "https://iltaccodibacco.it/villorba/",
+   "sito_ufficiale": "https://www.ticketone.it/event/notre-dame-de-paris-prealpi-sanbiagio-arena-21492229/",
+   "riassunto": "Il musical Notre Dame de Paris di Riccardo Cocciante in tournee, in scena al palazzetto di Conegliano.",
+   "lat": 45.88717,
+   "lon": 12.29773,
    "precisione": "town"
   },
   {
@@ -707,6 +974,50 @@
    "precisione": "town"
   },
   {
+   "uid": "5e437f1b54fee592",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Dinosauri e DinoCuccioli",
+   "inizio": "2026-11-29T11:30",
+   "fine": "2026-11-29T13:00",
+   "luogo": "Parco degli Alberi Parlanti",
+   "indirizzo": "Viale G. G. Felissent 56",
+   "comune": "Treviso",
+   "categoria": "famiglie-bambini",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "live.alcuni.it",
+   "pagina_fonte": "https://live.alcuni.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://live.alcuni.it/evento/dinosauri-e-dinocuccioli-22/2026-11-29/1/",
+   "riassunto": "Percorso a squadre con cinque minigiochi nell'area dinosauri del parco, ispirato ai personaggi della serie animata DinoCuccioli.",
+   "lat": 45.69036,
+   "lon": 12.25858,
+   "precisione": "venue"
+  },
+  {
+   "uid": "4e1cd4376aef8a62",
+   "motivi": [
+    "possibile doppione di 97cd594c0343e92e"
+   ],
+   "titolo": "Domenica in mostra al Museo Canova",
+   "inizio": "2026-11-29T16:30",
+   "fine": "2026-11-29T18:30",
+   "luogo": "Museo Gypsotheca Antonio Canova",
+   "indirizzo": "Via Canova 74",
+   "comune": "Possagno",
+   "categoria": "arte-cultura",
+   "accesso": "biglietto",
+   "prezzo": "",
+   "fonte": "museocanova.it",
+   "pagina_fonte": "https://www.museocanova.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://www.museocanova.it/calendario/domenica-in-mostra/2026-11-29/",
+   "riassunto": "Visita guidata della domenica pomeriggio dedicata alla mostra in corso al museo.",
+   "lat": 45.85429,
+   "lon": 11.88132,
+   "precisione": "venue"
+  },
+  {
    "uid": "56daee1415779085",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
@@ -771,6 +1082,52 @@
    "riassunto": "Presentazione di un libro sulla demenza e sull'assistenza a chi ne soffre, promossa dalla biblioteca comunale Luigi Groto con varie associazioni.",
    "lat": 45.05466,
    "lon": 12.05645,
+   "precisione": "town"
+  },
+  {
+   "uid": "3b9eaf4cd67c7cfc",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Dalla bussola al LiDAR (I giovedi' del CAI di Feltre)",
+   "inizio": "2026-12-03T20:30",
+   "fine": null,
+   "luogo": "Sala Guarnieri",
+   "indirizzo": "",
+   "comune": "Pedavena",
+   "categoria": "arte-cultura",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "dolomitiprealpi.it",
+   "pagina_fonte": "https://www.dolomitiprealpi.it/wp-json/tribe/events/v1/events",
+   "sito_ufficiale": "https://www.dolomitiprealpi.it/event/i-giovedi-del-cai-di-feltre-30/",
+   "riassunto": "Serata con il Gruppo Speleo Feltre su vent'anni di ricerca delle epigrafi militari della Grande Guerra sul Massiccio del Grappa e sull'uso del LiDAR.",
+   "lat": 46.03939,
+   "lon": 11.88144,
+   "precisione": "town"
+  },
+  {
+   "uid": "f942f63c344c092d",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "20a Mostra del Radicchio Rosso di Treviso IGP",
+   "inizio": "2026-12-03",
+   "fine": "2026-12-08",
+   "luogo": "",
+   "indirizzo": "",
+   "comune": "Quinto di Treviso",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "fioridinverno.tv",
+   "pagina_fonte": "https://www.fioridinverno.tv/ (letta il 2026-11-28)",
+   "sito_ufficiale": "https://www.fioridinverno.tv/eventi/colori-sapori-di-primavera-quinto/",
+   "riassunto": "Festa dedicata al radicchio trevigiano nell'ambito della rassegna Fiori d'Inverno 2026-2027 promossa da UNPLI Treviso con le Pro Loco e il Consorzio di Tutela.",
+   "lat": 45.646,
+   "lon": 12.16602,
    "precisione": "town"
   },
   {
@@ -860,6 +1217,28 @@
    "riassunto": "Incontro in biblioteca per giovani e adulti che vogliono condividere letture e passioni per i libri.",
    "lat": 45.77897,
    "lon": 11.80118,
+   "precisione": "town"
+  },
+  {
+   "uid": "acc010fef1ae5b14",
+   "motivi": [
+    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon"
+   ],
+   "titolo": "Il Premio Carlo Scarpa a Trento",
+   "inizio": "2026-12-03T14:30",
+   "fine": "2026-12-03T18:30",
+   "luogo": "TSM Trentino School of Management",
+   "indirizzo": "",
+   "comune": "Trento",
+   "categoria": "arte-cultura",
+   "accesso": "iscrizione",
+   "prezzo": "",
+   "fonte": "fbsr.it",
+   "pagina_fonte": "https://fbsr.it/eventi/",
+   "sito_ufficiale": "https://fbsr.it/evento/il-premio-carlo-scarpa-a-trento/",
+   "riassunto": "Pomeriggio di seminari sul paesaggio con la Fondazione Benetton, dedicato ai luoghi premiati di Hospitalfield e dell'Espacio Escultorico, con la proiezione di due documentari; gratuito con iscrizione entro il 30 novembre.",
+   "lat": 46.06894,
+   "lon": 11.12123,
    "precisione": "town"
   },
   {
@@ -971,399 +1350,6 @@
    "riassunto": "Serata con DJ set di successi del momento al Mattorosso.",
    "lat": 45.77775,
    "lon": 12.05787,
-   "precisione": "venue"
-  },
-  {
-   "uid": "7ed2660a7a7541db",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 68120fa018662856"
-   ],
-   "titolo": "Festa di accensione dell'albero di Natale a Giavera",
-   "inizio": "2026-12-05T15:00",
-   "fine": "2026-12-05T18:00",
-   "luogo": "Piazza Uberto Bacilieri",
-   "indirizzo": "",
-   "comune": "Giavera del Montello",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "comune.giavera.tv.it",
-   "pagina_fonte": "https://www.comune.giavera.tv.it/vivere-il-comune/eventi/festa-di-accensione-dellalbero-di-natale-2026/",
-   "sito_ufficiale": "https://www.comune.giavera.tv.it/vivere-il-comune/eventi/festa-di-accensione-dellalbero-di-natale-2026/",
-   "riassunto": "Pomeriggio con canti degli alunni, laboratori, truccabimbi, castagne e panettone dei Gruppi Alpini e accensione dell'albero alle 17; in caso di pioggia si rinvia al 12 dicembre.",
-   "lat": 45.79379,
-   "lon": 12.16929,
-   "precisione": "town"
-  },
-  {
-   "uid": "e41aa64c21ef52c9",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di a97dc8f41067c603"
-   ],
-   "titolo": "Natale a Ramon, mercatini al Parco del Donatore",
-   "inizio": "2026-12-05T15:00",
-   "fine": "2026-12-05T19:00",
-   "luogo": "Parco del Donatore",
-   "indirizzo": "Via San Pancrazio",
-   "comune": "Loria",
-   "categoria": "mercatini-fiere",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "nordest24.it",
-   "pagina_fonte": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
-   "sito_ufficiale": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
-   "riassunto": "Mercatini natalizi organizzati dai Donatori di Sangue di Ramon con il Comune, con la casetta di Babbo Natale; il ricavato sostiene progetti di solidarieta' del territorio.",
-   "lat": 45.72836,
-   "lon": 11.86653,
-   "precisione": "town"
-  },
-  {
-   "uid": "dc43203ae5a8f3d7",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 7ed2660a7a7541db"
-   ],
-   "titolo": "Accensione dell'albero di Natale a Ramon",
-   "inizio": "2026-12-05T19:15",
-   "fine": null,
-   "luogo": "Parco del Donatore",
-   "indirizzo": "Via San Pancrazio",
-   "comune": "Loria",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "nordest24.it",
-   "pagina_fonte": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
-   "sito_ufficiale": "https://www.nordest24.it/natale-ramon-5-13-dicembre-mercatini-iniziative-tutte-eta",
-   "riassunto": "Accensione dell'albero nella prima giornata di Natale a Ramon, seguita da un momento conviviale; alle 20:30 serata di musica e poesia con Claudia Zonta e Davide Baratto.",
-   "lat": 45.72836,
-   "lon": 11.86653,
-   "precisione": "town"
-  },
-  {
-   "uid": "0d11f93f96b4b2a2",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
-    "possibile doppione di 501e8056b36f1cb7"
-   ],
-   "titolo": "Kinder Haus: laboratori, giochi e letture di Natale",
-   "inizio": "2026-12-05",
-   "fine": "2027-01-03",
-   "luogo": "Galleria Concordia",
-   "indirizzo": "",
-   "comune": "Vittorio Veneto",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
-   "riassunto": "Spazio natalizio per bambini e ragazzi con laboratori, giochi e letture, in gran parte gratuiti.",
-   "lat": 45.98992,
-   "lon": 12.29614,
-   "precisione": "town"
-  },
-  {
-   "uid": "501e8056b36f1cb7",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Il giardino dei giochi di Natale",
-   "inizio": "2026-12-05T14:00",
-   "fine": "2026-12-05T18:00",
-   "luogo": "Giardini di Sant'Andrea",
-   "indirizzo": "",
-   "comune": "Treviso",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "qdpnews.it",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
-   "riassunto": "Pomeriggio di giochi per bambini e famiglie ai giardini di Sant'Andrea.",
-   "lat": 45.66755,
-   "lon": 12.24507,
-   "precisione": "town"
-  },
-  {
-   "uid": "a06870798e2401b2",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Speciale Natale con Enrica Bacchia e Massimo Zemolin",
-   "inizio": "2026-12-05T18:00",
-   "fine": null,
-   "luogo": "Casa Robegan",
-   "indirizzo": "Via Antonio Canova 38",
-   "comune": "Treviso",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "qdpnews.it",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
-   "riassunto": "Concerto natalizio della cantante Enrica Bacchia con il chitarrista Massimo Zemolin.",
-   "lat": 45.66755,
-   "lon": 12.24507,
-   "precisione": "town"
-  },
-  {
-   "uid": "c84602036fe577a3",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "possibile doppione di 68120fa018662856"
-   ],
-   "titolo": "Passaggio di San Nicolo' a Col San Martino",
-   "inizio": "2026-12-05T18:00",
-   "fine": null,
-   "luogo": "Col San Martino",
-   "indirizzo": "",
-   "comune": "Farra di Soligo",
-   "categoria": "sagre-feste",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "qdpnews.it",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
-   "riassunto": "San Nicolo' percorre le vie di Col San Martino con il Gruppo Giovani parrocchiale.",
-   "lat": 45.90543,
-   "lon": 12.12658,
-   "precisione": "town"
-  },
-  {
-   "uid": "92b719c870a9fae8",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Parole che illuminano nella festa di San Nicolo'",
-   "inizio": "2026-12-05T16:30",
-   "fine": null,
-   "luogo": "Piazza Flaminio",
-   "indirizzo": "",
-   "comune": "Vittorio Veneto",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
-   "riassunto": "Letture e animazione per la festa di San Nicolo' a cura del gruppo Parole che Illuminano della Pro Loco; alle 18 il corteo raggiunge la Casa degli Alpini per l'arrivo del santo.",
-   "lat": 45.98992,
-   "lon": 12.29614,
-   "precisione": "town"
-  },
-  {
-   "uid": "a97dc8f41067c603",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "possibile doppione di 1a7a9f8c4a479fa2"
-   ],
-   "titolo": "Mercatini di Natale in Piazza Aldo Moro",
-   "inizio": "2026-12-05T09:30",
-   "fine": "2026-12-05T19:00",
-   "luogo": "Piazza Aldo Moro",
-   "indirizzo": "",
-   "comune": "Villorba",
-   "categoria": "mercatini-fiere",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "Nordest24, calendario del Natale di Villorba",
-   "pagina_fonte": "https://www.nordest24.it/villorba-eventi-natale-2026",
-   "sito_ufficiale": "https://www.nordest24.it/villorba-eventi-natale-2026",
-   "riassunto": "Mercatino natalizio promosso dal Comune nella piazza del capoluogo.",
-   "lat": 45.71287,
-   "lon": 12.26036,
-   "precisione": "town"
-  },
-  {
-   "uid": "4dfbbdc40123136b",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Cori degli Alpini e arrivo di San Nicolo' a Oderzo",
-   "inizio": "2026-12-05T15:30",
-   "fine": "2026-12-05T18:30",
-   "luogo": "Centro storico di Oderzo",
-   "indirizzo": "",
-   "comune": "Oderzo",
-   "categoria": "sagre-feste",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "scoprioderzo.it",
-   "pagina_fonte": "https://www.scoprioderzo.it/mc-events/cori-degli-alpini-e-arriva-san-nicolo/",
-   "sito_ufficiale": "https://www.scoprioderzo.it/mc-events/cori-degli-alpini-e-arriva-san-nicolo/",
-   "riassunto": "Canti natalizi itineranti dei cori degli Alpini in centro storico; alle 16 San Nicolo' porta i regali ai bambini e accende l'albero.",
-   "lat": 45.78089,
-   "lon": 12.49313,
-   "precisione": "town"
-  },
-  {
-   "uid": "563ecece564b8a4d",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "possibile doppione di 02dc3e77dbb05064"
-   ],
-   "titolo": "Concerto di Natale Premio per la vita",
-   "inizio": "2026-12-05T20:30",
-   "fine": null,
-   "luogo": "Sala Polivalente degli impianti sportivi di Piavon",
-   "indirizzo": "",
-   "comune": "Oderzo",
-   "categoria": "musica",
-   "accesso": "libero",
-   "prezzo": "ingresso libero, prenotazione consigliata",
-   "fonte": "scoprioderzo.it",
-   "pagina_fonte": "https://www.scoprioderzo.it/mc-events/concerto-di-natale-premio-per-la-vita/",
-   "sito_ufficiale": "https://www.scoprioderzo.it/mc-events/concerto-di-natale-premio-per-la-vita/",
-   "riassunto": "Quinta edizione del concerto in memoria di Luciano Bernardi, dal titolo Oltre i confini della musica, organizzato dall'Associazione Amiche per la Pelle.",
-   "lat": 45.78089,
-   "lon": 12.49313,
-   "precisione": "town"
-  },
-  {
-   "uid": "4e0c2f978e1dd68d",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "possibile doppione di dc43203ae5a8f3d7"
-   ],
-   "titolo": "Mercatini di Natale e accensione dell'albero in piazza Marconi",
-   "inizio": "2026-12-05T10:00",
-   "fine": "2026-12-05T19:00",
-   "luogo": "Piazza Marconi",
-   "indirizzo": "",
-   "comune": "Montecchio Maggiore",
-   "categoria": "sagre-feste",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "comune.montecchio-maggiore.vi.it",
-   "pagina_fonte": "https://www.comune.montecchio-maggiore.vi.it/it/eventi/mercatini-di-natale-e-accensione-dell-albero",
-   "sito_ufficiale": "https://www.comune.montecchio-maggiore.vi.it/it/eventi/mercatini-di-natale-e-accensione-dell-albero",
-   "riassunto": "Giornata con mercatino, laboratori e spettacoli di giocoleria per bambini, arrivo di Babbo Natale e, dalle 17:20, parata e accensione dell'albero con cori natalizi.",
-   "lat": 45.50582,
-   "lon": 11.40734,
-   "precisione": "town"
-  },
-  {
-   "uid": "f844ad7c74dcf27b",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Mostra di presepi",
-   "inizio": "2026-12-05T10:00",
-   "fine": "2027-01-06",
-   "luogo": "Biblioteca civica",
-   "indirizzo": "",
-   "comune": "Pordenone",
-   "categoria": "arte-cultura",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "natale.comune.pordenone.it",
-   "pagina_fonte": "https://natale.comune.pordenone.it/",
-   "sito_ufficiale": "https://www.comune.pordenone.it/it/vivere-pordenone/eventi/mostra-presepi",
-   "riassunto": "Esposizione di presepi artigianali allestita in biblioteca civica.",
-   "lat": 45.95444,
-   "lon": 12.66003,
-   "precisione": "town"
-  },
-  {
-   "uid": "b43f704604aa69c3",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Concerto dell'Avvento per l'Ospedale",
-   "inizio": "2026-12-05T17:30",
-   "fine": "2026-12-05T19:00",
-   "luogo": "Nuovo Ospedale, hall d'ingresso",
-   "indirizzo": "",
-   "comune": "Pordenone",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "natale.comune.pordenone.it",
-   "pagina_fonte": "https://natale.comune.pordenone.it/",
-   "sito_ufficiale": "https://www.comune.pordenone.it/it/vivere-pordenone/eventi/concerto-dellavvento-per-lospedale-di-pordenone",
-   "riassunto": "Concerto dell'Orchestra AUDiMus nella hall del nuovo ospedale di via Montereale 30.",
-   "lat": 45.95444,
-   "lon": 12.66003,
-   "precisione": "town"
-  },
-  {
-   "uid": "0233dcb3d2eb48e8",
-   "motivi": [
-    "luogo: solo il comune, cerca locale e indirizzo e indica lat/lon",
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Craig David presents TS5",
-   "inizio": "2026-12-05T21:00",
-   "fine": null,
-   "luogo": "",
-   "indirizzo": "",
-   "comune": "Pordenone",
-   "categoria": "musica",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "natale.comune.pordenone.it",
-   "pagina_fonte": "https://natale.comune.pordenone.it/",
-   "sito_ufficiale": "https://www.comune.pordenone.it/it/vivere-pordenone/eventi/craig-david-presents-ts5",
-   "riassunto": "Unica data italiana del progetto TS5 di Craig David, nel programma del Natale a Pordenone.",
-   "lat": 45.95444,
-   "lon": 12.66003,
-   "precisione": "town"
-  },
-  {
-   "uid": "3dfa935a7bba677f",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Mogliano Veneto Rugby - Rugby Parabiago 1948 (Serie A Elite)",
-   "inizio": "2026-12-05T14:30",
-   "fine": null,
-   "luogo": "Stadio Maurizio Quaggia",
-   "indirizzo": "",
-   "comune": "Mogliano Veneto",
-   "categoria": "sport",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "federugby.it",
-   "pagina_fonte": "https://www.federugby.it/serie-a-elite-maschile-ufficializzato-il-calendario-2026-2027/",
-   "sito_ufficiale": "https://www.federugby.it/serie-a-elite-maschile-ufficializzato-il-calendario-2026-2027/",
-   "riassunto": "Partita casalinga del Mogliano Veneto Rugby contro Rugby Parabiago 1948 nel campionato di Serie A Elite maschile; l'orario puo' cambiare per esigenze televisive.",
-   "lat": 45.55568,
-   "lon": 12.2447,
-   "precisione": "venue"
-  },
-  {
-   "uid": "7348cbb1d12b1b51",
-   "motivi": [
-    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
-   ],
-   "titolo": "Laboratorio: Mario Pompei, alla scoperta di un nuovo artista",
-   "inizio": "2026-12-05T15:00",
-   "fine": null,
-   "luogo": "Museo Bailo",
-   "indirizzo": "",
-   "comune": "Treviso",
-   "categoria": "famiglie-bambini",
-   "accesso": "sconosciuto",
-   "prezzo": "",
-   "fonte": "qdpnews.it",
-   "pagina_fonte": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
-   "sito_ufficiale": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
-   "riassunto": "Laboratorio per bambini al Museo Bailo dedicato all'artista Mario Pompei.",
-   "lat": 45.66757,
-   "lon": 12.23811,
    "precisione": "venue"
   }
  ]

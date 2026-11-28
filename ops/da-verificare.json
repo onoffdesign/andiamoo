@@ -68,17 +68,6 @@
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
-   "uid": "e95b8eb2373a9e9e",
-   "titolo": "Mostra del Libro di Ormelle",
-   "inizio": "2026-11-23",
-   "fine": "2026-11-28",
-   "comune": "Ormelle",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "c75304d11cd3db00",
    "titolo": "10a Festa del Radicchio Rosso di Treviso IGP e dell'agricoltura",
    "inizio": "2026-11-27",
@@ -167,17 +156,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "190ad15530b1f6a1",
-   "titolo": "Zanracconti (Anima Teatro)",
-   "inizio": "2026-11-28T20:45",
-   "fine": null,
-   "comune": "Monastier di Treviso",
-   "fonte": "Redazione ANDIAMO?",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/monastier-di-treviso.html",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
    "uid": "9bf148dd54deac6e",
    "titolo": "Antonio Ornano - Ingrato",
    "inizio": "2026-11-28T21:00",
@@ -187,17 +165,6 @@
    "motivo": "dati presi da vietata: ticketone.it",
    "link": "https://www.ticketone.it/venue/teatro-accademia-16706/",
    "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "d323fe72456e5078",
-   "titolo": "Gardizero",
-   "inizio": "2026-11-28T21:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "f48401bed740691f",
@@ -277,17 +244,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "26dab9938a6bec7c",
-   "titolo": "La Breda di Natale",
-   "inizio": "2026-11-29T14:00",
-   "fine": null,
-   "comune": "Breda di Piave",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "6fcc8fff093d669f",
    "titolo": "K Pop Dream - Missione Natale",
    "inizio": "2026-11-29T18:00",
@@ -308,17 +264,6 @@
    "motivo": "dati presi da da verificare: trovasagre.com",
    "link": "https://trovasagre.com/sagre/veneto/treviso",
    "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "34c285b0ee6f53d2",
-   "titolo": "Notre Dame de Paris (musical)",
-   "inizio": "2026-11-29T21:00",
-   "fine": null,
-   "comune": "Conegliano",
-   "fonte": "iltaccodibacco.it",
-   "motivo": "dati presi da da verificare: iltaccodibacco.it",
-   "link": "https://iltaccodibacco.it/villorba/",
-   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "dce166f5c85d15a0",
@@ -453,17 +398,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "9de4411554612de2",
-   "titolo": "Mercatino dell'antiquariato e Fiera dei Trovarobe a Badoere",
-   "inizio": "2026-12-06",
-   "fine": null,
-   "comune": "Morgano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "4fbdd28a935da130",
    "titolo": "Passeggiando Tra Gli Angeli Ai Piedi Delle Prealpi",
    "inizio": "2026-12-06",
@@ -530,17 +464,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "9d6730b5ba1d5be4",
-   "titolo": "Mercatini di Natale a Valdobbiadene",
-   "inizio": "2026-12-08T09:00",
-   "fine": null,
-   "comune": "Valdobbiadene",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/natale-feste.html",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "cf7fdce12386d38e",
    "titolo": "3° Monte Christmas Walk",
    "inizio": "2026-12-08T09:30",
@@ -585,28 +508,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "800e2f9adf3db8e7",
-   "titolo": "Mostra mercato dell'antiquariato a Roncade",
-   "inizio": "2026-12-12T09:00",
-   "fine": null,
-   "comune": "Roncade",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "387db65f01f3a06f",
-   "titolo": "Concerto di Natale dell'Orchestra Gruppo d'Archi Veneto",
-   "inizio": "2026-12-12T20:30",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "5cd1b8bde5fa3307",
    "titolo": "Valentina Persia - Nata con la guepiere",
    "inizio": "2026-12-12T21:00",
@@ -637,28 +538,6 @@
    "fonte": "cosedicasa.com",
    "motivo": "dati presi da da verificare: cosedicasa.com",
    "link": "https://www.cosedicasa.com/mercatini/asolo-centro-storico",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "38e6dd4cdee6e95a",
-   "titolo": "Mercatino dell'antiquariato e collezionismo di Portobuffolè",
-   "inizio": "2026-12-13T08:00",
-   "fine": "2026-12-13T17:00",
-   "comune": "Portobuffolè",
-   "fonte": "Redazione ANDIAMO?",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/mercatino-antiquariato-e-collezionismo-portobuffole-mercatini-antiquariato-treviso-mercatini-antiquariato-veneto-mercatini-antiquariato-italia.html",
-   "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "a9ddc97b1e577969",
-   "titolo": "Mercatini di Natale a Valdobbiadene",
-   "inizio": "2026-12-13T09:00",
-   "fine": null,
-   "comune": "Valdobbiadene",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/natale-feste.html",
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
@@ -706,17 +585,6 @@
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
-   "uid": "1c74a4cf035d9299",
-   "titolo": "Anna Castiglia: La paura in tasca Tour 2026",
-   "inizio": "2026-12-18T21:00",
-   "fine": null,
-   "comune": "Roncade",
-   "fonte": "iltaccodibacco.it",
-   "motivo": "dati presi da da verificare: iltaccodibacco.it",
-   "link": "https://iltaccodibacco.it/villorba/",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "fe24b388c8cb12b7",
    "titolo": "Cose Ritrovate: mercato del vintage e collezionismo – Montebelluna",
    "inizio": "2026-12-19T08:30",
@@ -739,17 +607,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "f4a69787cbb4befc",
-   "titolo": "Mercatino dell'antiquariato e del collezionismo a Godega di Sant'Urbano",
-   "inizio": "2026-12-20",
-   "fine": null,
-   "comune": "Godega di Sant'Urbano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "02751d7e2700200e",
    "titolo": "Mercatini di Natale a Badoere",
    "inizio": "2026-12-20T09:00",
@@ -758,17 +615,6 @@
    "fonte": "trovasagre.com",
    "motivo": "dati presi da da verificare: trovasagre.com",
    "link": "https://trovasagre.com/mercatini/mercatini-di-natale-badoere-di-morgano",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "715397d249674ee4",
-   "titolo": "Mercatini di Natale a Valdobbiadene",
-   "inizio": "2026-12-20T09:00",
-   "fine": null,
-   "comune": "Valdobbiadene",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/natale-feste.html",
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
@@ -838,17 +684,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "16550e702abd4e3c",
-   "titolo": "Concerto di Capodanno",
-   "inizio": "2026-12-27T18:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "46ff1d6349dba6bb",
    "titolo": "Bim Boom Jam – Jam session al Mulino di Falzè",
    "inizio": "2027-01-05T19:00",
@@ -893,17 +728,6 @@
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
-   "uid": "0e28e0b9006e5f17",
-   "titolo": "Pene d'amor perdute",
-   "inizio": "2027-01-10T17:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "13a5a3adfdd53ea0",
    "titolo": "33a Mostra del Radicchio Rosso tardivo di Treviso IGP (primo fine settimana)",
    "inizio": "2027-01-15",
@@ -924,17 +748,6 @@
    "motivo": "dati presi da da verificare: umbriaecultura.it",
    "link": "https://www.umbriaecultura.it/fiori-dinverno-radicchio/",
    "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "034728c469386bf3",
-   "titolo": "4 Elementi: Quartetto Aires",
-   "inizio": "2027-01-17T17:30",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "98ce277141ca2be1",
@@ -1003,28 +816,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "4dae7a8bdc650e22",
-   "titolo": "Di male in meglio",
-   "inizio": "2027-01-24T17:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "65b9ecd0bac88cd6",
-   "titolo": "Un viaggio tra i grandi della musica: Violino e orchestra",
-   "inizio": "2027-01-25T20:30",
-   "fine": null,
-   "comune": "Cordignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/cordignano.html",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "3d266bb9dce4777b",
    "titolo": "Recital di Kyoko Takezawa ed Edoardo Maria Strabbioli",
    "inizio": "2027-01-26T20:00",
@@ -1047,17 +838,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "46d461f32628e360",
-   "titolo": "Giovanni Vernia Show",
-   "inizio": "2027-01-30T21:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "9cc4699f91ea8c45",
    "titolo": "Una Notte Per Faber",
    "inizio": "2027-01-30T21:00",
@@ -1078,17 +858,6 @@
    "motivo": "dati presi da da verificare: running.life",
    "link": "https://running.life/it/evento/trail-delle-terre-rosse",
    "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "c154ab989bd88661",
-   "titolo": "4 Elementi: Quartetto Aires",
-   "inizio": "2027-01-31T17:30",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "9a1b4cf74837c4e3",
@@ -1132,17 +901,6 @@
    "fonte": "classicalive.it",
    "motivo": "dati presi da da verificare: classicalive.it",
    "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "3576e13e856c9ed5",
-   "titolo": "De André. Piccole storie per grandi canzoni",
-   "inizio": "2027-02-07T17:30",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
@@ -1201,39 +959,6 @@
    "registrato": "2026-11-28T10:29+01:00"
   },
   {
-   "uid": "a2d01460107f2936",
-   "titolo": "La Cura: Concita De Gregorio ed Erica Mou",
-   "inizio": "2027-02-20T21:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "f9287d72ec296f53",
-   "titolo": "Sorelle Materassi",
-   "inizio": "2027-02-21T17:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "60f75597680c5040",
-   "titolo": "Un viaggio tra i grandi della musica: Strumento solista",
-   "inizio": "2027-02-22T20:30",
-   "fine": null,
-   "comune": "Cordignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/cordignano.html",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "05f88a0a1672ff0f",
    "titolo": "Celentano - The Tribute Show",
    "inizio": "2027-02-26T21:00",
@@ -1267,17 +992,6 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
-   "uid": "1cf1473d8920d491",
-   "titolo": "Don Chisciotte senza mancia",
-   "inizio": "2027-03-06T21:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
    "uid": "2ea89e232b1c31d6",
    "titolo": "Filippo Caccamo - Fuori di Tela",
    "inizio": "2027-03-06T21:00",
@@ -1298,28 +1012,6 @@
    "motivo": "dati presi da da verificare: calendariopodismo.it",
    "link": "https://www.calendariopodismo.it/gara/81280/38-corsa-podistica-citta-di-motta/",
    "registrato": "2026-11-28T10:19+01:00"
-  },
-  {
-   "uid": "3ec57eebb611369e",
-   "titolo": "Morto un marito se ne fa un altro",
-   "inizio": "2027-03-07T17:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
-  },
-  {
-   "uid": "90fdfdf5110eb707",
-   "titolo": "Da Dylan a De Gregori: canzoni on the road",
-   "inizio": "2027-03-13T21:00",
-   "fine": null,
-   "comune": "Trevignano",
-   "fonte": "trevisoeventi.com",
-   "motivo": "dati presi da da verificare: trevisoeventi.com",
-   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
-   "registrato": "2026-11-28T10:29+01:00"
   }
  ]
 }

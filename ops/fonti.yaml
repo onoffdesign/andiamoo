@@ -1008,8 +1008,8 @@ fonti:
   resa: { controlli: 3, eventi_trovati: 13, ultimi: [13, 0, 0] }
   ultimo_controllo: '2026-11-23'
   automatizzabile: no
-  stato: attiva
-  note: "una lettura = tutte le feste del radicchio da novembre a marzo con le date. Mancano luoghi e programmi: ricontrollare le Pro Loco una settimana prima di ogni festa (PrimaVera in Festa di Roncade 14 e 21/3 ancora da aggiungere) 2026-11-16: il sito ufficiale fioridinverno.tv ha l'elenco con le schede di ogni festa (link usati come official_url al posto di umbriaecultura); Rio San Martino di Scorze' e Mirano sono in provincia di Venezia."
+  stato: vietata
+  note: "2026-11-28: umbriaecultura.it VIETATA (i termini vietano la raccolta automatizzata dei dati); usare il sito ufficiale https://www.fioridinverno.tv/ (UNPLI, robots.txt libero), che ha le stesse date. una lettura = tutte le feste del radicchio da novembre a marzo con le date. Mancano luoghi e programmi: ricontrollare le Pro Loco una settimana prima di ogni festa (PrimaVera in Festa di Roncade 14 e 21/3 ancora da aggiungere) 2026-11-16: il sito ufficiale fioridinverno.tv ha l'elenco con le schede di ogni festa (link usati come official_url al posto di umbriaecultura); Rio San Martino di Scorze' e Mirano sono in provincia di Venezia."
 - nome: Hills Nordic Walking (Farra di Soligo)
   url: https://www.hillsnordicwalking.it/appuntamenti/
   query: hillsnordicwalking appuntamenti
