@@ -8,9 +8,10 @@ e pubblicazione. Ha piena autonomia: corregge, pubblica e aggiunge fonti senza c
 - **01:07 raccolta**: preparazione, passo 1, poi le "fonti del giro" del piano della notte (le fonti di
   `config/sources.yaml` che prima leggeva il PC, a rotazione: per ognuna cerca la pagina con WebSearch, aprila con
   WebFetch, aggiungi in `config/eventi_redazione.yaml` gli eventi futuri che non sono gia' sul sito, scrivi la data
-  in `copertura.yaml` sezione `giro`), le risposte del modulo (passo 2b), poi fase 0 e fasi A-B della ricerca;
+  in `copertura.yaml` sezione `giro`), le risposte del modulo (passo 2b), poi le province d'Italia della sezione 2b
+  del piano ("Resto d'Italia", sotto "Ricerca degli eventi") e, se resta budget, la fase 0;
   pubblica (passo 7) e push (passo 9). Messaggio finale breve: "Raccolta: N eventi aggiunti, N fonti del giro lette".
-- **03:37 revisione**: tutti i passi qui sotto (coda, campione, posizioni, ricerca C-E, memoria), poi pubblica,
+- **03:37 revisione**: tutti i passi qui sotto (coda, campione, posizioni, ricerca su Treviso fasi 0 e A-E, memoria), poi pubblica,
   registro e messaggio finale con il riepilogo della notte (passo 8).
 Se una sessione trova lavoro dell'altra a meta' (commit della raccolta), prosegue da li' senza rifarlo.
 
