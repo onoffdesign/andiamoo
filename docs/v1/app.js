@@ -705,8 +705,8 @@
     if (REDUCED()) { set(to); return; }
     const t0 = performance.now();
     const step = (t) => {
-      const x = Math.min(1, (t - t0) / ms);
-      set(from + (to - from) * easeBack(x));
+      const x = Math.max(0, Math.min(1, (t - t0) / ms));
+      set(Math.max(0, from + (to - from) * easeBack(x)));
       if (x < 1) ANIM[layer + prop] = requestAnimationFrame(step);
     };
     ANIM[layer + prop] = requestAnimationFrame(step);
@@ -718,8 +718,8 @@
     if (REDUCED()) { set(to); return; }
     const t0 = performance.now();
     const step = (t) => {
-      const x = Math.min(1, (t - t0) / ms);
-      set(from + (to - from) * easeBack(x));
+      const x = Math.max(0, Math.min(1, (t - t0) / ms));
+      set(Math.max(0, from + (to - from) * easeBack(x)));
       if (x < 1) ANIM[layer + "pin"] = requestAnimationFrame(step);
     };
     ANIM[layer + "pin"] = requestAnimationFrame(step);
