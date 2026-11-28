@@ -1904,6 +1904,48 @@ correggi:
     official_url: https://www.goldoniteatro.it/spettacoli/christmas-carol/
     nota: orario dalla scheda dello spettacolo sul sito della Fondazione Teatro Goldoni (campo Orario/i), letta il 2026-11-28
     verificato: '2026-11-28'
+  29a320a7973dc2f4:
+    start: 2027-01-14T21:00
+    all_day: false
+    price: 15 euro
+    summary: Spettacolo teatrale della stagione 2027 del Teatro Cristallo, alle 21 con ingresso unico.
+    nota: 'scheda del teatro (cinemacristallo.com/movie/fradeo-sol-comare-luna/): giovedi'' 14 gennaio ore 21, ingresso unico 15 euro'
+    verificato: '2026-11-28'
+  29c1dcd98bb6772f:
+    start: 2027-02-10T21:00
+    all_day: false
+    price: 20 euro
+    summary: Spettacolo teatrale della stagione 2027 del Teatro Cristallo, alle 21 con ingresso unico.
+    nota: 'scheda del teatro (cinemacristallo.com/movie/eroina/): mercoledi'' 10 febbraio ore 21, ingresso unico 20 euro'
+    verificato: '2026-11-28'
+  f7acad977ad35ac4:
+    start: 2027-02-11T21:00
+    all_day: false
+    category: musica
+    subcategory: concerti
+    nota: 'scheda del teatro (cinemacristallo.com/movie/oderzo-suona-buena-vista-social-club/): concerto giovedi'' 11 febbraio ore 21; prezzo non indicato, prevendita su VivaTicket'
+    verificato: '2026-11-28'
+  d2129a4c3512bc48:
+    start: 2027-02-25T21:00
+    all_day: false
+    price: 15 euro
+    summary: Spettacolo teatrale della stagione 2027 del Teatro Cristallo, alle 21 con ingresso unico.
+    nota: 'scheda del teatro (cinemacristallo.com/movie/un-grosso-affare/): giovedi'' 25 febbraio ore 21, 15 euro'
+    verificato: '2026-11-28'
+  aa2b2b1f1f619ee2:
+    start: 2027-02-26T21:00
+    all_day: false
+    category: musica
+    subcategory: concerti
+    nota: 'scheda del teatro (cinemacristallo.com/movie/velvet-dress-u2-tribute-band/): concerto venerdi'' 26 febbraio ore 21; prezzo non indicato'
+    verificato: '2026-11-28'
+  4871ce713a128eee:
+    start: 2027-03-04T21:00
+    all_day: false
+    price: 15 euro
+    summary: Spettacolo teatrale della stagione 2027 del Teatro Cristallo, alle 21 con ingresso unico.
+    nota: 'scheda del teatro (cinemacristallo.com/movie/sottobanco/): giovedi'' 4 marzo ore 21, 15 euro'
+    verificato: '2026-11-28'
 rimuovi:
   902c136eac1b9aed: "doppione della LiTLe Run per il Piccolo Rifugio della redazione (26/12, Marco Polo Sporting Center, scheda Trevisando): questa scheda del calendario podistico non ha il luogo (2026-11-27)"
   5bffbbba438adc4f: "doppione della Marcia San Nicolo' a Pianzano della redazione (6/12, con luogo di partenza): questa scheda del calendario podistico non ha il luogo (2026-11-27)"

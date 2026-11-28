@@ -52470,3 +52470,464 @@ eventi:
     fonte: https://comune.amalfi.sa.it/Novita/Notizie/Amalfi-si-accende-di-meraviglia-dal-Villaggio-di-Natale-al-Capodanno-piu-lungo-d-Italia-la-magia-delle-feste-brilla-tra-vicoli-piazze-e-monumenti
     trovato: '2026-11-28'
     nota: notizia del Comune del 24/11/2026; accesso non indicato; coordinate da OpenStreetMap (Piazza Duomo, Amalfi)
+  - title: Polentazza di Civitella d'Agliano
+    start: 2026-11-27
+    end: 2026-11-29
+    venue: Piazza Cardinale Dolci
+    address: Piazza Cardinale Dolci 16
+    town: Civitella d'Agliano
+    lat: 42.60623
+    lon: 12.18796
+    category: sagre-feste
+    subcategory: sagre
+    official_url: https://comune.civitelladagliano.vt.it
+    summary: Seconda edizione della festa della polenta nel borgo, servita in piazza con condimenti del territorio e vino locale, con musica dal vivo. Fa parte del programma natalizio del paese.
+    fonte: https://www.visitlazio.com/eventi-lazio/la-polentazza-di-civitella-dagliano/
+    nota: 'Piazza Cardinale Dolci non trovata in OpenStreetMap (Nominatim): punto sul centro del comune di config/comuni.csv'
+    trovato: '2026-11-28'
+  - title: Polentazza di Civitella d'Agliano
+    start: 2026-12-04
+    end: 2026-12-06
+    venue: Piazza Cardinale Dolci
+    address: Piazza Cardinale Dolci 16
+    town: Civitella d'Agliano
+    lat: 42.60623
+    lon: 12.18796
+    category: sagre-feste
+    subcategory: sagre
+    official_url: https://comune.civitelladagliano.vt.it
+    summary: Secondo fine settimana della festa della polenta nel borgo, con piatti di polenta serviti in piazza, vino locale e musica dal vivo.
+    fonte: https://www.visitlazio.com/eventi-lazio/la-polentazza-di-civitella-dagliano/
+    nota: 'Piazza Cardinale Dolci non trovata in OpenStreetMap (Nominatim): punto sul centro del comune di config/comuni.csv'
+    trovato: '2026-11-28'
+  - title: In attesa del Natale, mercatini nel borgo
+    start: 2026-12-06T10:00
+    venue: Centro storico di Bassano in Teverina
+    address: Via XXV Aprile 10
+    town: Bassano in Teverina
+    lat: 42.4666797
+    lon: 12.3136036
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: http://comune.bassanoteverina.it
+    summary: Passeggiata tra i vicoli illuminati del borgo con bancarelle di artigianato creativo, antiquariato e oggetti da collezione.
+    fonte: https://www.visitlazio.com/eventi-lazio/in-attesa-del-natale-a-bassano-in-teverina/
+    nota: punto sulla fermata OSM node 2267108546 (Piazza Liberta'), la via XXV Aprile non e' stata cercata
+    trovato: '2026-11-28'
+  - title: In attesa del Natale, accensione dell'albero e tombolata
+    start: 2026-12-08
+    venue: Piazza della Liberta'
+    address: Piazza della Liberta'
+    town: Bassano in Teverina
+    lat: 42.4666797
+    lon: 12.3136036
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: http://comune.bassanoteverina.it
+    summary: In piazza una tombolata aperta a tutti, l'incontro dei bambini con Babbo Natale, l'accensione dell'albero e un punto ristoro con cioccolata calda e vin brule'.
+    fonte: https://www.visitlazio.com/eventi-lazio/in-attesa-del-natale-a-bassano-in-teverina/
+    nota: punto sulla fermata OSM node 2267108546 'Bassano in Teverina Piazza Liberta''
+    trovato: '2026-11-28'
+  - title: Sagra della Polenta di Proceno
+    start: 2026-11-28
+    end: 2026-11-29
+    venue: Piazza della Liberta'
+    address: Piazza della Liberta' 1
+    town: Proceno
+    lat: 42.7572366
+    lon: 11.8303932
+    category: sagre-feste
+    subcategory: sagre
+    official_url: https://www.comune.proceno.vt.it/
+    summary: Nona edizione della sagra della polenta nel borgo al confine con la Toscana, con musica e balli popolari e visite a Palazzo Sforza e al Museo Urbano Diffuso.
+    fonte: https://www.visitlazio.com/eventi-lazio/sagra-della-polenta-a-proceno/
+    nota: coordinate OSM way 416935323 (Piazza della Liberta')
+    trovato: '2026-11-28'
+  - title: Aspettando il Natale a km zero, convegno e degustazione
+    start: 2026-11-28T17:00
+    venue: Palazzo della Reverenda Camera Apostolica
+    address: Piazza della Repubblica 39
+    town: Allumiere
+    lat: 42.1564178
+    lon: 11.9021206
+    category: sagre-feste
+    subcategory: degustazioni
+    official_url: http://www.comune.allumiere.rm.it/
+    summary: Convegno sui prodotti locali e il marketing territoriale nell'Aula Nobile del palazzo, seguito alle 18 da un laboratorio enogastronomico con degustazione di prodotti tipici e dolci natalizi.
+    fonte: https://www.visitlazio.com/eventi-lazio/aspettando-il-natale-a-km-zero-ad-allumiere/
+    nota: coordinate OSM way 385819733 (Municipio, Piazza della Repubblica 39, sede del Palazzo della Camera Apostolica)
+    trovato: '2026-11-28'
+  - title: Aspettando il Natale a km zero, mercato e show cooking
+    start: 2026-11-29T11:00
+    end: 2026-11-29T19:00
+    venue: Piazza della Repubblica
+    address: Piazza della Repubblica 39
+    town: Allumiere
+    lat: 42.1564178
+    lon: 11.9021206
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: http://www.comune.allumiere.rm.it/
+    summary: Giornata con stand e mercato di prodotti locali, giochi della tradizione per bambini, dolci natalizi con vin brule', show cooking di Slow Food alle 17 e musica dal vivo alle 18.
+    fonte: https://www.visitlazio.com/eventi-lazio/aspettando-il-natale-a-km-zero-ad-allumiere/
+    nota: coordinate OSM way 385819733 (Piazza della Repubblica 39)
+    trovato: '2026-11-28'
+  - title: Scampanata di Sant'Andrea
+    start: 2026-11-30T21:00
+    venue: Piazza della Rocca
+    address: Piazza della Rocca 2
+    town: Latera
+    lat: 42.6262502
+    lon: 11.8285186
+    category: sagre-feste
+    subcategory: ricorrenze
+    official_url: https://www.comune.latera.vt.it/
+    summary: Ricorrenza di Sant'Andrea con la sfilata dei ragazzi che trascinano file di barattoli legati tra loro accompagnati da un canto tradizionale; apre il programma natalizio del paese.
+    fonte: https://www.visitlazio.com/eventi-lazio/natale-nel-borgo-di-latera/
+    nota: coordinate OSM way 1072028105 (Piazza della Rocca)
+    trovato: '2026-11-28'
+  - title: Simone Lipperi. Oltre il corpo, dentro il colore
+    start: 2026-11-01T10:00
+    end: 2026-11-30T19:00
+    venue: Scuderie Farnese
+    address: Piazza Castello 18
+    town: Carbognano
+    lat: 42.33211
+    lon: 12.26677
+    category: arte-cultura
+    subcategory: mostre
+    access: libero
+    price: Ingresso libero
+    official_url: https://comune.carbognano.vt.it/
+    summary: Mostra personale con oltre 30 opere del pittore Simone Lipperi, scomparso nel 2022, dagli anni del liceo artistico a quelli dell'Accademia di Belle Arti di Roma.
+    fonte: https://www.visitlazio.com/eventi-lazio/lipperi-oltre-il-corpo-dentro-il-colore-a-carbognano/
+    nota: 'Piazza Castello non trovata in OSM (Nominatim): punto sul centro del comune di config/comuni.csv'
+    trovato: '2026-11-28'
+  - title: Incanto di Natale a Montalto di Castro
+    start: 2026-12-05T16:00
+    venue: Piazza Giacomo Matteotti
+    address: Piazza Giacomo Matteotti 11
+    town: Montalto di Castro
+    lat: 42.3534062
+    lon: 11.6041015
+    category: mercatini-fiere
+    subcategory: artigianato
+    official_url: https://comune.montaltodicastro.vt.it/
+    summary: Pomeriggio natalizio nel centro storico con mercatini artigianali, area street food, musica tradizionale, la casetta di Babbo Natale per le letterine dei bambini e tombolata finale.
+    fonte: https://www.visitlazio.com/eventi-lazio/incanto-di-natale-a-montalto-di-castro/
+    nota: coordinate OSM way 842605046 (Piazza Giacomo Matteotti)
+    trovato: '2026-11-28'
+  - title: 'Echi di Valle Santa: concerto di musica antica'
+    start: 2026-11-28T17:00
+    venue: Santuario di Poggio Bustone
+    address: Via Francescana 9
+    town: Poggio Bustone
+    lat: 42.5044977
+    lon: 12.8925546
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    price: Ingresso libero
+    official_url: https://www.santuarivallesanta.com/2026/11/05/echi-di-valle-santa/
+    summary: Concerto per flauto traversiere e clavicembalo con un programma di musica antica, nella rassegna dei santuari francescani della Valle Santa.
+    fonte: https://www.visitlazio.com/eventi-lazio/concerti-nei-santuari-della-provincia-di-rieti/
+    nota: coordinate OSM node 7704423453 (Santuario di Poggio Bustone)
+    trovato: '2026-11-28'
+  - title: 'Echi di Valle Santa: concerto per flauto e chitarra'
+    start: 2026-12-20T15:30
+    venue: Santuario di Greccio
+    address: Via Limiti Nord 17, Limiti di Greccio
+    town: Greccio
+    lat: 42.4617193
+    lon: 12.7513267
+    category: musica
+    subcategory: jazz-classica
+    access: libero
+    price: Ingresso libero
+    official_url: https://www.santuarivallesanta.com/2026/11/05/echi-di-valle-santa/
+    summary: Ultimo concerto della rassegna nei santuari francescani della Valle Santa, con flauto e chitarra.
+    fonte: https://www.visitlazio.com/eventi-lazio/concerti-nei-santuari-della-provincia-di-rieti/
+    nota: coordinate OSM way 66106620 (Santuario di Greccio)
+    trovato: '2026-11-28'
+  - title: Passo dopo Passo ad Alvisopoli
+    start: '2026-11-29'
+    venue: Alvisopoli
+    town: Fossalta di Portogruaro
+    lat: 45.8022713
+    lon: 12.9194883
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/arrivo-alvisopoli-fossalta-di.html
+    summary: Camminata con percorsi da 2 a 10 km e partenze da piu' localita', con arrivo ad Alvisopoli.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro della frazione di Alvisopoli (OSM node 1481406584): ritrovo non leggibile, volantino in immagine; partenze in orari diversi; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Cammina e Corri con Babbo Natale ad Arsego
+    start: 2026-11-29T14:30
+    venue: Arsego
+    town: San Giorgio delle Pertiche
+    lat: 45.5416588
+    lon: 11.8756775
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/arsego-pd-cammina-e-corri-con-babbo.html
+    summary: Camminata e corsa natalizia con percorsi di 2, 5 e 10 km e partenza alle 14:30.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro della frazione di Arsego (OSM node 347393425): ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Marcia dei 4 Mulini
+    start: 2026-11-29T07:30
+    venue: Bolzano Vicentino
+    town: Bolzano Vicentino
+    lat: 45.60073
+    lon: 11.62207
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/11/bolzano-vicentino-vi-marcia-dei-4.html
+    summary: Marcia con percorsi di 5, 11 e 18 km e partenza libera dalle 7:30 alle 9:30.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: La 10 di Malo
+    start: 2026-11-29T10:15
+    venue: Malo
+    town: Malo
+    lat: 45.65864
+    lon: 11.40444
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2026/10/malo-vi-la-10-di-malo-29112026.html
+    summary: Gara su strada di 10 km con partenza alle 10:15.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non indicato; iscrizioni su endu.net; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Corri con Babbo Natale a Mira
+    start: 2026-11-29T10:00
+    venue: Mira
+    town: Mira
+    lat: 45.43288
+    lon: 12.12337
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2026/11/mira-ve-corri-con-babbo-natale-29112026.html
+    summary: Corsa natalizia con percorsi di 3 e 7 km e partenza alle 10.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Quattro passi fra le colline a Palazzolo
+    start: 2026-11-29T08:00
+    venue: Palazzolo
+    town: Sona
+    lat: 45.453029
+    lon: 10.8177046
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/palazzolo-di-sona-vr-quattro-passi-fra.html
+    summary: Marcia con percorsi di 5,5, 11 e 16 km e partenza libera dalle 8 alle 9.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro della frazione di Palazzolo (OSM node 724299683): ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Santa Caterina Walk
+    start: 2026-11-29T08:30
+    venue: Stanghella
+    town: Stanghella
+    lat: 45.13493
+    lon: 11.75641
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/stanghella-pd-santa-caterina-walk.html
+    summary: Camminata con percorsi di 6, 12 e 18 km e partenza alle 8:30.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Babbi Natale a spasso a Santa Maria di Sala
+    start: 2026-11-29T15:30
+    venue: Santa Maria di Sala
+    town: Santa Maria di Sala
+    lat: 45.50475
+    lon: 12.03547
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/santa-maria-di-sala-ve-babbi-natale.html
+    summary: Camminata natalizia con partenza alle 15:30.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Aspettando il Natale con le Rane a Vangadizza
+    start: 2026-11-29T08:00
+    venue: Vangadizza
+    town: Legnago
+    lat: 45.1713446
+    lon: 11.3030592
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/vangadizza-di-legnago-vr-aspettando-il.html
+    summary: Marcia con percorsi ripetibili di 3 e 7 km e partenza libera dalle 8 alle 9.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro della frazione di Vangadizza (OSM node 1514075903): ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Camminiamo insieme contro la violenza sulle donne
+    start: 2026-11-29T17:30
+    venue: Villanova di Camposampiero
+    town: Villanova di Camposampiero
+    lat: 45.48964
+    lon: 11.97277
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/villanova-di-camposampiero-pd.html
+    summary: Camminata di sensibilizzazione contro la violenza sulle donne con partenza alle 17:30.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Ultrabericus Winter
+    start: '2026-12-06'
+    venue: Arcugnano
+    town: Arcugnano
+    lat: 45.49612
+    lon: 11.55075
+    category: sport
+    subcategory: outdoor
+    access: iscrizione
+    official_url: https://ultrabericus.it/ultrabericus-winter
+    summary: Trail invernale sui Colli Berici con percorsi di 34 km (1200 m di dislivello) e 17 km (700 m).
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: dal calendario Podismo Veneto (home, dicembre 2026); punto sul centro del comune, partenza non indicata; dati dalla riga del calendario Podismo Veneto
+    trovato: '2026-11-28'
+  - title: Caminada fra i campi del Cason
+    start: 2026-12-06T08:00
+    venue: Chievo
+    town: Verona
+    lat: 45.4575984
+    lon: 10.9464024
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/chievo-vr-caminada-fra-i-campi-del.html
+    summary: Marcia con percorsi di 3,5, 6,5, 11 e 17,5 km e partenza libera dalle 8 alle 9.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul quartiere di Chievo (OSM node 259650179): ritrovo non leggibile; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Corri X Lusia
+    start: 2026-12-06T10:00
+    venue: Lusia
+    town: Lusia
+    lat: 45.10104
+    lon: 11.66302
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/lusia-ro-corri-x-lusia-6122026.html
+    summary: Corsa di 8 km con partenza alle 10, preceduta alle 9:10 dalle gare giovanili.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Marcia dei tri capitei
+    start: 2026-12-06T08:00
+    venue: Palesella
+    town: Cerea
+    lat: 45.2203386
+    lon: 11.2378494
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/palesella-di-cerea-vr-marcia-dei-tri.html
+    summary: Marcia con percorsi di 6, 12 e 19 km e partenza libera dalle 8 alle 8:30.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro della frazione di Palesella (OSM node 1396863659): ritrovo non leggibile; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Quattro passi fra sucaro e farina
+    start: 2026-12-06T08:30
+    venue: Pontelongo
+    town: Pontelongo
+    lat: 45.25029
+    lon: 12.01911
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/pontelongo-pd-quattro-passi-fra-sucaro.html
+    summary: Marcia con percorsi di 6, 15 e 18 km e partenza libera dalle 8:30 alle 9:30.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Babbo Run a Terrassa Padovana
+    start: 2026-12-06T14:00
+    venue: Terrassa Padovana
+    town: Terrassa Padovana
+    lat: 45.24543
+    lon: 11.90358
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/terrassa-padovana-pd-babbo-run-solidale.html
+    summary: Corsa solidale natalizia con percorsi di 5 e 12 km e partenza alle 14.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Marcia delle risorgive e dei Babbi Natale
+    start: 2026-12-06T07:30
+    venue: Villaverla
+    town: Villaverla
+    lat: 45.65498
+    lon: 11.49359
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/11/villaverla-vi-marcia-delle-risorgive.html
+    summary: Marcia con percorsi di 4, 7, 12 e 18 km e partenza libera dalle 7:30 alle 10.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Su e xo pa ea' Volta
+    start: 2026-12-06T08:00
+    venue: Voltabarozzo
+    town: Padova
+    lat: 45.3798015
+    lon: 11.9021444
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/voltabarozzo-pd-su-e-xo-pa-ea-volta.html
+    summary: Marcia con percorsi di 7, 13 e 19 km e partenza libera dalle 8 alle 9.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del quartiere di Voltabarozzo (OSM node 344718104): ritrovo non leggibile; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Camminata dei Babbi Natale a Zimella
+    start: 2026-12-06T10:00
+    venue: Zimella
+    town: Zimella
+    lat: 45.36352
+    lon: 11.33921
+    category: sport
+    subcategory: corsa
+    access: iscrizione
+    official_url: https://calendariopodismoveneto.blogspot.com/2025/12/zimella-vr-cammminata-dei-babbi-natale.html
+    summary: Camminata natalizia con partenza alle 10.
+    fonte: https://calendariopodismoveneto.blogspot.com
+    nota: 'punto sul centro del comune: ritrovo non leggibile, volantino in immagine; dati dalla riga del calendario Podismo Veneto'
+    trovato: '2026-11-28'
+  - title: Il Natale delle Favole al Castello di Maenza
+    start: 2026-12-06
+    end: 2027-01-06
+    venue: Castello Baronale di Maenza
+    address: Piazza Fernando Lepri
+    town: Maenza
+    lat: 41.5236242
+    lon: 13.1810885
+    category: famiglie-bambini
+    subcategory: spettacoli-bimbi
+    access: biglietto
+    official_url: https://ilnataledellefavole.amaenza.com/
+    summary: Percorso a tema natalizio nelle sale del castello baronale, con ambientazioni fiabesche dalla stanza di Babbo Natale al regno dei ghiacci; biglietti su prenotazione con scelta di giorno e orario.
+    fonte: https://amaenza.com/eventi/
+    nota: date dal sito ufficiale amaenza.com (VisitLazio indica 5/12-10/1); indirizzo e coordinate OSM way 198798863 (Castello Baronale di Maenza, Piazza Fernando Lepri)
+    trovato: '2026-11-28'

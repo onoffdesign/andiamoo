@@ -644,7 +644,7 @@ sources:
     listing_urls:
       - https://www.visitlazio.com/eventi-lazio/
     ai_rewrite: true
-    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): JSON-LD Event, 93 eventi futuri con indirizzo completo."
+    note: "Aggiunta da Claude il 2026-11-28 (proposta dell'agente fonti): JSON-LD Event, 93 eventi futuri con indirizzo completo. Giro del 2026-11-28 sera: con WebFetch il calendario della pagina si legge solo fino al 6/12 (testo troncato, mesi successivi su link '#'); le schede si aprono e hanno indirizzo, orari e sito del comune, ma spesso date in conflitto tra intestazione e testo (Capranica, Gaeta, Maenza): controllarle sul sito ufficiale."
   - id: teatro-massimo-bellini
     name: Teatro Massimo Bellini (Catania)
     type: jsonld

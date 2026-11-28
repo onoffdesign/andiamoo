@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-28T20:58+01:00",
+ "generato": "2026-11-28T20:59+01:00",
  "eventi": [
   {
    "uid": "8136561133759847",
@@ -847,6 +847,28 @@
    "precisione": "address"
   },
   {
+   "uid": "536fa287c674577f",
+   "motivi": [
+    "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)"
+   ],
+   "titolo": "Polentazza di Civitella d'Agliano",
+   "inizio": "2026-11-27",
+   "fine": "2026-11-29",
+   "luogo": "Piazza Cardinale Dolci",
+   "indirizzo": "Piazza Cardinale Dolci 16",
+   "comune": "Civitella d'Agliano",
+   "categoria": "sagre-feste",
+   "accesso": "sconosciuto",
+   "prezzo": "",
+   "fonte": "visitlazio.com",
+   "pagina_fonte": "https://www.visitlazio.com/eventi-lazio/la-polentazza-di-civitella-dagliano/",
+   "sito_ufficiale": "https://comune.civitelladagliano.vt.it",
+   "riassunto": "Seconda edizione della festa della polenta nel borgo, servita in piazza con condimenti del territorio e vino locale, con musica dal vivo. Fa parte del programma natalizio del paese.",
+   "lat": 42.60623,
+   "lon": 12.18796,
+   "precisione": "address"
+  },
+  {
    "uid": "e0b1dabf1e52f390",
    "motivi": [
     "accesso sconosciuto (libero, offerta, biglietto, iscrizione, invito?)",
@@ -1315,28 +1337,6 @@
    "riassunto": "Mercatino natalizio con idee regalo, oggetti artigianali e prodotti alimentari, nell'ambito di Pistoia Citta' del Natale.",
    "lat": 43.9342066,
    "lon": 10.9158041,
-   "precisione": "address"
-  },
-  {
-   "uid": "95768794f0fefd2b",
-   "motivi": [
-    "possibile doppione di 268e3ce57ae79329"
-   ],
-   "titolo": "Siena Incanta: accensione delle luminarie",
-   "inizio": "2026-11-28T17:00",
-   "fine": null,
-   "luogo": "Piazza del Campo",
-   "indirizzo": "Il Campo",
-   "comune": "Siena",
-   "categoria": "sagre-feste",
-   "accesso": "libero",
-   "prezzo": "",
-   "fonte": "comune.siena.it",
-   "pagina_fonte": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le (programma completo di Siena Incanta, Comune di Siena, letto il 2026-11-28)",
-   "sito_ufficiale": "https://comune.siena.it/novita/siena-incanta-si-accende-il-natale-siena-eventi-spettacoli-e-mostre-internazionali-le",
-   "riassunto": "Accensione delle luminarie in centro e degli alberi di Natale nei quartieri, apertura del programma natalizio Siena Incanta.",
-   "lat": 43.3184391,
-   "lon": 11.3315583,
    "precisione": "address"
   }
  ]
