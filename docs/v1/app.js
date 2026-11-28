@@ -517,13 +517,13 @@
   // sono file di punti; restano solo i nomi di citta' e paesi. Tutto il resto della base (edifici, parchi, binari,
   // stradine, numeri delle strade, aeroporti) e' nascosto.
   // La terra non ha un colore di fondo: il suo grigio nasce solo dalla trama fitta di puntini sulla carta.
-  const MAP_INK = { paper: "#f5f3ee", dot: "#bab3a4", road: "#a9a293", border: "#958e80", text: "#6b665d" };
+  const MAP_INK = { paper: "#f5f3ee", dot: "#a49d8e", road: "#a9a293", border: "#958e80", text: "#6b665d" };
   function dotPattern() {
-    const s = 2, step = 4, cv = document.createElement("canvas");
+    const s = 2, step = 3, cv = document.createElement("canvas");     // un puntino ogni 3 px, a ogni zoom
     cv.width = cv.height = step * s;
     const g = cv.getContext("2d");
     g.fillStyle = MAP_INK.paper; g.fillRect(0, 0, cv.width, cv.height);
-    g.fillStyle = MAP_INK.dot; g.beginPath(); g.arc(cv.width / 2, cv.height / 2, 0.85 * s, 0, Math.PI * 2); g.fill();
+    g.fillStyle = MAP_INK.dot; g.beginPath(); g.arc(cv.width / 2, cv.height / 2, 0.55 * s, 0, Math.PI * 2); g.fill();
     return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
   }
   function warmStyle() {
