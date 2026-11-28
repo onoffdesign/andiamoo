@@ -544,73 +544,45 @@
   // numeri casuali ripetibili: la grana e i segnaposti sono uguali a ogni caricamento
   const rng = (seed) => () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
 
-  // ---- texture di carta stampata, generate una volta sola e ripetute dalla mappa (si spostano con lei)
-  // Rumore liscio e ripetibile senza cuciture: griglia periodica di valori casuali, interpolata dolcemente.
-  function tileNoise(cells, seed) {
-    const r = rng(seed), g = Array.from({ length: cells * cells }, r);
-    const sm = (t) => t * t * (3 - 2 * t);
-    return (u, v) => {                                  // u, v tra 0 e 1
-      const x = u * cells, y = v * cells, x0 = Math.floor(x), y0 = Math.floor(y), fx = sm(x - x0), fy = sm(y - y0);
-      const at = (i, j) => g[((j % cells + cells) % cells) * cells + ((i % cells + cells) % cells)];
-      const a = at(x0, y0) + (at(x0 + 1, y0) - at(x0, y0)) * fx, b = at(x0, y0 + 1) + (at(x0 + 1, y0 + 1) - at(x0, y0 + 1)) * fx;
-      return a + (b - a) * fy;
+  // Grana della terra: tanti puntini casuali piu' scuri e qualcuno piu' chiaro sul verde (effetto stampa riso).
+  function grainPattern() {
+    const s = 2, size = 96, cv = document.createElement("canvas");
+    cv.width = cv.height = size * s;
+    const g = cv.getContext("2d"), r = rng(42);
+    g.fillStyle = MAP_INK.land; g.fillRect(0, 0, cv.width, cv.height);
+    const dots = (n, color, alpha, rad) => {
+      g.fillStyle = color;
+      for (let i = 0; i < n; i++) {
+        g.globalAlpha = alpha * (0.45 + r() * 0.55);
+        g.beginPath(); g.arc(r() * cv.width, r() * cv.height, (rad * (0.6 + r() * 0.6)) * s, 0, Math.PI * 2); g.fill();
+      }
     };
+    dots(2600, MAP_INK.grain, 0.55, 0.55);
+    dots(900, MAP_INK.light, 0.5, 0.5);
+    g.globalAlpha = 1;
+    return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
   }
-  const hex = (h) => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
-  // Disegna un foglio: colore di base con macchie larghe (inchiostro steso a mano, mai uniforme), grana fine pixel per
-  // pixel, puntini sparsi di inchiostro (piu' fitti dove la macchia e' scura) e fibre della carta.
-  function printTexture({ size, base, dark, light, seed, mottle, grain, specks, lightSpecks, fibers, fiber }) {
-    const s = 2, W = size * s, cv = document.createElement("canvas");
-    cv.width = cv.height = W;
-    const g = cv.getContext("2d"), r = rng(seed);
-    const n1 = tileNoise(3, seed + 1), n2 = tileNoise(9, seed + 2), n3 = tileNoise(27, seed + 3), n4 = tileNoise(70, seed + 4);
-    const B = hex(base), D = hex(dark), L = hex(light);
-    const img = g.createImageData(W, W), px = img.data, dens = new Float32Array(W * W);
-    for (let y = 0; y < W; y++) {
-      for (let x = 0; x < W; x++) {
-        const u = x / W, v = y / W;
-        const m = n1(u, v) * 0.5 + n2(u, v) * 0.3 + n3(u, v) * 0.2;              // macchie: 0..1
-        const t = (m - 0.5) * mottle + (n4(u, v) - 0.5) * mottle * 0.5 + (r() - 0.5) * grain;
-        const c = t > 0 ? D : L, k = Math.min(1, Math.abs(t));
-        const i = (y * W + x) * 4;
-        px[i] = B[0] + (c[0] - B[0]) * k; px[i + 1] = B[1] + (c[1] - B[1]) * k; px[i + 2] = B[2] + (c[2] - B[2]) * k; px[i + 3] = 255;
-        dens[y * W + x] = m;
-      }
+  // Carta del mare: crema con grana fine e qualche fibra, disegnata nella mappa stessa (si sposta con lei).
+  function paperPattern() {
+    const s = 2, size = 128, cv = document.createElement("canvas");
+    cv.width = cv.height = size * s;
+    const g = cv.getContext("2d"), r = rng(7);
+    g.fillStyle = MAP_INK.paper; g.fillRect(0, 0, cv.width, cv.height);
+    for (let i = 0; i < 5200; i++) {
+      g.fillStyle = r() < 0.75 ? "#8a7a5a" : "#ffffff";
+      g.globalAlpha = 0.05 + r() * 0.1;
+      g.fillRect(r() * cv.width, r() * cv.height, 1 + r() * 1.2, 1 + r() * 1.2);
     }
-    g.putImageData(img, 0, 0);
-    const dot = (x, y, rad, color, alpha) => {                // disegnato anche oltre i bordi: nessuna cucitura
-      g.globalAlpha = alpha; g.fillStyle = color;
-      for (const ox of [0, -W, W]) for (const oy of [0, -W, W]) {
-        const X = x + ox, Y = y + oy;
-        if (X < -rad || Y < -rad || X > W + rad || Y > W + rad) continue;
-        g.beginPath(); g.ellipse(X, Y, rad, rad * (0.7 + r() * 0.3), r() * Math.PI, 0, Math.PI * 2); g.fill();
-      }
-    };
-    for (let i = 0; i < specks; i++) {                         // puntini d'inchiostro, a grappoli dove la macchia e' scura
-      const x = r() * W, y = r() * W, m = dens[(Math.floor(y) * W + Math.floor(x))];
-      if (r() > 0.25 + m * 1.1) continue;
-      dot(x, y, (0.35 + r() * r() * 1.3) * s, dark, 0.35 + r() * 0.5);
-    }
-    for (let i = 0; i < lightSpecks; i++) dot(r() * W, r() * W, (0.3 + r() * 0.8) * s, light, 0.3 + r() * 0.5);
-    g.lineCap = "round";
-    for (let i = 0; i < fibers; i++) {                         // fibre: tratti sottili e curvi
-      const x = r() * W, y = r() * W, a = r() * Math.PI * 2, l = (4 + r() * 16) * s;
-      g.globalAlpha = 0.08 + r() * 0.12; g.strokeStyle = r() < 0.6 ? fiber : light; g.lineWidth = (0.3 + r() * 0.5) * s;
-      g.beginPath(); g.moveTo(x, y);
-      g.bezierCurveTo(x + Math.cos(a) * l * 0.3 + (r() - 0.5) * 6 * s, y + Math.sin(a) * l * 0.3 + (r() - 0.5) * 6 * s,
-        x + Math.cos(a) * l * 0.7 + (r() - 0.5) * 6 * s, y + Math.sin(a) * l * 0.7 + (r() - 0.5) * 6 * s,
-        x + Math.cos(a) * l, y + Math.sin(a) * l);
-      g.stroke();
+    g.strokeStyle = "#9a8865"; g.lineWidth = 0.8;
+    for (let i = 0; i < 40; i++) {                       // fibre corte
+      const x = r() * cv.width, y = r() * cv.height, a = r() * Math.PI, l = 6 + r() * 14;
+      g.globalAlpha = 0.06 + r() * 0.06;
+      g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(x + Math.cos(a) * l / 2 + r() * 4, y + Math.sin(a) * l / 2 + r() * 4,
+        x + Math.cos(a) * l, y + Math.sin(a) * l); g.stroke();
     }
     g.globalAlpha = 1;
-    return { width: W, height: W, data: new Uint8Array(g.getImageData(0, 0, W, W).data.buffer) };
+    return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
   }
-  // Terra: verde steso a macchie, con grana e grappoli di puntini piu' scuri (stampa riso su carta).
-  const grainPattern = () => printTexture({ size: 256, base: MAP_INK.land, dark: "#2a7f59", light: "#b4e2c6", seed: 42,
-    mottle: 0.55, grain: 0.22, specks: 9000, lightSpecks: 2600, fibers: 120, fiber: "#2a7f59" });
-  // Mare: carta crema, leggermente macchiata, con fibre e qualche puntino.
-  const paperPattern = () => printTexture({ size: 256, base: MAP_INK.paper, dark: "#c9b991", light: "#fffdf6", seed: 7,
-    mottle: 0.32, grain: 0.14, specks: 1400, lightSpecks: 900, fibers: 260, fiber: "#a8946a" });
   function warmStyle() {
     const set = (id, prop, val) => { try { map.setPaintProperty(id, prop, val); } catch (_) { /* proprieta' assente */ } };
     const lay = (id, prop, val) => { try { map.setLayoutProperty(id, prop, val); } catch (_) { /* proprieta' assente */ } };
