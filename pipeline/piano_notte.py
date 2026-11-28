@@ -30,7 +30,7 @@ def budget() -> dict:
     data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
     defaults = {"piano": "pro", "ricerche_max": 70, "coda_max": 30, "campione": 10, "test_copertura": 10,
                 "fonti_note": 8, "comuni": 6, "ambiti_categorie": 4, "categorie_nuove": 10, "fonti_nuove": 5,
-                "posizioni": 10, "giro": 12, "province_italia": 0, "comuni_per_provincia": 3}
+                "posizioni": 10, "giro": 12, "verifiche_fonti": 2, "province_italia": 0, "comuni_per_provincia": 3}
     return {**defaults, **(data or {})}
 
 
@@ -146,6 +146,23 @@ def province_towns(sigla: str, cov: dict, n: int) -> list[tuple[str, str]]:
     return oldest({t: done.get(t) for t in names}, n)
 
 
+def sources_to_verify(n: int) -> list[tuple[str, int]]:
+    """Domini da verificare (elenco, catalogo e link degli eventi trattenuti), prima quelli che trattengono piu' eventi."""
+    from collections import Counter
+    from . import fonti_vietate
+    held = Counter()
+    try:
+        for i in json.loads((OPS / "da-verificare.json").read_text(encoding="utf-8")).get("eventi") or []:
+            link = i.get("link") or ""
+            if fonti_vietate.status(link)[0] == "da_verificare":
+                held[fonti_vietate._host(link)] += 1
+    except (OSError, ValueError):
+        pass
+    lists = fonti_vietate._lists()
+    doms = {e["dominio"] for e in lists["da_verificare"] + lists["catalogo"]} | set(held)
+    return sorted(((d, held.get(d, 0)) for d in doms), key=lambda x: (-x[1], x[0]))[:n]
+
+
 def pc_status(today: date | None = None) -> tuple[str, int | None]:
     """(data dell'ultimo giro del PC, giorni passati) da ops/rapporto.json; giorni None se il rapporto manca."""
     try:
@@ -194,6 +211,10 @@ def main(argv=None) -> int:
     if args[:1] == ["--url"] and len(args) > 1:
         from . import fonti_vietate
         st, entry = fonti_vietate.status(args[1])
+        if st == "da_verificare":
+            print(f"DA VERIFICARE: di {fonti_vietate.label(args[1])} puoi aprire solo robots.txt e termini e condizioni; "
+                  f"nessun divieto di scraping o simili = scrivila in ammesse, divieto = vietate")
+            return 1
         if st in fonti_vietate.BLOCKED:
             print(f"VIETATA (regola fonti, config/fonti-vietate.yaml): {fonti_vietate.label(args[1])} e' "
                   f"{st.replace('_', ' ')}: non aprirla ne' leggerla"
@@ -227,10 +248,13 @@ def main(argv=None) -> int:
     lists = fonti_vietate._lists()
     print("REGOLA FONTI: mai aprire, leggere o cercare con site: le piattaforme vietate o da verificare di "
           "config/fonti-vietate.yaml (" + ", ".join(sorted(e["dominio"] for e in lists["vietate"])[:12]) + ", ...). "
+          "Delle da verificare si aprono solo robots.txt e termini (vedi sotto). "
           "Controllo di un link: python -m pipeline.fonti_vietate --url <link>")
-    if lists["da_verificare"]:
-        print("Da verificare (vietate finche' non leggi robots.txt e termini; verificane 1-2 se resta budget): "
-              + ", ".join(e["dominio"] for e in lists["da_verificare"][:8]))
+    todo = sources_to_verify(b["verifiche_fonti"])
+    if todo:
+        print(f"Fonti da verificare stanotte ({len(todo)}; leggi SOLO robots.txt e termini e condizioni: nessun divieto "
+              f"di scraping o simili = ammessa, divieto = vietata, pagine illeggibili = resta da verificare): "
+              + ", ".join(f"{d} ({n} eventi trattenuti)" if n else d for d, n in todo))
     doms = [d["dominio"] + (d.get("percorso") or "") for d in blocked_domains()]
     if doms:
         print(f"Non aprire con WebFetch (ops/domini-illeggibili.yaml): {', '.join(doms)}")

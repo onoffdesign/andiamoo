@@ -14,6 +14,11 @@
 # api             unica eccezione: piattaforma vietata con chiave API ufficiale valida, usata nel rispetto delle sue
 #                 condizioni (vale solo per le chiamate all'API, non per le pagine del sito).
 #
+# Verifica (Federico, 2026-11-28): si leggono solo robots.txt e termini e condizioni. Nessun divieto di scraping,
+# crawling, estrazione automatica, data mining o riuso automatizzato (dei dati degli eventi o simili) e robots.txt
+# che non blocca le pagine degli eventi = fonte valida, in "ammesse" con data e pagine lette. Divieto = "vietate" con
+# la frase. Pagine non leggibili = resta in "da_verificare".
+#
 # "dominio" vale anche per i sottodomini (eventbrite.it copre www.eventbrite.it). "percorso" limita a una parte del
 # sito. Prima di aggiungere una fonte nuova al giro: leggere robots.txt e termini d'uso e scriverla qui.
 # Lo controllano: python -m pipeline.fonti_vietate --url <link>   e   python -m pipeline.editorial --controlla
@@ -31,18 +36,17 @@ vietate:
   - {dominio: cultura.gov.it, motivo: "robots.txt vieta i robot (anche museiveneto.cultura.gov.it)", verificato: 2026-10-30}
   - {dominio: deliziedautunno.tv, motivo: "robots.txt vieta i robot", verificato: 2026-10-30}
   - {dominio: vivaticket.com, motivo: "protezione anti-bot: l'accesso automatico non e' consentito", verificato: 2026-10-30}
-  # biglietterie e piattaforme di eventi: termini d'uso non verificati, nel dubbio vietate (regola punto 1)
-  - {dominio: ticketone.it, motivo: "biglietteria: nel dubbio vietata, termini da leggere", verificato: 2026-11-28}
-  - {dominio: dice.fm, motivo: "biglietteria: nel dubbio vietata, termini da leggere", verificato: 2026-11-28}
-  - {dominio: xceed.me, motivo: "biglietteria: nel dubbio vietata, termini da leggere", verificato: 2026-11-28}
-  - {dominio: feverup.com, motivo: "piattaforma eventi: nel dubbio vietata", verificato: 2026-11-28}
-  - {dominio: ticketsms.it, motivo: "biglietteria: nel dubbio vietata", verificato: 2026-11-28}
-  - {dominio: ra.co, motivo: "piattaforma eventi: nel dubbio vietata", verificato: 2026-11-28}
   - {dominio: meetup.com, motivo: "termini Meetup: vietato lo scraping", verificato: 2026-11-28}
-  - {dominio: allevents.in, motivo: "aggregatore: nel dubbio vietato", verificato: 2026-11-28}
-  - {dominio: t.me, motivo: "Telegram: termini non verificati, nel dubbio vietato (anche le anteprime t.me/s)", verificato: 2026-11-28}
 
 da_verificare:
+  - {dominio: ticketone.it, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
+  - {dominio: dice.fm, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
+  - {dominio: xceed.me, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
+  - {dominio: feverup.com, nota: "piattaforma eventi: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
+  - {dominio: ticketsms.it, nota: "biglietteria: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
+  - {dominio: ra.co, nota: "piattaforma eventi: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
+  - {dominio: allevents.in, nota: "aggregatore: termini da leggere; tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
+  - {dominio: t.me, nota: "Telegram: termini non verificati, termini da leggere (anche le anteprime t.me/s); tolta da vietate il 2026-11-28 (era vietata solo per dubbio)"}
   - {dominio: eventiesagre.it, nota: "aggregatore; termini d'uso da leggere"}
   - {dominio: 2night.it, nota: "aggregatore; robots.txt con segnali di contenuto (use=reference); termini da leggere"}
   - {dominio: calendariopodismo.it, nota: "aggregatore gare; robots.txt use=reference; termini da leggere"}

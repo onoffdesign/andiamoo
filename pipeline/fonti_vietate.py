@@ -219,7 +219,8 @@ def main(argv=None) -> int:
     if args.url:
         st, entry = status(args.url)
         msg = {"vietata": "VIETATA: non aprirla, non leggerla, non copiarla. Cerca l'evento su una fonte ammessa.",
-               "da_verificare": "DA VERIFICARE: vale come vietata finche' non leggi termini d'uso e robots.txt.",
+               "da_verificare": "DA VERIFICARE: apri solo robots.txt e termini e condizioni. Nessun divieto di scraping "
+                                "o simili = scrivila in ammesse; divieto = vietate; illeggibili = resta qui.",
                "ammessa": "ammessa (verificata).",
                "ufficiale": "ammessa (sito ufficiale: rispetta robots.txt)."}[st]
         print(f"{_host(args.url)}: {msg}")

@@ -15,6 +15,7 @@ test_copertura: 20           # eventi del test di copertura
 fonti_note: 40               # fonti note in scadenza da riaprire (ops/fonti.yaml)
 giro: 40                     # fonti del giro (config/sources.yaml) da leggere a rotazione
 fonti_nuove: 30              # fonti nuove da cercare e valutare (prima: robots.txt e termini, regola fonti)
+verifiche_fonti: 12          # fonti da verificare (robots.txt e termini): nessun divieto = ammessa
 comuni: 20                   # comuni della provincia di Treviso da controllare
 ambiti_categorie: 12         # ambiti di ops/categorie-ricerca.md da cercare a Treviso
 province_italia: 10          # altre province d'Italia a rotazione (pipeline/italia.py)

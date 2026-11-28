@@ -32,6 +32,11 @@ Ogni errore che si ripete (dal sito o dal campione) diventa una nuova riga nella
   o un campo vuoto non sono un link ufficiale. Per gli eventi con link social si cerca il sito o la pagina
   dell'evento; se non c'e', resta in coda. (Superata il 2026-11-28 per Eventbrite: vedi la regola fonti qui sotto.)
 
+- 2026-11-28 · **Verifica delle fonti** (decisa da Federico): se in robots.txt e nei termini e condizioni non c'e'
+  nessun divieto di scraping dei dati degli eventi o simili (crawling, estrazione automatica, data mining, riuso
+  automatizzato), la fonte e' valida e va in `ammesse` con data e pagine lette. Divieto trovato: `vietate` con la
+  frase. Pagine non leggibili: resta da verificare. Il "nel dubbio vietata" vale solo finche' non si sono lette.
+
 - 2026-11-28 · **REGOLA FONTI: piattaforme con divieto di scraping** (decisa da Federico). Elenco in
   `config/fonti-vietate.yaml`, Eventbrite per primo; nel dubbio una fonte vale come vietata. Sulle vietate: niente
   visite, letture o analisi automatiche (nemmeno per scoprire eventi), niente endpoint interni, servizi di scraping

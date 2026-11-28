@@ -45,9 +45,20 @@ frazione, fuori area) finiscono in `ops/senza-posizione.json`: sistemali subito 
     vengono da una fonte vietata; `python -m pipeline.editorial --sposta-vietati` sposta li' gli eventi della redazione
     che non rispettano la regola (lo segnala anche `--controlla`).
   - **Fonte nuova** (aggregatore, testata, blog, piattaforma): prima di usarla leggi robots.txt e termini d'uso e
-    scrivila in `config/fonti-vietate.yaml` (`ammesse` con data e pagina letta, oppure `vietate`). Finche' non e'
-    verificata vale come vietata. Ogni notte, se resta budget, verifica una o due fonti di `da_verificare` (e quelle
-    del catalogo di tipo aggregatore, testata o biglietteria): sono gli eventi che possono tornare sul sito.
+    scrivila in `config/fonti-vietate.yaml`. Finche' non e' verificata vale come vietata. Ogni notte verifica le fonti
+    indicate dal piano della notte (`verifiche_fonti` del budget, prima quelle che trattengono piu' eventi in
+    `ops/da-verificare.json`): sono gli eventi che possono tornare sul sito.
+    **Come si verifica una fonte** (aggiunta da Federico il 2026-11-28): leggi il suo robots.txt e le pagine dei
+    termini e condizioni d'uso (anche note legali, privacy o copyright, se i termini non ci sono). Sono le uniche
+    pagine di una fonte da verificare che si possono aprire, una volta sola e senza leggere altro del sito.
+    - **Nessun divieto trovato** di scraping, crawling, estrazione o raccolta automatica dei dati (degli eventi o in
+      generale), di data mining / text and data mining o di riuso automatizzato dei contenuti, e robots.txt che non
+      blocca le pagine degli eventi: la fonte e' **valida**. Va in `ammesse` con la data e le pagine lette, es.
+      `{dominio: x.it, verificato: AAAA-MM-GG, nota: "robots.txt e /termini letti: nessun divieto"}`.
+    - **Divieto trovato** (anche solo per i robot, o per le pagine degli eventi in robots.txt): va in `vietate` con
+      il motivo e la frase o la riga che lo dice.
+    - **Pagine non leggibili** (WebFetch rifiutato, sito irraggiungibile): resta in `da_verificare`, si riprova un'altra
+      notte. Il dubbio vale solo finche' non si sono potute leggere.
   - **Richiesta di rimozione** da un organizzatore o da una piattaforma: rimuovi l'evento (`rimuovi` in
     `config/correzioni.yaml` con motivo "richiesta di rimozione da ... del AAAA-MM-GG") e annota la richiesta in
     `ops/richieste-rimozione.md`.
