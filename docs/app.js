@@ -914,6 +914,20 @@
     catch (_) { apiOk = aiOk = false; }
   }
 
+  // Modulo Google (senza PC): "Aggiungi evento" e "Segnala" vanno nelle risposte del modulo, che Claude legge di notte.
+  // settings.yaml > site.form_url (link del modulo) e site.form_entries (codici entry.NNN dei campi).
+  const FORM_KEYS = { title: "titolo", date: "data", time: "ora", end_date: "fine", town: "comune", venue: "luogo",
+    address: "indirizzo", category: "categoria", access: "accesso", price: "prezzo", official_url: "link",
+    summary: "descrizione", description: "descrizione", contatto: "contatto" };
+  function formOn() { const s = DATA.site || {}; return !!(s.form_url && s.form_entries && Object.keys(s.form_entries).length); }
+  async function sendForm(values) {
+    const s = DATA.site, body = new URLSearchParams();
+    Object.entries(values).forEach(([k, v]) => { const id = s.form_entries[k]; if (id && v) body.append(id, v); });
+    const action = s.form_url.replace(/\/viewform.*$/, "/formResponse");
+    // il modulo non risponde ai siti esterni (no-cors): l'invio arriva, la risposta non si puo' leggere
+    await fetch(action, { method: "POST", mode: "no-cors", body });
+  }
+
   function altLinks() {
     const s = DATA.site, out = [];
     if (s.telegram_bot) out.push(`<a class="btn-light" href="https://t.me/${attr(s.telegram_bot)}" target="_blank" rel="noopener">Telegram</a>`);
@@ -935,7 +949,11 @@
       resetAdd();
       dlg.showModal();
       await checkApi();
-      if (!API || !apiOk) {
+      if ((!API || !apiOk) && formOn()) {
+        addStatus("warn", "Compila i campi a mano: l'evento arriva alla redazione e compare sulla mappa dopo il controllo.");
+        setSourceEnabled(false);
+        showForm({}, null);
+      } else if (!API || !apiOk) {
         addStatus("warn", `<div><strong>La lettura automatica non è attiva in questo momento.</strong> Puoi compilare a mano${
           DATA.site.contact_email ? " e inviarci i dati per email" : ""}${altLinks() ? ", oppure scriverci:" : "."}${altLinks()}</div>`);
         setSourceEnabled(false);
@@ -1084,7 +1102,7 @@
     const d = formData();
     const ok = !$("#event-form").hidden && REQUIRED.every((k) => d[k]);
     $("#add-submit").disabled = !ok;
-    $("#add-submit").textContent = (!API || !apiOk) && DATA.site.contact_email ? "Invia per email" : "Invia evento";
+    $("#add-submit").textContent = (!API || !apiOk) && !formOn() && DATA.site.contact_email ? "Invia per email" : "Invia evento";
     return ok;
   }
 
@@ -1093,6 +1111,23 @@
     const missingReq = REQUIRED.filter((k) => !d[k]);
     if (missingReq.length) {
       missingReq.forEach((k) => { const f = document.querySelector(`.field[data-f="${k}"]`); f.classList.add("missing"); f.querySelector(".field-badge").textContent = "Mancante"; });
+      return;
+    }
+    if ((!API || !apiOk) && formOn()) { // senza PC: modulo Google
+      const btn = $("#add-submit");
+      btn.disabled = true; btn.textContent = "Invio…";
+      if (d.website) return;            // campo esca per i bot
+      const vals = { tipo: "Nuovo evento" };
+      Object.entries(d).forEach(([k, v]) => { const f = FORM_KEYS[k]; if (f && v) vals[f] = vals[f] ? vals[f] + "\n" + v : v; });
+      try {
+        await sendForm(vals);
+        $("#add-step-source").hidden = true; $("#event-form").hidden = true; $("#add-done").hidden = false;
+        btn.hidden = true; $("#add-again").hidden = false; $("#add-hint").hidden = true; $("#add-status").hidden = true;
+        $("#add-body").scrollTop = 0;
+      } catch (_) {
+        addStatus("err", "<div><strong>Invio non riuscito.</strong> Controlla la connessione e riprova.</div>");
+        validate();
+      }
       return;
     }
     if (!API || !apiOk) {              // servizio spento: email precompilata
@@ -1141,6 +1176,18 @@
     const data = { uid: reportEvent.uid, tipo: fd.get("tipo"), messaggio: String(fd.get("messaggio") || "").trim(),
       contatto: String(fd.get("contatto") || "").trim(), website: String(fd.get("website") || "") };
     if (data.messaggio.length < 5) { show("err", "Scrivi in breve cosa va corretto o perché rimuoverlo."); $("#r-msg").focus(); return; }
+    if ((!API || !apiOk) && formOn()) {
+      if (data.website) return;
+      $("#report-submit").disabled = true;
+      try {
+        await sendForm({ tipo: data.tipo === "rimozione" ? "Rimozione" : "Correzione", evento: reportEvent.uid,
+          titolo: reportEvent.title, data: reportEvent.start, comune: reportEvent.town, messaggio: data.messaggio,
+          contatto: data.contatto });
+        show("ok", "<strong>Grazie, la controlliamo al più presto.</strong>");
+        setTimeout(() => $("#report-dlg").close(), 1600);
+      } catch (_) { show("err", "Invio non riuscito. Controlla la connessione e riprova."); $("#report-submit").disabled = false; }
+      return;
+    }
     if (!API || !apiOk) {
       if (DATA.site.contact_email) {
         const subj = `${data.tipo === "rimozione" ? "Rimozione" : "Correzione"} evento ${reportEvent.uid}`;

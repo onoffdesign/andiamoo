@@ -269,3 +269,6 @@ categorie_TV:
   tech-scienza: null
   benessere: null
   comunita: null
+
+# Fonti del giro (config/sources.yaml) lette da Claude al posto del PC: id -> data dell'ultima lettura.
+giro: {}

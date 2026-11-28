@@ -46,6 +46,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "4d5cf01bcdc28c8e",
+   "titolo": "Andar per fiere. Dalla Fiera di San Luca alla scoperta delle antiche tradizioni",
+   "inizio": "2026-09-26",
+   "fine": "2027-02-07",
+   "comune": "Treviso",
+   "fonte": "itinerarinellarte.it",
+   "motivo": "dati presi da da verificare: itinerarinellarte.it",
+   "link": "https://www.itinerarinellarte.it/it/mostre/treviso/mostre-tematiche",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "8c3f0c521116f9de",
    "titolo": "Klimt a Villa Freya. Bellezza e natura nelle grafiche d'arte",
    "inizio": "2026-09-26",
@@ -66,6 +77,17 @@
    "motivo": "dati presi da da verificare: itinerarinellarte.it",
    "link": "https://www.itinerarinellarte.it/it/mostre/treviso",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "237c3ca062cdd22e",
+   "titolo": "La Meraviglia del Mondo: mostra a Palazzo Reale",
+   "inizio": "2026-11-02",
+   "fine": "2026-12-04",
+   "comune": "Pieve del Grappa",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/pedemontana/pieve-del-grappa/novembre-pievese-il-calendario-degli-appuntamenti/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "744c00f2e1a1fbf4",
@@ -90,6 +112,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "e81620a223ac8112",
+   "titolo": "Treviso on Ice: pista di pattinaggio",
+   "inizio": "2026-11-13",
+   "fine": "2027-01-10",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "75821875b9f8410c",
    "titolo": "4o Festival del Radicchio IGP a Paderno",
    "inizio": "2026-11-20",
@@ -99,6 +132,50 @@
    "motivo": "dati presi da da verificare: umbriaecultura.it",
    "link": "https://www.umbriaecultura.it/fiori-dinverno-radicchio/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "c7445071eb7ffd46",
+   "titolo": "L'ephemere necessaire. Il temporaneo necessario",
+   "inizio": "2026-11-20",
+   "fine": "2026-11-28",
+   "comune": "Treviso",
+   "fonte": "tviweb.it",
+   "motivo": "dati presi da da verificare: tviweb.it",
+   "link": "https://www.tviweb.it/mostre-in-veneto-nel-weekend-dal-20-al-22-novembre-2026-42-esposizioni-da-visitare-da-vicenza-a-venezia/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "09780e2cc9d96f7a",
+   "titolo": "Natale sotto le mura: mercatini di Natale a Castelfranco Veneto",
+   "inizio": "2026-11-21",
+   "fine": "2027-01-10",
+   "comune": "Castelfranco Veneto",
+   "fonte": "siviaggia.it",
+   "motivo": "dati presi da da verificare: siviaggia.it",
+   "link": "https://siviaggia.it/notizie/sagre-feste-veneto-dicembre-2026/609673/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d679d1415e7d32dc",
+   "titolo": "Toni Benetton. Conquista dello spazio: dalla scultura all'architettura",
+   "inizio": "2026-11-21",
+   "fine": "2026-12-08",
+   "comune": "Treviso",
+   "fonte": "tviweb.it",
+   "motivo": "dati presi da da verificare: tviweb.it",
+   "link": "https://www.tviweb.it/mostre-in-veneto-nel-weekend-dal-20-al-22-novembre-2026-42-esposizioni-da-visitare-da-vicenza-a-venezia/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e95b8eb2373a9e9e",
+   "titolo": "Mostra del Libro di Ormelle",
+   "inizio": "2026-11-23",
+   "fine": "2026-11-28",
+   "comune": "Ormelle",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "c75304d11cd3db00",
@@ -121,6 +198,28 @@
    "motivo": "dati presi da da verificare: trovasagre.com",
    "link": "https://trovasagre.com/sagre/veneto/treviso",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "795a84d0f17aea7a",
+   "titolo": "Magico Natale: Villaggio di Natale in Piazza del Popolo",
+   "inizio": "2026-11-27T17:00",
+   "fine": "2027-01-06",
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d5d8dfd20f95a90e",
+   "titolo": "Arti & Bio",
+   "inizio": "2026-11-28",
+   "fine": "2026-11-29",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "2bcb7a5e04166ca4",
@@ -156,6 +255,138 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "fdf9d64f5aff5554",
+   "titolo": "Tradizionale Sagra di Sant'Andrea a Campea",
+   "inizio": "2026-11-28",
+   "fine": "2026-12-05",
+   "comune": "Miane",
+   "fonte": "trovasagre.com",
+   "motivo": "dati presi da da verificare: trovasagre.com",
+   "link": "https://trovasagre.com/sagre/veneto/dicembre-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "9c45cfe703434b59",
+   "titolo": "Speciali Insieme: convegno sulla didattica inclusiva e l'attivita' motoria",
+   "inizio": "2026-11-28T08:30",
+   "fine": "2026-11-28T13:00",
+   "comune": "Zero Branco",
+   "fonte": "Nordest24",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/speciali-insieme-sport-inclusione-zero-branco",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "89d79e7bfe7d2aa7",
+   "titolo": "Mamm'Art: mostra mercato",
+   "inizio": "2026-11-28T09:00",
+   "fine": "2026-11-29T19:30",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "ba7917268aa7a13a",
+   "titolo": "Mercatini di Natale in Corso Mazzini",
+   "inizio": "2026-11-28T09:00",
+   "fine": "2026-11-28T19:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "55deb04d5af64d5e",
+   "titolo": "Asolo Sotterranea: visita all'acquedotto romano della Bot",
+   "inizio": "2026-11-28T10:00",
+   "fine": null,
+   "comune": "Asolo",
+   "fonte": "nordest24.it",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/veneto-primo-weekend-avvento-asolo-padova-longarone-28-29-novembre-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7bc5c4efee9e275a",
+   "titolo": "Inaugurazione del Villaggio di Natale",
+   "inizio": "2026-11-28T12:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e1d0ee0731d57abc",
+   "titolo": "Inaugurazione del Villaggio di Natale",
+   "inizio": "2026-11-28T15:00",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "1c46ba8b5c368f40",
+   "titolo": "Laboratori natalizi per bambini a Soligo",
+   "inizio": "2026-11-28T15:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "394bd66f875e33d1",
+   "titolo": "Laboratorio di ghirlande natalizie",
+   "inizio": "2026-11-28T15:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "526651bdc0236b50",
+   "titolo": "Mercatino di Natale della Caritas di Lancenigo",
+   "inizio": "2026-11-28T15:00",
+   "fine": "2026-12-20T18:00",
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "3fd81d9b901a84a4",
+   "titolo": "Pista di ghiaccio e casette gastronomiche in Piazza Sedese",
+   "inizio": "2026-11-28T15:00",
+   "fine": "2027-01-17",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "229a6c003df3bdcd",
+   "titolo": "Il grande risveglio della Loggia",
+   "inizio": "2026-11-28T16:00",
+   "fine": "2026-11-28T18:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": null,
    "titolo": "Inaugurazione della pista di ghiaccio in Piazza Cima",
    "inizio": "2026-11-28T18:00",
@@ -165,6 +396,17 @@
    "motivo": "official_url su fonte da verificare: qdpnews.it",
    "link": "https://www.qdpnews.it/comuni/coneglianese/conegliano/verso-linaugurazione-della-pista-di-ghiaccio-lavori-in-piazza-cima/",
    "registrato": "2026-11-28"
+  },
+  {
+   "uid": "2ec454af46e2a92c",
+   "titolo": "Piedi per terra, castelli in aria: mostra di acquerelli in Municipio",
+   "inizio": "2026-11-28T18:00",
+   "fine": "2027-01-24",
+   "comune": "San Vendemiano",
+   "fonte": "Nordest24",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/san-vendemiano-mostra-piedi-per-terra-castelli-in-aria",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "a27e2810774b7187",
@@ -211,6 +453,50 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "d323fe72456e5078",
+   "titolo": "Gardizero",
+   "inizio": "2026-11-28T21:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "54cc76fed360279f",
+   "titolo": "Castagnata e concerto del Coro Alpini Col di Lana",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "ca5d6203b84f4236",
+   "titolo": "Dalle tessere all'opera: workshop di mosaico al Museo Civico di Asolo",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "comune": "Asolo",
+   "fonte": "nordest24.it",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/veneto-primo-weekend-avvento-asolo-padova-longarone-28-29-novembre-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "1be335f603b3d420",
+   "titolo": "Giochi giganti e da tavolo in Piazza Negrelli",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "f48401bed740691f",
    "titolo": "IN ITINERE VENETO | Passeggiata filosofica Tempo",
    "inizio": "2026-11-29",
@@ -233,6 +519,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "d3386545893c5d21",
+   "titolo": "Mercatini di Natale in Corso Mazzini",
+   "inizio": "2026-11-29",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": null,
    "titolo": "Presepi itineranti a Nervesa della Battaglia",
    "inizio": "2026-11-29",
@@ -244,6 +541,17 @@
    "registrato": "2026-11-28"
   },
   {
+   "uid": "b1fbf0d3cdce8e97",
+   "titolo": "Pelund Orsaghese, mercatino di Natale con i Krampus",
+   "inizio": "2026-11-29T09:00",
+   "fine": "2026-11-29T19:00",
+   "comune": "Orsago",
+   "fonte": "trovasagre.com",
+   "motivo": "dati presi da da verificare: trovasagre.com",
+   "link": "https://trovasagre.com/mercatini-di-natale/veneto",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "e79117bb680d6362",
    "titolo": "10° Corsa dei Babbi Natale a Ponzano",
    "inizio": "2026-11-29T10:00",
@@ -253,6 +561,28 @@
    "motivo": "dati presi da da verificare: calendariopodismo.it",
    "link": "https://www.calendariopodismo.it/gara/81561/10-corsa-dei-babbi-natale-a-ponzano/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "0f2f872c90747011",
+   "titolo": "Mercatino dei prodotti realizzati da persone con disabilita'",
+   "inizio": "2026-11-29T10:00",
+   "fine": "2026-11-29T18:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d695e1b327f46ccb",
+   "titolo": "Olio in Villa a Villa di Maser",
+   "inizio": "2026-11-29T10:00",
+   "fine": "2026-11-29T16:00",
+   "comune": "Maser",
+   "fonte": "eventivenetando.it",
+   "motivo": "dati presi da da verificare: eventivenetando.it",
+   "link": "https://www.eventivenetando.it/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": null,
@@ -288,6 +618,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "26dab9938a6bec7c",
+   "titolo": "La Breda di Natale",
+   "inizio": "2026-11-29T14:00",
+   "fine": null,
+   "comune": "Breda di Piave",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": null,
    "titolo": "Laboratorio di tiramisu' per bambini a Effetto Natale",
    "inizio": "2026-11-29T14:00",
@@ -297,6 +638,61 @@
    "motivo": "official_url su fonte da verificare: qdpnews.it",
    "link": "https://www.qdpnews.it/comuni/montebellunese/nervesa-della-battaglia/un-natale-goloso-domenica-tanti-eventi-nasce-il-progetto-di-comunita-presepi-itineranti/",
    "registrato": "2026-11-28"
+  },
+  {
+   "uid": "8192c9ecc5a5dba5",
+   "titolo": "Mercatino di Natale benefico a Soligo",
+   "inizio": "2026-11-29T14:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "a4c4673ed1074528",
+   "titolo": "Balloon Adventures",
+   "inizio": "2026-11-29T16:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "2dad8fc99644c56d",
+   "titolo": "Piccoli Klimt all'opera: laboratorio per bambini al Museo Civico di Asolo",
+   "inizio": "2026-11-29T16:00",
+   "fine": null,
+   "comune": "Asolo",
+   "fonte": "nordest24.it",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/veneto-primo-weekend-avvento-asolo-padova-longarone-28-29-novembre-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "175fe26919add87e",
+   "titolo": "L'Elfo Stellato: circo e giochi di fuoco",
+   "inizio": "2026-11-29T17:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "ecbddf89a4e9241c",
+   "titolo": "Accensione dell'albero di Natale in Piazza dei Signori",
+   "inizio": "2026-11-29T17:30",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "6fcc8fff093d669f",
@@ -332,6 +728,28 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "34c285b0ee6f53d2",
+   "titolo": "Notre Dame de Paris (musical)",
+   "inizio": "2026-11-29T21:00",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "iltaccodibacco.it",
+   "motivo": "dati presi da da verificare: iltaccodibacco.it",
+   "link": "https://iltaccodibacco.it/villorba/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "2de3f84f6e1807b6",
+   "titolo": "Gruppo di lettura: Il castello di ghiaccio di Tarjei Vesaas",
+   "inizio": "2026-11-30T20:00",
+   "fine": null,
+   "comune": "Pieve del Grappa",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/pedemontana/pieve-del-grappa/novembre-pievese-il-calendario-degli-appuntamenti/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "dce166f5c85d15a0",
    "titolo": "Bim Boom Jam – Jam session al Mulino di Falzè",
    "inizio": "2026-12-01T19:00",
@@ -341,6 +759,39 @@
    "motivo": "dati presi da da verificare: insolitotrantran.it",
    "link": "https://www.insolitotrantran.it/event/bim-boom-jam-jam-session-al-mulino-di-falze-3/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "bc756e2b15f7414d",
+   "titolo": "Torneo solidale di Natale di burraco",
+   "inizio": "2026-12-01T19:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "14e942aa659b233b",
+   "titolo": "Reel Rock Tour Italia 2026",
+   "inizio": "2026-12-01T20:00",
+   "fine": null,
+   "comune": "Paese",
+   "fonte": "mentelocale.it",
+   "motivo": "dati presi da da verificare: mentelocale.it",
+   "link": "https://www.mentelocale.it/treviso/137798-reel-rock-tour-italia-2026.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e11ea95789869813",
+   "titolo": "Mostra di Nadia Soligo su San Francesco",
+   "inizio": "2026-12-02",
+   "fine": "2026-12-15",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "89cbd8271e8be202",
@@ -376,6 +827,61 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "561a23347f938f98",
+   "titolo": "La notte dei desideri: stelle e comete nella storia dell'arte",
+   "inizio": "2026-12-03T20:30",
+   "fine": null,
+   "comune": "San Vendemiano",
+   "fonte": "Nordest24",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/san-vendemiano-mostra-piedi-per-terra-castelli-in-aria",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7ebdf4c7b3ddf00b",
+   "titolo": "San Nicolo' incontra i bambini",
+   "inizio": "2026-12-04T15:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "92ea28d9f14e190d",
+   "titolo": "Pagliacci di Leoncavallo al Teatro Del Monaco",
+   "inizio": "2026-12-04T20:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "45a2b7de47506e4d",
+   "titolo": "Tina Merlin, la donna del Vajont",
+   "inizio": "2026-12-04T20:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "c6033ef735f8d8f6",
+   "titolo": "Recital di pianoforte di Gregory Goureschidze",
+   "inizio": "2026-12-04T20:30",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "1511d41e619b5064",
    "titolo": "Giammarco Sicuro",
    "inizio": "2026-12-04T20:45",
@@ -387,6 +893,39 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "0d11f93f96b4b2a2",
+   "titolo": "Kinder Haus: laboratori, giochi e letture di Natale",
+   "inizio": "2026-12-05",
+   "fine": "2027-01-03",
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "1baa51cf734b4116",
+   "titolo": "La Magia del Natale a Conegliano",
+   "inizio": "2026-12-05",
+   "fine": "2027-01-03",
+   "comune": "Conegliano",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/coneglianese/conegliano/slitta-virtuale-concerto-dal-vivo-di-capodanno-e-inaugurazione-in-piazza-cima-in-arrivo-la-nona-magia-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "ecd5207bc12756d4",
+   "titolo": "The Christmas Fest Spresiano",
+   "inizio": "2026-12-05",
+   "fine": "2026-12-08",
+   "comune": "Spresiano",
+   "fonte": "trovasagre.com",
+   "motivo": "dati presi da da verificare: trovasagre.com",
+   "link": "https://trovasagre.com/sagre/veneto/dicembre-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "fa57d002006bd558",
    "titolo": "2° Conegliano Valdobbiadene Prosecco Ultra Trail",
    "inizio": "2026-12-05T07:30",
@@ -396,6 +935,105 @@
    "motivo": "dati presi da da verificare: calendariopodismo.it",
    "link": "https://www.calendariopodismo.it/gara/81614/2-conegliano-valdobbiadene-prosecco-ultra-trail-2/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "1a7a9f8c4a479fa2",
+   "titolo": "Mercatini di Natale in Corso Mazzini",
+   "inizio": "2026-12-05T09:00",
+   "fine": "2026-12-05T19:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "a97dc8f41067c603",
+   "titolo": "Mercatini di Natale in Piazza Aldo Moro",
+   "inizio": "2026-12-05T09:30",
+   "fine": "2026-12-05T19:00",
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "501e8056b36f1cb7",
+   "titolo": "Il giardino dei giochi di Natale",
+   "inizio": "2026-12-05T14:00",
+   "fine": "2026-12-05T18:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7348cbb1d12b1b51",
+   "titolo": "Laboratorio: Mario Pompei, alla scoperta di un nuovo artista",
+   "inizio": "2026-12-05T15:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "92b719c870a9fae8",
+   "titolo": "Parole che illuminano nella festa di San Nicolo'",
+   "inizio": "2026-12-05T16:30",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "68120fa018662856",
+   "titolo": "Accensione dell'albero di Natale e passaggio di San Nicolo' a Farra",
+   "inizio": "2026-12-05T17:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "c84602036fe577a3",
+   "titolo": "Passaggio di San Nicolo' a Col San Martino",
+   "inizio": "2026-12-05T18:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "a06870798e2401b2",
+   "titolo": "Speciale Natale con Enrica Bacchia e Massimo Zemolin",
+   "inizio": "2026-12-05T18:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e3033111357ef2f7",
+   "titolo": "Arriva San Nicolo' e si accende il Natale a Osigo",
+   "inizio": "2026-12-05T19:30",
+   "fine": null,
+   "comune": "Fregona",
+   "fonte": "trovasagre.com",
+   "motivo": "dati presi da da verificare: trovasagre.com",
+   "link": "https://trovasagre.com/sagre/veneto/dicembre-2026",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "1485087ac2044f08",
@@ -431,6 +1069,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "9de4411554612de2",
+   "titolo": "Mercatino dell'antiquariato e Fiera dei Trovarobe a Badoere",
+   "inizio": "2026-12-06",
+   "fine": null,
+   "comune": "Morgano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "4fbdd28a935da130",
    "titolo": "Passeggiando Tra Gli Angeli Ai Piedi Delle Prealpi",
    "inizio": "2026-12-06",
@@ -464,6 +1113,83 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "e29e7ac57f3a29e4",
+   "titolo": "Marcia San Nicolo' a Pianzano",
+   "inizio": "2026-12-06T09:00",
+   "fine": null,
+   "comune": "Godega di Sant'Urbano",
+   "fonte": "trevisando.it",
+   "motivo": "dati presi da da verificare: trevisando.it",
+   "link": "https://trevisando.it/wp-content/uploads/2026/01/TREVISANDO-2026-A5-2.pdf",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "994bc2dd97d508ea",
+   "titolo": "Mercatini di Natale in Corso Mazzini",
+   "inizio": "2026-12-06T09:00",
+   "fine": "2026-12-06T19:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d34ff1db3fce7a05",
+   "titolo": "Il Teatro di Natale",
+   "inizio": "2026-12-06T10:00",
+   "fine": "2026-12-06T20:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "a45c5044a2dc45b0",
+   "titolo": "Mercatino di Natale benefico a Soligo",
+   "inizio": "2026-12-06T14:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "f3c7ef25b79374a0",
+   "titolo": "Gli scultori del ghiaccio",
+   "inizio": "2026-12-06T16:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "10b4efe62379105d",
+   "titolo": "Pagliacci di Leoncavallo al Teatro Del Monaco",
+   "inizio": "2026-12-06T16:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7105f347384bf59c",
+   "titolo": "Echi di fiabe: A raccontar le storie",
+   "inizio": "2026-12-06T17:30",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "5c70a42b45f25491",
    "titolo": "Macedonia Sintetica live a CW Gate – Susegana (Treviso)",
    "inizio": "2026-12-07",
@@ -473,6 +1199,39 @@
    "motivo": "dati presi da da verificare: insolitotrantran.it",
    "link": "https://www.insolitotrantran.it/event/macedonia-sintetica-live-a-cw-gate-susegana-treviso/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "99da2ffd6be57c54",
+   "titolo": "Sfilata dei Krampus al Villaggio di Natale",
+   "inizio": "2026-12-07",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "9d6730b5ba1d5be4",
+   "titolo": "Mercatini di Natale a Valdobbiadene",
+   "inizio": "2026-12-08T09:00",
+   "fine": null,
+   "comune": "Valdobbiadene",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/natale-feste.html",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7bf3be4079380d67",
+   "titolo": "Mercatino delle associazioni e delle scuole",
+   "inizio": "2026-12-08T09:00",
+   "fine": "2026-12-08T19:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "cf7fdce12386d38e",
@@ -497,6 +1256,83 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "3fb1776a9cfc582e",
+   "titolo": "Inaugurazione della Mostra dei Presepi di Catena",
+   "inizio": "2026-12-08T11:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7b7e9195c3267d21",
+   "titolo": "Il giardino dei giochi di Natale",
+   "inizio": "2026-12-08T14:00",
+   "fine": "2026-12-08T18:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "bdf1b19f6a26f910",
+   "titolo": "Piccoli artisti sotto l'albero",
+   "inizio": "2026-12-08T15:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "3e27ee50ba0fb9ad",
+   "titolo": "Accensione delle luci di Natale a Col San Martino",
+   "inizio": "2026-12-08T17:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "b2fa1b5c10ce5403",
+   "titolo": "Sparkling Christmas Show e Sinatra's Christmas Way",
+   "inizio": "2026-12-08T17:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "76dff56f715dc07c",
+   "titolo": "Accensione dell'albero di Natale con il Coro Mani Bianche",
+   "inizio": "2026-12-08T17:30",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "dfbc90bd332aade7",
+   "titolo": "Accensione dell'albero di Natale sul Colle di San Gallo",
+   "inizio": "2026-12-08T18:30",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "1f470fb34fea73f2",
    "titolo": "Awed, Dadda e Dose - Lasciate ogni esperienza, voi che entrate",
    "inizio": "2026-12-08T21:00",
@@ -508,6 +1344,39 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "508a5a71ce4480e6",
+   "titolo": "PGV si veste di Natale",
+   "inizio": "2026-12-09T14:00",
+   "fine": "2026-12-09T17:00",
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "0d82aae2ae44a6bd",
+   "titolo": "Accensione dell'albero alla Biblioteca dei Ragazzi BRaT",
+   "inizio": "2026-12-09T17:45",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "6425519b36d1bdee",
+   "titolo": "Ciarlatani: i mercanti di illusioni al Teatro Careni",
+   "inizio": "2026-12-10T21:00",
+   "fine": null,
+   "comune": "Pieve di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "c4cfd059f9974c1a",
    "titolo": "Michael starring Gus Jackson",
    "inizio": "2026-12-10T21:00",
@@ -517,6 +1386,149 @@
    "motivo": "dati presi da vietata: ticketone.it",
    "link": "https://www.ticketone.it/venue/teatro-accademia-16706/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "5ef653c0c4c368b3",
+   "titolo": "Angelo Branduardi - Il Cantico",
+   "inizio": "2026-12-11",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "happyticket.com",
+   "motivo": "dati presi da da verificare: happyticket.com",
+   "link": "https://www.happyticket.com/it/locations/treviso/conegliano/teatro-accademia.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7836a782e2a8dae8",
+   "titolo": "Inaugurazione della mostra dei presepi",
+   "inizio": "2026-12-11T16:30",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "0cd4cd7027a37c12",
+   "titolo": "Prestige! Giocoleria e accensione delle luminarie a San Paolo",
+   "inizio": "2026-12-11T16:30",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "cb18282303545ee9",
+   "titolo": "Letture natalizie per bambini in biblioteca",
+   "inizio": "2026-12-11T17:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "cfd55beefba71bf6",
+   "titolo": "25 anni dei Cuccioli: presentazione e mostra",
+   "inizio": "2026-12-11T18:30",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e9624937a3462748",
+   "titolo": "Laboratori creativi di Natale alla Loggia dei Grani",
+   "inizio": "2026-12-12",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "8d8f1f63ec5c736b",
+   "titolo": "Mercatini di Natale in Corso Mazzini",
+   "inizio": "2026-12-12T09:00",
+   "fine": "2026-12-12T19:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "800e2f9adf3db8e7",
+   "titolo": "Mostra mercato dell'antiquariato a Roncade",
+   "inizio": "2026-12-12T09:00",
+   "fine": null,
+   "comune": "Roncade",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "963be47f64845227",
+   "titolo": "Inaugurazione del presepe cittadino",
+   "inizio": "2026-12-12T11:30",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d235a74998110e85",
+   "titolo": "Seguendo la stella: laboratorio di pastelli e acquerelli",
+   "inizio": "2026-12-12T14:30",
+   "fine": "2026-12-12T16:30",
+   "comune": "San Vendemiano",
+   "fonte": "Nordest24",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/san-vendemiano-mostra-piedi-per-terra-castelli-in-aria",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d65348283e04c278",
+   "titolo": "Laboratori natalizi per bambini a Soligo",
+   "inizio": "2026-12-12T15:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "91c598d7115ff074",
+   "titolo": "Prestige! Giocoleria a Santa Bona",
+   "inizio": "2026-12-12T15:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "387db65f01f3a06f",
+   "titolo": "Concerto di Natale dell'Orchestra Gruppo d'Archi Veneto",
+   "inizio": "2026-12-12T20:30",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "5cd1b8bde5fa3307",
@@ -541,6 +1553,28 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "916991392f76e035",
+   "titolo": "Laboratori creativi di Natale alla Loggia dei Grani",
+   "inizio": "2026-12-13",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e6a40cb8dc69819a",
+   "titolo": "Mercatino dell'antiquariato di Asolo",
+   "inizio": "2026-12-13T08:00",
+   "fine": "2026-12-13T18:00",
+   "comune": "Asolo",
+   "fonte": "cosedicasa.com",
+   "motivo": "dati presi da da verificare: cosedicasa.com",
+   "link": "https://www.cosedicasa.com/mercatini/asolo-centro-storico",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "38e6dd4cdee6e95a",
    "titolo": "Mercatino dell'antiquariato e collezionismo di Portobuffolè",
    "inizio": "2026-12-13T08:00",
@@ -550,6 +1584,50 @@
    "motivo": "dati presi da da verificare: trevisoeventi.com",
    "link": "https://www.trevisoeventi.com/mercatino-antiquariato-e-collezionismo-portobuffole-mercatini-antiquariato-treviso-mercatini-antiquariato-veneto-mercatini-antiquariato-italia.html",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "9b857831be628167",
+   "titolo": "Mercato straordinario di Natale",
+   "inizio": "2026-12-13T08:00",
+   "fine": "2026-12-13T13:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "44058cc5e46852a5",
+   "titolo": "Mercatini di Natale a Catena",
+   "inizio": "2026-12-13T09:00",
+   "fine": "2026-12-13T17:00",
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "a9ddc97b1e577969",
+   "titolo": "Mercatini di Natale a Valdobbiadene",
+   "inizio": "2026-12-13T09:00",
+   "fine": null,
+   "comune": "Valdobbiadene",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/natale-feste.html",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "1c16da6f9afa33d3",
+   "titolo": "Mercatini di Natale in Corso Mazzini",
+   "inizio": "2026-12-13T09:00",
+   "fine": "2026-12-13T19:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "1ada507dcdbc34b2",
@@ -563,6 +1641,83 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "88e8b247c17d461c",
+   "titolo": "Coro gospel Getsemani a Sant'Angelo",
+   "inizio": "2026-12-13T10:30",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "c0916dc0066101a6",
+   "titolo": "Mercatino di Natale benefico a Soligo",
+   "inizio": "2026-12-13T14:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d28b0837bf5981d1",
+   "titolo": "Circo Pigiama (Barbamoccolo)",
+   "inizio": "2026-12-13T15:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "2e96acfb0999122c",
+   "titolo": "Aspettando il Natale: concerto della Banda di Villorba",
+   "inizio": "2026-12-13T16:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "deda9c7e6517a3aa",
+   "titolo": "Giuseppe e Maria alla ricerca di un alloggio",
+   "inizio": "2026-12-13T16:30",
+   "fine": "2026-12-13T18:30",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "ecdfec83ba6f3b26",
+   "titolo": "Note di Natale",
+   "inizio": "2026-12-13T20:30",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "283684fbd4f268a9",
+   "titolo": "Te Deum di Salieri e Requiem di Mozart (Autunno Musicale)",
+   "inizio": "2026-12-13T20:45",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "939a27193c5b030a",
    "titolo": "Eleazaro Rossi - Kamikaze",
    "inizio": "2026-12-13T21:00",
@@ -572,6 +1727,94 @@
    "motivo": "dati presi da vietata: ticketone.it",
    "link": "https://www.ticketone.it/venue/teatro-accademia-16706/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "805822b8fb520aed",
+   "titolo": "L'officina delle meraviglie natalizie (3-5 anni)",
+   "inizio": "2026-12-14T16:30",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d2a0290cf86af47d",
+   "titolo": "Incontri e Racconti",
+   "inizio": "2026-12-15T20:30",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "73dd297ffd30ddf1",
+   "titolo": "Gocce musicali: John Williams, da Harry Potter a Star Wars",
+   "inizio": "2026-12-15T20:45",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "43049f3f70e3c2f2",
+   "titolo": "Torneo solidale di Natale di burraco",
+   "inizio": "2026-12-16T15:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "78320ce7eb6ca143",
+   "titolo": "L'officina delle meraviglie natalizie (6-10 anni)",
+   "inizio": "2026-12-16T16:30",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "1c74a4cf035d9299",
+   "titolo": "Anna Castiglia: La paura in tasca Tour 2026",
+   "inizio": "2026-12-18T21:00",
+   "fine": null,
+   "comune": "Roncade",
+   "fonte": "iltaccodibacco.it",
+   "motivo": "dati presi da da verificare: iltaccodibacco.it",
+   "link": "https://iltaccodibacco.it/villorba/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7bafd473c129c602",
+   "titolo": "Arrivo della slitta di Babbo Natale",
+   "inizio": "2026-12-19",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e1ef10a624a6001f",
+   "titolo": "Frozen The Show al Villaggio di Natale",
+   "inizio": "2026-12-19",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "fe24b388c8cb12b7",
@@ -585,6 +1828,61 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "d03d05473c95091a",
+   "titolo": "Il giardino dei giochi di Natale",
+   "inizio": "2026-12-19T14:00",
+   "fine": "2026-12-19T18:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e0dcb2497f132fb6",
+   "titolo": "Regata dei Babbi Natale sul Sile",
+   "inizio": "2026-12-19T15:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "5cc7b9938d42cbc4",
+   "titolo": "Ciarastea del Gruppo Pastoria",
+   "inizio": "2026-12-19T16:00",
+   "fine": "2026-12-19T18:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "ba7bdaab1cdeccde",
+   "titolo": "Cantar Nadal, camminata cantata",
+   "inizio": "2026-12-19T17:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "f70bb325c355efe6",
+   "titolo": "Concerto di Natale a San Francesco",
+   "inizio": "2026-12-19T20:45",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "560a294b1014e8b1",
    "titolo": "Il lago dei cigni - Russian Classical Ballet",
    "inizio": "2026-12-19T21:00",
@@ -594,6 +1892,83 @@
    "motivo": "dati presi da vietata: ticketone.it",
    "link": "https://www.ticketone.it/venue/teatro-accademia-16706/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "f22efea87d1ec80f",
+   "titolo": "Botti a Natale: Palio delle Botti d'inverno",
+   "inizio": "2026-12-20",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7673fca98057a8ff",
+   "titolo": "Laboratori creativi di Natale alla Loggia dei Grani",
+   "inizio": "2026-12-20",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "f4a69787cbb4befc",
+   "titolo": "Mercatino dell'antiquariato e del collezionismo a Godega di Sant'Urbano",
+   "inizio": "2026-12-20",
+   "fine": null,
+   "comune": "Godega di Sant'Urbano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "38f5a75d1c328756",
+   "titolo": "Mercato straordinario di Natale",
+   "inizio": "2026-12-20T08:00",
+   "fine": "2026-12-20T19:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "02751d7e2700200e",
+   "titolo": "Mercatini di Natale a Badoere",
+   "inizio": "2026-12-20T09:00",
+   "fine": "2026-12-20T19:00",
+   "comune": "Morgano",
+   "fonte": "trovasagre.com",
+   "motivo": "dati presi da da verificare: trovasagre.com",
+   "link": "https://trovasagre.com/mercatini/mercatini-di-natale-badoere-di-morgano",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "715397d249674ee4",
+   "titolo": "Mercatini di Natale a Valdobbiadene",
+   "inizio": "2026-12-20T09:00",
+   "fine": null,
+   "comune": "Valdobbiadene",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/natale-feste.html",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "2483a2989896a122",
+   "titolo": "Mercatini di Natale in Corso Mazzini",
+   "inizio": "2026-12-20T09:00",
+   "fine": "2026-12-20T19:00",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "0076f28ed3e239a6",
@@ -607,6 +1982,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "0c2c25396160a526",
+   "titolo": "Camminata dei Babbi Natale",
+   "inizio": "2026-12-20T10:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "19cc62131d378392",
    "titolo": "2° Corsa dei babbi natale",
    "inizio": "2026-12-20T11:00",
@@ -616,6 +2002,248 @@
    "motivo": "dati presi da da verificare: calendariopodismo.it",
    "link": "https://www.calendariopodismo.it/gara/81815/2-corsa-dei-babbi-natale-9/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "b5806380fecf7257",
+   "titolo": "Aspettando il Natale",
+   "inizio": "2026-12-20T14:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "a0a030c22716e774",
+   "titolo": "Mercatino di Natale benefico a Soligo",
+   "inizio": "2026-12-20T14:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "29209272479d8cb8",
+   "titolo": "Grande Parata del Natale",
+   "inizio": "2026-12-20T15:00",
+   "fine": "2026-12-20T18:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "656a1b3f97e401a5",
+   "titolo": "A Christmas Gift: concerto di Natale",
+   "inizio": "2026-12-20T16:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "b733b92cddb47a11",
+   "titolo": "Letture animate di Natale per bambini",
+   "inizio": "2026-12-20T16:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "aa62d7cef17e29ce",
+   "titolo": "Concerto di Natale dell'orchestra del Liceo musicale",
+   "inizio": "2026-12-20T17:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "0176f4033b10a234",
+   "titolo": "I tre pini di Natale",
+   "inizio": "2026-12-20T17:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "b74010ccba229fc2",
+   "titolo": "La leggenda di Natale (Gli Alcuni)",
+   "inizio": "2026-12-20T17:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "dc6e91199f93079e",
+   "titolo": "Echi di fiabe: Pollicino",
+   "inizio": "2026-12-20T17:30",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "270a9c0e2d56fb43",
+   "titolo": "Concerto di Natale alla Pro Loco di Soligo",
+   "inizio": "2026-12-20T20:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "223a47c24964c8b1",
+   "titolo": "Concerto di Natale della Banda Albino Gagno",
+   "inizio": "2026-12-21T20:30",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "8a80218dc74fdae0",
+   "titolo": "Banda in festa",
+   "inizio": "2026-12-22T20:45",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d6f0316f769fb342",
+   "titolo": "South Carolina Mass Choir",
+   "inizio": "2026-12-22T21:00",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "ticketone.it",
+   "motivo": "dati presi da vietata: ticketone.it",
+   "link": "https://www.ticketone.it/cityd/conegliano-1116/concerti-55/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "3892328308d09268",
+   "titolo": "PGV Christmas Party",
+   "inizio": "2026-12-23T14:00",
+   "fine": "2026-12-23T17:00",
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "6d36f6c1183b82f4",
+   "titolo": "Aperitivo della Vigilia con Radio Peter Pan",
+   "inizio": "2026-12-24T14:30",
+   "fine": "2026-12-24T18:30",
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "9af16ddcacb5a0b0",
+   "titolo": "Babbo Natale per le vie di Villorba",
+   "inizio": "2026-12-24T15:00",
+   "fine": "2026-12-24T18:30",
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "c55e010776be95c9",
+   "titolo": "Babbo Natale incontra i bambini a Col San Martino",
+   "inizio": "2026-12-24T15:30",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "6bb2a5dcda7e0178",
+   "titolo": "La slitta di Babbo Natale per le vie di Soligo",
+   "inizio": "2026-12-24T17:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "4a718e36ed711a93",
+   "titolo": "LiTLe Run per il Piccolo Rifugio",
+   "inizio": "2026-12-26T09:30",
+   "fine": null,
+   "comune": "Vittorio Veneto",
+   "fonte": "trevisando.it",
+   "motivo": "dati presi da da verificare: trevisando.it",
+   "link": "https://trevisando.it/wp-content/uploads/2026/01/TREVISANDO-2026-A5-2.pdf",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "4324071526775570",
+   "titolo": "Tombola dell'Amore",
+   "inizio": "2026-12-26T15:30",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "0b900fd6940510ac",
+   "titolo": "Tombolata di Santo Stefano",
+   "inizio": "2026-12-26T20:30",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "bec446106d6151fd",
+   "titolo": "Serata di cabaret al Palamazzalovo",
+   "inizio": "2026-12-26T21:00",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "c9c75668704bf0ef",
@@ -640,6 +2268,127 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "ef93ad2426665e34",
+   "titolo": "Torneo di Natale di calcio balilla",
+   "inizio": "2026-12-27T16:30",
+   "fine": "2026-12-28T19:00",
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "16550e702abd4e3c",
+   "titolo": "Concerto di Capodanno",
+   "inizio": "2026-12-27T18:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "606898a1dba4b6a7",
+   "titolo": "Concerto della Banda musicale e delle Majorettes Citta' di Montebelluna",
+   "inizio": "2026-12-27T20:45",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "551204e3fc151122",
+   "titolo": "Letture Cucu' (0-3 anni)",
+   "inizio": "2026-12-28T10:00",
+   "fine": null,
+   "comune": "Farra di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/al-via-il-calendario-del-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "df2808171420924d",
+   "titolo": "Favole ad alta voce: letture animate in Municipio",
+   "inizio": "2026-12-28T16:00",
+   "fine": "2026-12-28T17:30",
+   "comune": "San Vendemiano",
+   "fonte": "Nordest24",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/san-vendemiano-mostra-piedi-per-terra-castelli-in-aria",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "58de44c7439187ce",
+   "titolo": "Concerto di Fine Anno e Premio Lirico Citta' di Villorba",
+   "inizio": "2026-12-28T20:45",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "1bb0f818e0b8562d",
+   "titolo": "Natale a Hogwarts",
+   "inizio": "2026-12-29T16:30",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "1c7a8c51d88fa52b",
+   "titolo": "Concerto di Capodanno dell'Orchestra Legrenzi",
+   "inizio": "2026-12-29T20:45",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "d4afe5477f3e2869",
+   "titolo": "WoW che Capodanno!",
+   "inizio": "2026-12-31T21:00",
+   "fine": "2027-01-01T04:00",
+   "comune": "Vittorio Veneto",
+   "fonte": "Qdpnews, programma del Magico Natale 2026/27",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/vittoriese/vittorio-veneto/un-magico-natale-diffuso-e-colorato-ecco-il-programma/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "b3a8a5cc1f3cefa7",
+   "titolo": "Capodanno in piazza a Montebelluna",
+   "inizio": "2026-12-31T22:00",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "36b86b4c3aa6f341",
+   "titolo": "Wonder Company 2K27: Capodanno in piazza",
+   "inizio": "2026-12-31T22:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": null,
    "titolo": "Capodanno da Oscar: le grandi colonne sonore",
    "inizio": "2027-01-01T18:30",
@@ -649,6 +2398,72 @@
    "motivo": "official_url su fonte da verificare: happyticket.com",
    "link": "https://www.happyticket.com/it/treviso/acquista-biglietti/1-324778-capodanno-da-oscar.htm",
    "registrato": "2026-11-28"
+  },
+  {
+   "uid": "5f4d893399a12593",
+   "titolo": "Gran Concerto di Capodanno della Filarmonia Veneta",
+   "inizio": "2027-01-01T21:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "e89705c2b0add0ed",
+   "titolo": "Fiera dell'Epifania",
+   "inizio": "2027-01-02T09:00",
+   "fine": "2027-01-06T19:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "8ab0085bdd180415",
+   "titolo": "Felicita' formato bimbi: Missione Befana",
+   "inizio": "2027-01-03T16:00",
+   "fine": "2027-01-03T18:00",
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "fd6ffaa8acf96f26",
+   "titolo": "Tombolata dei Re Magi",
+   "inizio": "2027-01-03T16:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "27f1cc565e48f6b5",
+   "titolo": "Panevin degli Alpini di Villorba",
+   "inizio": "2027-01-04T20:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "c543508fcd0a10ac",
+   "titolo": "La Befana e i Carboncini arrivano a Treviso",
+   "inizio": "2027-01-05T14:00",
+   "fine": "2027-01-05T18:00",
+   "comune": "Treviso",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/treviso-citta/natale-a-treviso-piu-di-150-appuntamenti-rassegna-diffusa-per-valorizzare-centro-e-quartieri/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "46ff1d6349dba6bb",
@@ -662,6 +2477,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "b8494c9613c71c89",
+   "titolo": "Panevin dell'Oratorio di Catena",
+   "inizio": "2027-01-05T20:00",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "85f0bdaa2817c50b",
    "titolo": "Corsa dea Befana",
    "inizio": "2027-01-06",
@@ -673,6 +2499,28 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "b1a219110c1ef7df",
+   "titolo": "59° Concerto dell'Epifania",
+   "inizio": "2027-01-06T15:30",
+   "fine": null,
+   "comune": "Montebelluna",
+   "fonte": "Qdpnews, programma del Natale di Montebelluna",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/montebellunese/montebelluna/sabato-si-accende-il-natale/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "6678858e154d07b1",
+   "titolo": "Incanti di Epifania",
+   "inizio": "2027-01-06T15:30",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "19e7b442b047c5da",
    "titolo": "55a Mostra Mercato del Radicchio Rosso di Treviso IGP",
    "inizio": "2027-01-08",
@@ -682,6 +2530,39 @@
    "motivo": "dati presi da da verificare: umbriaecultura.it",
    "link": "https://www.umbriaecultura.it/fiori-dinverno-radicchio/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "933421359bcacf1d",
+   "titolo": "Concerto di Epifania a Fontane",
+   "inizio": "2027-01-09T20:30",
+   "fine": null,
+   "comune": "Villorba",
+   "fonte": "Nordest24, calendario del Natale di Villorba",
+   "motivo": "dati presi da da verificare: nordest24.it",
+   "link": "https://www.nordest24.it/villorba-eventi-natale-2026",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "8c6d917b2ab23aa6",
+   "titolo": "Omaggio a Morricone - Musiche da Oscar",
+   "inizio": "2027-01-09T21:00",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "ticketone.it",
+   "motivo": "dati presi da vietata: ticketone.it",
+   "link": "https://www.ticketone.it/cityd/conegliano-1116/concerti-55/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "0e28e0b9006e5f17",
+   "titolo": "Pene d'amor perdute",
+   "inizio": "2027-01-10T17:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "13a5a3adfdd53ea0",
@@ -706,6 +2587,50 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "034728c469386bf3",
+   "titolo": "4 Elementi: Quartetto Aires",
+   "inizio": "2027-01-17T17:30",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "98ce277141ca2be1",
+   "titolo": "Gocce musicali: Giovani Promesse con Elia Cecino",
+   "inizio": "2027-01-19T20:45",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "0661fb386dec09dc",
+   "titolo": "Andrea Cerrato: Grande con voi club tour 2027",
+   "inizio": "2027-01-21",
+   "fine": null,
+   "comune": "Roncade",
+   "fonte": "ticketone.it",
+   "motivo": "dati presi da vietata: ticketone.it",
+   "link": "https://www.ticketone.it/en/event/andrea-cerrato-grande-con-voi-club-tour-2027-new-age-club-22320795/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "aa316e869dea27c5",
+   "titolo": "Gli invisibili: la solitudine dei giusti al Teatro Careni",
+   "inizio": "2027-01-21T21:00",
+   "fine": null,
+   "comune": "Pieve di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "c74995021d3f3725",
    "titolo": "33a Mostra del Radicchio Rosso tardivo di Treviso IGP (secondo fine settimana)",
    "inizio": "2027-01-22",
@@ -728,6 +2653,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "2944e7b158d524cf",
+   "titolo": "Luca Bono: L'Illusionista",
+   "inizio": "2027-01-23T21:00",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "ticketone.it",
+   "motivo": "dati presi da vietata: ticketone.it",
+   "link": "https://www.ticketone.it/event/luca-bono-lillusionista-teatro-accademia-21463735/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "d85428132b460158",
    "titolo": "Cose d'Altri Tempi: mercatino dell'antiquariato",
    "inizio": "2027-01-24",
@@ -737,6 +2673,39 @@
    "motivo": "dati presi da da verificare: fleamapket.com",
    "link": "https://www.fleamapket.com/event/mercatino-dellantiquariato-a-treviso-cose-daltri-tempi/2027-01-24/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "4dae7a8bdc650e22",
+   "titolo": "Di male in meglio",
+   "inizio": "2027-01-24T17:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "65b9ecd0bac88cd6",
+   "titolo": "Un viaggio tra i grandi della musica: Violino e orchestra",
+   "inizio": "2027-01-25T20:30",
+   "fine": null,
+   "comune": "Cordignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/cordignano.html",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "3d266bb9dce4777b",
+   "titolo": "Recital di Kyoko Takezawa ed Edoardo Maria Strabbioli",
+   "inizio": "2027-01-26T20:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "5ebd09dc2e3ee2dc",
@@ -750,6 +2719,28 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "46d461f32628e360",
+   "titolo": "Giovanni Vernia Show",
+   "inizio": "2027-01-30T21:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "9cc4699f91ea8c45",
+   "titolo": "Una Notte Per Faber",
+   "inizio": "2027-01-30T21:00",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "ticketone.it",
+   "motivo": "dati presi da vietata: ticketone.it",
+   "link": "https://www.ticketone.it/cityd/conegliano-1116/concerti-55/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "52bf1768aef1ae95",
    "titolo": "Trail delle Terre Rosse",
    "inizio": "2027-01-31",
@@ -759,6 +2750,17 @@
    "motivo": "dati presi da da verificare: running.life",
    "link": "https://running.life/it/evento/trail-delle-terre-rosse",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "c154ab989bd88661",
+   "titolo": "4 Elementi: Quartetto Aires",
+   "inizio": "2027-01-31T17:30",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "9a1b4cf74837c4e3",
@@ -772,6 +2774,17 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "47c79ea5d2b5c6ac",
+   "titolo": "Altri rami, musica nuova di Filippo Perocco",
+   "inizio": "2027-02-02T20:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "e794218a4cf23169",
    "titolo": "40a Festa del Radicchio Rosso di Treviso IGP a Dosson (terzo fine settimana)",
    "inizio": "2027-02-04",
@@ -781,6 +2794,28 @@
    "motivo": "dati presi da da verificare: umbriaecultura.it",
    "link": "https://www.umbriaecultura.it/fiori-dinverno-radicchio/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "be12d555c4b68ac3",
+   "titolo": "Il pipistrello di Johann Strauss al Teatro Del Monaco",
+   "inizio": "2027-02-07T16:00",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "3576e13e856c9ed5",
+   "titolo": "De André. Piccole storie per grandi canzoni",
+   "inizio": "2027-02-07T17:30",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "4378df20d701b26c",
@@ -805,6 +2840,28 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "edaf1378f255c309",
+   "titolo": "Gocce musicali: Il canto del destino",
+   "inizio": "2027-02-16T20:45",
+   "fine": null,
+   "comune": "Treviso",
+   "fonte": "classicalive.it",
+   "motivo": "dati presi da da verificare: classicalive.it",
+   "link": "https://www.classicalive.it/it/luoghi/veneto/treviso/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "512a4f74a378d39c",
+   "titolo": "Le dolenti note della Banda Osiris al Teatro Careni",
+   "inizio": "2027-02-18T21:00",
+   "fine": null,
+   "comune": "Pieve di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "c4a5a7a0185dadb8",
    "titolo": "Fiori d'Inverno, sapori delle terre nostre",
    "inizio": "2027-02-20",
@@ -814,6 +2871,61 @@
    "motivo": "dati presi da da verificare: umbriaecultura.it",
    "link": "https://www.umbriaecultura.it/fiori-dinverno-radicchio/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "0be1f6424b7e7740",
+   "titolo": "Fabio Concato",
+   "inizio": "2027-02-20T21:00",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "ticketone.it",
+   "motivo": "dati presi da vietata: ticketone.it",
+   "link": "https://www.ticketone.it/cityd/conegliano-1116/concerti-55/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "a2d01460107f2936",
+   "titolo": "La Cura: Concita De Gregorio ed Erica Mou",
+   "inizio": "2027-02-20T21:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "f9287d72ec296f53",
+   "titolo": "Sorelle Materassi",
+   "inizio": "2027-02-21T17:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "60f75597680c5040",
+   "titolo": "Un viaggio tra i grandi della musica: Strumento solista",
+   "inizio": "2027-02-22T20:30",
+   "fine": null,
+   "comune": "Cordignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/cordignano.html",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "05f88a0a1672ff0f",
+   "titolo": "Celentano - The Tribute Show",
+   "inizio": "2027-02-26T21:00",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "ticketone.it",
+   "motivo": "dati presi da vietata: ticketone.it",
+   "link": "https://www.ticketone.it/cityd/conegliano-1116/concerti-55/",
+   "registrato": "2026-11-28T10:29+01:00"
   },
   {
    "uid": "40bfe0678e02899f",
@@ -838,6 +2950,28 @@
    "registrato": "2026-11-28T10:19+01:00"
   },
   {
+   "uid": "1cf1473d8920d491",
+   "titolo": "Don Chisciotte senza mancia",
+   "inizio": "2027-03-06T21:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "2ea89e232b1c31d6",
+   "titolo": "Filippo Caccamo - Fuori di Tela",
+   "inizio": "2027-03-06T21:00",
+   "fine": null,
+   "comune": "Conegliano",
+   "fonte": "ticketone.it",
+   "motivo": "dati presi da vietata: ticketone.it",
+   "link": "https://www.ticketone.it/cityd/treviso-2045/teatro-58/stand-up-comedy-3037/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
    "uid": "85c19bb0bdb2ee71",
    "titolo": "38° Corsa Podistica Citta’ di Motta",
    "inizio": "2027-03-07T08:30",
@@ -847,6 +2981,50 @@
    "motivo": "dati presi da da verificare: calendariopodismo.it",
    "link": "https://www.calendariopodismo.it/gara/81280/38-corsa-podistica-citta-di-motta/",
    "registrato": "2026-11-28T10:19+01:00"
+  },
+  {
+   "uid": "3ec57eebb611369e",
+   "titolo": "Morto un marito se ne fa un altro",
+   "inizio": "2027-03-07T17:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "7a06510fff6dcc0d",
+   "titolo": "Lo sciopero delle bambine al Teatro Careni",
+   "inizio": "2027-03-11T21:00",
+   "fine": null,
+   "comune": "Pieve di Soligo",
+   "fonte": "qdpnews.it",
+   "motivo": "dati presi da da verificare: qdpnews.it",
+   "link": "https://www.qdpnews.it/comuni/quartier-del-piave-vallata/pieve-di-soligo/al-careni-torna-la-stagione-teatrale-oggi-il-via-agli-abbonamenti/",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "90fdfdf5110eb707",
+   "titolo": "Da Dylan a De Gregori: canzoni on the road",
+   "inizio": "2027-03-13T21:00",
+   "fine": null,
+   "comune": "Trevignano",
+   "fonte": "trevisoeventi.com",
+   "motivo": "dati presi da da verificare: trevisoeventi.com",
+   "link": "https://www.trevisoeventi.com/calendario-eventi-treviso.htm",
+   "registrato": "2026-11-28T10:29+01:00"
+  },
+  {
+   "uid": "6492e534bda58964",
+   "titolo": "Il mago di Oz",
+   "inizio": "2027-03-21T16:30",
+   "fine": null,
+   "comune": "Castelfranco Veneto",
+   "fonte": "happyticket.com",
+   "motivo": "dati presi da da verificare: happyticket.com",
+   "link": "https://www.happyticket.com/it/treviso/acquista-biglietti/1-324042-il-mago-di-oz.htm",
+   "registrato": "2026-11-28T10:29+01:00"
   }
  ]
 }

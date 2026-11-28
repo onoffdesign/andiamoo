@@ -137,6 +137,10 @@ def main(argv=None) -> int:
     ap.add_argument("--offline-geo", action="store_true", help="usa solo la cache di geocoding (test)")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
+    if not (settings().get("pc") or {}).get("attivo", True) and not args.export_only:
+        print("PC escluso dal processo (config/settings.yaml, pc.attivo: false): raccolta e pubblicazione le fa "
+              "Claude dal cloud. Nessuna operazione.")
+        return 0
 
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(asctime)s %(levelname)s %(name)s: %(message)s", datefmt="%H:%M:%S")

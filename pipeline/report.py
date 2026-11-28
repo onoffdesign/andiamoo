@@ -96,6 +96,9 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Resoconto del mattino su Telegram")
     ap.add_argument("--prova", action="store_true", help="stampa il messaggio senza inviarlo")
     args = ap.parse_args(argv)
+    if not (settings().get("pc") or {}).get("attivo", True):
+        print("PC escluso dal processo: il resoconto arriva come notifica di Claude a fine revisione notturna.")
+        return 0
     text = build_message()
     if args.prova:
         print(text)

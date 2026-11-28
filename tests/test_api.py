@@ -141,6 +141,8 @@ def test_tunnel_publishes_quick_url(tmp_path, monkeypatch):
     monkeypatch.setattr(tunnel.subprocess, "Popen", lambda args, **kw: real_popen([sys.executable, str(fake)], **kw))
     monkeypatch.setattr(tunnel, "DATA_DIR", tmp_path)
     monkeypatch.setattr(export, "DATA_DIR", tmp_path)
+    real_settings = export.settings
+    monkeypatch.setattr(export, "settings", lambda: {**real_settings(), "pc": {"attivo": True}})   # col PC attivo
     got = []
     monkeypatch.setattr(tunnel, "publish_url", lambda url: (got.append(url), (tmp_path / "api_url.txt").write_text(url)))
     assert tunnel.main() == 1                       # cloudflared finto termina: l'attivita' lo riavviera'

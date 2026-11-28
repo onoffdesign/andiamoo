@@ -9,6 +9,10 @@ site:
   telegram_bot: ""                     # es. AndiamooBot (senza @): bottone "Segnala"
   form_url: ""                         # link al Google Form per organizzatori
   contact_email: ""                    # per richieste di correzione o rimozione
+  # Moduli Google al posto dell'API del PC ("Aggiungi evento" e "Segnala"): link del modulo e codici dei campi
+  # (entry.NNN) presi dal "link precompilato" del modulo. Vuoti = i bottoni dicono che l'invio non e' attivo.
+  form_url: ""
+  form_entries: {}                     # es. {tipo: entry.111, titolo: entry.222, data: entry.333, ...}
   api_url: ""                          # indirizzo pubblico dell'API sul PC (Cloudflare Tunnel), es. https://api.andiamoo.ai
 
 api:
@@ -57,3 +61,8 @@ publish:
   git_push: true
   branch: main
   export_path: "docs/data/events.json"
+
+# PC fisso: dal 2026-11-28 escluso. Tutto (raccolta, revisione, pubblicazione) lo fa Claude dal cloud di notte.
+# Con attivo: false il PC, se si risveglia, non raccoglie e non pubblica nulla e torna in ibernazione.
+pc:
+  attivo: false

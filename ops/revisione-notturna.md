@@ -1,9 +1,25 @@
 # Revisione notturna di Claude
 
-Istruzioni per la sessione Claude pianificata ogni notte (03:37, ora italiana). Arriva dopo il giro del PC fisso
-(01:00), che raccoglie gli eventi, li elabora con l'AI locale (Ollama) e lascia in `ops/` il rapporto e la coda
-di revisione. Claude fa quello che il modello locale non sa fare bene: verifica sul web, corregge, trova eventi
-mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti senza chiedere.
+Istruzioni per le sessioni Claude pianificate ogni notte. **Dal 2026-11-28 il PC fisso e' escluso** (piano Max,
+`pc.attivo: false` in `config/settings.yaml`): Claude fa tutto dal cloud, raccolta, verifica, correzione, ricerca
+e pubblicazione. Ha piena autonomia: corregge, pubblica e aggiunge fonti senza chiedere.
+
+**Due sessioni a notte** (ora italiana), stesse regole, stesso budget ciascuna (`ops/budget.yaml`):
+- **01:07 raccolta**: preparazione, passo 1, poi le "fonti del giro" del piano della notte (le fonti di
+  `config/sources.yaml` che prima leggeva il PC, a rotazione: per ognuna cerca la pagina con WebSearch, aprila con
+  WebFetch, aggiungi in `config/eventi_redazione.yaml` gli eventi futuri che non sono gia' sul sito, scrivi la data
+  in `copertura.yaml` sezione `giro`), le risposte del modulo (passo 2b), poi fase 0 e fasi A-B della ricerca;
+  pubblica (passo 7) e push (passo 9). Messaggio finale breve: "Raccolta: N eventi aggiunti, N fonti del giro lette".
+- **03:37 revisione**: tutti i passi qui sotto (coda, campione, posizioni, ricerca C-E, memoria), poi pubblica,
+  registro e messaggio finale con il riepilogo della notte (passo 8).
+Se una sessione trova lavoro dell'altra a meta' (commit della raccolta), prosegue da li' senza rifarlo.
+
+Come si pubblica senza PC: `python -m pipeline.pubblica` costruisce `docs/data/events.json` con gli eventi gia' sul
+sito + `config/eventi_redazione.yaml` + `config/correzioni.yaml`, applica la regola fonti, mette la posizione
+(coordinate dell'evento > `config/luoghi.yaml` > centro del comune da `config/comuni.csv`), aggiorna l'archivio e
+scrive in `ops/` coda di revisione, campione, posizioni, saturazione e rapporto. Non scarica nulla: tutto cio' che
+arriva dal web lo porta Claude come evento della redazione. Gli eventi che non trova sulla mappa (comune scritto male,
+frazione, fuori area) finiscono in `ops/senza-posizione.json`: sistemali subito (comune giusto oppure lat e lon).
 
 ## Regole (non derogabili)
 
@@ -61,7 +77,7 @@ mancanti e nuove fonti. Ha piena autonomia: corregge, pubblica e aggiunge fonti 
   certezza (la piazza, la chiesa o il centro della frazione, il parco, l'ingresso delle mura) e scrivilo nella nota.
   Mai lasciare un evento in un altro comune o in aperta campagna per mancanza di dati.
   Se lo stesso luogo torna in piu' eventi (teatri, parchi, sale civiche), scrivi le sue coordinate verificate in
-  `config/luoghi.yaml` (nomi, comune, lat, lon, nota): il PC le usa per tutti gli eventi presenti e futuri.
+  `config/luoghi.yaml` (nomi, comune, lat, lon, nota): la pubblicazione le usa per tutti gli eventi presenti e futuri.
 
 ## Memoria: impara e migliora ogni notte
 
@@ -80,7 +96,7 @@ La revisione ha una memoria in git, da leggere all'inizio e aggiornare alla fine
 - `ops/lezioni.md` - appunti grezzi della notte: cosa funziona e cosa no. Cio' che si conferma passa nel metodo.
 - `ops/copertura.yaml` - quando sono stati controllati l'ultima volta comuni e categorie (divisi per provincia:
   `comuni_TV`, `categorie_TV`...), aggregatori, community e testate.
-- `ops/saturazione.csv` - scritto dal PC: per provincia e per notte, eventi dei prossimi 30 giorni e nuovi trovati.
+- `ops/saturazione.csv` - scritto da `pipeline.pubblica`: per provincia e per notte, eventi dei prossimi 30 giorni e nuovi trovati.
 
 Regole per spendere meno crediti e migliorare sempre:
 - prima le fonti note "in scadenza" secondo la loro `frequenza`, partendo da quelle con qualita' e resa piu' alte;
@@ -88,7 +104,7 @@ Regole per spendere meno crediti e migliorare sempre:
 - ogni fonte ricontrollata: aggiorna `ultimo_controllo` e `resa` (eventi nuovi trovati); dopo 3 controlli a zero
   abbassa `frequenza` o metti `stato: debole`; se non e' piu' aggiornata `stato: ferma`;
 - se una fonte ha dati strutturati (JSON-LD `Event`, API The Events Calendar, MyPortal) spostala in
-  `config/sources.yaml` e segna `stato: spostata`: da quel momento la legge il PC ogni notte gratis;
+  `config/sources.yaml` e segna `stato: spostata`: da quel momento entra nelle "fonti del giro" a rotazione;
 - **ogni notte cerca anche fonti nuove** (fase E): quanti candidati dice il budget (`fonti_nuove`), valutali e
   cataloga quelli buoni;
   il catalogo deve crescere notte dopo notte;
@@ -97,8 +113,8 @@ Regole per spendere meno crediti e migliorare sempre:
   eventi con meno ricerche e meno AI, notte dopo notte.
 
 **Budget della notte.** Il piano Claude ha limiti di utilizzo condivisi con l'uso di Federico durante il giorno:
-la notte deve stare dentro `ops/budget.yaml` (oggi piano Pro: al massimo 70 ricerche, 30 eventi della coda,
-10 di campione, 10 di test di copertura...). All'inizio esegui `python -m pipeline.piano_notte`: stampa il piano
+ogni sessione deve stare dentro `ops/budget.yaml` (dal 2026-11-28 piano Max: al massimo 250 ricerche, 100 eventi
+della coda, 20 di campione, 20 di test di copertura, 15 fonti del giro...). All'inizio esegui `python -m pipeline.piano_notte`: stampa il piano
 della notte (fonti in scadenza, comuni e ambiti delle categorie da cercare, numeri del budget). Per risparmiare:
 - **non leggere per intero** i file che crescono (`ops/copertura.yaml`, `ops/fonti.yaml`, `ops/categorie-ricerca.md`,
   `ops/registro-redazione.md`): usa il piano della notte, `grep` o poche righe mirate;
@@ -134,15 +150,25 @@ redazione) e le fonti da cui vengono, cosi' non si spende una ricerca su cio' ch
 
 ## Passi
 
-1. **Rapporto del PC e memoria** - leggi `ops/segnalazioni-e-controllo.md`, `ops/lezioni.md`, `ops/fonti.yaml` e
-   `ops/rapporto.json`. Se `finito_alle` non e' di stanotte, il PC non ha girato:
-   annotalo nel registro (e nel messaggio finale) e lavora sui dati gia' pubblicati.
-2. **Fonti in errore** - per le fonti con `errore` o con zero eventi trovati: apri la pagina con WebFetch, correggi
-   in `config/sources.yaml` (indirizzi cambiati, mesi, parametri) oppure metti `enabled: false` con una `note` che
-   spiega il motivo. Non riattivare siti che vietano la raccolta.
-2b. **Segnalazioni dal sito** - `ops/segnalazioni.json`: gestisci quelle non ancora registrate nella parte 2 di
-   `ops/segnalazioni-e-controllo.md` (verifica, correggi o rimuovi, annota). Vengono prima della coda: sono errori
-   che qualcuno ha gia' visto.
+1. **Rapporto e memoria** - leggi `ops/segnalazioni-e-controllo.md`, `ops/lezioni.md`, `ops/rapporto.json` (scritto
+   dall'ultima `pipeline.pubblica`) e `ops/senza-posizione.json`. Il PC non c'e' piu': non segnalarne l'assenza.
+2. **Fonti del giro in errore** - se una fonte del giro non si trova o non si apre con WebFetch (indirizzo cambiato,
+   pagina vuota, sito fermo): correggi l'indirizzo in `config/sources.yaml` oppure metti `enabled: false` con una
+   `note` che spiega il motivo. Non riattivare siti che vietano la raccolta.
+2b. **Modulo del sito (Aggiungi evento e Segnala)** - senza PC i due bottoni del sito mandano le risposte al
+   **modulo Google** di ANDIAMO? (`site.form_url` in `config/settings.yaml`). Leggi le risposte nuove dal foglio delle
+   risposte con il connettore Google Drive / Fogli (cerca il foglio "ANDIAMO? segnalazioni (risposte)" o quello
+   collegato al modulo; le righe gia' lavorate sono quelle con data fino all'ultima registrata in
+   `ops/segnalazioni-e-controllo.md`). Per ogni riga:
+   - "Nuovo evento": verifica sul sito ufficiale (regola fonti), poi aggiungilo a `eventi_redazione.yaml` con
+     `fonte: "Segnalazione dal sito del AAAA-MM-GG, verificata su <link>"`; se non si trova una fonte ammessa, va in
+     `ops/da-verificare.json` (non si pubblica);
+   - "Correzione" / "Rimozione": colonna `evento` = uid; verifica e scrivi in `correzioni.yaml`.
+   - **Il contatto** (email o telefono) **non va mai nel repository** (e' pubblico): resta solo nel foglio. Nel
+     registro scrivi solo data, tipo, titolo ed esito.
+   Se il connettore non e' disponibile nella sessione, scrivilo nel messaggio finale ("modulo non letto") e passa
+   oltre. Se esiste ancora `ops/segnalazioni.json` con segnalazioni non registrate, gestisci anche quelle.
+   Vengono prima della coda: sono errori che qualcuno ha gia' visto.
 3. **Coda di revisione** - `ops/revisione.json`, nell'ordine, fino a `coda_max` eventi del budget. Per ognuno apri `sito_ufficiale`
    o `pagina_fonte` (e se serve cerca "titolo comune data"). Scrivi in `config/correzioni.yaml`:
    - `correggi.<uid>`: solo i campi da cambiare tra title, start, end, all_day, summary, category, subcategory,
@@ -158,8 +184,8 @@ redazione) e le fonti da cui vengono, cosi' non si spende una ricerca su cio' ch
 3b. **Controllo a campione** - gli eventi di `ops/campione.json` (quanti dice il budget): controlla i sei campi come spiegato nella parte 3
    di `ops/segnalazioni-e-controllo.md`, correggi gli errori e scrivi la riga della notte. Se un errore si ripete,
    aggiungi una regola alla parte 1.
-3b2. **Controllo delle posizioni** - `ops/posizioni.json`, scritto dal PC a ogni giro (`pipeline/posizioni.py`) su
-   tutti gli eventi: il PC allinea da solo gli eventi con solo il comune che nominano un luogo gia' posizionato in
+3b2. **Controllo delle posizioni** - `ops/posizioni.json`, scritto a ogni pubblicazione (`pipeline/posizioni.py`) su
+   tutti gli eventi: allinea da solo gli eventi con solo il comune che nominano un luogo gia' posizionato in
    altri eventi; restano da sistemare, nell'ordine e per luogo (non per evento), quanti dice il budget (`posizioni`):
    `punti_diversi` (stesso luogo con punti diversi), `lontani_dal_comune` (punto probabilmente nel comune sbagliato),
    `senza_punto` (luoghi con un nome ma solo il comune, i piu' frequenti per primi). Per ognuno trova il punto su una
@@ -180,27 +206,30 @@ redazione) e le fonti da cui vengono, cosi' non si spende una ricerca su cio' ch
    `/myportal/C_xxxx/`), aggiungilo come fonte `myportal` con il suo codice IPA, come `comune-treviso`.
    La notte dopo, se il rapporto mostra errori, sistemale o disattivale.
 6. **Pulizia** - togli da `correzioni.yaml` ed `eventi_redazione.yaml` le voci di eventi conclusi da piu' di 7 giorni.
-   Non si perde nulla: ogni evento pubblicato resta nell'archivio storico (`archivio/AAAA-MM.jsonl`, scritto dal PC
-   a ogni giro, con le correzioni gia' applicate). Non modificare a mano i file dell'archivio.
+   Non si perde nulla: ogni evento pubblicato resta nell'archivio storico (`archivio/AAAA-MM.jsonl`, scritto da
+   `pipeline.pubblica`, con le correzioni gia' applicate). Non modificare a mano i file dell'archivio.
 7. **Verifica e pubblicazione**
    ```
    python -m pipeline.editorial --controlla      # deve dire "validi"
    python -m pipeline.editorial --doppioni       # doppioni dentro eventi_redazione.yaml e con il sito: togli il meno completo
    python -m pytest -q tests                     # tutti verdi
-   python -m pipeline.editorial --applica        # correzioni e rimozioni subito sul sito
+   python -m pipeline.pubblica --prova           # numeri senza scrivere (senza_posizione deve essere 0)
+   python -m pipeline.pubblica                   # pubblica: sito, archivio, coda, campione, posizioni, saturazione
    ```
+   (`python -m pipeline.editorial --applica` non serve piu': lo fa `pipeline.pubblica`.)
 8. **Registro e memoria** - aggiorna `ops/fonti.yaml`, `ops/lezioni.md`, la riga della notte in
    `ops/metodo-ricerca.md` (andamento e miglioria), le voci nuove in `ops/categorie-ricerca.md` e la riga del test in
    `ops/espansione.md`; poi aggiungi in cima a
-   `ops/registro-redazione.md` una sezione `## AAAA-MM-GG` con: stato del giro del PC, eventi verificati / corretti /
+   `ops/registro-redazione.md` una sezione `## AAAA-MM-GG` con: fonti del giro lette (raccolta), eventi verificati / corretti /
    rimossi / aggiunti (per categoria), fonti note controllate e loro resa, fonti nuove catalogate, fonti spostate
    in `config/sources.yaml`, problemi aperti per la notte dopo.
-   Scrivi anche `ops/riepilogo-notte.json` (lo legge il resoconto Telegram delle 07:30), sostituendo il contenuto:
+   Scrivi anche `ops/riepilogo-notte.json` (storico dei numeri della notte; il resoconto ora e' la notifica di fine
+   sessione, vedi la fine del file), sostituendo il contenuto:
    `{"data": "AAAA-MM-GG", "aggiunti": N, "corretti": N, "rimossi": N, "verificati": N,
    "aggiunti_per_categoria": {"musica": N, ...}, "fonti_nuove": N, "fonti_spostate": N, "fonti_sistemate": N,
    "qualita_campione": "N/20", "segnalazioni_gestite": N, "provincia_attiva": "TV", "copertura_test": "N/10",
    "ricerche": N, "eventi_per_ricerca": N.N, "categorie_aggiunte": N, "miglioria": "...", "problemi": ["...", "..."]}` (data di oggi, numeri della notte, al massimo 5 problemi brevi).
-9. **Commit e push** su `main` (anche a fine di ogni fase della ricerca): `git add config ops docs/data/events.json`, messaggio
+9. **Commit e push** su `main` (anche a fine di ogni fase della ricerca): `git add config ops archivio docs/data/events.json`, messaggio
    `Redazione notturna AAAA-MM-GG: N corretti, N rimossi, N aggiunti`, poi `git pull --rebase` e `git push`.
    Se il push fallisce per un conflitto, ripeti pull e push; non forzare mai.
 
@@ -279,7 +308,10 @@ Per ogni evento trovato:
   evento con start e end;
 - eventi ricorrenti (ogni sabato, ogni mese): una voce per ogni data nei prossimi 30 giorni.
 
-Gli eventi aggiunti compaiono sul sito dopo il giro del PC della notte successiva (che li geolocalizza).
+Gli eventi aggiunti compaiono sul sito appena esegui `python -m pipeline.pubblica` (passo 7) e fai push.
 
-Chiudi con un messaggio di 3-5 righe: stato del PC, numeri della notte (eventi aggiunti, fonti nuove nel
-catalogo, fonti passate al PC), eventuali problemi da guardare.
+**Messaggio finale = resoconto del mattino** (arriva a Federico come notifica push, al posto di Telegram).
+Scrivilo come ultimo testo della sessione, 4-6 righe, senza trattini lunghi:
+"ANDIAMO? notte del GG/MM: N eventi sul sito (N nuovi), N aggiunti, N corretti, N rimossi. Campione N/20.
+Fonti del giro lette N, fonti nuove N. Trattenuti dalla regola fonti: N (ops/da-verificare.json).
+Modulo: N risposte gestite. Da guardare: ..." (solo problemi veri, al massimo 3).

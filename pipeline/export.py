@@ -34,6 +34,8 @@ def visible(ev: Event) -> bool:
 def api_url() -> str:
     """Indirizzo dell'API: quello fisso in settings.yaml, altrimenti quello del tunnel rapido scritto da
     pipeline.tunnel in data/api_url.txt (cambia a ogni avvio del tunnel)."""
+    if not (settings().get("pc") or {}).get("attivo", True):
+        return ""                          # senza PC non c'e' l'API: il sito usa il modulo Google
     fixed = (settings()["site"].get("api_url") or "").strip()
     if fixed:
         return fixed

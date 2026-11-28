@@ -16,7 +16,7 @@ from datetime import date, timedelta
 
 import yaml
 
-from .config import ROOT
+from .config import ROOT, settings
 from .textutil import today_rome
 
 OPS = ROOT / "ops"
@@ -30,7 +30,7 @@ def budget() -> dict:
     data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
     defaults = {"piano": "pro", "ricerche_max": 70, "coda_max": 30, "campione": 10, "test_copertura": 10,
                 "fonti_note": 8, "comuni": 6, "ambiti_categorie": 4, "categorie_nuove": 10, "fonti_nuove": 5,
-                "posizioni": 10}
+                "posizioni": 10, "giro": 12}
     return {**defaults, **(data or {})}
 
 
@@ -101,6 +101,23 @@ def due_sources(n: int) -> list[dict]:
     return due[:n]
 
 
+def giro_sources(cov: dict, n: int) -> list[tuple[dict, str, str]]:
+    """Fonti del giro (config/sources.yaml) che Claude legge al posto del PC: attive, non vietate, a rotazione
+    (le mai lette o lette da piu' tempo prima). La data va in copertura.yaml, sezione giro: {id: AAAA-MM-GG}."""
+    from . import fonti_vietate
+    from .config import sources
+    pool = {}
+    for src in sources():
+        if not src.get("enabled", True) or src.get("type") == "redazione" or fonti_vietate.source_blocked(src):
+            continue
+        urls = [u for u in fonti_vietate.source_urls(src) if u.startswith("http")]
+        if urls:
+            pool[src["id"]] = (src, urls[0])
+    done = cov.get("giro") or {}
+    order = oldest({k: done.get(k) for k in pool}, n)
+    return [(pool[k][0], pool[k][1], when) for k, when in order]
+
+
 def pc_status(today: date | None = None) -> tuple[str, int | None]:
     """(data dell'ultimo giro del PC, giorni passati) da ops/rapporto.json; giorni None se il rapporto manca."""
     try:
@@ -168,7 +185,11 @@ def main(argv=None) -> int:
           f"al massimo {b['ricerche_max']} ricerche (WebSearch + WebFetch) in tutta la notte")
     print(f"Provincia attiva: {name} ({sigla})")
     last, days = pc_status()
-    if days is None or days > PC_STALE_DAYS:
+    pc_on = (settings().get("pc") or {}).get("attivo", True)
+    if not pc_on:
+        print("Senza PC: raccolta, revisione e pubblicazione le fa Claude. Pubblica con `python -m pipeline.pubblica` "
+              "(scrive anche coda, campione e saturazione).")
+    elif days is None or days > PC_STALE_DAYS:
         print(f"ATTENZIONE: il PC non gira dal {last} ({days if days is not None else '?'} giorni). Coda, campione e "
               f"posizioni sono vecchi: non spendere ricerche su di loro, riporta i numeri gia' noti e usa il budget "
               f"per la ricerca. Segnalalo nel messaggio finale.")
@@ -205,6 +226,11 @@ def main(argv=None) -> int:
     print(f"   - fonti note da riaprire ({b['fonti_note']}):")
     for f in due_sources(b["fonti_note"]):
         print(f"       · {f.get('nome')} | {f.get('query') or f.get('url')} | ultimo controllo {f.get('ultimo_controllo') or 'mai'}")
+
+    if not pc_on:
+        print(f"   - fonti del giro da leggere al posto del PC ({b['giro']}), data in copertura.yaml sezione giro:")
+        for src, url, when in giro_sources(cov, b["giro"]):
+            print(f"       · {src['id']} | {src.get('name')} | {url} | ultima lettura {when}")
 
     print(f"\n2. Ricerca nella provincia attiva ({sigla})")
     print(f"   - comuni da controllare ({b['comuni']}):")
