@@ -513,18 +513,45 @@
   }
 
   // ---------------------------------------------------------------- mappa
+  // Mappa minimale "a puntini": la terra e' una trama di punti, il mare e' carta liscia, strade e confini principali
+  // sono file di punti; restano solo i nomi di citta' e paesi. Tutto il resto della base (edifici, parchi, binari,
+  // stradine, numeri delle strade, aeroporti) e' nascosto.
+  const MAP_INK = { paper: "#f5f3ee", land: "#ebe7df", dot: "#bcb6a8", road: "#c4bdaf", border: "#a39c8e", text: "#6b665d" };
+  function dotPattern() {
+    const s = 2, step = 7, cv = document.createElement("canvas");
+    cv.width = cv.height = step * s;
+    const g = cv.getContext("2d");
+    g.fillStyle = MAP_INK.land; g.fillRect(0, 0, cv.width, cv.height);
+    g.fillStyle = MAP_INK.dot; g.beginPath(); g.arc(cv.width / 2, cv.height / 2, 1.05 * s, 0, Math.PI * 2); g.fill();
+    return { width: cv.width, height: cv.height, data: new Uint8Array(g.getImageData(0, 0, cv.width, cv.height).data.buffer) };
+  }
   function warmStyle() {
     const set = (id, prop, val) => { try { map.setPaintProperty(id, prop, val); } catch (_) { /* proprieta' assente */ } };
+    const lay = (id, prop, val) => { try { map.setLayoutProperty(id, prop, val); } catch (_) { /* proprieta' assente */ } };
+    const hide = (id) => lay(id, "visibility", "none");
+    const dotted = (id, color, width, gap = 2.2) => {
+      lay(id, "line-cap", "round"); lay(id, "line-join", "round");
+      set(id, "line-color", color); set(id, "line-width", width); set(id, "line-dasharray", [0, gap]); set(id, "line-opacity", 1);
+    };
+    if (!map.hasImage("land-dots")) map.addImage("land-dots", dotPattern(), { pixelRatio: 2 });
+    const HIDE = /park|landcover|landuse|building|aeroway|pier|path|rail|tunnel|casing|shield|highway-name|airport|label_other|label_village|waterway_line_label|boundary_disputed/;
     for (const l of map.getStyle().layers) {
       const id = l.id;
-      if (l.type === "background") set(id, "background-color", "#d9d5cb");
-      else if (l.type === "fill" && /water/.test(id)) set(id, "fill-color", "#f5f3ee");
-      else if (l.type === "fill" && /landcover|landuse|park|wood|grass/.test(id)) { set(id, "fill-color", "#d2cec3"); set(id, "fill-opacity", 0.6); }
-      else if (l.type === "fill" && /building/.test(id)) set(id, "fill-color", "#cdc8bd");
-      else if (l.type === "line" && /water|river|waterway/.test(id)) set(id, "line-color", "#f5f3ee");
-      else if (l.type === "line" && /boundary|admin/.test(id)) set(id, "line-color", "#ffffff");
-      else if (l.type === "line" && /road|highway|street|path|bridge|tunnel|rail/.test(id)) set(id, "line-color", "#e7e3da");
-      else if (l.type === "symbol") { set(id, "text-color", "#5f5b54"); set(id, "text-halo-color", "#e3dfd6"); }
+      if (["clusters", "clusters-live", "cluster-count", "points", "points-live", "sel-live", "points-hover", "points-selected"].includes(id)) continue;
+      if (l.type === "background") { set(id, "background-color", MAP_INK.land); set(id, "background-pattern", "land-dots"); }
+      else if (HIDE.test(id)) hide(id);
+      else if (l.type === "fill" && /water/.test(id)) { set(id, "fill-color", MAP_INK.paper); set(id, "fill-outline-color", MAP_INK.paper); }
+      else if (l.type === "line" && /waterway/.test(id)) { set(id, "line-color", MAP_INK.paper); }
+      else if (/motorway/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 6, 1.4, 10, 2, 14, 3]);
+      else if (/highway_major/.test(id) && l.type === "line") dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 8, 1.2, 12, 1.8, 16, 2.6]);
+      else if (id === "highway_minor") { dotted(id, MAP_INK.road, ["interpolate", ["linear"], ["zoom"], 13, 1, 16, 2], 2.6); try { map.setLayerZoomRange(id, 13, 24); } catch (_) { /* */ } }
+      else if (id === "boundary_2") dotted(id, MAP_INK.border, ["interpolate", ["linear"], ["zoom"], 3, 1.3, 8, 2.2], 2);
+      else if (id === "boundary_3") dotted(id, MAP_INK.dot, 1.2, 2.6);
+      else if (l.type === "line") hide(id);
+      else if (l.type === "symbol") {
+        set(id, "text-color", MAP_INK.text); set(id, "text-halo-color", MAP_INK.paper); set(id, "text-halo-width", 1.4);
+        set(id, "text-halo-blur", 0.5); lay(id, "text-transform", /country|state/.test(id) ? "uppercase" : "none");
+      }
     }
   }
 

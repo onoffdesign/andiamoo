@@ -2,7 +2,7 @@
    Riferimento visivo: rapport2023-2024.upadi.ca (mappa con card colorate e filtri in pannello). */
 :root {
   --bg: #f5f3ee;          /* carta calda */
-  --land: #d9d5cb;        /* terra della mappa */
+  --land: #ebe7df;        /* terra della mappa (sotto la trama di punti) */
   --panel: #ffffff;
   --ink: #111111;
   --ink-2: #66625b;
