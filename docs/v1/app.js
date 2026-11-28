@@ -393,7 +393,24 @@
     let lastGroup = "";
     const from = state.from || iso(today());
     const byDistance = state.sort === "distance" && state.me;
-    items.forEach((e) => {
+    // a blocchi di 80: i successivi arrivano scorrendo (lista leggera anche con tutta Italia)
+    const CHUNK = 80;
+    let shown = 0;
+    if (listObserver) listObserver.disconnect();
+    const sentinel = document.createElement("li");
+    sentinel.className = "list-more"; sentinel.setAttribute("aria-hidden", "true");
+    const renderChunk = () => {
+      const end = Math.min(items.length, shown + CHUNK);
+      const frag = document.createDocumentFragment();
+      items.slice(shown, end).forEach((e) => addItem(e, frag));
+      shown = end;
+      sentinel.remove();
+      list.appendChild(frag);
+      if (shown < items.length) { list.appendChild(sentinel); listObserver.observe(sentinel); }
+    };
+    listObserver = new IntersectionObserver((en) => { if (en.some((x) => x.isIntersecting)) { listObserver.unobserve(sentinel); renderChunk(); } },
+      { root: $("#panel"), rootMargin: "900px 0px" });
+    const addItem = (e, list) => {
       if (!byDistance) {
         const groupDay = e.start.slice(0, 10) < from ? from : e.start.slice(0, 10);
         if (groupDay !== lastGroup) {
@@ -420,8 +437,10 @@
       btn.addEventListener("mouseenter", () => hover(e.uid));
       btn.addEventListener("mouseleave", () => hover(null));
       list.appendChild(li);
-    });
+    };
+    renderChunk();
   }
+  let listObserver = null;
 
   // ---------------------------------------------------------------- vista lista: card complete per giorno
   let cardsShown = 0;
@@ -735,8 +754,11 @@
   function pulseImage(color, base) {
     const s = 2, size = 108, PERIOD = 4000;
     return { width: size * s, height: size * s, data: new Uint8ClampedArray(size * s * size * s * 4),
-      onAdd() { const c = document.createElement("canvas"); c.width = c.height = size * s; this.g = c.getContext("2d"); },
+      onAdd() { const c = document.createElement("canvas"); c.width = c.height = size * s; this.g = c.getContext("2d", { willReadFrequently: true }); },
       render() {
+        const now = performance.now();                  // 30 fotogrammi al secondo bastano per un respiro lento
+        if (this.last && now - this.last < 32) return false;
+        this.last = now;
         const g = this.g, t = REDUCED() ? 0.3 : (performance.now() % PERIOD) / PERIOD;
         const breathe = 0.5 - 0.5 * Math.cos(t * Math.PI * 2);           // 0 -> 1 -> 0, dolce
         g.setTransform(s, 0, 0, s, 0, 0); g.clearRect(0, 0, size, size);
@@ -747,9 +769,15 @@
         g.globalAlpha = (1 - t) * 0.55; g.lineWidth = 1.6; g.strokeStyle = color; g.stroke();
         g.globalAlpha = 1;
         this.data = g.getImageData(0, 0, size * s, size * s).data;
-        if (!REDUCED()) map.triggerRepaint();
         return true;
       } };
+  }
+
+  // Un solo ciclo per tutti gli aloni: ridisegna la mappa 30 volte al secondo solo se ci sono eventi in corso,
+  // la mappa e' in vista e la scheda del browser e' aperta (niente lavoro inutile in lista o in sottofondo).
+  function pulseLoop() {
+    if (mapReady && !REDUCED() && LIVE.size && state.view !== "list" && !document.hidden) map.triggerRepaint();
+    setTimeout(() => requestAnimationFrame(pulseLoop), 33);
   }
 
   // Eventi in corso adesso: orario d'inizio passato e non ancora finito (senza fine: 2 ore); eventi di un giorno
@@ -1099,6 +1127,7 @@
         map.on("mouseleave", l, () => (map.getCanvas().style.cursor = ""));
       }
       mapReady = true;
+      pulseLoop();
       update(true);
       if (state.selected) select(state.selected, { fly: true, fromHistory: true });
     });
@@ -1485,7 +1514,7 @@
   // Di default la lista e' ordinata per vicinanza: alla posizione del telefono/computer, oppure al comune scritto a mano
   // (ricordato su questo dispositivo). Il nome viene dal comune piu' vicino (docs/data/comuni.json).
   let TOWNS = null;
-  const loadTowns = () => TOWNS || (TOWNS = fetch(new URL("comuni.json", new URL(window.ANDIAMO_DATA || "data/events.json", location.href)))
+  const loadTowns = () => TOWNS || (TOWNS = fetch(new URL("comuni.json", new URL(window.ANDIAMO_DATA || "data/sito.json", location.href)))
     .then((r) => r.json()).catch(() => []));
   const fold = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/['’`]/g, " ").replace(/\s+/g, " ").trim();
   async function nearestTown(lat, lon) {
@@ -1605,7 +1634,7 @@
     }
     renderStrip();
     renderChips();
-    if (!state.detail) {
+    if (!state.detail && state.view === "list") {
       const open = $("#list .inline-card")?.dataset.uid;          // la card aperta nella lista resta aperta
       renderList(items);
       if (open) { const b = $(`#list .item button[data-uid="${open}"]`); const e = EVENTS.find((x) => x.uid === open); if (b && e) toggleInline(b.closest(".item"), e, { quiet: true }); }
@@ -1994,7 +2023,9 @@
   async function start() {
     try {
       // il download parte subito; la lettura (pesante) del file solo dopo l'apertura animata
-      const res = await fetch(window.ANDIAMO_DATA || "data/events.json", { cache: "no-cache" });
+      // file leggero per il sito (sito.json); se manca, quello completo
+      let res = await fetch(window.ANDIAMO_DATA || "data/sito.json");
+      if (!res.ok) res = await fetch(new URL("events.json", res.url || location.href), { cache: "no-cache" });
       if (window.ANDIAMO_INTRO) await window.ANDIAMO_INTRO;
       DATA = await res.json();
     } catch (err) {
